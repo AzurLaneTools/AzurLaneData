@@ -1,0 +1,62 @@
+name: Check and update all data
+
+on:
+  push:
+  schedule:
+    - cron: "40 * * * *"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout tools repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ secrets.TOOLS_REPOSITORY }}
+          path: "tools"
+          ssh-key: ${{ secrets.TOOLS_DEPLOY_KEY }}
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Prepare cache
+        uses: eyal0/cache@skip-save
+        with:
+          key: "cache-${{ github.run_id }}"
+          path: "cache"
+          restore-keys: |
+            cache
+          skip-save: ${{ env.SKIP_SAVE_CACHE }}
+
+      - name: Check for updates
+        id: check
+        run: |
+          cd tools
+          python check.py
+
+      - name: Checkout target repo
+        if: ${{ steps.check.outputs.update == 'true'}}
+        uses: actions/checkout@v2
+        with:
+          path: "target"
+
+      - name: Install dependencies
+        if: ${{ steps.check.outputs.update == 'true'}}
+        run: |
+          cd tools
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update lua scripts
+        if: ${{ steps.check.outputs.update == 'true'}}
+        run: |
+          cd tools
+          python main.py ../target ../cache --target json
+
+      - name: Skip cache update
+        if: ${{ steps.check.outputs.update != 'true'}}
+        run: |
+          echo "SKIP_SAVE_CACHE=true" >> $GITHUB_ENV
