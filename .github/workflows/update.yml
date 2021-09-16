@@ -2,6 +2,7 @@ name: Check and update all data
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: "40 * * * *"
 
