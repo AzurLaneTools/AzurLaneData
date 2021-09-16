@@ -35,7 +35,7 @@ jobs:
         id: check
         run: |
           cd tools
-          python check.py
+          python check.py -c
 
       - name: Checkout target repo
         if: ${{ steps.check.outputs.update == 'true'}}
