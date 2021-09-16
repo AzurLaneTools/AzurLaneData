@@ -167,17 +167,16 @@
     "name": "Myoukou Class",
     "shiptype": 3
   },
-  "40202": {
-    "nation": 4,
-    "t_level_1": 119,
-    "id": 40202,
+  "30113": {
+    "nation": 3,
+    "t_level_1": 0,
+    "id": 30113,
     "ships": [
-      40204,
-      40205
+      30129
     ],
-    "t_level": 4,
-    "name": "Leipzig Class",
-    "shiptype": 2
+    "t_level": 10,
+    "name": "岛风级",
+    "shiptype": 1
   },
   "10606": {
     "nation": 1,
@@ -227,16 +226,16 @@
     "name": "Wasp Class",
     "shiptype": 7
   },
-  "20702": {
-    "nation": 2,
-    "t_level_1": 67,
-    "id": 20702,
+  "30305": {
+    "nation": 3,
+    "t_level_1": 87,
+    "id": 30305,
     "ships": [
-      20706
+      39901
     ],
-    "t_level": 6,
-    "name": "Courageous Class",
-    "shiptype": 7
+    "t_level": 8,
+    "name": "Ibuki Class",
+    "shiptype": 3
   },
   "30402": {
     "nation": 3,
@@ -289,8 +288,8 @@
     "id": 20202,
     "ships": [
       20207,
-      20208,
       20219,
+      20208,
       20226
     ],
     "t_level": 7,
@@ -861,6 +860,17 @@
     "name": "Friedrich der Große Class",
     "shiptype": 5
   },
+  "30709": {
+    "nation": 3,
+    "t_level_1": 104,
+    "id": 30709,
+    "ships": [
+      30712
+    ],
+    "t_level": 6,
+    "name": "云龙级",
+    "shiptype": 7
+  },
   "30104": {
     "nation": 3,
     "t_level_1": 73,
@@ -869,7 +879,9 @@
       30113,
       30115,
       30114,
-      30149
+      30149,
+      30147,
+      30148
     ],
     "t_level": 5,
     "name": "Shiratsuyu Class",
@@ -923,64 +935,6 @@
     ],
     "t_level": 5,
     "name": "Queen Elizabeth Class",
-    "shiptype": 5
-  },
-  "30203": {
-    "nation": 3,
-    "t_level_1": 83,
-    "id": 30203,
-    "ships": [
-      30210,
-      30211,
-      30317,
-      30318
-    ],
-    "t_level": 7,
-    "name": "Mogami Class",
-    "shiptype": 2
-  },
-  "40801": {
-    "nation": 4,
-    "t_level_1": 126,
-    "id": 40801,
-    "ships": [
-      40802,
-      40805,
-      40806
-    ],
-    "t_level": 6,
-    "name": "Type VIIB",
-    "shiptype": 8
-  },
-  "30108": {
-    "nation": 3,
-    "t_level_1": 77,
-    "id": 30108,
-    "ships": [
-      30132,
-      30133,
-      30135,
-      30137,
-      30138,
-      30139,
-      30141
-    ],
-    "t_level": 3,
-    "name": "Mutsuki Class",
-    "shiptype": 1
-  },
-  "20503": {
-    "nation": 2,
-    "t_level_1": 61,
-    "id": 20503,
-    "ships": [
-      20505,
-      20506,
-      20507,
-      20509
-    ],
-    "t_level": 6,
-    "name": "King George V Class",
     "shiptype": 5
   },
   "all": [
@@ -1084,6 +1038,7 @@
     30110,
     30111,
     30112,
+    30113,
     30201,
     30202,
     30203,
@@ -1094,6 +1049,7 @@
     30303,
     30304,
     30305,
+    30306,
     30401,
     30402,
     30501,
@@ -1116,6 +1072,7 @@
     30706,
     30707,
     30708,
+    30709,
     30801,
     30802,
     31201,
@@ -1192,6 +1149,33 @@
     90401,
     90501
   ],
+  "30203": {
+    "nation": 3,
+    "t_level_1": 83,
+    "id": 30203,
+    "ships": [
+      30210,
+      30211,
+      30317,
+      30318
+    ],
+    "t_level": 7,
+    "name": "Mogami Class",
+    "shiptype": 2
+  },
+  "40801": {
+    "nation": 4,
+    "t_level_1": 126,
+    "id": 40801,
+    "ships": [
+      40802,
+      40805,
+      40806
+    ],
+    "t_level": 6,
+    "name": "Type VIIB",
+    "shiptype": 8
+  },
   "90501": {
     "nation": 9,
     "t_level_1": 140,
@@ -1203,6 +1187,60 @@
     "t_level": 7,
     "name": "Richelieu Class",
     "shiptype": 5
+  },
+  "30108": {
+    "nation": 3,
+    "t_level_1": 77,
+    "id": 30108,
+    "ships": [
+      30132,
+      30133,
+      30135,
+      30137,
+      30138,
+      30139,
+      30141
+    ],
+    "t_level": 3,
+    "name": "Mutsuki Class",
+    "shiptype": 1
+  },
+  "20503": {
+    "nation": 2,
+    "t_level_1": 61,
+    "id": 20503,
+    "ships": [
+      20505,
+      20506,
+      20507,
+      20509
+    ],
+    "t_level": 6,
+    "name": "King George V Class",
+    "shiptype": 5
+  },
+  "40701": {
+    "nation": 4,
+    "t_level_1": 125,
+    "id": 40701,
+    "ships": [
+      40701,
+      40703
+    ],
+    "t_level": 6,
+    "name": "Graf Zeppelin Class",
+    "shiptype": 7
+  },
+  "20402": {
+    "nation": 2,
+    "t_level_1": 57,
+    "id": 20402,
+    "ships": [
+      20403
+    ],
+    "t_level": 6,
+    "name": "Admiral Class",
+    "shiptype": 4
   },
   "30802": {
     "nation": 3,
@@ -1238,16 +1276,16 @@
     "name": "Type IXA",
     "shiptype": 8
   },
-  "70103": {
-    "nation": 7,
-    "t_level_1": 130,
-    "id": 70103,
+  "90201": {
+    "nation": 9,
+    "t_level_1": 135,
+    "id": 90201,
     "ships": [
-      70104
+      90201
     ],
-    "t_level": 8,
-    "name": "Tashkent Class",
-    "shiptype": 1
+    "t_level": 5,
+    "name": "La Galissonnière Class",
+    "shiptype": 2
   },
   "30110": {
     "nation": 3,
@@ -1263,28 +1301,6 @@
     "t_level": 6,
     "name": "Asashio Class",
     "shiptype": 1
-  },
-  "60201": {
-    "nation": 6,
-    "t_level_1": 131,
-    "id": 60201,
-    "ships": [
-      60201
-    ],
-    "t_level": 7,
-    "name": "Duca degli Abruzzi Class",
-    "shiptype": 2
-  },
-  "90201": {
-    "nation": 9,
-    "t_level_1": 135,
-    "id": 90201,
-    "ships": [
-      90201
-    ],
-    "t_level": 5,
-    "name": "La Galissonnière Class",
-    "shiptype": 2
   },
   "90104": {
     "nation": 9,
@@ -1309,6 +1325,28 @@
     "name": "L'Adroit Class",
     "shiptype": 1
   },
+  "80801": {
+    "nation": 8,
+    "t_level_1": 137,
+    "id": 80801,
+    "ships": [
+      80801
+    ],
+    "t_level": 7,
+    "name": "Surcouf Class",
+    "shiptype": 8
+  },
+  "80701": {
+    "nation": 8,
+    "t_level_1": 138,
+    "id": 80701,
+    "ships": [
+      80701
+    ],
+    "t_level": 4,
+    "name": "Béarn Class",
+    "shiptype": 7
+  },
   "20602": {
     "nation": 2,
     "t_level_1": 63,
@@ -1320,16 +1358,16 @@
     "name": "Unicorn Class",
     "shiptype": 6
   },
-  "80801": {
+  "80502": {
     "nation": 8,
-    "t_level_1": 137,
-    "id": 80801,
+    "t_level_1": 140,
+    "id": 80502,
     "ships": [
-      80801
+      89902
     ],
-    "t_level": 7,
-    "name": "Surcouf Class",
-    "shiptype": 8
+    "t_level": 9,
+    "name": "Champagne Class",
+    "shiptype": 5
   },
   "30302": {
     "nation": 3,
@@ -1376,16 +1414,16 @@
     "name": "Saint Louis Class",
     "shiptype": 3
   },
-  "80701": {
+  "80202": {
     "nation": 8,
-    "t_level_1": 138,
-    "id": 80701,
+    "t_level_1": 132,
+    "id": 80202,
     "ships": [
-      80701
+      80202
     ],
-    "t_level": 4,
-    "name": "Béarn Class",
-    "shiptype": 7
+    "t_level": 3,
+    "name": "Jeanne d'Arc Class",
+    "shiptype": 2
   },
   "20102": {
     "nation": 2,
@@ -1410,16 +1448,16 @@
     "name": "Centaur Class",
     "shiptype": 6
   },
-  "80502": {
+  "80201": {
     "nation": 8,
-    "t_level_1": 140,
-    "id": 80502,
+    "t_level_1": 135,
+    "id": 80201,
     "ships": [
-      89902
+      80201
     ],
-    "t_level": 9,
-    "name": "Champagne Class",
-    "shiptype": 5
+    "t_level": 4,
+    "name": "Émile Bertin Class",
+    "shiptype": 2
   },
   "30304": {
     "nation": 3,
@@ -1435,30 +1473,29 @@
     "name": "Takao Class",
     "shiptype": 3
   },
-  "80202": {
-    "nation": 8,
-    "t_level_1": 132,
-    "id": 80202,
+  "50201": {
+    "nation": 5,
+    "t_level_1": 129,
+    "id": 50201,
     "ships": [
-      80202
+      50202,
+      50203
     ],
     "t_level": 3,
-    "name": "Jeanne d'Arc Class",
+    "name": "Ning Hai Class",
     "shiptype": 2
   },
-  "30401": {
-    "nation": 3,
-    "t_level_1": 91,
-    "id": 30401,
+  "10301": {
+    "nation": 1,
+    "t_level_1": 12,
+    "id": 10301,
     "ships": [
-      30401,
-      30402,
-      30403,
-      30404
+      10301,
+      10302
     ],
-    "t_level": 3,
-    "name": "Kongou Class",
-    "shiptype": 4
+    "t_level": 4,
+    "name": "Pensacola Class",
+    "shiptype": 3
   },
   "11201": {
     "nation": 1,
@@ -1471,16 +1508,17 @@
     "name": "Vestal Class",
     "shiptype": 12
   },
-  "80201": {
-    "nation": 8,
-    "t_level_1": 135,
-    "id": 80201,
+  "70502": {
+    "nation": 7,
+    "t_level_1": 131,
+    "id": 70502,
     "ships": [
-      80201
+      70504,
+      70505
     ],
-    "t_level": 4,
-    "name": "Émile Bertin Class",
-    "shiptype": 2
+    "t_level": 8,
+    "name": "Sovetsky Soyuz Class",
+    "shiptype": 5
   },
   "20104": {
     "nation": 2,
@@ -1494,16 +1532,16 @@
     "name": "F Class",
     "shiptype": 1
   },
-  "60102": {
-    "nation": 6,
-    "t_level_1": 130,
-    "id": 60102,
+  "70205": {
+    "nation": 7,
+    "t_level_1": 135,
+    "id": 70205,
     "ships": [
-      60103
+      70206
     ],
-    "t_level": 5,
-    "name": "Alfredo Oriani Class",
-    "shiptype": 1
+    "t_level": 3,
+    "name": "Omaha Class",
+    "shiptype": 2
   },
   "70301": {
     "nation": 7,
@@ -1529,17 +1567,16 @@
     "name": "Leander Class",
     "shiptype": 2
   },
-  "70502": {
+  "70204": {
     "nation": 7,
-    "t_level_1": 131,
-    "id": 70502,
+    "t_level_1": 135,
+    "id": 70204,
     "ships": [
-      70504,
-      70505
+      70204
     ],
-    "t_level": 8,
-    "name": "Sovetsky Soyuz Class",
-    "shiptype": 5
+    "t_level": 6,
+    "name": "Kirov Class",
+    "shiptype": 2
   },
   "10302": {
     "nation": 1,
@@ -1554,15 +1591,15 @@
     "name": "Northampton Class",
     "shiptype": 3
   },
-  "70205": {
+  "70203": {
     "nation": 7,
     "t_level_1": 135,
-    "id": 70205,
+    "id": 70203,
     "ships": [
-      70206
+      70203
     ],
-    "t_level": 3,
-    "name": "Omaha Class",
+    "t_level": 7,
+    "name": "Chapayev Class",
     "shiptype": 2
   },
   "40402": {
@@ -1588,26 +1625,26 @@
     "name": "H Class",
     "shiptype": 1
   },
-  "70204": {
+  "70202": {
     "nation": 7,
-    "t_level_1": 135,
-    "id": 70204,
+    "t_level_1": 132,
+    "id": 70202,
     "ships": [
-      70204
+      70202
     ],
-    "t_level": 6,
-    "name": "Kirov Class",
+    "t_level": 1,
+    "name": "Bogatyr Class",
     "shiptype": 2
   },
-  "70203": {
+  "70201": {
     "nation": 7,
-    "t_level_1": 135,
-    "id": 70203,
+    "t_level_1": 131,
+    "id": 70201,
     "ships": [
-      70203
+      70201
     ],
-    "t_level": 7,
-    "name": "Chapayev Class",
+    "t_level": 1,
+    "name": "Pallada Class",
     "shiptype": 2
   },
   "20203": {
@@ -1624,16 +1661,16 @@
     "name": "Arethusa Class",
     "shiptype": 2
   },
-  "70202": {
+  "70103": {
     "nation": 7,
-    "t_level_1": 132,
-    "id": 70202,
+    "t_level_1": 130,
+    "id": 70103,
     "ships": [
-      70202
+      70104
     ],
-    "t_level": 1,
-    "name": "Bogatyr Class",
-    "shiptype": 2
+    "t_level": 8,
+    "name": "Tashkent Class",
+    "shiptype": 1
   },
   "10303": {
     "nation": 1,
@@ -1647,16 +1684,16 @@
     "name": "Portland Class",
     "shiptype": 3
   },
-  "70201": {
-    "nation": 7,
-    "t_level_1": 131,
-    "id": 70201,
+  "20703": {
+    "nation": 2,
+    "t_level_1": 70,
+    "id": 20703,
     "ships": [
-      70201
+      20702
     ],
-    "t_level": 1,
-    "name": "Pallada Class",
-    "shiptype": 2
+    "t_level": 7,
+    "name": "Ark Royal Class",
+    "shiptype": 7
   },
   "90401": {
     "nation": 9,
@@ -1683,16 +1720,17 @@
     "name": "J Class",
     "shiptype": 1
   },
-  "20402": {
-    "nation": 2,
-    "t_level_1": 57,
-    "id": 20402,
+  "40301": {
+    "nation": 4,
+    "t_level_1": 120,
+    "id": 40301,
     "ships": [
-      20403
+      40301,
+      40303
     ],
-    "t_level": 6,
-    "name": "Admiral Class",
-    "shiptype": 4
+    "t_level": 7,
+    "name": "Admiral Hipper Class",
+    "shiptype": 3
   },
   "10304": {
     "nation": 1,
@@ -1717,17 +1755,16 @@
     "name": "Edinburgh Class",
     "shiptype": 2
   },
-  "10301": {
-    "nation": 1,
-    "t_level_1": 12,
-    "id": 10301,
+  "60701": {
+    "nation": 6,
+    "t_level_1": 136,
+    "id": 60701,
     "ships": [
-      10301,
-      10302
+      60701
     ],
-    "t_level": 4,
-    "name": "Pensacola Class",
-    "shiptype": 3
+    "t_level": 6,
+    "name": "Aquila Class",
+    "shiptype": 7
   },
   "20302": {
     "nation": 2,
@@ -1753,16 +1790,15 @@
     "name": "Ise Class",
     "shiptype": 5
   },
-  "40501": {
-    "nation": 4,
-    "t_level_1": 124,
-    "id": 40501,
+  "60503": {
+    "nation": 6,
+    "t_level_1": 136,
+    "id": 60503,
     "ships": [
-      40501,
-      40502
+      69901
     ],
-    "t_level": 7,
-    "name": "Bismarck Class",
+    "t_level": 8,
+    "name": "Marco Polo Class",
     "shiptype": 5
   },
   "20110": {
@@ -1776,16 +1812,17 @@
     "name": "Amazon Class",
     "shiptype": 1
   },
-  "60701": {
+  "60502": {
     "nation": 6,
-    "t_level_1": 136,
-    "id": 60701,
+    "t_level_1": 135,
+    "id": 60502,
     "ships": [
-      60701
+      60505,
+      60506
     ],
-    "t_level": 6,
-    "name": "Aquila Class",
-    "shiptype": 7
+    "t_level": 4,
+    "name": "Conte di Cavour Class",
+    "shiptype": 5
   },
   "10305": {
     "nation": 1,
@@ -1814,15 +1851,16 @@
     "name": "Ceres Class",
     "shiptype": 2
   },
-  "60503": {
+  "60501": {
     "nation": 6,
-    "t_level_1": 136,
-    "id": 60503,
+    "t_level_1": 134,
+    "id": 60501,
     "ships": [
-      69901
+      60501,
+      60502
     ],
-    "t_level": 8,
-    "name": "Marco Polo Class",
+    "t_level": 7,
+    "name": "Vittorio Veneto Class",
     "shiptype": 5
   },
   "20304": {
@@ -1849,40 +1887,42 @@
     "name": "Tosa Class",
     "shiptype": 5
   },
-  "60502": {
+  "60302": {
     "nation": 6,
-    "t_level_1": 135,
-    "id": 60502,
+    "t_level_1": 133,
+    "id": 60302,
     "ships": [
-      60505,
-      60506
-    ],
-    "t_level": 4,
-    "name": "Conte di Cavour Class",
-    "shiptype": 5
-  },
-  "20112": {
-    "nation": 2,
-    "t_level_1": 39,
-    "id": 20112,
-    "ships": [
-      20132
+      60301
     ],
     "t_level": 5,
-    "name": "Tribal Class ",
-    "shiptype": 1
+    "name": "Trento Class",
+    "shiptype": 3
   },
-  "60501": {
-    "nation": 6,
-    "t_level_1": 134,
-    "id": 60501,
+  "30601": {
+    "nation": 3,
+    "t_level_1": 100,
+    "id": 30601,
     "ships": [
-      60501,
-      60502
+      30601,
+      30602
     ],
-    "t_level": 7,
-    "name": "Vittorio Veneto Class",
-    "shiptype": 5
+    "t_level": 4,
+    "name": "Hiyou Class",
+    "shiptype": 6
+  },
+  "30401": {
+    "nation": 3,
+    "t_level_1": 91,
+    "id": 30401,
+    "ships": [
+      30401,
+      30402,
+      30403,
+      30404
+    ],
+    "t_level": 3,
+    "name": "Kongou Class",
+    "shiptype": 4
   },
   "10306": {
     "nation": 1,
@@ -1967,16 +2007,16 @@
     "name": "Houshou Class",
     "shiptype": 6
   },
-  "60302": {
+  "60201": {
     "nation": 6,
-    "t_level_1": 133,
-    "id": 60302,
+    "t_level_1": 131,
+    "id": 60201,
     "ships": [
-      60301
+      60201
     ],
-    "t_level": 5,
-    "name": "Trento Class",
-    "shiptype": 3
+    "t_level": 7,
+    "name": "Duca degli Abruzzi Class",
+    "shiptype": 2
   },
   "10307": {
     "nation": 1,
@@ -1987,29 +2027,6 @@
     ],
     "t_level": 8,
     "name": "Anchorage Class",
-    "shiptype": 3
-  },
-  "30601": {
-    "nation": 3,
-    "t_level_1": 100,
-    "id": 30601,
-    "ships": [
-      30601,
-      30602
-    ],
-    "t_level": 4,
-    "name": "Hiyou Class",
-    "shiptype": 6
-  },
-  "90301": {
-    "nation": 9,
-    "t_level_1": 136,
-    "id": 90301,
-    "ships": [
-      90302
-    ],
-    "t_level": 7,
-    "name": "Algérie Class",
     "shiptype": 3
   },
   "60104": {
@@ -2023,16 +2040,38 @@
     "name": "Navigatori Class",
     "shiptype": 1
   },
-  "20703": {
-    "nation": 2,
-    "t_level_1": 70,
-    "id": 20703,
+  "90301": {
+    "nation": 9,
+    "t_level_1": 136,
+    "id": 90301,
     "ships": [
-      20702
+      90302
     ],
     "t_level": 7,
-    "name": "Ark Royal Class",
-    "shiptype": 7
+    "name": "Algérie Class",
+    "shiptype": 3
+  },
+  "60102": {
+    "nation": 6,
+    "t_level_1": 130,
+    "id": 60102,
+    "ships": [
+      60103
+    ],
+    "t_level": 5,
+    "name": "Alfredo Oriani Class",
+    "shiptype": 1
+  },
+  "50202": {
+    "nation": 5,
+    "t_level_1": 130,
+    "id": 50202,
+    "ships": [
+      50201
+    ],
+    "t_level": 2,
+    "name": "Yat Sen Class",
+    "shiptype": 2
   },
   "80101": {
     "nation": 8,
@@ -2058,29 +2097,6 @@
     "name": "Zuihou Class ",
     "shiptype": 6
   },
-  "50202": {
-    "nation": 5,
-    "t_level_1": 130,
-    "id": 50202,
-    "ships": [
-      50201
-    ],
-    "t_level": 2,
-    "name": "Yat Sen Class",
-    "shiptype": 2
-  },
-  "50201": {
-    "nation": 5,
-    "t_level_1": 129,
-    "id": 50201,
-    "ships": [
-      50202,
-      50203
-    ],
-    "t_level": 3,
-    "name": "Ning Hai Class",
-    "shiptype": 2
-  },
   "50101": {
     "nation": 5,
     "t_level_1": 128,
@@ -2094,6 +2110,28 @@
     "t_level": 4,
     "name": "An Shan Class",
     "shiptype": 1
+  },
+  "41801": {
+    "nation": 4,
+    "t_level_1": 123,
+    "id": 41801,
+    "ships": [
+      49905
+    ],
+    "t_level": 9,
+    "name": "Ägir Class",
+    "shiptype": 18
+  },
+  "40804": {
+    "nation": 4,
+    "t_level_1": 141,
+    "id": 40804,
+    "ships": [
+      40808
+    ],
+    "t_level": 7,
+    "name": "Type IXB",
+    "shiptype": 8
   },
   "10501": {
     "nation": 1,
@@ -2131,27 +2169,27 @@
     "name": "Konigsberg Class",
     "shiptype": 2
   },
-  "41801": {
-    "nation": 4,
-    "t_level_1": 123,
-    "id": 41801,
+  "20702": {
+    "nation": 2,
+    "t_level_1": 67,
+    "id": 20702,
     "ships": [
-      49905
+      20706
     ],
-    "t_level": 9,
-    "name": "Ägir Class",
-    "shiptype": 18
+    "t_level": 6,
+    "name": "Courageous Class",
+    "shiptype": 7
   },
-  "40804": {
+  "40702": {
     "nation": 4,
-    "t_level_1": 141,
-    "id": 40804,
+    "t_level_1": 126,
+    "id": 40702,
     "ships": [
-      40808
+      49906
     ],
     "t_level": 7,
-    "name": "Type IXB",
-    "shiptype": 8
+    "name": "August von Parseval Class",
+    "shiptype": 7
   },
   "70101": {
     "nation": 7,
@@ -2167,28 +2205,28 @@
     "name": "Gnevny Class",
     "shiptype": 1
   },
-  "40702": {
+  "40601": {
     "nation": 4,
-    "t_level_1": 126,
-    "id": 40702,
+    "t_level_1": 124,
+    "id": 40601,
     "ships": [
-      49906
+      40601
+    ],
+    "t_level": 4,
+    "name": "Weser Class",
+    "shiptype": 6
+  },
+  "40501": {
+    "nation": 4,
+    "t_level_1": 124,
+    "id": 40501,
+    "ships": [
+      40501,
+      40502
     ],
     "t_level": 7,
-    "name": "August von Parseval Class",
-    "shiptype": 7
-  },
-  "40701": {
-    "nation": 4,
-    "t_level_1": 125,
-    "id": 40701,
-    "ships": [
-      40701,
-      40703
-    ],
-    "t_level": 6,
-    "name": "Graf Zeppelin Class",
-    "shiptype": 7
+    "name": "Bismarck Class",
+    "shiptype": 5
   },
   "10502": {
     "nation": 1,
@@ -2213,16 +2251,16 @@
     "name": "Hiryuu Class",
     "shiptype": 7
   },
-  "40601": {
+  "40303": {
     "nation": 4,
-    "t_level_1": 124,
-    "id": 40601,
+    "t_level_1": 122,
+    "id": 40303,
     "ships": [
-      40601
+      49901
     ],
-    "t_level": 4,
-    "name": "Weser Class",
-    "shiptype": 6
+    "t_level": 9,
+    "name": "Roon Class",
+    "shiptype": 3
   },
   "60801": {
     "nation": 6,
@@ -2247,28 +2285,17 @@
     "name": "Deutschland Class",
     "shiptype": 3
   },
-  "40303": {
+  "40202": {
     "nation": 4,
-    "t_level_1": 122,
-    "id": 40303,
+    "t_level_1": 119,
+    "id": 40202,
     "ships": [
-      49901
+      40204,
+      40205
     ],
-    "t_level": 9,
-    "name": "Roon Class",
-    "shiptype": 3
-  },
-  "40301": {
-    "nation": 4,
-    "t_level_1": 120,
-    "id": 40301,
-    "ships": [
-      40301,
-      40303
-    ],
-    "t_level": 7,
-    "name": "Admiral Hipper Class",
-    "shiptype": 3
+    "t_level": 4,
+    "name": "Leipzig Class",
+    "shiptype": 2
   },
   "40105": {
     "nation": 4,
@@ -2279,6 +2306,18 @@
     ],
     "t_level": 8,
     "name": "Type 1936C",
+    "shiptype": 1
+  },
+  "40104": {
+    "nation": 4,
+    "t_level_1": 116,
+    "id": 40104,
+    "ships": [
+      40135,
+      40136
+    ],
+    "t_level": 7,
+    "name": "Type 1936B",
     "shiptype": 1
   },
   "10503": {
@@ -2304,18 +2343,6 @@
     "name": "Taihou Class",
     "shiptype": 7
   },
-  "40104": {
-    "nation": 4,
-    "t_level_1": 116,
-    "id": 40104,
-    "ships": [
-      40135,
-      40136
-    ],
-    "t_level": 7,
-    "name": "Type 1936B",
-    "shiptype": 1
-  },
   "40103": {
     "nation": 4,
     "t_level_1": 115,
@@ -2331,19 +2358,6 @@
     "name": "Type 1936A",
     "shiptype": 1
   },
-  "30101": {
-    "nation": 3,
-    "t_level_1": 70,
-    "id": 30101,
-    "ships": [
-      30101,
-      30102,
-      30172
-    ],
-    "t_level": 4,
-    "name": "Fubuki Class Type I (Fubuki)",
-    "shiptype": 1
-  },
   "40102": {
     "nation": 4,
     "t_level_1": 114,
@@ -2356,6 +2370,19 @@
     ],
     "t_level": 5,
     "name": "Type 1936",
+    "shiptype": 1
+  },
+  "30101": {
+    "nation": 3,
+    "t_level_1": 70,
+    "id": 30101,
+    "ships": [
+      30101,
+      30102,
+      30172
+    ],
+    "t_level": 4,
+    "name": "Fubuki Class Type I (Fubuki)",
     "shiptype": 1
   },
   "40101": {
@@ -2381,6 +2408,17 @@
     "name": "Kashino Class",
     "shiptype": 19
   },
+  "31201": {
+    "nation": 3,
+    "t_level_1": 112,
+    "id": 31201,
+    "ships": [
+      31201
+    ],
+    "t_level": 5,
+    "name": "Akashi Class",
+    "shiptype": 12
+  },
   "10504": {
     "nation": 1,
     "t_level_1": 20,
@@ -2405,17 +2443,6 @@
     "name": "Hakuryuu Class",
     "shiptype": 7
   },
-  "31201": {
-    "nation": 3,
-    "t_level_1": 112,
-    "id": 31201,
-    "ships": [
-      31201
-    ],
-    "t_level": 5,
-    "name": "Akashi Class",
-    "shiptype": 12
-  },
   "30801": {
     "nation": 3,
     "t_level_1": 110,
@@ -2431,6 +2458,17 @@
     "name": "Type B1",
     "shiptype": 8
   },
+  "20113": {
+    "nation": 2,
+    "t_level_1": 40,
+    "id": 20113,
+    "ships": [
+      20133
+    ],
+    "t_level": 4,
+    "name": "I Class",
+    "shiptype": 1
+  },
   "30103": {
     "nation": 3,
     "t_level_1": 72,
@@ -2445,17 +2483,6 @@
     "name": "Fubuki Class Type III (Akatsuki)",
     "shiptype": 1
   },
-  "20113": {
-    "nation": 2,
-    "t_level_1": 40,
-    "id": 20113,
-    "ships": [
-      20133
-    ],
-    "t_level": 4,
-    "name": "I Class",
-    "shiptype": 1
-  },
   "10101": {
     "nation": 1,
     "t_level_1": 1,
@@ -2466,6 +2493,17 @@
     ],
     "t_level": 3,
     "name": "Farragut Class",
+    "shiptype": 1
+  },
+  "20112": {
+    "nation": 2,
+    "t_level_1": 39,
+    "id": 20112,
+    "ships": [
+      20132
+    ],
+    "t_level": 5,
+    "name": "Tribal Class ",
     "shiptype": 1
   },
   "10601": {
@@ -2491,18 +2529,6 @@
     "name": "North Carolina Class",
     "shiptype": 5
   },
-  "20401": {
-    "nation": 2,
-    "t_level_1": 56,
-    "id": 20401,
-    "ships": [
-      20401,
-      20402
-    ],
-    "t_level": 4,
-    "name": "Renown Class",
-    "shiptype": 4
-  },
   "21301": {
     "nation": 2,
     "t_level_1": 68,
@@ -2513,6 +2539,17 @@
     ],
     "t_level": 2,
     "name": "Erebus Class",
+    "shiptype": 13
+  },
+  "21302": {
+    "nation": 2,
+    "t_level_1": 69,
+    "id": 21302,
+    "ships": [
+      21304
+    ],
+    "t_level": 4,
+    "name": "Roberts Class",
     "shiptype": 13
   },
   "20704": {
@@ -2533,9 +2570,9 @@
     "ships": [
       30117,
       30118,
-      30116,
       30127,
       30128,
+      30116,
       30159,
       30160,
       30161,
@@ -2600,23 +2637,13 @@
     "ships": [
       30204,
       30205,
+      30207,
       30208,
       30209
     ],
     "t_level": 3,
     "name": "Nagara Class",
     "shiptype": 2
-  },
-  "21302": {
-    "nation": 2,
-    "t_level_1": 69,
-    "id": 21302,
-    "ships": [
-      21304
-    ],
-    "t_level": 4,
-    "name": "Roberts Class",
-    "shiptype": 13
   },
   "20701": {
     "nation": 2,
@@ -2630,6 +2657,18 @@
     "t_level": 8,
     "name": "Illustrious Class",
     "shiptype": 7
+  },
+  "20401": {
+    "nation": 2,
+    "t_level_1": 56,
+    "id": 20401,
+    "ships": [
+      20401,
+      20402
+    ],
+    "t_level": 4,
+    "name": "Renown Class",
+    "shiptype": 4
   },
   "30107": {
     "nation": 3,
@@ -2657,15 +2696,15 @@
     "name": "Nelson Class",
     "shiptype": 5
   },
-  "30305": {
+  "30306": {
     "nation": 3,
-    "t_level_1": 87,
-    "id": 30305,
+    "t_level_1": 91,
+    "id": 30306,
     "ships": [
-      39901
+      30306
     ],
-    "t_level": 8,
-    "name": "Ibuki Class",
+    "t_level": 7,
+    "name": "利根级",
     "shiptype": 3
   },
   "60301": {

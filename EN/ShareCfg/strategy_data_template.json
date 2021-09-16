@@ -75,15 +75,6 @@
     "name": "Sonar Scan",
     "buff_id": 0
   },
-  "8744": {
-    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
-    "arg": [],
-    "icon": "8732",
-    "id": 8744,
-    "type": 10,
-    "name": "Blessing of the Butterfly",
-    "buff_id": 8744
-  },
   "8832": {
     "desc": "Allies provide 1 wave of artillery support, dealing continuous DMG to the enemy for a period of time (DMG increases the longer the META Showdown boss has been active). ",
     "arg": [],
@@ -102,23 +93,23 @@
     "name": "Song of the Sirens",
     "buff_id": 8864
   },
-  "10002": {
-    "desc": "Your fleet deals 50% reduced DMG",
+  "9279": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
-    "icon": "10002",
-    "id": 10002,
-    "type": 1000,
-    "name": "Out of Ammo",
-    "buff_id": 210
-  },
-  "8745": {
-    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
-    "arg": [],
-    "icon": "8732",
-    "id": 8745,
+    "icon": "",
+    "id": 9279,
     "type": 10,
-    "name": "Blessing of the Butterfly",
-    "buff_id": 8745
+    "name": "Verdant Gales Supporting Fire Lv3",
+    "buff_id": 9279
+  },
+  "9231": {
+    "desc": "The Dragon Palace grants the enemy supporting fire in battle.",
+    "arg": [],
+    "icon": "9231",
+    "id": 9231,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Scarlet Flames",
+    "buff_id": 9231
   },
   "8801": {
     "desc": "You've lost control of the Floating Fortress! During battle, enemy forces will be reinforced by additional aircraft!",
@@ -147,14 +138,284 @@
     "name": "Aerial Support",
     "buff_id": 8865
   },
-  "8650": {
-    "desc": "Under the effect of a searchlight.",
+  "9505": {
+    "desc": "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
+    "arg": [],
+    "icon": "10017",
+    "id": 9505,
+    "type": 10,
+    "name": "Iron Blood Aerial Support",
+    "buff_id": 9505
+  },
+  "9216": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8650,
+    "id": 9216,
     "type": 10,
-    "name": "Searchlight",
-    "buff_id": 8650
+    "name": "White Waves Supporting Fire Lv2",
+    "buff_id": 9216
+  },
+  "92": {
+    "desc": "Enemies will appear on Ambush tiles during nighttime.",
+    "arg": [],
+    "icon": "92",
+    "id": 92,
+    "type": 3,
+    "name": "Nightfall",
+    "buff_id": 0
+  },
+  "8802": {
+    "desc": "You've secured the Floating Fortress! During battle, allied aircraft will arrive to attack the enemies!",
+    "arg": [],
+    "icon": "8802",
+    "id": 8802,
+    "type": 10,
+    "name": "Secured Control",
+    "buff_id": 8802
+  },
+  "47": {
+    "desc": "Increases the Oil spent on this current stage by 100%;\nIn the process, increases the Commander EXP, Meowfficer EXP, and Ship EXP gained by 100%, and grants an additional drop chance. Mood consumption and Affection gain are both increased by 100%. ",
+    "arg": [],
+    "icon": "tebiezuozhan",
+    "id": 47,
+    "type": 10,
+    "name": "High-Efficiency Operation",
+    "buff_id": 0
+  },
+  "8882": {
+    "desc": "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+    "arg": [],
+    "icon": "8880",
+    "id": 8882,
+    "type": 10,
+    "name": "Mirror Hacking ",
+    "buff_id": 8882
+  },
+  "9265": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9265,
+    "type": 10,
+    "name": "Azure Vortexes Supporting Fire Lv5",
+    "buff_id": 9265
+  },
+  "9233": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9233,
+    "type": 10,
+    "name": "Scarlet Flames Supporting Fire Lv1",
+    "buff_id": 9233
+  },
+  "8803": {
+    "desc": "Allied Air Support",
+    "arg": [],
+    "icon": "",
+    "id": 8803,
+    "type": 10,
+    "name": "Allied Air Support",
+    "buff_id": 8803
+  },
+  "9282": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9282,
+    "type": 10,
+    "name": "Verdant Gales Supporting Fire Lv4",
+    "buff_id": 9282
+  },
+  "10021": {
+    "desc": "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
+    "arg": [],
+    "icon": "10021",
+    "id": 10021,
+    "type": 1000,
+    "name": "Fever Mode",
+    "buff_id": 8761
+  },
+  "91": {
+    "desc": "Crisis Averted~Nobody is going to harass you this time",
+    "arg": [],
+    "icon": "91",
+    "id": 91,
+    "type": 90,
+    "name": "Crisis Averted~",
+    "buff_id": 91
+  },
+  "8884": {
+    "desc": "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+    "arg": [],
+    "icon": "8880",
+    "id": 8884,
+    "type": 10,
+    "name": "Mirror Hacking ",
+    "buff_id": 8884
+  },
+  "9251": {
+    "desc": "The Dragon Palace grants the enemy supporting fire in battle as well as protective shields.",
+    "arg": [],
+    "icon": "9251",
+    "id": 9251,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Azure Vortexes",
+    "buff_id": 9251
+  },
+  "9219": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9219,
+    "type": 10,
+    "name": "White Waves Supporting Fire Lv3",
+    "buff_id": 9219
+  },
+  "90": {
+    "desc": "Kizuna AI is going to harass you during your next battle: Submarine Call, Air Strike, Torpedo Attack, and Main Battery Fire functions will be locked (including manual control mode). Tap her face a bunch to make her go away.",
+    "arg": [],
+    "icon": "90",
+    "id": 90,
+    "type": 90,
+    "name": "RED ALERT!",
+    "buff_id": 90
+  },
+  "8869": {
+    "desc": "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
+    "arg": [],
+    "icon": "8802",
+    "id": 8869,
+    "type": 10,
+    "name": "Aerial Support",
+    "buff_id": 8869
+  },
+  "9252": {
+    "desc": "The Dragon Palace grants your fleet supporting fire in battle as well as protective shields.",
+    "arg": [],
+    "icon": "9252",
+    "id": 9252,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Azure Vortexes",
+    "buff_id": 9252
+  },
+  "9236": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9236,
+    "type": 10,
+    "name": "Scarlet Flames Supporting Fire Lv2",
+    "buff_id": 9236
+  },
+  "8806": {
+    "desc": "Allied Air Support",
+    "arg": [],
+    "icon": "",
+    "id": 8806,
+    "type": 10,
+    "name": "Allied Air Support",
+    "buff_id": 8806
+  },
+  "9285": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9285,
+    "type": 10,
+    "name": "Verdant Gales Supporting Fire Lv5",
+    "buff_id": 9285
+  },
+  "9253": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9253,
+    "type": 10,
+    "name": "Azure Vortexes Supporting Fire Lv1",
+    "buff_id": 9253
+  },
+  "8855": {
+    "desc": "不显示图标及说明",
+    "arg": [],
+    "icon": "",
+    "id": 8855,
+    "type": 10,
+    "name": "RadianceLV5",
+    "buff_id": 8855
+  },
+  "9222": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9222,
+    "type": 10,
+    "name": "White Waves Supporting Fire Lv4",
+    "buff_id": 9222
+  },
+  "8744": {
+    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+    "arg": [],
+    "icon": "8732",
+    "id": 8744,
+    "type": 10,
+    "name": "Blessing of the Butterfly",
+    "buff_id": 8744
+  },
+  "9271": {
+    "desc": "The Dragon Palace grants the enemy supporting fire in battle as well as sporadic healing.",
+    "arg": [],
+    "icon": "9271",
+    "id": 9271,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Verdant Gales",
+    "buff_id": 9271
+  },
+  "9239": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9239,
+    "type": 10,
+    "name": "Scarlet Flames Supporting Fire Lv3",
+    "buff_id": 9239
+  },
+  "8745": {
+    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+    "arg": [],
+    "icon": "8732",
+    "id": 8745,
+    "type": 10,
+    "name": "Blessing of the Butterfly",
+    "buff_id": 8745
+  },
+  "8809": {
+    "desc": "Allied Air Support",
+    "arg": [],
+    "icon": "",
+    "id": 8809,
+    "type": 10,
+    "name": "Allied Air Support",
+    "buff_id": 8809
+  },
+  "8841": {
+    "desc": "In battle, your fleet will receive bombardment support.",
+    "arg": [],
+    "icon": "8841",
+    "id": 8841,
+    "type": 10,
+    "name": "Radiance",
+    "buff_id": 8841
+  },
+  "9272": {
+    "desc": "The Dragon Palace grants your fleet supporting fire in battle as well as sporadic healing.",
+    "arg": [],
+    "icon": "9272",
+    "id": 9272,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Verdant Gales",
+    "buff_id": 9272
   },
   "10011": {
     "desc": "The DMG of your fleets' Airstrikes is increased by 20% and the DMG your fleets take from enemy aircraft is decreased by 10% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 10% and your Ambush encounter rate is decreased by 8%.",
@@ -167,15 +428,6 @@
     "name": "Air Supremacy",
     "buff_id": 220
   },
-  "92": {
-    "desc": "Enemies will appear on Ambush tiles during nighttime.",
-    "arg": [],
-    "icon": "92",
-    "id": 92,
-    "type": 3,
-    "name": "Nightfall",
-    "buff_id": 0
-  },
   "8746": {
     "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
     "arg": [],
@@ -184,15 +436,6 @@
     "type": 10,
     "name": "Blessing of the Butterfly",
     "buff_id": 8746
-  },
-  "8802": {
-    "desc": "You've secured the Floating Fortress! During battle, allied aircraft will arrive to attack the enemies!",
-    "arg": [],
-    "icon": "8802",
-    "id": 8802,
-    "type": 10,
-    "name": "Secured Control",
-    "buff_id": 8802
   },
   "8858": {
     "desc": "Your fleet will receive bombardment support, but a mysterious foe also appears in the enemy's fleet.",
@@ -212,72 +455,23 @@
     "name": "Reenactment Modulation System",
     "buff_id": 8874
   },
-  "10012": {
-    "desc": "The DMG of your fleets' Airstrikes is increased by 12% and the DMG your fleets take from enemy aircraft is decreased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 5% and your Ambush encounter rate is decreased by 5%.",
-    "arg": [
-      500
-    ],
-    "icon": "10012",
-    "id": 10012,
-    "type": 1001,
-    "name": "Air Superiority",
-    "buff_id": 230
-  },
-  "8803": {
-    "desc": "Allied Air Support",
+  "9273": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8803,
+    "id": 9273,
     "type": 10,
-    "name": "Allied Air Support",
-    "buff_id": 8803
+    "name": "Verdant Gales Supporting Fire Lv1",
+    "buff_id": 9273
   },
-  "8843": {
-    "desc": "不显示图标及说明",
+  "9225": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8843,
+    "id": 9225,
     "type": 10,
-    "name": "RadianceLV1",
-    "buff_id": 8843
-  },
-  "8867": {
-    "desc": "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
-    "arg": [],
-    "icon": "8802",
-    "id": 8867,
-    "type": 10,
-    "name": "Aerial Support",
-    "buff_id": 8867
-  },
-  "10021": {
-    "desc": "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
-    "arg": [],
-    "icon": "10021",
-    "id": 10021,
-    "type": 1000,
-    "name": "Fever Mode",
-    "buff_id": 8761
-  },
-  "10013": {
-    "desc": "The DMG of your fleets' Airstrikes is decreased by 6% and the DMG your fleets take from enemy aircraft is increased by 3% (Flooding and Burn DMG are unaffected).",
-    "arg": [
-      0
-    ],
-    "icon": "10013",
-    "id": 10013,
-    "type": 1001,
-    "name": "Air Parity",
-    "buff_id": 240
-  },
-  "8732": {
-    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
-    "arg": [],
-    "icon": "8732",
-    "id": 8732,
-    "type": 10,
-    "name": "Blessing of the Butterfly",
-    "buff_id": 8732
+    "name": "White Waves Supporting Fire Lv5",
+    "buff_id": 9225
   },
   "all": [
     1,
@@ -325,6 +519,34 @@
     8880,
     8882,
     8884,
+    9211,
+    9212,
+    9213,
+    9216,
+    9219,
+    9222,
+    9225,
+    9231,
+    9232,
+    9233,
+    9236,
+    9239,
+    9242,
+    9245,
+    9251,
+    9252,
+    9253,
+    9256,
+    9259,
+    9262,
+    9265,
+    9271,
+    9272,
+    9273,
+    9276,
+    9279,
+    9282,
+    9285,
     9500,
     9502,
     9505,
@@ -341,115 +563,50 @@
     10032,
     10033
   ],
-  "8855": {
+  "8843": {
     "desc": "不显示图标及说明",
     "arg": [],
     "icon": "",
-    "id": 8855,
+    "id": 8843,
     "type": 10,
-    "name": "RadianceLV5",
-    "buff_id": 8855
+    "name": "RadianceLV1",
+    "buff_id": 8843
   },
-  "8812": {
-    "desc": "Allied Air Support",
+  "10033": {
+    "desc": "Your ships take 5.0% less DMG from enemies.",
     "arg": [],
-    "icon": "",
-    "id": 8812,
-    "type": 10,
-    "name": "Allied Air Support",
-    "buff_id": 8812
+    "icon": "10033",
+    "id": 10033,
+    "type": 1000,
+    "name": "Eyes on Me!",
+    "buff_id": 8769
   },
-  "91": {
-    "desc": "Crisis Averted~Nobody is going to harass you this time",
-    "arg": [],
-    "icon": "91",
-    "id": 91,
-    "type": 90,
-    "name": "Crisis Averted~",
-    "buff_id": 91
-  },
-  "8884": {
+  "8880": {
     "desc": "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
     "arg": [],
     "icon": "8880",
-    "id": 8884,
+    "id": 8880,
     "type": 10,
     "name": "Mirror Hacking ",
-    "buff_id": 8884
+    "buff_id": 8880
   },
-  "9508": {
-    "desc": "Darkness shrouds the battlefield, making it impossible to check the composition of enemy fleets before battle.",
-    "arg": [],
-    "icon": "10016",
-    "id": 9508,
-    "type": 10,
-    "name": "Endless Night",
-    "buff_id": 9508
-  },
-  "9500": {
-    "desc": "Due to a highly reactive Wisdom Cube, the entire fleet's DMG increases by 20%, but their DMG taken also increases by 20%.",
-    "arg": [],
-    "icon": "9500",
-    "id": 9500,
-    "type": 10,
-    "name": "Wisdom Cube Reactivity",
-    "buff_id": 9500
-  },
-  "90": {
-    "desc": "Kizuna AI is going to harass you during your next battle: Submarine Call, Air Strike, Torpedo Attack, and Main Battery Fire functions will be locked (including manual control mode). Tap her face a bunch to make her go away.",
-    "arg": [],
-    "icon": "90",
-    "id": 90,
-    "type": 90,
-    "name": "RED ALERT!",
-    "buff_id": 90
-  },
-  "8877": {
-    "desc": "The battlefield is obscured by a Siren-created haze. The Accuracy of allied fleets is decreased by 5%, and enemy fleet compositions cannot be seen. ",
-    "arg": [],
-    "icon": "8877",
-    "id": 8877,
-    "type": 10,
-    "name": "Siren Sea Fog ",
-    "buff_id": 8877
-  },
-  "8809": {
-    "desc": "Allied Air Support",
+  "9242": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8809,
+    "id": 9242,
     "type": 10,
-    "name": "Allied Air Support",
-    "buff_id": 8809
+    "name": "Scarlet Flames Supporting Fire Lv4",
+    "buff_id": 9242
   },
-  "9505": {
-    "desc": "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
+  "8732": {
+    "desc": "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
     "arg": [],
-    "icon": "10017",
-    "id": 9505,
+    "icon": "8732",
+    "id": 8732,
     "type": 10,
-    "name": "Iron Blood Aerial Support",
-    "buff_id": 9505
-  },
-  "10014": {
-    "desc": "The DMG of your fleets' Airstrikes is decreased by 12% and the DMG your fleets take from enemy aircraft is increased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 3%.",
-    "arg": [
-      0
-    ],
-    "icon": "10014",
-    "id": 10014,
-    "type": 1001,
-    "name": "Air Denial",
-    "buff_id": 250
-  },
-  "8869": {
-    "desc": "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
-    "arg": [],
-    "icon": "8802",
-    "id": 8869,
-    "type": 10,
-    "name": "Aerial Support",
-    "buff_id": 8869
+    "name": "Blessing of the Butterfly",
+    "buff_id": 8732
   },
   "10031": {
     "desc": "At the start of the battle, your ships heal for 2.0% of their max HP.",
@@ -471,68 +628,92 @@
     "name": "Air Incapability",
     "buff_id": 260
   },
-  "8841": {
-    "desc": "In battle, your fleet will receive bombardment support.",
-    "arg": [],
-    "icon": "8841",
-    "id": 8841,
-    "type": 10,
-    "name": "Radiance",
-    "buff_id": 8841
-  },
-  "8750": {
-    "desc": "Under the effect of a searchlight.",
-    "arg": [],
-    "icon": "",
-    "id": 8750,
-    "type": 10,
-    "name": "Searchlight",
-    "buff_id": 8750
-  },
-  "8882": {
-    "desc": "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
-    "arg": [],
-    "icon": "8880",
-    "id": 8882,
-    "type": 10,
-    "name": "Mirror Hacking ",
-    "buff_id": 8882
-  },
-  "8806": {
+  "8812": {
     "desc": "Allied Air Support",
     "arg": [],
     "icon": "",
-    "id": 8806,
+    "id": 8812,
     "type": 10,
     "name": "Allied Air Support",
-    "buff_id": 8806
+    "buff_id": 8812
   },
-  "8846": {
-    "desc": "不显示图标及说明",
+  "10014": {
+    "desc": "The DMG of your fleets' Airstrikes is decreased by 12% and the DMG your fleets take from enemy aircraft is increased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 3%.",
+    "arg": [
+      0
+    ],
+    "icon": "10014",
+    "id": 10014,
+    "type": 1001,
+    "name": "Air Denial",
+    "buff_id": 250
+  },
+  "10013": {
+    "desc": "The DMG of your fleets' Airstrikes is decreased by 6% and the DMG your fleets take from enemy aircraft is increased by 3% (Flooding and Burn DMG are unaffected).",
+    "arg": [
+      0
+    ],
+    "icon": "10013",
+    "id": 10013,
+    "type": 1001,
+    "name": "Air Parity",
+    "buff_id": 240
+  },
+  "9259": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8846,
+    "id": 9259,
     "type": 10,
-    "name": "RadianceLV2",
-    "buff_id": 8846
+    "name": "Azure Vortexes Supporting Fire Lv3",
+    "buff_id": 9259
   },
-  "8880": {
-    "desc": "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+  "9211": {
+    "desc": "The Dragon Palace grants the enemy supporting fire in battle.",
     "arg": [],
-    "icon": "8880",
-    "id": 8880,
+    "icon": "9211",
+    "id": 9211,
     "type": 10,
-    "name": "Mirror Hacking ",
-    "buff_id": 8880
+    "name": "Dragon Palace's Boon - White Waves",
+    "buff_id": 9211
   },
-  "10032": {
-    "desc": "Your ships deal 5.0% more DMG to enemies.",
+  "10012": {
+    "desc": "The DMG of your fleets' Airstrikes is increased by 12% and the DMG your fleets take from enemy aircraft is decreased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 5% and your Ambush encounter rate is decreased by 5%.",
+    "arg": [
+      500
+    ],
+    "icon": "10012",
+    "id": 10012,
+    "type": 1001,
+    "name": "Air Superiority",
+    "buff_id": 230
+  },
+  "10002": {
+    "desc": "Your fleet deals 50% reduced DMG",
     "arg": [],
-    "icon": "10032",
-    "id": 10032,
+    "icon": "10002",
+    "id": 10002,
     "type": 1000,
-    "name": "Eyes on Me!",
-    "buff_id": 8767
+    "name": "Out of Ammo",
+    "buff_id": 210
+  },
+  "8650": {
+    "desc": "Under the effect of a searchlight.",
+    "arg": [],
+    "icon": "",
+    "id": 8650,
+    "type": 10,
+    "name": "Searchlight",
+    "buff_id": 8650
+  },
+  "9508": {
+    "desc": "Darkness shrouds the battlefield, making it impossible to check the composition of enemy fleets before battle.",
+    "arg": [],
+    "icon": "10016",
+    "id": 9508,
+    "type": 10,
+    "name": "Endless Night",
+    "buff_id": 9508
   },
   "9502": {
     "desc": "An ominous mist surrounds the battlefield. The Accuracy of all your ships is decreased by 5%.",
@@ -543,23 +724,104 @@
     "name": "Heavy Mist",
     "buff_id": 9502
   },
-  "8842": {
-    "desc": "The light has faded, and a mysterious foe appears in the enemy's fleet.",
+  "8877": {
+    "desc": "The battlefield is obscured by a Siren-created haze. The Accuracy of allied fleets is decreased by 5%, and enemy fleet compositions cannot be seen. ",
     "arg": [],
-    "icon": "8842",
-    "id": 8842,
+    "icon": "8877",
+    "id": 8877,
     "type": 10,
-    "name": "Afterglow",
-    "buff_id": 8842
+    "name": "Siren Sea Fog ",
+    "buff_id": 8877
   },
-  "47": {
-    "desc": "Increases the Oil spent on this current stage by 100%;\nIn the process, increases the Commander EXP, Meowfficer EXP, and Ship EXP gained by 100%, and grants an additional drop chance. Mood consumption and Affection gain are both increased by 100%. ",
+  "9276": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
-    "icon": "tebiezuozhan",
-    "id": 47,
+    "icon": "",
+    "id": 9276,
     "type": 10,
-    "name": "High-Efficiency Operation",
-    "buff_id": 0
+    "name": "Verdant Gales Supporting Fire Lv2",
+    "buff_id": 9276
+  },
+  "9212": {
+    "desc": "The Dragon Palace grants your fleet supporting fire in battle.",
+    "arg": [],
+    "icon": "9212",
+    "id": 9212,
+    "type": 10,
+    "name": "Dragon Palace's Boon - White Waves",
+    "buff_id": 9212
+  },
+  "9500": {
+    "desc": "Due to a highly reactive Wisdom Cube, the entire fleet's DMG increases by 20%, but their DMG taken also increases by 20%.",
+    "arg": [],
+    "icon": "9500",
+    "id": 9500,
+    "type": 10,
+    "name": "Wisdom Cube Reactivity",
+    "buff_id": 9500
+  },
+  "8750": {
+    "desc": "Under the effect of a searchlight.",
+    "arg": [],
+    "icon": "",
+    "id": 8750,
+    "type": 10,
+    "name": "Searchlight",
+    "buff_id": 8750
+  },
+  "9256": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9256,
+    "type": 10,
+    "name": "Azure Vortexes Supporting Fire Lv2",
+    "buff_id": 9256
+  },
+  "8852": {
+    "desc": "不显示图标及说明",
+    "arg": [],
+    "icon": "",
+    "id": 8852,
+    "type": 10,
+    "name": "RadianceLV4",
+    "buff_id": 8852
+  },
+  "8846": {
+    "desc": "不显示图标及说明",
+    "arg": [],
+    "icon": "",
+    "id": 8846,
+    "type": 10,
+    "name": "RadianceLV2",
+    "buff_id": 8846
+  },
+  "9232": {
+    "desc": "The Dragon Palace grants your fleet supporting fire in battle.",
+    "arg": [],
+    "icon": "9232",
+    "id": 9232,
+    "type": 10,
+    "name": "Dragon Palace's Boon - Scarlet Flames",
+    "buff_id": 9232
+  },
+  "10032": {
+    "desc": "Your ships deal 5.0% more DMG to enemies.",
+    "arg": [],
+    "icon": "10032",
+    "id": 10032,
+    "type": 1000,
+    "name": "Eyes on Me!",
+    "buff_id": 8767
+  },
+  "9245": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9245,
+    "type": 10,
+    "name": "Scarlet Flames Supporting Fire Lv5",
+    "buff_id": 9245
   },
   "8849": {
     "desc": "不显示图标及说明",
@@ -569,6 +831,24 @@
     "type": 10,
     "name": "RadianceLV3",
     "buff_id": 8849
+  },
+  "8842": {
+    "desc": "The light has faded, and a mysterious foe appears in the enemy's fleet.",
+    "arg": [],
+    "icon": "8842",
+    "id": 8842,
+    "type": 10,
+    "name": "Afterglow",
+    "buff_id": 8842
+  },
+  "9213": {
+    "desc": "Special Supporting Barrage",
+    "arg": [],
+    "icon": "",
+    "id": 9213,
+    "type": 10,
+    "name": "White Waves Supporting Fire Lv1",
+    "buff_id": 9213
   },
   "8815": {
     "desc": "Allied Air Support",
@@ -588,23 +868,23 @@
     "name": "Labyrinth",
     "buff_id": 0
   },
-  "8852": {
-    "desc": "不显示图标及说明",
+  "8867": {
+    "desc": "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
+    "arg": [],
+    "icon": "8802",
+    "id": 8867,
+    "type": 10,
+    "name": "Aerial Support",
+    "buff_id": 8867
+  },
+  "9262": {
+    "desc": "Special Supporting Barrage",
     "arg": [],
     "icon": "",
-    "id": 8852,
+    "id": 9262,
     "type": 10,
-    "name": "RadianceLV4",
-    "buff_id": 8852
-  },
-  "10033": {
-    "desc": "Your ships take 5.0% less DMG from enemies.",
-    "arg": [],
-    "icon": "10033",
-    "id": 10033,
-    "type": 1000,
-    "name": "Eyes on Me!",
-    "buff_id": 8769
+    "name": "Azure Vortexes Supporting Fire Lv4",
+    "buff_id": 9262
   },
   "10001": {
     "desc": "Your fleet deals 10% increased DMG",
