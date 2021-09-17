@@ -769,6 +769,7 @@
     4105,
     4106,
     4107,
+    4119,
     4108,
     4109,
     4110,
@@ -1276,32 +1277,7 @@
   },
   "4107": {
     "id": 4107,
-    "time": {
-      "2": [
-        [
-          2021,
-          9,
-          16
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2021,
-          10,
-          14
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    },
+    "title_res_tag": "",
     "config_client": "",
     "config_data": [
       1565001,
@@ -1315,7 +1291,7 @@
     "config_id": 0,
     "login_pop": 0,
     "type": 36,
-    "title_res_tag": "",
+    "time": "stop",
     "page_info": "",
     "mark": 20210916
   },
@@ -1887,8 +1863,8 @@
     "page_info": "",
     "mark": 20190731
   },
-  "2038": {
-    "id": 2038,
+  "2036": {
+    "id": 2036,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
@@ -1896,12 +1872,12 @@
       []
     ],
     "is_show": 0,
-    "config_id": 5421,
+    "config_id": 5401,
     "login_pop": 0,
     "type": 17,
     "time": "stop",
     "page_info": "",
-    "mark": 20190228
+    "mark": 20190131
   },
   "21": {
     "id": 21,
@@ -1931,6 +1907,44 @@
     "page_info": "",
     "mark": 20170726
   },
+  "4116": {
+    "id": 4116,
+    "time": {
+      "2": [
+        [
+          2021,
+          9,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2021,
+          10,
+          31
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "config_client": "",
+    "config_data": [],
+    "is_show": 0,
+    "config_id": 4,
+    "login_pop": 0,
+    "type": 30,
+    "title_res_tag": "",
+    "page_info": "",
+    "mark": 20210916
+  },
   "4057": {
     "id": 4057,
     "title_res_tag": "",
@@ -1959,75 +1973,89 @@
     "page_info": "",
     "mark": 20210722
   },
-  "4117": {
-    "id": 4117,
-    "time": {
-      "2": [
+  "6001": {
+    "id": 6001,
+    "page_info": {
+      "ui_name": "CravenCheeringSkinPage",
+      "class_name": "CravenCheeringSkinPage"
+    },
+    "config_client": {
+      "story": [
         [
-          2021,
-          9,
-          16
+          "KAIXUE01"
         ],
         [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2021,
-          10,
-          9
+          "KAIXUE02"
         ],
         [
-          23,
-          59,
-          59
+          "KAIXUE03"
+        ],
+        [],
+        [
+          "KAIXUE04"
+        ],
+        [],
+        [
+          "KAIXUE05"
+        ],
+        [],
+        [
+          "KAIXUE06"
+        ],
+        [
+          "KAIXUE07"
         ]
       ]
     },
-    "config_client": {
-      "1": "commonbg/bg_pt_daofeng",
-      "2": [
-        1,
-        1,
-        1,
-        1
-      ],
-      "pt_id": 212,
-      "painting": "zhumo_pt"
-    },
     "config_data": [
-      1523,
-      1524,
-      1525,
-      1526,
-      1527,
-      1528,
-      1529,
-      1530,
-      1531,
-      1532,
-      1533,
-      1534,
-      1535,
-      1536,
-      1537,
-      1538,
-      1539,
-      1540,
-      1541,
-      1542,
-      1543
+      [
+        35007,
+        35008
+      ],
+      [
+        35009,
+        35010
+      ],
+      [
+        35011,
+        35012
+      ],
+      [
+        35013,
+        35014
+      ],
+      [
+        35015,
+        35016
+      ],
+      [
+        35017,
+        35018
+      ],
+      [
+        35019,
+        35020
+      ],
+      [
+        35021,
+        35022
+      ],
+      [
+        35023,
+        35024
+      ],
+      [
+        35025,
+        35026
+      ]
     ],
-    "is_show": 0,
-    "config_id": 0,
+    "is_show": 10,
+    "config_id": 3,
     "login_pop": 0,
-    "type": 14,
-    "title_res_tag": "",
-    "page_info": "",
-    "mark": 20210916
+    "type": 18,
+    "title_res_tag": "craven_permanent",
+    "time": "stop",
+    "mark": 20210610
   },
   "4073": {
     "id": 4073,
@@ -2204,90 +2232,6 @@
     "page_info": "",
     "mark": 20210916
   },
-  "6001": {
-    "id": 6001,
-    "page_info": {
-      "ui_name": "CravenCheeringSkinPage",
-      "class_name": "CravenCheeringSkinPage"
-    },
-    "config_client": {
-      "story": [
-        [
-          "KAIXUE01"
-        ],
-        [
-          "KAIXUE02"
-        ],
-        [
-          "KAIXUE03"
-        ],
-        [],
-        [
-          "KAIXUE04"
-        ],
-        [],
-        [
-          "KAIXUE05"
-        ],
-        [],
-        [
-          "KAIXUE06"
-        ],
-        [
-          "KAIXUE07"
-        ]
-      ]
-    },
-    "config_data": [
-      [
-        35007,
-        35008
-      ],
-      [
-        35009,
-        35010
-      ],
-      [
-        35011,
-        35012
-      ],
-      [
-        35013,
-        35014
-      ],
-      [
-        35015,
-        35016
-      ],
-      [
-        35017,
-        35018
-      ],
-      [
-        35019,
-        35020
-      ],
-      [
-        35021,
-        35022
-      ],
-      [
-        35023,
-        35024
-      ],
-      [
-        35025,
-        35026
-      ]
-    ],
-    "is_show": 10,
-    "config_id": 3,
-    "login_pop": 0,
-    "type": 18,
-    "title_res_tag": "craven_permanent",
-    "time": "stop",
-    "mark": 20210610
-  },
   "6000": {
     "id": 6000,
     "page_info": {
@@ -2350,25 +2294,37 @@
     "time": "stop",
     "mark": 20210610
   },
-  "964": {
-    "id": 964,
+  "2006": {
+    "id": 2006,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
-      16597,
-      16598,
-      16599,
-      16600,
-      16601,
-      16602
+      0,
+      []
     ],
     "is_show": 0,
-    "config_id": 0,
+    "config_id": 5101,
     "login_pop": 0,
-    "type": 13,
+    "type": 17,
     "time": "stop",
     "page_info": "",
-    "mark": 20210506
+    "mark": 20180426
+  },
+  "2064": {
+    "id": 2064,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5681,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210812
   },
   "4009": {
     "id": 4009,
@@ -2440,22 +2396,6 @@
       ]
     },
     "mark": 20210624
-  },
-  "2064": {
-    "id": 2064,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5681,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20210812
   },
   "2063": {
     "id": 2063,
@@ -2568,6 +2508,22 @@
     "time": "stop",
     "page_info": "",
     "mark": 20210422
+  },
+  "2056": {
+    "id": 2056,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5601,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210415
   },
   "647": {
     "id": 647,
@@ -3000,8 +2956,8 @@
     "page_info": "",
     "mark": 20210722
   },
-  "2056": {
-    "id": 2056,
+  "2055": {
+    "id": 2055,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
@@ -3009,12 +2965,12 @@
       []
     ],
     "is_show": 0,
-    "config_id": 5601,
+    "config_id": 5591,
     "login_pop": 0,
     "type": 17,
     "time": "stop",
     "page_info": "",
-    "mark": 20210415
+    "mark": 20210325
   },
   "4082": {
     "id": 4082,
@@ -3202,8 +3158,8 @@
     "page_info": "",
     "mark": 20200528
   },
-  "2055": {
-    "id": 2055,
+  "2054": {
+    "id": 2054,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
@@ -3211,12 +3167,12 @@
       []
     ],
     "is_show": 0,
-    "config_id": 5591,
+    "config_id": 5581,
     "login_pop": 0,
     "type": 17,
     "time": "stop",
     "page_info": "",
-    "mark": 20210325
+    "mark": 20210318
   },
   "851": {
     "id": 851,
@@ -3379,22 +3335,6 @@
     "page_info": "",
     "mark": 20210624
   },
-  "2054": {
-    "id": 2054,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5581,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20210318
-  },
   "2053": {
     "id": 2053,
     "title_res_tag": "",
@@ -3523,6 +3463,22 @@
     "page_info": "",
     "mark": 20200423
   },
+  "2045": {
+    "id": 2045,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5491,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20200312
+  },
   "172": {
     "id": 172,
     "time": {
@@ -3623,22 +3579,6 @@
     "page_info": "",
     "mark": 20210916
   },
-  "2045": {
-    "id": 2045,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5491,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20200312
-  },
   "2044": {
     "id": 2044,
     "title_res_tag": "",
@@ -3719,6 +3659,22 @@
     "page_info": "",
     "mark": 20190509
   },
+  "2038": {
+    "id": 2038,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5421,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20190228
+  },
   "100001": {
     "id": 100001,
     "title_res_tag": "",
@@ -3731,109 +3687,6 @@
     "time": "stop",
     "page_info": "",
     "mark": 20190530
-  },
-  "2036": {
-    "id": 2036,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5401,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20190131
-  },
-  "4059": {
-    "id": 4059,
-    "title_res_tag": "",
-    "config_client": {
-      "ships": [
-        "chunxiang",
-        "qianzao",
-        "yizhi",
-        "lvzi",
-        "zi",
-        "yamei",
-        "zhenmei"
-      ]
-    },
-    "config_data": "0",
-    "is_show": 0,
-    "config_id": 19,
-    "login_pop": 0,
-    "type": 57,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20210722
-  },
-  "4051": {
-    "id": 4051,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      16818,
-      16819,
-      16820,
-      16821,
-      16822,
-      16823,
-      16824,
-      16825,
-      16826,
-      16827,
-      16828,
-      16829,
-      16830,
-      16831,
-      16832
-    ],
-    "is_show": 0,
-    "config_id": 0,
-    "login_pop": 0,
-    "type": 13,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20210722
-  },
-  "4075": {
-    "id": 4075,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      [
-        31973,
-        100
-      ]
-    ],
-    "is_show": 0,
-    "config_id": 1,
-    "login_pop": 0,
-    "type": 27,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20210812
-  },
-  "801": {
-    "id": 801,
-    "title_res_tag": "",
-    "config_client": {
-      "id": 970701
-    },
-    "config_data": [
-      1
-    ],
-    "is_show": 0,
-    "config_id": 0,
-    "login_pop": 0,
-    "type": 34,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20201222
   },
   "162": {
     "id": 162,
@@ -3958,6 +3811,109 @@
     "page_info": "",
     "mark": 20180914
   },
+  "4059": {
+    "id": 4059,
+    "title_res_tag": "",
+    "config_client": {
+      "ships": [
+        "chunxiang",
+        "qianzao",
+        "yizhi",
+        "lvzi",
+        "zi",
+        "yamei",
+        "zhenmei"
+      ]
+    },
+    "config_data": "0",
+    "is_show": 0,
+    "config_id": 19,
+    "login_pop": 0,
+    "type": 57,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210722
+  },
+  "4051": {
+    "id": 4051,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      16818,
+      16819,
+      16820,
+      16821,
+      16822,
+      16823,
+      16824,
+      16825,
+      16826,
+      16827,
+      16828,
+      16829,
+      16830,
+      16831,
+      16832
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 13,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210722
+  },
+  "4075": {
+    "id": 4075,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      [
+        31973,
+        100
+      ]
+    ],
+    "is_show": 0,
+    "config_id": 1,
+    "login_pop": 0,
+    "type": 27,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210812
+  },
+  "801": {
+    "id": 801,
+    "title_res_tag": "",
+    "config_client": {
+      "id": 970701
+    },
+    "config_data": [
+      1
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 34,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20201222
+  },
+  "2034": {
+    "id": 2034,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5381,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20190117
+  },
   "4083": {
     "id": 4083,
     "time": {
@@ -4047,22 +4003,6 @@
     "page_info": "",
     "mark": 20200409
   },
-  "2034": {
-    "id": 2034,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5381,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20190117
-  },
   "2032": {
     "id": 2032,
     "title_res_tag": "",
@@ -4078,6 +4018,22 @@
     "time": "stop",
     "page_info": "",
     "mark": 20181227
+  },
+  "711": {
+    "id": 711,
+    "page_info": {
+      "ui_name": "UrExchangeItemPage",
+      "class_name": "UrExchangeItemPage"
+    },
+    "config_client": "",
+    "config_data": "",
+    "is_show": 3,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 0,
+    "title_res_tag": "ur_exchange_item",
+    "time": "always",
+    "mark": 20200917
   },
   "4011": {
     "id": 4011,
@@ -4122,21 +4078,23 @@
     },
     "mark": 20210617
   },
-  "711": {
-    "id": 711,
-    "page_info": {
-      "ui_name": "UrExchangeItemPage",
-      "class_name": "UrExchangeItemPage"
-    },
+  "992": {
+    "id": 992,
+    "title_res_tag": "",
     "config_client": "",
-    "config_data": "",
-    "is_show": 3,
+    "config_data": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "is_show": 0,
     "config_id": 0,
     "login_pop": 0,
-    "type": 0,
-    "title_res_tag": "ur_exchange_item",
-    "time": "always",
-    "mark": 20200917
+    "type": 67,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20210527
   },
   "4027": {
     "id": 4027,
@@ -4178,22 +4136,6 @@
     "page_info": "",
     "mark": 20210527
   },
-  "2013": {
-    "id": 2013,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      0,
-      []
-    ],
-    "is_show": 0,
-    "config_id": 5171,
-    "login_pop": 0,
-    "type": 17,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20180726
-  },
   "2029": {
     "id": 2029,
     "title_res_tag": "",
@@ -4226,39 +4168,25 @@
     "page_info": "",
     "mark": 20181122
   },
-  "992": {
-    "id": 992,
+  "964": {
+    "id": 964,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
-      9,
-      10,
-      11,
-      12
+      16597,
+      16598,
+      16599,
+      16600,
+      16601,
+      16602
     ],
     "is_show": 0,
     "config_id": 0,
     "login_pop": 0,
-    "type": 67,
+    "type": 13,
     "time": "stop",
     "page_info": "",
-    "mark": 20210527
-  },
-  "368": {
-    "id": 368,
-    "page_info": {
-      "ui_name": "storyawardpage",
-      "class_name": "StoryAwardPage"
-    },
-    "config_client": "",
-    "config_data": [],
-    "is_show": 1,
-    "config_id": 368,
-    "login_pop": 1,
-    "type": 59,
-    "title_res_tag": "story_award",
-    "time": "always",
-    "mark": 20190911
+    "mark": 20210506
   },
   "2025": {
     "id": 2025,
@@ -4275,6 +4203,22 @@
     "time": "stop",
     "page_info": "",
     "mark": 20181011
+  },
+  "368": {
+    "id": 368,
+    "page_info": {
+      "ui_name": "storyawardpage",
+      "class_name": "StoryAwardPage"
+    },
+    "config_client": "",
+    "config_data": [],
+    "is_show": 1,
+    "config_id": 368,
+    "login_pop": 1,
+    "type": 59,
+    "title_res_tag": "story_award",
+    "time": "always",
+    "mark": 20190911
   },
   "737": {
     "id": 737,
@@ -4345,6 +4289,22 @@
     "time": "stop",
     "page_info": "",
     "mark": 20191010
+  },
+  "2013": {
+    "id": 2013,
+    "title_res_tag": "",
+    "config_client": "",
+    "config_data": [
+      0,
+      []
+    ],
+    "is_show": 0,
+    "config_id": 5171,
+    "login_pop": 0,
+    "type": 17,
+    "time": "stop",
+    "page_info": "",
+    "mark": 20180726
   },
   "4098": {
     "id": 4098,
@@ -4691,8 +4651,8 @@
     "page_info": "",
     "mark": 20210902
   },
-  "2006": {
-    "id": 2006,
+  "2005": {
+    "id": 2005,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
@@ -4700,7 +4660,7 @@
       []
     ],
     "is_show": 0,
-    "config_id": 5101,
+    "config_id": 5091,
     "login_pop": 0,
     "type": 17,
     "time": "stop",
@@ -4786,8 +4746,8 @@
     "page_info": "",
     "mark": 20210527
   },
-  "2005": {
-    "id": 2005,
+  "2004": {
+    "id": 2004,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
@@ -4795,12 +4755,12 @@
       []
     ],
     "is_show": 0,
-    "config_id": 5091,
+    "config_id": 5081,
     "login_pop": 0,
     "type": 17,
     "time": "stop",
     "page_info": "",
-    "mark": 20180426
+    "mark": 20180327
   },
   "983": {
     "id": 983,
@@ -5040,21 +5000,20 @@
     "page_info": "",
     "mark": 20210422
   },
-  "2004": {
-    "id": 2004,
+  "448": {
+    "id": 448,
     "title_res_tag": "",
     "config_client": "",
     "config_data": [
-      0,
-      []
+      446
     ],
     "is_show": 0,
-    "config_id": 5081,
+    "config_id": 4,
     "login_pop": 0,
-    "type": 17,
+    "type": 37,
     "time": "stop",
     "page_info": "",
-    "mark": 20180327
+    "mark": 20191219
   },
   "965": {
     "id": 965,
@@ -5090,21 +5049,6 @@
     "page_info": "",
     "mark": 20210520
   },
-  "448": {
-    "id": 448,
-    "title_res_tag": "",
-    "config_client": "",
-    "config_data": [
-      446
-    ],
-    "is_show": 0,
-    "config_id": 4,
-    "login_pop": 0,
-    "type": 37,
-    "time": "stop",
-    "page_info": "",
-    "mark": 20191219
-  },
   "2001": {
     "id": 2001,
     "title_res_tag": "",
@@ -5120,6 +5064,46 @@
     "time": "stop",
     "page_info": "",
     "mark": 20180327
+  },
+  "4126": {
+    "id": 4126,
+    "time": {
+      "2": [
+        [
+          2021,
+          9,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2021,
+          11,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "config_client": "",
+    "config_data": [
+      17045
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 13,
+    "title_res_tag": "",
+    "page_info": "",
+    "mark": 20210916
   },
   "973": {
     "id": 973,
@@ -5209,46 +5193,6 @@
     "title_res_tag": "",
     "page_info": "",
     "mark": 20200917
-  },
-  "4126": {
-    "id": 4126,
-    "time": {
-      "2": [
-        [
-          2021,
-          9,
-          16
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2021,
-          11,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    },
-    "config_client": "",
-    "config_data": [
-      17045
-    ],
-    "is_show": 0,
-    "config_id": 0,
-    "login_pop": 0,
-    "type": 13,
-    "title_res_tag": "",
-    "page_info": "",
-    "mark": 20210916
   },
   "4125": {
     "id": 4125,
@@ -5560,6 +5504,76 @@
     },
     "mark": 20210916
   },
+  "4117": {
+    "id": 4117,
+    "time": {
+      "2": [
+        [
+          2021,
+          9,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2021,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "config_client": {
+      "1": "commonbg/bg_pt_daofeng",
+      "2": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pt_id": 212,
+      "painting": "zhumo_pt"
+    },
+    "config_data": [
+      1523,
+      1524,
+      1525,
+      1526,
+      1527,
+      1528,
+      1529,
+      1530,
+      1531,
+      1532,
+      1533,
+      1534,
+      1535,
+      1536,
+      1537,
+      1538,
+      1539,
+      1540,
+      1541,
+      1542,
+      1543
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 14,
+    "title_res_tag": "",
+    "page_info": "",
+    "mark": 20210916
+  },
   "6002": {
     "id": 6002,
     "page_info": {
@@ -5618,8 +5632,8 @@
     "time": "stop",
     "mark": 20210708
   },
-  "4116": {
-    "id": 4116,
+  "4115": {
+    "id": 4115,
     "time": {
       "2": [
         [
@@ -5637,7 +5651,7 @@
         [
           2021,
           10,
-          31
+          3
         ],
         [
           23,
@@ -5647,11 +5661,11 @@
       ]
     },
     "config_client": "",
-    "config_data": [],
+    "config_data": "[{31972,100}]",
     "is_show": 0,
-    "config_id": 4,
+    "config_id": 1,
     "login_pop": 0,
-    "type": 30,
+    "type": 27,
     "title_res_tag": "",
     "page_info": "",
     "mark": 20210916
@@ -5755,8 +5769,19 @@
     "page_info": "",
     "mark": 20210812
   },
-  "4115": {
-    "id": 4115,
+  "4114": {
+    "id": 4114,
+    "page_info": {
+      "ui_name": "DaofengPTPage",
+      "class_name": "DaofengPTPage"
+    },
+    "config_client": "",
+    "config_data": [],
+    "is_show": 15,
+    "config_id": 4114,
+    "login_pop": 0,
+    "type": 74,
+    "title_res_tag": "daofeng_pt",
     "time": {
       "2": [
         [
@@ -5774,7 +5799,7 @@
         [
           2021,
           10,
-          3
+          9
         ],
         [
           23,
@@ -5783,14 +5808,6 @@
         ]
       ]
     },
-    "config_client": "",
-    "config_data": "[{31972,100}]",
-    "is_show": 0,
-    "config_id": 1,
-    "login_pop": 0,
-    "type": 27,
-    "title_res_tag": "",
-    "page_info": "",
     "mark": 20210916
   },
   "4093": {
@@ -5845,19 +5862,8 @@
     "time": "stop",
     "mark": 20210902
   },
-  "4114": {
-    "id": 4114,
-    "page_info": {
-      "ui_name": "DaofengPTPage",
-      "class_name": "DaofengPTPage"
-    },
-    "config_client": "",
-    "config_data": [],
-    "is_show": 15,
-    "config_id": 4114,
-    "login_pop": 0,
-    "type": 74,
-    "title_res_tag": "daofeng_pt",
+  "4113": {
+    "id": 4113,
     "time": {
       "2": [
         [
@@ -5875,7 +5881,7 @@
         [
           2021,
           10,
-          9
+          14
         ],
         [
           23,
@@ -5884,6 +5890,19 @@
         ]
       ]
     },
+    "config_client": "",
+    "config_data": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 67,
+    "title_res_tag": "",
+    "page_info": "",
     "mark": 20210916
   },
   "4101": {
@@ -5927,49 +5946,6 @@
     "title_res_tag": "",
     "page_info": "",
     "mark": 20210909
-  },
-  "4113": {
-    "id": 4113,
-    "time": {
-      "2": [
-        [
-          2021,
-          9,
-          16
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2021,
-          10,
-          14
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    },
-    "config_client": "",
-    "config_data": [
-      13,
-      14,
-      15,
-      16
-    ],
-    "is_show": 0,
-    "config_id": 0,
-    "login_pop": 0,
-    "type": 67,
-    "title_res_tag": "",
-    "page_info": "",
-    "mark": 20210916
   },
   "4111": {
     "id": 4111,
@@ -6050,6 +6026,22 @@
     "title_res_tag": "",
     "page_info": "",
     "mark": 20210916
+  },
+  "458": {
+    "id": 458,
+    "page_info": {
+      "ui_name": "AnimeMidtermLoginPage",
+      "class_name": "AnimeMidtermLoginPage"
+    },
+    "config_client": "",
+    "config_data": [],
+    "is_show": 1,
+    "config_id": 15,
+    "login_pop": 3,
+    "type": 3,
+    "title_res_tag": "donghuadenglu",
+    "time": "stop",
+    "mark": 20191226
   },
   "4013": {
     "id": 4013,
@@ -6991,21 +6983,50 @@
     "page_info": "",
     "mark": 20210819
   },
-  "458": {
-    "id": 458,
-    "page_info": {
-      "ui_name": "AnimeMidtermLoginPage",
-      "class_name": "AnimeMidtermLoginPage"
+  "4119": {
+    "id": 4119,
+    "time": {
+      "2": [
+        [
+          2021,
+          9,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2021,
+          10,
+          14
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
     },
     "config_client": "",
-    "config_data": [],
-    "is_show": 1,
-    "config_id": 15,
-    "login_pop": 3,
-    "type": 3,
-    "title_res_tag": "donghuadenglu",
-    "time": "stop",
-    "mark": 20191226
+    "config_data": [
+      1565002,
+      5000,
+      50,
+      0.36,
+      0.6,
+      10
+    ],
+    "is_show": 0,
+    "config_id": 0,
+    "login_pop": 0,
+    "type": 36,
+    "title_res_tag": "",
+    "page_info": "",
+    "mark": 20210916
   },
   "466": {
     "id": 466,
