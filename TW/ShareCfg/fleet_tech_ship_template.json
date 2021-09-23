@@ -496,6 +496,7 @@
     30179,
     30180,
     30181,
+    30184,
     30201,
     30204,
     30205,
@@ -520,6 +521,7 @@
     30313,
     30314,
     30317,
+    30318,
     30401,
     30402,
     30403,
@@ -533,6 +535,7 @@
     30506,
     30507,
     30511,
+    30512,
     30514,
     30601,
     30602,
@@ -540,6 +543,8 @@
     30605,
     30606,
     30607,
+    30608,
+    30609,
     30701,
     30702,
     30703,
@@ -547,6 +552,7 @@
     30705,
     30706,
     30707,
+    30708,
     30801,
     30802,
     30803,
@@ -555,6 +561,7 @@
     30806,
     31201,
     31701,
+    31901,
     39901,
     39902,
     39903,
@@ -1167,22 +1174,22 @@
     "pt_level": 33,
     "max_star": 6
   },
-  "10138": {
-    "pt_get": 6,
+  "30220": {
+    "pt_get": 8,
     "add_get_value": 1,
-    "id": 10138,
-    "class": 10104,
+    "id": 30220,
+    "class": 30205,
     "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 13,
+    "add_get_attr": 4,
+    "pt_upgrage": 16,
     "add_level_shiptype": [
-      1
+      2
     ],
     "add_get_shiptype": [
-      1
+      2
     ],
-    "add_level_attr": 4,
-    "pt_level": 9,
+    "add_level_attr": 3,
+    "pt_level": 12,
     "max_star": 5
   },
   "30158": {
@@ -1357,6 +1364,25 @@
     ],
     "add_level_attr": 1,
     "pt_level": 5,
+    "max_star": 5
+  },
+  "30608": {
+    "pt_get": 8,
+    "add_get_value": 1,
+    "id": 30608,
+    "class": 30605,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 16,
+    "add_level_shiptype": [
+      6,
+      7
+    ],
+    "add_get_shiptype": [
+      6
+    ],
+    "add_level_attr": 5,
+    "pt_level": 12,
     "max_star": 5
   },
   "30162": {
@@ -2686,6 +2712,28 @@
     "pt_level": 16,
     "max_star": 5
   },
+  "30512": {
+    "pt_get": 22,
+    "add_get_value": 1,
+    "id": 30512,
+    "class": 30507,
+    "add_level_value": 2,
+    "add_get_attr": 1,
+    "pt_upgrage": 44,
+    "add_level_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 2,
+    "pt_level": 33,
+    "max_star": 6
+  },
   "20120": {
     "pt_get": 4,
     "add_get_value": 1,
@@ -3495,6 +3543,28 @@
     "pt_level": 60,
     "max_star": 6
   },
+  "90501": {
+    "pt_get": 40,
+    "add_get_value": 1,
+    "id": 90501,
+    "class": 90501,
+    "add_level_value": 2,
+    "add_get_attr": 1,
+    "pt_upgrage": 80,
+    "add_level_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 2,
+    "pt_level": 60,
+    "max_star": 6
+  },
   "10705": {
     "pt_get": 11,
     "add_get_value": 2,
@@ -3515,14 +3585,54 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "30309": {
-    "pt_get": 10,
-    "add_get_value": 1,
-    "id": 30309,
-    "class": 30303,
+  "20706": {
+    "pt_get": 14,
+    "add_get_value": 2,
+    "id": 20706,
+    "class": 20702,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 21,
+    "pt_upgrage": 28,
+    "add_level_shiptype": [
+      6,
+      7
+    ],
+    "add_get_shiptype": [
+      6,
+      7
+    ],
+    "add_level_attr": 6,
+    "pt_level": 21,
+    "max_star": 5
+  },
+  "90401": {
+    "pt_get": 24,
+    "add_get_value": 1,
+    "id": 90401,
+    "class": 90401,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 50,
+    "add_level_shiptype": [
+      4
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 9,
+    "pt_level": 38,
+    "max_star": 5
+  },
+  "90302": {
+    "pt_get": 28,
+    "add_get_value": 1,
+    "id": 90302,
+    "class": 90301,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 56,
     "add_level_shiptype": [
       3,
       13,
@@ -3533,9 +3643,9 @@
       13,
       18
     ],
-    "add_level_attr": 3,
-    "pt_level": 16,
-    "max_star": 5
+    "add_level_attr": 2,
+    "pt_level": 42,
+    "max_star": 6
   },
   "10135": {
     "pt_get": 6,
@@ -3553,6 +3663,24 @@
     ],
     "add_level_attr": 4,
     "pt_level": 9,
+    "max_star": 5
+  },
+  "90201": {
+    "pt_get": 16,
+    "add_get_value": 1,
+    "id": 90201,
+    "class": 90201,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 32,
+    "add_level_shiptype": [
+      2
+    ],
+    "add_get_shiptype": [
+      2
+    ],
+    "add_level_attr": 2,
+    "pt_level": 24,
     "max_star": 5
   },
   "20109": {
@@ -3592,6 +3720,24 @@
     "add_level_attr": 3,
     "pt_level": 8,
     "max_star": 6
+  },
+  "90103": {
+    "pt_get": 16,
+    "add_get_value": 1,
+    "id": 90103,
+    "class": 90104,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 32,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 24,
+    "max_star": 5
   },
   "10738": {
     "pt_get": 17,
@@ -3711,27 +3857,23 @@
     "pt_level": 32,
     "max_star": 6
   },
-  "90501": {
-    "pt_get": 40,
+  "90102": {
+    "pt_get": 16,
     "add_get_value": 1,
-    "id": 90501,
-    "class": 90501,
-    "add_level_value": 2,
+    "id": 90102,
+    "class": 90104,
+    "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 80,
+    "pt_upgrage": 32,
     "add_level_shiptype": [
-      4,
-      5,
-      10
+      1
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
+      1
     ],
-    "add_level_attr": 2,
-    "pt_level": 60,
-    "max_star": 6
+    "add_level_attr": 12,
+    "pt_level": 24,
+    "max_star": 5
   },
   "10707": {
     "pt_get": 11,
@@ -3793,25 +3935,27 @@
     "pt_level": 5,
     "max_star": 4
   },
-  "90401": {
-    "pt_get": 24,
+  "89901": {
+    "pt_get": 34,
     "add_get_value": 1,
-    "id": 90401,
-    "class": 90401,
+    "id": 89901,
+    "class": 80301,
     "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 50,
+    "add_get_attr": 2,
+    "pt_upgrage": 70,
     "add_level_shiptype": [
-      4
+      3,
+      13,
+      18
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
+      3,
+      13,
+      18
     ],
     "add_level_attr": 9,
-    "pt_level": 38,
-    "max_star": 5
+    "pt_level": 52,
+    "max_star": 6
   },
   "10137": {
     "pt_get": 6,
@@ -3887,27 +4031,25 @@
     "pt_level": 5,
     "max_star": 5
   },
-  "90302": {
-    "pt_get": 28,
+  "80801": {
+    "pt_get": 8,
     "add_get_value": 1,
-    "id": 90302,
-    "class": 90301,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 56,
+    "id": 80801,
+    "class": 80801,
+    "add_level_value": 2,
+    "add_get_attr": 2,
+    "pt_upgrage": 16,
     "add_level_shiptype": [
-      3,
-      13,
-      18
+      8,
+      17
     ],
     "add_get_shiptype": [
-      3,
-      13,
-      18
+      8,
+      17
     ],
-    "add_level_attr": 2,
-    "pt_level": 42,
-    "max_star": 6
+    "add_level_attr": 3,
+    "pt_level": 12,
+    "max_star": 5
   },
   "20210": {
     "pt_get": 10,
@@ -4009,40 +4151,46 @@
     "pt_level": 4,
     "max_star": 4
   },
-  "90201": {
-    "pt_get": 16,
+  "80701": {
+    "pt_get": 18,
     "add_get_value": 1,
-    "id": 90201,
-    "class": 90201,
+    "id": 80701,
+    "class": 80701,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 32,
+    "pt_upgrage": 38,
     "add_level_shiptype": [
-      2
+      6,
+      7
     ],
     "add_get_shiptype": [
-      2
+      6,
+      7
     ],
-    "add_level_attr": 2,
-    "pt_level": 24,
+    "add_level_attr": 5,
+    "pt_level": 28,
     "max_star": 5
   },
-  "90103": {
-    "pt_get": 16,
-    "add_get_value": 1,
-    "id": 90103,
-    "class": 90104,
+  "60506": {
+    "pt_get": 24,
+    "add_get_value": 2,
+    "id": 60506,
+    "class": 60502,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 32,
+    "pt_upgrage": 50,
     "add_level_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 2,
-    "pt_level": 24,
+    "add_level_attr": 8,
+    "pt_level": 36,
     "max_star": 5
   },
   "10709": {
@@ -4145,23 +4293,23 @@
     "pt_level": 13,
     "max_star": 5
   },
-  "90102": {
-    "pt_get": 16,
+  "19901": {
+    "pt_get": 15,
     "add_get_value": 1,
-    "id": 90102,
-    "class": 90104,
+    "id": 19901,
+    "class": 10205,
     "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 32,
+    "add_get_attr": 4,
+    "pt_upgrage": 30,
     "add_level_shiptype": [
-      1
+      2
     ],
     "add_get_shiptype": [
-      1
+      2
     ],
-    "add_level_attr": 12,
-    "pt_level": 24,
-    "max_star": 5
+    "add_level_attr": 2,
+    "pt_level": 23,
+    "max_star": 6
   },
   "30606": {
     "pt_get": 8,
@@ -4200,26 +4348,22 @@
     "pt_level": 8,
     "max_star": 5
   },
-  "89901": {
-    "pt_get": 34,
-    "add_get_value": 1,
-    "id": 89901,
-    "class": 80301,
+  "70203": {
+    "pt_get": 24,
+    "add_get_value": 2,
+    "id": 70203,
+    "class": 70203,
     "add_level_value": 1,
-    "add_get_attr": 2,
-    "pt_upgrage": 70,
+    "add_get_attr": 8,
+    "pt_upgrage": 48,
     "add_level_shiptype": [
-      3,
-      13,
-      18
+      2
     ],
     "add_get_shiptype": [
-      3,
-      13,
-      18
+      2
     ],
-    "add_level_attr": 9,
-    "pt_level": 52,
+    "add_level_attr": 2,
+    "pt_level": 36,
     "max_star": 6
   },
   "20214": {
@@ -4240,44 +4384,45 @@
     "pt_level": 8,
     "max_star": 5
   },
-  "80801": {
+  "10722": {
     "pt_get": 8,
     "add_get_value": 1,
-    "id": 80801,
-    "class": 80801,
-    "add_level_value": 2,
-    "add_get_attr": 2,
+    "id": 10722,
+    "class": 10606,
+    "add_level_value": 1,
+    "add_get_attr": 12,
     "pt_upgrage": 16,
     "add_level_shiptype": [
-      8,
-      17
+      6,
+      7
     ],
     "add_get_shiptype": [
-      8,
-      17
+      6
     ],
-    "add_level_attr": 3,
+    "add_level_attr": 6,
     "pt_level": 12,
     "max_star": 5
   },
-  "80701": {
-    "pt_get": 18,
-    "add_get_value": 1,
-    "id": 80701,
-    "class": 80701,
+  "10503": {
+    "pt_get": 11,
+    "add_get_value": 2,
+    "id": 10503,
+    "class": 10502,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 38,
+    "pt_upgrage": 22,
     "add_level_shiptype": [
-      6,
-      7
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      6,
-      7
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 5,
-    "pt_level": 28,
+    "add_level_attr": 6,
+    "pt_level": 16,
     "max_star": 5
   },
   "30511": {
@@ -4320,22 +4465,22 @@
     "pt_level": 9,
     "max_star": 5
   },
-  "30214": {
-    "pt_get": 5,
+  "70102": {
+    "pt_get": 10,
     "add_get_value": 1,
-    "id": 30214,
-    "class": 30204,
+    "id": 70102,
+    "class": 70101,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 11,
+    "pt_upgrage": 22,
     "add_level_shiptype": [
-      2
+      1
     ],
     "add_get_shiptype": [
-      2
+      1
     ],
-    "add_level_attr": 3,
-    "pt_level": 8,
+    "add_level_attr": 4,
+    "pt_level": 16,
     "max_star": 5
   },
   "80501": {
@@ -4380,23 +4525,27 @@
     "pt_level": 26,
     "max_star": 6
   },
-  "70203": {
-    "pt_get": 24,
+  "60505": {
+    "pt_get": 22,
     "add_get_value": 2,
-    "id": 70203,
-    "class": 70203,
+    "id": 60505,
+    "class": 60502,
     "add_level_value": 1,
-    "add_get_attr": 8,
-    "pt_upgrage": 48,
+    "add_get_attr": 1,
+    "pt_upgrage": 44,
     "add_level_shiptype": [
-      2
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      2
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 2,
-    "pt_level": 36,
-    "max_star": 6
+    "add_level_attr": 6,
+    "pt_level": 32,
+    "max_star": 5
   },
   "10205": {
     "pt_get": 9,
@@ -4454,23 +4603,27 @@
     "pt_level": 9,
     "max_star": 5
   },
-  "30110": {
-    "pt_get": 6,
-    "add_get_value": 1,
-    "id": 30110,
-    "class": 30103,
+  "60502": {
+    "pt_get": 40,
+    "add_get_value": 2,
+    "id": 60502,
+    "class": 60501,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 12,
+    "pt_upgrage": 80,
     "add_level_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 8,
-    "pt_level": 9,
-    "max_star": 5
+    "add_level_attr": 2,
+    "pt_level": 60,
+    "max_star": 6
   },
   "20121": {
     "pt_get": 6,
@@ -4507,109 +4660,6 @@
     "add_level_attr": 8,
     "pt_level": 9,
     "max_star": 5
-  },
-  "30601": {
-    "pt_get": 8,
-    "add_get_value": 1,
-    "id": 30601,
-    "class": 30601,
-    "add_level_value": 1,
-    "add_get_attr": 12,
-    "pt_upgrage": 16,
-    "add_level_shiptype": [
-      6,
-      7
-    ],
-    "add_get_shiptype": [
-      6
-    ],
-    "add_level_attr": 6,
-    "pt_level": 12,
-    "max_star": 5
-  },
-  "70102": {
-    "pt_get": 10,
-    "add_get_value": 1,
-    "id": 70102,
-    "class": 70101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 22,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 4,
-    "pt_level": 16,
-    "max_star": 5
-  },
-  "60506": {
-    "pt_get": 24,
-    "add_get_value": 2,
-    "id": 60506,
-    "class": 60502,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 50,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 8,
-    "pt_level": 36,
-    "max_star": 5
-  },
-  "60505": {
-    "pt_get": 22,
-    "add_get_value": 2,
-    "id": 60505,
-    "class": 60502,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 44,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 6,
-    "pt_level": 32,
-    "max_star": 5
-  },
-  "60502": {
-    "pt_get": 40,
-    "add_get_value": 2,
-    "id": 60502,
-    "class": 60501,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 80,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 2,
-    "pt_level": 60,
-    "max_star": 6
   },
   "60302": {
     "pt_get": 28,
@@ -4669,6 +4719,100 @@
     "pt_level": 18,
     "max_star": 5
   },
+  "50202": {
+    "pt_get": 12,
+    "add_get_value": 1,
+    "id": 50202,
+    "class": 50201,
+    "add_level_value": 1,
+    "add_get_attr": 6,
+    "pt_upgrage": 24,
+    "add_level_shiptype": [
+      2
+    ],
+    "add_get_shiptype": [
+      2
+    ],
+    "add_level_attr": 6,
+    "pt_level": 18,
+    "max_star": 5
+  },
+  "50104": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 50104,
+    "class": 50101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 22,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 16,
+    "max_star": 5
+  },
+  "50103": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 50103,
+    "class": 50101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 22,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 16,
+    "max_star": 5
+  },
+  "50102": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 50102,
+    "class": 50101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 22,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 16,
+    "max_star": 5
+  },
+  "40301": {
+    "pt_get": 24,
+    "add_get_value": 1,
+    "id": 40301,
+    "class": 40301,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 48,
+    "add_level_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_get_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_level_attr": 1,
+    "pt_level": 36,
+    "max_star": 5
+  },
   "40502": {
     "pt_get": 40,
     "add_get_value": 1,
@@ -4691,23 +4835,23 @@
     "pt_level": 60,
     "max_star": 6
   },
-  "50202": {
-    "pt_get": 12,
+  "49903": {
+    "pt_get": 30,
     "add_get_value": 1,
-    "id": 50202,
-    "class": 50201,
-    "add_level_value": 1,
-    "add_get_attr": 6,
-    "pt_upgrage": 24,
+    "id": 49903,
+    "class": 40203,
+    "add_level_value": 2,
+    "add_get_attr": 2,
+    "pt_upgrage": 60,
     "add_level_shiptype": [
       2
     ],
     "add_get_shiptype": [
       2
     ],
-    "add_level_attr": 6,
-    "pt_level": 18,
-    "max_star": 5
+    "add_level_attr": 1,
+    "pt_level": 45,
+    "max_star": 6
   },
   "30135": {
     "pt_get": 2,
@@ -4727,23 +4871,27 @@
     "pt_level": 3,
     "max_star": 4
   },
-  "50104": {
-    "pt_get": 10,
+  "49902": {
+    "pt_get": 56,
     "add_get_value": 1,
-    "id": 50104,
-    "class": 50101,
-    "add_level_value": 1,
+    "id": 49902,
+    "class": 40502,
+    "add_level_value": 2,
     "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "pt_upgrage": 114,
     "add_level_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_level_attr": 2,
-    "pt_level": 16,
-    "max_star": 5
+    "pt_level": 86,
+    "max_star": 6
   },
   "10143": {
     "pt_get": 6,
@@ -4763,23 +4911,27 @@
     "pt_level": 9,
     "max_star": 5
   },
-  "50103": {
-    "pt_get": 10,
+  "19902": {
+    "pt_get": 26,
     "add_get_value": 1,
-    "id": 50103,
-    "class": 50101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "id": 19902,
+    "class": 10507,
+    "add_level_value": 2,
+    "add_get_attr": 8,
+    "pt_upgrage": 52,
     "add_level_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      1
+      4,
+      5,
+      10
     ],
     "add_level_attr": 2,
-    "pt_level": 16,
-    "max_star": 5
+    "pt_level": 39,
+    "max_star": 6
   },
   "20125": {
     "pt_get": 4,
@@ -4799,22 +4951,62 @@
     "pt_level": 7,
     "max_star": 5
   },
-  "50102": {
+  "40806": {
     "pt_get": 10,
     "add_get_value": 1,
-    "id": 50102,
-    "class": 50101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "id": 40806,
+    "class": 40801,
+    "add_level_value": 2,
+    "add_get_attr": 8,
+    "pt_upgrage": 20,
     "add_level_shiptype": [
-      1
+      8,
+      17
     ],
     "add_get_shiptype": [
-      1
+      8,
+      17
     ],
-    "add_level_attr": 2,
+    "add_level_attr": 3,
     "pt_level": 16,
+    "max_star": 6
+  },
+  "40805": {
+    "pt_get": 6,
+    "add_get_value": 2,
+    "id": 40805,
+    "class": 40801,
+    "add_level_value": 1,
+    "add_get_attr": 9,
+    "pt_upgrage": 14,
+    "add_level_shiptype": [
+      8,
+      17
+    ],
+    "add_get_shiptype": [
+      8,
+      17
+    ],
+    "add_level_attr": 3,
+    "pt_level": 10,
+    "max_star": 5
+  },
+  "20222": {
+    "pt_get": 4,
+    "add_get_value": 1,
+    "id": 20222,
+    "class": 20207,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 8,
+    "add_level_shiptype": [
+      2
+    ],
+    "add_get_shiptype": [
+      2
+    ],
+    "add_level_attr": 12,
+    "pt_level": 6,
     "max_star": 5
   },
   "40802": {
@@ -4835,42 +5027,6 @@
     ],
     "add_level_attr": 3,
     "pt_level": 16,
-    "max_star": 6
-  },
-  "20222": {
-    "pt_get": 4,
-    "add_get_value": 1,
-    "id": 20222,
-    "class": 20207,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 8,
-    "add_level_shiptype": [
-      2
-    ],
-    "add_get_shiptype": [
-      2
-    ],
-    "add_level_attr": 12,
-    "pt_level": 6,
-    "max_star": 5
-  },
-  "49903": {
-    "pt_get": 30,
-    "add_get_value": 1,
-    "id": 49903,
-    "class": 40203,
-    "add_level_value": 2,
-    "add_get_attr": 2,
-    "pt_upgrage": 60,
-    "add_level_shiptype": [
-      2
-    ],
-    "add_get_shiptype": [
-      2
-    ],
-    "add_level_attr": 1,
-    "pt_level": 45,
     "max_star": 6
   },
   "30201": {
@@ -4909,48 +5065,44 @@
     "pt_level": 9,
     "max_star": 5
   },
-  "49902": {
-    "pt_get": 56,
+  "40801": {
+    "pt_get": 12,
     "add_get_value": 1,
-    "id": 49902,
-    "class": 40502,
+    "id": 40801,
+    "class": 40802,
     "add_level_value": 2,
-    "add_get_attr": 1,
-    "pt_upgrage": 114,
+    "add_get_attr": 8,
+    "pt_upgrage": 24,
     "add_level_shiptype": [
-      4,
-      5,
-      10
+      8,
+      17
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 2,
-    "pt_level": 86,
-    "max_star": 6
-  },
-  "20308": {
-    "pt_get": 8,
-    "add_get_value": 1,
-    "id": 20308,
-    "class": 20304,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 16,
-    "add_level_shiptype": [
-      3,
-      13,
-      18
-    ],
-    "add_get_shiptype": [
-      3,
-      13,
-      18
+      8,
+      17
     ],
     "add_level_attr": 3,
-    "pt_level": 12,
+    "pt_level": 18,
+    "max_star": 6
+  },
+  "30805": {
+    "pt_get": 4,
+    "add_get_value": 2,
+    "id": 30805,
+    "class": 30801,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 8,
+    "add_level_shiptype": [
+      8,
+      17
+    ],
+    "add_get_shiptype": [
+      8,
+      17
+    ],
+    "add_level_attr": 3,
+    "pt_level": 6,
     "max_star": 5
   },
   "20501": {
@@ -4975,25 +5127,25 @@
     "pt_level": 21,
     "max_star": 5
   },
-  "40806": {
-    "pt_get": 10,
+  "40401": {
+    "pt_get": 28,
     "add_get_value": 1,
-    "id": 40806,
-    "class": 40801,
-    "add_level_value": 2,
-    "add_get_attr": 8,
-    "pt_upgrage": 20,
+    "id": 40401,
+    "class": 40401,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 56,
     "add_level_shiptype": [
-      8,
-      17
+      4
     ],
     "add_get_shiptype": [
-      8,
-      17
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 3,
-    "pt_level": 16,
-    "max_star": 6
+    "add_level_attr": 9,
+    "pt_level": 42,
+    "max_star": 5
   },
   "10209": {
     "pt_get": 10,
@@ -5031,24 +5183,26 @@
     "pt_level": 5,
     "max_star": 5
   },
-  "40805": {
-    "pt_get": 6,
-    "add_get_value": 2,
-    "id": 40805,
-    "class": 40801,
+  "40305": {
+    "pt_get": 18,
+    "add_get_value": 1,
+    "id": 40305,
+    "class": 40302,
     "add_level_value": 1,
-    "add_get_attr": 9,
-    "pt_upgrage": 14,
+    "add_get_attr": 1,
+    "pt_upgrage": 38,
     "add_level_shiptype": [
-      8,
-      17
+      3,
+      13,
+      18
     ],
     "add_get_shiptype": [
-      8,
-      17
+      3,
+      13,
+      18
     ],
-    "add_level_attr": 3,
-    "pt_level": 10,
+    "add_level_attr": 2,
+    "pt_level": 28,
     "max_star": 5
   },
   "50101": {
@@ -5069,25 +5223,23 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "40801": {
-    "pt_get": 12,
+  "40203": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 40801,
-    "class": 40802,
-    "add_level_value": 2,
-    "add_get_attr": 8,
-    "pt_upgrage": 24,
+    "id": 40203,
+    "class": 40201,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 14,
     "add_level_shiptype": [
-      8,
-      17
+      2
     ],
     "add_get_shiptype": [
-      8,
-      17
+      2
     ],
-    "add_level_attr": 3,
-    "pt_level": 18,
-    "max_star": 6
+    "add_level_attr": 1,
+    "pt_level": 10,
+    "max_star": 4
   },
   "20129": {
     "pt_get": 4,
@@ -5125,68 +5277,60 @@
     "pt_level": 8,
     "max_star": 5
   },
-  "39904": {
-    "pt_get": 24,
+  "40202": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 39904,
-    "class": 31801,
-    "add_level_value": 1,
-    "add_get_attr": 2,
-    "pt_upgrage": 36,
-    "add_level_shiptype": [
-      3,
-      13,
-      18
-    ],
-    "add_get_shiptype": [
-      3,
-      13,
-      18
-    ],
-    "add_level_attr": 2,
-    "pt_level": 48,
-    "max_star": 6
-  },
-  "40401": {
-    "pt_get": 28,
-    "add_get_value": 1,
-    "id": 40401,
-    "class": 40401,
+    "id": 40202,
+    "class": 40201,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 56,
+    "pt_upgrage": 14,
     "add_level_shiptype": [
-      4
+      2
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
+      2
     ],
-    "add_level_attr": 9,
-    "pt_level": 42,
+    "add_level_attr": 1,
+    "pt_level": 10,
+    "max_star": 4
+  },
+  "30179": {
+    "pt_get": 2,
+    "add_get_value": 1,
+    "id": 30179,
+    "class": 30107,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 4,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 6,
+    "pt_level": 3,
     "max_star": 5
   },
-  "40305": {
-    "pt_get": 18,
-    "add_get_value": 1,
-    "id": 40305,
-    "class": 40302,
+  "30803": {
+    "pt_get": 4,
+    "add_get_value": 2,
+    "id": 30803,
+    "class": 30801,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 38,
+    "pt_upgrage": 8,
     "add_level_shiptype": [
-      3,
-      13,
-      18
+      8,
+      17
     ],
     "add_get_shiptype": [
-      3,
-      13,
-      18
+      8,
+      17
     ],
-    "add_level_attr": 2,
-    "pt_level": 28,
+    "add_level_attr": 3,
+    "pt_level": 6,
     "max_star": 5
   },
   "30205": {
@@ -5225,26 +5369,22 @@
     "pt_level": 6,
     "max_star": 4
   },
-  "40301": {
-    "pt_get": 24,
+  "40135": {
+    "pt_get": 16,
     "add_get_value": 1,
-    "id": 40301,
-    "class": 40301,
+    "id": 40135,
+    "class": 40104,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 48,
+    "pt_upgrage": 32,
     "add_level_shiptype": [
-      3,
-      13,
-      18
+      1
     ],
     "add_get_shiptype": [
-      3,
-      13,
-      18
+      1
     ],
-    "add_level_attr": 1,
-    "pt_level": 36,
+    "add_level_attr": 2,
+    "pt_level": 24,
     "max_star": 5
   },
   "21304": {
@@ -5349,63 +5489,59 @@
     "pt_level": 6,
     "max_star": 5
   },
-  "40203": {
-    "pt_get": 6,
+  "40125": {
+    "pt_get": 14,
     "add_get_value": 1,
-    "id": 40203,
-    "class": 40201,
+    "id": 40125,
+    "class": 40103,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 14,
+    "pt_upgrage": 28,
     "add_level_shiptype": [
-      2
+      1
     ],
     "add_get_shiptype": [
-      2
+      1
     ],
-    "add_level_attr": 1,
-    "pt_level": 10,
-    "max_star": 4
+    "add_level_attr": 2,
+    "pt_level": 20,
+    "max_star": 5
   },
-  "40202": {
-    "pt_get": 6,
+  "40123": {
+    "pt_get": 14,
     "add_get_value": 1,
-    "id": 40202,
-    "class": 40201,
+    "id": 40123,
+    "class": 40103,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 14,
+    "pt_upgrage": 28,
     "add_level_shiptype": [
-      2
+      1
     ],
     "add_get_shiptype": [
-      2
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 20,
+    "max_star": 5
+  },
+  "40121": {
+    "pt_get": 6,
+    "add_get_value": 1,
+    "id": 40121,
+    "class": 40102,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 12,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
     ],
     "add_level_attr": 1,
-    "pt_level": 10,
+    "pt_level": 8,
     "max_star": 4
-  },
-  "10519": {
-    "pt_get": 20,
-    "add_get_value": 1,
-    "id": 10519,
-    "class": 10506,
-    "add_level_value": 2,
-    "add_get_attr": 1,
-    "pt_upgrage": 40,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 8,
-    "pt_level": 30,
-    "max_star": 6
   },
   "20133": {
     "pt_get": 5,
@@ -5423,6 +5559,82 @@
     ],
     "add_level_attr": 12,
     "pt_level": 8,
+    "max_star": 5
+  },
+  "40102": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 40102,
+    "class": 40101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 22,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 16,
+    "max_star": 5
+  },
+  "40101": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 40101,
+    "class": 40101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 22,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 2,
+    "pt_level": 16,
+    "max_star": 5
+  },
+  "39904": {
+    "pt_get": 24,
+    "add_get_value": 1,
+    "id": 39904,
+    "class": 31801,
+    "add_level_value": 1,
+    "add_get_attr": 2,
+    "pt_upgrage": 36,
+    "add_level_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_get_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_level_attr": 2,
+    "pt_level": 48,
+    "max_star": 6
+  },
+  "20102": {
+    "pt_get": 3,
+    "add_get_value": 1,
+    "id": 20102,
+    "class": 20101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 7,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 12,
+    "pt_level": 5,
     "max_star": 5
   },
   "39902": {
@@ -5446,78 +5658,6 @@
     "add_level_attr": 2,
     "pt_level": 36,
     "max_star": 6
-  },
-  "40135": {
-    "pt_get": 16,
-    "add_get_value": 1,
-    "id": 40135,
-    "class": 40104,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 32,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 2,
-    "pt_level": 24,
-    "max_star": 5
-  },
-  "40125": {
-    "pt_get": 14,
-    "add_get_value": 1,
-    "id": 40125,
-    "class": 40103,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 28,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 2,
-    "pt_level": 20,
-    "max_star": 5
-  },
-  "20102": {
-    "pt_get": 3,
-    "add_get_value": 1,
-    "id": 20102,
-    "class": 20101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 7,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 12,
-    "pt_level": 5,
-    "max_star": 5
-  },
-  "40123": {
-    "pt_get": 14,
-    "add_get_value": 1,
-    "id": 40123,
-    "class": 40103,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 28,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 2,
-    "pt_level": 20,
-    "max_star": 5
   },
   "10116": {
     "pt_get": 6,
@@ -5672,23 +5812,23 @@
     "pt_level": 18,
     "max_star": 6
   },
-  "40121": {
+  "31901": {
     "pt_get": 6,
     "add_get_value": 1,
-    "id": 40121,
-    "class": 40102,
+    "id": 31901,
+    "class": 31901,
     "add_level_value": 1,
     "add_get_attr": 1,
     "pt_upgrage": 12,
     "add_level_shiptype": [
-      1
+      19
     ],
     "add_get_shiptype": [
-      1
+      19
     ],
     "add_level_attr": 1,
-    "pt_level": 8,
-    "max_star": 4
+    "pt_level": 9,
+    "max_star": 5
   },
   "20703": {
     "pt_get": 17,
@@ -5710,23 +5850,24 @@
     "pt_level": 26,
     "max_star": 6
   },
-  "40102": {
-    "pt_get": 10,
+  "31701": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 40102,
-    "class": 40101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "id": 31701,
+    "class": 31701,
+    "add_level_value": 2,
+    "add_get_attr": 3,
+    "pt_upgrage": 12,
     "add_level_shiptype": [
-      1
+      17
     ],
     "add_get_shiptype": [
-      1
+      8,
+      17
     ],
-    "add_level_attr": 2,
-    "pt_level": 16,
-    "max_star": 5
+    "add_level_attr": 5,
+    "pt_level": 9,
+    "max_star": 6
   },
   "30180": {
     "pt_get": 8,
@@ -5746,23 +5887,23 @@
     "pt_level": 13,
     "max_star": 5
   },
-  "40101": {
-    "pt_get": 10,
+  "31201": {
+    "pt_get": 9,
     "add_get_value": 1,
-    "id": 40101,
-    "class": 40101,
+    "id": 31201,
+    "class": 31201,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "pt_upgrage": 19,
     "add_level_shiptype": [
-      1
+      12
     ],
     "add_get_shiptype": [
-      1
+      12
     ],
-    "add_level_attr": 2,
-    "pt_level": 16,
-    "max_star": 5
+    "add_level_attr": 1,
+    "pt_level": 14,
+    "max_star": 6
   },
   "40402": {
     "pt_get": 28,
@@ -5820,24 +5961,25 @@
     "pt_level": 32,
     "max_star": 6
   },
-  "31701": {
-    "pt_get": 6,
-    "add_get_value": 1,
-    "id": 31701,
-    "class": 31701,
-    "add_level_value": 2,
-    "add_get_attr": 3,
-    "pt_upgrage": 12,
+  "30802": {
+    "pt_get": 4,
+    "add_get_value": 2,
+    "id": 30802,
+    "class": 30801,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 8,
     "add_level_shiptype": [
+      8,
       17
     ],
     "add_get_shiptype": [
       8,
       17
     ],
-    "add_level_attr": 5,
-    "pt_level": 9,
-    "max_star": 6
+    "add_level_attr": 3,
+    "pt_level": 6,
+    "max_star": 5
   },
   "30308": {
     "pt_get": 9,
@@ -5879,22 +6021,24 @@
     "pt_level": 5,
     "max_star": 4
   },
-  "31201": {
-    "pt_get": 9,
+  "30801": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 31201,
-    "class": 31201,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 19,
+    "id": 30801,
+    "class": 30801,
+    "add_level_value": 2,
+    "add_get_attr": 8,
+    "pt_upgrage": 12,
     "add_level_shiptype": [
-      12
+      8,
+      17
     ],
     "add_get_shiptype": [
-      12
+      8,
+      17
     ],
-    "add_level_attr": 1,
-    "pt_level": 14,
+    "add_level_attr": 3,
+    "pt_level": 9,
     "max_star": 6
   },
   "30213": {
@@ -5933,44 +6077,44 @@
     "pt_level": 15,
     "max_star": 5
   },
-  "30805": {
-    "pt_get": 4,
+  "10502": {
+    "pt_get": 8,
     "add_get_value": 2,
-    "id": 30805,
-    "class": 30801,
+    "id": 10502,
+    "class": 10501,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 8,
+    "pt_upgrage": 16,
     "add_level_shiptype": [
-      8,
-      17
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
-      8,
-      17
+      4,
+      5,
+      10
     ],
-    "add_level_attr": 3,
-    "pt_level": 6,
-    "max_star": 5
+    "add_level_attr": 6,
+    "pt_level": 12,
+    "max_star": 4
   },
-  "30803": {
-    "pt_get": 4,
-    "add_get_value": 2,
-    "id": 30803,
-    "class": 30801,
+  "20126": {
+    "pt_get": 8,
+    "add_get_value": 1,
+    "id": 20126,
+    "class": 20109,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 8,
+    "pt_upgrage": 16,
     "add_level_shiptype": [
-      8,
-      17
+      1
     ],
     "add_get_shiptype": [
-      8,
-      17
+      1
     ],
-    "add_level_attr": 3,
-    "pt_level": 6,
+    "add_level_attr": 9,
+    "pt_level": 12,
     "max_star": 5
   },
   "10304": {
@@ -5995,63 +6139,61 @@
     "pt_level": 12,
     "max_star": 5
   },
-  "30802": {
-    "pt_get": 4,
+  "30701": {
+    "pt_get": 14,
     "add_get_value": 2,
-    "id": 30802,
-    "class": 30801,
+    "id": 30701,
+    "class": 30701,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 8,
+    "pt_upgrage": 28,
     "add_level_shiptype": [
-      8,
-      17
+      6,
+      7
     ],
     "add_get_shiptype": [
-      8,
-      17
+      6,
+      7
     ],
-    "add_level_attr": 3,
-    "pt_level": 6,
-    "max_star": 5
-  },
-  "30801": {
-    "pt_get": 6,
-    "add_get_value": 1,
-    "id": 30801,
-    "class": 30801,
-    "add_level_value": 2,
-    "add_get_attr": 8,
-    "pt_upgrage": 12,
-    "add_level_shiptype": [
-      8,
-      17
-    ],
-    "add_get_shiptype": [
-      8,
-      17
-    ],
-    "add_level_attr": 3,
-    "pt_level": 9,
+    "add_level_attr": 5,
+    "pt_level": 21,
     "max_star": 6
   },
-  "10223": {
-    "pt_get": 10,
+  "20203": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 10223,
-    "class": 10202,
+    "id": 20203,
+    "class": 20201,
     "add_level_value": 1,
-    "add_get_attr": 4,
-    "pt_upgrage": 20,
+    "add_get_attr": 1,
+    "pt_upgrage": 12,
     "add_level_shiptype": [
       2
     ],
     "add_get_shiptype": [
       2
+    ],
+    "add_level_attr": 12,
+    "pt_level": 9,
+    "max_star": 5
+  },
+  "30184": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 30184,
+    "class": 30109,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 20,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
     ],
     "add_level_attr": 2,
     "pt_level": 15,
-    "max_star": 5
+    "max_star": 6
   },
   "30502": {
     "pt_get": 11,
@@ -6075,25 +6217,23 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "30701": {
-    "pt_get": 14,
-    "add_get_value": 2,
-    "id": 30701,
-    "class": 30701,
+  "30214": {
+    "pt_get": 5,
+    "add_get_value": 1,
+    "id": 30214,
+    "class": 30204,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 28,
+    "pt_upgrage": 11,
     "add_level_shiptype": [
-      6,
-      7
+      2
     ],
     "add_get_shiptype": [
-      6,
-      7
+      2
     ],
-    "add_level_attr": 5,
-    "pt_level": 21,
-    "max_star": 6
+    "add_level_attr": 3,
+    "pt_level": 8,
+    "max_star": 5
   },
   "20110": {
     "pt_get": 2,
@@ -6112,24 +6252,6 @@
     "add_level_attr": 1,
     "pt_level": 3,
     "max_star": 4
-  },
-  "20103": {
-    "pt_get": 3,
-    "add_get_value": 1,
-    "id": 20103,
-    "class": 20101,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 7,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 12,
-    "pt_level": 5,
-    "max_star": 5
   },
   "30603": {
     "pt_get": 6,
@@ -6150,6 +6272,25 @@
     "pt_level": 9,
     "max_star": 5
   },
+  "30602": {
+    "pt_get": 8,
+    "add_get_value": 1,
+    "id": 30602,
+    "class": 30601,
+    "add_level_value": 1,
+    "add_get_attr": 12,
+    "pt_upgrage": 16,
+    "add_level_shiptype": [
+      6,
+      7
+    ],
+    "add_get_shiptype": [
+      6
+    ],
+    "add_level_attr": 6,
+    "pt_level": 12,
+    "max_star": 5
+  },
   "20207": {
     "pt_get": 8,
     "add_get_value": 1,
@@ -6168,10 +6309,10 @@
     "pt_level": 12,
     "max_star": 5
   },
-  "30602": {
+  "30601": {
     "pt_get": 8,
     "add_get_value": 1,
-    "id": 30602,
+    "id": 30601,
     "class": 30601,
     "add_level_value": 1,
     "add_get_attr": 12,
@@ -6227,25 +6368,23 @@
     "pt_level": 14,
     "max_star": 6
   },
-  "10503": {
-    "pt_get": 11,
-    "add_get_value": 2,
-    "id": 10503,
-    "class": 10502,
+  "30401": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 30401,
+    "class": 30401,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 22,
+    "pt_upgrage": 21,
     "add_level_shiptype": [
-      4,
-      5,
-      10
+      4
     ],
     "add_get_shiptype": [
       4,
       5,
       10
     ],
-    "add_level_attr": 6,
+    "add_level_attr": 9,
     "pt_level": 16,
     "max_star": 5
   },
@@ -6269,25 +6408,27 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "30402": {
-    "pt_get": 10,
+  "30405": {
+    "pt_get": 20,
     "add_get_value": 1,
-    "id": 30402,
-    "class": 30401,
+    "id": 30405,
+    "class": 30402,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 21,
+    "pt_upgrage": 40,
     "add_level_shiptype": [
-      4
+      4,
+      5,
+      10
     ],
     "add_get_shiptype": [
       4,
       5,
       10
     ],
-    "add_level_attr": 9,
-    "pt_level": 16,
-    "max_star": 5
+    "add_level_attr": 2,
+    "pt_level": 30,
+    "max_star": 6
   },
   "10306": {
     "pt_get": 9,
@@ -6310,28 +6451,6 @@
     "add_level_attr": 4,
     "pt_level": 13,
     "max_star": 5
-  },
-  "30405": {
-    "pt_get": 20,
-    "add_get_value": 1,
-    "id": 30405,
-    "class": 30402,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 40,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 2,
-    "pt_level": 30,
-    "max_star": 6
   },
   "30404": {
     "pt_get": 10,
@@ -6373,6 +6492,26 @@
     "pt_level": 16,
     "max_star": 5
   },
+  "30402": {
+    "pt_get": 10,
+    "add_get_value": 1,
+    "id": 30402,
+    "class": 30401,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 21,
+    "add_level_shiptype": [
+      4
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 9,
+    "pt_level": 16,
+    "max_star": 5
+  },
   "30506": {
     "pt_get": 16,
     "add_get_value": 2,
@@ -6395,24 +6534,26 @@
     "pt_level": 24,
     "max_star": 5
   },
-  "30401": {
-    "pt_get": 10,
+  "30318": {
+    "pt_get": 12,
     "add_get_value": 1,
-    "id": 30401,
-    "class": 30401,
+    "id": 30318,
+    "class": 30203,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 21,
+    "pt_upgrage": 24,
     "add_level_shiptype": [
-      4
+      3,
+      13,
+      18
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
+      3,
+      13,
+      18
     ],
-    "add_level_attr": 9,
-    "pt_level": 16,
+    "add_level_attr": 2,
+    "pt_level": 18,
     "max_star": 5
   },
   "20114": {
@@ -6455,23 +6596,27 @@
     "pt_level": 21,
     "max_star": 6
   },
-  "19901": {
-    "pt_get": 15,
+  "30309": {
+    "pt_get": 10,
     "add_get_value": 1,
-    "id": 19901,
-    "class": 10205,
+    "id": 30309,
+    "class": 30303,
     "add_level_value": 1,
-    "add_get_attr": 4,
-    "pt_upgrage": 30,
+    "add_get_attr": 1,
+    "pt_upgrage": 21,
     "add_level_shiptype": [
-      2
+      3,
+      13,
+      18
     ],
     "add_get_shiptype": [
-      2
+      3,
+      13,
+      18
     ],
-    "add_level_attr": 2,
-    "pt_level": 23,
-    "max_star": 6
+    "add_level_attr": 3,
+    "pt_level": 16,
+    "max_star": 5
   },
   "20211": {
     "pt_get": 10,
@@ -6626,6 +6771,24 @@
     "pt_level": 16,
     "max_star": 5
   },
+  "20103": {
+    "pt_get": 3,
+    "add_get_value": 1,
+    "id": 20103,
+    "class": 20101,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 7,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 12,
+    "pt_level": 5,
+    "max_star": 5
+  },
   "10512": {
     "pt_get": 20,
     "add_get_value": 1,
@@ -6666,24 +6829,6 @@
     "pt_level": 9,
     "max_star": 5
   },
-  "30179": {
-    "pt_get": 2,
-    "add_get_value": 1,
-    "id": 30179,
-    "class": 30107,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 4,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 6,
-    "pt_level": 3,
-    "max_star": 5
-  },
   "40201": {
     "pt_get": 6,
     "add_get_value": 1,
@@ -6701,6 +6846,28 @@
     "add_level_attr": 1,
     "pt_level": 10,
     "max_star": 4
+  },
+  "10519": {
+    "pt_get": 20,
+    "add_get_value": 1,
+    "id": 10519,
+    "class": 10506,
+    "add_level_value": 2,
+    "add_get_attr": 1,
+    "pt_upgrage": 40,
+    "add_level_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 8,
+    "pt_level": 30,
+    "max_star": 6
   },
   "10520": {
     "pt_get": 20,
@@ -6724,42 +6891,22 @@
     "pt_level": 30,
     "max_star": 6
   },
-  "20706": {
-    "pt_get": 14,
-    "add_get_value": 2,
-    "id": 20706,
-    "class": 20702,
+  "30154": {
+    "pt_get": 6,
+    "add_get_value": 1,
+    "id": 30154,
+    "class": 30111,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 28,
+    "pt_upgrage": 13,
     "add_level_shiptype": [
-      6,
-      7
+      1
     ],
     "add_get_shiptype": [
-      6,
-      7
+      1
     ],
     "add_level_attr": 6,
-    "pt_level": 21,
-    "max_star": 5
-  },
-  "20126": {
-    "pt_get": 8,
-    "add_get_value": 1,
-    "id": 20126,
-    "class": 20109,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 16,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 9,
-    "pt_level": 12,
+    "pt_level": 9,
     "max_star": 5
   },
   "10124": {
@@ -6836,23 +6983,22 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "10722": {
-    "pt_get": 8,
+  "10223": {
+    "pt_get": 10,
     "add_get_value": 1,
-    "id": 10722,
-    "class": 10606,
+    "id": 10223,
+    "class": 10202,
     "add_level_value": 1,
-    "add_get_attr": 12,
-    "pt_upgrage": 16,
+    "add_get_attr": 4,
+    "pt_upgrage": 20,
     "add_level_shiptype": [
-      6,
-      7
+      2
     ],
     "add_get_shiptype": [
-      6
+      2
     ],
-    "add_level_attr": 6,
-    "pt_level": 12,
+    "add_level_attr": 2,
+    "pt_level": 15,
     "max_star": 5
   },
   "70202": {
@@ -6873,27 +7019,24 @@
     "pt_level": 12,
     "max_star": 5
   },
-  "10514": {
-    "pt_get": 20,
+  "30609": {
+    "pt_get": 8,
     "add_get_value": 1,
-    "id": 10514,
-    "class": 10506,
-    "add_level_value": 2,
-    "add_get_attr": 1,
-    "pt_upgrage": 40,
+    "id": 30609,
+    "class": 30605,
+    "add_level_value": 1,
+    "add_get_attr": 12,
+    "pt_upgrage": 16,
     "add_level_shiptype": [
-      4,
-      5,
-      10
+      6,
+      7
     ],
     "add_get_shiptype": [
-      4,
-      5,
-      10
+      6
     ],
-    "add_level_attr": 4,
-    "pt_level": 30,
-    "max_star": 6
+    "add_level_attr": 6,
+    "pt_level": 12,
+    "max_star": 5
   },
   "30163": {
     "pt_get": 6,
@@ -6935,14 +7078,14 @@
     "pt_level": 16,
     "max_star": 5
   },
-  "19902": {
-    "pt_get": 26,
+  "10514": {
+    "pt_get": 20,
     "add_get_value": 1,
-    "id": 19902,
-    "class": 10507,
+    "id": 10514,
+    "class": 10506,
     "add_level_value": 2,
-    "add_get_attr": 8,
-    "pt_upgrage": 52,
+    "add_get_attr": 1,
+    "pt_upgrage": 40,
     "add_level_shiptype": [
       4,
       5,
@@ -6953,9 +7096,31 @@
       5,
       10
     ],
-    "add_level_attr": 2,
-    "pt_level": 39,
+    "add_level_attr": 4,
+    "pt_level": 30,
     "max_star": 6
+  },
+  "10501": {
+    "pt_get": 8,
+    "add_get_value": 2,
+    "id": 10501,
+    "class": 10501,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 16,
+    "add_level_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_get_shiptype": [
+      4,
+      5,
+      10
+    ],
+    "add_level_attr": 6,
+    "pt_level": 12,
+    "max_star": 4
   },
   "10513": {
     "pt_get": 20,
@@ -6979,28 +7144,6 @@
     "pt_level": 30,
     "max_star": 6
   },
-  "10502": {
-    "pt_get": 8,
-    "add_get_value": 2,
-    "id": 10502,
-    "class": 10501,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 16,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 6,
-    "pt_level": 12,
-    "max_star": 4
-  },
   "30514": {
     "pt_get": 22,
     "add_get_value": 2,
@@ -7023,14 +7166,14 @@
     "pt_level": 33,
     "max_star": 6
   },
-  "30154": {
-    "pt_get": 6,
+  "30131": {
+    "pt_get": 2,
     "add_get_value": 1,
-    "id": 30154,
-    "class": 30111,
+    "id": 30131,
+    "class": 30107,
     "add_level_value": 1,
     "add_get_attr": 1,
-    "pt_upgrage": 13,
+    "pt_upgrage": 4,
     "add_level_shiptype": [
       1
     ],
@@ -7038,7 +7181,7 @@
       1
     ],
     "add_level_attr": 6,
-    "pt_level": 9,
+    "pt_level": 3,
     "max_star": 5
   },
   "30101": {
@@ -7135,6 +7278,26 @@
     "pt_level": 18,
     "max_star": 5
   },
+  "30708": {
+    "pt_get": 26,
+    "add_get_value": 2,
+    "id": 30708,
+    "class": 30707,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 52,
+    "add_level_shiptype": [
+      6,
+      7
+    ],
+    "add_get_shiptype": [
+      6,
+      7
+    ],
+    "add_level_attr": 5,
+    "pt_level": 39,
+    "max_star": 6
+  },
   "20704": {
     "pt_get": 17,
     "add_get_value": 2,
@@ -7154,28 +7317,6 @@
     "add_level_attr": 4,
     "pt_level": 26,
     "max_star": 6
-  },
-  "10501": {
-    "pt_get": 8,
-    "add_get_value": 2,
-    "id": 10501,
-    "class": 10501,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 16,
-    "add_level_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_get_shiptype": [
-      4,
-      5,
-      10
-    ],
-    "add_level_attr": 6,
-    "pt_level": 12,
-    "max_star": 4
   },
   "10729": {
     "pt_get": 8,
@@ -7218,6 +7359,28 @@
     "pt_level": 56,
     "max_star": 6
   },
+  "20308": {
+    "pt_get": 8,
+    "add_get_value": 1,
+    "id": 20308,
+    "class": 20304,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 16,
+    "add_level_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_get_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_level_attr": 3,
+    "pt_level": 12,
+    "max_star": 5
+  },
   "20306": {
     "pt_get": 8,
     "add_get_value": 1,
@@ -7240,28 +7403,6 @@
     "pt_level": 12,
     "max_star": 5
   },
-  "10302": {
-    "pt_get": 5,
-    "add_get_value": 1,
-    "id": 10302,
-    "class": 10301,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 11,
-    "add_level_shiptype": [
-      3,
-      13,
-      18
-    ],
-    "add_get_shiptype": [
-      3,
-      13,
-      18
-    ],
-    "add_level_attr": 4,
-    "pt_level": 8,
-    "max_star": 4
-  },
   "10601": {
     "pt_get": 5,
     "add_get_value": 1,
@@ -7279,6 +7420,24 @@
     ],
     "add_level_attr": 6,
     "pt_level": 7,
+    "max_star": 5
+  },
+  "30110": {
+    "pt_get": 6,
+    "add_get_value": 1,
+    "id": 30110,
+    "class": 30103,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 12,
+    "add_level_shiptype": [
+      1
+    ],
+    "add_get_shiptype": [
+      1
+    ],
+    "add_level_attr": 8,
+    "pt_level": 9,
     "max_star": 5
   },
   "30123": {
@@ -7335,24 +7494,6 @@
     "pt_level": 8,
     "max_star": 5
   },
-  "20203": {
-    "pt_get": 6,
-    "add_get_value": 1,
-    "id": 20203,
-    "class": 20201,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 12,
-    "add_level_shiptype": [
-      2
-    ],
-    "add_get_shiptype": [
-      2
-    ],
-    "add_level_attr": 12,
-    "pt_level": 9,
-    "max_star": 5
-  },
   "30105": {
     "pt_get": 5,
     "add_get_value": 1,
@@ -7371,6 +7512,28 @@
     "pt_level": 8,
     "max_star": 5
   },
+  "10302": {
+    "pt_get": 5,
+    "add_get_value": 1,
+    "id": 10302,
+    "class": 10301,
+    "add_level_value": 1,
+    "add_get_attr": 1,
+    "pt_upgrage": 11,
+    "add_level_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_get_shiptype": [
+      3,
+      13,
+      18
+    ],
+    "add_level_attr": 4,
+    "pt_level": 8,
+    "max_star": 4
+  },
   "30133": {
     "pt_get": 2,
     "add_get_value": 1,
@@ -7388,24 +7551,6 @@
     "add_level_attr": 1,
     "pt_level": 3,
     "max_star": 4
-  },
-  "30131": {
-    "pt_get": 2,
-    "add_get_value": 1,
-    "id": 30131,
-    "class": 30107,
-    "add_level_value": 1,
-    "add_get_attr": 1,
-    "pt_upgrage": 4,
-    "add_level_shiptype": [
-      1
-    ],
-    "add_get_shiptype": [
-      1
-    ],
-    "add_level_attr": 6,
-    "pt_level": 3,
-    "max_star": 5
   },
   "20223": {
     "pt_get": 12,
@@ -7613,22 +7758,22 @@
     "pt_level": 5,
     "max_star": 4
   },
-  "30220": {
-    "pt_get": 8,
+  "10138": {
+    "pt_get": 6,
     "add_get_value": 1,
-    "id": 30220,
-    "class": 30205,
+    "id": 10138,
+    "class": 10104,
     "add_level_value": 1,
-    "add_get_attr": 4,
-    "pt_upgrage": 16,
+    "add_get_attr": 1,
+    "pt_upgrage": 13,
     "add_level_shiptype": [
-      2
+      1
     ],
     "add_get_shiptype": [
-      2
+      1
     ],
-    "add_level_attr": 3,
-    "pt_level": 12,
+    "add_level_attr": 4,
+    "pt_level": 9,
     "max_star": 5
   }
 }
