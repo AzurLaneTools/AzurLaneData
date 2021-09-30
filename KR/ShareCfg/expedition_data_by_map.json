@@ -706,7 +706,7 @@
     "map": 11
   },
   "12": {
-    "bind_map": 0,
+    "bind_map": 212,
     "ani_name": "",
     "destory_icon_suffix": "blue",
     "bg": "Map_12",
@@ -898,6 +898,7 @@
     209,
     210,
     211,
+    212,
     10000,
     70000,
     1040000,
@@ -1200,13 +1201,13 @@
     "name": "맑고 푸른 바다·하|| ||CHAPTER EX||E.X.",
     "map": 1560002
   },
-  "1060001": {
-    "bind_map": 1060011,
-    "ani_name": "feixu",
+  "1380025": {
+    "bind_map": 1380012,
+    "ani_name": "Map_1340004",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060000",
+    "bg": "Map_1340004",
     "ui_type": 1,
-    "on_activity": 55,
+    "on_activity": 20500,
     "clouds_pos": [
       [
         332,
@@ -1236,11 +1237,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
-    "type": 4,
-    "enter_story": "DONGHUO08",
-    "name": "冬活后篇|| ||CHAPTER EX||E.X.",
-    "map": 1060001
+    "bgm": "bgm-cccp2",
+    "type": 8,
+    "enter_story": "",
+    "name": "영원한 밤의 환광·SP|| ||CHAPTER EX||E.X.",
+    "map": 1380025
   },
   "1060000": {
     "bind_map": 1060010,
@@ -1410,32 +1411,11 @@
     "name": "월하의 서곡|| ||SP. CHAPTER||SP.",
     "map": 1130000
   },
-  "1240002": {
-    "bind_map": 1240012,
-    "ani_name": "map_1140002",
+  "1410011": {
+    "bind_map": 1410001,
+    "ani_name": "Map_1350003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140002",
-    "ui_type": 1,
-    "on_activity": 20435,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 4,
-    "enter_story": "FAXI05",
-    "name": "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
-    "map": 1240002
-  },
-  "1410012": {
-    "bind_map": 1410002,
-    "ani_name": "Map_1350004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1350004",
+    "bg": "Map_1350003",
     "ui_type": 3,
     "on_activity": 20550,
     "clouds_pos": [
@@ -1467,11 +1447,53 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "main-newyear",
+    "bgm": "xinnong-1",
     "type": 5,
-    "enter_story": "",
-    "name": "접해몽화·꿈|| ||CHAPTER EX||E.X.",
-    "map": 1410012
+    "enter_story": "DIEHAIMENGHUA1",
+    "name": "접해몽화·현세|| ||CHAPTER EX||E.X.",
+    "map": 1410011
+  },
+  "1240001": {
+    "bind_map": 1240011,
+    "ani_name": "map_1140001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1140001",
+    "ui_type": 1,
+    "on_activity": 20435,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level03",
+    "type": 4,
+    "enter_story": "FAXI01",
+    "name": "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
+    "map": 1240001
   },
   "1060011": {
     "bind_map": 1060001,
@@ -1599,26 +1621,47 @@
     "name": "접해몽화·현세|| ||CHAPTER EX||E.X.",
     "map": 1410001
   },
-  "1240012": {
-    "bind_map": 1240002,
-    "ani_name": "map_1140003",
+  "1270001": {
+    "bind_map": 0,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140003",
+    "bg": "Map_1250001",
     "ui_type": 1,
-    "on_activity": 20435,
-    "clouds_pos": [],
-    "animtor": 1,
+    "on_activity": 20300,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "",
+    "cloud_suffix": "purple",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 5,
-    "enter_story": "FAXI05",
-    "name": "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
-    "map": 1240012
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "ZUIZHENGUIDEBAOWU1",
+    "name": "최고의 보물|| ||CHAPTER SP||S.P. ",
+    "map": 1270001
   },
   "1240011": {
     "bind_map": 1240001,
@@ -3447,35 +3490,14 @@
     "name": "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
     "map": 1210002
   },
-  "1210001": {
-    "bind_map": 1210011,
-    "ani_name": "yinghua_map_effect01",
+  "1140021": {
+    "bind_map": 1140012,
+    "ani_name": "map_1140003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100001",
+    "bg": "Map_1140003",
     "ui_type": 1,
-    "on_activity": 20345,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "on_activity": 20152,
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -3483,11 +3505,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Nagato-map",
-    "type": 4,
-    "enter_story": "YINGHUA1",
-    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
-    "map": 1210001
+    "bgm": "Level-french2",
+    "type": 8,
+    "enter_story": "",
+    "name": "빛과 그림자의 아이리스-EX|| ||CHAPTER EX||E.X. ",
+    "map": 1140021
   },
   "2100071": {
     "bind_map": 2100061,
@@ -5358,13 +5380,13 @@
     "name": "디바인 트래지코미디·SP|| ||CHAPTER EX||E.X.",
     "map": 1470025
   },
-  "1400011": {
-    "bind_map": 1400001,
-    "ani_name": "map_1220003",
+  "1290025": {
+    "bind_map": 1290002,
+    "ani_name": "Map_1270002",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220003",
+    "bg": "Map_1270002",
     "ui_type": 1,
-    "on_activity": 20516,
+    "on_activity": 20324,
     "clouds_pos": [
       [
         332,
@@ -5394,11 +5416,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bsm-1",
-    "type": 5,
-    "enter_story": "TIEXUEYUYINFU1",
-    "name": "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
-    "map": 1400011
+    "bgm": "holo-inochi-inst",
+    "type": 8,
+    "enter_story": "",
+    "name": "환상과 진실의 이중주·SP|| ||CHAPTER EX||E.X.",
+    "map": 1290025
   },
   "1530011": {
     "bind_map": 1530001,
@@ -5656,13 +5678,13 @@
     "name": "솔로몬의 악몽·하",
     "map": 206
   },
-  "1470001": {
-    "bind_map": 1470011,
-    "ani_name": "map_1240001",
+  "1470026": {
+    "bind_map": 1470012,
+    "ani_name": "map_1240008",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1240001",
+    "bg": "Map_1240008",
     "ui_type": 1,
-    "on_activity": 20655,
+    "on_activity": 20656,
     "clouds_pos": [
       [
         332,
@@ -5693,10 +5715,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Battle-italy",
-    "type": 4,
-    "enter_story": "SHENSHENGDEBEIXIJU1",
-    "name": "디바인 트래지코미디·상편|| ||CHAPTER EX||E.X.",
-    "map": 1470001
+    "type": 8,
+    "enter_story": "",
+    "name": "디바인 트래지코미디·EX|| ||CHAPTER EX||E.X.",
+    "map": 1470026
   },
   "207": {
     "bind_map": 7,
@@ -5874,13 +5896,13 @@
     "name": "부흥의 찬송가·하편|| ||CHAPTER EX||E.X.",
     "map": 1500012
   },
-  "202": {
-    "bind_map": 2,
-    "ani_name": "",
+  "1150011": {
+    "bind_map": 1150001,
+    "ani_name": "feixu_hard",
     "destory_icon_suffix": "blue",
-    "bg": "map_202",
+    "bg": "Map_1060001",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 20073,
     "clouds_pos": [
       [
         332,
@@ -5903,18 +5925,18 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
-    "uifx": "UIhuohua2",
-    "cloud_suffix": "white",
-    "level_limit": 5,
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "2",
-    "bgm": "level",
-    "type": 2,
-    "enter_story": "",
-    "name": "출전! 산호해 ",
-    "map": 202
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 5,
+    "enter_story": "DONGHUO01",
+    "name": "어둠에 떨어진 푸른 날개 - 전편|| ||EX CHAPTER||E.X.",
+    "map": 1150011
   },
   "203": {
     "bind_map": 3,
@@ -6126,47 +6148,51 @@
     "name": "어둠에 떨어진 푸른 날개 - 후편|| ||EX CHAPTER||E.X.",
     "map": 1150002
   },
-  "1080000": {
-    "bind_map": 1080010,
-    "ani_name": "nepunepu",
+  "209": {
+    "bind_map": 9,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1080000",
+    "bg": "map_209",
     "ui_type": 1,
-    "on_activity": 20019,
+    "on_activity": 0,
     "clouds_pos": [
       [
-        332,
-        271
+        76,
+        263
       ],
       [
-        896,
-        110
+        881,
+        44
       ],
       [
-        -280,
-        0
+        23,
+        -143
       ],
       [
-        990,
-        -90
+        473,
+        163
       ],
       [
-        0,
-        -465
+        514,
+        -245
+      ],
+      [
+        830,
+        -109
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "purple",
+    "level_limit": 40,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "Level-nep",
-    "type": 4,
+    "title": "9",
+    "bgm": "level",
+    "type": 2,
     "enter_story": "",
-    "name": "다른 차원의 방문자|| ||SP. CHAPTER||SP.",
-    "map": 1080000
+    "name": "쿨라만 해전 ",
+    "map": 209
   },
   "208": {
     "bind_map": 8,
@@ -7075,48 +7101,6 @@
     "name": "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
     "map": 9920001
   },
-  "1480002": {
-    "bind_map": 1480012,
-    "ani_name": "Map_1400002",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1400002",
-    "ui_type": 1,
-    "on_activity": 20691,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "deepblue-image",
-    "type": 4,
-    "enter_story": "POXIAOBINGHUA15",
-    "name": "새벽녘에 비치는 빙화·하편| ||CHAPTER EX||E.X.",
-    "map": 1480002
-  },
   "2200000": {
     "bind_map": 0,
     "ani_name": "",
@@ -7159,13 +7143,13 @@
     "name": "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
     "map": 2200000
   },
-  "1540003": {
-    "bind_map": 1540001,
-    "ani_name": "Map_1430001",
+  "1480002": {
+    "bind_map": 1480012,
+    "ani_name": "Map_1400002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1430001",
+    "bg": "Map_1400002",
     "ui_type": 1,
-    "on_activity": 20805,
+    "on_activity": 20691,
     "clouds_pos": [
       [
         332,
@@ -7195,11 +7179,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Idom-Appeal",
-    "type": 8,
-    "enter_story": "",
-    "name": "바다에 울려퍼지는 아이돌 노래·EX|| ||CHAPTER EX||E.X.",
-    "map": 1540003
+    "bgm": "deepblue-image",
+    "type": 4,
+    "enter_story": "POXIAOBINGHUA15",
+    "name": "새벽녘에 비치는 빙화·하편| ||CHAPTER EX||E.X.",
+    "map": 1480002
   },
   "2100151": {
     "bind_map": 2100141,
@@ -7243,7 +7227,7 @@
     "name": "메탈 블러드, 음표 & 맹세· (하)|| ||CHAPTER EX||E.X.",
     "map": 2100151
   },
-  "1540002": {
+  "1540003": {
     "bind_map": 1540001,
     "ani_name": "Map_1430001",
     "destory_icon_suffix": "blue",
@@ -7282,8 +7266,8 @@
     "bgm": "Idom-Appeal",
     "type": 8,
     "enter_story": "",
-    "name": "바다에 울려퍼지는 아이돌 노래·SP|| ||CHAPTER EX||E.X.",
-    "map": 1540002
+    "name": "바다에 울려퍼지는 아이돌 노래·EX|| ||CHAPTER EX||E.X.",
+    "map": 1540003
   },
   "2100150": {
     "bind_map": 2100140,
@@ -7326,6 +7310,48 @@
     "enter_story": "TIEXUEYUYINFU1",
     "name": "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
     "map": 2100150
+  },
+  "1540002": {
+    "bind_map": 1540001,
+    "ani_name": "Map_1430001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1430001",
+    "ui_type": 1,
+    "on_activity": 20805,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Idom-Appeal",
+    "type": 8,
+    "enter_story": "",
+    "name": "바다에 울려퍼지는 아이돌 노래·SP|| ||CHAPTER EX||E.X.",
+    "map": 1540002
   },
   "2100141": {
     "bind_map": 2100151,
@@ -7411,48 +7437,6 @@
     "name": "청홍의 메아리 (하)|| ||EX. CHAPTER||EX.",
     "map": 2100131
   },
-  "1190021": {
-    "bind_map": 1190011,
-    "ani_name": "icestorm_hard",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
-    "ui_type": 1,
-    "on_activity": 20289,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level03",
-    "type": 8,
-    "enter_story": "",
-    "name": "싸늘한 겨울의 왕관 - 엑스트라|| ||EXTRA CHAPTER||EX.",
-    "map": 1190021
-  },
   "1460012": {
     "bind_map": 1460002,
     "ani_name": "Map_1390004",
@@ -7495,13 +7479,13 @@
     "name": "부상한 작전·하편|| ||CHAPTER EX||E.X.",
     "map": 1460012
   },
-  "1510001": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1190021": {
+    "bind_map": 1190011,
+    "ani_name": "icestorm_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1310001",
+    "bg": "Map_1090001",
     "ui_type": 1,
-    "on_activity": 20748,
+    "on_activity": 20289,
     "clouds_pos": [
       [
         332,
@@ -7524,26 +7508,26 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
     "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "story-french1",
-    "type": 3,
+    "title": "EX",
+    "bgm": "level03",
+    "type": 8,
     "enter_story": "",
-    "name": "어둠 속의 귀로|| ||CHAPTER SP||S.P. ",
-    "map": 1510001
+    "name": "싸늘한 겨울의 왕관 - 엑스트라|| ||EXTRA CHAPTER||EX.",
+    "map": 1190021
   },
-  "1270001": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1060001": {
+    "bind_map": 1060011,
+    "ani_name": "feixu",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1250001",
+    "bg": "Map_1060000",
     "ui_type": 1,
-    "on_activity": 20300,
+    "on_activity": 55,
     "clouds_pos": [
       [
         332,
@@ -7566,18 +7550,102 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "purple",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "ZUIZHENGUIDEBAOWU1",
-    "name": "최고의 보물|| ||CHAPTER SP||S.P. ",
-    "map": 1270001
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 4,
+    "enter_story": "DONGHUO08",
+    "name": "冬活后篇|| ||CHAPTER EX||E.X.",
+    "map": 1060001
+  },
+  "1360025": {
+    "bind_map": 1360012,
+    "ani_name": "map_1320004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1320004",
+    "ui_type": 1,
+    "on_activity": 20464,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level-french2",
+    "type": 8,
+    "enter_story": "",
+    "name": "하늘 아래의 찬송가·SP|| ||CHAPTER EX||E.X.",
+    "map": 1360025
+  },
+  "1460011": {
+    "bind_map": 1460001,
+    "ani_name": "Map_1390003",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1390003",
+    "ui_type": 1,
+    "on_activity": 20639,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "blueocean-image",
+    "type": 5,
+    "enter_story": "FUXIANGXIANZUOZHAN1",
+    "name": "부상한 작전·상편|| ||CHAPTER EX||E.X.",
+    "map": 1460011
   },
   "1360026": {
     "bind_map": 1360012,
@@ -7747,11 +7815,11 @@
     "name": "오퍼레이션 주노|| ||SP. CHAPTER||SP.",
     "map": 1050000
   },
-  "2100110": {
-    "bind_map": 2100100,
-    "ani_name": "yinghua_map_effect03",
+  "2100100": {
+    "bind_map": 2100110,
+    "ani_name": "yinghua_map_effect01",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100011",
+    "bg": "Map_1100001",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -7784,10 +7852,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Nagato-map",
-    "type": 5,
+    "type": 4,
     "enter_story": "YINGHUA1",
     "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
-    "map": 2100110
+    "map": 2100100
   },
   "1300012": {
     "bind_map": 1300002,
@@ -7831,11 +7899,11 @@
     "name": "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
     "map": 1300012
   },
-  "2100100": {
-    "bind_map": 2100110,
-    "ani_name": "yinghua_map_effect01",
+  "2100090": {
+    "bind_map": 2100080,
+    "ani_name": "map_1140002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100001",
+    "bg": "Map_1140002",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -7867,11 +7935,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Nagato-map",
-    "type": 4,
-    "enter_story": "YINGHUA1",
-    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
-    "map": 2100100
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "FAXI01",
+    "name": "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
+    "map": 2100090
   },
   "1480011": {
     "bind_map": 1480001,
@@ -7915,13 +7983,13 @@
     "name": "새벽녘에 비치는 빙화·상편|| ||CHAPTER EX||E.X.",
     "map": 1480011
   },
-  "2100090": {
-    "bind_map": 2100080,
-    "ani_name": "map_1140002",
+  "1250002": {
+    "bind_map": 1250012,
+    "ani_name": "Map_1230002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140002",
+    "bg": "Map_1230002",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 20231,
     "clouds_pos": [
       [
         332,
@@ -7951,11 +8019,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "FAXI01",
-    "name": "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
-    "map": 2100090
+    "bgm": "bsm-1",
+    "type": 4,
+    "enter_story": "XIANGTINGLIAOFA16",
+    "name": "샌드 플레이·하편| ||CHAPTER EX||E.X.",
+    "map": 1250002
   },
   "1480012": {
     "bind_map": 1480002,
@@ -7999,13 +8067,13 @@
     "name": "새벽녘에 비치는 빙화·하편| ||CHAPTER EX||E.X.",
     "map": 1480012
   },
-  "1150011": {
-    "bind_map": 1150001,
-    "ani_name": "feixu_hard",
+  "212": {
+    "bind_map": 12,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060001",
+    "bg": "Map_212",
     "ui_type": 1,
-    "on_activity": 20073,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -8028,48 +8096,27 @@
         -465
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "white",
+    "level_limit": 75,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Story-6",
-    "type": 5,
-    "enter_story": "DONGHUO01",
-    "name": "어둠에 떨어진 푸른 날개 - 전편|| ||EX CHAPTER||E.X.",
-    "map": 1150011
+    "title": "12",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "풍운의 마리아나·상",
+    "map": 212
   },
-  "1250002": {
-    "bind_map": 1250012,
-    "ani_name": "Map_1230002",
+  "1240012": {
+    "bind_map": 1240002,
+    "ani_name": "map_1140003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1230002",
+    "bg": "Map_1140003",
     "ui_type": 1,
-    "on_activity": 20231,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "on_activity": 20435,
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -8077,11 +8124,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "XIANGTINGLIAOFA16",
-    "name": "샌드 플레이·하편| ||CHAPTER EX||E.X.",
-    "map": 1250002
+    "bgm": "Level-french2",
+    "type": 5,
+    "enter_story": "FAXI05",
+    "name": "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
+    "map": 1240012
   },
   "1120001": {
     "bind_map": 1120011,
@@ -8230,48 +8277,6 @@
     "name": "어둠을 쫓는 은익·EX|| ||CHAPTER EX||E.X.",
     "map": 1550026
   },
-  "1180001": {
-    "bind_map": 1180011,
-    "ani_name": "map_1180001",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1180001",
-    "ui_type": 1,
-    "on_activity": 20107,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Nagato-map",
-    "type": 4,
-    "enter_story": "TIANCHENGHUODONG1",
-    "name": "청홍의 메아리 (상)|| ||EX. CHAPTER||EX.",
-    "map": 1180001
-  },
   "2100000": {
     "bind_map": 2100010,
     "ani_name": "fengshan_1",
@@ -8314,11 +8319,11 @@
     "name": "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
     "map": 2100000
   },
-  "1210011": {
-    "bind_map": 1210001,
-    "ani_name": "yinghua_map_effect03",
+  "1210012": {
+    "bind_map": 1210002,
+    "ani_name": "yinghua_map_effect04",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100011",
+    "bg": "Map_1100012",
     "ui_type": 1,
     "on_activity": 20345,
     "clouds_pos": [
@@ -8352,51 +8357,9 @@
     "title": "EX",
     "bgm": "Nagato-map",
     "type": 5,
-    "enter_story": "YINGHUA1",
-    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
-    "map": 1210011
-  },
-  "1190001": {
-    "bind_map": 1190011,
-    "ani_name": "icestorm_hard",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
-    "ui_type": 1,
-    "on_activity": 20289,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level03",
-    "type": 4,
-    "enter_story": "LINGDONG11",
-    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
-    "map": 1190001
+    "enter_story": "YINGHUA9",
+    "name": "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+    "map": 1210012
   },
   "1110002": {
     "bind_map": 1110012,
@@ -8440,13 +8403,13 @@
     "name": "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
     "map": 1110002
   },
-  "1500011": {
-    "bind_map": 1500001,
-    "ani_name": "Map_1410003",
+  "1190001": {
+    "bind_map": 1190011,
+    "ani_name": "icestorm_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1410003",
+    "bg": "Map_1090001",
     "ui_type": 1,
-    "on_activity": 20737,
+    "on_activity": 20289,
     "clouds_pos": [
       [
         332,
@@ -8476,40 +8439,19 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "story-italy",
-    "type": 5,
-    "enter_story": "FUXINGDEZANMEISHI1",
-    "name": "부흥의 찬송가·상편|| ||CHAPTER EX||E.X.",
-    "map": 1500011
+    "bgm": "level03",
+    "type": 4,
+    "enter_story": "LINGDONG11",
+    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+    "map": 1190001
   },
-  "1120021": {
-    "bind_map": 0,
-    "ani_name": "Tornado",
+  "1080000": {
+    "bind_map": 1080010,
+    "ani_name": "nepunepu",
     "destory_icon_suffix": "blue",
-    "bg": "map_1000000",
+    "bg": "Map_1080000",
     "ui_type": 1,
-    "on_activity": 128,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level02",
-    "type": 8,
-    "enter_story": "UIACT20001",
-    "name": "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
-    "map": 1120021
-  },
-  "1050010": {
-    "bind_map": 0,
-    "ani_name": "",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1050000",
-    "ui_type": 1,
-    "on_activity": 106,
+    "on_activity": 20019,
     "clouds_pos": [
       [
         332,
@@ -8532,18 +8474,18 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "white",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "ZHUNUO1",
-    "name": "오퍼레이션 주노|| ||SP. CHAPTER||SP.",
-    "map": 1050010
+    "bgm": "Level-nep",
+    "type": 4,
+    "enter_story": "",
+    "name": "다른 차원의 방문자|| ||SP. CHAPTER||SP.",
+    "map": 1080000
   },
   "1340021": {
     "bind_map": 1340012,
@@ -8587,6 +8529,90 @@
     "name": "청홍의 메아리|| ||EX. CHAPTER||EX.",
     "map": 1340021
   },
+  "1120021": {
+    "bind_map": 0,
+    "ani_name": "Tornado",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1000000",
+    "ui_type": 1,
+    "on_activity": 128,
+    "clouds_pos": [],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level02",
+    "type": 8,
+    "enter_story": "UIACT20001",
+    "name": "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+    "map": 1120021
+  },
+  "1300001": {
+    "bind_map": 1300011,
+    "ani_name": "Map_1280001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1280001",
+    "ui_type": 1,
+    "on_activity": 20352,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "xinnong-1",
+    "type": 4,
+    "enter_story": "FUYINGYINGHUA1",
+    "name": "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
+    "map": 1300001
+  },
+  "1200100": {
+    "bind_map": 0,
+    "ani_name": "map_1200001",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1200001",
+    "ui_type": 1,
+    "on_activity": 20144,
+    "clouds_pos": [],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "",
+    "name": "피오르드의 별|| ||CHAPTER SP||S.P. ",
+    "map": 1200100
+  },
   "1550025": {
     "bind_map": 1550012,
     "ani_name": "Map_1300004",
@@ -8629,55 +8655,13 @@
     "name": "어둠을 쫓는 은익·SP|| ||CHAPTER EX||E.X.",
     "map": 1550025
   },
-  "1500001": {
-    "bind_map": 1500011,
-    "ani_name": "Map_1410001",
+  "1090000": {
+    "bind_map": 1090010,
+    "ani_name": "icestorm",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1410001",
+    "bg": "Map_1090000",
     "ui_type": 1,
-    "on_activity": 20737,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "story-italy",
-    "type": 4,
-    "enter_story": "FUXINGDEZANMEISHI1",
-    "name": "부흥의 찬송가·상편|| ||CHAPTER EX||E.X.",
-    "map": 1500001
-  },
-  "1180012": {
-    "bind_map": 1180002,
-    "ani_name": "map_1180012",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1180002",
-    "ui_type": 1,
-    "on_activity": 20107,
+    "on_activity": 20058,
     "clouds_pos": [
       [
         332,
@@ -8708,10 +8692,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Story-6",
-    "type": 5,
-    "enter_story": "TIANCHENGHUODONG10",
-    "name": "청홍의 메아리 (하)|| ||EX. CHAPTER||EX.",
-    "map": 1180012
+    "type": 4,
+    "enter_story": "LINGDONG01",
+    "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+    "map": 1090000
   },
   "1250026": {
     "bind_map": 1250012,
@@ -8755,13 +8739,13 @@
     "name": "샌드 플레이·EX|| ||CHAPTER EX||E.X.",
     "map": 1250026
   },
-  "1210012": {
-    "bind_map": 1210002,
-    "ani_name": "yinghua_map_effect04",
+  "1180012": {
+    "bind_map": 1180002,
+    "ani_name": "map_1180012",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100012",
+    "bg": "Map_1180002",
     "ui_type": 1,
-    "on_activity": 20345,
+    "on_activity": 20107,
     "clouds_pos": [
       [
         332,
@@ -8791,11 +8775,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Nagato-map",
+    "bgm": "Story-6",
     "type": 5,
-    "enter_story": "YINGHUA9",
-    "name": "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
-    "map": 1210012
+    "enter_story": "TIANCHENGHUODONG10",
+    "name": "청홍의 메아리 (하)|| ||EX. CHAPTER||EX.",
+    "map": 1180012
   },
   "1430002": {
     "bind_map": 1430001,
@@ -8881,13 +8865,13 @@
     "name": "청홍의 메아리 (상)|| ||EX. CHAPTER||EX.",
     "map": 1180011
   },
-  "1090011": {
-    "bind_map": 1090001,
-    "ani_name": "icestorm_hard",
+  "1230002": {
+    "bind_map": 1230012,
+    "ani_name": "map_1220002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
+    "bg": "map_1220002",
     "ui_type": 1,
-    "on_activity": 20058,
+    "on_activity": 20193,
     "clouds_pos": [
       [
         332,
@@ -8917,95 +8901,116 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "LINGDONG11",
-    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
-    "map": 1090011
-  },
-  "1410020": {
-    "bind_map": 1410012,
-    "ani_name": "Map_1350004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1350004",
-    "ui_type": 3,
-    "on_activity": 20550,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-3",
-    "type": 8,
-    "enter_story": "",
-    "name": "접해몽화·SP|| ||CHAPTER EX||E.X.",
-    "map": 1410020
-  },
-  "1330001": {
-    "bind_map": 1330011,
-    "ani_name": "Map_1300001",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1300001",
-    "ui_type": 1,
-    "on_activity": 20425,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "hunhe-story",
+    "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "WEICENGHUNHE1",
-    "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
-    "map": 1330001
+    "enter_story": "TIEXUEYUYINFU10",
+    "name": "메탈 블러드, 음표 & 맹세· (하)| ||CHAPTER EX||E.X.",
+    "map": 1230002
+  },
+  "1300011": {
+    "bind_map": 1300001,
+    "ani_name": "Map_1280003",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1280003",
+    "ui_type": 1,
+    "on_activity": 20352,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "xinnong-1",
+    "type": 5,
+    "enter_story": "FUYINGYINGHUA1",
+    "name": "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
+    "map": 1300011
+  },
+  "1250022": {
+    "bind_map": 0,
+    "ani_name": "",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1230005",
+    "ui_type": 1,
+    "on_activity": 20230,
+    "clouds_pos": [],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "level02",
+    "type": 10,
+    "enter_story": "FENGBAOQIANXI0",
+    "name": "폭풍전야 ",
+    "map": 1250022
+  },
+  "1190010": {
+    "bind_map": 1190000,
+    "ani_name": "icestorm",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1090000",
+    "ui_type": 1,
+    "on_activity": 20289,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 5,
+    "enter_story": "LINGDONG01",
+    "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+    "map": 1190010
   },
   "1120012": {
     "bind_map": 1120002,
@@ -9070,26 +9075,47 @@
     "name": "어둠을 쫓는 은익·하|| ||CHAPTER EX||E.X.",
     "map": 1330002
   },
-  "1250022": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1210011": {
+    "bind_map": 1210001,
+    "ani_name": "yinghua_map_effect03",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1230005",
+    "bg": "Map_1100011",
     "ui_type": 1,
-    "on_activity": 20230,
-    "clouds_pos": [],
-    "animtor": 0,
+    "on_activity": 20345,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
     "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 10,
-    "enter_story": "FENGBAOQIANXI0",
-    "name": "폭풍전야 ",
-    "map": 1250022
+    "title": "EX",
+    "bgm": "Nagato-map",
+    "type": 5,
+    "enter_story": "YINGHUA1",
+    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+    "map": 1210011
   },
   "1090010": {
     "bind_map": 1090000,
@@ -9133,59 +9159,13 @@
     "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
     "map": 1090010
   },
-  "209": {
-    "bind_map": 9,
-    "ani_name": "",
+  "1300002": {
+    "bind_map": 1300012,
+    "ani_name": "Map_1280002",
     "destory_icon_suffix": "blue",
-    "bg": "map_209",
+    "bg": "Map_1280002",
     "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [
-      [
-        76,
-        263
-      ],
-      [
-        881,
-        44
-      ],
-      [
-        23,
-        -143
-      ],
-      [
-        473,
-        163
-      ],
-      [
-        514,
-        -245
-      ],
-      [
-        830,
-        -109
-      ]
-    ],
-    "animtor": 0,
-    "guide_id": "",
-    "uifx": "UIhuohua2",
-    "cloud_suffix": "purple",
-    "level_limit": 40,
-    "drop_by_map_display": "",
-    "title": "9",
-    "bgm": "level",
-    "type": 2,
-    "enter_story": "",
-    "name": "쿨라만 해전 ",
-    "map": 209
-  },
-  "1260026": {
-    "bind_map": 1260012,
-    "ani_name": "map_1240008",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1240008",
-    "ui_type": 1,
-    "on_activity": 20260,
+    "on_activity": 20352,
     "clouds_pos": [
       [
         332,
@@ -9215,40 +9195,19 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Battle-italy",
-    "type": 8,
-    "enter_story": "",
-    "name": "디바인 트래지코미디·EX|| ||CHAPTER EX||E.X.",
-    "map": 1260026
+    "bgm": "bsm-1",
+    "type": 4,
+    "enter_story": "FUYINGYINGHUA13",
+    "name": "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
+    "map": 1300002
   },
-  "1240021": {
-    "bind_map": 1240012,
-    "ani_name": "map_1140003",
+  "1190011": {
+    "bind_map": 1190001,
+    "ani_name": "icestorm_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140003",
+    "bg": "Map_1090001",
     "ui_type": 1,
-    "on_activity": 20435,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 8,
-    "enter_story": "",
-    "name": "빛과 그림자의 아이리스-EX|| ||CHAPTER EX||E.X. ",
-    "map": 1240021
-  },
-  "1260025": {
-    "bind_map": 1260012,
-    "ani_name": "map_1240007",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1240007",
-    "ui_type": 1,
-    "on_activity": 20260,
+    "on_activity": 20289,
     "clouds_pos": [
       [
         332,
@@ -9278,11 +9237,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Battle-italy",
-    "type": 8,
-    "enter_story": "",
-    "name": "디바인 트래지코미디·SP|| ||CHAPTER EX||E.X.",
-    "map": 1260025
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "LINGDONG11",
+    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+    "map": 1190011
   },
   "2100080": {
     "bind_map": 2100090,
@@ -9326,13 +9285,13 @@
     "name": "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
     "map": 2100080
   },
-  "1550011": {
-    "bind_map": 1550001,
-    "ani_name": "Map_1300003",
+  "1260025": {
+    "bind_map": 1260012,
+    "ani_name": "map_1240007",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1300003",
+    "bg": "Map_1240007",
     "ui_type": 1,
-    "on_activity": 20828,
+    "on_activity": 20260,
     "clouds_pos": [
       [
         332,
@@ -9362,11 +9321,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "hunhe-story",
-    "type": 5,
-    "enter_story": "WEICENGHUNHE1",
-    "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
-    "map": 1550011
+    "bgm": "Battle-italy",
+    "type": 8,
+    "enter_story": "",
+    "name": "디바인 트래지코미디·SP|| ||CHAPTER EX||E.X.",
+    "map": 1260025
   },
   "1400020": {
     "bind_map": 1400012,
@@ -9410,13 +9369,13 @@
     "name": "메탈 블러드, 음표 & 맹세·(간주)|| ||CHAPTER EX||E.X.",
     "map": 1400020
   },
-  "1330011": {
-    "bind_map": 1330001,
+  "1550011": {
+    "bind_map": 1550001,
     "ani_name": "Map_1300003",
     "destory_icon_suffix": "blue",
     "bg": "Map_1300003",
     "ui_type": 1,
-    "on_activity": 20425,
+    "on_activity": 20828,
     "clouds_pos": [
       [
         332,
@@ -9450,7 +9409,7 @@
     "type": 5,
     "enter_story": "WEICENGHUNHE1",
     "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
-    "map": 1330011
+    "map": 1550011
   },
   "1460025": {
     "bind_map": 1460012,
@@ -9494,13 +9453,13 @@
     "name": "부상한 작전·SP|| ||CHAPTER EX||E.X.",
     "map": 1460025
   },
-  "1230020": {
-    "bind_map": 1230012,
-    "ani_name": "map_1220004",
+  "1330011": {
+    "bind_map": 1330001,
+    "ani_name": "Map_1300003",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220004",
+    "bg": "Map_1300003",
     "ui_type": 1,
-    "on_activity": 20193,
+    "on_activity": 20425,
     "clouds_pos": [
       [
         332,
@@ -9530,11 +9489,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bsm-1",
-    "type": 8,
-    "enter_story": "",
-    "name": "메탈 블러드, 음표 & 맹세·(간주)|| ||CHAPTER EX||E.X.",
-    "map": 1230020
+    "bgm": "hunhe-story",
+    "type": 5,
+    "enter_story": "WEICENGHUNHE1",
+    "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
+    "map": 1330011
   },
   "1160001": {
     "bind_map": 0,
@@ -9577,6 +9536,90 @@
     "enter_story": "",
     "name": "꿈의 만남|| ||CHAPTER EX||E.X.",
     "map": 1160001
+  },
+  "1230020": {
+    "bind_map": 1230012,
+    "ani_name": "map_1220004",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1220004",
+    "ui_type": 1,
+    "on_activity": 20193,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-1",
+    "type": 8,
+    "enter_story": "",
+    "name": "메탈 블러드, 음표 & 맹세·(간주)|| ||CHAPTER EX||E.X.",
+    "map": 1230020
+  },
+  "1180002": {
+    "bind_map": 1180012,
+    "ani_name": "map_1180002",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1180002",
+    "ui_type": 1,
+    "on_activity": 20107,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 4,
+    "enter_story": "TIANCHENGHUODONG10",
+    "name": "청홍의 메아리 (하)|| ||EX. CHAPTER||EX.",
+    "map": 1180002
   },
   "1550012": {
     "bind_map": 1550002,
@@ -9662,11 +9705,11 @@
     "name": "어둠을 쫓는 은익·하|| ||CHAPTER EX||E.X.",
     "map": 1330012
   },
-  "1180002": {
-    "bind_map": 1180012,
-    "ani_name": "map_1180002",
+  "1180001": {
+    "bind_map": 1180011,
+    "ani_name": "map_1180001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1180002",
+    "bg": "Map_1180001",
     "ui_type": 1,
     "on_activity": 20107,
     "clouds_pos": [
@@ -9698,95 +9741,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
+    "bgm": "Nagato-map",
     "type": 4,
-    "enter_story": "TIANCHENGHUODONG10",
-    "name": "청홍의 메아리 (하)|| ||EX. CHAPTER||EX.",
-    "map": 1180002
-  },
-  "1330025": {
-    "bind_map": 1330012,
-    "ani_name": "Map_1300004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1300004",
-    "ui_type": 1,
-    "on_activity": 20425,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-4",
-    "type": 8,
-    "enter_story": "",
-    "name": "어둠을 쫓는 은익·SP|| ||CHAPTER EX||E.X.",
-    "map": 1330025
-  },
-  "1090000": {
-    "bind_map": 1090010,
-    "ani_name": "icestorm",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090000",
-    "ui_type": 1,
-    "on_activity": 20058,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Story-6",
-    "type": 4,
-    "enter_story": "LINGDONG01",
-    "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
-    "map": 1090000
+    "enter_story": "TIANCHENGHUODONG1",
+    "name": "청홍의 메아리 (상)|| ||EX. CHAPTER||EX.",
+    "map": 1180001
   },
   "2100070": {
     "bind_map": 2100060,
@@ -9872,13 +9831,13 @@
     "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
     "map": 1090001
   },
-  "1190011": {
-    "bind_map": 1190001,
-    "ani_name": "icestorm_hard",
+  "1470001": {
+    "bind_map": 1470011,
+    "ani_name": "map_1240001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
+    "bg": "Map_1240001",
     "ui_type": 1,
-    "on_activity": 20289,
+    "on_activity": 20655,
     "clouds_pos": [
       [
         332,
@@ -9908,11 +9867,95 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "LINGDONG11",
-    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
-    "map": 1190011
+    "bgm": "Battle-italy",
+    "type": 4,
+    "enter_story": "SHENSHENGDEBEIXIJU1",
+    "name": "디바인 트래지코미디·상편|| ||CHAPTER EX||E.X.",
+    "map": 1470001
+  },
+  "2100060": {
+    "bind_map": 2100070,
+    "ani_name": "feixu",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1060000",
+    "ui_type": 1,
+    "on_activity": 0,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 4,
+    "enter_story": "DONGHUO01",
+    "name": "어둠에 떨어진 푸른 날개 - 전편|| ||EX CHAPTER||E.X.",
+    "map": 2100060
+  },
+  "1210001": {
+    "bind_map": 1210011,
+    "ani_name": "yinghua_map_effect01",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1100001",
+    "ui_type": 1,
+    "on_activity": 20345,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Nagato-map",
+    "type": 4,
+    "enter_story": "YINGHUA1",
+    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+    "map": 1210001
   },
   "70000": {
     "bind_map": 0,
@@ -9998,34 +10041,13 @@
     "name": "꿈의 만남-EX|| ||CHAPTER EX||E.X.",
     "map": 1160011
   },
-  "1140021": {
-    "bind_map": 1140012,
-    "ani_name": "map_1140003",
+  "1400021": {
+    "bind_map": 1400012,
+    "ani_name": "map_1220004",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140003",
+    "bg": "map_1220004",
     "ui_type": 1,
-    "on_activity": 20152,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 8,
-    "enter_story": "",
-    "name": "빛과 그림자의 아이리스-EX|| ||CHAPTER EX||E.X. ",
-    "map": 1140021
-  },
-  "1190010": {
-    "bind_map": 1190000,
-    "ani_name": "icestorm",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090000",
-    "ui_type": 1,
-    "on_activity": 20289,
+    "on_activity": 20516,
     "clouds_pos": [
       [
         332,
@@ -10056,10 +10078,52 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Story-6",
-    "type": 5,
+    "type": 8,
+    "enter_story": "",
+    "name": "메탈 블러드, 음표 & 맹세·EX|| ||CHAPTER EX||E.X.",
+    "map": 1400021
+  },
+  "2100020": {
+    "bind_map": 2100030,
+    "ani_name": "icestorm",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1090000",
+    "ui_type": 1,
+    "on_activity": 0,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 4,
     "enter_story": "LINGDONG01",
     "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
-    "map": 1190010
+    "map": 2100020
   },
   "1550002": {
     "bind_map": 1550012,
@@ -10103,13 +10167,13 @@
     "name": "어둠을 쫓는 은익·하|| ||CHAPTER EX||E.X.",
     "map": 1550002
   },
-  "2100060": {
-    "bind_map": 2100070,
-    "ani_name": "feixu",
+  "1530002": {
+    "bind_map": 1530012,
+    "ani_name": "Map_1280002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060000",
+    "bg": "Map_1280002",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 20791,
     "clouds_pos": [
       [
         332,
@@ -10139,11 +10203,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
+    "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "DONGHUO01",
-    "name": "어둠에 떨어진 푸른 날개 - 전편|| ||EX CHAPTER||E.X.",
-    "map": 2100060
+    "enter_story": "FUYINGYINGHUA13",
+    "name": "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
+    "map": 1530002
   },
   "1520011": {
     "bind_map": 1520001,
@@ -10187,13 +10251,13 @@
     "name": "비추는 나선의 경해·상편|| ||CHAPTER EX||E.X.",
     "map": 1520011
   },
-  "1400021": {
-    "bind_map": 1400012,
-    "ani_name": "map_1220004",
+  "1260026": {
+    "bind_map": 1260012,
+    "ani_name": "map_1240008",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220004",
+    "bg": "Map_1240008",
     "ui_type": 1,
-    "on_activity": 20516,
+    "on_activity": 20260,
     "clouds_pos": [
       [
         332,
@@ -10223,95 +10287,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
+    "bgm": "Battle-italy",
     "type": 8,
     "enter_story": "",
-    "name": "메탈 블러드, 음표 & 맹세·EX|| ||CHAPTER EX||E.X.",
-    "map": 1400021
-  },
-  "1360025": {
-    "bind_map": 1360012,
-    "ani_name": "map_1320004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1320004",
-    "ui_type": 1,
-    "on_activity": 20464,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level-french2",
-    "type": 8,
-    "enter_story": "",
-    "name": "하늘 아래의 찬송가·SP|| ||CHAPTER EX||E.X.",
-    "map": 1360025
-  },
-  "1380025": {
-    "bind_map": 1380012,
-    "ani_name": "Map_1340004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1340004",
-    "ui_type": 1,
-    "on_activity": 20500,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bgm-cccp2",
-    "type": 8,
-    "enter_story": "",
-    "name": "영원한 밤의 환광·SP|| ||CHAPTER EX||E.X.",
-    "map": 1380025
+    "name": "디바인 트래지코미디·EX|| ||CHAPTER EX||E.X.",
+    "map": 1260026
   },
   "1400001": {
     "bind_map": 1400011,
@@ -10355,13 +10335,13 @@
     "name": "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
     "map": 1400001
   },
-  "1400002": {
-    "bind_map": 1400012,
-    "ani_name": "map_1220002",
+  "1330001": {
+    "bind_map": 1330011,
+    "ani_name": "Map_1300001",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220002",
+    "bg": "Map_1300001",
     "ui_type": 1,
-    "on_activity": 20516,
+    "on_activity": 20425,
     "clouds_pos": [
       [
         332,
@@ -10391,53 +10371,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bsm-1",
+    "bgm": "hunhe-story",
     "type": 4,
-    "enter_story": "TIEXUEYUYINFU10",
-    "name": "메탈 블러드, 음표 & 맹세· (하)|| ||CHAPTER EX||E.X.",
-    "map": 1400002
-  },
-  "1520012": {
-    "bind_map": 1520002,
-    "ani_name": "Map_1420018",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1420018",
-    "ui_type": 1,
-    "on_activity": 20774,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "deepblue-image",
-    "type": 5,
-    "enter_story": "JINGWEILUOXUAN17",
-    "name": "비추는 나선의 경해·하편|| ||CHAPTER EX||E.X.",
-    "map": 1520012
+    "enter_story": "WEICENGHUNHE1",
+    "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
+    "map": 1330001
   },
   "2100040": {
     "bind_map": 2100050,
@@ -10481,6 +10419,132 @@
     "name": "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
     "map": 2100040
   },
+  "1400011": {
+    "bind_map": 1400001,
+    "ani_name": "map_1220003",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1220003",
+    "ui_type": 1,
+    "on_activity": 20516,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-1",
+    "type": 5,
+    "enter_story": "TIEXUEYUYINFU1",
+    "name": "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
+    "map": 1400011
+  },
+  "1520012": {
+    "bind_map": 1520002,
+    "ani_name": "Map_1420018",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1420018",
+    "ui_type": 1,
+    "on_activity": 20774,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "deepblue-image",
+    "type": 5,
+    "enter_story": "JINGWEILUOXUAN17",
+    "name": "비추는 나선의 경해·하편|| ||CHAPTER EX||E.X.",
+    "map": 1520012
+  },
+  "1050010": {
+    "bind_map": 0,
+    "ani_name": "",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1050000",
+    "ui_type": 1,
+    "on_activity": 106,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "white",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "ZHUNUO1",
+    "name": "오퍼레이션 주노|| ||SP. CHAPTER||SP.",
+    "map": 1050010
+  },
   "1550001": {
     "bind_map": 1550011,
     "ani_name": "Map_1300001",
@@ -10523,35 +10587,14 @@
     "name": "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
     "map": 1550001
   },
-  "1180021": {
-    "bind_map": 1180012,
-    "ani_name": "map_1180012",
+  "1240021": {
+    "bind_map": 1240012,
+    "ani_name": "map_1140003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1180002",
+    "bg": "Map_1140003",
     "ui_type": 1,
-    "on_activity": 20107,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "on_activity": 20435,
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -10559,11 +10602,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
+    "bgm": "Level-french2",
     "type": 8,
     "enter_story": "",
-    "name": "청홍의 메아리|| ||EX. CHAPTER||EX.",
-    "map": 1180021
+    "name": "빛과 그림자의 아이리스-EX|| ||CHAPTER EX||E.X. ",
+    "map": 1240021
   },
   "1230021": {
     "bind_map": 1230012,
@@ -10691,132 +10734,6 @@
     "name": "비추는 나선의 경해·상편|| ||CHAPTER EX||E.X.",
     "map": 1520001
   },
-  "1300002": {
-    "bind_map": 1300012,
-    "ani_name": "Map_1280002",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1280002",
-    "ui_type": 1,
-    "on_activity": 20352,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "FUYINGYINGHUA13",
-    "name": "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
-    "map": 1300002
-  },
-  "1410011": {
-    "bind_map": 1410001,
-    "ani_name": "Map_1350003",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1350003",
-    "ui_type": 3,
-    "on_activity": 20550,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-1",
-    "type": 5,
-    "enter_story": "DIEHAIMENGHUA1",
-    "name": "접해몽화·현세|| ||CHAPTER EX||E.X.",
-    "map": 1410011
-  },
-  "1300001": {
-    "bind_map": 1300011,
-    "ani_name": "Map_1280001",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1280001",
-    "ui_type": 1,
-    "on_activity": 20352,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-1",
-    "type": 4,
-    "enter_story": "FUYINGYINGHUA1",
-    "name": "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
-    "map": 1300001
-  },
   "2100030": {
     "bind_map": 2100020,
     "ani_name": "icestorm",
@@ -10858,6 +10775,132 @@
     "enter_story": "LINGDONG01",
     "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
     "map": 2100030
+  },
+  "1410012": {
+    "bind_map": 1410002,
+    "ani_name": "Map_1350004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1350004",
+    "ui_type": 3,
+    "on_activity": 20550,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "main-newyear",
+    "type": 5,
+    "enter_story": "",
+    "name": "접해몽화·꿈|| ||CHAPTER EX||E.X.",
+    "map": 1410012
+  },
+  "1410020": {
+    "bind_map": 1410012,
+    "ani_name": "Map_1350004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1350004",
+    "ui_type": 3,
+    "on_activity": 20550,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-3",
+    "type": 8,
+    "enter_story": "",
+    "name": "접해몽화·SP|| ||CHAPTER EX||E.X.",
+    "map": 1410020
+  },
+  "1410021": {
+    "bind_map": 1410012,
+    "ani_name": "Map_1350004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1350004",
+    "ui_type": 3,
+    "on_activity": 20550,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-3",
+    "type": 8,
+    "enter_story": "",
+    "name": "접해몽화·EX|| ||CHAPTER EX||E.X.",
+    "map": 1410021
   },
   "1230001": {
     "bind_map": 1230011,
@@ -10943,91 +10986,7 @@
     "name": "비추는 나선의 경해·하편|| ||CHAPTER EX||E.X.",
     "map": 1520002
   },
-  "1230002": {
-    "bind_map": 1230012,
-    "ani_name": "map_1220002",
-    "destory_icon_suffix": "blue",
-    "bg": "map_1220002",
-    "ui_type": 1,
-    "on_activity": 20193,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "TIEXUEYUYINFU10",
-    "name": "메탈 블러드, 음표 & 맹세· (하)| ||CHAPTER EX||E.X.",
-    "map": 1230002
-  },
-  "1410021": {
-    "bind_map": 1410012,
-    "ani_name": "Map_1350004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1350004",
-    "ui_type": 3,
-    "on_activity": 20550,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-3",
-    "type": 8,
-    "enter_story": "",
-    "name": "접해몽화·EX|| ||CHAPTER EX||E.X.",
-    "map": 1410021
-  },
-  "1330026": {
+  "1330025": {
     "bind_map": 1330012,
     "ani_name": "Map_1300004",
     "destory_icon_suffix": "blue",
@@ -11066,113 +11025,8 @@
     "bgm": "xinnong-4",
     "type": 8,
     "enter_story": "",
-    "name": "어둠을 쫓는 은익·EX|| ||CHAPTER EX||E.X.",
-    "map": 1330026
-  },
-  "1200100": {
-    "bind_map": 0,
-    "ani_name": "map_1200001",
-    "destory_icon_suffix": "blue",
-    "bg": "map_1200001",
-    "ui_type": 1,
-    "on_activity": 20144,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "",
-    "name": "피오르드의 별|| ||CHAPTER SP||S.P. ",
-    "map": 1200100
-  },
-  "2100020": {
-    "bind_map": 2100030,
-    "ani_name": "icestorm",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090000",
-    "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Story-6",
-    "type": 4,
-    "enter_story": "LINGDONG01",
-    "name": "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
-    "map": 2100020
-  },
-  "1300011": {
-    "bind_map": 1300001,
-    "ani_name": "Map_1280003",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1280003",
-    "ui_type": 1,
-    "on_activity": 20352,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-1",
-    "type": 5,
-    "enter_story": "FUYINGYINGHUA1",
-    "name": "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
-    "map": 1300011
+    "name": "어둠을 쫓는 은익·SP|| ||CHAPTER EX||E.X.",
+    "map": 1330025
   },
   "1380011": {
     "bind_map": 1380001,
@@ -11216,6 +11070,48 @@
     "name": "영원한 밤의 환광·상|| ||CHAPTER EX||E.X.",
     "map": 1380011
   },
+  "1330026": {
+    "bind_map": 1330012,
+    "ani_name": "Map_1300004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1300004",
+    "ui_type": 1,
+    "on_activity": 20425,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "xinnong-4",
+    "type": 8,
+    "enter_story": "",
+    "name": "어둠을 쫓는 은익·EX|| ||CHAPTER EX||E.X.",
+    "map": 1330026
+  },
   "1220021": {
     "bind_map": 1220001,
     "ani_name": "Map_1210001",
@@ -11258,13 +11154,13 @@
     "name": "버츄얼 연결고리의 공시성·EX|| ||CHAPTER EX||E.X.",
     "map": 1220021
   },
-  "1470026": {
-    "bind_map": 1470012,
-    "ani_name": "map_1240008",
+  "1090011": {
+    "bind_map": 1090001,
+    "ani_name": "icestorm_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1240008",
+    "bg": "Map_1090001",
     "ui_type": 1,
-    "on_activity": 20656,
+    "on_activity": 20058,
     "clouds_pos": [
       [
         332,
@@ -11294,11 +11190,53 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Battle-italy",
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "LINGDONG11",
+    "name": "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+    "map": 1090011
+  },
+  "1180021": {
+    "bind_map": 1180012,
+    "ani_name": "map_1180012",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1180002",
+    "ui_type": 1,
+    "on_activity": 20107,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
     "type": 8,
     "enter_story": "",
-    "name": "디바인 트래지코미디·EX|| ||CHAPTER EX||E.X.",
-    "map": 1470026
+    "name": "청홍의 메아리|| ||EX. CHAPTER||EX.",
+    "map": 1180021
   },
   "1490001": {
     "bind_map": 1490011,
@@ -11383,6 +11321,132 @@
     "enter_story": "",
     "name": "샌드플레이·EX|| ||CHAPTER EX||E.X.",
     "map": 1490026
+  },
+  "1500001": {
+    "bind_map": 1500011,
+    "ani_name": "Map_1410001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1410001",
+    "ui_type": 1,
+    "on_activity": 20737,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "story-italy",
+    "type": 4,
+    "enter_story": "FUXINGDEZANMEISHI1",
+    "name": "부흥의 찬송가·상편|| ||CHAPTER EX||E.X.",
+    "map": 1500001
+  },
+  "1500011": {
+    "bind_map": 1500001,
+    "ani_name": "Map_1410003",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1410003",
+    "ui_type": 1,
+    "on_activity": 20737,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "story-italy",
+    "type": 5,
+    "enter_story": "FUXINGDEZANMEISHI1",
+    "name": "부흥의 찬송가·상편|| ||CHAPTER EX||E.X.",
+    "map": 1500011
+  },
+  "1510001": {
+    "bind_map": 0,
+    "ani_name": "",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1310001",
+    "ui_type": 1,
+    "on_activity": 20748,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "story-french1",
+    "type": 3,
+    "enter_story": "",
+    "name": "어둠 속의 귀로|| ||CHAPTER SP||S.P. ",
+    "map": 1510001
   },
   "1230011": {
     "bind_map": 1230001,
@@ -11510,13 +11574,13 @@
     "name": "메탈 블러드, 음표 & 맹세· (하)| ||CHAPTER EX||E.X.",
     "map": 1230012
   },
-  "1530002": {
-    "bind_map": 1530012,
-    "ani_name": "Map_1280002",
+  "202": {
+    "bind_map": 2,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1280002",
+    "bg": "map_202",
     "ui_type": 1,
-    "on_activity": 20791,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -11539,48 +11603,27 @@
         -465
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "white",
+    "level_limit": 5,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "FUYINGYINGHUA13",
-    "name": "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
-    "map": 1530002
+    "title": "2",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "출전! 산호해 ",
+    "map": 202
   },
-  "1240001": {
-    "bind_map": 1240011,
-    "ani_name": "map_1140001",
+  "1240002": {
+    "bind_map": 1240012,
+    "ani_name": "map_1140002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140001",
+    "bg": "Map_1140002",
     "ui_type": 1,
     "on_activity": 20435,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -11588,11 +11631,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
+    "bgm": "Level-french2",
     "type": 4,
-    "enter_story": "FAXI01",
-    "name": "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
-    "map": 1240001
+    "enter_story": "FAXI05",
+    "name": "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
+    "map": 1240002
   },
   "1560025": {
     "bind_map": 1560012,
@@ -11720,13 +11763,13 @@
     "name": "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
     "map": 2100010
   },
-  "1290025": {
-    "bind_map": 1290002,
-    "ani_name": "Map_1270002",
+  "1400002": {
+    "bind_map": 1400012,
+    "ani_name": "map_1220002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1270002",
+    "bg": "map_1220002",
     "ui_type": 1,
-    "on_activity": 20324,
+    "on_activity": 20516,
     "clouds_pos": [
       [
         332,
@@ -11756,11 +11799,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "holo-inochi-inst",
-    "type": 8,
-    "enter_story": "",
-    "name": "환상과 진실의 이중주·SP|| ||CHAPTER EX||E.X.",
-    "map": 1290025
+    "bgm": "bsm-1",
+    "type": 4,
+    "enter_story": "TIEXUEYUYINFU10",
+    "name": "메탈 블러드, 음표 & 맹세· (하)|| ||CHAPTER EX||E.X.",
+    "map": 1400002
   },
   "2100050": {
     "bind_map": 2100040,
@@ -11930,13 +11973,13 @@
     "name": "빛나는 벚꽃의 그림자·EX|| ||CHAPTER EX||E.X.",
     "map": 1300026
   },
-  "1460011": {
-    "bind_map": 1460001,
-    "ani_name": "Map_1390003",
+  "2100110": {
+    "bind_map": 2100100,
+    "ani_name": "yinghua_map_effect03",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1390003",
+    "bg": "Map_1100011",
     "ui_type": 1,
-    "on_activity": 20639,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -11966,11 +12009,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "blueocean-image",
+    "bgm": "Nagato-map",
     "type": 5,
-    "enter_story": "FUXIANGXIANZUOZHAN1",
-    "name": "부상한 작전·상편|| ||CHAPTER EX||E.X.",
-    "map": 1460011
+    "enter_story": "YINGHUA1",
+    "name": "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+    "map": 2100110
   },
   "2100120": {
     "bind_map": 2100130,
