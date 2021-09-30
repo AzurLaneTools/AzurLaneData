@@ -1193,7 +1193,7 @@
   "course_class_help": {
     "tip": [
       {
-        "info": "대강당 기능 설명:\n\n· 숙련도:\n한계 돌파를 3회 진행한 레벨 100 이상의 함선소녀는 출격 시, 얻게 되는 경험치의 일부에 해당하는 양의 숙련도를 획득할 수 있습니다.\n\n· 대강당 레벨:\n대강당의 레벨을 올리면, 숙련도 보유 상한치, 숙련도 소모속도 및 숙련도 획득 효율이 상승합니다.\n\n· 대강당 수업:\n수업 시간표에 따라서 매일 다른 수업이 이루어집니다.\n\n· 수업 시간표:\n월요일: <구축함 어뢰 수업—어뢰 발사 기술 분석>\n화요일: <순양함 포격 수업—어떻게 정확한 탄약을 선택하는가>\n수요일: <전함 이론 수업—대함거포의 우위 분석>\n목요일: <항공모함 이론 수업—공해 통합 작전의 중요성>\n금요일: <구축함 실전 수업—실용 진형 기술 분석>\n토요일: <순양함 실전 수업—화력 최대화 노하우 분석>\n일요일: 대강당 휴식. 출격 시 획득하는 숙련도가 2배가 됩니다.\n\n(모니터함은 전함 수업 참여 가능/ 공작함, 운송함은 구축함, 순양함 수업 참여 가능/ 항공전함은 항공모함, 전함 수업\n참여 가능/ 잠수함, 잠수항모는 구축함 수업 참여 가능, 초갑순양함은 순양함 수업 참여 가능)\n\n· 수업 참여:\n대강당 수업은 최대 12시간 진행되며, 수업 종료 시 소모한 숙련도가 차감되고, 캐릭터는 경험치를 획득합니다.\n숙소에서 휴식하거나 훈련 중인 캐릭터는 수업에 참여할 수 없습니다.\n수업에 참여한 캐릭터는 컨디션이 저하되며, 컨디션이 나쁘다면 수업에 참여할 수 없습니다."
+        "info": "대강당 기능 상세 정보:\n\n· 숙련도:\n한계돌파 MAX를 달성한 100레벨 캐릭터는 출격 시 획득 경험치에 따라 일정 비율의 숙련도를 획득합니다. 매주 일요일에 출격 시 숙련도 비율 2배로 획득합니다.\n\n· 대강당 레벨:\n대강당 레벨업 시, <color=#92fc63>함선 연습 데이터 베이스 상한, 숙련도 상한, 숙련도 획득 비율</color> 등 관련 수치가 상승합니다.\n\n대강당에서 시간에 따라 함선 출격 시 획득한 숙련도를 소모하여 자동으로 함선 연습 데이터를 생성합니다. 숙련도가 부족한 함선의 연습 데이터 생성 과정은 잠시 중지됩니다.\n\n함선 연습 데이터:\n기타 함선에게 빠르게 경험치를 획득하게 해주는 아이템입니다.\n\n· 대강당 수업:\n시간표에 따라 매일 각각의 수업이 진행됩니다.\n\n· 시간표:\n월요일: 《구축함 뇌장 수업—어뢰 발사 기술 분석》\n화요일: 《순양함 포격 수업—올바른 탄약 선택 방법》\n수요일: 《전함 이론 수업—대포 거함의 우세 분석》\n목요일: 《항공모함 이론 수업—해공 종합 작전의 중요성》\n금요일: 《구축함 실전 수업—실용 진형 기술 분석》\n토요일: 《순양함 실전 수업—화력 최대화 방법 분석》\n일요일: 자율 학습"
       }
     ]
   },
@@ -5014,8 +5014,8 @@
   "equipment_destroyEquipments_error_notEnoughEquip": {
     "tip": "수량이 부족합니다."
   },
-  "class_attr_costproficiency": {
-    "tip": "숙련도 소모"
+  "class_label_upgrading": {
+    "tip": "레벨업 중"
   },
   "text_noPos_buy": {
     "tip": "확장"
@@ -5993,8 +5993,8 @@
   "electrotherapy_wanning": {
     "tip": "안전 구역의 범위가 제한됩니다."
   },
-  "coures_exp_overflow_tip": {
-    "tip": "이번 강화 시 <color=#ffde38>$1</color> 경험치가 초과됩니다. 계속하시겠습니까?"
+  "lesson_endToLearn_error": {
+    "tip": "학습 중지 실패："
   },
   "guild_duty_id_is_null": {
     "tip": "직무를 설정해야 합니다."
@@ -6023,8 +6023,8 @@
   "guild_log_duty_change": {
     "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님의 직무가 $2로 변경되었습니다."
   },
-  "lesson_endToLearn_error": {
-    "tip": "학습 중지 실패："
+  "coures_exp_overflow_tip": {
+    "tip": "이번 강화 시 <color=#ffde38>$1</color> 경험치가 초과됩니다. 계속하시겠습니까?"
   },
   "player_expResource_mail_fullBag": {
     "tip": "자원 최대치 도달. 계속하면 일부 자원을 수령할 수 없습니다. 계속하시겠습니까?"
@@ -6089,14 +6089,14 @@
       }
     ]
   },
-  "class_label_oilfield": {
-    "tip": "연료 생산"
+  "lesson_classOver_error": {
+    "tip": "보상 수령 실패："
   },
   "world_instruction_submarine_3": {
     "tip": "현재 맵에는 잠수함대를 이미 배치하였습니다."
   },
-  "class_label_upgrading": {
-    "tip": "레벨업 중"
+  "class_label_oilfield": {
+    "tip": "연료 생산"
   },
   "world_resource_fill": {
     "tip": "작전 준비 물자 교환권이 최대치에 도달했습니다."
@@ -6113,8 +6113,8 @@
   "world_item_allocate_panel_fleet_info_text": {
     "tip": "미배치tip"
   },
-  "lesson_classOver_error": {
-    "tip": "보상 수령 실패："
+  "class_attr_costproficiency": {
+    "tip": "숙련도 소모"
   },
   "class_attr_proficiency": {
     "tip": "숙련도 상한"
@@ -6747,8 +6747,8 @@
   "msgbox_text_iknow": {
     "tip": "확인"
   },
-  "meta_break": {
-    "tip": "*활성화 후 캐릭터 성급 상승"
+  "meta_energy_preview_title": {
+    "tip": "최종 본체의 기본 속성은 아래와 같습니다."
   },
   "help_newyear_feast": {
     "tip": [
@@ -7478,8 +7478,8 @@
   "battle_preCombatMediator_activity_timeout": {
     "tip": "이벤트가 <color=#92fc63>종료되었습니다</color>. 확인을 터치하면 스테이지 선택 화면으로 돌아갑니다. "
   },
-  "meta_energy_preview_title": {
-    "tip": "최종 본체의 기본 속성은 아래와 같습니다."
+  "meta_break": {
+    "tip": "*활성화 후 캐릭터 성급 상승"
   },
   "event_giveup_fail": {
     "tip": "긴급 귀항 실패："
@@ -9823,7 +9823,7 @@
     "tip": "현재와 동일한 닉네임은 사용할 수 없습니다."
   },
   "word_levelup": {
-    "tip": ""
+    "tip": "레벨업"
   },
   "login_newPlayerScene_name_existOtherChar": {
     "tip": "사용할 수 없는 문자가 포함되어 있습니다."
