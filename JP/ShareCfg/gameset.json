@@ -93,6 +93,21 @@
     "key_value": 10,
     "description": ""
   },
+  "class_upgrade_reset_time": {
+    "key_value": 0,
+    "description": [
+      [
+        2021,
+        9,
+        30
+      ],
+      [
+        16,
+        0,
+        0
+      ]
+    ]
+  },
   "task_first_daily_pre_id": {
     "key_value": 4,
     "description": ""
@@ -251,6 +266,14 @@
     "key_value": 70,
     "description": ""
   },
+  "ship_exp_books": {
+    "key_value": 0,
+    "description": [
+      16501,
+      16502,
+      16503
+    ]
+  },
   "dayandnight_bgm": {
     "key_value": 4050,
     "description": [
@@ -309,53 +332,10 @@
   },
   "main_hard_chapter_list": {
     "key_value": 0,
-    "description": "[10101,10102,10103,10104,10201,10202,10203,10204,10301,10302,10303,10304,10401,10402,10403,10404,10501,10502,10503,10504,10601,10602,10603,10604,10701,10702,10703,10704,10801,10802,10803,10804,10901,10902,10903,10904,11001,11002,11003,11004,11101,11102,11103,11104]"
+    "description": "[10101,10102,10103,10104,10201,10202,10203,10204,10301,10302,10303,10304,10401,10402,10403,10404,10501,10502,10503,10504,10601,10602,10603,10604,10701,10702,10703,10704,10801,10802,10803,10804,10901,10902,10903,10904,11001,11002,11003,11004,11101,11102,11103,11104,11201,11202,11203,11204]"
   },
-  "world_transfer_eventstory": {
-    "key_value": 0,
-    "description": [
-      "W1014"
-    ]
-  },
-  "weekly_target": {
-    "key_value": 0,
-    "description": [
-      50,
-      100,
-      150,
-      200,
-      250,
-      300,
-      350,
-      400,
-      450,
-      500,
-      550,
-      600,
-      650,
-      700,
-      750,
-      800,
-      850,
-      900,
-      950,
-      1000
-    ]
-  },
-  "weekly_bonus_task": {
-    "key_value": 2,
-    "description": ""
-  },
-  "battle_consume_energy": {
-    "key_value": 2,
-    "description": ""
-  },
-  "world_boss_joindamage": {
-    "key_value": 200,
-    "description": ""
-  },
-  "chapter_move_speed_1": {
-    "key_value": 25,
+  "dorm_exp_ratio_by_2": {
+    "key_value": 90,
     "description": ""
   },
   "weekly_drop": {
@@ -382,6 +362,22 @@
       7418,
       7419
     ]
+  },
+  "battle_consume_energy": {
+    "key_value": 2,
+    "description": ""
+  },
+  "weekly_bonus_task": {
+    "key_value": 2,
+    "description": ""
+  },
+  "chapter_move_speed_1": {
+    "key_value": 25,
+    "description": ""
+  },
+  "reactivity_time": {
+    "key_value": 900,
+    "description": ""
   },
   "world_mapbuff_tips": {
     "key_value": 7000,
@@ -435,12 +431,29 @@
     "key_value": 60,
     "description": ""
   },
-  "world_metaboss_supportattack": {
+  "weekly_target": {
     "key_value": 0,
     "description": [
-      31,
-      75,
-      8832
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      550,
+      600,
+      650,
+      700,
+      750,
+      800,
+      850,
+      900,
+      950,
+      1000
     ]
   },
   "world_transfer_eventlist": {
@@ -520,15 +533,12 @@
       11590301
     ]
   },
-  "world_fleet_unlock_level": {
+  "world_metaboss_supportattack": {
     "key_value": 0,
     "description": [
-      [
-        "fleet_totle_level",
-        2,
-        1,
-        480
-      ]
+      31,
+      75,
+      8832
     ]
   },
   "max_commander_bag": {
@@ -539,9 +549,16 @@
     "key_value": 1,
     "description": ""
   },
-  "submarine_move_speed_2": {
-    "key_value": 25,
-    "description": ""
+  "world_fleet_unlock_level": {
+    "key_value": 0,
+    "description": [
+      [
+        "fleet_totle_level",
+        2,
+        1,
+        480
+      ]
+    ]
   },
   "dorm_exp_ratio_comfort_degree": {
     "key_value": 100,
@@ -795,8 +812,8 @@
     "key_value": 30000,
     "description": ""
   },
-  "doa_fever_count": {
-    "key_value": 4,
+  "world_boss_joindamage": {
+    "key_value": 200,
     "description": ""
   },
   "air_dominance_y": {
@@ -832,32 +849,36 @@
     "key_value": 1,
     "description": ""
   },
-  "joint_boss_bonus_time": {
-    "key_value": 86400,
-    "description": ""
+  "doa_fever_buff": {
+    "key_value": 8761,
+    "description": [
+      8765,
+      8767,
+      8769
+    ]
   },
   "air_dominance_s": {
     "key_value": 6,
+    "description": ""
+  },
+  "joint_boss_bonus_time": {
+    "key_value": 86400,
     "description": ""
   },
   "joint_boss_world_time": {
     "key_value": 1800,
     "description": ""
   },
-  "joint_boss_ap_max": {
-    "key_value": 3,
-    "description": ""
-  },
   "world_movepower_recovery_interval": {
     "key_value": 600,
     "description": ""
   },
-  "world_resetting_sairen_chapter": {
-    "key_value": 1,
+  "joint_boss_ap_max": {
+    "key_value": 3,
     "description": ""
   },
-  "joint_boss_ap_recove_cnt_pre_day": {
-    "key_value": 3,
+  "fate_sim_ssr": {
+    "key_value": 165,
     "description": ""
   },
   "air_dominance_p": {
@@ -867,6 +888,21 @@
   "exp_overflow_max": {
     "key_value": 3000000,
     "description": ""
+  },
+  "joint_boss_ap_recove_cnt_pre_day": {
+    "key_value": 3,
+    "description": ""
+  },
+  "air_dominance_level_1": {
+    "key_value": 10011,
+    "description": ""
+  },
+  "world_guide_enemy_id": {
+    "key_value": 0,
+    "description": [
+      314001,
+      314002
+    ]
   },
   "joint_boss_oil_consume": {
     "key_value": 0,
@@ -890,23 +926,8 @@
       1
     ]
   },
-  "air_dominance_level_1": {
-    "key_value": 10011,
-    "description": ""
-  },
-  "world_guide_enemy_id": {
-    "key_value": 0,
-    "description": [
-      314001,
-      314002
-    ]
-  },
   "world_boss_stage": {
     "key_value": 23,
-    "description": ""
-  },
-  "meta_skill_exp_double": {
-    "key_value": 9000,
     "description": ""
   },
   "dorm_intimacy_pop_max": {
@@ -925,13 +946,9 @@
       15
     ]
   },
-  "doa_fever_buff": {
-    "key_value": 8761,
-    "description": [
-      8765,
-      8767,
-      8769
-    ]
+  "meta_skill_exp_double": {
+    "key_value": 9000,
+    "description": ""
   },
   "joint_boss_fighter_max": {
     "key_value": 30,
@@ -945,24 +962,15 @@
     "key_value": 64,
     "description": ""
   },
+  "doa_fever_count": {
+    "key_value": 4,
+    "description": ""
+  },
   "urpt_chapter_max": {
     "key_value": 0,
     "description": [
       59010,
       4000
-    ]
-  },
-  "technology_catchup_itemid": {
-    "key_value": 0,
-    "description": [
-      [
-        20101,
-        10000
-      ],
-      [
-        20102,
-        10000
-      ]
     ]
   },
   "world_resource_max": {
@@ -984,12 +992,21 @@
       500
     ]
   },
-  "language_default": {
-    "key_value": 1,
-    "description": ""
+  "technology_catchup_itemid": {
+    "key_value": 0,
+    "description": [
+      [
+        20101,
+        10000
+      ],
+      [
+        20102,
+        10000
+      ]
+    ]
   },
-  "fate_sim_ssr": {
-    "key_value": 165,
+  "event_tips": {
+    "key_value": 1,
     "description": ""
   },
   "world_boss_resfresh": {
@@ -1010,6 +1027,10 @@
   },
   "commander_exp_a": {
     "key_value": 7000,
+    "description": ""
+  },
+  "world_resetting_sairen_chapter": {
+    "key_value": 1,
     "description": ""
   },
   "award_ship_limit": {
@@ -1041,27 +1062,25 @@
     "key_value": 221,
     "description": ""
   },
-  "vote_web_url": {
-    "key_value": 0,
-    "description": "https://vote.azurlane.jp/"
-  },
   "test_ship_config_2": {
     "key_value": 100011,
     "description": ""
   },
-  "z_project_award": {
+  "vote_web_url": {
     "key_value": 0,
-    "description": [
-      [
-        3,
-        24040,
-        1
-      ]
-    ]
+    "description": "https://vote.azurlane.jp/"
   },
   "dorm_food_ratio_by_6": {
     "key_value": 360,
     "description": ""
+  },
+  "world_sairenbuff_fleeticon": {
+    "key_value": 0,
+    "description": [
+      610,
+      620,
+      630
+    ]
   },
   "technology_protect_num": {
     "key_value": 10,
@@ -1071,18 +1090,23 @@
     "key_value": 150,
     "description": ""
   },
-  "world_catsearch_special": {
+  "commander_get_cost": {
     "key_value": 0,
     "description": [
-      "W1254"
+      [
+        0,
+        4999,
+        1
+      ],
+      [
+        1500,
+        5000,
+        14
+      ]
     ]
   },
   "air_dominance_r": {
     "key_value": 1,
-    "description": ""
-  },
-  "air_dominance_level_5": {
-    "key_value": 10015,
     "description": ""
   },
   "air_dominance_q": {
@@ -1123,24 +1147,24 @@
       ]
     ]
   },
-  "air_dominance_level_4": {
-    "key_value": 10014,
+  "air_dominance_level_5": {
+    "key_value": 10015,
     "description": ""
   },
   "attr_world_value_Z1": {
     "key_value": 10000,
     "description": ""
   },
-  "reactivity_ticket_daily": {
-    "key_value": 4,
+  "air_dominance_level_4": {
+    "key_value": 10014,
+    "description": ""
+  },
+  "commander_rename_open": {
+    "key_value": 1,
     "description": ""
   },
   "air_dominance_level_2": {
     "key_value": 10012,
-    "description": ""
-  },
-  "event_tips": {
-    "key_value": 1,
     "description": ""
   },
   "fate_sim_ur": {
@@ -1164,12 +1188,12 @@
     "key_value": 4,
     "description": ""
   },
-  "big_seven_old_skin_timestamp": {
-    "key_value": 1540396800,
+  "language_default": {
+    "key_value": 1,
     "description": ""
   },
-  "commander_rename_coldtime": {
-    "key_value": 86400,
+  "big_seven_old_skin_timestamp": {
+    "key_value": 1540396800,
     "description": ""
   },
   "strength_cost_gold": {
@@ -1180,8 +1204,8 @@
     "key_value": 100021,
     "description": ""
   },
-  "commander_rename_open": {
-    "key_value": 1,
+  "commander_rename_coldtime": {
+    "key_value": 86400,
     "description": ""
   },
   "world_resetting_stage": {
@@ -1192,12 +1216,12 @@
     "key_value": 10013,
     "description": ""
   },
-  "each_attrib_need_exp": {
-    "key_value": 10,
+  "reactivity_ticket_daily": {
+    "key_value": 4,
     "description": ""
   },
-  "reactivity_time": {
-    "key_value": 900,
+  "dorm_food_ratio_by_2": {
+    "key_value": 180,
     "description": ""
   },
   "boss_cnt_limit": {
@@ -1221,12 +1245,12 @@
     "key_value": 150,
     "description": ""
   },
-  "academy_random_ship_count": {
-    "key_value": 5,
+  "sos_signal_interval": {
+    "key_value": 1800,
     "description": ""
   },
-  "commander_home_number": {
-    "key_value": 8,
+  "academy_random_ship_count": {
+    "key_value": 5,
     "description": ""
   },
   "dorm_exp_base": {
@@ -1237,36 +1261,18 @@
     "key_value": 7000,
     "description": ""
   },
-  "commander_get_cost": {
-    "key_value": 0,
-    "description": [
-      [
-        0,
-        4999,
-        1
-      ],
-      [
-        1500,
-        5000,
-        14
-      ]
-    ]
+  "commander_home_number": {
+    "key_value": 8,
+    "description": ""
   },
   "air_dominance_a": {
     "key_value": 8000,
     "description": ""
   },
-  "commander_skill_reset_cost": {
+  "world_catsearch_special": {
     "key_value": 0,
     "description": [
-      [
-        3000,
-        5600,
-        7800,
-        9600,
-        11000,
-        12000
-      ]
+      "W1254"
     ]
   },
   "level_get_proficency": {
@@ -1328,12 +1334,21 @@
       "showingTime": 0.5
     }
   },
+  "commander_skill_reset_cost": {
+    "key_value": 0,
+    "description": [
+      [
+        3000,
+        5600,
+        7800,
+        9600,
+        11000,
+        12000
+      ]
+    ]
+  },
   "commander_grow_form_b": {
     "key_value": 304,
-    "description": ""
-  },
-  "commander_grow_form_a": {
-    "key_value": 24,
     "description": ""
   },
   "world_supply_itemlist": {
@@ -1342,6 +1357,16 @@
       251,
       252,
       253
+    ]
+  },
+  "commander_grow_form_a": {
+    "key_value": 24,
+    "description": ""
+  },
+  "world_story_recycle_item": {
+    "key_value": 0,
+    "description": [
+      "GWORLDS06"
     ]
   },
   "world_catsearchdrop_show": {
@@ -1449,16 +1474,6 @@
       ]
     ]
   },
-  "world_story_recycle_item": {
-    "key_value": 0,
-    "description": [
-      "GWORLDS06"
-    ]
-  },
-  "commander_form_c": {
-    "key_value": 250,
-    "description": ""
-  },
   "exp_admiral_b": {
     "key_value": 25,
     "description": ""
@@ -1477,11 +1492,9 @@
       2400
     ]
   },
-  "world_catsearch_raritytip": {
-    "key_value": 0,
-    "description": [
-      "W1252"
-    ]
+  "commander_form_c": {
+    "key_value": 250,
+    "description": ""
   },
   "world_sairen_max1": {
     "key_value": 1,
@@ -1495,24 +1508,38 @@
     "key_value": 25000,
     "description": ""
   },
-  "dorm_food_ratio_by_2": {
-    "key_value": 180,
-    "description": ""
+  "world_catsearch_raritytip": {
+    "key_value": 0,
+    "description": [
+      "W1252"
+    ]
   },
-  "same_color_lesson_addition": {
-    "key_value": 50,
+  "world_suggest_level": {
+    "key_value": 0,
+    "description": [
+      0,
+      1980,
+      4400,
+      12100,
+      18975,
+      35640,
+      51840
+    ]
+  },
+  "modify_guild_cost": {
+    "key_value": 100,
     "description": ""
   },
   "commander_ability_limit": {
     "key_value": 5,
     "description": ""
   },
-  "commander_learn_ability_own": {
-    "key_value": 2,
-    "description": ""
-  },
   "exp_admiral_c": {
     "key_value": 5,
+    "description": ""
+  },
+  "commander_learn_ability_own": {
+    "key_value": 2,
     "description": ""
   },
   "commander_skill_exp": {
@@ -1523,16 +1550,12 @@
     "key_value": 12000,
     "description": ""
   },
-  "world_sairenbuff_fleeticon": {
-    "key_value": 0,
-    "description": [
-      610,
-      620,
-      630
-    ]
-  },
   "technology_daily_limit": {
     "key_value": 3,
+    "description": ""
+  },
+  "world_port_taskmax": {
+    "key_value": 7,
     "description": ""
   },
   "world_movelimit_event": {
@@ -1542,14 +1565,6 @@
       20745,
       21530,
       22520
-    ]
-  },
-  "world_instruction_maintenance": {
-    "key_value": 0,
-    "description": [
-      50,
-      28800,
-      310
     ]
   },
   "world_buff_morale": {
@@ -1564,27 +1579,17 @@
     "key_value": 150,
     "description": ""
   },
-  "world_suggest_level": {
+  "world_instruction_maintenance": {
     "key_value": 0,
     "description": [
-      0,
-      1980,
-      4400,
-      12100,
-      18975,
-      35640,
-      51840
+      50,
+      28800,
+      310
     ]
   },
-  "coloring_story": {
-    "key_value": 0,
-    "description": {
-      "1": "ANSHAN01",
-      "2": "ANSHAN02",
-      "3": "ANSHAN03",
-      "5": "ANSHAN04",
-      "7": "ANSHAN05"
-    }
+  "world_move_initial_step": {
+    "key_value": 3,
+    "description": ""
   },
   "world_catsearch_score": {
     "key_value": 0,
@@ -1680,12 +1685,14 @@
     "key_value": 1000,
     "description": ""
   },
-  "world_instruction_supply": {
+  "z_project_award": {
     "key_value": 0,
     "description": [
-      20,
-      1800,
-      310
+      [
+        3,
+        24040,
+        1
+      ]
     ]
   },
   "chapter_move_speed_2": {
@@ -1846,70 +1853,28 @@
       "W400004"
     ]
   },
-  "world_port_service_1_price": {
-    "key_value": 0,
-    "description": [
-      [
-        4000,
-        400
-      ],
-      [
-        7000,
-        300
-      ],
-      [
-        9000,
-        200
-      ],
-      [
-        9500,
-        100
-      ],
-      [
-        10000,
-        50
-      ]
-    ]
-  },
-  "max_gold": {
-    "key_value": 600000,
+  "dorm_food_ratio_by_3": {
+    "key_value": 240,
     "description": ""
   },
   "buy_oil_limit": {
     "key_value": 16,
     "description": ""
   },
-  "first_pay_drop": {
-    "key_value": 4000,
-    "description": [
-      [
-        1,
-        1,
-        3000
-      ],
-      [
-        1,
-        2,
-        500
-      ],
-      [
-        2,
-        20001,
-        3
-      ],
-      [
-        2,
-        15003,
-        3
-      ]
-    ]
+  "attr_world_value_Z2": {
+    "key_value": 10000,
+    "description": ""
+  },
+  "max_gold": {
+    "key_value": 600000,
+    "description": ""
   },
   "dorm_food_ratio_by_1": {
     "key_value": 100,
     "description": ""
   },
-  "dorm_food_ratio_by_3": {
-    "key_value": 240,
+  "dorm_exp_ratio_by_1": {
+    "key_value": 100,
     "description": ""
   },
   "bb_front_awards": {
@@ -1993,10 +1958,6 @@
     "key_value": 300,
     "description": ""
   },
-  "dorm_exp_ratio_by_1": {
-    "key_value": 100,
-    "description": ""
-  },
   "world_mapbuff_list": {
     "key_value": 0,
     "description": [
@@ -2004,6 +1965,10 @@
       402,
       403
     ]
+  },
+  "each_attrib_need_exp": {
+    "key_value": 10,
+    "description": ""
   },
   "reactivity_ticket_max": {
     "key_value": 60,
@@ -2017,24 +1982,31 @@
     "key_value": 10000,
     "description": ""
   },
-  "modify_guild_cost": {
-    "key_value": 100,
+  "submarine_move_speed_2": {
+    "key_value": 25,
     "description": ""
   },
   "academy_random_ship_coldtime": {
     "key_value": 600,
     "description": ""
   },
-  "world_infection_level": {
+  "world_instruction_supply": {
     "key_value": 0,
     "description": [
-      500,
-      1000
+      20,
+      1800,
+      310
     ]
   },
-  "sos_signal_interval": {
-    "key_value": 1800,
-    "description": ""
+  "coloring_story": {
+    "key_value": 0,
+    "description": {
+      "1": "ANSHAN01",
+      "2": "ANSHAN02",
+      "3": "ANSHAN03",
+      "5": "ANSHAN04",
+      "7": "ANSHAN05"
+    }
   },
   "world_move_buff_desc": {
     "key_value": 2,
@@ -2095,9 +2067,30 @@
     "key_value": 16,
     "description": ""
   },
-  "world_move_initial_step": {
-    "key_value": 3,
-    "description": ""
+  "first_pay_drop": {
+    "key_value": 4000,
+    "description": [
+      [
+        1,
+        1,
+        3000
+      ],
+      [
+        1,
+        2,
+        500
+      ],
+      [
+        2,
+        20001,
+        3
+      ],
+      [
+        2,
+        15003,
+        3
+      ]
+    ]
   },
   "world_difficult_value": {
     "key_value": 0,
@@ -2139,21 +2132,15 @@
       ]
     ]
   },
-  "attr_world_value_Z2": {
-    "key_value": 10000,
-    "description": ""
+  "world_transfer_eventstory": {
+    "key_value": 0,
+    "description": [
+      "W1014"
+    ]
   },
   "main_normal_chapter_list": {
     "key_value": 0,
     "description": "[101,102,103,104,201,202,203,204,301,302,303,304,401,402,403,404,501,502,503,504,601,602,603,604,701,702,703,704,801,802,803,804,901,902,903,904,1001,1002,1003,1004,1101,1102,1103,1104,1201,1202,1203,1204,1301,1302,1303,1304]"
-  },
-  "dorm_exp_ratio_by_2": {
-    "key_value": 90,
-    "description": ""
-  },
-  "version_major": {
-    "key_value": 1,
-    "description": ""
   },
   "world_port_service_1_interval": {
     "key_value": 0,
@@ -2176,14 +2163,46 @@
       ]
     ]
   },
+  "version_major": {
+    "key_value": 1,
+    "description": ""
+  },
+  "world_port_service_1_price": {
+    "key_value": 0,
+    "description": [
+      [
+        4000,
+        400
+      ],
+      [
+        7000,
+        300
+      ],
+      [
+        9000,
+        200
+      ],
+      [
+        9500,
+        100
+      ],
+      [
+        10000,
+        50
+      ]
+    ]
+  },
   "world_story_special_1": {
     "key_value": 0,
     "description": [
       "WNX01"
     ]
   },
-  "world_port_taskmax": {
-    "key_value": 7,
-    "description": ""
+  "world_infection_level": {
+    "key_value": 0,
+    "description": [
+      500,
+      1000
+    ]
   }
 }
