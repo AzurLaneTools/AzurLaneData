@@ -9491,18 +9491,6 @@
     "activity": 0,
     "resource_category": 2
   },
-  "50013": {
-    "order": 0,
-    "resource_num": 1200,
-    "id": 50013,
-    "resource_type": 950,
-    "commodity_type": 5,
-    "num_limit": 1,
-    "num": 1,
-    "commodity_id": 8118,
-    "activity": 30252,
-    "resource_category": 1
-  },
   "all": [
     201,
     202,
@@ -10318,6 +10306,8 @@
     10057,
     10059,
     10060,
+    10061,
+    10062,
     11001,
     11002,
     11003,
@@ -10349,15 +10339,51 @@
     50018,
     50020
   ],
-  "50012": {
+  "50008": {
     "order": 0,
-    "resource_num": 2000,
-    "id": 50012,
+    "resource_num": 1000,
+    "id": 50008,
+    "resource_type": 950,
+    "commodity_type": 3,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 3100,
+    "activity": 30252,
+    "resource_category": 1
+  },
+  "50013": {
+    "order": 0,
+    "resource_num": 1200,
+    "id": 50013,
     "resource_type": 950,
     "commodity_type": 5,
     "num_limit": 1,
     "num": 1,
-    "commodity_id": 8103,
+    "commodity_id": 8118,
+    "activity": 30252,
+    "resource_category": 1
+  },
+  "50016": {
+    "order": 0,
+    "resource_num": 300,
+    "id": 50016,
+    "resource_type": 950,
+    "commodity_type": 5,
+    "num_limit": 2,
+    "num": 1,
+    "commodity_id": 8111,
+    "activity": 30252,
+    "resource_category": 1
+  },
+  "50015": {
+    "order": 0,
+    "resource_num": 300,
+    "id": 50015,
+    "resource_type": 950,
+    "commodity_type": 5,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 8107,
     "activity": 30252,
     "resource_category": 1
   },
@@ -10397,39 +10423,15 @@
     "activity": 0,
     "resource_category": 2
   },
-  "50016": {
+  "50012": {
     "order": 0,
-    "resource_num": 300,
-    "id": 50016,
-    "resource_type": 950,
-    "commodity_type": 5,
-    "num_limit": 2,
-    "num": 1,
-    "commodity_id": 8111,
-    "activity": 30252,
-    "resource_category": 1
-  },
-  "50015": {
-    "order": 0,
-    "resource_num": 300,
-    "id": 50015,
+    "resource_num": 2000,
+    "id": 50012,
     "resource_type": 950,
     "commodity_type": 5,
     "num_limit": 1,
     "num": 1,
-    "commodity_id": 8107,
-    "activity": 30252,
-    "resource_category": 1
-  },
-  "50017": {
-    "order": 0,
-    "resource_num": 450,
-    "id": 50017,
-    "resource_type": 950,
-    "commodity_type": 1,
-    "num_limit": 5,
-    "num": 1000,
-    "commodity_id": 2,
+    "commodity_id": 8103,
     "activity": 30252,
     "resource_category": 1
   },
@@ -10445,17 +10447,41 @@
     "activity": 30252,
     "resource_category": 1
   },
-  "50008": {
+  "50017": {
     "order": 0,
-    "resource_num": 1000,
-    "id": 50008,
+    "resource_num": 450,
+    "id": 50017,
+    "resource_type": 950,
+    "commodity_type": 1,
+    "num_limit": 5,
+    "num": 1000,
+    "commodity_id": 2,
+    "activity": 30252,
+    "resource_category": 1
+  },
+  "50007": {
+    "order": 0,
+    "resource_num": 2000,
+    "id": 50007,
     "resource_type": 950,
     "commodity_type": 3,
     "num_limit": 1,
     "num": 1,
-    "commodity_id": 3100,
+    "commodity_id": 47140,
     "activity": 30252,
     "resource_category": 1
+  },
+  "10044": {
+    "order": 1,
+    "resource_num": 1000,
+    "id": 10044,
+    "resource_type": 59900,
+    "commodity_type": 4,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 107081,
+    "activity": 0,
+    "resource_category": 2
   },
   "10060": {
     "order": 3,
@@ -10490,30 +10516,6 @@
     "num_limit": 5,
     "num": 1,
     "commodity_id": 30023,
-    "activity": 0,
-    "resource_category": 2
-  },
-  "50007": {
-    "order": 0,
-    "resource_num": 2000,
-    "id": 50007,
-    "resource_type": 950,
-    "commodity_type": 3,
-    "num_limit": 1,
-    "num": 1,
-    "commodity_id": 47140,
-    "activity": 30252,
-    "resource_category": 1
-  },
-  "10044": {
-    "order": 1,
-    "resource_num": 1000,
-    "id": 10044,
-    "resource_type": 59900,
-    "commodity_type": 4,
-    "num_limit": 1,
-    "num": 1,
-    "commodity_id": 107081,
     "activity": 0,
     "resource_category": 2
   },
@@ -10565,6 +10567,30 @@
     "activity": 0,
     "resource_category": 1
   },
+  "11009": {
+    "order": 4,
+    "resource_num": 60,
+    "id": 11009,
+    "resource_type": 9,
+    "commodity_type": 2,
+    "num_limit": 50,
+    "num": 1,
+    "commodity_id": 13012,
+    "activity": 0,
+    "resource_category": 1
+  },
+  "10061": {
+    "order": 3,
+    "resource_num": 800,
+    "id": 10061,
+    "resource_type": 59900,
+    "commodity_type": 3,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 95040,
+    "activity": 0,
+    "resource_category": 2
+  },
   "10045": {
     "order": 0,
     "resource_num": 1200,
@@ -10601,18 +10627,6 @@
     "activity": 0,
     "resource_category": 1
   },
-  "11009": {
-    "order": 4,
-    "resource_num": 60,
-    "id": 11009,
-    "resource_type": 9,
-    "commodity_type": 2,
-    "num_limit": 50,
-    "num": 1,
-    "commodity_id": 13012,
-    "activity": 0,
-    "resource_category": 1
-  },
   "11008": {
     "order": 1,
     "resource_num": 2000,
@@ -10622,6 +10636,18 @@
     "num_limit": 1,
     "num": 1,
     "commodity_id": 59762,
+    "activity": 0,
+    "resource_category": 2
+  },
+  "10030": {
+    "order": 4,
+    "resource_num": 500,
+    "id": 10030,
+    "resource_type": 59900,
+    "commodity_type": 3,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 700,
     "activity": 0,
     "resource_category": 2
   },
@@ -10649,15 +10675,15 @@
     "activity": 0,
     "resource_category": 2
   },
-  "10018": {
-    "order": 3,
-    "resource_num": 800,
-    "id": 10018,
+  "10062": {
+    "order": 7,
+    "resource_num": 100,
+    "id": 10062,
     "resource_type": 59900,
-    "commodity_type": 3,
-    "num_limit": 1,
-    "num": 1,
-    "commodity_id": 28060,
+    "commodity_type": 2,
+    "num_limit": 5,
+    "num": 10,
+    "commodity_id": 15012,
     "activity": 0,
     "resource_category": 2
   },
@@ -10696,6 +10722,18 @@
     "commodity_id": 42010,
     "activity": 0,
     "resource_category": 1
+  },
+  "10018": {
+    "order": 3,
+    "resource_num": 800,
+    "id": 10018,
+    "resource_type": 59900,
+    "commodity_type": 3,
+    "num_limit": 1,
+    "num": 1,
+    "commodity_id": 28060,
+    "activity": 0,
+    "resource_category": 2
   },
   "10022": {
     "order": 7,
@@ -10742,18 +10780,6 @@
     "num_limit": 1,
     "num": 1,
     "commodity_id": 19060,
-    "activity": 0,
-    "resource_category": 2
-  },
-  "10030": {
-    "order": 4,
-    "resource_num": 500,
-    "id": 10030,
-    "resource_type": 59900,
-    "commodity_type": 3,
-    "num_limit": 1,
-    "num": 1,
-    "commodity_id": 700,
     "activity": 0,
     "resource_category": 2
   },

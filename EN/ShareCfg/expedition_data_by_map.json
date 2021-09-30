@@ -898,6 +898,7 @@
     209,
     210,
     211,
+    212,
     10000,
     70000,
     1040000,
@@ -1138,8 +1139,8 @@
     9920012,
     9920021
   ],
-  "1550025": {
-    "bind_map": 1550012,
+  "1550012": {
+    "bind_map": 1550002,
     "ani_name": "Map_1300004",
     "destory_icon_suffix": "blue",
     "bg": "Map_1300004",
@@ -1174,11 +1175,32 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "xinnong-4",
-    "type": 8,
-    "enter_story": "",
-    "name": "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
-    "map": 1550025
+    "bgm": "hunhe-level",
+    "type": 5,
+    "enter_story": "WEICENGHUNHE17",
+    "name": "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1550012
+  },
+  "9920012": {
+    "bind_map": 9920002,
+    "ani_name": "Tornado",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1000000",
+    "ui_type": 1,
+    "on_activity": 30253,
+    "clouds_pos": [],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level02",
+    "type": 5,
+    "enter_story": "UIACT20001",
+    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+    "map": 9920012
   },
   "1530026": {
     "bind_map": 1530012,
@@ -1222,34 +1244,13 @@
     "name": "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
     "map": 1530026
   },
-  "9920012": {
-    "bind_map": 9920002,
-    "ani_name": "Tornado",
+  "1190010": {
+    "bind_map": 1190000,
+    "ani_name": "icestorm",
     "destory_icon_suffix": "blue",
-    "bg": "map_1000000",
+    "bg": "Map_1090000",
     "ui_type": 1,
-    "on_activity": 30253,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level02",
-    "type": 5,
-    "enter_story": "UIACT20001",
-    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
-    "map": 9920012
-  },
-  "1550012": {
-    "bind_map": 1550002,
-    "ani_name": "Map_1300004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1300004",
-    "ui_type": 1,
-    "on_activity": 4079,
+    "on_activity": 30081,
     "clouds_pos": [
       [
         332,
@@ -1279,11 +1280,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "hunhe-level",
+    "bgm": "Story-6",
     "type": 5,
-    "enter_story": "WEICENGHUNHE17",
-    "name": "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1550012
+    "enter_story": "LINGDONG01",
+    "name": "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
+    "map": 1190010
   },
   "9920002": {
     "bind_map": 9920012,
@@ -1305,6 +1306,48 @@
     "enter_story": "UIACT20001",
     "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
     "map": 9920002
+  },
+  "9920001": {
+    "bind_map": 9920011,
+    "ani_name": "",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1000000",
+    "ui_type": 1,
+    "on_activity": 30253,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "purple",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level02",
+    "type": 4,
+    "enter_story": "UIACT20000",
+    "name": "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+    "map": 9920001
   },
   "1250011": {
     "bind_map": 1250001,
@@ -1474,13 +1517,13 @@
     "name": "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1560012
   },
-  "9920001": {
-    "bind_map": 9920011,
-    "ani_name": "",
+  "1520011": {
+    "bind_map": 1520001,
+    "ani_name": "Map_1420011",
     "destory_icon_suffix": "blue",
-    "bg": "map_1000000",
+    "bg": "Map_1420011",
     "ui_type": 1,
-    "on_activity": 30253,
+    "on_activity": 997,
     "clouds_pos": [
       [
         332,
@@ -1503,102 +1546,60 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "purple",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level02",
+    "bgm": "blueocean-image",
+    "type": 5,
+    "enter_story": "JINGWEILUOXUAN1",
+    "name": "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1520011
+  },
+  "1550001": {
+    "bind_map": 1550011,
+    "ani_name": "Map_1300001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1300001",
+    "ui_type": 1,
+    "on_activity": 4079,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "hunhe-story",
     "type": 4,
-    "enter_story": "UIACT20000",
-    "name": "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
-    "map": 9920001
-  },
-  "1190011": {
-    "bind_map": 1190001,
-    "ani_name": "icestorm_hard",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
-    "ui_type": 1,
-    "on_activity": 30082,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "LINGDONG11",
-    "name": "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
-    "map": 1190011
-  },
-  "1360011": {
-    "bind_map": 1360001,
-    "ani_name": "map_1320003",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1320003",
-    "ui_type": 1,
-    "on_activity": 30427,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "SHENGYONGQU1",
-    "name": "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1360011
+    "enter_story": "WEICENGHUNHE1",
+    "name": "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1550001
   },
   "2200000": {
     "bind_map": 0,
@@ -1684,6 +1685,48 @@
     "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
     "map": 2100111
   },
+  "2100110": {
+    "bind_map": 2100100,
+    "ani_name": "yinghua_map_effect03",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1100011",
+    "ui_type": 1,
+    "on_activity": 0,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Nagato-map",
+    "type": 5,
+    "enter_story": "YINGHUA1",
+    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+    "map": 2100110
+  },
   "1560011": {
     "bind_map": 1560001,
     "ani_name": "Map_1560011",
@@ -1768,11 +1811,11 @@
     "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
     "map": 1040000
   },
-  "2100110": {
-    "bind_map": 2100100,
-    "ani_name": "yinghua_map_effect03",
+  "2100101": {
+    "bind_map": 2100111,
+    "ani_name": "yinghua_map_effect02",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100011",
+    "bg": "Map_1100002",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -1805,10 +1848,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Nagato-map",
-    "type": 5,
-    "enter_story": "YINGHUA1",
-    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
-    "map": 2100110
+    "type": 4,
+    "enter_story": "YINGHUA9",
+    "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+    "map": 2100101
   },
   "1250001": {
     "bind_map": 1250011,
@@ -1852,11 +1895,11 @@
     "name": "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1250001
   },
-  "2100101": {
-    "bind_map": 2100111,
-    "ani_name": "yinghua_map_effect02",
+  "2100100": {
+    "bind_map": 2100110,
+    "ani_name": "yinghua_map_effect01",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100002",
+    "bg": "Map_1100001",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -1890,9 +1933,9 @@
     "title": "EX",
     "bgm": "Nagato-map",
     "type": 4,
-    "enter_story": "YINGHUA9",
-    "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
-    "map": 2100101
+    "enter_story": "YINGHUA1",
+    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+    "map": 2100100
   },
   "1040001": {
     "bind_map": 1040011,
@@ -1935,48 +1978,6 @@
     "enter_story": "",
     "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
     "map": 1040001
-  },
-  "2100100": {
-    "bind_map": 2100110,
-    "ani_name": "yinghua_map_effect01",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1100001",
-    "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Nagato-map",
-    "type": 4,
-    "enter_story": "YINGHUA1",
-    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
-    "map": 2100100
   },
   "2100091": {
     "bind_map": 2100081,
@@ -2062,13 +2063,13 @@
     "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 2100081
   },
-  "1250002": {
-    "bind_map": 1250012,
-    "ani_name": "Map_1230002",
+  "1150001": {
+    "bind_map": 1150011,
+    "ani_name": "feixu",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1230002",
+    "bg": "Map_1060000",
     "ui_type": 1,
-    "on_activity": 30173,
+    "on_activity": 30020,
     "clouds_pos": [
       [
         332,
@@ -2098,11 +2099,53 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bsm-1",
+    "bgm": "Story-6",
     "type": 4,
-    "enter_story": "XIANGTINGLIAOFA16",
-    "name": "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1250002
+    "enter_story": "DONGHUO01",
+    "name": "Fallen Wings - Prologue || ||S.P.||E.X.",
+    "map": 1150001
+  },
+  "2100071": {
+    "bind_map": 2100061,
+    "ani_name": "feixu_hard",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1060001",
+    "ui_type": 1,
+    "on_activity": 0,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Story-6",
+    "type": 5,
+    "enter_story": "DONGHUO08",
+    "name": "Fallen Wings: Sequel || || S.P. || E.X.",
+    "map": 2100071
   },
   "1500026": {
     "bind_map": 1500012,
@@ -2272,11 +2315,32 @@
     "name": "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1530012
   },
-  "2100071": {
-    "bind_map": 2100061,
-    "ani_name": "feixu_hard",
+  "1140021": {
+    "bind_map": 1140012,
+    "ani_name": "map_1140003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060001",
+    "bg": "Map_1140003",
+    "ui_type": 1,
+    "on_activity": 30157,
+    "clouds_pos": [],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Level-french2",
+    "type": 8,
+    "enter_story": "",
+    "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1140021
+  },
+  "2100061": {
+    "bind_map": 2100071,
+    "ani_name": "feixu",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1060000",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -2309,52 +2373,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Story-6",
-    "type": 5,
+    "type": 4,
     "enter_story": "DONGHUO08",
     "name": "Fallen Wings: Sequel || || S.P. || E.X.",
-    "map": 2100071
-  },
-  "1210012": {
-    "bind_map": 1210002,
-    "ani_name": "yinghua_map_effect04",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1100012",
-    "ui_type": 1,
-    "on_activity": 30450,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Nagato-map",
-    "type": 5,
-    "enter_story": "YINGHUA9",
-    "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
-    "map": 1210012
+    "map": 2100061
   },
   "1290026": {
     "bind_map": 1290002,
@@ -2566,35 +2588,56 @@
     "name": "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1400012
   },
-  "2100061": {
-    "bind_map": 2100071,
-    "ani_name": "feixu",
+  "1390001": {
+    "bind_map": 0,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060000",
+    "bg": "Map_1250001",
+    "ui_type": 1,
+    "on_activity": 30780,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "purple",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "ZUIZHENGUIDEBAOWU1",
+    "name": "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+    "map": 1390001
+  },
+  "2100051": {
+    "bind_map": 2100041,
+    "ani_name": "Tornado",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1000000",
     "ui_type": 1,
     "on_activity": 0,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -2602,53 +2645,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
-    "type": 4,
-    "enter_story": "DONGHUO08",
-    "name": "Fallen Wings: Sequel || || S.P. || E.X.",
-    "map": 2100061
-  },
-  "1400001": {
-    "bind_map": 1400011,
-    "ani_name": "map_1220001",
-    "destory_icon_suffix": "blue",
-    "bg": "map_1220001",
-    "ui_type": 1,
-    "on_activity": 30483,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "TIEXUEYUYINFU1",
-    "name": "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1400001
+    "bgm": "level02",
+    "type": 5,
+    "enter_story": "UIACT20001",
+    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+    "map": 2100051
   },
   "1530001": {
     "bind_map": 1530011,
@@ -2692,26 +2693,47 @@
     "name": "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1530001
   },
-  "2100051": {
-    "bind_map": 2100041,
-    "ani_name": "Tornado",
+  "2100050": {
+    "bind_map": 2100040,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
     "bg": "map_1000000",
     "ui_type": 1,
     "on_activity": 0,
-    "clouds_pos": [],
-    "animtor": 1,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "",
+    "cloud_suffix": "purple",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "level02",
     "type": 5,
-    "enter_story": "UIACT20001",
-    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
-    "map": 2100051
+    "enter_story": "UIACT20000",
+    "name": "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+    "map": 2100050
   },
   "1130000": {
     "bind_map": 0,
@@ -2755,47 +2777,26 @@
     "name": "Moonlit Overture|| ||CHAPTER SP||S.P. ",
     "map": 1130000
   },
-  "2100050": {
-    "bind_map": 2100040,
-    "ani_name": "",
+  "2100041": {
+    "bind_map": 2100051,
+    "ani_name": "Tornado",
     "destory_icon_suffix": "blue",
     "bg": "map_1000000",
     "ui_type": 1,
     "on_activity": 0,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 0,
+    "clouds_pos": [],
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "purple",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "level02",
-    "type": 5,
-    "enter_story": "UIACT20000",
-    "name": "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
-    "map": 2100050
+    "type": 4,
+    "enter_story": "UIACT20001",
+    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+    "map": 2100041
   },
   "1110021": {
     "bind_map": 1110012,
@@ -2839,28 +2840,7 @@
     "name": "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
     "map": 1110021
   },
-  "2100041": {
-    "bind_map": 2100051,
-    "ani_name": "Tornado",
-    "destory_icon_suffix": "blue",
-    "bg": "map_1000000",
-    "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "level02",
-    "type": 4,
-    "enter_story": "UIACT20001",
-    "name": "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
-    "map": 2100041
-  },
-  "1410021": {
+  "1410020": {
     "bind_map": 1410012,
     "ani_name": "Map_1350004",
     "destory_icon_suffix": "blue",
@@ -2899,8 +2879,50 @@
     "bgm": "bsm-3",
     "type": 8,
     "enter_story": "",
-    "name": "Dreamwaker's Butterfly EX|| ||CHAPTER EX||E.X.",
-    "map": 1410021
+    "name": "Dreamwaker's Butterfly SP|| ||CHAPTER EX||E.X.",
+    "map": 1410020
+  },
+  "2100031": {
+    "bind_map": 2100021,
+    "ani_name": "icestorm_hard",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1090001",
+    "ui_type": 1,
+    "on_activity": 0,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "LINGDONG11",
+    "name": "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
+    "map": 2100031
   },
   "1240002": {
     "bind_map": 1240012,
@@ -3057,13 +3079,13 @@
     "name": "Night of Chaos",
     "map": 207
   },
-  "2100031": {
-    "bind_map": 2100021,
-    "ani_name": "icestorm_hard",
+  "1450002": {
+    "bind_map": 1450001,
+    "ani_name": "Map_1380001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
+    "bg": "Map_1380001",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 30768,
     "clouds_pos": [
       [
         332,
@@ -3093,11 +3115,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
-    "type": 5,
-    "enter_story": "LINGDONG11",
-    "name": "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
-    "map": 2100031
+    "bgm": "doa_guanqia",
+    "type": 8,
+    "enter_story": "",
+    "name": "Vacation Lane - SP|| ||CHAPTER EX||E.X.",
+    "map": 1450002
   },
   "204": {
     "bind_map": 4,
@@ -3145,13 +3167,13 @@
     "name": "Solomon's Nightmare Pt. 1",
     "map": 204
   },
-  "1460001": {
-    "bind_map": 1460011,
-    "ani_name": "Map_1390001",
+  "2100021": {
+    "bind_map": 2100031,
+    "ani_name": "icestorm_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1390001",
+    "bg": "Map_1090001",
     "ui_type": 1,
-    "on_activity": 824,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -3181,11 +3203,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "blueocean-image",
+    "bgm": "level03",
     "type": 4,
-    "enter_story": "FUXIANGXIANZUOZHAN1",
-    "name": "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
-    "map": 1460001
+    "enter_story": "LINGDONG11",
+    "name": "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
+    "map": 2100021
   },
   "1180021": {
     "bind_map": 1180012,
@@ -3313,13 +3335,13 @@
     "name": "Fallen Wings - Prologue || ||S.P.||E.X.",
     "map": 1150011
   },
-  "2100021": {
-    "bind_map": 2100031,
-    "ani_name": "icestorm_hard",
+  "1460026": {
+    "bind_map": 1460012,
+    "ani_name": "Map_1390004",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1090001",
+    "bg": "Map_1390004",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 824,
     "clouds_pos": [
       [
         332,
@@ -3349,11 +3371,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level03",
-    "type": 4,
-    "enter_story": "LINGDONG11",
-    "name": "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
-    "map": 2100021
+    "bgm": "xinnong-3",
+    "type": 8,
+    "enter_story": "",
+    "name": "Inverted Orthant - EX|| ||CHAPTER EX||E.X.",
+    "map": 1460026
   },
   "203": {
     "bind_map": 3,
@@ -3397,13 +3419,13 @@
     "name": "Midway Showdown",
     "map": 203
   },
-  "1470001": {
-    "bind_map": 1470011,
-    "ani_name": "map_1240001",
+  "2100011": {
+    "bind_map": 2100001,
+    "ani_name": "fengshan",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1240001",
+    "bg": "Map_1040001",
     "ui_type": 1,
-    "on_activity": 838,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -3429,36 +3451,57 @@
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "",
+    "cloud_suffix": "white",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Battle-italy",
-    "type": 4,
-    "enter_story": "SHENSHENGDEBEIXIJU1",
-    "name": "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1470001
+    "bgm": "level02",
+    "type": 5,
+    "enter_story": "GUOQING11",
+    "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+    "map": 2100011
   },
-  "1240012": {
-    "bind_map": 1240002,
-    "ani_name": "map_1140003",
+  "1270001": {
+    "bind_map": 0,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1140003",
+    "bg": "Map_1250001",
     "ui_type": 1,
-    "on_activity": 30401,
-    "clouds_pos": [],
-    "animtor": 1,
+    "on_activity": 30246,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "",
+    "cloud_suffix": "purple",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 5,
-    "enter_story": "FAXI05",
-    "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1240012
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "ZUIZHENGUIDEBAOWU1",
+    "name": "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+    "map": 1270001
   },
   "1240011": {
     "bind_map": 1240001,
@@ -3586,11 +3629,11 @@
     "name": "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1470002
   },
-  "2100011": {
-    "bind_map": 2100001,
-    "ani_name": "fengshan",
+  "2100010": {
+    "bind_map": 2100000,
+    "ani_name": "fengshan_1",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1040001",
+    "bg": "Map_1040000",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -3624,9 +3667,9 @@
     "title": "EX",
     "bgm": "level02",
     "type": 5,
-    "enter_story": "GUOQING11",
-    "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
-    "map": 2100011
+    "enter_story": "GUOQING1",
+    "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+    "map": 2100010
   },
   "1340002": {
     "bind_map": 1340012,
@@ -3712,13 +3755,13 @@
     "name": "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
     "map": 1340001
   },
-  "1150001": {
-    "bind_map": 1150011,
-    "ani_name": "feixu",
+  "212": {
+    "bind_map": 12,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060000",
+    "bg": "Map_212",
     "ui_type": 1,
-    "on_activity": 30020,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -3741,24 +3784,24 @@
         -465
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "white",
+    "level_limit": 75,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Story-6",
-    "type": 4,
-    "enter_story": "DONGHUO01",
-    "name": "Fallen Wings - Prologue || ||S.P.||E.X.",
-    "map": 1150001
+    "title": "12",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "Mariana's Turmoil Pt. 1",
+    "map": 212
   },
-  "2100010": {
-    "bind_map": 2100000,
-    "ani_name": "fengshan_1",
+  "2100001": {
+    "bind_map": 2100011,
+    "ani_name": "fengshan",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1040000",
+    "bg": "Map_1040001",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -3791,10 +3834,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "level02",
-    "type": 5,
-    "enter_story": "GUOQING1",
-    "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
-    "map": 2100010
+    "type": 4,
+    "enter_story": "GUOQING11",
+    "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+    "map": 2100001
   },
   "1350001": {
     "bind_map": 0,
@@ -3880,11 +3923,11 @@
     "name": "Northern Overture - EX|| ||CHAPTER EX||E.X.",
     "map": 1310026
   },
-  "2100001": {
-    "bind_map": 2100011,
-    "ani_name": "fengshan",
+  "2100000": {
+    "bind_map": 2100010,
+    "ani_name": "fengshan_1",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1040001",
+    "bg": "Map_1040000",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -3918,9 +3961,9 @@
     "title": "EX",
     "bgm": "level02",
     "type": 4,
-    "enter_story": "GUOQING11",
-    "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
-    "map": 2100001
+    "enter_story": "GUOQING1",
+    "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+    "map": 2100000
   },
   "1310025": {
     "bind_map": 1310012,
@@ -3964,59 +4007,13 @@
     "name": "Northern Overture - SP|| ||CHAPTER EX||E.X.",
     "map": 1310025
   },
-  "209": {
-    "bind_map": 9,
-    "ani_name": "",
+  "1080000": {
+    "bind_map": 1080010,
+    "ani_name": "nepunepu",
     "destory_icon_suffix": "blue",
-    "bg": "map_209",
+    "bg": "Map_1080000",
     "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [
-      [
-        76,
-        263
-      ],
-      [
-        881,
-        44
-      ],
-      [
-        23,
-        -143
-      ],
-      [
-        473,
-        163
-      ],
-      [
-        514,
-        -245
-      ],
-      [
-        830,
-        -109
-      ]
-    ],
-    "animtor": 0,
-    "guide_id": "",
-    "uifx": "UIhuohua2",
-    "cloud_suffix": "purple",
-    "level_limit": 40,
-    "drop_by_map_display": "",
-    "title": "9",
-    "bgm": "level",
-    "type": 2,
-    "enter_story": "",
-    "name": "Battle of Kula Gulf",
-    "map": 209
-  },
-  "2100000": {
-    "bind_map": 2100010,
-    "ani_name": "fengshan_1",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1040000",
-    "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 30037,
     "clouds_pos": [
       [
         332,
@@ -4042,15 +4039,57 @@
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "white",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "Level-nep",
+    "type": 4,
+    "enter_story": "",
+    "name": "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
+    "map": 1080000
+  },
+  "1560026": {
+    "bind_map": 1560012,
+    "ani_name": "Map_1560012",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1560012",
+    "ui_type": 1,
+    "on_activity": 4104,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "level02",
-    "type": 4,
-    "enter_story": "GUOQING1",
-    "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
-    "map": 2100000
+    "bgm": "battle-longgong",
+    "type": 8,
+    "enter_story": "",
+    "name": "Upon the Shimmering Blue - EX|| ||CHAPTER EX||E.X.",
+    "map": 1560026
   },
   "208": {
     "bind_map": 8,
@@ -4304,7 +4343,7 @@
     "name": "Looking Glass of Fact and Fiction - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1290002
   },
-  "1560026": {
+  "1560025": {
     "bind_map": 1560012,
     "ani_name": "Map_1560012",
     "destory_icon_suffix": "blue",
@@ -4343,8 +4382,8 @@
     "bgm": "battle-longgong",
     "type": 8,
     "enter_story": "",
-    "name": "Upon the Shimmering Blue - EX|| ||CHAPTER EX||E.X.",
-    "map": 1560026
+    "name": "Upon the Shimmering Blue - SP|| ||CHAPTER EX||E.X.",
+    "map": 1560025
   },
   "1290001": {
     "bind_map": 0,
@@ -4430,48 +4469,6 @@
     "name": "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
     "map": 1070200
   },
-  "1560025": {
-    "bind_map": 1560012,
-    "ani_name": "Map_1560012",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1560012",
-    "ui_type": 1,
-    "on_activity": 4104,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "battle-longgong",
-    "type": 8,
-    "enter_story": "",
-    "name": "Upon the Shimmering Blue - SP|| ||CHAPTER EX||E.X.",
-    "map": 1560025
-  },
   "1560002": {
     "bind_map": 1560012,
     "ani_name": "Map_1560002",
@@ -4513,48 +4510,6 @@
     "enter_story": "BIHAIGUANGLIN17",
     "name": "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1560002
-  },
-  "1080010": {
-    "bind_map": 1080000,
-    "ani_name": "nepunepu",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1080010",
-    "ui_type": 1,
-    "on_activity": 30037,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "Level-nep2",
-    "type": 5,
-    "enter_story": "",
-    "name": "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
-    "map": 1080010
   },
   "1560001": {
     "bind_map": 1560011,
@@ -4598,13 +4553,13 @@
     "name": "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1560001
   },
-  "1260012": {
-    "bind_map": 1260002,
-    "ani_name": "map_1240006",
+  "1080010": {
+    "bind_map": 1080000,
+    "ani_name": "nepunepu",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1240006",
+    "bg": "Map_1080010",
     "ui_type": 1,
-    "on_activity": 30204,
+    "on_activity": 30037,
     "clouds_pos": [
       [
         332,
@@ -4633,12 +4588,12 @@
     "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Battle-italy",
+    "title": "SP",
+    "bgm": "Level-nep2",
     "type": 5,
-    "enter_story": "SHENSHENGDEBEIXIJU13",
-    "name": "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1260012
+    "enter_story": "",
+    "name": "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
+    "map": 1080010
   },
   "1550026": {
     "bind_map": 1550012,
@@ -4681,6 +4636,90 @@
     "enter_story": "",
     "name": "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
     "map": 1550026
+  },
+  "1260012": {
+    "bind_map": 1260002,
+    "ani_name": "map_1240006",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1240006",
+    "ui_type": 1,
+    "on_activity": 30204,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Battle-italy",
+    "type": 5,
+    "enter_story": "SHENSHENGDEBEIXIJU13",
+    "name": "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1260012
+  },
+  "1550025": {
+    "bind_map": 1550012,
+    "ani_name": "Map_1300004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1300004",
+    "ui_type": 1,
+    "on_activity": 4079,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "xinnong-4",
+    "type": 8,
+    "enter_story": "",
+    "name": "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
+    "map": 1550025
   },
   "1260011": {
     "bind_map": 1260001,
@@ -4808,13 +4847,13 @@
     "name": "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
     "map": 9920011
   },
-  "1400011": {
-    "bind_map": 1400001,
-    "ani_name": "map_1220003",
+  "1230001": {
+    "bind_map": 1230011,
+    "ani_name": "map_1220001",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220003",
+    "bg": "map_1220001",
     "ui_type": 1,
-    "on_activity": 30483,
+    "on_activity": 30136,
     "clouds_pos": [
       [
         332,
@@ -4845,10 +4884,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "bsm-1",
-    "type": 5,
+    "type": 4,
     "enter_story": "TIEXUEYUYINFU1",
-    "name": "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1400011
+    "name": "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
+    "map": 1230001
   },
   "2200010": {
     "bind_map": 0,
@@ -5102,13 +5141,13 @@
     "name": "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1260002
   },
-  "1550001": {
-    "bind_map": 1550011,
-    "ani_name": "Map_1300001",
+  "1490001": {
+    "bind_map": 1490011,
+    "ani_name": "Map_1230001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1300001",
+    "bg": "Map_1230001",
     "ui_type": 1,
-    "on_activity": 4079,
+    "on_activity": 937,
     "clouds_pos": [
       [
         332,
@@ -5138,11 +5177,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "hunhe-story",
+    "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "WEICENGHUNHE1",
-    "name": "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1550001
+    "enter_story": "XIANGTINGLIAOFA1",
+    "name": "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1490001
   },
   "1260001": {
     "bind_map": 1260011,
@@ -5185,48 +5224,6 @@
     "enter_story": "SHENSHENGDEBEIXIJU1",
     "name": "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1260001
-  },
-  "1490002": {
-    "bind_map": 1490012,
-    "ani_name": "Map_1230002",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1230002",
-    "ui_type": 1,
-    "on_activity": 938,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "XIANGTINGLIAOFA16",
-    "name": "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1490002
   },
   "1540002": {
     "bind_map": 1540001,
@@ -5312,48 +5309,6 @@
     "name": "Azur Anthem|| ||CHAPTER EX||E.X.",
     "map": 1540001
   },
-  "1170001": {
-    "bind_map": 1170001,
-    "ani_name": "",
-    "destory_icon_suffix": "blue",
-    "bg": "map_5",
-    "ui_type": 1,
-    "on_activity": 30072,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 0,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "white",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level",
-    "type": 3,
-    "enter_story": "",
-    "name": "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
-    "map": 1170001
-  },
   "1530025": {
     "bind_map": 1530012,
     "ani_name": "Map_1280004",
@@ -5395,6 +5350,48 @@
     "enter_story": "",
     "name": "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
     "map": 1530025
+  },
+  "1170001": {
+    "bind_map": 1170001,
+    "ani_name": "",
+    "destory_icon_suffix": "blue",
+    "bg": "map_5",
+    "ui_type": 1,
+    "on_activity": 30072,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 0,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "white",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "SP",
+    "bgm": "level",
+    "type": 3,
+    "enter_story": "",
+    "name": "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
+    "map": 1170001
   },
   "1530002": {
     "bind_map": 1530012,
@@ -5438,6 +5435,48 @@
     "name": "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1530002
   },
+  "1520026": {
+    "bind_map": 1520012,
+    "ani_name": "Map_1420018",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1420018",
+    "ui_type": 1,
+    "on_activity": 997,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "Beverly_short_eng",
+    "type": 8,
+    "enter_story": "",
+    "name": "Mirror Involution - EX|| ||CHAPTER EX||E.X.",
+    "map": 1520026
+  },
   "1100010": {
     "bind_map": 1100000,
     "ani_name": "fengshan_1",
@@ -5480,7 +5519,7 @@
     "name": "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
     "map": 1100010
   },
-  "1520026": {
+  "1520025": {
     "bind_map": 1520012,
     "ani_name": "Map_1420018",
     "destory_icon_suffix": "blue",
@@ -5519,8 +5558,8 @@
     "bgm": "Beverly_short_eng",
     "type": 8,
     "enter_story": "",
-    "name": "Mirror Involution - EX|| ||CHAPTER EX||E.X.",
-    "map": 1520026
+    "name": "Mirror Involution - SP|| ||CHAPTER EX||E.X.",
+    "map": 1520025
   },
   "1100011": {
     "bind_map": 1100001,
@@ -5564,13 +5603,13 @@
     "name": "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
     "map": 1100011
   },
-  "1520025": {
-    "bind_map": 1520012,
-    "ani_name": "Map_1420018",
+  "1300011": {
+    "bind_map": 1300001,
+    "ani_name": "Map_1280003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1420018",
+    "bg": "Map_1280003",
     "ui_type": 1,
-    "on_activity": 997,
+    "on_activity": 30292,
     "clouds_pos": [
       [
         332,
@@ -5600,11 +5639,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Beverly_short_eng",
-    "type": 8,
-    "enter_story": "",
-    "name": "Mirror Involution - SP|| ||CHAPTER EX||E.X.",
-    "map": 1520025
+    "bgm": "xinnong-1",
+    "type": 5,
+    "enter_story": "FUYINGYINGHUA1",
+    "name": "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1300011
   },
   "2200020": {
     "bind_map": 0,
@@ -5690,35 +5729,14 @@
     "name": "Khorovod of Dawn's Rime - EX|| ||CHAPTER EX||E.X.",
     "map": 1480026
   },
-  "1520011": {
-    "bind_map": 1520001,
-    "ani_name": "Map_1420011",
+  "1240012": {
+    "bind_map": 1240002,
+    "ani_name": "map_1140003",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1420011",
+    "bg": "Map_1140003",
     "ui_type": 1,
-    "on_activity": 997,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
+    "on_activity": 30401,
+    "clouds_pos": [],
     "animtor": 1,
     "guide_id": "",
     "uifx": "",
@@ -5726,11 +5744,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "blueocean-image",
+    "bgm": "Level-french2",
     "type": 5,
-    "enter_story": "JINGWEILUOXUAN1",
-    "name": "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1520011
+    "enter_story": "FAXI05",
+    "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1240012
   },
   "1440001": {
     "bind_map": 0,
@@ -5795,13 +5813,13 @@
     "name": "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1310002
   },
-  "1080000": {
-    "bind_map": 1080010,
-    "ani_name": "nepunepu",
+  "1520001": {
+    "bind_map": 1520011,
+    "ani_name": "Map_1420001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1080000",
+    "bg": "Map_1420001",
     "ui_type": 1,
-    "on_activity": 30037,
+    "on_activity": 997,
     "clouds_pos": [
       [
         332,
@@ -5830,12 +5848,12 @@
     "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "Level-nep",
+    "title": "EX",
+    "bgm": "blueocean-image",
     "type": 4,
-    "enter_story": "",
-    "name": "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
-    "map": 1080000
+    "enter_story": "JINGWEILUOXUAN1",
+    "name": "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1520001
   },
   "1310001": {
     "bind_map": 1310011,
@@ -5878,48 +5896,6 @@
     "enter_story": "MAOZIHUODONG1",
     "name": "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1310001
-  },
-  "1520001": {
-    "bind_map": 1520011,
-    "ani_name": "Map_1420001",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1420001",
-    "ui_type": 1,
-    "on_activity": 997,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "blueocean-image",
-    "type": 4,
-    "enter_story": "JINGWEILUOXUAN1",
-    "name": "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1520001
   },
   "1500011": {
     "bind_map": 1500001,
@@ -6131,13 +6107,13 @@
     "name": "Ashen Simulacrum - SP|| ||CHAPTER EX||E.X.",
     "map": 1490025
   },
-  "1230001": {
-    "bind_map": 1230011,
-    "ani_name": "map_1220001",
+  "1250002": {
+    "bind_map": 1250012,
+    "ani_name": "Map_1230002",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220001",
+    "bg": "Map_1230002",
     "ui_type": 1,
-    "on_activity": 30136,
+    "on_activity": 30173,
     "clouds_pos": [
       [
         332,
@@ -6169,9 +6145,51 @@
     "title": "EX",
     "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "TIEXUEYUYINFU1",
-    "name": "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
-    "map": 1230001
+    "enter_story": "XIANGTINGLIAOFA16",
+    "name": "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1250002
+  },
+  "1490011": {
+    "bind_map": 1490001,
+    "ani_name": "Map_1230003",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1230003",
+    "ui_type": 1,
+    "on_activity": 937,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-1",
+    "type": 5,
+    "enter_story": "XIANGTINGLIAOFA1",
+    "name": "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1490011
   },
   "1280001": {
     "bind_map": 0,
@@ -6299,13 +6317,13 @@
     "name": "Virtual Link Synchronicity·EX|| ||CHAPTER EX||E.X.",
     "map": 1220021
   },
-  "1490011": {
-    "bind_map": 1490001,
-    "ani_name": "Map_1230003",
+  "1490002": {
+    "bind_map": 1490012,
+    "ani_name": "Map_1230002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1230003",
+    "bg": "Map_1230002",
     "ui_type": 1,
-    "on_activity": 937,
+    "on_activity": 938,
     "clouds_pos": [
       [
         332,
@@ -6336,10 +6354,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "bsm-1",
-    "type": 5,
-    "enter_story": "XIANGTINGLIAOFA1",
-    "name": "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1490011
+    "type": 4,
+    "enter_story": "XIANGTINGLIAOFA16",
+    "name": "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1490002
   },
   "1540003": {
     "bind_map": 1540001,
@@ -6509,55 +6527,13 @@
     "name": "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1380012
   },
-  "1490001": {
-    "bind_map": 1490011,
-    "ani_name": "Map_1230001",
+  "1470001": {
+    "bind_map": 1470011,
+    "ani_name": "map_1240001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1230001",
+    "bg": "Map_1240001",
     "ui_type": 1,
-    "on_activity": 937,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "XIANGTINGLIAOFA1",
-    "name": "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1490001
-  },
-  "1470026": {
-    "bind_map": 1470012,
-    "ani_name": "map_1240008",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1240008",
-    "ui_type": 1,
-    "on_activity": 839,
+    "on_activity": 838,
     "clouds_pos": [
       [
         332,
@@ -6588,10 +6564,52 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Battle-italy",
-    "type": 8,
-    "enter_story": "",
-    "name": "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
-    "map": 1470026
+    "type": 4,
+    "enter_story": "SHENSHENGDEBEIXIJU1",
+    "name": "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1470001
+  },
+  "1480001": {
+    "bind_map": 1480011,
+    "ani_name": "Map_1400001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1400001",
+    "ui_type": 1,
+    "on_activity": 904,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bgm-cccp2",
+    "type": 4,
+    "enter_story": "POXIAOBINGHUA1",
+    "name": "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1480001
   },
   "1190021": {
     "bind_map": 1190011,
@@ -7097,13 +7115,13 @@
     "name": "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1480011
   },
-  "1480001": {
-    "bind_map": 1480011,
-    "ani_name": "Map_1400001",
+  "1470026": {
+    "bind_map": 1470012,
+    "ani_name": "map_1240008",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1400001",
+    "bg": "Map_1240008",
     "ui_type": 1,
-    "on_activity": 904,
+    "on_activity": 839,
     "clouds_pos": [
       [
         332,
@@ -7133,11 +7151,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "bgm-cccp2",
-    "type": 4,
-    "enter_story": "POXIAOBINGHUA1",
-    "name": "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1480001
+    "bgm": "Battle-italy",
+    "type": 8,
+    "enter_story": "",
+    "name": "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+    "map": 1470026
   },
   "1480012": {
     "bind_map": 1480002,
@@ -7412,74 +7430,11 @@
     "name": "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
     "map": 1320001
   },
-  "1460026": {
-    "bind_map": 1460012,
-    "ani_name": "Map_1390004",
+  "1150012": {
+    "bind_map": 1150002,
+    "ani_name": "feixu_hard",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1390004",
-    "ui_type": 1,
-    "on_activity": 824,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-3",
-    "type": 8,
-    "enter_story": "",
-    "name": "Inverted Orthant - EX|| ||CHAPTER EX||E.X.",
-    "map": 1460026
-  },
-  "1140021": {
-    "bind_map": 1140012,
-    "ani_name": "map_1140003",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1140003",
-    "ui_type": 1,
-    "on_activity": 30157,
-    "clouds_pos": [],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Level-french2",
-    "type": 8,
-    "enter_story": "",
-    "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1140021
-  },
-  "1150002": {
-    "bind_map": 1150012,
-    "ani_name": "feixu",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1060000",
+    "bg": "Map_1060001",
     "ui_type": 1,
     "on_activity": 30021,
     "clouds_pos": [
@@ -7512,10 +7467,94 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Story-6",
-    "type": 4,
+    "type": 5,
     "enter_story": "DONGHUO08",
     "name": "Fallen Wings - Epilogue || ||S.P.||E.X.",
-    "map": 1150002
+    "map": 1150012
+  },
+  "1230002": {
+    "bind_map": 1230012,
+    "ani_name": "map_1220002",
+    "destory_icon_suffix": "blue",
+    "bg": "map_1220002",
+    "ui_type": 1,
+    "on_activity": 30137,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-1",
+    "type": 4,
+    "enter_story": "TIEXUEYUYINFU10",
+    "name": "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
+    "map": 1230002
+  },
+  "1460002": {
+    "bind_map": 1460012,
+    "ani_name": "Map_1390002",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1390002",
+    "ui_type": 1,
+    "on_activity": 824,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "battle-executor-type1",
+    "type": 4,
+    "enter_story": "FUXIANGXIANZUOZHAN15",
+    "name": "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
+    "map": 1460002
   },
   "1190001": {
     "bind_map": 1190011,
@@ -7559,11 +7598,11 @@
     "name": "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
     "map": 1190001
   },
-  "1460002": {
-    "bind_map": 1460012,
-    "ani_name": "Map_1390002",
+  "1460001": {
+    "bind_map": 1460011,
+    "ani_name": "Map_1390001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1390002",
+    "bg": "Map_1390001",
     "ui_type": 1,
     "on_activity": 824,
     "clouds_pos": [
@@ -7595,11 +7634,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "battle-executor-type1",
+    "bgm": "blueocean-image",
     "type": 4,
-    "enter_story": "FUXIANGXIANZUOZHAN15",
-    "name": "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
-    "map": 1460002
+    "enter_story": "FUXIANGXIANZUOZHAN1",
+    "name": "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
+    "map": 1460001
   },
   "2100030": {
     "bind_map": 2100020,
@@ -7706,13 +7745,13 @@
     "name": "Operation Juno|| ||CHAPTER SP||S.P. ",
     "map": 1050010
   },
-  "1450002": {
-    "bind_map": 1450001,
-    "ani_name": "Map_1380001",
+  "1210011": {
+    "bind_map": 1210001,
+    "ani_name": "yinghua_map_effect03",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1380001",
+    "bg": "Map_1100011",
     "ui_type": 1,
-    "on_activity": 30768,
+    "on_activity": 30449,
     "clouds_pos": [
       [
         332,
@@ -7742,11 +7781,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "doa_guanqia",
-    "type": 8,
-    "enter_story": "",
-    "name": "Vacation Lane - SP|| ||CHAPTER EX||E.X.",
-    "map": 1450002
+    "bgm": "Nagato-map",
+    "type": 5,
+    "enter_story": "YINGHUA1",
+    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+    "map": 1210011
   },
   "1300002": {
     "bind_map": 1300012,
@@ -7790,11 +7829,11 @@
     "name": "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1300002
   },
-  "211": {
-    "bind_map": 11,
+  "202": {
+    "bind_map": 2,
     "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_211",
+    "bg": "map_202",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -7823,22 +7862,22 @@
     "guide_id": "",
     "uifx": "UIhuohua2",
     "cloud_suffix": "white",
-    "level_limit": 70,
+    "level_limit": 5,
     "drop_by_map_display": "",
-    "title": "11",
+    "title": "2",
     "bgm": "level",
     "type": 2,
     "enter_story": "",
-    "name": "Empress Augusta Bay ",
-    "map": 211
+    "name": "Battle of Coral Sea",
+    "map": 202
   },
-  "1180012": {
-    "bind_map": 1180002,
-    "ani_name": "map_1180012",
+  "1230021": {
+    "bind_map": 1230012,
+    "ani_name": "map_1220004",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1180002",
+    "bg": "map_1220004",
     "ui_type": 1,
-    "on_activity": 30051,
+    "on_activity": 30137,
     "clouds_pos": [
       [
         332,
@@ -7869,10 +7908,10 @@
     "drop_by_map_display": "",
     "title": "EX",
     "bgm": "Story-6",
-    "type": 5,
-    "enter_story": "TIANCHENGHUODONG10",
-    "name": "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
-    "map": 1180012
+    "type": 8,
+    "enter_story": "",
+    "name": "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
+    "map": 1230021
   },
   "1140011": {
     "bind_map": 1140001,
@@ -7937,48 +7976,6 @@
     "name": "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1240021
   },
-  "205": {
-    "bind_map": 5,
-    "ani_name": "",
-    "destory_icon_suffix": "blue",
-    "bg": "map_205",
-    "ui_type": 1,
-    "on_activity": 0,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 0,
-    "guide_id": "",
-    "uifx": "UIhuohua2",
-    "cloud_suffix": "white",
-    "level_limit": 20,
-    "drop_by_map_display": "",
-    "title": "5",
-    "bgm": "level",
-    "type": 2,
-    "enter_story": "",
-    "name": "Solomon's Nightmare Pt. 2",
-    "map": 205
-  },
   "1420001": {
     "bind_map": 0,
     "ani_name": "",
@@ -8020,6 +8017,48 @@
     "enter_story": "",
     "name": "Sundered Blue|| ||CHAPTER SP||S.P. ",
     "map": 1420001
+  },
+  "1410021": {
+    "bind_map": 1410012,
+    "ani_name": "Map_1350004",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1350004",
+    "ui_type": 3,
+    "on_activity": 30715,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "bsm-3",
+    "type": 8,
+    "enter_story": "",
+    "name": "Dreamwaker's Butterfly EX|| ||CHAPTER EX||E.X.",
+    "map": 1410021
   },
   "2100040": {
     "bind_map": 2100050,
@@ -8210,48 +8249,6 @@
     "name": "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1330002
   },
-  "1410020": {
-    "bind_map": 1410012,
-    "ani_name": "Map_1350004",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1350004",
-    "ui_type": 3,
-    "on_activity": 30715,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-3",
-    "type": 8,
-    "enter_story": "",
-    "name": "Dreamwaker's Butterfly SP|| ||CHAPTER EX||E.X.",
-    "map": 1410020
-  },
   "1410012": {
     "bind_map": 1410002,
     "ani_name": "Map_1350004",
@@ -8336,48 +8333,6 @@
     "name": "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
     "map": 1410011
   },
-  "1260026": {
-    "bind_map": 1260012,
-    "ani_name": "map_1240008",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1240008",
-    "ui_type": 1,
-    "on_activity": 30204,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Battle-italy",
-    "type": 8,
-    "enter_story": "",
-    "name": "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
-    "map": 1260026
-  },
   "1410002": {
     "bind_map": 1410012,
     "ani_name": "Map_1350002",
@@ -8419,6 +8374,90 @@
     "enter_story": "",
     "name": "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
     "map": 1410002
+  },
+  "1190011": {
+    "bind_map": 1190001,
+    "ani_name": "icestorm_hard",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1090001",
+    "ui_type": 1,
+    "on_activity": 30082,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "LINGDONG11",
+    "name": "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
+    "map": 1190011
+  },
+  "1410001": {
+    "bind_map": 1410011,
+    "ani_name": "Map_1350001",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1350001",
+    "ui_type": 3,
+    "on_activity": 30714,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "xinnong-1",
+    "type": 4,
+    "enter_story": "DIEHAIMENGHUA1",
+    "name": "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
+    "map": 1410001
   },
   "1260025": {
     "bind_map": 1260012,
@@ -8462,13 +8501,13 @@
     "name": "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
     "map": 1260025
   },
-  "1410001": {
-    "bind_map": 1410011,
-    "ani_name": "Map_1350001",
+  "1400002": {
+    "bind_map": 1400012,
+    "ani_name": "map_1220002",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1350001",
-    "ui_type": 3,
-    "on_activity": 30714,
+    "bg": "map_1220002",
+    "ui_type": 1,
+    "on_activity": 30484,
     "clouds_pos": [
       [
         332,
@@ -8498,11 +8537,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "xinnong-1",
+    "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "DIEHAIMENGHUA1",
-    "name": "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
-    "map": 1410001
+    "enter_story": "TIEXUEYUYINFU10",
+    "name": "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
+    "map": 1400002
   },
   "1550011": {
     "bind_map": 1550001,
@@ -8693,13 +8732,13 @@
     "name": "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1330012
   },
-  "10000": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1400011": {
+    "bind_map": 1400001,
+    "ani_name": "map_1220003",
     "destory_icon_suffix": "blue",
-    "bg": "map_10000",
+    "bg": "map_1220003",
     "ui_type": 1,
-    "on_activity": 30007,
+    "on_activity": 30483,
     "clouds_pos": [
       [
         332,
@@ -8722,18 +8761,18 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "white",
-    "level_limit": 15,
+    "cloud_suffix": "",
+    "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "UIACT10000",
-    "name": "Strive, Wish, and Strategize || || Chapter SP || S.P.",
-    "map": 10000
+    "title": "EX",
+    "bgm": "bsm-1",
+    "type": 5,
+    "enter_story": "TIEXUEYUYINFU1",
+    "name": "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1400011
   },
   "1400021": {
     "bind_map": 1400012,
@@ -8777,13 +8816,13 @@
     "name": "Scherzo of Iron and Blood - EX|| ||CHAPTER EX||E.X.",
     "map": 1400021
   },
-  "1400002": {
-    "bind_map": 1400012,
-    "ani_name": "map_1220002",
+  "1400001": {
+    "bind_map": 1400011,
+    "ani_name": "map_1220001",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220002",
+    "bg": "map_1220001",
     "ui_type": 1,
-    "on_activity": 30484,
+    "on_activity": 30483,
     "clouds_pos": [
       [
         332,
@@ -8815,9 +8854,9 @@
     "title": "EX",
     "bgm": "bsm-1",
     "type": 4,
-    "enter_story": "TIEXUEYUYINFU10",
-    "name": "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
-    "map": 1400002
+    "enter_story": "TIEXUEYUYINFU1",
+    "name": "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1400001
   },
   "2100060": {
     "bind_map": 2100070,
@@ -8861,13 +8900,13 @@
     "name": "Fallen Wings: Prequel || || S.P. || E.X.",
     "map": 2100060
   },
-  "1390001": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1380026": {
+    "bind_map": 1380012,
+    "ani_name": "Map_1340004",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1250001",
+    "bg": "Map_1340004",
     "ui_type": 1,
-    "on_activity": 30780,
+    "on_activity": 30460,
     "clouds_pos": [
       [
         332,
@@ -8890,18 +8929,18 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "purple",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "ZUIZHENGUIDEBAOWU1",
-    "name": "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
-    "map": 1390001
+    "title": "EX",
+    "bgm": "bgm-cccp2",
+    "type": 8,
+    "enter_story": "",
+    "name": "Aurora Noctis - EX|| ||CHAPTER EX||E.X.",
+    "map": 1380026
   },
   "1210002": {
     "bind_map": 1210012,
@@ -8945,7 +8984,7 @@
     "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
     "map": 1210002
   },
-  "1380026": {
+  "1380025": {
     "bind_map": 1380012,
     "ani_name": "Map_1340004",
     "destory_icon_suffix": "blue",
@@ -8984,8 +9023,8 @@
     "bgm": "bgm-cccp2",
     "type": 8,
     "enter_story": "",
-    "name": "Aurora Noctis - EX|| ||CHAPTER EX||E.X.",
-    "map": 1380026
+    "name": "Aurora Noctis - SP|| ||CHAPTER EX||E.X.",
+    "map": 1380025
   },
   "1210001": {
     "bind_map": 1210011,
@@ -9029,13 +9068,13 @@
     "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
     "map": 1210001
   },
-  "1380025": {
-    "bind_map": 1380012,
-    "ani_name": "Map_1340004",
+  "1370001": {
+    "bind_map": 0,
+    "ani_name": "map_1330001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1340004",
+    "bg": "Map_1330001",
     "ui_type": 1,
-    "on_activity": 30460,
+    "on_activity": 30733,
     "clouds_pos": [
       [
         332,
@@ -9064,12 +9103,12 @@
     "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bgm-cccp2",
-    "type": 8,
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
     "enter_story": "",
-    "name": "Aurora Noctis - SP|| ||CHAPTER EX||E.X.",
-    "map": 1380025
+    "name": "Counterattack Within the Fjord|| ||CHAPTER SP||S.P. ",
+    "map": 1370001
   },
   "70000": {
     "bind_map": 0,
@@ -9113,48 +9152,6 @@
     "name": "Maritime Escort ",
     "map": 70000
   },
-  "1370001": {
-    "bind_map": 0,
-    "ani_name": "map_1330001",
-    "destory_icon_suffix": "blue",
-    "bg": "Map_1330001",
-    "ui_type": 1,
-    "on_activity": 30733,
-    "clouds_pos": [
-      [
-        332,
-        271
-      ],
-      [
-        896,
-        110
-      ],
-      [
-        -280,
-        0
-      ],
-      [
-        990,
-        -90
-      ],
-      [
-        0,
-        -465
-      ]
-    ],
-    "animtor": 1,
-    "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
-    "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "",
-    "name": "Counterattack Within the Fjord|| ||CHAPTER SP||S.P. ",
-    "map": 1370001
-  },
   "1360025": {
     "bind_map": 1360012,
     "ani_name": "map_1320004",
@@ -9197,13 +9194,13 @@
     "name": "Skybound Oratorio - SP|| ||CHAPTER EX||E.X.",
     "map": 1360025
   },
-  "1230021": {
-    "bind_map": 1230012,
-    "ani_name": "map_1220004",
+  "1180011": {
+    "bind_map": 1180001,
+    "ani_name": "map_1180011",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220004",
+    "bg": "Map_1180001",
     "ui_type": 1,
-    "on_activity": 30137,
+    "on_activity": 30050,
     "clouds_pos": [
       [
         332,
@@ -9233,11 +9230,53 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
-    "type": 8,
-    "enter_story": "",
-    "name": "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
-    "map": 1230021
+    "bgm": "Nagato-map",
+    "type": 5,
+    "enter_story": "TIANCHENGHUODONG1",
+    "name": "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+    "map": 1180011
+  },
+  "1360011": {
+    "bind_map": 1360001,
+    "ani_name": "map_1320003",
+    "destory_icon_suffix": "blue",
+    "bg": "Map_1320003",
+    "ui_type": 1,
+    "on_activity": 30427,
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "animtor": 1,
+    "guide_id": "",
+    "uifx": "",
+    "cloud_suffix": "",
+    "level_limit": 1,
+    "drop_by_map_display": "",
+    "title": "EX",
+    "bgm": "level03",
+    "type": 5,
+    "enter_story": "SHENGYONGQU1",
+    "name": "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1360011
   },
   "1550002": {
     "bind_map": 1550012,
@@ -9365,47 +9404,51 @@
     "name": "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
     "map": 1180001
   },
-  "1300001": {
-    "bind_map": 1300011,
-    "ani_name": "Map_1280001",
+  "209": {
+    "bind_map": 9,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1280001",
+    "bg": "map_209",
     "ui_type": 1,
-    "on_activity": 30292,
+    "on_activity": 0,
     "clouds_pos": [
       [
-        332,
-        271
+        76,
+        263
       ],
       [
-        896,
-        110
+        881,
+        44
       ],
       [
-        -280,
-        0
+        23,
+        -143
       ],
       [
-        990,
-        -90
+        473,
+        163
       ],
       [
-        0,
-        -465
+        514,
+        -245
+      ],
+      [
+        830,
+        -109
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "purple",
+    "level_limit": 40,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "xinnong-1",
-    "type": 4,
-    "enter_story": "FUYINGYINGHUA1",
-    "name": "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1300001
+    "title": "9",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "Battle of Kula Gulf",
+    "map": 209
   },
   "1180002": {
     "bind_map": 1180012,
@@ -9491,47 +9534,51 @@
     "name": "Passionate Polaris SP|| ||CHAPTER EX||E.X.",
     "map": 1280025
   },
-  "1150012": {
-    "bind_map": 1150002,
-    "ani_name": "feixu_hard",
+  "210": {
+    "bind_map": 10,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1060001",
+    "bg": "Map_210",
     "ui_type": 1,
-    "on_activity": 30021,
+    "on_activity": 0,
     "clouds_pos": [
       [
-        332,
-        271
+        76,
+        263
       ],
       [
-        896,
-        110
+        881,
+        44
       ],
       [
-        -280,
-        0
+        23,
+        -143
       ],
       [
-        990,
-        -90
+        473,
+        163
       ],
       [
-        0,
-        -465
+        514,
+        -245
+      ],
+      [
+        830,
+        -109
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "purple",
+    "level_limit": 45,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "Story-6",
-    "type": 5,
-    "enter_story": "DONGHUO08",
-    "name": "Fallen Wings - Epilogue || ||S.P.||E.X.",
-    "map": 1150012
+    "title": "10",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "Battle of Kolombangara",
+    "map": 210
   },
   "1280026": {
     "bind_map": 1280001,
@@ -9848,51 +9895,47 @@
     "name": "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
     "map": 1360001
   },
-  "210": {
-    "bind_map": 10,
+  "10000": {
+    "bind_map": 0,
     "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "Map_210",
+    "bg": "map_10000",
     "ui_type": 1,
-    "on_activity": 0,
+    "on_activity": 30007,
     "clouds_pos": [
       [
-        76,
-        263
+        332,
+        271
       ],
       [
-        881,
-        44
+        896,
+        110
       ],
       [
-        23,
-        -143
+        -280,
+        0
       ],
       [
-        473,
-        163
+        990,
+        -90
       ],
       [
-        514,
-        -245
-      ],
-      [
-        830,
-        -109
+        0,
+        -465
       ]
     ],
     "animtor": 0,
     "guide_id": "",
-    "uifx": "UIhuohua2",
-    "cloud_suffix": "purple",
-    "level_limit": 45,
+    "uifx": "",
+    "cloud_suffix": "white",
+    "level_limit": 15,
     "drop_by_map_display": "",
-    "title": "10",
-    "bgm": "level",
-    "type": 2,
-    "enter_story": "",
-    "name": "Battle of Kolombangara",
-    "map": 210
+    "title": "SP",
+    "bgm": "level02",
+    "type": 3,
+    "enter_story": "UIACT10000",
+    "name": "Strive, Wish, and Strategize || || Chapter SP || S.P.",
+    "map": 10000
   },
   "1360002": {
     "bind_map": 1360012,
@@ -9936,13 +9979,13 @@
     "name": "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
     "map": 1360002
   },
-  "1210011": {
-    "bind_map": 1210001,
-    "ani_name": "yinghua_map_effect03",
+  "1210012": {
+    "bind_map": 1210002,
+    "ani_name": "yinghua_map_effect04",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1100011",
+    "bg": "Map_1100012",
     "ui_type": 1,
-    "on_activity": 30449,
+    "on_activity": 30450,
     "clouds_pos": [
       [
         332,
@@ -9974,9 +10017,9 @@
     "title": "EX",
     "bgm": "Nagato-map",
     "type": 5,
-    "enter_story": "YINGHUA1",
-    "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
-    "map": 1210011
+    "enter_story": "YINGHUA9",
+    "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+    "map": 1210012
   },
   "1430003": {
     "bind_map": 1430001,
@@ -10293,13 +10336,13 @@
     "name": "Ashen Simulacrum – SP|| ||CHAPTER EX||E.X.",
     "map": 1250025
   },
-  "1230002": {
-    "bind_map": 1230012,
-    "ani_name": "map_1220002",
+  "205": {
+    "bind_map": 5,
+    "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "map_1220002",
+    "bg": "map_205",
     "ui_type": 1,
-    "on_activity": 30137,
+    "on_activity": 0,
     "clouds_pos": [
       [
         332,
@@ -10322,18 +10365,18 @@
         -465
       ]
     ],
-    "animtor": 1,
+    "animtor": 0,
     "guide_id": "",
-    "uifx": "",
-    "cloud_suffix": "",
-    "level_limit": 1,
+    "uifx": "UIhuohua2",
+    "cloud_suffix": "white",
+    "level_limit": 20,
     "drop_by_map_display": "",
-    "title": "EX",
-    "bgm": "bsm-1",
-    "type": 4,
-    "enter_story": "TIEXUEYUYINFU10",
-    "name": "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
-    "map": 1230002
+    "title": "5",
+    "bgm": "level",
+    "type": 2,
+    "enter_story": "",
+    "name": "Solomon's Nightmare Pt. 2",
+    "map": 205
   },
   "1250026": {
     "bind_map": 1250012,
@@ -10377,13 +10420,13 @@
     "name": "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
     "map": 1250026
   },
-  "1180011": {
-    "bind_map": 1180001,
-    "ani_name": "map_1180011",
+  "1180012": {
+    "bind_map": 1180002,
+    "ani_name": "map_1180012",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1180001",
+    "bg": "Map_1180002",
     "ui_type": 1,
-    "on_activity": 30050,
+    "on_activity": 30051,
     "clouds_pos": [
       [
         332,
@@ -10413,11 +10456,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Nagato-map",
+    "bgm": "Story-6",
     "type": 5,
-    "enter_story": "TIANCHENGHUODONG1",
-    "name": "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
-    "map": 1180011
+    "enter_story": "TIANCHENGHUODONG10",
+    "name": "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+    "map": 1180012
   },
   "1360012": {
     "bind_map": 1360002,
@@ -10755,11 +10798,11 @@
     "name": "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
     "map": 1110002
   },
-  "202": {
-    "bind_map": 2,
+  "211": {
+    "bind_map": 11,
     "ani_name": "",
     "destory_icon_suffix": "blue",
-    "bg": "map_202",
+    "bg": "Map_211",
     "ui_type": 1,
     "on_activity": 0,
     "clouds_pos": [
@@ -10788,14 +10831,14 @@
     "guide_id": "",
     "uifx": "UIhuohua2",
     "cloud_suffix": "white",
-    "level_limit": 5,
+    "level_limit": 70,
     "drop_by_map_display": "",
-    "title": "2",
+    "title": "11",
     "bgm": "level",
     "type": 2,
     "enter_story": "",
-    "name": "Battle of Coral Sea",
-    "map": 202
+    "name": "Empress Augusta Bay ",
+    "map": 211
   },
   "1110001": {
     "bind_map": 1110011,
@@ -10839,13 +10882,13 @@
     "name": "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
     "map": 1110001
   },
-  "1270001": {
-    "bind_map": 0,
-    "ani_name": "",
+  "1260026": {
+    "bind_map": 1260012,
+    "ani_name": "map_1240008",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1250001",
+    "bg": "Map_1240008",
     "ui_type": 1,
-    "on_activity": 30246,
+    "on_activity": 30204,
     "clouds_pos": [
       [
         332,
@@ -10868,18 +10911,18 @@
         -465
       ]
     ],
-    "animtor": 0,
+    "animtor": 1,
     "guide_id": "",
     "uifx": "",
-    "cloud_suffix": "purple",
+    "cloud_suffix": "",
     "level_limit": 1,
     "drop_by_map_display": "",
-    "title": "SP",
-    "bgm": "level02",
-    "type": 3,
-    "enter_story": "ZUIZHENGUIDEBAOWU1",
-    "name": "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
-    "map": 1270001
+    "title": "EX",
+    "bgm": "Battle-italy",
+    "type": 8,
+    "enter_story": "",
+    "name": "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+    "map": 1260026
   },
   "1230020": {
     "bind_map": 1230012,
@@ -10986,13 +11029,13 @@
     "name": "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
     "map": 1300025
   },
-  "1190010": {
-    "bind_map": 1190000,
-    "ani_name": "icestorm",
+  "1300001": {
+    "bind_map": 1300011,
+    "ani_name": "Map_1280001",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1090000",
+    "bg": "Map_1280001",
     "ui_type": 1,
-    "on_activity": 30081,
+    "on_activity": 30292,
     "clouds_pos": [
       [
         332,
@@ -11022,11 +11065,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "Story-6",
-    "type": 5,
-    "enter_story": "LINGDONG01",
-    "name": "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
-    "map": 1190010
+    "bgm": "xinnong-1",
+    "type": 4,
+    "enter_story": "FUYINGYINGHUA1",
+    "name": "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+    "map": 1300001
   },
   "1300026": {
     "bind_map": 1300012,
@@ -11070,13 +11113,13 @@
     "name": "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
     "map": 1300026
   },
-  "1300011": {
-    "bind_map": 1300001,
-    "ani_name": "Map_1280003",
+  "1150002": {
+    "bind_map": 1150012,
+    "ani_name": "feixu",
     "destory_icon_suffix": "blue",
-    "bg": "Map_1280003",
+    "bg": "Map_1060000",
     "ui_type": 1,
-    "on_activity": 30292,
+    "on_activity": 30021,
     "clouds_pos": [
       [
         332,
@@ -11106,11 +11149,11 @@
     "level_limit": 1,
     "drop_by_map_display": "",
     "title": "EX",
-    "bgm": "xinnong-1",
-    "type": 5,
-    "enter_story": "FUYINGYINGHUA1",
-    "name": "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
-    "map": 1300011
+    "bgm": "Story-6",
+    "type": 4,
+    "enter_story": "DONGHUO08",
+    "name": "Fallen Wings - Epilogue || ||S.P.||E.X.",
+    "map": 1150002
   },
   "1460012": {
     "bind_map": 1460002,

@@ -1,17 +1,22 @@
 {
-  "9707034": {
-    "level": 0,
+  "9707032": {
+    "level": 30,
     "item1": 21004,
-    "id": 9707034,
+    "id": 9707032,
     "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9707033,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
+    "weapon_ids": [
+      60152,
+      54014,
+      60152,
+      54014
+    ],
+    "pre_id": 9707031,
+    "item1_num": 1,
+    "gold": 3000,
+    "breakout_id": 9707033,
     "item2": 21001,
     "repair": 0,
-    "breakout_view": "N/A"
+    "breakout_view": "Hangar capacity +1/All fighters +1/Dive Bombers efficiency +10%"
   },
   "9702014": {
     "level": 0,
@@ -27,24 +32,23 @@
     "repair": 0,
     "breakout_view": "N/A"
   },
-  "9707013": {
+  "9705013": {
     "level": 70,
-    "item1": 21001,
-    "id": 9707013,
+    "item1": 21005,
+    "id": 9705013,
     "item2_num": 0,
     "weapon_ids": [
-      60163,
-      54015,
-      60163,
-      54015
+      34000,
+      34000,
+      34000
     ],
-    "pre_id": 9707012,
+    "pre_id": 9705012,
     "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9707014,
+    "gold": 2500,
+    "breakout_id": 9705014,
     "item2": 21001,
     "repair": 0,
-    "breakout_view": "Improve skill Ashen Might/All aircraft +1/Torpedo Bomber efficiency +15%"
+    "breakout_view": "Improve skill Ashen Might/Main gun base +1/Main gun efficiency +15%"
   },
   "9707014": {
     "level": 0,
@@ -57,20 +61,6 @@
     "gold": 0,
     "breakout_id": 0,
     "item2": 21001,
-    "repair": 0,
-    "breakout_view": "N/A"
-  },
-  "9707024": {
-    "level": 0,
-    "item1": 21002,
-    "id": 9707024,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9707023,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21002,
     "repair": 0,
     "breakout_view": "N/A"
   },
@@ -90,6 +80,93 @@
     "item2": 21001,
     "repair": 0,
     "breakout_view": "Learn skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%"
+  },
+  "9707034": {
+    "level": 0,
+    "item1": 21004,
+    "id": 9707034,
+    "item2_num": 0,
+    "weapon_ids": [],
+    "pre_id": 9707033,
+    "item1_num": 0,
+    "gold": 0,
+    "breakout_id": 0,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "N/A"
+  },
+  "9707033": {
+    "level": 70,
+    "item1": 21004,
+    "id": 9707033,
+    "item2_num": 0,
+    "weapon_ids": [
+      60153,
+      54015,
+      60153,
+      54015
+    ],
+    "pre_id": 9707032,
+    "item1_num": 2,
+    "gold": 10000,
+    "breakout_id": 9707034,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "Improve skill Flickering Light/All aircraft +1/Dive Bombers efficiency +15%"
+  },
+  "9707031": {
+    "level": 10,
+    "item1": 21004,
+    "id": 9707031,
+    "item2_num": 0,
+    "weapon_ids": [
+      60151,
+      54014
+    ],
+    "pre_id": 0,
+    "item1_num": 1,
+    "gold": 1000,
+    "breakout_id": 9707032,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "Learn skill Flickering Light/All Dive Bombers +1/Dive Bombers efficiency +5%"
+  },
+  "9707022": {
+    "level": 30,
+    "item1": 21002,
+    "id": 9707022,
+    "item2_num": 0,
+    "weapon_ids": [
+      60102,
+      54014,
+      60102,
+      54014
+    ],
+    "pre_id": 9707021,
+    "item1_num": 1,
+    "gold": 3000,
+    "breakout_id": 9707023,
+    "item2": 21002,
+    "repair": 0,
+    "breakout_view": "Hangar capacity +1/All Dive Bombers +1/Torpedo Bomber efficiency +5%"
+  },
+  "9705012": {
+    "level": 30,
+    "item1": 21005,
+    "id": 9705012,
+    "item2_num": 0,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ],
+    "pre_id": 9705011,
+    "item1_num": 1,
+    "gold": 1500,
+    "breakout_id": 9705013,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "Secondary Gun base +2/Main gun efficiency +10%"
   },
   "9707021": {
     "level": 10,
@@ -130,6 +207,10 @@
     9702012,
     9702013,
     9702014,
+    9705011,
+    9705012,
+    9705013,
+    9705014,
     9707011,
     9707012,
     9707013,
@@ -143,6 +224,23 @@
     9707033,
     9707034
   ],
+  "9705011": {
+    "level": 10,
+    "item1": 21005,
+    "id": 9705011,
+    "item2_num": 0,
+    "weapon_ids": [
+      34000,
+      34000
+    ],
+    "pre_id": 0,
+    "item1_num": 1,
+    "gold": 500,
+    "breakout_id": 9705012,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "Learn skill Ashen Might/Main gun base +1/Main gun efficiency +5%"
+  },
   "9702011": {
     "level": 10,
     "item1": 21003,
@@ -158,22 +256,6 @@
     "item2": 21001,
     "repair": 0,
     "breakout_view": "Learn Ashen Might - Helena I/Main gun efficiency +5%"
-  },
-  "9702013": {
-    "level": 70,
-    "item1": 21003,
-    "id": 9702013,
-    "item2_num": 0,
-    "weapon_ids": [
-      79732
-    ],
-    "pre_id": 9702012,
-    "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9702014,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "Improve Ashen Might - Helena/Main gun efficiency +15%"
   },
   "9707012": {
     "level": 30,
@@ -194,43 +276,38 @@
     "repair": 0,
     "breakout_view": "Hangar capacity +1/All fighters +1/Torpedo Bomber efficiency +10%"
   },
-  "9707022": {
-    "level": 30,
-    "item1": 21002,
-    "id": 9707022,
+  "9705014": {
+    "level": 0,
+    "item1": 21005,
+    "id": 9705014,
     "item2_num": 0,
-    "weapon_ids": [
-      60102,
-      54014,
-      60102,
-      54014
-    ],
-    "pre_id": 9707021,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9707023,
-    "item2": 21002,
-    "repair": 0,
-    "breakout_view": "Hangar capacity +1/All Dive Bombers +1/Torpedo Bomber efficiency +5%"
-  },
-  "9707032": {
-    "level": 30,
-    "item1": 21004,
-    "id": 9707032,
-    "item2_num": 0,
-    "weapon_ids": [
-      60152,
-      54014,
-      60152,
-      54014
-    ],
-    "pre_id": 9707031,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9707033,
+    "weapon_ids": [],
+    "pre_id": 9705013,
+    "item1_num": 0,
+    "gold": 0,
+    "breakout_id": 0,
     "item2": 21001,
     "repair": 0,
-    "breakout_view": "Hangar capacity +1/All fighters +1/Dive Bombers efficiency +10%"
+    "breakout_view": "N/A"
+  },
+  "9707013": {
+    "level": 70,
+    "item1": 21001,
+    "id": 9707013,
+    "item2_num": 0,
+    "weapon_ids": [
+      60163,
+      54015,
+      60163,
+      54015
+    ],
+    "pre_id": 9707012,
+    "item1_num": 2,
+    "gold": 10000,
+    "breakout_id": 9707014,
+    "item2": 21001,
+    "repair": 0,
+    "breakout_view": "Improve skill Ashen Might/All aircraft +1/Torpedo Bomber efficiency +15%"
   },
   "9707023": {
     "level": 70,
@@ -251,40 +328,34 @@
     "repair": 0,
     "breakout_view": "Improve skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +7%"
   },
-  "9707033": {
+  "9702013": {
     "level": 70,
-    "item1": 21004,
-    "id": 9707033,
+    "item1": 21003,
+    "id": 9702013,
     "item2_num": 0,
     "weapon_ids": [
-      60153,
-      54015,
-      60153,
-      54015
+      79732
     ],
-    "pre_id": 9707032,
+    "pre_id": 9702012,
     "item1_num": 2,
     "gold": 10000,
-    "breakout_id": 9707034,
+    "breakout_id": 9702014,
     "item2": 21001,
     "repair": 0,
-    "breakout_view": "Improve skill Flickering Light/All aircraft +1/Dive Bombers efficiency +15%"
+    "breakout_view": "Improve Ashen Might - Helena/Main gun efficiency +15%"
   },
-  "9707031": {
-    "level": 10,
-    "item1": 21004,
-    "id": 9707031,
+  "9707024": {
+    "level": 0,
+    "item1": 21002,
+    "id": 9707024,
     "item2_num": 0,
-    "weapon_ids": [
-      60151,
-      54014
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 1000,
-    "breakout_id": 9707032,
-    "item2": 21001,
+    "weapon_ids": [],
+    "pre_id": 9707023,
+    "item1_num": 0,
+    "gold": 0,
+    "breakout_id": 0,
+    "item2": 21002,
     "repair": 0,
-    "breakout_view": "Learn skill Flickering Light/All Dive Bombers +1/Dive Bombers efficiency +5%"
+    "breakout_view": "N/A"
   }
 }
