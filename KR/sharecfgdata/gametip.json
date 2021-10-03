@@ -3794,6 +3794,9 @@
   "old_class_is_close": {
     "tip": "대강당 업데이트 중. 후속 버전 오픈을 기다려 주세요."
   },
+  "levelScene_escort_lose": {
+    "tip": "수송선이 대파되었습니다. 상선 호위 실패……"
+  },
   "world_redeploy_not_change": {
     "tip": "배치 전과 후의 함대 멤버에 변화가 없습니다. 배치를 완료하시겠습니까?"
   },
@@ -3806,17 +3809,17 @@
   "guild_event_start_tip1": {
     "tip": "새로운 대함대 작전이 발령되었습니다. 확인을 터치해 화면을 새로고침해주세요."
   },
-  "levelScene_escort_lose": {
-    "tip": "수송선이 대파되었습니다. 상선 호위 실패……"
-  },
   "levelScene_escort_win": {
     "tip": "수송선이 목표지점에 도착했습니다. 상선 호위 성공!"
+  },
+  "activity_puzzle_get13": {
+    "tip": "획득 방식：퍼즐 임무 4"
   },
   "guild_player_in_cd_time": {
     "tip": "함대를 탈퇴하고 24시간 동안은 다른 함대에 가입할 수 없습니다."
   },
-  "login_game_banned": {
-    "tip": "이용이 정지되어 있습니다. 고객센터로 문의주시기 바랍니다."
+  "login_newPlayerScene_inputName": {
+    "tip": "이름을 입력해주세요."
   },
   "help_commander_info": {
     "tip": {
@@ -3900,14 +3903,11 @@
   "word_equipskin_type": {
     "tip": "타입 "
   },
-  "equipment_select_device_destroy_bonus_tip": {
-    "tip": "재료 획득："
+  "word_attr_air": {
+    "tip": "항공"
   },
   "login_newPlayerScene_invalideName": {
     "tip": "금칙어가 포함되어 있습니다."
-  },
-  "word_attr_air": {
-    "tip": "항공"
   },
   "levelScene_chapter_unlock_tip": {
     "tip": "지휘관 <color=#92fc63>Lv.$1</color> 달성 시 개방"
@@ -3918,23 +3918,26 @@
   "world_joint_call_guild_support_txt": {
     "tip": "대함대 멤버 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
   },
+  "levelScene_strategying": {
+    "tip": "공략 중입니다."
+  },
   "guild_donate_tip": {
     "tip": "<color=#92FC63FF>$1×$2</color>(보유 개수: <color=$4>$3</color>)을(를) 대함대에 기부하려고 합니다. 기부하시겠습니까?"
   },
   "tec_target_catchup_progress": {
     "tip": "강화 진도"
   },
-  "levelScene_strategying": {
-    "tip": "공략 중입니다."
+  "levelScene_retreat_erro": {
+    "tip": "퇴각 실패："
   },
   "friend_resume_collection_rate": {
     "tip": "달성률："
   },
-  "levelScene_retreat_erro": {
-    "tip": "퇴각 실패："
-  },
   "levelScene_chapter_notInStrategy": {
     "tip": "공략하고 있지 않습니다."
+  },
+  "class_label_tran": {
+    "tip": "전환:"
   },
   "word_shipType_all": {
     "tip": "전 함종"
@@ -3942,20 +3945,20 @@
   "word_equipment_torpedo_bomber": {
     "tip": "뇌격기"
   },
-  "class_label_tran": {
-    "tip": "전환:"
-  },
   "word_attr_antiaircraft": {
     "tip": "대공"
-  },
-  "month_sign_resign": {
-    "tip": "페이스북 로그인 문제로 인해, 출석 보상을 보충 지급합니다."
   },
   "class_res_maxlevel_tip": {
     "tip": "최대 레벨 도달"
   },
+  "month_sign_resign": {
+    "tip": "페이스북 로그인 문제로 인해, 출석 보상을 보충 지급합니다."
+  },
   "new_airi_error_code_100115": {
     "tip": "Account binding success; Device ID is banned, failed to acquire Access Token"
+  },
+  "levelScene_who_to_retreat": {
+    "tip": "$1을(를) 퇴각시킵니까?"
   },
   "guild_word_score_addition": {
     "tip": "평가 UP: "
@@ -3963,8 +3966,8 @@
   "attribute_range": {
     "tip": "사거리"
   },
-  "levelScene_who_to_retreat": {
-    "tip": "$1을(를) 퇴각시킵니까?"
+  "world_boss_fleet": {
+    "tip": "비콘 작전"
   },
   "world_boss_help_meta": {
     "tip": [
@@ -3972,9 +3975,6 @@
         "info": "비콘·META 기능 설명\n\n1. <color=#92fc63>2021.7.8-2021.10.14점점 전</color>까지 「헬레나·META」의 도전이 한정개방됩니다. 「헬레나·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「헬레나·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.\n <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>\n\n2. 「비콘 데이터」 획득 및 분석\n·대형 작전을 통해 「비콘 데이터」를 획득할 수 있으며, 지정데이터량 도달 후, 분석 및 특정 비콘을 발견할 수 있습니다.\n·일일 최대 분석 가능 횟수는 <color=#92fc63>2회</color>이며, 0시마다 초기화됩니다. 사용하지 않은「비콘 데이터」는 보류됩니다.\n·매번 분석 시 <color=#92fc63>100</color> 「비콘 데이터」가 필요합니다.\n\n3. 자신이 분석한 비콘 도전\n·자신이 분석한 비콘에 처음으로 도전 시 연료를 소모하지 않으며, 두번째 도전부터매번 <color=#92fc63>40</color> 연료를 소모합니다.(도전 횟수는 소모하지 않습니다.)\n·비콘의 HP가 0이 되면 전투에서 승리하며, 대량의 캐릭터동기화 수치 보상을 획득합니다.\n·분석한 비콘은 <color=#92fc63>24시간</color> 동안 유지되며, 이후 사라집니다. 기타 지휘관들에게 지원을 요청하세요.\n·매번 도전 성공 후, 비콘의 난이도가 1단계씩, 총 15단계까지 상승하며, 단계에 따라 전투 보상도 증가합니다.\n\n4. 기타 비콘 도전\n·비콘 목록 화면에서 다른 지휘관이 도움을 요청한 비콘에 도전할 수 있습니다.다른 지휘관의 비콘에 참여하면 전투 종료 후 입힌 대미지에 따라 <color=#92fc63>캐릭터 동기화 수치 보상을 획득합니다</color>.\n·매번 도전 시 도전 횟수 1회를 소모하며, 연료는 소모하지 않습니다.\n·매일 총 <color=#92fc63>3</color>회의 도전 횟수가 주어지며, 0시마다 초기화됩니다.\n·동일한 비콘에 최대 누적 30명의 지휘관이 도전할 수 있습니다.\n\n5. 전투 설명\n·비콘·META 도전은 대형 작전 중인 함선만 사용 가능하며, 지휘냥과 잠수함은사용할 수 없습니다.\n·전투 결산 시 경험치를 획득하지 않으며, 함선 감정 수치에 영향을 주지 않습니다.\n·전투 도중 퇴장할 수 없습니다. 만약 네트워크 이상으로 연결이 끊길 경우:\n①자신이 분석한 비콘에 도전 시 40 연료가 소모(첫 번째 도전 X)되며,이미 입힌 대미지가 집계되지 않습니다.\n②비콘 목록 중의 비콘에 도전 시 도전 횟수가 소모되며, 아무런 보상도획득할 수 없습니다.\n <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>\n\n6.화력 지원\n비콘·META 도전 31일째부터, 즉 2021.7.8~2021.10.7 기간 동안, 함대가 「헬레나·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.\n※자신이 발견한 비콘·META 전투 중에서만 적용되며, 매번 도전 시마다 발동 가능합니다."
       }
     ]
-  },
-  "world_boss_fleet": {
-    "tip": "비콘 작전"
   },
   "guild_log_new_guild_join": {
     "tip": "새로운 멤버 <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 이(가) 함대에 가입했습니다."
@@ -3997,14 +3997,17 @@
   "word_attr_cannon": {
     "tip": "포격"
   },
+  "stage_beginStage_error_noEnergy": {
+    "tip": "<color=#92fc63>체력</color>이 부족합니다!"
+  },
   "battle_resourceSiteLayer_endError_notStar": {
     "tip": "의뢰가 아직 개시되지 않았습니다."
   },
   "jiujiu_expedition_stg_tip": {
     "tip": "스테이지 잠김, 이전 스테이지를 완료하세요."
   },
-  "stage_beginStage_error_noEnergy": {
-    "tip": "<color=#92fc63>체력</color>이 부족합니다!"
+  "meta_unlock_skill_select": {
+    "tip": "먼저 한 가지 재료를 선택하세요.(미사용)"
   },
   "vote_not_enough": {
     "tip": "표가 부족합니다."
@@ -4012,11 +4015,11 @@
   "exercise_fleet_exit_tip": {
     "tip": "해당 함선을 <color=#92fc63>연습전 방어 함대</color>에서 배속해제 하시겠습니까?"
   },
-  "meta_unlock_skill_select": {
-    "tip": "먼저 한 가지 재료를 선택하세요.(미사용)"
-  },
   "stage_beginStage_error": {
     "tip": "스테이지 개시 실패："
+  },
+  "shop_entendShipYard_error": {
+    "tip": "도크 확장 실패："
   },
   "world_joint_whitout_friend": {
     "tip": "전우가 없습니다."
@@ -4024,14 +4027,14 @@
   "main_1": {
     "tip": "메인\n1"
   },
-  "shop_entendShipYard_error": {
-    "tip": "도크 확장 실패："
+  "shop_extendMagazine_error": {
+    "tip": "창고 확장 실패："
   },
   "meta_pt_get_way": {
     "tip": "아래 방식을 통해 동기화 수치를 얻을 수 있습니다.(미사용)"
   },
-  "shop_extendMagazine_error": {
-    "tip": "창고 확장 실패："
+  "activity_level_difficulty_tip": {
+    "tip": "주의：어려움 난이도를 선택할 경우 <color=#92fc63>통상 난이도의 공략 진행도가 초기화됩니다.</color>"
   },
   "battle_resourceSiteLayer_shipTypeCount": {
     "tip": "$1X$2"
@@ -4067,8 +4070,8 @@
   "npc_learn_skill_tip": {
     "tip": "이벤트 종료 시 「정식 획득」 하지 않은 콜라보레이션 캐릭터는 모항에서 사라지게 됩니다. ※스킬 강화에 사용된 아이템은 반환되지 않습니다. 계속 하시겠습니까?"
   },
-  "activity_level_difficulty_tip": {
-    "tip": "주의：어려움 난이도를 선택할 경우 <color=#92fc63>통상 난이도의 공략 진행도가 초기화됩니다.</color>"
+  "shop_buyItem_error": {
+    "tip": "구입 실패："
   },
   "world_stage_help": {
     "tip": {
@@ -4094,29 +4097,29 @@
   "charge_time_out": {
     "tip": "결제 정보를 확인 중입니다..."
   },
-  "shop_buyItem_error": {
-    "tip": "구입 실패："
+  "levelScene_unselect_SP_OP": {
+    "tip": "작전 아이템 사용 안함"
   },
   "backyard_buyFurniture_error": {
     "tip": "가구 구입 실패："
   },
-  "levelScene_unselect_SP_OP": {
-    "tip": "작전 아이템 사용 안함"
+  "test_ship_intensify_tip": {
+    "tip": "부린은 강화할 수 없습니다."
   },
   "ship_quick_change_noequip": {
     "tip": "변경하려는 장비가 존재하지 않습니다."
   },
-  "test_ship_intensify_tip": {
-    "tip": "부린은 강화할 수 없습니다."
-  },
   "ship_energy_low_warn": {
     "tip": "$1에 배속된 $2의 컨디션이 좋지 않은 것 같습니다. 출격 시 호감도가 내려가고, 획득하는 경험치가 50%로 감소합니다."
+  },
+  "ship_energy_low_desc": {
+    "tip": "피곤\n 출격 시 호감도가 내려가고, 획득하는 경험치가 절반이 됩니다."
   },
   "level_chapter_state_high_risk": {
     "tip": "<color=#EE2C00>【고위험해역】</color>"
   },
-  "ship_energy_low_desc": {
-    "tip": "피곤\n 출격 시 호감도가 내려가고, 획득하는 경험치가 절반이 됩니다."
+  "ship_energy_mid_desc": {
+    "tip": "보통\n 출격 시 호감도가 오르지 않습니다."
   },
   "activity_hit_monster_erro": {
     "tip": "공격에 실패했습니다."
@@ -4145,14 +4148,11 @@
   "guidl_event_ship_in_event": {
     "tip": "다른 임무를 수행 중이므로 선택할 수 없습니다."
   },
-  "ship_energy_mid_desc": {
-    "tip": "보통\n 출격 시 호감도가 오르지 않습니다."
+  "word_systemClose": {
+    "tip": "해당 기능은 아직 개방되지 않았습니다."
   },
   "meta_energy_ship_level_need": {
     "tip": "함선 레벨 요구: $1/$2"
-  },
-  "word_systemClose": {
-    "tip": "해당 기능은 아직 개방되지 않았습니다."
   },
   "ship_destroy_advanced_tip": {
     "tip": "퇴역시킬 함선 중 Lv.2 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?"
@@ -4160,11 +4160,14 @@
   "ship_destroy_uncommon_tip": {
     "tip": "퇴역시킬 함선 중 <color=#92fc63>S Rare</color> 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?"
   },
+  "backyard_theme_save_tip": {
+    "tip": "숙소 배치를 저장하시겠습니까?：\n<color=#92fc63>$1</color>"
+  },
   "backyard_energy_qiuck_up_tip": {
     "tip": "에너지 커피를 <color=#92fc63FF>$1</color>개 사용하시겠습니까?\n\n보유 수：<color=$2>$3</color>"
   },
-  "backyard_theme_save_tip": {
-    "tip": "숙소 배치를 저장하시겠습니까?：\n<color=#92fc63>$1</color>"
+  "keep_fate_tip": {
+    "tip": "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
   },
   "pocky_jiujiu": {
     "tip": "쥬쥬 일상"
@@ -4194,9 +4197,6 @@
       }
     ]
   },
-  "keep_fate_tip": {
-    "tip": "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
-  },
   "word_intensify_phase": {
     "tip": "강화단계"
   },
@@ -4206,14 +4206,17 @@
   "ship_shipUpgradeLayer2_mod_advanced_tip": {
     "tip": "강화 재료 중<color=#92fc63>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?"
   },
+  "ship_shipUpgradeLayer2_uncommon_tip": {
+    "tip": "강화 재료 중 S Rare 이상의 함선이 선택되어 있습니다. 진행하시겠습니까?"
+  },
   "equipment_upgrade_feedback_lack_of_materials": {
     "tip": "재료 부족"
   },
   "battle_result_total_score": {
     "tip": "누적 점수:"
   },
-  "ship_shipUpgradeLayer2_uncommon_tip": {
-    "tip": "강화 재료 중 S Rare 이상의 함선이 선택되어 있습니다. 진행하시겠습니까?"
+  "tec_target_catchup_select_tip": {
+    "tip": "해당 캐릭터를 연구하시겠습니까: $1?"
   },
   "ship_equip_same_group_equipment": {
     "tip": "【유일】 장비는 2개 이상 장착할 수 없습니다"
@@ -4224,14 +4227,14 @@
   "world_sairen_title": {
     "tip": "세이렌 통제력"
   },
-  "tec_target_catchup_select_tip": {
-    "tip": "해당 캐릭터를 연구하시겠습니까: $1?"
-  },
   "word_operation": {
     "tip": "작전참가"
   },
   "ship_shipUpgradeLayer2_effect": {
     "tip": "경험치：<color=#92fc63>$1/$2</color>\n"
+  },
+  "destory_ur_pt_overflowa": {
+    "tip": "※해체로 획득하는 <color=#92fc63>「특장 원형」</color>은 이번달 획득 최대치를 초과하며, <color=#fd796b>초과된 부분은 획득할 수 없습니다</color>."
   },
   "achieve_propose_tip": {
     "tip": "「$1」스킨 개방!"
@@ -4242,17 +4245,18 @@
   "collect_tip": {
     "tip": "출격 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
   },
-  "destory_ur_pt_overflowa": {
-    "tip": "※해체로 획득하는 <color=#92fc63>「특장 원형」</color>은 이번달 획득 최대치를 초과하며, <color=#fd796b>초과된 부분은 획득할 수 없습니다</color>."
+  "help_xinnian2021__meishiyemian": {
+    "tip": [
+      {
+        "info": "이벤트 규칙:\n1. 이벤트 기간 동안 매일 사용 가능 횟수를 <color=#92fc63>1</color>회 획득하며, 최대\n<color=#92fc63>7</color>회 저장됩니다.\n2. 사용 가능 횟수가 있을 때, 새해 미식 축제에 참가하여 \n<color=#92fc63>게임 \n결산</color> 진행 시사용 가능 횟수를 소모하며 이벤트 아이템을 얻습\n니다. 이벤트 아이템 7개 수집 시한정 캐릭터 <color=#92fc63>「Z28」</color>을 \n획득합니다.\n3. 사용 가능 횟수가 없는 상태로 새해 미식 축제에 참가할 경우 \n이벤트 아이템을얻지 못합니다.\n4. 기타 원인으로 인해 중도 퇴장 시, 사용 가능 횟수를 \n차감하지 않으며어떠한 보상도 얻지 못합니다."
+      }
+    ]
   },
   "clear_transcode_cache_confirm": {
     "tip": "정말 유저 데이터를 제거하시겠습니까?\n※복원할 수 없는 경우도 있습니다."
   },
   "draw_big_luck_1": {
     "tip": "새해엔 운수대통이다냥~!"
-  },
-  "word_material": {
-    "tip": "재료"
   },
   "destroy_eliteship_tip": {
     "tip": "선택한 캐릭터 중 $1가 있는 캐릭터: "
@@ -4266,20 +4270,23 @@
   "ship_shipModMediator_choiseMaterial": {
     "tip": "재료를 선택해주세요."
   },
-  "world_mapbuff_attrtxt_2": {
-    "tip": "내구 조정"
-  },
   "set_birth_success": {
     "tip": "생일을 설정했습니다."
   },
-  "twitter_link_title": {
-    "tip": "连接中的推特账号：$1"
+  "world_mapbuff_attrtxt_2": {
+    "tip": "내구 조정"
   },
   "new_airi_error_code_0": {
     "tip": "Success"
   },
+  "twitter_link_title": {
+    "tip": "连接中的推特账号：$1"
+  },
   "ship_shipModLayer_effect1or2": {
     "tip": "증가 보정：<color=#92fc63>$1</color>"
+  },
+  "ship_shipModLayer_effect": {
+    "tip": "경험치：<color=#92fc63>$1/$2</color>\n"
   },
   "option_desc2": {
     "tip": "기능 ON 후, 자율 전투 종료 시 진동으로 알립니다."
@@ -4293,8 +4300,8 @@
   "ambush_display_3": {
     "tip": "보통"
   },
-  "ship_shipModLayer_effect": {
-    "tip": "경험치：<color=#92fc63>$1/$2</color>\n"
+  "ship_shipInfoScene_choiseMod": {
+    "tip": "돌파 항목을 선택해주세요."
   },
   "world_collection_back": {
     "tip": "빈 곳을 터치하여 돌아가기"
@@ -4328,11 +4335,11 @@
       }
     ]
   },
-  "ship_shipInfoScene_choiseMod": {
-    "tip": "돌파 항목을 선택해주세요."
-  },
   "ship_shipInfoScene_modLvMax": {
     "tip": "더 이상 한계돌파할 수 없습니다."
+  },
+  "ship_shipInfoScene_effect1or2": {
+    "tip": "증가：<color=#92fc63>$1</color>"
   },
   "LinkLinkGame_CurTime": {
     "tip": "소요 시간:"
@@ -4352,11 +4359,11 @@
   "main_mailMediator_mailDelete": {
     "tip": "삭제했습니다."
   },
-  "ship_shipInfoScene_effect1or2": {
-    "tip": "증가：<color=#92fc63>$1</color>"
-  },
   "valentinesday__txt5_tip": {
     "tip": "지휘관님, 더 많은 재료들을 수집해야 초콜릿을 계속 만들 수 있어요."
+  },
+  "word_train": {
+    "tip": "휴식"
   },
   "tips_fail_secondarypwd_much_times": {
     "tip": "2차 비밀번호 오류 횟수 초과. <color=#92FC63>%s</color>후 다시 시도해 보세요."
@@ -4367,23 +4374,23 @@
   "word_achieved_item": {
     "tip": "입수시간"
   },
-  "word_train": {
-    "tip": "휴식"
-  },
   "ship_shipInfoScene_equipUnlockSlostYesText": {
     "tip": "함선강화"
-  },
-  "commander_material_is_rarity": {
-    "tip": "SSR 지휘냥이 선택되어 있습니다. 계속하시겠습니까?"
   },
   "ship_shipInfoScene_equipUnlockSlostContent": {
     "tip": "한계돌파 후 장비 슬롯 개방"
   },
+  "commander_material_is_rarity": {
+    "tip": "SSR 지휘냥이 선택되어 있습니다. 계속하시겠습니까?"
+  },
+  "guild_tech_label_max_level": {
+    "tip": "Lv 상한: "
+  },
   "activity_puzzle_get5": {
     "tip": "획득 방식：통상 난이도 3-3"
   },
-  "word_minute": {
-    "tip": "분"
+  "ship_newSkinLayer_get": {
+    "tip": "<color=#92fc63>$1</color>의 스킨 - <color=#92fc63>$2</color>을(를) 획득했습니다!"
   },
   "common_use_item_sos_used": {
     "tip": "구조신호 수신 수 +$1"
@@ -4394,8 +4401,8 @@
   "activity_puzzle_get12": {
     "tip": "획득 방식：퍼즐 임무 3"
   },
-  "ship_newSkinLayer_get": {
-    "tip": "<color=#92fc63>$1</color>의 스킨 - <color=#92fc63>$2</color>을(를) 획득했습니다!"
+  "ship_newShipLayer_get": {
+    "tip": "<color=#92fc63>$1</color> - <color=#92fc63>$2</color>을(를) 획득"
   },
   "class_label_upgradetime": {
     "tip": "레벨업 시간"
@@ -4415,17 +4422,14 @@
   "word_equipskin_tarpedo": {
     "tip": "어뢰 "
   },
-  "ship_newShipLayer_get": {
-    "tip": "<color=#92fc63>$1</color> - <color=#92fc63>$2</color>을(를) 획득"
+  "equip_info_28": {
+    "tip": "대미지 수정 비율"
   },
   "msgbox_text_clear": {
     "tip": "정리"
   },
   "word_equipment_antiaircraft": {
     "tip": "대공포"
-  },
-  "equip_info_28": {
-    "tip": "대미지 수정 비율"
   },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "전투 가능한 함선이 부족합니다."
@@ -4442,6 +4446,9 @@
   "ship_formationUI_exercise_fleetName": {
     "tip": "연습전 함대"
   },
+  "world_boss_inbattle": {
+    "tip": "현재 비콘·META 작전 중. 이동 불가."
+  },
   "sort_attribute": {
     "tip": "스탯"
   },
@@ -4451,29 +4458,29 @@
   "world_boss_progress_item_desc": {
     "tip": "대형 작전에서 수집한 <color=#92fc63>「비콘 데이터」</color>를 기록하는 장치. 지정 데이터량 달성 후 데이터에 따라 분석하여  비콘을 발견할 수 있다.\nP.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세요.\n금일 분석 횟수: $1/$2\n데이터 기록량: $3"
   },
-  "world_boss_inbattle": {
-    "tip": "현재 비콘·META 작전 중. 이동 불가."
-  },
   "ship_formationUI_fleetName11": {
     "tip": "제1 잠수함대"
-  },
-  "equipment_skin_no_new_ship": {
-    "tip": "不存在新船"
   },
   "ship_formationUI_fleetName5": {
     "tip": "제5 함대"
   },
+  "equipment_skin_no_new_ship": {
+    "tip": "不存在新船"
+  },
   "ship_formationUI_fleetName4": {
     "tip": "제4 함대"
   },
-  "login_loginMediator_loginSuccess": {
-    "tip": "성공적으로 로그인했습니다."
+  "word_date": {
+    "tip": "일"
   },
   "ship_formationUI_fleetName3": {
     "tip": "제3 함대"
   },
   "ship_formationUI_fleetName1": {
     "tip": "제1 함대"
+  },
+  "sham_friend_ship_tip": {
+    "tip": "친구 지원이 선택되어 있지 않습니다. 출격한 이후에는 친구 지원을 수정할 수 없습니다. 진행하시겠습니까?"
   },
   "guild_donate_capital_toplimit": {
     "tip": "금일 군수 준비로 획득 가능한 대함대 물자를 초과했습니다. 획득할 수 없습니다."
@@ -4487,8 +4494,8 @@
   "guild_impeach_sucess": {
     "tip": "탄핵했습니다."
   },
-  "sham_friend_ship_tip": {
-    "tip": "친구 지원이 선택되어 있지 않습니다. 출격한 이후에는 친구 지원을 수정할 수 없습니다. 진행하시겠습니까?"
+  "battlepass_complete": {
+    "tip": "월드 투어 완료"
   },
   "ship_remould_selecte_exceed": {
     "tip": "1척 이상 선택되어 있습니다."
@@ -4496,8 +4503,8 @@
   "ship_vo_moveout_formation": {
     "tip": "함대에서 배속해제 하시겠습니까?"
   },
-  "exchangecode_use_error_16": {
-    "tip": "이미 사용한 시리얼 코드입니다."
+  "ship_formationMediator_addShipError_overlimit": {
+    "tip": "<color=#92fc63>$2</color>을(를) <color=#92fc63>$1</color>척 이상 편성할 수 없습니다."
   },
   "doa_main": {
     "tip": [
@@ -4509,35 +4516,32 @@
   "longxiang_total_count": {
     "tip": "현재 류조 부적："
   },
-  "ship_formationMediator_addShipError_overlimit": {
-    "tip": "<color=#92fc63>$2</color>을(를) <color=#92fc63>$1</color>척 이상 편성할 수 없습니다."
-  },
   "ship_formationMediator_changeNameSuccess": {
     "tip": "함대명 변경 완료!"
+  },
+  "extra_chapter_socre_tip": {
+    "tip": "오늘의 스코어：<color=#92fc63>$1</color>\n개인 최고 스코어：<color=#92fc63>$2</color>\n $3"
   },
   "word_kind": {
     "tip": "종류"
   },
-  "mail_getMailList_error_noNewMail": {
-    "tip": "새로운 우편이 없습니다."
+  "ship_formationMediator_leastLimit": {
+    "tip": "제 1 함대에는 1척 이상의 함선을 배치해야 합니다."
   },
   "collection_way_is_unopen": {
     "tip": "현재 입수할 수 없습니다"
   },
-  "ship_formationMediator_leastLimit": {
-    "tip": "제 1 함대에는 1척 이상의 함선을 배치해야 합니다."
+  "exercise_count_recover_tip": {
+    "tip": "( <color=#92fc63>$1</color> 후 회복)"
   },
   "world_instruction_submarine_10": {
     "tip": "시 자동 소환"
   },
-  "exercise_count_recover_tip": {
-    "tip": "( <color=#92fc63>$1</color> 후 회복)"
+  "ship_dockyardScene_error_choiseRoleMore": {
+    "tip": "<color=#92fc63>$1</color>척 이상 선택해주세요."
   },
   "tec_target_catchup_none_2": {
     "tip": "강화 지향: 2기/미선택"
-  },
-  "ship_dockyardScene_error_choiseRoleMore": {
-    "tip": "<color=#92fc63>$1</color>척 이상 선택해주세요."
   },
   "challenge_help": {
     "tip": [
@@ -4594,6 +4598,9 @@
   "ship_dockyardMediator_destroy": {
     "tip": "퇴역 완료"
   },
+  "ship_buildShipMediator_finishBuild": {
+    "tip": "건조 완료"
+  },
   "word_attr_ac": {
     "tip": "제공"
   },
@@ -4606,35 +4613,35 @@
   "area_renwu": {
     "tip": "임무 해역"
   },
-  "ship_buildShipMediator_finishBuild": {
-    "tip": "건조 완료"
-  },
   "ship_buildShipMediator_startBuild": {
     "tip": "건조 개시"
-  },
-  "equipment_upgrade_equipped_tag": {
-    "tip": "장착 중:"
   },
   "ship_vo_vanguardFleet_exist_same_ship": {
     "tip": "선봉함대에 동일 함선을 편성할 수 없습니다."
   },
-  "world_redeploy_warn": {
-    "tip": "재배치 시, 모항에 남은 함선은 도크로 돌아갑니다. 계속하시겠습니까?"
+  "equipment_upgrade_equipped_tag": {
+    "tip": "장착 중:"
   },
   "ship_vo_locked": {
     "tip": "해당 함선은 잠금 상태입니다."
   },
+  "world_redeploy_warn": {
+    "tip": "재배치 시, 모항에 남은 함선은 도크로 돌아갑니다. 계속하시겠습니까?"
+  },
   "ins_word_minu": {
     "tip": "$1분 전"
-  },
-  "event_start": {
-    "tip": "의뢰 개시"
   },
   "word_synthesize_power": {
     "tip": "전투 능력"
   },
+  "event_start": {
+    "tip": "의뢰 개시"
+  },
   "ship_vo_vanguardFleet_must_hasShip": {
     "tip": "선봉함대에는 최소 1척 이상의 함선이 존재해야 합니다."
+  },
+  "query_role_fail": {
+    "tip": "조회 실패"
   },
   "backayrd_theme_delete_sucess": {
     "tip": "세트 제거 성공"
@@ -4642,17 +4649,17 @@
   "main_notificationMediator_sendFriendRequest": {
     "tip": "친구 신청을 보냈습니다."
   },
-  "query_role_fail": {
-    "tip": "조회 실패"
+  "ship_vo_inClass": {
+    "tip": "해당 함선은 대강당에서 수업 중입니다."
   },
   "guild_fleet_update_done": {
     "tip": "함대 갱신 성공"
   },
-  "ship_vo_inClass": {
-    "tip": "해당 함선은 대강당에서 수업 중입니다."
-  },
   "ship_vo_inBackyardRest": {
     "tip": "해당 함선은 숙소에서 휴식 중입니다."
+  },
+  "guild_member_rank_title_donate": {
+    "tip": "기부 횟수"
   },
   "confirm_unlock_lv": {
     "tip": "$1의 $2 해제하겠습니까? "
@@ -4660,29 +4667,26 @@
   "guild_operation_event_occurrence": {
     "tip": "대함대 작전에 파견 가능한 새로운 사건이 있습니다. 확인해 주세요."
   },
-  "guild_member_rank_title_donate": {
-    "tip": "기부 횟수"
-  },
   "ship_vo_event": {
     "tip": "해당 함선은 특수 임무를 진행 중입니다."
   },
   "ship_vo_fighting": {
     "tip": "해당 함선은 출격 중입니다."
   },
-  "activity_puzzle_get11": {
-    "tip": "획득 방식：퍼즐 임무 2"
-  },
   "ship_exchange_tip": {
     "tip": "1.Rare 이상의 함선을 퇴역시키면 훈장을 얻을 수 있습니다.\n2.교환 시스템에서 훈장을 사용하여 지원함선과 교환할 수 있습니다.\n3.지원 목록은 매일 6시와 18시에 갱신됩니다."
+  },
+  "activity_puzzle_get11": {
+    "tip": "획득 방식：퍼즐 임무 2"
   },
   "text_noRes_info_tip_link": {
     "tip": "와(과)"
   },
-  "backyard_backyardScene_exitShipAfterAddEnergy": {
-    "tip": "피로도가 회복되었습니다!"
-  },
   "ship_exchange_erro": {
     "tip": "교환 실패：<color=#92fc63>$1</color>"
+  },
+  "backyard_backyardScene_exitShipAfterAddEnergy": {
+    "tip": "피로도가 회복되었습니다!"
   },
   "ship_exchange_medalCount_noEnough": {
     "tip": "훈장이 부족합니다."
@@ -4690,11 +4694,14 @@
   "word_registerFull": {
     "tip": "<color=#ff5c5c>만원</color>"
   },
+  "friend_request_msg_title": {
+    "tip": "상대방이 승인할 경우 친구가 됩니다."
+  },
   "charge_title_getitem_soon": {
     "tip": "바로 획득 가능："
   },
-  "friend_request_msg_title": {
-    "tip": "상대방이 승인할 경우 친구가 됩니다."
+  "word_got": {
+    "tip": "수령 완료"
   },
   "common_no_dorm_gold": {
     "tip": "<color=#92fc63>가구 코인</color>이 부족합니다!"
@@ -4704,9 +4711,6 @@
   },
   "equipment_skin_no_equipment_tip": {
     "tip": "장비가 장착되어 있지 않아, 장비 스킨을 적용시킬 수 없습니다."
-  },
-  "tactics_no_lesson": {
-    "tip": "교본이 없습니다..."
   },
   "ship_upgradeStar_notConfig": {
     "tip": "한계돌파 <color=#92fc63>$1</color>　정보를 불러오는데 실패했습니다."
@@ -4730,6 +4734,9 @@
       }
     ]
   },
+  "new_airi_error_code_100114": {
+    "tip": "Account binding success; IP restricted, failed to acquire Access Token"
+  },
   "tec_tip_no_consumption": {
     "tip": "무료"
   },
@@ -4744,9 +4751,6 @@
   },
   "remould_ship_ok": {
     "tip": "개조 성공"
-  },
-  "new_airi_error_code_100114": {
-    "tip": "Account binding success; IP restricted, failed to acquire Access Token"
   },
   "idolmaster_game_tip5": {
     "tip": "점수:"
@@ -4824,14 +4828,14 @@
   "ship_updateShipLock_ok_lock": {
     "tip": "<color=#92fc63>$1</color>을(를) 잠금 상태로 전환했습니다."
   },
+  "word_rename_time_tip": {
+    "tip": "앞으로 $1일 동안 이름을 변경할 수 없습니다."
+  },
   "map_event_memory_collected": {
     "tip": "스토리 <color=#92fc63>「$1」</color> 개방 성공!"
   },
   "guild_tech_gold_desc": {
     "tip": "물자 비축 상한 +$1"
-  },
-  "word_rename_time_tip": {
-    "tip": "앞으로 $1일 동안 이름을 변경할 수 없습니다."
   },
   "ship_unequip_all_tip": {
     "tip": "장비를 전부 장착 해제하시겠습니까?"
@@ -4842,6 +4846,9 @@
   "ship_unequipFromShip_error": {
     "tip": "장비 변경 실패："
   },
+  "ship_unequipFromShip_ok": {
+    "tip": "<color=#FFD700FF>$1</color>를(를) 장착 해제했습니다."
+  },
   "levelScene_activate_loop_mode_failed": {
     "tip": "스테이지 진행도 100% 달성 후 주회 모드를 선택할 수 있습니다."
   },
@@ -4851,11 +4858,11 @@
   "anniversary_task_title_11": {
     "tip": "강철의 기억을 용골로, 사람들의 소망으로 형태가 부여된 자,"
   },
-  "ship_unequipFromShip_ok": {
-    "tip": "<color=#FFD700FF>$1</color>를(를) 장착 해제했습니다."
-  },
   "ship_modShip_error_notEnoughGold": {
     "tip": "<color=#92fc63>물자가 부족합니다.</color>"
+  },
+  "ship_modShip_error": {
+    "tip": "강화 실패："
   },
   "transcode_empty_tip": {
     "tip": "정확한 인계 패스워드를 입력해주세요."
@@ -4863,8 +4870,8 @@
   "backyard_shipSpeedUpEnergy_error": {
     "tip": "가속 실패："
   },
-  "ship_modShip_error": {
-    "tip": "강화 실패："
+  "unlock_tips": {
+    "tip": "·  $1일차 해제  ·"
   },
   "levelScene_search_area": {
     "tip": "[수신 범위 : 제$1장 해역]"
@@ -4875,8 +4882,8 @@
   "attribute_damage": {
     "tip": "화력"
   },
-  "unlock_tips": {
-    "tip": "·  $1일차 해제  ·"
+  "equip_info_1": {
+    "tip": "피해"
   },
   "dailyLevel_unopened": {
     "tip": "준비 중입니다."
@@ -4887,17 +4894,17 @@
   "word_attr_luck": {
     "tip": "소모"
   },
-  "equip_info_1": {
-    "tip": "피해"
-  },
   "common_activity_notStartOrEnd": {
     "tip": "<color=#92fc63>미개방</color> 또는 <color=#92fc63>이미 종료</color>된 이벤트입니다."
+  },
+  "ship_equipToShip_error_noEquip": {
+    "tip": "장비가 존재하지 않습니다."
   },
   "word_gold": {
     "tip": "물자"
   },
-  "ship_equipToShip_error_noEquip": {
-    "tip": "장비가 존재하지 않습니다."
+  "ship_equipToShip_ok": {
+    "tip": "<color=#92fc63>$1</color>을(를) 장착했습니다."
   },
   "ur_exchange_help_tip": {
     "tip": [
@@ -4906,14 +4913,14 @@
       }
     ]
   },
-  "ship_equipToShip_ok": {
-    "tip": "<color=#92fc63>$1</color>을(를) 장착했습니다."
+  "ship_buildship_tip": {
+    "tip": "<color=#92fc63>$4</color> 건조 진행 시：\n<color=#92fc63>$1 물자</color>와 <color=#92fc63>$3을(를) $2개</color> 소모."
   },
   "ship_drop_desc_default": {
     "tip": "함선 획득"
   },
-  "ship_buildship_tip": {
-    "tip": "<color=#92fc63>$4</color> 건조 진행 시：\n<color=#92fc63>$1 물자</color>와 <color=#92fc63>$3을(를) $2개</color> 소모."
+  "word_serverLoadVindicate": {
+    "tip": "<color=#a2a2a2>점검</color>"
   },
   "backyard_extendBackYard_error": {
     "tip": "휴식 슬롯 확장 실패："
@@ -4924,11 +4931,11 @@
   "commander_can_not_be_upgrade": {
     "tip": "이 지휘냥은 레벨업 할 수 없습니다"
   },
-  "word_serverLoadVindicate": {
-    "tip": "<color=#a2a2a2>점검</color>"
-  },
   "guild_total_damage": {
     "tip": "총 대미지"
+  },
+  "ship_buildSingleShip": {
+    "tip": "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>1척 고속 건조</color>를 진행하시겠습니까?"
   },
   "word_device": {
     "tip": "설비"
@@ -4936,14 +4943,11 @@
   "common_clean": {
     "tip": "청소"
   },
-  "ship_buildSingleShip": {
-    "tip": "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>1척 고속 건조</color>를 진행하시겠습니까?"
+  "ship_buildShip_not_position": {
+    "tip": "건조 대기열이 가득 찼습니다."
   },
   "technology_uplevel_error_no_res": {
     "tip": "<color=#92fc63>$1</color>물자를 소모하여 기술 레벨을 해제하시겠습니까?\n필요시간 : <color=#92fc63>$2</color>\n레벨변화 : <color=#92fc63>Lv.$3->Lv.$4</color>"
-  },
-  "ship_buildShip_not_position": {
-    "tip": "건조 대기열이 가득 찼습니다."
   },
   "guild_sort_duty": {
     "tip": "직무"
@@ -4954,35 +4958,38 @@
   "ship_buildShipImmediately_error_noSHip": {
     "tip": "건조 중인 함선이 없습니다."
   },
+  "ai_change_2": {
+    "tip": "잠수함대 – 자동 색적 태세로 변경되었습니다."
+  },
   "msgbox_text_go": {
     "tip": "바로가기"
   },
   "ship_renameShip_error_4": {
     "tip": "아직 변경할 수 없습니다."
   },
-  "ai_change_2": {
-    "tip": "잠수함대 – 자동 색적 태세로 변경되었습니다."
-  },
   "ship_buildShip_error_noTemplate": {
     "tip": "건조 배치가 존재하지 않습니다.：<color=#92fc63>$1</color>"
-  },
-  "guild_get_report_failed": {
-    "tip": "작전 보고서 정보를 수령하는 데 실패했습니다."
   },
   "autofight_onceagain": {
     "tip": "재출격"
   },
-  "commission_normal": {
-    "tip": "군사 의뢰："
+  "guild_get_report_failed": {
+    "tip": "작전 보고서 정보를 수령하는 데 실패했습니다."
   },
   "ship_error_noShip": {
     "tip": "함선이 존재하지 않습니다.：<color=#92fc63>$1</color>"
   },
-  "battle_levelMediator_ok_takeResource": {
-    "tip": "물자를 조달했습니다!"
+  "commission_normal": {
+    "tip": "군사 의뢰："
   },
   "word_reset": {
     "tip": "초기화"
+  },
+  "battle_levelMediator_ok_takeResource": {
+    "tip": "물자를 조달했습니다!"
+  },
+  "resourceSite_finishResourceSite_error": {
+    "tip": "자원 획득 완료 실패："
   },
   "list_empty_tip_dockyardui": {
     "tip": "조건에 맞는 함선 없음"
@@ -4993,29 +5000,29 @@
   "commander_can_not_select_same_group": {
     "tip": "해당 함대에 이미 동일한 지휘냥이 편성되어 있습니다."
   },
-  "resourceSite_finishResourceSite_error": {
-    "tip": "자원 획득 완료 실패："
-  },
   "resourceSite_collectResource_error": {
     "tip": "자원 획득 실패："
-  },
-  "backyard_backyardShipInfoMediator_ok_addShip": {
-    "tip": "출격시킬 함선을 배치했습니다."
   },
   "word_simple": {
     "tip": "레어"
   },
+  "backyard_backyardShipInfoMediator_ok_addShip": {
+    "tip": "출격시킬 함선을 배치했습니다."
+  },
   "meta_skill_unlock": {
     "tip": "스킬 습득을 터치한 후 연수를 진행하세요."
-  },
-  "common_activity_end": {
-    "tip": "<color=#92fc63>이미 종료</color>된 이벤트입니다."
   },
   "equipment_destroyEquipments_error_notEnoughEquip": {
     "tip": "수량이 부족합니다."
   },
+  "common_activity_end": {
+    "tip": "<color=#92fc63>이미 종료</color>된 이벤트입니다."
+  },
   "class_label_upgrading": {
     "tip": "레벨업 중"
+  },
+  "word_normal_2": {
+    "tip": "보통"
   },
   "text_noPos_buy": {
     "tip": "확장"
@@ -5023,14 +5030,14 @@
   "world_redeploy_cost_tip": {
     "tip": "이번 함대 배치는 $1 행동력을 소모합니다. 계속하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
   },
-  "word_normal_2": {
-    "tip": "보통"
-  },
   "prop_destroyProp_error_noItem": {
     "tip": "아이템이 존재하지 않습니다."
   },
   "player_change_chat_room_erro": {
     "tip": "채팅방 변경 실패："
+  },
+  "tec_target_catchup_finish_1": {
+    "tip": "강화 지향: 1기/완료"
   },
   "world_fleetName5": {
     "tip": "잠 수 함 대"
@@ -5050,23 +5057,23 @@
   "common_no_oil": {
     "tip": "<color=#92fc63>연료</color>가 부족합니다!"
   },
-  "tec_target_catchup_finish_1": {
-    "tip": "강화 지향: 1기/완료"
+  "player_harvestResource_error": {
+    "tip": "자원 조달 실패："
   },
   "equipment_select_device_destroy_nobonus_tip": {
     "tip": "획득 재료 없음"
   },
-  "player_harvestResource_error": {
-    "tip": "자원 조달 실패："
-  },
   "player_changePlayerName_error_2015": {
     "tip": "이미 사용 중인 이름입니다."
+  },
+  "player_changePlayerName_error": {
+    "tip": "이름 변경 실패："
   },
   "guild_cancel_only_once_pre_day": {
     "tip": "함대 기술 개발은 1일 1회만 변경할 수 있습니다."
   },
-  "player_changePlayerName_error": {
-    "tip": "이름 변경 실패："
+  "word_many": {
+    "tip": "대량"
   },
   "guild_report_get_all": {
     "tip": "모두 수령"
@@ -5080,23 +5087,20 @@
   "activity_puzzle_get8": {
     "tip": "획득 방식：통상 난이도 2-4"
   },
-  "word_many": {
-    "tip": "대량"
+  "player_changePlayerName_ok": {
+    "tip": "이름을 변경했습니다."
   },
   "word_attr_cd": {
     "tip": "사속"
   },
-  "player_changePlayerName_ok": {
-    "tip": "이름을 변경했습니다."
-  },
   "player_changePlayerIcon_error": {
     "tip": "프로필 이미지 변경 실패："
   },
-  "main_navalAcademyScene_quest_startClass": {
-    "tip": "<color=#92fc63>수업 개시! 여러분, 집중해서 들어주세요~</color>"
-  },
   "player_changeManifesto_error": {
     "tip": "코멘트 변경 실패："
+  },
+  "main_navalAcademyScene_quest_startClass": {
+    "tip": "<color=#92fc63>수업 개시! 여러분, 집중해서 들어주세요~</color>"
   },
   "player_changeManifesto_ok": {
     "tip": "코멘트를 변경했습니다."
@@ -5106,15 +5110,6 @@
   },
   "word_take": {
     "tip": "수령"
-  },
-  "words_visit_backyard_toggle": {
-    "tip": "친구 숙소 방문 허가"
-  },
-  "equip_info_2": {
-    "tip": "표준 사격 속도"
-  },
-  "levelScene_signal_help_tip": {
-    "tip": "구조신호에 관하여"
   },
   "link_link_help_tip": {
     "tip": [
@@ -5141,11 +5136,17 @@
       }
     ]
   },
+  "words_visit_backyard_toggle": {
+    "tip": "친구 숙소 방문 허가"
+  },
+  "equip_info_2": {
+    "tip": "표준 사격 속도"
+  },
+  "levelScene_signal_help_tip": {
+    "tip": "구조신호에 관하여"
+  },
   "word_kiss": {
     "tip": "(*♥▽♥*)"
-  },
-  "text_cancel": {
-    "tip": "취소"
   },
   "coloring_help_tip": {
     "tip": [
@@ -5157,11 +5158,14 @@
       }
     ]
   },
-  "elite_fleet_confirm": {
-    "tip": "$1이(가) 출격 조건을 <color=#ff0000>만족하고 있지 않기</color> 때문에 전투에 참가할 수 없습니다. 정말 출격하시겠습니까?"
+  "text_cancel": {
+    "tip": "취소"
   },
   "coloring_wait_open": {
     "tip": "오픈 대기 중"
+  },
+  "elite_fleet_confirm": {
+    "tip": "$1이(가) 출격 조건을 <color=#ff0000>만족하고 있지 않기</color> 때문에 전투에 참가할 수 없습니다. 정말 출격하시겠습니까?"
   },
   "coloring_lock": {
     "tip": "미개방"
@@ -5169,32 +5173,32 @@
   "guidl_r_box_time_desc": {
     "tip": "냥박스 R 훈련 시간 단축 $1"
   },
+  "word_start": {
+    "tip": "증축개시"
+  },
   "charge_trade_no_error": {
     "tip": "주문 id 오류. 다시 시도해 주세요."
   },
   "tip_pray_build_pool_success": {
     "tip": "구성 완료"
   },
-  "word_start": {
-    "tip": "증축개시"
-  },
   "coloring_erase_all_warning": {
     "tip": "[전부 삭제] 를 누르시면 팔레트의 모든 내용이 사라집니다. 계속 하시겠습니까?"
+  },
+  "coloring_color_not_enough": {
+    "tip": "물감이 부족합니다. 우측 상단을 터치하여 획득 방법을 확인하여 주십시오."
   },
   "ship_remould_warning_310034": {
     "tip": "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. \n【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.\n부무장 슬롯에 장착되어 있는 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>"
   },
-  "coloring_color_not_enough": {
-    "tip": "물감이 부족합니다. 우측 상단을 터치하여 획득 방법을 확인하여 주십시오."
+  "word_succeed": {
+    "tip": ""
   },
   "friend_offline": {
     "tip": "친구가 접속 중이 아닙니다."
   },
   "ship_remould_warning_205124": {
     "tip": "근대화 개수는 <color=#92fc63>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?"
-  },
-  "word_succeed": {
-    "tip": ""
   },
   "main_playerInfoLayer_error_changeNameNoGem": {
     "tip": "다이아 부족"
@@ -5205,6 +5209,9 @@
   "main_playerInfoLayer_inputName": {
     "tip": "이름을 입력해주세요."
   },
+  "exchangecode_use_error_16": {
+    "tip": "이미 사용한 시리얼 코드입니다."
+  },
   "word_teach": {
     "tip": "수업"
   },
@@ -5214,17 +5221,17 @@
   "guidl_ssr_box_time_desc": {
     "tip": "냥박스 SSR 훈련 시간 단축 $3"
   },
-  "battlepass_complete": {
-    "tip": "월드 투어 완료"
-  },
   "elite_condition_cannon": {
     "tip": "포격합계"
+  },
+  "main_notificationLayer_roomId_invaild": {
+    "tip": "채팅방이 존재하지 않습니다."
   },
   "chapter_tip_aovid_failed": {
     "tip": "회피 실패"
   },
-  "main_notificationLayer_roomId_invaild": {
-    "tip": "채팅방이 존재하지 않습니다."
+  "text_nofood_no": {
+    "tip": "무시하기"
   },
   "world_fleetName2": {
     "tip": "제 2 함 대"
@@ -5235,14 +5242,14 @@
   "equip_info_30": {
     "tip": "속성 효율"
   },
-  "text_nofood_no": {
-    "tip": "무시하기"
-  },
   "main_notificationLayer_enter_room": {
     "tip": "<color=#92fc63>$1</color> 채팅방에 입장했습니다."
   },
   "main_notificationLayer_quest_request": {
     "tip": "에게 친구 신청을 받았습니다. 승인하시겠습니까?"
+  },
+  "word_rarity": {
+    "tip": "레어도"
   },
   "gem_shop_xinzhi_tip": {
     "tip": "(이번달 <color=#FF5C5CFF>$1</color>/15회 구매함)"
@@ -5250,11 +5257,11 @@
   "option_desc3": {
     "tip": "기능 ON 후, SSR 이상 등급의 함선 획득 시 진동으로 알립니다."
   },
-  "word_rarity": {
-    "tip": "레어도"
-  },
   "main_notificationLayer_addFriendError_friendAlready": {
     "tip": "이미 친구인 유저입니다."
+  },
+  "main_notificationLayer_sendButton": {
+    "tip": "메시지 입력"
   },
   "world_catsearch_help_3": {
     "tip": {
@@ -5283,14 +5290,11 @@
   "amusementpark_shop_carousel2": {
     "tip": "♫기다란 직선으로~ 그렸던~ 너의 수많은 목적지~♫"
   },
-  "main_notificationLayer_sendButton": {
-    "tip": "메시지 입력"
+  "main_notificationLayer_deleteFriend": {
+    "tip": "친구 삭제"
   },
   "npc_propse_tip": {
     "tip": "「정식 획득」 하지 않은 콜라보레이션 캐릭터는 서약을 진행할 수 없습니다."
-  },
-  "main_notificationLayer_deleteFriend": {
-    "tip": "친구 삭제"
   },
   "main_notificationLayer_noFriend": {
     "tip": "친구가 없습니다."
@@ -5298,26 +5302,26 @@
   "word_preview": {
     "tip": "프리뷰"
   },
-  "battle_resourceSiteMediator_shipState_rest": {
-    "tip": "해당 함선은 숙소에서 휴식 중입니다."
-  },
   "main_notificationLayer_searchInput": {
     "tip": "유저명을 입력해주세요."
+  },
+  "battle_resourceSiteMediator_shipState_rest": {
+    "tip": "해당 함선은 숙소에서 휴식 중입니다."
   },
   "main_navalAcademyScene_class_upgrade_complete": {
     "tip": "<color=#92fc63>$1</color> 증축 완료, 비축 용량 <color=#9CFF5CE6>+$2</color>!"
   },
-  "resource_max_tip_collect": {
-    "tip": "보수를 받을 수 없습니다."
-  },
   "main_navalAcademyScene_upgrade_complete": {
     "tip": "<color=#92fc63>$1</color> 업그레이드 완료!"
   },
-  "world_mapbuff_attrtxt_3": {
-    "tip": "회복 방해"
+  "resource_max_tip_collect": {
+    "tip": "보수를 받을 수 없습니다."
   },
   "text_clear": {
     "tip": "정리"
+  },
+  "world_mapbuff_attrtxt_3": {
+    "tip": "회복 방해"
   },
   "main_navalAcademyScene_quest_stopClass": {
     "tip": "同学们努力学习中，确认让她们一起逃课？\n<color=#92fc63>（逃课将不获得属性值加成）</color>"
@@ -5331,11 +5335,11 @@
   "main_mailMediator_notingToTake": {
     "tip": "수령할 수 있는 아이템이 없습니다."
   },
-  "vote_rank_refresh_time": {
-    "tip": "※30분마다 갱신됩니다."
-  },
   "word_soundfiles_update_end": {
     "tip": "갱신 완료"
+  },
+  "vote_rank_refresh_time": {
+    "tip": "※30분마다 갱신됩니다."
   },
   "main_mailLayer_quest_deleteNotRead": {
     "tip": "<color=#92fc63>아직 읽지 않은 우편이 있습니다.</color> 정말 삭제하시겠습니까?"
@@ -5343,17 +5347,20 @@
   "world_boss_ask_help": {
     "tip": "해당 채널에서 지원을 호출할 수 없습니다."
   },
+  "word_material": {
+    "tip": "재료"
+  },
   "ship_shipUpgradeLayer2_noMaterail": {
     "tip": "재료가 부족합니다."
   },
   "open_skill_pos": {
     "tip": "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>이 필요합니다.\n오픈하시겠습니까?"
   },
-  "login_gate_not_ready": {
-    "tip": "현재 점검 중입니다."
-  },
   "main_mailLayer_noAttach": {
     "tip": "첨부없음"
+  },
+  "main_mailLayer_takeAttach": {
+    "tip": "아이템 수령"
   },
   "elite_disable_no_fleet": {
     "tip": "행동 가능한 함선이 없습니다."
@@ -5361,23 +5368,23 @@
   "fate_phase_word": {
     "tip": "연구 진척"
   },
-  "main_mailLayer_takeAttach": {
-    "tip": "아이템 수령"
+  "word_proficiency": {
+    "tip": "숙련도"
   },
   "amusementpark_shop_0": {
     "tip": "♫만쥬의 힘을 손에 넣어라~ 정의의 히어로~ 만쥬~♫"
   },
-  "word_proficiency": {
-    "tip": "숙련도"
+  "new_airi_error_code_100213": {
+    "tip": "Account binding with FB/TW failed"
   },
   "index_shipType_weiXiu": {
     "tip": "공작"
   },
-  "new_airi_error_code_100213": {
-    "tip": "Account binding with FB/TW failed"
-  },
   "mail_confirm_set_important_flag": {
     "tip": "메일을 보존하시겠습니까?"
+  },
+  "mail_takeAttachment_error_dockYrad_full": {
+    "tip": "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>도크가 꽉 차 있습니다.</color>"
   },
   "login_game_rigister_full": {
     "tip": "서버가 만원입니다."
@@ -5388,8 +5395,8 @@
   "word_furniture": {
     "tip": "가구"
   },
-  "mail_takeAttachment_error_dockYrad_full": {
-    "tip": "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>도크가 꽉 차 있습니다.</color>"
+  "level_scene_title_word_1": {
+    "tip": "색적치:"
   },
   "npc_evaluation_tip": {
     "tip": " '임시 획득' 캐릭터는 코멘트 기능 이용을 할 수 없습니다."
@@ -5397,8 +5404,8 @@
   "tec_notice_2": {
     "tip": "과학 연구 2기 개발 가속 모든 임무 완료 후 개방"
   },
-  "level_scene_title_word_1": {
-    "tip": "색적치:"
+  "word_sub_weapons": {
+    "tip": "부무장"
   },
   "guild_tech_non_admin": {
     "tip": "권한 부족. 해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
@@ -5464,32 +5471,32 @@
   "exercise_clear_fleet_tip": {
     "tip": "해당 함선을 해제합니다. 진행하시겠습니까?"
   },
-  "word_sub_weapons": {
-    "tip": "부무장"
+  "mail_takeAttachment_error_reWorld": {
+    "tip": "대형 작전 초기화 완료. 수령한 부품은 작전 준비 물자 교환권으로 전환됩니다. 수령하시겠습니까?"
   },
   "word_shipInfoScene_infomation": {
     "tip": "함선 정보"
   },
-  "mail_takeAttachment_error_reWorld": {
-    "tip": "대형 작전 초기화 완료. 수령한 부품은 작전 준비 물자 교환권으로 전환됩니다. 수령하시겠습니까?"
-  },
   "cannot_build_multiple_printblue": {
     "tip": "현재 진행 중인 <color=#92fc63>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#92fc63>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#92fc63>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다."
-  },
-  "world_stamina_resetwarning": {
-    "tip": "주의: 대형 작전이 곧 <color=#ff5c5c>초기화</color>됩니다. 초기화 후$1 이상의 행동력은 <color=#ff5c5c>보류되지 않으니</color>, 지휘관 여러분께서는 합리적으로 함대 작전 계획을 세워주세요!"
   },
   "mail_takeAttachment_error_noAttach": {
     "tip": "첨부 아이템을 수령하지 못했습니다."
   },
+  "world_stamina_resetwarning": {
+    "tip": "주의: 대형 작전이 곧 <color=#ff5c5c>초기화</color>됩니다. 초기화 후$1 이상의 행동력은 <color=#ff5c5c>보류되지 않으니</color>, 지휘관 여러분께서는 합리적으로 함대 작전 계획을 세워주세요!"
+  },
   "mail_takeAttachment_error_noMail": {
     "tip": "우편이 존재하지 않습니다.：$1"
+  },
+  "word_second": {
+    "tip": "초"
   },
   "word_stopremain_build": {
     "tip": "재접속까지 표시 안함"
   },
-  "word_second": {
-    "tip": "초"
+  "mail_getMailList_error_noNewMail": {
+    "tip": "새로운 우편이 없습니다."
   },
   "word_skill_desc_get": {
     "tip": "(MAX $1)"
@@ -5497,8 +5504,8 @@
   "word_formation": {
     "tip": "출격"
   },
-  "extra_chapter_socre_tip": {
-    "tip": "오늘의 스코어：<color=#92fc63>$1</color>\n개인 최고 스코어：<color=#92fc63>$2</color>\n $3"
+  "login_loginScene_server_disabled": {
+    "tip": "현재 서버를 이용할 수 없습니다."
   },
   "confirm_unlock": {
     "tip": "해제하시겠습니까?$1 "
@@ -5512,11 +5519,11 @@
   "word_live2dfiles_update_end_title": {
     "tip": "Live 2D 캐릭터 패키지 갱신 완료"
   },
-  "login_loginScene_server_disabled": {
-    "tip": "현재 서버를 이용할 수 없습니다."
-  },
   "login_loginScene_server_full": {
     "tip": "서버가 만원입니다."
+  },
+  "word_minute": {
+    "tip": "분"
   },
   "common_shopId_noFound": {
     "tip": "상품의 ID를 찾을 수 없습니다."
@@ -5527,11 +5534,11 @@
   "ship_shipInfoMediator_destory": {
     "tip": "퇴역 완료"
   },
-  "guild_tech_label_max_level": {
-    "tip": "Lv 상한: "
-  },
   "login_loginScene_choiseServer": {
     "tip": "서버를 선택해주세요."
+  },
+  "meta_switch_skill_box_title": {
+    "tip": "스킬 $1의 연수를 시작하시겠습니까?\n"
   },
   "word_shipNation_weixi": {
     "tip": "MNF"
@@ -5539,11 +5546,11 @@
   "word_equipment_small_cannon": {
     "tip": "소형 함포"
   },
-  "meta_switch_skill_box_title": {
-    "tip": "스킬 $1의 연수를 시작하시겠습니까?\n"
-  },
   "login_loginScene_error_noUserName": {
     "tip": "이름을 입력해주세요."
+  },
+  "guild_ship_attr_desc": {
+    "tip": "대함대 작전 내 $1의 $2이(가) $3"
   },
   "list_empty_tip_storehouseui_item": {
     "tip": "재료 미획득"
@@ -5551,8 +5558,8 @@
   "words_battle_expose_line": {
     "tip": "전투 내 항공모함 정찰 라인 표시"
   },
-  "guild_ship_attr_desc": {
-    "tip": "대함대 작전 내 $1의 $2이(가) $3"
+  "login_loginMediator_registerFail_error": {
+    "tip": "가입 실패："
   },
   "activity_level_limit_tip": {
     "tip": "주의：<color=#92fc63>지휘관 Lv.50 이상 혹은 통상 난이도를 전부 클리어하지 않으면</color> 어려움 난이도를 선택할 수 없습니다."
@@ -5560,8 +5567,8 @@
   "level_ammo_enough": {
     "tip": "탄약이 충분합니다!"
   },
-  "login_loginMediator_registerFail_error": {
-    "tip": "가입 실패："
+  "login_loginMediator_loginSuccess": {
+    "tip": "성공적으로 로그인했습니다."
   },
   "word_study": {
     "tip": "학습"
@@ -5569,26 +5576,23 @@
   "word_should_input": {
     "tip": "키워드를 입력해주세요."
   },
-  "word_date": {
-    "tip": "일"
+  "login_loginMediator_kickUndefined": {
+    "tip": "접속이 끊어졌습니다.：[$1]"
   },
   "login_newPlayerScene_name_tooShort": {
     "tip": "이름이 너무 짧습니다."
   },
-  "login_loginMediator_kickUndefined": {
-    "tip": "접속이 끊어졌습니다.：[$1]"
-  },
   "login_loginMediator_serverLoginErro": {
     "tip": "서버 접속 에러"
+  },
+  "world_battle_pause": {
+    "tip": "OPERATION"
   },
   "word_shipState_guild_event": {
     "tip": "캐릭터가 대함대 작전에 참여 중입니다. 퇴역 불가"
   },
   "backyard_backyardScene_comforChatContent2": {
     "tip": "<size=30>$1</size>\n현재 경험치<color=#92fc63>+$2%</color><size=30>\n<color=#92fc63>쾌적도</color>는 가구 배치에 영향을 받지 않으며，<color=#92fc63>각 카테고리 가구</color>중 \n쾌적도가 가장 높은<color=#92fc63>상위 n건</color>의 합계치를 계산합니다 각 카테고리 가구의 n치는 숙소 확장 횟수의 영향을 받습니다. 현재 횟수:<color=#92fc63>$3</color>\n</size>"
-  },
-  "world_battle_pause": {
-    "tip": "OPERATION"
   },
   "battle_preCombatLayer_changeFormationError": {
     "tip": "해당 진형으로는 변경할 수 없습니다."
@@ -5605,6 +5609,9 @@
   "login_loginMediator_kickIntError": {
     "tip": "접속 중 에러가 발생했습니다."
   },
+  "login_loginMediator_kickServerClose": {
+    "tip": "서버와의 연결이 끊어졌습니다."
+  },
   "equipment_upgrade_coin_consume": {
     "tip": "물자 소모"
   },
@@ -5614,23 +5621,20 @@
   "event_fleet_busy": {
     "tip": "동시에 진행 가능한 의뢰 수를 초과했습니다."
   },
-  "login_loginMediator_kickServerClose": {
-    "tip": "서버와의 연결이 끊어졌습니다."
+  "equipment_select_device_destroy_bonus_tip": {
+    "tip": "재료 획득："
   },
   "levelScene_chapter_win": {
     "tip": "중요 함대(BOSS)를 격파, 스테이지 클리어!"
   },
-  "login_newPlayerScene_inputName": {
-    "tip": "이름을 입력해주세요."
+  "login_newPlayerScene_error_notChoiseShip": {
+    "tip": "시작 함선을 선택해주세요."
   },
   "setting_story_speed_1": {
     "tip": "천천히"
   },
   "world_fleetName4": {
     "tip": "제 4 함 대"
-  },
-  "login_newPlayerScene_error_notChoiseShip": {
-    "tip": "시작 함선을 선택해주세요."
   },
   "help_backyard": {
     "tip": {
@@ -5699,11 +5703,11 @@
       "disableScroll": true
     }
   },
-  "backyard_putFurniture_ok": {
-    "tip": "저장했습니다."
-  },
   "login_newPlayerScene_word_z23": {
     "tip": "이름을 입력하는 걸 잊으셨나요? 아니면 이름이 「지휘관」이신가요?"
+  },
+  "backyard_putFurniture_ok": {
+    "tip": "저장했습니다."
   },
   "login_newPlayerScene_word_biaoqiang": {
     "tip": "제 이름은 재블린! 네! 지휘관도 이름을 알려주세요!"
@@ -5714,14 +5718,17 @@
   "exchangecode_use_error": {
     "tip": "에러："
   },
-  "backyard_theme_defaultname": {
-    "tip": "나의 숙소"
-  },
   "world_word_guild": {
     "tip": "대함대"
   },
+  "backyard_theme_defaultname": {
+    "tip": "나의 숙소"
+  },
   "login_createNewPlayer_error_nameNull": {
     "tip": "이름을 입력해주세요."
+  },
+  "login_createNewPlayer_full": {
+    "tip": "서버가 만원입니다."
   },
   "tactics_lesson_start_tip": {
     "tip": "<color=#92fc63>「$1」</color>을(를) <color=#92fc63>1권</color> 사용하여, <color=#92fc63>「$2」</color>의 <color=#92fc63>$3</color>을(를) 강화하시겠습니까?"
@@ -5729,11 +5736,11 @@
   "sure_resume_volume": {
     "tip": "사운드 설정을 초기화하시겠습니까?"
   },
-  "login_createNewPlayer_full": {
-    "tip": "서버가 만원입니다."
-  },
   "login_game_frequence": {
     "tip": "잠시 후 다시 접속해주시기 바랍니다."
+  },
+  "login_game_banned": {
+    "tip": "이용이 정지되어 있습니다. 고객센터로 문의주시기 바랍니다."
   },
   "meta_story_lock": {
     "tip": "이전 스토리를 완료해야 정보 동기화를 진행할 수 있습니다.(미사용)"
@@ -5741,14 +5748,14 @@
   "levelScene_sham_win": {
     "tip": "모의전 완료"
   },
-  "activity_puzzle_get13": {
-    "tip": "획득 방식：퍼즐 임무 4"
+  "login_game_login_full": {
+    "tip": "서버에 접속할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다."
   },
   "common_npc_formation_tip": {
     "tip": "해당 편대에 NPC 캐릭터 가입 불가!"
   },
-  "login_game_login_full": {
-    "tip": "서버에 접속할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다."
+  "login_gate_not_ready": {
+    "tip": "현재 점검 중입니다."
   },
   "setting_interface_save_success": {
     "tip": "조작키 배치를 저장하였습니다."
@@ -5759,12 +5766,8 @@
   "battle_preCombatLayer_victory": {
     "tip": "적 함대를 격파"
   },
-  "help_xinnian2021__meishiyemian": {
-    "tip": [
-      {
-        "info": "이벤트 규칙:\n1. 이벤트 기간 동안 매일 사용 가능 횟수를 <color=#92fc63>1</color>회 획득하며, 최대\n<color=#92fc63>7</color>회 저장됩니다.\n2. 사용 가능 횟수가 있을 때, 새해 미식 축제에 참가하여 \n<color=#92fc63>게임 \n결산</color> 진행 시사용 가능 횟수를 소모하며 이벤트 아이템을 얻습\n니다. 이벤트 아이템 7개 수집 시한정 캐릭터 <color=#92fc63>「Z28」</color>을 \n획득합니다.\n3. 사용 가능 횟수가 없는 상태로 새해 미식 축제에 참가할 경우 \n이벤트 아이템을얻지 못합니다.\n4. 기타 원인으로 인해 중도 퇴장 시, 사용 가능 횟수를 \n차감하지 않으며어떠한 보상도 얻지 못합니다."
-      }
-    ]
+  "tactics_no_lesson": {
+    "tip": "교본이 없습니다..."
   },
   "ship_upgradeStar_maxLevel": {
     "tip": "더 이상 한계돌파할 수 없습니다."
@@ -5775,29 +5778,29 @@
   "word_normal_junhe": {
     "tip": "노멀"
   },
-  "word_got": {
-    "tip": "수령 완료"
-  },
   "blueprint_catchup_by_gold_confirm": {
     "tip": "이번 강화에 $1 물자를 소모합니다. 확인하시겠습니까?"
-  },
-  "guild_sort_level": {
-    "tip": "레벨"
   },
   "tactics_continue_to_learn": {
     "tip": "스킬을 계속 강화하시겠습니까?"
   },
+  "guild_sort_level": {
+    "tip": "레벨"
+  },
   "guild_task_autoaccept_2": {
     "tip": "자동 수령한 대함대 임무: $1"
-  },
-  "technology_refresh_sucess": {
-    "tip": "연구 항목 일람 - 갱신 성공"
   },
   "tactics_max_level": {
     "tip": "이미 최대 레벨입니다."
   },
+  "technology_refresh_sucess": {
+    "tip": "연구 항목 일람 - 갱신 성공"
+  },
   "login_wait_tip": {
     "tip": "동시 접속자 수가 너무 많습니다. 잠시만 기다려주세요.\n(접속 대기：$1명)"
+  },
+  "shop_free_tag": {
+    "tip": "무료"
   },
   "guild_setduty_erro": {
     "tip": "직무 변경에 실패했습니다."
