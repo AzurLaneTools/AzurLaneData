@@ -4502,8 +4502,8 @@
   "event_same_type_not_allowed": {
     "tip": "不能增加相同類型的艦船"
   },
-  "loading_tip_GuideMgr": {
-    "tip": "正在接通輔導員..."
+  "class_label_goldfield": {
+    "tip": "物資產量"
   },
   "venusvolleyball_help": {
     "tip": [
@@ -4512,17 +4512,20 @@
       }
     ]
   },
-  "friend_id_copy_ok": {
-    "tip": "複製成功"
-  },
   "result_firework_produce": {
     "tip": "煙火製作完成，本次評價："
   },
-  "ship_buildShip_not_position": {
-    "tip": "建造隊列已滿，無法獲得角色"
+  "friend_id_copy_ok": {
+    "tip": "複製成功"
+  },
+  "ship_buildShipImmediately_error_noItem": {
+    "tip": "沒有加速道具"
   },
   "event_giveup": {
     "tip": "取消行動"
+  },
+  "event_finish": {
+    "tip": "完成行動"
   },
   "ship_shipUpgradeLayer2_noMaterail": {
     "tip": "素材不足"
@@ -4530,11 +4533,11 @@
   "open_skill_pos": {
     "tip": "開啟欄位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color>\n是否確認開啟？"
   },
-  "event_finish": {
-    "tip": "完成行動"
-  },
   "word_oil": {
     "tip": "石油"
+  },
+  "tec_target_catchup_select_tip": {
+    "tip": "是否要選擇該科研角色:$1?"
   },
   "elite_disable_no_fleet": {
     "tip": "沒有可用艦隊，無法出擊"
@@ -4542,23 +4545,23 @@
   "guild_word_sea": {
     "tip": "近海"
   },
-  "tec_target_catchup_select_tip": {
-    "tip": "是否要選擇該科研角色:$1?"
+  "cattery_style_change_success": {
+    "tip": "換裝成功"
   },
   "amusementpark_shop_0": {
     "tip": "♫手握著蠻啾之力~正義的英雄~蠻啾人~♫"
   },
-  "cattery_style_change_success": {
-    "tip": "換裝成功"
+  "login_newPlayerScene_word_biaoqiang": {
+    "tip": "指揮官，標槍已經告訴你名字了，你不告訴我你的名字可不公平哦~"
   },
   "index_shipType_weiXiu": {
     "tip": "維修"
   },
-  "login_newPlayerScene_word_z23": {
-    "tip": "指揮官，真是的，你是不是忘了告訴我你的名字？還是說你就叫指揮官呢？"
-  },
   "simulation_disadvantage_counting": {
     "tip": "$1秒後敵軍將啟用特別戰術"
+  },
+  "ship_profile_voice_locked": {
+    "tip": "未滿足解鎖條件"
   },
   "login_game_rigister_full": {
     "tip": "伺服器註冊人數達到上限"
@@ -4569,8 +4572,8 @@
   "word_furniture": {
     "tip": "傢俱"
   },
-  "ship_profile_voice_locked": {
-    "tip": "未滿足解鎖條件"
+  "event_start_success": {
+    "tip": "開始委託成功"
   },
   "npc_evaluation_tip": {
     "tip": "未正式加入的NPC角色不能進行評論"
@@ -4578,8 +4581,8 @@
   "tec_notice_2": {
     "tip": "完成科研二期研發加速所有任務後解鎖"
   },
-  "event_start_success": {
-    "tip": "開始委託成功"
+  "refresh_shopStreet_question": {
+    "tip": "是否花費$1<color=#A9F548>$2</color>更新商品列表\n\n <size=22>（今日已經購買<size=25><color=#FF0000>$3</color></size>次）</size>"
   },
   "guild_tech_non_admin": {
     "tip": "操作權限不足，需要副司令以上職位方可進行艦隊科技研發操作"
@@ -4655,14 +4658,11 @@
   "exercise_clear_fleet_tip": {
     "tip": "該操作將會使<color=#A9F548>防守艦隊先鋒/主力被清空</color>，防守艦隊將替換為第一艦隊，是否確認？"
   },
-  "refresh_shopStreet_question": {
-    "tip": "是否花費$1<color=#A9F548>$2</color>更新商品列表\n\n <size=22>（今日已經購買<size=25><color=#FF0000>$3</color></size>次）</size>"
+  "buy_item_quest": {
+    "tip": "是否購買該商品？"
   },
   "word_shipInfoScene_infomation": {
     "tip": "艦船詳情"
-  },
-  "buy_item_quest": {
-    "tip": "是否購買該商品？"
   },
   "buy_countLimit": {
     "tip": "購買的次數已達上限"
@@ -4670,17 +4670,20 @@
   "shopStreet_refresh_max_count": {
     "tip": "今天的重整次數已達上限"
   },
-  "word_registerFull": {
-    "tip": "<color=#C41717FF>爆滿</color>"
+  "ship_dockyardScene_error_choiseRoleMore": {
+    "tip": "至少選擇<color=#A9F548>$1</color>個角色"
   },
   "word_rankScore": {
     "tip": "積分"
   },
+  "refresh_shopStreet_ok": {
+    "tip": "手動重整成功"
+  },
   "word_stopremain_build": {
     "tip": "次回からは表示しない"
   },
-  "refresh_shopStreet_ok": {
-    "tip": "手動重整成功"
+  "collection_fetched": {
+    "tip": "已經領取過啦"
   },
   "intensify": {
     "tip": "強化"
@@ -4688,8 +4691,8 @@
   "word_formation": {
     "tip": "上陣"
   },
-  "collection_fetched": {
-    "tip": "已經領取過啦"
+  "collection_hadAward": {
+    "tip": "獎勵已領取"
   },
   "confirm_unlock": {
     "tip": "是否解鎖$1"
@@ -4703,11 +4706,11 @@
   "word_live2dfiles_update_end_title": {
     "tip": "Live2D角色包更新完成"
   },
-  "collection_hadAward": {
-    "tip": "獎勵已領取"
+  "ship_vo_inClass": {
+    "tip": "該角色正在上課中"
   },
-  "exercise_replace_rivals_question": {
-    "tip": "是否花費<color=#A9F548>$1</color>鑽石更換對手?"
+  "equipment_upgrade_erro": {
+    "tip": "升級武器失敗"
   },
   "common_shopId_noFound": {
     "tip": "未找到商品id"
@@ -4718,11 +4721,11 @@
   "ship_shipInfoMediator_destory": {
     "tip": "退役完成"
   },
-  "equipment_upgrade_erro": {
-    "tip": "升級武器失敗"
-  },
   "backyard_theme_bought": {
     "tip": "已經購買"
+  },
+  "charge_level_limit": {
+    "tip": "等級尚未達到"
   },
   "word_shipNation_weixi": {
     "tip": "維希教廷"
@@ -4730,11 +4733,11 @@
   "word_equipment_small_cannon": {
     "tip": "小型艦炮"
   },
-  "charge_level_limit": {
-    "tip": "等級尚未達到"
-  },
   "equipment_upgrade_ok": {
     "tip": "裝備升級成功"
+  },
+  "equipment_updateGrade_tip": {
+    "tip": "只要找來這些材料就可以幫您升級裝備喲噗噗噗"
   },
   "list_empty_tip_storehouseui_item": {
     "tip": "暫未獲得任何材料"
@@ -4742,8 +4745,8 @@
   "words_battle_expose_line": {
     "tip": "戰鬥內展示航母偵測線"
   },
-  "equipment_updateGrade_tip": {
-    "tip": "只要找來這些材料就可以幫您升級裝備喲噗噗噗"
+  "login_newPlayerScene_name_tooLong": {
+    "tip": "名字太長"
   },
   "activity_level_limit_tip": {
     "tip": "指揮官等級需要達到<color=#a0ff40>50級或通關普通模式</color>才可進入困難模式"
@@ -4751,8 +4754,8 @@
   "level_ammo_enough": {
     "tip": "艦隊彈藥充足，無需補給"
   },
-  "login_newPlayerScene_name_tooLong": {
-    "tip": "名字太長"
+  "login_newPlayerScene_name_existOtherChar": {
+    "tip": "不能包含中文或英文外的任何其他語言文字與符號"
   },
   "word_study": {
     "tip": "學習"
@@ -4760,17 +4763,17 @@
   "word_should_input": {
     "tip": "尚未輸入關鍵字"
   },
-  "login_newPlayerScene_name_existOtherChar": {
-    "tip": "不能包含中文或英文外的任何其他語言文字與符號"
+  "create_player_success": {
+    "tip": "創建角色成功"
   },
   "login_newPlayerScene_name_tooShort": {
     "tip": "名字太短"
   },
-  "create_player_success": {
-    "tip": "創建角色成功"
-  },
   "energy_desc_angry": {
     "tip": "打死都不想動了ORZ，快去後宅休息吧"
+  },
+  "word_freeGem_icon": {
+    "tip": "<icon name=diamond w=0.7 h=0.7/>"
   },
   "ship_formationUI_fleetName1": {
     "tip": "第一艦隊"
@@ -4778,23 +4781,23 @@
   "word_cmdClose": {
     "tip": "尚未開啟"
   },
-  "word_freeGem_icon": {
-    "tip": "<icon name=diamond w=0.7 h=0.7/>"
-  },
   "energy_desc_tired": {
     "tip": "大家感到很累了，似乎很難正常發揮"
   },
-  "ship_formationUI_changeFormationError_flag": {
-    "tip": "嘗試切換陣型出錯，請檢查陣型！"
+  "ship_formationUI_exercise_fleetName": {
+    "tip": "演習艦隊"
   },
   "loading_tip_StoryMgr": {
     "tip": "正在編寫劇本..."
   },
-  "word_systemClose": {
-    "tip": "指揮官，這個功能暫不開放喲！~"
+  "ship_formationUI_fleetName11": {
+    "tip": "潛艇編隊一"
   },
   "loading_tip_PoolMgr": {
     "tip": "正在填充塗料..."
+  },
+  "loading_tip_GuideMgr": {
+    "tip": "正在接通輔導員..."
   },
   "equipment_upgrade_coin_consume": {
     "tip": "消耗物資"
@@ -4805,14 +4808,14 @@
   "event_fleet_busy": {
     "tip": "執行委託的艦隊數量已達到上限，無法執行"
   },
-  "class_label_goldfield": {
-    "tip": "物資產量"
+  "loading_tip_FontMgr": {
+    "tip": "正在創建字型..."
   },
   "levelScene_chapter_win": {
     "tip": "BOSS擊破，關卡攻略完成"
   },
-  "loading_tip_FontMgr": {
-    "tip": "正在創建字型..."
+  "word_gem_icon": {
+    "tip": "<icon name=diamond w=0.7 h=0.7/>"
   },
   "setting_story_speed_1": {
     "tip": "慢 "
@@ -4820,17 +4823,18 @@
   "level_scene_title_word_5": {
     "tip": "<color=#18ff23>推薦：</color>"
   },
-  "word_gem_icon": {
-    "tip": "<icon name=diamond w=0.7 h=0.7/>"
-  },
-  "destination_can_not_reach_safety": {
-    "tip": "無法安全到達目標點"
-  },
-  "backyard_putFurniture_ok": {
-    "tip": "儲存成功"
+  "idolmaster_main": {
+    "tip": [
+      {
+        "info": "活動規則：\n<color=#92fc63>8.26-9.9</color>期間開啟限時活動「響徹碧海的偶像歌」\n1.通過特別作戰獲取「聯動Pt」，在「累計獎勵」和「補給商店」處兌換豐厚獎勵\n2.完成「啾啾見面會」小遊戲第七場可以獲得限定裝備<color=#92fc63>「偶像手環」</color>\n注意：每日開放1場新的見面會，總計7場\n3.在活動中收集14個「角色資料」道具後，可在「紀念章」處獲取<color=#92fc63>「765紀念章」</color>詳細獲取條件可在「紀念章」界面查看\n4.點擊「限時建造」可以前往建造界面\n5.點擊「換裝商店」可以前往換裝商店界面\n6.<color=#92fc63>8.26-9.09</color> 每日刷新一個活動特殊委託，該委託不佔用可派出艦隊上限，完成委託可獲取活動獎勵，未進行的委託將於次日消失，進行中的委託可於次日領取獎勵，領取獎勵後可刷新次日的活動特殊委託，領取時間截止9月15日23點59分"
+      }
+    ]
   },
   "task_level_notenough": {
     "tip": "需要達到$1級才能進行任務"
+  },
+  "backyard_putFurniture_ok": {
+    "tip": "儲存成功"
   },
   "task_target_chapter_in_progress": {
     "tip": "任務目標地圖正在攻略中，不能接取該任務"
@@ -4841,14 +4845,17 @@
   "word_freeGem": {
     "tip": "鑽石"
   },
-  "backyard_theme_defaultname": {
-    "tip": "自定義主題"
-  },
   "task_taskMediator_getItem": {
     "tip": "獲得道具：<color=#A9F548>$1</color>,數量:<color=#A9F548>X$2</color>"
   },
+  "backyard_theme_defaultname": {
+    "tip": "自定義主題"
+  },
   "task_submitTask_error_client": {
     "tip": "提交任務失敗"
+  },
+  "task_submitTask_error": {
+    "tip": "提交任務失敗:"
   },
   "tactics_lesson_start_tip": {
     "tip": "是否消耗<color=#A9F548>1本</color><color=#A9F548>「$1」</color>，\n訓練<color=#A9F548>「$2」</color>的<color=#A9F548>$3 </color>技能？"
@@ -4856,8 +4863,8 @@
   "sure_resume_volume": {
     "tip": "確定要恢復預設音量大小設置？"
   },
-  "task_submitTask_error": {
-    "tip": "提交任務失敗:"
+  "error_refresh_sub_chapter": {
+    "tip": "未搜尋到新的求救信號"
   },
   "word_shipState_tactics": {
     "tip": "該角色正在認真上課喲~"
@@ -4868,14 +4875,14 @@
   "levelScene_sham_win": {
     "tip": "「鏡面海域」作戰完成"
   },
-  "error_refresh_sub_chapter": {
-    "tip": "未搜尋到新的求救信號"
+  "levelScene_select_SP_OP_reminder": {
+    "tip": "是否使用高效作戰指令書？ \n使用後關卡中的戰鬥石油消耗增加100%;\n同時戰鬥結算時指揮官、指揮喵、角色經驗獲取提高100%，額外獲得一次掉落;\n心情值消耗，好感度獲取均提高100%。"
   },
   "common_npc_formation_tip": {
     "tip": "NPC角色無法加入當前編隊！"
   },
-  "levelScene_select_SP_OP_reminder": {
-    "tip": "是否使用高效作戰指令書？ \n使用後關卡中的戰鬥石油消耗增加100%;\n同時戰鬥結算時指揮官、指揮喵、角色經驗獲取提高100%，額外獲得一次掉落;\n心情值消耗，好感度獲取均提高100%。"
+  "levelScene_unselect_SP_OP": {
+    "tip": "不使用作戰道具"
   },
   "setting_interface_save_success": {
     "tip": "佈局已保存！"
@@ -4886,8 +4893,8 @@
   "battle_preCombatLayer_victory": {
     "tip": "擊破敵方艦隊"
   },
-  "levelScene_unselect_SP_OP": {
-    "tip": "不使用作戰道具"
+  "levelScene_select_SP_OP": {
+    "tip": "點擊選擇作戰道具"
   },
   "ship_upgradeStar_maxLevel": {
     "tip": "角色突破達到最高等級，無法突破"
@@ -4898,29 +4905,29 @@
   "word_normal_junhe": {
     "tip": "普通"
   },
-  "levelScene_select_SP_OP": {
-    "tip": "點擊選擇作戰道具"
-  },
   "levelScene_activate_loop_mode_failed": {
     "tip": "需要將關卡進行至100%才可選擇周回模式"
-  },
-  "guild_sort_level": {
-    "tip": "等級"
   },
   "word_shipType_other": {
     "tip": "其他"
   },
+  "guild_sort_level": {
+    "tip": "等級"
+  },
   "commander_reset_talent_tip": {
     "tip": "是否確定重置天賦?"
-  },
-  "technology_refresh_sucess": {
-    "tip": "更新研發列表成功"
   },
   "equipskin_none": {
     "tip": "— 該裝備無法使用外觀 —"
   },
+  "technology_refresh_sucess": {
+    "tip": "更新研發列表成功"
+  },
   "levelScene_chapter_open_count_down": {
     "tip": "開放時間："
+  },
+  "levelScene_new_chapter_coming": {
+    "tip": "新章開放："
   },
   "guild_setduty_erro": {
     "tip": "設置職務失敗"
@@ -4928,8 +4935,8 @@
   "main_notificationMediator_beFriend": {
     "tip": "您與<color=#A9F548>「$1」</color>成為好友"
   },
-  "levelScene_new_chapter_coming": {
-    "tip": "新章開放："
+  "levelScene_signal_help_tip": {
+    "tip": "信號提示"
   },
   "common_already owned": {
     "tip": "已擁有"
@@ -4937,11 +4944,11 @@
   "guild_exist_unreceived_supply_award": {
     "tip": "<color=red>待領取</color>"
   },
-  "levelScene_signal_help_tip": {
-    "tip": "信號提示"
-  },
   "levelScene_jump_to_sub_confirm": {
     "tip": "搜尋完畢，信號源來自：$1海域（第$2章），是否前往？"
+  },
+  "special_animal5": {
+    "tip": "[浦波的可愛<怪奇>生物圖鑑No.5]\n隱身汪：會隱形的汪汪，唯一不能隱形的屁股是它最大的煩惱"
   },
   "help_rollingBallGame": {
     "tip": [
@@ -4950,20 +4957,17 @@
       }
     ]
   },
-  "special_animal5": {
-    "tip": "[浦波的可愛<怪奇>生物圖鑑No.5]\n隱身汪：會隱形的汪汪，唯一不能隱形的屁股是它最大的煩惱"
-  },
   "levelScene_chapter_count_tip": {
     "tip": "今日次數："
-  },
-  "vote_vote_group": {
-    "tip": "$1組"
   },
   "word_shipType_zhanLie": {
     "tip": "戰列"
   },
-  "login_loginScene_server_disabled": {
-    "tip": "伺服器不可用"
+  "vote_vote_group": {
+    "tip": "$1組"
+  },
+  "ship_equipToShip_error_noEquip": {
+    "tip": "裝備不存在"
   },
   "levelScene_sphunt_help_tip": {
     "tip": {
@@ -5014,8 +5018,11 @@
       "disableScroll": true
     }
   },
-  "player_changePlayerIcon_error": {
-    "tip": "更換頭像失敗:"
+  "player_changeManifesto_error": {
+    "tip": "宣言更換失敗:"
+  },
+  "commander_select_matiral_erro": {
+    "tip": "目標指揮喵已滿級，只能選擇同名指揮喵強化技能"
   },
   "msgbox_text_upgrade": {
     "tip": "升 級"
@@ -5023,11 +5030,11 @@
   "coures_exp_npc_tip": {
     "tip": "該角色為NPC角色，活動結束時若未正式加入，將會離開港區。是否繼續？"
   },
-  "commander_select_matiral_erro": {
-    "tip": "目標指揮喵已滿級，只能選擇同名指揮喵強化技能"
-  },
   "levelScene_oni_win": {
     "tip": "特殊單位捕獲成功"
+  },
+  "ship_remould_warning_102174": {
+    "tip": "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
   },
   "utaware_formal_notice": {
     "tip": [
@@ -5048,17 +5055,14 @@
       }
     ]
   },
-  "exercise_rule_tip": {
-    "tip": "   1、每<color=#a9f548>14</color>天為一個賽季，賽季中達到指定軍銜，即可獲得軍銜對應獎勵\n   2、戰鬥勝利可以按軍銜等級獲得功勳，即使失敗也可獲得<color=#a9f548>一半</color>的功勳\n   3、戰鬥勝利可以獲得積分，戰鬥失敗<color=#a9f548>不會扣除積分</color>\n   4、受到其他人的挑戰而失敗不會扣除積分\n   5、積分達到一定值，就可以提升軍銜，<color=#a9f548>將階以上</color>軍銜需要達到一定名次\n   6、軍銜只要達到過1次，就會立刻獲得軍銜獎勵\n   7、獲得的功勳可以在功勳商店兌換科技箱、角色等獎勵\n   8、演習對手可以免費手動更換，每天只能更換<color=#a9f548>5</color>次\n   9 、挑戰後，無論成敗，都會自動更換一組對手\n   10、演習次數每天00:00、12:00、18:00重置，重置時增加<color=#a9f548>5</color>次演習次\n   數，演習次數上限為<color=#a9f548>10</color>次\n   11、賽季結束後，所有玩家軍銜和積分重置"
-  },
   "word_shipType_qinXun": {
     "tip": "輕巡"
   },
-  "commander_play_erro": {
-    "tip": "陪玩失敗$1"
-  },
   "levelScene_escort_lose": {
     "tip": "運輸船大破，護航失敗"
+  },
+  "commander_play_erro": {
+    "tip": "陪玩失敗$1"
   },
   "word_shipType_quZhu": {
     "tip": "驅逐"
@@ -5072,14 +5076,17 @@
   "levelScene_tracking_error_3001": {
     "tip": "隊伍內存在委託中的角色，無法出擊"
   },
-  "friend_rejectFriendRequest_error": {
-    "tip": "拒絕好友請求失敗:"
+  "word_registerFull": {
+    "tip": "<color=#C41717FF>爆滿</color>"
   },
   "levelScene_strategying": {
     "tip": "正在攻略中"
   },
   "levelScene_retreat_erro": {
     "tip": "撤退失敗"
+  },
+  "levelScene_chapter_notInStrategy": {
+    "tip": "未在攻略中"
   },
   "lanternRiddles_wait_for_reanswer": {
     "tip": "請等待重答時間重新作答"
@@ -5157,8 +5164,8 @@
   "word_star": {
     "tip": "星級"
   },
-  "levelScene_chapter_notInStrategy": {
-    "tip": "未在攻略中"
+  "word_shipState_sham": {
+    "tip": "該角色正在「模擬戰」作戰哦~"
   },
   "elite_condition_durability": {
     "tip": "耐久總值"
@@ -5166,8 +5173,8 @@
   "electrotherapy_wanning": {
     "tip": "鏡面海域擴展中"
   },
-  "word_shipState_sham": {
-    "tip": "該角色正在「模擬戰」作戰哦~"
+  "test_ship_intensify_tip": {
+    "tip": "布里無法進行強化"
   },
   "guild_duty_id_is_null": {
     "tip": "職位不能為空"
@@ -5200,11 +5207,11 @@
       }
     ]
   },
-  "autofight_function5": {
-    "tip": "自動召喚潛艇"
+  "word_shipState_activity": {
+    "tip": "该角色在特殊作战编队中哦~"
   },
-  "levelScene_map_lock": {
-    "tip": "該<color=#A9F548>章節未完成</color>無法前往下一章"
+  "levelScene_who_to_retreat": {
+    "tip": "確定撤退<color=#A9F548>$1</color>嗎?"
   },
   "help_tempesteve": {
     "tip": [
@@ -5231,20 +5238,20 @@
       }
     ]
   },
-  "levelScene_who_to_retreat": {
-    "tip": "確定撤退<color=#A9F548>$1</color>嗎?"
-  },
-  "lesson_endToLearn_error": {
-    "tip": "課程取消失敗:"
+  "lesson_classOver_error": {
+    "tip": "領取獎勵失敗:"
   },
   "commander_is_in_battle": {
     "tip": "該指揮喵正在出擊中～"
   },
+  "levelScene_map_lock": {
+    "tip": "該<color=#A9F548>章節未完成</color>無法前往下一章"
+  },
   "levelScene_time_out": {
     "tip": "已超出作戰時限"
   },
-  "word_shipState_activity": {
-    "tip": "该角色在特殊作战编队中哦~"
+  "stage_finishStage_error": {
+    "tip": "由於不明原因關卡無法結束："
   },
   "ship_profile_voice_locked_intimacy": {
     "tip": "好感度達到$1後解鎖"
@@ -5252,8 +5259,8 @@
   "emoji_type_4": {
     "tip": "小表情"
   },
-  "stage_finishStage_error": {
-    "tip": "由於不明原因關卡無法結束："
+  "stage_beginStage_error_noTicket": {
+    "tip": "特別挑戰券數量不足，無法開始哦"
   },
   "lanternRiddles_gametip": {
     "tip": [
@@ -5262,14 +5269,14 @@
       }
     ]
   },
-  "stage_beginStage_error_noTicket": {
-    "tip": "特別挑戰券數量不足，無法開始哦"
+  "ship_vo_locked": {
+    "tip": "該船已鎖定"
   },
   "activity_level_difficulty_tip": {
     "tip": "注意：選擇困難模式後，<color=#a0ff40>未通關前切換模式</color>將會失去困難模式的進度"
   },
-  "ship_vo_vanguardFleet_exist_same_ship": {
-    "tip": "先鋒艦隊不能存在相同的船"
+  "stage_beginStage_error_noEnergy": {
+    "tip": "<color=#A9F548>疲勞值</color>不足!"
   },
   "world_resource_fill": {
     "tip": "戰備物資兌換券已達到收集上限。"
@@ -5283,21 +5290,14 @@
   "resolve_amount_prefix": {
     "tip": "分解數量："
   },
-  "stage_beginStage_error_noEnergy": {
-    "tip": "<color=#A9F548>疲勞值</color>不足!"
+  "destination_can_not_reach_safety": {
+    "tip": "無法安全到達目標點"
   },
-  "login_loginMediator_kickServerClose": {
-    "tip": "伺服器維護"
+  "coloring_lock": {
+    "tip": "未解鎖"
   },
-  "coloring_help_tip": {
-    "tip": [
-      {
-        "info": "遊戲規則\n"
-      },
-      {
-        "info": "1 每張繪圖日記的儲存格上標注有對應的顏料編號，選中對應的顏料編號即會向對應儲存格自動進行上色； \n2 繪圖區域可以通過雙指拉伸或縮小；\n3 上色會對同色儲存格自動上色，直到顏料耗盡或塗滿；\n4 上色會消耗顏料，剩餘顏料為0時不可以上色；\n5 顏料可通過活動任務累計消耗石油獲得；\n6 完成上色可以獲得獎勵；\n7 各圖完成獎勵明細如下：\n\t完成圖1獲得T3通用改造部件 x4；\n\t完成圖2獲得T3隨機教材 x3；\n\t完成圖3獲得小光輝 x1；\n8 活動結束後，未消耗的顏料會被清除。\n9 9月19日前每天解鎖一個可完成的繪圖。"
-      }
-    ]
+  "shop_buyItem_error": {
+    "tip": "購買失敗:"
   },
   "guild_duty_tip_1": {
     "tip": "<color=#7FAFFF>當前職位</color>"
@@ -5305,11 +5305,11 @@
   "win_condition_display_shangchuan_tip": {
     "tip": "運輸船抵達終點，護航成功"
   },
-  "shop_buyItem_error": {
-    "tip": "購買失敗:"
-  },
   "no_found_record_equipment": {
     "tip": "未找到閒置的$1裝備,是否自動搜尋其他強化等級的同種裝備進行換裝"
+  },
+  "autofight_function5": {
+    "tip": "自動召喚潛艇"
   },
   "fight_strengthen": {
     "tip": "是否退出本次戰鬥並前往船塢進行<color=#92fc63>強化和突破</color>？"
@@ -5317,14 +5317,14 @@
   "levelScene_notCargo": {
     "tip": "找不到寶箱"
   },
-  "test_ship_intensify_tip": {
-    "tip": "布里無法進行強化"
+  "ship_energy_low_warn": {
+    "tip": "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"
   },
   "tec_target_need_print": {
     "tip": "需求藍圖"
   },
-  "ship_energy_low_warn": {
-    "tip": "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"
+  "ship_energy_low_desc": {
+    "tip": "疲憊\n心情較低出擊將減少好感度且獲得經驗減半"
   },
   "technology_start_erro": {
     "tip": "研發失敗"
@@ -5332,8 +5332,8 @@
   "equipskin_typewrong": {
     "tip": "— 該外觀與裝備類型不符 —"
   },
-  "ship_energy_low_desc": {
-    "tip": "疲憊\n心情較低出擊將減少好感度且獲得經驗減半"
+  "ship_energy_mid_desc": {
+    "tip": "中等\n心情中等出擊將不獲得好感度"
   },
   "backyard_backyardShipInfoMediator_shipState_collect": {
     "tip": "該角色在很遠的地方進行委託任務喲~"
@@ -5347,11 +5347,11 @@
   "ship_getShip_error_full": {
     "tip": "<color=#A9F548>船塢已滿</color>,無法獲得角色"
   },
-  "ship_energy_mid_desc": {
-    "tip": "中等\n心情中等出擊將不獲得好感度"
-  },
   "ship_destroy_advanced_tip": {
     "tip": "退役角色中有等級不為1的角色，是否確認？"
+  },
+  "word_shipState_collect": {
+    "tip": "該角色在很遠的地方進行委託任務喲~"
   },
   "ten_even_draw_confirm": {
     "tip": "確定抽取$1次補給？"
@@ -5371,17 +5371,17 @@
   "guild_battle_is_end": {
     "tip": "大艦隊作戰已結束"
   },
-  "word_shipState_collect": {
-    "tip": "該角色在很遠的地方進行委託任務喲~"
+  "ship_destroy_uncommon_tip": {
+    "tip": "退役角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
   },
   "dont_send_message_frequently": {
     "tip": "請勿頻繁發送訊息"
   },
-  "ship_destroy_uncommon_tip": {
-    "tip": "退役角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
-  },
   "formation_switch_success": {
     "tip": "已切換到$1"
+  },
+  "backyard_sort_tag_price": {
+    "tip": "價格"
   },
   "words_display_ship_get_effect": {
     "tip": "重複角色獲得提示"
@@ -5398,8 +5398,8 @@
   "common_test_ship": {
     "tip": "該船是實驗體"
   },
-  "backyard_sort_tag_price": {
-    "tip": "價格"
+  "ship_shipUpgradeLayer2_advanced_tip": {
+    "tip": "突破材料角色中有<color=#A9F548>等級不為1</color>的角色，是否確認？"
   },
   "common_hardmode": {
     "tip": "困難"
@@ -5413,17 +5413,17 @@
   "res_music_no_pre_tip": {
     "tip": "沒有前一首了"
   },
-  "ship_shipUpgradeLayer2_advanced_tip": {
-    "tip": "突破材料角色中有<color=#A9F548>等級不為1</color>的角色，是否確認？"
-  },
   "ship_shipUpgradeLayer2_mod_advanced_tip": {
     "tip": "強化材料角色中有<color=#A9F548>等級不為1</color>的角色，是否確認？"
+  },
+  "ship_shipUpgradeLayer2_uncommon_tip": {
+    "tip": "強化材料角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
   },
   "shop_extendcommander_success": {
     "tip": "貓窩容量擴充成功"
   },
-  "ship_shipUpgradeLayer2_uncommon_tip": {
-    "tip": "強化材料角色中有<color=#A9F548>精銳</color>以上的角色，是否確認？"
+  "autofight_onceagain": {
+    "tip": "再次前往"
   },
   "common_play": {
     "tip": "逗喵"
@@ -5431,8 +5431,8 @@
   "backyard_shipAddInimacy_error": {
     "tip": "增加親密度失敗:"
   },
-  "autofight_onceagain": {
-    "tip": "再次前往"
+  "ship_shipUpgradeLayer2_effect": {
+    "tip": "當前經驗: <color=#A9F548>$1/$2</color>\n"
   },
   "guild_ship_in_battle": {
     "tip": "$1正在作戰中，此派遣操作將在當前作戰結束後生效"
@@ -5440,17 +5440,14 @@
   "black_white_grid_reset": {
     "tip": "是否重置?"
   },
-  "ship_shipUpgradeLayer2_effect": {
-    "tip": "當前經驗: <color=#A9F548>$1/$2</color>\n"
-  },
   "elite_disable_formation_unsatisfied": {
     "tip": "編隊條件未滿足，無法出擊"
   },
-  "index_fleetrear": {
-    "tip": "後排主力"
-  },
   "bulin_tip_other3": {
     "tip": "是否退出關卡？退出關卡將無法獲得獎勵。"
+  },
+  "index_fleetrear": {
+    "tip": "後排主力"
   },
   "word_shipState_study": {
     "tip": "該角色正在認真上課喲~"
@@ -5464,6 +5461,9 @@
   "activity_hit_monster_erro": {
     "tip": "攻擊失敗"
   },
+  "ship_shipModLayer_effect1or2": {
+    "tip": "當前加成: <color=#A9F548>$1</color>"
+  },
   "challenge_season_update_infinite_switch": {
     "tip": "當前模式:無限模式\n當前關卡:$1\n新一輪挑戰已開啟,本輪挑戰數據不計入統計.\n是否結算當前分數並切換模式?"
   },
@@ -5476,32 +5476,29 @@
   "option_desc11": {
     "tip": "功能開啟後，戰鬥中會展示航母的被偵測提示線（藍色網格樣式）、暴露提示線（紅色網格樣式，僅演習戰鬥中有）\n\n正航、輕航隱蔽機制說明： \n在【隱蔽】狀態下，航母不容易被作為敵方的武器、技能的指向目標，但是會仍然會被流彈命中造成傷害\n在【隱蔽】狀態下，角色航空攻擊傷害計算時，受到的防空減傷影響降低10%\n\n被偵測條的增減\n·敵方艦艇在關卡內被偵測範圍內、觸底或敵方艦載機觸底時，被偵測條上升（觸底時，離觸底單位最近的航母被偵測條會額外上升）\n·航母角色空襲，或觸發技能攻擊時，自身被偵測條上升。空襲時提升的被偵測值隨該場戰鬥內空襲輪次提高（每輪空襲提高基礎值的25%，最大值為基礎值的250%）空襲後的12秒內，被偵測條的恢復速度降低至基礎恢復速度的40%\n·航母角色處於被點燃狀態時，被偵測條增加一段點燃偵測懲罰，且點燃狀態下點燃偵測懲罰不會下降\n·被偵測條的最大值與角色機動相關，被偵測值達到最大值時，角色脫離【隱蔽】狀態\n\n演習中的額外規則：\n演習中，航母被偵測值不會自動降低\n演習中，增加暴露提示線，敵方角色進入暴露範圍內時，所有航母直接脫離【隱蔽】狀態\n"
   },
-  "ship_shipModLayer_effect1or2": {
-    "tip": "當前加成: <color=#A9F548>$1</color>"
-  },
   "ship_shipModLayer_effect": {
     "tip": "當前經驗: <color=#A9F548>$1/$2</color>\n"
-  },
-  "ship_remould_prev_lock": {
-    "tip": "前置未完成"
   },
   "ship_shipInfoScene_choiseMod": {
     "tip": "請先選擇需要突破的項目"
   },
-  "guild_word_people": {
-    "tip": "人"
+  "ship_remould_prev_lock": {
+    "tip": "前置未完成"
   },
   "ship_shipInfoScene_modLvMax": {
     "tip": "該突破項目已經滿級"
   },
+  "guild_word_people": {
+    "tip": "人"
+  },
   "word_shipState_rest": {
     "tip": "該角色正在後宅中喲~"
   },
-  "battle_result_max_combo": {
-    "tip": "最高COMBO："
-  },
   "ship_shipInfoScene_effect1or2": {
     "tip": "當前增加: <color=#A9F548>$1</color>"
+  },
+  "battle_result_max_combo": {
+    "tip": "最高COMBO："
   },
   "class_label_oilfield": {
     "tip": "石油生產"
@@ -5514,6 +5511,9 @@
   },
   "ship_newSkinLayer_get": {
     "tip": "獲得<color=#A9F548>$1</color>換裝—<color=#A9F548>$2</color>"
+  },
+  "shop_extendship_success": {
+    "tip": "船塢擴充成功"
   },
   "exchangecode_use_error_16": {
     "tip": "已經兌換過"
@@ -5533,11 +5533,11 @@
   "backyard_extendArea_erro": {
     "tip": "擴建後宅失敗<color=#A9F548>$1</color>"
   },
-  "shop_extendship_success": {
-    "tip": "船塢擴充成功"
-  },
   "doa_pt_complete": {
     "tip": "強化已完成"
+  },
+  "commander_rename_success_tip": {
+    "tip": "更名成功"
   },
   "battle_resourceSiteMediator_shipState_fight": {
     "tip": "該角色正在<color=#A9F548>作戰中</color>"
@@ -5545,17 +5545,17 @@
   "equip_info_9": {
     "tip": "傷害範圍"
   },
-  "commander_rename_success_tip": {
-    "tip": "更名成功"
-  },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "艦隊人數不足"
+  },
+  "ship_formationUI_changeFormationError_flag": {
+    "tip": "嘗試切換陣型出錯，請檢查陣型！"
   },
   "energy_desc_happy": {
     "tip": "大家感到很滿足，似乎戰鬥力提高了？"
   },
-  "ship_formationUI_exercise_fleetName": {
-    "tip": "演習艦隊"
+  "main_mailMediator_notingToTake": {
+    "tip": "並沒有什麼可領的"
   },
   "word_is": {
     "tip": "是"
@@ -5563,14 +5563,14 @@
   "loading_tip_FModMgr": {
     "tip": "正在製造噪音..."
   },
-  "ship_formationUI_fleetName11": {
-    "tip": "潛艇編隊一"
-  },
   "ship_formationUI_fleetName5": {
     "tip": "第五艦隊"
   },
   "ship_formationUI_fleetName4": {
     "tip": "第四艦隊"
+  },
+  "ship_formationUI_fleetName3": {
+    "tip": "第三艦隊"
   },
   "word_attr_level": {
     "tip": "等級上限"
@@ -5581,8 +5581,8 @@
   "equip_info_extralevel_2": {
     "tip": "等級2"
   },
-  "ship_formationUI_fleetName3": {
-    "tip": "第三艦隊"
+  "commander_main_pos": {
+    "tip": "司令位"
   },
   "coures_tip_material_stock": {
     "tip": "庫存："
@@ -5590,17 +5590,17 @@
   "blueprint_simulation_confirm_49904": {
     "tip": "<size=28>\n是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝305mmSKC39主炮\n四聯裝533mm磁性魚雷\n雙聯105mmSKC高炮\n</color></size>"
   },
-  "commander_main_pos": {
-    "tip": "司令位"
-  },
   "ship_formationMediator_addShipError_overlimit": {
     "tip": "艦隊中最多只能有<color=#A9F548>$1</color>艘<color=#A9F548>$2</color>"
+  },
+  "word_shipState_npc": {
+    "tip": "NPC角色無法加入當前編隊！"
   },
   "world_joint_not_refresh_frequently": {
     "tip": "請勿頻繁刷新"
   },
-  "word_shipState_npc": {
-    "tip": "NPC角色無法加入當前編隊！"
+  "ship_formationMediator_changeNameSuccess": {
+    "tip": "艦隊名稱更改成功！"
   },
   "commander_build_pool_tip": {
     "tip": "即將消耗$2個$1開始指揮喵訓練，是否繼續？"
@@ -5611,8 +5611,8 @@
   "word_rest_times": {
     "tip": "<color=#FFDE38FF>剩餘次數 ：%s次</color>"
   },
-  "ship_formationMediator_changeNameSuccess": {
-    "tip": "艦隊名稱更改成功！"
+  "ship_formationMediator_leastLimit": {
+    "tip": "無法取消，第一艦隊上必須要有艦船！"
   },
   "warning_mail_max_2": {
     "tip": "郵件數已經達到上限，請註意整理！"
@@ -5629,14 +5629,14 @@
   "equip_info_15": {
     "tip": "索敵範圍"
   },
-  "ship_formationMediator_leastLimit": {
-    "tip": "無法取消，第一艦隊上必須要有艦船！"
+  "friend_fetchFriendMsg_error": {
+    "tip": "獲取訊息失敗:"
   },
   "shopStreet_upgrade_done": {
     "tip": "商店街升級完成"
   },
-  "ship_dockyardScene_error_choiseRoleMore": {
-    "tip": "至少選擇<color=#A9F548>$1</color>個角色"
+  "ship_dockyardScene_capacity": {
+    "tip": "船塢容量:"
   },
   "cattery_settlement_dialogue_1": {
     "tip": "指揮官不在的"
@@ -5647,9 +5647,6 @@
   "word_propose_cost_tip2": {
     "tip": "是否消耗<color=#92fc63>1</color>枚誓約之戒兌換為<color=#92fc63>1</color>頂誓約之冠\n<color=#ff5c5c>兌換操作無法撤回，以此誓約的角色無法更名</color>"
   },
-  "ship_dockyardScene_capacity": {
-    "tip": "船塢容量:"
-  },
   "ship_dockyardMediator_destroy": {
     "tip": "退役完成"
   },
@@ -5658,6 +5655,9 @@
   },
   "ship_buildShipMediator_startBuild": {
     "tip": "開始建造"
+  },
+  "ship_vo_vanguardFleet_exist_same_ship": {
+    "tip": "先鋒艦隊不能存在相同的船"
   },
   "battle_result_time_limit": {
     "tip": "$1秒內全滅敵方艦隊"
@@ -5692,8 +5692,8 @@
   "several_minutes_before": {
     "tip": "<color=#A9F548>$1</color>分鐘前"
   },
-  "ship_vo_locked": {
-    "tip": "該船已鎖定"
+  "cartoon_haveno": {
+    "tip": "暫無符合條件的漫畫"
   },
   "tec_act_catchup_btn_word": {
     "tip": "藍圖補完"
@@ -5701,20 +5701,20 @@
   "equipment_upgrade_initial_node": {
     "tip": "此裝備不可由通過裝備研發獲取"
   },
-  "cartoon_haveno": {
-    "tip": "暫無符合條件的漫畫"
-  },
   "ship_vo_vanguardFleet_must_hasShip": {
     "tip": "先鋒艦隊必須存在一艘角色"
+  },
+  "shop_free_tag": {
+    "tip": "免費"
   },
   "collection_getResource_error": {
     "tip": "領取獎勵失敗:"
   },
-  "ship_vo_inClass": {
-    "tip": "該角色正在上課中"
-  },
   "ship_vo_inBackyardRest": {
     "tip": "該角色正在休息"
+  },
+  "ship_vo_event": {
+    "tip": "當前角色正在執行特殊任務"
   },
   "word_materal_no_enough": {
     "tip": "材料不足"
@@ -5722,17 +5722,14 @@
   "commission_open_tip": {
     "tip": "通過章節$1解鎖"
   },
-  "ship_vo_event": {
-    "tip": "當前角色正在執行特殊任務"
-  },
   "ship_exchange_tip": {
     "tip": "1.角色退役可以獲得榮譽勳章\n2.使用榮譽勳章可以在兌換系統僱傭新的角色\n3.兌換系統每天<color=#A9F548>6點</color>和<color=#A9F548>18點< /color>更新"
   },
-  "fightfail_equip": {
-    "tip": "是否退出本次戰鬥並前往船塢進行<color=#92fc63>裝備強化</color>？"
-  },
   "story_autoplay_setting_2": {
     "tip": "開啟"
+  },
+  "fightfail_equip": {
+    "tip": "是否退出本次戰鬥並前往船塢進行<color=#92fc63>裝備強化</color>？"
   },
   "word_attr_healthy": {
     "tip": "治療"
@@ -5743,17 +5740,14 @@
   "ship_exchange_medalCount_noEnough": {
     "tip": "勳章數量不足"
   },
-  "guild_event_info_desc3": {
-    "tip": "$1艦船 (現有$2)"
-  },
   "word_second": {
     "tip": "秒"
   },
+  "guild_event_info_desc3": {
+    "tip": "$1艦船 (現有$2)"
+  },
   "ship_upgradeStar_notConfig": {
     "tip": "找不到突破配置<color=#A9F548>$1</color>"
-  },
-  "friend_acceptFriendRequest_error": {
-    "tip": "接受好友的請求失敗:"
   },
   "help_shipinfo_equip": {
     "tip": {
@@ -5822,6 +5816,12 @@
       "disableScroll": true
     }
   },
+  "friend_acceptFriendRequest_error": {
+    "tip": "接受好友的請求失敗:"
+  },
+  "login_loginScene_server_full": {
+    "tip": "該伺服器人數已滿"
+  },
   "levelScene_bomb_help_tip": {
     "tip": {
       "1": {
@@ -5853,14 +5853,14 @@
       "disableScroll": true
     }
   },
-  "word_count": {
-    "tip": "數量"
+  "ship_updateShipLock_ok_unlock": {
+    "tip": "<color=#A9F548>$1</color>解鎖成功"
   },
   "destroy_inHardFormation_tip": {
     "tip": "<color=#92fc63>困難編隊中</color>"
   },
-  "ship_updateShipLock_ok_unlock": {
-    "tip": "<color=#A9F548>$1</color>解鎖成功"
+  "ship_updateShipLock_ok_lock": {
+    "tip": "<color=#A9F548>$1</color>鎖定成功"
   },
   "word_succeed": {
     "tip": "成功"
@@ -5871,17 +5871,17 @@
   "guild_use_donateitem_success": {
     "tip": "使用成功，軍需籌備次數+$1"
   },
-  "ship_updateShipLock_ok_lock": {
-    "tip": "<color=#A9F548>$1</color>鎖定成功"
-  },
-  "ship_error_noShip": {
-    "tip": "角色不存在: <color=#A9F548>$1</color>"
+  "main_navalAcademyScene_quest_stopClass": {
+    "tip": "同學們努力學習中，確認讓她們一起翹課？\n<color=#A9F548>（翹課將不獲得屬性值加成）</color>"
   },
   "ship_unequip_all_tip": {
     "tip": "是否卸下全部裝備？"
   },
   "autofight_errors_tip": {
     "tip": "自律尋敵找不到敵人，已切換回手動模式"
+  },
+  "ship_unequipFromShip_error": {
+    "tip": "卸下裝備失敗:"
   },
   "word_online": {
     "tip": "在線"
@@ -5920,14 +5920,14 @@
       }
     ]
   },
-  "ship_unequipFromShip_error": {
-    "tip": "卸下裝備失敗:"
-  },
   "ship_unequipFromShip_ok": {
     "tip": "<color=#FFD700FF>$1</color>已卸下"
   },
   "word_attr_dodge": {
     "tip": "機動"
+  },
+  "ship_modShip_error_notEnoughGold": {
+    "tip": "<color=#A9F548>物資不足</color>"
   },
   "backyard_backyardGranaryLayer_noShip": {
     "tip": "後宅還沒有增加休息的角色,<color=#A9F548>食物將不會消耗</color>"
@@ -5938,8 +5938,8 @@
   "msgbox_text_iknow": {
     "tip": "知道了"
   },
-  "ship_modShip_error_notEnoughGold": {
-    "tip": "<color=#A9F548>物資不足</color>"
+  "ship_modShip_error": {
+    "tip": "角色強化失敗:"
   },
   "map_event_stop_story_tip": {
     "tip": "觸發附近<color=#92fc63>劇情點</color>可解除禁止通行狀態"
@@ -5956,8 +5956,8 @@
   "battle_resourceSiteMediator_noSite": {
     "tip": "資源點不存在"
   },
-  "ship_modShip_error": {
-    "tip": "角色強化失敗:"
+  "word_count": {
+    "tip": "數量"
   },
   "ship_upgradeStar_error": {
     "tip": "角色突破失敗:"
@@ -5971,11 +5971,11 @@
   "discount_coupon_tip": {
     "tip": "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
   },
-  "ship_equipToShip_error_noEquip": {
-    "tip": "裝備不存在"
-  },
   "ship_equipToShip_ok": {
     "tip": "<color=#A9F548>$1</color>裝備成功"
+  },
+  "ship_buildship_tip": {
+    "tip": "建造一艘<color=#A9F548>$4</color>需要消耗：\n<color=#A9F548>$1物資</color>和<color=#A9F548>$2個$3</color>"
   },
   "battle_preCombatLayer_save_success": {
     "tip": "編隊保存成功"
@@ -5983,26 +5983,23 @@
   "friend_search_succeed": {
     "tip": "搜尋完成"
   },
-  "ship_buildship_tip": {
-    "tip": "建造一艘<color=#A9F548>$4</color>需要消耗：\n<color=#A9F548>$1物資</color>和<color=#A9F548>$2個$3</color>"
-  },
   "words_desc_unlock": {
     "tip": "進行敏感操作需要輸入密碼確認"
-  },
-  "exchangecode_use_error_9": {
-    "tip": "兌換碼不存在"
   },
   "ship_buildSingleShip": {
     "tip": "確認消耗<color=#A9F548>$1鑽石</color>，獲得<color=#A9F548>1艘高性能艦船</color>？"
   },
+  "exchangecode_use_error_9": {
+    "tip": "兌換碼不存在"
+  },
   "word_attr_range_view": {
     "tip": "射程"
   },
+  "ship_buildShip_not_position": {
+    "tip": "建造隊列已滿，無法獲得角色"
+  },
   "event_minimus_ship_numbers": {
     "tip": "艦隊人數不足，最少需要<color=#A9F548>$1人</color>才可執行該任務"
-  },
-  "ship_buildShipImmediately_error_noItem": {
-    "tip": "沒有加速道具"
   },
   "ship_buildShipImmediately_error_noSHip": {
     "tip": "船塢中沒有船"
@@ -6012,6 +6009,9 @@
   },
   "word_attr_range": {
     "tip": "射程"
+  },
+  "ship_buildShip_error_noTemplate": {
+    "tip": "造船配置不存在: <color=#A9F548>$1</color>"
   },
   "ship_profile_action_words": {
     "tip": "動作台詞鑑賞"
@@ -6025,17 +6025,14 @@
   "number_9": {
     "tip": "九"
   },
-  "ship_buildShip_error_noTemplate": {
-    "tip": "造船配置不存在: <color=#A9F548>$1</color>"
-  },
   "tec_tip_to_consumption": {
     "tip": "消耗物資"
   },
+  "ship_error_noShip": {
+    "tip": "角色不存在: <color=#A9F548>$1</color>"
+  },
   "ship_unequip_all_success": {
     "tip": "裝備<color=#FF0000>卸下</color>成功"
-  },
-  "battle_preCombatMediator_leastLimit": {
-    "tip": "無法取消，第一艦隊上必須要有艦船！"
   },
   "resourceSite_finishResourceSite_error": {
     "tip": "完成採集失敗:"
@@ -6045,6 +6042,9 @@
   },
   "resourceSite_collectResource_error": {
     "tip": "獲取資源失敗:"
+  },
+  "login_newPlayerScene_inputName": {
+    "tip": "請輸入暱稱"
   },
   "naval_academy_res_desc_class": {
     "tip": "學院的大講堂，升級設施可以提高<color=#92fc63>艦艇演習數據庫存上限、熟練度上限</color>和<color=#92fc63>熟練度獲取比例</color>等相關數值"
@@ -6076,15 +6076,11 @@
   "long_time_offline": {
     "tip": "長時間未在線"
   },
-  "idolmaster_main": {
-    "tip": [
-      {
-        "info": "活動規則：\n<color=#92fc63>8.26-9.9</color>期間開啟限時活動「響徹碧海的偶像歌」\n1.通過特別作戰獲取「聯動Pt」，在「累計獎勵」和「補給商店」處兌換豐厚獎勵\n2.完成「啾啾見面會」小遊戲第七場可以獲得限定裝備<color=#92fc63>「偶像手環」</color>\n注意：每日開放1場新的見面會，總計7場\n3.在活動中收集14個「角色資料」道具後，可在「紀念章」處獲取<color=#92fc63>「765紀念章」</color>詳細獲取條件可在「紀念章」界面查看\n4.點擊「限時建造」可以前往建造界面\n5.點擊「換裝商店」可以前往換裝商店界面\n6.<color=#92fc63>8.26-9.09</color> 每日刷新一個活動特殊委託，該委託不佔用可派出艦隊上限，完成委託可獲取活動獎勵，未進行的委託將於次日消失，進行中的委託可於次日領取獎勵，領取獎勵後可刷新次日的活動特殊委託，領取時間截止9月15日23點59分"
-      }
-    ]
-  },
   "word_attr_speed": {
     "tip": "航速"
+  },
+  "prop_destroyProp_error_noItem": {
+    "tip": "找不到此道具"
   },
   "mingshi_task_tip_11": {
     "tip": "被發現了喵？\n暗號是……<<color=#a0ff40>I30</color>>\n最初的目標是……<<color=#a0ff40>停泊之地</color>>"
@@ -6098,17 +6094,14 @@
   "common_buy_success": {
     "tip": "購買成功！"
   },
-  "prop_destroyProp_error_noItem": {
-    "tip": "找不到此道具"
-  },
   "player_change_chat_room_erro": {
     "tip": "切換聊天室失敗"
   },
-  "equipment_equipDevUI_error_noPos": {
-    "tip": "裝備倉庫容量不足"
-  },
   "autofight_function2": {
     "tip": "旗艦戰鬥"
+  },
+  "equipment_equipDevUI_error_noPos": {
+    "tip": "裝備倉庫容量不足"
   },
   "player_harvestResource_error": {
     "tip": "收穫資源失敗:"
@@ -6118,6 +6111,9 @@
   },
   "player_changePlayerName_error": {
     "tip": "更換暱稱失敗:"
+  },
+  "player_changePlayerName_ok": {
+    "tip": "更換暱稱成功"
   },
   "icecream_help": {
     "tip": [
@@ -6129,14 +6125,14 @@
   "backyard_backyardShipInfoMediator_quest_moveOutFleet": {
     "tip": "該角色在戰鬥編隊中，確認要將其<color=#A9F548>移出編隊</color>？"
   },
-  "player_changePlayerName_ok": {
-    "tip": "更換暱稱成功"
+  "intimacy_desc_7_buff": {
+    "tip": "當前加成：全基礎屬性（除航速，裝備不計）提高12%"
   },
   "event_condition_ship_level": {
     "tip": "至少<color=#A9F548>1位</color>角色達到<color=#A9F548>$1級</color>"
   },
-  "exchangecode_use_error_20": {
-    "tip": "兌換碼不存在"
+  "player_changePlayerIcon_error": {
+    "tip": "更換頭像失敗:"
   },
   "levelScene_bomb_retreat": {
     "tip": "撤退後將根據當前得分獲得獎勵，是否撤退？"
@@ -6144,20 +6140,17 @@
   "not_exist_guild_use_item": {
     "tip": "未加入大艦隊，無法使用該道具"
   },
-  "player_changeManifesto_error": {
-    "tip": "宣言更換失敗:"
-  },
   "player_changeManifesto_ok": {
     "tip": "更換宣言成功"
   },
   "word_attr_armor": {
     "tip": "裝甲"
   },
-  "res_music_new_tip": {
-    "tip": "本次更新新增了$1首音樂，快來看看吧"
-  },
   "ad_3": {
     "tip": "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material>獲得角色<icon name=shiptype2 w=0.8 h=0.8/><material=underline c =#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
+  },
+  "res_music_new_tip": {
+    "tip": "本次更新新增了$1首音樂，快來看看吧"
   },
   "link_link_help_tip": {
     "tip": [
@@ -6184,6 +6177,16 @@
       }
     ]
   },
+  "coloring_help_tip": {
+    "tip": [
+      {
+        "info": "遊戲規則\n"
+      },
+      {
+        "info": "1 每張繪圖日記的儲存格上標注有對應的顏料編號，選中對應的顏料編號即會向對應儲存格自動進行上色； \n2 繪圖區域可以通過雙指拉伸或縮小；\n3 上色會對同色儲存格自動上色，直到顏料耗盡或塗滿；\n4 上色會消耗顏料，剩餘顏料為0時不可以上色；\n5 顏料可通過活動任務累計消耗石油獲得；\n6 完成上色可以獲得獎勵；\n7 各圖完成獎勵明細如下：\n\t完成圖1獲得T3通用改造部件 x4；\n\t完成圖2獲得T3隨機教材 x3；\n\t完成圖3獲得小光輝 x1；\n8 活動結束後，未消耗的顏料會被清除。\n9 9月19日前每天解鎖一個可完成的繪圖。"
+      }
+    ]
+  },
   "shop_entendShipYard_error": {
     "tip": "擴充船塢失敗:"
   },
@@ -6192,9 +6195,6 @@
   },
   "charge_double_gem_tip": {
     "tip": "首次儲值額外贈送$1鑽石"
-  },
-  "coloring_lock": {
-    "tip": "未解鎖"
   },
   "world_joint_call_friend_support_txt": {
     "tip": "戰友$1正在挑戰 $2 TIER.$3，請求緊急支援(未使用)"
@@ -6210,6 +6210,9 @@
   },
   "main_playerInfoLayer_error_changeNameNoGem": {
     "tip": "鑽石不足"
+  },
+  "charge_start_tip": {
+    "tip": "購買後可以得到$2鑽石"
   },
   "hololive_dashenling": {
     "tip": [
@@ -6240,11 +6243,11 @@
       }
     ]
   },
-  "charge_start_tip": {
-    "tip": "購買後可以得到$2鑽石"
-  },
   "word_attr_antiaircraft": {
     "tip": "防空"
+  },
+  "main_playerInfoLayer_inputName": {
+    "tip": "請輸入暱稱"
   },
   "battle_battleMediator_existFight": {
     "tip": "退出戰鬥"
@@ -6255,20 +6258,17 @@
   "eva_count_limit": {
     "tip": "已達到每日評論數量上限"
   },
-  "main_playerInfoLayer_inputName": {
-    "tip": "請輸入暱稱"
-  },
   "guild_faction_unknown": {
     "tip": "????"
   },
   "main_notificationLayer_roomId_invaild": {
     "tip": "房間號碼無效"
   },
-  "sub_item_warning": {
-    "tip": "是否提交以下物品?"
-  },
   "equipment_upgrade_title": {
     "tip": "裝備研發"
+  },
+  "sub_item_warning": {
+    "tip": "是否提交以下物品?"
   },
   "main_notificationLayer_enter_room": {
     "tip": "已經進入房間<color=#A9F548>$1</color>"
@@ -6282,6 +6282,9 @@
   "word_attr_cannon": {
     "tip": "炮擊"
   },
+  "main_notificationLayer_noFriend": {
+    "tip": "當前沒有好友"
+  },
   "tec_target_catchup_help_tip": {
     "tip": [
       {
@@ -6289,11 +6292,11 @@
       }
     ]
   },
-  "main_notificationLayer_noFriend": {
-    "tip": "當前沒有好友"
-  },
   "main_notificationLayer_searchInput": {
     "tip": "請輸入玩家ID或暱稱"
+  },
+  "main_navalAcademyScene_class_upgrade_complete": {
+    "tip": "<color=#A9F548>$1</color>升級完成！"
   },
   "player_name_change_warning": {
     "tip": "更名需要消耗<color=#A9F548>$1</color>個<color=#A9F548>$2</color>，且<color=#A9F548>30</color>天後才能再次修改，是否確定將指揮官暱稱修改為：<color=#A9F548>$3</color> ？"
@@ -6301,20 +6304,20 @@
   "map_event_save_rurutie": {
     "tip": "成功救出<color=#A9F548>露露緹耶</color>"
   },
-  "main_navalAcademyScene_class_upgrade_complete": {
-    "tip": "<color=#A9F548>$1</color>升級完成！"
+  "text_noRes_info_tip": {
+    "tip": "<color=#FF0000>$2$1</color>"
   },
   "word_contribution": {
     "tip": "貢獻"
   },
-  "text_noRes_info_tip": {
-    "tip": "<color=#FF0000>$2$1</color>"
+  "main_navalAcademyScene_upgrade_complete": {
+    "tip": "<color=#A9F548>$1</color>升級完成，最大容量<color=#9CFF5CE6>+$2</color>！"
   },
   "battle_result_contribution": {
     "tip": "獲得貢獻："
   },
-  "main_navalAcademyScene_upgrade_complete": {
-    "tip": "<color=#A9F548>$1</color>升級完成，最大容量<color=#9CFF5CE6>+$2</color>！"
+  "battle_preCombatMediator_leastLimit": {
+    "tip": "無法取消，第一艦隊上必須要有艦船！"
   },
   "resourceSite_startResourceSite_error": {
     "tip": "出發採集點失敗:"
@@ -6334,14 +6337,14 @@
   "words_rare_ship_vibrate": {
     "tip": "獲得角色震動"
   },
-  "main_navalAcademyScene_quest_stopClass": {
-    "tip": "同學們努力學習中，確認讓她們一起翹課？\n<color=#A9F548>（翹課將不獲得屬性值加成）</color>"
-  },
   "vote_rank_refresh_time": {
     "tip": "*排名每半小時刷新一次"
   },
   "main_mailMediator_takeALot": {
     "tip": "大豐收"
+  },
+  "word_systemClose": {
+    "tip": "指揮官，這個功能暫不開放喲！~"
   },
   "ship_formationUI_fleetName12": {
     "tip": "潛艇編隊二"
@@ -6371,8 +6374,8 @@
       }
     ]
   },
-  "main_mailMediator_notingToTake": {
-    "tip": "並沒有什麼可領的"
+  "word_special": {
+    "tip": "特殊"
   },
   "event_over_time_expired": {
     "tip": "委託已過期"
@@ -6383,15 +6386,15 @@
   "course_proficiency_not_enough": {
     "tip": "熟練度不足"
   },
-  "word_special": {
-    "tip": "特殊"
-  },
   "help_shipinfo_hunting": {
     "tip": [
       {
         "info": "狩獵範圍說明：\n\n▪狩獵範圍等級：\n狩獵範圍等級可以通過突破、裝備技能、角色技能效果\n等方式來提高。\n\n角色的狩獵範圍等級越高，自身的狩獵範圍也就越大\n\n▪狩獵範圍：\n潛艇編隊進入作戰地圖時，根據潛艇編隊領隊的狩獵範\n圍等級、樣式確定潛艇編隊的狩獵範圍；\n\n與潛艇作戰範圍內的敵人戰鬥時，可以消耗潛艇編隊的\n彈藥，請求潛艇編隊進行協助戰鬥；\n\n可以切換潛艇的行動方式，令其自行尋找狩獵範圍內的\n敵人進行魚雷打擊、或原地待機"
       }
     ]
+  },
+  "main_mailLayer_quest_deleteNotRead": {
+    "tip": "<color=#A9F548>郵件未閱讀</color>，真的要刪除該郵件嗎?"
   },
   "cartoon_notall": {
     "tip": "未讀"
@@ -6405,32 +6408,32 @@
   "msgbox_text_shop": {
     "tip": "商 店"
   },
-  "main_mailLayer_quest_deleteNotRead": {
-    "tip": "<color=#A9F548>郵件未閱讀</color>，真的要刪除該郵件嗎?"
+  "friend_confirm_add_blacklist": {
+    "tip": "確定將<color=#A9F548>$1</color>封鎖並加入黑名單？\n（可在好友系統中看到黑名單列表）"
   },
   "idolmaster_voice_name_feeling3": {
     "tip": "友好"
   },
-  "autofight_entrust": {
-    "tip": "本次作戰出現緊急委託：$1"
+  "word_intensify_phase": {
+    "tip": "強化階段"
   },
   "special_operation_tip1": {
     "tip": "當前關卡無法使用"
   },
-  "word_intensify_phase": {
-    "tip": "強化階段"
-  },
   "main_mailLayer_noAttach": {
     "tip": "無附件"
-  },
-  "trophy_achieved": {
-    "tip": "勳章解鎖"
   },
   "amusementpark_shop_end": {
     "tip": "獎品已經全部兌換完了哦，完美清倉！"
   },
+  "trophy_achieved": {
+    "tip": "勳章解鎖"
+  },
   "mail_takeAttachment_error_dockYrad_full": {
     "tip": "<color=#92fc63>領取失敗</color>您的<color=#92fc63>船塢已滿</color>"
+  },
+  "word_operation": {
+    "tip": "參與行動"
   },
   "music_collection": {
     "tip": [
@@ -6460,14 +6463,14 @@
   "login_newPlayerScene_word_lingBo": {
     "tip": "特型驅逐艦綾波...他們都愛稱呼我“鬼神”。指揮官您的名字是？"
   },
-  "word_operation": {
-    "tip": "參與行動"
-  },
   "without_selected_ship": {
     "tip": "沒找到符合條件的艦船"
   },
   "mail_takeAttachment_error_reWorld": {
     "tip": "大型作戰已經重置，領取的附件將被等比轉化為戰備物資兌換券。確認領取嗎？"
+  },
+  "draw_little_luck_2": {
+    "tip": "努力和運氣都是很重要的喵～"
   },
   "secondary_password_help": {
     "tip": [
@@ -6491,8 +6494,8 @@
       }
     ]
   },
-  "draw_little_luck_2": {
-    "tip": "努力和運氣都是很重要的喵～"
+  "mail_takeAttachment_error_noAttach": {
+    "tip": "附件不可領取"
   },
   "setting_interface_revert_check": {
     "tip": "確定將戰鬥鍵位還原到初始設定嗎？"
@@ -6500,23 +6503,23 @@
   "idle": {
     "tip": "待機"
   },
-  "mail_takeAttachment_error_noAttach": {
-    "tip": "附件不可領取"
-  },
   "word_capacity": {
     "tip": "庫存:"
   },
-  "guild_supply_log": {
-    "tip": "[$1] $2 消耗大艦隊資金$3 開啟大艦隊補給$4天"
-  },
   "mail_takeAttachment_error_noMail": {
     "tip": "郵件不存在:$1"
+  },
+  "guild_supply_log": {
+    "tip": "[$1] $2 消耗大艦隊資金$3 開啟大艦隊補給$4天"
   },
   "mail_getMailList_error_noNewMail": {
     "tip": "沒有新郵件"
   },
   "npc_strength_tip": {
     "tip": "臨時角色離開港區時，突破/強化所消耗的物資、材料無法返還，是否確認強化?"
+  },
+  "login_loginScene_server_disabled": {
+    "tip": "伺服器不可用"
   },
   "reflux_word_2": {
     "tip": "解鎖："
@@ -6527,8 +6530,8 @@
   "activity_permanent_finished": {
     "tip": "已完成"
   },
-  "login_loginScene_server_full": {
-    "tip": "該伺服器人數已滿"
+  "backyard_backyardScene_comforChatContent2": {
+    "tip": "<size=45>$1</size>\n當前經驗收益<color=#92fc63>+$2%</color><size=30>\n\n<color=#92fc63>舒適度</color>不受擺放影響，計算<color=#92fc63>各類傢俱</color>中舒適度最高的<color=#92fc63>前n件</color>總和\n各類傢俱的n值受後宅擴建次數影響  當前次數:<color=#92fc63>$3</color>\n</size>"
   },
   "meta_skill_unlock": {
     "tip": "請點擊習得技能後進行研修"
@@ -6536,20 +6539,20 @@
   "word_shipNation_other": {
     "tip": "其他"
   },
-  "backyard_backyardScene_comforChatContent2": {
-    "tip": "<size=45>$1</size>\n當前經驗收益<color=#92fc63>+$2%</color><size=30>\n\n<color=#92fc63>舒適度</color>不受擺放影響，計算<color=#92fc63>各類傢俱</color>中舒適度最高的<color=#92fc63>前n件</color>總和\n各類傢俱的n值受後宅擴建次數影響  當前次數:<color=#92fc63>$3</color>\n</size>"
+  "login_loginScene_choiseServer": {
+    "tip": "請選擇伺服器"
   },
   "common_refresh_count_insufficient": {
     "tip": "重整次數不足"
   },
-  "login_loginScene_choiseServer": {
-    "tip": "請選擇伺服器"
-  },
-  "login_loginMediator_kickIntError": {
-    "tip": "網路異常"
+  "login_loginMediator_kickServerClose": {
+    "tip": "伺服器維護"
   },
   "login_loginScene_error_noUserName": {
     "tip": "用戶名不能為空"
+  },
+  "meta_repair_rate": {
+    "tip": "艦裝強化率"
   },
   "guild_log_fire": {
     "tip": "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>被開除出了大艦隊"
@@ -6557,29 +6560,29 @@
   "task_lock": {
     "tip": "$1 級解鎖"
   },
-  "meta_repair_rate": {
-    "tip": "艦裝強化率"
-  },
   "world_word_expired": {
     "tip": "座標已過期"
   },
   "login_loginMediator_registerFail_error": {
     "tip": "註冊失敗:"
   },
-  "level_risk_level_desc": {
-    "tip": " $1\n\n"
-  },
   "login_loginMediator_loginSuccess": {
     "tip": "登入成功"
+  },
+  "level_risk_level_desc": {
+    "tip": " $1\n\n"
   },
   "player_expResource_mail_fullBag": {
     "tip": "資源已經達到上限，繼續會導致部分資源無法領取，是否繼續？"
   },
+  "login_loginMediator_serverLoginErro": {
+    "tip": "伺服器連接失敗"
+  },
   "backyard_backyardShipInfoMediator_shipState_fight": {
     "tip": "該角色正在後宅中休息"
   },
-  "login_loginMediator_serverLoginErro": {
-    "tip": "伺服器連接失敗"
+  "attribute_expend": {
+    "tip": "消耗"
   },
   "attribute_speciality": {
     "tip": "特性"
@@ -6593,8 +6596,8 @@
   "word_dockyard": {
     "tip": "船塢"
   },
-  "attribute_expend": {
-    "tip": "消耗"
+  "task_is_not_existence": {
+    "tip": "不存在該任務$1"
   },
   "newplayer_notice_4": {
     "tip": "挑戰成功後可獲得波特蘭"
@@ -6605,8 +6608,8 @@
   "tag_level_narrative": {
     "tip": "劇情關卡"
   },
-  "task_is_not_existence": {
-    "tip": "不存在該任務$1"
+  "ship_renameShip_error_2011": {
+    "tip": "名稱過長"
   },
   "equip_info_14": {
     "tip": "裝備參數"
@@ -6614,8 +6617,8 @@
   "text_forward": {
     "tip": "立即前往"
   },
-  "ship_renameShip_error_2011": {
-    "tip": "名稱過長"
+  "login_loginMediator_kickIntError": {
+    "tip": "網路異常"
   },
   "ambush_display_0": {
     "tip": "遇敵"
@@ -6650,17 +6653,17 @@
   "resourceSite_beginScanMap_error": {
     "tip": "雷達掃描失敗:"
   },
-  "login_newPlayerScene_inputName": {
-    "tip": "請輸入暱稱"
-  },
   "word_destroy": {
     "tip": "退役"
+  },
+  "login_newPlayerScene_error_notChoiseShip": {
+    "tip": "未選擇角色"
   },
   "returner_max_count": {
     "tip": "已達最大邀請數量"
   },
-  "login_newPlayerScene_error_notChoiseShip": {
-    "tip": "未選擇角色"
+  "fate_phase_word": {
+    "tip": "階段達成率"
   },
   "commander_rename_warning": {
     "tip": "更名後需要1天才能再次更名，是否確定將指揮喵更名為$1"
@@ -6668,8 +6671,8 @@
   "battle_preCombatMediator_activity_timeout": {
     "tip": "活動時間<color=#92fc63>已結束</color>，點擊確定返回選關介面"
   },
-  "fate_phase_word": {
-    "tip": "階段達成率"
+  "login_newPlayerScene_word_z23": {
+    "tip": "指揮官，真是的，你是不是忘了告訴我你的名字？還是說你就叫指揮官呢？"
   },
   "event_giveup_fail": {
     "tip": "放棄委託失敗"
@@ -6680,23 +6683,23 @@
   "game_openwords": {
     "tip": "主介面台詞框已顯示"
   },
-  "login_newPlayerScene_word_biaoqiang": {
-    "tip": "指揮官，標槍已經告訴你名字了，你不告訴我你的名字可不公平哦~"
+  "sofmapsd_1": {
+    "tip": "呼喵？！準備好的禮品券丟了喵！\n指揮官，快幫幫{namecode:98}喵！"
   },
   "text_goon_fight": {
     "tip": "繼續戰鬥"
   },
-  "sofmapsd_1": {
-    "tip": "呼喵？！準備好的禮品券丟了喵！\n指揮官，快幫幫{namecode:98}喵！"
+  "login_createNewPlayer_error_nameNull": {
+    "tip": "名字不能為空"
   },
   "setting_story_speed_3": {
     "tip": "快 "
   },
-  "login_createNewPlayer_error_nameNull": {
-    "tip": "名字不能為空"
-  },
   "login_createNewPlayer_full": {
     "tip": "伺服器註冊人數已滿"
+  },
+  "login_game_frequence": {
+    "tip": "請勿頻繁登入伺服器"
   },
   "commander_reserve_count_is_max": {
     "tip": "已達最大預定數量"
@@ -6707,11 +6710,11 @@
   "friend_no_request": {
     "tip": "當前沒有請求"
   },
-  "login_game_frequence": {
-    "tip": "請勿頻繁登入伺服器"
-  },
   "login_game_banned": {
     "tip": "帳號已被凍結，請您聯繫客服"
+  },
+  "login_game_login_full": {
+    "tip": "伺服器在線人數已滿，請稍後再試"
   },
   "guild_join_event_cnt_label": {
     "tip": "本月參與次數:"
@@ -6719,17 +6722,14 @@
   "paint_hide_other_obj_tip": {
     "tip": "隱藏背景物件"
   },
-  "login_game_login_full": {
-    "tip": "伺服器在線人數已滿，請稍後再試"
-  },
   "login_gate_not_ready": {
     "tip": "伺服器尚未開放"
   },
-  "guild_event_info_desc2": {
-    "tip": "總$1值: <color=$2>$3/$4</color>"
-  },
   "equipment_equipmentScene_selectError_more": {
     "tip": "最多選擇<color=#A9F548>$1</color>個裝備"
+  },
+  "guild_event_info_desc2": {
+    "tip": "總$1值: <color=$2>$3/$4</color>"
   },
   "tactics_no_lesson": {
     "tip": "沒有可以使用的教材"
@@ -6743,11 +6743,14 @@
   "tactics_lesson_cancel": {
     "tip": "取消訓練將返還部分經驗並<color=#A9F548>消耗教材</color>，是否確認？"
   },
+  "word_synthesize_power": {
+    "tip": "綜合性能"
+  },
   "ship_exp_item_title": {
     "tip": "等級提升"
   },
-  "word_synthesize_power": {
-    "tip": "綜合性能"
+  "lesson_endToLearn_error": {
+    "tip": "課程取消失敗:"
   },
   "word_sell_out": {
     "tip": "已售罄"
@@ -6755,23 +6758,23 @@
   "levelScene_whether_to_retreat": {
     "tip": "真的要<color=#A9F548>撤退</color>嗎?"
   },
-  "lesson_classOver_error": {
-    "tip": "領取獎勵失敗:"
-  },
   "friend_searchFriend_wait_time": {
     "tip": "$1秒後可以再次搜尋"
   },
+  "autofight_entrust": {
+    "tip": "本次作戰出現緊急委託：$1"
+  },
   "main_mailLayer_quest_deleteNotTakeAttach": {
     "tip": "<color=#A9F548>附件未領取</color>，真的要刪除該郵件嗎?"
-  },
-  "friend_confirm_add_blacklist": {
-    "tip": "確定將<color=#A9F548>$1</color>封鎖並加入黑名單？\n（可在好友系統中看到黑名單列表）"
   },
   "world_word_guild": {
     "tip": "大艦隊"
   },
   "friend_sendFriendRequest_success": {
     "tip": "申請發送成功"
+  },
+  "friend_relieveblacklist_error": {
+    "tip": "移除黑名單失敗:"
   },
   "index_all": {
     "tip": "全部"
@@ -6788,14 +6791,14 @@
   "word_shop": {
     "tip": "商店"
   },
-  "friend_relieveblacklist_error": {
-    "tip": "移除黑名單失敗:"
-  },
   "friend_addblacklist_error": {
     "tip": "增加黑名單失敗:"
   },
   "friend_resume_title_metal": {
     "tip": "最高軍銜:"
+  },
+  "friend_rejectFriendRequest_error": {
+    "tip": "拒絕好友請求失敗:"
   },
   "guild_tech_shipbag_desc": {
     "tip": "船塢容量上限提升$1"
@@ -6806,17 +6809,17 @@
   "ship_dockyardScene_error_choiseRoleLess": {
     "tip": "最多選擇<color=#A9F548>$1</color>個角色"
   },
-  "friend_fetchFriendMsg_error": {
-    "tip": "獲取訊息失敗:"
+  "exchangecode_use_error_20": {
+    "tip": "兌換碼不存在"
   },
   "word_attr_reload": {
     "tip": "裝填"
   },
-  "intimacy_desc_7_buff": {
-    "tip": "當前加成：全基礎屬性（除航速，裝備不計）提高12%"
-  },
   "fleet_fleetRaname_error": {
     "tip": "重命名失敗:"
+  },
+  "fleet_repairShips_quest": {
+    "tip": "是否花費<color=#A9F548>$1</color>物資恢復所有艦隊的體力值？"
   },
   "cat_home_unlock": {
     "tip": "請提升喵窩等級以解鎖更多喵窩"
@@ -6824,11 +6827,11 @@
   "energy_desc_3": {
     "tip": "希望每天都能有這樣的好心情"
   },
-  "fleet_repairShips_quest": {
-    "tip": "是否花費<color=#A9F548>$1</color>物資恢復所有艦隊的體力值？"
-  },
   "fleet_error_no_fleet": {
     "tip": "艦隊不存在"
+  },
+  "number_6": {
+    "tip": "六"
   },
   "backyard_backyardShipInfoLayer_quest_openPos": {
     "tip": "開啟欄位需要消耗<color=#A9F548>$1鑽石</color>,是否確認開啟"
@@ -6839,11 +6842,11 @@
   "common_no_gold": {
     "tip": "<color=#A9F548>物資</color>不夠啦！"
   },
-  "number_6": {
-    "tip": "六"
-  },
   "exercise_award_tip": {
     "tip": "   當賽季第一次達到對應段位時，將會發放對應獎勵，獎勵對應如下："
+  },
+  "exercise_rule_tip": {
+    "tip": "   1、每<color=#a9f548>14</color>天為一個賽季，賽季中達到指定軍銜，即可獲得軍銜對應獎勵\n   2、戰鬥勝利可以按軍銜等級獲得功勳，即使失敗也可獲得<color=#a9f548>一半</color>的功勳\n   3、戰鬥勝利可以獲得積分，戰鬥失敗<color=#a9f548>不會扣除積分</color>\n   4、受到其他人的挑戰而失敗不會扣除積分\n   5、積分達到一定值，就可以提升軍銜，<color=#a9f548>將階以上</color>軍銜需要達到一定名次\n   6、軍銜只要達到過1次，就會立刻獲得軍銜獎勵\n   7、獲得的功勳可以在功勳商店兌換科技箱、角色等獎勵\n   8、演習對手可以免費手動更換，每天只能更換<color=#a9f548>5</color>次\n   9 、挑戰後，無論成敗，都會自動更換一組對手\n   10、演習次數每天00:00、12:00、18:00重置，重置時增加<color=#a9f548>5</color>次演習次\n   數，演習次數上限為<color=#a9f548>10</color>次\n   11、賽季結束後，所有玩家軍銜和積分重置"
   },
   "inform_select_type": {
     "tip": "請選擇檢舉內容"
@@ -6857,8 +6860,8 @@
   "intimacy_desc_propose_vertical": {
     "tip": "愛為引路之燈，情乃系心之線\n期盼對方之笑容，祈願對方之期盼\n相互尊重、相互信任、相互守望，直至永遠\n至此，命運結而為一，誓約成立\n\n         誓約日$1"
   },
-  "ship_remould_warning_102174": {
-    "tip": "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
+  "exercise_shop_refresh_tip": {
+    "tip": "是否花費<color=#A9F548>$1</color>鑽石更新商品列表"
   },
   "guild_trainee_duty_change_tip": {
     "tip": "見習成員無法變更職位"
@@ -6866,11 +6869,11 @@
   "exchangecode_use_error": {
     "tip": "使用失敗，"
   },
-  "exercise_shop_refresh_tip": {
-    "tip": "是否花費<color=#A9F548>$1</color>鑽石更新商品列表"
-  },
   "exercise_count_recover_tip": {
     "tip": "（<color=#A9F548>$1</color>後恢復）"
+  },
+  "exercise_replace_rivals_question": {
+    "tip": "是否花費<color=#A9F548>$1</color>鑽石更換對手?"
   },
   "auto_battle_limit_tip": {
     "tip": "通關1-3後開放自律戰鬥"
