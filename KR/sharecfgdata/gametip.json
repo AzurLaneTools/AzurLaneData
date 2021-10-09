@@ -4166,8 +4166,8 @@
   "backyard_energy_qiuck_up_tip": {
     "tip": "에너지 커피를 <color=#92fc63FF>$1</color>개 사용하시겠습니까?\n\n보유 수：<color=$2>$3</color>"
   },
-  "keep_fate_tip": {
-    "tip": "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
+  "equip_info_1": {
+    "tip": "피해"
   },
   "pocky_jiujiu": {
     "tip": "쥬쥬 일상"
@@ -4270,8 +4270,8 @@
   "ship_shipModMediator_choiseMaterial": {
     "tip": "재료를 선택해주세요."
   },
-  "set_birth_success": {
-    "tip": "생일을 설정했습니다."
+  "qiuqiu_total_count": {
+    "tip": "누적 쥬쥬 갯수："
   },
   "world_mapbuff_attrtxt_2": {
     "tip": "내구 조정"
@@ -4828,8 +4828,12 @@
   "ship_updateShipLock_ok_lock": {
     "tip": "<color=#92fc63>$1</color>을(를) 잠금 상태로 전환했습니다."
   },
-  "word_rename_time_tip": {
-    "tip": "앞으로 $1일 동안 이름을 변경할 수 없습니다."
+  "help_shipinfo_fashion": {
+    "tip": [
+      {
+        "info": "\n코스튬 설명:\n\n 판매 중이 아닌 코스튬은 다음번 출시까지 기다려주세요."
+      }
+    ]
   },
   "map_event_memory_collected": {
     "tip": "스토리 <color=#92fc63>「$1」</color> 개방 성공!"
@@ -4882,8 +4886,8 @@
   "attribute_damage": {
     "tip": "화력"
   },
-  "equip_info_1": {
-    "tip": "피해"
+  "keep_fate_tip": {
+    "tip": "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
   },
   "dailyLevel_unopened": {
     "tip": "준비 중입니다."
@@ -5170,8 +5174,8 @@
   "coloring_lock": {
     "tip": "미개방"
   },
-  "guidl_r_box_time_desc": {
-    "tip": "냥박스 R 훈련 시간 단축 $1"
+  "guild_box_gold_desc": {
+    "tip": "냥박스 구입 비용 -$1"
   },
   "word_start": {
     "tip": "증축개시"
@@ -5712,8 +5716,8 @@
   "login_newPlayerScene_word_biaoqiang": {
     "tip": "제 이름은 재블린! 네! 지휘관도 이름을 알려주세요!"
   },
-  "acl_gold_count": {
-    "tip": "목표 물자 :"
+  "guild_accept_erro": {
+    "tip": "신청 승인에 실패했습니다."
   },
   "exchangecode_use_error": {
     "tip": "에러："
@@ -6057,12 +6061,8 @@
       }
     ]
   },
-  "help_summer_stamp": {
-    "tip": [
-      {
-        "info": "게임 티켓으로 참여할 수 있는 사격 게임, 불꽃 공방, 축제 음식\n미니게임에서 획득하는 스탬프는 스탬프북에서 확인할 수 \n있으며, 스탬프 14개를 모으고 좌측 수령하기 버튼을 누르면 \n주노의 한정 코스튬 을 획득할 수 있습니다."
-      }
-    ]
+  "ship_remould_warning_310044": {
+    "tip": "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. \n【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.\n부무장 슬롯에 장착되어 있는 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>"
   },
   "ship_exp_item_label_clear": {
     "tip": "비우기"
@@ -6338,17 +6338,17 @@
   "meta_skill_maxtip2": {
     "tip": "스킬 레벨 최대"
   },
+  "meta_tactics_detail": {
+    "tip": "상세 확인"
+  },
   "meta_tactics_switch": {
     "tip": "연구 스킬"
-  },
-  "meta_tactics_unlock": {
-    "tip": "습득 스킬"
   },
   "world_level_prefix": {
     "tip": "레벨 LV.$1"
   },
-  "friend_relieveblacklist_error": {
-    "tip": "차단 해제 실패："
+  "meta_tactics_unlock": {
+    "tip": "습득 스킬"
   },
   "mingshi_get_tip": {
     "tip": "「신기한 재료」를 발견했습니다!"
@@ -6368,8 +6368,8 @@
   "backyard_extendArea_erro": {
     "tip": "숙소 확장에 실패했습니다... <color=#92fc63>$1</color>"
   },
-  "meta_tactics_detail": {
-    "tip": "상세 확인"
+  "friend_relieveblacklist_error": {
+    "tip": "차단 해제 실패："
   },
   "meta_skill_maxtip": {
     "tip": "$1의 현재 연구 스킬이 최고 레벨입니다. 연구 스킬을 변경하시겠습니까?"
@@ -6404,8 +6404,8 @@
   "cartoon_haveno": {
     "tip": "조건에 맞는 만화 없음"
   },
-  "intimacy_desc_7": {
-    "tip": "$1은(는) 당신만을 생각하고 있다."
+  "oil_buy_tip": {
+    "tip": "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>개를 사용하여  <size=30><color=#92fc63>$2</color></size><size=30>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>"
   },
   "word_attr_level": {
     "tip": "최대 레벨"
@@ -6994,8 +6994,8 @@
   "setting_story_speed_2": {
     "tip": "보통"
   },
-  "word_soundfiles_checkfailed": {
-    "tip": "갱신 체크 실패"
+  "attribute_speciality": {
+    "tip": "특성"
   },
   "backyard_theme_open_tip": {
     "tip": "개방 조건：\n지휘관 Lv.<color=#92fc63>$1</color> 이상"
@@ -7463,8 +7463,12 @@
   "resourceSite_beginScanMap_error": {
     "tip": "색적 실패："
   },
-  "collection_award_ship": {
-    "tip": "$1 개발 완료! 건조 라인업에 추가되었습니다."
+  "help_summer_feast": {
+    "tip": [
+      {
+        "info": "이벤트 기간 동안 매일 게임 티켓을 2장씩 획득할 수 있으며, 게임 티켓은 최대 14장 획득할 수 있습니다.\n게임 티켓을 보유한 경우 사격 게임, 폭죽 공방, 축제 음식 3가지 미니 게임에 참여하면 게임 티켓을 소모하며 스탬프를 획득합니다. 미니 게임에서 활약도에 따라 다음과 같은 보상을 획득합니다:\n1등상: 물자*150 축제 음식(?)*1\n2등상: 물자*130 축제 음식(?)*1\n3등상: 물자*110 \n4등상: 물자*100\n스탬프 14개 수집 시 주노 한정 스킨 획득 가능, 게임 티켓 수량 및 스탬프 수집 진도는 우측에서 확인 가능.\nTIPS：\n1. 게임 티켓을 보유하지 않고 미니 게임 진행할 경우, 보상 및 스탬프 획득 불가\n2. 기타 원인으로 인해 미니 게임 중도 퇴장 시 게임 티켓을 소모하지 않으며, 어떠한 보상도 획득 불가"
+      }
+    ]
   },
   "meta_energy_preview_tip": {
     "tip": "*호감도 및 서약 등 추가 버프를 포함하지 않습니다."
@@ -7487,39 +7491,8 @@
   "event_giveup_fail": {
     "tip": "긴급 귀항 실패："
   },
-  "black_white_grid_notice": {
-    "tip": [
-      {
-        "info": "이벤트 설명: "
-      },
-      {
-        "info": "1. 정화 버츄얼 공간에 총 5장의 게임 사진이 있습니다.\n이벤트 기강 동안 반복 플레이가 가능하지만 첫 4장의 사진은\n<color=#92fc63>처음</color> 정화완료할 때에만 보상을 획득하실 수 있습니다."
-      },
-      {
-        "info": "2. 첫 4장의 게임 사진은 고정이며, 5번째 사진은 랜덤입니다."
-      },
-      {
-        "info": "3. 게임 사진은 상응하는 이벤트 해역을 별 3개로 클리어해야지만\n해제할 수 있습니다."
-      },
-      {
-        "info": "4. 우선 이전 장의 게임 사진을 완료해야 다음 장의 게임 사진을\n진행할 수 있습니다."
-      },
-      {
-        "info": "5. 매 게임마다 지휘관님에게 뒤집을 수 있는 기회가 3회\n부여됩니다."
-      },
-      {
-        "info": "6. 게임 사진의 같은 칸을 두번 연속 클릭하여 뒤집을 수 있습니다."
-      },
-      {
-        "info": "7. 뒤집기 기능은 연속 클릭한 칸을 중심으로 주변에 있는\n<color=#92fc63>9칸</color>의 색이<color=#92fc63>반대 방향으로 돕니다</color>.\n(검은 칸은 하얀 칸으로 변경되며, 하얀 칸은 검은 칸으로\n변경됩니다)"
-      },
-      {
-        "info": "8. 3회 뒤집으면 결산이 진행됩니다."
-      },
-      {
-        "info": "9.결산 중 게임 사진 위에 있는 검은 칸마다 <color=#92fc63>-1</color>점, 하얀 칸마다\n<color=#92fc63>+1</color>점이 부여됩니다.최종 점수가 <color=#92fc63>0보다 같거나 클 시</color> 정화에 성공한\n것이고 <color=#92fc63>0보다 작을 시</color> 정화에 실패한 것입니다. "
-      }
-    ]
+  "acl_gold_count": {
+    "tip": "목표 물자 :"
   },
   "game_openwords": {
     "tip": "메인 화면 대사창 표시"
@@ -7615,8 +7588,8 @@
   "world_boss_get_item": {
     "tip": "비콘 데이터를 지정량만큼 수집하였습니다. 바로 분석하시겠습니까?\n(<color=#ff5c5c>분석하지 않을 시, 계속 이어서 비콘 데이터를 획득하지 않습니다</color>.)"
   },
-  "battle_result_max_combo": {
-    "tip": "최고 COMBO:"
+  "result_firework_produce": {
+    "tip": "불꽃 제작이 완료되었습니다. 이번 평가: "
   },
   "exercise_shop_refresh_tip": {
     "tip": "<color=#92fc63>$1</color> 다이아를 사용하여 리스트를 갱신하시겠습니까?"
@@ -8364,8 +8337,8 @@
   "newplayer_notice_5": {
     "tip": "챌린지 성공 후 넬슨 획득 가능."
   },
-  "blueprint_simulation_confirm": {
-    "tip": "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>"
+  "text_confirm": {
+    "tip": "확인"
   },
   "Supplement_pay8": {
     "tip": "잔여 $1일"
@@ -8597,14 +8570,14 @@
   "world_battle_pause2": {
     "tip": "대형 작전"
   },
+  "guild_boss_formation_2": {
+    "tip": "한 멤버당 지원 파견 함선을 최대 1척까지 선택할 수 있습니다."
+  },
   "guild_boss_formation_3": {
     "tip": "편대 내 동명의 함선이 중복으로 존재할 수 없습니다."
   },
   "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip": {
     "tip": "함대에는 최소 1척 이상의 함선이 존재해야 합니다."
-  },
-  "guild_boss_formation_2": {
-    "tip": "한 멤버당 지원 파견 함선을 최대 1척까지 선택할 수 있습니다."
   },
   "formation_switch_failed": {
     "tip": "전환할 수 있는 함대가 없습니다."
@@ -8807,8 +8780,8 @@
   "coloring_erase_warning": {
     "tip": "색깔을 지운 후, 이미 소모된 물감은 반환되지 않습니다. 계속 하시겠습니까?"
   },
-  "guild_box_gold_desc": {
-    "tip": "냥박스 구입 비용 -$1"
+  "guidl_r_box_time_desc": {
+    "tip": "냥박스 R 훈련 시간 단축 $1"
   },
   "word_level": {
     "tip": "레벨"
@@ -9017,10 +8990,10 @@
     "tip": "소속 진영"
   },
   "build_ship_quickly_buy_stone": {
-    "tip": "<color=#92fc63>$1</color>개의 다이아를 사용하여, 큐브를<color=#92fc63>$2</color>개 구입하시겠습니까?"
+    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>개의 다이아를 사용하여, 쿠폰을<color=#92fc63>$2</color>개 구입하시겠습니까?"
   },
-  "elite_condition_reload": {
-    "tip": "장전합계"
+  "vote_final_title1": {
+    "tip": "본선에 대해서"
   },
   "event_confirm_flush": {
     "tip": "현재 진행 중인 의뢰가 있습니다. 정말 리스트를 갱신하시겠습니까?"
@@ -9028,8 +9001,8 @@
   "level_scene_title_word_2": {
     "tip": "해역 위협도:"
   },
-  "vote_final_title1": {
-    "tip": "본선에 대해서"
+  "elite_condition_reload": {
+    "tip": "장전합계"
   },
   "tip_pray_build_pool_fail": {
     "tip": "구성 실패"
@@ -9273,7 +9246,7 @@
     "tip": "대잠"
   },
   "build_ship_quickly_buy_tool": {
-    "tip": "<color=#92fc63>$1</color>개의 다이아를 사용하여, 고속건조재를<color=#92fc63>$2</color>개 구입하시겠습니까?"
+    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>개의 다이아를 사용하여, 고속건조재를<color=#92fc63>$2</color>개 구입하시겠습니까?"
   },
   "world_map_not_open": {
     "tip": "해역 미개방"
@@ -9509,12 +9482,8 @@
   "anniversary_task_title_7": {
     "tip": "이를테면 결속. 인연을 잇는 자는 자신의 심상을 형이상적으로 승화시킨다."
   },
-  "help_shipinfo_fashion": {
-    "tip": [
-      {
-        "info": "\n코스튬 설명:\n\n 판매 중이 아닌 코스튬은 다음번 출시까지 기다려주세요."
-      }
-    ]
+  "blueprint_simulation_confirm": {
+    "tip": "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>"
   },
   "new_airi_error_code_100120": {
     "tip": "IP restricted"
@@ -9528,8 +9497,8 @@
   "new_airi_error_code_100112": {
     "tip": "Account creation failed"
   },
-  "word_contribution": {
-    "tip": "기부"
+  "ship_remould_warning_201514": {
+    "tip": "개조 후 <color=#92fc63>[어뢰 발사 수-1]</color> <color=#92fc63>[대공포 발사 수+1]</color>\n 효과가 적용됩니다. 계속 하시겠습니까? "
   },
   "resource_max_tip_retire": {
     "tip": "퇴역시킬 수 없습니다."
@@ -10080,8 +10049,39 @@
       }
     ]
   },
-  "text_confirm": {
-    "tip": "확인"
+  "black_white_grid_notice": {
+    "tip": [
+      {
+        "info": "이벤트 설명: "
+      },
+      {
+        "info": "1. 정화 버츄얼 공간에 총 5장의 게임 사진이 있습니다.\n이벤트 기강 동안 반복 플레이가 가능하지만 첫 4장의 사진은\n<color=#92fc63>처음</color> 정화완료할 때에만 보상을 획득하실 수 있습니다."
+      },
+      {
+        "info": "2. 첫 4장의 게임 사진은 고정이며, 5번째 사진은 랜덤입니다."
+      },
+      {
+        "info": "3. 게임 사진은 상응하는 이벤트 해역을 별 3개로 클리어해야지만\n해제할 수 있습니다."
+      },
+      {
+        "info": "4. 우선 이전 장의 게임 사진을 완료해야 다음 장의 게임 사진을\n진행할 수 있습니다."
+      },
+      {
+        "info": "5. 매 게임마다 지휘관님에게 뒤집을 수 있는 기회가 3회\n부여됩니다."
+      },
+      {
+        "info": "6. 게임 사진의 같은 칸을 두번 연속 클릭하여 뒤집을 수 있습니다."
+      },
+      {
+        "info": "7. 뒤집기 기능은 연속 클릭한 칸을 중심으로 주변에 있는\n<color=#92fc63>9칸</color>의 색이<color=#92fc63>반대 방향으로 돕니다</color>.\n(검은 칸은 하얀 칸으로 변경되며, 하얀 칸은 검은 칸으로\n변경됩니다)"
+      },
+      {
+        "info": "8. 3회 뒤집으면 결산이 진행됩니다."
+      },
+      {
+        "info": "9.결산 중 게임 사진 위에 있는 검은 칸마다 <color=#92fc63>-1</color>점, 하얀 칸마다\n<color=#92fc63>+1</color>점이 부여됩니다.최종 점수가 <color=#92fc63>0보다 같거나 클 시</color> 정화에 성공한\n것이고 <color=#92fc63>0보다 작을 시</color> 정화에 실패한 것입니다. "
+      }
+    ]
   },
   "mingshi_task_tip_3": {
     "tip": "발견한 거냥?\n암호는...... <<color=#92fc63>U</color>>\n다음 목표는... <<color=#92fc63>아이템을 파는 곳</color>>이다냥!"
@@ -12421,17 +12421,17 @@
   "login_newPlayerScene_word_yingHuoChong": {
     "tip": "와앗! 새로운 지휘관이구나! 글로우웜이랑 같이 놀자! 이름 알려줘!"
   },
-  "guild_accept_erro": {
-    "tip": "신청 승인에 실패했습니다."
+  "intimacy_desc_7": {
+    "tip": "$1은(는) 당신만을 생각하고 있다."
   },
   "world_setting_quickmodetip": {
     "tip": "기능 오픈 후, TB 가이드 설명을 중복 재생하지 않습니다."
   },
-  "oil_buy_tip": {
-    "tip": "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>개를 사용하여  <size=30><color=#92fc63>$2</color></size><size=30>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>"
-  },
   "gold": {
     "tip": "金币"
+  },
+  "word_soundfiles_checkfailed": {
+    "tip": "갱신 체크 실패"
   },
   "backYard_missing_furnitrue_tip": {
     "tip": "이하 가구가 없습니다"
@@ -12439,14 +12439,11 @@
   "words_autoFIght_down_frame_des": {
     "tip": "설정 후, 자율 색적 절전 모드 중 프레임이 낮아지며 배터리 소모를 절약합니다."
   },
-  "attribute_speciality": {
-    "tip": "특성"
+  "secondarypassword_illegal_tip": {
+    "tip": "부적합한 내용입니다. 다시 입력해 주세요. "
   },
   "retire_title": {
     "tip": "일괄 퇴역 설정"
-  },
-  "secondarypassword_illegal_tip": {
-    "tip": "부적합한 내용입니다. 다시 입력해 주세요. "
   },
   "warning_mail_max_1": {
     "tip": "우편 소지량이 한계치(<color=#FF5C5C>$1</color>/1000)에 가까워지고 있습니다. 우편을 정리해주십시오."
@@ -12454,45 +12451,48 @@
   "setting_interface_revert_check": {
     "tip": "조작키 배치를 초기화하시겠습니까?"
   },
+  "collection_award_ship": {
+    "tip": "$1 개발 완료! 건조 라인업에 추가되었습니다."
+  },
   "guild_create_sucess": {
     "tip": "함대 창설 성공"
-  },
-  "help_summer_feast": {
-    "tip": [
-      {
-        "info": "이벤트 기간 동안 매일 게임 티켓을 2장씩 획득할 수 있으며, 게임 티켓은 최대 14장 획득할 수 있습니다.\n게임 티켓을 보유한 경우 사격 게임, 폭죽 공방, 축제 음식 3가지 미니 게임에 참여하면 게임 티켓을 소모하며 스탬프를 획득합니다. 미니 게임에서 활약도에 따라 다음과 같은 보상을 획득합니다:\n1등상: 물자*150 축제 음식(?)*1\n2등상: 물자*130 축제 음식(?)*1\n3등상: 물자*110 \n4등상: 물자*100\n스탬프 14개 수집 시 주노 한정 스킨 획득 가능, 게임 티켓 수량 및 스탬프 수집 진도는 우측에서 확인 가능.\nTIPS：\n1. 게임 티켓을 보유하지 않고 미니 게임 진행할 경우, 보상 및 스탬프 획득 불가\n2. 기타 원인으로 인해 미니 게임 중도 퇴장 시 게임 티켓을 소모하지 않으며, 어떠한 보상도 획득 불가"
-      }
-    ]
   },
   "backyard_addShip_error": {
     "tip": "휴식 함선 배치 실패："
   },
+  "help_summer_stamp": {
+    "tip": [
+      {
+        "info": "게임 티켓으로 참여할 수 있는 사격 게임, 불꽃 공방, 축제 음식\n미니게임에서 획득하는 스탬프는 스탬프북에서 확인할 수 \n있으며, 스탬프 14개를 모으고 좌측 수령하기 버튼을 누르면 \n주노의 한정 코스튬 을 획득할 수 있습니다."
+      }
+    ]
+  },
   "ship_exp_item_label_recom": {
     "tip": "추 천"
   },
-  "ship_remould_warning_310044": {
-    "tip": "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. \n【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.\n부무장 슬롯에 장착되어 있는 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>"
+  "battle_result_max_combo": {
+    "tip": "최고 COMBO:"
   },
   "world_joint_exit_battle_tip": {
     "tip": "현재 전투를 중단하고 비콘·META로 이동하시겠습니까?"
   },
-  "result_firework_produce": {
-    "tip": "불꽃 제작이 완료되었습니다. 이번 평가: "
+  "word_contribution": {
+    "tip": "기부"
   },
   "common_no_item_1": {
     "tip": "아이템이 부족합니다!"
   },
-  "ship_remould_warning_201514": {
-    "tip": "개조 후 <color=#92fc63>[어뢰 발사 수-1]</color> <color=#92fc63>[대공포 발사 수+1]</color>\n 효과가 적용됩니다. 계속 하시겠습니까? "
+  "set_birth_success": {
+    "tip": "생일을 설정했습니다."
   },
   "five_choose_one": {
     "tip": "함께 크리스마스를 보낼 함선소녀는 1명만 초대할 수 있습니다.\n<color=#92fc63>$1</color>를 초대하시겠습니까?\n초대 후엔 해당 캐릭터와 답례를 획득할 수 있습니다."
   },
-  "qiuqiu_total_count": {
-    "tip": "누적 쥬쥬 갯수："
-  },
   "intimacy_desc_4_buff": {
     "tip": "보정치：모든 능력치(항속, 장비 제외) 3% 상승"
+  },
+  "word_rename_time_tip": {
+    "tip": "앞으로 $1일 동안 이름을 변경할 수 없습니다."
   },
   "cattery_add_commander_success": {
     "tip": "지휘냥 배치 성공"
