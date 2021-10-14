@@ -57848,6 +57848,47 @@
     "name": "龙宫机关-水 技能弹条",
     "uiEffect": ""
   },
+  "skill_9677": {
+    "id": 9677,
+    "painting": 1,
+    "desc": "",
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "picture": "0",
+    "effect_list": [
+      {
+        "target_choise": "TargetPlayerVanguardFleet",
+        "arg_list": {
+          "buff_id": 9679
+        },
+        "type": "BattleSkillAddBuff",
+        "casterAniEffect": "",
+        "targetAniEffect": ""
+      },
+      {
+        "target_choise": "TargetShipTag",
+        "arg_list": {
+          "operation": -1,
+          "ship_tag_list": [
+            "14_NewWave"
+          ],
+          "tag": "14_NewWave"
+        },
+        "type": "BattleSkillEditTag",
+        "casterAniEffect": "",
+        "targetAniEffect": ""
+      }
+    ],
+    "cd": 0,
+    "name": "",
+    "uiEffect": ""
+  },
   "skill_13770": {
     "castCV": "skill",
     "id": 13770,
