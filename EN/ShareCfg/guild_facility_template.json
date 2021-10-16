@@ -1,8 +1,8 @@
 {
   "1": {
+    "buffs": [],
     "icon": "eventtype/faxiankuangmai",
     "id": 1,
-    "type": 1,
     "levels": [
       [
         10,
@@ -22,12 +22,12 @@
       ]
     ],
     "name": "石油仓库",
-    "buffs": []
+    "type": 1
   },
   "2": {
+    "buffs": [],
     "icon": "eventtype/guanjianyishi",
     "id": 2,
-    "type": 2,
     "levels": [
       [
         10,
@@ -47,12 +47,14 @@
       ]
     ],
     "name": "金币仓库",
-    "buffs": []
+    "type": 2
   },
   "3": {
+    "buffs": [
+      1012
+    ],
     "icon": "eventtype/guanjianyishi",
     "id": 3,
-    "type": 3,
     "levels": [
       [
         1,
@@ -72,9 +74,7 @@
       ]
     ],
     "name": "火力研究",
-    "buffs": [
-      1012
-    ]
+    "type": 3
   },
   "all": [
     1,
