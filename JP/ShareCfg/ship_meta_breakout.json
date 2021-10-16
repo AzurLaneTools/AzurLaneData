@@ -1,206 +1,340 @@
 {
-  "9707032": {
-    "level": 30,
-    "item1": 21004,
-    "id": 9707032,
+  "9702011": {
+    "breakout_id": 9702012,
+    "breakout_view": "【炬火の力-ヘレナ】習得/主砲補正+5%",
+    "gold": 1000,
+    "id": 9702011,
+    "item1": 21003,
+    "item1_num": 1,
+    "item2": 21001,
     "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      79731
+    ]
+  },
+  "9702012": {
+    "breakout_id": 9702013,
+    "breakout_view": "主砲砲座+1/主砲補正+10%",
+    "gold": 3000,
+    "id": 9702012,
+    "item1": 21003,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9702011,
+    "repair": 0,
+    "weapon_ids": [
+      12100,
+      12100
+    ]
+  },
+  "9702013": {
+    "breakout_id": 9702014,
+    "breakout_view": "【炬火の力-ヘレナ】強化/主砲補正+15%",
+    "gold": 10000,
+    "id": 9702013,
+    "item1": 21003,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9702012,
+    "repair": 0,
+    "weapon_ids": [
+      79732
+    ]
+  },
+  "9702014": {
+    "breakout_id": 0,
+    "breakout_view": "なし",
+    "gold": 0,
+    "id": 9702014,
+    "item1": 21003,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9702013,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9705011": {
+    "breakout_id": 9705012,
+    "breakout_view": "【炬火の力-扶桑】習得/主砲砲座+1/主砲補正+5%",
+    "gold": 500,
+    "id": 9705011,
+    "item1": 21005,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      34000,
+      34000
+    ]
+  },
+  "9705012": {
+    "breakout_id": 9705013,
+    "breakout_view": "副砲砲座+2/主砲補正+10%",
+    "gold": 1500,
+    "id": 9705012,
+    "item1": 21005,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9705011,
+    "repair": 0,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ]
+  },
+  "9705013": {
+    "breakout_id": 9705014,
+    "breakout_view": "【炬火の力-扶桑】強化/主砲砲座+1/主砲補正+15%",
+    "gold": 2500,
+    "id": 9705013,
+    "item1": 21005,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9705012,
+    "repair": 0,
+    "weapon_ids": [
+      34000,
+      34000,
+      34000
+    ]
+  },
+  "9705014": {
+    "breakout_id": 0,
+    "breakout_view": "なし",
+    "gold": 0,
+    "id": 9705014,
+    "item1": 21005,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9705013,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9707011": {
+    "breakout_id": 9707012,
+    "breakout_view": "【炬火の力-飛龍】習得/攻撃機数+1/攻撃機補正+5%",
+    "gold": 1000,
+    "id": 9707011,
+    "item1": 21001,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      60161,
+      54014
+    ]
+  },
+  "9707012": {
+    "breakout_id": 9707013,
+    "breakout_view": "攻撃隊上限+1/戦闘機数+1/攻撃機補正+10%",
+    "gold": 3000,
+    "id": 9707012,
+    "item1": 21001,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9707011,
+    "repair": 0,
+    "weapon_ids": [
+      60162,
+      54014,
+      60162,
+      54014
+    ]
+  },
+  "9707013": {
+    "breakout_id": 9707014,
+    "breakout_view": "【炬火の力-飛龍】強化/艦載機数+1/攻撃機補正+15%",
+    "gold": 10000,
+    "id": 9707013,
+    "item1": 21001,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9707012,
+    "repair": 0,
+    "weapon_ids": [
+      60163,
+      54015,
+      60163,
+      54015
+    ]
+  },
+  "9707014": {
+    "breakout_id": 0,
+    "breakout_view": "なし",
+    "gold": 0,
+    "id": 9707014,
+    "item1": 21001,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9707013,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9707021": {
+    "breakout_id": 9707022,
+    "breakout_view": "【炬火の力-アーク・ロイヤル】習得/攻撃機数＋1/攻撃機補正+3%",
+    "gold": 1000,
+    "id": 9707021,
+    "item1": 21002,
+    "item1_num": 1,
+    "item2": 21002,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      60101,
+      54014
+    ]
+  },
+  "9707022": {
+    "breakout_id": 9707023,
+    "breakout_view": "攻撃隊上限+1/爆撃機+1/攻撃機補正+5% ",
+    "gold": 3000,
+    "id": 9707022,
+    "item1": 21002,
+    "item1_num": 1,
+    "item2": 21002,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9707021,
+    "repair": 0,
+    "weapon_ids": [
+      60102,
+      54014,
+      60102,
+      54014
+    ]
+  },
+  "9707023": {
+    "breakout_id": 9707024,
+    "breakout_view": "【炬火の力-アーク・ロイヤル】強化/攻撃機数＋1/攻撃機補正+7% ",
+    "gold": 10000,
+    "id": 9707023,
+    "item1": 21002,
+    "item1_num": 2,
+    "item2": 21002,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9707022,
+    "repair": 0,
+    "weapon_ids": [
+      60103,
+      54015,
+      60103,
+      54015
+    ]
+  },
+  "9707024": {
+    "breakout_id": 0,
+    "breakout_view": "なし",
+    "gold": 0,
+    "id": 9707024,
+    "item1": 21002,
+    "item1_num": 0,
+    "item2": 21002,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9707023,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9707031": {
+    "breakout_id": 9707032,
+    "breakout_view": "【揺灯の力-蒼龍】習得/爆撃機数+1/爆撃機補正+5%",
+    "gold": 1000,
+    "id": 9707031,
+    "item1": 21004,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      60151,
+      54014
+    ]
+  },
+  "9707032": {
+    "breakout_id": 9707033,
+    "breakout_view": "攻撃隊上限+1/戦闘機数+1/爆撃機補正+10%",
+    "gold": 3000,
+    "id": 9707032,
+    "item1": 21004,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9707031,
+    "repair": 0,
     "weapon_ids": [
       60152,
       54014,
       60152,
       54014
-    ],
-    "pre_id": 9707031,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9707033,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "攻撃隊上限+1/戦闘機数+1/爆撃機補正+10%"
-  },
-  "9702014": {
-    "level": 0,
-    "item1": 21003,
-    "id": 9702014,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9702013,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "なし"
-  },
-  "9705013": {
-    "level": 70,
-    "item1": 21005,
-    "id": 9705013,
-    "item2_num": 0,
-    "weapon_ids": [
-      34000,
-      34000,
-      34000
-    ],
-    "pre_id": 9705012,
-    "item1_num": 2,
-    "gold": 2500,
-    "breakout_id": 9705014,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-扶桑】強化/主砲砲座+1/主砲補正+15%"
-  },
-  "9707014": {
-    "level": 0,
-    "item1": 21001,
-    "id": 9707014,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9707013,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "なし"
-  },
-  "9707011": {
-    "level": 10,
-    "item1": 21001,
-    "id": 9707011,
-    "item2_num": 0,
-    "weapon_ids": [
-      60161,
-      54014
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 1000,
-    "breakout_id": 9707012,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-飛龍】習得/攻撃機数+1/攻撃機補正+5%"
-  },
-  "9707034": {
-    "level": 0,
-    "item1": 21004,
-    "id": 9707034,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9707033,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "なし"
+    ]
   },
   "9707033": {
-    "level": 70,
-    "item1": 21004,
+    "breakout_id": 9707034,
+    "breakout_view": "【揺灯の力-蒼龍】強化/艦載機数+1/爆撃機補正+15%",
+    "gold": 10000,
     "id": 9707033,
+    "item1": 21004,
+    "item1_num": 2,
+    "item2": 21001,
     "item2_num": 0,
+    "level": 70,
+    "pre_id": 9707032,
+    "repair": 0,
     "weapon_ids": [
       60153,
       54015,
       60153,
       54015
-    ],
-    "pre_id": 9707032,
-    "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9707034,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【揺灯の力-蒼龍】強化/艦載機数+1/爆撃機補正+15%"
+    ]
   },
-  "9707031": {
-    "level": 10,
+  "9707034": {
+    "breakout_id": 0,
+    "breakout_view": "なし",
+    "gold": 0,
+    "id": 9707034,
     "item1": 21004,
-    "id": 9707031,
-    "item2_num": 0,
-    "weapon_ids": [
-      60151,
-      54014
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 1000,
-    "breakout_id": 9707032,
+    "item1_num": 0,
     "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【揺灯の力-蒼龍】習得/爆撃機数+1/爆撃機補正+5%"
-  },
-  "9707022": {
-    "level": 30,
-    "item1": 21002,
-    "id": 9707022,
     "item2_num": 0,
-    "weapon_ids": [
-      60102,
-      54014,
-      60102,
-      54014
-    ],
-    "pre_id": 9707021,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9707023,
-    "item2": 21002,
+    "level": 0,
+    "pre_id": 9707033,
     "repair": 0,
-    "breakout_view": "攻撃隊上限+1/爆撃機+1/攻撃機補正+5% "
-  },
-  "9705012": {
-    "level": 30,
-    "item1": 21005,
-    "id": 9705012,
-    "item2_num": 0,
-    "weapon_ids": [
-      101,
-      101,
-      101
-    ],
-    "pre_id": 9705011,
-    "item1_num": 1,
-    "gold": 1500,
-    "breakout_id": 9705013,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "副砲砲座+2/主砲補正+10%"
-  },
-  "9707021": {
-    "level": 10,
-    "item1": 21002,
-    "id": 9707021,
-    "item2_num": 0,
-    "weapon_ids": [
-      60101,
-      54014
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 1000,
-    "breakout_id": 9707022,
-    "item2": 21002,
-    "repair": 0,
-    "breakout_view": "【炬火の力-アーク・ロイヤル】習得/攻撃機数＋1/攻撃機補正+3%"
-  },
-  "9702012": {
-    "level": 30,
-    "item1": 21003,
-    "id": 9702012,
-    "item2_num": 0,
-    "weapon_ids": [
-      12100,
-      12100
-    ],
-    "pre_id": 9702011,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9702013,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "主砲砲座+1/主砲補正+10%"
+    "weapon_ids": []
   },
   "all": [
     9702011,
@@ -223,139 +357,5 @@
     9707032,
     9707033,
     9707034
-  ],
-  "9705011": {
-    "level": 10,
-    "item1": 21005,
-    "id": 9705011,
-    "item2_num": 0,
-    "weapon_ids": [
-      34000,
-      34000
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 500,
-    "breakout_id": 9705012,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-扶桑】習得/主砲砲座+1/主砲補正+5%"
-  },
-  "9702011": {
-    "level": 10,
-    "item1": 21003,
-    "id": 9702011,
-    "item2_num": 0,
-    "weapon_ids": [
-      79731
-    ],
-    "pre_id": 0,
-    "item1_num": 1,
-    "gold": 1000,
-    "breakout_id": 9702012,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-ヘレナ】習得/主砲補正+5%"
-  },
-  "9707012": {
-    "level": 30,
-    "item1": 21001,
-    "id": 9707012,
-    "item2_num": 0,
-    "weapon_ids": [
-      60162,
-      54014,
-      60162,
-      54014
-    ],
-    "pre_id": 9707011,
-    "item1_num": 1,
-    "gold": 3000,
-    "breakout_id": 9707013,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "攻撃隊上限+1/戦闘機数+1/攻撃機補正+10%"
-  },
-  "9705014": {
-    "level": 0,
-    "item1": 21005,
-    "id": 9705014,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9705013,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "なし"
-  },
-  "9707013": {
-    "level": 70,
-    "item1": 21001,
-    "id": 9707013,
-    "item2_num": 0,
-    "weapon_ids": [
-      60163,
-      54015,
-      60163,
-      54015
-    ],
-    "pre_id": 9707012,
-    "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9707014,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-飛龍】強化/艦載機数+1/攻撃機補正+15%"
-  },
-  "9707023": {
-    "level": 70,
-    "item1": 21002,
-    "id": 9707023,
-    "item2_num": 0,
-    "weapon_ids": [
-      60103,
-      54015,
-      60103,
-      54015
-    ],
-    "pre_id": 9707022,
-    "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9707024,
-    "item2": 21002,
-    "repair": 0,
-    "breakout_view": "【炬火の力-アーク・ロイヤル】強化/攻撃機数＋1/攻撃機補正+7% "
-  },
-  "9702013": {
-    "level": 70,
-    "item1": 21003,
-    "id": 9702013,
-    "item2_num": 0,
-    "weapon_ids": [
-      79732
-    ],
-    "pre_id": 9702012,
-    "item1_num": 2,
-    "gold": 10000,
-    "breakout_id": 9702014,
-    "item2": 21001,
-    "repair": 0,
-    "breakout_view": "【炬火の力-ヘレナ】強化/主砲補正+15%"
-  },
-  "9707024": {
-    "level": 0,
-    "item1": 21002,
-    "id": 9707024,
-    "item2_num": 0,
-    "weapon_ids": [],
-    "pre_id": 9707023,
-    "item1_num": 0,
-    "gold": 0,
-    "breakout_id": 0,
-    "item2": 21002,
-    "repair": 0,
-    "breakout_view": "なし"
-  }
+  ]
 }
