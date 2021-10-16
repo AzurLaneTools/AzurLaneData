@@ -1,146 +1,141 @@
 {
   "1": {
+    "benefit_condition": "",
+    "benefit_effect": "5",
     "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高5%",
+    "hide": 0,
     "icon": "Props/haijungali",
     "id": 1,
-    "benefit_effect": "5",
-    "desc": "后宅经验加成提高5%",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "2": {
+    "benefit_condition": "",
+    "benefit_effect": "10",
     "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高10%",
+    "hide": 0,
     "icon": "Props/huangjialiaoli",
     "id": 2,
-    "benefit_effect": "10",
-    "desc": "后宅经验加成提高10%",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "3": {
+    "benefit_condition": "",
+    "benefit_effect": "20",
     "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高20%",
+    "hide": 0,
     "icon": "Props/manhanquanxi",
     "id": 3,
-    "benefit_effect": "20",
-    "desc": "后宅经验加成提高20%",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "4": {
-    "benefit_type": "rookie_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 4,
-    "benefit_effect": "100",
-    "desc": "指挥官等级小于60级时，在普通关卡、困难关卡、活动关卡、每日活动中获得的指挥官经验和角色经验提高100%",
     "benefit_condition": [
       "lv",
       "<",
       60
     ],
-    "max_time": 0,
+    "benefit_effect": "100",
+    "benefit_type": "rookie_battle_exp",
+    "desc": "指挥官等级小于60级时，在普通关卡、困难关卡、活动关卡、每日活动中获得的指挥官经验和角色经验提高100%",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 4,
+    "max_time": 0,
     "name": "经验加成"
   },
   "5": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "more_oil",
+    "desc": "普通关卡、困难关卡、活动关卡的油耗增加200%",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 5,
-    "benefit_effect": "100",
-    "desc": "普通关卡、困难关卡、活动关卡的油耗增加200%",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "石油消耗增加"
   },
   "6": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "user_battle_exp",
+    "desc": "普通关卡、困难关卡、活动关卡的指挥官经验获取提高200%",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 6,
-    "benefit_effect": "100",
-    "desc": "普通关卡、困难关卡、活动关卡的指挥官经验获取提高200%",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "指挥官经验加成"
   },
   "7": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "ship_battle_exp",
+    "desc": "普通关卡、困难关卡、活动关卡的角色经验获取提高200%",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 7,
-    "benefit_effect": "100",
-    "desc": "普通关卡、困难关卡、活动关卡的角色经验获取提高200%",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "舰娘经验加成"
   },
   "8": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "extra_drop",
+    "desc": "普通关卡、困难关卡、活动关卡额外掉落一次",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 8,
-    "benefit_effect": "1",
-    "desc": "普通关卡、困难关卡、活动关卡额外掉落一次",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "掉落加成"
   },
   "9": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "extra_activity_drop",
+    "desc": "活动掉落额外掉落一次，不与每日首次掉落叠加",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 9,
-    "benefit_effect": "1",
-    "desc": "活动掉落额外掉落一次，不与每日首次掉落叠加",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "活动掉落加成"
   },
   "10": {
+    "benefit_condition": "",
+    "benefit_effect": "300",
     "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间略微减少\n剩余时间:$1",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_10",
     "id": 10,
-    "benefit_effect": "300",
-    "desc": "战术学院技能学习时间略微减少\n剩余时间:$1",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "学业"
   },
   "11": {
+    "benefit_condition": "",
+    "benefit_effect": "504",
     "benefit_type": "battle_buff",
+    "desc": "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_11",
     "id": 11,
-    "benefit_effect": "504",
-    "desc": "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "事业"
   },
   "12": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "intimacy_up_extra",
+    "desc": "秘书舰好感度提高速度加快\n剩余时间:$1",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_12",
     "id": 12,
-    "benefit_effect": "1",
-    "desc": "秘书舰好感度提高速度加快\n剩余时间:$1",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "姻缘"
   },
   "13": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 13,
-    "benefit_effect": "3",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "benefit_condition": [
       "activity",
       4113,
@@ -149,16 +144,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 13,
+    "max_time": 0,
     "name": "舰娘经验加成1"
   },
   "14": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 14,
-    "benefit_effect": "4",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "benefit_condition": [
       "activity",
       4113,
@@ -167,16 +162,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 14,
+    "max_time": 0,
     "name": "舰娘经验加成2"
   },
   "15": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 15,
-    "benefit_effect": "5",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "benefit_condition": [
       "activity",
       4113,
@@ -185,16 +180,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 15,
+    "max_time": 0,
     "name": "舰娘经验加成3"
   },
   "16": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 16,
-    "benefit_effect": "500",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "benefit_condition": [
       "activity",
       4113,
@@ -203,16 +198,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 16,
+    "max_time": 0,
     "name": "战斗伤害加成1"
   },
   "17": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 17,
-    "benefit_effect": "502",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "benefit_condition": [
       "activity",
       4113,
@@ -221,16 +216,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 17,
+    "max_time": 0,
     "name": "战斗伤害加成2"
   },
   "18": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 18,
-    "benefit_effect": "504",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "benefit_condition": [
       "activity",
       4113,
@@ -239,16 +234,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 18,
+    "max_time": 0,
     "name": "战斗伤害加成3"
   },
   "19": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 19,
-    "benefit_effect": "300",
-    "desc": "战术学院技能学习时间减少3%",
     "benefit_condition": [
       "activity",
       4113,
@@ -257,16 +252,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少3%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 19,
+    "max_time": 0,
     "name": "战术学院学习时间缩短1"
   },
   "20": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 20,
-    "benefit_effect": "400",
-    "desc": "战术学院技能学习时间减少4%",
     "benefit_condition": [
       "activity",
       4113,
@@ -275,16 +270,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少4%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 20,
+    "max_time": 0,
     "name": "战术学院学习时间缩短2"
   },
   "21": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 21,
-    "benefit_effect": "500",
-    "desc": "战术学院技能学习时间减少5%",
     "benefit_condition": [
       "activity",
       4113,
@@ -293,16 +288,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少5%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 21,
+    "max_time": 0,
     "name": "战术学院学习时间缩短3"
   },
   "22": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 22,
-    "benefit_effect": "3",
-    "desc": "后宅经验加成提高3%",
     "benefit_condition": [
       "activity",
       4113,
@@ -311,16 +306,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高3%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 22,
+    "max_time": 0,
     "name": "后宅经验加成1"
   },
   "23": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 23,
-    "benefit_effect": "4",
-    "desc": "后宅经验加成提高4%",
     "benefit_condition": [
       "activity",
       4113,
@@ -329,16 +324,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高4%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 23,
+    "max_time": 0,
     "name": "后宅经验加成2"
   },
   "24": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 24,
-    "benefit_effect": "5",
-    "desc": "后宅经验加成提高5%",
     "benefit_condition": [
       "activity",
       4113,
@@ -347,356 +342,361 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高5%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 24,
+    "max_time": 0,
     "name": "后宅经验加成3"
   },
   "25": {
+    "benefit_condition": "",
+    "benefit_effect": "0",
     "benefit_type": "urpt_drop_up",
+    "desc": "通过「蝶海梦花」活动关卡获得的特装原型数量翻倍",
+    "hide": 0,
     "icon": "Props/buff_urptup",
     "id": 25,
-    "benefit_effect": "0",
-    "desc": "通过「蝶海梦花」活动关卡获得的特装原型数量翻倍",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "活动关卡特装原型掉落加成"
   },
   "26": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli1",
-    "id": 26,
-    "benefit_effect": "500",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 26,
+    "max_time": 0,
     "name": "演唱力 "
   },
   "27": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli2",
-    "id": 27,
-    "benefit_effect": "502",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 27,
+    "max_time": 0,
     "name": "演唱力 "
   },
   "28": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "id": 28,
-    "benefit_effect": "504",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 28,
+    "max_time": 0,
     "name": "演唱力 "
   },
   "29": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli1",
-    "id": 29,
-    "benefit_effect": "510",
-    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少1%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "510",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少1%",
     "hide": 0,
+    "icon": "Props/wudaoli1",
+    "id": 29,
+    "max_time": 0,
     "name": "舞蹈力 "
   },
   "30": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli2",
-    "id": 30,
-    "benefit_effect": "512",
-    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少2%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "512",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少2%",
     "hide": 0,
+    "icon": "Props/wudaoli2",
+    "id": 30,
+    "max_time": 0,
     "name": "舞蹈力 "
   },
   "31": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli3",
-    "id": 31,
-    "benefit_effect": "514",
-    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少3%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "514",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，受到的伤害减少3%",
     "hide": 0,
+    "icon": "Props/wudaoli3",
+    "id": 31,
+    "max_time": 0,
     "name": "舞蹈力 "
   },
   "32": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "id": 32,
-    "benefit_effect": "3",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 32,
+    "max_time": 0,
     "name": "表演力 "
   },
   "33": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "id": 33,
-    "benefit_effect": "4",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 33,
+    "max_time": 0,
     "name": "表演力 "
   },
   "34": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "id": 34,
-    "benefit_effect": "5",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "benefit_condition": [
       "activity",
       753,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 34,
+    "max_time": 0,
     "name": "表演力 "
   },
   "35": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli1",
-    "id": 35,
-    "benefit_effect": "500",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
     "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 35,
+    "max_time": 0,
     "name": "<color=#ff5c5c>力量</color>LV.1："
   },
   "36": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli2",
-    "id": 36,
-    "benefit_effect": "502",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
     "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 36,
+    "max_time": 0,
     "name": "<color=#ff5c5c>力量</color>LV.2："
   },
   "37": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "id": 37,
-    "benefit_effect": "504",
-    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
     "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 37,
+    "max_time": 0,
     "name": "<color=#ff5c5c>力量</color>MAX："
   },
   "38": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 38,
-    "benefit_effect": "300",
-    "desc": "战术学院技能学习时间减少3%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少3%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 38,
+    "max_time": 0,
     "name": "<color=#00BFFF>技巧</color>LV.1："
   },
   "39": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 39,
-    "benefit_effect": "400",
-    "desc": "战术学院技能学习时间减少4%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少4%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 39,
+    "max_time": 0,
     "name": "<color=#00BFFF>技巧</color>LV.2："
   },
   "40": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 40,
-    "benefit_effect": "500",
-    "desc": "战术学院技能学习时间减少5%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "战术学院技能学习时间减少5%",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 40,
+    "max_time": 0,
     "name": "<color=#00BFFF>技巧</color>MAX："
   },
   "41": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "id": 41,
-    "benefit_effect": "3",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
     "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 41,
+    "max_time": 0,
     "name": "<color=#ffde38>体力</color>LV.1："
   },
   "42": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "id": 42,
-    "benefit_effect": "4",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
     "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 42,
+    "max_time": 0,
     "name": "<color=#ffde38>体力</color>LV.2："
   },
   "43": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "id": 43,
-    "benefit_effect": "5",
-    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
     "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 43,
+    "max_time": 0,
     "name": "<color=#ffde38>体力</color>MAX："
   },
   "44": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 44,
-    "benefit_effect": "3",
-    "desc": "后宅经验加成提高3%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高3%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 44,
+    "max_time": 0,
     "name": "<color=#FF69B4>魅力</color>LV.1："
   },
   "45": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 45,
-    "benefit_effect": "4",
-    "desc": "后宅经验加成提高4%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高4%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 45,
+    "max_time": 0,
     "name": "<color=#FF69B4>魅力</color>LV.2："
   },
   "46": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 46,
-    "benefit_effect": "5",
-    "desc": "后宅经验加成提高5%",
     "benefit_condition": [
       "activity",
       779,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "后宅经验加成提高5%",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 46,
+    "max_time": 0,
     "name": "<color=#FF69B4>魅力</color>MAX："
   },
   "47": {
+    "benefit_condition": "61001",
+    "benefit_effect": "0",
     "benefit_type": "desc",
+    "desc": "消耗2倍石油\n结算收益2倍",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 47,
-    "benefit_effect": "0",
-    "desc": "消耗2倍石油\n结算收益2倍",
-    "benefit_condition": "61001",
     "max_time": 0,
-    "hide": 0,
     "name": "特殊作战加成描述"
   },
   "48": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "chapter_up",
+    "desc": "好感度、心情值、指挥官经验、指挥喵经验、舰船经验加成",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 48,
-    "benefit_effect": "100",
-    "desc": "好感度、心情值、指挥官经验、指挥喵经验、舰船经验加成",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "特殊作战加成"
   },
   "all": [

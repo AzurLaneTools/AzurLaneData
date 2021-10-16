@@ -1,120 +1,606 @@
 {
-  "100028": {
-    "story": "WORLD202A",
-    "condition": "开始第二章-第三节",
-    "icon": "memory_dashijie",
-    "id": 100028,
-    "mask": "bg/bg_memory",
-    "name": "外围清扫",
-    "group_ID": 4
-  },
-  "100063": {
-    "story": "WORLD404D",
-    "condition": "前往第三个探索点",
-    "icon": "memory_dashijie",
-    "id": 100063,
-    "mask": "bg/bg_memory",
-    "name": "替代品",
-    "group_ID": 11
-  },
-  "100032": {
-    "story": "WORLD203C",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100032,
-    "mask": "bg/bg_memory",
-    "name": "残影",
-    "group_ID": 8
-  },
   "100001": {
-    "story": "WORLD100A",
     "condition": "开始「大型作战」",
+    "group_ID": 1,
     "icon": "memory_dashijie",
     "id": 100001,
     "mask": "bg/bg_memory",
     "name": "作战简报",
-    "group_ID": 1
+    "story": "WORLD100A"
   },
-  "100036": {
-    "story": "WORLD205B",
-    "condition": "击败所有敌人",
+  "100002": {
+    "condition": "开始第一章-序幕",
+    "group_ID": 2,
     "icon": "memory_dashijie",
-    "id": 100036,
+    "id": 100002,
     "mask": "bg/bg_memory",
-    "name": "练手",
-    "group_ID": 12
+    "name": "序幕I",
+    "story": "GWORLD101A"
+  },
+  "100003": {
+    "condition": "遭遇大黄蜂",
+    "group_ID": 3,
+    "icon": "memory_dashijie",
+    "id": 100003,
+    "mask": "bg/bg_memory",
+    "name": "序幕II",
+    "story": "GWORLD101B"
+  },
+  "100004": {
+    "condition": "击败大黄蜂",
+    "group_ID": 4,
+    "icon": "memory_dashijie",
+    "id": 100004,
+    "mask": "bg/bg_memory",
+    "name": "序幕III",
+    "story": "GWORLD101C"
   },
   "100005": {
-    "story": "GWORLD101D",
     "condition": "成功撤离战斗后",
+    "group_ID": 5,
     "icon": "memory_dashijie",
     "id": 100005,
     "mask": "bg/bg_memory",
     "name": "序幕IV",
-    "group_ID": 5
+    "story": "GWORLD101D"
   },
-  "100071": {
-    "story": "WORLD9901A",
-    "condition": "前往第一章-第六节第二个探索点",
+  "100006": {
+    "condition": "进入演习海域内的NY港",
+    "group_ID": 6,
     "icon": "memory_dashijie",
-    "id": 100071,
+    "id": 100006,
     "mask": "bg/bg_memory",
-    "name": "DMRECX074：META",
-    "group_ID": 1
+    "name": "号响",
+    "story": "WORLD102A"
   },
-  "100040": {
-    "story": "WORLD300B",
+  "100007": {
+    "condition": "开始第一章-第二节",
+    "group_ID": 7,
+    "icon": "memory_dashijie",
+    "id": 100007,
+    "mask": "bg/bg_memory",
+    "name": "似曾相识",
+    "story": "WORLD105A"
+  },
+  "100008": {
     "condition": "前往第一个探索点",
+    "group_ID": 8,
     "icon": "memory_dashijie",
-    "id": 100040,
+    "id": 100008,
     "mask": "bg/bg_memory",
-    "name": "TB系统测试",
-    "group_ID": 2
+    "name": "TB系统",
+    "story": "WORLD105B"
   },
   "100009": {
-    "story": "WORLD105C",
     "condition": "击败一区域所有敌人",
+    "group_ID": 9,
     "icon": "memory_dashijie",
     "id": 100009,
     "mask": "bg/bg_memory",
     "name": "回忆",
-    "group_ID": 9
+    "story": "WORLD105C"
   },
-  "100044": {
-    "story": "WORLD303A",
-    "condition": "开始第三章-第四节",
+  "100010": {
+    "condition": "击败二区域所有敌人",
+    "group_ID": 10,
     "icon": "memory_dashijie",
-    "id": 100044,
+    "id": 100010,
     "mask": "bg/bg_memory",
-    "name": "救援",
-    "group_ID": 6
+    "name": "火光",
+    "story": "WORLD105D"
+  },
+  "100011": {
+    "condition": "前往第二个探索点",
+    "group_ID": 11,
+    "icon": "memory_dashijie",
+    "id": 100011,
+    "mask": "bg/bg_memory",
+    "name": "另一个神秘人",
+    "story": "WORLD105E"
+  },
+  "100012": {
+    "condition": "开始第一章-第三节",
+    "group_ID": 12,
+    "icon": "memory_dashijie",
+    "id": 100012,
+    "mask": "bg/bg_memory",
+    "name": "敌人的敌人",
+    "story": "WORLD106A"
   },
   "100013": {
-    "story": "WORLD106B",
     "condition": "前往第一个探索点",
+    "group_ID": 13,
     "icon": "memory_dashijie",
     "id": 100013,
     "mask": "bg/bg_memory",
     "name": "探索I",
-    "group_ID": 13
+    "story": "WORLD106B"
   },
-  "100048": {
-    "story": "WORLD304C",
+  "100014": {
     "condition": "前往第二个探索点",
+    "group_ID": 14,
     "icon": "memory_dashijie",
-    "id": 100048,
+    "id": 100014,
     "mask": "bg/bg_memory",
-    "name": "仲裁机关",
-    "group_ID": 10
+    "name": "探索II",
+    "story": "WORLD106C"
+  },
+  "100015": {
+    "condition": "前往第三个探索点",
+    "group_ID": 15,
+    "icon": "memory_dashijie",
+    "id": 100015,
+    "mask": "bg/bg_memory",
+    "name": "探索III",
+    "story": "WORLD106D"
+  },
+  "100016": {
+    "condition": "击败所有敌人",
+    "group_ID": 16,
+    "icon": "memory_dashijie",
+    "id": 100016,
+    "mask": "bg/bg_memory",
+    "name": "阶段性进展",
+    "story": "WORLD106E"
   },
   "100017": {
-    "story": "WORLD107A",
     "condition": "开始第一章-第四节",
+    "group_ID": 17,
     "icon": "memory_dashijie",
     "id": 100017,
     "mask": "bg/bg_memory",
     "name": "阶段性进展",
-    "group_ID": 17
+    "story": "WORLD107A"
+  },
+  "100018": {
+    "condition": "击败五队敌人",
+    "group_ID": 18,
+    "icon": "memory_dashijie",
+    "id": 100018,
+    "mask": "bg/bg_memory",
+    "name": "赤色舰队",
+    "story": "WORLD107B"
+  },
+  "100019": {
+    "condition": "前往第一章-第五节第一个探索点",
+    "group_ID": 19,
+    "icon": "memory_dashijie",
+    "id": 100019,
+    "mask": "bg/bg_memory",
+    "name": "通讯",
+    "story": "WORLD108A"
+  },
+  "100020": {
+    "condition": "前往第二个探索点",
+    "group_ID": 20,
+    "icon": "memory_dashijie",
+    "id": 100020,
+    "mask": "bg/bg_memory",
+    "name": "空战",
+    "story": "WORLD108B"
+  },
+  "100021": {
+    "condition": "击败铁血主力舰队",
+    "group_ID": 21,
+    "icon": "memory_dashijie",
+    "id": 100021,
+    "mask": "bg/bg_memory",
+    "name": "停火",
+    "story": "WORLD108C"
+  },
+  "100022": {
+    "condition": "前往第一章-第六节第一个探索点",
+    "group_ID": 22,
+    "icon": "memory_dashijie",
+    "id": 100022,
+    "mask": "bg/bg_memory",
+    "name": "准备工作",
+    "story": "WORLD109A"
+  },
+  "100023": {
+    "condition": "前往第三个探索点",
+    "group_ID": 23,
+    "icon": "memory_dashijie",
+    "id": 100023,
+    "mask": "bg/bg_memory",
+    "name": "准备完成",
+    "story": "WORLD109B"
+  },
+  "100024": {
+    "condition": "解锁「信标·META」系统",
+    "group_ID": 24,
+    "icon": "memory_dashijie",
+    "id": 100024,
+    "mask": "bg/bg_memory",
+    "name": "信标·META",
+    "story": "GWORLD109A"
+  },
+  "100025": {
+    "condition": "进入第二章-第一节内的利维浦港",
+    "group_ID": 1,
+    "icon": "memory_dashijie",
+    "id": 100025,
+    "mask": "bg/bg_memory",
+    "name": "女王的职责",
+    "story": "WORLD200A"
+  },
+  "100026": {
+    "condition": "前往第一个探索点",
+    "group_ID": 2,
+    "icon": "memory_dashijie",
+    "id": 100026,
+    "mask": "bg/bg_memory",
+    "name": "集结",
+    "story": "WORLD200B"
+  },
+  "100027": {
+    "condition": "前往第二章-第二节第一个探索点",
+    "group_ID": 3,
+    "icon": "memory_dashijie",
+    "id": 100027,
+    "mask": "bg/bg_memory",
+    "name": "并肩作战",
+    "story": "WORLD201A"
+  },
+  "100028": {
+    "condition": "开始第二章-第三节",
+    "group_ID": 4,
+    "icon": "memory_dashijie",
+    "id": 100028,
+    "mask": "bg/bg_memory",
+    "name": "外围清扫",
+    "story": "WORLD202A"
+  },
+  "100029": {
+    "condition": "击败所有敌人",
+    "group_ID": 5,
+    "icon": "memory_dashijie",
+    "id": 100029,
+    "mask": "bg/bg_memory",
+    "name": "求援信号",
+    "story": "WORLD202B"
+  },
+  "100030": {
+    "condition": "开始第二章-第四节",
+    "group_ID": 6,
+    "icon": "memory_dashijie",
+    "id": 100030,
+    "mask": "bg/bg_memory",
+    "name": "遇难地点",
+    "story": "WORLD203A"
+  },
+  "100031": {
+    "condition": "前往第一个探索点",
+    "group_ID": 7,
+    "icon": "memory_dashijie",
+    "id": 100031,
+    "mask": "bg/bg_memory",
+    "name": "残骸",
+    "story": "WORLD203B"
+  },
+  "100032": {
+    "condition": "前往第二个探索点",
+    "group_ID": 8,
+    "icon": "memory_dashijie",
+    "id": 100032,
+    "mask": "bg/bg_memory",
+    "name": "残影",
+    "story": "WORLD203C"
+  },
+  "100033": {
+    "condition": "前往第三个探索点",
+    "group_ID": 9,
+    "icon": "memory_dashijie",
+    "id": 100033,
+    "mask": "bg/bg_memory",
+    "name": "科研任务",
+    "story": "WORLD203D"
+  },
+  "100034": {
+    "condition": "前往第二章-第五节第一个探索点",
+    "group_ID": 10,
+    "icon": "memory_dashijie",
+    "id": 100034,
+    "mask": "bg/bg_memory",
+    "name": "女王的联络",
+    "story": "WORLD204A"
+  },
+  "100035": {
+    "condition": "开始第二章-第六节",
+    "group_ID": 11,
+    "icon": "memory_dashijie",
+    "id": 100035,
+    "mask": "bg/bg_memory",
+    "name": "重力异常",
+    "story": "WORLD205A"
+  },
+  "100036": {
+    "condition": "击败所有敌人",
+    "group_ID": 12,
+    "icon": "memory_dashijie",
+    "id": 100036,
+    "mask": "bg/bg_memory",
+    "name": "练手",
+    "story": "WORLD205B"
+  },
+  "100037": {
+    "condition": "击败第二章-第六节内的敌方特殊单位",
+    "group_ID": 13,
+    "icon": "memory_dashijie",
+    "id": 100037,
+    "mask": "bg/bg_memory",
+    "name": "强敌登场",
+    "story": "WORLD205C"
+  },
+  "100038": {
+    "condition": "击败敌方特殊单位",
+    "group_ID": 14,
+    "icon": "memory_dashijie",
+    "id": 100038,
+    "mask": "bg/bg_memory",
+    "name": "第二座前哨",
+    "story": "WORLD205D"
+  },
+  "100039": {
+    "condition": "进入第三章-第一节内的港口",
+    "group_ID": 1,
+    "icon": "memory_dashijie",
+    "id": 100039,
+    "mask": "bg/bg_memory",
+    "name": "另一处攻击",
+    "story": "WORLD300A"
+  },
+  "100040": {
+    "condition": "前往第一个探索点",
+    "group_ID": 2,
+    "icon": "memory_dashijie",
+    "id": 100040,
+    "mask": "bg/bg_memory",
+    "name": "TB系统测试",
+    "story": "WORLD300B"
+  },
+  "100041": {
+    "condition": "前往第三章-第二节第一个探索点",
+    "group_ID": 3,
+    "icon": "memory_dashijie",
+    "id": 100041,
+    "mask": "bg/bg_memory",
+    "name": "铁血的动向",
+    "story": "WORLD301A"
+  },
+  "100042": {
+    "condition": "前往第三章-第三节第一个探索点",
+    "group_ID": 4,
+    "icon": "memory_dashijie",
+    "id": 100042,
+    "mask": "bg/bg_memory",
+    "name": "友方信号",
+    "story": "WORLD302A"
+  },
+  "100043": {
+    "condition": "前往第二个探索点",
+    "group_ID": 5,
+    "icon": "memory_dashijie",
+    "id": 100043,
+    "mask": "bg/bg_memory",
+    "name": "干扰",
+    "story": "WORLD302B"
+  },
+  "100044": {
+    "condition": "开始第三章-第四节",
+    "group_ID": 6,
+    "icon": "memory_dashijie",
+    "id": 100044,
+    "mask": "bg/bg_memory",
+    "name": "救援",
+    "story": "WORLD303A"
+  },
+  "100045": {
+    "condition": "前往第一个探索点",
+    "group_ID": 7,
+    "icon": "memory_dashijie",
+    "id": 100045,
+    "mask": "bg/bg_memory",
+    "name": "疑惑",
+    "story": "WORLD303B"
+  },
+  "100046": {
+    "condition": "开始第三章-第五节",
+    "group_ID": 8,
+    "icon": "memory_dashijie",
+    "id": 100046,
+    "mask": "bg/bg_memory",
+    "name": "分散计划",
+    "story": "WORLD304A"
+  },
+  "100047": {
+    "condition": "前往第一个探索点",
+    "group_ID": 9,
+    "icon": "memory_dashijie",
+    "id": 100047,
+    "mask": "bg/bg_memory",
+    "name": "残影",
+    "story": "WORLD304B"
+  },
+  "100048": {
+    "condition": "前往第二个探索点",
+    "group_ID": 10,
+    "icon": "memory_dashijie",
+    "id": 100048,
+    "mask": "bg/bg_memory",
+    "name": "仲裁机关",
+    "story": "WORLD304C"
+  },
+  "100049": {
+    "condition": "击败所有敌人",
+    "group_ID": 11,
+    "icon": "memory_dashijie",
+    "id": 100049,
+    "mask": "bg/bg_memory",
+    "name": "增援",
+    "story": "WORLD304D"
+  },
+  "100050": {
+    "condition": "击败敌方特殊单位",
+    "group_ID": 12,
+    "icon": "memory_dashijie",
+    "id": 100050,
+    "mask": "bg/bg_memory",
+    "name": "滴水不漏",
+    "story": "WORLD304E"
+  },
+  "100051": {
+    "condition": "开始第三章-第六节",
+    "group_ID": 13,
+    "icon": "memory_dashijie",
+    "id": 100051,
+    "mask": "bg/bg_memory",
+    "name": "一鼓作气",
+    "story": "WORLD305A"
+  },
+  "100052": {
+    "condition": "前往第一个探索点",
+    "group_ID": 14,
+    "icon": "memory_dashijie",
+    "id": 100052,
+    "mask": "bg/bg_memory",
+    "name": "修整",
+    "story": "WORLD305B"
+  },
+  "100053": {
+    "condition": "前往第四章-第一节第一个探索点",
+    "group_ID": 1,
+    "icon": "memory_dashijie",
+    "id": 100053,
+    "mask": "bg/bg_memory",
+    "name": "初临陆间海",
+    "story": "WORLD400A"
+  },
+  "100054": {
+    "condition": "前往第二个探索点",
+    "group_ID": 2,
+    "icon": "memory_dashijie",
+    "id": 100054,
+    "mask": "bg/bg_memory",
+    "name": "撒丁舰队",
+    "story": "WORLD400B"
+  },
+  "100055": {
+    "condition": "开始第四章-第二节",
+    "group_ID": 3,
+    "icon": "memory_dashijie",
+    "id": 100055,
+    "mask": "bg/bg_memory",
+    "name": "塔兰托港",
+    "story": "WORLD401A"
+  },
+  "100056": {
+    "condition": "前往第一个探索点",
+    "group_ID": 4,
+    "icon": "memory_dashijie",
+    "id": 100056,
+    "mask": "bg/bg_memory",
+    "name": "中途离席",
+    "story": "WORLD401B"
+  },
+  "100057": {
+    "condition": "开始第四章-第三节",
+    "group_ID": 5,
+    "icon": "memory_dashijie",
+    "id": 100057,
+    "mask": "bg/bg_memory",
+    "name": "达喀尔港",
+    "story": "WORLD402A"
+  },
+  "100058": {
+    "condition": "前往第一个探索点",
+    "group_ID": 6,
+    "icon": "memory_dashijie",
+    "id": 100058,
+    "mask": "bg/bg_memory",
+    "name": "单独行动",
+    "story": "WORLD402B"
+  },
+  "100059": {
+    "condition": "击败第四章-第四节所有敌人",
+    "group_ID": 7,
+    "icon": "memory_dashijie",
+    "id": 100059,
+    "mask": "bg/bg_memory",
+    "name": "疑惑",
+    "story": "WORLD403A"
+  },
+  "100060": {
+    "condition": "开始第四章-第五节",
+    "group_ID": 8,
+    "icon": "memory_dashijie",
+    "id": 100060,
+    "mask": "bg/bg_memory",
+    "name": "突击",
+    "story": "WORLD404A"
+  },
+  "100061": {
+    "condition": "前往第一个探索点",
+    "group_ID": 9,
+    "icon": "memory_dashijie",
+    "id": 100061,
+    "mask": "bg/bg_memory",
+    "name": "异样",
+    "story": "WORLD404B"
+  },
+  "100062": {
+    "condition": "前往第二个探索点",
+    "group_ID": 10,
+    "icon": "memory_dashijie",
+    "id": 100062,
+    "mask": "bg/bg_memory",
+    "name": "AF作战",
+    "story": "WORLD404C"
+  },
+  "100063": {
+    "condition": "前往第三个探索点",
+    "group_ID": 11,
+    "icon": "memory_dashijie",
+    "id": 100063,
+    "mask": "bg/bg_memory",
+    "name": "替代品",
+    "story": "WORLD404D"
+  },
+  "100064": {
+    "condition": "前往第四章-第六节第一个探索点",
+    "group_ID": 12,
+    "icon": "memory_dashijie",
+    "id": 100064,
+    "mask": "bg/bg_memory",
+    "name": "军师的传承",
+    "story": "WORLD405A"
+  },
+  "100065": {
+    "condition": "击败所有敌人",
+    "group_ID": 13,
+    "icon": "memory_dashijie",
+    "id": 100065,
+    "mask": "bg/bg_memory",
+    "name": "敌影",
+    "story": "WORLD405B"
+  },
+  "100066": {
+    "condition": "击败敌方特殊单位",
+    "group_ID": 14,
+    "icon": "memory_dashijie",
+    "id": 100066,
+    "mask": "bg/bg_memory",
+    "name": "修整",
+    "story": "WORLD405C"
+  },
+  "100071": {
+    "condition": "前往第一章-第六节第二个探索点",
+    "group_ID": 1,
+    "icon": "memory_dashijie",
+    "id": 100071,
+    "mask": "bg/bg_memory",
+    "name": "DMRECX074：META",
+    "story": "WORLD9901A"
   },
   "all": [
     100001,
@@ -184,491 +670,5 @@
     100065,
     100066,
     100071
-  ],
-  "100052": {
-    "story": "WORLD305B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100052,
-    "mask": "bg/bg_memory",
-    "name": "修整",
-    "group_ID": 14
-  },
-  "100021": {
-    "story": "WORLD108C",
-    "condition": "击败铁血主力舰队",
-    "icon": "memory_dashijie",
-    "id": 100021,
-    "mask": "bg/bg_memory",
-    "name": "停火",
-    "group_ID": 21
-  },
-  "100056": {
-    "story": "WORLD401B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100056,
-    "mask": "bg/bg_memory",
-    "name": "中途离席",
-    "group_ID": 4
-  },
-  "100025": {
-    "story": "WORLD200A",
-    "condition": "进入第二章-第一节内的利维浦港",
-    "icon": "memory_dashijie",
-    "id": 100025,
-    "mask": "bg/bg_memory",
-    "name": "女王的职责",
-    "group_ID": 1
-  },
-  "100060": {
-    "story": "WORLD404A",
-    "condition": "开始第四章-第五节",
-    "icon": "memory_dashijie",
-    "id": 100060,
-    "mask": "bg/bg_memory",
-    "name": "突击",
-    "group_ID": 8
-  },
-  "100029": {
-    "story": "WORLD202B",
-    "condition": "击败所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100029,
-    "mask": "bg/bg_memory",
-    "name": "求援信号",
-    "group_ID": 5
-  },
-  "100064": {
-    "story": "WORLD405A",
-    "condition": "前往第四章-第六节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100064,
-    "mask": "bg/bg_memory",
-    "name": "军师的传承",
-    "group_ID": 12
-  },
-  "100033": {
-    "story": "WORLD203D",
-    "condition": "前往第三个探索点",
-    "icon": "memory_dashijie",
-    "id": 100033,
-    "mask": "bg/bg_memory",
-    "name": "科研任务",
-    "group_ID": 9
-  },
-  "100002": {
-    "story": "GWORLD101A",
-    "condition": "开始第一章-序幕",
-    "icon": "memory_dashijie",
-    "id": 100002,
-    "mask": "bg/bg_memory",
-    "name": "序幕I",
-    "group_ID": 2
-  },
-  "100037": {
-    "story": "WORLD205C",
-    "condition": "击败第二章-第六节内的敌方特殊单位",
-    "icon": "memory_dashijie",
-    "id": 100037,
-    "mask": "bg/bg_memory",
-    "name": "强敌登场",
-    "group_ID": 13
-  },
-  "100006": {
-    "story": "WORLD102A",
-    "condition": "进入演习海域内的NY港",
-    "icon": "memory_dashijie",
-    "id": 100006,
-    "mask": "bg/bg_memory",
-    "name": "号响",
-    "group_ID": 6
-  },
-  "100041": {
-    "story": "WORLD301A",
-    "condition": "前往第三章-第二节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100041,
-    "mask": "bg/bg_memory",
-    "name": "铁血的动向",
-    "group_ID": 3
-  },
-  "100010": {
-    "story": "WORLD105D",
-    "condition": "击败二区域所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100010,
-    "mask": "bg/bg_memory",
-    "name": "火光",
-    "group_ID": 10
-  },
-  "100045": {
-    "story": "WORLD303B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100045,
-    "mask": "bg/bg_memory",
-    "name": "疑惑",
-    "group_ID": 7
-  },
-  "100014": {
-    "story": "WORLD106C",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100014,
-    "mask": "bg/bg_memory",
-    "name": "探索II",
-    "group_ID": 14
-  },
-  "100049": {
-    "story": "WORLD304D",
-    "condition": "击败所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100049,
-    "mask": "bg/bg_memory",
-    "name": "增援",
-    "group_ID": 11
-  },
-  "100018": {
-    "story": "WORLD107B",
-    "condition": "击败五队敌人",
-    "icon": "memory_dashijie",
-    "id": 100018,
-    "mask": "bg/bg_memory",
-    "name": "赤色舰队",
-    "group_ID": 18
-  },
-  "100053": {
-    "story": "WORLD400A",
-    "condition": "前往第四章-第一节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100053,
-    "mask": "bg/bg_memory",
-    "name": "初临陆间海",
-    "group_ID": 1
-  },
-  "100022": {
-    "story": "WORLD109A",
-    "condition": "前往第一章-第六节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100022,
-    "mask": "bg/bg_memory",
-    "name": "准备工作",
-    "group_ID": 22
-  },
-  "100057": {
-    "story": "WORLD402A",
-    "condition": "开始第四章-第三节",
-    "icon": "memory_dashijie",
-    "id": 100057,
-    "mask": "bg/bg_memory",
-    "name": "达喀尔港",
-    "group_ID": 5
-  },
-  "100026": {
-    "story": "WORLD200B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100026,
-    "mask": "bg/bg_memory",
-    "name": "集结",
-    "group_ID": 2
-  },
-  "100061": {
-    "story": "WORLD404B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100061,
-    "mask": "bg/bg_memory",
-    "name": "异样",
-    "group_ID": 9
-  },
-  "100030": {
-    "story": "WORLD203A",
-    "condition": "开始第二章-第四节",
-    "icon": "memory_dashijie",
-    "id": 100030,
-    "mask": "bg/bg_memory",
-    "name": "遇难地点",
-    "group_ID": 6
-  },
-  "100065": {
-    "story": "WORLD405B",
-    "condition": "击败所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100065,
-    "mask": "bg/bg_memory",
-    "name": "敌影",
-    "group_ID": 13
-  },
-  "100034": {
-    "story": "WORLD204A",
-    "condition": "前往第二章-第五节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100034,
-    "mask": "bg/bg_memory",
-    "name": "女王的联络",
-    "group_ID": 10
-  },
-  "100003": {
-    "story": "GWORLD101B",
-    "condition": "遭遇大黄蜂",
-    "icon": "memory_dashijie",
-    "id": 100003,
-    "mask": "bg/bg_memory",
-    "name": "序幕II",
-    "group_ID": 3
-  },
-  "100038": {
-    "story": "WORLD205D",
-    "condition": "击败敌方特殊单位",
-    "icon": "memory_dashijie",
-    "id": 100038,
-    "mask": "bg/bg_memory",
-    "name": "第二座前哨",
-    "group_ID": 14
-  },
-  "100007": {
-    "story": "WORLD105A",
-    "condition": "开始第一章-第二节",
-    "icon": "memory_dashijie",
-    "id": 100007,
-    "mask": "bg/bg_memory",
-    "name": "似曾相识",
-    "group_ID": 7
-  },
-  "100042": {
-    "story": "WORLD302A",
-    "condition": "前往第三章-第三节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100042,
-    "mask": "bg/bg_memory",
-    "name": "友方信号",
-    "group_ID": 4
-  },
-  "100011": {
-    "story": "WORLD105E",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100011,
-    "mask": "bg/bg_memory",
-    "name": "另一个神秘人",
-    "group_ID": 11
-  },
-  "100046": {
-    "story": "WORLD304A",
-    "condition": "开始第三章-第五节",
-    "icon": "memory_dashijie",
-    "id": 100046,
-    "mask": "bg/bg_memory",
-    "name": "分散计划",
-    "group_ID": 8
-  },
-  "100015": {
-    "story": "WORLD106D",
-    "condition": "前往第三个探索点",
-    "icon": "memory_dashijie",
-    "id": 100015,
-    "mask": "bg/bg_memory",
-    "name": "探索III",
-    "group_ID": 15
-  },
-  "100050": {
-    "story": "WORLD304E",
-    "condition": "击败敌方特殊单位",
-    "icon": "memory_dashijie",
-    "id": 100050,
-    "mask": "bg/bg_memory",
-    "name": "滴水不漏",
-    "group_ID": 12
-  },
-  "100019": {
-    "story": "WORLD108A",
-    "condition": "前往第一章-第五节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100019,
-    "mask": "bg/bg_memory",
-    "name": "通讯",
-    "group_ID": 19
-  },
-  "100054": {
-    "story": "WORLD400B",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100054,
-    "mask": "bg/bg_memory",
-    "name": "撒丁舰队",
-    "group_ID": 2
-  },
-  "100023": {
-    "story": "WORLD109B",
-    "condition": "前往第三个探索点",
-    "icon": "memory_dashijie",
-    "id": 100023,
-    "mask": "bg/bg_memory",
-    "name": "准备完成",
-    "group_ID": 23
-  },
-  "100058": {
-    "story": "WORLD402B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100058,
-    "mask": "bg/bg_memory",
-    "name": "单独行动",
-    "group_ID": 6
-  },
-  "100027": {
-    "story": "WORLD201A",
-    "condition": "前往第二章-第二节第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100027,
-    "mask": "bg/bg_memory",
-    "name": "并肩作战",
-    "group_ID": 3
-  },
-  "100062": {
-    "story": "WORLD404C",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100062,
-    "mask": "bg/bg_memory",
-    "name": "AF作战",
-    "group_ID": 10
-  },
-  "100031": {
-    "story": "WORLD203B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100031,
-    "mask": "bg/bg_memory",
-    "name": "残骸",
-    "group_ID": 7
-  },
-  "100066": {
-    "story": "WORLD405C",
-    "condition": "击败敌方特殊单位",
-    "icon": "memory_dashijie",
-    "id": 100066,
-    "mask": "bg/bg_memory",
-    "name": "修整",
-    "group_ID": 14
-  },
-  "100035": {
-    "story": "WORLD205A",
-    "condition": "开始第二章-第六节",
-    "icon": "memory_dashijie",
-    "id": 100035,
-    "mask": "bg/bg_memory",
-    "name": "重力异常",
-    "group_ID": 11
-  },
-  "100004": {
-    "story": "GWORLD101C",
-    "condition": "击败大黄蜂",
-    "icon": "memory_dashijie",
-    "id": 100004,
-    "mask": "bg/bg_memory",
-    "name": "序幕III",
-    "group_ID": 4
-  },
-  "100039": {
-    "story": "WORLD300A",
-    "condition": "进入第三章-第一节内的港口",
-    "icon": "memory_dashijie",
-    "id": 100039,
-    "mask": "bg/bg_memory",
-    "name": "另一处攻击",
-    "group_ID": 1
-  },
-  "100008": {
-    "story": "WORLD105B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100008,
-    "mask": "bg/bg_memory",
-    "name": "TB系统",
-    "group_ID": 8
-  },
-  "100043": {
-    "story": "WORLD302B",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100043,
-    "mask": "bg/bg_memory",
-    "name": "干扰",
-    "group_ID": 5
-  },
-  "100012": {
-    "story": "WORLD106A",
-    "condition": "开始第一章-第三节",
-    "icon": "memory_dashijie",
-    "id": 100012,
-    "mask": "bg/bg_memory",
-    "name": "敌人的敌人",
-    "group_ID": 12
-  },
-  "100047": {
-    "story": "WORLD304B",
-    "condition": "前往第一个探索点",
-    "icon": "memory_dashijie",
-    "id": 100047,
-    "mask": "bg/bg_memory",
-    "name": "残影",
-    "group_ID": 9
-  },
-  "100016": {
-    "story": "WORLD106E",
-    "condition": "击败所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100016,
-    "mask": "bg/bg_memory",
-    "name": "阶段性进展",
-    "group_ID": 16
-  },
-  "100051": {
-    "story": "WORLD305A",
-    "condition": "开始第三章-第六节",
-    "icon": "memory_dashijie",
-    "id": 100051,
-    "mask": "bg/bg_memory",
-    "name": "一鼓作气",
-    "group_ID": 13
-  },
-  "100020": {
-    "story": "WORLD108B",
-    "condition": "前往第二个探索点",
-    "icon": "memory_dashijie",
-    "id": 100020,
-    "mask": "bg/bg_memory",
-    "name": "空战",
-    "group_ID": 20
-  },
-  "100055": {
-    "story": "WORLD401A",
-    "condition": "开始第四章-第二节",
-    "icon": "memory_dashijie",
-    "id": 100055,
-    "mask": "bg/bg_memory",
-    "name": "塔兰托港",
-    "group_ID": 3
-  },
-  "100024": {
-    "story": "GWORLD109A",
-    "condition": "解锁「信标·META」系统",
-    "icon": "memory_dashijie",
-    "id": 100024,
-    "mask": "bg/bg_memory",
-    "name": "信标·META",
-    "group_ID": 24
-  },
-  "100059": {
-    "story": "WORLD403A",
-    "condition": "击败第四章-第四节所有敌人",
-    "icon": "memory_dashijie",
-    "id": 100059,
-    "mask": "bg/bg_memory",
-    "name": "疑惑",
-    "group_ID": 7
-  }
+  ]
 }
