@@ -1,146 +1,141 @@
 {
   "1": {
+    "benefit_condition": "",
+    "benefit_effect": "5",
     "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 5% UP",
+    "hide": 0,
     "icon": "Props/haijungali",
     "id": 1,
-    "benefit_effect": "5",
-    "desc": "숙소 경험치 5% UP",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "2": {
+    "benefit_condition": "",
+    "benefit_effect": "10",
     "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 10% UP",
+    "hide": 0,
     "icon": "Props/huangjialiaoli",
     "id": 2,
-    "benefit_effect": "10",
-    "desc": "숙소 경험치 10% UP",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "3": {
+    "benefit_condition": "",
+    "benefit_effect": "20",
     "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 20% UP",
+    "hide": 0,
     "icon": "Props/manhanquanxi",
     "id": 3,
-    "benefit_effect": "20",
-    "desc": "숙소 경험치 20% UP",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": ""
   },
   "4": {
-    "benefit_type": "rookie_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 4,
-    "benefit_effect": "100",
-    "desc": "지휘관 레벨 60 미만일 시, 일반 스테이지, 어려움 스테이지, 이벤트 스테이지, 데일리 이벤트에서 획득하는 지휘관 경험치와 캐릭터 경험치 100% 상승 ",
     "benefit_condition": [
       "lv",
       "<",
       60
     ],
-    "max_time": 0,
+    "benefit_effect": "100",
+    "benefit_type": "rookie_battle_exp",
+    "desc": "지휘관 레벨 60 미만일 시, 일반 스테이지, 어려움 스테이지, 이벤트 스테이지, 데일리 이벤트에서 획득하는 지휘관 경험치와 캐릭터 경험치 100% 상승 ",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 4,
+    "max_time": 0,
     "name": "경험치 보너스 "
   },
   "5": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "more_oil",
+    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 소모하는 연료 200% 증가",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 5,
-    "benefit_effect": "100",
-    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 소모하는 연료 200% 증가",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "연료 소모 증가"
   },
   "6": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "user_battle_exp",
+    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 지휘관 경험치 200% 증가",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 6,
-    "benefit_effect": "100",
-    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 지휘관 경험치 200% 증가",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "지휘관 경험치 보너스"
   },
   "7": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "ship_battle_exp",
+    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 함선 경험치 200% 증가",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 7,
-    "benefit_effect": "100",
-    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 함선 경험치 200% 증가",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "함선 경험치 보너스"
   },
   "8": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "extra_drop",
+    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 드랍 1회 추가",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 8,
-    "benefit_effect": "1",
-    "desc": "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 드랍 1회 추가",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "드랍 보너스"
   },
   "9": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "extra_activity_drop",
+    "desc": "이벤트 드랍 1회 추가, 매일 첫 드랍과 중복되지 않음",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 9,
-    "benefit_effect": "1",
-    "desc": "이벤트 드랍 1회 추가, 매일 첫 드랍과 중복되지 않음",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "이벤트 드랍 보너스"
   },
   "10": {
+    "benefit_condition": "",
+    "benefit_effect": "300",
     "benefit_type": "skill_learncost_up",
+    "desc": "전술학원에서 스킬 강화 시 수업시간을 줄입니다.\n남은 시간:$1 ",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_10",
     "id": 10,
-    "benefit_effect": "300",
-    "desc": "전술학원에서 스킬 강화 시 수업시간을 줄입니다.\n남은 시간:$1 ",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "학업 "
   },
   "11": {
+    "benefit_condition": "",
+    "benefit_effect": "504",
     "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 작전문서 스테이지에서 전투 시 아군의 공격력을 소폭 증가시킵니다.\n남은 시간:$1 ",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_11",
     "id": 11,
-    "benefit_effect": "504",
-    "desc": "메인, 어려움, 작전문서 스테이지에서 전투 시 아군의 공격력을 소폭 증가시킵니다.\n남은 시간:$1 ",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "사업 "
   },
   "12": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
     "benefit_type": "intimacy_up_extra",
+    "desc": "비서함의 호감도 증가 속도가 빨라집니다.\n남은 시간:$1 ",
+    "hide": 0,
     "icon": "Props/buff_qiaozhong_12",
     "id": 12,
-    "benefit_effect": "1",
-    "desc": "비서함의 호감도 증가 속도가 빨라집니다.\n남은 시간:$1 ",
-    "benefit_condition": "",
     "max_time": 86400,
-    "hide": 0,
     "name": "인연 "
   },
   "13": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 13,
-    "benefit_effect": "3",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 3% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -149,16 +144,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 3% 상승",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 13,
+    "max_time": 0,
     "name": "함선 경험치 보너스1"
   },
   "14": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 14,
-    "benefit_effect": "4",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 4% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -167,16 +162,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 4% 상승",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 14,
+    "max_time": 0,
     "name": "함선 경험치 보너스2"
   },
   "15": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "id": 15,
-    "benefit_effect": "5",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 5% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -185,16 +180,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 5% 상승",
     "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 15,
+    "max_time": 0,
     "name": "함선 경험치 보너스3"
   },
   "16": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 16,
-    "benefit_effect": "500",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -203,16 +198,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 16,
+    "max_time": 0,
     "name": "전투 피해량 보너스1"
   },
   "17": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 17,
-    "benefit_effect": "502",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -221,16 +216,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 17,
+    "max_time": 0,
     "name": "전투 피해량 보너스2"
   },
   "18": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "id": 18,
-    "benefit_effect": "504",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -239,16 +234,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 18,
+    "max_time": 0,
     "name": "전투 피해량 보너스3"
   },
   "19": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 19,
-    "benefit_effect": "300",
-    "desc": "전술 학원 스킬 학습 시간 3% 단축",
     "benefit_condition": [
       "activity",
       20853,
@@ -257,16 +252,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 3% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 19,
+    "max_time": 0,
     "name": "전술 학원 학습 시간 단축1"
   },
   "20": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 20,
-    "benefit_effect": "400",
-    "desc": "전술 학원 스킬 학습 시간 4% 단축",
     "benefit_condition": [
       "activity",
       20853,
@@ -275,16 +270,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 4% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 20,
+    "max_time": 0,
     "name": "전술 학원 학습 시간 단축2"
   },
   "21": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 21,
-    "benefit_effect": "500",
-    "desc": "전술 학원 스킬 학습 시간 5% 단축",
     "benefit_condition": [
       "activity",
       20853,
@@ -293,16 +288,16 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 5% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 21,
+    "max_time": 0,
     "name": "전술 학원 학습 시간 단축3"
   },
   "22": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 22,
-    "benefit_effect": "3",
-    "desc": "숙소 경험치 보너스 3% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -311,16 +306,16 @@
         1
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 3% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 22,
+    "max_time": 0,
     "name": "숙소 경험치 보너스1"
   },
   "23": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 23,
-    "benefit_effect": "4",
-    "desc": "숙소 경험치 보너스 4% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -329,16 +324,16 @@
         2
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 4% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 23,
+    "max_time": 0,
     "name": "숙소 경험치 보너스2"
   },
   "24": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 24,
-    "benefit_effect": "5",
-    "desc": "숙소 경험치 보너스 5% 상승",
     "benefit_condition": [
       "activity",
       20853,
@@ -347,356 +342,361 @@
         3
       ]
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 5% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 24,
+    "max_time": 0,
     "name": "숙소 경험치 보너스3"
   },
   "25": {
+    "benefit_condition": "",
+    "benefit_effect": "0",
     "benefit_type": "urpt_drop_up",
+    "desc": "「접해몽화」 이벤트 해역을 통해 획득하는 특장원형 수량 배가",
+    "hide": 0,
     "icon": "Props/buff_urptup",
     "id": 25,
-    "benefit_effect": "0",
-    "desc": "「접해몽화」 이벤트 해역을 통해 획득하는 특장원형 수량 배가",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "이벤트 해역 특장원형 드랍 보너스"
   },
   "26": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli1",
-    "id": 26,
-    "benefit_effect": "500",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 1% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 1% 증가",
     "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 26,
+    "max_time": 0,
     "name": "가창력"
   },
   "27": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli2",
-    "id": 27,
-    "benefit_effect": "502",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 2% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 2% 증가",
     "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 27,
+    "max_time": 0,
     "name": "가창력"
   },
   "28": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "id": 28,
-    "benefit_effect": "504",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 3% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 3% 증가",
     "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 28,
+    "max_time": 0,
     "name": "가창력"
   },
   "29": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli1",
-    "id": 29,
-    "benefit_effect": "510",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 1% 감소",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "510",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 1% 감소",
     "hide": 0,
+    "icon": "Props/wudaoli1",
+    "id": 29,
+    "max_time": 0,
     "name": "안무력"
   },
   "30": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli2",
-    "id": 30,
-    "benefit_effect": "512",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 2% 감소",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "512",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 2% 감소",
     "hide": 0,
+    "icon": "Props/wudaoli2",
+    "id": 30,
+    "max_time": 0,
     "name": "안무력"
   },
   "31": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli3",
-    "id": 31,
-    "benefit_effect": "514",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 3% 감소",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "514",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 3% 감소",
     "hide": 0,
+    "icon": "Props/wudaoli3",
+    "id": 31,
+    "max_time": 0,
     "name": "안무력"
   },
   "32": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "id": 32,
-    "benefit_effect": "3",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 3% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 3% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 32,
+    "max_time": 0,
     "name": "연기력"
   },
   "33": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "id": 33,
-    "benefit_effect": "4",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 4% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 4% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 33,
+    "max_time": 0,
     "name": "연기력"
   },
   "34": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "id": 34,
-    "benefit_effect": "5",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 5% 증가",
     "benefit_condition": [
       "activity",
       20581,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 5% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 34,
+    "max_time": 0,
     "name": "연기력"
   },
   "35": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli1",
-    "id": 35,
-    "benefit_effect": "500",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
     "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 35,
+    "max_time": 0,
     "name": "<color=#ff5c5c>파워</color>LV.1："
   },
   "36": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli2",
-    "id": 36,
-    "benefit_effect": "502",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
     "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 36,
+    "max_time": 0,
     "name": "<color=#ff5c5c>파워</color>LV.2："
   },
   "37": {
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "id": 37,
-    "benefit_effect": "504",
-    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
     "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 37,
+    "max_time": 0,
     "name": "<color=#ff5c5c>파워</color>MAX："
   },
   "38": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 38,
-    "benefit_effect": "300",
-    "desc": "전술 학원 스킬 학습 시간 3% 단축",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 3% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 38,
+    "max_time": 0,
     "name": "<color=#00BFFF>테크닉</color>LV.1："
   },
   "39": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 39,
-    "benefit_effect": "400",
-    "desc": "전술 학원 스킬 학습 시간 4% 단축",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 4% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 39,
+    "max_time": 0,
     "name": "<color=#00BFFF>테크닉</color>LV.2："
   },
   "40": {
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "id": 40,
-    "benefit_effect": "500",
-    "desc": "전술 학원 스킬 학습 시간 5% 단축",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "전술 학원 스킬 학습 시간 5% 단축",
     "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 40,
+    "max_time": 0,
     "name": "<color=#00BFFF>테크닉</color>MAX："
   },
   "41": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "id": 41,
-    "benefit_effect": "3",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 3% 증가",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 3% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 41,
+    "max_time": 0,
     "name": "<color=#ffde38>체력</color>LV.1："
   },
   "42": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "id": 42,
-    "benefit_effect": "4",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 4% 증가",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 4% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 42,
+    "max_time": 0,
     "name": "<color=#ffde38>체력</color>LV.2："
   },
   "43": {
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "id": 43,
-    "benefit_effect": "5",
-    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 5% 증가",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 5% 증가",
     "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 43,
+    "max_time": 0,
     "name": "<color=#ffde38>체력</color>MAX："
   },
   "44": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 44,
-    "benefit_effect": "3",
-    "desc": "숙소 경험치 보너스 3% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 3% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 44,
+    "max_time": 0,
     "name": "<color=#FF69B4>매력</color>LV.1："
   },
   "45": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 45,
-    "benefit_effect": "4",
-    "desc": "숙소 경험치 보너스 4% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 4% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 45,
+    "max_time": 0,
     "name": "<color=#FF69B4>매력</color>LV.2："
   },
   "46": {
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "id": 46,
-    "benefit_effect": "5",
-    "desc": "숙소 경험치 보너스 5% 상승",
     "benefit_condition": [
       "activity",
       20606,
       0
     ],
-    "max_time": 0,
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "숙소 경험치 보너스 5% 상승",
     "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 46,
+    "max_time": 0,
     "name": "<color=#FF69B4>매력</color>MAX："
   },
   "47": {
+    "benefit_condition": "61001",
+    "benefit_effect": "0",
     "benefit_type": "desc",
+    "desc": "연료 2배 소모\n결산 수익 2배",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 47,
-    "benefit_effect": "0",
-    "desc": "연료 2배 소모\n결산 수익 2배",
-    "benefit_condition": "61001",
     "max_time": 0,
-    "hide": 0,
     "name": "특수 작전 보너스 설명"
   },
   "48": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
     "benefit_type": "chapter_up",
+    "desc": "호감도, 감정 수치, 지휘관 경험치, 지휘냥 경험치, 함선 경험치 보너스",
+    "hide": 0,
     "icon": "Props/xinshou",
     "id": 48,
-    "benefit_effect": "100",
-    "desc": "호감도, 감정 수치, 지휘관 경험치, 지휘냥 경험치, 함선 경험치 보너스",
-    "benefit_condition": "",
     "max_time": 0,
-    "hide": 0,
     "name": "특수 작전 보너스"
   },
   "all": [
