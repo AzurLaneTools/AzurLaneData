@@ -1,5 +1,10 @@
 {
   "1": {
+    "boss_id": [
+      2
+    ],
+    "damage_resource": 2001,
+    "ex_expedition": 0,
     "ex_expedition_enemy": [
       [
         1201201,
@@ -32,13 +37,16 @@
         ]
       ]
     ],
+    "expedition_both_buff": "",
+    "expedition_buff": "",
     "formula": [
       0.02,
       0.75
     ],
-    "expedition_both_buff": "",
+    "group_num": 1,
     "id": 1,
-    "ticket": 0,
+    "normal_expedition": "",
+    "normal_expedition_drop_num": "",
     "reward_pt": [
       [
         9500,
@@ -121,51 +129,40 @@
         14205
       ]
     ],
-    "damage_resource": 2001,
-    "normal_expedition": "",
-    "submarine_num": 1,
-    "normal_expedition_drop_num": "",
-    "boss_id": [
-      2
-    ],
-    "expedition_buff": "",
     "stage_hp": "",
-    "time": "stop",
-    "ex_expedition": 0,
-    "group_num": 1
+    "submarine_num": 1,
+    "ticket": 0,
+    "time": "stop"
   },
   "2": {
+    "boss_id": [
+      3
+    ],
+    "damage_resource": 2002,
+    "ex_expedition": 1260004,
+    "ex_expedition_enemy": [
+      [
+        1260004,
+        [
+          12500034
+        ]
+      ]
+    ],
     "expedition_both_buff": [],
     "expedition_buff": [],
-    "id": 2,
-    "submarine_num": 1,
-    "ticket": 2003,
-    "reward_pt": [
-      9500,
-      9500,
-      9500,
-      9000,
-      8500,
-      8000,
-      7500,
-      7000,
-      6500,
-      6000,
-      5500,
-      5000,
-      4500,
-      4000,
-      3500,
-      3000,
-      2500,
-      2000,
-      1500,
-      1000,
-      500,
-      0,
-      0
+    "formula": [
+      10,
+      5,
+      2,
+      60,
+      0.026,
+      0.68,
+      1.3,
+      11.7,
+      0.1
     ],
-    "ex_expedition": 1260004,
+    "group_num": 1,
+    "id": 2,
     "normal_expedition": [
       1260001,
       1260002,
@@ -191,29 +188,34 @@
         15
       ]
     ],
-    "ex_expedition_enemy": [
-      [
-        1260004,
-        [
-          12500034
-        ]
-      ]
-    ],
-    "boss_id": [
-      3
-    ],
-    "formula": [
-      10,
-      5,
-      2,
-      60,
-      0.026,
-      0.68,
-      1.3,
-      11.7,
-      0.1
+    "reward_pt": [
+      9500,
+      9500,
+      9500,
+      9000,
+      8500,
+      8000,
+      7500,
+      7000,
+      6500,
+      6000,
+      5500,
+      5000,
+      4500,
+      4000,
+      3500,
+      3000,
+      2500,
+      2000,
+      1500,
+      1000,
+      500,
+      0,
+      0
     ],
     "stage_hp": [],
+    "submarine_num": 1,
+    "ticket": 2003,
     "time": [
       [
         [
@@ -239,42 +241,37 @@
           59
         ]
       ]
-    ],
-    "damage_resource": 2002,
-    "group_num": 1
+    ]
   },
   "3": {
+    "boss_id": [
+      4
+    ],
+    "damage_resource": 2004,
+    "ex_expedition": 1320401,
+    "ex_expedition_enemy": [
+      [
+        1320401,
+        [
+          13000401
+        ]
+      ]
+    ],
     "expedition_both_buff": [],
     "expedition_buff": [],
-    "submarine_num": 1,
-    "id": 3,
-    "ticket": 2005,
-    "reward_pt": [
-      9500,
-      9500,
-      9500,
-      9000,
-      8500,
-      8000,
-      7500,
-      7000,
-      6500,
-      6000,
-      5500,
-      5000,
-      4500,
-      4000,
-      3500,
-      3000,
-      2500,
-      2000,
-      1500,
-      1000,
-      500,
-      0,
-      0
+    "formula": [
+      10,
+      5,
+      2,
+      60,
+      0.026,
+      0.68,
+      1.3,
+      11.7,
+      0.1
     ],
-    "ex_expedition": 1320401,
+    "group_num": 1,
+    "id": 3,
     "normal_expedition": [
       1320101,
       1320201,
@@ -300,39 +297,6 @@
         15
       ]
     ],
-    "ex_expedition_enemy": [
-      [
-        1320401,
-        [
-          13000401
-        ]
-      ]
-    ],
-    "boss_id": [
-      4
-    ],
-    "formula": [
-      10,
-      5,
-      2,
-      60,
-      0.026,
-      0.68,
-      1.3,
-      11.7,
-      0.1
-    ],
-    "stage_hp": [],
-    "time": "stop",
-    "damage_resource": 2004,
-    "group_num": 1
-  },
-  "4": {
-    "expedition_both_buff": [],
-    "expedition_buff": [],
-    "submarine_num": 1,
-    "id": 4,
-    "ticket": 2007,
     "reward_pt": [
       9500,
       9500,
@@ -358,7 +322,40 @@
       0,
       0
     ],
+    "stage_hp": [],
+    "submarine_num": 1,
+    "ticket": 2005,
+    "time": "stop"
+  },
+  "4": {
+    "boss_id": [
+      5
+    ],
+    "damage_resource": 2006,
     "ex_expedition": 1410004,
+    "ex_expedition_enemy": [
+      [
+        1410004,
+        [
+          13800301
+        ]
+      ]
+    ],
+    "expedition_both_buff": [],
+    "expedition_buff": [],
+    "formula": [
+      10,
+      5,
+      2,
+      60,
+      0.026,
+      0.68,
+      1.3,
+      11.7,
+      0.1
+    ],
+    "group_num": 1,
+    "id": 4,
     "normal_expedition": [
       1410001,
       1410002,
@@ -384,39 +381,6 @@
         15
       ]
     ],
-    "ex_expedition_enemy": [
-      [
-        1410004,
-        [
-          13800301
-        ]
-      ]
-    ],
-    "boss_id": [
-      5
-    ],
-    "formula": [
-      10,
-      5,
-      2,
-      60,
-      0.026,
-      0.68,
-      1.3,
-      11.7,
-      0.1
-    ],
-    "stage_hp": [],
-    "time": "stop",
-    "damage_resource": 2006,
-    "group_num": 1
-  },
-  "5": {
-    "expedition_both_buff": [],
-    "expedition_buff": [],
-    "submarine_num": 1,
-    "id": 5,
-    "ticket": 2009,
     "reward_pt": [
       9500,
       9500,
@@ -442,7 +406,40 @@
       0,
       0
     ],
+    "stage_hp": [],
+    "submarine_num": 1,
+    "ticket": 2007,
+    "time": "stop"
+  },
+  "5": {
+    "boss_id": [
+      3
+    ],
+    "damage_resource": 2008,
     "ex_expedition": 1260004,
+    "ex_expedition_enemy": [
+      [
+        1260004,
+        [
+          12500034
+        ]
+      ]
+    ],
+    "expedition_both_buff": [],
+    "expedition_buff": [],
+    "formula": [
+      10,
+      5,
+      2,
+      60,
+      0.026,
+      0.68,
+      1.3,
+      11.7,
+      0.1
+    ],
+    "group_num": 1,
+    "id": 5,
     "normal_expedition": [
       1260001,
       1260002,
@@ -468,32 +465,35 @@
         15
       ]
     ],
-    "ex_expedition_enemy": [
-      [
-        1260004,
-        [
-          12500034
-        ]
-      ]
-    ],
-    "boss_id": [
-      3
-    ],
-    "formula": [
-      10,
-      5,
-      2,
-      60,
-      0.026,
-      0.68,
-      1.3,
-      11.7,
-      0.1
+    "reward_pt": [
+      9500,
+      9500,
+      9500,
+      9000,
+      8500,
+      8000,
+      7500,
+      7000,
+      6500,
+      6000,
+      5500,
+      5000,
+      4500,
+      4000,
+      3500,
+      3000,
+      2500,
+      2000,
+      1500,
+      1000,
+      500,
+      0,
+      0
     ],
     "stage_hp": [],
-    "time": "stop",
-    "damage_resource": 2008,
-    "group_num": 1
+    "submarine_num": 1,
+    "ticket": 2009,
+    "time": "stop"
   },
   "all": [
     1,
