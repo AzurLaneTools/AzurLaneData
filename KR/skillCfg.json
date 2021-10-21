@@ -159447,6 +159447,47 @@
     "picture": "0",
     "uiEffect": ""
   },
+  "skill_9677": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 9679
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetPlayerVanguardFleet",
+        "type": "BattleSkillAddBuff"
+      },
+      {
+        "arg_list": {
+          "operation": -1,
+          "ship_tag_list": [
+            "14_NewWave"
+          ],
+          "tag": "14_NewWave"
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetShipTag",
+        "type": "BattleSkillEditTag"
+      }
+    ],
+    "id": 9677,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
   "skill_98000": {
     "aniEffect": "",
     "cd": 0,

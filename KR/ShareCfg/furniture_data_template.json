@@ -1229,7 +1229,10 @@
     "icon": "jinkelawutaiicon",
     "id": 116,
     "interAction_group": [],
-    "interaction_bgm": "diego",
+    "interaction_bgm": [
+      0,
+      "diego"
+    ],
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
@@ -4220,6 +4223,72 @@
     "tag": 6,
     "themeId": 0,
     "type": 7
+  },
+  "209": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "오늘의 주제와 게스트는……!?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guangboicon",
+    "id": 209,
+    "interAction": [
+      [
+        "sit",
+        [
+          -126,
+          -7
+        ],
+        [
+          1,
+          1
+        ],
+        "chuanmo/guangbo_using"
+      ],
+      [
+        "sit",
+        [
+          110,
+          -133
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "interaction_bgm": [
+      1,
+      "guangbo"
+    ],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "쥬쥬 방송국",
+    "offset": [],
+    "picture": "chuanmo/guangbo",
+    "rarity": 1,
+    "size": [
+      8,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 1,
+    "type": 2
   },
   "1001": {
     "advice": 0,
@@ -61025,7 +61094,10 @@
     "icon": "wutaiholoicon",
     "id": 55118,
     "interAction_group": [],
-    "interaction_bgm": "holo-sss",
+    "interaction_bgm": [
+      0,
+      "holo-sss"
+    ],
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
@@ -90215,6 +90287,7 @@
     205,
     206,
     208,
+    209,
     100002,
     100003,
     100004,

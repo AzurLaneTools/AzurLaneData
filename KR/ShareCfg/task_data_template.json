@@ -16732,7 +16732,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "BACKYARD"
+    ],
     "story_icon": "qiaozhiwushi",
     "story_id": "QIAOZHIWUSHI1",
     "sub_type": 1000,
@@ -17007,7 +17009,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "BACKYARD"
+    ],
     "story_icon": "u556",
     "story_id": "U556STORY1",
     "sub_type": 1000,
@@ -21732,7 +21736,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "BACKYARD"
+    ],
     "story_icon": "u47",
     "story_id": "U471",
     "sub_type": 1000,
@@ -24204,6 +24210,283 @@
     "target_id": "30129",
     "target_id_2": "",
     "target_id_for_client": 30129,
+    "target_num": 100,
+    "type": 5,
+    "visibility": 1
+  },
+  "5721": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5520,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "提交3个《鱼雷天妇罗》",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5721,
+    "is_head": 1,
+    "level": 1,
+    "name": "没有舰历的女孩",
+    "next_task": "5722",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "BACKYARD"
+    ],
+    "story_icon": "junhe",
+    "story_id": "JUNHE1",
+    "sub_type": 1000,
+    "target_id": "50003",
+    "target_id_2": "",
+    "target_id_for_client": 50003,
+    "target_num": 3,
+    "type": 5,
+    "visibility": 1
+  },
+  "5722": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5521,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "强化任意角色10次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5722,
+    "is_head": 0,
+    "level": 1,
+    "name": "{namecode:175}的本意",
+    "next_task": "5723",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE2",
+    "sub_type": 34,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 5,
+    "visibility": 1
+  },
+  "5723": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5522,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "{namecode:175}上阵出击(关卡)胜利20次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5723,
+    "is_head": 0,
+    "level": 1,
+    "name": "想要低调可不容易",
+    "next_task": "5724",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE3",
+    "sub_type": 18,
+    "target_id": "30514",
+    "target_id_2": "",
+    "target_id_for_client": 30514,
+    "target_num": 20,
+    "type": 5,
+    "visibility": 1
+  },
+  "5724": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5523,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "{namecode:175}上阵完成3次每日挑战",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5724,
+    "is_head": 0,
+    "level": 1,
+    "name": "{namecode:80}型意味着什么",
+    "next_task": "5725",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE4",
+    "sub_type": 19,
+    "target_id": "30514",
+    "target_id_2": "",
+    "target_id_for_client": 30514,
+    "target_num": 3,
+    "type": 5,
+    "visibility": 1
+  },
+  "5725": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5524,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ],
+      [
+        1,
+        6,
+        5
+      ],
+      [
+        2,
+        16002,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "{namecode:175}好感度达到100",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5725,
+    "is_head": 0,
+    "level": 1,
+    "name": "保护自己的盾",
+    "next_task": "5726",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE5",
+    "sub_type": 1012,
+    "target_id": "30514",
+    "target_id_2": "",
+    "target_id_for_client": 30514,
+    "target_num": 10000,
+    "type": 5,
+    "visibility": 1
+  },
+  "5726": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5525,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ],
+      [
+        1,
+        6,
+        10
+      ],
+      [
+        2,
+        18022,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "{namecode:175}突破至满星",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5726,
+    "is_head": 0,
+    "level": 1,
+    "name": "无法袒露的弱点",
+    "next_task": "5727",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE6",
+    "sub_type": 35,
+    "target_id": "305144",
+    "target_id_2": "",
+    "target_id_for_client": 305144,
+    "target_num": 1,
+    "type": 5,
+    "visibility": 1
+  },
+  "5727": {
+    "added_tip": 1,
+    "auto_commit": 0,
+    "award": 5526,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ],
+      [
+        1,
+        6,
+        10
+      ],
+      [
+        2,
+        18023,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "{namecode:175}等级达到100",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 5727,
+    "is_head": 0,
+    "level": 1,
+    "name": "最强的盾",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "junhe",
+    "story_id": "JUNHE7",
+    "sub_type": 1013,
+    "target_id": "30514",
+    "target_id_2": "",
+    "target_id_for_client": 30514,
     "target_num": 100,
     "type": 5,
     "visibility": 1
@@ -132656,6 +132939,496 @@
     "type": 26,
     "visibility": 0
   },
+  "17130": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96250,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54015,
+        5
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17130,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服1",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 21,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 3,
+    "type": 26,
+    "visibility": 0
+  },
+  "17131": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96251,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "게임 로그인하기",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17131,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服2",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17132": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96252,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54050,
+        2
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함선을 5번 강화한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17132,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服3",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 34,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 5,
+    "type": 26,
+    "visibility": 0
+  },
+  "17133": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96253,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함선을 2척 퇴역시킨다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17133,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服4",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 31,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 2,
+    "type": 26,
+    "visibility": 0
+  },
+  "17134": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96254,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54032,
+        3
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "전술학원에서 전술훈련을 2번 수행한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17134,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服5",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 71,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 2,
+    "type": 26,
+    "visibility": 0
+  },
+  "17135": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96255,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "숙소에서 식량을 5회 보충한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17135,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服6",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 61,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 5,
+    "type": 26,
+    "visibility": 0
+  },
+  "17136": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96256,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        50004,
+        3
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "임의의 적함을 20척 격파한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17136,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服7",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 11,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 20,
+    "type": 26,
+    "visibility": 0
+  },
+  "17137": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96257,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "건조를 2회 수행한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17137,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服8",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 30,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 2,
+    "type": 26,
+    "visibility": 0
+  },
+  "17138": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96258,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54033,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "임의의 장비상자 1개 오픈한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17138,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服9",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 50,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17139": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96259,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함선을 5번 강화한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17139,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服10",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 34,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 5,
+    "type": 26,
+    "visibility": 0
+  },
+  "17140": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96260,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54006,
+        2
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "군사의뢰를 2번 수행한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17140,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服11",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 80,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 2,
+    "type": 26,
+    "visibility": 0
+  },
+  "17141": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96261,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        1,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "숙소에서 식량을 5회 보충한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17141,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服12",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 61,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 5,
+    "type": 26,
+    "visibility": 0
+  },
+  "17142": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96262,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        54034,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "장비를 2번 강화한다",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17142,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服13",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 40,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 2,
+    "type": 26,
+    "visibility": 0
+  },
+  "17143": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96263,
+    "award_choice": "",
+    "award_display": [
+      [
+        7,
+        301014,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함대를 출격시켜, 10회 S평가로 승리하라!",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17143,
+    "is_head": 0,
+    "level": 1,
+    "name": "『偶像活动一期复刻』送吹雪礼服14",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 24,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 26,
+    "visibility": 0
+  },
   "30201": {
     "added_tip": 0,
     "auto_commit": 0,
@@ -132865,6 +133638,606 @@
     "target_num": 4,
     "type": 36,
     "visibility": 1
+  },
+  "31027": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31027,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-预选复活",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31013,
+      31014,
+      31015
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31030": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91495,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        10
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "함선을 1척 「건조」하라!",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31030,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票日常建造",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 30,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 36,
+    "visibility": 1
+  },
+  "31031": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91495,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        10
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "전투에서 15번 승리하라!",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31031,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票日常出击",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 20,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 15,
+    "type": 36,
+    "visibility": 1
+  },
+  "31032": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91495,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        10
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "군사의뢰를 4번 수행하라!",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31032,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票日常委托",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 80,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 4,
+    "type": 36,
+    "visibility": 1
+  },
+  "31033": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31033,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-预选",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31034": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31034,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-预选复活",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31035": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31035,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-小组1",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31036": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31036,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-小组2",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31037": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31037,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-小组3",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31038": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31038,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-小组4",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31039": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31039,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-小组5",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31040": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31040,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-复活",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31041": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91496,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59824,
+        50
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "투표 일간 임무 10회 완성",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31041,
+    "is_head": 1,
+    "level": 25,
+    "name": "投票单轮单次-决赛",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 91,
+    "target_id": [
+      31030,
+      31031,
+      31032
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "31042": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91510,
+    "award_choice": "",
+    "award_display": [
+      [
+        14,
+        405,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31042,
+    "is_head": 1,
+    "level": 1,
+    "name": "殿堂奖励第一名 2021",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 0
+  },
+  "31043": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91337,
+    "award_choice": "",
+    "award_display": [
+      [
+        14,
+        406,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31043,
+    "is_head": 1,
+    "level": 1,
+    "name": "殿堂奖励第二名 2021",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 0
+  },
+  "31044": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 91509,
+    "award_choice": "",
+    "award_display": [
+      [
+        14,
+        407,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 31044,
+    "is_head": 1,
+    "level": 1,
+    "name": "殿堂奖励第三名 2021",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 0
   },
   "35000": {
     "added_tip": 0,
@@ -135970,7 +137343,12 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 2,
-    "scene": "",
+    "scene": [
+      "DOCKYARD",
+      {
+        "mode": "overview"
+      }
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 120,
@@ -136222,7 +137600,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 2,
-    "scene": "",
+    "scene": [
+      "GETBOAT"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 120,
@@ -136761,7 +138141,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 2,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -136873,7 +138255,12 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 1,
-    "scene": "",
+    "scene": [
+      "DOCKYARD",
+      {
+        "mode": "overview"
+      }
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 120,
@@ -137125,7 +138512,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 1,
-    "scene": "",
+    "scene": [
+      "GETBOAT"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 120,
@@ -137664,7 +139053,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 1,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -137846,7 +139237,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -137881,7 +139274,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -137916,7 +139311,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -137951,7 +139348,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -137986,7 +139385,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -138021,7 +139422,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -138056,7 +139459,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -138091,7 +139496,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -138126,7 +139533,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "TASK"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 161,
@@ -138791,7 +140200,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -138826,7 +140237,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -138861,7 +140274,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -138896,7 +140311,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -138931,7 +140348,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -138966,7 +140385,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -139001,7 +140422,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -139036,7 +140459,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -139071,7 +140496,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -139106,7 +140533,9 @@
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
-    "scene": "",
+    "scene": [
+      "LEVEL"
+    ],
     "story_icon": "",
     "story_id": "",
     "sub_type": 1041,
@@ -157542,6 +158971,13 @@
     5715,
     5716,
     5717,
+    5721,
+    5722,
+    5723,
+    5724,
+    5725,
+    5726,
+    5727,
     6001,
     6002,
     6003,
@@ -160380,12 +161816,42 @@
     17108,
     17109,
     17110,
+    17130,
+    17131,
+    17132,
+    17133,
+    17134,
+    17135,
+    17136,
+    17137,
+    17138,
+    17139,
+    17140,
+    17141,
+    17142,
+    17143,
     30201,
     30202,
     30203,
     31001,
     31002,
     31003,
+    31027,
+    31030,
+    31031,
+    31032,
+    31033,
+    31034,
+    31035,
+    31036,
+    31037,
+    31038,
+    31039,
+    31040,
+    31041,
+    31042,
+    31043,
+    31044,
     35000,
     35001,
     35002,
