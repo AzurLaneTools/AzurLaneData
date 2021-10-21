@@ -797,17 +797,6 @@
     "code": 18,
     "description": [
       [
-        "Light ship Construction",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
-        ],
-        0
-      ],
-      [
         "Guild shop exchange",
         [
           "SHOP",
@@ -1297,12 +1286,12 @@
         0
       ],
       [
-        "Light/Heavy/Special Construction",
+        "Heavy/Special Construction",
         [
           "GETBOAT",
           {
             "page": 1,
-            "projectName": "light"
+            "projectName": "heavy"
           }
         ],
         0
@@ -1535,12 +1524,12 @@
         0
       ],
       [
-        "Light/Heavy/Special Construction",
+        "Heavy/Special Construction",
         [
           "GETBOAT",
           {
             "page": 1,
-            "projectName": "light"
+            "projectName": "heavy"
           }
         ],
         0
@@ -7815,6 +7804,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Heavy Ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30309,
@@ -8497,6 +8497,17 @@
         "Event: Crimson Echoes",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Heavy Ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -10103,17 +10114,6 @@
     "code": 263,
     "description": [
       [
-        "Light ship Construction",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
-        ],
-        0
-      ],
-      [
         "Guild shop exchange",
         [
           "SHOP",
@@ -11394,6 +11394,17 @@
         "Event: Crimson Echoes",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -13421,6 +13432,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Heavy Ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30405,
@@ -13452,6 +13474,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Heavy Ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30507,
@@ -13481,6 +13514,17 @@
         "Event: Crimson Echoes",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -16161,6 +16205,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30182,
@@ -16190,6 +16245,17 @@
         "Event: Crimson Echoes",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -18384,6 +18450,40 @@
     "trans_type": 0,
     "type": 7
   },
+  "521": {
+    "code": 521,
+    "description": [
+      [
+        "Explore Stage13-4",
+        [
+          "LEVEL",
+          {
+            "chapterid": 1404
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 10312,
+    "handbook_type": 0,
+    "hide": 0,
+    "index_id": 76,
+    "nationality": 1,
+    "property_hexagon": [
+      "B",
+      "E",
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 3
+  },
   "10001": {
     "code": 10001,
     "description": [
@@ -20401,6 +20501,7 @@
     43,
     44,
     45,
+    521,
     46,
     364,
     512,
