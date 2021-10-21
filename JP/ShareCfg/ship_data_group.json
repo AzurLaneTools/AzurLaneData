@@ -15386,6 +15386,17 @@
           ""
         ],
         0
+      ],
+      [
+        "大型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 90503,
@@ -15415,6 +15426,17 @@
         "イベント：激奏のポラリス",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "特型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
         ],
         0
       ]
@@ -15448,6 +15470,17 @@
           ""
         ],
         0
+      ],
+      [
+        "小型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10224,
@@ -15479,6 +15512,16 @@
           ""
         ],
         0
+      ],
+      [
+        "特別補給（ランダム出現）",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20225,
@@ -15508,6 +15551,17 @@
         "イベント：激奏のポラリス",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "大型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -18562,6 +18616,40 @@
     "trans_type": 0,
     "type": 7
   },
+  "521": {
+    "code": 521,
+    "description": [
+      [
+        "推奨入手海域14-4",
+        [
+          "LEVEL",
+          {
+            "chapterid": 1404
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 10312,
+    "handbook_type": 0,
+    "hide": 0,
+    "index_id": 76,
+    "nationality": 1,
+    "property_hexagon": [
+      "B",
+      "E",
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 3
+  },
   "10001": {
     "code": 10001,
     "description": [
@@ -20765,6 +20853,7 @@
     43,
     44,
     45,
+    521,
     46,
     364,
     512,
