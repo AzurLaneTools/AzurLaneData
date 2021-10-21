@@ -15035,6 +15035,17 @@
     "code": 418,
     "description": [
       [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
+      ],
+      [
         "限时活动：激奏的Polaris",
         [
           ""
@@ -15065,6 +15076,17 @@
   "419": {
     "code": 419,
     "description": [
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
+      ],
       [
         "限时活动：激奏的Polaris",
         [
@@ -15102,6 +15124,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10224,
@@ -15133,6 +15166,16 @@
           ""
         ],
         0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20225,
@@ -15158,6 +15201,17 @@
   "422": {
     "code": 422,
     "description": [
+      [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
+      ],
       [
         "限时活动：激奏的Polaris",
         [
@@ -18216,6 +18270,40 @@
     "trans_type": 0,
     "type": 7
   },
+  "521": {
+    "code": 521,
+    "description": [
+      [
+        "推荐探索关卡14-4",
+        [
+          "LEVEL",
+          {
+            "chapterid": 1404
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 10312,
+    "handbook_type": 0,
+    "hide": 0,
+    "index_id": 76,
+    "nationality": 1,
+    "property_hexagon": [
+      "B",
+      "E",
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 3
+  },
   "10001": {
     "code": 10001,
     "description": [
@@ -20481,6 +20569,7 @@
     43,
     44,
     45,
+    521,
     46,
     364,
     512,

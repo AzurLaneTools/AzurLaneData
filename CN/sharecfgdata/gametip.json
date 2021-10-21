@@ -1546,16 +1546,16 @@
     "tip": "是否升级？升级会消耗对应材料"
   },
   "buildship_heavy_tip": {
-    "tip": "俾斯麦、英王乔治五世 建造追加！"
+    "tip": "加斯科涅（μ兵装）、希佩尔海军上将（μ兵装） 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "{namecode:147} 建造追加！"
+    "tip": "克利夫兰（μ兵装） 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "每累计建造200次可获得海上传奇舰船 {namecode:18}(最多4次)"
   },
   "buildship_special_tip": {
-    "tip": "U-96、U-556、U-73 建造追加！"
+    "tip": "{namecode:176} 建造追加！"
   },
   "buleprint_need_level_tip": {
     "tip": "需角色到达$1级"
@@ -6459,7 +6459,17 @@
           "posY": 0,
           "scale": 0.6
         },
-        "info": "       机动：角色的回避概率"
+        "info": "       机动：影响角色的回避概率和被暴击率"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "hit",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.3
+        },
+        "info": "       命中：影响角色攻击的命中概率和暴击率"
       },
       {
         "icon": {
@@ -8394,6 +8404,9 @@
   },
   "main_settingsScene_quest_exist": {
     "tip": "真的要退出吗"
+  },
+  "map_event_lighthouse_tip_1": {
+    "tip": "灯塔已点亮，后续战斗中将获得灯塔照明效果"
   },
   "map_event_memory_collected": {
     "tip": "隐藏剧情<color=#92fc63>$1</color>收集成功！"
