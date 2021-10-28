@@ -7,9 +7,23 @@ on:
     - cron: "40 * * * *"
 
 jobs:
-  build:
-    runs-on: windows-2019
+  pre_check:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          concurrent_skipping: "always"
+          skip_after_successful_duplicate: "false"
+          do_not_skip: '[]'
 
+  build:
+    runs-on: windows-latest
+    needs: pre_check
+    if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
     steps:
       - name: Checkout tools repo
         uses: actions/checkout@v2
