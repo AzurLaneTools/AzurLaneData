@@ -140945,6 +140945,108 @@
     "trans_use_gold": 0,
     "trans_use_item": []
   },
+  "90500": {
+    "destory_gold": 4,
+    "destory_item": [],
+    "equip_limit": 0,
+    "group": 90500,
+    "id": 90500,
+    "important": 1,
+    "level": 1,
+    "next": 90501,
+    "prev": 0,
+    "restore_gold": 0,
+    "restore_item": [],
+    "ship_type_forbidden": [],
+    "trans_use_gold": 20,
+    "trans_use_item": [
+      [
+        17011,
+        1
+      ]
+    ],
+    "type": 1,
+    "upgrade_formula_id": []
+  },
+  "90501": {
+    "base": 90500,
+    "destory_gold": 9,
+    "destory_item": [
+      [
+        17011,
+        1
+      ]
+    ],
+    "id": 90501,
+    "level": 2,
+    "next": 90502,
+    "prev": 90500,
+    "restore_gold": 20,
+    "restore_item": [
+      [
+        17011,
+        1
+      ]
+    ],
+    "trans_use_gold": 60,
+    "trans_use_item": [
+      [
+        17011,
+        3
+      ]
+    ]
+  },
+  "90502": {
+    "base": 90500,
+    "destory_gold": 24,
+    "destory_item": [
+      [
+        17011,
+        2
+      ]
+    ],
+    "id": 90502,
+    "level": 3,
+    "next": 90503,
+    "prev": 90501,
+    "restore_gold": 80,
+    "restore_item": [
+      [
+        17011,
+        4
+      ]
+    ],
+    "trans_use_gold": 100,
+    "trans_use_item": [
+      [
+        17011,
+        5
+      ]
+    ]
+  },
+  "90503": {
+    "base": 90500,
+    "destory_gold": 49,
+    "destory_item": [
+      [
+        17011,
+        3
+      ]
+    ],
+    "id": 90503,
+    "level": 4,
+    "next": 0,
+    "prev": 90502,
+    "restore_gold": 180,
+    "restore_item": [
+      [
+        17011,
+        9
+      ]
+    ],
+    "trans_use_gold": 0,
+    "trans_use_item": []
+  },
   "90600": {
     "destory_gold": 25,
     "destory_item": [
