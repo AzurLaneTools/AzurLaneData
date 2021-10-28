@@ -84090,7 +84090,7 @@
     "canputon": 0,
     "canputonGrid": [],
     "comfortable": 3,
-    "count": 1,
+    "count": 2,
     "deblocking": 1,
     "describe": "다 읽은 책은 제자리에!",
     "dir": 0,
@@ -90196,6 +90196,81 @@
     "themeId": 0,
     "type": 7
   },
+  "100030": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "살금살금… 아무도 나의 완벽한 위장을 알아차릴 수 없다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yinmizhixiangicon",
+    "id": 100030,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "종이박스(잠입용)",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "yinmizhixiangB",
+        "normal"
+      ],
+      [
+        "yinmizhixiangT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "all": [
     1,
     2,
@@ -90316,6 +90391,7 @@
     100027,
     100028,
     100029,
+    100030,
     1001,
     1002,
     1101,
