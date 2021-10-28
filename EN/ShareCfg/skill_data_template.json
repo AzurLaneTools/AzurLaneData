@@ -54387,6 +54387,396 @@
       1
     ]
   },
+  "14930": {
+    "desc": "Every 20s: fires a $1 special barrage (DMG is based on the skill's level). When this ship lands 5 consecutive Main Gun hits on the same enemy: increases this ship's FP by $2 (can be stacked up to 4 times; upon reaching 4 stacks: also increases this ship's TRP by $3 and fires her special barrage).",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.4%"
+        ],
+        [
+          "1.4%",
+          "+0.4%"
+        ],
+        [
+          "1.8%",
+          "+0.4%"
+        ],
+        [
+          "2.2%",
+          "+0.4%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv1",
+        "Lv10"
+      ],
+      [
+        "1.0%",
+        "5.0%"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ]
+    ],
+    "id": 14930,
+    "max_level": 10,
+    "name": "Terrific Terror",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "14940": {
+    "desc": "Increases this ship's SPD by $1. When the battle starts, if there is 1 or more other DDs in your Vanguard: increases this ship's SPD by a further $1 and increases her EVA and AA by $2; if this ship is the sole DD: increases this ship's RLD by $2 and decreases her DMG taken by $3.",
+    "desc_add": [
+      [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ],
+        [
+          "5"
+        ],
+        [
+          "6"
+        ],
+        [
+          "7"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.4%"
+        ],
+        [
+          "1.4%",
+          "+0.4%"
+        ],
+        [
+          "1.8%",
+          "+0.4%"
+        ],
+        [
+          "2.2%",
+          "+0.4%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1",
+        "7"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "1.0%",
+        "5.0%"
+      ]
+    ],
+    "id": 14940,
+    "max_level": 10,
+    "name": "I'll Give You A Head Start~",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "14950": {
+    "desc": "Increases this ship's AA and ASW by $1; If sortied in the same fleet as Richelieu or either 3 or more Iris Libre or Vichya Dominion ships: increases this ship's FP, TRP, and RLD by $2. When this ship is attacked: 15.0% chance to deploy a shield that lasts up to 12s and can block up to 10 shots, and decreases this ship's SPD by 3 (this effect can only activate once every 12s).",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 14950,
+    "max_level": 10,
+    "name": "Templar's Holy Advance",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "18010": {
     "desc": "Increases this ship's DMG with AP by $1.",
     "desc_add": [
@@ -65965,6 +66355,34 @@
       1
     ]
   },
+  "29761": {
+    "desc": "Activates All Out Assault I : Le Terrible once every 15  times the Main Guns are fired; when the battle starts, if there are no other DDs in the same fleet: fires once every 12  shots instead.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 29761,
+    "max_level": 1,
+    "name": "All-Out Assault: I",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "29762": {
+    "desc": "Activates All Out Assault II: Le Terrible once every 10 times the Main Guns are fired; when the battle starts, if there are no other DDs in the same fleet: fires once every 8 shots instead.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 29762,
+    "max_level": 1,
+    "name": "All-Out Assault: II",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "101010": {
     "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
     "desc_add": [
@@ -74793,6 +75211,9 @@
     14900,
     14910,
     14920,
+    14930,
+    14940,
+    14950,
     18010,
     18040,
     18050,
@@ -75219,6 +75640,8 @@
     29742,
     29751,
     29752,
+    29761,
+    29762,
     101010,
     101020,
     101030,
