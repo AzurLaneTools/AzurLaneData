@@ -1,0 +1,752 @@
+{
+  "1": {
+    "benefit_condition": "",
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "Dorm EXP bonus +5%",
+    "hide": 0,
+    "icon": "Props/haijungali",
+    "id": 1,
+    "max_time": 86400,
+    "name": ""
+  },
+  "2": {
+    "benefit_condition": "",
+    "benefit_effect": "10",
+    "benefit_type": "dorm_exp",
+    "desc": "Dorm EXP bonus +10%",
+    "hide": 0,
+    "icon": "Props/huangjialiaoli",
+    "id": 2,
+    "max_time": 86400,
+    "name": ""
+  },
+  "3": {
+    "benefit_condition": "",
+    "benefit_effect": "20",
+    "benefit_type": "dorm_exp",
+    "desc": "Dorm EXP bonus +20%",
+    "hide": 0,
+    "icon": "Props/manhanquanxi",
+    "id": 3,
+    "max_time": 86400,
+    "name": ""
+  },
+  "4": {
+    "benefit_condition": [
+      "lv",
+      "<",
+      60
+    ],
+    "benefit_effect": "100",
+    "benefit_type": "rookie_battle_exp",
+    "desc": "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 60.",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 4,
+    "max_time": 0,
+    "name": "EXP Bonus"
+  },
+  "5": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "more_oil",
+    "desc": "",
+    "hide": 0,
+    "icon": "more_oil",
+    "id": 5,
+    "max_time": 0,
+    "name": ""
+  },
+  "6": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "user_battle_exp",
+    "desc": "",
+    "hide": 0,
+    "icon": "user_battle_exp",
+    "id": 6,
+    "max_time": 0,
+    "name": ""
+  },
+  "7": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "ship_battle_exp",
+    "desc": "",
+    "hide": 0,
+    "icon": "ship_battle_exp",
+    "id": 7,
+    "max_time": 0,
+    "name": ""
+  },
+  "8": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "extra_drop",
+    "desc": "",
+    "hide": 0,
+    "icon": "extra_drop",
+    "id": 8,
+    "max_time": 0,
+    "name": ""
+  },
+  "9": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "extra_activity_drop",
+    "desc": "Provide an extra drop for event stages and can&apos;t be used for the first drop of the day. ",
+    "hide": 0,
+    "icon": "extra_activity_drop",
+    "id": 9,
+    "max_time": 0,
+    "name": ""
+  },
+  "10": {
+    "benefit_condition": "",
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Tactical Class lesson time is reduced. \nTime remaining: $1",
+    "hide": 0,
+    "icon": "Props/buff_qiaozhong_10",
+    "id": 10,
+    "max_time": 86400,
+    "name": "Academic Achievement"
+  },
+  "11": {
+    "benefit_condition": "",
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "While sortieing in a Campaign, Hard Mode, or War Archives map, your ships deal slightly more DMG. \nTime remaining: $1",
+    "hide": 0,
+    "icon": "Props/buff_qiaozhong_11",
+    "id": 11,
+    "max_time": 86400,
+    "name": "Career Success"
+  },
+  "12": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "intimacy_up_extra",
+    "desc": "Increases the rate at which your secretary ship gains Affection. \nTime remaining: $1",
+    "hide": 0,
+    "icon": "Props/buff_qiaozhong_12",
+    "id": 12,
+    "max_time": 86400,
+    "name": "Fruitful Courtship"
+  },
+  "13": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        13,
+        1
+      ]
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP that ships gain from Normal, Hard, and Event stages by 3%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 13,
+    "max_time": 0,
+    "name": "Combat Insight I"
+  },
+  "14": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        13,
+        2
+      ]
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP that ships gain from Normal, Hard, and Event stages by 4%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 14,
+    "max_time": 0,
+    "name": "Combat Insight II"
+  },
+  "15": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        13,
+        3
+      ]
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP that ships gain from Normal, Hard, and Event stages by 5%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 15,
+    "max_time": 0,
+    "name": "Combat Insight III"
+  },
+  "16": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        14,
+        1
+      ]
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal in Normal, Hard, and Event stages by 1%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 16,
+    "max_time": 0,
+    "name": "Battle Acumen I"
+  },
+  "17": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        14,
+        2
+      ]
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal in Normal, Hard, and Event stages by 2%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 17,
+    "max_time": 0,
+    "name": "Battle Acumen II"
+  },
+  "18": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        14,
+        3
+      ]
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal in Normal, Hard, and Event stages by 3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 18,
+    "max_time": 0,
+    "name": "Battle Acumen III"
+  },
+  "19": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        15,
+        1
+      ]
+    ],
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Reduces Tactical Class training time by 3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 19,
+    "max_time": 0,
+    "name": "Efficient Education I"
+  },
+  "20": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        15,
+        2
+      ]
+    ],
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Reduces Tactical Class training time by 4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 20,
+    "max_time": 0,
+    "name": "Efficient Education II"
+  },
+  "21": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        15,
+        3
+      ]
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Reduces Tactical Class training time by 5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 21,
+    "max_time": 0,
+    "name": "Efficient Education III"
+  },
+  "22": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        16,
+        1
+      ]
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "Increases EXP gained in the Dorm by 3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 22,
+    "max_time": 0,
+    "name": "Leisurely Learning I"
+  },
+  "23": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        16,
+        2
+      ]
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "Increases EXP gained in the Dorm by 4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 23,
+    "max_time": 0,
+    "name": "Leisurely Learning II"
+  },
+  "24": {
+    "benefit_condition": [
+      "activity",
+      4113,
+      [
+        16,
+        3
+      ]
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "Increases EXP gained in the Dorm by 5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 24,
+    "max_time": 0,
+    "name": "Leisurely Learning III"
+  },
+  "25": {
+    "benefit_condition": "",
+    "benefit_effect": "0",
+    "benefit_type": "urpt_drop_up",
+    "desc": "\"Dreamwaker's Butterfly\" Event Stages will drop twice the amount of Specialized Cores. ",
+    "hide": 0,
+    "icon": "Props/buff_urptup",
+    "id": 25,
+    "max_time": 0,
+    "name": "Specialized Core Event Boost "
+  },
+  "26": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 1.0%.",
+    "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 26,
+    "max_time": 0,
+    "name": "Vocal Appeal"
+  },
+  "27": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 2.0%.",
+    "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 27,
+    "max_time": 0,
+    "name": "Vocal Appeal"
+  },
+  "28": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "Increases the DMG your ships deal on Normal, Hard, Event, and War Archives stages by 3.0%.",
+    "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 28,
+    "max_time": 0,
+    "name": "Vocal Appeal"
+  },
+  "29": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "510",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 1.0%.",
+    "hide": 0,
+    "icon": "Props/wudaoli1",
+    "id": 29,
+    "max_time": 0,
+    "name": "Glamorous Steps"
+  },
+  "30": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "512",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 2.0%.",
+    "hide": 0,
+    "icon": "Props/wudaoli2",
+    "id": 30,
+    "max_time": 0,
+    "name": "Glamorous Steps"
+  },
+  "31": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "514",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases the DMG your ships take on Normal, Hard, Event, and War Archives stages by 3.0%.",
+    "hide": 0,
+    "icon": "Props/wudaoli3",
+    "id": 31,
+    "max_time": 0,
+    "name": "Glamorous Steps"
+  },
+  "32": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 3.0%.",
+    "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 32,
+    "max_time": 0,
+    "name": "Memorable Performance"
+  },
+  "33": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 4.0%.",
+    "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 33,
+    "max_time": 0,
+    "name": "Memorable Performance"
+  },
+  "34": {
+    "benefit_condition": [
+      "activity",
+      30746,
+      0
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Increases the EXP your ships gain on Normal, Hard, Event, and War Archives stages by 5.0%.",
+    "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 34,
+    "max_time": 0,
+    "name": "Memorable Performance"
+  },
+  "35": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "Deal 1% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 35,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>POW</color> Lv. 1:"
+  },
+  "36": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "Deal 2% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 36,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>POW</color> Lv. 2:"
+  },
+  "37": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "Deal 3% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 37,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>POW </color>MAX:"
+  },
+  "38": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Training time in the Tactical Academy is reduced by 3%.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 38,
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color> Lv. 1:"
+  },
+  "39": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Training time in the Tactical Academy is reduced by 4%.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 39,
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color> Lv. 2:"
+  },
+  "40": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Training time in the Tactical Academy is reduced by 5%.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 40,
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color> MAX:"
+  },
+  "41": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Earn 3% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 41,
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color> Lv. 1:"
+  },
+  "42": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Earn 4% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 42,
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color> Lv. 2:"
+  },
+  "43": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "Earn 5% more EXP in Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 43,
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color> MAX:"
+  },
+  "44": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "Earn 3% more EXP in the Dormitory.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 44,
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color> Lv. 1:"
+  },
+  "45": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "Earn 4% more EXP in the Dormitory.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 45,
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color> Lv. 2:"
+  },
+  "46": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "Earn 5% more EXP in the Dormitory.",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 46,
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color> MAX:"
+  },
+  "47": {
+    "benefit_condition": "61001",
+    "benefit_effect": "0",
+    "benefit_type": "desc",
+    "desc": "2x Oil Consumption\n2x Rewards",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 47,
+    "max_time": 0,
+    "name": "High-Efficiency Operation Description"
+  },
+  "48": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "chapter_up",
+    "desc": "Mood, Affection, Commander EXP, Meowfficer EXP, and Ship EXP Bonus",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 48,
+    "max_time": 0,
+    "name": "High-Efficiency Operation Bonus"
+  },
+  "all": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ]
+}
