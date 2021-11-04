@@ -1,0 +1,524 @@
+{
+  "1": {
+    "benefit_condition": "",
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高5%",
+    "hide": 0,
+    "icon": "Props/haijungali",
+    "id": 1,
+    "max_time": 86400,
+    "name": ""
+  },
+  "2": {
+    "benefit_condition": "",
+    "benefit_effect": "10",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高10%",
+    "hide": 0,
+    "icon": "Props/huangjialiaoli",
+    "id": 2,
+    "max_time": 86400,
+    "name": ""
+  },
+  "3": {
+    "benefit_condition": "",
+    "benefit_effect": "20",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高20%",
+    "hide": 0,
+    "icon": "Props/manhanquanxi",
+    "id": 3,
+    "max_time": 86400,
+    "name": ""
+  },
+  "4": {
+    "benefit_condition": [
+      "lv",
+      "<",
+      60
+    ],
+    "benefit_effect": "100",
+    "benefit_type": "rookie_battle_exp",
+    "desc": "指揮官等級小於60級時，在普通關卡、困難關卡、每日活動中獲得的指揮官經驗和艦船經驗提高100%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 4,
+    "max_time": 0,
+    "name": "經驗加成"
+  },
+  "10": {
+    "benefit_condition": "",
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間略微減少\n剩餘時間:$1",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 10,
+    "max_time": 86400,
+    "name": "學業"
+  },
+  "11": {
+    "benefit_condition": "",
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、作戰檔案關卡中，我方戰鬥內造成的傷害略微提高\n剩餘時間:$1",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 11,
+    "max_time": 86400,
+    "name": "事業"
+  },
+  "12": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "intimacy_up_extra",
+    "desc": "秘書艦好感度提高速度加快\n剩餘時間:$1",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 12,
+    "max_time": 86400,
+    "name": "姻緣"
+  },
+  "13": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        13,
+        1
+      ]
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 13,
+    "max_time": 0,
+    "name": "艦娘經驗加成1"
+  },
+  "14": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        13,
+        2
+      ]
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高4%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 14,
+    "max_time": 0,
+    "name": "艦娘經驗加成2"
+  },
+  "15": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        13,
+        3
+      ]
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高5%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 15,
+    "max_time": 0,
+    "name": "艦娘經驗加成3"
+  },
+  "16": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        14,
+        1
+      ]
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高1%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 16,
+    "max_time": 0,
+    "name": "戰鬥傷害加成1"
+  },
+  "17": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        14,
+        2
+      ]
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高2%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 17,
+    "max_time": 0,
+    "name": "戰鬥傷害加成2"
+  },
+  "18": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        14,
+        3
+      ]
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_11",
+    "id": 18,
+    "max_time": 0,
+    "name": "戰鬥傷害加成3"
+  },
+  "19": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        15,
+        1
+      ]
+    ],
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 19,
+    "max_time": 0,
+    "name": "戰術學院學習時間縮短1"
+  },
+  "20": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        15,
+        2
+      ]
+    ],
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 20,
+    "max_time": 0,
+    "name": "戰術學院學習時間縮短2"
+  },
+  "21": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        15,
+        3
+      ]
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 21,
+    "max_time": 0,
+    "name": "戰術學院學習時間縮短3"
+  },
+  "22": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        16,
+        1
+      ]
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 22,
+    "max_time": 0,
+    "name": "後宅經驗加成1"
+  },
+  "23": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        16,
+        2
+      ]
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 23,
+    "max_time": 0,
+    "name": "後宅經驗加成2"
+  },
+  "24": {
+    "benefit_condition": [
+      "activity",
+      40430,
+      [
+        16,
+        3
+      ]
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 24,
+    "max_time": 0,
+    "name": "後宅經驗加成3"
+  },
+  "25": {
+    "benefit_condition": "",
+    "benefit_effect": "0",
+    "benefit_type": "urpt_drop_up",
+    "desc": "通過「蝶海夢花」活動關卡獲得的特裝原型數量翻倍",
+    "hide": 0,
+    "icon": "Props/buff_urptup",
+    "id": 25,
+    "max_time": 0,
+    "name": "活動關卡特裝原型掉落加成"
+  },
+  "35": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高1%",
+    "hide": 0,
+    "icon": "Props/yanchangli1",
+    "id": 35,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>力量</color>LV.1："
+  },
+  "36": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高2%",
+    "hide": 0,
+    "icon": "Props/yanchangli2",
+    "id": 36,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>力量</color>LV.2："
+  },
+  "37": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "主線、困難、活動、作戰檔案關卡中，造成的傷害提高3%",
+    "hide": 0,
+    "icon": "Props/yanchangli3",
+    "id": 37,
+    "max_time": 0,
+    "name": "<color=#ff5c5c>力量</color>MAX："
+  },
+  "38": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 38,
+    "max_time": 0,
+    "name": "<color=#00BFFF>技巧</color>LV.1："
+  },
+  "39": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 39,
+    "max_time": 0,
+    "name": "<color=#00BFFF>技巧</color>LV.2："
+  },
+  "40": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "戰術學院技能學習時間減少5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_10",
+    "id": 40,
+    "max_time": 0,
+    "name": "<color=#00BFFF>技巧</color>MAX："
+  },
+  "41": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%",
+    "hide": 0,
+    "icon": "Props/biaoyanli1",
+    "id": 41,
+    "max_time": 0,
+    "name": "<color=#ffde38>體力</color>LV.1："
+  },
+  "42": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高4%",
+    "hide": 0,
+    "icon": "Props/biaoyanli2",
+    "id": 42,
+    "max_time": 0,
+    "name": "<color=#ffde38>體力</color>LV.2："
+  },
+  "43": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高5%",
+    "hide": 0,
+    "icon": "Props/biaoyanli3",
+    "id": 43,
+    "max_time": 0,
+    "name": "<color=#ffde38>體力</color>MAX："
+  },
+  "44": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高3%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 44,
+    "max_time": 0,
+    "name": "<color=#FF69B4>魅力</color>LV.1："
+  },
+  "45": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高4%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 45,
+    "max_time": 0,
+    "name": "<color=#FF69B4>魅力</color>LV.2："
+  },
+  "46": {
+    "benefit_condition": [
+      "activity",
+      40224,
+      0
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "後宅經驗加成提高5%",
+    "hide": 0,
+    "icon": "Props/buff_minigame_12",
+    "id": 46,
+    "max_time": 0,
+    "name": "<color=#FF69B4>魅力</color>MAX："
+  },
+  "all": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ]
+}

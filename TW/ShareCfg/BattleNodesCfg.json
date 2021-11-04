@@ -1,0 +1,402 @@
+{
+  "1": {
+    "1": [
+      "UnitMove",
+      1,
+      0,
+      "Map",
+      [
+        18,
+        0,
+        50
+      ],
+      1
+    ],
+    "2": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "3": [
+      "UnitMove",
+      1,
+      0,
+      "Map",
+      [
+        18,
+        0,
+        60
+      ],
+      1
+    ],
+    "4": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "5": [
+      "UnitMove",
+      1,
+      0,
+      "Map",
+      [
+        18,
+        0,
+        70
+      ],
+      1
+    ],
+    "6": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "_parallel": false
+  },
+  "2": {
+    "1": [
+      "NearestTarget",
+      "Enemy",
+      8,
+      100,
+      []
+    ],
+    "_parallel": false
+  },
+  "3": {
+    "1": [
+      "NearestTarget",
+      "Enemy",
+      10,
+      100,
+      []
+    ],
+    "2": [
+      "UnitDamage",
+      10010,
+      "Target"
+    ],
+    "3": [
+      "UnitDamage",
+      10010,
+      "Self"
+    ],
+    "_parallel": false
+  },
+  "4": {
+    "1": [
+      "NearestTarget",
+      "Friend",
+      100,
+      100,
+      {
+        "Sup": true
+      }
+    ],
+    "_parallel": false
+  },
+  "5": {
+    "1": [
+      "Arrange",
+      6,
+      40010
+    ],
+    "_parallel": false
+  },
+  "6": {
+    "1": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "_parallel": false
+  },
+  "7": {
+    "_parallel": false
+  },
+  "8": {
+    "1": {
+      "1": [
+        "NearestTarget",
+        "Friend",
+        100,
+        100,
+        {
+          "SupNo": 1
+        }
+      ],
+      "2": [
+        "Arrange",
+        9,
+        80005
+      ],
+      "_parallel": false
+    },
+    "2": {
+      "1": [
+        "NearestTarget",
+        "Friend",
+        100,
+        100,
+        {
+          "SupNo": 2
+        }
+      ],
+      "2": [
+        "Arrange",
+        10,
+        80005
+      ],
+      "_parallel": false
+    },
+    "_parallel": true
+  },
+  "9": {
+    "1": [
+      "UnitBuff",
+      8001,
+      true,
+      "Self"
+    ],
+    "2": [
+      "UnitTeleport",
+      "Map",
+      [
+        50,
+        0,
+        85
+      ]
+    ],
+    "3": {
+      "1": {
+        "1": [
+          "NearestTarget",
+          "Enemy",
+          100,
+          100,
+          []
+        ],
+        "2": [
+          "UnitAttack",
+          40009,
+          21022,
+          "Aim"
+        ],
+        "_parallel": false
+      },
+      "2": [
+        "UnitMove",
+        2,
+        0,
+        "Map",
+        [
+          -40,
+          0,
+          85
+        ],
+        1
+      ],
+      "_parallel": true
+    },
+    "4": [
+      "UnitTeleport",
+      "Map",
+      [
+        35,
+        0,
+        65
+      ]
+    ],
+    "5": [
+      "UnitBuff",
+      8001,
+      false,
+      "Self"
+    ],
+    "_parallel": false
+  },
+  "10": {
+    "1": [
+      "UnitBuff",
+      8001,
+      true,
+      "Self"
+    ],
+    "2": [
+      "UnitTeleport",
+      "Map",
+      [
+        -40,
+        0,
+        13
+      ]
+    ],
+    "3": {
+      "1": {
+        "1": [
+          "NearestTarget",
+          "Enemy",
+          100,
+          100,
+          []
+        ],
+        "2": [
+          "UnitAttack",
+          40009,
+          21021,
+          "Aim"
+        ],
+        "_parallel": false
+      },
+      "2": [
+        "UnitMove",
+        2,
+        0,
+        "Map",
+        [
+          45,
+          0,
+          13
+        ],
+        1
+      ],
+      "_parallel": true
+    },
+    "4": [
+      "UnitTeleport",
+      "Map",
+      [
+        35,
+        0,
+        25
+      ]
+    ],
+    "5": [
+      "UnitBuff",
+      8001,
+      false,
+      "Self"
+    ],
+    "_parallel": false
+  },
+  "11": {
+    "1": [
+      "NearestTarget",
+      "Friend",
+      100,
+      100,
+      {
+        "Sup": true
+      }
+    ],
+    "2": [
+      "Arrange",
+      12,
+      80001
+    ],
+    "_parallel": false
+  },
+  "12": {
+    "1": [
+      "UnitAttack",
+      30003,
+      21020,
+      "Common"
+    ],
+    "_parallel": false
+  },
+  "13": {
+    "1": {
+      "1": [
+        "NearestTarget",
+        "Friend",
+        100,
+        100,
+        {
+          "SupNo": 1
+        }
+      ],
+      "2": [
+        "Arrange",
+        14,
+        80003
+      ],
+      "_parallel": false
+    },
+    "2": {
+      "1": [
+        "NearestTarget",
+        "Friend",
+        100,
+        100,
+        {
+          "SupNo": 2
+        }
+      ],
+      "2": [
+        "Arrange",
+        15,
+        80003
+      ],
+      "_parallel": false
+    },
+    "_parallel": true
+  },
+  "14": {
+    "1": [
+      "UnitAttack",
+      30003,
+      21014,
+      "Common"
+    ],
+    "_parallel": false
+  },
+  "15": {
+    "1": [
+      "UnitAttack",
+      30003,
+      21015,
+      "Common"
+    ],
+    "_parallel": false
+  },
+  "16": {
+    "1": {
+      "1": [
+        "NearestTarget",
+        "Friend",
+        30,
+        100,
+        {
+          "Sup": true
+        }
+      ],
+      "2": [
+        "Arrange",
+        17,
+        80001
+      ],
+      "_parallel": false
+    },
+    "2": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "_parallel": true
+  },
+  "17": {
+    "1": [
+      "UnitAttack",
+      10010,
+      10006,
+      "Common"
+    ],
+    "_parallel": false
+  }
+}
