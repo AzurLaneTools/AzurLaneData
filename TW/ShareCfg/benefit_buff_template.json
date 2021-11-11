@@ -47,6 +47,61 @@
     "max_time": 0,
     "name": "經驗加成"
   },
+  "5": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "more_oil",
+    "desc": "普通關卡、困難關卡、活動關卡的油耗增加200%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 5,
+    "max_time": 0,
+    "name": "石油消耗增加"
+  },
+  "6": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "user_battle_exp",
+    "desc": "普通關卡、困難關卡、活動關卡的指揮官經驗獲取提高200%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 6,
+    "max_time": 0,
+    "name": "指揮官經驗加成"
+  },
+  "7": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "ship_battle_exp",
+    "desc": "普通關卡、困難關卡、活動關卡的角色經驗獲取提高200%",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 7,
+    "max_time": 0,
+    "name": "艦娘經驗加成"
+  },
+  "8": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "extra_drop",
+    "desc": "普通關卡、困難關卡、活動關卡額外掉落一次",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 8,
+    "max_time": 0,
+    "name": "掉落加成"
+  },
+  "9": {
+    "benefit_condition": "",
+    "benefit_effect": "1",
+    "benefit_type": "extra_activity_drop",
+    "desc": "活動掉落額外掉落一次，不與每日首次掉落疊加",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 9,
+    "max_time": 0,
+    "name": "活動掉落加成"
+  },
   "10": {
     "benefit_condition": "",
     "benefit_effect": "300",
@@ -300,12 +355,12 @@
     "benefit_condition": "",
     "benefit_effect": "0",
     "benefit_type": "urpt_drop_up",
-    "desc": "通過「蝶海夢花」活動關卡獲得的特裝原型數量翻倍",
+    "desc": "通过「蝶海梦花」活动关卡获得的特装原型数量翻倍",
     "hide": 0,
     "icon": "Props/buff_urptup",
     "id": 25,
     "max_time": 0,
-    "name": "活動關卡特裝原型掉落加成"
+    "name": "活动关卡特装原型掉落加成"
   },
   "35": {
     "benefit_condition": [
@@ -487,11 +542,38 @@
     "max_time": 0,
     "name": "<color=#FF69B4>魅力</color>MAX："
   },
+  "47": {
+    "benefit_condition": "61001",
+    "benefit_effect": "0",
+    "benefit_type": "desc",
+    "desc": "消耗2倍石油\n結算收益2倍",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 47,
+    "max_time": 0,
+    "name": "特殊作戰加成描述"
+  },
+  "48": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "chapter_up",
+    "desc": "好感度、心情值、指揮官經驗、指揮喵經驗、艦船經驗加成",
+    "hide": 0,
+    "icon": "Props/xinshou",
+    "id": 48,
+    "max_time": 0,
+    "name": "特殊作戰加成"
+  },
   "all": [
     1,
     2,
     3,
     4,
+    5,
+    6,
+    7,
+    8,
+    9,
     10,
     11,
     12,
@@ -519,6 +601,8 @@
     43,
     44,
     45,
-    46
+    46,
+    47,
+    48
   ]
 }

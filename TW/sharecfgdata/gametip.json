@@ -394,8 +394,35 @@
   "archives_whether_to_retreat": {
     "tip": "真的要<color=#92fc63>撤退</color>嗎?\n（撤退不返還檔案密鑰） "
   },
+  "area_anquan": {
+    "tip": "安全海域"
+  },
   "area_lock": {
     "tip": "該處海域尚未解鎖"
+  },
+  "area_putong": {
+    "tip": "普通海域"
+  },
+  "area_renwu": {
+    "tip": "任務海域"
+  },
+  "area_shenyuan": {
+    "tip": "深淵海域"
+  },
+  "area_unkown": {
+    "tip": "未知海域"
+  },
+  "area_yaosai": {
+    "tip": "塞壬要塞"
+  },
+  "area_yaosai_2": {
+    "tip": "當前海域已被塞壬入侵"
+  },
+  "area_yinmi": {
+    "tip": "隱秘海域"
+  },
+  "area_zhuxian": {
+    "tip": "主線海域"
   },
   "attire_time_stamp": {
     "tip": "$1天$2小時$3分鐘"
@@ -547,6 +574,12 @@
   "autofight_change_tip": {
     "tip": "由於艦隊發生變化，艦隊職能變為<color=#92fc63>全部戰鬥</color>"
   },
+  "autofight_discovery": {
+    "tip": "本次作戰完成海域探索目標：$1"
+  },
+  "autofight_effect": {
+    "tip": "適應性調整：攻擊 +$1,耐久 +$2,恢復 +$3"
+  },
   "autofight_entrust": {
     "tip": "本次作戰出現緊急委託：$1"
   },
@@ -555,6 +588,9 @@
   },
   "autofight_farm": {
     "tip": "周回模式"
+  },
+  "autofight_file": {
+    "tip": "本次作戰解鎖檔案——$1"
   },
   "autofight_formation": {
     "tip": "編隊"
@@ -600,6 +636,18 @@
   },
   "autofight_task": {
     "tip": "本次作戰完成任務：$1"
+  },
+  "autofight_tip_bigworld_begin": {
+    "tip": "當前所選艦隊開始自律尋敵"
+  },
+  "autofight_tip_bigworld_dead": {
+    "tip": "當前艦隊已戰敗，無法繼續自律尋敵"
+  },
+  "autofight_tip_bigworld_stop": {
+    "tip": "當前所選艦隊自律尋敵停止"
+  },
+  "autofight_tip_bigworld_suspend": {
+    "tip": "當前所選艦隊視野內無可自律事件，無法繼續自律尋敵"
   },
   "award_max_warning": {
     "tip": "以下獎勵因超出上限而<color=#ff5c5c>無法獲得</color>，是否仍要領取？"
@@ -1265,6 +1313,9 @@
   "blueprint_simulation_confirm_19902": {
     "tip": "<size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型雙聯裝457mm主炮MKA\n雙聯裝127mm高平兩用炮MK12\nBofors 四聯40mm對空機炮？\n</color></size>"
   },
+  "blueprint_simulation_confirm_19903": {
+    "tip": "<size=28>\n是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n三聯裝203mm主炮Mk15\n四聯裝533mm魚雷Mk17\n四聯裝28mm“芝加哥鋼琴”\n</color></size>"
+  },
   "blueprint_simulation_confirm_29903": {
     "tip": "<size=28>\n是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型雙聯裝234mm主炮\n四聯裝533mm魚雷\n雙聯裝40mm博福斯STAAG\n</color></size>"
   },
@@ -1277,6 +1328,9 @@
   "blueprint_simulation_confirm_39904": {
     "tip": "<size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝310mm主炮\n雙聯100mm98式高射炮\n試作型五式40mm高射機關炮\n</color></size>"
   },
+  "blueprint_simulation_confirm_39905": {
+    "tip": "<size=28>\n是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型彩雲（艦攻型）\n試作艦載型天雷\n試作型彩雲（艦攻型）\n</color></size>"
+  },
   "blueprint_simulation_confirm_49902": {
     "tip": "<size=28>是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型雙聯裝406mmSKC主炮\n雙聯裝TbtsKC36式150mm主炮\n雙聯105mmSKC高炮\n</color></size>"
   },
@@ -1285,6 +1339,15 @@
   },
   "blueprint_simulation_confirm_49904": {
     "tip": "<size=28>\n是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝305mmSKC39主炮\n四聯裝533mm磁性魚雷\n雙聯105mmSKC高炮\n</color></size>"
+  },
+  "blueprint_simulation_confirm_49905": {
+    "tip": "<size=28>\n是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝305mmSKC39主炮（超巡用）\n四聯裝533mm磁性魚雷\n雙聯105mmSKC高炮\n</color></size>"
+  },
+  "blueprint_simulation_confirm_49906": {
+    "tip": "<size=28>\n是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作艦載型BF-109G\nJu-87C俯衝轟炸機\nJu-87 D-4\n</color></size>"
+  },
+  "blueprint_simulation_confirm_69901": {
+    "tip": "<size=28>\n是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝406mm主炮Model1940\n三聯裝152mm主炮Model1934 \n試作型雙聯90mm高角炮Model1939\n</color></size>"
   },
   "blueprint_simulation_confirm_89902": {
     "tip": "<size=28>\n是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，\n<color=#ff5c5c>實際性能以獲得艦船為準</color>）\n使用裝備：<color=#92fc63>\n試作型三聯裝406mm/50主炮\n三聯裝152mm主炮Mle1930\n雙聯37mm高射炮Mle1936\n</color></size>"
@@ -1312,6 +1375,9 @@
   },
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "自身裝備的魚雷武器散佈角度減小"
+  },
+  "build_ship_accumulative": {
+    "tip": "累计建造:"
   },
   "build_ship_quickly_buy_stone": {
     "tip": "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>鑽石購買<color=$3>$2</color>個$4"
@@ -1652,6 +1718,12 @@
   "change_skin_secretary_ship_success": {
     "tip": "更換換裝並設為秘書艦成功"
   },
+  "change_technology_refresh_erro": {
+    "tip": "切換研發傾向失敗"
+  },
+  "change_technology_refresh_sucess": {
+    "tip": "切換研發傾向成功"
+  },
   "channel_name_1": {
     "tip": "全部"
   },
@@ -1826,6 +1898,9 @@
   },
   "collect_chapter_is_activation": {
     "tip": "有其他關卡正在攻略中，是否撤退?"
+  },
+  "collect_idol_tip": {
+    "tip": "※將周邊拖回選擇框區域可放回"
   },
   "collect_tip": {
     "tip": "隊伍中有角色正在出征，無法加入委託陣容"
@@ -2377,6 +2452,12 @@
   "create_player_success": {
     "tip": "創建角色成功"
   },
+  "cumulative_victory_now_tip": {
+    "tip": "當前勝利次數："
+  },
+  "cumulative_victory_target_tip": {
+    "tip": "目標勝利次數："
+  },
   "dailyLevel_opened": {
     "tip": "開放"
   },
@@ -2844,6 +2925,21 @@
   "equipment_equipmentScene_selectError_more": {
     "tip": "最多選擇<color=#A9F548>$1</color>個裝備"
   },
+  "equipment_info_change_name_a": {
+    "tip": "雙聯裝203mm主炮Mle1924"
+  },
+  "equipment_info_change_name_b": {
+    "tip": "雙聯裝203mm主炮Mle1931"
+  },
+  "equipment_info_change_text_after": {
+    "tip": "變更後"
+  },
+  "equipment_info_change_text_before": {
+    "tip": "变更前"
+  },
+  "equipment_info_change_tip": {
+    "tip": "以下裝備名稱已變更"
+  },
   "equipment_max_level": {
     "tip": "裝備最大等級"
   },
@@ -2902,7 +2998,7 @@
     "tip": "消耗物資"
   },
   "equipment_upgrade_costcheck_error": {
-    "tip": "请确认强化消耗材料后进行强化"
+    "tip": "請確認強化消耗材料後進行強化"
   },
   "equipment_upgrade_equipped_tag": {
     "tip": "裝備中："
@@ -3517,6 +3613,12 @@
   "guild_apply_sucess": {
     "tip": "申請成功"
   },
+  "guild_assult_ship_recommend": {
+    "tip": "推薦狀態更新成功，推薦攻堅隊角色設置成功"
+  },
+  "guild_assult_ship_recommend_conflict": {
+    "tip": "推薦狀態更新成功，該角色已經是推薦攻堅隊角色"
+  },
   "guild_battle_award": {
     "tip": "作戰產出"
   },
@@ -3532,8 +3634,14 @@
   "guild_battle_log": {
     "tip": "[$1] $2 消耗大艦隊資金$3 開啟大艦隊作戰"
   },
+  "guild_battle_result_boss_is_death": {
+    "tip": "大艦隊作戰首領戰已經結束，戰鬥失效"
+  },
   "guild_boss_cnt_no_enough": {
     "tip": "挑戰次數不足"
+  },
+  "guild_boss_fleet_cnt_invaild": {
+    "tip": "編隊不符合條件"
   },
   "guild_boss_fleet_desc": {
     "tip": "1.最多選擇<color=#92fc63>9</color>名角色，組成艦隊。 \n2.先鋒和主力需要至少各有<color=#92fc63>1</color>名指揮官自身港區的角色。 \n3.最多可以從攻堅隊選擇<color=#92fc63>3</color>名角色參與首領戰。 \n4.首領敵人血量歸零後，首領戰結束。 \n5.每位指揮官每天只能挑戰<color=#92fc63>1</color>次首領戰。"
@@ -3547,6 +3655,9 @@
   "guild_boss_formation_3": {
     "tip": "編隊內不能存在多個同名艦船"
   },
+  "guild_boss_formation_exist_event_ship": {
+    "tip": "$1正在執行委託任務無法出擊"
+  },
   "guild_boss_formation_exist_invaild_ship": {
     "tip": "攻堅隊成員發生變動，首領戰編隊已被更新"
   },
@@ -3558,6 +3669,12 @@
   },
   "guild_can_not_get_tip": {
     "tip": "未參與該事件，無法領取獎勵"
+  },
+  "guild_cancel_assult_ship_recommend": {
+    "tip": "推薦狀態更新成功，推薦攻堅隊角色取消成功"
+  },
+  "guild_cancel_assult_ship_recommend_conflict": {
+    "tip": "推薦狀態更新成功，該角色推薦狀態已被其他管理員取消"
   },
   "guild_cancel_only_once_pre_day": {
     "tip": "艦隊科技研發每天只能取消一次"
@@ -3597,6 +3714,9 @@
   },
   "guild_curr_fleet_can_not_edit": {
     "tip": "當前編隊不可編輯"
+  },
+  "guild_damage_ranking": {
+    "tip": "名次"
   },
   "guild_dissolve_erro": {
     "tip": "大艦隊解散失敗"
@@ -3667,7 +3787,7 @@
         "info": "2.作戰需要有大艦隊<color=#92fc63>司令</color>或<color=#92fc63>副司令</color>開啟，開啟時需要消耗\n<color=# 92fc63>大艦隊資金</color>。 "
       },
       {
-        "info": "3.作戰中有若干個事件，事件需要所有成員派遣艦船前往\n解決，<color=#92fc63>派遣的艦船越多，解決事件的速度越快</color >。 "
+        "info": "3.作戰中有若干個事件，事件需要所有成員派遣艦船前往\n解決，<color=#92fc63>派遣的艦船越多，解決事件的速度越快</color>。 "
       },
       {
         "info": "3.1.事件類型如下"
@@ -3865,6 +3985,9 @@
   "guild_info_update": {
     "tip": "大艦隊訊息更新成功"
   },
+  "guild_is_frozen_when_start_tech": {
+    "tip": "該大艦隊已被凍結，無法開始科技"
+  },
   "guild_join_cd": {
     "tip": "退出公會需要24小時後才能申請其他公會"
   },
@@ -3962,10 +4085,10 @@
         "info": "2.每隔6個小時會刷新1次派遣次數(現實時間<color=#92fc63>0/6/12/18</color>時\n分別刷新<color=#92fc63 >1</color>次)，每個事件單個成員最多可以派遣<color=#92fc63>4</color>次。 "
       },
       {
-        "info": "3.事件內派遣的艦船如果符合事件的<color=#92fc63>效率需求</color>，可額外提\n供解決事件的<color=#92fc63>效率值< /color>，進一步提高解決事件的速度。 "
+        "info": "3.事件內派遣的艦船如果符合事件的<color=#92fc63>效率需求</color>，可額外提\n供解決事件的<color=#92fc63>效率值</color>，進一步提高解決事件的速度。 "
       },
       {
-        "info": "4.同時事件會有一些其他<color=#92fc63>評價需求</color>，派遣的艦船如果符合\n事件的評價需求，可額外為事件提供<color=# 92fc63>評價加成</color>，評價加成\n達到一定程度，事件會有<color=#92fc63>額外獎勵</color>，個別事件的評價可能\n影響最終出現的首領敵人。 "
+        "info": "4.同時事件會有一些其他<color=#92fc63>評價需求</color>，派遣的艦船如果符合\n事件的評價需求，可額外為事件提供<color=# 92fc63>評價加成</color>，評價加成達到一定程度，事件會有<color=#92fc63>額外獎勵</color>，個別事件的評價可能影響最終出現的首領敵人。 "
       },
       {
         "info": "5.事件內有若干個節點，節點的成功率受所有成員派遣的\n<color=#92fc63>角色數量</color>影響，節點無論成功或失敗都會獲得獎勵。 "
@@ -4081,6 +4204,9 @@
   "guild_open_event_info_when_exist_active": {
     "tip": "正在進行$1，無法選擇該作戰"
   },
+  "guild_operation_event_occurrence": {
+    "tip": "大艦隊作戰中有新的事件可以派遣，請前往確認"
+  },
   "guild_player_already_join": {
     "tip": "對方已經加入公會"
   },
@@ -4142,6 +4268,9 @@
   },
   "guild_quit_sucess": {
     "tip": "退出大艦隊成功"
+  },
+  "guild_recommend_limit": {
+    "tip": "推薦攻堅隊角色已經達到9個，無法繼續設置"
   },
   "guild_rejecet_apply_sucess": {
     "tip": "拒絕申請成功"
@@ -4409,14 +4538,26 @@
   "guild_tech_upgrade_done": {
     "tip": "艦隊科技學習成功，等級提升"
   },
+  "guild_time_remaining_tip": {
+    "tip": "作戰剩餘時間:"
+  },
   "guild_tip_dissolve": {
     "tip": "大艦隊一旦解散將無法恢復，是否確認解散大艦隊？"
   },
   "guild_tip_grand_fleet_is_frozen": {
     "tip": "該大艦隊已被封禁，無法申請加入"
   },
+  "guild_tip_operation_time_is_not_ample": {
+    "tip": "該作戰剩餘時間已不足7天，可能會因時間不足以完成作戰而導致參戰次數損失，是否確認參與作戰？"
+  },
   "guild_tip_quit": {
     "tip": "是否確認退出大艦隊？"
+  },
+  "guild_tip_quit_operation": {
+    "tip": "正在參與大艦隊作戰，退出大艦隊將損失已經消耗的大艦隊作戰次數(本月參與次數剩餘：$1)，是否確認退出大艦隊？"
+  },
+  "guild_total_damage": {
+    "tip": "總傷害"
   },
   "guild_total_effect": {
     "tip": "總效率:"
@@ -4489,6 +4630,12 @@
   },
   "guild_wrod_battle_target": {
     "tip": "戰術目標:"
+  },
+  "hand_account_resetting_tip": {
+    "tip": "是否重置手帳頁面？"
+  },
+  "hand_account_tip": {
+    "tip": "完成周邊收集後解鎖"
   },
   "handshake_game_help": {
     "tip": [
@@ -6356,7 +6503,10 @@
     "tip": "全部"
   },
   "index_awakening": {
-    "tip": "可認知覺醒"
+    "tip": "<size=36>可認知覺醒</size>"
+  },
+  "index_awakening2": {
+    "tip": "<size=36>可認知覺醒</size><size=30>II</size>"
   },
   "index_equip": {
     "tip": "裝備中"
@@ -6432,6 +6582,9 @@
   },
   "index_strengthen": {
     "tip": "可強化"
+  },
+  "index_upgrade": {
+    "tip": "可突破"
   },
   "index_without_limit": {
     "tip": "無限制"
@@ -6597,6 +6750,9 @@
   },
   "item_lack_title": {
     "tip": "<color=#92fc63>$1</color>不足， 可通過以下方式獲取<color=#92fc63>$1</color>"
+  },
+  "juese_tiyan": {
+    "tip": "是否開始角色體驗關卡？ （體驗關卡中我方艦船屬性僅供參考，<color=#ff5c5c>實際性能以獲得艦船為準</color>）"
   },
   "just_now": {
     "tip": "剛剛"
@@ -6843,6 +6999,9 @@
   },
   "levelScene_select_noitem": {
     "tip": "暫無可使用道具"
+  },
+  "levelScene_select_sp": {
+    "tip": "高效作戰指令書使用已開啟"
   },
   "levelScene_sham_win": {
     "tip": "「鏡面海域」作戰完成"
@@ -7616,10 +7775,10 @@
         "info": "META研究室說明："
       },
       {
-        "info": "·META研究室擁有<color=#92fc63>「能量活化」</color>、<color=#92fc63>「戰術研修」</color >、\n<color=#92fc63>「艦裝強化」</color>、<color=#92fc63>「資訊同步」</color>4個系統模塊\n"
+        "info": "·META研究室擁有<color=#92fc63>「能量活化」</color>、<color=#92fc63>「戰術研修」</color>、\n<color=#92fc63>「艦裝強化」</color>、<color=#92fc63>「資訊同步」</color>4個系統模塊\n"
       },
       {
-        "info": "1.< color=#92fc63>能量活化</color>\n·META角色達到指定等級後可以使用對應的角色結晶進行\n活化。活化後可以提升角色星級\n·角色結晶可以通過「資訊同步」獎勵獲取"
+        "info": "1.<color=#92fc63>能量活化</color>\n·META角色達到指定等級後可以使用對應的角色結晶進行活化。活化後可以提升角色星級\n·角色結晶可以通過「資訊同步」獎勵獲取"
       },
       {
         "info": "2.<color=#92fc63>戰術研修</color>\n·完成戰術研修任務獲得META角色的技能升級經驗，部\n分任務可以重複完成\n·一名角色只能同時進行一項技能的戰術養成任務，多名\n角色之間彼此獨立，同時進行\n·一名角色每日最多獲取<color=#92fc63>30000</color>點技能升級經驗，其中前\n<color=#92fc63>60%</color>的技能升級經驗擁有雙倍任務完成效率\n（剩餘次數不滿2次時不生效）\n·任務類型和可完成次數會隨著技能等級升級而刷新"
@@ -7673,6 +7832,9 @@
   },
   "meta_skill_maxtip": {
     "tip": "$1的當前研修技能已達滿級，是否前往切換研修技能？"
+  },
+  "meta_skill_maxtip2": {
+    "tip": "該技能已滿級"
   },
   "meta_skill_unlock": {
     "tip": "請點擊習得技能後進行研修"
@@ -7827,6 +7989,9 @@
   },
   "month_sign_resign": {
     "tip": "由於4月4日全港區停服，為指揮官補發一日簽到獎勵"
+  },
+  "monthly_card_tip": {
+    "tip": "30日每日獲得資源"
   },
   "msgbox_repair": {
     "tip": "修復資源"
@@ -8279,6 +8444,9 @@
   "pocky_jiujiu_desc": {
     "tip": "無情的打卡機器傳來了“請打卡”的聲音"
   },
+  "practise_idol_tip": {
+    "tip": "是否對$1進行練習？"
+  },
   "pray_build_help": {
     "tip": [
       {
@@ -8576,6 +8744,9 @@
   },
   "res_pic_new_tip": {
     "tip": "本次更新新增了$1張插畫，快來看看吧"
+  },
+  "res_unlock_tip": {
+    "tip": "消耗以下材料完成解鎖"
   },
   "res_wifi_tip": {
     "tip": "正在使用非WIFI網路，下載可能產生流量，是否繼續下載?"
@@ -9164,6 +9335,9 @@
   "ship_formationUI_fleetName_normal_ss": {
     "tip": "普通潛艇編隊"
   },
+  "ship_formationUI_fleetName_world": {
+    "tip": "大型作戰艦隊"
+  },
   "ship_formationUI_quest_remove": {
     "tip": "是否要把<color=#A9F548>$1</color>移出陣型？"
   },
@@ -9242,6 +9416,9 @@
   "ship_profile_voice_locked_intimacy": {
     "tip": "好感度達到$1後解鎖"
   },
+  "ship_profile_voice_locked_meta": {
+    "tip": "维修进度达到$1%后解锁(未使用)"
+  },
   "ship_profile_voice_locked_propose": {
     "tip": "誓約後解鎖"
   },
@@ -9308,11 +9485,23 @@
   "ship_remould_warning_102174": {
     "tip": "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
   },
+  "ship_remould_warning_102284": {
+    "tip": "此次改造操作後<color=#92fc63>【雷達掃描】</color>技能\n將升級為<color=#92fc63>【雷達掃描·改】</color>"
+  },
+  "ship_remould_warning_107984": {
+    "tip": "此次改造操作後<color=#92fc63>【所有戰鬥機+1】、【所有魚雷機+1】</color>\n是否確認繼續操作？"
+  },
+  "ship_remould_warning_201514": {
+    "tip": "此次改造操作後<color=#92fc63>【魚雷底座-1】</color> <color=#92fc63>【防空炮底座+1】</color>\n是否確認繼續操作？"
+  },
   "ship_remould_warning_203114": {
     "tip": "此次改造操作將導致\n<color=#92fc63>【魚雷】欄位</color>變更為<color=#92fc63>【副武器】欄位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>\n是否確認繼續操作？"
   },
   "ship_remould_warning_205124": {
     "tip": "此次改造操作將消耗<color=#A9F548>戰士的心得</color>\n是否確認繼續操作？"
+  },
+  "ship_remould_warning_301534": {
+    "tip": "此次改造操作後<color=#92fc63>【霞光之絆】</color>技能\n將升級為<color=#92fc63>【霞光之絆·改】</color>"
   },
   "ship_remould_warning_301874": {
     "tip": "此次改造操作將消耗<color=#92fc63>烤肉味香水</color>\n是否確認繼續操作？\n改造後<color=#92fc63>【魚雷底座-1】</color> <color=#92fc63>【主炮底座+1】</color>\n技能<color=#92fc63>【所羅門的噩夢】</color>將升級為<color=#92fc63>【所羅門的噩夢.改】</color>\n技能<color=#92fc63>【專屬彈幕-夕立II】</color>將升級為<color=#92fc63>【專屬彈幕-夕立III】</color>"
@@ -9334,6 +9523,9 @@
   },
   "ship_remould_warning_402134": {
     "tip": "此次改造操作後第一個【設備】欄位增加可裝備類型<color=#92fc63>【直升機】</color>\n是否確認繼續操作？"
+  },
+  "ship_remould_warning_702124": {
+    "tip": "此次改造操作將導致<color=#92fc63>$1</color>艦艇類型變化\n<color=#92fc63>【主武器（輕巡主炮）】</color>變更為\n<color=#92fc63>【主武器（驅逐主炮）】</color>欄位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>\n<color=#92fc63>【主武器】</color>欄的裝備將被卸下\n是否確認繼續操作？"
   },
   "ship_renameShip_error": {
     "tip": "專屬艦更名失敗"
@@ -9663,6 +9855,9 @@
   "special_operation_type3": {
     "tip": "未配置tip"
   },
+  "special_transform_limit_reach": {
+    "tip": "已經擁有該改造道具或對應的改造後艦船，無法兌換"
+  },
   "spring_invited_2021": {
     "tip": "指揮官只能選擇一人贈予賀年卡，\n是否確認贈予<color=#92fc63>$1</color>？\n贈予後會獲得對應角色和回禮"
   },
@@ -9861,6 +10056,9 @@
   "tec_act_catchup_btn_word": {
     "tip": "藍圖補完"
   },
+  "tec_catchup_errorfix": {
+    "tip": "由於「新兵訓練」中「科研任務·一期」存在完成後刷新異常的問題。公平起見，第一次完成「科研任務·一期」任務後，將自動重置一次一期的任務，確保所有指揮官都能完成兩輪「科研任務·一期」。"
+  },
   "tec_nation_award_finish": {
     "tip": "- 已領取 -"
   },
@@ -9972,6 +10170,12 @@
   },
   "technology_canot_refresh": {
     "tip": "已有研發中的科研項目，無法更新"
+  },
+  "technology_finish_erro": {
+    "tip": "完成研發失敗"
+  },
+  "technology_finish_success": {
+    "tip": "完成研發成功"
   },
   "technology_help_text": {
     "tip": [
@@ -10246,6 +10450,15 @@
   },
   "unlock_tips": {
     "tip": "·  第$1日解鎖  ·"
+  },
+  "upgrade_complete_tip": {
+    "tip": "練習已完成"
+  },
+  "upgrade_idol_tip": {
+    "tip": "「選擇想要練習的項目」"
+  },
+  "upgrade_introduce_tip": {
+    "tip": "$1提升至Lv.MAX可獲取特別獎勵"
   },
   "upgrade_to_next_maxlevel_failed": {
     "tip": "已達到最大等級上限，\n無法進行認知覺醒"
@@ -11206,6 +11419,12 @@
   "word_shipState_fight": {
     "tip": "該角色正在作戰中！"
   },
+  "word_shipState_guild_boss": {
+    "tip": "該角色為大艦隊作戰首領戰編隊成員，是否確認將該角色移出編隊？"
+  },
+  "word_shipState_guild_event": {
+    "tip": "角色正在參與大艦隊作戰，無法退役"
+  },
   "word_shipState_npc": {
     "tip": "NPC角色無法加入當前編隊！"
   },
@@ -11548,6 +11767,21 @@
   "words_visit_backyard_toggle": {
     "tip": "允許好友拜訪後宅"
   },
+  "world_ap": {
+    "tip": "行動力"
+  },
+  "world_battle_count": {
+    "tip": "交战次数说明文本占坑"
+  },
+  "world_battle_damage": {
+    "tip": "<color=#ff5c5c>戰損狀態</color>需要通過艦隊維護或港口修理消除"
+  },
+  "world_battle_pause": {
+    "tip": "OPERATION"
+  },
+  "world_battle_pause2": {
+    "tip": "大型作戰"
+  },
   "world_boss_ad": {
     "tip": "[$1]TIER.$2"
   },
@@ -11591,6 +11825,19 @@
       }
     ]
   },
+  "world_boss_help_meta": {
+    "tip": [
+      {
+        "info": "信標·META功能說明\n\n1. <color=#92fc63>2021.11.11-2022.2.10</color>期間限時開放「飛龍·META」的挑戰，在此期間指揮官可挑戰「飛龍·META」累計其同步值獲取<color=#92fc63>「飛龍·META」角色</color>及其他豐厚獎勵\n <color=#ff5c5c>注意：同步值將於時間結束後消失</color>\n\n2.「信標數據」獲取與解析\n·指揮官可通過在大型作戰中獲取「信標數據」，達到指定數據量後進行解析並發現特定信標\n·每日最多可解析 <color=#92fc63>2次</color>，次數於每日0點重置，尚未使用的「信標數據」將會保留。 \n·每次解析「信標數據」所需量為<color=#92fc63>100</color>點\n\n3.挑戰自己解析的信標\n·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color>點逐漸減少至<color=#92fc63>1</color>點。 (不會消耗挑戰次數)\n·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。 \n·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失，記得向其他指揮官請求支援哦。 \n·每次挑戰成功後，信標的強度將會提升1階段，總計15階段。隨著階段提升，戰鬥獎勵也會提升。 \n\n4.挑戰其他信標\n·在信標列表介面可以挑戰其他指揮官發起求助的信標，參與其他指揮官發布的信標戰鬥結束後，將會根據造成的傷害程度<color=#92fc63>立刻獲得角色同步值獎勵</color>。 \n·每次挑戰需要消耗1點挑戰次數，不需要消耗石油\n·每日擁有總計<color=#92fc63>3</color>點挑戰次數，每日0點重置\n·同一個信標最多能允許累計30位指揮官進行挑戰\n\n5.戰鬥說明\n·挑戰信標·META只能使用大型作戰中的艦船，暫不可使用指揮喵與潛艇\n·戰鬥結算時不會獲得經驗值，不會影響艦船心情值\n·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：\n①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害\n②挑戰信標列表中的信標時將會消耗挑戰次數且無法獲得任何獎勵\n <color=#92fc63>請在參與作戰時保持網路環境暢通</color>\n\n6.火力支援\n隨著信標·META挑戰的進行，從第31天開始，即2021.12.12~2022.2.10期間，艦隊挑戰「飛龍·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 \n※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。 "
+      }
+    ]
+  },
+  "world_boss_inbattle": {
+    "tip": "當前處於信標·META作戰中，不可前往"
+  },
+  "world_boss_maintenance": {
+    "tip": "伺服器即將維護,無法進行信標·META作戰"
+  },
   "world_boss_none": {
     "tip": "所選座標已變為不可挑戰狀態，請嘗試其他座標！"
   },
@@ -11601,10 +11848,67 @@
     "tip": "用於記錄在大型作戰中收集到的<color=#92fc63>「餘燼座標數據」</color>的裝置，達到指定數據量後可據此數據進行解析，發現餘燼座標\nP.S.記錄儀的記錄容量有限，請務必及時前往解析\n今日解析次數:$1/$2\n數據記錄量：$3"
   },
   "world_boss_pt_recove_desc": {
-    "tip": "每天0點回复$1點挑戰次數"
+    "tip": "每天0點回復$1點挑戰次數"
   },
   "world_boss_tip": {
     "tip": "「<color=#7e7e7f>$1</color>」為演習做出了<color=#8299bc>$2</color>貢獻"
+  },
+  "world_boss_unactivated": {
+    "tip": "請先啟動大型作戰，再進行挑戰"
+  },
+  "world_catsearch_fleetcheck": {
+    "tip": "正在進行搜尋作業的指揮喵將被強制召回。\n是否結束搜尋並重編艦隊？"
+  },
+  "world_catsearch_help_1": {
+    "tip": "搜尋進度會<color=#ffde38>隨著艦隊行動次數推進</color>，\n是否中斷搜尋作業，並召回指揮喵？\n<color=#92fc63>（中斷後將會立刻結算已獲取的獎勵）</color>"
+  },
+  "world_catsearch_help_2": {
+    "tip": "搜尋獎勵查詢"
+  },
+  "world_catsearch_help_3": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/tactics",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "world_catsearch_help_4": {
+    "tip": "搜尋中..."
+  },
+  "world_catsearch_help_5": {
+    "tip": "指揮喵物資搜尋中，暫時無法為艦隊提供加成"
+  },
+  "world_catsearch_help_6": {
+    "tip": "搜尋過程中有機率獲得以下獎勵"
+  },
+  "world_catsearch_leavemap": {
+    "tip": "正在進行搜尋作業的指揮喵將被強制召回！\n是否結束搜尋並離開當前海域？"
+  },
+  "world_catsearch_stop": {
+    "tip": "是否中斷搜尋作業，並召回指揮喵？"
+  },
+  "world_catsearch_success": {
+    "tip": "指揮喵已成功開始進行搜尋作業！"
+  },
+  "world_close": {
+    "tip": "大型作戰已經關閉，暫時無法進入。"
   },
   "world_collection_1": {
     "tip": "收集進度"
@@ -11621,11 +11925,145 @@
   "world_collection_test": {
     "tip": "未配置tip"
   },
+  "world_consume_carry_tips": {
+    "tip": "未配置tip"
+  },
+  "world_dangerbattle_confirm": {
+    "tip": "敵方的攻擊、耐久、作戰效能都受到了極大強化！ \n是否確認進行戰鬥？"
+  },
+  "world_event_teleport_alter": {
+    "tip": "即將前往其他海域，當前交戰中的艦隊將會撤退"
+  },
+  "world_exit_tip": {
+    "tip": "需要暫時離開大型作戰嗎？"
+  },
   "world_file_desc": {
     "tip": "未配置tip"
   },
   "world_file_name": {
     "tip": "未配置tip"
+  },
+  "world_fleetName1": {
+    "tip": "第 一 艦 隊"
+  },
+  "world_fleetName2": {
+    "tip": "第 二 艦 隊"
+  },
+  "world_fleetName3": {
+    "tip": "第 三 艦 隊"
+  },
+  "world_fleetName4": {
+    "tip": "第 四 艦 隊"
+  },
+  "world_fleetName5": {
+    "tip": "潛 艇 艦 隊"
+  },
+  "world_fleet_choose": {
+    "tip": "<color=#80e742>在大型作戰中，戰鬥將不會影響心情與消耗石油</color>"
+  },
+  "world_fleet_formation_not_valid": {
+    "tip": "必須部署$1"
+  },
+  "world_fleet_in_vortex": {
+    "tip": "艦隊進入水流湍急的漩渦之中，移動能力受限。"
+  },
+  "world_fleet_stop": {
+    "tip": "艦隊移動正在停止"
+  },
+  "world_help_tip": {
+    "tip": [
+      {
+        "info": "\n大型作戰說明：(未使用)"
+      }
+    ]
+  },
+  "world_instruction_all_1": {
+    "tip": "該功能未開啟"
+  },
+  "world_instruction_detect_1": {
+    "tip": "是否消耗$1行動力，\n偵查當前海域的全部區域？"
+  },
+  "world_instruction_detect_2": {
+    "tip": "當前海域已偵查完畢"
+  },
+  "world_instruction_help_1": {
+    "tip": [
+      {
+        "info": "  <color=#92fc63>艦隊部署</color>\n   在己方港口海域，可以從港區船塢中重新部署參與大型作戰的艦隊，並為所有艦船恢復耐久與士氣。 \n\n  <color=#92fc63>艦隊維護</color>\n  為所有艦隊恢復士氣與耐久，並消除戰損狀態。 \n\n  <color=#92fc63>空域偵察</color>\n  消耗行動力偵察當前海域的全部區域。 \n\n  <color=#92fc63>潛艇支援</color>\n  可以部署與呼叫潛艇編隊支援，潛艇部隊需要在港口海域進行部署。 \n "
+      }
+    ]
+  },
+  "world_instruction_morale_1": {
+    "tip": "是否消耗$1行動力，\n為所有艦隊恢復士氣與耐久，並消除戰損狀態？"
+  },
+  "world_instruction_morale_2": {
+    "tip": "各艦隊士氣高昂，無需進行士氣恢復"
+  },
+  "world_instruction_morale_3": {
+    "tip": "所有艦隊的士氣恢復完畢"
+  },
+  "world_instruction_morale_4": {
+    "tip": "※指令使用後，一段時間內無法使用"
+  },
+  "world_instruction_redeploy_1": {
+    "tip": "當前海域無法進行艦隊部署，請前往我方港口海域"
+  },
+  "world_instruction_redeploy_2": {
+    "tip": "艦隊部署已完成，所有艦船的耐久與士氣都恢復了"
+  },
+  "world_instruction_redeploy_3": {
+    "tip": "艦隊正在運送特殊物品，無法進行部署，請先將特殊物品歸位。"
+  },
+  "world_instruction_submarine_1": {
+    "tip": "當前海域無法使用該功能"
+  },
+  "world_instruction_submarine_10": {
+    "tip": "未配置tip"
+  },
+  "world_instruction_submarine_11": {
+    "tip": "潛艇自動召喚設置保存成功"
+  },
+  "world_instruction_submarine_2": {
+    "tip": "是否消耗$1行動力，\n向當前海域派遣潛艇艦隊？"
+  },
+  "world_instruction_submarine_3": {
+    "tip": "當前地圖已部署有潛艇艦隊"
+  },
+  "world_instruction_submarine_4": {
+    "tip": "尚未部署潛艇艦隊，無法呼叫支援"
+  },
+  "world_instruction_submarine_5": {
+    "tip": "潛艇艦隊已撤離"
+  },
+  "world_instruction_submarine_6": {
+    "tip": "離開當前海域後，潛艇艦隊會自動返回我方港口待命，是否離開？"
+  },
+  "world_instruction_submarine_7": {
+    "tip": "是否消耗$1行動力，\n為潛艇艦隊補充彈藥並恢復狀態？"
+  },
+  "world_instruction_submarine_8": {
+    "tip": "※指令使用間隔越短，行動力消耗越高"
+  },
+  "world_instruction_submarine_9": {
+    "tip": "自律尋敵時，當潛艇支援的消耗小於等於\n時自動召喚"
+  },
+  "world_instruction_supply_1": {
+    "tip": "是否消耗$1行動力申請一份基礎補給？(當前行動力：$2)(未使用)"
+  },
+  "world_instruction_supply_2": {
+    "tip": "$1後可再次進行艦隊維護"
+  },
+  "world_item_allocate_panel_fleet_info_text": {
+    "tip": "未配置tip"
+  },
+  "world_item_origin": {
+    "tip": "該道具可由以下方式獲取"
+  },
+  "world_item_recycle_1": {
+    "tip": "重置後道具將被轉化"
+  },
+  "world_item_recycle_2": {
+    "tip": "重置後道具將會消失"
   },
   "world_joint_boss_award_expired": {
     "tip": "獎勵領取失敗"
@@ -11669,14 +12107,62 @@
   "world_joint_whitout_guild": {
     "tip": "還沒有加入大艦隊哦"
   },
+  "world_level_prefix": {
+    "tip": "等級LV.$1"
+  },
+  "world_low_morale": {
+    "tip": "當前艦隊士氣過低，無法與強敵戰鬥！\n提示：取得任意戰鬥勝利均可恢復艦隊的士氣。"
+  },
+  "world_map_dangerous": {
+    "tip": "未配置tip"
+  },
   "world_map_dangerous_confirm": {
     "tip": "深淵海域作戰難度較高且不可重複進入，\n請確認艦隊戰備後前往作戰"
+  },
+  "world_map_level": {
+    "tip": "作戰強度等級：\n指揮官當前的作戰強度等級為<color=#92fc63>$1</color>，建議攻略該侵蝕等級及以下的海域。"
+  },
+  "world_map_locked_border": {
+    "tip": "周邊海域未壓制"
+  },
+  "world_map_locked_stage": {
+    "tip": "海域尚未開放"
+  },
+  "world_map_not_open": {
+    "tip": "海域尚未開放"
+  },
+  "world_map_title_tips": {
+    "tip": "作戰情報"
+  },
+  "world_map_title_tips_en": {
+    "tip": "OPERATIONINFO"
   },
   "world_map_version": {
     "tip": "當前海域由於版本更新被重置"
   },
+  "world_mapbuff_attrtxt_1": {
+    "tip": "攻擊調整"
+  },
+  "world_mapbuff_attrtxt_2": {
+    "tip": "耐久調整"
+  },
+  "world_mapbuff_attrtxt_3": {
+    "tip": "恢復干擾"
+  },
+  "world_mapbuff_compare_txt": {
+    "tip": "適應性壓制"
+  },
   "world_max_challenge_cnt": {
     "tip": "所選座標挑戰人數已滿，請嘗試其他座標！"
+  },
+  "world_mileage": {
+    "tip": "出海里程"
+  },
+  "world_movelimit_event_text": {
+    "tip": "當前海域存在尚未完成的事件，目前無法離開。\n是否繼續？"
+  },
+  "world_pressing": {
+    "tip": "壓制統計"
   },
   "world_record_desc": {
     "tip": "未配置tip"
@@ -11684,11 +12170,186 @@
   "world_record_name": {
     "tip": "未配置tip"
   },
+  "world_recycle_item_transform": {
+    "tip": "「大型作戰」已經重置，尚未使用的作戰物資已被轉換為戰備物資兌換券："
+  },
+  "world_recycle_notice": {
+    "tip": "「大型作戰」將在退出後進行重置，是否繼續退出？"
+  },
+  "world_redeploy_cost_tip": {
+    "tip": "完成本次艦隊部署需要消耗$1行動力，是否繼續？\n(當前行動力：$2；指令使用間隔越短，行動力消耗越高)"
+  },
+  "world_redeploy_not_change": {
+    "tip": "部署前後艦隊成員沒有發生變化，是否完成部署？"
+  },
+  "world_redeploy_tip": {
+    "tip": "尚未部署該艦隊"
+  },
+  "world_redeploy_warn": {
+    "tip": "重新部署時，停留在港口的艦船將會返回港區船塢，是否繼續？"
+  },
+  "world_reset_1": {
+    "tip": "距離大型作戰重置<color=#92fc63>$1</color>天"
+  },
+  "world_reset_2": {
+    "tip": "大型作戰將於明日<color=#92fc63>$1</color>點重置"
+  },
+  "world_reset_3": {
+    "tip": "再次進入大型作戰後重置生效"
+  },
   "world_reset_success": {
     "tip": "大型作戰已重置"
   },
+  "world_reset_tip": {
+    "tip": [
+      {
+        "info": "大型作戰重置說明\n\n·<color=#92fc63>重置條件與時間</color>\n①大型作戰將於2022年1月1日0:00點重置，之後固定於\n<color=#92fc63>每月1日的0:00</color>點進行重置\n②0點時，如果已經完成大型作戰前四章主線劇情關卡，\n大型作戰進行重置；\n如果未完成主線劇情關卡，大型作戰將不會進行重置\n③0點後，重新進入大型作戰將使重置生效，指揮官需要重新部署艦隊至大型作戰\n\n·<color=#92fc63>重置後大型作戰的變化</color>\n①重置後大型作戰各海域將恢復至未壓制狀態，所有港口都默認開放，進入海域後指揮官艦隊位於利物浦港口。\n未完成的塞壬要塞海域、深淵海域、隱秘海域、安全海域將會消失\n②重置後各個港口的日常任務將會重置，指揮官已經接取的日常任務將會消失\n③重置後大型作戰港口將恢復至初始狀態。在一個大型\n作戰週期內，每個港口「補給」隨機刷新的商品總體相同，僅在出現順序上有所差異；若已於當前週期兌換完所有的商品，需等到大型作戰<color=#92fc63>下一次重置</color>後進行刷新\n④重置不會影響海域探索(收集星星)的任務完成進度\n⑤重置後，「適應性調整-攻擊」、「適應性調整-耐久」、「適應性調整-恢復」的相關數值將恢復至初始狀態\n⑥重置後，行動力將恢復至<color=#92fc63>初始狀態（200點）</color>\n\n·<color=#92fc63>儲物艙與特別兌換商店</color>\n①重置後「儲物艙」將恢復至初始狀態。「儲物艙」內未使用道具將會轉化為相應數量的「戰備物資兌換券」指揮官可以點擊<color=#92fc63>道具-查看詳情</color>查詢具體道具的兌換比例\n②重置後特別兌換商店中的商品的可兌換次數恢復至初始狀態，指揮官可以使用「戰備物資兌換券」進行兌換\n③其中，「特別兌換商店」可兌換道具<color=#92fc63>「戰役訊息記錄儀」</color>。「戰役訊息記錄儀」需在「儲物艙」使用，可用於解除所有海域間的移動限制，跳過重複調查過程，獲得所有海域的<color=#92fc63>調查獎勵</color>(不包含壓制獎勵)\n調查獎勵包含以下內容：\n「適應性調整-攻擊」×90、「適應性調整-耐久」×90、「適應性調整-恢復」×90、「能源補給箱」×45、「應急維修箱」×45、「作戰補給憑證」×84000"
+      }
+    ]
+  },
   "world_resource_fill": {
     "tip": "戰備物資兌換券已達到收集上限。"
+  },
+  "world_resource_tip_1": {
+    "tip": "未資源提示1(未使用)"
+  },
+  "world_resource_tip_2": {
+    "tip": "未資源提示1(未使用)"
+  },
+  "world_sairen_description1": {
+    "tip": "當前海域塞壬控制力為<color=#3dc6ff>$1%</color>"
+  },
+  "world_sairen_description2": {
+    "tip": "當前海域塞壬控制力為<color=#ffde38>$1%</color>"
+  },
+  "world_sairen_description3": {
+    "tip": "當前海域塞壬控制力為<color=#ff5c5c>$1%</color>"
+  },
+  "world_sairen_title": {
+    "tip": "塞壬控制力"
+  },
+  "world_sametask_tip": {
+    "tip": "領取任務失敗，相同的任務最多只能領取一個"
+  },
+  "world_setting_quickmode": {
+    "tip": "減少TB引導"
+  },
+  "world_setting_quickmodetip": {
+    "tip": "功能開啟後，不再播放重複的TB引導說明"
+  },
+  "world_setting_submititem": {
+    "tip": "自律時自動提交道具"
+  },
+  "world_setting_submititemtip": {
+    "tip": "功能開啟後，自律時自動完成需要提交道具的事件"
+  },
+  "world_setting_title": {
+    "tip": "大型作戰設置"
+  },
+  "world_ship_healthy": {
+    "tip": "所選目標無需修理！\n是否繼續使用"
+  },
+  "world_ship_repair": {
+    "tip": "請選擇需要使用的艦船："
+  },
+  "world_ship_repair_1": {
+    "tip": "常規維修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+  },
+  "world_ship_repair_2": {
+    "tip": "徹底維修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+  },
+  "world_ship_repair_all": {
+    "tip": "修復所有艦船需要：\n<icon name=world_money w=0.7 h=0.7/>*$1"
+  },
+  "world_ship_repair_no_need": {
+    "tip": "沒有艦船需要修理"
+  },
+  "world_shop_bag_unactivated": {
+    "tip": "大型作戰尚未啟動，無法購買，請首先進入大型作戰"
+  },
+  "world_shop_init_notice": {
+    "tip": "大型作戰已經重置，是否打開特別兌換商店？"
+  },
+  "world_shop_preview_tip": {
+    "tip": "重置後可購買商品預覽"
+  },
+  "world_stage_help": {
+    "tip": {
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "world_stamina_exchange": {
+    "tip": "行動力不足，是否花費<icon name=oil w=0.7 h=0.7/>$1兌換行動力*$2？"
+  },
+  "world_stamina_not_enough": {
+    "tip": "行動力不足"
+  },
+  "world_stamina_recover": {
+    "tip": "※行動力小於200時，每 <color=#92fc63>10分鐘</color> 恢復<color=#92fc63>1</color>點行動力"
+  },
+  "world_stamina_resetwarning": {
+    "tip": "注意：大型作戰即將<color=#ff5c5c>重置</color>，重置後多於$1的行動力<color=#ff5c5c>不會被保留</color>，指揮官請合理制定艦隊作戰策略！"
+  },
+  "world_stamina_text": {
+    "tip": "花費<color=#92fc63>$1</color>石油購買行動力<color=#92fc63>$2</color>點，本週剩餘<color=#92fc63>$3/$4</color>次"
+  },
+  "world_stamina_text2": {
+    "tip": "使用<color=#92fc63>$1</color>後恢復行動力<color=#92fc63>$2</color>點"
+  },
+  "world_target_count": {
+    "tip": "當前可領取目標獎勵$1個"
+  },
+  "world_task_goto0": {
+    "tip": "當前海域並非任務目標海域"
+  },
+  "world_task_goto3": {
+    "tip": "艦隊已位於任務目標海域"
+  },
+  "world_task_maplock": {
+    "tip": "當前海域存在尚未完成的任務，目前無法離開。\n請在<color=#ff5c5c>情報</color>中進行確認。\n是否繼續？"
+  },
+  "world_task_refuse1": {
+    "tip": "任務已到達領取上限，請完成一些任務後再來領取吧"
+  },
+  "world_task_samemap": {
+    "tip": "目標海域存在尚未完成的任務，無法接受該任務"
+  },
+  "world_task_view1": {
+    "tip": "任務位置："
+  },
+  "world_task_view2": {
+    "tip": "當前位置："
+  },
+  "world_task_view3": {
+    "tip": "不明"
+  },
+  "world_total_power": {
+    "tip": "總戰力"
+  },
+  "world_transport_battle_alter": {
+    "tip": "存在正處於交戰中的艦隊，無法前往其他海域"
+  },
+  "world_transport_disable": {
+    "tip": "當前海域無法通過邊界區域離開。是否繼續？"
+  },
+  "world_transport_locked": {
+    "tip": "當前海域尚未壓制，請將艦隊移動至海域邊緣前往相鄰區域"
+  },
+  "world_wind_move": {
+    "tip": "無法前往目標區域，請首先轉移已位於目標區域中的艦隊"
   },
   "world_word_expired": {
     "tip": "座標已過期"
