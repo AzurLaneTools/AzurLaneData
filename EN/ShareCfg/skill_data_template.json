@@ -8811,6 +8811,90 @@
       1
     ]
   },
+  "6890": {
+    "desc": "When equipped by Rikka Takarada: improves the attack pattern of her Grid Beam skill, and replaces her Main Gun with a Special Main Gun.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6890,
+    "max_level": 0,
+    "name": "Battle Tracto Max",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "6900": {
+    "desc": "When equipped by Rikka Takarada: improves the attack pattern of her Slash & Circus skill, and triggers an additional torpedo barrage every 20s.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6900,
+    "max_level": 0,
+    "name": "Gridman Calibur",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "6910": {
+    "desc": "When equipped by Rikka Takarada: improves the attack pattern of her Grid Beam skill, and replaces her Torpedo with a Special Torpedo.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6910,
+    "max_level": 0,
+    "name": "Buster Borr",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "6920": {
+    "desc": "When equipped by Rikka Takarada: improves the attack pattern of her Slash & Circus skill, and replaces her Anti-Air Gun with a Special Anti-Air Gun.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6920,
+    "max_level": 0,
+    "name": "Sky Vitter",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "6930": {
+    "desc": "Changes the BGM when equipped. If the frontmost ship of your Vanguard is a CL, CA, or CB: launches a special support barrage 12s after the battle starts.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6930,
+    "max_level": 0,
+    "name": "Dynamic Cannon",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "6940": {
+    "desc": "Changes the BGM when equipped. If the ship with this gear equipped is in your Vanguard or is an SSSS collab character: increases the ship's RLD by 38. If your Flagship is a CV or CVL: launches a special support barrage 25s after the battle starts.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 6940,
+    "max_level": 0,
+    "name": "Goldburn",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
   "7000": {
     "desc": "0",
     "desc_add": [],
@@ -73010,6 +73094,1450 @@
       1
     ]
   },
+  "108010": {
+    "desc": "When the battle starts: for 90s, increases this ship's FP by $1. Every 20s: fires a $2 Grid Beam (DMG is based on the skill's level). If this ship has the Battle Tracto Max or Buster Borr equipped, or if this ship is sortied with Namiko or Hass: enhances this skill.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108010,
+    "max_level": 10,
+    "name": "Grid Beam",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108020": {
+    "desc": "When the battle starts: for 90s, increases this ship's AA by $1 and decreases her cannon DMG taken by $2. 5s after the battle starts, and every 30s: fires a $3 special barrage (DMG is based on the skill's level). If this ship has the Gridman Calibur or Sky Vitter equipped, or if this ship is sortied with Namiko or Hass: enhances this skill.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108020,
+    "max_level": 10,
+    "name": "Slash & Circus",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108030": {
+    "desc": "40s after the battle starts: fires a $1 Grid Fixer Beam (DMG is based on the skill's level) and heals your fleet 3 times for 1.0% max HP per tick. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: heals your fleet.",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108030,
+    "max_level": 10,
+    "name": "Grid Fixer Beam",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108040": {
+    "desc": "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108040,
+    "max_level": 10,
+    "name": "Energy Pulse",
+    "system_transform": {
+      "3": 108045
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108050": {
+    "desc": "Every 20s: activates \"Instance Abreaction\" and launches a $1 special airstrike (DMG is based on this ship's FP stat and the skill's level; airstrike deals cannon-type DMG).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108050,
+    "max_level": 10,
+    "name": "Instance Abreaction",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108060": {
+    "desc": "Increases this ship's FP by $1. Once per battle, when this ship's HP falls below 30.0% as a result of DMG taken: increases this ship's FP by 10.0% and heals this ship 4 times for 2.0% max HP per tick.",
+    "desc_add": [
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3.5%",
+        "8.0%"
+      ]
+    ],
+    "id": 108060,
+    "max_level": 10,
+    "name": "Ever-Burning Flame",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108070": {
+    "desc": "Every 20s: executes a $1 Gridman Calibur slashing attack and spawns a shield that lasts 8s and can block up to 10 shots (slashing attack DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108070,
+    "max_level": 10,
+    "name": "Calibur End",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108080": {
+    "desc": "Enhances this ship's Secondary Guns using the Battle Tracto Max. Every 15s: $1 chance to fire a $2 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108080,
+    "max_level": 10,
+    "name": "Tanker Cannon",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108090": {
+    "desc": "Every 10 times this ship fires her Main Guns: fires a $1 special missile barrage using the Buster Borr, and deploys a smokescreen that lasts 5s (DMG is based on the skill's level). When your ship(s) enters the smokescreen: puts out any normal Burn status ailment for that ship(s).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108090,
+    "max_level": 10,
+    "name": "Coordinated Volley",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108100": {
+    "desc": "5s after the battle starts, and with a $3 chance every 20s after that: fires a $1 laser barrage using the Sky Vittor, and increases this ship's AA by $2 (AA buff can be stacked up to 2 times per battle).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ],
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ],
+      [
+        "40.0%",
+        "70.0%"
+      ]
+    ],
+    "id": 108100,
+    "max_level": 10,
+    "name": "Amp Laser Circus",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108110": {
+    "desc": "Every 20 times this ship fires her Secondary Guns: fires a $1 Blazing Inferno Rex Roar (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108110,
+    "max_level": 10,
+    "name": "Blazing Inferno Rex Roar",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108120": {
+    "desc": "90s after the battle starts: increases this ship's EVA by $1. Every 18s: fires a $2 beam using the Penetrator Gun which inflicts Armor Break to enemies hit (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108120,
+    "max_level": 10,
+    "name": "Something Beam",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108130": {
+    "desc": "Every 10 times this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3.5%",
+        "8.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108130,
+    "max_level": 10,
+    "name": "Dynazenon Full Burst",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108140": {
+    "desc": "This ship starts the battle with 1 Airstrike ready. Every battle, when this ship launches her 2nd Airstrike and onwards: launches an additional $1 special airstrike (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108140,
+    "max_level": 10,
+    "name": "Ride the Wind",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108150": {
+    "desc": "Every battle, when this ship launches her 1st and 3rd Airstrikes: launches a $1 bombing raid using the Goldburn, and spawns a shield around your Vanguard that lasts 10s, reduces your Vanguard's DMG taken by 8.0%, and can block up to 15 shots (Goldburn DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108150,
+    "max_level": 10,
+    "name": "Take to the Skies",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108160": {
+    "desc": "Every 20s: uses $1 Instance Domination to seize control of Siren aircraft and make them attack enemies (DMG is based on the skill's level; aircraft deal cannon-type DMG).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108160,
+    "max_level": 10,
+    "name": "Instance Domination: Wings",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "108170": {
+    "desc": "When this ship fires her Main Guns: uses $1 Instance Domination to seize control of Siren weaponry and make them attack enemies (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 108170,
+    "max_level": 10,
+    "name": "Instance Domination: Flames",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "800010": {
     "desc": "Every 20s: launches a $1 special barrage that decreases the Speed of all enemies hit by 20.0% (DMG is based on the skill's level).",
     "desc_add": [
@@ -74736,6 +76264,244 @@
       1
     ]
   },
+  "800220": {
+    "desc": "When this ship launches an Airstrike: launches an additional $1 special airstrike (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 800220,
+    "max_level": 10,
+    "name": "Stormchasing Blade",
+    "system_transform": "",
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800230": {
+    "desc": "At the start of the battle, if Junyou is afloat in your fleet: increases this ship's AVI and ACC by $1.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 800230,
+    "max_level": 10,
+    "name": "Falcon's Talons",
+    "system_transform": "",
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800240": {
+    "desc": "At the start of the battle, if this ship has Sakura Empire aircraft equipped: increases this ship's max Detection Gauge value by 15; if not equipping any, instead decreases this ship's DMG taken by $1.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ],
+    "id": 800240,
+    "max_level": 10,
+    "name": "Concealing Downpour",
+    "system_transform": "",
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800251": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800251,
+    "max_level": 1,
+    "name": "Ashen Might - Hiyou I",
+    "system_transform": {
+      "51": 800255
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800252": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800252,
+    "max_level": 1,
+    "name": "Ashen Might - Hiyou II",
+    "system_transform": {
+      "51": 800257
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800255": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800255,
+    "max_level": 1,
+    "name": "Ashen Might - Hiyou I",
+    "system_transform": {
+      "51": 800255
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800257": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800257,
+    "max_level": 1,
+    "name": "Ashen Might - Hiyou II",
+    "system_transform": {
+      "51": 800257
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "all": [
     1,
     2,
@@ -74993,6 +76759,12 @@
     6872,
     6873,
     6880,
+    6890,
+    6900,
+    6910,
+    6920,
+    6930,
+    6940,
     7000,
     9010,
     9020,
@@ -76000,6 +77772,23 @@
     107150,
     107160,
     107170,
+    108010,
+    108020,
+    108030,
+    108040,
+    108050,
+    108060,
+    108070,
+    108080,
+    108090,
+    108100,
+    108110,
+    108120,
+    108130,
+    108140,
+    108150,
+    108160,
+    108170,
     800010,
     800020,
     800030,
@@ -76035,6 +77824,13 @@
     800202,
     800205,
     800207,
-    800210
+    800210,
+    800220,
+    800230,
+    800240,
+    800251,
+    800252,
+    800255,
+    800257
   ]
 }
