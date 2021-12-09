@@ -79,6 +79,39 @@
       }
     ]
   },
+  "Settings_title_AdjustScr": {
+    "tip": "UI Adjustment"
+  },
+  "Settings_title_FPS": {
+    "tip": "Frame Rate Settings"
+  },
+  "Settings_title_LoginJP": {
+    "tip": "Transfer Code"
+  },
+  "Settings_title_Notification": {
+    "tip": "Push Notifications"
+  },
+  "Settings_title_Other": {
+    "tip": "Game Settings"
+  },
+  "Settings_title_Redeem": {
+    "tip": "Gift Code"
+  },
+  "Settings_title_Secpw": {
+    "tip": "Password Setup"
+  },
+  "Settings_title_Secpwlimop": {
+    "tip": "Password Restrictions"
+  },
+  "Settings_title_agreement": {
+    "tip": "Terms of Use"
+  },
+  "Settings_title_resUpdate": {
+    "tip": "Download Assets"
+  },
+  "Settings_title_sound": {
+    "tip": "Audio Settings"
+  },
   "Supplement_pay1": {
     "tip": "Fraudulent chargeback activity has been confirmed on your account. Please resolve the disputed amount or contact customer support."
   },
@@ -1635,6 +1668,15 @@
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "Decreased torpedo spread angle "
   },
+  "build_detail_intro": {
+    "tip": "Max Simultaneous Orders:"
+  },
+  "build_pools_intro": {
+    "tip": "Use Wisedom Cubes and Coins to expand your fleet! "
+  },
+  "build_rate_title": {
+    "tip": "Build Rates"
+  },
   "build_ship_accumulative": {
     "tip": "Total: "
   },
@@ -1642,7 +1684,7 @@
     "tip": "Spend<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>Gems to buy <color=$3>$2</color> $4"
   },
   "build_ship_quickly_buy_tool": {
-    "tip": "Spend <color=#92fc63>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
+    "tip": "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
   },
   "build_ship_tip": {
     "tip": "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>"
@@ -4344,6 +4386,12 @@
   "guild_log_quit": {
     "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild."
   },
+  "guild_log_title": {
+    "tip": "Guild Log"
+  },
+  "guild_member_full": {
+    "tip": "This Guild is full. "
+  },
   "guild_member_max_cnt_desc": {
     "tip": "Guild Roster Size +$1"
   },
@@ -4729,6 +4777,9 @@
   },
   "guild_start_event_consume_tip": {
     "tip": "Would you like to spend $1 Guild Funds and commence $2?"
+  },
+  "guild_start_event_consume_tip_extra": {
+    "tip": "The Guild has launched <color=#ff5c5c>$3</color> operations this month. Do you want to spend $1 to commence operation $2? "
   },
   "guild_start_supply_consume_tip": {
     "tip": "Spend $1 Guild Funds to purchase Guild Supplies?"
@@ -8327,6 +8378,12 @@
   "meta_repair_success": {
     "tip": "Rigging Fortification successful. "
   },
+  "meta_shop_exchange_limit": {
+    "tip": ""
+  },
+  "meta_shop_unexchange_label": {
+    "tip": ""
+  },
   "meta_skill_dailyexp": {
     "tip": "Daily EXP"
   },
@@ -10999,6 +11056,9 @@
       }
     ]
   },
+  "tec_target_catchup_none": {
+    "tip": "Research Focus / Not Selected "
+  },
   "tec_target_catchup_none_1": {
     "tip": "PR1 / Not Selected"
   },
@@ -11013,6 +11073,9 @@
   },
   "tec_target_catchup_select_tip": {
     "tip": "Would you like to prioritize $1 Research?"
+  },
+  "tec_target_catchup_selected": {
+    "tip": "Research Focus"
   },
   "tec_target_catchup_selected_1": {
     "tip": "PR1 / Selected"
@@ -12715,6 +12778,84 @@
   "world_ap": {
     "tip": "AP"
   },
+  "world_automode_cancel": {
+    "tip": "Cancel"
+  },
+  "world_automode_confirm": {
+    "tip": "Confirm"
+  },
+  "world_automode_setting_1": {
+    "tip": "Auto-Search by Corrosion Level:"
+  },
+  "world_automode_setting_1_1": {
+    "tip": "4 and under"
+  },
+  "world_automode_setting_1_2": {
+    "tip": "5"
+  },
+  "world_automode_setting_1_3": {
+    "tip": "6"
+  },
+  "world_automode_setting_1_4": {
+    "tip": "All Zones"
+  },
+  "world_automode_setting_2": {
+    "tip": "Choose the zones you'd like to Strategic Search:"
+  },
+  "world_automode_setting_2_1": {
+    "tip": "Repeat this zone"
+  },
+  "world_automode_setting_2_2": {
+    "tip": "Select random zones"
+  },
+  "world_automode_setting_all_1": {
+    "tip": "When encountering the Mysterious Merchant:"
+  },
+  "world_automode_setting_all_1_1": {
+    "tip": "Stop Strategic Search"
+  },
+  "world_automode_setting_all_1_2": {
+    "tip": "Continue Strategic Search"
+  },
+  "world_automode_setting_all_2": {
+    "tip": "Display reminders to analyze META Coordinates:"
+  },
+  "world_automode_setting_all_2_1": {
+    "tip": "Never"
+  },
+  "world_automode_setting_all_2_2": {
+    "tip": "Every 100 Coordinates"
+  },
+  "world_automode_setting_all_2_3": {
+    "tip": "Every 200 Coordinates"
+  },
+  "world_automode_setting_all_3": {
+    "tip": "Automatically exchange items:"
+  },
+  "world_automode_setting_all_3_1": {
+    "tip": "Yes"
+  },
+  "world_automode_setting_all_3_2": {
+    "tip": "No"
+  },
+  "world_automode_start_tip1": {
+    "tip": "No zones meet the set conditions."
+  },
+  "world_automode_start_tip2": {
+    "tip": "Insufficient AP."
+  },
+  "world_automode_start_tip3": {
+    "tip": "This zone has not yet been secured."
+  },
+  "world_automode_start_tip4": {
+    "tip": "Unable to leave this zone."
+  },
+  "world_automode_title_1": {
+    "tip": "Strategic Search "
+  },
+  "world_automode_title_2": {
+    "tip": ""
+  },
   "world_battle_count": {
     "tip": "交战次数说明文本占坑"
   },
@@ -12749,7 +12890,7 @@
     "tip": "META Showdown Fleet "
   },
   "world_boss_get_item": {
-    "tip": "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? \n(<color=#ff5c5c>If you do not analyze your META Coordinates, you will not be able to collect any more today</color>) "
+    "tip": "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? "
   },
   "world_boss_help": {
     "tip": [
@@ -12779,7 +12920,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "About META Showdown:\n\n1. From <color=#92fc63>9/9/21 to 12/8/21</color>, challenge Souryuu META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Souryuu META</color> as well\nas other great rewards.\n <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>\n\n2. Acquiring and Analyzing META Coordinates\n-META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin an META Showdown.\n-You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n-You need <color=#92fc63>100</color> META Coordinates to begin \nan META Showdown.\n\n3. Fighting Your Bosses\n-Your first time challenging an META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>1</color> Oil.\n(Will not consume a challenge attempt)\n-When an META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n-Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n-After defeating an META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n4. Fight Others’ Bosses\n-In the Boss List menu, you can see requests that\nother commanders have sent.\nWhen fighting another commander’s boss, you\nwill immediately gan Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n-Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n-You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n5. Combat Instructions\nOnly ships participating in Operation Siren can\nparticipate in META Showdowns. You also cannot\nbring Meowfficers or submarines.\n-At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n-You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>.\n\n6. Artillery Support\n-From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+        "info": "About META Showdown:\n\n1. From <color=#92fc63>12/9/21 to 3/10/21</color>, challenge Gneisenau META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Gneisenau META</color> as well\nas other great rewards.\n <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>\n\n2. Acquiring and Analyzing META Coordinates\n-META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin an META Showdown.\n-You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n-You need <color=#92fc63>100</color> META Coordinates to begin \nan META Showdown.\n\n3. Fighting Your Bosses\n-Your first time challenging an META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>1</color> Oil.\n(Will not consume a challenge attempt)\n-When an META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n-Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n-After defeating an META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n4. Fight Others’ Bosses\n-In the Boss List menu, you can see requests that\nother commanders have sent.\nWhen fighting another commander’s boss, you\nwill immediately gan Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n-Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n-You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n5. Combat Instructions\nOnly ships participating in Operation Siren can\nparticipate in META Showdowns. You also cannot\nbring Meowfficers or submarines.\n-At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n-You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>.\n\n6. Artillery Support\n-From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
       }
     ]
   },
@@ -12797,6 +12938,12 @@
   },
   "world_boss_progress_item_desc": {
     "tip": "Analyze the<color=#92fc63> META Coordinates </color>you’ve collected during Operation Siren to unlock an META Showdown. Once analyzed, any leftover META Coordinates will be consumed. If the amount of stored META Coordinates has reached its max, you will not be able to obtain any more META Coordinates.\nDaily Analysis Attempts: $1/$2\nMETA Coordinates collected: $3 "
+  },
+  "world_boss_progress_tip_desc": {
+    "tip": "When toggled, this function determines how often you will receive pop-up prompts when collecting Coordinates during Operation Siren.\nOFF: Never\nEvery 100: Reminders will appear at 100 and 200 Coordinates\nEvery 200: Reminders will appear only at 200 Coordinates"
+  },
+  "world_boss_progress_tip_title": {
+    "tip": "Coordinate Analysis \nReminder"
   },
   "world_boss_pt_recove_desc": {
     "tip": "$1 Challenge Attempts will be restored each day at midnight. "
@@ -12884,6 +13031,12 @@
   },
   "world_exit_tip": {
     "tip": "Return to the home screen? "
+  },
+  "world_expedition_reward_display": {
+    "tip": "Rewards"
+  },
+  "world_expedition_reward_display2": {
+    "tip": "$1% HP"
   },
   "world_fleetName1": {
     "tip": "1st Fleet"
@@ -13123,6 +13276,9 @@
   "world_mapbuff_compare_txt": {
     "tip": "Adaptive Tuning"
   },
+  "world_mapbuff_tip": {
+    "tip": "All enemies within this zone are strengthened."
+  },
   "world_max_challenge_cnt": {
     "tip": "This battle is already full. Please try another target. "
   },
@@ -13195,6 +13351,12 @@
   },
   "world_sametask_tip": {
     "tip": "Unable to accept mission: Only one of the same mission can be active."
+  },
+  "world_setting_mapauto": {
+    "tip": "Default to Auto Mode\nin secured zones"
+  },
+  "world_setting_mapautotip": {
+    "tip": "When enabled, your fleets will default to using Auto Mode in zones you've secured."
   },
   "world_setting_quickmode": {
     "tip": "Reduce TB Guidance "
@@ -13276,6 +13438,18 @@
   },
   "world_target_count": {
     "tip": "$1 available reward(s) "
+  },
+  "world_target_filter_tip1": {
+    "tip": "All"
+  },
+  "world_target_filter_tip2": {
+    "tip": "Unfinished"
+  },
+  "world_target_get_all": {
+    "tip": "Claim all available rewards?"
+  },
+  "world_target_goto": {
+    "tip": "Enter Zone "
   },
   "world_task_goto0": {
     "tip": "There are no missions in this zone."

@@ -62,6 +62,71 @@
     "repair": 0,
     "weapon_ids": []
   },
+  "9704011": {
+    "breakout_id": 9704012,
+    "breakout_view": "Unlock Cinders of Hope - Gneisenau/Main gun base +1/Main gun efficiency +5%",
+    "gold": 1000,
+    "id": 9704011,
+    "item1": 21007,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      44000,
+      44000
+    ]
+  },
+  "9704012": {
+    "breakout_id": 9704013,
+    "breakout_view": "Unlock special secondary guns/Main gun efficiency +10%",
+    "gold": 3000,
+    "id": 9704012,
+    "item1": 21007,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9704011,
+    "repair": 0,
+    "weapon_ids": [
+      446
+    ]
+  },
+  "9704013": {
+    "breakout_id": 9704014,
+    "breakout_view": "Improve Cinders of Hope - Gneisenau/ Main gun base +1/Main gun efficiency +15%",
+    "gold": 10000,
+    "id": 9704013,
+    "item1": 21007,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9704012,
+    "repair": 0,
+    "weapon_ids": [
+      44000,
+      44000,
+      44000
+    ]
+  },
+  "9704014": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9704014,
+    "item1": 21007,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9704013,
+    "repair": 0,
+    "weapon_ids": []
+  },
   "9705011": {
     "breakout_id": 9705012,
     "breakout_view": "Learn skill Ashen Might/Main gun base +1/Main gun efficiency +5%",
@@ -410,6 +475,10 @@
     9702012,
     9702013,
     9702014,
+    9704011,
+    9704012,
+    9704013,
+    9704014,
     9705011,
     9705012,
     9705013,

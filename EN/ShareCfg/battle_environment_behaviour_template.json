@@ -182,14 +182,14 @@
   "10006": {
     "behaviour_list": [
       {
-        "damage": 45,
-        "hp_rate": 0.01,
-        "offset": 10,
+        "damage": 15,
+        "hp_rate": 0.005,
+        "offset": 5,
         "reload_time": 0.2,
         "type": 2
       },
       {
-        "buff_id": 30000002,
+        "buff_id": 79120,
         "reload_time": 0.5,
         "type": 3
       },
@@ -198,8 +198,15 @@
           0,
           30
         ],
-        "random_speed": 20,
-        "route": [],
+        "random_speed": 12,
+        "route": [
+          [
+            -30,
+            0,
+            55,
+            8
+          ]
+        ],
         "type": 4
       }
     ],
@@ -1508,5 +1515,127 @@
     ],
     "id": 10024,
     "name": "十四章灯塔暴露DEBUFF"
+  },
+  "10100": {
+    "behaviour_list": [
+      {
+        "content": {
+          "alert": {
+            "alert_fx": "AlertArea",
+            "delay": 2,
+            "range": 10
+          },
+          "child_prefab": {
+            "behaviours": 10110,
+            "cld_data": [
+              15
+            ],
+            "life_time": 0.5
+          },
+          "count": 1
+        },
+        "offset_time": 0,
+        "reload_time": 3,
+        "rounds": 2,
+        "route": {
+          "1": {
+            "count": 1
+          },
+          "2": {
+            "count": 2
+          }
+        },
+        "type": 6
+      }
+    ],
+    "id": 10100,
+    "name": "大世界仲裁者战斗_开场随机雷电"
+  },
+  "10101": {
+    "behaviour_list": [
+      {
+        "content": {
+          "alert": {
+            "alert_fx": "AlertArea",
+            "delay": 2,
+            "range": 10
+          },
+          "child_prefab": {
+            "behaviours": 10110,
+            "cld_data": [
+              15
+            ],
+            "life_time": 0.5
+          },
+          "count": 1
+        },
+        "offset_time": 0,
+        "reload_time": 2.5,
+        "rounds": 1,
+        "route": [
+          {
+            "count": 2
+          }
+        ],
+        "type": 6
+      }
+    ],
+    "id": 10101,
+    "name": "大世界仲裁者战斗_武器伴随雷电两发"
+  },
+  "10102": {
+    "behaviour_list": [
+      {
+        "content": {
+          "alert": {
+            "alert_fx": "AlertArea",
+            "delay": 2,
+            "range": 10
+          },
+          "child_prefab": {
+            "behaviours": 10110,
+            "cld_data": [
+              15
+            ],
+            "life_time": 0.5
+          },
+          "count": 1
+        },
+        "offset_time": 0,
+        "reload_time": 2.5,
+        "rounds": 1,
+        "route": [
+          {
+            "count": 3
+          }
+        ],
+        "type": 6
+      }
+    ],
+    "id": 10102,
+    "name": "大世界仲裁者战斗_武器伴随雷电三发"
+  },
+  "10110": {
+    "behaviour_list": [
+      {
+        "FX_ID": "shandian",
+        "offset": [
+          0,
+          0,
+          34
+        ],
+        "reload_time": 100,
+        "type": 1
+      },
+      {
+        "damage": 160,
+        "hp_rate": 0.01,
+        "offset": 30,
+        "reload_time": 2,
+        "type": 2
+      }
+    ],
+    "id": 10110,
+    "name": "闪电子行为"
   }
 }
