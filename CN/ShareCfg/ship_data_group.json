@@ -2502,6 +2502,16 @@
           ""
         ],
         0
+      ],
+      [
+        "舰队商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10509,
@@ -2542,6 +2552,16 @@
         "限时活动：坠落之翼",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "舰队商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ]
@@ -9296,6 +9316,16 @@
         "限时活动：围剿斯佩伯爵",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "舰队商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ]
@@ -20837,6 +20867,40 @@
     "trans_type": 0,
     "type": 6
   },
+  "30007": {
+    "code": 30007,
+    "description": [
+      [
+        "限时活动：META研究室-资讯同步",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9704011
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970401,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30007,
+    "nationality": 97,
+    "property_hexagon": [
+      "A",
+      "C",
+      "E",
+      "D",
+      "C",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 4
+  },
   "all": [
     1,
     2,
@@ -21365,6 +21429,7 @@
     30003,
     30004,
     30005,
-    30006
+    30006,
+    30007
   ]
 }

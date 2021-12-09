@@ -120,6 +120,49 @@
     "trap_range": [],
     "trap_type": 0
   },
+  "200": {
+    "buff_id": 600,
+    "desc": "重力陷阱测试",
+    "id": 200,
+    "name": "重力陷阱",
+    "obstacle": 2,
+    "repeat_trap": 2,
+    "trap_fx": "zhongcaizhe_zhonglichang_slg",
+    "trap_range": [
+      3,
+      3,
+      2
+    ],
+    "trap_type": 1
+  },
+  "201": {
+    "buff_id": 601,
+    "desc": "感电陷阱测试",
+    "id": 201,
+    "name": "感电陷阱",
+    "obstacle": 2,
+    "repeat_trap": 2,
+    "trap_fx": "zhongcaizhe_shandianqiang",
+    "trap_range": [
+      2
+    ],
+    "trap_type": 2
+  },
+  "202": {
+    "buff_id": 603,
+    "desc": "传染陷阱测试",
+    "id": 202,
+    "name": "传染陷阱",
+    "obstacle": 2,
+    "repeat_trap": 2,
+    "trap_fx": "SLG_huo02",
+    "trap_range": [
+      1,
+      1,
+      1
+    ],
+    "trap_type": 0
+  },
   "1001": {
     "buff_id": 311,
     "desc": "区域中存在周期性的EMP冲击，进入后将会使得舰队进入移动异常状态，无法准确前往目标区域。",
@@ -407,6 +450,9 @@
     102,
     103,
     110,
+    200,
+    201,
+    202,
     1001,
     1002,
     1003,

@@ -9240,13 +9240,13 @@
       {
         "index": 1,
         "param": {
-          "X1": -32,
+          "X1": -20,
           "X2": -15,
           "Z1": 40,
           "Z2": 70,
           "duration": -1,
-          "moveCount": 240,
-          "stopCount": 90
+          "moveCount": 200,
+          "stopCount": 160
         },
         "to": 1,
         "type": 3
@@ -9261,19 +9261,43 @@
       {
         "index": 1,
         "param": {
-          "X1": -15,
+          "X1": -10,
           "X2": 0,
-          "Z1": 35,
-          "Z2": 75,
+          "Z1": 30,
+          "Z2": 80,
           "duration": -1,
-          "moveCount": 240,
-          "stopCount": 90
+          "moveCount": 500,
+          "stopCount": 1
         },
         "to": 1,
         "type": 3
       }
     ],
-    "name": "仲裁者天帕岚斯_二阶段随机移动"
+    "name": "仲裁者天帕岚斯_二阶段后方随机移动"
+  },
+  "100013": {
+    "default": 1,
+    "id": 100013,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -3,
+          "z": 55
+        },
+        "to": 1,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "仲裁者天帕岚斯_二阶段回到中点"
   },
   "100020": {
     "default": 1,
@@ -9304,6 +9328,72 @@
       }
     ],
     "name": "仲裁者赫米忒_入场接随机移动"
+  },
+  "100021": {
+    "default": 1,
+    "id": 100021,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -20,
+          "X2": -5,
+          "Z1": 35,
+          "Z2": 75,
+          "duration": -1,
+          "moveCount": 320,
+          "stopCount": 80
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "仲裁者赫米忒_标准随机移动"
+  },
+  "100022": {
+    "default": 1,
+    "id": 100022,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -8,
+          "z": 55
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "仲裁者赫米忒_逐渐向前移动"
+  },
+  "100030": {
+    "default": 1,
+    "id": 100030,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -15,
+          "X2": 0,
+          "Z1": 35,
+          "Z2": 75,
+          "duration": -1,
+          "moveCount": 160,
+          "stopCount": 120
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "仲裁者司特莲库斯_偏后方随机移动"
   },
   "100100": {
     "default": 1,
