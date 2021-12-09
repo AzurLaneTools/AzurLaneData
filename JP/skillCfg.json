@@ -156736,6 +156736,35 @@
     "picture": "0",
     "uiEffect": ""
   },
+  "skill_6780": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 6781
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 6780,
+    "name": "",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
   "skill_6850": {
     "aniEffect": {
       "effect": "jineng",
@@ -158217,6 +158246,567 @@
     "picture": "0",
     "uiEffect": ""
   },
+  "skill_78000": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "火力支援",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 1,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032000
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 1,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032005
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetHarmRandomByWeight",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78000,
+    "name": "火力支援弹幕",
+    "painting": "huolizhiyuan",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78010": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "火力支援",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 1,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032010
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78010,
+    "name": "火力支援弹幕",
+    "painting": "huolizhiyuan",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78102": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032100
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78102,
+    "name": "大世界第五章剧情战 黑方舟超级空袭",
+    "painting": "huangjiafangzhou_alter",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78110": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78110,
+    "name": "雷电屏障",
+    "painting": "sairenboss9",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78113": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "number": 10,
+          "rate": 0.25
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillDamage"
+      }
+    ],
+    "id": 78113,
+    "name": "意大利V2 我方陆基航空支援B3",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78122": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032110
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78122,
+    "name": "大世界第五章剧情战 女王火力支援",
+    "painting": "yilishabai",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78123": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032120
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78123,
+    "name": "大世界第五章剧情战 企业空中支援",
+    "painting": "qiye",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78124": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032130
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032135
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78124,
+    "name": "大世界第五章剧情战 黑飞龙空中支援",
+    "painting": "feilong_alter",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78130": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78130,
+    "name": "赫米忒全体debuff",
+    "painting": "sairenboss5",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78133": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "number": 10,
+          "rate": 0.55
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillDamage"
+      }
+    ],
+    "id": 78133,
+    "name": "意大利V2 我方陆基航空支援B3",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78142": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78142,
+    "name": "大世界第五章剧情战 后勤维修",
+    "painting": "bilanlogo",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78150": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78150,
+    "name": "VIII=IX连协干扰机制",
+    "painting": "sairenboss6",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78160": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78160,
+    "name": "VIII=XIV连协干扰机制",
+    "painting": "sairenboss9",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78172": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032140
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032141
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78172,
+    "name": "大世界第五章剧情战 u47潜艇打击",
+    "painting": "u47",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78180": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 78180,
+    "name": "表面清洁系统",
+    "painting": "sairenboss6",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78192": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032150
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032160
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032180
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78192,
+    "name": "大世界第五章剧情战 黑方舟火烬余灰",
+    "painting": "huangjiafangzhou_alter",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78202": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032150
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78202,
+    "name": "大世界第五章剧情战 黑方舟空中支援",
+    "painting": "huangjiafangzhou_alter",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78212": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032135
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 400,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 2032200
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      }
+    ],
+    "id": 78212,
+    "name": "大世界第五章剧情战 黑飞龙空中支援",
+    "painting": "feilong_alter",
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78300": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "number": 10,
+          "rate": 1
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillDamage"
+      }
+    ],
+    "id": 8865,
+    "name": "意大利V2 我方陆基航空支援B3",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78301": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "number": 10,
+          "rate": 0.03
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillDamage"
+      }
+    ],
+    "id": 8865,
+    "name": "意大利V2 我方陆基航空支援B3",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_78302": {
+    "aniEffect": "",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "number": 10,
+          "rate": 0.04
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillDamage"
+      }
+    ],
+    "id": 8865,
+    "name": "意大利V2 我方陆基航空支援B3",
+    "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
   "skill_79001": {
     "aniEffect": "",
     "cd": 0,
@@ -158230,7 +158820,7 @@
               0,
               50
             ],
-            "monsterTemplateID": 296010
+            "monsterTemplateID": 294400
           }
         },
         "target_choise": [
@@ -158242,6 +158832,24 @@
     "id": 79001,
     "name": "血量召唤",
     "painting": 0,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_79012": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "cd": 0,
+    "desc": "",
+    "effect_list": [],
+    "id": 79012,
+    "name": "雷电屏障",
+    "painting": "ruihe",
     "picture": "0",
     "uiEffect": ""
   },
@@ -158282,6 +158890,28 @@
     "name": "受伤瞬移",
     "painting": 0,
     "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_79130": {
+    "aniEffect": "",
+    "castCV": "",
+    "cd": 0,
+    "desc": "致盲",
+    "effect_list": [
+      {
+        "arg_list": {
+          "fleet_buff_id": 79132
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddFleetBuff"
+      }
+    ],
+    "id": 79130,
+    "name": "赫米忒_舰队致盲",
+    "painting": 0,
+    "picture": "",
     "uiEffect": ""
   },
   "skill_800010": {
@@ -162455,6 +163085,638 @@
     "picture": "0",
     "uiEffect": ""
   },
+  "skill_800260": {
+    "1": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64801
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64811
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "2": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64802
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64812
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "3": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64803
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64813
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "4": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64804
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64814
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "5": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64805
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64815
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "6": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64806
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64816
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "7": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64807
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64817
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "8": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64808
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64818
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "9": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64809
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64819
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "10": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64810
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetHarmRandomByWeight",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "weapon_id": 64820
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        }
+      ]
+    },
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "弹幕",
+    "effect_list": [],
+    "id": 800260,
+    "name": "弹幕",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800270": {
+    "1": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64821
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "2": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64822
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "3": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64823
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "4": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64824
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "5": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64825
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "6": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64826
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "7": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64827
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "8": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64828
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "9": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64829
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "10": {
+      "effect_list": [
+        {
+          "arg_list": {
+            "weapon_id": 64830
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetNil",
+          "type": "BattleSkillFire"
+        },
+        {
+          "arg_list": {
+            "buff_id": 800272
+          },
+          "casterAniEffect": "",
+          "targetAniEffect": "",
+          "target_choise": "TargetSelf",
+          "type": "BattleSkillAddBuff"
+        }
+      ]
+    },
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "弹幕",
+    "effect_list": [],
+    "id": 800260,
+    "name": "弹幕",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800271": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 800272
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 800271,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800280": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 800282
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddBuff"
+      },
+      {
+        "arg_list": {
+          "buff_id": 800283
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetPlayerVanguardFleet",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 800280,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800281": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 800284
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetPlayerVanguardFleet",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 800281,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800295": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 800296
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 800295,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
+  "skill_800297": {
+    "aniEffect": {
+      "effect": "jineng",
+      "offset": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "castCV": "skill",
+    "cd": 0,
+    "desc": "",
+    "effect_list": [
+      {
+        "arg_list": {
+          "buff_id": 800298
+        },
+        "casterAniEffect": "",
+        "targetAniEffect": "",
+        "target_choise": "TargetSelf",
+        "type": "BattleSkillAddBuff"
+      }
+    ],
+    "id": 800297,
+    "name": "",
+    "painting": 1,
+    "picture": "0",
+    "uiEffect": ""
+  },
   "skill_8519": {
     "aniEffect": {
       "effect": "jineng",
@@ -164875,11 +166137,24 @@
         "arg_list": {
           "attack_attribute_convert": {
             "A": 80,
-            "B": 400,
+            "B": 600,
             "attr_type": "fleetGS"
           },
           "emitter": "BattleBulletEmitter",
           "weapon_id": 789001
+        },
+        "target_choise": "TargetNil",
+        "type": "BattleSkillFire"
+      },
+      {
+        "arg_list": {
+          "attack_attribute_convert": {
+            "A": 80,
+            "B": 600,
+            "attr_type": "fleetGS"
+          },
+          "emitter": "BattleBulletEmitter",
+          "weapon_id": 533015
         },
         "target_choise": "TargetNil",
         "type": "BattleSkillFire"
