@@ -60,6 +60,39 @@
   "LinkLinkGame_CurTime": {
     "tip": "当前用时:"
   },
+  "Settings_title_AdjustScr": {
+    "tip": "異形螢幕調整"
+  },
+  "Settings_title_FPS": {
+    "tip": "幀數設置"
+  },
+  "Settings_title_LoginJP": {
+    "tip": "引續碼"
+  },
+  "Settings_title_Notification": {
+    "tip": "啟用通知功能"
+  },
+  "Settings_title_Other": {
+    "tip": "其他設置"
+  },
+  "Settings_title_Redeem": {
+    "tip": "兌換碼"
+  },
+  "Settings_title_Secpw": {
+    "tip": "二級密碼"
+  },
+  "Settings_title_Secpwlimop": {
+    "tip": "二級密碼限制行為"
+  },
+  "Settings_title_agreement": {
+    "tip": "查看協議"
+  },
+  "Settings_title_resUpdate": {
+    "tip": "資源下載"
+  },
+  "Settings_title_sound": {
+    "tip": "語音設置"
+  },
   "Word_Ship_Exp_Buff": {
     "tip": "經驗加成"
   },
@@ -1387,6 +1420,15 @@
   },
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "自身裝備的魚雷武器散佈角度減小"
+  },
+  "build_detail_intro": {
+    "tip": "可同時施工的干船塢數量："
+  },
+  "build_pools_intro": {
+    "tip": "使用心智魔方和物資，快速拓展艦隊規模"
+  },
+  "build_rate_title": {
+    "tip": "建造機率"
   },
   "build_ship_accumulative": {
     "tip": "累计建造:"
@@ -4045,6 +4087,12 @@
   "guild_log_quit": {
     "tip": "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>離開大艦隊"
   },
+  "guild_log_title": {
+    "tip": "艦隊日誌"
+  },
+  "guild_member_full": {
+    "tip": "目標大艦隊人數已滿"
+  },
   "guild_member_max_cnt_desc": {
     "tip": "大艦隊席位上限增加$1"
   },
@@ -4391,6 +4439,9 @@
   },
   "guild_start_event_consume_tip": {
     "tip": "是否確認花費$1大艦隊物資開啟“$2”？"
+  },
+  "guild_start_event_consume_tip_extra": {
+    "tip": "本月已開啟過<color=#ff5c5c>$3</color>次作戰，是否確認花費$1大艦隊物資開啟“$2”？"
   },
   "guild_start_supply_consume_tip": {
     "tip": "是否花費$1大艦隊資金開啟大艦隊補給?\n<color=#c5cfdf>※大艦隊補給：所有大艦隊成員每天可領取一份補給獎勵，持續14天</color>"
@@ -7902,6 +7953,12 @@
   "meta_repair_unlock": {
     "tip": "尚未開啟大型作戰(未使用)"
   },
+  "meta_shop_exchange_limit": {
+    "tip": "尚未獲得艦船"
+  },
+  "meta_shop_unexchange_label": {
+    "tip": "尚未獲得艦船"
+  },
   "meta_skill_dailyexp": {
     "tip": "每日可獲取經驗"
   },
@@ -10294,6 +10351,9 @@
       }
     ]
   },
+  "tec_target_catchup_none": {
+    "tip": "定向追趕 / 未選擇"
+  },
   "tec_target_catchup_none_1": {
     "tip": "定向追趕:一期/未選"
   },
@@ -10305,6 +10365,9 @@
   },
   "tec_target_catchup_select_tip": {
     "tip": "是否要選擇該科研角色:$1?"
+  },
+  "tec_target_catchup_selected": {
+    "tip": "定向追趕"
   },
   "tec_target_catchup_selected_1": {
     "tip": "定向追趕:一期/進行"
@@ -11962,6 +12025,84 @@
   "world_ap": {
     "tip": "行動力"
   },
+  "world_automode_cancel": {
+    "tip": "取消"
+  },
+  "world_automode_confirm": {
+    "tip": "執行"
+  },
+  "world_automode_setting_1": {
+    "tip": "需要壓制的侵蝕等級"
+  },
+  "world_automode_setting_1_1": {
+    "tip": "4級以下 "
+  },
+  "world_automode_setting_1_2": {
+    "tip": "5"
+  },
+  "world_automode_setting_1_3": {
+    "tip": "6"
+  },
+  "world_automode_setting_1_4": {
+    "tip": "全部"
+  },
+  "world_automode_setting_2": {
+    "tip": "選擇作戰執行模式"
+  },
+  "world_automode_setting_2_1": {
+    "tip": "重複當前海域"
+  },
+  "world_automode_setting_2_2": {
+    "tip": "全海域隨機選擇"
+  },
+  "world_automode_setting_all_1": {
+    "tip": "是否因神秘商人暫停"
+  },
+  "world_automode_setting_all_1_1": {
+    "tip": "是"
+  },
+  "world_automode_setting_all_1_2": {
+    "tip": "否"
+  },
+  "world_automode_setting_all_2": {
+    "tip": "信標數據點數提示"
+  },
+  "world_automode_setting_all_2_1": {
+    "tip": "關"
+  },
+  "world_automode_setting_all_2_2": {
+    "tip": "滿100點提示"
+  },
+  "world_automode_setting_all_2_3": {
+    "tip": "滿200點提示"
+  },
+  "world_automode_setting_all_3": {
+    "tip": "自律時自動提交道具"
+  },
+  "world_automode_setting_all_3_1": {
+    "tip": "關"
+  },
+  "world_automode_setting_all_3_2": {
+    "tip": "開"
+  },
+  "world_automode_start_tip1": {
+    "tip": "不存在符合條件的海域"
+  },
+  "world_automode_start_tip2": {
+    "tip": "行動力不足"
+  },
+  "world_automode_start_tip3": {
+    "tip": "當前並未處於安全海域內"
+  },
+  "world_automode_start_tip4": {
+    "tip": "當前海域無法離開"
+  },
+  "world_automode_title_1": {
+    "tip": "計劃作戰模式"
+  },
+  "world_automode_title_2": {
+    "tip": "OPERATION"
+  },
   "world_battle_count": {
     "tip": "交战次数说明文本占坑"
   },
@@ -11999,7 +12140,7 @@
     "tip": "餘燼座標作戰"
   },
   "world_boss_get_item": {
-    "tip": "當前已經收集到指定數據量的座標數據，是否立即對其進行解析？ \n(<color=#ff5c5c>未解析的情況下，後續將不會繼續獲得座標數據</color>)"
+    "tip": "當前已經收集到指定數據量的座標數據，是否立即對其進行解析？"
   },
   "world_boss_help": {
     "tip": [
@@ -12038,6 +12179,12 @@
   },
   "world_boss_progress_item_desc": {
     "tip": "用於記錄在大型作戰中收集到的<color=#92fc63>「餘燼座標數據」</color>的裝置，達到指定數據量後可據此數據進行解析，發現餘燼座標\nP.S.記錄儀的記錄容量有限，請務必及時前往解析\n今日解析次數:$1/$2\n數據記錄量：$3"
+  },
+  "world_boss_progress_tip_desc": {
+    "tip": "功能開啟後，在大型作戰中收集信標數據時：\n關：將不再有提示\n每累計滿100點時：達到100與200點時進行提示\n累計滿200點時：達到200點時進行提示"
+  },
+  "world_boss_progress_tip_title": {
+    "tip": "信標數據點數提示"
   },
   "world_boss_pt_recove_desc": {
     "tip": "每天0點回復$1點挑戰次數"
@@ -12128,6 +12275,12 @@
   },
   "world_exit_tip": {
     "tip": "需要暫時離開大型作戰嗎？"
+  },
+  "world_expedition_reward_display": {
+    "tip": "獎勵一覽"
+  },
+  "world_expedition_reward_display2": {
+    "tip": "HP $1%"
   },
   "world_file_desc": {
     "tip": "未配置tip"
@@ -12344,6 +12497,9 @@
   "world_mapbuff_compare_txt": {
     "tip": "適應性壓制"
   },
+  "world_mapbuff_tip": {
+    "tip": "海域內所有敵人戰鬥力上升中"
+  },
   "world_max_challenge_cnt": {
     "tip": "所選座標挑戰人數已滿，請嘗試其他座標！"
   },
@@ -12422,6 +12578,12 @@
   },
   "world_sametask_tip": {
     "tip": "領取任務失敗，相同的任務最多只能領取一個"
+  },
+  "world_setting_mapauto": {
+    "tip": "安全海域默認開啟自律"
+  },
+  "world_setting_mapautotip": {
+    "tip": "功能開啟後，進入安全海域時將會默認開啟自律模式"
   },
   "world_setting_quickmode": {
     "tip": "減少TB引導"
@@ -12503,6 +12665,18 @@
   },
   "world_target_count": {
     "tip": "當前可領取目標獎勵$1個"
+  },
+  "world_target_filter_tip1": {
+    "tip": "全部"
+  },
+  "world_target_filter_tip2": {
+    "tip": "未完成"
+  },
+  "world_target_get_all": {
+    "tip": "是否一鍵領取所有海域探索獎勵？"
+  },
+  "world_target_goto": {
+    "tip": "前往海域"
   },
   "world_task_goto0": {
     "tip": "當前海域並非任務目標海域"
