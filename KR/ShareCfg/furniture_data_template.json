@@ -4379,6 +4379,177 @@
     "themeId": 0,
     "type": 7
   },
+  "213": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "사탕으로 쇼핑카트를 가득 채워요!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shengdangouwucheicon",
+    "id": 213,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "쇼핑 매니아",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      2
+    ],
+    "spine": [
+      [
+        "shengdangouwuche",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
+  "214": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "맛있는 향기가 풍기네요…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiangbingjiicon",
+    "id": 214,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "진저 비스킷쥬",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine": {
+      "1": [
+        "jiangbingji",
+        "normal"
+      ],
+      "3": [
+        [
+          -180,
+          -24
+        ],
+        "walk"
+      ]
+    },
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 14
+  },
+  "215": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "허허허, 산타클로스 출발!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "xunlucheicon",
+    "id": 215,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크리스마스 썰매",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      3,
+      9
+    ],
+    "spine": [
+      [
+        "xunluche",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -14935,7 +15106,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 13,
     "type": 2
   },
@@ -16056,7 +16227,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 13,
     "type": 2
   },
@@ -16120,7 +16291,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 13,
     "type": 2
   },
@@ -17356,7 +17527,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 14,
     "type": 2
   },
@@ -17641,7 +17812,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 14,
     "type": 2
   },
@@ -18477,7 +18648,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 16,
     "type": 2
   },
@@ -19345,7 +19516,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 17,
     "type": 2
   },
@@ -19795,7 +19966,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 17,
     "type": 2
   },
@@ -21598,7 +21769,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 18,
     "type": 2
   },
@@ -21670,7 +21841,7 @@
     },
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 18,
     "type": 2
   },
@@ -21798,7 +21969,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 18,
     "type": 9
   },
@@ -21864,7 +22035,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 18,
     "type": 2
   },
@@ -23166,7 +23337,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 19,
     "type": 2
   },
@@ -24416,7 +24587,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 22,
     "type": 2
   },
@@ -24771,7 +24942,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 22,
     "type": 2
   },
@@ -24854,7 +25025,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 22,
     "type": 2
   },
@@ -26393,7 +26564,7 @@
     },
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 23,
     "type": 2
   },
@@ -26466,7 +26637,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 23,
     "type": 2
   },
@@ -26539,7 +26710,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 23,
     "type": 2
   },
@@ -27717,7 +27888,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 24,
     "type": 2
   },
@@ -27760,7 +27931,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 24,
     "type": 2
   },
@@ -28074,7 +28245,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 24,
     "type": 2
   },
@@ -28155,7 +28326,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 24,
     "type": 2
   },
@@ -28236,7 +28407,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 24,
     "type": 2
   },
@@ -29924,7 +30095,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 27,
     "type": 2
   },
@@ -29967,7 +30138,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 2,
+    "tag": 7,
     "themeId": 27,
     "type": 3
   },
@@ -31739,7 +31910,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 28,
     "type": 2
   },
@@ -31782,7 +31953,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 28,
     "type": 2
   },
@@ -33402,7 +33573,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 29,
     "type": 2
   },
@@ -33470,7 +33641,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 29,
     "type": 2
   },
@@ -33542,7 +33713,7 @@
     },
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 29,
     "type": 2
   },
@@ -34862,7 +35033,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 30,
     "type": 2
   },
@@ -34938,7 +35109,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 30,
     "type": 11
   },
@@ -35015,7 +35186,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 30,
     "type": 2
   },
@@ -35092,7 +35263,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 30,
     "type": 2
   },
@@ -36406,7 +36577,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 33,
     "type": 2
   },
@@ -37932,7 +38103,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 35,
     "type": 11
   },
@@ -38000,7 +38171,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 35,
     "type": 2
   },
@@ -39477,7 +39648,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 36,
     "type": 11
   },
@@ -39555,7 +39726,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 36,
     "type": 11
   },
@@ -40721,7 +40892,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 37,
     "type": 11
   },
@@ -40794,7 +40965,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 37,
     "type": 2
   },
@@ -43784,7 +43955,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 39,
     "type": 2
   },
@@ -45221,7 +45392,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 40,
     "type": 2
   },
@@ -45301,7 +45472,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 40,
     "type": 2
   },
@@ -46213,7 +46384,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 41,
     "type": 11
   },
@@ -47973,7 +48144,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 43,
     "type": 2
   },
@@ -48648,7 +48819,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 43,
     "type": 2
   },
@@ -50155,7 +50326,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 44,
     "type": 11
   },
@@ -53417,7 +53588,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 46,
     "type": 11
   },
@@ -53460,7 +53631,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 46,
     "type": 2
   },
@@ -53539,7 +53710,7 @@
     },
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 46,
     "type": 12
   },
@@ -54812,7 +54983,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 48,
     "type": 2
   },
@@ -57274,7 +57445,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 50,
     "type": 2
   },
@@ -59062,7 +59233,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 52,
     "type": 11
   },
@@ -59131,7 +59302,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 52,
     "type": 2
   },
@@ -59972,7 +60143,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 53,
     "type": 2
   },
@@ -60080,7 +60251,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 53,
     "type": 2
   },
@@ -61227,7 +61398,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 55,
     "type": 2
   },
@@ -61307,7 +61478,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 55,
     "type": 2
   },
@@ -61350,7 +61521,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 55,
     "type": 2
   },
@@ -61421,7 +61592,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 55,
     "type": 2
   },
@@ -62911,7 +63082,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 56,
     "type": 2
   },
@@ -62957,7 +63128,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 56,
     "type": 2
   },
@@ -63717,7 +63888,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 57,
     "type": 2
   },
@@ -63801,7 +63972,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 57,
     "type": 2
   },
@@ -63872,7 +64043,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 57,
     "type": 2
   },
@@ -64589,7 +64760,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 58,
     "type": 2
   },
@@ -64632,7 +64803,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 58,
     "type": 2
   },
@@ -64675,7 +64846,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 58,
     "type": 2
   },
@@ -65566,7 +65737,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 59,
     "type": 2
   },
@@ -65650,7 +65821,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 59,
     "type": 2
   },
@@ -65734,7 +65905,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 59,
     "type": 2
   },
@@ -66696,7 +66867,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 60,
     "type": 2
   },
@@ -66790,7 +66961,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 60,
     "type": 2
   },
@@ -68120,7 +68291,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 61,
     "type": 2
   },
@@ -68259,7 +68430,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 61,
     "type": 2
   },
@@ -69259,7 +69430,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 62,
     "type": 11
   },
@@ -69302,7 +69473,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 62,
     "type": 2
   },
@@ -70078,7 +70249,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 63,
     "type": 2
   },
@@ -71116,7 +71287,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 65,
     "type": 2
   },
@@ -72127,7 +72298,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 11
   },
@@ -72206,7 +72377,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 11
   },
@@ -72285,7 +72456,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 11
   },
@@ -72364,7 +72535,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 11
   },
@@ -72443,7 +72614,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 11
   },
@@ -72512,7 +72683,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 66,
     "type": 2
   },
@@ -73381,7 +73552,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 69,
     "type": 2
   },
@@ -73452,7 +73623,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 69,
     "type": 2
   },
@@ -73523,7 +73694,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 69,
     "type": 11
   },
@@ -73566,7 +73737,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 69,
     "type": 2
   },
@@ -74699,7 +74870,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -74770,7 +74941,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -74841,7 +75012,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -74912,7 +75083,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -74983,7 +75154,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -75054,7 +75225,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -75123,7 +75294,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -75194,7 +75365,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -75265,7 +75436,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 70,
     "type": 2
   },
@@ -76037,7 +76208,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 71,
     "type": 2
   },
@@ -76108,7 +76279,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 71,
     "type": 2
   },
@@ -76155,7 +76326,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 71,
     "type": 2
   },
@@ -76228,7 +76399,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 71,
     "type": 2
   },
@@ -76308,7 +76479,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 5,
+    "tag": 7,
     "themeId": 71,
     "type": 6
   },
@@ -77380,7 +77551,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 72,
     "type": 2
   },
@@ -77460,7 +77631,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 72,
     "type": 2
   },
@@ -78473,7 +78644,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 73,
     "type": 11
   },
@@ -79522,7 +79693,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 74,
     "type": 2
   },
@@ -80330,7 +80501,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 75,
     "type": 2
   },
@@ -80373,7 +80544,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 75,
     "type": 2
   },
@@ -82618,7 +82789,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 77,
     "type": 2
   },
@@ -82666,7 +82837,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 77,
     "type": 11
   },
@@ -82713,7 +82884,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 77,
     "type": 11
   },
@@ -83523,7 +83694,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 78,
     "type": 13
   },
@@ -85362,7 +85533,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 80,
     "type": 2
   },
@@ -85430,7 +85601,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 80,
     "type": 2
   },
@@ -85481,7 +85652,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 80,
     "type": 2
   },
@@ -86507,7 +86678,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 81,
     "type": 13
   },
@@ -87509,7 +87680,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 82,
     "type": 2
   },
@@ -87589,7 +87760,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 82,
     "type": 2
   },
@@ -88236,7 +88407,7 @@
         ]
       ]
     ],
-    "tag": 1,
+    "tag": 7,
     "themeId": 83,
     "type": 2
   },
@@ -88279,7 +88450,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 83,
     "type": 2
   },
@@ -89798,7 +89969,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 84,
     "type": 13
   },
@@ -90216,7 +90387,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 84,
     "type": 11
   },
@@ -90302,7 +90473,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 84,
     "type": 11
   },
@@ -90387,7 +90558,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 1,
+    "tag": 7,
     "themeId": 84,
     "type": 11
   },
@@ -92554,6 +92725,90 @@
     "themeId": 0,
     "type": 7
   },
+  "200003": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "어서 깜짝 크리스마스 선물을 받아가세요!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "junheshengdanshuicon",
+    "id": 200003,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "서프라이즈 트리",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      7
+    ],
+    "spine": [
+      [
+        "junheshengdanshuB",
+        "normal"
+      ],
+      [
+        "junheshengdanshuT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "sleep",
+        [
+          305143
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -92648,6 +92903,9 @@
     209,
     210,
     212,
+    213,
+    214,
+    215,
     100002,
     100003,
     100004,
@@ -92678,6 +92936,7 @@
     100029,
     100030,
     100031,
+    200003,
     1001,
     1002,
     1101,
