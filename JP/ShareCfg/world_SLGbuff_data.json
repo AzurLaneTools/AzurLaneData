@@ -2479,6 +2479,30 @@
     "trap_parameter": [],
     "trap_type": 0
   },
+  "4000": {
+    "buff_attr": [],
+    "buff_effect": [],
+    "buff_fx": "",
+    "buff_map_attr": [
+      0,
+      0,
+      0
+    ],
+    "buff_maxfloor": 1,
+    "buff_type": 2,
+    "delete_move": 0,
+    "delete_round": 0,
+    "delete_traptype": [],
+    "desc": "アビータ・XIVは戦闘中、特殊の戦闘モジュールを召喚します。特殊モジュールが存在する限り、アビータXIVが与えるダメージが$15アップ、受けるダメージが10%ダウン特殊モジュールを撃破すると、戦闘終了時までアビータXIVが受けるダメージが$10アップ",
+    "icon": "5000",
+    "id": 4000,
+    "lua_id": 0,
+    "name": "分離式戦闘モジュール",
+    "percent": [],
+    "trap_lua": "",
+    "trap_parameter": [],
+    "trap_type": 0
+  },
   "all": [
     1,
     2,
@@ -2575,6 +2599,7 @@
     2420,
     2500,
     2510,
-    2520
+    2520,
+    4000
   ]
 }
