@@ -2479,6 +2479,30 @@
     "trap_parameter": [],
     "trap_type": 0
   },
+  "4000": {
+    "buff_attr": [],
+    "buff_effect": [],
+    "buff_fx": "",
+    "buff_map_attr": [
+      0,
+      0,
+      0
+    ],
+    "buff_maxfloor": 1,
+    "buff_type": 2,
+    "delete_move": 0,
+    "delete_round": 0,
+    "delete_traptype": [],
+    "desc": "Arbiter: Temperance XIV is assisted by a Combat Module during battle. As long as the Combat Module persists: Temperance deals 15.0% increased DMG and takes 10.0% less DMG; when the Combat Module is destroyed: Temperance takes 10.0% increased DMG until the battle ends.",
+    "icon": "5000",
+    "id": 4000,
+    "lua_id": 0,
+    "name": "Autonomous Combat Module",
+    "percent": [],
+    "trap_lua": "",
+    "trap_parameter": [],
+    "trap_type": 0
+  },
   "all": [
     1,
     2,
@@ -2575,6 +2599,7 @@
     2420,
     2500,
     2510,
-    2520
+    2520,
+    4000
   ]
 }
