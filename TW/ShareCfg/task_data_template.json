@@ -74699,7 +74699,7 @@
       ]
     ],
     "count_inherit": 0,
-    "desc": "[U37]突破至滿星",
+    "desc": "[U-37]突破至滿星",
     "fix_task": 0,
     "guild_coin_award": 0,
     "id": 16157,
@@ -74992,6 +74992,802 @@
     ],
     "target_id_for_client": 0,
     "target_num": 10,
+    "type": 6,
+    "visibility": 1
+  },
+  "16201": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94252,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59192,
+        300
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "建造艦船3次。",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16201,
+    "is_head": 1,
+    "level": 1,
+    "name": "『德系V3』-日常建造",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 30,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 3,
+    "type": 36,
+    "visibility": 1
+  },
+  "16202": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94253,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59192,
+        300
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "艦隊出擊，獲得15次勝利。",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16202,
+    "is_head": 1,
+    "level": 1,
+    "name": "『德系V3』-日常出击",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 20,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 15,
+    "type": 36,
+    "visibility": 1
+  },
+  "16203": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94254,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        59192,
+        150
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關1次任意困難關卡 ",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16203,
+    "is_head": 1,
+    "level": 1,
+    "name": "『德系V3』-日常困难本",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 182,
+    "target_id": "10101",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 36,
+    "visibility": 1
+  },
+  "16204": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94255,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        1
+      ],
+      [
+        1,
+        1,
+        600
+      ],
+      [
+        2,
+        59192,
+        200
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關A1或C1",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16204,
+    "is_head": 1,
+    "level": 10,
+    "name": "『德系V3』通关A1/C1",
+    "next_task": "16205",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460001,
+      1460021
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16205": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94256,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        1
+      ],
+      [
+        1,
+        1,
+        600
+      ],
+      [
+        2,
+        59192,
+        400
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關A2或C2",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16205,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关A2/C2",
+    "next_task": "16206",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460002,
+      1460022
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16206": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94257,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        2
+      ],
+      [
+        1,
+        1,
+        1500
+      ],
+      [
+        2,
+        59192,
+        600
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關A3或C3",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16206,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关A3/C3",
+    "next_task": "16207",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460003,
+      1460023
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16207": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94258,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        1
+      ],
+      [
+        1,
+        1,
+        600
+      ],
+      [
+        2,
+        59192,
+        400
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關B1或D1",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16207,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关B1/D1",
+    "next_task": "16208",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460004,
+      1460024
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16208": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94259,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        1
+      ],
+      [
+        1,
+        1,
+        600
+      ],
+      [
+        2,
+        59192,
+        600
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關B2或D2",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16208,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关B2/D2",
+    "next_task": "16209",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460005,
+      1460025
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16209": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94260,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        2
+      ],
+      [
+        1,
+        1,
+        1500
+      ],
+      [
+        2,
+        59192,
+        800
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關B3或D3",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16209,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关B3/D3",
+    "next_task": "16210",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": [
+      1460006,
+      1460026
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16210": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94261,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        20001,
+        2
+      ],
+      [
+        1,
+        1,
+        1500
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關SP",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16210,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』通关SP",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": "1460041",
+    "target_id_2": "",
+    "target_id_for_client": 1460041,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16211": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94262,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15008,
+        500
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關EX",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16211,
+    "is_head": 1,
+    "level": 10,
+    "name": "『德系V3』通关EX",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": "1460051",
+    "target_id_2": "",
+    "target_id_for_client": 1460051,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16212": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94263,
+    "award_choice": "",
+    "award_display": [
+      [
+        5,
+        189,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "通關D3",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16212,
+    "is_head": 1,
+    "level": 10,
+    "name": "『德系V3』通关D3",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1020,
+    "target_id": "1460026",
+    "target_id_2": "",
+    "target_id_for_client": 1460026,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16213": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94264,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        2,
+        500
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成A1或C1的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16213,
+    "is_head": 1,
+    "level": 10,
+    "name": "『德系V3』A1/C1的3星",
+    "next_task": "16214",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460001,
+      1460021
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16214": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94265,
+    "award_choice": "",
+    "award_display": [
+      [
+        4,
+        100001,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成A2或C2的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16214,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』A2/C2的3星",
+    "next_task": "16215",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460002,
+      1460022
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16215": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94266,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18023,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成A3或C3的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16215,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』A3/C3的3星",
+    "next_task": "16216",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460003,
+      1460023
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16216": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94267,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        2,
+        500
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成B1或D1的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16216,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』B1/D1的3星",
+    "next_task": "16217",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460004,
+      1460024
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16217": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94268,
+    "award_choice": "",
+    "award_display": [
+      [
+        4,
+        100011,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成B2或D2的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16217,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』B2/D2的3星",
+    "next_task": "16218",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460005,
+      1460025
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16218": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94269,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18023,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成B3或D3的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16218,
+    "is_head": 0,
+    "level": 10,
+    "name": "『德系V3』B3/D3的3星",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": [
+      "ACTIVITY_MAP"
+    ],
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": [
+      1460006,
+      1460026
+    ],
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 6,
+    "visibility": 1
+  },
+  "16219": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 94251,
+    "award_choice": "",
+    "award_display": [
+      [
+        1,
+        181,
+        2
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "登入遊戲",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 16219,
+    "is_head": 1,
+    "level": 1,
+    "name": "『德系V3』1229登录送皮肤体验券活动",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
     "type": 6,
     "visibility": 1
   },
@@ -101703,6 +102499,25 @@
     16164,
     16165,
     16166,
+    16201,
+    16202,
+    16203,
+    16204,
+    16205,
+    16206,
+    16207,
+    16208,
+    16209,
+    16210,
+    16211,
+    16212,
+    16213,
+    16214,
+    16215,
+    16216,
+    16217,
+    16218,
+    16219,
     16280,
     16281,
     16282,

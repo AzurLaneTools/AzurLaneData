@@ -1030,6 +1030,100 @@
     "type": 2,
     "view_name": "GridGameView"
   },
+  "33": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "hub_id": 27,
+    "id": 33,
+    "mediator_name": "MiniHubMediator",
+    "name": "冰壶小游戏",
+    "request_data": 0,
+    "simple_config_data": "",
+    "type": 2,
+    "view_name": "CurlingGameView"
+  },
+  "34": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      5,
+      [
+        10,
+        11,
+        12
+      ],
+      2
+    ],
+    "hub_id": 27,
+    "id": 34,
+    "mediator_name": "MiniHubMediator",
+    "name": "神社指挥官许愿",
+    "request_data": 1,
+    "simple_config_data": {
+      "target": 100000
+    },
+    "type": 3,
+    "view_name": "Shrine2022View"
+  },
+  "35": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      0,
+      [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      1
+    ],
+    "hub_id": 27,
+    "id": 35,
+    "mediator_name": "MiniHubMediator",
+    "name": "神社舰娘许愿",
+    "request_data": 1,
+    "simple_config_data": [
+      8,
+      59261,
+      1
+    ],
+    "type": 5,
+    "view_name": "Shrine2022View"
+  },
+  "36": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "hub_id": 28,
+    "id": 36,
+    "mediator_name": "FireworkFactoryMediator",
+    "name": "新年烟花工坊",
+    "request_data": 1,
+    "simple_config_data": {
+      "roundTime": 50,
+      "score_reference": [
+        [
+          140,
+          160
+        ],
+        [
+          120,
+          180
+        ],
+        [
+          90,
+          210
+        ]
+      ]
+    },
+    "type": 2,
+    "view_name": "FireworkFactory2022View"
+  },
   "all": [
     1,
     2,
@@ -1062,6 +1156,10 @@
     29,
     30,
     31,
-    32
+    32,
+    33,
+    34,
+    35,
+    36
   ]
 }
