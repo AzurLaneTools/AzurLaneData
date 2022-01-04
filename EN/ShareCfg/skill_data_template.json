@@ -55240,6 +55240,114 @@
       1
     ]
   },
+  "14985": {
+    "desc": "When the fleet this ship is in sinks an enemy fleet: increases this ship's DMG dealt by $1 (can be stacked up to 4 times). When this ship sinks an enemy in combat: increases this ship's ACC and EVA by $2 (can be stacked up to 4 times).",
+    "desc_add": [
+      [
+        [
+          "1.5%",
+          "+0.5%"
+        ],
+        [
+          "2.0%",
+          "+0.5%"
+        ],
+        [
+          "2.5%",
+          "+0.5%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.4%"
+        ],
+        [
+          "1.4%",
+          "+0.4%"
+        ],
+        [
+          "1.8%",
+          "+0.4%"
+        ],
+        [
+          "2.2%",
+          "+0.4%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.5%",
+        "6.0%"
+      ],
+      [
+        "1.0%",
+        "5.0%"
+      ]
+    ],
+    "id": 14985,
+    "max_level": 10,
+    "name": "Future Content ",
+    "system_transform": {
+      "51": 14985
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "14990": {
     "desc": "Increases this ship's AA by $1. \n3s after the battle starts, and with a 70.0% chance every 20s: fires a $2 special barrage (DMG is based on the skill's level). If this barrage fails to activate: instead increases this ship's FP and TRP by $3 (can be stacked up to 2 times; when stacked twice: increases the barrage's proc chance to 100.0%). After the 2nd and 4th battles in a sortie: improves this barrage.",
     "desc_add": [
@@ -79019,6 +79127,7 @@
     14960,
     14970,
     14980,
+    14985,
     14990,
     15000,
     15010,
