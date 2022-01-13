@@ -722,7 +722,7 @@
     "animtor": 0,
     "bg": "Map_12",
     "bgm": "level",
-    "bind_map": 0,
+    "bind_map": 212,
     "cloud_suffix": "white",
     "clouds_pos": [
       [
@@ -1291,6 +1291,49 @@
     "name": "奧古斯塔皇后灣海戰",
     "on_activity": 0,
     "title": "11",
+    "type": 2,
+    "ui_type": 1,
+    "uifx": "UIhuohua2"
+  },
+  "212": {
+    "anchor": "",
+    "ani_name": "",
+    "animtor": 0,
+    "bg": "Map_212",
+    "bgm": "level",
+    "bind_map": 12,
+    "cloud_suffix": "white",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "",
+    "guide_id": "",
+    "level_limit": 75,
+    "map": 212,
+    "name": "馬里亞納風雲上",
+    "on_activity": 0,
+    "title": "12",
     "type": 2,
     "ui_type": 1,
     "uifx": "UIhuohua2"
@@ -7890,6 +7933,136 @@
     "ui_type": 1,
     "uifx": ""
   },
+  "2100040": {
+    "anchor": "",
+    "ani_name": "",
+    "animtor": 0,
+    "bg": "map_1000000",
+    "bgm": "level02",
+    "bind_map": 2100050,
+    "cloud_suffix": "purple",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "UIACT20000",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 2100040,
+    "name": "「異色格」作戰-前篇|| ||CHAPTER EX||E.X.",
+    "on_activity": 0,
+    "title": "EX",
+    "type": 4,
+    "ui_type": 1,
+    "uifx": ""
+  },
+  "2100041": {
+    "anchor": "",
+    "ani_name": "Tornado",
+    "animtor": 1,
+    "bg": "map_1000000",
+    "bgm": "level02",
+    "bind_map": 2100051,
+    "cloud_suffix": "",
+    "clouds_pos": [],
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "UIACT20001",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 2100041,
+    "name": "「異色格」作戰-後篇|| ||CHAPTER EX||E.X.",
+    "on_activity": 0,
+    "title": "EX",
+    "type": 4,
+    "ui_type": 1,
+    "uifx": ""
+  },
+  "2100050": {
+    "anchor": "",
+    "ani_name": "",
+    "animtor": 0,
+    "bg": "map_1000000",
+    "bgm": "level02",
+    "bind_map": 2100040,
+    "cloud_suffix": "purple",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "UIACT20000",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 2100050,
+    "name": "「異色格」作戰-前篇|| ||CHAPTER EX||E.X.",
+    "on_activity": 0,
+    "title": "EX",
+    "type": 5,
+    "ui_type": 1,
+    "uifx": ""
+  },
+  "2100051": {
+    "anchor": "",
+    "ani_name": "Tornado",
+    "animtor": 1,
+    "bg": "map_1000000",
+    "bgm": "level02",
+    "bind_map": 2100041,
+    "cloud_suffix": "",
+    "clouds_pos": [],
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "UIACT20001",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 2100051,
+    "name": "「異色格」作戰-後篇|| ||CHAPTER EX||E.X.",
+    "on_activity": 0,
+    "title": "EX",
+    "type": 5,
+    "ui_type": 1,
+    "uifx": ""
+  },
   "2100060": {
     "anchor": "",
     "ani_name": "feixu",
@@ -8776,6 +8949,7 @@
     209,
     210,
     211,
+    212,
     10000,
     70000,
     90000,
@@ -8936,6 +9110,10 @@
     2100021,
     2100030,
     2100031,
+    2100040,
+    2100041,
+    2100050,
+    2100051,
     2100060,
     2100061,
     2100070,

@@ -179,7 +179,7 @@
     "is_head": 0,
     "level": 1,
     "name": "第一章·近海演習",
-    "next_task": "[5,3000,3001,6001,5041,5042,5043,5044,7201,7202,7203,7204,7205,7206,7207,7208,7209,10302]",
+    "next_task": "[5,3000,3001,6001,1401,5041,5042,5043,5044,7201,7202,7203,7204,7205,7206,7207,7208,7209,10302]",
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
@@ -2164,7 +2164,7 @@
     "is_head": 0,
     "level": 1,
     "name": "第十二章1圖",
-    "next_task": "[49,3045]",
+    "next_task": "[49,3045,6045]",
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
@@ -2209,7 +2209,7 @@
     "is_head": 0,
     "level": 1,
     "name": "第十二章2圖",
-    "next_task": "[50,3046]",
+    "next_task": "[50,3046,6046]",
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
@@ -2254,7 +2254,7 @@
     "is_head": 0,
     "level": 1,
     "name": "第十二章3圖",
-    "next_task": "[51,3047]",
+    "next_task": "[51,3047,6047]",
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
@@ -2299,7 +2299,7 @@
     "is_head": 0,
     "level": 1,
     "name": "第十二章4圖",
-    "next_task": "[52,3048]",
+    "next_task": "[52,3048,6048]",
     "open_need": [],
     "priority_type": 0,
     "quick_finish": 0,
@@ -2492,6 +2492,316 @@
     "target_id_for_client": 1304,
     "target_num": 1,
     "type": 1,
+    "visibility": 1
+  },
+  "1401": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1401,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        100
+      ],
+      [
+        2,
+        15008,
+        800
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "將任意角色的等級上限突破到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1401,
+    "is_head": 1,
+    "level": 60,
+    "name": "125级成就任务1",
+    "next_task": "1402",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 36,
+    "target_id": "125",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "1402": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1402,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51005,
+        1
+      ],
+      [
+        1,
+        1,
+        1000
+      ],
+      [
+        2,
+        16501,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "1名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1402,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务2",
+    "next_task": "1403",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "1403": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1403,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51006,
+        1
+      ],
+      [
+        1,
+        1,
+        2000
+      ],
+      [
+        2,
+        16501,
+        100
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "3名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1403,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务3",
+    "next_task": "1404",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 3,
+    "type": 2,
+    "visibility": 1
+  },
+  "1404": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1404,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51007,
+        1
+      ],
+      [
+        1,
+        1,
+        3000
+      ],
+      [
+        2,
+        16501,
+        150
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "6名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1404,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务4",
+    "next_task": "1405",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 6,
+    "type": 2,
+    "visibility": 1
+  },
+  "1405": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1405,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51008,
+        1
+      ],
+      [
+        1,
+        1,
+        4000
+      ],
+      [
+        2,
+        16501,
+        150
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "12名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1405,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务5",
+    "next_task": "1406",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 12,
+    "type": 2,
+    "visibility": 1
+  },
+  "1406": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1406,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51009,
+        1
+      ],
+      [
+        1,
+        1,
+        5000
+      ],
+      [
+        2,
+        16501,
+        200
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "20名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1406,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务6",
+    "next_task": "1407",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 20,
+    "type": 2,
+    "visibility": 1
+  },
+  "1407": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 1407,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        51010,
+        1
+      ],
+      [
+        1,
+        1,
+        6000
+      ],
+      [
+        2,
+        16501,
+        200
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "50名角色等級達到125級",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 1407,
+    "is_head": 0,
+    "level": 60,
+    "name": "125级成就任务7",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1017,
+    "target_id": [],
+    "target_id_2": "125",
+    "target_id_for_client": 0,
+    "target_num": 50,
+    "type": 2,
     "visibility": 1
   },
   "3000": {
@@ -23320,6 +23630,166 @@
     "target_id": "11104",
     "target_id_2": "",
     "target_id_for_client": 11104,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "6045": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 6045,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18003,
+        2
+      ],
+      [
+        2,
+        51001,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成困難12-1的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 6045,
+    "is_head": 0,
+    "level": 1,
+    "name": "困難·先聲奪人",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": "11201",
+    "target_id_2": "",
+    "target_id_for_client": 11201,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "6046": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 6046,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18013,
+        2
+      ],
+      [
+        2,
+        51002,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成困難12-2的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 6046,
+    "is_head": 0,
+    "level": 1,
+    "name": "困難·魯莽的後果",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": "11202",
+    "target_id_2": "",
+    "target_id_for_client": 11202,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "6047": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 6047,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18023,
+        2
+      ],
+      [
+        2,
+        51003,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成困難12-3的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 6047,
+    "is_head": 0,
+    "level": 1,
+    "name": "困難·空中對決",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": "11203",
+    "target_id_2": "",
+    "target_id_for_client": 11203,
+    "target_num": 1,
+    "type": 2,
+    "visibility": 1
+  },
+  "6048": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 6048,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        18033,
+        2
+      ],
+      [
+        2,
+        51004,
+        1
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "完成困難12-4的3星收集",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 6048,
+    "is_head": 0,
+    "level": 1,
+    "name": "困難·TF58，翱翔於天際",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1021,
+    "target_id": "11204",
+    "target_id_2": "",
+    "target_id_for_client": 11204,
     "target_num": 1,
     "type": 2,
     "visibility": 1
@@ -83671,6 +84141,451 @@
     "type": 6,
     "visibility": 0
   },
+  "17100": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96220,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "登入遊戲",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17100,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务1",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 1011,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17101": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96221,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        16501,
+        80
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "艦隊出擊，獲得3次勝利",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17101,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务2",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 20,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 3,
+    "type": 26,
+    "visibility": 0
+  },
+  "17102": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96222,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "建造艦船1次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17102,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务3",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 30,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17103": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96223,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "後宅補充食物1次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17103,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务4",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 61,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17104": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96224,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        16501,
+        80
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "艦隊出擊，進行1次每日挑戰",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17104,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务5",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 26,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17105": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96225,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        16501,
+        80
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "艦隊出擊，通關主線困難海域1次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17105,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务6",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 182,
+    "target_id": "10101",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17106": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96226,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "提交大艦隊籌備1次",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17106,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务7",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 402,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17107": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96227,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "執行軍事委託1次。",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17107,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务8",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 80,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17108": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96228,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        16501,
+        80
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "參與1次軍事演習。",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17108,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务9",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 27,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17109": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96229,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        15012,
+        50
+      ],
+      [
+        2,
+        15008,
+        100
+      ],
+      [
+        1,
+        1,
+        1000
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "進行1次科研",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17109,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务10",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 110,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
+  "17110": {
+    "added_tip": 0,
+    "auto_commit": 0,
+    "award": 96230,
+    "award_choice": "",
+    "award_display": [
+      [
+        2,
+        16501,
+        80
+      ]
+    ],
+    "count_inherit": 0,
+    "desc": "艦隊出征，大型作戰中任意海域戰鬥1次。",
+    "fix_task": 0,
+    "guild_coin_award": 0,
+    "id": 17110,
+    "is_head": 1,
+    "level": 1,
+    "name": "心智单元II支援常驻活动任务11",
+    "next_task": "0",
+    "open_need": [],
+    "priority_type": 0,
+    "quick_finish": 0,
+    "scene": "",
+    "story_icon": "",
+    "story_id": "",
+    "sub_type": 304,
+    "target_id": "0",
+    "target_id_2": "",
+    "target_id_for_client": 0,
+    "target_num": 1,
+    "type": 26,
+    "visibility": 0
+  },
   "17220": {
     "added_tip": 0,
     "auto_commit": 0,
@@ -100619,6 +101534,13 @@
     53,
     54,
     55,
+    1401,
+    1402,
+    1403,
+    1404,
+    1405,
+    1406,
+    1407,
     3000,
     3001,
     3002,
@@ -101147,6 +102069,10 @@
     6042,
     6043,
     6044,
+    6045,
+    6046,
+    6047,
+    6048,
     7201,
     7202,
     7203,
@@ -102714,6 +103640,17 @@
     17041,
     17042,
     17043,
+    17100,
+    17101,
+    17102,
+    17103,
+    17104,
+    17105,
+    17106,
+    17107,
+    17108,
+    17109,
+    17110,
     17220,
     17221,
     17222,
