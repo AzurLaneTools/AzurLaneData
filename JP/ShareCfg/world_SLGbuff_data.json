@@ -2503,6 +2503,54 @@
     "trap_parameter": [],
     "trap_type": 0
   },
+  "4010": {
+    "buff_attr": [],
+    "buff_effect": [],
+    "buff_fx": "",
+    "buff_map_attr": [
+      0,
+      0,
+      0
+    ],
+    "buff_maxfloor": 1,
+    "buff_type": 2,
+    "delete_move": 0,
+    "delete_round": 0,
+    "delete_traptype": [],
+    "desc": "アビータVIIIは戦闘中、特殊防御フィールドを展開する\n防御フィールドが展開されている限り、アビータVIIIが受ける砲撃・航空攻撃ダメージを25%軽減、味方に与えるダメージを15%ダウンする。\nまた、防御フィールドが展開された際に、味方からの攻撃を160,000吸収できるシールドも1枚展開される。このシールドは戦闘中、1回しか展開されない",
+    "icon": "5010",
+    "id": 4010,
+    "lua_id": 0,
+    "name": "アビータ・防御フィールド",
+    "percent": [],
+    "trap_lua": "",
+    "trap_parameter": [],
+    "trap_type": 0
+  },
+  "4020": {
+    "buff_attr": [],
+    "buff_effect": [],
+    "buff_fx": "",
+    "buff_map_attr": [
+      0,
+      0,
+      0
+    ],
+    "buff_maxfloor": 1,
+    "buff_type": 2,
+    "delete_move": 0,
+    "delete_round": 0,
+    "delete_traptype": [],
+    "desc": "アビータIXは戦闘中、特殊海霧を展開する。海霧にいる艦船の速力が12%ダウンし、命中ステータスが200ダウンする",
+    "icon": "5020",
+    "id": 4020,
+    "lua_id": 0,
+    "name": "アビータ・腐食海霧",
+    "percent": [],
+    "trap_lua": "",
+    "trap_parameter": [],
+    "trap_type": 0
+  },
   "all": [
     1,
     2,
@@ -2600,6 +2648,8 @@
     2500,
     2510,
     2520,
-    4000
+    4000,
+    4010,
+    4020
   ]
 }
