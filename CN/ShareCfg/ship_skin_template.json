@@ -52776,7 +52776,7 @@
     "lip_sync_gain": 0,
     "live2d_offset": [
       47,
-      -10,
+      20,
       0
     ],
     "main_UI_FX": "",
@@ -102001,8 +102001,12 @@
       "touch_body",
       "touch_head"
     ],
-    "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamBodyAngleY": [
+        0,
+        0
+      ]
+    },
     "l2d_se": "",
     "l2d_voice_calibrate": {
       "use_event": true
