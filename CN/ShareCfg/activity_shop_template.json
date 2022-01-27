@@ -13272,6 +13272,32 @@
     "resource_num": 500,
     "resource_type": 59900
   },
+  "10065": {
+    "activity": 0,
+    "commodity_id": 101382,
+    "commodity_type": 7,
+    "id": 10065,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 3,
+    "resource_category": 2,
+    "resource_num": 1000,
+    "resource_type": 59900
+  },
+  "10066": {
+    "activity": 0,
+    "commodity_id": 96000,
+    "commodity_type": 3,
+    "id": 10066,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 800,
+    "resource_type": 59900
+  },
   "11001": {
     "activity": 0,
     "commodity_id": 42000,
@@ -13280,7 +13306,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 20,
-    "order": 7,
+    "order": 99,
     "resource_category": 1,
     "resource_num": 30,
     "resource_type": 9
@@ -13293,7 +13319,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 30,
-    "order": 6,
+    "order": 99,
     "resource_category": 1,
     "resource_num": 30,
     "resource_type": 9
@@ -13306,7 +13332,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 10,
-    "order": 3,
+    "order": 6,
     "resource_category": 1,
     "resource_num": 120,
     "resource_type": 9
@@ -13319,7 +13345,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 20,
-    "order": 10,
+    "order": 14,
     "resource_category": 1,
     "resource_num": 15,
     "resource_type": 9
@@ -13332,7 +13358,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 20,
-    "order": 9,
+    "order": 13,
     "resource_category": 1,
     "resource_num": 15,
     "resource_type": 9
@@ -13358,7 +13384,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 1,
-    "order": 1,
+    "order": 2,
     "resource_category": 2,
     "resource_num": 2000,
     "resource_type": 59010
@@ -13371,7 +13397,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 1,
-    "order": 1,
+    "order": 3,
     "resource_category": 2,
     "resource_num": 2000,
     "resource_type": 59010
@@ -13384,7 +13410,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 50,
-    "order": 4,
+    "order": 8,
     "resource_category": 1,
     "resource_num": 60,
     "resource_type": 9
@@ -13397,7 +13423,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 30,
-    "order": 5,
+    "order": 10,
     "resource_category": 1,
     "resource_num": 30,
     "resource_type": 9
@@ -13410,7 +13436,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 20,
-    "order": 8,
+    "order": 12,
     "resource_category": 1,
     "resource_num": 15,
     "resource_type": 9
@@ -13423,9 +13449,61 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 10,
-    "order": 2,
+    "order": 5,
     "resource_category": 1,
     "resource_num": 120,
+    "resource_type": 9
+  },
+  "11013": {
+    "activity": 0,
+    "commodity_id": 42030,
+    "commodity_type": 2,
+    "id": 11013,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 30,
+    "order": 9,
+    "resource_category": 1,
+    "resource_num": 30,
+    "resource_type": 9
+  },
+  "11014": {
+    "activity": 0,
+    "commodity_id": 42036,
+    "commodity_type": 2,
+    "id": 11014,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 10,
+    "order": 4,
+    "resource_category": 1,
+    "resource_num": 120,
+    "resource_type": 9
+  },
+  "11015": {
+    "activity": 0,
+    "commodity_id": 14004,
+    "commodity_type": 2,
+    "id": 11015,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 20,
+    "order": 11,
+    "resource_category": 1,
+    "resource_num": 15,
+    "resource_type": 9
+  },
+  "11016": {
+    "activity": 0,
+    "commodity_id": 13019,
+    "commodity_type": 2,
+    "id": 11016,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 50,
+    "order": 7,
+    "resource_category": 1,
+    "resource_num": 60,
     "resource_type": 9
   },
   "all": [
@@ -14450,6 +14528,8 @@
     10062,
     10063,
     10064,
+    10065,
+    10066,
     11001,
     11002,
     11003,
@@ -14461,6 +14541,10 @@
     11009,
     11010,
     11011,
-    11012
+    11012,
+    11013,
+    11014,
+    11015,
+    11016
   ]
 }
