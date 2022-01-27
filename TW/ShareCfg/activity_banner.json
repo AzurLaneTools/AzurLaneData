@@ -2,15 +2,18 @@
   "1": {
     "id": 1,
     "param": [
-      "scene skinshop"
+      "scene charge",
+      {
+        "wrap": 2
+      }
     ],
-    "pic": "temp11",
+    "pic": "temp7",
     "time": [
       [
         [
           2022,
           1,
-          13
+          27
         ],
         [
           0,
@@ -21,8 +24,8 @@
       [
         [
           2022,
-          1,
-          26
+          2,
+          9
         ],
         [
           23,
@@ -35,14 +38,19 @@
   },
   "2": {
     "id": 2,
-    "param": "45030",
-    "pic": "temp10",
+    "param": [
+      "scene get boat",
+      {
+        "projectName": "light"
+      }
+    ],
+    "pic": "temp1",
     "time": [
       [
         [
           2022,
           1,
-          13
+          27
         ],
         [
           0,
@@ -53,8 +61,8 @@
       [
         [
           2022,
-          1,
-          27
+          2,
+          10
         ],
         [
           23,
@@ -63,24 +71,20 @@
         ]
       ]
     ],
-    "type": 3
+    "type": 2
   },
   "3": {
     "id": 3,
     "param": [
-      "scene level",
-      {
-        "isSP": false,
-        "open_remaster": true
-      }
+      "scene skinshop"
     ],
-    "pic": "temp9",
+    "pic": "temp2",
     "time": [
       [
         [
           2022,
           1,
-          13
+          27
         ],
         [
           0,
@@ -91,8 +95,8 @@
       [
         [
           2022,
-          1,
-          27
+          2,
+          9
         ],
         [
           23,
@@ -105,14 +109,16 @@
   },
   "4": {
     "id": 4,
-    "param": "40497",
-    "pic": "temp1",
+    "param": [
+      "scene back yard"
+    ],
+    "pic": "temp3",
     "time": [
       [
         [
-          2021,
-          12,
-          30
+          2022,
+          1,
+          27
         ],
         [
           0,
@@ -123,8 +129,40 @@
       [
         [
           2022,
+          2,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 2
+  },
+  "5": {
+    "id": 5,
+    "param": "40511",
+    "pic": "temp4",
+    "time": [
+      [
+        [
+          2022,
           1,
-          19
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          2,
+          10
         ],
         [
           23,
@@ -135,8 +173,8 @@
     ],
     "type": 3
   },
-  "5": {
-    "id": 5,
+  "6": {
+    "id": 6,
     "param": [
       "scene charge",
       {
@@ -147,9 +185,9 @@
     "time": [
       [
         [
-          2021,
-          12,
-          30
+          2022,
+          1,
+          27
         ],
         [
           0,
@@ -160,8 +198,8 @@
       [
         [
           2022,
-          1,
-          19
+          2,
+          9
         ],
         [
           23,
@@ -174,14 +212,16 @@
   },
   "7": {
     "id": 7,
-    "param": "",
-    "pic": "temp99",
+    "param": [
+      "scene shop"
+    ],
+    "pic": "temp6",
     "time": [
       [
         [
           2022,
           1,
-          13
+          27
         ],
         [
           0,
@@ -192,8 +232,40 @@
       [
         [
           2022,
+          2,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 2
+  },
+  "8": {
+    "id": 8,
+    "param": "",
+    "pic": "temp99",
+    "time": [
+      [
+        [
+          2022,
           1,
-          26
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          2,
+          9
         ],
         [
           23,
@@ -204,19 +276,10 @@
     ],
     "type": 9
   },
-  "8": {
-    "id": 8,
-    "param": [
-      "scene back yard"
-    ],
-    "pic": "",
-    "time": "stop",
-    "type": 2
-  },
   "9": {
     "id": 9,
     "param": [
-      "scene shop"
+      "scene back yard"
     ],
     "pic": "",
     "time": "stop",
@@ -225,10 +288,7 @@
   "10": {
     "id": 10,
     "param": [
-      "scene charge",
-      {
-        "wrap": 2
-      }
+      "scene shop"
     ],
     "pic": "",
     "time": "stop",
@@ -236,27 +296,27 @@
   },
   "11": {
     "id": 11,
-    "param": "40341",
-    "pic": "",
-    "time": "stop",
-    "type": 3
-  },
-  "12": {
-    "id": 12,
-    "param": [
-      "scene skinshop"
-    ],
-    "pic": "",
-    "time": "stop",
-    "type": 2
-  },
-  "13": {
-    "id": 13,
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
+    ],
+    "pic": "",
+    "time": "stop",
+    "type": 2
+  },
+  "12": {
+    "id": 12,
+    "param": "40341",
+    "pic": "",
+    "time": "stop",
+    "type": 3
+  },
+  "13": {
+    "id": 13,
+    "param": [
+      "scene skinshop"
     ],
     "pic": "",
     "time": "stop",
@@ -289,9 +349,9 @@
   "16": {
     "id": 16,
     "param": [
-      "scene get boat",
+      "scene charge",
       {
-        "projectName": "new"
+        "wrap": 2
       }
     ],
     "pic": "",
@@ -303,7 +363,7 @@
     "param": [
       "scene get boat",
       {
-        "page": 5
+        "projectName": "new"
       }
     ],
     "pic": "",
@@ -315,7 +375,7 @@
     "param": [
       "scene get boat",
       {
-        "projectName": "light"
+        "page": 5
       }
     ],
     "pic": "",
@@ -325,8 +385,10 @@
   "19": {
     "id": 19,
     "param": [
-      "act boss battle",
-      []
+      "scene get boat",
+      {
+        "projectName": "light"
+      }
     ],
     "pic": "",
     "time": "stop",
@@ -334,13 +396,23 @@
   },
   "20": {
     "id": 20,
+    "param": [
+      "act boss battle",
+      []
+    ],
+    "pic": "",
+    "time": "stop",
+    "type": 2
+  },
+  "21": {
+    "id": 21,
     "param": "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
     "pic": "guihuagao",
     "time": "stop",
     "type": 10
   },
-  "21": {
-    "id": 21,
+  "22": {
+    "id": 22,
     "param": [
       "scene level",
       []
@@ -349,15 +421,15 @@
     "time": "stop",
     "type": 2
   },
-  "22": {
-    "id": 22,
+  "23": {
+    "id": 23,
     "param": "",
     "pic": "temp2",
     "time": "stop",
     "type": 8
   },
-  "23": {
-    "id": 23,
+  "24": {
+    "id": 24,
     "param": [
       "metacharacter",
       {
@@ -368,8 +440,8 @@
     "time": "stop",
     "type": 2
   },
-  "24": {
-    "id": 24,
+  "25": {
+    "id": 25,
     "param": [
       "scene level",
       {
@@ -381,11 +453,36 @@
     "time": "stop",
     "type": 2
   },
-  "25": {
-    "id": 25,
-    "param": "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-    "pic": "jingbing",
-    "time": "stop",
+  "26": {
+    "id": 26,
+    "param": "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+    "pic": "dumpling",
+    "time": [
+      [
+        [
+          2022,
+          1,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          2,
+          10
+        ],
+        [
+          14,
+          59,
+          59
+        ]
+      ]
+    ],
     "type": 10
   },
   "all": [
@@ -394,6 +491,7 @@
     3,
     4,
     5,
+    6,
     7,
     8,
     9,
@@ -412,6 +510,7 @@
     22,
     23,
     24,
-    25
+    25,
+    26
   ]
 }
