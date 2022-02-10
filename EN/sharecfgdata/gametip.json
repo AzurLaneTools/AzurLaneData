@@ -1755,6 +1755,15 @@
   "build_ship_tip": {
     "tip": "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>"
   },
+  "build_ship_tip_use_ticket": {
+    "tip": "The following items will be consumed to build <color=#ffff00>$1 time(s)</color>:\n<color=$5>$4 x$3</color>"
+  },
+  "build_ticket_description": {
+    "tip": "*Removed after the event ends."
+  },
+  "build_ticket_expire_warning": {
+    "tip": "$1 of these items are about to expire."
+  },
   "building_complete_tip": {
     "tip": "Upgrade Complete "
   },
@@ -1771,7 +1780,7 @@
     "tip": "Ying Swei, Chao Ho and Penelope added to standard build pool! "
   },
   "buildship_new_tip": {
-    "tip": "Build 200 times to receive a guaranteed copy of Ulrich von Hutten! (Up to 4 copies can be claimed this way)"
+    "tip": "Rate UP for Tashkent, Sovetskaya Rossiya, Avrora, and more!"
   },
   "buildship_special_tip": {
     "tip": "Akagi µ added to standard build pool! "
@@ -3366,6 +3375,9 @@
   },
   "equipment_info_change_name_b": {
     "tip": "Twin 203mm Mle 1931 Main Gun Mount"
+  },
+  "equipment_info_change_strengthen": {
+    "tip": "Due to a change in upgrade material requirements, your upgraded <color=#FFDE38>$1</color> has been reset to +0, and the materials used have been refunded to you via in-game mail. "
   },
   "equipment_info_change_text_after": {
     "tip": "After"
@@ -7406,7 +7418,7 @@
   "lanternRiddles_gametip": {
     "tip": [
       {
-        "info": "Event Rules: \n“Lantern Festival” - Answer riddles to earn prizes!\n\n1. One chance to answer the questions each day, a total of 14 chances. You will earn rewards for the first 7 correct answers you give.\n2. You may attempt to answer a question any number of times until you give the correct answer. If you get a question wrong, you will have to wait a period of time before you can make another attempt.\n"
+        "info": "Event Rules: \n“Lantern Festival” - Answer quiz questions to earn prizes!\n1. Every day, you will gain 1 quiz attempt. You will earn rewards for the first 7 correct answers you give.\n2. You may attempt to answer a question any number of times until you give the correct answer.\nIf you get a question wrong, you will have to wait a period of time before you can make another attempt.\n3. There are a total of 14 quiz questions. You will not receive rewards after the 7th quiz correctly answered."
       }
     ]
   },
@@ -8808,9 +8820,6 @@
   },
   "multiple_ship_energy_low_warn": {
     "tip": "Exhausted\nAffinity will be reduced if you attack"
-  },
-  "multiple_ship_energy_low_warn_no_exp": {
-    "tip": "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
   },
   "music_collection": {
     "tip": [
@@ -11619,6 +11628,12 @@
   },
   "tip_add_task": {
     "tip": "New mission: $1"
+  },
+  "tip_build_ticket_expired": {
+    "tip": "The event has ended. $1 can no longer be used."
+  },
+  "tip_build_ticket_not_enough": {
+    "tip": "Insufficient $1."
   },
   "tip_exchange_ticket": {
     "tip": "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
