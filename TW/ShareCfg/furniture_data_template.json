@@ -38076,8 +38076,29 @@
     "can_trigger": [
       0
     ],
-    "canputon": 0,
-    "canputonGrid": [],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
     "comfortable": 2,
     "count": 1,
     "deblocking": 1,
@@ -38093,7 +38114,10 @@
     "is_get_time_note": 0,
     "level": 1,
     "name": "聖誕大門",
-    "offset": [],
+    "offset": [
+      0,
+      0
+    ],
     "picture": "christmas2/mencs2",
     "rarity": 2,
     "size": [
@@ -59352,6 +59376,117 @@
     "themeId": 58,
     "type": 6
   },
+  "59001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "只要和你在一起，每天都是夢幻般的節日~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanvt2icon",
+    "id": 59001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "夢幻時刻地板",
+    "offset": [],
+    "picture": "valentine2/dibanvt2",
+    "rarity": 4,
+    "size": [
+      2,
+      14
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 59,
+    "type": 4
+  },
+  "59002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "只要和你在一起，每天都是夢幻般的節日~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbivt2icon",
+    "id": 59002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "夢幻時刻牆壁",
+    "offset": [],
+    "picture": "valentine2/qiangbivt2",
+    "rarity": 4,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 59,
+    "type": 1
+  },
+  "59101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "裝滿甜蜜美味的冰箱",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bingxiangvt2icon",
+    "id": 59101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜冰箱",
+    "offset": [],
+    "picture": "valentine2/bingxiangvt2",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
   "59102": {
     "advice": 0,
     "belong": 1,
@@ -59362,7 +59497,7 @@
     "canputon": 0,
     "canputonGrid": [],
     "comfortable": 4,
-    "count": 1,
+    "count": 2,
     "deblocking": 1,
     "describe": "夜晚也要享受浪漫~",
     "dir": 0,
@@ -59415,7 +59550,94 @@
     "themeId": 59,
     "type": 2
   },
-  "59110": {
+  "59103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "雖然是硬的，不過坐下去還是挺舒服的",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengzivt2icon",
+    "id": 59103,
+    "interAction": [
+      [
+        "sit",
+        [
+          -21,
+          15
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜矮凳",
+    "offset": [],
+    "picture": "valentine2/dengzivt2",
+    "rarity": 1,
+    "size": [
+      1,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "儲物擺設兩相宜~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guizivt2icon",
+    "id": 59104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜床頭桌",
+    "offset": [],
+    "picture": "valentine2/guizivt2",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59105": {
     "advice": 0,
     "belong": 1,
     "can_rotate": 0,
@@ -59426,6 +59648,204 @@
     "canputonGrid": [],
     "comfortable": 3,
     "count": 1,
+    "deblocking": 1,
+    "describe": "被蓬蓬鬆鬆包圍的安心感~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lanyivt2icon",
+    "id": 59105,
+    "interAction": [
+      [
+        "sleep",
+        [
+          21,
+          15
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "啾啾懶人床",
+    "offset": [],
+    "picture": "valentine2/lanyivt2",
+    "rarity": 3,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "想和你，手牽手一起走過人生的階梯",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "loutivt2icon",
+    "id": 59106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜樓梯",
+    "offset": [],
+    "picture": "valentine2/loutivt2",
+    "rarity": 3,
+    "size": [
+      3,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "對你的愛，直到永遠~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "meiguivt2icon",
+    "id": 59107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "心形玫瑰",
+    "offset": [],
+    "picture": "valentine2/meiguivt2",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "夢幻的愛心氣球",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiqiuvt2icon",
+    "id": 59108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜氣球",
+    "offset": [],
+    "picture": "valentine2/qiqiuvt2",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "輸的人要負責做家務哦，嘿嘿",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qizivt2icon",
+    "id": 59109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜飛行棋",
+    "offset": [],
+    "picture": "valentine2/qizivt2",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 2,
     "deblocking": 1,
     "describe": "emmm…今天要穿什麼呢~",
     "dir": 0,
@@ -59451,6 +59871,532 @@
     "tag": 1,
     "themeId": 59,
     "type": 2
+  },
+  "59111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "軟綿綿好舒服~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yizi2vt2icon",
+    "id": 59111,
+    "interAction": [
+      [
+        "sit",
+        [
+          9,
+          38
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "啾啾懶人椅",
+    "offset": [],
+    "picture": "valentine2/yizi2vt2",
+    "rarity": 3,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "寬敞的浴缸~不過也不可以太吵鬧哦？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zaopengvt2icon",
+    "id": 59112,
+    "interAction": [
+      [
+        "wash",
+        [
+          -47.3,
+          -25
+        ],
+        [
+          1,
+          1
+        ],
+        "valentine2/zaopengvt2_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜浴缸",
+    "offset": [],
+    "picture": "valentine2/zaopengvt2",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "最甜蜜的事，是無論何時都和你在一起~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuozi2vt2icon",
+    "id": 59113,
+    "interAction": [
+      [
+        "sit",
+        [
+          -60,
+          -10
+        ],
+        [
+          -1,
+          1
+        ],
+        "valentine2/zhuozi2vt2_using"
+      ],
+      [
+        "sit",
+        [
+          78,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        "valentine2/zhuozi2vt2_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜工作台",
+    "offset": [],
+    "picture": "valentine2/zhuozi2vt2",
+    "rarity": 4,
+    "size": [
+      7,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "為你特別準備的浪漫正餐~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuozivt2icon",
+    "id": 59114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜餐桌",
+    "offset": [],
+    "picture": "valentine2/zhuozivt2",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 59,
+    "type": 2
+  },
+  "59115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "收下吧！我最真實的心意！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiezhivt2icon",
+    "id": 59115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "啾啾戒指盒",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "duijie",
+        "normal",
+        [
+          "action"
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 59,
+    "type": 2
+  },
+  "59116": {
+    "advice": 0,
+    "animator": [
+      [
+        "xuanzhuanmumaCharcontrol",
+        "xuanzhuanmumaCharcontrol2"
+      ]
+    ],
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "與你一起，在夢幻的木馬上轉呀轉，永不停歇~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mumavt2icon",
+    "id": 59116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "甜蜜旋轉木馬",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      8
+    ],
+    "spine": [
+      [
+        "xuanzhuanmumaB",
+        "normal"
+      ],
+      [
+        "xuanzhuanmumaT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": [
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 7,
+    "themeId": 59,
+    "type": 2
+  },
+  "59117": {
+    "advice": 0,
+    "animator": [
+      [
+        "xiaotingziCharControl",
+        "xiaotingziCharControl2"
+      ]
+    ],
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "接受丘比特的祝福吧~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tingzivt2icon",
+    "id": 59117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "愛神之庭",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      6
+    ],
+    "spine": [
+      [
+        "xiaotingziB",
+        "normal"
+      ],
+      [
+        "xiaotingziT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": [
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 7,
+    "themeId": 59,
+    "type": 2
+  },
+  "59301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "要擺滿你我愛的紀念品~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "aixinvt2icon",
+    "id": 59301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "愛心牆櫃",
+    "offset": [],
+    "picture": "valentine2/aixinvt2",
+    "rarity": 2,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 59,
+    "type": 6
+  },
+  "59302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "拉開窗簾，每天都是好心情~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanghuvt2icon",
+    "id": 59302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "粉色陽台",
+    "offset": [],
+    "picture": "valentine2/chuanghuvt2",
+    "rarity": 2,
+    "size": [
+      10,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 59,
+    "type": 6
+  },
+  "59303": {
+    "advice": 0,
+    "belong": 4,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "牆上都寫滿了你我的愛意~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lovevt2icon",
+    "id": 59303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "愛意壁掛",
+    "offset": [],
+    "picture": "valentine2/lovevt2",
+    "rarity": 2,
+    "size": [
+      8,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 59,
+    "type": 6
   },
   "60001": {
     "advice": 0,
@@ -77991,8 +78937,28 @@
     58302,
     58303,
     58304,
+    59001,
+    59002,
+    59101,
     59102,
+    59103,
+    59104,
+    59105,
+    59106,
+    59107,
+    59108,
+    59109,
     59110,
+    59111,
+    59112,
+    59113,
+    59114,
+    59115,
+    59116,
+    59117,
+    59301,
+    59302,
+    59303,
     60001,
     60002,
     60101,
