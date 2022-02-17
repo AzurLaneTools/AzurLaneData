@@ -737,6 +737,24 @@
   "attribute_torpedo": {
     "tip": "TRP "
   },
+  "attrset_ask_save": {
+    "tip": "Are you sure you want to save your current settings?"
+  },
+  "attrset_disable": {
+    "tip": "Unable to change settings - affected ships are currently sortieing."
+  },
+  "attrset_input_ill": {
+    "tip": "Input error."
+  },
+  "attrset_reset": {
+    "tip": "Reset"
+  },
+  "attrset_save": {
+    "tip": "Save"
+  },
+  "attrset_save_success": {
+    "tip": "Successfully saved."
+  },
   "auto_battle_limit_tip": {
     "tip": "Clear Stage 1-3 to unlock auto combat."
   },
@@ -2921,13 +2939,7 @@
   "decodegame_gametip": {
     "tip": [
       {
-        "info": "- Decryption:\nDecryption is a new minievent. Tap on the Decryption screen to begin decrypting and unlock Passcodes with which you can claim a number of rewards.\nTo begin decrypting, you first need to obtain Intel, which is acquired through the Northern Overture event."
-      },
-      {
-        "info": "- Decryption Screen Details:\n1. Your number of remaining decryption attempts are visible on the top left side of the screen.\n2. You can change which encrypted information is displayed by tapping the knobs on the right side of the screen.\n3. Deciphering the grids at the center of the Decryption screen is done by tapping on them.\n4. Tap the button at the bottom right side of the screen to head to the Passcodes screen.\n5. Once you've finished decrypting all the information, you can claim the final reward from the bottom left side of the screen."
-      },
-      {
-        "info": "- How to Play:\n1. Intel can be acquired by playing the Northern Overture event maps and completing event missions. For every <color=#92fc63>200</color> Intel collected, you get one decryption attempt.\n2. Tapping the knobs on the right side of the screen shows the grids containing information to be decrypted. To decrypt a grid, tap on it. Doing so requires 1 decryption attempt per grid.\n3. Once all grids have been decrypted, the electronic noise will disappear and the information will be viewable. Once you've fully decrypted a piece of information, tap the knobs on the right side of the screen to begin decrypting another.\n4. Once you've decrypted all the information available, you'll gain access to the Passcode page list on the bottom right side of the screen.\n5. Opening the Passcodes page shows you all the Passcodes you've decrypted.\n6. The light on the top left side of the screen will glow green when you've entered the right codes in the right order.\n7. Once you've correctly input 3 Passcodes, you can claim a reward from the bottom left side of the screen.\n8. You'll be able to claim the following rewards in order based on the number of grids you've decrypted:\n10 grids: 1,000 Coins\n20 grids: 5 T3 Universal Retrofit Materials\n30 grids: 1,000 Coins\n40 grids: 2 T3 Offensive Skill Books\n50 grids: 2 random T3 Retrofit Blueprints\n60 grids: 2 T3 Support Skill Books\n"
+        "info": "- Decryption -\nIn this minigame, use Intel Pts earned from the \"Darkness Within Dawn\" event to decrypt pieces of intel and unlock Passcodes to gain corresponding rewards.\n\n- Decryption Screen Details -\nYou can see your current decryption attempts on the left side of the screen.\nBy tapping the knobs on the right side of the screen, you can change the displayed intel.\nYou can decrypt intel by tapping the noise-like squares in the middle of the intel display screen.\nYou can access Passcodes by tapping the button on the bottom-right.\nAfter completing intel decryption, collect the corresponding rewards from the bottom left side of the screen.\n\n- How to Play -\n1. Earn Intel Pts by completing \"Darkness Within Dawn\" event missions. For every <color=#92fc63>200</color> Intel Pts you earn, you will gain 1 Decryption attempt.\n2. Tap on the knobs on the right-hand side of the screen to display the intel being decrypted, and tap on undecrypted parts of the screen (noise-like appearance) to decrypt it, spending 1 Decryption attempt in the process.\n3. After all the panels have been decrypted, the intel is considered completely decrypted, and you can change the decryption target by tapping on the knobs on the right-hand side of the screen.\n4. When all intel has been decrypted, the Passcodes page at the bottom right-hand side of the screen will be unlocked.\n5. Opening the Passcodes page shows you all the Passcodes you've decrypted.\n6. The light on the top left side of the screen will glow green when you've entered the right codes in the right order.\n7. Once you've correctly input 3 Passcodes, you can claim a reward from the bottom left side of the screen.\n8. You'll be able to claim the following rewards in order based on the number of grids you've decrypted:\n10 grids: 1,000 Coins\n20 grids: 5 T3 Universal Retrofit Materials\n30 grids: 1,000 Coins\n40 grids: 2 T3 Offensive Skill Books\n50 grids: 2 random T3 Retrofit Blueprints\n60 grids: 2 T3 Support Skill Books"
       }
     ]
   },
@@ -11628,6 +11640,9 @@
   },
   "tip_add_task": {
     "tip": "New mission: $1"
+  },
+  "tip_build_ticket_exchange_expired": {
+    "tip": "The Limited Construction period has ended; you are no longer able to use $1."
   },
   "tip_build_ticket_expired": {
     "tip": "The event has ended. $1 can no longer be used."
