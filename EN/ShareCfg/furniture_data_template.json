@@ -4697,6 +4697,49 @@
     "themeId": 0,
     "type": 7
   },
+  "221": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A trophy to commemorate the victory against the Sirens in the last Great War. It fills you with the strength of the Northern Parliament's unwavering spirit. Given to Commanders who participated in the Abyssal Refrain event.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "Abyssal Refrain",
+    "icon": "maozi3xunzhangicon",
+    "id": 221,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "Research Base Scale Model",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "maozi3xunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -86473,8 +86516,8 @@
       [
         "sit",
         [
-          -31.4,
-          76.2
+          -35.5,
+          63.1
         ],
         [
           1,
@@ -88281,6 +88324,88 @@
     "themeId": 0,
     "type": 7
   },
+  "100025": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Geronimoooooooooo!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "bengjiicon",
+    "id": 100025,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Diving Tower ",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "bengjiB",
+        "normal"
+      ],
+      [
+        "bengjiT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "walk"
+          ],
+          [
+            "stand2"
+          ],
+          [
+            "tuozhuai2"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "100026": {
     "advice": 0,
     "animator": [
@@ -88606,6 +88731,88 @@
     "themeId": 0,
     "type": 2
   },
+  "200004": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"My work here is done.\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "furniture_aerhangeersike_2icon",
+    "id": 200004,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Getaway Chopper",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      3
+    ],
+    "spine": [
+      [
+        "furniture_aerhangeersike_2",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "tuozhuai2"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "tuozhuai2",
+        [
+          705061
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -88706,6 +88913,7 @@
     216,
     217,
     218,
+    221,
     100002,
     100003,
     100004,
@@ -88725,10 +88933,12 @@
     100021,
     100022,
     100023,
+    100025,
     100026,
     200001,
     200002,
     200003,
+    200004,
     1001,
     1002,
     1101,
