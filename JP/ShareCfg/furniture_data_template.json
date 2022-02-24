@@ -5091,6 +5091,97 @@
     "themeId": 0,
     "type": 7
   },
+  "221": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "前の大戦での対セイレーン勝利の記念アイテム、北方連合の揺るがない意志の力を感じさせる――「鳴動せし星霜の淵」に参加した指揮官に贈る",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "鳴動せし星霜の淵",
+    "icon": "maozi3xunzhangicon",
+    "id": 221,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "調査要塞訪問記念",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "maozi3xunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "223": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "「じゃんじゃん買っていいにゃ！」「買い過ぎに注意、でございます…フフフ」",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gouwuchejpicon",
+    "id": 223,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "お買い物だにゃ！",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      2
+    ],
+    "spine": [
+      [
+        "gouwuchejp",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -94547,8 +94638,8 @@
       [
         "sit",
         [
-          -31.4,
-          76.2
+          -35.5,
+          63.1
         ],
         [
           1,
@@ -97263,6 +97354,79 @@
     "themeId": 0,
     "type": 7
   },
+  "100034": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "主砲よーい！いざ、参られようぞー",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "feixingpaoicon",
+    "id": 100034,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "秘曲・御艦江湖",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "feixingpao",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -97513,6 +97677,88 @@
     "themeId": 0,
     "type": 2
   },
+  "200004": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "「まだ私には帰れる所があるわ」",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "furniture_aerhangeersike_2icon",
+    "id": 200004,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "脱出用ヘリ",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      3
+    ],
+    "spine": [
+      [
+        "furniture_aerhangeersike_2",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "tuozhuai2"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "tuozhuai2",
+        [
+          705061
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -97620,6 +97866,8 @@
     216,
     217,
     218,
+    221,
+    223,
     100002,
     100003,
     100004,
@@ -97652,9 +97900,11 @@
     100031,
     100032,
     100033,
+    100034,
     200001,
     200002,
     200003,
+    200004,
     1001,
     1002,
     1101,
