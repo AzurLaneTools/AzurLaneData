@@ -4670,6 +4670,150 @@
     "themeId": 0,
     "type": 7
   },
+  "219": {
+    "advice": 0,
+    "animator": [
+      [
+        "niantuCharControl"
+      ]
+    ],
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 5,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "감사를 전하는 핸드메이드 선물!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "niantuicon",
+    "id": 219,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "스페셜·기념 테이블",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "niantucnB",
+        "normal"
+      ],
+      [
+        "niantucnT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit",
+            0,
+            "sit"
+          ]
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "sit",
+        [
+          10000,
+          10001
+        ],
+        "buli",
+        2,
+        2
+      ],
+      [
+        "sit",
+        [
+          30311
+        ],
+        "gaoxiong",
+        2,
+        2
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "220": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 5,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "지휘관 여러분께 커다란 감사와 축복을 바칩니다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bili200wicon",
+    "id": 220,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "스페셜·기념 천하장사냥",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "bili200w",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -95304,6 +95448,79 @@
     "themeId": 0,
     "type": 7
   },
+  "100034": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "주포 준비 완료! 전속 전진~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "feixingpaoicon",
+    "id": 100034,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "항해술",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "feixingpao",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -95654,6 +95871,8 @@
     216,
     217,
     218,
+    219,
+    220,
     100002,
     100003,
     100004,
@@ -95686,6 +95905,7 @@
     100031,
     100032,
     100033,
+    100034,
     200001,
     200002,
     200003,
