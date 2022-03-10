@@ -178,7 +178,7 @@
   "activity_permanent_help": {
     "tip": [
       {
-        "info": "活动档案说明\n1.同一時間僅可開啟<color=#92fc63>1</color>項活動，活動開啟後將無法再次打開活動列表介面。\n2.已開啟的活動必須在正式完成後才可結束，無法中途關閉。\n3.重複獲得的限定換裝會自動折算為物資"
+        "info": "活動檔案說明\n1.同一時間僅可開啟<color=#92fc63>1</color>項活動，活動開啟後將無法再次打開活動列表介面。\n2.已開啟的活動必須在正式完成後才可結束，無法中途關閉。\n3.重複獲得的限定換裝會自動折算為物資"
       }
     ]
   },
@@ -1087,11 +1087,17 @@
   "battle_levelScene_0Oil": {
     "tip": "石油產量為0"
   },
-  "battle_levelScene_lock": {
-    "tip": "關卡尚未開放，請通關<color=#A9F548>前置關卡</color>"
+  "battle_levelScene_chapter_lock": {
+    "tip": "目標關卡尚未開放，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
   },
-  "battle_levelScene_lock_1": {
-    "tip": "該階段活動副本尚未開放"
+  "battle_levelScene_close": {
+    "tip": "該階段活動關卡尚未開放"
+  },
+  "battle_levelScene_hard_lock": {
+    "tip": "目標地圖對應主線章節未通關，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
+  },
+  "battle_levelScene_lock": {
+    "tip": "目標地圖尚未開放，請通關<color=#92fc63>前置關卡</color>"
   },
   "battle_levelScene_noRaderCount": {
     "tip": "掃描次數不足"
@@ -1537,7 +1543,7 @@
     "tip": "蘇維埃白俄羅斯、基洛夫、雷鳴、摩爾曼斯克 建造機率UP！"
   },
   "buildship_special_tip": {
-    "tip": "齊柏林伯爵、U-47、U-557建造追加！"
+    "tip": "龍驤 建造追加！"
   },
   "buleprint_need_level_tip": {
     "tip": "需角色到達$1級"
