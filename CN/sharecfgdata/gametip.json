@@ -1266,11 +1266,17 @@
   "battle_levelScene_0Oil": {
     "tip": "石油产量为0"
   },
-  "battle_levelScene_lock": {
-    "tip": "关卡尚未开放，请通关<color=#92fc63>前置关卡</color>"
+  "battle_levelScene_chapter_lock": {
+    "tip": "目标关卡尚未开放，无法挑战。请通关<color=#92fc63>前置关卡</color>"
   },
-  "battle_levelScene_lock_1": {
+  "battle_levelScene_close": {
     "tip": "该阶段活动关卡尚未开放"
+  },
+  "battle_levelScene_hard_lock": {
+    "tip": "目标地图对应主线章节未通关，无法挑战。请通关<color=#92fc63>前置关卡</color>"
+  },
+  "battle_levelScene_lock": {
+    "tip": "目标地图尚未开放，请通关<color=#92fc63>前置关卡</color>"
   },
   "battle_levelScene_noRaderCount": {
     "tip": "扫描次数不足"
@@ -1721,7 +1727,7 @@
     "tip": "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3个$4」</color>"
   },
   "build_ticket_description": {
-    "tip": "※活动结束后清空 "
+    "tip": "※活动结束后清空"
   },
   "build_ticket_expire_warning": {
     "tip": "x$1 即将过期"
@@ -3601,6 +3607,9 @@
   },
   "event_type_unreached": {
     "tip": "舰队中角色的类型不满足"
+  },
+  "eventshop_time_hint": {
+    "tip": "兑换时间截止至$1维护 "
   },
   "exchange_item_success": {
     "tip": "兑换成功"
@@ -8962,7 +8971,7 @@
         "info": "·META研究室是进行META角色获取、养成的专用系统\n·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研习」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n·重复获取的META角色将会自动转换为1个对应的角色结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。\n"
       },
       {
-        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2021.12.9-2022.3.10</color>期间限时开放「格奈森瑙·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「格奈森瑙·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「格奈森瑙·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
+        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2021.12.9-2022.3.10</color>期间限时开放「沙恩霍斯特·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「沙恩霍斯特·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「沙恩霍斯特·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
       },
       {
         "info": "3.<color=#92fc63>战术研习</color>\n·完成战术研习任务获得META角色的技能升级经验，部分任务可以重复完成\n·一名角色只能同时进行一项技能的战术研习任务，多名角色之间彼此独立，同时进行\n·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率\n（剩余次数不满2次时不生效）\n·任务类型和可完成次数会随着技能等级升级而刷新\n"
@@ -13516,6 +13525,9 @@
   },
   "world_collection_task_tip_1": {
     "tip": "已有正在进行中的档案任务，无法继续购买。"
+  },
+  "world_complete_item_tip": {
+    "tip": "已压制所有海域，无法购买战役信息记录仪"
   },
   "world_consume_carry_tips": {
     "tip": "未配置tip"
