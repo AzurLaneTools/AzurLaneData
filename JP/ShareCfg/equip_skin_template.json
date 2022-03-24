@@ -14554,7 +14554,7 @@
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
-    "themeid": 99,
+    "themeid": 101,
     "type": 1,
     "weapon_ids": [
       107,
@@ -14583,7 +14583,7 @@
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
-    "themeid": 99,
+    "themeid": 101,
     "type": 1,
     "weapon_ids": [
       24000,
@@ -14614,7 +14614,7 @@
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
-    "themeid": 99,
+    "themeid": 101,
     "type": 1,
     "weapon_ids": [
       101,
@@ -14658,11 +14658,158 @@
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
-    "themeid": 99,
+    "themeid": 101,
     "type": 1,
     "weapon_ids": [
       101,
       101
+    ]
+  },
+  "2005": {
+    "bullet_name": "",
+    "derivate_boom": "",
+    "derivate_bullet": "",
+    "derivate_torpedo": "",
+    "desc": "月は出ているか……？",
+    "equip_type": [
+      10
+    ],
+    "icon": "96152",
+    "id": 2005,
+    "mirror": 0,
+    "name": "サテライトムーン",
+    "orbit_combat": "shebei_yuexiang",
+    "orbit_combat_bound": [
+      "face",
+      [
+        0,
+        -0.11,
+        -0.69
+      ]
+    ],
+    "orbit_hidden_action": [
+      "sleep",
+      "wash"
+    ],
+    "orbit_ui": "shebei_yuexiangui",
+    "orbit_ui_bound": [
+      "face",
+      [
+        -7,
+        -114
+      ]
+    ],
+    "rarity": 4,
+    "ship_config_id": 100011,
+    "ship_skin_id": 0,
+    "themeid": 101,
+    "type": 1,
+    "weapon_ids": [
+      101,
+      101
+    ]
+  },
+  "2006": {
+    "bullet_name": "paodan_shuangxingpaodan",
+    "derivate_boom": "",
+    "derivate_bullet": "",
+    "derivate_torpedo": "",
+    "desc": "砲弾が二つ…来るぞ饅頭！",
+    "equip_type": [
+      4,
+      11
+    ],
+    "icon": "96112",
+    "id": 2006,
+    "mirror": 0,
+    "name": "ジェミニ砲弾",
+    "orbit_combat": "",
+    "orbit_combat_bound": "",
+    "orbit_hidden_action": "",
+    "orbit_ui": "",
+    "orbit_ui_bound": "",
+    "rarity": 4,
+    "ship_config_id": 100011,
+    "ship_skin_id": 0,
+    "themeid": 101,
+    "type": 1,
+    "weapon_ids": [
+      24000,
+      24000,
+      24000
+    ]
+  },
+  "2007": {
+    "bullet_name": "",
+    "derivate_boom": "",
+    "derivate_bullet": "",
+    "derivate_torpedo": "",
+    "desc": "我が世の春が来たピョ！（4月）",
+    "equip_type": [
+      10
+    ],
+    "icon": "96153",
+    "id": 2007,
+    "mirror": 0,
+    "name": "月光の蝶",
+    "orbit_combat": "shebei_xingyunzhiyi",
+    "orbit_combat_bound": [
+      "face",
+      [
+        -0.22,
+        -0.32,
+        -1.01
+      ]
+    ],
+    "orbit_hidden_action": [
+      "sleep",
+      "wash"
+    ],
+    "orbit_ui": "shebei_xingyunzhiyiui",
+    "orbit_ui_bound": [
+      "face",
+      [
+        0,
+        -103
+      ]
+    ],
+    "rarity": 4,
+    "ship_config_id": 100011,
+    "ship_skin_id": 0,
+    "themeid": 101,
+    "type": 1,
+    "weapon_ids": [
+      101,
+      101
+    ]
+  },
+  "2008": {
+    "bullet_name": "yulei_aomomo",
+    "derivate_boom": "",
+    "derivate_bullet": "",
+    "derivate_torpedo": "",
+    "desc": "隕石ではなく、宇宙船だと…！？",
+    "equip_type": [
+      5,
+      13
+    ],
+    "icon": "96122",
+    "id": 2008,
+    "mirror": 0,
+    "name": "オウムアムア魚雷",
+    "orbit_combat": "",
+    "orbit_combat_bound": "",
+    "orbit_hidden_action": "",
+    "orbit_ui": "",
+    "orbit_ui_bound": "",
+    "rarity": 4,
+    "ship_config_id": 100011,
+    "ship_skin_id": 0,
+    "themeid": 101,
+    "type": 1,
+    "weapon_ids": [
+      107,
+      107
     ]
   },
   "all": [
@@ -15173,6 +15320,10 @@
     2001,
     2002,
     2003,
-    2004
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
   ]
 }
