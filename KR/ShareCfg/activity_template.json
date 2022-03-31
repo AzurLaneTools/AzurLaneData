@@ -71,11 +71,7 @@
     "type": 5
   },
   "6": {
-    "config_client": [
-      4,
-      21,
-      1
-    ],
+    "config_client": "",
     "config_data": [],
     "config_id": 6,
     "id": 6,
@@ -874,7 +870,7 @@
     "config_data": [],
     "config_id": 4278,
     "id": 4278,
-    "is_show": 20,
+    "is_show": 17,
     "login_pop": 0,
     "mark": 20220310,
     "page_info": {
@@ -925,32 +921,7 @@
     "login_pop": 0,
     "mark": 20220310,
     "page_info": "",
-    "time": {
-      "2": [
-        [
-          2022,
-          3,
-          17
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2022,
-          3,
-          31
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    },
+    "time": "stop",
     "title_res_tag": "",
     "type": 12
   },
@@ -970,32 +941,7 @@
     "login_pop": 0,
     "mark": 20220310,
     "page_info": "",
-    "time": {
-      "2": [
-        [
-          2022,
-          3,
-          17
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      "3": [
-        [
-          2022,
-          3,
-          31
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    },
+    "time": "stop",
     "title_res_tag": "",
     "type": 13
   },
@@ -1019,12 +965,37 @@
     "login_pop": 0,
     "mark": 20220310,
     "page_info": "",
+    "time": "stop",
+    "title_res_tag": "",
+    "type": 26
+  },
+  "4286": {
+    "config_client": {
+      "entrance_bg": "activitybanner/temp10"
+    },
+    "config_data": [
+      1630001,
+      1630002,
+      1630003,
+      1630004,
+      1630041,
+      1630051
+    ],
+    "config_id": 0,
+    "id": 4286,
+    "is_show": 20,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": {
+      "class_name": "YidaliSPMainPage",
+      "ui_name": "YidaliSPMainPage"
+    },
     "time": {
       "2": [
         [
           2022,
           3,
-          17
+          31
         ],
         [
           0,
@@ -1035,8 +1006,60 @@
       "3": [
         [
           2022,
+          4,
+          14
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "yidalisp_main",
+    "type": 12
+  },
+  "4287": {
+    "config_client": "",
+    "config_data": [
+      17456,
+      17457,
+      17458,
+      17459,
+      17460,
+      17461,
+      17462,
+      17463,
+      17464,
+      17465,
+      17466,
+      17467,
+      17468
+    ],
+    "config_id": 0,
+    "id": 4287,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
           3,
           31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          14
         ],
         [
           23,
@@ -1046,7 +1069,392 @@
       ]
     },
     "title_res_tag": "",
-    "type": 26
+    "type": 13
+  },
+  "4288": {
+    "config_client": {
+      "linkActID": 4286
+    },
+    "config_data": [],
+    "config_id": 4288,
+    "id": 4288,
+    "is_show": 19,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": {
+      "class_name": "YidaliSPPtPage",
+      "ui_name": "YidaliSPPtPage"
+    },
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "yidalisp_pt",
+    "type": 74
+  },
+  "4289": {
+    "config_client": "",
+    "config_data": [
+      1635001,
+      5000,
+      50,
+      0.36,
+      0.6,
+      10
+    ],
+    "config_id": 0,
+    "id": 4289,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          28
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 36
+  },
+  "4290": {
+    "config_client": {
+      "1": "commonbg/bg_pt_pata",
+      "2": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "painting": "pangpeimagenuo_pt",
+      "pt_id": 243,
+      "use_secretary": false
+    },
+    "config_data": [
+      1658,
+      1659,
+      1660,
+      1661,
+      1662,
+      1663,
+      1664,
+      1665,
+      1666,
+      1667,
+      1668,
+      1669,
+      1670,
+      1671,
+      1672,
+      1673,
+      1674,
+      1675,
+      1676,
+      1677,
+      1678
+    ],
+    "config_id": 0,
+    "id": 4290,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 14
+  },
+  "4291": {
+    "config_client": {
+      "1": [],
+      "2": "BULIZHISHI1",
+      "autounlock": 86400,
+      "stageid": 1360003
+    },
+    "config_data": [
+      97114
+    ],
+    "config_id": 0,
+    "id": 4291,
+    "is_show": 18,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": {
+      "class_name": "AprilFool2022Page",
+      "ui_name": "AprilFool2022Page"
+    },
+    "time": {
+      "2": [
+        [
+          2022,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          7
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "AprilFool2022",
+    "type": 81
+  },
+  "4292": {
+    "config_client": "",
+    "config_data": [
+      17455
+    ],
+    "config_id": 0,
+    "id": 4292,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          13
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 13
+  },
+  "4293": {
+    "config_client": "",
+    "config_data": [
+      289,
+      290,
+      291,
+      292,
+      293,
+      294
+    ],
+    "config_id": 0,
+    "id": 4293,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          14
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 60
+  },
+  "4294": {
+    "config_client": {
+      "bg": "loadingbg/bg_build_4_act",
+      "buildship_tip": "帝国、可畏等角色建造概率UP！",
+      "id": 4,
+      "rate_tip": [
+        "<color=#ffde38>超稀有舰船</color>：7%",
+        "<color=#d797ff>精锐舰船</color>：12%",
+        "<color=#3dc6ff>稀有舰船</color>：51%",
+        "普通舰船：30%",
+        "<color=#ffde38>帝国</color>：2.0%<color=#92FC63>(up!)</color>",
+        " ",
+        "<color=#ffde38>可畏</color>：2.0%<color=#92FC63>(up!)</color>",
+        " ",
+        "<color=#ffde38>庞培·马格诺</color>：0.5%",
+        " ",
+        "<color=#d797ff>的里雅斯特</color>：2.5%<color=#92FC63>(up!)</color>"
+      ]
+    },
+    "config_data": [],
+    "config_id": 4,
+    "id": 4294,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          14
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 1
+  },
+  "4295": {
+    "config_client": "",
+    "config_data": "100",
+    "config_id": 243,
+    "id": 4295,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          28
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 16
   },
   "6000": {
     "config_client": {
@@ -1703,6 +2111,65 @@
     "time": "stop",
     "title_res_tag": "gelidelishengdan_permanent",
     "type": 18
+  },
+  "7004": {
+    "config_client": {
+      "map_name": "map_202204",
+      "spine_name": "chess_qiye",
+      "tips": [
+        "battlepass_main_tip_2204",
+        "battlepass_main_help_2204",
+        "cruise_task_help_2204"
+      ]
+    },
+    "config_data": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "config_id": 0,
+    "id": 7004,
+    "is_show": 14,
+    "login_pop": 0,
+    "mark": 20220324,
+    "page_info": {
+      "class_name": "CrusingDisplayActPage",
+      "ui_name": "CrusingDisplayActPage4"
+    },
+    "time": {
+      "2": [
+        [
+          2022,
+          4,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          6,
+          7
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "CrusingDisplayAct",
+    "type": 54
   },
   "20038": {
     "config_client": "",
@@ -5387,6 +5854,131 @@
     "title_res_tag": "NewYear4thSkinShow",
     "type": 13
   },
+  "20961": {
+    "config_client": "",
+    "config_data": [
+      14681
+    ],
+    "config_id": 0,
+    "id": 20961,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220127,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          1,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 13
+  },
+  "20962": {
+    "config_client": "",
+    "config_data": [
+      12
+    ],
+    "config_id": 20963,
+    "id": 20962,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220127,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          1,
+          24
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          1,
+          30
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ],
+      "4": 1,
+      "5": 1,
+      "6": {
+        "2": 13
+      }
+    },
+    "title_res_tag": "",
+    "type": 24
+  },
+  "20963": {
+    "config_client": "",
+    "config_data": [
+      20961
+    ],
+    "config_id": 12,
+    "id": 20963,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220127,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          1,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 37
+  },
   "20964": {
     "config_client": {
       "story": [
@@ -6051,6 +6643,256 @@
     "time": "stop",
     "title_res_tag": "sn_login",
     "type": 3
+  },
+  "20989": {
+    "config_client": "",
+    "config_data": [
+      1,
+      2,
+      3
+    ],
+    "config_id": 0,
+    "id": 20989,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220331,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 55
+  },
+  "20990": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 1,
+    "id": 20990,
+    "is_show": 5,
+    "login_pop": 0,
+    "mark": 20220331,
+    "page_info": {
+      "class_name": "ReturnAwardPage",
+      "ui_name": "returnawardpage",
+      "ui_name2": "ReturnAward4RetrunerPage"
+    },
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          5,
+          12
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "huiliu",
+    "type": 56
+  },
+  "20991": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 23,
+    "id": 20991,
+    "is_show": 7,
+    "login_pop": 2,
+    "mark": 20220331,
+    "page_info": {
+      "class_name": "FourthAnniversarySignPageKR",
+      "ui_name": "FourthAnniversarySignPageKR"
+    },
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "zhaodaizhuang",
+    "type": 3
+  },
+  "20992": {
+    "config_client": [
+      [
+        302,
+        0.78
+      ],
+      [
+        303,
+        0.75
+      ],
+      [
+        304,
+        0.9
+      ],
+      [
+        305,
+        1
+      ],
+      [
+        306,
+        1
+      ],
+      [
+        307,
+        1
+      ],
+      [
+        308,
+        0.9
+      ],
+      [
+        309,
+        0.8
+      ],
+      [
+        311,
+        0.9
+      ],
+      [
+        312,
+        0.8
+      ],
+      [
+        313,
+        1
+      ],
+      [
+        314,
+        0.9
+      ],
+      [
+        315,
+        0.85
+      ]
+    ],
+    "config_data": [
+      106,
+      112,
+      117,
+      118,
+      119,
+      124,
+      129,
+      138,
+      140,
+      141,
+      145,
+      148,
+      151,
+      155,
+      157,
+      160,
+      167,
+      173,
+      175,
+      177,
+      183,
+      184,
+      187,
+      189,
+      192,
+      194,
+      200,
+      203,
+      208,
+      210,
+      212,
+      218,
+      221
+    ],
+    "config_id": 0,
+    "id": 20992,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20220331,
+    "page_info": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          3,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          4,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "title_res_tag": "",
+    "type": 38
   },
   "25002": {
     "config_client": "",
@@ -7083,6 +7925,17 @@
     4279,
     4280,
     4281,
+    4286,
+    4287,
+    4288,
+    4289,
+    4290,
+    4291,
+    4292,
+    4293,
+    4294,
+    4295,
+    7004,
     6000,
     6001,
     6002,
@@ -7192,6 +8045,9 @@
     20958,
     20959,
     20960,
+    20961,
+    20962,
+    20963,
     20964,
     20965,
     20966,
@@ -7216,6 +8072,10 @@
     20986,
     20987,
     20988,
+    20989,
+    20990,
+    20991,
+    20992,
     25002,
     25003,
     25004,
