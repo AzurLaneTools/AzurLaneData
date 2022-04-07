@@ -2092,6 +2092,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10316,
@@ -2486,17 +2497,6 @@
     "code": 60,
     "description": [
       [
-        "进行重型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
-      ],
-      [
         "限时活动：坠落之翼",
         [
           ""
@@ -2537,17 +2537,6 @@
   "61": {
     "code": 61,
     "description": [
-      [
-        "进行重型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
-      ],
       [
         "限时活动：坠落之翼",
         [
@@ -5640,17 +5629,6 @@
           }
         ],
         0
-      ],
-      [
-        "进行重型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
       ]
     ],
     "group_type": 20506,
@@ -5677,12 +5655,11 @@
     "code": 136,
     "description": [
       [
-        "进行重型舰建造",
+        "军需商店兑换",
         [
-          "GETBOAT",
+          "SHOP",
           {
-            "page": 1,
-            "projectName": "heavy"
+            "warp": "supplies"
           }
         ],
         0
@@ -6654,17 +6631,6 @@
         0
       ],
       [
-        "进行轻型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
-        ],
-        0
-      ],
-      [
         "荣誉勋章兑换（概率刷新）",
         [
           "GETBOAT",
@@ -6812,20 +6778,19 @@
     "code": 174,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -6863,20 +6828,19 @@
     "code": 175,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -7717,17 +7681,6 @@
           }
         ],
         0
-      ],
-      [
-        "进行重型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
       ]
     ],
     "group_type": 30312,
@@ -8472,6 +8425,16 @@
           ""
         ],
         0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30606,
@@ -8906,20 +8869,19 @@
     "code": 237,
     "description": [
       [
-        "限时活动：异色格",
+        "荣誉勋章兑换（概率刷新）",
         [
-          ""
+          "GETBOAT",
+          {
+            "page": 3
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "限时活动：异色格",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -9313,17 +9275,6 @@
     "code": 246,
     "description": [
       [
-        "进行重型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
-      ],
-      [
         "限时活动：围剿斯佩伯爵",
         [
           ""
@@ -9461,20 +9412,19 @@
     "code": 251,
     "description": [
       [
-        "限时活动：异色格",
+        "荣誉勋章兑换（概率刷新）",
         [
-          ""
+          "GETBOAT",
+          {
+            "page": 3
+          }
         ],
         0
       ],
       [
-        "进行重型舰建造",
+        "限时活动：异色格",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
+          ""
         ],
         0
       ]
@@ -9728,12 +9678,11 @@
     "code": 258,
     "description": [
       [
-        "进行轻型舰建造",
+        "舰队商店兑换",
         [
-          "GETBOAT",
+          "SHOP",
           {
-            "page": 1,
-            "projectName": "light"
+            "warp": "guild"
           }
         ],
         0
@@ -9772,12 +9721,11 @@
     "code": 259,
     "description": [
       [
-        "进行轻型舰建造",
+        "舰队商店兑换",
         [
-          "GETBOAT",
+          "SHOP",
           {
-            "page": 1,
-            "projectName": "light"
+            "warp": "guild"
           }
         ],
         0
@@ -10392,20 +10340,19 @@
     "code": 278,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -11366,20 +11313,19 @@
     "code": 320,
     "description": [
       [
-        "限时活动：归来与新生",
+        "荣誉勋章兑换（概率刷新）",
         [
-          ""
+          "GETBOAT",
+          {
+            "page": 3
+          }
         ],
         0
       ],
       [
-        "进行重型舰建造",
+        "限时活动：归来与新生",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
+          ""
         ],
         0
       ]
@@ -11793,20 +11739,19 @@
     "code": 333,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -11835,20 +11780,19 @@
     "code": 334,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -12129,17 +12073,6 @@
     "code": 342,
     "description": [
       [
-        "进行特型舰建造",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "special"
-          }
-        ],
-        0
-      ],
-      [
         "舰队商店兑换",
         [
           "SHOP",
@@ -12258,20 +12191,19 @@
     "code": 345,
     "description": [
       [
-        "限时活动：异色格",
+        "荣誉勋章兑换（概率刷新）",
         [
-          ""
+          "GETBOAT",
+          {
+            "page": 3
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "限时活动：异色格",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -12300,20 +12232,19 @@
     "code": 346,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -12714,20 +12645,19 @@
     "code": 355,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -12867,12 +12797,11 @@
     "code": 359,
     "description": [
       [
-        "进行轻型舰建造",
+        "军需商店兑换",
         [
-          "GETBOAT",
+          "SHOP",
           {
-            "page": 1,
-            "projectName": "light"
+            "warp": "supplies"
           }
         ],
         0
@@ -12902,20 +12831,19 @@
     "code": 360,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -13117,20 +13045,19 @@
     "code": 365,
     "description": [
       [
-        "月度签到",
+        "舰队商店兑换",
         [
-          ""
+          "SHOP",
+          {
+            "warp": "guild"
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "月度签到",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -14323,20 +14250,19 @@
     "code": 395,
     "description": [
       [
-        "限时活动：光与影的鸢尾之华",
+        "荣誉勋章兑换（概率刷新）",
         [
-          ""
+          "GETBOAT",
+          {
+            "page": 3
+          }
         ],
         0
       ],
       [
-        "进行轻型舰建造",
+        "限时活动：光与影的鸢尾之华",
         [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
+          ""
         ],
         0
       ]
@@ -14545,6 +14471,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10520,
@@ -14607,6 +14544,16 @@
           ""
         ],
         0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10729,
@@ -14638,6 +14585,16 @@
           ""
         ],
         0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10222,
@@ -14667,6 +14624,17 @@
         "限时活动：箱庭疗法",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -18059,6 +18027,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10145,
@@ -18088,6 +18067,17 @@
         "限时活动：箱庭疗法",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
