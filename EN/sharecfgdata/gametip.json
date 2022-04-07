@@ -309,7 +309,7 @@
     "tip": "Limit:"
   },
   "activity_shop_lable": {
-    "tip": "*Available During:<color=#68F9D7>$1</color>"
+    "tip": "*Available During:<color=#FFCF81>$1</color>"
   },
   "activity_switch_award_pool_failed": {
     "tip": "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
@@ -909,7 +909,7 @@
     "tip": "will be eaten up~"
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_top": {
-    "tip": "In                         everything "
+    "tip": "In                 everything "
   },
   "backyard_backyardGranaryLayer_full": {
     "tip": "<color=red>Restocking failed! Supplies are already full.</color>"
@@ -1067,6 +1067,18 @@
   "backyard_extendCapacity_ok": {
     "tip": "Supplies storage expanded! Storage capacity increased by <color=#92fc63>$1</color>."
   },
+  "backyard_extend_tip_1": {
+    "tip": "Need "
+  },
+  "backyard_extend_tip_2": {
+    "tip": "Expansion License "
+  },
+  "backyard_extend_tip_3": {
+    "tip": "You have:"
+  },
+  "backyard_extend_tip_4": {
+    "tip": ""
+  },
   "backyard_filter_tag_other": {
     "tip": "Other"
   },
@@ -1075,6 +1087,9 @@
   },
   "backyard_food_remind": {
     "tip": "Your storage limit will be exceeded if you continue using <color=yellow>$1</color>. Continue?"
+  },
+  "backyard_food_shop_tip": {
+    "tip": "Will cost:"
   },
   "backyard_getResource_emptry": {
     "tip": "You were too slow..."
@@ -1086,7 +1101,7 @@
     "tip": "Loading furniture... "
   },
   "backyard_longpress_ship_tip": {
-    "tip": "Tap and hold to view detailed character information."
+    "tip": "<size=30>Tap and hold to view detailed character information.</size>"
   },
   "backyard_no_pos_for_ship": {
     "tip": "You don't have enough space in your dorm! You can only choose this much."
@@ -1108,6 +1123,12 @@
   },
   "backyard_rename_success": {
     "tip": "Dorm name changed!"
+  },
+  "backyard_rename_tip": {
+    "tip": "Enter a new Dorm name."
+  },
+  "backyard_rename_title": {
+    "tip": "Rename Dorm"
   },
   "backyard_rest_tip": {
     "tip": "Resting greatly improves Morale recovery."
@@ -1263,7 +1284,7 @@
     "tip": "Likes"
   },
   "backyard_traning_tip": {
-    "tip": "Training grants EXP over time and improves Morale recovery."
+    "tip": "<size=30>Training grants EXP over time and improves Morale recovery.</size>"
   },
   "backyard_unopen": {
     "tip": "Dorm has not been made public"
@@ -1817,7 +1838,7 @@
     "tip": "Ying Swei, Chao Ho and Penelope added to standard build pool! "
   },
   "buildship_new_tip": {
-    "tip": "Rate UP for Impero, Formidable, and more!"
+    "tip": "Build 200 times to receive a guaranteed copy of Kronshtadt! (Up to 4 copies can be claimed this way)"
   },
   "buildship_special_tip": {
     "tip": "Akagi µ added to standard build pool! "
@@ -2313,6 +2334,12 @@
   },
   "click_back_tip": {
     "tip": "Tap to Return "
+  },
+  "code_text": {
+    "tip": "Verification Code"
+  },
+  "codehold_text": {
+    "tip": "  your Verification Code "
   },
   "collect_chapter_is_activation": {
     "tip": "Your are on a mission, do you want to retreat?"
@@ -2978,6 +3005,9 @@
   "desc_quick_play": {
     "tip": "Fast Forward"
   },
+  "desc_text": {
+    "tip": "The Verification Code will expire in 30 minutes once it's been sent to your inbox."
+  },
   "destination_can_not_reach": {
     "tip": "Unable to reach target location."
   },
@@ -3095,6 +3125,9 @@
   "dont_send_message_frequently": {
     "tip": "Do not spam the chat. "
   },
+  "dorm_2f_lock": {
+    "tip": "Locked"
+  },
   "draw_big_luck_1": {
     "tip": "You will have a lucky New Year's nya!"
   },
@@ -3189,6 +3222,12 @@
   "elite_warp_to_latest_map": {
     "tip": "Viewing newest chapter."
   },
+  "email_text": {
+    "tip": "Email"
+  },
+  "emailhold_text": {
+    "tip": "  a Verification Code will be sent to this email "
+  },
   "emoji_type_0": {
     "tip": "Recent"
   },
@@ -3230,6 +3269,12 @@
   },
   "energy_desc_tired": {
     "tip": "She's tired. It'll be hard for her to use her true power."
+  },
+  "enter_extend_food_label": {
+    "tip": "Expand"
+  },
+  "enter_theme_name": {
+    "tip": "Enter a name for your Dorm theme."
   },
   "equip_add": {
     "tip": "— Tap to select gear —"
@@ -3787,9 +3832,6 @@
   "extra_chapter_socre_tip": {
     "tip": "Current Record: <color=#92fc63>$1</color>\n\nRecord Best: <color=#92fc63>$2</color>\n\n$3"
   },
-  "facebook_link_title": {
-    "tip": "Facebook Account:$1"
-  },
   "fate_attr_word": {
     "tip": "Results of Fate Simulation:"
   },
@@ -4096,6 +4138,9 @@
   },
   "gem_shop_xinzhi_tip": {
     "tip": "Bought $1/15 times this month "
+  },
+  "genBtn_text": {
+    "tip": "Generate"
   },
   "give_up_cloth_change": {
     "tip": "Do you want to apply the skin later?"
@@ -7665,24 +7710,36 @@
   "levelScene_remaster_help_tip": {
     "tip": [
       {
-        "info": "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
+        "info": "- Data Keys Info -\n· You can use Data Keys to play on event stages found on the War Archives screen.\n· Any progress you've made on an event stage prior to its addition to the War Archives does not carry over."
       },
       {
-        "info": "1. You can acquire 4 Data Keys a day by tapping the \"Collect\" button in the War Archives interface."
+        "info": "\n· You can acquire <color=#92fc63>4</color> Data Keys a day from the War Archives menu."
       },
       {
-        "info": "2. You can store up to 60 Data Keys in total. Any Data Keys that you attempt to collect beyond that amount will be lost."
+        "info": "· You can store up to <color=#92fc63>60</color> Data Keys at a time. Any Data Keys you collect beyond this point will be <color=#92fc63>discarded</color>."
       },
       {
-        "info": "3. A Data Key can be consumed to grant one attempt on a selected event stage."
+        "info": "· Using 1 Data Key lets you do <color=#92fc63>1 run</color> on any archived event stage of your choosing."
       },
       {
-        "info": "4. Data Keys will not be refunded if you retreat from a stage."
+        "info": "· You can play on any stage from a given archived event, except for EX Stages, if applicable."
+      },
+      {
+        "info": "· Completing the last stage of an archived event will unlock all its associated event cutscenes. You can view these from the Memories menu."
+      },
+      {
+        "info": "· You can receive an SR ship by defeating the Boss Fleet a total of 60 times on certain archived event stages. You can only get 1 SR this way from each applicable event stage."
       }
     ]
   },
+  "levelScene_remaster_story_tip": {
+    "tip": "You've unlocked the cutscenes of $1.\nThey can be viewed through the Memories menu."
+  },
   "levelScene_remaster_tickets_not_enough": {
     "tip": "You do not have enough Data Keys."
+  },
+  "levelScene_remaster_unlock_tip": {
+    "tip": "Unlocked by clearing $1 - $2 in the War Archives."
   },
   "levelScene_retreat_erro": {
     "tip": "Failed to retreat."
@@ -7835,6 +7892,18 @@
   "level_fleet_outof_limit": {
     "tip": "You may use any more attacking fleets."
   },
+  "level_remaster_tip1": {
+    "tip": "SR Stage"
+  },
+  "level_remaster_tip2": {
+    "tip": "Sortie"
+  },
+  "level_remaster_tip3": {
+    "tip": "Collect"
+  },
+  "level_remaster_tip4": {
+    "tip": "$1 Boss Fleets sunk"
+  },
   "level_risk_level_desc": {
     "tip": " $1\n\n"
   },
@@ -7879,6 +7948,9 @@
   },
   "limit_skin_time_overtime": {
     "tip": "Your rental period for this skin has concluded."
+  },
+  "linkBtn_text": {
+    "tip": "Confirm"
   },
   "link_link_help_tip": {
     "tip": [
@@ -7980,6 +8052,9 @@
   },
   "login": {
     "tip": "Login"
+  },
+  "loginBtn_text": {
+    "tip": "Confirm"
   },
   "login_arrears_tips": {
     "tip": "Fraudulent chargeback activity has been detected on your account. You are only able to log in to the following server(s): $1"
@@ -12387,6 +12462,12 @@
   },
   "word_get": {
     "tip": "Receive"
+  },
+  "word_get_date": {
+    "tip": "Acquisition date:"
+  },
+  "word_get_way": {
+    "tip": "Acquisition method:"
   },
   "word_gold": {
     "tip": "Coins"
