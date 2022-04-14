@@ -856,6 +856,9 @@
   "backyard_backyardGranaryLayer_word": {
     "tip": "どれも美味そう…"
   },
+  "backyard_backyardScene_Disable_Rotation": {
+    "tip": "この家具は回転できません"
+  },
   "backyard_backyardScene_clearSuccess": {
     "tip": "<color=#92fc63>マイセットをクリアしました</color>"
   },
@@ -1342,6 +1345,12 @@
   "battle_result_boss_destruct": {
     "tip": "自爆を阻止した上ボス撃破"
   },
+  "battle_result_confirm": {
+    "tip": "確 定"
+  },
+  "battle_result_continue": {
+    "tip": "画面をタッチ"
+  },
   "battle_result_contribution": {
     "tip": "演習進捗："
   },
@@ -1362,6 +1371,9 @@
   },
   "battle_result_sink_limit": {
     "tip": "戦闘不能艦が$1以下"
+  },
+  "battle_result_targets": {
+    "tip": "戦 闘 評 価"
   },
   "battle_result_time_limit": {
     "tip": "敵艦隊を$1秒内で撃破"
@@ -1654,6 +1666,9 @@
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "魚雷兵装の散布角縮小（集中化）"
   },
+  "build_count_tip": {
+    "tip": "累計"
+  },
   "build_detail_intro": {
     "tip": "同時建造可能数："
   },
@@ -1700,7 +1715,7 @@
     "tip": "「アレン・M・サムナー」「ステフェン・ポッター」などが常設実装！"
   },
   "buildship_new_tip": {
-    "tip": "「インペロ」、「フォーミダブル」などが出現率UP！"
+    "tip": "「ハウ」、「パーシュース」などが出現率UP！"
   },
   "buildship_special_tip": {
     "tip": "「フォーミダブル」常設実装！"
@@ -3580,6 +3595,21 @@
   "event_type_unreached": {
     "tip": "出撃条件未達成"
   },
+  "event_ui_consume": {
+    "tip": "消費"
+  },
+  "event_ui_finish": {
+    "tip": "完了"
+  },
+  "event_ui_giveup": {
+    "tip": "キャンセル"
+  },
+  "event_ui_recommend": {
+    "tip": "おすすめ"
+  },
+  "event_ui_start": {
+    "tip": "開始"
+  },
   "eventshop_time_hint": {
     "tip": "$1メンテナンスまで交換可能"
   },
@@ -3660,6 +3690,9 @@
   },
   "exit_backyard_exp_display": {
     "tip": "$1が訓練で$2の経験値を入手しました"
+  },
+  "expbook_max_tip_title": {
+    "tip": "経験値パックが上限になっています"
   },
   "extra_chapter_locked_tip": {
     "tip": "イベントハード最終海域を攻略すると開放されます"
@@ -6110,6 +6143,31 @@
       }
     }
   },
+  "help_research_package": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/tecshipgifthelp",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_rollingBallGame": {
     "tip": [
       {
@@ -7863,6 +7921,34 @@
   "list_empty_tip_taskscene": {
     "tip": "任務が存在しません"
   },
+  "littleRenown_npc": {
+    "tip": [
+      {
+        "info": "■概要\n「リトル　ロイヤルナイト」とは、イベント開始時に仮加入した【リトル・レナウン】の「友好度」を海域に出撃することで貯め、【リトル・レナウン】を正式加入させるイベントになります。"
+      },
+      {
+        "info": "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+      },
+      {
+        "info": "2.【リトル・レナウン】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
+      },
+      {
+        "info": "3.【リトル・レナウン】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【リトル・レナウン】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
+      },
+      {
+        "info": "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・レナウン】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・レナウン】は母港からいなくなります。"
+      },
+      {
+        "info": "5.友好度報酬は4/28（木）まで毎日1段階ずつ解放されます。"
+      },
+      {
+        "info": "6.仮加入状態の【リトル・レナウン】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+      },
+      {
+        "info": "7.仮加入状態の【リトル・レナウン】は大艦隊作戦には参加できません。"
+      }
+    ]
+  },
   "littleSanDiego_npc": {
     "tip": [
       {
@@ -8076,6 +8162,9 @@
   },
   "lose_condition_display_quanmie": {
     "tip": "味方艦隊全滅"
+  },
+  "lv70_package_tip": {
+    "tip": "指揮官レベルが70以上であるため、購入すると指揮官レベルが変化せず、アイテムのみ入手します。購入を続けますか？"
   },
   "maid_task_tips1": {
     "tip": [
@@ -8790,6 +8879,9 @@
   "name_zhanliejahe": {
     "tip": "加賀(戦艦)"
   },
+  "nav_tactics_sel_skill_title": {
+    "tip": "スキル確認"
+  },
   "naval_academy_res_desc_cateen": {
     "tip": "みんながワイワイ盛り上げる食堂。増築で<color=#92fc63>燃料の入手量</color>と<color=#92fc63>備蓄上限</color>UP！"
   },
@@ -9097,6 +9189,9 @@
   "newplayer_notice_8": {
     "tip": "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
   },
+  "newserver_shop_timelimit": {
+    "tip": "$1に開放されます"
+  },
   "nine_choose_one": {
     "tip": "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n※艦船「<color=#92fc63>$1</color>」と記念アイテムを入手できます"
   },
@@ -9252,6 +9347,9 @@
   },
   "option_desc9": {
     "tip": "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
+  },
+  "package_detail_tip": {
+    "tip": "詳細確認"
   },
   "paint_hide_other_obj_tip": {
     "tip": "    背景非表示"
@@ -10790,6 +10888,9 @@
   "skill": {
     "tip": "スキル"
   },
+  "skill_learn_tip": {
+    "tip": "本日はあと$1回スキル強化を加速できますよ"
+  },
   "skin_remain_time": {
     "tip": "販売終了まで"
   },
@@ -11322,6 +11423,27 @@
   "tech_change_version_mark": {
     "tip": "研究指向"
   },
+  "tech_character_get": {
+    "tip": "入手済"
+  },
+  "tech_package_tip": {
+    "tip": "※交換アイテムは１回しか購入できません\n※交換アイテムのみを購入した場合、\n   交換アイテム＋強化ユニットセットを追加で\n   購入することはできません（強化ユニットセットは追加で購入できます）\n※購入したアイテムはメールボックスに送られます"
+  },
+  "tech_select_tip1": {
+    "tip": "PR艦船交換"
+  },
+  "tech_select_tip2": {
+    "tip": "研究ドックの右上ボタンで使用すると艦船を開放可能"
+  },
+  "tech_select_tip3": {
+    "tip": "入手済"
+  },
+  "tech_select_tip4": {
+    "tip": "アイテム交換"
+  },
+  "tech_select_tip5": {
+    "tip": "上記全艦船入手済の場合で使用するともらえる"
+  },
   "tech_simulate_closed": {
     "tip": "弾幕確認機能が開放されていませ"
   },
@@ -11382,6 +11504,12 @@
   },
   "technology_uplevel_error_studying": {
     "tip": "$1—陣営技術を強化中です"
+  },
+  "techpackage_item_use": {
+    "tip": "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？\n（艦船「$1」を入手でき、レベル・強化レベルは1）"
+  },
+  "techpackage_item_use_confirm": {
+    "tip": "開放できる艦船が全部所持しているため、使用すると下記のアイテムを入手できます："
   },
   "ten_even_draw": {
     "tip": "$1回交換する"
@@ -12539,6 +12667,9 @@
   },
   "word_secondseach": {
     "tip": "/回"
+  },
+  "word_sell_lock": {
+    "tip": "未開放 "
   },
   "word_sell_out": {
     "tip": "売切れ"
