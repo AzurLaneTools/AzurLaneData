@@ -926,6 +926,9 @@
   "backyard_backyardGranaryLayer_word": {
     "tip": "This one? Or that one... It all looks delicious!"
   },
+  "backyard_backyardScene_Disable_Rotation": {
+    "tip": "This furniture cannot be rotated."
+  },
   "backyard_backyardScene_clearSuccess": {
     "tip": "<color=#92fc63>Cleared!</color>"
   },
@@ -1487,6 +1490,12 @@
   "battle_result_boss_destruct": {
     "tip": "Defeat the boss before it self-destructs"
   },
+  "battle_result_confirm": {
+    "tip": "Confirm"
+  },
+  "battle_result_continue": {
+    "tip": "Touch to continue"
+  },
   "battle_result_contribution": {
     "tip": "Contributions Earned:"
   },
@@ -1507,6 +1516,9 @@
   },
   "battle_result_sink_limit": {
     "tip": "Lose less than $1 ships"
+  },
+  "battle_result_targets": {
+    "tip": "Targets"
   },
   "battle_result_time_limit": {
     "tip": "Destroy all enemies within $1 seconds"
@@ -1792,6 +1804,9 @@
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "Decreased torpedo spread angle "
   },
+  "build_count_tip": {
+    "tip": "Total"
+  },
   "build_detail_intro": {
     "tip": "Max Simultaneous Orders:"
   },
@@ -1838,7 +1853,7 @@
     "tip": "Ying Swei, Chao Ho and Penelope added to standard build pool! "
   },
   "buildship_new_tip": {
-    "tip": "Build 200 times to receive a guaranteed copy of Kronshtadt! (Up to 4 copies can be claimed this way)"
+    "tip": "Rate UP for Howe, Perseus, Eagle, and more!"
   },
   "buildship_special_tip": {
     "tip": "Akagi µ added to standard build pool! "
@@ -3736,6 +3751,21 @@
   "event_type_unreached": {
     "tip": "Fleet contains wrong type of ships."
   },
+  "event_ui_consume": {
+    "tip": "Cost"
+  },
+  "event_ui_finish": {
+    "tip": "Complete"
+  },
+  "event_ui_giveup": {
+    "tip": "Cancel"
+  },
+  "event_ui_recommend": {
+    "tip": "Recommend"
+  },
+  "event_ui_start": {
+    "tip": "Start"
+  },
   "eventshop_time_hint": {
     "tip": "Exchange shop available until $1 maintenance."
   },
@@ -3816,6 +3846,9 @@
   },
   "exit_backyard_exp_display": {
     "tip": "$1 received $2 EXP through training."
+  },
+  "expbook_max_tip_title": {
+    "tip": "You cannot store any more EXP Packs."
   },
   "extra_chapter_locked_tip": {
     "tip": "Pass Hard Mode to unlock EX Mode"
@@ -6353,6 +6386,31 @@
       }
     }
   },
+  "help_research_package": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/tecshipgifthelp",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_rollingBallGame": {
     "tip": [
       {
@@ -8022,6 +8080,34 @@
   "list_empty_tip_taskscene": {
     "tip": "There are no missions available."
   },
+  "littleRenown_npc": {
+    "tip": [
+      {
+        "info": "- Overview -\nDuring the event, Little Renown will provisionally join your fleet. Sortie to various stages to accumulate Trust. Collect enough Trust to have Little Renown permanently join your fleet!"
+      },
+      {
+        "info": "- How to Play -\n· During the event period, clear Main Story stages including and beyond Chapter 3 to obtain Trust. You will be able to collect rewards for accumulating a certain amount of Trust."
+      },
+      {
+        "info": "· You will not be able to give a Promise Ring to Little Renown until you have formally recruited her to the fleet. You will also not be able to Retire her, Limit Break her, or Strengthen her."
+      },
+      {
+        "info": "· If Little Renown is afloat in a fleet that defeats the Boss Fleet of a stage that grants Trust, the amount of Trust granted will be doubled."
+      },
+      {
+        "info": "· If Little Renown has not been formally recruited by the end of the event, she will leave the Port."
+      },
+      {
+        "info": "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day."
+      },
+      {
+        "info": "· Little Renown cannot participate in Operation Siren or META Showdowns until she has been formally recruited. Operation Siren battles also do not grant any Trust."
+      },
+      {
+        "info": "· Little Renown cannot participate in Guild Bosses until she has been formally recruited."
+      }
+    ]
+  },
   "littleSanDiego_npc": {
     "tip": [
       {
@@ -8215,6 +8301,9 @@
   "lose_condition_display_quanmie": {
     "tip": "All your fleets are defeated."
   },
+  "lv70_package_tip": {
+    "tip": "Buying this pack will not affect your Commander Level as it's already at or above 70. You will only receive the other items. Buy this pack anyway?"
+  },
   "maid_task_tips1": {
     "tip": [
       {
@@ -8241,10 +8330,10 @@
     "tip": "Headquarters"
   },
   "mail_takeAttachment_error_dockYrad_full": {
-    "tip": "<color=#92fc63>Failed to collect.</color>Because your <color=#92fc63>dock is full</color>."
+    "tip": "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Dock</color>."
   },
   "mail_takeAttachment_error_magazine_full": {
-    "tip": "<color=#92fc63>Failed to collect.</color>Your <color=#92fc63>gear storage is full</color>."
+    "tip": "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Gear Depot</color>."
   },
   "mail_takeAttachment_error_noAttach": {
     "tip": "Failed to collect rewards."
@@ -8994,6 +9083,9 @@
   "name_zhanliejahe": {
     "tip": "{namecode:92}(BB)"
   },
+  "nav_tactics_sel_skill_title": {
+    "tip": "Select Skill"
+  },
   "naval_academy_res_desc_cateen": {
     "tip": "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>."
   },
@@ -9301,6 +9393,9 @@
   "newplayer_notice_8": {
     "tip": "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
   },
+  "newserver_shop_timelimit": {
+    "tip": "Unlocked after $1."
+  },
   "nine_choose_one": {
     "tip": "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
   },
@@ -9465,6 +9560,9 @@
   },
   "order_error": {
     "tip": "Balance Calculation Failed"
+  },
+  "package_detail_tip": {
+    "tip": "Detail "
   },
   "paint_hide_other_obj_tip": {
     "tip": "Hide background objects"
@@ -11053,6 +11151,9 @@
   "skill": {
     "tip": "Skills"
   },
+  "skill_learn_tip": {
+    "tip": "You can quickly finish a class $1 more time(s) today."
+  },
   "skin_remain_time": {
     "tip": "Expires in "
   },
@@ -11579,6 +11680,27 @@
   "tech_change_version_mark": {
     "tip": "Research Preference "
   },
+  "tech_character_get": {
+    "tip": "In Dock"
+  },
+  "tech_package_tip": {
+    "tip": "The PR Voucher can only be bought once for each series. You may buy the Blueprints separately after buying the Voucher.\nThe items will be sent to your Mailbox."
+  },
+  "tech_select_tip1": {
+    "tip": "Eligible PR Ships"
+  },
+  "tech_select_tip2": {
+    "tip": "Select a PR ship to unlock."
+  },
+  "tech_select_tip3": {
+    "tip": "Already Unlocked"
+  },
+  "tech_select_tip4": {
+    "tip": "All PRs Unlocked"
+  },
+  "tech_select_tip5": {
+    "tip": "You will instead receive these items."
+  },
   "tech_simulate_closed": {
     "tip": "You have not yet unlocked the Battle Simulation feature."
   },
@@ -11639,6 +11761,12 @@
   },
   "technology_uplevel_error_studying": {
     "tip": "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
+  },
+  "techpackage_item_use": {
+    "tip": "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
+  },
+  "techpackage_item_use_confirm": {
+    "tip": "As you've already unlocked all eligible PRs, you will instead receive the following items:"
   },
   "ten_even_draw": {
     "tip": "$1回交換する"
@@ -12802,6 +12930,9 @@
   },
   "word_secondseach": {
     "tip": "/wave"
+  },
+  "word_sell_lock": {
+    "tip": "Lock"
   },
   "word_sell_out": {
     "tip": "Sold out"
