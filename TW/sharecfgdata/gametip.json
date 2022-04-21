@@ -154,6 +154,9 @@
   "activity_hit_monster_reset_tip": {
     "tip": "是否再次挑戰撫順的大冒險？\n重複挑戰不會獲得獎勵"
   },
+  "activity_kill": {
+    "tip": "累計擊沉"
+  },
   "activity_level_difficulty_tip": {
     "tip": "注意：選擇困難模式後，<color=#a0ff40>未通關前切換模式</color>將會失去困難模式的進度"
   },
@@ -1282,6 +1285,15 @@
   "battle_result_boss_destruct": {
     "tip": "阻止boss自毀並擊破boss"
   },
+  "battle_result_confirm": {
+    "tip": "確定"
+  },
+  "battle_result_continue": {
+    "tip": "點擊繼續"
+  },
+  "battle_result_continue_battle": {
+    "tip": "繼 續 戰 鬥"
+  },
   "battle_result_contribution": {
     "tip": "獲得貢獻："
   },
@@ -1291,8 +1303,17 @@
   "battle_result_defeat_all_enemys": {
     "tip": "擊敗所有的敵方角色"
   },
+  "battle_result_dmg": {
+    "tip": "輸出"
+  },
+  "battle_result_kill_count": {
+    "tip": "擊殺"
+  },
   "battle_result_max_combo": {
     "tip": "最高COMBO："
+  },
+  "battle_result_quit_battle": {
+    "tip": "退 出 挑 戰"
   },
   "battle_result_score": {
     "tip": "摧毀運輸艦*$1："
@@ -1303,8 +1324,17 @@
   "battle_result_sink_limit": {
     "tip": "被重創單位數少於$1"
   },
+  "battle_result_targets": {
+    "tip": "戰鬥評價"
+  },
   "battle_result_time_limit": {
     "tip": "$1秒內全滅敵方艦隊"
+  },
+  "battle_result_toggle_off": {
+    "tip": "水 面 編 隊"
+  },
+  "battle_result_toggle_on": {
+    "tip": "潛 艇 編 隊"
   },
   "battle_result_total_damage": {
     "tip": "累計傷害："
@@ -1551,6 +1581,9 @@
   },
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "自身裝備的魚雷武器散佈角度減小"
+  },
+  "build_count_tip": {
+    "tip": "累計"
   },
   "build_detail_intro": {
     "tip": "可同時施工的乾船塢數量："
@@ -2742,6 +2775,12 @@
   "destory_ur_pt_overflowa": {
     "tip": "※拆解獲得的<color=#92fc63>「特裝原型」</color>將超過本月獲取上限，<color=#fd796b>超過的部分將無法獲得</color>"
   },
+  "destroy_confirm_access": {
+    "tip": "確 定"
+  },
+  "destroy_confirm_cancel": {
+    "tip": "取 消"
+  },
   "destroy_eliteequipment_tip": {
     "tip": "拆解裝備中有$1的裝備\n是否確認?"
   },
@@ -3428,6 +3467,21 @@
   "event_type_unreached": {
     "tip": "艦隊中角色的類型不滿足"
   },
+  "event_ui_consume": {
+    "tip": "消耗:"
+  },
+  "event_ui_finish": {
+    "tip": "完成"
+  },
+  "event_ui_giveup": {
+    "tip": "取消"
+  },
+  "event_ui_recommend": {
+    "tip": "推薦"
+  },
+  "event_ui_start": {
+    "tip": "開始"
+  },
   "eventshop_time_hint": {
     "tip": "兌換時間截止至$1維護 "
   },
@@ -3508,6 +3562,9 @@
   },
   "exit_backyard_exp_display": {
     "tip": "$1通過訓練獲得了$2經驗"
+  },
+  "expbook_max_tip_title": {
+    "tip": "艦艇演習數據已經達到上限"
   },
   "extra_chapter_locked_tip": {
     "tip": "需要通關困難模式才能開啟ex關卡"
@@ -5847,13 +5904,13 @@
   "help_monopoly_car": {
     "tip": [
       {
-        "info": "活动说明："
+        "info": "活動說明："
       },
       {
-        "info": "1.活动期间，玩家首日可获得5个骰子，此后每日24点可\n获得5个骰子；骰子数量可累积"
+        "info": "1.活動期間，玩家首日可獲得5次加速次數，此後每日24\n點可獲得5次；加速次數可累積"
       },
       {
-        "info": "2.游戏中，根据玩家停留的格子可获得不同奖励，每次经\n过起点可获得200物资；"
+        "info": "2.遊戲中，根據玩家停留的格子可獲得不同獎勵，每次經\n過起點可獲得200物資；"
       },
       {
         "icon": {
@@ -5863,7 +5920,7 @@
           "posY": 0,
           "scale": 0.19
         },
-        "info": "    ：获得一定数量物资；"
+        "info": "    ：獲得一定數量物資；"
       },
       {
         "icon": {
@@ -5873,7 +5930,7 @@
           "posY": 0,
           "scale": 0.19
         },
-        "info": "    ：获得一定数量石油；"
+        "info": "    ：獲得一定數量石油；"
       },
       {
         "icon": {
@@ -5883,7 +5940,7 @@
           "posY": 0,
           "scale": 0.19
         },
-        "info": "    ：触发随机事件；"
+        "info": "    ：觸發隨機事件；"
       },
       {
         "icon": {
@@ -5893,7 +5950,7 @@
           "posY": 0,
           "scale": 0.19
         },
-        "info": "    ：触发随机奖励；"
+        "info": "    ：觸發隨機獎勵；"
       },
       {
         "icon": {
@@ -5903,7 +5960,7 @@
           "posY": 0,
           "scale": 0.19
         },
-        "info": "    ：触发随机移动事件；"
+        "info": "    ：觸發隨機移動事件；"
       }
     ]
   },
@@ -6021,6 +6078,31 @@
       "helpbg": true,
       "windowSize": {
         "y": 440
+      }
+    }
+  },
+  "help_research_package": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/tecshipgifthelp",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
       }
     }
   },
@@ -7894,6 +7976,9 @@
   "lose_condition_display_quanmie": {
     "tip": "我方艦隊全滅"
   },
+  "lv70_package_tip": {
+    "tip": "當前指揮官等級大於等於70級，購買即刻出戰禮包後，指揮官等級將不會發生變化(可以正常獲得禮包內其他物品)，是否確認購買"
+  },
   "mail": {
     "tip": "郵件\n提醒"
   },
@@ -8630,6 +8715,9 @@
   "name_zhanliejahe": {
     "tip": "{namecode:92}(戰列)"
   },
+  "nav_tactics_sel_skill_title": {
+    "tip": "選擇技能"
+  },
   "naval_academy_res_desc_cateen": {
     "tip": "少女們進食的地方，升級設施可以提高每日<color=#A9F548>燃油的產量</color>和<color=#A9F548>庫存上限</color>"
   },
@@ -8641,6 +8729,12 @@
   },
   "need_break_tip": {
     "tip": "需要突破"
+  },
+  "new_server_shop_sel_goods_tip": {
+    "tip": "每件裝備只能兌換一次"
+  },
+  "new_server_shop_unopen_tip": {
+    "tip": "尚未開放"
   },
   "new_skin_no_choose": {
     "tip": "沒有選擇需要換裝的角色，是否要退出換裝"
@@ -8690,6 +8784,37 @@
   },
   "newplayer_notice_8": {
     "tip": "指揮官，歡迎來到碧藍航線，先去新兵訓練營報到吧。"
+  },
+  "newserver_activity_tip": {
+    "tip": [
+      {
+        "info": "「新服开服庆典」活动说明：\n"
+      },
+      {
+        "info": "<color=#92fc63>·活动时间</color>\n活动将于指挥官注册并第一次成功登陆游戏后第21天的次日23:59结束，请指挥官留意界面中活动剩余时间。\n"
+      },
+      {
+        "info": "<color=#92fc63>·活动任务</color>\n活动任务分为「每日任务」与「历程任务」,「每日任务」于每天0点刷新，「历程任务」只能完成一次，不会刷新；\n完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「U-47」、「天狼星」。\n"
+      },
+      {
+        "info": "<color=#92fc63>·活动商店</color>\n消耗「新服庆典Pt」可于活动商店中兑换角色「鲨」、「新手建造单抽券」、「心智魔方」等大量奖励；\n活动商店分为3个阶段，阶段1商品于首次登录后解锁，阶段2商品于首次登录的7天后解锁，阶段3商品于首次登录的14天后解锁；\n活动商店在活动结束后会额外开放7天，期间仍然可消耗「新服庆典Pt」兑换商品。\n"
+      },
+      {
+        "info": "<color=#92fc63>·庆典新手建造</color>\n庆典新手建造只能使用「新手单次建造券」，建造40次后，可于建造界面领取角色「企业」，领取角色后庆典新手建造将会关闭。"
+      }
+    ]
+  },
+  "newserver_build_tip": {
+    "tip": "本建造只能使用新手單次建造券哦！"
+  },
+  "newserver_shop_timelimit": {
+    "tip": "該商品將於$1後解鎖"
+  },
+  "newserver_soldout": {
+    "tip": "商品已售完"
+  },
+  "newserver_time": {
+    "tip": "$1天$2時"
   },
   "nine_choose_one": {
     "tip": "指揮官只能邀請一人參加舞會，\n是否確認邀請<color=#A9F548>$1</color>？\n邀請後會獲得對應角色和回禮"
@@ -8847,6 +8972,9 @@
   "option_desc9": {
     "tip": "功能開啟後，我拜訪好友的後宅後，會在好友的後宅顯示我的秘書艦"
   },
+  "package_detail_tip": {
+    "tip": "查看詳情"
+  },
   "paint_hide_other_obj_tip": {
     "tip": "隱藏背景物件"
   },
@@ -9003,6 +9131,18 @@
         "info": "10.祈願建造的消耗與所選建造的消耗相同建造後的\n角色進入隊列等待，可以使用快速完成工具"
       }
     ]
+  },
+  "pre_combat_main": {
+    "tip": "主力艦隊"
+  },
+  "pre_combat_submarine": {
+    "tip": "潛艇艦隊"
+  },
+  "pre_combat_team": {
+    "tip": "出擊艦隊"
+  },
+  "pre_combat_vanguard": {
+    "tip": "先鋒艦隊"
   },
   "printblue_build_erro": {
     "tip": "研究結束"
@@ -10389,6 +10529,9 @@
   "skill": {
     "tip": "技能"
   },
+  "skill_learn_tip": {
+    "tip": "今日還有$1次快速完成技能學習的次數哦"
+  },
   "skin_remain_time": {
     "tip": "下架剩餘時間"
   },
@@ -10891,8 +11034,26 @@
   "tech_change_version_mark": {
     "tip": "研發傾向"
   },
+  "tech_character_get": {
+    "tip": "角色已獲得"
+  },
   "tech_package_tip": {
     "tip": "只能購買一種禮包，禮包將發送到郵箱請注意查收\n購買標準版禮包後仍可花費差價升級為高級版"
+  },
+  "tech_select_tip1": {
+    "tip": "角色未全部獲得"
+  },
+  "tech_select_tip2": {
+    "tip": "可於科研-開發船塢中選擇一名角色\n快速研發並獲取"
+  },
+  "tech_select_tip3": {
+    "tip": "已獲得"
+  },
+  "tech_select_tip4": {
+    "tip": "角色全部獲得"
+  },
+  "tech_select_tip5": {
+    "tip": "使用後將獲得以下道具"
   },
   "tech_simulate_closed": {
     "tip": "该角色战术模拟暂未开放"
@@ -10960,6 +11121,12 @@
   },
   "technology_uplevel_error_studying": {
     "tip": "<color=#A9F548>$1</color>正在升級中，需要升級完成後才能繼續"
+  },
+  "techpackage_item_use": {
+    "tip": "快速研發只能選定1名角色，是否確認研發$1？\n研發後會獲得對應角色(等級與科研等級均為1級)\n<color=#ff5c5c>將消耗道具$2*1</color>"
+  },
+  "techpackage_item_use_confirm": {
+    "tip": "角色已全部獲得，使用後將獲得以下道具"
   },
   "ten_even_draw": {
     "tip": "$1次補給"
