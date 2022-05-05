@@ -1,14 +1,17 @@
 {
   "1": {
     "id": 1,
-    "param": "45036",
+    "param": [
+      "act boss battle",
+      []
+    ],
     "pic": "temp14",
     "time": [
       [
         [
           2022,
-          2,
-          10
+          5,
+          5
         ],
         [
           0,
@@ -20,7 +23,7 @@
         [
           2022,
           5,
-          5
+          19
         ],
         [
           23,
@@ -29,20 +32,23 @@
         ]
       ]
     ],
-    "type": 3
+    "type": 2
   },
   "2": {
     "id": 2,
     "param": [
-      "scene skinshop"
+      "metacharacter",
+      {
+        "autoOpenShipConfigID": 9702011
+      }
     ],
-    "pic": "temp13",
+    "pic": "temp1",
     "time": [
       [
         [
           2022,
-          4,
-          21
+          5,
+          5
         ],
         [
           0,
@@ -53,8 +59,8 @@
       [
         [
           2022,
-          5,
-          4
+          7,
+          28
         ],
         [
           23,
@@ -67,14 +73,16 @@
   },
   "3": {
     "id": 3,
-    "param": "45037",
-    "pic": "temp12",
+    "param": [
+      "scene skinshop"
+    ],
+    "pic": "temp13",
     "time": [
       [
         [
           2022,
-          2,
-          10
+          5,
+          5
         ],
         [
           0,
@@ -86,7 +94,7 @@
         [
           2022,
           5,
-          5
+          18
         ],
         [
           23,
@@ -95,18 +103,18 @@
         ]
       ]
     ],
-    "type": 3
+    "type": 2
   },
   "4": {
     "id": 4,
-    "param": "45039",
-    "pic": "temp11",
+    "param": "40610",
+    "pic": "temp12",
     "time": [
       [
         [
           2022,
-          2,
-          10
+          5,
+          5
         ],
         [
           0,
@@ -118,7 +126,7 @@
         [
           2022,
           5,
-          5
+          19
         ],
         [
           23,
@@ -132,18 +140,15 @@
   "5": {
     "id": 5,
     "param": [
-      "scene charge",
-      {
-        "wrap": 2
-      }
+      "scene court yard"
     ],
-    "pic": "temp10",
+    "pic": "temp9",
     "time": [
       [
         [
           2022,
-          4,
-          21
+          5,
+          5
         ],
         [
           0,
@@ -155,7 +160,7 @@
         [
           2022,
           5,
-          4
+          18
         ],
         [
           23,
@@ -168,60 +173,9 @@
   },
   "6": {
     "id": 6,
-    "param": [
-      "scene court yard"
-    ],
-    "pic": "temp9",
+    "param": "",
+    "pic": "temp99",
     "time": [
-      [
-        [
-          2022,
-          4,
-          21
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          5,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "7": {
-    "id": 7,
-    "param": [
-      "metacharacter",
-      {
-        "autoOpenShipConfigID": 9707021
-      }
-    ],
-    "pic": "temp1",
-    "time": [
-      [
-        [
-          2022,
-          2,
-          10
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
       [
         [
           2022,
@@ -229,26 +183,6 @@
           5
         ],
         [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "8": {
-    "id": 8,
-    "param": "",
-    "pic": "temp99",
-    "time": [
-      [
-        [
-          2022,
-          4,
-          21
-        ],
-        [
           0,
           0,
           0
@@ -258,7 +192,7 @@
         [
           2022,
           5,
-          4
+          18
         ],
         [
           23,
@@ -269,8 +203,8 @@
     ],
     "type": 9
   },
-  "9": {
-    "id": 9,
+  "7": {
+    "id": 7,
     "param": [
       "scene court yard"
     ],
@@ -278,8 +212,8 @@
     "time": "stop",
     "type": 2
   },
-  "10": {
-    "id": 10,
+  "8": {
+    "id": 8,
     "param": [
       "scene shop"
     ],
@@ -287,8 +221,8 @@
     "time": "stop",
     "type": 2
   },
-  "11": {
-    "id": 11,
+  "9": {
+    "id": 9,
     "param": [
       "scene charge",
       {
@@ -299,17 +233,41 @@
     "time": "stop",
     "type": 2
   },
-  "12": {
-    "id": 12,
+  "10": {
+    "id": 10,
     "param": "40341",
     "pic": "",
     "time": "stop",
     "type": 3
   },
+  "11": {
+    "id": 11,
+    "param": [
+      "scene skinshop"
+    ],
+    "pic": "",
+    "time": "stop",
+    "type": 2
+  },
+  "12": {
+    "id": 12,
+    "param": [
+      "scene charge",
+      {
+        "wrap": 2
+      }
+    ],
+    "pic": "",
+    "time": "stop",
+    "type": 2
+  },
   "13": {
     "id": 13,
     "param": [
-      "scene skinshop"
+      "scene charge",
+      {
+        "wrap": 2
+      }
     ],
     "pic": "",
     "time": "stop",
@@ -330,9 +288,9 @@
   "15": {
     "id": 15,
     "param": [
-      "scene charge",
+      "scene get boat",
       {
-        "wrap": 2
+        "projectName": "new"
       }
     ],
     "pic": "",
@@ -342,9 +300,9 @@
   "16": {
     "id": 16,
     "param": [
-      "scene charge",
+      "scene get boat",
       {
-        "wrap": 2
+        "page": 5
       }
     ],
     "pic": "",
@@ -356,7 +314,7 @@
     "param": [
       "scene get boat",
       {
-        "projectName": "new"
+        "projectName": "light"
       }
     ],
     "pic": "",
@@ -366,30 +324,6 @@
   "18": {
     "id": 18,
     "param": [
-      "scene get boat",
-      {
-        "page": 5
-      }
-    ],
-    "pic": "",
-    "time": "stop",
-    "type": 2
-  },
-  "19": {
-    "id": 19,
-    "param": [
-      "scene get boat",
-      {
-        "projectName": "light"
-      }
-    ],
-    "pic": "",
-    "time": "stop",
-    "type": 2
-  },
-  "20": {
-    "id": 20,
-    "param": [
       "act boss battle",
       []
     ],
@@ -397,15 +331,15 @@
     "time": "stop",
     "type": 2
   },
-  "21": {
-    "id": 21,
+  "19": {
+    "id": 19,
     "param": "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
     "pic": "guihuagao",
     "time": "stop",
     "type": 10
   },
-  "22": {
-    "id": 22,
+  "20": {
+    "id": 20,
     "param": [
       "scene level",
       []
@@ -414,15 +348,15 @@
     "time": "stop",
     "type": 2
   },
-  "23": {
-    "id": 23,
+  "21": {
+    "id": 21,
     "param": "",
     "pic": "temp2",
     "time": "stop",
     "type": 8
   },
-  "24": {
-    "id": 24,
+  "22": {
+    "id": 22,
     "param": [
       "metacharacter",
       {
@@ -433,8 +367,8 @@
     "time": "stop",
     "type": 2
   },
-  "25": {
-    "id": 25,
+  "23": {
+    "id": 23,
     "param": [
       "scene level",
       {
@@ -446,8 +380,8 @@
     "time": "stop",
     "type": 2
   },
-  "26": {
-    "id": 26,
+  "24": {
+    "id": 24,
     "param": [
       "scene level",
       []
@@ -456,8 +390,8 @@
     "time": "stop",
     "type": 2
   },
-  "27": {
-    "id": 27,
+  "25": {
+    "id": 25,
     "param": "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
     "pic": "chocolate",
     "time": [
@@ -513,47 +447,43 @@
     22,
     23,
     24,
-    25,
-    26,
-    27
+    25
   ],
   "get_id_list_by_type": {
     "2": [
+      1,
       2,
+      3,
       5,
-      6,
       7,
+      8,
       9,
-      10,
       11,
+      12,
       13,
       14,
       15,
       16,
       17,
       18,
-      19,
       20,
       22,
-      24,
-      25,
-      26
+      23,
+      24
     ],
     "3": [
-      1,
-      3,
       4,
-      12
+      10
     ],
     "8": [
-      23
+      21
     ],
     "9": [
-      8
+      6
     ],
     "10": [
-      21,
-      27
+      19,
+      25
     ]
   }
 }
