@@ -1,0 +1,162 @@
+{
+  "1": {
+    "group_id": 1,
+    "id": 1,
+    "name": "event_all",
+    "order": 1,
+    "param": "0",
+    "pic": "event_all",
+    "text_pic": "text_event_all",
+    "time": "stop",
+    "type": 3
+  },
+  "2": {
+    "group_id": 1,
+    "id": 2,
+    "name": "event_all",
+    "order": 2,
+    "param": "0",
+    "pic": "event_all_1",
+    "text_pic": "text_event_all",
+    "time": "stop",
+    "type": 3
+  },
+  "9": {
+    "group_id": 1,
+    "id": 9,
+    "name": "event_all",
+    "order": 99,
+    "param": "0",
+    "pic": "event_all_default",
+    "text_pic": "text_event_all",
+    "time": "always",
+    "type": 3
+  },
+  "10": {
+    "group_id": 2,
+    "id": 10,
+    "name": "event_map",
+    "order": 1,
+    "param": "0",
+    "pic": "event_map",
+    "text_pic": "text_event_map",
+    "time": "stop",
+    "type": 0
+  },
+  "20": {
+    "group_id": 3,
+    "id": 20,
+    "name": "event_minigame",
+    "order": 1,
+    "param": "0",
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": "stop",
+    "type": 0
+  },
+  "30": {
+    "group_id": 4,
+    "id": 30,
+    "name": "event_boss",
+    "order": 1,
+    "param": "0",
+    "pic": "event_boss",
+    "text_pic": "text_event_boss",
+    "time": "stop",
+    "type": 0
+  },
+  "40": {
+    "group_id": 5,
+    "id": 40,
+    "name": "event_escort",
+    "order": 1,
+    "param": "0",
+    "pic": "event_escort",
+    "text_pic": "text_event_escort",
+    "time": "stop",
+    "type": 0
+  },
+  "60": {
+    "group_id": 6,
+    "id": 60,
+    "name": "event_LanternFestival",
+    "order": 1,
+    "param": "0",
+    "pic": "event_LanternFestival",
+    "text_pic": "",
+    "time": {
+      "2": [
+        [
+          2022,
+          2,
+          10
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "3": [
+        [
+          2022,
+          2,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    },
+    "type": 0
+  },
+  "70": {
+    "group_id": 7,
+    "id": 70,
+    "name": "event_aprilFool",
+    "order": 1,
+    "param": "0",
+    "pic": "event_aprilFool",
+    "text_pic": "",
+    "time": "stop",
+    "type": 0
+  },
+  "all": [
+    1,
+    2,
+    9,
+    10,
+    20,
+    30,
+    40,
+    60,
+    70
+  ],
+  "get_id_list_by_name": {
+    "event_LanternFestival": [
+      60
+    ],
+    "event_all": [
+      1,
+      2,
+      9
+    ],
+    "event_aprilFool": [
+      70
+    ],
+    "event_boss": [
+      30
+    ],
+    "event_escort": [
+      40
+    ],
+    "event_map": [
+      10
+    ],
+    "event_minigame": [
+      20
+    ]
+  }
+}
