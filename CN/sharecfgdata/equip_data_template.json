@@ -15625,7 +15625,7 @@
         1
       ]
     ],
-    "equip_limit": 0,
+    "equip_limit": 1260,
     "group": 1260,
     "id": 1260,
     "important": 2,
@@ -38106,6 +38106,600 @@
       [
         17990,
         1
+      ]
+    ],
+    "trans_use_gold": 0,
+    "trans_use_item": []
+  },
+  "3580": {
+    "destory_gold": 36,
+    "destory_item": [
+      [
+        17003,
+        1
+      ]
+    ],
+    "equip_limit": 1260,
+    "group": 3580,
+    "id": 3580,
+    "important": 2,
+    "level": 1,
+    "next": 3581,
+    "prev": 0,
+    "restore_gold": 0,
+    "restore_item": [],
+    "ship_type_forbidden": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "trans_use_gold": 60,
+    "trans_use_item": [
+      [
+        17001,
+        3
+      ]
+    ],
+    "type": 10,
+    "upgrade_formula_id": []
+  },
+  "3581": {
+    "base": 3580,
+    "destory_gold": 51,
+    "destory_item": [
+      [
+        17001,
+        1
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3581,
+    "level": 2,
+    "next": 3582,
+    "prev": 3580,
+    "restore_gold": 60,
+    "restore_item": [
+      [
+        17001,
+        3
+      ]
+    ],
+    "trans_use_gold": 180,
+    "trans_use_item": [
+      [
+        17001,
+        9
+      ]
+    ]
+  },
+  "3582": {
+    "base": 3580,
+    "destory_gold": 96,
+    "destory_item": [
+      [
+        17001,
+        3
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3582,
+    "level": 3,
+    "next": 3583,
+    "prev": 3581,
+    "restore_gold": 240,
+    "restore_item": [
+      [
+        17001,
+        12
+      ]
+    ],
+    "trans_use_gold": 300,
+    "trans_use_item": [
+      [
+        17001,
+        15
+      ]
+    ]
+  },
+  "3583": {
+    "base": 3580,
+    "destory_gold": 171,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3583,
+    "level": 4,
+    "next": 3584,
+    "prev": 3582,
+    "restore_gold": 540,
+    "restore_item": [
+      [
+        17001,
+        27
+      ]
+    ],
+    "trans_use_gold": 480,
+    "trans_use_item": [
+      [
+        17002,
+        24
+      ]
+    ]
+  },
+  "3584": {
+    "base": 3580,
+    "destory_gold": 291,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        6
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3584,
+    "level": 5,
+    "next": 3585,
+    "prev": 3583,
+    "restore_gold": 1020,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        24
+      ]
+    ],
+    "trans_use_gold": 660,
+    "trans_use_item": [
+      [
+        17002,
+        33
+      ]
+    ]
+  },
+  "3585": {
+    "base": 3580,
+    "destory_gold": 456,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        14
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3585,
+    "level": 6,
+    "next": 3586,
+    "prev": 3584,
+    "restore_gold": 1680,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        57
+      ]
+    ],
+    "trans_use_gold": 840,
+    "trans_use_item": [
+      [
+        17002,
+        42
+      ]
+    ]
+  },
+  "3586": {
+    "base": 3580,
+    "destory_gold": 666,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        1
+      ]
+    ],
+    "id": 3586,
+    "level": 7,
+    "next": 3587,
+    "prev": 3585,
+    "restore_gold": 2520,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ]
+    ],
+    "trans_use_gold": 1080,
+    "trans_use_item": [
+      [
+        17003,
+        54
+      ]
+    ]
+  },
+  "3587": {
+    "base": 3580,
+    "destory_gold": 936,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        15
+      ]
+    ],
+    "id": 3587,
+    "level": 8,
+    "next": 3588,
+    "prev": 3586,
+    "restore_gold": 3600,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        54
+      ]
+    ],
+    "trans_use_gold": 1320,
+    "trans_use_item": [
+      [
+        17003,
+        66
+      ]
+    ]
+  },
+  "3588": {
+    "base": 3580,
+    "destory_gold": 1266,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        31
+      ]
+    ],
+    "id": 3588,
+    "level": 9,
+    "next": 3589,
+    "prev": 3587,
+    "restore_gold": 4920,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        120
+      ]
+    ],
+    "trans_use_gold": 1560,
+    "trans_use_item": [
+      [
+        17003,
+        78
+      ]
+    ]
+  },
+  "3589": {
+    "base": 3580,
+    "destory_gold": 1656,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        51
+      ]
+    ],
+    "id": 3589,
+    "level": 10,
+    "next": 3590,
+    "prev": 3588,
+    "restore_gold": 6480,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        198
+      ]
+    ],
+    "trans_use_gold": 1800,
+    "trans_use_item": [
+      [
+        17003,
+        90
+      ]
+    ]
+  },
+  "3590": {
+    "base": 3580,
+    "destory_gold": 2106,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        73
+      ]
+    ],
+    "id": 3590,
+    "level": 11,
+    "next": 3591,
+    "prev": 3589,
+    "restore_gold": 8280,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        288
+      ]
+    ],
+    "trans_use_gold": 2100,
+    "trans_use_item": [
+      [
+        17004,
+        105
+      ]
+    ]
+  },
+  "3591": {
+    "base": 3580,
+    "destory_gold": 2631,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        73
+      ],
+      [
+        17004,
+        27
+      ]
+    ],
+    "id": 3591,
+    "level": 12,
+    "next": 3592,
+    "prev": 3590,
+    "restore_gold": 10380,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        288
+      ],
+      [
+        17004,
+        105
+      ]
+    ],
+    "trans_use_gold": 2400,
+    "trans_use_item": [
+      [
+        17004,
+        120
+      ]
+    ]
+  },
+  "3592": {
+    "base": 3580,
+    "destory_gold": 3231,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        73
+      ],
+      [
+        17004,
+        57
+      ]
+    ],
+    "id": 3592,
+    "level": 13,
+    "next": 3593,
+    "prev": 3591,
+    "restore_gold": 12780,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        288
+      ],
+      [
+        17004,
+        225
+      ]
+    ],
+    "trans_use_gold": 2700,
+    "trans_use_item": [
+      [
+        17004,
+        135
+      ],
+      [
+        17991,
+        5
+      ]
+    ]
+  },
+  "3593": {
+    "base": 3580,
+    "destory_gold": 3906,
+    "destory_item": [
+      [
+        17001,
+        7
+      ],
+      [
+        17002,
+        25
+      ],
+      [
+        17003,
+        73
+      ],
+      [
+        17004,
+        90
+      ]
+    ],
+    "id": 3593,
+    "level": 14,
+    "next": 0,
+    "prev": 3592,
+    "restore_gold": 15480,
+    "restore_item": [
+      [
+        17001,
+        27
+      ],
+      [
+        17002,
+        99
+      ],
+      [
+        17003,
+        288
+      ],
+      [
+        17004,
+        360
+      ],
+      [
+        17991,
+        5
       ]
     ],
     "trans_use_gold": 0,
