@@ -6205,7 +6205,7 @@
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,
-    "type": 2,
+    "type": 24,
     "virtual_type": 0
   },
   "15016": {
@@ -6225,7 +6225,7 @@
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,
-    "type": 2,
+    "type": 24,
     "virtual_type": 0
   },
   "15017": {
@@ -6240,6 +6240,46 @@
     "link_id": 0,
     "max_num": 0,
     "name": "特殊装備強化石T3",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 24,
+    "virtual_type": 0
+  },
+  "15020": {
+    "display": "特殊装備の「変化性能」をリセットし付与し直す。「変化」機能にて使用",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 15020,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "特殊装備変化石T1",
+    "price": [],
+    "rarity": 3,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 2,
+    "virtual_type": 0
+  },
+  "15021": {
+    "display": "特殊装備の「変化性能」をリセットし付与し直す。「変化」機能にて使用",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 15021,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "特殊装備変化石T2",
     "price": [],
     "rarity": 4,
     "replace_item": 0,
@@ -8169,6 +8209,26 @@
     "type": 4,
     "virtual_type": 0
   },
+  "21012": {
+    "display": "レパルス(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/21012",
+    "id": 21012,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "結晶：レパルス(META)",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 4,
+    "virtual_type": 0
+  },
   "21101": {
     "display": "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
     "display_icon": [],
@@ -8361,6 +8421,26 @@
     "link_id": 0,
     "max_num": 0,
     "name": "シャルンホルスト(META)解析Pt",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 4,
+    "virtual_type": 0
+  },
+  "21907": {
+    "display": "レパルス(META)の解析ポイント。META戦開催期間（2022.9.1）終了時にリセットされます",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/21907",
+    "id": 21907,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "レパルス(META)解析Pt",
     "price": [],
     "rarity": 4,
     "replace_item": 0,
@@ -13140,12 +13220,12 @@
       ],
       [
         9,
-        2013,
+        2011,
         1
       ],
       [
         9,
-        2012,
+        2013,
         1
       ]
     ],
@@ -47675,6 +47755,295 @@
     "name": "兵装設計図(ランダム)T3",
     "price": [],
     "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52040": {
+    "display": "確率で下記の特殊装備を入手可能",
+    "display_icon": [
+      [
+        21,
+        1010100,
+        1
+      ],
+      [
+        21,
+        1010200,
+        1
+      ],
+      [
+        21,
+        1020100,
+        1
+      ],
+      [
+        21,
+        1030100,
+        1
+      ],
+      [
+        21,
+        1040100,
+        1
+      ],
+      [
+        21,
+        1050100,
+        1
+      ],
+      [
+        21,
+        1060100,
+        1
+      ],
+      [
+        21,
+        1060200,
+        1
+      ],
+      [
+        21,
+        1070100,
+        1
+      ],
+      [
+        21,
+        1070200,
+        1
+      ],
+      [
+        21,
+        1080100,
+        1
+      ],
+      [
+        21,
+        1080200,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/55000",
+    "id": 52040,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "ランダム特殊装備",
+    "price": [],
+    "rarity": 2,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52041": {
+    "display": "確率で下記の特殊装備を入手可能",
+    "display_icon": [
+      [
+        21,
+        1010100,
+        1
+      ],
+      [
+        21,
+        1010200,
+        1
+      ],
+      [
+        21,
+        1020100,
+        1
+      ],
+      [
+        21,
+        1030100,
+        1
+      ],
+      [
+        21,
+        1040100,
+        1
+      ],
+      [
+        21,
+        1050100,
+        1
+      ],
+      [
+        21,
+        1060100,
+        1
+      ],
+      [
+        21,
+        1060200,
+        1
+      ],
+      [
+        21,
+        1070100,
+        1
+      ],
+      [
+        21,
+        1070200,
+        1
+      ],
+      [
+        21,
+        1080100,
+        1
+      ],
+      [
+        21,
+        1080200,
+        1
+      ],
+      [
+        21,
+        1010120,
+        1
+      ],
+      [
+        21,
+        1010220,
+        1
+      ],
+      [
+        21,
+        1020120,
+        1
+      ],
+      [
+        21,
+        1030120,
+        1
+      ],
+      [
+        21,
+        1040120,
+        1
+      ],
+      [
+        21,
+        1050120,
+        1
+      ],
+      [
+        21,
+        1060120,
+        1
+      ],
+      [
+        21,
+        1060220,
+        1
+      ],
+      [
+        21,
+        1070120,
+        1
+      ],
+      [
+        21,
+        1070220,
+        1
+      ],
+      [
+        21,
+        1080120,
+        1
+      ],
+      [
+        21,
+        1080220,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/55000",
+    "id": 52041,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "ランダム特殊装備",
+    "price": [],
+    "rarity": 2,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52050": {
+    "display": "確率で下記の特殊装備コアを入手可能",
+    "display_icon": [
+      [
+        2,
+        15021,
+        1
+      ],
+      [
+        2,
+        15020,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 52050,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "ランダム特殊装備コア",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52051": {
+    "display": "確率で下記の特殊装備強化石を入手可能",
+    "display_icon": [
+      [
+        2,
+        15017,
+        1
+      ],
+      [
+        2,
+        15016,
+        1
+      ],
+      [
+        2,
+        15015,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15016",
+    "id": 52051,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "ランダム特殊装備強化石",
+    "price": [],
+    "rarity": 3,
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,
