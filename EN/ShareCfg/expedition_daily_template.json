@@ -55,6 +55,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily1",
+    "sort": "1",
     "tips": "Escort Mission available on every Monday, Thursday and Sunday",
     "title": "商船护送",
     "weekday": [
@@ -95,6 +96,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily2",
+    "sort": "2",
     "tips": "Advance Mission available on every Tuesday, Friday and Sunday",
     "title": "海域突进",
     "weekday": [
@@ -135,6 +137,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily3",
+    "sort": "3",
     "tips": "Fierce Assault available on every Wednesday, Saturday and Sunday",
     "title": "斩首行动",
     "weekday": [
@@ -175,6 +178,7 @@
     "limit_time": 2,
     "limit_type": 2,
     "pic": "daily5",
+    "sort": "4",
     "tips": "Supply Line Disruption is open every day, and can be played a maximum of 2 times weekly. ",
     "title": "Supply Line Disruption ",
     "weekday": [
@@ -219,6 +223,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily6",
+    "sort": "6",
     "tips": "战术研修每天开启",
     "title": "战术研修",
     "weekday": [
@@ -231,11 +236,54 @@
       7
     ]
   },
+  "701": {
+    "des": "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
+    "expedition_and_lv_limit_list": [
+      [
+        7000,
+        35
+      ],
+      [
+        7001,
+        75
+      ]
+    ],
+    "id": 701,
+    "limit_time": 2,
+    "limit_type": 2,
+    "pic": "daily7",
+    "sort": "5",
+    "tips": "Twice per week",
+    "title": "Module Development",
+    "weekday": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "801": {
+    "des": "This stage is not available yet.",
+    "expedition_and_lv_limit_list": [],
+    "id": 801,
+    "limit_time": 0,
+    "limit_type": 0,
+    "pic": "daily4",
+    "sort": "7",
+    "tips": "This stage is not available yet.",
+    "title": "Unavailable",
+    "weekday": []
+  },
   "all": [
     201,
     301,
     401,
     501,
-    601
+    601,
+    701,
+    801
   ]
 }
