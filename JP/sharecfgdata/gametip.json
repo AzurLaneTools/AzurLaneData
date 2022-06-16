@@ -309,7 +309,7 @@
     "tip": "交換可能"
   },
   "activity_shop_lable": {
-    "tip": "※交換可能期間：<color=#FFCF81>$1</color>"
+    "tip": "※交換可能期間：<color=#FFF693>$1</color>"
   },
   "activity_switch_award_pool_failed": {
     "tip": "次の段階は目玉報酬を全部交換したことで開放されます"
@@ -2528,6 +2528,13 @@
   "commander_unlock_done": {
     "tip": "保護解除に成功しました"
   },
+  "commission_event_tip": {
+    "tip": [
+      {
+        "info": "遊び方：\n1.イベント期間中、軍事委託の報酬に「軍事委託Pt」が追加されます\n<color=#92fc63>「軍事委託Pt」は委託の必要時間が5分につき、1Pt加算されます</color>\n例：必要時間が1時間の委託を完了した場合、報酬として「軍事委託Pt」が12入手できます\n2.イベント期間中に開始・完了した委託のみ「軍事委託Pt」の報酬を受け取れます\n3.軍事委託を中止した場合、「軍事委託Pt」を入手できません\n4.ショップの「イベント」タブで、軍事委託Ptを消費し様々なアイテムと交換できます\n5.交換ラインナップの一部アイテムは、特定のメイン海域をクリアしてからでないと交換できません"
+      }
+    ]
+  },
   "commission_get_award": {
     "tip": "資源入手:$1 x $2"
   },
@@ -3671,6 +3678,12 @@
   },
   "eventshop_time_hint": {
     "tip": "$1メンテナンスまで交換可能"
+  },
+  "eventshop_unlock_hint": {
+    "tip": "$1クリアで開放されます"
+  },
+  "eventshop_unlock_info": {
+    "tip": "$1クリア"
   },
   "exchange_item_success": {
     "tip": "支援物資は到着しました！"
@@ -4908,7 +4921,7 @@
     "tip": "[$1] $2 は大艦隊兵站・開発項目を$3に変更"
   },
   "guild_tech_consume_tip": {
-    "tip": "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を増築 しようとしています。増築を行いますか？"
+    "tip": "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を\n増築 しようとしています。増築を行いますか？"
   },
   "guild_tech_donate_target": {
     "tip": "物資進捗$1が必要です"
