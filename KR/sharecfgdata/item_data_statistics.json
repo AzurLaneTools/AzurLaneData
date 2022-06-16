@@ -6445,7 +6445,7 @@
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,
-    "type": 2,
+    "type": 24,
     "virtual_type": 0
   },
   "15016": {
@@ -6465,7 +6465,7 @@
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,
-    "type": 2,
+    "type": 24,
     "virtual_type": 0
   },
   "15017": {
@@ -6480,6 +6480,46 @@
     "link_id": 0,
     "max_num": 0,
     "name": "특수 장비 강화석T3",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 24,
+    "virtual_type": 0
+  },
+  "15020": {
+    "display": "특수 장비 강화석. 특수 장비 개조에 사용된다.",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 15020,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "특수 장비 재구성 코어 T1",
+    "price": [],
+    "rarity": 3,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 2,
+    "virtual_type": 0
+  },
+  "15021": {
+    "display": "특수 장비 강화석. 특수 장비 개조에 사용된다.",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 15021,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "특수 장비 재구성 코어 T2",
     "price": [],
     "rarity": 4,
     "replace_item": 0,
@@ -8409,6 +8449,26 @@
     "type": 4,
     "virtual_type": 0
   },
+  "21012": {
+    "display": "리펄스·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/21012",
+    "id": 21012,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "결정: 리펄스·META",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 4,
+    "virtual_type": 0
+  },
   "21101": {
     "display": "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
     "display_icon": [],
@@ -8601,6 +8661,26 @@
     "link_id": 0,
     "max_num": 0,
     "name": "동기화 수치: 샤른호르스트·META",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 4,
+    "virtual_type": 0
+  },
+  "21907": {
+    "display": "「비콘·META」 전투 중 수집한 데이터. 리펄스·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+    "display_icon": [],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/21907",
+    "id": 21907,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "동기화 수치: 리펄스·META",
     "price": [],
     "rarity": 4,
     "replace_item": 0,
@@ -13469,12 +13549,12 @@
       ],
       [
         9,
-        2013,
+        2011,
         1
       ],
       [
         9,
-        2012,
+        2013,
         1
       ]
     ],
@@ -40815,6 +40895,295 @@
     "name": "장비 설계도 (랜덤) T3",
     "price": [],
     "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52040": {
+    "display": "확률적으로 다음 특수 장비 획득",
+    "display_icon": [
+      [
+        21,
+        1010100,
+        1
+      ],
+      [
+        21,
+        1010200,
+        1
+      ],
+      [
+        21,
+        1020100,
+        1
+      ],
+      [
+        21,
+        1030100,
+        1
+      ],
+      [
+        21,
+        1040100,
+        1
+      ],
+      [
+        21,
+        1050100,
+        1
+      ],
+      [
+        21,
+        1060100,
+        1
+      ],
+      [
+        21,
+        1060200,
+        1
+      ],
+      [
+        21,
+        1070100,
+        1
+      ],
+      [
+        21,
+        1070200,
+        1
+      ],
+      [
+        21,
+        1080100,
+        1
+      ],
+      [
+        21,
+        1080200,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/55000",
+    "id": 52040,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "랜덤 특수 장비",
+    "price": [],
+    "rarity": 2,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52041": {
+    "display": "확률적으로 다음 특수 장비 획득",
+    "display_icon": [
+      [
+        21,
+        1010100,
+        1
+      ],
+      [
+        21,
+        1010200,
+        1
+      ],
+      [
+        21,
+        1020100,
+        1
+      ],
+      [
+        21,
+        1030100,
+        1
+      ],
+      [
+        21,
+        1040100,
+        1
+      ],
+      [
+        21,
+        1050100,
+        1
+      ],
+      [
+        21,
+        1060100,
+        1
+      ],
+      [
+        21,
+        1060200,
+        1
+      ],
+      [
+        21,
+        1070100,
+        1
+      ],
+      [
+        21,
+        1070200,
+        1
+      ],
+      [
+        21,
+        1080100,
+        1
+      ],
+      [
+        21,
+        1080200,
+        1
+      ],
+      [
+        21,
+        1010120,
+        1
+      ],
+      [
+        21,
+        1010220,
+        1
+      ],
+      [
+        21,
+        1020120,
+        1
+      ],
+      [
+        21,
+        1030120,
+        1
+      ],
+      [
+        21,
+        1040120,
+        1
+      ],
+      [
+        21,
+        1050120,
+        1
+      ],
+      [
+        21,
+        1060120,
+        1
+      ],
+      [
+        21,
+        1060220,
+        1
+      ],
+      [
+        21,
+        1070120,
+        1
+      ],
+      [
+        21,
+        1070220,
+        1
+      ],
+      [
+        21,
+        1080120,
+        1
+      ],
+      [
+        21,
+        1080220,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/55000",
+    "id": 52041,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "랜덤 특수 장비",
+    "price": [],
+    "rarity": 2,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52050": {
+    "display": "확률적으로 다음 특수 장비 코어 획득",
+    "display_icon": [
+      [
+        2,
+        15021,
+        1
+      ],
+      [
+        2,
+        15020,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15020",
+    "id": 52050,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "랜덤 특수 장비 코어",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "shop_id": -1,
+    "type": 99,
+    "virtual_type": 0
+  },
+  "52051": {
+    "display": "확률적으로 다음 특수 장비 강화석 획득",
+    "display_icon": [
+      [
+        2,
+        15017,
+        1
+      ],
+      [
+        2,
+        15016,
+        1
+      ],
+      [
+        2,
+        15015,
+        1
+      ]
+    ],
+    "drop_gold_max": 0,
+    "drop_oil_max": 0,
+    "icon": "Props/15016",
+    "id": 52051,
+    "index": [],
+    "is_world": 0,
+    "link_id": 0,
+    "max_num": 0,
+    "name": "랜덤 특수 장비 강화석",
+    "price": [],
+    "rarity": 3,
     "replace_item": 0,
     "shiptrans_id": [],
     "shop_id": -1,

@@ -55,6 +55,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily1",
+    "sort": "1",
     "tips": "매주 월·목·일요일 개방!",
     "title": "상선호위",
     "weekday": [
@@ -95,6 +96,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily2",
+    "sort": "2",
     "tips": "매주 화·금·일요일 개방!",
     "title": "해역소탕",
     "weekday": [
@@ -135,6 +137,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily3",
+    "sort": "3",
     "tips": "매주 수·토·일요일 개방!",
     "title": "강습작전",
     "weekday": [
@@ -175,6 +178,7 @@
     "limit_time": 2,
     "limit_type": 2,
     "pic": "daily5",
+    "sort": "4",
     "tips": "아직 개방되지 않았습니다. 기대해주세요!",
     "title": "통상 파괴",
     "weekday": [
@@ -219,6 +223,7 @@
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily6",
+    "sort": "6",
     "tips": "전술 리서치는 매일 개방됩니다.",
     "title": "전술 리서치",
     "weekday": [
@@ -231,11 +236,54 @@
       7
     ]
   },
+  "701": {
+    "des": "벨파스트와 특수 장비 전투 훈련 진행. 훈련 완료 시 특수 장비 또는 특수 장비 재료 획득 가능",
+    "expedition_and_lv_limit_list": [
+      [
+        7000,
+        35
+      ],
+      [
+        7001,
+        75
+      ]
+    ],
+    "id": 701,
+    "limit_time": 2,
+    "limit_type": 2,
+    "pic": "daily7",
+    "sort": "5",
+    "tips": "특수 장비 훈련은 매일 오픈되며, 매주 2회 진행 가능.",
+    "title": "특수 장비 훈련",
+    "weekday": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "801": {
+    "des": "아직 개방되지 않았습니다. 기대해 주세요.",
+    "expedition_and_lv_limit_list": [],
+    "id": 801,
+    "limit_time": 0,
+    "limit_type": 0,
+    "pic": "daily4",
+    "sort": "7",
+    "tips": "아직 개방되지 않았습니다. 기대해 주세요.",
+    "title": "기대해 주세요.",
+    "weekday": []
+  },
   "all": [
     201,
     301,
     401,
     501,
-    601
+    601,
+    701,
+    801
   ]
 }
