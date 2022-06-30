@@ -321,6 +321,113 @@
     "smooth": 200,
     "start_value": 0
   },
+  "3012921": {
+    "action_trigger": {
+      "action": "touch_drag1",
+      "num": 1,
+      "time": 0.5,
+      "type": 1
+    },
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3012921,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 80,
+    "parameter": "touch_drag1",
+    "range": [
+      -1,
+      1
+    ],
+    "range_abs": 0,
+    "revert": 200,
+    "ship_skin_id": 301292,
+    "smooth": 200,
+    "start_value": 0
+  },
+  "3012922": {
+    "action_trigger": {
+      "action": "touch_drag2",
+      "num": 10,
+      "reset": 1,
+      "time": 0.5,
+      "type": 1
+    },
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3012922,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 100,
+    "parameter": "touch_drag2",
+    "range": [
+      0,
+      10
+    ],
+    "range_abs": 1,
+    "revert": 200,
+    "ship_skin_id": 301292,
+    "smooth": 200,
+    "start_value": 0
+  },
+  "3012923": {
+    "action_trigger": "",
+    "drag_direct": 2,
+    "draw_able_name": "TouchDrag3",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3012923,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 80,
+    "parameter": "touch_drag3",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "revert": 200,
+    "ship_skin_id": 301292,
+    "smooth": 200,
+    "start_value": 0
+  },
+  "3012924": {
+    "action_trigger": "",
+    "drag_direct": 2,
+    "draw_able_name": "TouchDrag4",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3012924,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 80,
+    "parameter": "touch_drag4",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "revert": 200,
+    "ship_skin_id": 301292,
+    "smooth": 200,
+    "start_value": 0
+  },
   "all": [
     101,
     102,
@@ -334,6 +441,10 @@
     205,
     206,
     207,
-    208
+    208,
+    3012921,
+    3012922,
+    3012923,
+    3012924
   ]
 }
