@@ -776,6 +776,43 @@
     "themeId": 0,
     "type": 7
   },
+  "27": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "特殊家具：空母ジョッフル模型（1:100）",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiafeiicon",
+    "id": 27,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ジョッフル空母模型",
+    "offset": [],
+    "picture": "chuanmo/xiafei",
+    "rarity": 2,
+    "size": [
+      1,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "101": {
     "advice": 0,
     "belong": 1,
@@ -862,7 +899,7 @@
     "comfortable": 2,
     "count": 1,
     "deblocking": 1,
-    "describe": "<color=#ffde38>「ユニオン第23駆逐艦中隊・ビーバーズ、31ノットで前進よ！」</color>",
+    "describe": "<color=#fcae33>「ユニオン第23駆逐艦中隊・ビーバーズ、31ノットで前進よ！」</color>",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -5276,7 +5313,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "カレーラーメンの風呂の情報",
+    "describe": "3分待てば絶品ピョ!",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -5287,7 +5324,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 1,
     "level": 1,
-    "name": "カレーラーメンの風呂",
+    "name": "バス·オブ·カレーラーメン",
     "offset": [],
     "picture": "",
     "rarity": 0,
@@ -5378,6 +5415,82 @@
     "size": [
       3,
       3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "231": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "もっともっと高く飛べるピョ!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "twitter80wicon",
+    "id": 231,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "羽ばたく80万",
+    "offset": [],
+    "picture": "",
+    "rarity": 0,
+    "size": [
+      7,
+      5
+    ],
+    "spine": [
+      [
+        "twitter80wB",
+        "normal"
+      ],
+      [
+        "twitter80wT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
     ],
     "spine_action_replace": "",
     "spine_extra": "",
@@ -96978,7 +97091,7 @@
   },
   "89001": {
     "advice": 0,
-    "belong": 1,
+    "belong": 0,
     "can_rotate": 0,
     "can_trigger": [
       0
@@ -97012,7 +97125,7 @@
   },
   "89002": {
     "advice": 0,
-    "belong": 1,
+    "belong": 0,
     "can_rotate": 0,
     "can_trigger": [
       0
@@ -97032,7 +97145,7 @@
     "interAction_group": [],
     "is_3d_obj": 0,
     "is_get_time_note": 0,
-    "level": 1,
+    "level": 5,
     "name": "東煌モダンの壁",
     "offset": [],
     "picture": "cn2/qiangbicn2",
@@ -98247,6 +98360,998 @@
     "tag": 5,
     "themeId": 89,
     "type": 6
+  },
+  "90001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ファンタジーの景色が溢れる奇妙な森",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanthicon",
+    "id": 90001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンの床",
+    "offset": [],
+    "picture": "th/dibanth",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 90,
+    "type": 4
+  },
+  "90002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ファンタジーの景色が溢れる奇妙な森",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbithicon",
+    "id": 90002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "メルヘンの壁",
+    "offset": [],
+    "picture": "th/qiangbith",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 90,
+    "type": 1
+  },
+  "90101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "食べられるかな…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "baimoguthicon",
+    "id": 90101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "白キノコの菌輪",
+    "offset": [],
+    "picture": "th/baimoguth",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "食べられるかな…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "baimogu2thicon",
+    "id": 90102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "白キノコの株",
+    "offset": [],
+    "picture": "th/baimogu2th",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "にんじんを引き抜け！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "daluobothicon",
+    "id": 90103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ビッグキャロット",
+    "offset": [],
+    "picture": "th/daluoboth",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "空を飛ぶ大クジラ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "feitianjingyuthicon",
+    "id": 90104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンホエール",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      6
+    ],
+    "spine": [
+      [
+        "feitianjingyuth",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 90,
+    "type": 11
+  },
+  "90105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ぐるぐると回る風車～",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fengchethicon",
+    "id": 90105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘン風車",
+    "offset": [],
+    "picture": "th/fengcheth",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "艶めかしい色をした赤いきのこ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hongmoguthicon",
+    "id": 90106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "紅キノコの株",
+    "offset": [],
+    "picture": "th/hongmoguth",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "暗い森に星々のような光を",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hualudengthicon",
+    "id": 90107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "街灯フラワー",
+    "offset": [],
+    "picture": "th/hualudength",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "微かな青い光を放っている",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hudiecongthicon",
+    "id": 90111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "胡蝶の群れ",
+    "offset": [],
+    "picture": "th/hudiecongth",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "木の上に誰かがいるような…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jushuthicon",
+    "id": 90112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンの大木",
+    "offset": [],
+    "picture": "th/jushuth",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "よいっしょ。一休み",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mogudengthicon",
+    "id": 90113,
+    "interAction": [
+      [
+        "sit",
+        [
+          7.8,
+          38.2
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "キノコ椅子",
+    "offset": [],
+    "picture": "th/mogudength",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "中に誰が住んでいるかな…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "moguwuthicon",
+    "id": 90116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "キノコの小屋",
+    "offset": [],
+    "picture": "th/moguwuth",
+    "rarity": 3,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "早く乗って！舞踏会が始まっちゃうピョ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "nanguachethicon",
+    "id": 90117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンかぼちゃ馬車",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      9
+    ],
+    "spine": [
+      [
+        "nanguachethB",
+        "normal"
+      ],
+      [
+        "nanguachethT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          1.1,
+          -1.6
+        ],
+        [
+          110,
+          140
+        ],
+        "th/nanguacheth_mask"
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 90,
+    "type": 11
+  },
+  "90118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "変わったところはないただの石",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shitouthicon",
+    "id": 90118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンストーン",
+    "offset": [],
+    "picture": "th/shitouth",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "子どもたちの夢見た場所",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shuwuthicon",
+    "id": 90119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンツリーハウス",
+    "offset": [],
+    "picture": "th/shuwuth",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90120": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "森の奥へ――",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "suishiluthicon",
+    "id": 90120,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンロード",
+    "offset": [],
+    "picture": "th/suishiluth",
+    "rarity": 3,
+    "size": [
+      24,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 5
+  },
+  "90121": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "遅刻遅刻ぅ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tuzithicon",
+    "id": 90121,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "白ウサギさん？",
+    "offset": [],
+    "picture": "th/tuzith",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90122": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "魔法で変えてあげるピョ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiannvjiuthicon",
+    "id": 90122,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "フェイ饅頭",
+    "offset": [],
+    "picture": "th/xiannvjiuth",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90123": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "おばあちゃん大丈夫かな…ピョ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaohongmaojiuthicon",
+    "id": 90123,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "赤ずきん饅頭",
+    "offset": [],
+    "picture": "th/xiaohongmaojiuth",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90124": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "美味しそうなにんじんだ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaoluobothicon",
+    "id": 90124,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "スモールキャロット",
+    "offset": [],
+    "picture": "th/xiaoluoboth",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90125": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "美味しそうなにんじんが大量だ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaoluobosanlianthicon",
+    "id": 90125,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "群生したキャロット",
+    "offset": [],
+    "picture": "th/xiaoluobosanlianth",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90127": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "川岸に野草と奇妙なきのこが生えている",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaoxithicon",
+    "id": 90127,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "メルヘンリバー",
+    "offset": [],
+    "picture": "th/xiaoxith",
+    "rarity": 3,
+    "size": [
+      14,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
+  },
+  "90128": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Zzzzzzz…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiongthicon",
+    "id": 90128,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -3.6,
+          72
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "眠れるクマさん",
+    "offset": [],
+    "picture": "th/xiongth",
+    "rarity": 3,
+    "size": [
+      8,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 90,
+    "type": 2
   },
   "100002": {
     "advice": 0,
@@ -100813,6 +101918,82 @@
     "themeId": 0,
     "type": 14
   },
+  "100038": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ハイテクな雰囲気が漂う…合成装置？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "zongzihechengqiicon",
+    "id": 100038,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "「オイシイ」合成装置",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      9
+    ],
+    "spine": [
+      [
+        "zongzihechengqiB",
+        "normal"
+      ],
+      [
+        "zongzihechengqiT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -101251,6 +102432,7 @@
     24,
     25,
     26,
+    27,
     101,
     102,
     104,
@@ -101343,6 +102525,7 @@
     224,
     225,
     226,
+    231,
     100002,
     100003,
     100004,
@@ -101379,6 +102562,7 @@
     100035,
     100036,
     100037,
+    100038,
     200001,
     200002,
     200003,
@@ -103512,7 +104696,31 @@
     89303,
     89307,
     89308,
-    89309
+    89309,
+    90001,
+    90002,
+    90101,
+    90102,
+    90103,
+    90104,
+    90105,
+    90106,
+    90107,
+    90111,
+    90112,
+    90113,
+    90116,
+    90117,
+    90118,
+    90119,
+    90120,
+    90121,
+    90122,
+    90123,
+    90124,
+    90125,
+    90127,
+    90128
   ],
   "get_id_list_by_tag": {
     "1": [
@@ -104954,7 +106162,27 @@
       89122,
       89123,
       89124,
-      89125
+      89125,
+      90101,
+      90102,
+      90103,
+      90105,
+      90106,
+      90107,
+      90111,
+      90112,
+      90113,
+      90116,
+      90118,
+      90119,
+      90120,
+      90121,
+      90122,
+      90123,
+      90124,
+      90125,
+      90127,
+      90128
     ],
     "2": [
       1108,
@@ -105176,7 +106404,8 @@
       86002,
       87002,
       88002,
-      89002
+      89002,
+      90002
     ],
     "4": [
       1001,
@@ -105252,7 +106481,8 @@
       86001,
       87001,
       88001,
-      89001
+      89001,
+      90001
     ],
     "5": [
       1301,
@@ -105546,6 +106776,7 @@
       24,
       25,
       26,
+      27,
       101,
       102,
       104,
@@ -105637,6 +106868,7 @@
       224,
       225,
       226,
+      231,
       100002,
       100003,
       100004,
@@ -105673,6 +106905,7 @@
       100035,
       100036,
       100037,
+      100038,
       31101,
       54104,
       54105
@@ -105810,7 +107043,9 @@
       85126,
       86122,
       88126,
-      89126
+      89126,
+      90104,
+      90117
     ]
   },
   "get_id_list_by_themeId": {
@@ -105836,6 +107071,7 @@
       24,
       25,
       26,
+      27,
       101,
       102,
       104,
@@ -105926,6 +107162,7 @@
       224,
       225,
       226,
+      231,
       100002,
       100003,
       100004,
@@ -105962,6 +107199,7 @@
       100035,
       100036,
       100037,
+      100038,
       200001,
       200002,
       200003,
@@ -106006,6 +107244,7 @@
       24,
       25,
       26,
+      27,
       101,
       102,
       104,
@@ -106096,6 +107335,7 @@
       224,
       225,
       226,
+      231,
       100002,
       100003,
       100004,
@@ -106132,6 +107372,7 @@
       100035,
       100036,
       100037,
+      100038,
       200001,
       200002,
       200003,
@@ -110531,6 +111772,56 @@
       89307,
       89308,
       89309
+    ],
+    "90": [
+      90001,
+      90002,
+      90101,
+      90102,
+      90103,
+      90104,
+      90105,
+      90106,
+      90107,
+      90111,
+      90112,
+      90113,
+      90116,
+      90117,
+      90118,
+      90119,
+      90120,
+      90121,
+      90122,
+      90123,
+      90124,
+      90125,
+      90127,
+      90128,
+      90001,
+      90002,
+      90101,
+      90102,
+      90103,
+      90104,
+      90105,
+      90106,
+      90107,
+      90111,
+      90112,
+      90113,
+      90116,
+      90117,
+      90118,
+      90119,
+      90120,
+      90121,
+      90122,
+      90123,
+      90124,
+      90125,
+      90127,
+      90128
     ]
   },
   "get_id_list_by_type": {
@@ -110609,7 +111900,8 @@
       86002,
       87002,
       88002,
-      89002
+      89002,
+      90002
     ],
     "2": [
       120,
@@ -112035,7 +113327,26 @@
       89122,
       89123,
       89124,
-      89125
+      89125,
+      90101,
+      90102,
+      90103,
+      90105,
+      90106,
+      90107,
+      90111,
+      90112,
+      90113,
+      90116,
+      90118,
+      90119,
+      90121,
+      90122,
+      90123,
+      90124,
+      90125,
+      90127,
+      90128
     ],
     "3": [
       1108,
@@ -112257,7 +113568,8 @@
       86001,
       87001,
       88001,
-      89001
+      89001,
+      90001
     ],
     "5": [
       1101,
@@ -112381,7 +113693,8 @@
       87116,
       88103,
       89106,
-      89107
+      89107,
+      90120
     ],
     "6": [
       1301,
@@ -112672,6 +113985,7 @@
       24,
       25,
       26,
+      27,
       101,
       102,
       104,
@@ -112750,6 +114064,7 @@
       224,
       225,
       226,
+      231,
       100002,
       100004,
       100005,
@@ -112775,7 +114090,8 @@
       100031,
       100033,
       100035,
-      100036
+      100036,
+      100038
     ],
     "8": [
       15119,
@@ -112826,7 +114142,9 @@
       77119,
       84184,
       84185,
-      84186
+      84186,
+      90104,
+      90117
     ],
     "12": [
       46131
