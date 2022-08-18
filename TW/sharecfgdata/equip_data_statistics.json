@@ -3897,7 +3897,8 @@
     "id": 500,
     "label": [
       "USS",
-      "DEV"
+      "DEV",
+      "Little-Beavers"
     ],
     "name": "小海狸中隊隊徽",
     "nationality": 1,
@@ -94418,6 +94419,53 @@
       60683
     ]
   },
+  "60781": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "航母空袭展示用",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 60781,
+    "label": [],
+    "name": "航空攻击展示-帝国I",
+    "nationality": 0,
+    "part_main": [],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 99,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      60781
+    ]
+  },
+  "60782": {
+    "base": 60781,
+    "hidden_skill_id": [],
+    "id": 60782,
+    "name": "航空攻击展示-帝国II",
+    "weapon_id": [
+      60782
+    ]
+  },
+  "60783": {
+    "base": 60781,
+    "hidden_skill_id": [],
+    "id": 60783,
+    "name": "航空攻击展示-帝国III",
+    "weapon_id": [
+      60783
+    ]
+  },
   "61007": {
     "ammo": 10,
     "ammo_icon": [],
@@ -103840,6 +103888,57 @@
     "name": "专属弹幕-可怖II",
     "weapon_id": [
       60732
+    ]
+  },
+  "79831": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "技能弹幕",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 79831,
+    "label": [],
+    "name": "專屬彈幕-龐培·馬格諾I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      60791
+    ]
+  },
+  "79832": {
+    "base": 79831,
+    "hidden_skill_id": [],
+    "id": 79832,
+    "name": "專屬彈幕-龐培·馬格諾II",
+    "weapon_id": [
+      60792
     ]
   },
   "79861": {
@@ -116781,6 +116880,482 @@
     "id": 95913,
     "weapon_id": [
       95913
+    ]
+  },
+  "95920": {
+    "ammo": 3,
+    "ammo_icon": [
+      1
+    ],
+    "ammo_info": [
+      [
+        1,
+        2300
+      ]
+    ],
+    "attribute_2": "cannon",
+    "attribute_3": "antiaircraft",
+    "damage": "4 x 4",
+    "descrip": "薩丁帝國製造的135mm主炮，被用於羅馬統帥級",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        2300
+      ],
+      [
+        4,
+        1001
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "55920",
+    "id": 95920,
+    "label": [
+      "RN",
+      "DD",
+      "MG"
+    ],
+    "name": "雙聯裝135mm主炮Model1938",
+    "nationality": 6,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 3,
+    "skill_id": [],
+    "speciality": "锁定",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_2": 7,
+    "value_3": 5,
+    "weapon_id": [
+      95920
+    ]
+  },
+  "95921": {
+    "base": 95920,
+    "damage": "5 x 4",
+    "hidden_skill_id": [],
+    "id": 95921,
+    "weapon_id": [
+      95921
+    ]
+  },
+  "95922": {
+    "base": 95920,
+    "damage": "6 x 4",
+    "hidden_skill_id": [],
+    "id": 95922,
+    "weapon_id": [
+      95922
+    ]
+  },
+  "95923": {
+    "base": 95920,
+    "damage": "6 x 4",
+    "hidden_skill_id": [],
+    "id": 95923,
+    "weapon_id": [
+      95923
+    ]
+  },
+  "95924": {
+    "base": 95920,
+    "damage": "7 x 4",
+    "hidden_skill_id": [],
+    "id": 95924,
+    "weapon_id": [
+      95924
+    ]
+  },
+  "95925": {
+    "base": 95920,
+    "damage": "8 x 4",
+    "hidden_skill_id": [],
+    "id": 95925,
+    "weapon_id": [
+      95925
+    ]
+  },
+  "95926": {
+    "base": 95920,
+    "damage": "9 x 4",
+    "hidden_skill_id": [],
+    "id": 95926,
+    "weapon_id": [
+      95926
+    ]
+  },
+  "95940": {
+    "ammo": 7,
+    "ammo_icon": [
+      4
+    ],
+    "ammo_info": [
+      [
+        1,
+        2310
+      ]
+    ],
+    "attribute_2": "cannon",
+    "attribute_3": "antiaircraft",
+    "damage": "4 x 4",
+    "descrip": "薩丁帝國製造的135mm主炮，被用於羅馬統帥級",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        2310
+      ],
+      [
+        4,
+        1001
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "55920",
+    "id": 95940,
+    "label": [
+      "RN",
+      "DD",
+      "MG",
+      "SAP"
+    ],
+    "name": "雙聯裝135mm主炮Model1938",
+    "nationality": 6,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 4,
+    "skill_id": [],
+    "speciality": "锁定",
+    "tech": 2,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_2": 15,
+    "value_3": 10,
+    "weapon_id": [
+      95940
+    ]
+  },
+  "95941": {
+    "base": 95940,
+    "damage": "5 x 4",
+    "hidden_skill_id": [],
+    "id": 95941,
+    "weapon_id": [
+      95941
+    ]
+  },
+  "95942": {
+    "base": 95940,
+    "damage": "6 x 4",
+    "hidden_skill_id": [],
+    "id": 95942,
+    "weapon_id": [
+      95942
+    ]
+  },
+  "95943": {
+    "base": 95940,
+    "damage": "7 x 4",
+    "hidden_skill_id": [],
+    "id": 95943,
+    "weapon_id": [
+      95943
+    ]
+  },
+  "95944": {
+    "base": 95940,
+    "damage": "8 x 4",
+    "hidden_skill_id": [],
+    "id": 95944,
+    "weapon_id": [
+      95944
+    ]
+  },
+  "95945": {
+    "base": 95940,
+    "damage": "9 x 4",
+    "hidden_skill_id": [],
+    "id": 95945,
+    "weapon_id": [
+      95945
+    ]
+  },
+  "95946": {
+    "base": 95940,
+    "damage": "10 x 4",
+    "hidden_skill_id": [],
+    "id": 95946,
+    "weapon_id": [
+      95946
+    ]
+  },
+  "95947": {
+    "base": 95940,
+    "damage": "11 x 4",
+    "hidden_skill_id": [],
+    "id": 95947,
+    "weapon_id": [
+      95947
+    ]
+  },
+  "95948": {
+    "base": 95940,
+    "damage": "12 x 4",
+    "hidden_skill_id": [],
+    "id": 95948,
+    "weapon_id": [
+      95948
+    ]
+  },
+  "95949": {
+    "base": 95940,
+    "damage": "13 x 4",
+    "hidden_skill_id": [],
+    "id": 95949,
+    "weapon_id": [
+      95949
+    ]
+  },
+  "95950": {
+    "base": 95940,
+    "damage": "14 x 4",
+    "hidden_skill_id": [],
+    "id": 95950,
+    "weapon_id": [
+      95950
+    ]
+  },
+  "95960": {
+    "ammo": 7,
+    "ammo_icon": [
+      4
+    ],
+    "ammo_info": [
+      [
+        1,
+        2310
+      ]
+    ],
+    "attribute_2": "cannon",
+    "attribute_3": "antiaircraft",
+    "damage": "4 x 4",
+    "descrip": "薩丁帝國製造的135mm主炮，被用於羅馬統帥級",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        2310
+      ],
+      [
+        4,
+        1001
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "55920",
+    "id": 95960,
+    "label": [
+      "RN",
+      "DD",
+      "MG",
+      "SAP"
+    ],
+    "name": "雙聯裝135mm主炮Model1938",
+    "nationality": 6,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "speciality": "锁定",
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_2": 30,
+    "value_3": 15,
+    "weapon_id": [
+      95960
+    ]
+  },
+  "95961": {
+    "base": 95960,
+    "damage": "5 x 4",
+    "hidden_skill_id": [],
+    "id": 95961,
+    "weapon_id": [
+      95961
+    ]
+  },
+  "95962": {
+    "base": 95960,
+    "damage": "6 x 4",
+    "hidden_skill_id": [],
+    "id": 95962,
+    "weapon_id": [
+      95962
+    ]
+  },
+  "95963": {
+    "base": 95960,
+    "damage": "7 x 4",
+    "hidden_skill_id": [],
+    "id": 95963,
+    "weapon_id": [
+      95963
+    ]
+  },
+  "95964": {
+    "base": 95960,
+    "damage": "8 x 4",
+    "hidden_skill_id": [],
+    "id": 95964,
+    "weapon_id": [
+      95964
+    ]
+  },
+  "95965": {
+    "base": 95960,
+    "damage": "9 x 4",
+    "hidden_skill_id": [],
+    "id": 95965,
+    "weapon_id": [
+      95965
+    ]
+  },
+  "95966": {
+    "base": 95960,
+    "damage": "10 x 4",
+    "hidden_skill_id": [],
+    "id": 95966,
+    "weapon_id": [
+      95966
+    ]
+  },
+  "95967": {
+    "base": 95960,
+    "damage": "11 x 4",
+    "hidden_skill_id": [],
+    "id": 95967,
+    "weapon_id": [
+      95967
+    ]
+  },
+  "95968": {
+    "base": 95960,
+    "damage": "13 x 4",
+    "hidden_skill_id": [],
+    "id": 95968,
+    "weapon_id": [
+      95968
+    ]
+  },
+  "95969": {
+    "base": 95960,
+    "damage": "15 x 4",
+    "hidden_skill_id": [],
+    "id": 95969,
+    "weapon_id": [
+      95969
+    ]
+  },
+  "95970": {
+    "base": 95960,
+    "damage": "17 x 4",
+    "hidden_skill_id": [],
+    "id": 95970,
+    "weapon_id": [
+      95970
+    ]
+  },
+  "95971": {
+    "anti_siren": 100,
+    "base": 95960,
+    "damage": "17 x 4",
+    "hidden_skill_id": [],
+    "id": 95971,
+    "weapon_id": [
+      95971
+    ]
+  },
+  "95972": {
+    "anti_siren": 200,
+    "base": 95960,
+    "damage": "17 x 4",
+    "hidden_skill_id": [],
+    "id": 95972,
+    "weapon_id": [
+      95972
+    ]
+  },
+  "95973": {
+    "anti_siren": 300,
+    "base": 95960,
+    "damage": "17 x 4",
+    "hidden_skill_id": [],
+    "id": 95973,
+    "weapon_id": [
+      95973
     ]
   },
   "100000": {
