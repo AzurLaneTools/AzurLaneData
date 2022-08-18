@@ -791,6 +791,505 @@
     ],
     "use_ship": 1
   },
+  "1301": {
+    "condition_id": [],
+    "descrip": "耐久+45",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 1301,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "舰体改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 400,
+    "use_item": [
+      [
+        [
+          18001,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1302": {
+    "condition_id": [
+      1301
+    ],
+    "descrip": "防空+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 15
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "aa_1",
+    "id": 1302,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "防空强化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1303": {
+    "condition_id": [
+      1301
+    ],
+    "descrip": "主炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "mgup_1",
+    "id": 1303,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "主炮改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1304": {
+    "condition_id": [
+      1303
+    ],
+    "descrip": "炮击+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "cn_1",
+    "id": 1304,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "炮击强化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18001,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1305": {
+    "condition_id": [
+      1303
+    ],
+    "descrip": "主炮武器效率+5%/主炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      },
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      10,
+      10
+    ],
+    "icon": "mgup_2",
+    "id": 1305,
+    "level_limit": 35,
+    "max_level": 2,
+    "name": "主炮改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1200,
+    "use_item": [
+      [
+        [
+          18002,
+          1
+        ]
+      ],
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1306": {
+    "condition_id": [
+      1304,
+      1305
+    ],
+    "descrip": "炮击+5/炮击+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 5
+      },
+      {
+        "cannon": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      10
+    ],
+    "icon": "cn_2",
+    "id": 1306,
+    "level_limit": 40,
+    "max_level": 2,
+    "name": "炮击强化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18002,
+          1
+        ]
+      ],
+      [
+        [
+          18002,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1307": {
+    "condition_id": [
+      1305
+    ],
+    "descrip": "耐久+45/耐久+75",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      },
+      {
+        "durability": 75
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "hp_2",
+    "id": 1307,
+    "level_limit": 50,
+    "max_level": 2,
+    "name": "舰体改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18002,
+          2
+        ]
+      ],
+      [
+        [
+          18002,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1308": {
+    "condition_id": [
+      1302,
+      1307
+    ],
+    "descrip": "防空+15/防空+25",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 15
+      },
+      {
+        "antiaircraft": 25
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "aa_2",
+    "id": 1308,
+    "level_limit": 55,
+    "max_level": 2,
+    "name": "防空强化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18002,
+          1
+        ]
+      ],
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1309": {
+    "condition_id": [
+      1307
+    ],
+    "descrip": "鱼雷武器效率+5%/鱼雷武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_2": 0.05
+      },
+      {
+        "equipment_proficiency_2": 0.05
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "tpup_2",
+    "id": 1309,
+    "level_limit": 70,
+    "max_level": 2,
+    "name": "鱼雷改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18003,
+          1
+        ]
+      ],
+      [
+        [
+          18003,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1310": {
+    "condition_id": [
+      1309
+    ],
+    "descrip": "雷击+5/雷击+10/雷击+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "torpedo": 5
+      },
+      {
+        "torpedo": 10
+      },
+      {
+        "torpedo": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      10,
+      10
+    ],
+    "icon": "Tp_3",
+    "id": 1310,
+    "level_limit": 75,
+    "max_level": 3,
+    "name": "雷击强化III",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18003,
+          1
+        ],
+        [
+          17023,
+          5
+        ]
+      ],
+      [
+        [
+          18003,
+          1
+        ],
+        [
+          17023,
+          10
+        ]
+      ],
+      [
+        [
+          18003,
+          1
+        ],
+        [
+          17023,
+          15
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "1311": {
+    "condition_id": [
+      1309,
+      1310
+    ],
+    "descrip": "近代化改造完成，雷击+35，反潜+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antisub": 10,
+        "torpedo": 35
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_red",
+    "id": 1311,
+    "level_limit": 85,
+    "max_level": 1,
+    "name": "近代化改造",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 101119,
+    "star_limit": 5,
+    "use_gold": 4000,
+    "use_item": [
+      [
+        [
+          18003,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
+  "1312": {
+    "condition_id": [
+      1311
+    ],
+    "descrip": "习得技能【正义的力量】，炮击+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 15
+      },
+      {
+        "skill_id": 11480
+      }
+    ],
+    "gear_score": [
+      30
+    ],
+    "icon": "skill_blue",
+    "id": 1312,
+    "level_limit": 90,
+    "max_level": 1,
+    "name": "战术启发",
+    "ship_id": [],
+    "skill_id": 15910,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18003,
+          2
+        ],
+        [
+          17003,
+          50
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
   "1901": {
     "condition_id": [],
     "descrip": "耐久+45",
@@ -36937,6 +37436,18 @@
     609,
     610,
     611,
+    1301,
+    1302,
+    1303,
+    1304,
+    1305,
+    1306,
+    1307,
+    1308,
+    1309,
+    1310,
+    1311,
+    1312,
     1901,
     1902,
     1903,
