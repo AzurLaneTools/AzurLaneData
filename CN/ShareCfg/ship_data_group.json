@@ -15310,6 +15310,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 40808,
@@ -22973,6 +22984,40 @@
     "trans_type": 0,
     "type": 3
   },
+  "30014": {
+    "code": 30014,
+    "description": [
+      [
+        "限时活动：META研究室-资讯同步",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9704041
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970404,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30014,
+    "nationality": 97,
+    "property_hexagon": [
+      "A",
+      "E",
+      "E",
+      "D",
+      "C",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 4
+  },
   "all": [
     1,
     2,
@@ -23556,6 +23601,7 @@
     30010,
     30011,
     30012,
-    30013
+    30013,
+    30014
   ]
 }
