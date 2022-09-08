@@ -4498,6 +4498,12 @@
   "guild_damage_ranking": {
     "tip": "Rank"
   },
+  "guild_deputy_commander_cnt": {
+    "tip": "<color=#C3C3C3>Appointed: <color=#92fc63>$1/$2</color></color>"
+  },
+  "guild_deputy_commander_cnt_is_full": {
+    "tip": "<color=#C3C3C3>No more Officer slots available.</color>"
+  },
   "guild_dissolve_erro": {
     "tip": "Failed to dissolve guild."
   },
@@ -4542,6 +4548,9 @@
   },
   "guild_duty_is_too_low": {
     "tip": "Complete missions and donate materials to get 100 Guild Tokens."
+  },
+  "guild_duty_shoule_be_deputy_commander": {
+    "tip": "Only Officers can be appointed to become the new Guild Leader."
   },
   "guild_duty_tip_1": {
     "tip": "<color=#7FAFFF>Current Rank</color>"
@@ -4802,7 +4811,7 @@
         "info": "1. Guild members can view the details of fellow members on this screen."
       },
       {
-        "info": "2. The Guild Leader and Officers can freely change the position of <color=#92fc63>all members of lower rank than themselves</color>."
+        "info": "2. The Guild Leader and Officers can freely change the position of <color=#92fc63>all members of lower rank than themselves</color>. The Guild Leader can step down and promote an Officer to the rank of new Guild Leader. A Guild may have up to a maximum of 4 Officers."
       },
       {
         "info": "3. The Guild Leader and Officers have the power to remove <color=#92fc63>any member of lower rank than themselves</color> from the Guild. "
@@ -4811,7 +4820,7 @@
         "info": "4. If the Guild Leader has not logged in for <color=#92fc63>10 consecutive days</color>, Officers have the option to <color=#92fc63>denounce</color> them and call for a new Guild Leader."
       },
       {
-        "info": "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the member with <color=#92fc63>the most contributions to the Guild</color>."
+        "info": "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the Officer with <color=#92fc63>the most contributions to the Guild</color>."
       },
       {
         "info": "<color=#92fc63>6. - Trainee Members Info:</color>"
@@ -8607,6 +8616,9 @@
   "mail_count": {
     "tip": "Includes <color=#92fc63>$1</color> reward(s)"
   },
+  "mail_filter_placeholder": {
+    "tip": "Nothing to see here."
+  },
   "mail_getMailList_error_noNewMail": {
     "tip": "No new mail."
   },
@@ -10223,6 +10235,9 @@
   },
   "read_the_user_agreement": {
     "tip": "Please scroll to the bottom of the Terms of Service first."
+  },
+  "recently_sticker_placeholder": {
+    "tip": "No recent stickers."
   },
   "reconnect_tip": {
     "tip": "Network connection failed. Reconnect now?\n[$1]"
