@@ -64265,7 +64265,7 @@
     ],
     "attribute_2": "torpedo",
     "damage": "70 x 5",
-    "descrip": "說明未填寫",
+    "descrip": "{namecode:18}級驅逐艦搭載的五聯裝610mm魚雷",
     "equip_info": [
       1,
       2,
@@ -94419,6 +94419,53 @@
       60683
     ]
   },
+  "60711": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "航母空袭展示用",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 60711,
+    "label": [],
+    "name": "航空攻击展示-葛城I",
+    "nationality": 0,
+    "part_main": [],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 99,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      60711
+    ]
+  },
+  "60712": {
+    "base": 60711,
+    "hidden_skill_id": [],
+    "id": 60712,
+    "name": "航空攻击展示-葛城II",
+    "weapon_id": [
+      60712
+    ]
+  },
+  "60713": {
+    "base": 60711,
+    "hidden_skill_id": [],
+    "id": 60713,
+    "name": "航空攻击展示-葛城II",
+    "weapon_id": [
+      60713
+    ]
+  },
   "60781": {
     "ammo": 10,
     "ammo_icon": [],
@@ -103837,6 +103884,57 @@
     "name": "專屬彈幕-安克雷奇II",
     "weapon_id": [
       60662
+    ]
+  },
+  "79771": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "技能弹幕",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 79771,
+    "label": [],
+    "name": "专属弹幕-岛风I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      60721
+    ]
+  },
+  "79772": {
+    "base": 79771,
+    "hidden_skill_id": [],
+    "id": 79772,
+    "name": "专属弹幕-岛风II",
+    "weapon_id": [
+      60722
     ]
   },
   "79781": {
@@ -118401,6 +118499,646 @@
     "type": 4,
     "weapon_id": [
       800009
+    ]
+  },
+  "820850": {
+    "ammo": 3,
+    "ammo_icon": [
+      1
+    ],
+    "ammo_info": [
+      [
+        1,
+        1200
+      ]
+    ],
+    "attribute_2": "cannon",
+    "attribute_3": "antiaircraft",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        1200
+      ],
+      [
+        4,
+        1001
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "31000",
+    "id": 820850,
+    "label": [
+      "IJN",
+      "DD",
+      "MG"
+    ],
+    "name": "【2021岛风活动剧情用】双联100mm98式高射炮",
+    "nationality": 3,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_2": 15,
+    "value_3": 30,
+    "weapon_id": [
+      820850
+    ]
+  },
+  "820851": {
+    "ammo": 2,
+    "ammo_icon": [
+      3
+    ],
+    "ammo_info": [
+      [
+        1,
+        1402
+      ]
+    ],
+    "attribute_2": "cannon",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        1402
+      ],
+      [
+        4,
+        1205
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "33000",
+    "id": 820851,
+    "label": [
+      "IJN",
+      "CA",
+      "MG",
+      "HE"
+    ],
+    "name": "【2021岛风活动剧情用】203mm连装炮",
+    "nationality": 3,
+    "part_main": [
+      3,
+      18
+    ],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 4,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 3,
+    "value_2": 25,
+    "value_3": 0,
+    "weapon_id": [
+      820851
+    ]
+  },
+  "820852": {
+    "ammo": 1,
+    "ammo_icon": [
+      2
+    ],
+    "ammo_info": [
+      [
+        1,
+        1401
+      ]
+    ],
+    "attribute_2": "cannon",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        1401
+      ],
+      [
+        4,
+        1206
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "43000",
+    "id": 820852,
+    "label": [
+      "KMS",
+      "CA",
+      "MG",
+      "AP"
+    ],
+    "name": "【2021岛风活动剧情用】双联装203mmSKC主炮",
+    "nationality": 4,
+    "part_main": [
+      3,
+      18
+    ],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 3,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820852
+    ]
+  },
+  "820853": {
+    "ammo": 2,
+    "ammo_icon": [
+      3
+    ],
+    "ammo_info": [
+      [
+        2,
+        1502
+      ]
+    ],
+    "attribute_2": "cannon",
+    "equip_info": [
+      1,
+      2,
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "34100",
+    "id": 820853,
+    "label": [
+      "IJN",
+      "BB",
+      "MG",
+      "HE"
+    ],
+    "name": "【2021岛风活动剧情用】410mm连装炮",
+    "nationality": 3,
+    "part_main": [
+      4,
+      5,
+      10,
+      13
+    ],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 4,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 4,
+    "value_2": 25,
+    "value_3": 0,
+    "weapon_id": [
+      820853
+    ]
+  },
+  "820854": {
+    "ammo": 5,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        3,
+        1801
+      ]
+    ],
+    "attribute_2": "torpedo",
+    "equip_info": [
+      [
+        3,
+        1801
+      ],
+      [
+        4,
+        1403
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "35200",
+    "id": 820854,
+    "label": [
+      "IJN",
+      "ST",
+      "TP",
+      "QUAD"
+    ],
+    "name": "【2021岛风活动剧情用】四联装610mm鱼雷",
+    "nationality": 3,
+    "part_main": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "part_sub": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 5,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820854
+    ]
+  },
+  "820855": {
+    "ammo": 4,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        3,
+        1803
+      ]
+    ],
+    "attribute_2": "torpedo",
+    "equip_info": [
+      [
+        3,
+        1803
+      ],
+      [
+        4,
+        1403
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "45100",
+    "id": 820855,
+    "label": [
+      "KMS",
+      "ST",
+      "TP",
+      "QUAD"
+    ],
+    "name": "【2021岛风活动剧情用】四联装533mm磁性鱼雷",
+    "nationality": 4,
+    "part_main": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "part_sub": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 5,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820855
+    ]
+  },
+  "820856": {
+    "ammo": 2,
+    "ammo_icon": [
+      3
+    ],
+    "ammo_info": [
+      [
+        2,
+        1502
+      ]
+    ],
+    "attribute_2": "cannon",
+    "equip_info": [
+      1,
+      2,
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "34100",
+    "id": 820856,
+    "label": [
+      "IJN",
+      "BB",
+      "MG",
+      "HE"
+    ],
+    "name": "【2021岛风活动剧情用】410mm连装炮（奥丁用高装填）",
+    "nationality": 3,
+    "part_main": [
+      4,
+      5,
+      10,
+      13
+    ],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 4,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 4,
+    "value_2": 25,
+    "value_3": 0,
+    "weapon_id": [
+      820856
+    ]
+  },
+  "820857": {
+    "ammo": 4,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        3,
+        1803
+      ]
+    ],
+    "attribute_2": "torpedo",
+    "equip_info": [
+      [
+        3,
+        1803
+      ],
+      [
+        4,
+        1403
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "45100",
+    "id": 820857,
+    "label": [
+      "KMS",
+      "ST",
+      "TP",
+      "QUAD"
+    ],
+    "name": "【2021岛风活动剧情用】四联装533mm磁性鱼雷（奥丁用高装填）",
+    "nationality": 4,
+    "part_main": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "part_sub": [
+      1,
+      2,
+      3,
+      18,
+      20,
+      21
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 5,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820857
+    ]
+  },
+  "820858": {
+    "ammo": 5,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        6,
+        50050
+      ],
+      [
+        6,
+        50550
+      ],
+      [
+        5,
+        52150
+      ]
+    ],
+    "attribute_2": "air",
+    "equip_info": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "37200",
+    "id": 820858,
+    "label": [
+      "IJN",
+      "CV",
+      "FT"
+    ],
+    "name": "【2021岛风活动剧情用】零战五二型",
+    "nationality": 3,
+    "part_main": [
+      6,
+      7
+    ],
+    "part_sub": [
+      6,
+      7
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 7,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820858
+    ]
+  },
+  "820859": {
+    "ammo": 5,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        6,
+        50050
+      ],
+      [
+        5,
+        52650
+      ],
+      [
+        5,
+        52150
+      ]
+    ],
+    "attribute_2": "air",
+    "equip_info": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "39100",
+    "id": 820859,
+    "label": [
+      "IJN",
+      "CV",
+      "DB"
+    ],
+    "name": "【2021岛风活动剧情用】彗星",
+    "nationality": 3,
+    "part_main": [
+      6,
+      7
+    ],
+    "part_sub": [
+      6,
+      7
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 9,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820859
+    ]
+  },
+  "820860": {
+    "ammo": 5,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        6,
+        50550
+      ],
+      [
+        6,
+        50850
+      ],
+      [
+        4,
+        51470
+      ]
+    ],
+    "attribute_2": "air",
+    "equip_info": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "38200",
+    "id": 820860,
+    "label": [
+      "IJN",
+      "CV",
+      "TB"
+    ],
+    "name": "【2021岛风活动剧情用】流星",
+    "nationality": 3,
+    "part_main": [
+      6,
+      7
+    ],
+    "part_sub": [
+      6,
+      7
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 8,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      820860
     ]
   },
   "960001": {

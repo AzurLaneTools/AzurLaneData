@@ -9551,7 +9551,7 @@
       "main_1": 3.05,
       "main_2": 1.47,
       "mission": 1.6,
-      "touch_special": 0.54
+      "touch2": 0.54
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -9659,30 +9659,11 @@
     "id": 101442,
     "illustrator": -1,
     "illustrator2": -1,
-    "l2d_animations": [
-      "idle",
-      "main_1",
-      "main_2",
-      "main_3",
-      "mission",
-      "mission_complete",
-      "complete",
-      "login",
-      "home",
-      "mail",
-      "touch_body",
-      "touch_head"
-    ],
+    "l2d_animations": "",
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "login": 1.32,
-      "main_1": 3.05,
-      "main_2": 1.47,
-      "mission": 1.6,
-      "touch_special": 0.54
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
@@ -21641,7 +21622,7 @@
       "login": 6.67,
       "main_1": 0.2,
       "propose": 0.4,
-      "touch_body": 0.66
+      "touch": 0.66
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -40099,18 +40080,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expedition": 1.96,
-      "home": 1.43,
-      "login": 1.43,
-      "mail": 1.96,
-      "main_1": 1.27,
-      "main_2": 1.27,
-      "main_3": 1.5,
-      "mission": 1.96,
-      "mission_complete": 1.96,
-      "propose": 3.77,
-      "touch1": 1.6,
-      "touch2": 1.47
+      "login": 3.4
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -44415,7 +44385,7 @@
       "main_3": 1.5,
       "mission": 1.96,
       "mission_complete": 1.96,
-      "propose": 3.77,
+      "propose": 1.27,
       "touch1": 1.6,
       "touch2": 1.47
     },
@@ -45860,7 +45830,7 @@
     },
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 1.67,
+      "expedition": 1.67,
       "home": 3.68,
       "login": 12.58,
       "mail": 1.78,
@@ -49193,6 +49163,123 @@
     "voice_actor": 77,
     "voice_actor_2": -1
   },
+  "202244": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.139,
+          1.105,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.06,
+          1.08,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.09,
+          1.11,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "哦呀？歡迎呀，指揮官。想要喝點什麼嗎？…或者，只是想找個椅子坐坐休息下？嗯…怎麼樣都好吧…",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 4,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 202244,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "迷糊的侍者？",
+    "no_showing": "0",
+    "painting": "heitaizi_5",
+    "prefab": "heitaizi_5",
+    "rarity_bg": "",
+    "ship_group": 20224,
+    "ship_l2d_id": "",
+    "shop_id": 70597,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.672,
+              2.419,
+              -0.568
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 77,
+    "voice_actor_2": -1
+  },
   "202250": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -49875,7 +49962,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.26,
+      "expedition": 0.26,
       "login": 2.13,
       "mail": 0.76,
       "main_1": 1.13,
@@ -49883,9 +49970,9 @@
       "main_3": 0.5,
       "mission": 0.5,
       "mission_complete": 1.1,
-      "touch_body": 1.86,
-      "touch_special": 0.3,
-      "wedding": 0.9
+      "propose": 0.9,
+      "touch": 1.86,
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -58103,8 +58190,8 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "mission_complete": 0.7,
-      "touch_head": 3
+      "headtouch": 3,
+      "mission_complete": 0.7
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -58226,32 +58313,16 @@
     "id": 206036,
     "illustrator": 1,
     "illustrator2": -1,
-    "l2d_animations": [
-      "idle",
-      "main_1",
-      "main_2",
-      "main_3",
-      "mission",
-      "mission_complete",
-      "complete",
-      "login",
-      "home",
-      "mail",
-      "touch_body",
-      "touch_head"
-    ],
+    "l2d_animations": "",
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "mission_complete": 0.7,
-      "touch_head": 3
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      50,
-      15,
+      0,
+      0,
       0
     ],
     "main_UI_FX": "",
@@ -61745,7 +61816,7 @@
       "login": 2.87,
       "main_1": 0.5,
       "mission": 0.33,
-      "touch_special": 2.33
+      "touch2": 2.33
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -63696,7 +63767,7 @@
     },
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "touch_special": 1
+      "touch2": 1
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -69165,10 +69236,10 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.3,
+      "expedition": 0.3,
       "mail": 0.3,
       "mission_complete": 0.26,
-      "touch_special": 0.33
+      "touch2": 0.33
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -72495,7 +72566,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "{namecode:18}号驱逐舰",
+    "desc": "{namecode:18}號驅逐艦",
     "fx_container": [
       [
         0,
@@ -72537,8 +72608,8 @@
       0
     ],
     "main_UI_FX": "",
-    "name": "{namecode:18}",
-    "no_showing": "1",
+    "name": "島風",
+    "no_showing": "0",
     "painting": "daofeng",
     "prefab": "daofeng",
     "rarity_bg": "",
@@ -72585,6 +72656,144 @@
       ]
     ],
     "tag": [],
+    "time": "",
+    "voice_actor": 284,
+    "voice_actor_2": -1
+  },
+  "301291": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.188,
+          0.97,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.188,
+          0.97,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.014,
+          0.024,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.188,
+          0.97,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:18}來啦——！一起碰一杯吧！哎呀，這身精緻的衣服穿起來有些麻煩呢~不愧是指揮官，眼光真棒！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 301291,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
+    "l2d_ignore_drag": 1,
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        30
+      ]
+    },
+    "l2d_se": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      -20,
+      -90,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "最速兔兔的邀請函(?)",
+    "no_showing": "0",
+    "painting": "daofeng_4",
+    "prefab": "daofeng_4",
+    "rarity_bg": "",
+    "ship_group": 30129,
+    "ship_l2d_id": "",
+    "shop_id": 70589,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.43,
+              2.46,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      1,
+      2
+    ],
     "time": "",
     "voice_actor": 284,
     "voice_actor_2": -1
@@ -74988,6 +75197,494 @@
     "voice_actor": 119,
     "voice_actor_2": -1
   },
+  "301470": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.464,
+          0.992,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          0.838,
+          0.857,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          -0.004,
+          0.021,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:15}級驅逐艦七番艦—{namecode:150}",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301470,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "海風",
+    "no_showing": "0",
+    "painting": "haifeng",
+    "prefab": "haifeng",
+    "rarity_bg": "",
+    "ship_group": 30147,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        70,
+        [
+          [
+            "smoke",
+            [
+              0.438,
+              0.495,
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        30,
+        [
+          [
+            "smoke",
+            [
+              -0.327,
+              0.978,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 285,
+    "voice_actor_2": -1
+  },
+  "301471": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.146,
+          0.906,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.156,
+          0.954,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.005,
+          0.002,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "怎麼了，指揮官大人？這身裝扮…？嗯，據說穿成這樣能治癒指揮官大人的心靈~那個…覺得怎麼樣？有沒有感覺被“治癒”了？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301471,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "軟綿綿治癒系",
+    "no_showing": "0",
+    "painting": "haifeng_2",
+    "prefab": "haifeng_2",
+    "rarity_bg": "",
+    "ship_group": 30147,
+    "ship_l2d_id": "",
+    "shop_id": 70595,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        70,
+        [
+          [
+            "smoke",
+            [
+              0.438,
+              0.495,
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        30,
+        [
+          [
+            "smoke",
+            [
+              -0.327,
+              0.978,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 285,
+    "voice_actor_2": -1
+  },
+  "301480": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.195,
+          1.021,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.243,
+          1.002,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.015,
+          0.011,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:15}級驅逐艦八番艦—{namecode:207}",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301480,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "山風",
+    "no_showing": "0",
+    "painting": "shanfeng",
+    "prefab": "shanfeng",
+    "rarity_bg": "",
+    "ship_group": 30148,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        70,
+        [
+          [
+            "smoke",
+            [
+              0.438,
+              0.495,
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        30,
+        [
+          [
+            "smoke",
+            [
+              -0.327,
+              0.978,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 285,
+    "voice_actor_2": -1
+  },
+  "301481": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.22,
+          1.012,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.166,
+          0.992,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.015,
+          0.011,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "鏘鏘——！指揮官，快找個座位坐好！ {namecode:207}的魔術表演，馬上就要開始了！…首先要拿出氣勢才行！哦哦——！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301481,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "魔術時間到！",
+    "no_showing": "0",
+    "painting": "shanfeng_2",
+    "prefab": "shanfeng_2",
+    "rarity_bg": "",
+    "ship_group": 30148,
+    "ship_l2d_id": "",
+    "shop_id": 70596,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        70,
+        [
+          [
+            "smoke",
+            [
+              0.438,
+              0.495,
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        30,
+        [
+          [
+            "smoke",
+            [
+              -0.327,
+              0.978,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 285,
+    "voice_actor_2": -1
+  },
   "301490": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -77331,8 +78028,8 @@
     "main_UI_FX": "",
     "name": "海邊的迷路少女",
     "no_showing": "0",
-    "painting": "Gufeng_2",
-    "prefab": "Gufeng_2",
+    "painting": "gufeng_2",
+    "prefab": "gufeng_2",
     "rarity_bg": "",
     "ship_group": 30162,
     "ship_l2d_id": "",
@@ -81506,6 +82203,121 @@
     "voice_actor": 82,
     "voice_actor_2": -1
   },
+  "302053": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.004,
+          1.232,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.018,
+          1.165,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.003,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.004,
+          1.218,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "嗚啊？！又摔倒了嗚嗚…不過，總算涼快些了……欸？在拍攝中嗎？不、不要拍這邊啦…",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 3,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 302053,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "過熱事故？",
+    "no_showing": "0",
+    "painting": "wushiling_5",
+    "prefab": "wushiling_5",
+    "rarity_bg": "",
+    "ship_group": 30205,
+    "ship_l2d_id": "",
+    "shop_id": 70598,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.51,
+              2.32,
+              -0.16
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 82,
+    "voice_actor_2": -1
+  },
   "302054": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -81749,6 +82561,238 @@
     "tag": [],
     "time": "",
     "voice_actor": 82,
+    "voice_actor_2": -1
+  },
+  "302070": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.441,
+          1,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.328,
+          1,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0.004,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.261,
+          1.019,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:46}級輕巡洋艦四番艦—{namecode:206}",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 302070,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "由良",
+    "no_showing": "0",
+    "painting": "youliang",
+    "prefab": "youliang",
+    "rarity_bg": "",
+    "ship_group": 30207,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.25,
+              2.31,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 287,
+    "voice_actor_2": -1
+  },
+  "302071": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.48,
+          1,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.48,
+          0.981,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.009,
+          0.004,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.47,
+          1.009,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "嗚……這身裝扮好大膽，而且好讓人害羞……那個，指揮官，我現在的樣子是不是有些奇怪…？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 302071,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "二重吸引?",
+    "no_showing": "0",
+    "painting": "youliang_2",
+    "prefab": "youliang_2",
+    "rarity_bg": "",
+    "ship_group": 30207,
+    "ship_l2d_id": "",
+    "shop_id": 70594,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.25,
+              2.31,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 287,
     "voice_actor_2": -1
   },
   "302080": {
@@ -84295,7 +85339,7 @@
     "l2d_voice_calibrate": {
       "home": 8,
       "login": 8,
-      "touch_special": 2.5
+      "touch2": 2.5
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -84414,16 +85458,12 @@
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "home": 8,
-      "login": 8,
-      "touch_special": 2.5
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      20,
-      50,
+      0,
+      0,
       0
     ],
     "main_UI_FX": "",
@@ -85551,6 +86591,134 @@
     "tag": [],
     "time": "",
     "voice_actor": 48,
+    "voice_actor_2": -1
+  },
+  "303060": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.862,
+          1.076,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.881,
+          1.057,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.024,
+          0.004,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.881,
+          1.057,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:61}級重巡洋艦二番艦—{namecode:62}",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 303060,
+    "illustrator": 20,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "築摩",
+    "no_showing": "0",
+    "painting": "zhumo",
+    "prefab": "zhumo",
+    "rarity_bg": "",
+    "ship_group": 30306,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        70,
+        [
+          [
+            "smoke",
+            [
+              -0.73,
+              0.9,
+              -0.37
+            ]
+          ]
+        ]
+      ],
+      [
+        30,
+        [
+          [
+            "smoke",
+            [
+              0.12,
+              2.41,
+              -0.49
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 288,
     "voice_actor_2": -1
   },
   "303070": {
@@ -87098,7 +88266,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.5,
+      "expedition": 0.5,
       "home": 0.5,
       "login": 0.5,
       "mail": 0.5,
@@ -87106,10 +88274,9 @@
       "main_3": 0.67,
       "mission": 0.5,
       "mission_complte": 0.5,
-      "propose": 2.5,
-      "touch_body": 0.3,
-      "touch_special": 1.37,
-      "wedding": 0.57
+      "propose": 0.57,
+      "touch": 0.3,
+      "touch2": 1.37
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -99618,6 +100785,128 @@
     "voice_actor": 145,
     "voice_actor_2": -1
   },
+  "307074": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "147",
+    "bg_sp": "1101",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.06,
+          1.63,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.14,
+          1.43,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "呵呵，沒有什麼比放學後和指揮官大人在一起更幸福的事情了，小貓咪也是這麼覺得的呢，是吧？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 4,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 307074,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      30,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "放學後的甜蜜時光",
+    "no_showing": "0",
+    "painting": "dafeng_3",
+    "prefab": "dafeng_3",
+    "rarity_bg": "",
+    "ship_group": 30707,
+    "ship_l2d_id": [
+      3070741,
+      3070742
+    ],
+    "shop_id": 70715,
+    "shop_type_id": 4,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.84,
+              2.04,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      1,
+      2
+    ],
+    "time": "",
+    "voice_actor": 145,
+    "voice_actor_2": -1
+  },
   "307078": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -100243,6 +101532,210 @@
     "tag": [],
     "time": "",
     "voice_actor": 145,
+    "voice_actor_2": -1
+  },
+  "307120": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.481,
+          1.049,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.48,
+          1.081,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "{namecode:209}級航空母艦三番艦—{namecode:208}",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 307120,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "葛城",
+    "no_showing": "0",
+    "painting": "gecheng",
+    "prefab": "gecheng",
+    "rarity_bg": "",
+    "ship_group": 30712,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.64,
+              2.45,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 286,
+    "voice_actor_2": -1
+  },
+  "307121": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "145",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.481,
+          1.049,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.48,
+          1.081,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "祭·典·來·啦！嗯——這個時期的話叫做夏日祭有點點微妙呢，應該叫節日慶典更合適？哎怎麼都好啦，指揮官今天只要盡情享受就行！因為我也很開心哦！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 307121,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "黎明輝祭",
+    "no_showing": "0",
+    "painting": "gecheng_2",
+    "prefab": "gecheng_2",
+    "rarity_bg": "",
+    "ship_group": 30712,
+    "ship_l2d_id": "",
+    "shop_id": 70591,
+    "shop_type_id": 16,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.64,
+              2.45,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 286,
     "voice_actor_2": -1
   },
   "308010": {
@@ -121767,7 +123260,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 0.5,
+      "expedition": 0.5,
       "home": 5.26,
       "login": 11.27,
       "mail": 0.5,
@@ -134008,7 +135501,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 0,
+      "expedition": 0,
       "home": 4,
       "login": 4,
       "mail": 1.42,
@@ -160174,7 +161667,7 @@
     "l2d_se": "",
     "l2d_voice_calibrate": {
       "login": 4.1,
-      "touch_special": 0.3
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -160324,7 +161817,7 @@
       "mail": 0.3,
       "main_1": 0.3,
       "mission_complete": 0.3,
-      "touch_special": 0.3
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
