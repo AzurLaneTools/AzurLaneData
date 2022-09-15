@@ -4312,6 +4312,12 @@
   "guild_damage_ranking": {
     "tip": "랭킹"
   },
+  "guild_deputy_commander_cnt": {
+    "tip": "<color=#C3C3C3>위임 완료:<color=#92fc63>$1/$2</color></color>"
+  },
+  "guild_deputy_commander_cnt_is_full": {
+    "tip": "<color=#C3C3C3>최대 인원 수</color>"
+  },
   "guild_dissolve_erro": {
     "tip": "해산에 실패했습니다."
   },
@@ -4356,6 +4362,9 @@
   },
   "guild_duty_is_too_low": {
     "tip": "견습 멤버는 보상을 수령할 수 없습니다."
+  },
+  "guild_duty_shoule_be_deputy_commander": {
+    "tip": "함대 사령관은 부사령관 중에 한하여 임명할 수 있습니다."
   },
   "guild_duty_tip_1": {
     "tip": "<color=#7FAFFF>현재 직급</color>"
@@ -4663,7 +4672,7 @@
         "info": "2. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>의 역할을 자유롭게 변경할 수 있습니다."
       },
       {
-        "info": "3. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>를 대함대에서 제명할 수 있습니다."
+        "info": "3. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>를 대함대에서 제명할 수 있습니다. 함대 사령관은 <color=#92fc63>부사령관</color> 중에 한하여 새로운 함대 사령관을 임명할 수 있습니다. 대함대를 위임할 수 있는 부사령관 수는 최대 <color=#92fc63>4</color>명입니다."
       },
       {
         "info": "4. 대함대 사령관이 <color=#92fc63>10</color>일 동안 게임에 접속하지 않은 경우, 부사령관이 대함대 사령관을 <color=#92fc63>탄핵</color>할 수 있습니다."
@@ -8618,6 +8627,9 @@
   "mail_count": {
     "tip": "첨부 아이템 $1건"
   },
+  "mail_filter_placeholder": {
+    "tip": "우편 없음"
+  },
   "mail_getMailList_error_noNewMail": {
     "tip": "새로운 우편이 없습니다."
   },
@@ -10023,6 +10035,9 @@
   },
   "read_the_user_agreement": {
     "tip": "먼저 사용자 규약을 읽어주세요."
+  },
+  "recently_sticker_placeholder": {
+    "tip": "이모티콘 없음"
   },
   "reconnect_tip": {
     "tip": "통신 에러가 발생했습니다. 다시 접속하시겠습니까?\n[$1]"
