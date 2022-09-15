@@ -39,11 +39,11 @@
     "benefit_condition": [
       "lv",
       "<",
-      60
+      80
     ],
     "benefit_effect": "100",
     "benefit_type": "rookie_battle_exp",
-    "desc": "指揮官Lvが60以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
+    "desc": "指揮官Lvが80以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
     "hide": 0,
     "icon": "Props/xinshou",
     "id": 4,
@@ -150,9 +150,9 @@
   "13": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        13,
+        19,
         1
       ]
     ],
@@ -169,9 +169,9 @@
   "14": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        13,
+        19,
         2
       ]
     ],
@@ -188,9 +188,9 @@
   "15": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        13,
+        19,
         3
       ]
     ],
@@ -207,9 +207,9 @@
   "16": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        14,
+        20,
         1
       ]
     ],
@@ -226,9 +226,9 @@
   "17": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        14,
+        20,
         2
       ]
     ],
@@ -245,9 +245,9 @@
   "18": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        14,
+        20,
         3
       ]
     ],
@@ -264,9 +264,9 @@
   "19": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        15,
+        21,
         1
       ]
     ],
@@ -283,9 +283,9 @@
   "20": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        15,
+        21,
         2
       ]
     ],
@@ -302,9 +302,9 @@
   "21": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        15,
+        21,
         3
       ]
     ],
@@ -321,9 +321,9 @@
   "22": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        16,
+        22,
         1
       ]
     ],
@@ -340,9 +340,9 @@
   "23": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        16,
+        22,
         2
       ]
     ],
@@ -359,9 +359,9 @@
   "24": {
     "benefit_condition": [
       "activity",
-      4113,
+      4532,
       [
-        16,
+        22,
         3
       ]
     ],
@@ -1019,6 +1019,34 @@
     "name": "埃塞克斯的祈愿",
     "type_priority": 0
   },
+  "101": {
+    "benefit_condition": [
+      "lv",
+      "<",
+      100
+    ],
+    "benefit_effect": "100",
+    "benefit_type": "rookie_battle_exp",
+    "desc": "指揮官レベルが100以下の場合、メイン海域・イベント海域・デイリーチャレンジで得られる指揮官・艦船経験値が100%UP",
+    "hide": 0,
+    "icon": "Props/newserver_xinshou",
+    "id": 101,
+    "max_time": 0,
+    "name": "新人指揮官出撃経験UP",
+    "type_priority": 1
+  },
+  "102": {
+    "benefit_condition": "",
+    "benefit_effect": "50",
+    "benefit_type": "dorm_exp",
+    "desc": "寮舎で入手できる経験値が50％UP",
+    "hide": 0,
+    "icon": "Props/newserver_backyard",
+    "id": 102,
+    "max_time": 0,
+    "name": "新人指揮官寮舎経験UP",
+    "type_priority": 0
+  },
   "103": {
     "benefit_condition": "",
     "benefit_effect": "10",
@@ -1029,6 +1057,18 @@
     "id": 103,
     "max_time": 0,
     "name": "新人指揮官スキル強化速度UP",
+    "type_priority": 0
+  },
+  "104": {
+    "benefit_condition": "",
+    "benefit_effect": "100",
+    "benefit_type": "character_strengthen_exp",
+    "desc": "ドックで艦船を強化する場合、得られる強化経験値が50%UP",
+    "hide": 0,
+    "icon": "Props/newserver_upgrade",
+    "id": 104,
+    "max_time": 0,
+    "name": "新人指揮官艦船強化UP",
     "type_priority": 0
   },
   "all": [
@@ -1097,6 +1137,9 @@
     63,
     64,
     65,
-    103
+    101,
+    102,
+    103,
+    104
   ]
 }
