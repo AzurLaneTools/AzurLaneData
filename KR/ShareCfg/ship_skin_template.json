@@ -9806,7 +9806,7 @@
       "main_1": 3.05,
       "main_2": 1.47,
       "mission": 1.6,
-      "touch_special": 0.54
+      "touch2": 0.54
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -9930,13 +9930,7 @@
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "login": 1.32,
-      "main_1": 3.05,
-      "main_2": 1.47,
-      "mission": 1.6,
-      "touch_special": 0.54
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
@@ -12385,6 +12379,120 @@
               0.3,
               0.87,
               -0.4
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 62,
+    "voice_actor_2": -1
+  },
+  "102079": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.009,
+          1.232,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.077,
+          0.888,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          0.948,
+          1.069,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "개조 항목 엄청 많다… 그, 그래도 어쨌든 쥬노는 개조를 완료해냈다고요! 아직 아픈게 무섭긴 하지만… 지휘관 씨를 위해서, 용기 낼 수 있어요!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 9,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 102079,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "쥬노·改",
+    "painting": "zhunuo_g",
+    "prefab": "zhunuo_g",
+    "rarity_bg": "",
+    "ship_group": 10207,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": 2,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
             ]
           ]
         ]
@@ -23477,7 +23585,7 @@
       "login": 6.67,
       "main_1": 0.2,
       "propose": 0.4,
-      "touch_body": 0.66
+      "touch": 0.66
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -42986,18 +43094,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expedition": 1.96,
-      "home": 1.43,
-      "login": 1.43,
-      "mail": 1.96,
-      "main_1": 1.27,
-      "main_2": 1.27,
-      "main_3": 1.5,
-      "mission": 1.96,
-      "mission_complete": 1.96,
-      "propose": 3.77,
-      "touch1": 1.6,
-      "touch2": 1.47
+      "login": 3.4
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -47958,7 +48055,7 @@
       "main_3": 1.5,
       "mission": 1.96,
       "mission_complete": 1.96,
-      "propose": 3.77,
+      "propose": 1.27,
       "touch1": 1.6,
       "touch2": 1.47
     },
@@ -49391,7 +49488,7 @@
     },
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 1.67,
+      "expedition": 1.67,
       "home": 3.68,
       "login": 12.58,
       "mail": 1.78,
@@ -53488,7 +53585,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.26,
+      "expedition": 0.26,
       "login": 2.13,
       "mail": 0.76,
       "main_1": 1.13,
@@ -53496,9 +53593,9 @@
       "main_3": 0.5,
       "mission": 0.5,
       "mission_complete": 1.1,
-      "touch_body": 1.86,
-      "touch_special": 0.3,
-      "wedding": 0.9
+      "propose": 0.9,
+      "touch": 1.86,
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -55191,6 +55288,120 @@
               0.293,
               2.52,
               -0.98
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 66,
+    "voice_actor_2": -1
+  },
+  "203029": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.146,
+          1.353,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "런던급 막내 슈롭셔, 다시 착임했습니다. 잘 부탁드립니다~ 흐흠, 지금은 아주 야무지고 유능해 보이지 않나요? 이제 어느 정도는 지휘관의 골칫거리를 줄여 줄 수 있겠죠~",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 9,
+    "gyro": 0,
+    "hand_id": 1,
+    "id": 203029,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "슈롭셔·改",
+    "painting": "shiluopujun_g",
+    "prefab": "shiluopujun_g",
+    "rarity_bg": "",
+    "ship_group": 20302,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": 2,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
             ]
           ]
         ]
@@ -63315,8 +63526,8 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "mission_complete": 0.7,
-      "touch_head": 3
+      "headtouch": 3,
+      "mission_complete": 0.7
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -63437,32 +63648,16 @@
     "id": 206036,
     "illustrator": 1,
     "illustrator2": -1,
-    "l2d_animations": [
-      "idle",
-      "main_1",
-      "main_2",
-      "main_3",
-      "mission",
-      "mission_complete",
-      "complete",
-      "login",
-      "home",
-      "mail",
-      "touch_body",
-      "touch_head"
-    ],
+    "l2d_animations": "",
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "mission_complete": 0.7,
-      "touch_head": 3
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      50,
-      15,
+      0,
+      0,
       0
     ],
     "main_UI_FX": "",
@@ -67249,7 +67444,7 @@
       "login": 2.87,
       "main_1": 0.5,
       "mission": 0.33,
-      "touch_special": 2.33
+      "touch2": 2.33
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -69515,7 +69710,7 @@
     },
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "touch_special": 1
+      "touch2": 1
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -70899,6 +71094,236 @@
     ],
     "time": "",
     "voice_actor": 278,
+    "voice_actor_2": -1
+  },
+  "301040": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.491,
+          1.043,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.628,
+          1.241,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.482,
+          1.155,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "특I형 후부키급 구축함 4번함 - 미유키",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 301040,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "미유키",
+    "painting": "shenxue",
+    "prefab": "shenxue",
+    "rarity_bg": "",
+    "ship_group": 30104,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 342,
+    "voice_actor_2": -1
+  },
+  "301041": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "1101",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.353,
+          0.897,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.629,
+          1.327,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.482,
+          1.189,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "지휘관, 이쪽 건 더 싸지 않을까…? 음… 예산이 좀 남아서 여러가지 더 살 수 있을 거야. 게, 게다가 미유키도 지휘관이랑 좀 더 쇼핑을 즐기고 싶… 아무것도 아니야…///",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 301041,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "쇼핑 데이트 타임",
+    "painting": "shenxue_2",
+    "prefab": "shenxue_2",
+    "rarity_bg": "",
+    "ship_group": 30104,
+    "ship_l2d_id": "",
+    "shop_id": 70743,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.391,
+              2.297,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 342,
     "voice_actor_2": -1
   },
   "301050": {
@@ -75532,10 +75957,10 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.3,
+      "expedition": 0.3,
       "mail": 0.3,
       "mission_complete": 0.26,
-      "touch_special": 0.33
+      "touch2": 0.33
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -84311,6 +84736,122 @@
     "voice_actor": 112,
     "voice_actor_2": -1
   },
+  "301612": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.129,
+          1.292,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          0.948,
+          0.862,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          0.742,
+          0.897,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "매장을 오픈한 이상, 어떻게 하면 맛있는 음식을 만들 수 있을지 제대로 연구해 봐야겠지…… 좋아! 지휘관, 이제부터 엄청 많이 시식해야 하니까 마음의 준비 단단히 하라고!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 2,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301612,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "맛은 관건은 사랑？！",
+    "painting": "bangfeng_4",
+    "prefab": "bangfeng_4",
+    "rarity_bg": "",
+    "ship_group": 30161,
+    "ship_l2d_id": "",
+    "shop_id": 70747,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.409,
+              2.254,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 112,
+    "voice_actor_2": -1
+  },
   "301619": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -84622,8 +85163,8 @@
     ],
     "main_UI_FX": "",
     "name": "길잃은 소녀와 미로의 나비",
-    "painting": "Gufeng_2",
-    "prefab": "Gufeng_2",
+    "painting": "gufeng_2",
+    "prefab": "gufeng_2",
     "rarity_bg": "",
     "ship_group": 30162,
     "ship_l2d_id": "",
@@ -84649,6 +85190,122 @@
     "special_effects": "",
     "spine_offset": "",
     "tag": [],
+    "time": "",
+    "voice_actor": 112,
+    "voice_actor_2": -1
+  },
+  "301622": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.086,
+          1.276,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          0.931,
+          0.862,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "지휘관 씨, 전 지금 청소 중이에요. 그쪽 바닥은 미끄러우니까 쉽게 넘어질 수… 꺄!… 아야야, 넘어진 건 저 자신이네요…… 쉽게 넘어질 수 있는 건 사실 이쪽 바닥인 것 같네요, 아하하……",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 2,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301622,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "블링블링 대청소",
+    "painting": "gufeng_4",
+    "prefab": "gufeng_4",
+    "rarity_bg": "",
+    "ship_group": 30162,
+    "ship_l2d_id": "",
+    "shop_id": 70746,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.391,
+              2.279,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
     "time": "",
     "voice_actor": 112,
     "voice_actor_2": -1
@@ -88966,6 +89623,236 @@
     "voice_actor": 279,
     "voice_actor_2": -1
   },
+  "301880": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.095,
+          1.207,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.009,
+          0.914,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "아키즈키급 구축함 6번함 - 와카츠키",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301880,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "와카츠키",
+    "painting": "ruoyue",
+    "prefab": "ruoyue",
+    "rarity_bg": "",
+    "ship_group": 30188,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 339,
+    "voice_actor_2": -1
+  },
+  "301881": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.301,
+          1.336,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.207,
+          0.905,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "으와앗, 각하 비켜주세요——! 각하의 옷을 더럽히지 않아서 다행입니다…… 저, 정말 죄송합니다! 바닥은 제가 깨끗이 치우겠습니다!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 301881,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "좌충우돌 파랑새",
+    "painting": "ruoyue_2",
+    "prefab": "ruoyue_2",
+    "rarity_bg": "",
+    "ship_group": 30188,
+    "ship_l2d_id": "",
+    "shop_id": 70740,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 339,
+    "voice_actor_2": -1
+  },
   "302010": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -93136,7 +94023,7 @@
     "l2d_voice_calibrate": {
       "home": 8,
       "login": 8,
-      "touch_special": 2.5
+      "touch2": 2.5
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -93267,16 +94154,12 @@
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": {
-      "home": 8,
-      "login": 8,
-      "touch_special": 2.5
-    },
+    "l2d_voice_calibrate": "",
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      20,
-      50,
+      0,
+      0,
       0
     ],
     "main_UI_FX": "",
@@ -93774,6 +94657,277 @@
     "tag": [],
     "time": "",
     "voice_actor": 147,
+    "voice_actor_2": -1
+  },
+  "302230": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.396,
+          1.353,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.198,
+          0.923,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.172,
+          0.879,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "아가노급 경순양함 4번함 - 사카와",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 302230,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "사카와",
+    "painting": "jiuyun",
+    "prefab": "jiuyun",
+    "rarity_bg": "",
+    "ship_group": 30223,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.503,
+              2.288,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 340,
+    "voice_actor_2": -1
+  },
+  "302231": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.293,
+          1.422,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.224,
+          0.905,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.181,
+          0.897,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "어서 오세요! 에헤헷, 제가 보고 싶어서 온 거 맞죠? 그럼 저도 정성껏 대접해 드려야겠네요♪",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 302231,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ]
+    },
+    "l2d_se": {
+      "home": [
+        "bell",
+        0.3
+      ]
+    },
+    "l2d_voice_calibrate": {
+      "expedition": 0.63,
+      "headtouch": 0.66,
+      "home": 0.6,
+      "mail": 0.5,
+      "main_1": 0.5,
+      "main_2": 0.66,
+      "main_3": 0.5,
+      "mission": 0.66,
+      "mission_complete": 0.5,
+      "propose": 0.83,
+      "touch": 0.6,
+      "touch2": 0.63
+    },
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      80,
+      90,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "경단의 유혹",
+    "painting": "jiuyun_2",
+    "prefab": "jiuyun_2",
+    "rarity_bg": "",
+    "ship_group": 30223,
+    "ship_l2d_id": "",
+    "shop_id": 70741,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.521,
+              2.305,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      1,
+      2
+    ],
+    "time": "",
+    "voice_actor": 340,
     "voice_actor_2": -1
   },
   "303010": {
@@ -95239,6 +96393,236 @@
     "voice_actor": 138,
     "voice_actor_2": -1
   },
+  "303100": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.189,
+          1.387,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.267,
+          0.94,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.043,
+          1.129,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "묘코급 중순양함 4번함 - 하구로",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 303100,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "하구로",
+    "painting": "yuhei",
+    "prefab": "yuhei",
+    "rarity_bg": "",
+    "ship_group": 30310,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 341,
+    "voice_actor_2": -1
+  },
+  "303101": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.284,
+          1.499,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.344,
+          0.888,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          0.991,
+          1.129,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "…! 아야얏… 발이 미끄러져 계단에 부딪히다니, 대체 얼마나 동작이 서툴러야…… 아, 지휘관? 어, 환영한단 말임까?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 14,
+    "id": 303101,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "전화위복?",
+    "painting": "yuhei_2",
+    "prefab": "yuhei_2",
+    "rarity_bg": "",
+    "ship_group": 30310,
+    "ship_l2d_id": "",
+    "shop_id": 70742,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 341,
+    "voice_actor_2": -1
+  },
   "303110": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -96172,7 +97556,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "complete": 0.5,
+      "expedition": 0.5,
       "home": 0.5,
       "login": 0.5,
       "mail": 0.5,
@@ -96180,10 +97564,9 @@
       "main_3": 0.67,
       "mission": 0.5,
       "mission_complte": 0.5,
-      "propose": 2.5,
-      "touch_body": 0.3,
-      "touch_special": 1.37,
-      "wedding": 0.57
+      "propose": 0.57,
+      "touch": 0.3,
+      "touch2": 1.37
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -102618,6 +104001,122 @@
     "voice_actor": 19,
     "voice_actor_2": -1
   },
+  "305062": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.293,
+          1.276,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.456,
+          0.888,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.164,
+          1.25,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "으읍?! 헐마 히히간(설마 지휘관)? …꿀꺽. 무츠 지금 땡땡이 치는 거 아니야! 새로 들어온 과자를 체크하고 있던 것뿐이라구! 그것보다 지휘관'도' 몰래 훔쳐 먹으려고 온 거야? 아니면 과자가 궁금한 거야? 왜?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 2,
+    "gyro": 0,
+    "hand_id": 6,
+    "id": 305062,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "실수의 본보기?",
+    "painting": "luao_3",
+    "prefab": "luao_3",
+    "rarity_bg": "",
+    "ship_group": 30506,
+    "ship_l2d_id": "",
+    "shop_id": 70744,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 19,
+    "voice_actor_2": -1
+  },
   "305070": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -102946,6 +104445,234 @@
     ],
     "time": "",
     "voice_actor": 104,
+    "voice_actor_2": -1
+  },
+  "305100": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.97,
+          1.68,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          2.01,
+          1.03,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.85,
+          1.22,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "야마토급 전함 2번함 - 무사시",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 305100,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "무사시",
+    "painting": "wuzang",
+    "prefab": "wuzang",
+    "rarity_bg": "",
+    "ship_group": 30510,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 64,
+    "voice_actor_2": -1
+  },
+  "305101": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.82,
+          1.61,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.9,
+          0.97,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.85,
+          1.09,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "'어서 오세요, 주인님'이라고 음식점 아이들이 입을 모아 그대에게 웅얼거리고 있네. 후후후, 무슨 풍습 같은 건가?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 305101,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "보랏빛 달그림자",
+    "painting": "wuzang_2",
+    "prefab": "wuzang_2",
+    "rarity_bg": "",
+    "ship_group": 30510,
+    "ship_l2d_id": "",
+    "shop_id": 70739,
+    "shop_type_id": 17,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 64,
     "voice_actor_2": -1
   },
   "305110": {
@@ -103395,6 +105122,122 @@
             [
               -0.51,
               2.463,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 47,
+    "voice_actor_2": -1
+  },
+  "305114": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "160",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.258,
+          1.387,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "사쿠라 엠파이어의 테마샵에 온 걸 환영한다…… 어, 지휘관이잖아! 모두들 널 기다리고 있어. 자, 우리 사쿠라 엠파이어 함대의 정성어린 환대를 만끽하라고!——그렇게 긴장하지 않아도 괜찮아, 후후훗.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 4,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 305114,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "대선배는 대접 중",
+    "painting": "sanli_3",
+    "prefab": "sanli_3",
+    "rarity_bg": "",
+    "ship_group": 30511,
+    "ship_l2d_id": "",
+    "shop_id": 70745,
+    "shop_type_id": 17,
+    "show_skin": "stand2",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.443,
+              2.34,
               0
             ]
           ]
@@ -115887,7 +117730,7 @@
     "spine_offset": "",
     "tag": [],
     "time": "",
-    "voice_actor": -1,
+    "voice_actor": 343,
     "voice_actor_2": -1
   },
   "401161": {
@@ -115996,7 +117839,7 @@
       2
     ],
     "time": "",
-    "voice_actor": -1,
+    "voice_actor": 343,
     "voice_actor_2": -1
   },
   "401180": {
@@ -128520,17 +130363,17 @@
       ]
     },
     "l2d_voice_calibrate": {
-      "complete": 0.5,
+      "expedition": 0.5,
       "login": 17.8,
       "mail": 0.5,
       "main_1": 0.5,
       "main_2": 0.5,
       "main_3": 0.5,
       "mission": 0.5,
-      "mission_complet": 0.5,
-      "touch_body": 0.5,
-      "touch_special": 0.5,
-      "wedding": 0.5
+      "mission_complete": 0.5,
+      "propose": 0.5,
+      "touch": 0.5,
+      "touch2": 0.5
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -137340,7 +139183,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 0.5,
+      "expedition": 0.5,
       "home": 5.26,
       "login": 11.27,
       "mail": 0.5,
@@ -154002,7 +155845,7 @@
     "l2d_para_range": "",
     "l2d_se": "",
     "l2d_voice_calibrate": {
-      "expendition": 0,
+      "expedition": 0,
       "home": 4,
       "login": 4,
       "mail": 1.42,
@@ -180612,6 +182455,234 @@
     "voice_actor": 331,
     "voice_actor_2": -1
   },
+  "900330": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.97,
+          1.68,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          2.01,
+          1.03,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.85,
+          1.22,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "武藏",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 900330,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "{namecode:84}",
+    "painting": "wuzang_s",
+    "prefab": "wuzang",
+    "rarity_bg": "",
+    "ship_group": 900330,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.4,
+              2.4,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 64,
+    "voice_actor_2": -1
+  },
+  "900331": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.16,
+          0.66,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.16,
+          0.66,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.12,
+          0.02,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.16,
+          0.66,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "神通·META",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 2,
+    "id": 900331,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "{namecode:39}·META",
+    "painting": "shentong_alter",
+    "prefab": "shentong_alter",
+    "rarity_bg": "",
+    "ship_group": 900331,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.54,
+              2.43,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 77,
+    "voice_actor_2": -1
+  },
   "900350": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -184594,7 +186665,7 @@
     "l2d_se": "",
     "l2d_voice_calibrate": {
       "login": 4.1,
-      "touch_special": 0.3
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
@@ -184743,7 +186814,7 @@
       "mail": 0.3,
       "main_1": 0.3,
       "mission_complete": 0.3,
-      "touch_special": 0.3
+      "touch2": 0.3
     },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
