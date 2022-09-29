@@ -13929,6 +13929,458 @@
     ],
     "use_ship": 1
   },
+  "14401": {
+    "condition_id": [],
+    "descrip": "耐久+60",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 60
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 14401,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "艦體改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 400,
+    "use_item": [
+      [
+        [
+          18031,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14402": {
+    "condition_id": [
+      14401
+    ],
+    "descrip": "裝填+5",
+    "edit_trans": [],
+    "effect": [
+      {
+        "reload": 5
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "rl_1",
+    "id": 14402,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "裝填強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18031,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14403": {
+    "condition_id": [
+      14401
+    ],
+    "descrip": "轟炸機武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_3": 0.05
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "bfup_1",
+    "id": 14403,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "轟炸精通I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18031,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14404": {
+    "condition_id": [
+      14403
+    ],
+    "descrip": "防空+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 15
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "aa_1",
+    "id": 14404,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "防空強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18031,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14405": {
+    "condition_id": [
+      14403
+    ],
+    "descrip": "魚雷機武器效率+3%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.03,
+        "equipment_proficiency_2": 0.03
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "tfup_1",
+    "id": 14405,
+    "level_limit": 35,
+    "max_level": 1,
+    "name": "魚雷俯衝I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1200,
+    "use_item": [
+      [
+        [
+          18032,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14406": {
+    "condition_id": [
+      14405
+    ],
+    "descrip": "航空+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "air": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "air_1",
+    "id": 14406,
+    "level_limit": 40,
+    "max_level": 1,
+    "name": "航空強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14407": {
+    "condition_id": [
+      14405
+    ],
+    "descrip": "耐久+60/耐久+90",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 60
+      },
+      {
+        "durability": 90
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "hp_2",
+    "id": 14407,
+    "level_limit": 50,
+    "max_level": 2,
+    "name": "艦體改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ],
+      [
+        [
+          18032,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14408": {
+    "condition_id": [
+      14407,
+      14402
+    ],
+    "descrip": "命中+5",
+    "edit_trans": [],
+    "effect": [
+      {
+        "hit": 5
+      }
+    ],
+    "gear_score": [
+      25
+    ],
+    "icon": "hit_1",
+    "id": 14408,
+    "level_limit": 55,
+    "max_level": 1,
+    "name": "命中強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14409": {
+    "condition_id": [
+      14407
+    ],
+    "descrip": "轟炸機武器效率+5%/轟炸機武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_3": 0.05
+      },
+      {
+        "equipment_proficiency_3": 0.05
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "bfup_2",
+    "id": 14409,
+    "level_limit": 70,
+    "max_level": 2,
+    "name": "轟炸精通II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18033,
+          1
+        ]
+      ],
+      [
+        [
+          18033,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14410": {
+    "condition_id": [
+      14409
+    ],
+    "descrip": "航空+10/航空+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "air": 10
+      },
+      {
+        "air": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "air_2",
+    "id": 14410,
+    "level_limit": 75,
+    "max_level": 2,
+    "name": "航空強化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18033,
+          1
+        ],
+        [
+          17043,
+          15
+        ]
+      ],
+      [
+        [
+          18033,
+          2
+        ],
+        [
+          17043,
+          35
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "14411": {
+    "condition_id": [
+      14409,
+      14410
+    ],
+    "descrip": "近代化改造完成，防空+35，裝填+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 35,
+        "reload": 10
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_red",
+    "id": 14411,
+    "level_limit": 85,
+    "max_level": 1,
+    "name": "近代化改造",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 207029,
+    "star_limit": 5,
+    "use_gold": 4000,
+    "use_item": [
+      [
+        [
+          18033,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
+  "14412": {
+    "condition_id": [
+      14411
+    ],
+    "descrip": "習得技能【破滅槍彈】",
+    "edit_trans": [],
+    "effect": [
+      {
+        "skill_id": 14710
+      }
+    ],
+    "gear_score": [
+      25
+    ],
+    "icon": "skill_red",
+    "id": 14412,
+    "level_limit": 90,
+    "max_level": 1,
+    "name": "戰術啟發",
+    "ship_id": [],
+    "skill_id": 14710,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18033,
+          2
+        ],
+        [
+          17003,
+          50
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
   "15501": {
     "condition_id": [],
     "descrip": "",
@@ -34829,6 +35281,18 @@
     14009,
     14010,
     14011,
+    14401,
+    14402,
+    14403,
+    14404,
+    14405,
+    14406,
+    14407,
+    14408,
+    14409,
+    14410,
+    14411,
+    14412,
     15501,
     15502,
     15503,
