@@ -605,6 +605,61 @@
     "smooth": 200,
     "start_value": 0
   },
+  "3070824": {
+    "action_trigger": {
+      "action": "touch_drag4",
+      "num": 1,
+      "time": 0.1,
+      "type": 1
+    },
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag4",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070824,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 80,
+    "offset_y": 0,
+    "parameter": "touch_drag4",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "revert": 30,
+    "ship_skin_id": 307082,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070825": {
+    "action_trigger": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag5",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070825,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 100,
+    "parameter": "touch_drag5",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "revert": -1,
+    "ship_skin_id": 307082,
+    "smooth": 200,
+    "start_value": 0
+  },
   "6050311": {
     "action_trigger": {
       "action": "touch_drag",
@@ -659,6 +714,8 @@
     3070821,
     3070822,
     3070823,
+    3070824,
+    3070825,
     6050311
   ]
 }
