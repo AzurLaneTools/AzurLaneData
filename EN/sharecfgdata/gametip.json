@@ -1950,16 +1950,16 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "Baltimore, Alabama added to standard build pool! "
+    "tip": "Surugaadded to standard build pool! "
   },
   "buildship_light_tip": {
-    "tip": "Allen M. Sumner and others added to standard build pool! "
+    "tip": "Noshiro, Kazagumo, Shirayuki and Kasumi added to standard build pool ! "
   },
   "buildship_new_tip": {
     "tip": "Build 200 times to receive a guaranteed copy of Musashi! (Up to 4 copies can be claimed this way)"
   },
   "buildship_special_tip": {
-    "tip": "Formidable added to standard build pool!"
+    "tip": "Ryuuhou added to standard build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -7696,6 +7696,9 @@
   "index_special": {
     "tip": "Special"
   },
+  "index_spweapon": {
+    "tip": "Unique Module"
+  },
   "index_strengthen": {
     "tip": "Enhanceable"
   },
@@ -8525,6 +8528,31 @@
     "tip": [
       {
         "info": "- Overview -\nDuring the event, Li'l Sandy will provisionally join your fleet. Sortie to various stages to accumulate Friendship Points (FP). Collect enough FP to have Li'l Sandy permanently join your fleet!\n\n- How to Play -\n· During the event period, clear Main Campaign stages including and beyond Chapter 3 to obtain FP. You will be able to collect rewards for accumulating a certain number of FP.\n· You will not be able to give a Promise Ring to Li'l Sandy until you have formally recruited her to the fleet. You will also not be able to Retire her, Limit Break her, or Strengthen her.\n· If Li'l Sandy is in a fleet that defeats the Boss of a stage that grants FP, the amount of FP granted will be doubled.\n· If Li'l Sandy has not been formally recruited by the end of the event, she will leave the Port.\n· Rewards for reaching certain amounts of Friendship Points will unlock in phases, every day until 12/22.\n· Li'l Sandy cannot participate in Operation Siren or META Showdowns until she has been formally recruited.\n· Li'l Sandy cannot participate in Guild Bosses until she has been formally recruited."
+      }
+    ]
+  },
+  "littleSpee_npc": {
+    "tip": [
+      {
+        "info": "- Overview -\nDuring the event, Little Spee will provisionally join your fleet. Fight boss fleets to earn Info Pts to exchange for Trust. Collect enough Trust to have Little Spee permanently join your port!"
+      },
+      {
+        "info": "- How to Play -\n· Collect Info Pts during the event period to trade in for Trust. Once you've gathered enough Trust, Little Spee will permanently join your fleet.\n· Info Pts can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty. If Little Spee is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of points.\n· The Info Pts you've collected can be converted into Trust from the event banner. Accumulating certain amounts of Trust will grant you additional rewards."
+      },
+      {
+        "info": "· You will not be able to give a Promise Ring to Little Spee until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+      },
+      {
+        "info": "· If Little Spee has not been formally recruited by the end of the event, she will leave the port."
+      },
+      {
+        "info": "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to October 19th."
+      },
+      {
+        "info": "· Little Spee cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+      },
+      {
+        "info": "· Little Spee cannot participate in Guild Bosses until she has been formally recruited."
       }
     ]
   },
@@ -10109,11 +10137,17 @@
   "player_summary_from": {
     "tip": "Obtained from:"
   },
+  "player_vitae_skin_setting": {
+    "tip": "Skin Settings"
+  },
   "playerinfo_mask_word": {
     "tip": "Contains blocked words."
   },
   "playerinfo_ship_is_already_flagship": {
     "tip": "She's already your Secretary!"
+  },
+  "playervtae_setting_btn_label": {
+    "tip": "Settings"
   },
   "pocky_help": {
     "tip": [
@@ -10332,6 +10366,48 @@
   },
   "quick_equip_tip6": {
     "tip": "Would you like to unequip the <color=#22ff22>$2</color> which is equipped on <color=#22ff22>$1</color>?"
+  },
+  "random_flag_ship": {
+    "tip": "Random Secretary"
+  },
+  "random_flag_ship_changskinBtn_label": {
+    "tip": "Change Skins"
+  },
+  "random_ship_and_skin_title": {
+    "tip": "Random Skin"
+  },
+  "random_ship_before": {
+    "tip": "Return to Random Secretary menu"
+  },
+  "random_ship_forbidden": {
+    "tip": "You can't change your secretary slot because the Random Secretary setting is toggled ON."
+  },
+  "random_ship_frequse_mode": {
+    "tip": "Frequently used ships"
+  },
+  "random_ship_label": {
+    "tip": "Random Secretary"
+  },
+  "random_ship_locked_mode": {
+    "tip": "Locked ships"
+  },
+  "random_ship_now": {
+    "tip": "Secretary Settings"
+  },
+  "random_ship_off": {
+    "tip": "The Random Secretary setting has been toggled OFF. Your secretary slot settings have been restored to default."
+  },
+  "random_ship_off_0": {
+    "tip": "The Random Secretary setting has been toggled OFF because you don't have enough eligible shipgirls."
+  },
+  "random_ship_on": {
+    "tip": "The Random Secretary setting has been toggled ON."
+  },
+  "random_ship_tips1": {
+    "tip": "A new set of random shipgirls will appear as your secretaries at 8 AM and 7 PM daily."
+  },
+  "random_ship_tips2": {
+    "tip": "You can change the settings of your individual secretary slots."
   },
   "ranking_word_1": {
     "tip": "Total Power"
@@ -10739,25 +10815,16 @@
   "secretary_help": {
     "tip": [
       {
-        "info": "About Secretary Groups:\n"
+        "info": " - Random Secretary Setting - \nYou can enable the Random Secretary setting to have the game choose a random shipgirl with a random skin as your secretary, regardless of which shipgirls you have set in your secretary slots."
       },
       {
-        "info": "1. Slots for Secretary Groups must be unlocked by clearing the corresponding Campaign stages. Multiple copies of the same ship may be added."
+        "info": "1. After you toggle this setting on, the game will randomly choose a group of secretaries to display from among all the shipgirls in your dock which you have set as \"\"locked\"\" or \"\"favorite.\"\"\nAdditionally, the game will randomly choose a shipgirl among that group to display every time you return to the main menu."
       },
       {
-        "info": "2. <color=#92fc63>Only the ship placed in the leftmost slot will receive Affinity.</color>"
+        "info": "2. The game will assemble a new group of random secretaries to display twice every day, once at 8 AM and again at 7 PM. If you do not have enough eligible shipgirls to assemble a group, this setting will automatically be toggled off."
       },
       {
-        "info": "3. When returning to home port, your secretary ship will be randomly selected from one of the ships assigned to Secretary Groups."
-      },
-      {
-        "info": "4. By toggling \"\"Skin Settings\"\" to ON, you may view additional information about the outfits each ship is using."
-      },
-      {
-        "info": "5. In the Secretary Groups interface, you may directly drag ships to change their position."
-      },
-      {
-        "info": "6. When in the home port, you may use the Toggle function to change which secretary is currently displayed."
+        "info": "3. Even with this feature enabled, regardless of which shipgirls the game chooses, only the original shipgirl set in your leftmost secretary slot will receive the passive secretary affection bonus.\nFurthermore, you may still set and change which shipgirls originally occupy your secretary slots even with this feature toggled on.\n},{info='4. If you disable this feature, the game will resume displaying the original shipgirls you have set in your secretary slots."
       }
     ]
   },
@@ -11354,7 +11421,7 @@
     "tip": "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
   },
   "ship_remould_warning_301874": {
-    "tip": "The <color=#92fc63>Eau de Barbecue</color> will be used to complete the retrofit.\nWould you like to continue?\nFully retrofitting this ship will have the following effects:\n\n<color=#92fc63>Torpedo base -1</color>,\n<color=#92fc63>Main Gun base +1</color>,\n<color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,\n<color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>."
+    "tip": "The <color=#92fc63>Eau de Barbecue</color> will be used to complete the retrofit.\nWould you like to continue?\nFully retrofitting this ship will have the following effects:\n<color=#92fc63>Torpedo base -1</color>,\n<color=#92fc63>Main Gun base +1</color>,\n<color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,\n<color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>."
   },
   "ship_remould_warning_303154": {
     "tip": "When retrofitted, <color=#92fc63>$1</color>'s hull type will change.\nThe weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.The ship's <color=#92fc63>Augment Module</color> will be unequipped and returned to the Depot.\nWould you like to proceed with the retrofit?\n<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>"
@@ -11644,6 +11711,9 @@
   "shop_label_unlimt_cnt": {
     "tip": "Infinite "
   },
+  "shop_spweapon_success": {
+    "tip": "Your Augment Module storage capacity has increased."
+  },
   "shop_street_Equipment_skin_box_help": {
     "tip": "<color=#A1E400FF>$1</COLOR>Sale Period:<color=#A1E400FF>$2</COLOR>"
   },
@@ -11840,8 +11910,17 @@
   "spweapon_tip_materal_no_enough": {
     "tip": "You don't have enough materials."
   },
+  "spweapon_tip_owned": {
+    "tip": "Owned: $1"
+  },
   "spweapon_tip_pt_no_enough": {
     "tip": "You don't have enough Upgrade EXP to uncap this item."
+  },
+  "spweapon_tip_ship": {
+    "tip": "Equipable By"
+  },
+  "spweapon_tip_skill_locked": {
+    "tip": "Locked"
   },
   "spweapon_tip_transform_attrmax": {
     "tip": "This item's random attribute have already been maxed."
@@ -11849,11 +11928,17 @@
   "spweapon_tip_transform_materal_check": {
     "tip": "Select the materials required for conversion."
   },
+  "spweapon_tip_type": {
+    "tip": "Ship Type"
+  },
   "spweapon_tip_unload": {
     "tip": "The Augment Module has been returned to your Depot."
   },
   "spweapon_tip_upgrade": {
     "tip": "Unable to gain any more Upgrade EXP."
+  },
+  "spweapon_tip_view": {
+    "tip": "<material=underline event=displayDetail>View Details</material>"
   },
   "spweapon_ui_autoselect": {
     "tip": "Auto-Select"
@@ -14436,7 +14521,7 @@
     ]
   },
   "world_boss_inbattle": {
-    "tip": "You are currently in an META Showdown, and are unable to begin another one. "
+    "tip": "You have an active META Showdown and cannot initiate a new one."
   },
   "world_boss_item_count_noenough": {
     "tip": "You don't have enough META Coordinates to analyze."
