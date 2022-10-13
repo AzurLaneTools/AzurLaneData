@@ -4854,6 +4854,32 @@
     "type": 4,
     "type_order": 0
   },
+  "43028": {
+    "desc": "20000戦果でル·マラン(μ兵装)を交換",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      901121
+    ],
+    "genre": "arena_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 43028,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 3,
+    "resource_num": 20000,
+    "resource_type": 3,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 4,
+    "type_order": 0
+  },
   "50002": {
     "desc": "50ダイヤで高速建造材を購入",
     "discount": 0,
@@ -17365,7 +17391,7 @@
     ],
     "time_second": 0,
     "type": 2,
-    "type_order": 0
+    "type_order": 3
   },
   "61001": {
     "desc": "200ダイヤで装キャラ所持枠+10",
@@ -17592,7 +17618,7 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 11,
-    "order": 7,
+    "order": 12,
     "resource_num": 200,
     "resource_type": 14,
     "tag": 0,
@@ -17860,6 +17886,34 @@
     "time": "always",
     "time_second": 0,
     "type": 2,
+    "type_order": 0
+  },
+  "61018": {
+    "desc": "100钻石扩展特殊兵装仓库容量+10（仓库数量在0~2000时）",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": "spweapon_bag_size",
+    "genre": "gem_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 61018,
+    "is_auto_use": 0,
+    "limit_args": [
+      "count",
+      0,
+      1999
+    ],
+    "limit_args2": "",
+    "num": 10,
+    "order": 7,
+    "resource_num": 100,
+    "resource_type": 14,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 0,
     "type_order": 0
   },
   "70001": {
@@ -34500,36 +34554,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 1200,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34551,36 +34580,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 1100,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34602,36 +34606,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 900,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34653,36 +34632,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 800,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34704,36 +34658,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 800,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34755,36 +34684,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 800,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -34806,36 +34710,11 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 12,
+    "order": 22,
     "resource_num": 800,
     "resource_type": 14,
-    "tag": 1,
-    "time": [
-      [
-        [
-          2022,
-          9,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2022,
-          10,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "tag": 0,
+    "time": "always",
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -46872,11 +46751,36 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 10,
+    "order": 2,
     "resource_num": 780,
     "resource_type": 14,
     "tag": 1,
-    "time": "stop",
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -46898,11 +46802,36 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 10,
+    "order": 2,
     "resource_num": 880,
     "resource_type": 14,
     "tag": 1,
-    "time": "stop",
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -46924,11 +46853,36 @@
     "limit_args": [],
     "limit_args2": "",
     "num": 1,
-    "order": 10,
+    "order": 2,
     "resource_num": 780,
     "resource_type": 14,
     "tag": 1,
-    "time": "stop",
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "time_second": 0,
     "type": 6,
     "type_order": 0
@@ -50236,6 +50190,210 @@
           2022,
           10,
           12
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_second": 0,
+    "type": 6,
+    "type_order": 0
+  },
+  "70759": {
+    "desc": "购买皮肤:221013标枪勇者",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      201217
+    ],
+    "genre": "skin_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 70759,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 780,
+    "resource_type": 14,
+    "tag": 2,
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_second": 0,
+    "type": 6,
+    "type_order": 0
+  },
+  "70760": {
+    "desc": "购买皮肤:221013Z23勇者",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      431232
+    ],
+    "genre": "skin_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 70760,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 780,
+    "resource_type": 14,
+    "tag": 2,
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_second": 0,
+    "type": 6,
+    "type_order": 0
+  },
+  "70761": {
+    "desc": "购买皮肤:221013绫波勇者",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      331055
+    ],
+    "genre": "skin_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 70761,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 780,
+    "resource_type": 14,
+    "tag": 2,
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_second": 0,
+    "type": 6,
+    "type_order": 0
+  },
+  "70762": {
+    "desc": "购买皮肤:221013拉菲勇者",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      131171
+    ],
+    "genre": "skin_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 70762,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 780,
+    "resource_type": 14,
+    "tag": 2,
+    "time": [
+      [
+        [
+          2022,
+          10,
+          13
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2022,
+          10,
+          26
         ],
         [
           23,

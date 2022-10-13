@@ -5646,7 +5646,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 6,
+    "tag": 7,
     "themeId": 0,
     "type": 11
   },
@@ -5690,6 +5690,101 @@
     "spine_action_replace": "",
     "spine_extra": "",
     "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "235": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "異世界冒険アトラクションの記念グッズ。持ち主に幸運をもたらしてくれる…らしい？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinhaibaoicon",
+    "id": 235,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "黄金の勇者のつるぎ？",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      1
+    ],
+    "spine": [
+      [
+        "jinhaibao",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "236": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 5,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ナイスプライズで品質保証にゃ～。ただし強化は失敗する可能性もあるから気をつけるにゃ♪",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "duanzaoluicon",
+    "id": 236,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "明石のアイテム強化炉",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      3
+    ],
+    "spine": [
+      [
+        "duanzaolu",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3",
+            "action4"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
     "themeId": 0,
     "type": 7
   },
@@ -106811,6 +106906,8 @@
     232,
     233,
     234,
+    235,
+    236,
     100002,
     100003,
     100004,
@@ -111349,8 +111446,8 @@
       226,
       231,
       232,
-      233,
       234,
+      235,
       100002,
       100003,
       100004,
@@ -111397,6 +111494,8 @@
     ],
     "7": [
       223,
+      233,
+      236,
       200001,
       200002,
       200003,
@@ -111656,6 +111755,8 @@
       232,
       233,
       234,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -111837,6 +111938,8 @@
       232,
       233,
       234,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -118868,6 +118971,8 @@
       231,
       232,
       234,
+      235,
+      236,
       100002,
       100004,
       100005,
