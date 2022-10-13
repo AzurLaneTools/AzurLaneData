@@ -1891,16 +1891,16 @@
     "tip": "是否升级？升级会消耗对应材料"
   },
   "buildship_heavy_tip": {
-    "tip": "{namecode:175} 建造追加！"
+    "tip": "巴尔的摩(μ兵装) 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "{namecode:50}、{namecode:203} 等角色建造追加！"
+    "tip": "黛朵(μ兵装)、塔什干(μ兵装) 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "每累计建造200次可获得海上传奇舰船 {namecode:84}(最多4次)"
   },
   "buildship_special_tip": {
-    "tip": "U-110 建造追加！"
+    "tip": "{namecode:190}、大青花鱼(μ兵装) 建造追加！"
   },
   "buleprint_need_level_tip": {
     "tip": "需角色到达$1级"
@@ -8152,6 +8152,9 @@
   "index_special": {
     "tip": "特殊"
   },
+  "index_spweapon": {
+    "tip": "专属兵装"
+  },
   "index_strengthen": {
     "tip": "可强化"
   },
@@ -9020,6 +9023,37 @@
       },
       {
         "info": "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战"
+      }
+    ]
+  },
+  "littleSpee_npc": {
+    "tip": [
+      {
+        "info": "「“围剿”小斯佩伯爵」说明："
+      },
+      {
+        "info": "1.活动期间，玩家可获得临时npc角色「小斯佩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+      },
+      {
+        "info": "2.活动期间，击破普通难度主线第三章及之后章节旗舰，可获得「情报点」奖励，解析「情报点」可累积临时npc角色「小斯佩」的友好度。"
+      },
+      {
+        "info": "3.上阵「小斯佩」参与战斗，且未被击沉，可获得双倍「情报点」。"
+      },
+      {
+        "info": "4.10月19日为止，每日解锁1个可达成的友好度阶段。"
+      },
+      {
+        "info": "5.在活动结束前累计获得1000点友好度，可领取奖励并将临时角色「小斯佩」转化为永久角色。"
+      },
+      {
+        "info": "6.活动结束后，未完成转化的临时角色「小斯佩」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+      },
+      {
+        "info": "7.npc角色无法参与大型作战。"
+      },
+      {
+        "info": "8.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
       }
     ]
   },
@@ -10341,11 +10375,17 @@
   "player_summary_from": {
     "tip": "来自特殊作战："
   },
+  "player_vitae_skin_setting": {
+    "tip": "换装设置面板"
+  },
   "playerinfo_mask_word": {
     "tip": "存在屏蔽字"
   },
   "playerinfo_ship_is_already_flagship": {
     "tip": "该船已经是秘书舰"
+  },
+  "playervtae_setting_btn_label": {
+    "tip": "前往设置"
   },
   "pocky_help": {
     "tip": [
@@ -10567,6 +10607,48 @@
   },
   "quick_equip_tip6": {
     "tip": "是否<color=#FF2222>卸下</color><color=#22ff22> $1</color>的<color=#22ff22>$2</color>"
+  },
+  "random_flag_ship": {
+    "tip": "随机秘书舰"
+  },
+  "random_flag_ship_changskinBtn_label": {
+    "tip": "更换换装"
+  },
+  "random_ship_and_skin_title": {
+    "tip": "秘书组角色随机范围"
+  },
+  "random_ship_before": {
+    "tip": "返回随机秘书组"
+  },
+  "random_ship_forbidden": {
+    "tip": "已开启随机秘书组功能，不可对随机秘书组进行操作"
+  },
+  "random_ship_frequse_mode": {
+    "tip": "常用角色"
+  },
+  "random_ship_label": {
+    "tip": "随机秘书组"
+  },
+  "random_ship_locked_mode": {
+    "tip": "已锁定角色"
+  },
+  "random_ship_now": {
+    "tip": "查看原秘书组"
+  },
+  "random_ship_off": {
+    "tip": "已关闭随机秘书组功能，秘书组角色已还原"
+  },
+  "random_ship_off_0": {
+    "tip": "当前可随机角色数量不足，已自动关闭随机秘书组功能"
+  },
+  "random_ship_on": {
+    "tip": "已开启随机秘书组功能"
+  },
+  "random_ship_tips1": {
+    "tip": "随机秘书组将于每日8点和19点进行随机"
+  },
+  "random_ship_tips2": {
+    "tip": "可以对原秘书组角色进行更换"
   },
   "ranking_word_1": {
     "tip": "综合实力"
@@ -10996,6 +11078,21 @@
       },
       {
         "info": "6. 在主界面可以通过切换功能，切换当前展示的秘书舰\n"
+      },
+      {
+        "info": "· 随机秘书组功能说明：\n"
+      },
+      {
+        "info": "1. 随机秘书组功能开启后，将从常用角色或锁定角色中随机选取角色，作为随机秘书组"
+      },
+      {
+        "info": "2.随机秘书组于每天8点和19点进行更换，可随机角色不足时，功能自动关闭"
+      },
+      {
+        "info": "3.在随机秘书组功能开启期间，仅有原秘书组最左侧的秘书舰可以获得秘书舰好感加成\n·可以查看原秘书组角色，并对其进行更换、拖动操作\n·不可对随机秘书组角色进行更换、拖动操作\n·回港时将随机展示一名随机秘书组成员"
+      },
+      {
+        "info": "4.关闭随机秘书组功能后，将还原为原秘书组角色"
       }
     ]
   },
@@ -11850,6 +11947,9 @@
   "shop_label_unlimt_cnt": {
     "tip": "可重复兑换"
   },
+  "shop_spweapon_success": {
+    "tip": "特殊兵装栏位扩展成功"
+  },
   "shop_street_Equipment_skin_box_help": {
     "tip": "<color=#A1E400FF>$1</COLOR> 出现时间为：<color=#A1E400FF>$2</COLOR>"
   },
@@ -12046,8 +12146,17 @@
   "spweapon_tip_materal_no_enough": {
     "tip": "材料不足"
   },
+  "spweapon_tip_owned": {
+    "tip": "已拥有：$1"
+  },
   "spweapon_tip_pt_no_enough": {
     "tip": "突破所需经验不足，请选择强化材料"
+  },
+  "spweapon_tip_ship": {
+    "tip": "适配角色"
+  },
+  "spweapon_tip_skill_locked": {
+    "tip": "（未解锁）"
   },
   "spweapon_tip_transform_attrmax": {
     "tip": "随机属性已达到最大值"
@@ -12055,11 +12164,17 @@
   "spweapon_tip_transform_materal_check": {
     "tip": "请确认改造消耗材料后进行改造"
   },
+  "spweapon_tip_type": {
+    "tip": "适配舰种"
+  },
   "spweapon_tip_unload": {
     "tip": "特殊兵装已卸载至仓库中 "
   },
   "spweapon_tip_upgrade": {
     "tip": "强化点数已经达到上限"
+  },
+  "spweapon_tip_view": {
+    "tip": "<material=underline event=displayDetail>点击查看</material>"
   },
   "spweapon_ui_autoselect": {
     "tip": "自动选择"
@@ -14582,7 +14697,7 @@
     ]
   },
   "world_boss_inbattle": {
-    "tip": "当前处于信标·META作战中，不可前往"
+    "tip": "当前处于战斗中，不可前往"
   },
   "world_boss_item_count_noenough": {
     "tip": "情报解析数据不足"
