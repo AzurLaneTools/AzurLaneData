@@ -5297,7 +5297,7 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
-    "tag": 6,
+    "tag": 7,
     "themeId": 0,
     "type": 11
   },
@@ -5341,6 +5341,101 @@
     "spine_action_replace": "",
     "spine_extra": "",
     "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "235": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이세계를 모험했다는 증명. 얻는 자에게 행운이 따를지도?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinhaibaoicon",
+    "id": 235,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "선택 받은 자의 골든 소드(?)",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      1
+    ],
+    "spine": [
+      [
+        "jinhaibao",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "236": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 5,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "좋은 물건 싸게 판다냥. 상도의 역시 중요시한다냥~ 강화는 확률이 따르니, 신중해라냥~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "duanzaoluicon",
+    "id": 236,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "장비 강화 용광로",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      3
+    ],
+    "spine": [
+      [
+        "duanzaolu",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3",
+            "action4"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
     "themeId": 0,
     "type": 7
   },
@@ -106074,6 +106169,8 @@
     232,
     233,
     234,
+    235,
+    236,
     100002,
     100003,
     100004,
@@ -110593,8 +110690,8 @@
       225,
       226,
       232,
-      233,
       234,
+      235,
       100002,
       100003,
       100004,
@@ -110640,6 +110737,8 @@
     ],
     "7": [
       213,
+      233,
+      236,
       200001,
       200002,
       200003,
@@ -110893,6 +110992,8 @@
       232,
       233,
       234,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -111064,6 +111165,8 @@
       232,
       233,
       234,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -118070,6 +118173,8 @@
       226,
       232,
       234,
+      235,
+      236,
       100002,
       100004,
       100005,
