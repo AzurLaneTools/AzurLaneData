@@ -20156,7 +20156,7 @@
     "spawn_brownian": 1,
     "weapon_ID": [
       50050,
-      50560,
+      50570,
       52150
     ]
   },
@@ -20168,7 +20168,7 @@
     "spawn_brownian": 1,
     "weapon_ID": [
       50051,
-      50561,
+      50571,
       52151
     ]
   },
@@ -30264,6 +30264,79 @@
     "weapon_ID": [
       61027
     ]
+  },
+  "61028": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 406,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2282,
+    "icon": "tianxizhe",
+    "id": 61028,
+    "max_hp": 69,
+    "model_ID": "tianxizhe",
+    "name": "阿尔比恩天袭者预警机",
+    "nationality": 2,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 66,
+    "type": 3,
+    "weapon_ID": []
   },
   "62141": {
     "ACC_growth": 0,
@@ -53462,7 +53535,7 @@
     "spawn_brownian": 1,
     "weapon_ID": [
       50050,
-      50560
+      50570
     ]
   },
   "83171": {
@@ -53473,7 +53546,7 @@
     "spawn_brownian": 1,
     "weapon_ID": [
       50051,
-      50561
+      50571
     ]
   },
   "83200": {
@@ -65990,6 +66063,521 @@
     "weapon_ID": [
       100814,
       100819
+    ]
+  },
+  "160001": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 24,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.52,
+          -1.61,
+          0
+        ],
+        [
+          0.6,
+          1.5,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 190,
+    "dodge": 0.3,
+    "dodge_limit": 10,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.86,
+        -0.12,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2189,
+    "icon": "haidahuangfeng",
+    "id": 160001,
+    "max_hp": 57,
+    "model_ID": "haidahuangfeng",
+    "name": "阿尔比恩一技能海大黄蜂",
+    "nationality": 2,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 60,
+    "type": 1,
+    "weapon_ID": [
+      160011
+    ]
+  },
+  "160002": {
+    "base": 160001,
+    "hp_growth": 2474,
+    "id": 160002,
+    "max_hp": 64,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160012
+    ]
+  },
+  "160003": {
+    "base": 160001,
+    "hp_growth": 2760,
+    "id": 160003,
+    "max_hp": 72,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160013
+    ]
+  },
+  "160004": {
+    "base": 160001,
+    "hp_growth": 3045,
+    "id": 160004,
+    "max_hp": 79,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160014
+    ]
+  },
+  "160005": {
+    "base": 160001,
+    "hp_growth": 3330,
+    "id": 160005,
+    "max_hp": 87,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160015
+    ]
+  },
+  "160006": {
+    "base": 160001,
+    "hp_growth": 3616,
+    "id": 160006,
+    "max_hp": 94,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160016
+    ]
+  },
+  "160007": {
+    "base": 160001,
+    "hp_growth": 3901,
+    "id": 160007,
+    "max_hp": 101,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160017
+    ]
+  },
+  "160008": {
+    "base": 160001,
+    "hp_growth": 4187,
+    "id": 160008,
+    "max_hp": 109,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160018
+    ]
+  },
+  "160009": {
+    "base": 160001,
+    "hp_growth": 4472,
+    "id": 160009,
+    "max_hp": 116,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160019
+    ]
+  },
+  "160010": {
+    "base": 160001,
+    "hp_growth": 4758,
+    "id": 160010,
+    "max_hp": 124,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160020
+    ]
+  },
+  "160021": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 480,
+    "dodge": 1.05,
+    "dodge_limit": 6,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 1678,
+    "icon": "suoyu",
+    "id": 160021,
+    "max_hp": 44,
+    "model_ID": "suoyu",
+    "name": "阿尔比恩梭鱼1",
+    "nationality": 2,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 52,
+    "type": 2,
+    "weapon_ID": [
+      160031,
+      160061
+    ]
+  },
+  "160022": {
+    "base": 160021,
+    "hp_growth": 1897,
+    "id": 160022,
+    "max_hp": 49,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160032,
+      160062
+    ]
+  },
+  "160023": {
+    "base": 160021,
+    "hp_growth": 2116,
+    "id": 160023,
+    "max_hp": 55,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160033,
+      160063
+    ]
+  },
+  "160024": {
+    "base": 160021,
+    "hp_growth": 2335,
+    "id": 160024,
+    "max_hp": 61,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160034,
+      160064
+    ]
+  },
+  "160025": {
+    "base": 160021,
+    "hp_growth": 2554,
+    "id": 160025,
+    "max_hp": 66,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160035,
+      160065
+    ]
+  },
+  "160026": {
+    "base": 160021,
+    "hp_growth": 2772,
+    "id": 160026,
+    "max_hp": 72,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160036,
+      160066
+    ]
+  },
+  "160027": {
+    "base": 160021,
+    "hp_growth": 2991,
+    "id": 160027,
+    "max_hp": 78,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160037,
+      160067
+    ]
+  },
+  "160028": {
+    "base": 160021,
+    "hp_growth": 3210,
+    "id": 160028,
+    "max_hp": 83,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160038,
+      160068
+    ]
+  },
+  "160029": {
+    "base": 160021,
+    "hp_growth": 3429,
+    "id": 160029,
+    "max_hp": 89,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160039,
+      160069
+    ]
+  },
+  "160030": {
+    "base": 160021,
+    "hp_growth": 3648,
+    "id": 160030,
+    "max_hp": 95,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160040,
+      160070
+    ]
+  },
+  "160041": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 480,
+    "dodge": 1.05,
+    "dodge_limit": 6,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 1678,
+    "icon": "suoyu",
+    "id": 160041,
+    "max_hp": 44,
+    "model_ID": "suoyu",
+    "name": "阿尔比恩梭鱼2",
+    "nationality": 2,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 52,
+    "type": 2,
+    "weapon_ID": [
+      160051,
+      160061
+    ]
+  },
+  "160042": {
+    "base": 160041,
+    "hp_growth": 1897,
+    "id": 160042,
+    "max_hp": 49,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160052,
+      160062
+    ]
+  },
+  "160043": {
+    "base": 160041,
+    "hp_growth": 2116,
+    "id": 160043,
+    "max_hp": 55,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160053,
+      160063
+    ]
+  },
+  "160044": {
+    "base": 160041,
+    "hp_growth": 2335,
+    "id": 160044,
+    "max_hp": 61,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160054,
+      160064
+    ]
+  },
+  "160045": {
+    "base": 160041,
+    "hp_growth": 2554,
+    "id": 160045,
+    "max_hp": 66,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160055,
+      160065
+    ]
+  },
+  "160046": {
+    "base": 160041,
+    "hp_growth": 2772,
+    "id": 160046,
+    "max_hp": 72,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160056,
+      160066
+    ]
+  },
+  "160047": {
+    "base": 160041,
+    "hp_growth": 2991,
+    "id": 160047,
+    "max_hp": 78,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160057,
+      160067
+    ]
+  },
+  "160048": {
+    "base": 160041,
+    "hp_growth": 3210,
+    "id": 160048,
+    "max_hp": 83,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160058,
+      160068
+    ]
+  },
+  "160049": {
+    "base": 160041,
+    "hp_growth": 3429,
+    "id": 160049,
+    "max_hp": 89,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160059,
+      160069
+    ]
+  },
+  "160050": {
+    "base": 160041,
+    "hp_growth": 3648,
+    "id": 160050,
+    "max_hp": 95,
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      160060,
+      160070
     ]
   },
   "200101": {
@@ -201971,6 +202559,456 @@
     "weapon_ID": [
       3022211,
       3022212
+    ]
+  },
+  "3029206": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 68,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.27,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2550,
+    "icon": "haiduya",
+    "id": 3029206,
+    "max_hp": 145,
+    "model_ID": "haiduya",
+    "name": "【2022女仆共斗 H难度】BOSS 阿尔比恩 战斗机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 33,
+    "type": 1,
+    "weapon_ID": [
+      3029209
+    ]
+  },
+  "3029207": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 119,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 3360,
+    "icon": "haiyan",
+    "id": 3029207,
+    "max_hp": 205,
+    "model_ID": "haiyan",
+    "name": "【2022女仆共斗 H难度】BOSS 阿尔比恩 轰炸机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      3029210
+    ]
+  },
+  "3029208": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 86,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2950,
+    "icon": "suoyu",
+    "id": 3029208,
+    "max_hp": 160,
+    "model_ID": "suoyu",
+    "name": "【2022女仆共斗 H难度】BOSS 阿尔比恩 鱼雷机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 2,
+    "weapon_ID": [
+      3029211
+    ]
+  },
+  "3029306": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 216,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.27,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 3400,
+    "icon": "haiduya",
+    "id": 3029306,
+    "max_hp": 324,
+    "model_ID": "haiduya",
+    "name": "【2022女仆共斗 EX】BOSS 阿尔比恩 战斗机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 33,
+    "type": 1,
+    "weapon_ID": [
+      3029309
+    ]
+  },
+  "3029307": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 296,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 3900,
+    "icon": "haiyan",
+    "id": 3029307,
+    "max_hp": 365,
+    "model_ID": "haiyan",
+    "name": "【2022女仆共斗 EX】BOSS 阿尔比恩 轰炸机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      3029310
+    ]
+  },
+  "3029308": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 256,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 3600,
+    "icon": "suoyu",
+    "id": 3029308,
+    "max_hp": 336,
+    "model_ID": "suoyu",
+    "name": "【2022女仆共斗 EX】BOSS 阿尔比恩 鱼雷机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 2,
+    "weapon_ID": [
+      3029311
     ]
   }
 }

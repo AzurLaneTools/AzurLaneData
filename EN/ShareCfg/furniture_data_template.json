@@ -96492,6 +96492,54 @@
     "themeId": 0,
     "type": 14
   },
+  "100020": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Somewhere amid all the glimmers you may see... a pale blue dot.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "starlighticon",
+    "id": 100020,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Cosmos Projector",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "starlight",
+        "normal",
+        {
+          "1": "action",
+          "2": true,
+          "7": "bg1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "100021": {
     "advice": 0,
     "animator": [
@@ -97242,6 +97290,82 @@
     "themeId": 0,
     "type": 13
   },
+  "100042": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "feixingsaozhouicon",
+    "id": 100042,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      1,
+      1
+    ],
+    "spine": [
+      {
+        "1": "feixingsaozhou",
+        "2": "normal",
+        "4": true
+      },
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -97869,6 +97993,7 @@
     100017,
     100018,
     100019,
+    100020,
     100021,
     100022,
     100023,
@@ -97880,6 +98005,7 @@
     100030,
     100031,
     100032,
+    100042,
     200001,
     200002,
     200003,
@@ -102057,6 +102183,7 @@
       100017,
       100018,
       100019,
+      100020,
       100021,
       100022,
       100023,
@@ -102068,6 +102195,7 @@
       100030,
       100031,
       100032,
+      100042,
       31101,
       54104,
       54105
@@ -102336,6 +102464,7 @@
       100017,
       100018,
       100019,
+      100020,
       100021,
       100022,
       100023,
@@ -102347,6 +102476,7 @@
       100030,
       100031,
       100032,
+      100042,
       200001,
       200002,
       200003,
@@ -102496,6 +102626,7 @@
       100017,
       100018,
       100019,
+      100020,
       100021,
       100022,
       100023,
@@ -102507,6 +102638,7 @@
       100030,
       100031,
       100032,
+      100042,
       200001,
       200002,
       200003,
@@ -108991,6 +109123,7 @@
       100016,
       100017,
       100018,
+      100020,
       100023,
       100025,
       100026,
@@ -109025,6 +109158,7 @@
       100021,
       100022,
       100030,
+      100042,
       30123,
       35128,
       37121,
