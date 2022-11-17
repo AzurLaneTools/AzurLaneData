@@ -4839,6 +4839,101 @@
     "themeId": 0,
     "type": 11
   },
+  "235": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "異世界冒險的證明，似乎能為持有者帶來好運？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinhaibaoicon",
+    "id": 235,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "黃金的幸運之劍(?)",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      1
+    ],
+    "spine": [
+      [
+        "jinhaibao",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "236": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 5,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "物美價廉，童叟無欺喵~強化有機率，投入需謹慎喵~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "duanzaoluicon",
+    "id": 236,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "裝備強化爐",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      3
+    ],
+    "spine": [
+      [
+        "duanzaolu",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3",
+            "action4"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -89312,6 +89407,56 @@
     "themeId": 0,
     "type": 7
   },
+  "100019": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "唔，這是…誰家的鷹醬？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yingicon",
+    "id": 100019,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "鷹醬 ",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": {
+      "1": [
+        "ying",
+        "normal"
+      ],
+      "3": [
+        [
+          0,
+          100
+        ],
+        "walk"
+      ]
+    },
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 14
+  },
   "all": [
     1,
     2,
@@ -89415,6 +89560,8 @@
     215,
     222,
     233,
+    235,
+    236,
     100002,
     100003,
     100004,
@@ -89430,6 +89577,7 @@
     100016,
     100017,
     100018,
+    100019,
     1001,
     1002,
     1101,
@@ -93252,6 +93400,7 @@
       214,
       215,
       222,
+      235,
       100002,
       100003,
       100004,
@@ -93267,11 +93416,13 @@
       100016,
       100017,
       100018,
+      100019,
       54104,
       54105
     ],
     "7": [
       233,
+      236,
       13101,
       13126,
       13127,
@@ -93488,6 +93639,8 @@
       215,
       222,
       233,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -93503,6 +93656,7 @@
       100016,
       100017,
       100018,
+      100019,
       12002,
       12102,
       12103,
@@ -93616,6 +93770,8 @@
       215,
       222,
       233,
+      235,
+      236,
       100002,
       100003,
       100004,
@@ -93631,6 +93787,7 @@
       100016,
       100017,
       100018,
+      100019,
       12002,
       12102,
       12103,
@@ -99566,6 +99723,8 @@
       210,
       212,
       222,
+      235,
+      236,
       100002,
       100004,
       100005,
@@ -99637,7 +99796,8 @@
       89126
     ],
     "14": [
-      214
+      214,
+      100019
     ]
   }
 }

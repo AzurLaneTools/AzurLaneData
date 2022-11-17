@@ -2251,6 +2251,136 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "101451": {
+    "breakout_id": 101452,
+    "breakout_view": "獲得專屬彈幕I/全武器效率提高2%",
+    "icon": "10001",
+    "id": 101451,
+    "level": 10,
+    "pre_id": 0,
+    "ultimate_bonus": [],
+    "use_char": 10145,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      79691
+    ]
+  },
+  "101452": {
+    "breakout_id": 101453,
+    "breakout_view": "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
+    "icon": "10001",
+    "id": 101452,
+    "level": 30,
+    "pre_id": 101451,
+    "ultimate_bonus": [],
+    "use_char": 10145,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      108,
+      108
+    ]
+  },
+  "101453": {
+    "breakout_id": 101454,
+    "breakout_view": "專屬彈幕升級/全武器效率提高5%",
+    "icon": "10001",
+    "id": 101453,
+    "level": 70,
+    "pre_id": 101452,
+    "ultimate_bonus": [
+      "GNR"
+    ],
+    "use_char": 10145,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      79692
+    ]
+  },
+  "101454": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 101454,
+    "level": 0,
+    "pre_id": 101453,
+    "ultimate_bonus": [],
+    "use_char": 10145,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "101461": {
+    "breakout_id": 101462,
+    "breakout_view": "獲得全彈發射I/全武器效率提高2%",
+    "icon": "10001",
+    "id": 101461,
+    "level": 10,
+    "pre_id": 0,
+    "ultimate_bonus": [],
+    "use_char": 10146,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      70041
+    ]
+  },
+  "101462": {
+    "breakout_id": 101463,
+    "breakout_view": "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
+    "icon": "10001",
+    "id": 101462,
+    "level": 30,
+    "pre_id": 101461,
+    "ultimate_bonus": [],
+    "use_char": 10146,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      108,
+      108
+    ]
+  },
+  "101463": {
+    "breakout_id": 101464,
+    "breakout_view": "全彈發射彈幕升級/全武器效率提高5%",
+    "icon": "10001",
+    "id": 101463,
+    "level": 70,
+    "pre_id": 101462,
+    "ultimate_bonus": [
+      "AUX"
+    ],
+    "use_char": 10146,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      70042
+    ]
+  },
+  "101464": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 101464,
+    "level": 0,
+    "pre_id": 101463,
+    "ultimate_bonus": [],
+    "use_char": 10146,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "101471": {
     "breakout_id": 101472,
     "breakout_view": "獲得全彈發射I/全武器效率提高2%",
@@ -25291,6 +25421,69 @@
     "pre_id": 403093,
     "ultimate_bonus": [],
     "use_char": 40309,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "403131": {
+    "breakout_id": 403132,
+    "breakout_view": "獲得全彈發射I/主炮效率提高5%",
+    "icon": "10001",
+    "id": 403131,
+    "level": 10,
+    "pre_id": 0,
+    "ultimate_bonus": [],
+    "use_char": 40313,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      73221
+    ]
+  },
+  "403132": {
+    "breakout_id": 403133,
+    "breakout_view": "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
+    "icon": "10001",
+    "id": 403132,
+    "level": 30,
+    "pre_id": 403131,
+    "ultimate_bonus": [],
+    "use_char": 40313,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      107,
+      107
+    ]
+  },
+  "403133": {
+    "breakout_id": 403134,
+    "breakout_view": "全彈發射彈幕升級/主炮效率提高15%",
+    "icon": "10001",
+    "id": 403133,
+    "level": 70,
+    "pre_id": 403132,
+    "ultimate_bonus": [],
+    "use_char": 40313,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      73222
+    ]
+  },
+  "403134": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 403134,
+    "level": 0,
+    "pre_id": 403133,
+    "ultimate_bonus": [],
+    "use_char": 40313,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
