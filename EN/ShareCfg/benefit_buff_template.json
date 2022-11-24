@@ -883,7 +883,7 @@
     ],
     "benefit_effect": "506",
     "benefit_type": "battle_buff",
-    "desc": "Your ships deal 4.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+    "desc": "All your ships deal 4.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
     "hide": 0,
     "icon": "Props/wudaoli2",
     "id": 57,
@@ -899,7 +899,7 @@
     ],
     "benefit_effect": "508",
     "benefit_type": "battle_buff",
-    "desc": "Your ships deal 5.0% more DMG to enemies in Story, Hard, Event, and War Archives battles.",
+    "desc": "All your ships deal 5.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
     "hide": 0,
     "icon": "Props/wudaoli3",
     "id": 58,
@@ -1031,6 +1031,852 @@
     "name": "Campaign Skill Leveling Bonus",
     "type_priority": 0
   },
+  "300001": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200150",
+    "benefit_type": "battle_buff",
+    "desc": "Increases your ships' FP, AVI, and TRP by 3.0%.",
+    "hide": 1,
+    "icon": "Props/300001",
+    "id": 300001,
+    "max_time": 0,
+    "name": "Offense Boost Lv.1",
+    "type_priority": 0
+  },
+  "300002": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200151",
+    "benefit_type": "battle_buff",
+    "desc": "Increases your ships' FP, AVI, and TRP by 4.0%.",
+    "hide": 1,
+    "icon": "Props/300002",
+    "id": 300002,
+    "max_time": 0,
+    "name": "Offense Boost Lv.2",
+    "type_priority": 0
+  },
+  "300003": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200152",
+    "benefit_type": "battle_buff",
+    "desc": "Increases your ships' FP, AVI, and TRP by 5.0%.",
+    "hide": 1,
+    "icon": "Props/300003",
+    "id": 300003,
+    "max_time": 0,
+    "name": "Offense Boost (Max Lv.)",
+    "type_priority": 0
+  },
+  "300011": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200153",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases your ships' DMG taken by 3.0%.",
+    "hide": 1,
+    "icon": "Props/300011",
+    "id": 300011,
+    "max_time": 0,
+    "name": "Defense Boost Lv.1",
+    "type_priority": 0
+  },
+  "300012": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200154",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases your ships' DMG taken by 4.0%.",
+    "hide": 1,
+    "icon": "Props/300012",
+    "id": 300012,
+    "max_time": 0,
+    "name": "Defense Boost Lv.2",
+    "type_priority": 0
+  },
+  "300013": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200155",
+    "benefit_type": "battle_buff",
+    "desc": "Decreases your ships' DMG taken by 5.0%.",
+    "hide": 1,
+    "icon": "Props/300013",
+    "id": 300013,
+    "max_time": 0,
+    "name": "Defense Boost (Max Lv.)",
+    "type_priority": 0
+  },
+  "300021": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200156",
+    "benefit_type": "battle_buff",
+    "desc": "Restores 0.1% of all your ships' max HP every 5s during combat.",
+    "hide": 1,
+    "icon": "Props/300021",
+    "id": 300021,
+    "max_time": 0,
+    "name": "Regeneration Lv.1",
+    "type_priority": 0
+  },
+  "300022": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200157",
+    "benefit_type": "battle_buff",
+    "desc": "Restores 0.2% of all your ships' max HP every 5s during combat.",
+    "hide": 1,
+    "icon": "Props/300022",
+    "id": 300022,
+    "max_time": 0,
+    "name": "Regeneration Lv.2",
+    "type_priority": 0
+  },
+  "300023": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200158",
+    "benefit_type": "battle_buff",
+    "desc": "Restores 0.3% of all your ships' max HP every 5s during combat.",
+    "hide": 1,
+    "icon": "Props/300023",
+    "id": 300023,
+    "max_time": 0,
+    "name": "Regeneration (Max Lv.)",
+    "type_priority": 0
+  },
+  "300031": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200159",
+    "benefit_type": "battle_buff",
+    "desc": "Once per battle, when one of your ships' max HP falls beneath 20.0%, she will regain 10.0% of her max HP.",
+    "hide": 1,
+    "icon": "Props/300031",
+    "id": 300031,
+    "max_time": 0,
+    "name": "Damage Control Lv.1",
+    "type_priority": 0
+  },
+  "300032": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200161",
+    "benefit_type": "battle_buff",
+    "desc": "Once per battle, when one of your ships' max HP falls beneath 20.0%, she will regain 15.0% of her max HP.",
+    "hide": 1,
+    "icon": "Props/300032",
+    "id": 300032,
+    "max_time": 0,
+    "name": "Damage Control Lv.2",
+    "type_priority": 0
+  },
+  "300033": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200163",
+    "benefit_type": "battle_buff",
+    "desc": "Once per battle, when one of your ships' max HP falls beneath 20.0%, she will regain 20.0% of her max HP.",
+    "hide": 1,
+    "icon": "Props/300033",
+    "id": 300033,
+    "max_time": 0,
+    "name": "Damage Control (Max Lv.)",
+    "type_priority": 0
+  },
+  "300041": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200165",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.1 supporting barrages that inflict Burn to enemies hit.",
+    "hide": 1,
+    "icon": "Props/300041",
+    "id": 300041,
+    "max_time": 0,
+    "name": "Covering Fire Lv.1",
+    "type_priority": 0
+  },
+  "300042": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200169",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.2 supporting barrages that inflict Burn to enemies hit.",
+    "hide": 1,
+    "icon": "Props/300042",
+    "id": 300042,
+    "max_time": 0,
+    "name": "Covering Fire Lv.2",
+    "type_priority": 0
+  },
+  "300043": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200173",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.3 supporting barrages that inflict Burn to enemies hit.",
+    "hide": 1,
+    "icon": "Props/300043",
+    "id": 300043,
+    "max_time": 0,
+    "name": "Covering Fire (Max Lv.)",
+    "type_priority": 0
+  },
+  "300051": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200177",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.1 supporting barrages; enemies hit by this barrage take 4.0% more DMG for 8s.",
+    "hide": 1,
+    "icon": "Props/300051",
+    "id": 300051,
+    "max_time": 0,
+    "name": "Anti-Armor Volley Lv.1",
+    "type_priority": 0
+  },
+  "300052": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200181",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.2 supporting barrages; enemies hit by this barrage take 7.0% more DMG for 8s.",
+    "hide": 1,
+    "icon": "Props/300052",
+    "id": 300052,
+    "max_time": 0,
+    "name": "Anti-Armor Volley Lv.2",
+    "type_priority": 0
+  },
+  "300053": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "200185",
+    "benefit_type": "battle_buff",
+    "desc": "Every 15s during combat, your fleet gains Lv.3 supporting barrages; enemies hit by this barrage take 10.0% more DMG for 8s.",
+    "hide": 1,
+    "icon": "Props/300053",
+    "id": 300053,
+    "max_time": 0,
+    "name": "Anti-Armor Volley (Max Lv.)",
+    "type_priority": 0
+  },
+  "300061": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 3.0% more EXP from combat.",
+    "hide": 1,
+    "icon": "Props/300061",
+    "id": 300061,
+    "max_time": 0,
+    "name": "Experience Boost Lv.1",
+    "type_priority": 0
+  },
+  "300062": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 4.0% more EXP from combat.",
+    "hide": 1,
+    "icon": "Props/300062",
+    "id": 300062,
+    "max_time": 0,
+    "name": "Experience Boost Lv.2",
+    "type_priority": 0
+  },
+  "300063": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 5.0% more EXP from combat.",
+    "hide": 1,
+    "icon": "Props/300063",
+    "id": 300063,
+    "max_time": 0,
+    "name": "Experience Boost (Max Lv.)",
+    "type_priority": 0
+  },
+  "300071": {
+    "benefit_condition": [
+      "chapter",
+      [
+        1690021,
+        1690022,
+        1690023,
+        1690024,
+        1690025,
+        1690041,
+        1690051
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "All your ships gain more Affinity from combat.",
+    "hide": 1,
+    "icon": "Props/300071",
+    "id": 300071,
+    "max_time": 0,
+    "name": "Affinity Boost (Max Lv.)",
+    "type_priority": 0
+  },
+  "300081": {
+    "benefit_condition": [
+      "pt",
+      286,
+      0,
+      1000
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 3.0% more EXP from combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/xinshou",
+    "id": 300081,
+    "max_time": 0,
+    "name": "EXP Boost I",
+    "type_priority": 0
+  },
+  "300082": {
+    "benefit_condition": [
+      "pt",
+      286,
+      1000,
+      2000
+    ],
+    "benefit_effect": "2",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 3.0% more EXP from combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/xinshou",
+    "id": 300082,
+    "max_time": 0,
+    "name": "EXP Boost II",
+    "type_priority": 0
+  },
+  "300083": {
+    "benefit_condition": [
+      "pt",
+      286,
+      2000,
+      3500
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 3.0% more EXP from combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/xinshou",
+    "id": 300083,
+    "max_time": 0,
+    "name": "EXP Boost III",
+    "type_priority": 0
+  },
+  "300084": {
+    "benefit_condition": [
+      "pt",
+      286,
+      3500,
+      5000
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 4.0% more EXP from combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/xinshou",
+    "id": 300084,
+    "max_time": 0,
+    "name": "EXP Boost IV",
+    "type_priority": 0
+  },
+  "300085": {
+    "benefit_condition": [
+      "pt",
+      286,
+      5000,
+      1000000000000
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "desc": "All your ships gain 5.0% more EXP from combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/xinshou",
+    "id": 300085,
+    "max_time": 0,
+    "name": "EXP Boost V",
+    "type_priority": 0
+  },
+  "300086": {
+    "benefit_condition": [
+      "pt",
+      286,
+      0,
+      1000
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "desc": "All your ships deal 1.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_11",
+    "id": 300086,
+    "max_time": 0,
+    "name": "Damage Boost I",
+    "type_priority": 0
+  },
+  "300087": {
+    "benefit_condition": [
+      "pt",
+      286,
+      1000,
+      2000
+    ],
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "desc": "All your ships deal 2.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_11",
+    "id": 300087,
+    "max_time": 0,
+    "name": "Damage Boost II",
+    "type_priority": 0
+  },
+  "300088": {
+    "benefit_condition": [
+      "pt",
+      286,
+      2000,
+      3500
+    ],
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "desc": "All your ships deal 3.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_11",
+    "id": 300088,
+    "max_time": 0,
+    "name": "Damage Boost III",
+    "type_priority": 0
+  },
+  "300089": {
+    "benefit_condition": [
+      "pt",
+      286,
+      3500,
+      5000
+    ],
+    "benefit_effect": "506",
+    "benefit_type": "battle_buff",
+    "desc": "All your ships deal 4.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_11",
+    "id": 300089,
+    "max_time": 0,
+    "name": "Damage Boost IV",
+    "type_priority": 0
+  },
+  "300090": {
+    "benefit_condition": [
+      "pt",
+      286,
+      5000,
+      1000000000000
+    ],
+    "benefit_effect": "508",
+    "benefit_type": "battle_buff",
+    "desc": "All your ships deal 5.0% more DMG during combat on Campaign, Hard Mode, Event, and War Archives stages.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_11",
+    "id": 300090,
+    "max_time": 0,
+    "name": "Damage Boost V",
+    "type_priority": 0
+  },
+  "300091": {
+    "benefit_condition": [
+      "pt",
+      286,
+      0,
+      1000
+    ],
+    "benefit_effect": "100",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Leveling skills in the Tactical Class takes 1.0% less time.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_10",
+    "id": 300091,
+    "max_time": 0,
+    "name": "Skill Learning Speed I",
+    "type_priority": 0
+  },
+  "300092": {
+    "benefit_condition": [
+      "pt",
+      286,
+      1000,
+      2000
+    ],
+    "benefit_effect": "200",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Leveling skills in the Tactical Class takes 2.0% less time.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_10",
+    "id": 300092,
+    "max_time": 0,
+    "name": "Skill Learning Speed II",
+    "type_priority": 0
+  },
+  "300093": {
+    "benefit_condition": [
+      "pt",
+      286,
+      2000,
+      3500
+    ],
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Leveling skills in the Tactical Class takes 3.0% less time.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_10",
+    "id": 300093,
+    "max_time": 0,
+    "name": "Skill Learning Speed III",
+    "type_priority": 0
+  },
+  "300094": {
+    "benefit_condition": [
+      "pt",
+      286,
+      3500,
+      5000
+    ],
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Leveling skills in the Tactical Class takes 4.0% less time.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_10",
+    "id": 300094,
+    "max_time": 0,
+    "name": "Skill Learning Speed IV",
+    "type_priority": 0
+  },
+  "300095": {
+    "benefit_condition": [
+      "pt",
+      286,
+      5000,
+      1000000000000
+    ],
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "desc": "Leveling skills in the Tactical Class takes 5.0% less time.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_10",
+    "id": 300095,
+    "max_time": 0,
+    "name": "Skill Learning Speed V",
+    "type_priority": 0
+  },
+  "300096": {
+    "benefit_condition": [
+      "pt",
+      286,
+      0,
+      1000
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "dorm_exp",
+    "desc": "Your ships gain 1.0% more EXP in the Dorm.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_12",
+    "id": 300096,
+    "max_time": 0,
+    "name": "Dorm EXP Boost I",
+    "type_priority": 0
+  },
+  "300097": {
+    "benefit_condition": [
+      "pt",
+      286,
+      1000,
+      2000
+    ],
+    "benefit_effect": "2",
+    "benefit_type": "dorm_exp",
+    "desc": "Your ships gain 2.0% more EXP in the Dorm.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_12",
+    "id": 300097,
+    "max_time": 0,
+    "name": "Dorm EXP Boost II",
+    "type_priority": 0
+  },
+  "300098": {
+    "benefit_condition": [
+      "pt",
+      286,
+      2000,
+      3500
+    ],
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "desc": "Your ships gain 3.0% more EXP in the Dorm.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_12",
+    "id": 300098,
+    "max_time": 0,
+    "name": "Dorm EXP Boost III",
+    "type_priority": 0
+  },
+  "300099": {
+    "benefit_condition": [
+      "pt",
+      286,
+      3500,
+      5000
+    ],
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "desc": "Your ships gain 4.0% more EXP in the Dorm.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_12",
+    "id": 300099,
+    "max_time": 0,
+    "name": "Dorm EXP Boost IV",
+    "type_priority": 0
+  },
+  "300100": {
+    "benefit_condition": [
+      "pt",
+      286,
+      5000,
+      1000000000000
+    ],
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "desc": "Your ships gain 5.0% more EXP in the Dorm.",
+    "hide": 1,
+    "icon": "Props/buff_minigame_12",
+    "id": 300100,
+    "max_time": 0,
+    "name": "Dorm EXP Boost V",
+    "type_priority": 0
+  },
   "all": [
     1,
     2,
@@ -1097,6 +1943,48 @@
     63,
     64,
     65,
-    103
+    103,
+    300001,
+    300002,
+    300003,
+    300011,
+    300012,
+    300013,
+    300021,
+    300022,
+    300023,
+    300031,
+    300032,
+    300033,
+    300041,
+    300042,
+    300043,
+    300051,
+    300052,
+    300053,
+    300061,
+    300062,
+    300063,
+    300071,
+    300081,
+    300082,
+    300083,
+    300084,
+    300085,
+    300086,
+    300087,
+    300088,
+    300089,
+    300090,
+    300091,
+    300092,
+    300093,
+    300094,
+    300095,
+    300096,
+    300097,
+    300098,
+    300099,
+    300100
   ]
 }
