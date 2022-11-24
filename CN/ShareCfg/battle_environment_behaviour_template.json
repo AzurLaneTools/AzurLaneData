@@ -1516,6 +1516,72 @@
     "id": 10024,
     "name": "十四章灯塔暴露DEBUFF"
   },
+  "10025": {
+    "behaviour_list": [
+      {
+        "FX_ID": "yaosaizidan02",
+        "offset": [
+          -15,
+          0,
+          145
+        ],
+        "reload_time": 100,
+        "type": 1
+      },
+      {
+        "damage": 0,
+        "delay": 1,
+        "hp_rate": 0.01,
+        "reload_time": 4,
+        "type": 2
+      }
+    ],
+    "id": 10025,
+    "name": "巨炮嵌套配置2"
+  },
+  "10026": {
+    "behaviour_list": [
+      {
+        "content": {
+          "alert": {
+            "alert_fx": "AlertArea",
+            "range": 20
+          },
+          "child_prefab": {
+            "behaviours": 10025,
+            "cld_data": [
+              20
+            ],
+            "life_time": 3
+          },
+          "count": 1
+        },
+        "offset_time": 0,
+        "reload_time": 8,
+        "rounds": 5,
+        "route": {
+          "1": {
+            "count": 3
+          },
+          "2": {
+            "count": 3
+          },
+          "3": {
+            "count": 3
+          },
+          "4": {
+            "count": 3
+          },
+          "5": {
+            "count": 3
+          }
+        },
+        "type": 6
+      }
+    ],
+    "id": 10026,
+    "name": "莱莎联动炮击"
+  },
   "10100": {
     "behaviour_list": [
       {
