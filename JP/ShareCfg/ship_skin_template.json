@@ -13707,6 +13707,122 @@
     "voice_actor": 40,
     "voice_actor_2": -1
   },
+  "102095": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "149",
+    "bg_sp": "1101",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.168,
+          1.209,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          0.986,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.012,
+          0.024,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.103,
+          0.955,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "普段は気軽に来れない場所に来るのってすっごくワクワクするよなー！指揮官、せっかくの旅行だし、美味しいものをたくさん食べたり、珍しいものをたくさん見に行こう！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 5,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 102095,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "南方の旅路",
+    "painting": "kelifulan_6",
+    "prefab": "kelifulan_6",
+    "rarity_bg": "",
+    "ship_group": 10209,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 9999,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.536,
+              2.334,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 40,
+    "voice_actor_2": -1
+  },
   "102098": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -24433,6 +24549,157 @@
             [
               -0.463,
               2.539,
+              0.14
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      1,
+      2
+    ],
+    "time": "",
+    "voice_actor": 134,
+    "voice_actor_2": -1
+  },
+  "103244": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "109",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "cannon": [
+        [
+          1.202,
+          1.03,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          -0.009,
+          -0.004,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.22,
+          1.132,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "ブレマートンのお悩み相談室へようこそ！今日一日お疲れの指揮官のために…じゃじゃーん！お揃いのルームウェア用意してきたよ♪",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 4,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 103244,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_special",
+      "touch_head"
+    ],
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -20,
+        20
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ],
+      "ParamBodyAngleX": [
+        -8,
+        8
+      ],
+      "ParamBodyAngleY": [
+        -8,
+        4
+      ],
+      "ParamEyeBallX": [
+        -0.1,
+        0.1
+      ],
+      "ParamEyeBallY": [
+        -0.1,
+        0.1
+      ]
+    },
+    "l2d_se": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      57,
+      65,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "ゆったりリラックスタイム",
+    "painting": "bulaimodun_5",
+    "prefab": "bulaimodun_5",
+    "rarity_bg": "",
+    "ship_group": 10324,
+    "ship_l2d_id": "",
+    "shop_id": 70774,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.47,
+              2.213,
               0.14
             ]
           ]
@@ -61804,7 +62071,7 @@
     "ship_l2d_id": "",
     "shop_id": 0,
     "shop_type_id": 9998,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 1,
     "smoke": [
       [
@@ -126874,6 +127141,120 @@
     "voice_actor": 312,
     "voice_actor_2": -1
   },
+  "402082": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.303,
+          2.223,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.79,
+          1.389,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.424,
+          1.191,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "指揮官も眠れないの？そ、それは…きっと私がさっき指揮官がいい夢をみるようにって願っちゃったから…エルビングだけじゃなく、指揮官も眠れなくしたんだ…ああ…",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 2,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 402082,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "眠れない夜の願い",
+    "painting": "aierbin_3",
+    "prefab": "aierbin_3",
+    "rarity_bg": "",
+    "ship_group": 40208,
+    "ship_l2d_id": "",
+    "shop_id": 70773,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.468,
+              2.999,
+              -0.568
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 312,
+    "voice_actor_2": -1
+  },
   "403010": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -127951,7 +128332,7 @@
     "ship_l2d_id": "",
     "shop_id": 70614,
     "shop_type_id": 14,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 0,
     "smoke": [
       [
@@ -128095,7 +128476,7 @@
     ],
     "shop_id": 70700,
     "shop_type_id": 17,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 0,
     "smoke": [
       [
@@ -189619,6 +190000,113 @@
     "voice_actor": 170,
     "voice_actor_2": -1
   },
+  "9701020": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.548,
+          1.582,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.593,
+          1.214,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "はじめまして指揮官、私はフォーチュンといいます…く、鎖のことはあまり気にしないでくださいっ。力を…力を制御するのに必要なものでして…",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 9701020,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "フォーチュン(META)",
+    "painting": "mingyunnvshen_alter",
+    "prefab": "mingyunnvshen_alter",
+    "rarity_bg": "",
+    "ship_group": 970102,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.276,
+              2.33,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": -1,
+    "voice_actor_2": -1
+  },
   "9702010": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -200563,6 +201051,1211 @@
     ],
     "time": "",
     "voice_actor": 86,
+    "voice_actor_2": -1
+  },
+  "10900010": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.153,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.02,
+          0.816,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "はじめまして！あたしはライザリン・シュタウト。ライザって呼んでね！カンセンのことはよく分かんないけど……ま、なんとかなるかな！これからよろしくね！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900010,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "ライザリン・シュタウト",
+    "painting": "laisha",
+    "prefab": "laisha",
+    "rarity_bg": "",
+    "ship_group": 1090001,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.293,
+              2.451,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 348,
+    "voice_actor_2": -1
+  },
+  "10900011": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "1102",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.085,
+          1.199,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.02,
+          0.816,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "指揮官さんいらっしゃい！ふふ、誰かとこんな風に夜更かしするのは久しぶりだよ。あたし、今日1日ずっと楽しみにしてたんだ。という訳で、まずは何する？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900011,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "夜更かしアルケミスト",
+    "painting": "laisha_2",
+    "prefab": "laisha_2",
+    "rarity_bg": "",
+    "ship_group": 1090001,
+    "ship_l2d_id": "",
+    "shop_id": 70768,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.322,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      5
+    ],
+    "time": "",
+    "voice_actor": 348,
+    "voice_actor_2": -1
+  },
+  "10900020": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.422,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.233,
+          0.971,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "はじめまして、私はクラウディア・バレンツ。色々あって、今日からいっしょに過ごすことになったんだ。少しでも役に立てるように頑張るから、よろしくね！",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900020,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "クラウディア・バレンツ",
+    "painting": "keluodiya",
+    "prefab": "keluodiya",
+    "rarity_bg": "",
+    "ship_group": 1090002,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.157,
+              2.393,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 188,
+    "voice_actor_2": -1
+  },
+  "10900021": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "163",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.318,
+          1.335,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.272,
+          1.02,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "ふふっ、今日も楽しい1日だったなぁ……あっ、指揮官さんこんばんは。今、日記を書いてたんだ。指揮官さんも、良ければ手伝ってくれないかな？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900021,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "おやすみ前リコレクション",
+    "painting": "keluodiya_2",
+    "prefab": "keluodiya_2",
+    "rarity_bg": "",
+    "ship_group": 1090002,
+    "ship_l2d_id": "",
+    "shop_id": 70769,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.245,
+              2.296,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 188,
+    "voice_actor_2": -1
+  },
+  "10900030": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.14,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.622,
+          1.253,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "あなたが指揮官さんですか？私はパトリツィア・アーベルハイムです。パティと呼んでもらえれば結構です。しばらくお世話になるようですので、よろしくお願いします",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900030,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "パトリツィア・アーベルハイム",
+    "painting": "patelixia",
+    "prefab": "patelixia",
+    "rarity_bg": "",
+    "ship_group": 1090003,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.07,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 241,
+    "voice_actor_2": -1
+  },
+  "10900031": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "163",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.14,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.622,
+          1.253,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "ふぅ、今日やることは全部終わり……はっ！？指揮官さん、いつからそこに！？だ、だらしないところを見せてしまってすみません……とりあえず、こちらへどうぞ",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900031,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "夢と現のリラックスタイム",
+    "painting": "patelixia_2",
+    "prefab": "patelixia_2",
+    "rarity_bg": "",
+    "ship_group": 1090003,
+    "ship_l2d_id": "",
+    "shop_id": 70770,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.109,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 241,
+    "voice_actor_2": -1
+  },
+  "10900040": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.347,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.35,
+          1.01,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "オーレン族の戦士、リラ・ディザイアスだ。今は重巡洋艦ということになっているが、戦いには支障はないだろう。ここで世話になる以上、私も戦士として役目を果たさせてもらう",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900040,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "リラ・ディザイアス",
+    "painting": "lila",
+    "prefab": "lila",
+    "rarity_bg": "",
+    "ship_group": 1090004,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.225,
+              2.296,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 349,
+    "voice_actor_2": -1
+  },
+  "10900041": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "156",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.347,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.35,
+          1.01,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "こんな夜更けにどうした。何、眠れない？一緒に夜更かしして欲しい、だと？……仕方がない、付き合ってやろう。丁度私も目が冴えていたところだしな",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900041,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "月下の邂逅",
+    "painting": "lila_2",
+    "prefab": "lila_2",
+    "rarity_bg": "",
+    "ship_group": 1090004,
+    "ship_l2d_id": "",
+    "shop_id": 70771,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.177,
+              2.335,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 349,
+    "voice_actor_2": -1
+  },
+  "10900050": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.27,
+          1.033,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          1.02,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.396,
+          1.189,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "私はオーレン族のセリ。今は空母っていうものらしいわ。ところで、ここに種はあるかしら……",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900050,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "セリ・グロース",
+    "painting": "saili",
+    "prefab": "saili",
+    "rarity_bg": "",
+    "ship_group": 1090005,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.264,
+              2.247,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 326,
+    "voice_actor_2": -1
+  },
+  "10900051": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "158",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.27,
+          1.033,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          1.02,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.396,
+          1.189,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "美しい緑に澄んだ水。母港にこれほど美しい場所があるなんて知らなかったわ……あら指揮官。あなたも夜の散歩中？",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900051,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "星月夜に夢見る妖精",
+    "painting": "saili_2",
+    "prefab": "saili_2",
+    "rarity_bg": "",
+    "ship_group": 1090005,
+    "ship_l2d_id": "",
+    "shop_id": 70772,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.264,
+              2.247,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 326,
+    "voice_actor_2": -1
+  },
+  "10900060": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.131,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.321,
+          0.855,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "ふむ。わらわを呼び出すとは、面白き人間がいたものじゃ。わらわは奏波氏族の長カラ・イデアス。お主の望みに応じ、しばしの間この世界に留まってやろう",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900060,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "カラ・イデアス",
+    "painting": "kala",
+    "prefab": "kala",
+    "rarity_bg": "",
+    "ship_group": 1090006,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.079,
+              2.228,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 350,
     "voice_actor_2": -1
   }
 }
