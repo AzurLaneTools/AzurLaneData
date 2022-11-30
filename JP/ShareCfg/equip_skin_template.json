@@ -23111,24 +23111,23 @@
     ]
   },
   "2025": {
-    "bullet_name": "",
+    "bullet_name": "paodan_shaizi",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "当たらなかったらノーカウントピョ！",
     "equip_type": [
-      1,
-      2,
-      3
+      4,
+      11
     ],
     "fire_fx_name": "",
-    "hit_fx_name": "",
+    "hit_fx_name": "paodan_shaizi_hit",
     "hit_sfx": "",
     "icon": "96431",
     "id": 2025,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "主炮占坑",
+    "name": "マジックサイコロ砲弾",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23140,27 +23139,30 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      24000,
+      24000,
+      24000
+    ]
   },
   "2026": {
-    "bullet_name": "",
+    "bullet_name": "yulei_kapai",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "見えるピョ！あなたが持っているカードは－－",
     "equip_type": [
-      1,
-      2,
-      3
+      5,
+      13
     ],
     "fire_fx_name": "",
-    "hit_fx_name": "",
+    "hit_fx_name": "zidan_kapai_hit",
     "hit_sfx": "",
     "icon": "96432",
     "id": 2026,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "鱼雷占坑",
+    "name": "マジックカード魚雷",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23172,18 +23174,19 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      107,
+      107
+    ]
   },
   "2027": {
     "bullet_name": "",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "こ、このマント…動くピョ！？",
     "equip_type": [
-      1,
-      2,
-      3
+      10
     ],
     "fire_fx_name": "",
     "hit_fx_name": "",
@@ -23192,26 +23195,45 @@
     "id": 2027,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "设备占坑",
-    "orbit_combat": "",
-    "orbit_combat_bound": "",
-    "orbit_hidden_action": "",
-    "orbit_ui": "",
-    "orbit_ui_back": 0,
-    "orbit_ui_bound": "",
+    "name": "マジックマント",
+    "orbit_combat": "shebei_moshudoupeng",
+    "orbit_combat_bound": [
+      "face",
+      [
+        1.3,
+        -1.61,
+        -1.01
+      ]
+    ],
+    "orbit_hidden_action": [
+      "sleep",
+      "wash"
+    ],
+    "orbit_ui": "shebei_moshudoupengui",
+    "orbit_ui_back": 1,
+    "orbit_ui_bound": [
+      "face",
+      [
+        140,
+        -150
+      ]
+    ],
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      101,
+      101
+    ]
   },
   "2028": {
-    "bullet_name": "",
+    "bullet_name": "zidan_yingbi02",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "魂をかけるピョ！",
     "equip_type": [
       1,
       2,
@@ -23224,7 +23246,7 @@
     "id": 2028,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "子弹占坑",
+    "name": "マジックコイン弾",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23236,7 +23258,10 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      101,
+      101
+    ]
   },
   "all": [
     1,
