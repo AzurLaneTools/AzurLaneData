@@ -6446,7 +6446,7 @@
     "id": 249,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "鹰酱飞机 ",
+    "name": "鹰酱飞机(鱼雷)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6479,7 +6479,7 @@
     "id": 250,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "鹰酱飞机 ",
+    "name": "鹰酱飞机(战斗)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6512,7 +6512,7 @@
     "id": 251,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "鹰酱飞机 ",
+    "name": "鹰酱飞机(轰炸)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6545,7 +6545,7 @@
     "id": 252,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "牛仔啾 ",
+    "name": "牛仔啾(鱼雷)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6578,7 +6578,7 @@
     "id": 253,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "牛仔啾 ",
+    "name": "牛仔啾(战斗)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6611,7 +6611,7 @@
     "id": 254,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "牛仔啾 ",
+    "name": "牛仔啾(轰炸)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6644,7 +6644,7 @@
     "id": 255,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "超人啾 ",
+    "name": "超人啾(鱼雷)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6677,7 +6677,7 @@
     "id": 256,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "超人啾 ",
+    "name": "超人啾(战斗)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -6710,7 +6710,7 @@
     "id": 257,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "超人啾 ",
+    "name": "超人啾(轰炸)",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23111,24 +23111,23 @@
     ]
   },
   "2025": {
-    "bullet_name": "",
+    "bullet_name": "paodan_shaizi",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "用骰子能变什么魔术？",
     "equip_type": [
-      1,
-      2,
-      3
+      4,
+      11
     ],
     "fire_fx_name": "",
-    "hit_fx_name": "",
+    "hit_fx_name": "paodan_shaizi_hit",
     "hit_sfx": "",
     "icon": "96431",
     "id": 2025,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "主炮占坑",
+    "name": "魔术骰子炮弹",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23140,27 +23139,30 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      24000,
+      24000,
+      24000
+    ]
   },
   "2026": {
-    "bullet_name": "",
+    "bullet_name": "yulei_kapai",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "我已经预料到了啾！你抽到的牌是——",
     "equip_type": [
-      1,
-      2,
-      3
+      5,
+      13
     ],
     "fire_fx_name": "",
-    "hit_fx_name": "",
+    "hit_fx_name": "zidan_kapai_hit",
     "hit_sfx": "",
     "icon": "96432",
     "id": 2026,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "鱼雷占坑",
+    "name": "魔术扑克鱼雷",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23172,18 +23174,19 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      107,
+      107
+    ]
   },
   "2027": {
     "bullet_name": "",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "会凭空自己动的斗篷…啾？",
     "equip_type": [
-      1,
-      2,
-      3
+      10
     ],
     "fire_fx_name": "",
     "hit_fx_name": "",
@@ -23192,26 +23195,45 @@
     "id": 2027,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "设备占坑",
-    "orbit_combat": "",
-    "orbit_combat_bound": "",
-    "orbit_hidden_action": "",
-    "orbit_ui": "",
-    "orbit_ui_back": 0,
-    "orbit_ui_bound": "",
+    "name": "魔术斗篷",
+    "orbit_combat": "shebei_moshudoupeng",
+    "orbit_combat_bound": [
+      "face",
+      [
+        1.3,
+        -1.61,
+        -1.01
+      ]
+    ],
+    "orbit_hidden_action": [
+      "sleep",
+      "wash"
+    ],
+    "orbit_ui": "shebei_moshudoupengui",
+    "orbit_ui_back": 1,
+    "orbit_ui_bound": [
+      "face",
+      [
+        140,
+        -150
+      ]
+    ],
     "rarity": 4,
     "ship_config_id": 100011,
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      101,
+      101
+    ]
   },
   "2028": {
-    "bullet_name": "",
+    "bullet_name": "zidan_yingbi02",
     "derivate_boom": "",
     "derivate_bullet": "",
     "derivate_torpedo": "",
-    "desc": "占坑",
+    "desc": "猜猜看硬币在哪里啾？",
     "equip_type": [
       1,
       2,
@@ -23224,7 +23246,7 @@
     "id": 2028,
     "mirror": 0,
     "miss_sfx": "",
-    "name": "子弹占坑",
+    "name": "魔术硬币子弹",
     "orbit_combat": "",
     "orbit_combat_bound": "",
     "orbit_hidden_action": "",
@@ -23236,7 +23258,10 @@
     "ship_skin_id": 0,
     "themeid": 101,
     "type": 1,
-    "weapon_ids": ""
+    "weapon_ids": [
+      101,
+      101
+    ]
   },
   "all": [
     1,
