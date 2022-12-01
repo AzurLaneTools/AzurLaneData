@@ -12,8 +12,8 @@
       [
         [
           2022,
-          11,
-          17
+          12,
+          1
         ],
         [
           0,
@@ -25,7 +25,7 @@
         [
           2022,
           12,
-          1
+          15
         ],
         [
           23,
@@ -71,8 +71,8 @@
       [
         [
           2022,
-          11,
-          17
+          12,
+          1
         ],
         [
           0,
@@ -84,7 +84,7 @@
         [
           2022,
           12,
-          1
+          15
         ],
         [
           23,
@@ -105,7 +105,7 @@
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      40810
+      40952
     ],
     "type": 0
   },
@@ -181,6 +181,22 @@
     "time": "stop",
     "type": 0
   },
+  "80": {
+    "group_id": 8,
+    "id": 80,
+    "name": "event_Atelier",
+    "order": 1,
+    "param": [
+      "ATELIER_COMPOSITE"
+    ],
+    "pic": "event_Atelier",
+    "text_pic": "text_event_Atelier",
+    "time": [
+      "default",
+      40949
+    ],
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -190,9 +206,13 @@
     30,
     40,
     60,
-    70
+    70,
+    80
   ],
   "get_id_list_by_name": {
+    "event_Atelier": [
+      80
+    ],
     "event_LanternFestival": [
       60
     ],

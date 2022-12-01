@@ -1185,6 +1185,9 @@
   "battle_levelScene_noRaderCount": {
     "tip": "掃描次數不足"
   },
+  "battle_levelScene_ryza_lock": {
+    "tip": "需要<color=#92fc63>通關普通模式</color>才可進入素材關卡"
+  },
   "battle_main_emergent": {
     "tip": "<color=#A9F548>$1</color>受到重創，請注意攔截敵軍"
   },
@@ -1709,7 +1712,7 @@
     "tip": "惡毒、凱旋、倔强、福爾班、勒馬爾 建造追加！"
   },
   "buildship_new_tip": {
-    "tip": "艾倫·M·桑拿、史蒂芬·波特、阿拉巴馬、巴爾的摩、艾爾文、伯明罕 建造機率UP！"
+    "tip": "萊莎琳·斯托特、派翠夏‧阿貝爾海姆、莉拉·德西亞斯、賽莉‧古勞斯 建造機率UP！"
   },
   "buildship_special_tip": {
     "tip": "速科夫 建造追加！"
@@ -10181,6 +10184,317 @@
       }
     ]
   },
+  "ryza_composite_confirm": {
+    "tip": "是否確認調合 $1 * $2？"
+  },
+  "ryza_composite_confirm_single": {
+    "tip": "是否確認調合 $1？"
+  },
+  "ryza_composite_count": {
+    "tip": "製作個數："
+  },
+  "ryza_composite_help_tip": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/ryza_composite_1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/ryza_composite_2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/ryza_composite_3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/ryza_composite_4",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "ryza_composite_words": {
+    "tip": [
+      [
+        "ryza_atellier1",
+        "做些什麼好呢~"
+      ],
+      [
+        "ryza_atellier2",
+        "放些什麼好呢~"
+      ],
+      [
+        "ryza_atellier3",
+        "各種各樣的東西都想試試呢~"
+      ],
+      [
+        "ryza_atellier4",
+        "先把材料放進去再考慮做什麼也不錯吧~"
+      ],
+      [
+        "ryza_atellier5",
+        "這個感覺不錯~"
+      ],
+      [
+        "ryza_atellier6",
+        "好像能做出很厲害的東西呢！"
+      ],
+      [
+        "ryza_atellier7",
+        "嗯嗯，就是這種感覺！"
+      ],
+      [
+        "ryza_atellier8",
+        "會不會順利呢~"
+      ],
+      [
+        "ryza_atellier9",
+        "好，上吧！"
+      ],
+      [
+        "ryza_atellier10",
+        "鏘~！就是這種感覺吧~？"
+      ],
+      [
+        "ryza_atellier11",
+        "太好了，完成了！"
+      ]
+    ]
+  },
+  "ryza_control_help_tip": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/ryza_control",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "ryza_material_not_enough": {
+    "tip": "素材不足，點擊開始調合可查看所需素材"
+  },
+  "ryza_mini_game": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/ryza_mini_game_1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/ryza_mini_game_2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "ryza_rest_produce_count": {
+    "tip": "剩餘可調合數量：$1"
+  },
+  "ryza_task_cancel": {
+    "tip": "取消"
+  },
+  "ryza_task_confirm": {
+    "tip": "確認"
+  },
+  "ryza_task_detail": {
+    "tip": "查看"
+  },
+  "ryza_task_detail_award": {
+    "tip": "報酬"
+  },
+  "ryza_task_detail_content": {
+    "tip": "內容"
+  },
+  "ryza_task_get": {
+    "tip": "領取"
+  },
+  "ryza_task_get_all": {
+    "tip": "全部領取"
+  },
+  "ryza_task_go": {
+    "tip": "前往"
+  },
+  "ryza_task_help_tip": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/ryza_task_1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/ryza_task_2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "ryza_task_level_add": {
+    "tip": "聲望加成"
+  },
+  "ryza_task_level_desc": {
+    "tip": "港區聲望"
+  },
+  "ryza_task_level_num": {
+    "tip": "聲望等級"
+  },
+  "ryza_task_submit": {
+    "tip": "提交"
+  },
+  "ryza_task_tag_battle": {
+    "tip": "討伐"
+  },
+  "ryza_task_tag_dalegate": {
+    "tip": "委託"
+  },
+  "ryza_task_tag_develop": {
+    "tip": "研究"
+  },
+  "ryza_task_tag_explore": {
+    "tip": "探索"
+  },
+  "ryza_tip_composite_invalid": {
+    "tip": "此配方調合次數已達到上限"
+  },
+  "ryza_tip_composite_unlock": {
+    "tip": "鍊金工房準備中，通關T5後開放"
+  },
+  "ryza_tip_control": {
+    "tip": "將核心放入圓形控制盤中獲取效果加成"
+  },
+  "ryza_tip_control_buff": {
+    "tip": "加成適用於TH1~TH5、A.SP、EX關卡"
+  },
+  "ryza_tip_control_buff_already_active_tip": {
+    "tip": "已放入"
+  },
+  "ryza_tip_control_buff_limit": {
+    "tip": "已達上限"
+  },
+  "ryza_tip_control_buff_not_obtain": {
+    "tip": "未擁有"
+  },
+  "ryza_tip_control_buff_not_obtain_tip": {
+    "tip": "前往鍊金工房調合獲得"
+  },
+  "ryza_tip_control_buff_replace": {
+    "tip": "替換"
+  },
+  "ryza_tip_control_buff_upgrade": {
+    "tip": "提升"
+  },
+  "ryza_tip_item_access": {
+    "tip": "點擊道具圖標可查看獲取途徑"
+  },
+  "ryza_tip_main": {
+    "tip": [
+      {
+        "info": "活動簡介：\n<color=#92fc63>12.01-12.15維護</color>期間開啟限時活動「鍊金術士與秘密遺跡群島」\n1.通過特別作戰獲取「遺跡水晶簇」，在「噗尼養成」和「補給商店」處兌換豐厚獎勵\n2.完成「溫泉開發戰」DAY7可獲得限定傢俱<color=#92fc63>小型溫泉</color>與限定外觀裝備等獎勵\n注意：每日開放1回新遊戲，總計7回\n3.「港區委託板」：活動期間完成委託板的任務可以獲取<color=#92fc63>特殊調合素材</color>與限定傢俱等獎勵，還可以獲得港區聲望獲得加成效果\n注意：到12.7為止，每日都會出現新的委託任務\n4.「鍊金工房」：活動期間通過關卡與活動獲得鍊金素材，在鍊金工房中調合獲得紀念傢俱<color=#92fc63>「遺跡冒險之證」</color>、<color=#92fc63>聯動角色特殊兵裝</color>、<color=#92fc63>聯動限定設備裝備</color>等獎勵\n5.「換裝商店」：購買限時換裝\n6.「限時建造」：建造限時角色"
+      }
+    ]
+  },
+  "ryza_tip_max_composite_count": {
+    "tip": "當前已達到最大可調合數量"
+  },
+  "ryza_tip_no_item": {
+    "tip": "-暫未獲得任何素材-"
+  },
+  "ryza_tip_no_recipe": {
+    "tip": "-暫無可調合配方-"
+  },
+  "ryza_tip_put_materials": {
+    "tip": "點擊材料環放入對應材料($1/$2)"
+  },
+  "ryza_tip_select_recipe": {
+    "tip": "點擊左側配方列表選擇配方"
+  },
+  "ryza_tip_toast_item_got": {
+    "tip": "素材收集"
+  },
+  "ryza_tip_unlock_all_tools": {
+    "tip": "獲取全部工具後解鎖配方合成"
+  },
+  "ryza_toggle_only_composite": {
+    "tip": "僅顯示可調合"
+  },
+  "ryza_ui_show_acess": {
+    "tip": "查看\n獲取途徑"
+  },
+  "ryza_word_equip": {
+    "tip": "裝備"
+  },
   "salvage_tips": {
     "tip": [
       {
@@ -12951,6 +13265,9 @@
   "word_is": {
     "tip": "是"
   },
+  "word_item": {
+    "tip": "道具"
+  },
   "word_japanese": {
     "tip": "日文"
   },
@@ -13132,6 +13449,9 @@
   "word_operation": {
     "tip": "參與行動"
   },
+  "word_other": {
+    "tip": "其他"
+  },
   "word_own": {
     "tip": "擁有的"
   },
@@ -13302,6 +13622,9 @@
   },
   "word_shipNation_other": {
     "tip": "其他"
+  },
+  "word_shipNation_ryza": {
+    "tip": "Atelier Ryza"
   },
   "word_shipNation_saDing": {
     "tip": "薩丁帝國"
@@ -13557,6 +13880,9 @@
   },
   "word_tired": {
     "tip": "<color=#FCD400>疲憊</color>"
+  },
+  "word_tool": {
+    "tip": "工具"
   },
   "word_torpedo": {
     "tip": "魚雷"
