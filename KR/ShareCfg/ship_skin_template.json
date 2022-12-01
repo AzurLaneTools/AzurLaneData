@@ -13717,6 +13717,122 @@
     "voice_actor": 40,
     "voice_actor_2": -1
   },
+  "102095": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "149",
+    "bg_sp": "1101",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.168,
+          1.209,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          0.986,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0.012,
+          0.024,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.103,
+          0.955,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "평소에는 쉽게 올 수 없는 곳에 와보는 건 무척이나 설레지! 지휘관, 모처럼 여행 왔으니까 맛있는 것도 많이 먹고, 신기한 것도 많이 보러 가자!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 5,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 102095,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "남방의 여행길",
+    "painting": "kelifulan_6",
+    "prefab": "kelifulan_6",
+    "rarity_bg": "",
+    "ship_group": 10209,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 9999,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.536,
+              2.334,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2
+    ],
+    "time": "",
+    "voice_actor": 40,
+    "voice_actor_2": -1
+  },
   "102098": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -24435,6 +24551,156 @@
             [
               -0.463,
               2.539,
+              0.14
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      1,
+      2
+    ],
+    "time": "",
+    "voice_actor": 134,
+    "voice_actor_2": -1
+  },
+  "103244": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "109",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "cannon": [
+        [
+          1.202,
+          1.03,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          -0.009,
+          -0.004,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.22,
+          1.132,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "브레머튼의 고민 상담실에 온 걸 환영해! 사실은 오늘 하루 동안 고생한 지휘관을 위해… 짜자잔! 커플 룸웨어 준비해왔지롱♪",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 4,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 103244,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -20,
+        20
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ],
+      "ParamBodyAngleX": [
+        -8,
+        8
+      ],
+      "ParamBodyAngleY": [
+        -8,
+        4
+      ],
+      "ParamEyeBallX": [
+        -0.1,
+        0.1
+      ],
+      "ParamEyeBallY": [
+        -0.1,
+        0.1
+      ]
+    },
+    "l2d_se": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      57,
+      65,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "릴렉스 휴식 타임",
+    "painting": "bulaimodun_5",
+    "prefab": "bulaimodun_5",
+    "rarity_bg": "",
+    "ship_group": 10324,
+    "ship_l2d_id": "",
+    "shop_id": 70774,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.47,
+              2.213,
               0.14
             ]
           ]
@@ -61794,7 +62060,7 @@
     "ship_l2d_id": "",
     "shop_id": 0,
     "shop_type_id": 9998,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 1,
     "smoke": [
       [
@@ -126363,6 +126629,120 @@
     "voice_actor": 312,
     "voice_actor_2": -1
   },
+  "402082": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "1102",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.303,
+          2.223,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.79,
+          1.389,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "vicegun": [
+        [
+          1.424,
+          1.191,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "지휘관도 잠이 안 와? 그, 그렇지…. 분명 내가 방금 지휘관이 좋은 꿈을 꿀 수 있도록 바란 탓에…. 엘빙뿐만 아니라, 지휘관까지 못 자게 해버리다니…. 아아….",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 2,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 402082,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "잠 못 이루는 밤의 소원",
+    "painting": "aierbin_3",
+    "prefab": "aierbin_3",
+    "rarity_bg": "",
+    "ship_group": 40208,
+    "ship_l2d_id": "",
+    "shop_id": 70773,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.468,
+              2.999,
+              -0.568
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 312,
+    "voice_actor_2": -1
+  },
   "403010": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -127439,7 +127819,7 @@
     "ship_l2d_id": "",
     "shop_id": 70614,
     "shop_type_id": 14,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 0,
     "smoke": [
       [
@@ -127582,7 +127962,7 @@
     ],
     "shop_id": 70700,
     "shop_type_id": 17,
-    "show_skin": "stand2",
+    "show_skin": "stand",
     "skin_type": 0,
     "smoke": [
       [
@@ -191013,6 +191393,113 @@
     "voice_actor": 170,
     "voice_actor_2": -1
   },
+  "9701020": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.548,
+          1.582,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.593,
+          1.214,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "처음 뵙겠습니다, 지휘관님. 저는 포춘이라고 해요. …사, 사슬은 신경 쓰지 말아 주세요. 힘을… 힘을 제어하기 위해서는 필요한 거라서요….",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 9701020,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "포춘·META",
+    "painting": "mingyunnvshen_alter",
+    "prefab": "mingyunnvshen_alter",
+    "rarity_bg": "",
+    "ship_group": 970102,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.276,
+              2.33,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": -1,
+    "voice_actor_2": -1
+  },
   "9702010": {
     "air_bomb_skin": "",
     "air_bullet_skin": "",
@@ -201957,6 +202444,1211 @@
     ],
     "time": "",
     "voice_actor": 86,
+    "voice_actor_2": -1
+  },
+  "10900010": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.153,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.02,
+          0.816,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "안녕! 라이잘린 슈타우트라고 해. 라이자라고 불러줘! 아직 함선이란게 뭔지 잘 모르겠지만…… 때가 되면 다 해결되겠지! 앞으로 잘 부탁할게!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900010,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "라이잘린 슈타우트",
+    "painting": "laisha",
+    "prefab": "laisha",
+    "rarity_bg": "",
+    "ship_group": 1090001,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.293,
+              2.451,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 348,
+    "voice_actor_2": -1
+  },
+  "10900011": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "1102",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.085,
+          1.199,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.02,
+          0.816,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "지휘관, 어서 와! 후후, 다른 사람이랑 이렇게 밤을 새우는 건 오랜만이네. 나, 오늘 하루 동안 계속 기대하고 있었어. 그래서 우선은 뭐부터 할래?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900011,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "밤새는 연금술사",
+    "painting": "laisha_2",
+    "prefab": "laisha_2",
+    "rarity_bg": "",
+    "ship_group": 1090001,
+    "ship_l2d_id": "",
+    "shop_id": 70768,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.322,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      5
+    ],
+    "time": "",
+    "voice_actor": 348,
+    "voice_actor_2": -1
+  },
+  "10900020": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.422,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.233,
+          0.971,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "안녕, 난 클라우디아 발렌츠야. 사정이 좀 있어서 오늘부터 신세를 지게 되었어. 최선을 다해 모두를 도울테니까 잘 부탁해!",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900020,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "클라우디아 발렌츠",
+    "painting": "keluodiya",
+    "prefab": "keluodiya",
+    "rarity_bg": "",
+    "ship_group": 1090002,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.157,
+              2.393,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 188,
+    "voice_actor_2": -1
+  },
+  "10900021": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "163",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.318,
+          1.335,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.272,
+          1.02,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "후훗, 오늘도 즐거운 하루였어…. 앗, 지휘관. 좋은 아침. 지금 일기를 쓰고 있었어. 지휘관도 괜찮으면 도와주지 않을래?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900021,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "굿나잇 전의 야화",
+    "painting": "keluodiya_2",
+    "prefab": "keluodiya_2",
+    "rarity_bg": "",
+    "ship_group": 1090002,
+    "ship_l2d_id": "",
+    "shop_id": 70769,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.245,
+              2.296,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 188,
+    "voice_actor_2": -1
+  },
+  "10900030": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.14,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.622,
+          1.253,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "당신이 지휘관이죠? 저는 파트리샤 아벨하임이라고 해요. 파티라고 불러주세요. 한동안 신세를 져야할 것 같으니, 잘 부탁드립니다.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900030,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "파트리샤 아벨하임",
+    "painting": "patelixia",
+    "prefab": "patelixia",
+    "rarity_bg": "",
+    "ship_group": 1090003,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.07,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 241,
+    "voice_actor_2": -1
+  },
+  "10900031": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "163",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.14,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.622,
+          1.253,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "휴우, 오늘 할 건 다 처리…… 앗?! 지휘관님, 언제부터 거기에?! 단정치 못한 모습을 보여드려 죄송해요…. 일단은 안으로 들어오세요.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900031,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "꿈과 현실의 휴식 시간",
+    "painting": "patelixia_2",
+    "prefab": "patelixia_2",
+    "rarity_bg": "",
+    "ship_group": 1090003,
+    "ship_l2d_id": "",
+    "shop_id": 70770,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.109,
+              2.345,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 241,
+    "voice_actor_2": -1
+  },
+  "10900040": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.347,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.35,
+          1.01,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "오렌족의 전사 릴라 디자이어스다. 지금은 중순양함이 되었지만 상관없어. 전투에 영향은 없으니까. 여기서 신세를 지는 이상 나도 전사로서 역할을 다하도록 하겠다.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900040,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "릴라 디자이어스",
+    "painting": "lila",
+    "prefab": "lila",
+    "rarity_bg": "",
+    "ship_group": 1090004,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.225,
+              2.296,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 349,
+    "voice_actor_2": -1
+  },
+  "10900041": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "156",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.347,
+          1.15,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.35,
+          1.01,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "이런 늦은 밤에 무슨 일이지? 뭐? 잠이 안 온다고? 같이 밤을 새우고 싶다고? …어쩔 수 없군. 어울려 주마. 마침 나도 잠이 안 오던 참이니.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900041,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "월하의 만남",
+    "painting": "lila_2",
+    "prefab": "lila_2",
+    "rarity_bg": "",
+    "ship_group": 1090004,
+    "ship_l2d_id": "",
+    "shop_id": 70771,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.177,
+              2.335,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 349,
+    "voice_actor_2": -1
+  },
+  "10900050": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.27,
+          1.033,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          1.02,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.396,
+          1.189,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "오렌족 세리야. 지금은 항공모함인 것 같아. 그런데, 여기에 씨앗 있어……?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900050,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "세리 글로스",
+    "painting": "saili",
+    "prefab": "saili",
+    "rarity_bg": "",
+    "ship_group": 1090005,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.264,
+              2.247,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 326,
+    "voice_actor_2": -1
+  },
+  "10900051": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "158",
+    "bg_sp": "",
+    "bgm": "ryza-az-pv",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.27,
+          1.033,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.127,
+          1.02,
+          0
+        ]
+      ],
+      "plane": [
+        [
+          1.396,
+          1.189,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "아름다운 녹음에, 맑은 물. 모항에 이렇게 아름다운 곳이 있는 줄은 몰랐어…. 어머, 지휘관. 당신도 밤 산책 중이야?",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 1,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900051,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "별이 빛나는 밤의 요정",
+    "painting": "saili_2",
+    "prefab": "saili_2",
+    "rarity_bg": "",
+    "ship_group": 1090005,
+    "ship_l2d_id": "",
+    "shop_id": 70772,
+    "shop_type_id": 20,
+    "show_skin": "stand",
+    "skin_type": 0,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.264,
+              2.247,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [
+      2,
+      5
+    ],
+    "time": "",
+    "voice_actor": 326,
+    "voice_actor_2": -1
+  },
+  "10900060": {
+    "air_bomb_skin": "",
+    "air_bullet_skin": "",
+    "air_torpedo_skin": "",
+    "aircraft_skin": "",
+    "bg": "",
+    "bg_sp": "",
+    "bgm": "",
+    "bound_bone": {
+      "antiaircraft": [
+        [
+          1.338,
+          1.131,
+          0
+        ]
+      ],
+      "cannon": [
+        [
+          1.321,
+          0.855,
+          0
+        ]
+      ],
+      "torpedo": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bullet_skin_main": "",
+    "bullet_skin_secondary": "",
+    "desc": "흠, 이 몸을 불러낸 걸 보니 재미있는 인간이 있나보군. 이 몸은 주파씨족의 수장 칼라 이데아스. 그대의 바람에 따라 이 세계에 잠시 머물러 주겠다.",
+    "fx_container": [
+      [
+        0,
+        1.99185,
+        1.15
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.75,
+        -1.299
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "group_index": 0,
+    "gyro": 0,
+    "hand_id": 13,
+    "id": 10900060,
+    "illustrator": -1,
+    "illustrator2": -1,
+    "l2d_animations": "",
+    "l2d_ignore_drag": 0,
+    "l2d_para_range": "",
+    "l2d_se": "",
+    "l2d_voice_calibrate": "",
+    "lip_smoothing": 0,
+    "lip_sync_gain": 0,
+    "live2d_offset": [
+      0,
+      0,
+      0
+    ],
+    "main_UI_FX": "",
+    "name": "칼라 이데아스",
+    "painting": "kala",
+    "prefab": "kala",
+    "rarity_bg": "",
+    "ship_group": 1090006,
+    "ship_l2d_id": "",
+    "shop_id": 0,
+    "shop_type_id": 0,
+    "show_skin": "stand",
+    "skin_type": -1,
+    "smoke": [
+      [
+        50,
+        [
+          [
+            "smoke",
+            [
+              -0.079,
+              2.228,
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "special_effects": "",
+    "spine_offset": "",
+    "tag": [],
+    "time": "",
+    "voice_actor": 350,
     "voice_actor_2": -1
   }
 }
