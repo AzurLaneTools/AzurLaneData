@@ -9002,6 +9002,52 @@
     ],
     "name": "黑声望 开幕弹移动方式"
   },
+  "75020": {
+    "default": 1,
+    "id": 75020,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 1.5
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "X1": -20,
+          "X2": -5,
+          "Z1": 35,
+          "Z2": 75,
+          "duration": 2,
+          "moveCount": 240,
+          "stopCount": 90
+        },
+        "to": 3,
+        "type": 3
+      },
+      {
+        "index": 3,
+        "param": {
+          "x": -5,
+          "z": 55
+        },
+        "to": 4,
+        "type": 1
+      },
+      {
+        "index": 4,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "黑亚利桑那 开幕弹移动方式"
+  },
   "80000": {
     "default": 1,
     "id": 80000,
