@@ -161,6 +161,29 @@
     "usage": "usage_undefined",
     "usage_arg": []
   },
+  "120": {
+    "display": "A data logger issued by the Naval HQ that specifically stores information obtained in Hidden Zones. When used, automatically scouts all Hidden Zones in Operation Siren, and unlocks Hidden Zone Strategic Search.",
+    "expired_date": "",
+    "grid_num": 1,
+    "icon": "Props/W120",
+    "id": 120,
+    "item_origin": [
+      101
+    ],
+    "item_transform_item_id": 0,
+    "item_transform_item_number": 0,
+    "item_transform_item_type": 0,
+    "item_transform_num": 0,
+    "log_text": "",
+    "name": "Hidden Zone Data Logger",
+    "open_box": "",
+    "rarity": 3,
+    "sort_priority": 4,
+    "usage": "usage_world_flag",
+    "usage_arg": [
+      1
+    ]
+  },
   "201": {
     "display": "Can be used to restore the HP of 1 ship in your current fleet by 1,000.",
     "expired_date": "",
@@ -1236,6 +1259,27 @@
         1
       ]
     ]
+  },
+  "2122": {
+    "display": "购买后能得到1个[绝密实验计划]，可用于进行装备研发。",
+    "expired_date": "",
+    "grid_num": 1,
+    "icon": "Props/18127",
+    "id": 2122,
+    "item_origin": [
+      100
+    ],
+    "item_transform_item_id": 0,
+    "item_transform_item_number": 0,
+    "item_transform_item_type": 0,
+    "item_transform_num": 0,
+    "log_text": "",
+    "name": "绝密实验计划",
+    "open_box": "",
+    "rarity": 5,
+    "sort_priority": 2,
+    "usage": "usage_drop",
+    "usage_arg": "1030023"
   },
   "100011": {
     "display": "Coordinates to a zone with a Corrosion level of 6. Will disappear once you arrive at the destination.",
@@ -4216,6 +4260,7 @@
     104,
     105,
     110,
+    120,
     201,
     202,
     203,
@@ -4263,6 +4308,7 @@
     2119,
     2120,
     2121,
+    2122,
     100011,
     100012,
     100013,

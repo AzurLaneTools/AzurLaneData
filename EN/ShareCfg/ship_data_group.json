@@ -11336,6 +11336,16 @@
           }
         ],
         0
+      ],
+      [
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30157,
@@ -11374,6 +11384,16 @@
           "GETBOAT",
           {
             "page": 3
+          }
+        ],
+        0
+      ],
+      [
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
           }
         ],
         0
@@ -14358,6 +14378,17 @@
         "Event: Lunar New Year",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Special Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
         ],
         0
       ]
@@ -17764,6 +17795,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Special Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30711,
@@ -17793,6 +17835,17 @@
         "Event: Universe in Unison",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -17826,6 +17879,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20228,
@@ -17857,6 +17921,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Special Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 10805,
@@ -17886,6 +17961,17 @@
         "Event: Universe in Unison",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Heavy Ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -23770,6 +23856,40 @@
     "trans_type": 0,
     "type": 1
   },
+  "30017": {
+    "code": 30017,
+    "description": [
+      [
+        "META Lab - Coordinate Analysis",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9705031
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970503,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30017,
+    "nationality": 97,
+    "property_hexagon": [
+      "A",
+      "E",
+      "E",
+      "D",
+      "D",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 4
+  },
   "all": [
     1,
     2,
@@ -24364,6 +24484,7 @@
     30013,
     30014,
     30015,
-    30016
+    30016,
+    30017
   ]
 }

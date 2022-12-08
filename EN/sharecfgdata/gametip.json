@@ -3611,6 +3611,15 @@
   "equip_info_31": {
     "tip": "FR "
   },
+  "equip_info_32": {
+    "tip": "Target Leading"
+  },
+  "equip_info_33": {
+    "tip": "Standard RoF"
+  },
+  "equip_info_34": {
+    "tip": "Intercept RoF"
+  },
   "equip_info_4": {
     "tip": "Skill"
   },
@@ -6255,7 +6264,7 @@
   "help_equipment": {
     "tip": [
       {
-        "info": "Different shipgirls use different weapons\n\n• Guns under 140mm:\nused as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, \nLight Cruisers, Heavy Cruisers and Battlecruisers\n\n• Guns bigger than140mm and under 200mm:\nused as the main gun of  Light Cruisers, and secondary gun of some Battleships\n\n• Guns bigger than 200mm and under 283mm:\nused as the main gun of Heavy Cruisers\n\n• Guns bigger than 283mm:\nused as the main gun of Battleships and Battlecruisers\n\n• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers\n\n• Anti-Air weapons are equipped on most shipgirls\n\n• Different Carriers can carry different aircrafts\n\n• Equipment avatars change animation effects\n(Equipment avatars do not take storage space) "
+        "info": "Different shipgirls use different weapons\n\n• Guns under 140mm:\nused as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, \nLight Cruisers, Heavy Cruisers and Battlecruisers\n\n• Guns bigger than140mm and under 200mm:\nused as the main gun of  Light Cruisers, and secondary gun of some Battleships\n\n• Guns bigger than 200mm and under 283mm:\nused as the main gun of Heavy Cruisers\n\n• Guns bigger than 283mm:\nused as the main gun of Battleships and Battlecruisers\n\n• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers\n\n• Anti-Air weapons are equipped on most shipgirls\n\n• Different Carriers can carry different aircrafts\n\n• Equipment avatars change animation effects\n(Equipment avatars do not take storage space)\n\nAnti-Air Gun Update (December 8th, 2022):\n\nAnti-air guns are now split into two categories: long range and short range.\n\nShort range AA guns can be used by all shipgirls with an AA gun slot, regardless of their hull classification.\nThese guns fire at any enemy aircraft that enters your fleet's circular AA range.\n\nLong range AA guns can only be equipped by battleships (BBs), battlecruisers (BCs), and aviation battleships (BBVs).\nIn contrast to short range AA guns, these guns have a forward-facing, cone-shaped range. Much like short range AA guns, they fire automatically at any enemy aircraft that enters their range.\nThe cone originates from one of the shipgirls with the AA gun equipped, prioritizing your flagship if applicable. Sortieing with multiple shipgirls equipped with long range AA guns increases the power of their AA fire.\nUnlike short range AA guns, the shots fired from long range AA guns inflict damage simultaneously to all enemy aircraft within range. "
       }
     ]
   },
@@ -13121,6 +13130,9 @@
   "text_goon_fight": {
     "tip": "Continue"
   },
+  "text_goto": {
+    "tip": "Confirm"
+  },
   "text_iknow": {
     "tip": "Got it"
   },
@@ -14814,6 +14826,24 @@
   "world_automode_setting_all_4_2": {
     "tip": "NO"
   },
+  "world_automode_setting_new_1": {
+    "tip": "Auto-Search by Corrosion Level"
+  },
+  "world_automode_setting_new_1_1": {
+    "tip": "3 and under"
+  },
+  "world_automode_setting_new_1_2": {
+    "tip": "4"
+  },
+  "world_automode_setting_new_1_3": {
+    "tip": "5"
+  },
+  "world_automode_setting_new_1_4": {
+    "tip": "6"
+  },
+  "world_automode_setting_new_1_5": {
+    "tip": "All"
+  },
   "world_automode_start_tip1": {
     "tip": "No zones meet the set conditions."
   },
@@ -14826,11 +14856,23 @@
   "world_automode_start_tip4": {
     "tip": "Unable to leave this zone."
   },
+  "world_automode_start_tip5": {
+    "tip": "Cannot be activated here. Please go to a Secured Zone first and try again."
+  },
   "world_automode_title_1": {
     "tip": "Strategic Search "
   },
   "world_automode_title_2": {
     "tip": ""
+  },
+  "world_automode_treasure_1": {
+    "tip": "Unlock by purchasing \"Hidden Zone Data Logger.\""
+  },
+  "world_automode_treasure_2": {
+    "tip": "Unlock by using \"Hidden Zone Data Logger.\""
+  },
+  "world_automode_treasure_3": {
+    "tip": "Can be purchased after Operation Siren resets."
   },
   "world_battle_count": {
     "tip": "交战次数说明文本占坑"
@@ -14938,7 +14980,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>9/1/22 to 12/7/22</color>, challenge Renown META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Renown META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>.\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>12/8/22 to 3/9/23</color>, challenge Arizona META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Arizona META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>.\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
       }
     ]
   },
