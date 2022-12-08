@@ -3338,6 +3338,32 @@
     "type": 2,
     "type_order": 0
   },
+  "31080": {
+    "desc": "900物资兑换1个鸢尾装备研发支援箱",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      30205
+    ],
+    "genre": "shopping_street",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 31080,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 0,
+    "resource_num": 900,
+    "resource_type": 1,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 2,
+    "type_order": 0
+  },
   "31111": {
     "desc": "400物资兑换5个克洛希德科技箱T1",
     "discount": 0,
@@ -5177,6 +5203,32 @@
     "num": 1,
     "order": 7,
     "resource_num": 1500,
+    "resource_type": 3,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 2,
+    "type_order": 0
+  },
+  "33080": {
+    "desc": "400功勋兑换1个鸢尾装备研发支援箱",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      30205
+    ],
+    "genre": "arena_shop",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 33080,
+    "is_auto_use": 0,
+    "limit_args": [],
+    "limit_args2": "",
+    "num": 1,
+    "order": 9,
+    "resource_num": 400,
     "resource_type": 3,
     "tag": 0,
     "time": "always",
@@ -19210,7 +19262,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -19266,7 +19318,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -19322,7 +19374,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -19378,7 +19430,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54621,7 +54673,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54672,7 +54724,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54723,7 +54775,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54774,7 +54826,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54825,7 +54877,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54876,7 +54928,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -54927,7 +54979,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -62339,7 +62391,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -62390,7 +62442,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -62441,7 +62493,7 @@
         [
           2022,
           12,
-          7
+          9
         ],
         [
           23,
@@ -62932,8 +62984,39 @@
     "type": 2,
     "type_order": 0
   },
+  "100013": {
+    "desc": "隐秘海域记录仪",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      120
+    ],
+    "genre": "world",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 100013,
+    "is_auto_use": 0,
+    "limit_args": [
+      [
+        "time",
+        1
+      ]
+    ],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 1000,
+    "resource_type": 3002,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 12,
+    "type_order": 0
+  },
   "100100": {
-    "desc": "强力效能样本-恢复",
+    "desc": "档案坐标记录仪1",
     "discount": 0,
     "discount_time": [],
     "effect_args": [
@@ -63010,6 +63093,70 @@
     "group_limit": 0,
     "group_type": 0,
     "id": 100102,
+    "is_auto_use": 0,
+    "limit_args": [
+      [
+        "time",
+        1
+      ]
+    ],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 800,
+    "resource_type": 3002,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 20,
+    "type_order": 0
+  },
+  "100103": {
+    "desc": "档案坐标记录仪4",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      2053,
+      10030
+    ],
+    "genre": "world_collection_task",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 100103,
+    "is_auto_use": 0,
+    "limit_args": [
+      [
+        "time",
+        1
+      ]
+    ],
+    "limit_args2": "",
+    "num": 1,
+    "order": 1,
+    "resource_num": 800,
+    "resource_type": 3002,
+    "tag": 0,
+    "time": "always",
+    "time_second": 0,
+    "type": 20,
+    "type_order": 0
+  },
+  "100104": {
+    "desc": "档案坐标记录仪5",
+    "discount": 0,
+    "discount_time": [],
+    "effect_args": [
+      2054,
+      10040
+    ],
+    "genre": "world_collection_task",
+    "group": 0,
+    "group_buy_count": 0,
+    "group_limit": 0,
+    "group_type": 0,
+    "id": 100104,
     "is_auto_use": 0,
     "limit_args": [
       [
