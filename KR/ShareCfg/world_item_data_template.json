@@ -161,6 +161,29 @@
     "usage": "usage_undefined",
     "usage_arg": []
   },
+  "120": {
+    "display": "由指挥部特别制作，储存有全部隐秘海域资料的信息记录仪。使用以后将会自动侦察本期大型作战期间的所有隐秘海域，并解锁隐秘海域计划模式。",
+    "expired_date": "",
+    "grid_num": 1,
+    "icon": "Props/W120",
+    "id": 120,
+    "item_origin": [
+      101
+    ],
+    "item_transform_item_id": 0,
+    "item_transform_item_number": 0,
+    "item_transform_item_type": 0,
+    "item_transform_num": 0,
+    "log_text": "",
+    "name": "隐秘海域信息记录仪",
+    "open_box": "",
+    "rarity": 3,
+    "sort_priority": 4,
+    "usage": "usage_world_flag",
+    "usage_arg": [
+      1
+    ]
+  },
   "201": {
     "display": "사용 시, 현재 함대 내 1명의 캐릭터 내구도를 1000 회복한다.",
     "expired_date": "",
@@ -1236,6 +1259,27 @@
         1
       ]
     ]
+  },
+  "2122": {
+    "display": "购买后能得到1个[绝密实验计划]，可用于进行装备研发。",
+    "expired_date": "",
+    "grid_num": 1,
+    "icon": "Props/18127",
+    "id": 2122,
+    "item_origin": [
+      100
+    ],
+    "item_transform_item_id": 0,
+    "item_transform_item_number": 0,
+    "item_transform_item_type": 0,
+    "item_transform_num": 0,
+    "log_text": "",
+    "name": "绝密实验计划",
+    "open_box": "",
+    "rarity": 5,
+    "sort_priority": 2,
+    "usage": "usage_drop",
+    "usage_arg": "1030023"
   },
   "100011": {
     "display": "해석은 좌표가 위험 등급6의 해역에 위치하고 있음을 나타낸다. 조심히 대응하자.",
@@ -4216,6 +4260,7 @@
     104,
     105,
     110,
+    120,
     201,
     202,
     203,
@@ -4263,6 +4308,7 @@
     2119,
     2120,
     2121,
+    2122,
     100011,
     100012,
     100013,
