@@ -752,6 +752,71 @@
     ],
     "name": "蛋船固定移动ai-25 14章冲底最上"
   },
+  "20020": {
+    "default": 1,
+    "id": 20020,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -8,
+          "z": 0
+        },
+        "to": 2,
+        "type": 2
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 1.5
+        },
+        "to": 3,
+        "type": 0
+      },
+      {
+        "index": 3,
+        "param": {
+          "x": -150,
+          "z": 0
+        },
+        "to": 4,
+        "type": 2
+      },
+      {
+        "index": 4,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "大洋联邦 自爆无人机移动AI"
+  },
+  "20021": {
+    "default": 1,
+    "id": 20021,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -30,
+          "z": 0
+        },
+        "to": 2,
+        "type": 2
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "大洋联邦 攻击潜艇移动AI"
+  },
   "30000": {
     "default": 1,
     "id": 30000,
@@ -8245,6 +8310,78 @@
     ],
     "name": "2022莱莎联动EX BOSS向前移动"
   },
+  "70175": {
+    "default": 1,
+    "id": 70175,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -50,
+          "z": 70
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动 深水情报舰 循环移动轨迹"
+  },
+  "70176": {
+    "default": 1,
+    "id": 70176,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -50,
+          "z": 15
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动 深水情报舰 循环移动轨迹"
+  },
+  "70177": {
+    "default": 1,
+    "id": 70177,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -10,
+          "z": 45
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动 深水情报舰 循环移动轨迹"
+  },
   "75001": {
     "default": 1,
     "id": 75001,
@@ -9047,6 +9184,122 @@
       }
     ],
     "name": "黑亚利桑那 开幕弹移动方式"
+  },
+  "75021": {
+    "default": 1,
+    "id": 75021,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -25,
+          "X2": 0,
+          "Z1": 20,
+          "Z2": 55,
+          "duration": 3,
+          "moveCount": 8000,
+          "stopCount": 0
+        },
+        "to": 2,
+        "type": 3
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动B3仲裁者浮游炮1"
+  },
+  "75022": {
+    "default": 1,
+    "id": 75022,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -25,
+          "X2": 0,
+          "Z1": 55,
+          "Z2": 90,
+          "duration": 3,
+          "moveCount": 8000,
+          "stopCount": 0
+        },
+        "to": 2,
+        "type": 3
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动B3仲裁者浮游炮2"
+  },
+  "75023": {
+    "default": 1,
+    "id": 75023,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -25,
+          "X2": 0,
+          "Z1": 0,
+          "Z2": 35,
+          "duration": 2,
+          "moveCount": 5000,
+          "stopCount": 0
+        },
+        "to": 2,
+        "type": 3
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动B3仲裁者浮游炮3"
+  },
+  "75024": {
+    "default": 1,
+    "id": 75024,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -25,
+          "X2": 0,
+          "Z1": 75,
+          "Z2": 110,
+          "duration": 2,
+          "moveCount": 5000,
+          "stopCount": 0
+        },
+        "to": 2,
+        "type": 3
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2022美系活动B3仲裁者浮游炮4"
   },
   "80000": {
     "default": 1,
