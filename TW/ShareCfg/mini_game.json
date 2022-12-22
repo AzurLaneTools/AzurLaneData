@@ -1034,7 +1034,7 @@
     "config_csv": "",
     "config_csv_key": "",
     "config_data": "",
-    "hub_id": 38,
+    "hub_id": 27,
     "id": 33,
     "mediator_name": "MiniHubMediator",
     "name": "冰壶小游戏",
@@ -1100,6 +1100,7 @@
     "name": "神社指挥官许愿",
     "request_data": 1,
     "simple_config_data": {
+      "shipGameID": 35,
       "target": 100000
     },
     "type": 3,
@@ -1391,6 +1392,110 @@
     "type": 2,
     "view_name": "RyzaMiniGameView"
   },
+  "44": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "hub_id": 37,
+    "id": 44,
+    "mediator_name": "MiniHubMediator",
+    "name": "PVZ小游戏",
+    "request_data": 0,
+    "simple_config_data": {
+      "drop": [
+        [
+          2,
+          54006,
+          1
+        ],
+        [
+          2,
+          50004,
+          5
+        ],
+        [
+          1,
+          2,
+          300
+        ],
+        [
+          2,
+          54034,
+          1
+        ],
+        [
+          2,
+          20013,
+          1
+        ],
+        [
+          2,
+          54051,
+          1
+        ],
+        [
+          7,
+          102233,
+          1
+        ]
+      ]
+    },
+    "type": 2,
+    "view_name": "BeachGuardGameView"
+  },
+  "45": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      5,
+      [
+        10,
+        11,
+        12
+      ],
+      2
+    ],
+    "hub_id": 37,
+    "id": 45,
+    "mediator_name": "MiniHubMediator",
+    "name": "2023神社指挥官许愿",
+    "request_data": 1,
+    "simple_config_data": {
+      "shipGameID": 46,
+      "target": 100000
+    },
+    "type": 3,
+    "view_name": "Shrine2022View"
+  },
+  "46": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      0,
+      [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      1
+    ],
+    "hub_id": 37,
+    "id": 46,
+    "mediator_name": "MiniHubMediator",
+    "name": "2023神社舰娘许愿",
+    "request_data": 1,
+    "simple_config_data": [
+      8,
+      59372,
+      1
+    ],
+    "type": 5,
+    "view_name": "Shrine2022View"
+  },
   "all": [
     1,
     2,
@@ -1434,6 +1539,9 @@
     40,
     41,
     42,
-    43
+    43,
+    44,
+    45,
+    46
   ]
 }
