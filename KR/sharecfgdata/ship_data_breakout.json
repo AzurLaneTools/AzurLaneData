@@ -2339,6 +2339,64 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "101501": {
+    "breakout_id": 101502,
+    "breakout_view": "스킬 습득 - 전탄 발사 I / 어뢰 효율 +5%",
+    "icon": "10001",
+    "id": 101501,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10150,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      70091
+    ]
+  },
+  "101502": {
+    "breakout_id": 101503,
+    "breakout_view": "대공포 발사 수 +1 /어뢰 탑재량 +1 /어뢰 효율+10%",
+    "icon": "10001",
+    "id": 101502,
+    "level": 30,
+    "pre_id": 101501,
+    "use_char": 10150,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      106
+    ]
+  },
+  "101503": {
+    "breakout_id": 101504,
+    "breakout_view": "특수 대잠 무기 장비/전탄 발사 탄막 업그레이드/모든 무기 효율 +5%",
+    "icon": "10001",
+    "id": 101503,
+    "level": 70,
+    "pre_id": 101502,
+    "use_char": 10150,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      70092
+    ]
+  },
+  "101504": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 101504,
+    "level": 0,
+    "pre_id": 101503,
+    "use_char": 10150,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "102011": {
     "breakout_id": 102012,
     "breakout_view": "스킬 습득 - 전탄 발사 I / 모든 무기 효율 +2%",
@@ -5112,6 +5170,65 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "103261": {
+    "breakout_id": 103262,
+    "breakout_view": "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+    "icon": "10001",
+    "id": 103261,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10326,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      70281
+    ]
+  },
+  "103262": {
+    "breakout_id": 103263,
+    "breakout_view": "주포 발사 수 +1 / 주포 효율 +10%",
+    "icon": "10001",
+    "id": 103262,
+    "level": 30,
+    "pre_id": 103261,
+    "use_char": 10326,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      13000,
+      13000
+    ]
+  },
+  "103263": {
+    "breakout_id": 103264,
+    "breakout_view": "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+    "icon": "10001",
+    "id": 103263,
+    "level": 70,
+    "pre_id": 103262,
+    "use_char": 10326,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      70282
+    ]
+  },
+  "103264": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 103264,
+    "level": 0,
+    "pre_id": 103263,
+    "use_char": 10326,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "105011": {
     "breakout_id": 105012,
     "breakout_view": "주포 발사 수 +1 / 주포 효율 +5%",
@@ -6837,6 +6954,71 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "107101": {
+    "breakout_id": 107102,
+    "breakout_view": "뇌격기 탑재량 +1 / 뇌격기 효율 +10%/뇌격기 슬롯에 임의 유형의 함재기 장비 가능",
+    "icon": "10001",
+    "id": 107101,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10710,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      61061,
+      54014
+    ]
+  },
+  "107102": {
+    "breakout_id": 107103,
+    "breakout_view": "격납고 용량+1/모든 폭격기+2/폭격기 효율 10% 상승",
+    "icon": "10001",
+    "id": 107102,
+    "level": 30,
+    "pre_id": 107101,
+    "use_char": 10710,
+    "use_char_num": 1,
+    "use_gold": 4500,
+    "use_item": [],
+    "weapon_ids": [
+      61062,
+      54014,
+      61062,
+      54014
+    ]
+  },
+  "107103": {
+    "breakout_id": 107104,
+    "breakout_view": "함재기 탑재량 +1 / 함재기 효율 +5%",
+    "icon": "10001",
+    "id": 107103,
+    "level": 70,
+    "pre_id": 107102,
+    "use_char": 10710,
+    "use_char_num": 2,
+    "use_gold": 20000,
+    "use_item": [],
+    "weapon_ids": [
+      61063,
+      54015,
+      61063,
+      54015
+    ]
+  },
+  "107104": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 107104,
+    "level": 0,
+    "pre_id": 107103,
+    "use_char": 10710,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "107111": {
     "breakout_id": 107112,
     "breakout_view": "전투기 탑재량 +1 / 함재기 효율 +3%",
@@ -6897,6 +7079,71 @@
     "level": 0,
     "pre_id": 107113,
     "use_char": 10711,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "107121": {
+    "breakout_id": 107122,
+    "breakout_view": "전투기 탑재량 +1 / 함재기 효율 +3%",
+    "icon": "10001",
+    "id": 107121,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10712,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      60321,
+      54014
+    ]
+  },
+  "107122": {
+    "breakout_id": 107123,
+    "breakout_view": "격납고 용량 +1 / 폭격기 탑재량 +1 / 함재기 효율 +5%",
+    "icon": "10001",
+    "id": 107122,
+    "level": 30,
+    "pre_id": 107121,
+    "use_char": 10712,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      60322,
+      54014,
+      60322,
+      54014
+    ]
+  },
+  "107123": {
+    "breakout_id": 107124,
+    "breakout_view": "함재기 탑재량 +1 / 함재기 효율 +7%",
+    "icon": "10001",
+    "id": 107123,
+    "level": 70,
+    "pre_id": 107122,
+    "use_char": 10712,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      60323,
+      54015,
+      60323,
+      54015
+    ]
+  },
+  "107124": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 107124,
+    "level": 0,
+    "pre_id": 107123,
+    "use_char": 10712,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -7157,6 +7404,71 @@
     "level": 0,
     "pre_id": 107233,
     "use_char": 10723,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "107271": {
+    "breakout_id": 107272,
+    "breakout_view": "전투기 탑재량+1/전투기 효율+5% ",
+    "icon": "10001",
+    "id": 107271,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10727,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60391,
+      54011
+    ]
+  },
+  "107272": {
+    "breakout_id": 107273,
+    "breakout_view": "격납고 용량+1/뇌격기 탑재량+1/전투기 효율+10% ",
+    "icon": "10001",
+    "id": 107272,
+    "level": 30,
+    "pre_id": 107271,
+    "use_char": 10727,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60392,
+      54011,
+      60392,
+      54011
+    ]
+  },
+  "107273": {
+    "breakout_id": 107274,
+    "breakout_view": "함재기 탑재량 +1 / 뇌격기 효율 +15%",
+    "icon": "10001",
+    "id": 107273,
+    "level": 70,
+    "pre_id": 107272,
+    "use_char": 10727,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60393,
+      54012,
+      60393,
+      54012
+    ]
+  },
+  "107274": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 107274,
+    "level": 0,
+    "pre_id": 107273,
+    "use_char": 10727,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
