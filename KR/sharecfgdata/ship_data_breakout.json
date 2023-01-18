@@ -13859,6 +13859,71 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "206081": {
+    "breakout_id": 206082,
+    "breakout_view": "所有鱼雷机+1/舰载机效率提高2%",
+    "icon": "10001",
+    "id": 206081,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 20608,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      60931,
+      54014
+    ]
+  },
+  "206082": {
+    "breakout_id": 206083,
+    "breakout_view": "机库容量+1/所有轰炸机+1/舰载机效率提高3%",
+    "icon": "10001",
+    "id": 206082,
+    "level": 30,
+    "pre_id": 206081,
+    "use_char": 20608,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      60932,
+      54014,
+      60932,
+      54014
+    ]
+  },
+  "206083": {
+    "breakout_id": 206084,
+    "breakout_view": "所有舰载机+1/舰载机效率提高5%",
+    "icon": "10001",
+    "id": 206083,
+    "level": 70,
+    "pre_id": 206082,
+    "use_char": 20608,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      60933,
+      54015,
+      60933,
+      54015
+    ]
+  },
+  "206084": {
+    "breakout_id": 0,
+    "breakout_view": "无",
+    "icon": "10001",
+    "id": 206084,
+    "level": 0,
+    "pre_id": 206083,
+    "use_char": 20608,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "206131": {
     "breakout_id": 206132,
     "breakout_view": "전투기 탑재량 +1 / 전투기 효율 +5%",
@@ -28651,6 +28716,65 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "502111": {
+    "breakout_id": 502112,
+    "breakout_view": "获得全弹发射I/全武器效率提高2%",
+    "icon": "10001",
+    "id": 502111,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 50201,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      74121
+    ]
+  },
+  "502112": {
+    "breakout_id": 502113,
+    "breakout_view": "防空炮底座+1/全武器效率提高3%",
+    "icon": "10001",
+    "id": 502112,
+    "level": 30,
+    "pre_id": 502111,
+    "use_char": 50201,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      104,
+      104
+    ]
+  },
+  "502113": {
+    "breakout_id": 502114,
+    "breakout_view": "全弹发射弹幕升级/全武器效率提高5%",
+    "icon": "10001",
+    "id": 502113,
+    "level": 70,
+    "pre_id": 502112,
+    "use_char": 50201,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      74122
+    ]
+  },
+  "502114": {
+    "breakout_id": 0,
+    "breakout_view": "无",
+    "icon": "10001",
+    "id": 502114,
+    "level": 0,
+    "pre_id": 502113,
+    "use_char": 50201,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "506011": {
     "breakout_id": 506012,
     "breakout_view": "전투기 효율 3% 상승",
@@ -28708,6 +28832,127 @@
     "level": 0,
     "pre_id": 506013,
     "use_char": 50601,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "506021": {
+    "breakout_id": 506022,
+    "breakout_view": "所有水上机+1/舰载机效率提高5%",
+    "icon": "10001",
+    "id": 506021,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 50602,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60921,
+      54014
+    ]
+  },
+  "506022": {
+    "breakout_id": 506023,
+    "breakout_view": "机库容量+1/所有水上机+1/舰载机效率提高5%",
+    "icon": "10001",
+    "id": 506022,
+    "level": 30,
+    "pre_id": 506021,
+    "use_char": 50602,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60922,
+      54014
+    ]
+  },
+  "506023": {
+    "breakout_id": 506024,
+    "breakout_view": "舰载机效率提高10%",
+    "icon": "10001",
+    "id": 506023,
+    "level": 70,
+    "pre_id": 506022,
+    "use_char": 50602,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60923,
+      54014,
+      60923,
+      54014
+    ]
+  },
+  "506024": {
+    "breakout_id": 0,
+    "breakout_view": "无",
+    "icon": "10001",
+    "id": 506024,
+    "level": 0,
+    "pre_id": 506023,
+    "use_char": 50602,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "519011": {
+    "breakout_id": 519012,
+    "breakout_view": "所有水上机+1",
+    "icon": "10001",
+    "id": 519011,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 51901,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60941
+    ]
+  },
+  "519012": {
+    "breakout_id": 519013,
+    "breakout_view": "航载机效率提升5%",
+    "icon": "10001",
+    "id": 519012,
+    "level": 30,
+    "pre_id": 519011,
+    "use_char": 51901,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60942
+    ]
+  },
+  "519013": {
+    "breakout_id": 519014,
+    "breakout_view": "所有水上机+1/舰载机效率提高10%",
+    "icon": "10001",
+    "id": 519013,
+    "level": 70,
+    "pre_id": 519012,
+    "use_char": 51901,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60943
+    ]
+  },
+  "519014": {
+    "breakout_id": 0,
+    "breakout_view": "无",
+    "icon": "10001",
+    "id": 519014,
+    "level": 0,
+    "pre_id": 519013,
+    "use_char": 51901,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -31285,6 +31530,65 @@
     "level": 0,
     "pre_id": 702043,
     "use_char": 70204,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "702051": {
+    "breakout_id": 702052,
+    "breakout_view": "获得全弹发射I/主炮效率提高5%",
+    "icon": "10001",
+    "id": 702051,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 70205,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      170001
+    ]
+  },
+  "702052": {
+    "breakout_id": 702053,
+    "breakout_view": "主炮底座+1/主炮效率提高10%",
+    "icon": "10001",
+    "id": 702052,
+    "level": 30,
+    "pre_id": 702051,
+    "use_char": 70205,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      85120,
+      85120
+    ]
+  },
+  "702053": {
+    "breakout_id": 702054,
+    "breakout_view": "全弹发射弹幕升级/主炮效率提高15%",
+    "icon": "10001",
+    "id": 702053,
+    "level": 70,
+    "pre_id": 702052,
+    "use_char": 70205,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      170002
+    ]
+  },
+  "702054": {
+    "breakout_id": 0,
+    "breakout_view": "无",
+    "icon": "10001",
+    "id": 702054,
+    "level": 0,
+    "pre_id": 702053,
+    "use_char": 70205,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
