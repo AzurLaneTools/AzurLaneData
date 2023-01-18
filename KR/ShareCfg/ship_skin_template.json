@@ -68759,7 +68759,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "",
+    "desc": "콜로서스급 항공모함—테세우스",
     "fx_container": [
       [
         0,
@@ -138268,8 +138268,8 @@
     ],
     "main_UI_FX": "",
     "name": "다이나믹 라이징",
-    "painting": "U47_6",
-    "prefab": "U47_6",
+    "painting": "u47_6",
+    "prefab": "u47_6",
     "rarity_bg": "",
     "ship_group": 40802,
     "ship_l2d_id": "",
@@ -142343,7 +142343,7 @@
       ]
     ],
     "group_index": 2,
-    "gyro": 0,
+    "gyro": 1,
     "hand_id": 1,
     "id": 499052,
     "illustrator": -1,
@@ -142365,12 +142365,12 @@
     "l2d_ignore_drag": 0,
     "l2d_para_range": {
       "ParamAngleX": [
-        -15,
-        15
+        -20,
+        20
       ],
       "ParamAngleY": [
-        -15,
-        15
+        -20,
+        20
       ]
     },
     "l2d_se": "",
@@ -142380,8 +142380,8 @@
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      -70,
-      185,
+      -65,
+      170,
       0
     ],
     "main_UI_FX": "",
@@ -142395,7 +142395,10 @@
       4990522,
       4990523,
       4990524,
-      4990525
+      4990525,
+      4990526,
+      4990527,
+      4990528
     ],
     "shop_id": 70814,
     "shop_type_id": 3,
@@ -142811,16 +142814,40 @@
     "id": 499071,
     "illustrator": 1,
     "illustrator2": -1,
-    "l2d_animations": "",
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
     "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ]
+    },
     "l2d_se": "",
-    "l2d_voice_calibrate": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      0,
-      0,
+      47,
+      200,
       0
     ],
     "main_UI_FX": "",
@@ -142829,7 +142856,9 @@
     "prefab": "lupuleixite_2",
     "rarity_bg": "",
     "ship_group": 49907,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      4990711
+    ],
     "shop_id": 70813,
     "shop_type_id": 3,
     "show_skin": "stand",
@@ -144361,8 +144390,27 @@
         ]
       ]
     ],
-    "special_effects": "",
-    "spine_offset": "",
+    "special_effects": [
+      "lihui_yixian_2",
+      [
+        147,
+        329,
+        0
+      ],
+      [
+        1.47
+      ]
+    ],
+    "spine_offset": [
+      [
+        -98,
+        -874,
+        0
+      ],
+      [
+        2.5
+      ]
+    ],
     "tag": [
       2,
       6
@@ -146823,16 +146871,31 @@
     "id": 502042,
     "illustrator": 21,
     "illustrator2": -1,
-    "l2d_animations": "",
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
     "l2d_ignore_drag": 0,
     "l2d_para_range": "",
     "l2d_se": "",
-    "l2d_voice_calibrate": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      0,
-      0,
+      180,
+      -20,
       0
     ],
     "main_UI_FX": "",
@@ -147187,8 +147250,8 @@
     "l2d_ignore_drag": 0,
     "l2d_para_range": {
       "ParamAngleX": [
-        -15,
-        15
+        -20,
+        20
       ],
       "ParamAngleY": [
         -15,
@@ -147212,7 +147275,9 @@
     "prefab": "zhaohe_3",
     "rarity_bg": "",
     "ship_group": 50205,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      5020521
+    ],
     "shop_id": 70811,
     "shop_type_id": 3,
     "show_skin": "stand",
@@ -148066,15 +148131,15 @@
       ],
       "cannon": [
         [
-          1.49,
+          1.35,
           1.11,
           0
         ]
       ],
       "plane": [
         [
-          1.21,
-          1.43,
+          1.06,
+          1.24,
           0
         ]
       ],
@@ -148088,7 +148153,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "",
+    "desc": "수상기 항공모함—화지아",
     "fx_container": [
       [
         0,
@@ -148269,8 +148334,27 @@
         ]
       ]
     ],
-    "special_effects": "",
-    "spine_offset": "",
+    "special_effects": [
+      "lihui_huajia_2",
+      [
+        -5,
+        266,
+        0
+      ],
+      [
+        1.416
+      ]
+    ],
+    "spine_offset": [
+      [
+        -50,
+        -307,
+        0
+      ],
+      [
+        0.67
+      ]
+    ],
     "tag": [
       4,
       6
@@ -148317,7 +148401,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "",
+    "desc": "운송함-딩안",
     "fx_container": [
       [
         0,
@@ -159668,7 +159752,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "",
+    "desc": "차파예프급 경순양함—쿠이비셰프",
     "fx_container": [
       [
         0,
@@ -197534,7 +197618,7 @@
     },
     "bullet_skin_main": "",
     "bullet_skin_secondary": "",
-    "desc": "",
+    "desc": "당신이 지휘관…… 즉 주인님이시로군요. 네. 알겠습니다. 셰필드라고 합니다. 해충에게 총구를 겨누는 건 익숙하오니, 방금 전 일은 너무 괘념치 마시길.",
     "fx_container": [
       [
         0,
