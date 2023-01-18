@@ -16624,6 +16624,19 @@
     "resource_num": 800,
     "resource_type": 59900
   },
+  "10076": {
+    "activity": 0,
+    "commodity_id": 502041,
+    "commodity_type": 7,
+    "id": 10076,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 0,
+    "resource_category": 2,
+    "resource_num": 1000,
+    "resource_type": 59900
+  },
   "11001": {
     "activity": 0,
     "commodity_id": 42000,
@@ -16857,6 +16870,58 @@
     "resource_category": 2,
     "resource_num": 1000,
     "resource_type": 59010
+  },
+  "11019": {
+    "activity": 0,
+    "commodity_id": 42040,
+    "commodity_type": 2,
+    "id": 11019,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 30,
+    "order": 0,
+    "resource_category": 1,
+    "resource_num": 30,
+    "resource_type": 9
+  },
+  "11020": {
+    "activity": 0,
+    "commodity_id": 42046,
+    "commodity_type": 2,
+    "id": 11020,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 10,
+    "order": 0,
+    "resource_category": 1,
+    "resource_num": 120,
+    "resource_type": 9
+  },
+  "11021": {
+    "activity": 0,
+    "commodity_id": 14005,
+    "commodity_type": 2,
+    "id": 11021,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 20,
+    "order": 0,
+    "resource_category": 1,
+    "resource_num": 15,
+    "resource_type": 9
+  },
+  "11022": {
+    "activity": 0,
+    "commodity_id": 13030,
+    "commodity_type": 2,
+    "id": 11022,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 50,
+    "order": 0,
+    "resource_category": 1,
+    "resource_num": 60,
+    "resource_type": 9
   },
   "all": [
     201,
@@ -18136,6 +18201,7 @@
     10073,
     10074,
     10075,
+    10076,
     11001,
     11002,
     11003,
@@ -18153,7 +18219,11 @@
     11015,
     11016,
     11017,
-    11018
+    11018,
+    11019,
+    11020,
+    11021,
+    11022
   ],
   "get_id_list_by_commodity_type": {
     "1": [
@@ -19207,7 +19277,11 @@
       11015,
       11016,
       11017,
-      11018
+      11018,
+      11019,
+      11020,
+      11021,
+      11022
     ],
     "3": [
       202,
@@ -19449,7 +19523,8 @@
       10021,
       10063,
       10065,
-      10069
+      10069,
+      10076
     ],
     "8": [
       1621,

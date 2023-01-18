@@ -251,6 +251,69 @@
     "repair": 0,
     "weapon_ids": []
   },
+  "9702031": {
+    "breakout_id": 9702032,
+    "breakout_view": "Unlock Ashen Might – Sheffield/Main gun efficiency +5%",
+    "gold": 500,
+    "id": 9702031,
+    "item1": 21018,
+    "item1_num": 1,
+    "item2": 21018,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      170011
+    ]
+  },
+  "9702032": {
+    "breakout_id": 9702033,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "gold": 1500,
+    "id": 9702032,
+    "item1": 21018,
+    "item1_num": 1,
+    "item2": 21018,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9702031,
+    "repair": 0,
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "9702033": {
+    "breakout_id": 9702034,
+    "breakout_view": "Improve Ashen Might – Sheffield/Main gun efficiency +15%",
+    "gold": 2500,
+    "id": 9702033,
+    "item1": 21018,
+    "item1_num": 2,
+    "item2": 21018,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9702032,
+    "repair": 0,
+    "weapon_ids": [
+      170012
+    ]
+  },
+  "9702034": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9702034,
+    "item1": 21018,
+    "item1_num": 0,
+    "item2": 21018,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9702033,
+    "repair": 0,
+    "weapon_ids": []
+  },
   "9703011": {
     "breakout_id": 9703012,
     "breakout_view": "Unlock Flickering Light – Trento/Main gun efficiency +5%",
@@ -1140,6 +1203,10 @@
     9702022,
     9702023,
     9702024,
+    9702031,
+    9702032,
+    9702033,
+    9702034,
     9703011,
     9703012,
     9703013,
