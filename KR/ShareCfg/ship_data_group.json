@@ -18971,6 +18971,17 @@
           ""
         ],
         0
+      ],
+      [
+        "소형함 건조",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 70106,
@@ -19514,6 +19525,17 @@
         "출석 스탬프",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "소형함 건조",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
         ],
         0
       ]
@@ -25152,6 +25174,41 @@
     "trans_type": 0,
     "type": 4
   },
+  "30018": {
+    "code": 30018,
+    "description": [
+      [
+        "한정 이벤트: 월드 투어",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9702031
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970203,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30018,
+    "nationality": 97,
+    "property_hexagon": [
+      "B",
+      "B",
+      "E",
+      "B",
+      "C",
+      "C"
+    ],
+    "redirect_id": 101,
+    "share_group_id": [],
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -25762,7 +25819,8 @@
     30014,
     30015,
     30016,
-    30017
+    30017,
+    30018
   ],
   "get_id_list_by_group_type": {
     "10000": [
@@ -27399,6 +27457,9 @@
     ],
     "970202": [
       30011
+    ],
+    "970203": [
+      30018
     ],
     "970301": [
       30013
