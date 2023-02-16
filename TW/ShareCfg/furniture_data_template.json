@@ -4838,6 +4838,49 @@
     "themeId": 0,
     "type": 7
   },
+  "221": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "仿照極地要塞製作的紀念碑，從中能感受到一股毫不動搖的堅韌意志。——「深度回音」活動紀念",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "深度回音",
+    "icon": "maozi3xunzhangicon",
+    "id": 221,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "回音紀念碑",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "maozi3xunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "222": {
     "advice": 0,
     "belong": 1,
@@ -93827,6 +93870,80 @@
     "themeId": 0,
     "type": 7
   },
+  "100021": {
+    "advice": 0,
+    "animator": [
+      [
+        "doaqiuCharControl"
+      ]
+    ],
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Let's Jump！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "doaqiuicon",
+    "id": 100021,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "跳跳彈球 ",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "doaqiu",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -94077,6 +94194,88 @@
     "themeId": 0,
     "type": 2
   },
+  "200004": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "“寶物就由我優雅地接收了！”",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "furniture_aerhangeersike_2icon",
+    "id": 200004,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "逃脫用直升機 ",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      3
+    ],
+    "spine": [
+      [
+        "furniture_aerhangeersike_2",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "tuozhuai2"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "tuozhuai2",
+        [
+          705061
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -94181,6 +94380,7 @@
     216,
     217,
     218,
+    221,
     222,
     233,
     235,
@@ -94204,9 +94404,11 @@
     100018,
     100019,
     100020,
+    100021,
     200001,
     200002,
     200003,
+    200004,
     1001,
     1002,
     1101,
@@ -98220,6 +98422,7 @@
       216,
       217,
       218,
+      221,
       222,
       235,
       239,
@@ -98241,6 +98444,7 @@
       100018,
       100019,
       100020,
+      100021,
       54104,
       54105
     ],
@@ -98250,6 +98454,7 @@
       200001,
       200002,
       200003,
+      200004,
       13101,
       13126,
       13127,
@@ -98476,6 +98681,7 @@
       216,
       217,
       218,
+      221,
       222,
       233,
       235,
@@ -98499,9 +98705,11 @@
       100018,
       100019,
       100020,
+      100021,
       200001,
       200002,
       200003,
+      200004,
       12002,
       12102,
       12103,
@@ -98616,6 +98824,7 @@
       216,
       217,
       218,
+      221,
       222,
       233,
       235,
@@ -98639,9 +98848,11 @@
       100018,
       100019,
       100020,
+      100021,
       200001,
       200002,
       200003,
+      200004,
       12002,
       12102,
       12103,
@@ -102886,6 +103097,7 @@
       200001,
       200002,
       200003,
+      200004,
       1102,
       1103,
       1104,
@@ -104884,6 +105096,7 @@
       216,
       217,
       218,
+      221,
       222,
       235,
       236,
@@ -104927,6 +105140,7 @@
       233,
       100003,
       100008,
+      100021,
       30123,
       35128,
       37121,
