@@ -1908,14 +1908,54 @@
     "name": "Category V Threat - Incursion",
     "type": 10
   },
-  "200242": {
+  "200327": {
     "arg": [],
-    "buff_id": 200242,
-    "desc": "The Tower has come to purge the system. \nAll ships lose a portion of their max HP at regular intervals during battle.",
-    "icon": "200242",
+    "buff_id": 200327,
+    "desc": "The Basilica's control device is inoperable. \nBarrages will appear during battle, inflicting damage to all targets in proportion to their max HP.",
+    "icon": "200327",
     "iconSize": "",
-    "id": 200242,
-    "name": "Reorigination System",
+    "id": 200327,
+    "name": "Basilica Control Device - Inoperable",
+    "type": 10
+  },
+  "200330": {
+    "arg": [],
+    "buff_id": 200330,
+    "desc": "The Basilica's control device is recovering. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP.",
+    "icon": "200330",
+    "iconSize": "",
+    "id": 200330,
+    "name": "Basilica Control Device - Recovering",
+    "type": 10
+  },
+  "200333": {
+    "arg": [],
+    "buff_id": 200333,
+    "desc": "The Basilica's control device is stable. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP and recovering the HP of your ships.",
+    "icon": "200333",
+    "iconSize": "",
+    "id": 200333,
+    "name": "Basilica Control Device - Stable",
+    "type": 10
+  },
+  "200336": {
+    "arg": [],
+    "buff_id": 200336,
+    "desc": "The Iris has answered your prayers. \nYour Iris Libre and Vichya Dominion ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
+    "icon": "200336",
+    "iconSize": "",
+    "id": 200336,
+    "name": "The Blessed Faithful - Iris Orthodoxy",
+    "type": 10
+  },
+  "200338": {
+    "arg": [],
+    "buff_id": 200338,
+    "desc": "Your prayers have been answered... but by whom?\nYour Royal Navy ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
+    "icon": "200338",
+    "iconSize": "",
+    "id": 200338,
+    "name": "The Blessed Faithful - Royal Navy",
     "type": 10
   },
   "all": [
@@ -2107,6 +2147,10 @@
     200239,
     200240,
     200241,
-    200242
+    200327,
+    200330,
+    200333,
+    200336,
+    200338
   ]
 }
