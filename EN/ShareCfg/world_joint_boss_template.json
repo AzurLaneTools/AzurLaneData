@@ -150,7 +150,7 @@
       635
     ],
     "painting": "genaisennao",
-    "state": "stop"
+    "state": "always"
   },
   "6": {
     "boss_level_id": 76,
@@ -320,6 +320,64 @@
       ]
     ]
   },
+  "10": {
+    "boss_level_id": 136,
+    "description": [
+      [
+        "Dominion Expansion",
+        1,
+        "This ship exerts a field of dominion and summons Phantom Knights during battle. <color=#92fc63>The Phantom Knights are resistant to attacks from non-META ships</color>. \nOnce all Phantom Knights have been defeated, this ship <color=#92fc63>becomes weaker</color> and permanently takes increased DMG."
+      ],
+      [
+        "META Affinity",
+        2,
+        "This ship takes more DMG from your META ships, but also deals more DMG to your non-META ships."
+      ]
+    ],
+    "id": 10,
+    "item_id": 100000,
+    "meta_id": 970504,
+    "name": "Queen Elizabeth META",
+    "p_offset": [
+      -118.8,
+      589.5,
+      0.9,
+      0.9
+    ],
+    "p_offset_other": [
+      388,
+      586.2,
+      0.9,
+      0.9
+    ],
+    "painting": "yilishabainvwang",
+    "state": [
+      [
+        [
+          2023,
+          3,
+          9
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2023,
+          6,
+          8
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ]
+  },
   "all": [
     1,
     2,
@@ -329,6 +387,7 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ]
 }
