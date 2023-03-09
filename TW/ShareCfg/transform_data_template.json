@@ -35512,6 +35512,470 @@
     ],
     "use_ship": 0
   },
+  "42401": {
+    "condition_id": [],
+    "descrip": "耐久+45",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 42401,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "艦體改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 400,
+    "use_item": [
+      [
+        [
+          18001,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42402": {
+    "condition_id": [
+      42401
+    ],
+    "descrip": "機動+5",
+    "edit_trans": [],
+    "effect": [
+      {
+        "dodge": 5
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "dd_1",
+    "id": 42402,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "機動強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42403": {
+    "condition_id": [
+      42401
+    ],
+    "descrip": "主炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "mgup_1",
+    "id": 42403,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "主炮改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42404": {
+    "condition_id": [
+      42403
+    ],
+    "descrip": "炮擊+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "cn_1",
+    "id": 42404,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "炮擊強化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18001,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42405": {
+    "condition_id": [
+      42403
+    ],
+    "descrip": "魚雷武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_2": 0.05
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "tpup_1",
+    "id": 42405,
+    "level_limit": 35,
+    "max_level": 1,
+    "name": "魚雷改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1200,
+    "use_item": [
+      [
+        [
+          18002,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42406": {
+    "condition_id": [
+      42405
+    ],
+    "descrip": "雷擊+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "torpedo": 10
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "tp_1",
+    "id": 42406,
+    "level_limit": 40,
+    "max_level": 1,
+    "name": "雷擊強化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42407": {
+    "condition_id": [
+      42405
+    ],
+    "descrip": "航速+3",
+    "edit_trans": [],
+    "effect": [
+      {
+        "speed": 3
+      }
+    ],
+    "gear_score": [
+      25
+    ],
+    "icon": "sp_1",
+    "id": 42407,
+    "level_limit": 50,
+    "max_level": 1,
+    "name": "動力強化",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18002,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42408": {
+    "condition_id": [
+      42404,
+      42407
+    ],
+    "descrip": "裝填+5/裝填+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "reload": 5
+      },
+      {
+        "reload": 10
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "rl_2",
+    "id": 42408,
+    "level_limit": 55,
+    "max_level": 2,
+    "name": "裝填強化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18002,
+          1
+        ]
+      ],
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42409": {
+    "condition_id": [
+      42407
+    ],
+    "descrip": "耐久+45/耐久+75",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      },
+      {
+        "durability": 75
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "hp_2",
+    "id": 42409,
+    "level_limit": 70,
+    "max_level": 2,
+    "name": "艦體改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18003,
+          1
+        ]
+      ],
+      [
+        [
+          18003,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42410": {
+    "condition_id": [
+      42406,
+      42409
+    ],
+    "descrip": "雷擊+5/雷擊+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "torpedo": 5
+      },
+      {
+        "torpedo": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "tp_2",
+    "id": 42410,
+    "level_limit": 75,
+    "max_level": 2,
+    "name": "雷擊強化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18003,
+          1
+        ],
+        [
+          17023,
+          5
+        ]
+      ],
+      [
+        [
+          18003,
+          2
+        ],
+        [
+          17023,
+          15
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42411": {
+    "condition_id": [
+      42409,
+      42410
+    ],
+    "descrip": "機動+5/機動+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "dodge": 5
+      },
+      {
+        "dodge": 10
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "dd_2",
+    "id": 42411,
+    "level_limit": 85,
+    "max_level": 2,
+    "name": "機動強化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18003,
+          2
+        ]
+      ],
+      [
+        [
+          18003,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "42412": {
+    "condition_id": [
+      42408,
+      42411
+    ],
+    "descrip": "近代化改造完成，雷擊+30，機動+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "dodge": 15,
+        "torpedo": 30
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_red",
+    "id": 42412,
+    "level_limit": 90,
+    "max_level": 1,
+    "name": "近代化改造",
+    "ship_id": [
+      [
+        301814,
+        301534
+      ]
+    ],
+    "skill_id": 0,
+    "skin_id": 301819,
+    "star_limit": 5,
+    "use_gold": 4000,
+    "use_item": [
+      [
+        [
+          18003,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
   "43401": {
     "condition_id": [],
     "descrip": "耐久+70",
@@ -36924,6 +37388,18 @@
     37710,
     37711,
     37712,
+    42401,
+    42402,
+    42403,
+    42404,
+    42405,
+    42406,
+    42407,
+    42408,
+    42409,
+    42410,
+    42411,
+    42412,
     43401,
     43402,
     43403,
