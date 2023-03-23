@@ -1,4 +1,19 @@
 {
+  "101": {
+    "des": "아직 개방되지 않았습니다. 기대해 주세요.",
+    "expedition_and_lv_limit_list": [],
+    "id": 101,
+    "insert_daily": 1,
+    "limit_period": "",
+    "limit_time": 0,
+    "limit_type": 0,
+    "pic": "daily4",
+    "show_with_count": 0,
+    "sort": "0",
+    "tips": "아직 개방되지 않았습니다. 기대해 주세요.",
+    "title": "기대해 주세요.",
+    "weekday": []
+  },
   "201": {
     "des": "아군 상선을 노리는 적 어뢰정을 처리하고, 보상으로 강화 재료를 손에 넣어라!",
     "expedition_and_lv_limit_list": [
@@ -52,9 +67,12 @@
       ]
     ],
     "id": 201,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily1",
+    "show_with_count": 0,
     "sort": "1",
     "tips": "매주 월·목·일요일 개방!",
     "title": "상선호위",
@@ -93,9 +111,12 @@
       ]
     ],
     "id": 301,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily2",
+    "show_with_count": 0,
     "sort": "2",
     "tips": "매주 화·금·일요일 개방!",
     "title": "해역소탕",
@@ -134,9 +155,12 @@
       ]
     ],
     "id": 401,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily3",
+    "show_with_count": 0,
     "sort": "3",
     "tips": "매주 수·토·일요일 개방!",
     "title": "강습작전",
@@ -175,11 +199,14 @@
       ]
     ],
     "id": 501,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 2,
     "limit_type": 2,
     "pic": "daily5",
+    "show_with_count": 0,
     "sort": "4",
-    "tips": "아직 개방되지 않았습니다. 기대해주세요!",
+    "tips": "통상 파괴는 매일 오픈되며, 매주 2회 진행 가능.",
     "title": "통상 파괴",
     "weekday": [
       1,
@@ -220,10 +247,13 @@
       ]
     ],
     "id": 601,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 3,
     "limit_type": 1,
     "pic": "daily6",
-    "sort": "6",
+    "show_with_count": 0,
+    "sort": "7",
     "tips": "전술 리서치는 매일 개방됩니다.",
     "title": "전술 리서치",
     "weekday": [
@@ -249,9 +279,12 @@
       ]
     ],
     "id": 701,
+    "insert_daily": 0,
+    "limit_period": "",
     "limit_time": 2,
     "limit_type": 2,
     "pic": "daily7",
+    "show_with_count": 0,
     "sort": "5",
     "tips": "특수 장비 훈련은 매일 오픈되며, 매주 2회 진행 가능.",
     "title": "특수 장비 훈련",
@@ -266,18 +299,64 @@
     ]
   },
   "801": {
-    "des": "아직 개방되지 않았습니다. 기대해 주세요.",
-    "expedition_and_lv_limit_list": [],
+    "des": "기간 한정 오픈되는 특수 장비 전투 특별 훈련. 훈련 완료 시 특수 장비 또는 특수 장비 재료 획득 가능",
+    "expedition_and_lv_limit_list": [
+      [
+        7010,
+        30
+      ],
+      [
+        7011,
+        70
+      ]
+    ],
     "id": 801,
-    "limit_time": 0,
-    "limit_type": 0,
-    "pic": "daily4",
-    "sort": "7",
-    "tips": "아직 개방되지 않았습니다. 기대해 주세요.",
-    "title": "기대해 주세요.",
-    "weekday": []
+    "insert_daily": 0,
+    "limit_period": [
+      [
+        [
+          2023,
+          3,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2023,
+          3,
+          30
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "limit_time": 1,
+    "limit_type": 1,
+    "pic": "daily8",
+    "show_with_count": 1,
+    "sort": "6",
+    "tips": "한정 장비 훈련은 지속 기간 동안 매일 오픈됩니다.",
+    "title": "한정 장비 훈련",
+    "weekday": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
   },
   "all": [
+    101,
     201,
     301,
     401,
