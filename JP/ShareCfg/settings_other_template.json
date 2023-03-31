@@ -118,7 +118,7 @@
   },
   "14": {
     "alignment": 0,
-    "default": 1,
+    "default": 0,
     "desc": "（ON状態）装備高速変更時に確認画面が表示される",
     "id": 14,
     "name": "QUICK_CHANGE_EQUIP",
@@ -127,11 +127,20 @@
   },
   "15": {
     "alignment": 0,
-    "default": 1,
+    "default": 0,
     "desc": "ONに設定すると、一部L2Dアニメーションはジャイロセンサーの動作によって挙動が異なります",
     "id": 15,
     "name": "GYRO_ENABLE",
     "title": "L2Dジャイロセンサー",
+    "type": 0
+  },
+  "16": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "ONにすると、ドックでケッコン済みの艦船の名前の文字色が変更されます",
+    "id": 16,
+    "name": "SHIP_NAME_COLOR",
+    "title": "ケッコン済艦船名特殊表示",
     "type": 0
   },
   "all": [
@@ -149,6 +158,7 @@
     12,
     13,
     14,
-    15
+    15,
+    16
   ]
 }
