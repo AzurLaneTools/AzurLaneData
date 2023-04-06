@@ -136,6 +136,45 @@
     ],
     "type": 0
   },
+  "1000": {
+    "group_id": 5,
+    "id": 1000,
+    "name": "event_minigame",
+    "order": 1,
+    "param": [
+      28
+    ],
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": [
+      "timer",
+      [
+        [
+          2023,
+          4,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2023,
+          4,
+          27
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 7
+  },
   "all": [
     1,
     2,
@@ -147,6 +186,7 @@
     60,
     70,
     80,
+    1000,
     90
   ],
   "get_id_list_by_name": {
@@ -174,7 +214,8 @@
       10
     ],
     "event_minigame": [
-      20
+      20,
+      1000
     ],
     "event_series": [
       90
