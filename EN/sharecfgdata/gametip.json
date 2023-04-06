@@ -2238,7 +2238,7 @@
     "tip": "*Removed after the event ends."
   },
   "build_ticket_expire_warning": {
-    "tip": "Expiring soon: $1"
+    "tip": "Expiring: $1"
   },
   "build_times_tip": {
     "tip": "Batch Build"
@@ -4358,6 +4358,9 @@
   "event_recommend_fail": {
     "tip": "Does not match Commissions requirements "
   },
+  "event_recommend_level1": {
+    "tip": "No suitable shipgirls found. Would you like to automatically add a locked Lv. 1 shipgirl?"
+  },
   "event_same_type_not_allowed": {
     "tip": "May not add a ship of the same type."
   },
@@ -4818,6 +4821,31 @@
   },
   "game_stopwords": {
     "tip": "Text box is now being hidden."
+  },
+  "gametip_xiaoqiye": {
+    "tip": [
+      {
+        "info": "- Overview -\nDuring the event, Little Enterprise will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Enterprise permanently join your port!"
+      },
+      {
+        "info": "- How to Play -\n· Collect Trust during the event period to have Little Enterprise will permanently join your fleet.\n· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archive). If Little Enterprise is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.\n· The Trust you've collected can be turned in for additional rewards on the event banner."
+      },
+      {
+        "info": "· You will not be able to give a Promise Ring to Little Enterprise until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+      },
+      {
+        "info": "· If Little Enterprise has not been formally recruited by the end of the event, she will leave the port."
+      },
+      {
+        "info": "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to April 12th."
+      },
+      {
+        "info": "· Little Enterprise cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+      },
+      {
+        "info": "· Little Enterprise cannot participate in Guild Bosses until she has been formally recruited."
+      }
+    ]
   },
   "gametip_xiaotiancheng": {
     "tip": [
@@ -10454,6 +10482,12 @@
   "new_airi_error_code_300100": {
     "tip": "System sharing failed"
   },
+  "new_server_shop_sel_goods_tip": {
+    "tip": "You can only exchange for gear once."
+  },
+  "new_server_shop_unopen_tip": {
+    "tip": "Unavailable"
+  },
   "new_skin_no_choose": {
     "tip": "You have not selected a ship to change. Close without making any changes?"
   },
@@ -10503,8 +10537,36 @@
   "newplayer_notice_8": {
     "tip": "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
   },
+  "newserver_activity_tip": {
+    "tip": [
+      {
+        "info": "- Newcomers' Support Campaign -\n"
+      },
+      {
+        "info": "<color=#92fc63>· Availability</color>\nThis campaign lasts from the day you logged in with your newly-created account until 11:59 PM on the 21st day since account creation. You can also see how much longer the campaign is active on the corresponding event banner.\n"
+      },
+      {
+        "info": "<color=#92fc63>· Newcomer Missions</color>\nEligible players can complete special missions to earn Campaign Points. There are two types of missions: daily missions, which update every day at midnight local server time, and one-time missions, which may only be completed once.\nCompleting some of these missions yields additional rewards as well, including the shipgirls Ark Royal, U-47, and Sirius.\n"
+      },
+      {
+        "info": "<color=#92fc63>· The Exchange</color>\nThe Campaign Points you've earned can be spent in the Exchange on rewards such as the shipgirl Nagato, Build Tickets, and Wisdom Cubes.\nThe Exchange's inventory lineup comes in 3 stages that are unlocked in order:\nStage 1: available from your first login\nStage 2: available from day 7 since your first login\nStage 3: available from day 14 since your first login\nYou may still exchange for rewards for another 7 days after this campaign formally ends.\n"
+      },
+      {
+        "info": "<color=#92fc63>· Campaign Pool</color>\nThis is a special build pool available only during the campaign. You can spend your Newcomers' Build Tickets to receive shipgirls, and after a total of 40 builds, you will receive the SR shipgirl Enterprise. Please note that this build pool will be unavailable after this point."
+      }
+    ]
+  },
+  "newserver_build_tip": {
+    "tip": "Only Newcomers' Build Tickets may be used to build from this pool."
+  },
   "newserver_shop_timelimit": {
     "tip": "Unlocked after $1."
+  },
+  "newserver_soldout": {
+    "tip": "This item is sold out."
+  },
+  "newserver_time": {
+    "tip": "$1 day(s) $2 hour(s)"
   },
   "nine_choose_one": {
     "tip": "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
