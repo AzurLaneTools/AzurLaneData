@@ -14885,6 +14885,71 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "207131": {
+    "breakout_id": 207132,
+    "breakout_view": "All Torpedo Bombers +1/Aircraft efficiency +2%",
+    "icon": "10001",
+    "id": 207131,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 20713,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60421,
+      54014
+    ]
+  },
+  "207132": {
+    "breakout_id": 207133,
+    "breakout_view": "Hangar capacity +1/All Fighters +1/Aircraft efficiency +3%",
+    "icon": "10001",
+    "id": 207132,
+    "level": 30,
+    "pre_id": 207131,
+    "use_char": 20713,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60422,
+      54014,
+      60422,
+      54014
+    ]
+  },
+  "207133": {
+    "breakout_id": 207134,
+    "breakout_view": "All Torpedo Bombers +1/Aircraft efficiency +5%/Can equip Dive Bombers in the Fighter slot",
+    "icon": "10001",
+    "id": 207133,
+    "level": 70,
+    "pre_id": 207132,
+    "use_char": 20713,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60423,
+      54015,
+      60423,
+      54015
+    ]
+  },
+  "207134": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "id": 207134,
+    "level": 0,
+    "pre_id": 207133,
+    "use_char": 20713,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "213011": {
     "breakout_id": 213012,
     "breakout_view": "Secondary Gun base +1/Main gun efficiency +5%",
@@ -36014,6 +36079,134 @@
     "level": 0,
     "pre_id": 10600073,
     "use_char": 1060007,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "10600081": {
+    "breakout_id": 10600082,
+    "breakout_view": "All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+    "icon": "10001",
+    "id": 10600081,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1060008,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      60981,
+      54011
+    ]
+  },
+  "10600082": {
+    "breakout_id": 10600083,
+    "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Torpedo Bomber efficiency +10%",
+    "icon": "10001",
+    "id": 10600082,
+    "level": 30,
+    "pre_id": 10600081,
+    "use_char": 1060008,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      60982,
+      54011,
+      60982,
+      54011
+    ]
+  },
+  "10600083": {
+    "breakout_id": 10600084,
+    "breakout_view": "All Aircraft +1/Aircraft efficiency +5%",
+    "icon": "10001",
+    "id": 10600083,
+    "level": 70,
+    "pre_id": 10600082,
+    "use_char": 1060008,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      60983,
+      54012,
+      60983,
+      54012
+    ]
+  },
+  "10600084": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "id": 10600084,
+    "level": 0,
+    "pre_id": 10600083,
+    "use_char": 1060008,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "10600091": {
+    "breakout_id": 10600092,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "id": 10600091,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1060009,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      34100,
+      34100
+    ]
+  },
+  "10600092": {
+    "breakout_id": 10600093,
+    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
+    "icon": "10001",
+    "id": 10600092,
+    "level": 30,
+    "pre_id": 10600091,
+    "use_char": 1060009,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ]
+  },
+  "10600093": {
+    "breakout_id": 10600094,
+    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
+    "icon": "10001",
+    "id": 10600093,
+    "level": 70,
+    "pre_id": 10600092,
+    "use_char": 1060009,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      34100,
+      34100,
+      34100
+    ]
+  },
+  "10600094": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "id": 10600094,
+    "level": 0,
+    "pre_id": 10600093,
+    "use_char": 1060009,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
