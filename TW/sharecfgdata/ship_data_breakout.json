@@ -24194,6 +24194,65 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "403121": {
+    "breakout_id": 403122,
+    "breakout_view": "獲得全彈發射I/全武器效率提高2%",
+    "icon": "10001",
+    "id": 403121,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 40312,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      73211
+    ]
+  },
+  "403122": {
+    "breakout_id": 403123,
+    "breakout_view": "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
+    "icon": "10001",
+    "id": 403122,
+    "level": 30,
+    "pre_id": 403121,
+    "use_char": 40312,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "403123": {
+    "breakout_id": 403124,
+    "breakout_view": "全彈發射彈幕升級/全武器效率提高5%",
+    "icon": "10001",
+    "id": 403123,
+    "level": 70,
+    "pre_id": 403122,
+    "use_char": 40312,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      73212
+    ]
+  },
+  "403124": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 403124,
+    "level": 0,
+    "pre_id": 403123,
+    "use_char": 40312,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "403131": {
     "breakout_id": 403132,
     "breakout_view": "獲得全彈發射I/主炮效率提高5%",
@@ -31514,6 +31573,134 @@
     "level": 0,
     "pre_id": 10600073,
     "use_char": 1060007,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "10600081": {
+    "breakout_id": 10600082,
+    "breakout_view": "所有魚雷機+1/魚雷機效率提高5%",
+    "icon": "10001",
+    "id": 10600081,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1060008,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60981,
+      54011
+    ]
+  },
+  "10600082": {
+    "breakout_id": 10600083,
+    "breakout_view": "機庫容量+1/所有戰鬥機+1/魚雷機效率提高10%",
+    "icon": "10001",
+    "id": 10600082,
+    "level": 30,
+    "pre_id": 10600081,
+    "use_char": 1060008,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60982,
+      54011,
+      60982,
+      54011
+    ]
+  },
+  "10600083": {
+    "breakout_id": 10600084,
+    "breakout_view": "所有戰鬥機+1/魚雷機效率提高15%",
+    "icon": "10001",
+    "id": 10600083,
+    "level": 70,
+    "pre_id": 10600082,
+    "use_char": 1060008,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60983,
+      54012,
+      60983,
+      54012
+    ]
+  },
+  "10600084": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 10600084,
+    "level": 0,
+    "pre_id": 10600083,
+    "use_char": 1060008,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "10600091": {
+    "breakout_id": 10600092,
+    "breakout_view": "主炮底座+1/主炮效率提高5%",
+    "icon": "10001",
+    "id": 10600091,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1060009,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      34100,
+      34100
+    ]
+  },
+  "10600092": {
+    "breakout_id": 10600093,
+    "breakout_view": "副炮底座+2/主炮效率提高10%",
+    "icon": "10001",
+    "id": 10600092,
+    "level": 30,
+    "pre_id": 10600091,
+    "use_char": 1060009,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ]
+  },
+  "10600093": {
+    "breakout_id": 10600094,
+    "breakout_view": "主炮底座+1/主炮效率提高15%",
+    "icon": "10001",
+    "id": 10600093,
+    "level": 70,
+    "pre_id": 10600092,
+    "use_char": 1060009,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      34100,
+      34100,
+      34100
+    ]
+  },
+  "10600094": {
+    "breakout_id": 0,
+    "breakout_view": "無",
+    "icon": "10001",
+    "id": 10600094,
+    "level": 0,
+    "pre_id": 10600093,
+    "use_char": 1060009,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
