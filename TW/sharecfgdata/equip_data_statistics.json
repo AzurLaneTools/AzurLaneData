@@ -5537,7 +5537,8 @@
     "id": 720,
     "label": [
       "KMS",
-      "DEV"
+      "DEV",
+      "ParzivalU556"
     ],
     "name": "約定的證明",
     "nationality": 4,
@@ -6512,7 +6513,8 @@
     "id": 880,
     "label": [
       "HMS",
-      "DEV"
+      "DEV",
+      "NPOV"
     ],
     "name": "納爾遜的旗語",
     "nationality": 2,
@@ -15187,6 +15189,135 @@
     "id": 3571,
     "value_1": "21",
     "value_2": 16
+  },
+  "3580": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "attribute_1": "hit",
+    "attribute_2": "cannon",
+    "descrip": "用於生成射擊參數的皇家海軍火控設備",
+    "equip_info": [
+      6
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [
+      9709
+    ],
+    "icon": "3580",
+    "id": 3580,
+    "label": [
+      "HMS",
+      "DEV"
+    ],
+    "name": "海軍部火控台",
+    "nationality": 2,
+    "part_main": [
+      4,
+      5,
+      10,
+      13
+    ],
+    "part_sub": [
+      4,
+      5,
+      10,
+      13
+    ],
+    "property_rate": [],
+    "rarity": 6,
+    "skill_id": [
+      6265
+    ],
+    "speciality": "无",
+    "tech": 0,
+    "torpedo_ammo": 0,
+    "type": 10,
+    "value_1": "24",
+    "value_2": 20,
+    "value_3": 0,
+    "weapon_id": []
+  },
+  "3581": {
+    "base": 3580,
+    "id": 3581,
+    "value_1": "26",
+    "value_2": 22
+  },
+  "3582": {
+    "base": 3580,
+    "id": 3582,
+    "value_1": "28",
+    "value_2": 24
+  },
+  "3583": {
+    "base": 3580,
+    "id": 3583,
+    "value_1": "30",
+    "value_2": 26
+  },
+  "3584": {
+    "base": 3580,
+    "id": 3584,
+    "value_1": "32",
+    "value_2": 28
+  },
+  "3585": {
+    "base": 3580,
+    "id": 3585,
+    "value_1": "35",
+    "value_2": 30
+  },
+  "3586": {
+    "base": 3580,
+    "id": 3586,
+    "value_1": "38",
+    "value_2": 32
+  },
+  "3587": {
+    "base": 3580,
+    "id": 3587,
+    "value_1": "41",
+    "value_2": 34
+  },
+  "3588": {
+    "base": 3580,
+    "id": 3588,
+    "value_1": "45",
+    "value_2": 36
+  },
+  "3589": {
+    "base": 3580,
+    "id": 3589,
+    "value_1": "49",
+    "value_2": 38
+  },
+  "3590": {
+    "base": 3580,
+    "id": 3590,
+    "value_1": "53",
+    "value_2": 40
+  },
+  "3591": {
+    "anti_siren": 100,
+    "base": 3580,
+    "id": 3591,
+    "value_1": "57",
+    "value_2": 42
+  },
+  "3592": {
+    "anti_siren": 200,
+    "base": 3580,
+    "id": 3592,
+    "value_1": "61",
+    "value_2": 44
+  },
+  "3593": {
+    "anti_siren": 300,
+    "base": 3580,
+    "id": 3593,
+    "value_1": "65",
+    "value_2": 46
   },
   "3680": {
     "ammo": 3,
@@ -108101,6 +108232,57 @@
       60792
     ]
   },
+  "79851": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "技能弹幕",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 79851,
+    "label": [],
+    "name": "专属弹幕-贾维斯I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      60801
+    ]
+  },
+  "79852": {
+    "base": 79851,
+    "hidden_skill_id": [],
+    "id": 79852,
+    "name": "专属弹幕-贾维斯II",
+    "weapon_id": [
+      60802
+    ]
+  },
   "79861": {
     "ammo": 10,
     "ammo_icon": [],
@@ -125802,6 +125984,57 @@
     "value_2": 0,
     "value_3": 0,
     "weapon_id": []
+  },
+  "170011": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "技能弹幕",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 170011,
+    "label": [],
+    "name": "专属弹幕-谢菲尔德METAI",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "无",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      170011
+    ]
+  },
+  "170012": {
+    "base": 170011,
+    "hidden_skill_id": [],
+    "id": 170012,
+    "name": "专属弹幕-谢菲尔德METAII",
+    "weapon_id": [
+      170012
+    ]
   },
   "594017": {
     "ammo": 2,
