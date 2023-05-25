@@ -136,11 +136,20 @@
   },
   "16": {
     "alignment": 0,
-    "default": 0,
+    "default": 1,
     "desc": "When toggled ON, changes the font color of the names of oathed ships.",
     "id": 16,
     "name": "SHIP_NAME_COLOR",
     "title": "Change Oathed Ship Name Color",
+    "type": 0
+  },
+  "17": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "When toggled ON, part of the combat results screen will be skipped.",
+    "id": 17,
+    "name": "BATTLERESULT_SKIP_DISPAY_PAINTING",
+    "title": "Fast Combat Results Screen",
     "type": 0
   },
   "all": [
@@ -159,6 +168,7 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ]
 }

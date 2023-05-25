@@ -20,6 +20,8 @@
       3
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 0,
@@ -47,6 +49,8 @@
       3
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 0,
@@ -74,6 +78,8 @@
       3
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 0,
@@ -101,6 +107,8 @@
       3
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 0,
@@ -128,6 +136,8 @@
       3
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 0,
@@ -160,6 +170,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205131,
     "shop_action": 0,
@@ -187,6 +199,8 @@
       30
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205131,
     "shop_action": 1,
@@ -214,6 +228,8 @@
       30
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205131,
     "shop_action": 1,
@@ -241,6 +257,8 @@
       30
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 1,
@@ -268,6 +286,8 @@
       30
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 205015,
     "shop_action": 1,
@@ -300,6 +320,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 403035,
     "shop_action": 0,
@@ -327,6 +349,8 @@
       10
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 405031,
     "shop_action": 1,
@@ -354,6 +378,8 @@
       3.5
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 405031,
     "shop_action": 1,
@@ -386,6 +412,8 @@
       10
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 1031651,
     "shop_action": 0,
@@ -413,10 +441,133 @@
       30
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 50,
     "ship_skin_id": 103261,
     "shop_action": 0,
     "smooth": 100,
+    "start_value": 0
+  },
+  "1051721": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 1051721,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 15,
+    "parameter": "touch_drag1",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 105172,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "1051722": {
+    "action_trigger": {
+      "action": "touch_drag1",
+      "num": 1,
+      "time": 0.5,
+      "type": 1
+    },
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 1051722,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 150,
+    "offset_y": 0,
+    "parameter": "touch_drag2",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 10,
+    "ship_skin_id": 105172,
+    "shop_action": 0,
+    "smooth": 150,
+    "start_value": 0
+  },
+  "1990311": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 1990311,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 15,
+    "parameter": "touch_drag1",
+    "range": [
+      0,
+      10
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": -1,
+    "ship_skin_id": 199031,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "1990312": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 1990312,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 15,
+    "offset_y": 0,
+    "parameter": "touch_drag2",
+    "range": [
+      0,
+      10
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 10,
+    "ship_skin_id": 199031,
+    "shop_action": 0,
+    "smooth": 150,
     "start_value": 0
   },
   "3012921": {
@@ -445,6 +596,8 @@
       1
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 301292,
     "shop_action": 0,
@@ -478,6 +631,8 @@
       10
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 301292,
     "shop_action": 0,
@@ -505,6 +660,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 301292,
     "shop_action": 0,
@@ -532,6 +689,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 301292,
     "shop_action": 0,
@@ -564,6 +723,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 302216,
     "shop_action": 0,
@@ -591,6 +752,8 @@
       1
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 302216,
     "shop_action": 0,
@@ -629,6 +792,8 @@
       0
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 306072,
     "shop_action": 0,
@@ -668,6 +833,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 306072,
     "shop_action": 0,
@@ -695,6 +862,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 307074,
     "shop_action": 0,
@@ -722,10 +891,318 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 307074,
     "shop_action": 0,
     "smooth": 200,
+    "start_value": 0
+  },
+  "3070751": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070751,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 200,
+    "offset_y": 0,
+    "parameter": "touch_drag2",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": -1,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070752": {
+    "action_trigger": {
+      "action_list": [
+        {
+          "action": "touch_idle1",
+          "time": 1
+        },
+        {
+          "action": "touch_idle2",
+          "time": 3
+        }
+      ],
+      "type": 3
+    },
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag3",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070752,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 100,
+    "parameter": "touch_drag3",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070753": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070753,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 200,
+    "offset_y": 0,
+    "parameter": "touch_drag",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070754": {
+    "action_trigger": {
+      "action": "touch_drag4",
+      "num": 1,
+      "time": 0.1,
+      "type": 1
+    },
+    "action_trigger_active": "",
+    "drag_direct": 2,
+    "draw_able_name": "TouchDrag4",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070754,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 150,
+    "offset_y": 0,
+    "parameter": "touch_drag4",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070755": {
+    "action_trigger": {
+      "action": "touch_drag4",
+      "num": 1,
+      "time": 0.1,
+      "type": 1
+    },
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag5",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070755,
+    "ignore_action": 0,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 150,
+    "offset_y": 0,
+    "parameter": "touch_drag5",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070756": {
+    "action_trigger": {
+      "action": "touch_idle4",
+      "num": 1,
+      "time": 0.1,
+      "type": 1
+    },
+    "action_trigger_active": {
+      "enable": [],
+      "idle": 0,
+      "ignore": [
+        "touch_idle4"
+      ]
+    },
+    "drag_direct": 2,
+    "draw_able_name": "TouchIdle",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070756,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 40,
+    "offset_y": 0,
+    "parameter": "Paramtouch_idle",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 200,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 200,
+    "start_value": 0
+  },
+  "3070757": {
+    "action_trigger": {
+      "action": "touch_idle3",
+      "num": 1,
+      "time": 0.1,
+      "type": 1
+    },
+    "action_trigger_active": {
+      "enable": [
+        "touch_idle4",
+        "idle"
+      ],
+      "idle": 1,
+      "ignore": []
+    },
+    "drag_direct": 1,
+    "draw_able_name": "TouchIdle1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070757,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "mode": 1,
+    "offset_x": 140,
+    "offset_y": 0,
+    "parameter": "Paramtouch_idle1",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 200,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 200,
+    "start_value": 0
+  },
+  "3070758": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "ParamDragX1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070758,
+    "ignore_action": 0,
+    "ignore_react": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "ParamDragX1",
+    "range": [
+      0,
+      45
+    ],
+    "range_abs": 1,
+    "react_pos_x": 5,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "3070759": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "ParamDragY1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 3070759,
+    "ignore_action": 0,
+    "ignore_react": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "ParamDragY1",
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 3,
+    "revert": 100,
+    "ship_skin_id": 307075,
+    "shop_action": 0,
+    "smooth": 100,
     "start_value": 0
   },
   "3070821": {
@@ -754,6 +1231,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 307082,
     "shop_action": 0,
@@ -781,6 +1260,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 307082,
     "shop_action": 0,
@@ -808,6 +1289,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 307082,
     "shop_action": 0,
@@ -840,6 +1323,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 307082,
     "shop_action": 0,
@@ -867,10 +1352,70 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 307082,
     "shop_action": 0,
     "smooth": 200,
+    "start_value": 0
+  },
+  "4021011": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 4021011,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "mode": 2,
+    "offset_x": 5,
+    "offset_y": 0,
+    "parameter": "touch_drag1",
+    "range": [
+      -30,
+      10
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 499052,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "4021012": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 4021012,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "mode": 2,
+    "offset_x": 8,
+    "offset_y": 0,
+    "parameter": "touch_drag2",
+    "range": [
+      -10,
+      30
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "revert": 100,
+    "ship_skin_id": 499052,
+    "shop_action": 0,
+    "smooth": 100,
     "start_value": 0
   },
   "4060221": {
@@ -894,6 +1439,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 406022,
     "shop_action": 0,
@@ -921,6 +1468,8 @@
       8
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -948,6 +1497,8 @@
       8
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -975,6 +1526,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -1013,6 +1566,8 @@
       10
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -1052,6 +1607,8 @@
       10
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -1079,6 +1636,8 @@
       10
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 499052,
     "shop_action": 1,
@@ -1106,6 +1665,8 @@
       10
     ],
     "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 499052,
     "shop_action": 1,
@@ -1133,6 +1694,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 499052,
     "shop_action": 0,
@@ -1165,6 +1728,8 @@
       10
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 499071,
     "shop_action": 0,
@@ -1192,6 +1757,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": -1,
     "ship_skin_id": 502052,
     "shop_action": 0,
@@ -1224,6 +1791,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 200,
     "ship_skin_id": 605031,
     "shop_action": 0,
@@ -1251,6 +1820,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 703021,
     "shop_action": 0,
@@ -1278,6 +1849,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 100,
     "ship_skin_id": 703021,
     "shop_action": 0,
@@ -1310,6 +1883,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 899031,
     "shop_action": 0,
@@ -1342,6 +1917,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 899031,
     "shop_action": 0,
@@ -1374,6 +1951,8 @@
       1
     ],
     "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
     "revert": 30,
     "ship_skin_id": 899031,
     "shop_action": 0,
@@ -1427,6 +2006,21 @@
     4990711,
     4060221,
     7030211,
-    7030212
+    7030212,
+    3070751,
+    3070752,
+    3070753,
+    3070754,
+    3070755,
+    3070756,
+    3070757,
+    3070758,
+    3070759,
+    4021011,
+    4021012,
+    1990311,
+    1990312,
+    1051721,
+    1051722
   ]
 }
