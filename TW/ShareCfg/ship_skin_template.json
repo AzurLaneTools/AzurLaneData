@@ -103971,21 +103971,45 @@
       ]
     ],
     "group_index": 2,
-    "gyro": 0,
+    "gyro": 1,
     "hand_id": 2,
     "id": 304052,
     "illustrator": -1,
     "illustrator2": -1,
-    "l2d_animations": "",
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
     "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ]
+    },
     "l2d_se": "",
-    "l2d_voice_calibrate": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      0,
-      0,
+      80.5,
+      -72,
       0
     ],
     "main_UI_FX": "",
@@ -103995,7 +104019,12 @@
     "prefab": "tiancheng_3",
     "rarity_bg": "",
     "ship_group": 30405,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      3040521,
+      3040522,
+      3040523,
+      3040524
+    ],
     "shop_id": 70858,
     "shop_type_id": 7,
     "show_skin": "stand",
