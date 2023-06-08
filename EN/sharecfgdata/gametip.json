@@ -155,21 +155,6 @@
   "LanternRiddle_wait_time_tip": {
     "tip": "Next Attempt: "
   },
-  "LevelSignal": {
-    "tip": "SOS Signal"
-  },
-  "LevelSignal_go": {
-    "tip": "Confirm"
-  },
-  "LevelSignal_intensity": {
-    "tip": "Signal Strength"
-  },
-  "LevelSignal_search": {
-    "tip": "Search"
-  },
-  "LevelSignal_times": {
-    "tip": "Search Attempts"
-  },
   "LinkLinkGame_BestTime": {
     "tip": "Record:"
   },
@@ -1720,6 +1705,9 @@
   "battle_result_total_score": {
     "tip": "Total Score:"
   },
+  "battle_result_total_time": {
+    "tip": "Clear Time:"
+  },
   "battle_result_undefeated": {
     "tip": "No casualties"
   },
@@ -2739,6 +2727,9 @@
   "charge_extra_gem_tip": {
     "tip": "Extra bonus gems $1"
   },
+  "charge_game_room_coin_tip": {
+    "tip": "Spend <color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color> to purchase \n\n<color=$3>$4 $2</color>?"
+  },
   "charge_items_title": {
     "tip": "Items received"
   },
@@ -3362,12 +3353,6 @@
   "common_today_buy_limit": {
     "tip": "Daily purchase limit"
   },
-  "common_use_item_sos_max": {
-    "tip": "You cannot receive any more Signals."
-  },
-  "common_use_item_sos_used": {
-    "tip": "Number of Distress Signals +$1"
-  },
   "common_wait": {
     "tip": "Commander, please wait a moment "
   },
@@ -3729,10 +3714,13 @@
     "tip": "Cancel"
   },
   "destroy_eliteequipment_tip": {
-    "tip": "You are about to destroy $1 gear.\nAre you sure you want to continue?"
+    "tip": "You've selected gear of $1 rarity. Continue?"
   },
   "destroy_eliteship_tip": {
     "tip": "You've selected a $1 ship. Continue?"
+  },
+  "destroy_equip_rarity_tip": {
+    "tip": "Please enter the following into the box below: <color=#92fc63>$1</color>"
   },
   "destroy_high_intensify_tip": {
     "tip": "<color=#92fc63>$1 enhanced</color>"
@@ -3751,6 +3739,12 @@
   },
   "diamond": {
     "tip": "Gems"
+  },
+  "disassemble_available": {
+    "tip": "Obtainable"
+  },
+  "disassemble_selected": {
+    "tip": "Selected"
   },
   "discount_coupon_tip": {
     "tip": "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
@@ -4424,9 +4418,6 @@
   "error_pray_select_ship_max": {
     "tip": "Your wish pool is full."
   },
-  "error_refresh_sub_chapter": {
-    "tip": "You cannot initiate any more Rescue Missions. "
-  },
   "escort_less_count_to_combat": {
     "tip": "You cannot run this any more today. "
   },
@@ -4966,11 +4957,48 @@
       }
     ]
   },
+  "game_cannot_go": {
+    "tip": "This game is currently unavailable."
+  },
+  "game_goldbyicon": {
+    "tip": "Would you like to spend $1 Coins to buy $2 Credits?"
+  },
+  "game_icon_max": {
+    "tip": "You've reached the maximum number of Credits, and will not be able to hold any more than this amount. Continue?"
+  },
+  "game_icon_max_full": {
+    "tip": "Unable to claim; you cannot hold any more of this item."
+  },
+  "game_icon_notenough": {
+    "tip": "You don't have enough Credits. Buy more with Coins?"
+  },
   "game_openwords": {
     "tip": "Text box is now being displayed."
   },
+  "game_room_help": {
+    "tip": [
+      {
+        "info": "- About the Arcade -\nIn the Arcade, you'll be able to play certain minigames. Minigames will be gradually added in the future, and some minigames may not be made available for the time being.\nWhen playing minigames, using Credits will allow you to earn Game Tickets at the end of the minigame.\nGame Tickets may be exchanged for certain rerun items at the Prize Shop.\n\nYou may play minigames without spending Credits.\n\n- About Credits -\nCredits can be used to allow you to earn Game Tickets at the end of a minigame.\nWhen starting a minigame, you can choose the number of Credits you'd like to use at the start screen.\nEvery week, you can obtain 10 Credits from Akashi in the Arcade. Additional Credits can be purchased with Coins.\nYou can hold a maximum of 40 Credits.\n\n- About Game Tickets -\nGame Tickets can be used at the Prize Shop to exchange for rewards. The rewards available at the Prize Shop will be continuously updated in the future.\nGame Tickets can be obtained through spending Credits on playing minigames.\nThe number of Game Tickets earned depends on the number of Credits used, as well as your minigame score.\nYou can hold a maximum of 50,000 Game Tickets, and you may earn a maximum of 10,000 Game Tickets per month."
+      }
+    ]
+  },
+  "game_room_shooting_tip": {
+    "tip": "Current Score:"
+  },
   "game_stopwords": {
     "tip": "Text box is now being hidden."
+  },
+  "game_ticket_current_month": {
+    "tip": "Monthly Limit:"
+  },
+  "game_ticket_max_all": {
+    "tip": "You've reached the maximum number of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+  },
+  "game_ticket_max_month": {
+    "tip": "You've reached your monthly limit of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+  },
+  "game_ticket_notenough": {
+    "tip": "You don't have enough Game Tickets. Return to the Arcade?"
   },
   "gametip_xiaokewei": {
     "tip": [
@@ -7934,13 +7962,6 @@
       }
     }
   },
-  "help_sos": {
-    "tip": [
-      {
-        "info": "About SOS Signals\n-SOS Signals are received at random. You can receive them even if not logged in to the game.\n-You must first clear the final stage (X-4) of a Chapter before you can receive SOS Signals from that chapter.\n\nAbout the Search Function\n-Tap on the Search button search for the location the SOS Signal came from.\n-Once you've located the signal's source, you can initiate a Rescue Mission.\n-Rescue Missions correspond to different Chapters, and only one Rescue Mission can be active per chapter.\n-Rescue Missions must be cleared within 12 hours, after which they will disappear.\n\nSignal Strength\n-Signal Strength affects the range that Rescue Missions can appear in.\n-At a Signal Strength of 1, Rescue Missions will only appear in Chapter 3.\n-As Signal Strength increases, Rescue Missions will be able to appear in higher and higher Chapters.\n-Signal Strength will increase by 1 every time you complete the furthest unlocked Rescue Mission with an S rating.\n-The maximum Signal Strength possible is 8. The higher the Signal Strength, the better the potential rewards.\n\nCombat Encounters\n-Enemy submarines will appear in Rescue Missions. Use DDs or CLs equipped with ASW equipment to counter them."
-      }
-    ]
-  },
   "help_sub_display": {
     "tip": "Attack Mode/Support Mode"
   },
@@ -8721,6 +8742,9 @@
   "island_history_desc": {
     "tip": "Unlock hidden treasure chests by completely exploring an area!"
   },
+  "island_shop_limit_error": {
+    "tip": "Unable to exchange; you cannot hold any more of this item."
+  },
   "islandnode_tips1": {
     "tip": "Next Refresh"
   },
@@ -8984,9 +9008,6 @@
   "levelScene_escort_win": {
     "tip": "The transport ship has arrived at its goal. Escort mission complete!"
   },
-  "levelScene_jump_to_sub_confirm": {
-    "tip": "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
-  },
   "levelScene_loop_help_tip": {
     "tip": [
       {
@@ -9058,9 +9079,6 @@
   "levelScene_retreat_erro": {
     "tip": "Failed to retreat."
   },
-  "levelScene_search_area": {
-    "tip": "[Signal Range: up to Chapter $1]"
-  },
   "levelScene_select_SP_OP": {
     "tip": "Select Item"
   },
@@ -9075,9 +9093,6 @@
   },
   "levelScene_sham_win": {
     "tip": "Mirror Sea battle complete."
-  },
-  "levelScene_signal_help_tip": {
-    "tip": "About Distress Signals"
   },
   "levelScene_sphunt_help_tip": {
     "tip": {
@@ -9130,9 +9145,6 @@
   },
   "levelScene_strategying": {
     "tip": "In progress..."
-  },
-  "levelScene_sub_refresh_count_not_enough": {
-    "tip": "You are not receiving any Distress Signals."
   },
   "levelScene_threat_to_rule_out": {
     "tip": "Eliminate Threat $1"
@@ -10331,6 +10343,9 @@
   },
   "mini_game_score": {
     "tip": "Score:"
+  },
+  "mini_game_shop_ticked_not_enough": {
+    "tip": "You don't have enough Game Tickets. Return to the Arcade?"
   },
   "mini_game_time": {
     "tip": "Time Left:"
@@ -11540,6 +11555,21 @@
   "quick_equip_tip6": {
     "tip": "Would you like to unequip the <color=#22ff22>$2</color> which is equipped on <color=#22ff22>$1</color>?"
   },
+  "quota_shop_description": {
+    "tip": "Core Data can be used to exchange for certain event items, <color=#fd8a62>up to a limit</color>."
+  },
+  "quota_shop_good_limit": {
+    "tip": "Limit Reached"
+  },
+  "quota_shop_limit_error": {
+    "tip": "Unable to exchange; you cannot hold any more of this item."
+  },
+  "quota_shop_owned": {
+    "tip": "Limit"
+  },
+  "quota_shop_title": {
+    "tip": "Core Shop (Ltd.)"
+  },
   "random_flag_ship": {
     "tip": "Random Secretary"
   },
@@ -12329,6 +12359,9 @@
   "school_title_xiaomaibu": {
     "tip": "Merchant "
   },
+  "school_title_xiaoyouxiting": {
+    "tip": "Arcade"
+  },
   "school_title_xueyuan": {
     "tip": "Tactical Class"
   },
@@ -12903,6 +12936,12 @@
   "ship_formationUI_fleetName6": {
     "tip": "Fleet 6"
   },
+  "ship_formationUI_fleetName_challenge": {
+    "tip": "Challenge Fleet"
+  },
+  "ship_formationUI_fleetName_challenge_sub": {
+    "tip": "Challenge Fleet"
+  },
   "ship_formationUI_fleetName_easy": {
     "tip": "Easy"
   },
@@ -13348,7 +13387,10 @@
     "tip": "You cannot leave Fleet 1 without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
   },
   "shipmodechange_reject_inactivity": {
-    "tip": "One or more ships are currently participating in a Challenge Mode, Joint Operation or Coalition Battle event stage. Please adjust your fleet and try again."
+    "tip": "A ship has already been added to an event fleet. Please check your formation and try again."
+  },
+  "shipmodechange_reject_inchallenge": {
+    "tip": "A ship has already been added to a challenge fleet. Please check your formation and try again."
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
@@ -13507,9 +13549,6 @@
   },
   "sort_intimacy": {
     "tip": "Affinity"
-  },
-  "sos_lock": {
-    "tip": "救援海域は開放されていません "
   },
   "sp_no_quota": {
     "tip": "You cannot sortie any more today."
@@ -15832,8 +15871,11 @@
   "word_start": {
     "tip": "Start"
   },
+  "word_status_activity": {
+    "tip": "In Event"
+  },
   "word_status_challenge": {
-    "tip": "In event sortie"
+    "tip": "In Challenge"
   },
   "word_status_inClass": {
     "tip": "In class"
@@ -16337,7 +16379,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>3/9/23 to 6/8/23</color>, challenge Queen Elizabeth META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Queen Elizabeth META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>6/8/23 to 8/30/23</color>, challenge Algérie META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Algérie META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
       }
     ]
   },

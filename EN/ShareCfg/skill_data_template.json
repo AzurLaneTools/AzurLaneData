@@ -92163,6 +92163,20 @@
       1
     ]
   },
+  "60360": {
+    "desc": "Able to hit underwater enemies (deals 35.0% DMG when hitting underwater enemies).",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 60360,
+    "max_level": 0,
+    "name": "Mark 35 Torpedo",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
   "101010": {
     "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
     "desc_add": [
@@ -110923,6 +110937,379 @@
     "name": "Framework of Logic – Vestal II",
     "system_transform": {
       "51": 800847
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800850": {
+    "desc": "When this fires her Main Guns: $3 chance to fire an additional special volley (5s cooldown between activations).\nEvery 20s: fires a $1 special barrage (DMG depends on the skill's level).\nEach time this skill's special volley or special barrage hits an enemy: grants 1 stack of [Pursued] to the target, stacking up to 5 times, with each stack increasing the target's SPD by 1. When [Pursued] reaches 5 stacks, the target's SPD will be reduced to 0 for 3s, and the number of [Pursued] stacks will reset. This ship deals $2 increased DMG to enemies affected by [Pursued].",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "15.0%",
+          "+1.1%"
+        ],
+        [
+          "16.1%",
+          "+1.1%"
+        ],
+        [
+          "17.2%",
+          "+1.1%"
+        ],
+        [
+          "18.3%",
+          "+1.1%"
+        ],
+        [
+          "19.4%",
+          "+1.1%"
+        ],
+        [
+          "20.5%",
+          "+1.1%"
+        ],
+        [
+          "21.6%",
+          "+1.1%"
+        ],
+        [
+          "22.7%",
+          "+1.1%"
+        ],
+        [
+          "23.8%",
+          "+1.2%"
+        ],
+        [
+          "25.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "15.0%",
+        "25.0%"
+      ]
+    ],
+    "id": 800850,
+    "max_level": 10,
+    "name": "Sinner's Pursuit",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800860": {
+    "desc": "When the battle starts, reduces the HP of allied surface ships other than this ship by 15. For every ship that loses HP as a result of this effect: increases this ship's FP and EVA by $1, lasting for 40s. When this effect ends and this ship is afloat, all ships in the fleet will restore 100 HP and this ship takes $2 reduced DMG from Torpedoes until the end of battle.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+0.3%"
+        ],
+        [
+          "1.3%",
+          "+0.3%"
+        ],
+        [
+          "1.6%",
+          "+0.4%"
+        ],
+        [
+          "2.0%",
+          "+0.3%"
+        ],
+        [
+          "2.3%",
+          "+0.3%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.3%"
+        ],
+        [
+          "3.3%",
+          "+0.3%"
+        ],
+        [
+          "3.6%",
+          "+0.4%"
+        ],
+        [
+          "4.0%"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "4.0%"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ]
+    ],
+    "id": 800860,
+    "max_level": 10,
+    "name": "Sinner's Whispers",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800870": {
+    "desc": "Every 10s: $1 chance to inflict a special [Expurgating Flame] status on the enemy with the highest HP percentage for 8s.\nIf an enemy is sunk while affected by [Expurgating Flame], the \"Cinders of Hope - Algérie\" skill gains the following effect until the end of battle: enemies hit by this special barrage will be inflicted with the [Expurgating Flame] Burn status for 8s.",
+    "desc_add": [
+      [
+        [
+          "50.0%",
+          "+5.5%"
+        ],
+        [
+          "55.5%",
+          "+5.5%"
+        ],
+        [
+          "61%",
+          "+5.5%"
+        ],
+        [
+          "66.5%",
+          "+5.5%"
+        ],
+        [
+          "72.0%",
+          "+5.5%"
+        ],
+        [
+          "77.5%",
+          "+5.5%"
+        ],
+        [
+          "83.0%",
+          "+5.5%"
+        ],
+        [
+          "88.5%",
+          "+5.5%"
+        ],
+        [
+          "94.0%",
+          "+6.0%"
+        ],
+        [
+          "100.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "50.0%",
+        "100.0%"
+      ]
+    ],
+    "id": 800870,
+    "max_level": 10,
+    "name": "Expurgating Flame",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800881": {
+    "desc": "Every 9 times this ship fires her Main Guns: fires a special barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800881,
+    "max_level": 1,
+    "name": "Cinders of Hope - Algérie I",
+    "system_transform": {
+      "51": 800885
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800882": {
+    "desc": "Every 6 times this ship fires her Main Guns: fires a special barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800882,
+    "max_level": 1,
+    "name": "Cinders of Hope - Algérie II",
+    "system_transform": {
+      "51": 800887
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800885": {
+    "desc": "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. Decreases this ship's DMG taken by 3.0% when fighting humanoid Siren fleets or Boss fleets.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800885,
+    "max_level": 1,
+    "name": "Cinders of Hope - Algérie I",
+    "system_transform": {
+      "51": 800885
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "800887": {
+    "desc": "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. Decreases this ship's DMG taken by 8.0% when fighting humanoid Siren fleets or Boss fleets.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 800887,
+    "max_level": 1,
+    "name": "Cinders of Hope - Algérie II",
+    "system_transform": {
+      "51": 800887
     },
     "type": 3,
     "world_death_mark": [

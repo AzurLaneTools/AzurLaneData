@@ -179,7 +179,7 @@
       635
     ],
     "painting": "shaenhuosite",
-    "state": "stop"
+    "state": "always"
   },
   "7": {
     "boss_level_id": 91,
@@ -351,12 +351,45 @@
       0.9
     ],
     "painting": "yilishabainvwang",
+    "state": "stop"
+  },
+  "11": {
+    "boss_level_id": 151,
+    "description": [
+      [
+        "Pillar of Sin",
+        3,
+        "When the battle starts: summons 4 [Pillars of Sin] that reduces DMG taken by Algérie META by 40.0%.\nWhen any [Pillar of Sin] takes DMG: <color=#92fc63>20.0% of that DMG is instead redirected to Algérie META</color>."
+      ],
+      [
+        "Expurgating Flame",
+        1,
+        "Algérie META's attacks inflict a special [Expurgating Flame] <color=#92fc63>Burn</color> status that deals high fixed DMG over a short duration.\nAdditionally, every 8s: inflicts [Expurgating Flame] on the target with <color=#92fc63>the lowest HP percentage</color>. This effect ignores the Main Fleet's Detection status."
+      ]
+    ],
+    "id": 11,
+    "item_id": 100000,
+    "meta_id": 970302,
+    "name": "Algérie META",
+    "p_offset": [
+      -7,
+      685,
+      0.9,
+      0.9
+    ],
+    "p_offset_other": [
+      659,
+      684.2,
+      0.9,
+      0.9
+    ],
+    "painting": "aerjiliya",
     "state": [
       [
         [
           2023,
-          3,
-          9
+          6,
+          8
         ],
         [
           0,
@@ -367,8 +400,8 @@
       [
         [
           2023,
-          6,
-          8
+          8,
+          31
         ],
         [
           23,
@@ -388,6 +421,7 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ]
 }
