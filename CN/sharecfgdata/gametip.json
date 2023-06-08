@@ -155,21 +155,6 @@
   "LanternRiddle_wait_time_tip": {
     "tip": "再次答题时间:"
   },
-  "LevelSignal": {
-    "tip": "海域救援"
-  },
-  "LevelSignal_go": {
-    "tip": "前往"
-  },
-  "LevelSignal_intensity": {
-    "tip": "信号强度："
-  },
-  "LevelSignal_search": {
-    "tip": "搜索信号"
-  },
-  "LevelSignal_times": {
-    "tip": "可进行海域救援的次数："
-  },
   "LinkLinkGame_BestTime": {
     "tip": "最佳纪录:"
   },
@@ -1676,6 +1661,9 @@
   "battle_result_total_score": {
     "tip": "累计得分："
   },
+  "battle_result_total_time": {
+    "tip": "通关时间："
+  },
   "battle_result_undefeated": {
     "tip": "全员未被重创"
   },
@@ -1707,7 +1695,7 @@
     "tip": "革律翁成功完成净化，当前空间侵蚀等级变为<color=#92fc63>0</color>"
   },
   "battle_text_bisimaiz_8": {
-    "tip": "「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替俾斯麦承受部分伤害"
+    "tip": "「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替{namecode:435}承受部分伤害"
   },
   "battle_text_bisimaiz_9": {
     "tip": "「<color=#92fc63>舰装分离</color>」-革律翁的<color=#f1f102>防御大幅度下降</color>，请尽快将其击破！"
@@ -2697,6 +2685,9 @@
   "charge_extra_gem_tip": {
     "tip": "额外赠送$1钻石"
   },
+  "charge_game_room_coin_tip": {
+    "tip": "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物资兑换<color=$3>$2</color>个$4"
+  },
   "charge_items_title": {
     "tip": "获得以下道具"
   },
@@ -3302,12 +3293,6 @@
   "common_today_buy_limit": {
     "tip": "今日购买次数上限"
   },
-  "common_use_item_sos_max": {
-    "tip": "信号已满"
-  },
-  "common_use_item_sos_used": {
-    "tip": "信号次数+$1"
-  },
   "common_wait": {
     "tip": "指挥官请稍等一会儿"
   },
@@ -3669,10 +3654,13 @@
     "tip": "取 消"
   },
   "destroy_eliteequipment_tip": {
-    "tip": "拆解装备中有$1的装备\n是否确认?"
+    "tip": "拆解装备中有$1的装备"
   },
   "destroy_eliteship_tip": {
     "tip": "选择角色中有$1的角色："
+  },
+  "destroy_equip_rarity_tip": {
+    "tip": "请输入<color=#92fc63>$1</color>进行确认"
   },
   "destroy_high_intensify_tip": {
     "tip": "<color=#92fc63>$1经过强化</color>"
@@ -3691,6 +3679,12 @@
   },
   "diamond": {
     "tip": "钻石"
+  },
+  "disassemble_available": {
+    "tip": "可获得"
+  },
+  "disassemble_selected": {
+    "tip": "已选中"
   },
   "discount_coupon_tip": {
     "tip": "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
@@ -4315,9 +4309,6 @@
   "error_pray_select_ship_max": {
     "tip": "可选角色已满"
   },
-  "error_refresh_sub_chapter": {
-    "tip": "未搜索到新的求救信号"
-  },
   "escort_less_count_to_combat": {
     "tip": "今日挑战次数不足，无法进入"
   },
@@ -4879,11 +4870,48 @@
       }
     ]
   },
+  "game_cannot_go": {
+    "tip": "本游戏目前不在开放时间内"
+  },
+  "game_goldbyicon": {
+    "tip": "是否消耗$1物资兑换$2游戏币 "
+  },
+  "game_icon_max": {
+    "tip": "当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"
+  },
+  "game_icon_max_full": {
+    "tip": "当前游戏币到达上限,无法继续领取"
+  },
+  "game_icon_notenough": {
+    "tip": "当前游戏币不足（），是否消耗物资兑换X枚游戏币？"
+  },
   "game_openwords": {
     "tip": "主界面台词框已显示"
   },
+  "game_room_help": {
+    "tip": [
+      {
+        "info": "游戏屋功能说明：\n1.使用「游戏币」进行游戏可获取「游戏奖券」，使用的游戏币数量越多，奖卷获取倍率越高，最多一次可使用5枚游戏币。每月最多获得10000奖券，奖卷持有上限为50000\n2.每周可从游戏室中免费获取10枚游戏币，游戏币持有上限为40枚，当游戏币不足时，指挥官可以使用物资兑换游戏币。\n3.使用啾啾奖券可以在奖卷商店中兑换不同商品，商品存在兑换次数，商品列表会在后续持续更新。\n4.活动结束的小游戏会在后续逐步加入游戏列表，部分小游戏可能暂时不会进入游戏室，还望指挥官谅解。"
+      }
+    ]
+  },
+  "game_room_shooting_tip": {
+    "tip": "当前积分："
+  },
   "game_stopwords": {
     "tip": "主界面台词框已隐藏"
+  },
+  "game_ticket_current_month": {
+    "tip": "本月上限"
+  },
+  "game_ticket_max_all": {
+    "tip": "当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"
+  },
+  "game_ticket_max_month": {
+    "tip": "本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"
+  },
+  "game_ticket_notenough": {
+    "tip": "游戏奖券数量不足，是否前往游戏屋获取？"
   },
   "gametip_xiaokewei": {
     "tip": [
@@ -8298,16 +8326,6 @@
       }
     }
   },
-  "help_sos": {
-    "tip": [
-      {
-        "info": "海域救援说明"
-      },
-      {
-        "info": "\n\n海域救援次数\n·我们的舰队可进行的海域救援次数会不定时地增加\n·指挥官在离港期间，港区仍会筹备海域救援，可进行的海域救援次数正常增加\n\n搜索信号\n·我们可以消耗一次海域救援次数，对指定章节的海域进行信号搜索\n·搜索完成后会开启该章节的救援行动，救援行动会持续12小时\n·如果无法在限定时间内完成救援，我们将会丢失信号来源，导致无法行动。\n·一个章节内最多同时只能出现一个海域救援行动\n·在增强信号之前，我们只能搜索到来自第三章海域的信息\n\n信号强度\n·信号接收器的强度一共分为8档，在初始状态下我们的信号强度为1档。\n·信号强度每增强1档，可进行的海域救援次数上限增加1次，可搜索的海域也能增加1章\n·指挥官需要先通关该章节的所有关卡后才能在对应章节搜索到海域救援行动\n·信号强度等级越高，完成救援可获得的奖励会变得越丰厚\n·以S评价完成当前可搜索的最高章节的救援行动时，信号强度会增强1档\n·信号强度决定了指挥官可进行的海域救援次数上限，不同的信号强度对应不同的海域救援次数上限数量\n\n战斗遭遇\n·在救援过程中会遭遇到敌方的潜艇部队，请指挥官务必为出击的舰队配备反潜设备"
-      }
-    ]
-  },
   "help_sub_display": {
     "tip": "自主寻敌/待机模式"
   },
@@ -9149,6 +9167,9 @@
   "island_history_desc": {
     "tip": "*探索完当前区域所有节点可解锁隐藏宝藏的线索！"
   },
+  "island_shop_limit_error": {
+    "tip": "该道具已经达到持有上限，无法兑换"
+  },
   "islandnode_tips1": {
     "tip": "刷新时间"
   },
@@ -9427,9 +9448,6 @@
   "levelScene_escort_win": {
     "tip": "运输船抵达终点，护航成功"
   },
-  "levelScene_jump_to_sub_confirm": {
-    "tip": "搜索完毕，信号源来自：$1海域(第$2章)，是否前往？"
-  },
   "levelScene_loop_help_tip": {
     "tip": [
       {
@@ -9501,9 +9519,6 @@
   "levelScene_retreat_erro": {
     "tip": "撤退失败"
   },
-  "levelScene_search_area": {
-    "tip": "【搜索范围：$1章海域】"
-  },
   "levelScene_select_SP_OP": {
     "tip": "点击选择作战道具"
   },
@@ -9518,9 +9533,6 @@
   },
   "levelScene_sham_win": {
     "tip": "「镜面海域」作战完成"
-  },
-  "levelScene_signal_help_tip": {
-    "tip": "信号提示"
   },
   "levelScene_sphunt_help_tip": {
     "tip": {
@@ -9573,9 +9585,6 @@
   },
   "levelScene_strategying": {
     "tip": "正在攻略中"
-  },
-  "levelScene_sub_refresh_count_not_enough": {
-    "tip": "还没有收到过求救信号…"
   },
   "levelScene_threat_to_rule_out": {
     "tip": "威胁排除<color=#92fc63>$1</color>"
@@ -10535,7 +10544,7 @@
         "info": "·META研究室是进行META角色获取、养成的专用系统\n·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研习」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n·重复获取的META角色将会自动转换为1个对应的角色结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。\n"
       },
       {
-        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「伊丽莎白女王·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「伊丽莎白女王·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
+        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2023.6.8-2023.8.31</color>期间限时开放「阿尔及利亚·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「阿尔及利亚·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「阿尔及利亚·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
       },
       {
         "info": "3.<color=#92fc63>战术研习</color>\n·完成战术研习任务获得META角色的技能升级经验，部分任务可以重复完成\n·一名角色只能同时进行一项技能的战术研习任务，多名角色之间彼此独立，同时进行\n·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率\n（剩余次数不满2次时不生效）\n·任务类型和可完成次数会随着技能等级升级而刷新\n"
@@ -10765,6 +10774,9 @@
   },
   "mini_game_score": {
     "tip": "分数:"
+  },
+  "mini_game_shop_ticked_not_enough": {
+    "tip": "游戏奖券数量不足，是否前往游戏屋获取？"
   },
   "mini_game_time": {
     "tip": "倒计时:"
@@ -11695,6 +11707,21 @@
   "quick_equip_tip6": {
     "tip": "是否<color=#FF2222>卸下</color><color=#22ff22> $1</color>的<color=#22ff22>$2</color>"
   },
+  "quota_shop_description": {
+    "tip": "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
+  },
+  "quota_shop_good_limit": {
+    "tip": "已达上限"
+  },
+  "quota_shop_limit_error": {
+    "tip": "该道具已经达到持有上限，无法兑换"
+  },
+  "quota_shop_owned": {
+    "tip": "持有上限"
+  },
+  "quota_shop_title": {
+    "tip": "「核心兑换·限定」"
+  },
   "random_flag_ship": {
     "tip": "随机秘书舰"
   },
@@ -12490,6 +12517,9 @@
   "school_title_xiaomaibu": {
     "tip": "小卖部"
   },
+  "school_title_xiaoyouxiting": {
+    "tip": "小游戏厅"
+  },
   "school_title_xueyuan": {
     "tip": "战术学院"
   },
@@ -13032,6 +13062,12 @@
   "ship_formationUI_fleetName6": {
     "tip": "第六舰队"
   },
+  "ship_formationUI_fleetName_challenge": {
+    "tip": "限界挑战舰队"
+  },
+  "ship_formationUI_fleetName_challenge_sub": {
+    "tip": "限界挑战舰队"
+  },
   "ship_formationUI_fleetName_easy": {
     "tip": "简单舰队"
   },
@@ -13477,7 +13513,10 @@
     "tip": "舰船为第一舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"
   },
   "shipmodechange_reject_inactivity": {
-    "tip": "舰船在限界挑战/共斗/连战活动编成中，请调整编队阵容后重试"
+    "tip": "舰船在共斗/连战活动编成中，请调整编队阵容后重试"
+  },
+  "shipmodechange_reject_inchallenge": {
+    "tip": "舰船在限界挑战编成中，请调整编队阵容后重试"
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "舰船为大世界舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"
@@ -13633,9 +13672,6 @@
   },
   "sort_intimacy": {
     "tip": "好感"
-  },
-  "sos_lock": {
-    "tip": "救援关卡尚未开放"
   },
   "sp_no_quota": {
     "tip": "SP关卡每日挑战次数已达上限"
@@ -15916,8 +15952,11 @@
   "word_start": {
     "tip": "开始"
   },
-  "word_status_challenge": {
+  "word_status_activity": {
     "tip": "活动编队中"
+  },
+  "word_status_challenge": {
+    "tip": "限界挑战编队中"
   },
   "word_status_inClass": {
     "tip": "上课中"
@@ -16406,7 +16445,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "信标·META功能说明\n\n1. <color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的挑战，在此期间指挥官可挑战「伊丽莎白女王·META」累计其同步值获取<color=#92fc63>「伊丽莎白女王·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标·META挑战的进行，从第31天开始，即2023.4.9~2023.6.8期间，舰队挑战「伊丽莎白女王·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。"
+        "info": "信标·META功能说明\n\n1. <color=#92fc63>2023.6.8-2023.8.31</color>期间限时开放「阿尔及利亚·META」的挑战，在此期间指挥官可挑战「阿尔及利亚·META」累计其同步值获取<color=#92fc63>「阿尔及利亚·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标·META挑战的进行，从第31天开始，即2023.7.9~2023.8.31期间，舰队挑战「阿尔及利亚·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。"
       }
     ]
   },
