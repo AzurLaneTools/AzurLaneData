@@ -59,7 +59,7 @@
     "id": 8,
     "level": 10,
     "mediator": "ShamShop",
-    "name": "コアショップ",
+    "name": "コアショップ（モンスリー）で交換",
     "scene": "MAINUI",
     "story_id": ""
   },
@@ -151,6 +151,22 @@
     "scene": "MAINUI",
     "story_id": ""
   },
+  "21": {
+    "id": 21,
+    "level": 30,
+    "mediator": "GameHallMediator",
+    "name": "ゲームロビー",
+    "scene": "MAINUI",
+    "story_id": ""
+  },
+  "22": {
+    "id": 22,
+    "level": 10,
+    "mediator": "QuotaShop",
+    "name": "コアショップ（所持上限）で交換",
+    "scene": "MAINUI",
+    "story_id": ""
+  },
   "all": [
     1,
     2,
@@ -170,6 +186,8 @@
     17,
     18,
     19,
-    20
+    20,
+    21,
+    22
   ]
 }
