@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: pre_check
     if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
+    env:
+      IMAGE_NAME: ghcr.io/azurlanetools/azex/azex
     steps:
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
@@ -45,9 +47,13 @@ jobs:
         with:
           path: output/json
 
+      - name: Pull docker image
+        uses: gacts/run-and-post-run@v1.3.0
+        with:
+          run: docker pull $IMAGE_NAME
+          post: docker image rm -f $IMAGE_NAME
+
       - name: Update json data
-        env:
-          IMAGE_NAME: ghcr.io/azurlanetools/azex/azex
         run: >
           docker run --rm --name azex-json
           -e AZEX_USER=$(id -u):$(id -g)
