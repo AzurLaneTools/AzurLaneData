@@ -43,19 +43,20 @@ jobs:
       - name: Checkout target repo
         uses: actions/checkout@v3
         with:
-          path: "output"
+          path: output/json
 
       - name: Update json data
         env:
-          IMAGE_NAME: ghcr.io/azurlanetools/azex/azex-json
+          IMAGE_NAME: ghcr.io/azurlanetools/azex/azex
         run: >
           docker run --rm --name azex-json
           -e AZEX_USER=$(id -u):$(id -g)
           -v $PWD:/azex
           $IMAGE_NAME
+          python -m azex json ALL
 
       - name: Save changes
         run: |
           # push
-          cd output
+          cd output/json
           git push
