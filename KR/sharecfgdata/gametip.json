@@ -155,21 +155,6 @@
   "LanternRiddle_wait_time_tip": {
     "tip": "재답변 시간:"
   },
-  "LevelSignal": {
-    "tip": "해역구조"
-  },
-  "LevelSignal_go": {
-    "tip": "이동"
-  },
-  "LevelSignal_intensity": {
-    "tip": "신호 강도:"
-  },
-  "LevelSignal_search": {
-    "tip": "신호 탐색"
-  },
-  "LevelSignal_times": {
-    "tip": "구조 가능 횟수:"
-  },
   "LinkLinkGame_BestTime": {
     "tip": "최고 기록:"
   },
@@ -1587,6 +1572,9 @@
   "battle_result_total_score": {
     "tip": "누적 점수:"
   },
+  "battle_result_total_time": {
+    "tip": "클리어 시간:"
+  },
   "battle_result_undefeated": {
     "tip": "전투 불능이 되지 않을 것"
   },
@@ -2585,6 +2573,9 @@
   "charge_extra_gem_tip": {
     "tip": "＋보너스 $1 다이아"
   },
+  "charge_game_room_coin_tip": {
+    "tip": "물자를 <color=#92fc63><icon name=gold w=0.7 h=0.7/>$1</color> 소비하여 <color=$3>$4 × $2</color>(을)를 구매하시겠습니까?"
+  },
   "charge_items_title": {
     "tip": "다음 아이템을 획득 가능"
   },
@@ -3196,12 +3187,6 @@
   "common_today_buy_limit": {
     "tip": "오늘은 더 이상 구입할 수 없습니다."
   },
-  "common_use_item_sos_max": {
-    "tip": "더 이상 신호를 수신할 수 없습니다."
-  },
-  "common_use_item_sos_used": {
-    "tip": "구조신호 수신 수 +$1"
-  },
   "common_wait": {
     "tip": "잠시만 기다려주시기 바랍니다."
   },
@@ -3563,10 +3548,13 @@
     "tip": "취소"
   },
   "destroy_eliteequipment_tip": {
-    "tip": "$1의 장비가 선택되어 있습니다. 진행하시겠습니까?"
+    "tip": "$1 장비가 선택되어 있습니다. 계속하시겠습니까?"
   },
   "destroy_eliteship_tip": {
     "tip": "선택한 캐릭터 중 $1가 있는 캐릭터: "
+  },
+  "destroy_equip_rarity_tip": {
+    "tip": "<color=#92fc63>$1</color>(을)를 입력하여 확인하세요."
   },
   "destroy_high_intensify_tip": {
     "tip": "<color=#92fc63>$1 강화 후</color>"
@@ -3585,6 +3573,12 @@
   },
   "diamond": {
     "tip": "钻石"
+  },
+  "disassemble_available": {
+    "tip": "획득 가능"
+  },
+  "disassemble_selected": {
+    "tip": "선택 완료"
   },
   "discount_coupon_tip": {
     "tip": "<color=#92fc63FF>$1 다이아</color> 및 <color=#92fc63FF>$2 </color>를 사용하여 <color=#92fc63FF>$3</color>를 구매하시겠습니까?"
@@ -4209,9 +4203,6 @@
   "error_pray_select_ship_max": {
     "tip": "더 이상 선택하실 수 없습니다"
   },
-  "error_refresh_sub_chapter": {
-    "tip": "더 이상 구조 임무를 진행할 수 없습니다."
-  },
   "escort_less_count_to_combat": {
     "tip": "일일 도전 횟수가 부족하여 진입할 수 없습니다."
   },
@@ -4739,11 +4730,48 @@
       }
     ]
   },
+  "game_cannot_go": {
+    "tip": "현재 플레이할 수 없습니다."
+  },
+  "game_goldbyicon": {
+    "tip": "물자를 $1 소비하여 코인 $2개를 구매하시겠습니까?"
+  },
+  "game_icon_max": {
+    "tip": "코인이 소지 한도에 도달하여, 한도 수량을 초과한 게임 코인은 획득이 불가능합니다. 그래도 획득하시겠습니까?"
+  },
+  "game_icon_max_full": {
+    "tip": "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
+  },
+  "game_icon_notenough": {
+    "tip": "코인이 부족합니다. 물자를 소비하여 코인을 구매하시겠습니까?"
+  },
   "game_openwords": {
     "tip": "메인 화면 대사창 표시"
   },
+  "game_room_help": {
+    "tip": [
+      {
+        "info": "게임 로비 기능 설명: \n1. 「게임 코인」을 사용하여 게임을 진행하면「게임 쿠폰」을 획득할 수 있습니다. 사용한 게임 코인의 수가 많을수록 당첨 확률이 높아지며, 한번에 최대 5개의 게임 코인을 사용할 수 있습니다. 매월 최대 10,000개의 쿠폰이 주어지며, 최대 보유 가능 수량은 50,000개입니다.\n2. 매주 게임 로비에서 10개의 게임 코인을 무료로 수령할 수 있으며, 코인의 최대 보유 가능 수량은 40개입니다. 게임 코인이 부족할 경우, 지휘관은 물자를 사용하여 교환할 수 있습니다. \n3. 쥬쥬 쿠폰을 사용하면 쿠폰 상점에서 다른 아이템으로 교환할 수 있습닌다. 아이템은 교환 횟수가 존재하며, 아이템 목록은 추후 지속적으로 업데이트될 예정입니다.\n4. 이벤트가 종료된 미니게임은 추후 게임 목록에 추가될 예정이며, 일부 미니게임은 일시적으로 게임 로비에 추가되지 않을 수도 있으니, 양해 부탁드립니다."
+      }
+    ]
+  },
+  "game_room_shooting_tip": {
+    "tip": "점수:"
+  },
   "game_stopwords": {
     "tip": "메인 화면 대사창 숨김"
+  },
+  "game_ticket_current_month": {
+    "tip": "이번 달 획득 가능 한도"
+  },
+  "game_ticket_max_all": {
+    "tip": "게임 쿠폰이 소지 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
+  },
+  "game_ticket_max_month": {
+    "tip": "이번 달에 획득 가능한 쿠폰 수가 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
+  },
+  "game_ticket_notenough": {
+    "tip": "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
   },
   "gametip_xiaokewei": {
     "tip": [
@@ -7831,16 +7859,6 @@
       }
     }
   },
-  "help_sos": {
-    "tip": [
-      {
-        "info": "해역구조에 관해서"
-      },
-      {
-        "info": "\n\n해역구조 횟수\n·해역구조 가능 횟수는 불특정하게 증가합니다.\n·모항 이탈 기간 동안에도 해역구조를 준비하며, 해역구조 횟수가 정상적으로 증가합니다.\n\n신호 탐색\n·해역주고 횟수를 1회 소모하여 지정 챕터의 해역에서 신호 탐색을 진행할 수 있습니다.\n·탐색 완료 후 해당 챕터의 구조 작전이 시작됩니다. 구조 작전은 12시간 동안 지속됩니다.\n·제한된 시간 내에 구조를 완료하지 못할 경우, 신호의 근원이 사라지며, 작전을 진행할 수 없습니다.\n·한 챕터 내에서는 동시에 최대 1개 작전만 출현합니다.\n·신호가 강해지기 전에는 챕터3 해역의 신호만 탐색할 수 있습니다.\n\n신호 강도\n·신호 수신기의 강도는 총 8까지 있으며, 기본 상태의 신호 강도는 1입니다.\n·신호 강도가 1 증가할 때마다, 진행 가능한 해역구조 횟수가 1 증가하며, 탐색 가능한 해역도 한 챕터 늘어납니다.\n·해당 챕터의 모든 스테이지 클리어 후 해역구조 작전을 탐색할 수 있습니다.\n·신호 강도가 높아질수록 구조 완료 후 획득하는 보상도 풍부해집니다.\n·탐색 가능한 최고 챕터의 구조 작전을 S 등급으로 완료 시, 신호 강도가 1 증가합니다.\n·신호 강도는 해역구조 횟수의 상한을 결정합니다.\n\n전투 조우\n·구조 과정 중 적의 잠수함 부대과 조우할 수 있으니, 출격 함대는 대잠수함 설비를 갖추어야 합니다."
-      }
-    ]
-  },
   "help_sub_display": {
     "tip": "색적 자동/대기모드"
   },
@@ -8682,6 +8700,9 @@
   "island_history_desc": {
     "tip": "* 현재 지역의 모든 노드를 탐색 완료하면 숨겨진 보물에 대한 단서를 잠금 해제할 수 있습니다!"
   },
+  "island_shop_limit_error": {
+    "tip": "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
+  },
   "islandnode_tips1": {
     "tip": "새로 고침 시간"
   },
@@ -8945,9 +8966,6 @@
   "levelScene_escort_win": {
     "tip": "수송선이 목표지점에 도착했습니다. 상선 호위 성공!"
   },
-  "levelScene_jump_to_sub_confirm": {
-    "tip": "구조신호 발신지 탐색 완료. 「$1」(제$2장) 해역으로 이동하시겠습니까?"
-  },
   "levelScene_loop_help_tip": {
     "tip": [
       {
@@ -9019,9 +9037,6 @@
   "levelScene_retreat_erro": {
     "tip": "퇴각 실패："
   },
-  "levelScene_search_area": {
-    "tip": "[수신 범위 : 제$1장 해역]"
-  },
   "levelScene_select_SP_OP": {
     "tip": "작전 아이템 선택"
   },
@@ -9036,9 +9051,6 @@
   },
   "levelScene_sham_win": {
     "tip": "모의전 완료"
-  },
-  "levelScene_signal_help_tip": {
-    "tip": "구조신호에 관하여"
   },
   "levelScene_sphunt_help_tip": {
     "tip": {
@@ -9091,9 +9103,6 @@
   },
   "levelScene_strategying": {
     "tip": "공략 중입니다."
-  },
-  "levelScene_sub_refresh_count_not_enough": {
-    "tip": "구조신호를 수신하지 못했습니다."
   },
   "levelScene_threat_to_rule_out": {
     "tip": "위협 제거 $1"
@@ -10272,6 +10281,9 @@
   "mini_game_score": {
     "tip": "점수:"
   },
+  "mini_game_shop_ticked_not_enough": {
+    "tip": "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
+  },
   "mini_game_time": {
     "tip": "카운트 다운:"
   },
@@ -11277,6 +11289,21 @@
   "quick_equip_tip6": {
     "tip": "<color=#22ff22> $1</color>에게서 <color=#22ff22>$2</color> 장비를 <color=#FF2222>해제</color>하시겠습니까?"
   },
+  "quota_shop_description": {
+    "tip": "코어 데이터를 소비하여 아이템(소지 한도 있음)으로 교환 가능."
+  },
+  "quota_shop_good_limit": {
+    "tip": "한도 도달"
+  },
+  "quota_shop_limit_error": {
+    "tip": "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
+  },
+  "quota_shop_owned": {
+    "tip": "소지 한도"
+  },
+  "quota_shop_title": {
+    "tip": "「코어 교환·한정」"
+  },
   "random_flag_ship": {
     "tip": "랜덤 비서함"
   },
@@ -12096,6 +12123,9 @@
   "school_title_xiaomaibu": {
     "tip": "해군매점"
   },
+  "school_title_xiaoyouxiting": {
+    "tip": "게임 로비"
+  },
   "school_title_xueyuan": {
     "tip": "전술학원"
   },
@@ -12650,6 +12680,12 @@
   "ship_formationUI_fleetName6": {
     "tip": "제6 함대"
   },
+  "ship_formationUI_fleetName_challenge": {
+    "tip": "한계 챌린지 함대"
+  },
+  "ship_formationUI_fleetName_challenge_sub": {
+    "tip": "한계 챌린지 함대"
+  },
   "ship_formationUI_fleetName_easy": {
     "tip": "이지 함대"
   },
@@ -13095,7 +13131,10 @@
     "tip": "제1함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
   },
   "shipmodechange_reject_inactivity": {
-    "tip": "함선이 한계 챌린지/공투 이벤트에 편성되어 있습니다. 편대 진형을 조정 후 재시도 해주세요."
+    "tip": "해당 함선은 이벤트 출격 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
+  },
+  "shipmodechange_reject_inchallenge": {
+    "tip": "해당 함선은 한계 챌린지 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "월드 함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
@@ -13251,9 +13290,6 @@
   },
   "sort_intimacy": {
     "tip": "호감도"
-  },
-  "sos_lock": {
-    "tip": "구조 스테이지가 아직 개방되지 않았습니다"
   },
   "sp_no_quota": {
     "tip": "SP 스테이지 일일 도전 횟수 상한 도달"
@@ -15543,8 +15579,11 @@
   "word_start": {
     "tip": "시작"
   },
+  "word_status_activity": {
+    "tip": "이벤트 출격 중입니다."
+  },
   "word_status_challenge": {
-    "tip": "이벤트 편성 중"
+    "tip": "한계 챌린지에 편성되어 있습니다."
   },
   "word_status_inClass": {
     "tip": "<size=23>수업 중</size>"
