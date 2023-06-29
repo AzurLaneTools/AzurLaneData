@@ -184,10 +184,13 @@
     "show_comps": ""
   },
   "11": {
-    "camera": "OverlayCamera",
+    "camera": "UICamera",
     "deck": 2,
     "description": "#벽람항로",
-    "hidden_comps": "",
+    "hidden_comps": [
+      "UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/blur_panel",
+      "UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/Adapt/StartBtn"
+    ],
     "id": 11,
     "move_comps": "",
     "name": "获得新舰娘界面之科研彩皮",
