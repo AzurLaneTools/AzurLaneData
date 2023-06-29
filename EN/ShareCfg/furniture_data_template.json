@@ -4633,7 +4633,7 @@
     "effect": "",
     "followBone": [
       "char",
-      -1
+      1
     ],
     "gain_by": "",
     "icon": "xunlucheicon",
@@ -95354,7 +95354,7 @@
     "effect": "",
     "followBone": [
       "char",
-      -1
+      1
     ],
     "gain_by": "",
     "icon": "miaorenouxyicon",
@@ -95396,7 +95396,7 @@
       ],
       [
         [
-          13.1,
+          7.4,
           92.3
         ],
         [
@@ -95406,7 +95406,7 @@
         "xy/miaorenouxy_mask"
       ],
       [
-        -29,
+        2.4,
         -102
       ],
       [
@@ -105409,6 +105409,55 @@
       [
         1,
         1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "100040": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Sand and surf! Watermelon and shaved ice! Summer is right at your fingertips!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "summerboxicon",
+    "id": 100040,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Manjuu Weather Generator (Summer)",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "summerbox",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "5": "houzhai_pugongying",
+          "6": "action1"
+        }
       ]
     ],
     "spine_action_replace": "",
