@@ -167,13 +167,13 @@
         "info": "「은색 파일」 설명:"
       },
       {
-        "info": "1.이벤트 기간 동안, 6월 2일까지 매일 0시마다 작전 임무가 2회 해제되며, 현재 임무 완성 시 다음 임무 해제 가능"
+        "info": "1.이벤트 총 14개의 임무, 현재 임무 완성 시 다음 임무 해제 가능"
       },
       {
         "info": "2.모든 임무 완성 시 한정 장비 「작전 보고: AF」 획득 가능"
       },
       {
-        "info": "3.보상 설명:\n1일차 임무1: T2 랜덤 부속*5, 물자*100\n1일차 임무2：은색 파일 스토리1 해제\n2일차 임무1：T2 랜덤 개조 도면*2\n2일차 임무2：물자*100\n3일차 임무1：T2 랜덤 장비 상자*3, 물자*100\n3일차 임무2：은색 파일 스토리2 해제\n4일차 임무1：해군 카레*3\n4일차 임무2：물자*100\n5일차 임무1：T3 랜덤 장비 상자*1, 물자*100\n5일차 임무2：은색 파일 스토리3 해제\n6일차 임무1：T3 랜덤 교본*2\n6일차 임무2：물자*100\n7일차 임무1：작전 보고 AF, 물자*100\n7일차 임무2：은색 파일 스토리4 해제"
+        "info": "3.보상 설명:\n임무1: T2 랜덤 부속*5, 물자*100\n임무2：은색 파일 스토리1 해제\n임무3：T2 랜덤 개조 도면*2\n임무4：물자*100\n임무5：T2 랜덤 장비 상자*3, 물자*100\n임무6：은색 파일 스토리2 해제\n임무7：해군 카레*3\n임무8：물자*100\n임무9：T3 랜덤 장비 상자*1, 물자*100\n임무10：은색 파일 스토리3 해제\n임무11：T3 랜덤 교본*2\n임무12：물자*100\n임무13：작전 보고 AF, 물자*100\n임무14：은색 파일 스토리4 해제"
       }
     ]
   },
@@ -2138,7 +2138,7 @@
     "tip": "허마이오니 건조 추가!"
   },
   "buildship_new_tip": {
-    "tip": "건조 200회 누적할 때마다 UR함선 {namecode:514} 획득 가능(최대 4회)"
+    "tip": "건조 200회 누적 시마다 UR 함선 뉴저지, 획득 가능(최대 4회)"
   },
   "buildship_special_tip": {
     "tip": "퍼시어스、이글 건조 추가!"
@@ -4443,6 +4443,18 @@
   "fightfail_up": {
     "tip": "퇴각하고 다른 스테이지로 이동해 <color=#92fc63>레벨업</color>하시겠습니까?"
   },
+  "file_down_mgr_error": {
+    "tip": "리소스 다운로드 실패: $1\n 오류 코드: $2\n 다시 시도하시겠습니까?"
+  },
+  "file_down_mgr_progress": {
+    "tip": "$1/$2"
+  },
+  "file_down_mgr_title": {
+    "tip": "리소스 다운로드 중"
+  },
+  "file_down_msgbox": {
+    "tip": "클라이언트에서 주요 리소스가 누락된 것을 감지하여 게임을 계속하려면 <color=#92fc63>$1</color>의 리소스를 다운로드해야 합니다. 다운로드 시작하시겠습니까?"
+  },
   "firend_relieve_blacklist_ok": {
     "tip": "해제 성공"
   },
@@ -4895,6 +4907,12 @@
         "info": "    6. 스테이지 시간은 90초이며, 시간 종료 시 스테이지 완성 ；"
       }
     ]
+  },
+  "group_download_tip": {
+    "tip": "업데이트하려면 $1의 데이터를 다운로드해야 합니다. 업데이트를 진행하겠습니까?"
+  },
+  "group_prefs_switch_tip": {
+    "tip": "디폴트 다운로드 양식이 변경되었습니다. 다음 부팅 시 적용됩니다."
   },
   "guidl_event_ship_in_event": {
     "tip": "다른 임무를 수행 중이므로 선택할 수 없습니다."
@@ -8792,6 +8810,9 @@
   "lanternRiddles_wait_for_reanswer": {
     "tip": "잠시 후 다시 시도하세요."
   },
+  "last_building_not_shown": {
+    "tip": "아래 함선이 건조되었습니다"
+  },
   "lesson_classOver_error": {
     "tip": "보상 수령 실패："
   },
@@ -9721,6 +9742,9 @@
   "main_5": {
     "tip": "메인\n화면 5"
   },
+  "main_group_msgbox_content": {
+    "tip": "다운로드 후, 전체 클라이언트로 변경되어 게임의 모든 컨텐츠를 체험할 수 있습니다. 이번 업데이트는 $1의 파일을 다운로드하시겠습니까?"
+  },
   "main_mailLayer_attachTaken": {
     "tip": "수령했습니다."
   },
@@ -10328,6 +10352,9 @@
   },
   "msgbox_repair_l2d": {
     "tip": "L2D 복원"
+  },
+  "msgbox_repair_painting": {
+    "tip": "修复立绘"
   },
   "msgbox_text_analyse": {
     "tip": "분 해"
@@ -12315,6 +12342,9 @@
   "set_birth_title": {
     "tip": "당신의 생일을 설정해주세요."
   },
+  "setting_group_prefs_tip": {
+    "tip": "부팅 시 자동 다운로드"
+  },
   "setting_interface_cancel_check": {
     "tip": "현재 설정을 취소하시겠습니까?"
   },
@@ -12335,6 +12365,12 @@
   },
   "setting_resdownload_title_live2d": {
     "tip": "live2D 리소스 업데이트"
+  },
+  "setting_resdownload_title_main_group": {
+    "tip": "完整资源更新"
+  },
+  "setting_resdownload_title_manga": {
+    "tip": "漫画资源更新"
   },
   "setting_resdownload_title_music": {
     "tip": "BGM 리소스 업데이트"
@@ -15110,8 +15146,44 @@
   "word_main_fleet": {
     "tip": "주력"
   },
+  "word_maingroup_checkfailure": {
+    "tip": "오류 발생, 다시 시도해 주세요"
+  },
+  "word_maingroup_checking": {
+    "tip": "체크 중"
+  },
+  "word_maingroup_checktoupdate": {
+    "tip": "터치하여 다운로드"
+  },
+  "word_maingroup_updatefailure": {
+    "tip": "업데이트에 실패했습니다. 다시 시도해 주세요"
+  },
+  "word_maingroup_updatesuccess": {
+    "tip": "업데이트 완료"
+  },
+  "word_maingroup_updating": {
+    "tip": "업데이트 중..."
+  },
   "word_maintain": {
     "tip": "업데이트 후"
+  },
+  "word_manga_checkfailure": {
+    "tip": "오류 발생, 다시 시도해 주세요"
+  },
+  "word_manga_checking": {
+    "tip": "체크 중"
+  },
+  "word_manga_checktoupdate": {
+    "tip": "터치하여 다운로드"
+  },
+  "word_manga_updatefailure": {
+    "tip": "업데이트에 실패했습니다. 다시 시도해 주세요"
+  },
+  "word_manga_updatesuccess": {
+    "tip": "업데이트 완료"
+  },
+  "word_manga_updating": {
+    "tip": "업데이트: $1/$2"
   },
   "word_many": {
     "tip": "대량"
