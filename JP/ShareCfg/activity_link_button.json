@@ -9,7 +9,7 @@
     "text_pic": "text_event_all",
     "time": [
       "default",
-      4853
+      4932
     ],
     "type": 3
   },
@@ -58,7 +58,7 @@
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      4850
+      4928
     ],
     "type": 0
   },
@@ -145,16 +145,18 @@
   "100": {
     "group_id": 10,
     "id": 100,
-    "name": "event_doa",
+    "name": "event_medal",
     "order": 1,
-    "param": "0",
-    "pic": "event_doa",
-    "text_pic": "",
+    "param": [
+      "SSSS_MEDAL_COLLECTION"
+    ],
+    "pic": "event_medal",
+    "text_pic": "text_event_medal",
     "time": [
       "default",
-      4779
+      4935
     ],
-    "type": 0
+    "type": 2
   },
   "all": [
     1,
@@ -188,14 +190,14 @@
     "event_boss": [
       30
     ],
-    "event_doa": [
-      100
-    ],
     "event_escort": [
       40
     ],
     "event_map": [
       10
+    ],
+    "event_medal": [
+      100
     ],
     "event_minigame": [
       20
