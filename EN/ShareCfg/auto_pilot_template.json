@@ -416,6 +416,27 @@
     ],
     "name": "角色用/技能用AI 演习- 库尔斯克小潜艇移动2号"
   },
+  "15010": {
+    "default": 1,
+    "id": 15010,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": 0,
+          "X2": 10,
+          "Z1": 10,
+          "Z2": -20,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI 演习- Alexis"
+  },
   "20001": {
     "default": 1,
     "id": 20001,
@@ -9434,6 +9455,69 @@
       }
     ],
     "name": "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁4"
+  },
+  "70225": {
+    "default": 1,
+    "id": 70225,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": -1,
+          "offsetX": 10,
+          "offsetZ": 0
+        },
+        "to": 2,
+        "type": 8
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023古立特联动复刻 TSS2 宝多六花 追踪移动"
+  },
+  "70226": {
+    "default": 1,
+    "id": 70226,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -30,
+          "z": 55
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 2.5
+        },
+        "to": 3,
+        "type": 0
+      },
+      {
+        "index": 3,
+        "param": {
+          "X1": -60,
+          "X2": -10,
+          "Z1": 35,
+          "Z2": 75,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 90
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "2023古立特联动复刻 TSS5 战舰移动"
   },
   "75001": {
     "default": 1,
