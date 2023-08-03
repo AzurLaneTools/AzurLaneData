@@ -2474,6 +2474,81 @@
       445
     ]
   },
+  "476": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.71,
+          -1.73,
+          0
+        ],
+        [
+          0.82,
+          2.04,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 65,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.64,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_soundlath",
+    "id": 476,
+    "max_hp": 9999,
+    "model_ID": "feiji_soundlath",
+    "name": "支援武器SOUNDLATH",
+    "nationality": 4,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 2,
+    "spawn_brownian": 1,
+    "speed": 20,
+    "type": 3,
+    "weapon_ID": [
+      477
+    ]
+  },
   "4200": {
     "ACC_growth": 0,
     "AP_growth": 2000,
@@ -31625,6 +31700,79 @@
     "max_hp": 70,
     "model_ID": "ad1",
     "name": "约克城Ⅱ天袭者舰载机",
+    "nationality": 1,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 66,
+    "type": 3,
+    "weapon_ID": []
+  },
+  "61030": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.93,
+          -1.03,
+          0
+        ],
+        [
+          0.96,
+          1.08,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 206,
+    "dodge": 3.03,
+    "dodge_limit": 2.2,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 3678,
+    "icon": "feiji_judayanlong",
+    "id": 61030,
+    "max_hp": 96,
+    "model_ID": "feiji_judayanlong",
+    "name": "飞鸟川专武-巨大炎龙",
     "nationality": 1,
     "position_offset": [
       0,
@@ -72091,6 +72239,177 @@
     "spawn_brownian": 1,
     "weapon_ID": [
       161410
+    ]
+  },
+  "162221": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 293,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "exist": 10,
+      "front": -40,
+      "rear": -40,
+      "stay": 2
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 4600,
+    "icon": "fuyoupao3",
+    "id": 162221,
+    "max_hp": 298,
+    "model_ID": "fuyoupao3",
+    "name": "貉-实例化-塞壬浮游炮-LV1",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 1,
+    "speed": 70,
+    "type": 1,
+    "weapon_ID": [
+      63401,
+      63411
+    ]
+  },
+  "162222": {
+    "base": 162221,
+    "id": 162222,
+    "name": "貉-实例化-塞壬浮游炮-LV2",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63402,
+      63412
+    ]
+  },
+  "162223": {
+    "base": 162221,
+    "id": 162223,
+    "name": "貉-实例化-塞壬浮游炮-LV3",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63403,
+      63413
+    ]
+  },
+  "162224": {
+    "base": 162221,
+    "id": 162224,
+    "name": "貉-实例化-塞壬浮游炮-LV4",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63404,
+      63414
+    ]
+  },
+  "162225": {
+    "base": 162221,
+    "id": 162225,
+    "name": "貉-实例化-塞壬浮游炮-LV5",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63405,
+      63415
+    ]
+  },
+  "162226": {
+    "base": 162221,
+    "id": 162226,
+    "name": "貉-实例化-塞壬浮游炮-LV6",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63406,
+      63416
+    ]
+  },
+  "162227": {
+    "base": 162221,
+    "id": 162227,
+    "name": "貉-实例化-塞壬浮游炮-LV7",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63407,
+      63417
+    ]
+  },
+  "162228": {
+    "base": 162221,
+    "id": 162228,
+    "name": "貉-实例化-塞壬浮游炮-LV8",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63408,
+      63418
+    ]
+  },
+  "162229": {
+    "base": 162221,
+    "id": 162229,
+    "name": "貉-实例化-塞壬浮游炮-LV9",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63409,
+      63419
+    ]
+  },
+  "162230": {
+    "base": 162221,
+    "id": 162230,
+    "name": "貉-实例化-塞壬浮游炮-LV10",
+    "spawn_brownian": 1,
+    "weapon_ID": [
+      63410,
+      63420
     ]
   },
   "200101": {
@@ -155552,6 +155871,619 @@
     "type": 3,
     "weapon_ID": [
       840407
+    ]
+  },
+  "841004": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "AI": 70161
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_dainafeiyi",
+    "id": 841004,
+    "max_hp": 240,
+    "model_ID": "feiji_dainafeiyi",
+    "name": "【2021古立特联动活动TSS1】BOSS 南梦芽 戴拿飞翼舰载机1",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 0,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      841009
+    ]
+  },
+  "841005": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "AI": 70163
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_dainafeiyi",
+    "id": 841005,
+    "max_hp": 240,
+    "model_ID": "feiji_dainafeiyi",
+    "name": "【2021古立特联动活动TSS1】BOSS 南梦芽 戴拿飞翼舰载机2",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 0,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      841009
+    ]
+  },
+  "841006": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "AI": 70164
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_dainafeiyi",
+    "id": 841006,
+    "max_hp": 240,
+    "model_ID": "feiji_dainafeiyi",
+    "name": "【2021古立特联动活动TSS1】BOSS 南梦芽 戴拿飞翼舰载机3",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 0,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      841009
+    ]
+  },
+  "841007": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "AI": 70165
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_dainafeiyi",
+    "id": 841007,
+    "max_hp": 240,
+    "model_ID": "feiji_dainafeiyi",
+    "name": "【2021古立特联动活动TSS1】BOSS 南梦芽 戴拿飞翼舰载机4",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 0,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      841009
+    ]
+  },
+  "841008": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.56,
+          -0.76,
+          0
+        ],
+        [
+          0.48,
+          0.99,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": {
+      "AI": 70166
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "feiji_dainafeiyi",
+    "id": 841008,
+    "max_hp": 240,
+    "model_ID": "feiji_dainafeiyi",
+    "name": "【2021古立特联动活动TSS1】BOSS 南梦芽 戴拿飞翼舰载机5",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 0.75,
+    "spawn_brownian": 0,
+    "speed": 30,
+    "type": 3,
+    "weapon_ID": [
+      841009
+    ]
+  },
+  "843010": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "gulite_feiji",
+    "id": 843010,
+    "max_hp": 240,
+    "model_ID": "gulite_feiji",
+    "name": "【2021古立特联动活动TSS3】BOSS 新条茜 Instance Abreaction 舰载机",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 2,
+    "weapon_ID": [
+      843011
+    ]
+  },
+  "843014": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 160,
+    "dodge": 1,
+    "dodge_limit": 0,
+    "funnel_behavior": "",
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 2280,
+    "icon": "gulite_feiji",
+    "id": 843014,
+    "max_hp": 240,
+    "model_ID": "gulite_feiji",
+    "name": "【2021古立特联动活动TSS3】BOSS 新条茜 变身-舰载机（高频率）",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 1,
+    "speed": 30,
+    "type": 2,
+    "weapon_ID": [
+      843011
+    ]
+  },
+  "845001": {
+    "ACC_growth": 0,
+    "AP_growth": 2000,
+    "accuracy": 23,
+    "attack_power": 2,
+    "bound_bone": {
+      "weapon": [
+        [
+          0.68,
+          -0.667,
+          0
+        ],
+        [
+          0.97,
+          0.584,
+          0
+        ]
+      ]
+    },
+    "cld_box": [
+      1,
+      1,
+      1
+    ],
+    "cld_offset": [
+      0,
+      0,
+      0
+    ],
+    "crash_DMG": 188,
+    "dodge": 1.05,
+    "dodge_limit": 5,
+    "funnel_behavior": {
+      "AI": 70226
+    },
+    "fx_container": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "hp_growth": 1386,
+    "icon": "feiji_soundlath",
+    "id": 845001,
+    "max_hp": 50000,
+    "model_ID": "feiji_soundlath_boss",
+    "name": "【2021古立特联动活动TSS5】BOSS 第二代 战舰召唤",
+    "nationality": 3,
+    "position_offset": [
+      0,
+      5,
+      0
+    ],
+    "scale": 1,
+    "spawn_brownian": 0,
+    "speed": 60,
+    "type": 3,
+    "weapon_ID": [
+      845014,
+      845015
     ]
   },
   "871201": {
