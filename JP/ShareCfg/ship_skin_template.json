@@ -12012,9 +12012,38 @@
       "touch_special",
       "touch_head"
     ],
-    "l2d_drag_rate": "",
+    "l2d_drag_rate": [
+      0.5,
+      0.5,
+      0.5
+    ],
     "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ],
+      "ParamAngleY": [
+        -15,
+        15
+      ],
+      "ParamBodyAngleX": [
+        -8,
+        8
+      ],
+      "ParamBodyAngleY": [
+        -8,
+        8
+      ],
+      "ParamEyeBallX": [
+        -0.4,
+        0.2
+      ],
+      "ParamEyeBallY": [
+        -0.4,
+        0.4
+      ]
+    },
     "l2d_se": "",
     "l2d_voice_calibrate": {
       "use_event": true
@@ -12033,7 +12062,11 @@
     "prefab": "hailunna_4",
     "rarity_bg": "",
     "ship_group": 10205,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      1020531,
+      1020532,
+      1020533
+    ],
     "shop_id": 70898,
     "shop_type_id": 6,
     "show_skin": "stand",
@@ -39080,7 +39113,7 @@
     "lip_sync_gain": 0,
     "live2d_offset": [
       0,
-      30,
+      40,
       0
     ],
     "live2d_offset_profile": "",
@@ -196699,7 +196732,7 @@
         ]
       ]
     },
-    "desc": "▅海▊▇洛▅■芬特▇▆▅",
+    "desc": "▅ハ▊▇ロ▅■ント▇▆▅",
     "fx_container": [
       [
         0,
@@ -196743,7 +196776,7 @@
     ],
     "live2d_offset_profile": "",
     "main_UI_FX": "",
-    "name": "▅海▊▇洛▅■芬特▇▆▅",
+    "name": "▅ハ▊▇ロ▅■ント▇▆▅",
     "painting": "hierophant",
     "prefab": "hierophant",
     "rarity_bg": "",
@@ -203334,10 +203367,6 @@
       "ParamBodyAngleX": [
         -10,
         2
-      ],
-      "ParamBodyAngleXX": [
-        -10,
-        2
       ]
     },
     "l2d_se": "",
@@ -203582,9 +203611,18 @@
       "touch_special",
       "touch_head"
     ],
-    "l2d_drag_rate": "",
+    "l2d_drag_rate": [
+      0.5,
+      1,
+      1
+    ],
     "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ]
+    },
     "l2d_se": "",
     "l2d_voice_calibrate": {
       "use_event": true
@@ -203592,8 +203630,8 @@
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
-      75,
-      -85,
+      60,
+      -40,
       0
     ],
     "live2d_offset_profile": "",
@@ -203603,7 +203641,11 @@
     "prefab": "kelaimengsuo_2",
     "rarity_bg": "",
     "ship_group": 90502,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      9050211,
+      9050212,
+      9050213
+    ],
     "shop_id": 70890,
     "shop_type_id": 13,
     "show_skin": "stand",
