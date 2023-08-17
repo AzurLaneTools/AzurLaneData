@@ -5225,6 +5225,473 @@
     ],
     "use_ship": 1
   },
+  "6201": {
+    "condition_id": [],
+    "descrip": "耐久+70",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 70
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 6201,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "舰体改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 300,
+    "use_item": [
+      [
+        [
+          18021,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6202": {
+    "condition_id": [
+      6201
+    ],
+    "descrip": "命中+5",
+    "edit_trans": [],
+    "effect": [
+      {
+        "hit": 5
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "rl_1",
+    "id": 6202,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "命中强化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 400,
+    "use_item": [
+      [
+        [
+          18021,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6203": {
+    "condition_id": [
+      6201
+    ],
+    "descrip": "主炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "mgup_1",
+    "id": 6203,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "主炮改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18021,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6204": {
+    "condition_id": [
+      6203
+    ],
+    "descrip": "炮击+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "cn_1",
+    "id": 6204,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "炮击强化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18021,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6205": {
+    "condition_id": [
+      6203
+    ],
+    "descrip": "防空炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_3": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "aaup_1",
+    "id": 6205,
+    "level_limit": 35,
+    "max_level": 1,
+    "name": "防空炮改良I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18022,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6206": {
+    "condition_id": [
+      6205
+    ],
+    "descrip": "防空+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "aa_1",
+    "id": 6206,
+    "level_limit": 40,
+    "max_level": 1,
+    "name": "防空强化I",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1200,
+    "use_item": [
+      [
+        [
+          18022,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6207": {
+    "condition_id": [
+      6205
+    ],
+    "descrip": "耐久+70/耐久+100",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 70
+      },
+      {
+        "durability": 100
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "hp_2",
+    "id": 6207,
+    "level_limit": 50,
+    "max_level": 2,
+    "name": "舰体改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18022,
+          2
+        ]
+      ],
+      [
+        [
+          18022,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6208": {
+    "condition_id": [
+      6202,
+      6207
+    ],
+    "descrip": "命中+5/命中+10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "hit": 5
+      },
+      {
+        "hit": 10
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "rl_2",
+    "id": 6208,
+    "level_limit": 55,
+    "max_level": 2,
+    "name": "命中强化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18022,
+          2
+        ]
+      ],
+      [
+        [
+          18022,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6209": {
+    "condition_id": [
+      6207
+    ],
+    "descrip": "主炮武器效率+5%/主炮武器效率+5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      },
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "mgup_2",
+    "id": 6209,
+    "level_limit": 70,
+    "max_level": 2,
+    "name": "主炮改良II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18023,
+          1
+        ]
+      ],
+      [
+        [
+          18023,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6210": {
+    "condition_id": [
+      6208,
+      6209
+    ],
+    "descrip": "炮击+5/炮击+15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "cannon": 5
+      },
+      {
+        "cannon": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "cn_2",
+    "id": 6210,
+    "level_limit": 75,
+    "max_level": 2,
+    "name": "炮击强化II",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18023,
+          1
+        ],
+        [
+          17003,
+          5
+        ]
+      ],
+      [
+        [
+          18023,
+          2
+        ],
+        [
+          17003,
+          15
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "6211": {
+    "condition_id": [
+      6206,
+      6209
+    ],
+    "descrip": "近代化改造完成，防空+20，装填+25\n改造后技能【BIG SEVEN】升级为【BIG SEVEN·西弗吉尼亚】",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 20,
+        "reload": 25
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_yellow",
+    "id": 6211,
+    "level_limit": 85,
+    "max_level": 1,
+    "name": "近代化改造",
+    "ship_id": [
+      [
+        105114,
+        105234
+      ]
+    ],
+    "skill_id": 0,
+    "skin_id": 105119,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18023,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
+  "6212": {
+    "condition_id": [
+      6211
+    ],
+    "descrip": "习得技能【莱特湾的见证者】",
+    "edit_trans": [],
+    "effect": [
+      {
+        "skill_id": 16950
+      }
+    ],
+    "gear_score": [
+      30
+    ],
+    "icon": "skill_red",
+    "id": 6212,
+    "level_limit": 90,
+    "max_level": 1,
+    "name": "战术启发",
+    "ship_id": [],
+    "skill_id": 16950,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18023,
+          2
+        ],
+        [
+          17003,
+          50
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
   "7001": {
     "condition_id": [],
     "descrip": "耐久+60",
