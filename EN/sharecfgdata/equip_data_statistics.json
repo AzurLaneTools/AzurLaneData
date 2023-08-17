@@ -68916,7 +68916,8 @@
       "IJN",
       "CL",
       "MG",
-      "HE"
+      "HE",
+      "ShimantoMG"
     ],
     "name": "Prototype Triple 150mm Type 5 High-Angle Gun Mount",
     "nationality": 3,
@@ -117951,6 +117952,57 @@
       170113
     ]
   },
+  "80041": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "Barrage",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 80041,
+    "label": [],
+    "name": "All Out Assault I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "N/A",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      170161
+    ]
+  },
+  "80042": {
+    "base": 80041,
+    "hidden_skill_id": [],
+    "id": 80042,
+    "name": "All Out Assault I",
+    "weapon_id": [
+      170162
+    ]
+  },
   "85000": {
     "ammo": 3,
     "ammo_icon": [
@@ -126909,6 +126961,186 @@
       90247
     ]
   },
+  "90260": {
+    "ammo": 2,
+    "ammo_icon": [
+      3
+    ],
+    "ammo_info": [
+      [
+        1,
+        2210
+      ]
+    ],
+    "attribute_2": "cannon",
+    "damage": "12 x 6",
+    "descrip": "An Iris Orthodoxy-developed 152mm light cruiser main gun, modified to fire HE ammunition.",
+    "equip_info": [
+      1,
+      2,
+      [
+        3,
+        2210
+      ],
+      [
+        4,
+        1110
+      ],
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "50200",
+    "id": 90260,
+    "label": [
+      "FFNF",
+      "CL",
+      "MG",
+      "HE"
+    ],
+    "name": "Triple 152mm Mle1930 Main Gun Mount (HE)",
+    "nationality": 8,
+    "part_main": [
+      2
+    ],
+    "part_sub": [
+      5
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "speciality": "Lock",
+    "tech": 0,
+    "torpedo_ammo": 0,
+    "type": 2,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      90260
+    ]
+  },
+  "90261": {
+    "base": 90260,
+    "hidden_skill_id": [],
+    "id": 90261,
+    "weapon_id": [
+      90261
+    ]
+  },
+  "90262": {
+    "base": 90260,
+    "damage": "13 x 6",
+    "hidden_skill_id": [],
+    "id": 90262,
+    "weapon_id": [
+      90262
+    ]
+  },
+  "90263": {
+    "base": 90260,
+    "damage": "14 x 6",
+    "hidden_skill_id": [],
+    "id": 90263,
+    "weapon_id": [
+      90263
+    ]
+  },
+  "90264": {
+    "base": 90260,
+    "damage": "15 x 6",
+    "hidden_skill_id": [],
+    "id": 90264,
+    "weapon_id": [
+      90264
+    ]
+  },
+  "90265": {
+    "base": 90260,
+    "damage": "16 x 6",
+    "hidden_skill_id": [],
+    "id": 90265,
+    "weapon_id": [
+      90265
+    ]
+  },
+  "90266": {
+    "base": 90260,
+    "damage": "17 x 6",
+    "hidden_skill_id": [],
+    "id": 90266,
+    "weapon_id": [
+      90266
+    ]
+  },
+  "90267": {
+    "base": 90260,
+    "damage": "18 x 6",
+    "hidden_skill_id": [],
+    "id": 90267,
+    "weapon_id": [
+      90267
+    ]
+  },
+  "90268": {
+    "base": 90260,
+    "damage": "19 x 6",
+    "hidden_skill_id": [],
+    "id": 90268,
+    "weapon_id": [
+      90268
+    ]
+  },
+  "90269": {
+    "base": 90260,
+    "damage": "20 x 6",
+    "hidden_skill_id": [],
+    "id": 90269,
+    "weapon_id": [
+      90269
+    ]
+  },
+  "90270": {
+    "base": 90260,
+    "damage": "21 x 6",
+    "hidden_skill_id": [],
+    "id": 90270,
+    "weapon_id": [
+      90270
+    ]
+  },
+  "90271": {
+    "anti_siren": 100,
+    "base": 90260,
+    "damage": "21 x 6",
+    "hidden_skill_id": [],
+    "id": 90271,
+    "weapon_id": [
+      90271
+    ]
+  },
+  "90272": {
+    "anti_siren": 200,
+    "base": 90260,
+    "damage": "21 x 6",
+    "hidden_skill_id": [],
+    "id": 90272,
+    "weapon_id": [
+      90272
+    ]
+  },
+  "90273": {
+    "anti_siren": 300,
+    "base": 90260,
+    "damage": "21 x 6",
+    "hidden_skill_id": [],
+    "id": 90273,
+    "weapon_id": [
+      90273
+    ]
+  },
   "90300": {
     "ammo": 3,
     "ammo_icon": [
@@ -130634,7 +130866,7 @@
     "icon": "51000",
     "id": 91000,
     "label": [
-      "KMS",
+      "FFNF",
       "BB",
       "MG",
       "AP"
