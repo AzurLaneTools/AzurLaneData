@@ -18720,6 +18720,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 40703,
@@ -18750,6 +18761,17 @@
         "限时活动：负象限作战",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -18784,6 +18806,27 @@
           ""
         ],
         0
+      ],
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 40810,
@@ -18814,6 +18857,17 @@
         "限时活动：负象限作战",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
         ],
         0
       ]
@@ -18848,6 +18902,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 40205,
@@ -18878,6 +18943,16 @@
         "限时活动：负象限作战",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
         ],
         0
       ]
@@ -26643,5 +26718,40 @@
     "trans_skin": 0,
     "trans_type": 0,
     "type": 1
+  },
+  "30025": {
+    "code": 30025,
+    "description": [
+      [
+        "限时活动：META研究室-资讯同步",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9702051
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970205,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30025,
+    "nationality": 97,
+    "property_hexagon": [
+      "C",
+      "A",
+      "E",
+      "B",
+      "B",
+      "B"
+    ],
+    "redirect_id": 101,
+    "share_group_id": [],
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 2
   }
 }
