@@ -217,7 +217,7 @@
       0.95
     ],
     "painting": "fanji",
-    "state": "stop"
+    "state": "always"
   },
   "8": {
     "boss_level_id": 106,
@@ -384,12 +384,50 @@
       0.9
     ],
     "painting": "aerjiliya",
+    "state": "stop"
+  },
+  "12": {
+    "boss_level_id": 166,
+    "description": [
+      [
+        "Ironclad Ultimatum",
+        2,
+        "10s after the battle starts: <color=#92fc63>decreases this ship's DMG taken by 20.0% until the battle ends</color>."
+      ],
+      [
+        "Fragmented Alliance",
+        3,
+        "If you have ships from 2 or more different factions in your fleet: for each unique faction after the 1st, increases this ship's every stat by 5.0%. \nCollab ships, except for blueprint ships, are not counted."
+      ],
+      [
+        "Inevitable Fate",
+        1,
+        "50s after the battle starts: until the battle ends, <color=#92fc63>increases this ship's DMG taken by 10.0% for every 4s passed.</color>"
+      ]
+    ],
+    "id": 12,
+    "item_id": 100000,
+    "meta_id": 970205,
+    "name": "Jintsuu META",
+    "p_offset": [
+      -118.8,
+      585.5,
+      0.8,
+      0.8
+    ],
+    "p_offset_other": [
+      426,
+      587.7,
+      0.8,
+      0.8
+    ],
+    "painting": "shentong",
     "state": [
       [
         [
           2023,
-          6,
-          8
+          8,
+          31
         ],
         [
           0,
@@ -400,8 +438,8 @@
       [
         [
           2023,
-          8,
-          31
+          11,
+          23
         ],
         [
           23,
@@ -422,6 +460,7 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ]
 }
