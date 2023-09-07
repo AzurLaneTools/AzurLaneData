@@ -7582,6 +7582,16 @@
       {
         "icon": {
           "atlas": "attricon",
+          "path": "hit",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.3
+        },
+        "info": "    命中：攻撃の命中率とクリティカル率を上げる"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
           "path": "attr_speed",
           "posX": 0,
           "posY": 0,
@@ -13235,7 +13245,7 @@
     "tip": "改造は<color=#92fc63>ミート・パフューム</color>を消費します、改造を続けますか？\n改造すると、<color=#92fc63>【魚雷装填数-1】</color> <color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【ソロモンの悪夢】</color>が<color=#92fc63>【ソロモンの悪夢・改】</color>に変更、スキル<color=#92fc63>【特殊弾幕-夕立II】</color>が<color=#92fc63>【特殊弾幕-夕立III】</color>に変更"
   },
   "ship_remould_warning_303154": {
-    "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n装備されている<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+    "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。\n改造を続けますか？"
   },
   "ship_remould_warning_310014": {
     "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
