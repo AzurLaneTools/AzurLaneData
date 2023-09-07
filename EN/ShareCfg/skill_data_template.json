@@ -96695,6 +96695,20 @@
       1
     ]
   },
+  "60430": {
+    "desc": "When equipped by a Sakura Empire ship: increases your Sakura Empire ships' LCK by 1 (does not stack).",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 60430,
+    "max_level": 0,
+    "name": "Embroidered Charm Pouch",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
   "101010": {
     "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
     "desc_add": [
@@ -118648,6 +118662,157 @@
       1
     ]
   },
+  "1010160": {
+    "desc": "10s after the battle starts, and every 20s after that: for 10s, this ship tanks 50.0% of the DMG taken by your Main Fleet and reduces said DMG by $1. Afterwards, she recovers HP equal to $2 of the DMG tanked and her FP and ACC increases by $3 (this buff can be stacked up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "20.0%",
+          "+3.3%"
+        ],
+        [
+          "23.3%",
+          "+3.3%"
+        ],
+        [
+          "26.6%",
+          "+3.3%"
+        ],
+        [
+          "29.9%",
+          "+3.3%"
+        ],
+        [
+          "33.2%",
+          "+3.3%"
+        ],
+        [
+          "36.5%",
+          "+3.3%"
+        ],
+        [
+          "39.8%",
+          "+3.3%"
+        ],
+        [
+          "43.1%",
+          "+3.3%"
+        ],
+        [
+          "46.4%",
+          "+3.6%"
+        ],
+        [
+          "50.0%"
+        ]
+      ],
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4.0%",
+        "10.0%"
+      ],
+      [
+        "20.0%",
+        "50.0%"
+      ],
+      [
+        "4.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 1010160,
+    "max_level": 10,
+    "name": "The Strongest Shield+",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1010250": {
     "desc": "Every 5s: fires a $1 special shell and, with a 20.0% chance, increases this ship's EVA by $3 for 8s (special shell DMG is based on the skill's level and this ship's TRP stat; EVA buff does not stack). Every 4 times this skill activates in the same battle: improves the special shell. If the special shell deals DMG to an enemy: increases its DMG by $2.",
     "desc_add": [
@@ -120613,6 +120778,105 @@
       1
     ]
   },
+  "1011440": {
+    "desc": "When this boat's torpedoes hit an enemy: for 5s, if that enemy takes DMG from this boat's torpedoes again, the enemy's DMG taken increases by $1; when this boat resurfaces, fires a $2 special torpedo barrage (DMG is based on the skill's level) and decreases this boat's DMG taken by 15.0% until the battle ends.",
+    "desc_add": [
+      [
+        [
+          "20.0%",
+          "+2.2%"
+        ],
+        [
+          "22.2%",
+          "+2.2%"
+        ],
+        [
+          "24.4%",
+          "+2.2%"
+        ],
+        [
+          "26.6%",
+          "+2.2%"
+        ],
+        [
+          "28.8%",
+          "+2.2%"
+        ],
+        [
+          "31.0%",
+          "+2.2%"
+        ],
+        [
+          "33.2%",
+          "+2.2%"
+        ],
+        [
+          "35.4%",
+          "+2.2%"
+        ],
+        [
+          "37.6%",
+          "+2.4%"
+        ],
+        [
+          "40.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "20.0%",
+        "40.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1011440,
+    "max_level": 10,
+    "name": "The Bull of Scapa Flow+",
+    "system_transform": {
+      "11": 3500
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1011500": {
     "desc": "When this ship's Main Gun damages the same target consecutively (if an attack hits multiple targets at once, they are all designated for this effect): increases this ship's RLD by $1 and FP by $2 (effect can only activate once every second; buff can be stacked up to 4 times); when this ship hits a different target, the RLD buff is reset. The first time each battle the max number of stacks is reached: decreases this ship's DMG taken by $3 and improves this ship's \"All Out Assault\" skill until the battle ends.",
     "desc_add": [
@@ -121515,6 +121779,112 @@
     "id": 1011900,
     "max_level": 10,
     "name": "Protector of the North Passage+",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1011970": {
+    "desc": "Every 5 times this ship fires her Main Guns: increases this ship's RLD by $1 and the DMG dealt by her All Out Assault skill by $2 (can be stacked up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4.0%",
+        "10.0%"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ]
+    ],
+    "id": 1011970,
+    "max_level": 10,
+    "name": "Morale Boost+",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -124040,6 +124410,209 @@
     "system_transform": {
       "11": 3500
     },
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1090160": {
+    "desc": "When this ship fires her Main Guns: $1 chance to fire again and restore 2.0% of this ship's max HP.",
+    "desc_add": [
+      [
+        [
+          "45.0%",
+          "+3.3%"
+        ],
+        [
+          "48.3%",
+          "+3.3%"
+        ],
+        [
+          "51.6%",
+          "+3.3%"
+        ],
+        [
+          "54.9%",
+          "+3.3%"
+        ],
+        [
+          "58.2%",
+          "+3.3%"
+        ],
+        [
+          "61.5%",
+          "+3.3%"
+        ],
+        [
+          "64.8%",
+          "+3.3%"
+        ],
+        [
+          "68.1%",
+          "+3.3%"
+        ],
+        [
+          "71.4%",
+          "+3.6%"
+        ],
+        [
+          "75.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "45.0%",
+        "75.0%"
+      ]
+    ],
+    "id": 1090160,
+    "max_level": 10,
+    "name": "Double Gun - Suffolk",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1090170": {
+    "desc": "Decreases this ship's DMG taken from AP shells by $1. 10s after the battle starts, and every 20s after that: deploys a barrier (lasts 10s) that can negate up to $2 of this ship's max HP in DMG; when this barrier breaks or expires: fires a $3 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "1.2%",
+          "+0.2%"
+        ],
+        [
+          "1.4%",
+          "+0.2%"
+        ],
+        [
+          "1.6%",
+          "+0.2%"
+        ],
+        [
+          "1.8%",
+          "+0.2%"
+        ],
+        [
+          "2.0%",
+          "+0.2%"
+        ],
+        [
+          "2.2%",
+          "+0.2%"
+        ],
+        [
+          "2.4%",
+          "+0.2%"
+        ],
+        [
+          "2.6%",
+          "+0.2%"
+        ],
+        [
+          "2.8%",
+          "+0.2%"
+        ],
+        [
+          "3.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "10%",
+        "20%"
+      ],
+      [
+        "1.2%",
+        "3.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1090170,
+    "max_level": 10,
+    "name": "AP Protection - Mogami",
+    "system_transform": [],
     "type": 2,
     "world_death_mark": [
       1
