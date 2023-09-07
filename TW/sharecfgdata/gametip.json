@@ -650,6 +650,9 @@
   "attr_reload": {
     "tip": "裝填"
   },
+  "attr_speed": {
+    "tip": "航速"
+  },
   "attr_torpedo": {
     "tip": "雷擊"
   },
@@ -1510,7 +1513,7 @@
     "tip": "累計得分："
   },
   "battle_result_total_time": {
-    "tip": "通关时间："
+    "tip": "通關時間："
   },
   "battle_result_undefeated": {
     "tip": "全員未被重創"
@@ -2449,6 +2452,9 @@
   },
   "charge_extra_gem_tip": {
     "tip": "額外贈送$1鑽石"
+  },
+  "charge_game_room_coin_tip": {
+    "tip": "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物資兌換<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>个$4"
   },
   "charge_items_title": {
     "tip": "獲得以下道具"
@@ -4651,16 +4657,16 @@
     ]
   },
   "game_cannot_go": {
-    "tip": "本游戏目前不在开放时间内"
+    "tip": "本遊戲目前不在開放時間內"
   },
   "game_goldbyicon": {
-    "tip": "是否消耗$1物资兑换$2游戏币 "
+    "tip": "是否消耗$1物資兌換$2遊戲幣 "
   },
   "game_icon_max": {
-    "tip": "当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"
+    "tip": "當前遊戲幣即將到達上限，領取後超出上限的部分將會消失，是否繼續領取？"
   },
   "game_icon_notenough": {
-    "tip": "当前游戏币不足（），是否消耗物资兑换X枚游戏币？"
+    "tip": "當前遊戲幣不足（），是否消耗物資兌換X枚遊戲幣？"
   },
   "game_openwords": {
     "tip": "主介面台詞框已顯示"
@@ -4668,12 +4674,12 @@
   "game_room_help": {
     "tip": [
       {
-        "info": "游戏屋功能说明：\n1.使用「游戏币」进行游戏可获取「游戏奖券」，使用的游戏币数量越多，奖卷获取倍率越高，最多一次可使用5枚游戏币。每月最多获得10000奖券，奖卷持有上限为50000\n2.每周可从游戏室中免费获取10枚游戏币，游戏币持有上限为40枚，当游戏币不足时，指挥官可以使用物资兑换游戏币。\n3.使用啾啾奖券可以在奖卷商店中兑换不同商品，商品存在兑换次数，商品列表会在后续持续更新。\n4.活动结束的小游戏会在后续逐步加入游戏列表，部分小游戏可能暂时不会进入游戏室，还望指挥官谅解。"
+        "info": "遊戲屋功能說明：\n1.使用「遊戲幣」進行遊戲可獲取「遊戲獎券」，使用的遊戲幣數量越多，獎券獲取倍率越高，最多一次可使用5枚遊戲幣。每月最多獲得10000獎券，獎券持有上限為50000\n2.每週可從遊戲屋中免費獲取10枚遊戲幣，遊戲幣持有上限為40枚，當遊戲幣不足時，指揮官可以使用物資兌換遊戲幣。\n3.使用啾啾獎券可以在獎券商店中兌換不同商品，商品存在兌換次數，商品列表會在後續持續更新。\n4.活動結束的小遊戲會在後續逐步加入遊戲列表，部分小遊戲可能暫時不會進入遊戲屋，還望指揮官諒解。"
       }
     ]
   },
   "game_room_shooting_tip": {
-    "tip": "当前积分："
+    "tip": "當前積分："
   },
   "game_stopwords": {
     "tip": "主介面台詞框已隱藏"
@@ -4682,13 +4688,13 @@
     "tip": "本月上限"
   },
   "game_ticket_max_all": {
-    "tip": "当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"
+    "tip": "當前遊戲獎券持有數量即將達到上限，繼續遊玩可能會有部分獎券無法獲得，是否繼續遊玩"
   },
   "game_ticket_max_month": {
-    "tip": "本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"
+    "tip": "本月可獲取遊戲獎券數量即將達到上限，繼續遊玩可能會有部分獎券無法獲得，是否繼續遊玩？"
   },
   "game_ticket_notenough": {
-    "tip": "游戏奖券数量不足，是否前往游戏屋获取？"
+    "tip": "遊戲獎券數量不足，是否前往遊戲屋獲取？"
   },
   "gametip_xiaotiancheng": {
     "tip": [
@@ -10081,7 +10087,7 @@
     "tip": "分數:"
   },
   "mini_game_shop_ticked_not_enough": {
-    "tip": "游戏奖券数量不足，是否前往游戏屋获取？"
+    "tip": "遊戲獎券數量不足，是否前往遊戲屋獲取？"
   },
   "mini_game_shop_title": {
     "tip": "獎券"
@@ -10860,7 +10866,7 @@
     "tip": "掉落"
   },
   "pre_combat_consume": {
-    "tip": "消耗："
+    "tip": "當前遊戲幣到達上限,無法繼續領取"
   },
   "pre_combat_main": {
     "tip": "主力艦隊"
@@ -11818,7 +11824,7 @@
     "tip": "合作社"
   },
   "school_title_xiaoyouxiting": {
-    "tip": "游戏屋"
+    "tip": "遊戲屋"
   },
   "school_title_xueyuan": {
     "tip": "戰術學院"
@@ -12387,10 +12393,10 @@
     "tip": "第六艦隊"
   },
   "ship_formationUI_fleetName_challenge": {
-    "tip": "限界挑战舰队"
+    "tip": "限界挑戰艦隊"
   },
   "ship_formationUI_fleetName_challenge_sub": {
-    "tip": "限界挑战舰队"
+    "tip": "限界挑戰艦隊"
   },
   "ship_formationUI_fleetName_easy": {
     "tip": "簡單艦隊"
@@ -12825,10 +12831,10 @@
     "tip": "艦船為第一艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
   },
   "shipmodechange_reject_inactivity": {
-    "tip": "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
+    "tip": "艦船在連戰/共鬥活動編成中，請調整編隊陣容後重試 "
   },
   "shipmodechange_reject_inchallenge": {
-    "tip": "舰船在限界挑战编成中，请调整编队阵容后重试"
+    "tip": "艦船在限界挑戰編成中，請調整編隊陣容後重試"
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
@@ -15125,6 +15131,9 @@
   "word_shipNation_meta": {
     "tip": "???"
   },
+  "word_shipNation_meta_index": {
+    "tip": "META"
+  },
   "word_shipNation_mot": {
     "tip": "颶風"
   },
@@ -16053,6 +16062,9 @@
   "world_instruction_morale_4": {
     "tip": "※指令使用後，一段時間內無法使用"
   },
+  "world_instruction_port_goods_locked": {
+    "tip": "安全海域進度解鎖"
+  },
   "world_instruction_redeploy_1": {
     "tip": "當前海域無法進行艦隊部署，請前往我方港口海域"
   },
@@ -16217,6 +16229,9 @@
   },
   "world_past_boss_item_info": {
     "tip": "檔案信標紀錄儀|用於紀錄在大型作戰中收集到的「檔案信標數據」的裝置，達到指定數據量後可據此數據進行解析，發現特定的信標\nP.S.紀錄儀的紀錄容量有限，請務必及時前往解析\n每日獲取上限:$1/$2\n紀錄容量上限：$3/$4"
+  },
+  "world_port_inbattle": {
+    "tip": "當前艦隊正在行動中，無法進入港口"
   },
   "world_pressing": {
     "tip": "壓制統計"
