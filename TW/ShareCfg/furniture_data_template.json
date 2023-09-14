@@ -5262,6 +5262,49 @@
     "themeId": 0,
     "type": 11
   },
+  "234": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "大棋盤中心黑色高塔的微縮模型，材質與構造皆不明，但散發著危險的氣息。 ——授予在「紫絳槿嵐」特別作戰中獲得傑出成就者的紀念章。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "紫绛槿岚",
+    "icon": "wuzangxunzhangicon",
+    "id": 234,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "赤紅之“塔”",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "wuzangxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "235": {
     "advice": 0,
     "belong": 1,
@@ -5501,6 +5544,69 @@
     "tag": 6,
     "themeId": 0,
     "type": 15
+  },
+  "258": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "「蘋果與紅茶的黃金比例！一同暢飲吧！啾！」",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "pingguohongchaicon",
+    "id": 258,
+    "interAction": [
+      [
+        "wash",
+        [
+          5.3,
+          -100
+        ],
+        [
+          1,
+          1
+        ],
+        "chuanmo/pingguohongcha_using",
+        0,
+        [
+          [
+            -6,
+            104
+          ],
+          [
+            400,
+            526
+          ],
+          "chuanmo/pingguohongcha_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "茉莉茶園盒裝模型",
+    "offset": [],
+    "picture": "chuanmo/pingguohongcha",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
   },
   "1001": {
     "advice": 0,
@@ -103133,6 +103239,970 @@
     "spine_extra": "",
     "tag": 1,
     "themeId": 101,
+    "type": 2
+  },
+  "303001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "開啟溫泉街的奇妙之夜！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanbgyxicon",
+    "id": 303001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "常世溫泉街地板",
+    "offset": [],
+    "picture": "bgyx/dibanbgyx",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 103,
+    "type": 4
+  },
+  "303002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "開啟溫泉街的奇妙之夜！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbibgyxicon",
+    "id": 303002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "常世溫泉街壁紙",
+    "offset": [],
+    "picture": "bgyx/qiangbibgyx",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 103,
+    "type": 1
+  },
+  "303101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "跨過此橋，去往常世。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "bianqiaobgyxicon",
+    "id": 303101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "常世之橋",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      15,
+      6
+    ],
+    "spine": [
+      [
+        "bianqiaobgyxB",
+        "normal"
+      ],
+      [
+        "bianqiaobgyxT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "walk"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 103,
+    "type": 2
+  },
+  "303102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "袋貉們正在密謀搞點大動靜~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "daihebgyxicon",
+    "id": 303102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "袋貉集會",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "daihebgyx",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 103,
+    "type": 2
+  },
+  "303103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "小燈籠努力瞪大了眼睛~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengguibgyxicon",
+    "id": 303103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "獨眼小燈",
+    "offset": [],
+    "picture": "",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine": {
+      "1": [
+        "dengguibgyx",
+        "normal"
+      ],
+      "3": [
+        [
+          -215,
+          24
+        ],
+        "walk"
+      ]
+    },
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 14
+  },
+  "303104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "散發著幽靜的光芒~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "denglonggualanbgyxicon",
+    "id": 303104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉紙燈掛欄",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      5
+    ],
+    "spine": [
+      [
+        "denglonggualanbgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "安靜沉穩的御狐石像。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diaoxiangbgyxicon",
+    "id": 303105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉御狐石像",
+    "offset": [],
+    "picture": "bgyx/diaoxiangbgyx",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "客人請排隊，嗯？您看不見其它客人嗎？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guandongzhubgyxicon",
+    "id": 303106,
+    "interAction": [
+      [
+        "sit",
+        [
+          -81,
+          -87
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "常世關東煮",
+    "offset": [],
+    "picture": "bgyx/guandongzhubgyx",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "勞煩幫我蓋上蓋子，謝謝。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guanhubgyxicon",
+    "id": 303107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉管狐",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine": [
+      [
+        "guanhubgyx",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "非常美麗的紅色溫泉街裝飾",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huaduibgyxicon",
+    "id": 303108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉彼岸花",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine": [
+      [
+        "huaduibgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "發出“詭異的光”的街燈。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ludengbgyxicon",
+    "id": 303109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "常世街燈",
+    "offset": [],
+    "picture": "bgyx/ludengbgyx",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "前方即是神之領域……啾！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "niaojubgyxicon",
+    "id": 303110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉鳥居",
+    "offset": [],
+    "picture": "bgyx/niaojubgyx",
+    "rarity": 4,
+    "size": [
+      7,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "壽司來囉！麻煩讓讓~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "piaoguibgyxicon",
+    "id": 303111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉遊魂",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "piaoguibgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "不給我講故事就搗蛋~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qingxingdengbgyxicon",
+    "id": 303112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉青行燈",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      2,
+      1
+    ],
+    "spine": [
+      [
+        "qingxingdengbgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "嘎嗚！呃，咬到舌頭了……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "sanguibgyxicon",
+    "id": 303113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "唐傘小僧",
+    "offset": [],
+    "picture": "",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine": {
+      "1": [
+        "sanguibgyx",
+        "normal"
+      ],
+      "3": [
+        [
+          -215,
+          24
+        ],
+        "walk"
+      ]
+    },
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 14
+  },
+  "303114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "快點供奉油豆皮啦~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shenkanbgyxicon",
+    "id": 303114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉御狐神龕",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "shenkanbgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "許個願也許能實現？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shenshubgyxicon",
+    "id": 303115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉神櫻樹",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      5
+    ],
+    "spine": [
+      [
+        "shenshubgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "進入溫泉前請先清潔哦~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shouxibgyxicon",
+    "id": 303116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉手水舍",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "shouxibgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "散發出絲絲寒意…但對於客人來說剛剛好？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "wenquanbgyxicon",
+    "id": 303117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "常世溫泉",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      6,
+      6
+    ],
+    "spine": [
+      [
+        "wenquanbgyxB",
+        "normal"
+      ],
+      [
+        "wenquanbgyxT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "wash"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          -11.1,
+          129.2
+        ],
+        [
+          426,
+          254
+        ],
+        "bgyx/wenquanbgyx_mask"
+      ],
+      [
+        5.3,
+        -128.7
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "啊、啊——啾！？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xuenvjiubgyxicon",
+    "id": 303118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "雪女啾",
+    "offset": [],
+    "picture": "bgyx/xuenvjiubgyx",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
+    "type": 2
+  },
+  "303119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "主、主動聚過來了！？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yinghuobgyxicon",
+    "id": 303119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "溫泉螢火",
+    "offset": [],
+    "picture": "",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "yinghuobgyx",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 103,
     "type": 2
   }
 }
