@@ -731,6 +731,9 @@
   "attr_reload": {
     "tip": "장전"
   },
+  "attr_speed": {
+    "tip": "항속"
+  },
   "attr_torpedo": {
     "tip": "뇌장"
   },
@@ -2190,16 +2193,16 @@
     "tip": "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다."
   },
   "buildship_heavy_tip": {
-    "tip": "하우、밸리언트 건조 추가!"
+    "tip": "프린츠 하인리히 상시 건조 추가!"
   },
   "buildship_light_tip": {
-    "tip": "\"에스키모\" 상시 추가!"
+    "tip": "뉘른베르크 상시 건조 추가!"
   },
   "buildship_new_tip": {
     "tip": "클레망소, 기샹 등의 등장 확률 UP!"
   },
   "buildship_special_tip": {
-    "tip": "퍼시어스、이글 건조 추가!"
+    "tip": "페터 슈트라서, U-37 상시 건조 추가!"
   },
   "buleprint_need_level_tip": {
     "tip": "해당 함선은 $1 레벨에 개방됩니다."
@@ -2302,6 +2305,27 @@
   "cannot_build_multiple_printblue": {
     "tip": "현재 진행 중인 <color=#92fc63>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#92fc63>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#92fc63>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다."
   },
+  "card_battle_card details": {
+    "tip": "커맨드 상세 정보"
+  },
+  "card_battle_card details_deck": {
+    "tip": "커맨드 덱"
+  },
+  "card_battle_card details_hand": {
+    "tip": "선택 중인 커맨드"
+  },
+  "card_battle_card details_switchto_deck": {
+    "tip": "덱 확인"
+  },
+  "card_battle_card details_switchto_hand": {
+    "tip": "커맨드 확인"
+  },
+  "card_battle_card_empty_ch": {
+    "tip": "덱에 커맨드 카드가 없습니다."
+  },
+  "card_battle_card_empty_en": {
+    "tip": "- LIST IS EMPTY -"
+  },
   "card_pairs_help_tip": {
     "tip": [
       {
@@ -2332,6 +2356,15 @@
   },
   "card_pairs_tips": {
     "tip": "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까?"
+  },
+  "card_puzzel_goal_ch": {
+    "tip": "스테이지 목표"
+  },
+  "card_puzzel_goal_en": {
+    "tip": "TARGET"
+  },
+  "card_puzzle_deck": {
+    "tip": "덱"
   },
   "cartoon_haveno": {
     "tip": "조건에 맞는 만화 없음"
@@ -7603,159 +7636,19 @@
   "help_shipinfo_attr": {
     "tip": [
       {
-        "info": "1.스텟에 관하여 : "
+        "info": "1. 강화 표시:"
       },
       {
-        "info": " <color=#92fc63FF>     장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
+        "info": " <color=#92fc63FF>장비</color>: 장착하고 있는 장비의 능력치 강화 표시"
       },
       {
-        "info": " <color=#FFDE00FF>     기술</color>：함대 기술로 인한 속성이 상승합니다."
+        "info": " <color=#FFDE00FF>기술</color>: 함대 기술에 의한 능력치 강화 표시"
       },
       {
-        "info": "2.속성설명："
+        "info": "2. 성능에 대해:"
       },
       {
-        "icon": {
-          "atlas": "attricon",
-          "path": "durability",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      내구 : 함선소녀의 최대 HP 수치"
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "cannon",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      포격 : 함포의 대미지가 상승합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "antiaircraft",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      대공 : 대공화기의 대미지가 상승합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "armor",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는\n피해가 감소하고,소구경 포로부터 받는 피해를 무효화 할\n수도 있습니다.(피해 경감률 : 중장갑>중형장갑>경장갑)"
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "torpedo",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      뇌장 : 어뢰의 대미지가 상승합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "air",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      항공 : 함재기의 대미지가 상승합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "reload",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "dodge",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      기동 : 적의 탄막을 회피할 확률이 상승합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "expend",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      소모 : 매 전투에서 소비하는 연료"
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "antisub",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가\n상승하며, 편대의 대잠 탐지 범위에 영향을 줍니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "oxy_max",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어,\n잠항력이 0이 되면 수면 위로 떠오르게 됩니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "ammo",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을\n소모하게 됩니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "hunt_range",
-          "posX": 0,
-          "posY": -2,
-          "scale": 0.66
-        },
-        "info": "      지원 범위 : 잠수함대의 지원 범위 내에서 전투 중,\n잠수함대의 탄약을 소모하여 잠수함 지원이 가능.\n잠수함대는 자동으로 지원 범위 내의 적을 공격합니다."
-      },
-      {
-        "icon": {
-          "atlas": "attricon",
-          "path": "luck",
-          "posX": 0,
-          "posY": -2,
-          "scale": 1.1
-        },
-        "info": "      행운：함선소녀의 기존 밈으로 인한 속성이 전투에\n미세하게 영향을 줍니다."
-      },
-      {
-        "info": " 3.컨디션 : \n      컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.\n      컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고,\n 획득하는 경험치가 절반으로 감소합니다."
+        "info": " 내구: 함선의 HP 최대치',icon = {atlas = 'attricon',path = 'durability',posX=0,posY=-6,scale =0.6}},{info=' 포격: 함포 위력 상승',icon = {atlas = 'attricon',path = 'cannon',posX=0,posY=-6,scale =0.6}},{info=' 대공: 대공화기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'antiaircraft',posX=0,posY=-6,scale =0.6}},{info=' 장갑 타입: 장갑이 두꺼우면 대구경포의 피해량 경감\n 또한, 소구경포에 의한 피해량을 무효화할 수 있음(피해 경감률: 중장갑>중형장갑>경장갑)',icon = {atlas = 'attricon',path = 'armor',posX=0,posY=-6,scale =0.6}},{info=' 뇌장: 어뢰가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'torpedo',posX=0,posY=-6,scale =0.6}},{info=' 항공: 함재기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'air',posX=0,posY=-6,scale =0.6}},{info=' 장전: 무기·스킬의 재발동 시간 단축',icon = {atlas = 'attricon',path = 'reload',posX=0,posY=-6,scale =0.6}},{info=' 기동: 적탄 회피 확률 상승',icon = {atlas = 'attricon',path = 'dodge',posX=0,posY=-6,scale =0.6}},{info=' 명중: 공격 명중률 및 크리티컬율 상승',icon = {atlas = 'attricon',path = 'hit',posX=0,posY=0,scale =0.3}},{info=' 항속: 전투 중 함대 이동 속도에 영향을 줌\n 일부 스테이지에서 아군의 턴별 최대 이동 거리에 영향을 줌\n ',icon = {atlas = 'attricon',path = 'attr_speed',posX=0,posY=0,scale =0.6}},{info=' 소비: 전투 1회당 소비하는 연료',icon = {atlas = 'attricon',path = 'expend',posX=0,posY=-6,scale =0.6}},{info=' 대잠: 대잠 장비 피해량 상승. 대잠 탐지 범위에 영향을 줌. ',icon = {atlas = 'attricon',path = 'antisub',posX=0,posY=-6,scale =0.6}},{info=' 잠항력: 최대 잠항 시간. 잠항 상태에서 계속 소모되며, 0이 되면 부상 상태가 됨',icon = {atlas = 'attricon',path = 'oxy_max',posX=0,posY=-6,scale =0.6}},{info=' 탄약량: 전투 중 잠수함 지원 및 해역 지도에서의 적 함대 점감 시 탄약 소모',icon = {atlas = 'attricon',path = 'ammo',posX=0,posY=-6,scale =0.6}},{info=' 지원 범위: 잠수함대의 지원 범위 내에서 전투 중,\n 잠수함대의 탄약을 소모하여 잠수함 지원을 실시할 수 있음；\n 잠수함대는 자동으로 지원 범위 내의 적을 향해 이동하여\n점감 작전을 실시함',icon = {atlas = 'attricon',path = 'hunt_range',posX=0,posY=-6,scale =0.6}},{info=' 행운: 함선의 함력·용골에 영향을 주는 능력치. 전투 중 많은 요소에 미미한 영향을 줌.',icon = {atlas = 'attricon',path = 'luck',posX=0,posY=-6,scale =1.0}},{info='3. 컨디션:\n 컨디션이 낮은 상태로 출격시키면, 호감도가 낮아져 받을 수 있는 경험치가 절반이 됨"
       }
     ]
   },
@@ -8325,6 +8218,9 @@
   },
   "hide_chat_warning": {
     "tip": "채팅 기능을 비활성화하면, 채팅 메시지를 수신할 수 없게 됩니다. 채팅 기능을 비활성화하시겠습니까?"
+  },
+  "hit_preview": {
+    "tip": "명중 연출"
   },
   "hololive_dalaozhang": {
     "tip": [
@@ -13053,7 +12949,7 @@
     "tip": "건조가 아직 완료되지 않았습니다."
   },
   "ship_hunting_level_tips": {
-    "tip": "*해당 지원 범위 레벨은 한계 돌파 및 장비를 통해 추가된 레벨만 포함합니다."
+    "tip": "※ 한계돌파 및 장비 효과, 지휘냥에 의한 지원 범위 Lv 상승만 반영됨(최대 Lv5)"
   },
   "ship_limit_notice": {
     "tip": "*잠수함대의 스테이터스는 출격 조건에 포함되지 않습니다"
@@ -13462,6 +13358,9 @@
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "월드 함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
+  },
+  "shoot_preview": {
+    "tip": "발사 연출"
   },
   "shopStreet_refresh_max_count": {
     "tip": "오늘은 더 이상 갱신할 수 없습니다."
@@ -15806,6 +15705,9 @@
   "word_shipNation_meta": {
     "tip": "???"
   },
+  "word_shipNation_meta_index": {
+    "tip": "META"
+  },
   "word_shipNation_mot": {
     "tip": "템페스타"
   },
@@ -16494,7 +16396,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "<color=#92fc63>2023.6.29 ~ 2023.9.14</color>\nMETA전 알제리·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. \n(※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)\n\n■ META전에 대해\n■ \"META전\"이란 \"META\" 함선에 도전하여 \"동기화 수치\" 등의 보상을 획득할 수 있는 공투 콘텐츠입니다. \n\"META전\"은 다음 두 가지 요소로 구성됩니다. \n· META 비콘 동기화 = META 함선의 도전권 개방\n· META 함선과의 전투\n\n\"META전\" 시스템은 대형 작전 스토리를 진행하면 개방됩니다. \n\n■ META전 비콘 동기화\n· \"대형 작전\"에서는 전투 등의 방법으로 \"META 비콘 데이터\"를 획득할 수 있습니다. \n· \"META 비콘 정보\" 작전 해역 지도 화면의 우측 상단에 표시되며, META 비콘 정보 수가 소지 가능 최대 한도 수에 도달할 때마다 META 비콘을 모두 소모하여, \"META전\"의 \"정보 동기화\"를 통해 META 함선 도전권을 개방할 수 있습니다. \n· \"정보 동기화\"는 하루에 두 번만 실시할 수 있습니다. 또한, 매일 0시마다 정보 동기화 가능 횟수 외에 META 비콘 소지 수도 일정 숫자를 남기고 초기 소지 수로 돌아갑니다. \n\n■ META전에 대해\n· \"대형 작전\" 해역 지도 화면 우측 하단에 있는 \"META전\" 아이콘을 탭하면, META 함선에게 도전할 수 있습니다. · META전에서는\n　① 자신이 META 비콘을 동기화함으로써 개방되는 전투\n　② 아군의 \"META전 지원 요청\"을 수락한 전투\n　　⇨ 도전하기 위해서는 \"비콘 목록\"을 확인해야 합니다. \n· META전은 아군 함대로 도전할 수 있습니다. 또한, 잠수함과 지휘냥은 사용할 수 없습니다. \n· 자신이 동기화한 META를 격퇴한 경우, 다음에 개방되는 META는 더욱 강해진 상태(레벨 상승)로 등장합니다. \n· 한 번의 전투로 적을 격퇴하지 못한 경우, 전투 종료 시 \"지원 요청\"을 통해 다른 플레이어에게 전투를 개방할 수 있습니다. \n· META전에서는 상기 ①, ② 중 어디에 해당하든 적이 격퇴(내구가 0에 도달)되었다면, 전투에 참가한 지휘관은 모두 \"동기화 수치\"를 획득할 수 있습니다. \n\n■ 주의 사항\n· 개방된 전투는 24시간 동안만 도전할 수 있습니다. 24시간이 지난 후에는 META전 표시가 사라져 도전이 불가능해집니다. \n· 자신이 개방한 전투에 도전하려면 \"연료\"가 필요하며, META의 내구가 0이 될 때까지 몇번이고 도전할 수 있습니다. \n· 아군으로부터 지원 요청을 받은 전투에 도전하려면 [도전 포인트]가 필요합니다. (도전 포인트는 매일 회복됩니다)\n· 한 전투에 최대 30명까지 도전할 수 있습니다. 인원 수가 상한에 달한 경우, 표시된 META 비콘에는 도전할 수 없게 됩니다. \n· META전에서는 경험치를 획득할 수 없으며, 사기 컨디션, 승리 숫자에도 영향을 주지 않습니다. \n· META전에 등장하는 적 함선이 변경된 후 31일이 경과하면, 지휘관은 자신이 개방한 META전에 도전할 시, 한 전투에 단 한 번 아군 지원 포격으로 META 함선에 피해(직접 피해 또는 지속 피해)를 줄 수 있습니다. 해당 피해량은 등장 함선이 변경된 후부터 시간이 흐르면 흐를수록 상승합니다."
+        "info": "<color=#92fc63>2023.9.14 ~ 2023.12.7</color>\nMETA전 진츠·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. \n(※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)\n\n■ META전에 대해\n■ \"META전\"이란 \"META\" 함선에 도전하여 \"동기화 수치\" 등의 보상을 획득할 수 있는 공투 콘텐츠입니다. \n\"META전\"은 다음 두 가지 요소로 구성됩니다. \n· META 비콘 동기화 = META 함선의 도전권 개방\n· META 함선과의 전투\n\n\"META전\" 시스템은 대형 작전 스토리를 진행하면 개방됩니다. \n\n■ META전 비콘 동기화\n· \"대형 작전\"에서는 전투 등의 방법으로 \"META 비콘 데이터\"를 획득할 수 있습니다. \n· \"META 비콘 정보\" 작전 해역 지도 화면의 우측 상단에 표시되며, META 비콘 정보 수가 소지 가능 최대 한도 수에 도달할 때마다 META 비콘을 모두 소모하여, \"META전\"의 \"정보 동기화\"를 통해 META 함선 도전권을 개방할 수 있습니다. \n· \"정보 동기화\"는 하루에 두 번만 실시할 수 있습니다. 또한, 매일 0시마다 정보 동기화 가능 횟수 외에 META 비콘 소지 수도 일정 숫자를 남기고 초기 소지 수로 돌아갑니다. \n\n■ META전에 대해\n· \"대형 작전\" 해역 지도 화면 우측 하단에 있는 \"META전\" 아이콘을 탭하면, META 함선에게 도전할 수 있습니다. · META전에서는\n　① 자신이 META 비콘을 동기화함으로써 개방되는 전투\n　② 아군의 \"META전 지원 요청\"을 수락한 전투\n　　⇨ 도전하기 위해서는 \"비콘 목록\"을 확인해야 합니다. \n· META전은 아군 함대로 도전할 수 있습니다. 또한, 잠수함과 지휘냥은 사용할 수 없습니다. \n· 자신이 동기화한 META를 격퇴한 경우, 다음에 개방되는 META는 더욱 강해진 상태(레벨 상승)로 등장합니다. \n· 한 번의 전투로 적을 격퇴하지 못한 경우, 전투 종료 시 \"지원 요청\"을 통해 다른 플레이어에게 전투를 개방할 수 있습니다. \n· META전에서는 상기 ①, ② 중 어디에 해당하든 적이 격퇴(내구가 0에 도달)되었다면, 전투에 참가한 지휘관은 모두 \"동기화 수치\"를 획득할 수 있습니다. \n\n■ 주의 사항\n· 개방된 전투는 24시간 동안만 도전할 수 있습니다. 24시간이 지난 후에는 META전 표시가 사라져 도전이 불가능해집니다. \n· 자신이 개방한 전투에 도전하려면 \"연료\"가 필요하며, META의 내구가 0이 될 때까지 몇번이고 도전할 수 있습니다. \n· 아군으로부터 지원 요청을 받은 전투에 도전하려면 [도전 포인트]가 필요합니다. (도전 포인트는 매일 회복됩니다)\n· 한 전투에 최대 30명까지 도전할 수 있습니다. 인원 수가 상한에 달한 경우, 표시된 META 비콘에는 도전할 수 없게 됩니다. \n· META전에서는 경험치를 획득할 수 없으며, 사기 컨디션, 승리 숫자에도 영향을 주지 않습니다. \n· META전에 등장하는 적 함선이 변경된 후 31일이 경과하면, 지휘관은 자신이 개방한 META전에 도전할 시, 한 전투에 단 한 번 아군 지원 포격으로 META 함선에 피해(직접 피해 또는 지속 피해)를 줄 수 있습니다. 해당 피해량은 등장 함선이 변경된 후부터 시간이 흐르면 흐를수록 상승합니다."
       }
     ]
   },
@@ -16734,6 +16636,9 @@
   "world_instruction_morale_4": {
     "tip": "※지령 사용 후, 일정 시간 내 재사용 불가"
   },
+  "world_instruction_port_goods_locked": {
+    "tip": "구역 확보 진척"
+  },
   "world_instruction_redeploy_1": {
     "tip": "현재 해역에서 함대를 배치할 수 없습니다. 아군 모항 해역으로 이동하세요."
   },
@@ -16898,6 +16803,9 @@
   },
   "world_past_boss_item_info": {
     "tip": "파일 비콘 기록기|대형 작전에서 수집한 「파일 비콘 데이터」를 기록하는 장치. 데이터가 일정량에 도달하면 분석하여 특정한 비콘을 발견할 수 있다.\nP.S.기록기의 기록 용량은 상한이 있으며 제때 분석하시기 바랍니다.\n매일 획득 상한: $1/$2\n기록 용량 상한: $3/$4"
+  },
+  "world_port_inbattle": {
+    "tip": "함대가 작전 행동 중이므로 기항할 수 없습니다."
   },
   "world_pressing": {
     "tip": "제압통계"
