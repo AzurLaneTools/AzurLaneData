@@ -7648,7 +7648,167 @@
         "info": "2. 성능에 대해:"
       },
       {
-        "info": " 내구: 함선의 HP 최대치',icon = {atlas = 'attricon',path = 'durability',posX=0,posY=-6,scale =0.6}},{info=' 포격: 함포 위력 상승',icon = {atlas = 'attricon',path = 'cannon',posX=0,posY=-6,scale =0.6}},{info=' 대공: 대공화기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'antiaircraft',posX=0,posY=-6,scale =0.6}},{info=' 장갑 타입: 장갑이 두꺼우면 대구경포의 피해량 경감\n 또한, 소구경포에 의한 피해량을 무효화할 수 있음(피해 경감률: 중장갑>중형장갑>경장갑)',icon = {atlas = 'attricon',path = 'armor',posX=0,posY=-6,scale =0.6}},{info=' 뇌장: 어뢰가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'torpedo',posX=0,posY=-6,scale =0.6}},{info=' 항공: 함재기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'air',posX=0,posY=-6,scale =0.6}},{info=' 장전: 무기·스킬의 재발동 시간 단축',icon = {atlas = 'attricon',path = 'reload',posX=0,posY=-6,scale =0.6}},{info=' 기동: 적탄 회피 확률 상승',icon = {atlas = 'attricon',path = 'dodge',posX=0,posY=-6,scale =0.6}},{info=' 명중: 공격 명중률 및 크리티컬율 상승',icon = {atlas = 'attricon',path = 'hit',posX=0,posY=0,scale =0.3}},{info=' 항속: 전투 중 함대 이동 속도에 영향을 줌\n 일부 스테이지에서 아군의 턴별 최대 이동 거리에 영향을 줌\n ',icon = {atlas = 'attricon',path = 'attr_speed',posX=0,posY=0,scale =0.6}},{info=' 소비: 전투 1회당 소비하는 연료',icon = {atlas = 'attricon',path = 'expend',posX=0,posY=-6,scale =0.6}},{info=' 대잠: 대잠 장비 피해량 상승. 대잠 탐지 범위에 영향을 줌. ',icon = {atlas = 'attricon',path = 'antisub',posX=0,posY=-6,scale =0.6}},{info=' 잠항력: 최대 잠항 시간. 잠항 상태에서 계속 소모되며, 0이 되면 부상 상태가 됨',icon = {atlas = 'attricon',path = 'oxy_max',posX=0,posY=-6,scale =0.6}},{info=' 탄약량: 전투 중 잠수함 지원 및 해역 지도에서의 적 함대 점감 시 탄약 소모',icon = {atlas = 'attricon',path = 'ammo',posX=0,posY=-6,scale =0.6}},{info=' 지원 범위: 잠수함대의 지원 범위 내에서 전투 중,\n 잠수함대의 탄약을 소모하여 잠수함 지원을 실시할 수 있음；\n 잠수함대는 자동으로 지원 범위 내의 적을 향해 이동하여\n점감 작전을 실시함',icon = {atlas = 'attricon',path = 'hunt_range',posX=0,posY=-6,scale =0.6}},{info=' 행운: 함선의 함력·용골에 영향을 주는 능력치. 전투 중 많은 요소에 미미한 영향을 줌.',icon = {atlas = 'attricon',path = 'luck',posX=0,posY=-6,scale =1.0}},{info='3. 컨디션:\n 컨디션이 낮은 상태로 출격시키면, 호감도가 낮아져 받을 수 있는 경험치가 절반이 됨"
+        "icon": {
+          "atlas": "attricon",
+          "path": "durability",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     내구: 함선의 HP 최대치"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "cannon",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     포격: 함포 위력 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "antiaircraft",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     대공: 대공화기가 가하는 피해량 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "armor",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     장갑 타입: 장갑이 두꺼우면 대구경포의 피해량 경감\n 또한, 소구경포에 의한 피해량을 무효화할 수 있음(피해 경감률: 중장갑>중형장갑>경장갑)"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "torpedo",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     뇌장: 어뢰가 가하는 피해량 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "air",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     항공: 함재기가 가하는 피해량 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "reload",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     장전: 무기·스킬의 재발동 시간 단축"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "dodge",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     기동: 적탄 회피 확률 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "hit",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.3
+        },
+        "info": "      명중: 공격 명중률 및 크리티컬율 상승"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "attr_speed",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.6
+        },
+        "info": "     항속: 전투 중 함대 이동 속도에 영향을 줌\n 일부 스테이지에서 아군의 턴별 최대 이동 거리에 영향을 줌\n "
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "expend",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     소비: 전투 1회당 소비하는 연료"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "antisub",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     대잠: 대잠 장비 피해량 상승. 대잠 탐지 범위에 영향을 줌. "
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "oxy_max",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     잠항력: 최대 잠항 시간. 잠항 상태에서 계속 소모되며, 0이 되면 부상 상태가 됨"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "ammo",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     탄약량: 전투 중 잠수함 지원 및 해역 지도에서의 적 함대 점감 시 탄약 소모"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "hunt_range",
+          "posX": 0,
+          "posY": -6,
+          "scale": 0.6
+        },
+        "info": "     지원 범위: 잠수함대의 지원 범위 내에서 전투 중,\n 잠수함대의 탄약을 소모하여 잠수함 지원을 실시할 수 있음；\n 잠수함대는 자동으로 지원 범위 내의 적을 향해 이동하여\n점감 작전을 실시함"
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "luck",
+          "posX": 0,
+          "posY": -6,
+          "scale": 1
+        },
+        "info": "     행운: 함선의 함력·용골에 영향을 주는 능력치. 전투 중 많은 요소에 미미한 영향을 줌."
+      },
+      {
+        "info": "3. 컨디션:\n 컨디션이 낮은 상태로 출격시키면, 호감도가 낮아져 받을 수 있는 경험치가 절반이 됨"
       }
     ]
   },
