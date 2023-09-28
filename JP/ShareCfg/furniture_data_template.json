@@ -6410,6 +6410,73 @@
     "themeId": 0,
     "type": 7
   },
+  "260": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "夢の世界に入ると月兎たちが月餅をくれる…かもしれない",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yuebingshuichuangicon",
+    "id": 260,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "月餅ウサギベッド",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": {
+      "1": [
+        "yuebingshuichuang",
+        "normal"
+      ],
+      "3": [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      "4": [],
+      "5": [
+        0,
+        0
+      ]
+    },
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "261": {
     "advice": 0,
     "belong": 2,
@@ -6483,6 +6550,49 @@
     "tag": 6,
     "themeId": 0,
     "type": 6
+  },
+  "263": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "母港饅頭レースの優勝の証。巨大なカップは栄誉と実力を象徴するピョ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "疾速レース",
+    "icon": "saichangjiangbeiicon",
+    "id": 263,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "饅頭レースカップ",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "saichangjiangbei",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
   },
   "1001": {
     "advice": 0,
@@ -115157,6 +115267,108 @@
     ],
     "spine_action_replace": "",
     "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "100053": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "宇宙の真理が中にある――多分",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      [
+        "char1",
+        1
+      ],
+      [
+        "char2",
+        1
+      ]
+    ],
+    "gain_by": "",
+    "icon": "mofatianchengicon",
+    "id": 100053,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "良い頭の天秤",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      3
+    ],
+    "spine": [
+      [
+        "mofatiancheng",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "sit1",
+            "3": "sit"
+          }
+        ],
+        [],
+        [
+          0
+        ],
+        [
+          [
+            "sit1"
+          ],
+          [
+            "sit2",
+            "sit3",
+            "sit4",
+            "sit5"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": [
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
     "tag": 6,
     "themeId": 0,
     "type": 7
