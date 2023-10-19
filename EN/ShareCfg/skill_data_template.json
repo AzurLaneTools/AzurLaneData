@@ -80639,6 +80639,209 @@
       1
     ]
   },
+  "17140": {
+    "desc": "Increases this ship's FP and AA by $1. Every 12s: executes a $2 special attack (DMG is based on the skill's level). For every 2 enemy aircraft shot down within your fleet's AA Range: increases your Eagle Union ships' AA by $3 (can be stacked up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "4.5%",
+          "+0.7%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+0.7%"
+        ],
+        [
+          "7.7%",
+          "+0.8%"
+        ],
+        [
+          "8.5%",
+          "+1.0%"
+        ],
+        [
+          "9.5%",
+          "+0.7%"
+        ],
+        [
+          "10.2%",
+          "+0.8%"
+        ],
+        [
+          "11.0%",
+          "+1.0%"
+        ],
+        [
+          "12.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4.5%",
+        "12.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ]
+    ],
+    "id": 17140,
+    "max_level": 10,
+    "name": "Space City Strike",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "17150": {
+    "desc": "Once per battle, when this ship's HP falls below 15.0% as a result of DMG taken: for 3s, this ship recovers 2.0% of her max HP every second, but her SPD is decreased by 60.0%. When this effect ends: increases this ship's EVA by 5.0% and restores $1 of her max HP.",
+    "desc_add": [
+      [
+        [
+          "4.5%",
+          "+0.7%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+0.7%"
+        ],
+        [
+          "7.7%",
+          "+0.8%"
+        ],
+        [
+          "8.5%",
+          "+1.0%"
+        ],
+        [
+          "9.5%",
+          "+0.7%"
+        ],
+        [
+          "10.2%",
+          "+0.8%"
+        ],
+        [
+          "11.0%",
+          "+1.0%"
+        ],
+        [
+          "12.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4.5%",
+        "12.0%"
+      ]
+    ],
+    "id": 17150,
+    "max_level": 10,
+    "name": "Fortitude in Chaos",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
   "18010": {
     "desc": "Increases this ship's DMG with AP by $1.",
     "desc_add": [
@@ -95667,13 +95870,13 @@
     ]
   },
   "29351": {
-    "desc": "Activates All Out Assault Ⅰ: San Diego once every 16 times the Main Guns are fired.",
+    "desc": "Activates All Out Assault I: San Diego once every 16 times the Main Guns are fired.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 29351,
     "max_level": 1,
-    "name": "All Out Assault Ⅰ",
+    "name": "All Out Assault - San Diego I",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -97700,6 +97903,34 @@
       1
     ]
   },
+  "30121": {
+    "desc": "Activates All Out Assault I: Houston II once every 15 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30121,
+    "max_level": 1,
+    "name": "All Out Assault I",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "30122": {
+    "desc": "Activates All Out Assault II: Houston II once every 10 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30122,
+    "max_level": 1,
+    "name": "All Out Assault II",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "60100": {
     "desc": "When equipped by a Royal Navy ship: increases that ship's Evasion Rate by 5.0%.",
     "desc_add": [],
@@ -98184,6 +98415,20 @@
     "id": 60430,
     "max_level": 0,
     "name": "Embroidered Charm Pouch",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "60440": {
+    "desc": "During battle, increases the equipping ship's FP by 5.0% if there is an enemy within a radius of 20 units.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 60440,
+    "max_level": 0,
+    "name": "Fly the Banner",
     "system_transform": [],
     "type": 0,
     "world_death_mark": [

@@ -4818,6 +4818,111 @@
     "title_res_tag": "neihuada_skin",
     "type": 18
   },
+  "5023": {
+    "config_client": {
+      "firstStory": "HUANGJIACAIFUDEMIMICHUANCHANG1",
+      "shipyard_phase_1": [
+        "Hey there~ What'cha got planned for today?",
+        "Heheh, about time you showed up! Hurry up – we've got great things to accomplish!",
+        "Once we're done here, you'll be in charge of our launch ceremony~♪"
+      ],
+      "shipyard_phase_2": [
+        "Stop draggin' your feet! A marvelous adventure awaits us~!",
+        "Set sail, set sail! To where, you say? Perhaps the mysterious Black Reef, or maybe the Golden Coast?"
+      ],
+      "story": [
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG2"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG3"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG4"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG5"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG6"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG7"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG8"
+        ]
+      ]
+    },
+    "config_data": [
+      [
+        19331,
+        19332
+      ],
+      [
+        19333,
+        19334
+      ],
+      [
+        19335,
+        19336
+      ],
+      [
+        19337,
+        19338
+      ],
+      [
+        19339,
+        19340
+      ],
+      [
+        19341,
+        19342
+      ],
+      [
+        19343,
+        19344
+      ]
+    ],
+    "config_id": 3,
+    "id": 5023,
+    "is_show": 39,
+    "login_pop": 0,
+    "mark": 20231019,
+    "page_info": {
+      "class_name": "PiratePage",
+      "ui_name": "PiratePage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2023,
+          10,
+          19
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2023,
+          11,
+          8
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "pirate",
+    "type": 18
+  },
   "6000": {
     "config_client": {
       "story": [
@@ -6010,6 +6115,51 @@
     },
     "time": "stop",
     "title_res_tag": "i56_permanent",
+    "type": 18
+  },
+  "6020": {
+    "config_client": "",
+    "config_data": [
+      [
+        35244,
+        35245
+      ],
+      [
+        35246,
+        35247
+      ],
+      [
+        35248,
+        35249
+      ],
+      [
+        35250,
+        35251
+      ],
+      [
+        35252,
+        35253
+      ],
+      [
+        35254,
+        35255
+      ],
+      [
+        35256,
+        35257
+      ]
+    ],
+    "config_id": 3,
+    "id": 6020,
+    "is_show": 10,
+    "login_pop": 0,
+    "mark": 20221019,
+    "page_info": {
+      "class_name": "ManChaoSkinPage",
+      "ui_name": "ManChaoSkinPermanentPage"
+    },
+    "time": "stop",
+    "title_res_tag": "manchao_permanent",
     "type": 18
   },
   "7011": {
@@ -26364,6 +26514,7 @@
     5020,
     5021,
     5022,
+    5023,
     7011,
     7012,
     7013,
@@ -26405,6 +26556,7 @@
     6017,
     6018,
     6019,
+    6020,
     100001,
     100003,
     100004,

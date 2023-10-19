@@ -8355,6 +8355,37 @@
       }
     ]
   },
+  "help_supportfleet": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -9764,6 +9795,39 @@
   },
   "level_scene_title_word_5": {
     "tip": "Rec. ACV:"
+  },
+  "levelscene_airexpel_cancel": {
+    "tip": "Cancel"
+  },
+  "levelscene_airexpel_outrange": {
+    "tip": "No available tile for the target to move to."
+  },
+  "levelscene_airexpel_select_battle": {
+    "tip": "Cannot select enemy fleet already in combat as a target."
+  },
+  "levelscene_airexpel_select_boss": {
+    "tip": "Cannot select the enemy flagship as a target."
+  },
+  "levelscene_airexpel_select_confirm_down": {
+    "tip": "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>down</color>. Continue?"
+  },
+  "levelscene_airexpel_select_confirm_left": {
+    "tip": "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>left</color>. Continue?"
+  },
+  "levelscene_airexpel_select_confirm_right": {
+    "tip": "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>right</color>. Continue?"
+  },
+  "levelscene_airexpel_select_confirm_up": {
+    "tip": "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>up</color>. Continue?"
+  },
+  "levelscene_airexpel_select_enemy": {
+    "tip": "Only enemy fleets can be targeted."
+  },
+  "levelscene_deploy_submarine": {
+    "tip": "Confirm Target"
+  },
+  "levelscene_deploy_submarine_cancel": {
+    "tip": "Cancel"
   },
   "like_ship_success": {
     "tip": "Action complete!"
@@ -13523,6 +13587,9 @@
   "ship_formationMediator_replaceError_onlyShip": {
     "tip": "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!"
   },
+  "ship_formationMediator_request_replace_support": {
+    "tip": "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
+  },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "Not enough ships in fleet."
   },
@@ -14023,6 +14090,21 @@
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
+  },
+  "shipyard_button_1": {
+    "tip": "Stay Tuned"
+  },
+  "shipyard_button_2": {
+    "tip": "Unlocked after completing all missions in \"Tempesta's Secret Shipyard\"."
+  },
+  "shipyard_introduce": {
+    "tip": "2 new missions unlock every day until 10/25.\nComplete them all to earn the limited gear, <color=#ff9892>Tempesta Banner</color>!"
+  },
+  "shipyard_phase_1": {
+    "tip": "占坑"
+  },
+  "shipyard_phase_2": {
+    "tip": "占坑"
   },
   "shoot_preview": {
     "tip": "Firing Preview"
@@ -16475,6 +16557,9 @@
   "word_shipState_study": {
     "tip": "She's currently in class!"
   },
+  "word_shipState_support": {
+    "tip": "This ship is already in your Support Fleet."
+  },
   "word_shipState_tactics": {
     "tip": "She's currently in class!"
   },
@@ -16618,6 +16703,9 @@
   },
   "word_status_inPVP": {
     "tip": "Exercising"
+  },
+  "word_status_inSupportFleet": {
+    "tip": "In Support Fleet"
   },
   "word_status_inTactics": {
     "tip": "Studying"
@@ -17103,7 +17191,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>8/31/23 to 11/22/23</color>, challenge Jintsuu META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Jintsuu META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>8/31/23 to 12/7/23</color>, challenge Jintsuu META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Jintsuu META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
       }
     ]
   },
