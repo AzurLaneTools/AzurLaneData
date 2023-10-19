@@ -8697,6 +8697,37 @@
       }
     ]
   },
+  "help_supportfleet": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -10183,6 +10214,36 @@
   "level_scene_title_word_5": {
     "tip": "推荐:"
   },
+  "levelscene_airexpel_cancel": {
+    "tip": "取消驱逐"
+  },
+  "levelscene_airexpel_outrange": {
+    "tip": "目标点不在驱离范围内"
+  },
+  "levelscene_airexpel_select_boss": {
+    "tip": "无法选择敌方旗舰作为目标"
+  },
+  "levelscene_airexpel_select_confirm_down": {
+    "tip": "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>下</color>驱离一格，是否确认"
+  },
+  "levelscene_airexpel_select_confirm_left": {
+    "tip": "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>左</color>驱离一格，是否确认"
+  },
+  "levelscene_airexpel_select_confirm_right": {
+    "tip": "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>右</color>驱离一格，是否确认"
+  },
+  "levelscene_airexpel_select_confirm_up": {
+    "tip": "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>上</color>驱离一格，是否确认"
+  },
+  "levelscene_airexpel_select_enemy": {
+    "tip": "只能选择敌方舰队作为目标"
+  },
+  "levelscene_deploy_submarine": {
+    "tip": "确认部署"
+  },
+  "levelscene_deploy_submarine_cancel": {
+    "tip": "取消部署"
+  },
   "like_ship_success": {
     "tip": "操作成功"
   },
@@ -11036,7 +11097,7 @@
         "info": "·META研究室是进行META角色获取、养成的专用系统\n·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研习」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n·重复获取的META角色将会自动转换为1个对应的角色结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。\n"
       },
       {
-        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2023.8.31-2023.11.23</color>期间限时开放「貎·META」的「资讯同步」，通过「信标貎·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「貎·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「貎·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
+        "info": "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的「资讯同步」，通过「信标貎·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「貎·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「貎·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
       },
       {
         "info": "3.<color=#92fc63>战术研习</color>\n·完成战术研习任务获得META角色的技能升级经验，部分任务可以重复完成\n·一名角色只能同时进行一项技能的战术研习任务，多名角色之间彼此独立，同时进行\n·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率\n（剩余次数不满2次时不生效）\n·任务类型和可完成次数会随着技能等级升级而刷新\n"
@@ -13627,6 +13688,9 @@
   "ship_formationMediator_replaceError_onlyShip": {
     "tip": "目标舰船是 <color=#92fc63>$1</color> 唯一一艘<color=#92fc63>$2</color>舰船，无法替换！"
   },
+  "ship_formationMediator_request_replace_support": {
+    "tip": "您当前选择的舰船已经在<color=#92fc63>支援舰队</color>中, 是否进行切换？"
+  },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "舰队人数不足"
   },
@@ -14127,6 +14191,21 @@
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "舰船为大世界舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"
+  },
+  "shipyard_button_1": {
+    "tip": "敬请期待"
+  },
+  "shipyard_button_2": {
+    "tip": "完成「秘密船厂」的全部建造任务后解锁 "
+  },
+  "shipyard_introduce": {
+    "tip": "10月25日为止，每天零点解锁2个任务\n完成七日活动任务，可获得限定装备<color=#ff9892>「飓风旗」 </color>"
+  },
+  "shipyard_phase_1": {
+    "tip": "占坑"
+  },
+  "shipyard_phase_2": {
+    "tip": "占坑"
   },
   "shoot_preview": {
     "tip": "发射效果"
@@ -16585,6 +16664,9 @@
   "word_shipState_study": {
     "tip": "该角色正在认真上课哟~"
   },
+  "word_shipState_support": {
+    "tip": "该角色在支援舰队中哦~"
+  },
   "word_shipState_tactics": {
     "tip": "该角色正在认真上课哟~"
   },
@@ -16728,6 +16810,9 @@
   },
   "word_status_inPVP": {
     "tip": "演习中"
+  },
+  "word_status_inSupportFleet": {
+    "tip": "支援舰队中"
   },
   "word_status_inTactics": {
     "tip": "进修中"
@@ -17198,7 +17283,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "信标·META功能说明\n\n1. <color=#92fc63>2023.8.31-2023.11.23</color>期间限时开放「貎·META」的挑战，在此期间指挥官可挑战「貎·META」累计其同步值获取<color=#92fc63>「貎·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标貎·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标貎·META挑战的进行，从第31天开始，即2023.10.1~2023.11.23期间，舰队挑战「貎·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标貎·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标貎·META战斗中出现，每次挑战均会触发。"
+        "info": "信标·META功能说明\n\n1. <color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的挑战，在此期间指挥官可挑战「貎·META」累计其同步值获取<color=#92fc63>「貎·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标貎·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标貎·META挑战的进行，从第31天开始，即2023.10.1~2023.12.7期间，舰队挑战「貎·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标貎·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标貎·META战斗中出现，每次挑战均会触发。"
       }
     ]
   },
