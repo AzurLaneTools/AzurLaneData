@@ -6043,6 +6043,101 @@
     "themeId": 0,
     "type": 7
   },
+  "264": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A keepsake of your faithful encounter and a promise that you'd meet again. \nObtained from the \"Tempesta and the Fountain of Youth\" event.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "Tempesta and the Fountain of Youth",
+    "icon": "fengfanxunzhangicon",
+    "id": 264,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "Brilliant Compass",
+    "offset": [],
+    "picture": "chuanmo/fengfanxunzhang",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "265": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "The die is cast.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shimiantouicon",
+    "id": 265,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "Dice of Destiny",
+    "offset": [],
+    "picture": "",
+    "rarity": 0,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "shimiantou",
+        "normal",
+        [
+          "action0",
+          false,
+          [
+            "action1",
+            "action2",
+            "action3",
+            "action4",
+            "action5",
+            "action6",
+            "action7",
+            "action8",
+            "action9"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -114655,6 +114750,85 @@
     "themeId": 0,
     "type": 7
   },
+  "100047": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Want to see a magic trick?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yinxingmoshubuicon",
+    "id": 100047,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Magic Manjuu Mantle",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      5
+    ],
+    "spine": [
+      [
+        "yinxingmoshubuB",
+        "normal"
+      ],
+      [
+        "yinxingmoshubuT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "stand2"
+          ],
+          [
+            "yun"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -115142,6 +115316,90 @@
         "sit",
         [
           307074
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
+  "200009": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's close to midnight and something evil's lurking in the dark...",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "furniture_jinluhao_2icon",
+    "id": 200009,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Halloween Stage",
+    "offset": [],
+    "picture": "",
+    "rarity": 0,
+    "size": [
+      5,
+      4
+    ],
+    "spine": [
+      [
+        "furniture_jinluhao_2B",
+        "normal"
+      ],
+      [
+        "furniture_jinluhao_2T"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "sleep",
+        [
+          9600031
         ],
         "furniture",
         0,
@@ -120468,5 +120726,1766 @@
     "tag": 1,
     "themeId": 103,
     "type": 2
+  },
+  "304001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Feels like a home away from home!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanhdcicon",
+    "id": 304001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Flooring",
+    "offset": [],
+    "picture": "hdc/dibanhdc",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 104,
+    "type": 4
+  },
+  "304002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A bit fancier than the crewmates' quarter.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbihdcicon",
+    "id": 304002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Pirate Wallpaper",
+    "offset": [],
+    "picture": "hdc/qiangbihdc",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 104,
+    "type": 1
+  },
+  "304101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Shiver me timbers! That's a lot of loot!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "baoxianghdcicon",
+    "id": 304101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Treasure Chest",
+    "offset": [],
+    "picture": "hdc/baoxianghdc",
+    "rarity": 3,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Turn portside!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanduohdcicon",
+    "id": 304102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Steering Wheel",
+    "offset": [],
+    "picture": "hdc/chuanduohdc",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's nailed to the floor so when the waves rock the ship, it won't slide around.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanghdcicon",
+    "id": 304103,
+    "interAction": [
+      [
+        "sleep",
+        [
+          3,
+          13
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/chuanghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Bed",
+    "offset": [],
+    "picture": "hdc/chuanghdc",
+    "rarity": 2,
+    "size": [
+      4,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"Oi! That git drank me beer!\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanyuanjiuhdcicon",
+    "id": 304104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Piratejuu Crew Member",
+    "offset": [],
+    "picture": "hdc/chuanyuanjiuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Don't ask him how he lost those parts (he didn't.)",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanzhangjiuhdcicon",
+    "id": 304105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Piratejuu Captain",
+    "offset": [],
+    "picture": "hdc/chuanzhangjiuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Never forget – do what you want, 'cause a pirate is free!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dachuanhdcicon",
+    "id": 304106,
+    "interAction": [
+      [
+        "dance",
+        [
+          -302,
+          10.7
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/dachuanhdc_using"
+      ],
+      [
+        "dance",
+        [
+          111.8,
+          -226.3
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/dachuanhdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Ship",
+    "offset": [],
+    "picture": "hdc/dachuanhdc",
+    "rarity": 4,
+    "size": [
+      5,
+      14
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Loaded, aye? Fire!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapaohdcicon",
+    "id": 304107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Cannon",
+    "offset": [],
+    "picture": "hdc/dapaohdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Loaded, aye? Fire!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapao2hdcicon",
+    "id": 304108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Golden Pirate Cannon",
+    "offset": [],
+    "picture": "hdc/dapao2hdc",
+    "rarity": 3,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Had too much beer? Lie down over here.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dashafahdcicon",
+    "id": 304109,
+    "interAction": [
+      [
+        "sit",
+        [
+          -18.8,
+          16.6
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/dashafahdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Couch",
+    "offset": [],
+    "picture": "hdc/dashafahdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A mix of frugality and ingenuity.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dazhuozihdcicon",
+    "id": 304110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Table",
+    "offset": [
+      0,
+      -11.4
+    ],
+    "picture": "hdc/dazhuozihdc",
+    "rarity": 2,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "Helps you at least see the floor beneath your feet.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "denghdcicon",
+    "id": 304111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Lamp",
+    "offset": [],
+    "picture": "hdc/denghdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's too small to light the way, but it does raise crew morale.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengtahdcicon",
+    "id": 304112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Miniature Lighthouse",
+    "offset": [],
+    "picture": "hdc/dengtahdc",
+    "rarity": 2,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "The captain promised we'll upgrade to chairs with backrests after the next successful raid.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengzihdcicon",
+    "id": 304113,
+    "interAction": [
+      [
+        "sit",
+        [
+          -20.3,
+          60.5
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Stool",
+    "offset": [],
+    "picture": "hdc/dengzihdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Now you can bring the beach with you on your voyages.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diaochuanghdcicon",
+    "id": 304114,
+    "interAction": [
+      [
+        "sleep",
+        [
+          9.7,
+          -36.4
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/diaochuanghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Seaside Hammock",
+    "offset": [],
+    "picture": "hdc/diaochuanghdc",
+    "rarity": 2,
+    "size": [
+      5,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It leads to a secret extra hold.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dilonghdcicon",
+    "id": 304115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Trapdoor",
+    "offset": [],
+    "picture": "hdc/dilonghdc",
+    "rarity": 1,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 5
+  },
+  "304116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Where to next, Cap'n?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diqiuyihdcicon",
+    "id": 304116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Globe",
+    "offset": [],
+    "picture": "hdc/diqiuyihdc",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Shh! The quartermaster is trying to work!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gongzuozhuohdcicon",
+    "id": 304117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Desk",
+    "offset": [],
+    "picture": "hdc/gongzuozhuohdc",
+    "rarity": 1,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 8,
+    "deblocking": 1,
+    "describe": "A faithful replication, though not quite as wet.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "haishuihdcicon",
+    "id": 304118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Sea Carpet",
+    "offset": [],
+    "picture": "hdc/haishuihdc",
+    "rarity": 1,
+    "size": [
+      6,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 5
+  },
+  "304119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "When the pirate life pays off, it pays off bigtime.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinchuanduohdcicon",
+    "id": 304119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Golden Steering Wheel",
+    "offset": [],
+    "picture": "hdc/jinchuanduohdc",
+    "rarity": 3,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304120": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"Look! I'm swimming in cash!\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinyuganghdcicon",
+    "id": 304120,
+    "interAction": [
+      [
+        "sleep",
+        [
+          0.8,
+          -23.8
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/jinyuganghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Golden Bathtub",
+    "offset": [],
+    "picture": "hdc/jinyuganghdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304121": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Drunk crewmates will definitely want to hold the railing and watch their step.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "loutihdcicon",
+    "id": 304121,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Staircase",
+    "offset": [],
+    "picture": "hdc/loutihdc",
+    "rarity": 2,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304122": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "This little baby is delicate. No brawling near it, ya hear?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "luopanhdcicon",
+    "id": 304122,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Compass",
+    "offset": [],
+    "picture": "hdc/luopanhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304123": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Keep stored in a dry place, and be careful when you haul them.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "paodanhdcicon",
+    "id": 304123,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Cannon Balls",
+    "offset": [],
+    "picture": "hdc/paodanhdc",
+    "rarity": 1,
+    "size": [
+      1,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304124": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Alright, who's the landlubber keeping a shark as a pet in the lower hold?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shayuhdcicon",
+    "id": 304124,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Shark Hatch",
+    "offset": [],
+    "picture": "hdc/shayuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304125": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"Cap'n! I can see land!\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "wangyuanjinghdcicon",
+    "id": 304125,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Telescope",
+    "offset": [],
+    "picture": "hdc/wangyuanjinghdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304126": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "If a ship is a lady, are her boats her children?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaochuanhdcicon",
+    "id": 304126,
+    "interAction": [
+      [
+        "dance",
+        [
+          12.9,
+          -2.1
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/xiaochuanhdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Boat",
+    "offset": [],
+    "picture": "hdc/xiaochuanhdc",
+    "rarity": 2,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304127": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A simple construction that fits right in on a ship.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaozhuohdcicon",
+    "id": 304127,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Small Pirate Table",
+    "offset": [
+      0,
+      5.83
+    ],
+    "picture": "hdc/xiaozhuohdc",
+    "rarity": 1,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304128": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Don't throw these around just because you got into an argument!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yizihdcicon",
+    "id": 304128,
+    "interAction": [
+      [
+        "sit",
+        [
+          18,
+          27.3
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Chair",
+    "offset": [],
+    "picture": "hdc/yizihdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304129": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "The most practical way to bathe in the middle of the sea.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zaotonghdcicon",
+    "id": 304129,
+    "interAction": [
+      [
+        "wash",
+        [
+          -11,
+          -12
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/zaotonghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pirate Barrel Bath",
+    "offset": [],
+    "picture": "hdc/zaotonghdc",
+    "rarity": 2,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304130": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A clean table. How many beer bottles we leaving on here, eh?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuohdcicon",
+    "id": 304130,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Square Pirate Table",
+    "offset": [
+      0,
+      1.59
+    ],
+    "picture": "hdc/zhuohdc",
+    "rarity": 1,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304131": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"This is Golden Hind. I'd like to speak to you about your ship's extended warranty~\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chushouhdcicon",
+    "id": 304131,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Tempesta Tentacle",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "chushouhdc",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 104,
+    "type": 2
+  },
+  "304201": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "Did you know beer used to be safer to drink than water for many hundreds of years?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "pijiuhdcicon",
+    "id": 304201,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 2,
+    "name": "Pirate Beer",
+    "offset": [],
+    "picture": "hdc/pijiuhdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 2,
+    "themeId": 104,
+    "type": 3
+  },
+  "304301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "Sometimes, you see a distant flock of seagulls through it.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanghuhdcicon",
+    "id": 304301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Cargo Deck Window",
+    "offset": [],
+    "picture": "hdc/chuanghuhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Where in the world ARE we?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hanghaituhdcicon",
+    "id": 304302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Pirate Map",
+    "offset": [],
+    "picture": "hdc/hanghaituhdc",
+    "rarity": 1,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "You can smell the beer even from the top deck. Whether that's a good or a bad thing depends on you.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiujiaohdcicon",
+    "id": 304303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Pirate Beer Cellar",
+    "offset": [],
+    "picture": "hdc/jiujiaohdc",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "A necessary danger in the hold of a wood ship.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lazhuhdcicon",
+    "id": 304304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Pirate Candle",
+    "offset": [],
+    "picture": "hdc/lazhuhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304305": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "\"Close the door! I don't want no wind getting in!\"",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "menhdcicon",
+    "id": 304305,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Cabin Door",
+    "offset": [],
+    "picture": "hdc/menhdc",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304306": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "A clean view of the night sky. Perfect for a night battle, wouldn't you say?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yekonghdcicon",
+    "id": 304306,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Nighttime View",
+    "offset": [],
+    "picture": "hdc/yekonghdc",
+    "rarity": 1,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 10
+  },
+  "304307": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Taking advantage of the sea's bounty is a great way to save on rations.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yuwanghdcicon",
+    "id": 304307,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Fishing Net",
+    "offset": [],
+    "picture": "hdc/yuwanghdc",
+    "rarity": 1,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
   }
 }

@@ -206,7 +206,8 @@
           4,
           5,
           10,
-          13
+          13,
+          24
         ],
         2,
         8
@@ -228,10 +229,14 @@
       [
         "BMs: FP",
         8
+      ],
+      [
+        "IXMs: FP",
+        8
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, and BMs</color> gain 8 FP.",
+    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 8 FP.",
     "group_id": 12,
     "icon": "zhanlie_paoji_1",
     "id": 121,
@@ -248,7 +253,8 @@
           4,
           5,
           10,
-          13
+          13,
+          24
         ],
         2,
         11
@@ -270,10 +276,14 @@
       [
         "BMs: FP",
         11
+      ],
+      [
+        "IXMs: FP",
+        11
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, and BMs</color> gain 11 FP.",
+    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 11 FP.",
     "group_id": 12,
     "icon": "zhanlie_paoji_2",
     "id": 122,
@@ -290,7 +300,8 @@
           4,
           5,
           10,
-          13
+          13,
+          24
         ],
         2,
         16
@@ -312,14 +323,204 @@
       [
         "BMs: FP",
         16
+      ],
+      [
+        "IXMs: FP",
+        16
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, and BMs</color> gain 16 FP.",
+    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 16 FP.",
     "group_id": 12,
     "icon": "zhanlie_paoji_3",
     "id": 123,
     "name": "Artillery Ace - Main",
+    "next": 0,
+    "worth": 3
+  },
+  "131": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          22,
+          23,
+          24
+        ],
+        2,
+        10
+      ]
+    ],
+    "add_desc": [
+      [
+        "BBs: FP",
+        10
+      ],
+      [
+        "BCs: FP",
+        10
+      ],
+      [
+        "BBVs: FP",
+        10
+      ],
+      [
+        "BMs: FP",
+        10
+      ],
+      [
+        "IXs: FP",
+        10
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 10 FP.",
+    "group_id": 13,
+    "icon": "zhanlie_paoji_1",
+    "id": 131,
+    "name": "Firepower Boost - Main",
+    "next": 132,
+    "worth": 2
+  },
+  "132": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          22,
+          23,
+          24
+        ],
+        2,
+        14
+      ]
+    ],
+    "add_desc": [
+      [
+        "BBs: FP",
+        14
+      ],
+      [
+        "BCs: FP",
+        14
+      ],
+      [
+        "BBVs: FP",
+        14
+      ],
+      [
+        "BMs: FP",
+        14
+      ],
+      [
+        "IXs: FP",
+        14
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 14 FP.",
+    "group_id": 13,
+    "icon": "zhanlie_paoji_2",
+    "id": 132,
+    "name": "Firepower Mastery - Main",
+    "next": 0,
+    "worth": 3
+  },
+  "141": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          22,
+          23,
+          24
+        ],
+        2,
+        6
+      ]
+    ],
+    "add_desc": [
+      [
+        "CLs: FP",
+        6
+      ],
+      [
+        "CAs: FP",
+        6
+      ],
+      [
+        "CBs: FP",
+        6
+      ],
+      [
+        "IXs: FP",
+        6
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 6 FP.",
+    "group_id": 14,
+    "icon": "xunyang_paoji_1",
+    "id": 141,
+    "name": "Firepower Boost - Vanguard",
+    "next": 142,
+    "worth": 2
+  },
+  "142": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          22,
+          23,
+          24
+        ],
+        2,
+        8
+      ]
+    ],
+    "add_desc": [
+      [
+        "CLs: FP",
+        8
+      ],
+      [
+        "CAs: FP",
+        8
+      ],
+      [
+        "CBs: FP",
+        8
+      ],
+      [
+        "IXs: FP",
+        8
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 8 FP.",
+    "group_id": 14,
+    "icon": "xunyang_paoji_2",
+    "id": 142,
+    "name": "Firepower Mastery - Vanguard",
     "next": 0,
     "worth": 3
   },
@@ -777,7 +978,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         4,
         8
@@ -808,7 +1010,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         4,
         11
@@ -839,7 +1042,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         4,
         16
@@ -873,7 +1077,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         4,
         10
@@ -907,7 +1112,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         4,
         14
@@ -941,7 +1147,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         4,
         20
@@ -972,7 +1179,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         12,
         4
@@ -1003,7 +1211,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         12,
         5
@@ -1034,7 +1243,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         12,
         8
@@ -1068,7 +1278,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         12,
         3
@@ -1102,7 +1313,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         12,
         4
@@ -1136,7 +1348,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         12,
         6
@@ -1654,7 +1867,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         6,
         3
@@ -1672,14 +1888,18 @@
       [
         "AEs: RLD",
         3
+      ],
+      [
+        "IXs: RLD",
+        3
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 3 RLD.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 3 RLD.",
     "group_id": 65,
     "icon": "teshu_one_1",
     "id": 651,
-    "name": "Loading Ace - Special",
+    "name": "Loading Rookie - Miscellaneous",
     "next": 652,
     "worth": 1
   },
@@ -1691,7 +1911,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         6,
         4
@@ -1709,14 +1932,18 @@
       [
         "AEs: RLD",
         4
+      ],
+      [
+        "IXs: RLD",
+        4
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 4 RLD.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 4 RLD.",
     "group_id": 65,
     "icon": "teshu_one_2",
     "id": 652,
-    "name": "Loading Rookie - Special",
+    "name": "Loading Adept - Miscellaneous",
     "next": 653,
     "worth": 2
   },
@@ -1728,7 +1955,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         6,
         6
@@ -1746,14 +1976,18 @@
       [
         "AEs: RLD",
         6
+      ],
+      [
+        "IXs: RLD",
+        6
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 6 RLD.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 6 RLD.",
     "group_id": 65,
     "icon": "teshu_one_3",
     "id": 653,
-    "name": "Loading Adept - Special",
+    "name": "Loading Ace - Miscellaneous",
     "next": 0,
     "worth": 3
   },
@@ -2254,7 +2488,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         1,
         40
@@ -2272,14 +2509,18 @@
       [
         "AEs: HP",
         40
+      ],
+      [
+        "IXs: HP",
+        40
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 40 HP.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 40 HP.",
     "group_id": 75,
     "icon": "teshu_naijiu_1",
     "id": 751,
-    "name": "Rookie Engineer - Special",
+    "name": "Rookie Engineer - Miscellaneous",
     "next": 752,
     "worth": 1
   },
@@ -2291,7 +2532,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         1,
         56
@@ -2309,14 +2553,18 @@
       [
         "AEs: HP",
         56
+      ],
+      [
+        "IXs: HP",
+        56
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 56 HP.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 56 HP.",
     "group_id": 75,
     "icon": "teshu_naijiu_2",
     "id": 752,
-    "name": "Adept Engineer - Special",
+    "name": "Adept Engineer - Miscellaneous",
     "next": 753,
     "worth": 2
   },
@@ -2328,7 +2576,10 @@
         [
           12,
           13,
-          19
+          19,
+          22,
+          23,
+          24
         ],
         1,
         80
@@ -2346,14 +2597,144 @@
       [
         "AEs: HP",
         80
+      ],
+      [
+        "IXs: HP",
+        80
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 80 HP.",
+    "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 80 HP.",
     "group_id": 75,
     "icon": "teshu_naijiu_3",
     "id": 753,
-    "name": "Ace Engineer - Special",
+    "name": "Ace Engineer - Miscellaneous",
+    "next": 0,
+    "worth": 3
+  },
+  "761": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          8,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        1,
+        30
+      ]
+    ],
+    "add_desc": [
+      [
+        "SSs, SSVs: HP",
+        30
+      ],
+      [
+        "DDs: HP",
+        30
+      ],
+      [
+        "IXs: HP",
+        30
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 30 HP.",
+    "group_id": 76,
+    "icon": "teshu_naijiu_1",
+    "id": 761,
+    "name": "Rookie Engineer - Small Ships",
+    "next": 762,
+    "worth": 1
+  },
+  "762": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          8,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        1,
+        42
+      ]
+    ],
+    "add_desc": [
+      [
+        "SSs, SSVs: HP",
+        42
+      ],
+      [
+        "DDs: HP",
+        42
+      ],
+      [
+        "IXs: HP",
+        42
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 42 HP.",
+    "group_id": 76,
+    "icon": "teshu_naijiu_2",
+    "id": 762,
+    "name": "Adept Engineer - Small Ships",
+    "next": 763,
+    "worth": 2
+  },
+  "763": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          8,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        1,
+        60
+      ]
+    ],
+    "add_desc": [
+      [
+        "SSs, SSVs: HP",
+        60
+      ],
+      [
+        "DDs: HP",
+        60
+      ],
+      [
+        "IXs: HP",
+        60
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 60 HP.",
+    "group_id": 76,
+    "icon": "teshu_naijiu_3",
+    "id": 763,
+    "name": "Ace Engineer - Small Ships",
     "next": 0,
     "worth": 3
   },
@@ -2451,7 +2832,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         8,
         3
@@ -2482,7 +2864,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         8,
         4
@@ -2513,7 +2896,8 @@
           2,
           3,
           18,
-          20
+          20,
+          23
         ],
         8,
         6
@@ -2547,7 +2931,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         8,
         1
@@ -2581,7 +2966,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         8,
         2
@@ -2615,7 +3001,8 @@
           10,
           12,
           13,
-          21
+          21,
+          24
         ],
         8,
         3
@@ -2646,7 +3033,10 @@
           8,
           17,
           20,
-          21
+          21,
+          22,
+          23,
+          24
         ],
         9,
         5
@@ -2654,16 +3044,20 @@
     ],
     "add_desc": [
       [
-        "SSs & SSVs: EVA",
+        "SSs, SSVs: EVA",
         5
       ],
       [
         "DDs: EVA",
         5
+      ],
+      [
+        "IXs: EVA",
+        5
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, and DDs</color> gain 5 EVA.",
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 5 EVA.",
     "group_id": 90,
     "icon": "quzhu_one_1",
     "id": 901,
@@ -2681,7 +3075,10 @@
           8,
           17,
           20,
-          21
+          21,
+          22,
+          23,
+          24
         ],
         9,
         7
@@ -2689,16 +3086,20 @@
     ],
     "add_desc": [
       [
-        "SSs & SSVs: EVA",
+        "SSs, SSVs: EVA",
         7
       ],
       [
         "DDs: EVA",
         7
+      ],
+      [
+        "IXs: EVA",
+        7
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, and DDs</color> gain 7 EVA.",
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 7 EVA.",
     "group_id": 90,
     "icon": "quzhu_one_2",
     "id": 902,
@@ -2716,7 +3117,10 @@
           8,
           17,
           20,
-          21
+          21,
+          22,
+          23,
+          24
         ],
         9,
         10
@@ -2724,16 +3128,20 @@
     ],
     "add_desc": [
       [
-        "SSs & SSVs: EVA",
+        "SSs, SSVs: EVA",
         10
       ],
       [
         "DDs: EVA",
         10
+      ],
+      [
+        "IXs: EVA",
+        10
       ]
     ],
     "cost": 0,
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, and DDs</color> gain 10 EVA.",
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 10 EVA.",
     "group_id": 90,
     "icon": "quzhu_one_3",
     "id": 903,
@@ -5500,6 +5908,114 @@
     "next": 0,
     "worth": 1
   },
+  "5141": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          22,
+          24
+        ],
+        2,
+        25
+      ]
+    ],
+    "add_desc": [
+      [
+        "BBs: FP",
+        25
+      ],
+      [
+        "BCs: FP",
+        25
+      ],
+      [
+        "IXMs: FP",
+        25
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 25 FP.",
+    "group_id": 514,
+    "icon": "special_one",
+    "id": 5141,
+    "name": "Combat Ready",
+    "next": 0,
+    "worth": 1
+  },
+  "5151": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          23
+        ],
+        2,
+        10
+      ],
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          23
+        ],
+        9,
+        5
+      ]
+    ],
+    "add_desc": [
+      [
+        "CLs: FP",
+        10
+      ],
+      [
+        "CAs: FP",
+        10
+      ],
+      [
+        "CBs: FP",
+        10
+      ],
+      [
+        "IXVs: FP",
+        10
+      ],
+      [
+        "CLs: EVA",
+        5
+      ],
+      [
+        "CAs: EVA",
+        5
+      ],
+      [
+        "CBs: EVA",
+        5
+      ],
+      [
+        "IXVs: EVA",
+        5
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXVs</color> gain 10 FP and 5 EVA.",
+    "group_id": 515,
+    "icon": "special_one",
+    "id": 5151,
+    "name": "Hoist Sails!",
+    "next": 0,
+    "worth": 1
+  },
   "all": [
     101,
     102,
@@ -5510,6 +6026,10 @@
     121,
     122,
     123,
+    131,
+    132,
+    141,
+    142,
     201,
     202,
     203,
@@ -5573,6 +6093,9 @@
     751,
     752,
     753,
+    761,
+    762,
+    763,
     801,
     802,
     803,
@@ -5642,6 +6165,8 @@
     5101,
     5111,
     5121,
-    5131
+    5131,
+    5141,
+    5151
   ]
 }

@@ -1094,7 +1094,7 @@
     "tip": "You don't have enough snacks."
   },
   "backyard_backyardGranaryLayer_foodMaxIncreaseNotice": {
-    "tip": "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>."
+    "tip": "Expand Supply Capacity from <color=#72bc42>$1</color> to <color=#72bc42>$2</color>."
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_bottom": {
     "tip": "will be eaten up~"
@@ -1124,19 +1124,10 @@
     "tip": "<color=#92fc63>Cleared!</color>"
   },
   "backyard_backyardScene_comforChatContent1": {
-    "tip": "<size=28>The total comfort is currently affected by the\nnumber of furniture items in the following slots:\nWallpaper:<color=#92fc63>$2</color>/Floor:<color=#92fc63>$5</color>/Furniture:<color=#92fc63>$3</color>\nDécor:<color=#92fc63>$4</color>/Carpet:<color=#92fc63>$6</color>/Wall Décor:<color=#92fc63>$7</color></size>"
-  },
-  "backyard_backyardScene_comforChatContent1_1": {
-    "tip": "<color=#CC0000>Hard</color>"
+    "tip": "Furniture does not have to be placed to contribute comfort. The dorm's total comfort is calculated as a sum of a certain number of the highest-comfort pieces of furniture in each slot."
   },
   "backyard_backyardScene_comforChatContent2": {
-    "tip": "<size=37>$1</size><size=28>\nBonus EXP Gain:<color=#92fc63>+$2%</color></size><size=28>\nThe dorm's total happiness is calculated as a sum of \nthe <color=#92fc63>n</color> highest-comfort pieces of furniture in each slot. The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Furniture does not have to be placed to contribute comfort.\nCurrent expansions: <color=#92fc63>$3</color>\n</size>"
-  },
-  "backyard_backyardScene_comforChatContent2_2": {
-    "tip": "<color=#FFBB11>Normal</color>"
-  },
-  "backyard_backyardScene_comforChatContent3_3": {
-    "tip": "<color=#00EEFF>Comfortable</color>"
+    "tip": "The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Current expansions: <color=#72bc42>$1</color>"
   },
   "backyard_backyardScene_error_canNotRotate": {
     "tip": "<color=#92fc63>May not rotate</color> this location."
@@ -1149,6 +1140,15 @@
   },
   "backyard_backyardScene_exitShipAfterAddEnergy": {
     "tip": " has finished resting and has left the dorm."
+  },
+  "backyard_backyardScene_expression_label_1": {
+    "tip": "Low"
+  },
+  "backyard_backyardScene_expression_label_2": {
+    "tip": "Medium"
+  },
+  "backyard_backyardScene_expression_label_3": {
+    "tip": "Comfortable"
   },
   "backyard_backyardScene_name": {
     "tip": "<color=#92fc63>$1's Dorm</color>"
@@ -1164,9 +1164,6 @@
   },
   "backyard_backyardScene_showAddExpInfo": {
     "tip": "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>"
-  },
-  "backyard_backyardScene_timeRest": {
-    "tip": "Time left: <color=#92fc63>$1</color>"
   },
   "backyard_backyardShipInfoLayer_error_noQuickItem": {
     "tip": "You don't have enough Quick Finishers."
@@ -1322,7 +1319,7 @@
     "tip": "Enter a new Dorm name."
   },
   "backyard_rename_title": {
-    "tip": "Rename Dorm"
+    "tip": "Change Name"
   },
   "backyard_rest_tip": {
     "tip": "Resting greatly improves Morale recovery."
@@ -1782,6 +1779,12 @@
   },
   "battle_text_bisimaiz_9": {
     "tip": "[<color=#ffc038>Synchro-Release</color>] - Geryon's defense have <color=#f1f102>dropped dramatically</color>! Focus on dealing as much damage as fast as possible!"
+  },
+  "battle_text_haidao_1": {
+    "tip": "<color=#f1f102>/// Warning: Non-Tempesta Ship Detected ///</color>"
+  },
+  "battle_text_haidao_2": {
+    "tip": "<color=#f1f102>/// The Nebula Guardian attacks! São Martinho has powered up! ///</color>"
   },
   "battle_text_yingxiv4_1": {
     "tip": "The Horseman is charging <color=#f1f102>left</color>!"
@@ -2379,7 +2382,7 @@
     "tip": "Hermione added to the standard build pool!"
   },
   "buildship_new_tip": {
-    "tip": "Get Unzen guaranteed with every 200 event builds (can be done up to 4 times)!"
+    "tip": "Rate UP for São Martinho, Golden Hind, and more!"
   },
   "buildship_special_tip": {
     "tip": "Perseus and Eagle added to standard build pool!"
@@ -2860,6 +2863,9 @@
   },
   "charge_scene_buy_confirm": {
     "tip": "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
+  },
+  "charge_scene_buy_confirm_backyard": {
+    "tip": "Spend <color=#72bc42>$1 Gems</color> to buy <color=#72bc42>$2</color>?"
   },
   "charge_scene_buy_confirm_gold": {
     "tip": "Spend <color=#A9F548FF>$1 Gold</color> to buy <color=#A9F548FF>$2</color>?"
@@ -3627,6 +3633,111 @@
   "course_sunday_tip": {
     "tip": "Self-study in progress. Double Proficiency gained from sorties."
   },
+  "courtyard_label_cancel_share": {
+    "tip": "Stop Sharing"
+  },
+  "courtyard_label_capacity": {
+    "tip": "Supplies"
+  },
+  "courtyard_label_clear": {
+    "tip": "Clear"
+  },
+  "courtyard_label_comfortable_addition": {
+    "tip": "Total EXP Bonus:"
+  },
+  "courtyard_label_custom_theme": {
+    "tip": "Saved Sets"
+  },
+  "courtyard_label_decoration": {
+    "tip": "Move"
+  },
+  "courtyard_label_delete": {
+    "tip": "Remove"
+  },
+  "courtyard_label_detail": {
+    "tip": "Details"
+  },
+  "courtyard_label_empty_collection_list": {
+    "tip": "没有找到符合条件的收藏"
+  },
+  "courtyard_label_empty_custom_template_list": {
+    "tip": "没有找到符合条件的家具主题\n请前往管理界面重新保存自定义主题"
+  },
+  "courtyard_label_empty_template_list": {
+    "tip": "没有找到符合条件的家具主题"
+  },
+  "courtyard_label_exp_addition": {
+    "tip": "EXP Bonus"
+  },
+  "courtyard_label_filter": {
+    "tip": "Filter"
+  },
+  "courtyard_label_floor": {
+    "tip": "Floors"
+  },
+  "courtyard_label_go": {
+    "tip": "Confirm"
+  },
+  "courtyard_label_month": {
+    "tip": "一月内"
+  },
+  "courtyard_label_place_pnekey": {
+    "tip": "Batch Place"
+  },
+  "courtyard_label_placed_furniture": {
+    "tip": "Placed Furniture"
+  },
+  "courtyard_label_putlist_title": {
+    "tip": "Placed Furniture List"
+  },
+  "courtyard_label_rest": {
+    "tip": "Rest"
+  },
+  "courtyard_label_save": {
+    "tip": "Save"
+  },
+  "courtyard_label_save_theme": {
+    "tip": "Save Theme"
+  },
+  "courtyard_label_search_holder": {
+    "tip": "Searching..."
+  },
+  "courtyard_label_share": {
+    "tip": "Share"
+  },
+  "courtyard_label_shop": {
+    "tip": "Shop"
+  },
+  "courtyard_label_shop_1": {
+    "tip": "Shop"
+  },
+  "courtyard_label_system_theme": {
+    "tip": "Presets"
+  },
+  "courtyard_label_template": {
+    "tip": "模板"
+  },
+  "courtyard_label_time": {
+    "tip": "Time"
+  },
+  "courtyard_label_total_exp_addition": {
+    "tip": "Total EXP Bonus:"
+  },
+  "courtyard_label_train": {
+    "tip": "Train"
+  },
+  "courtyard_label_using": {
+    "tip": "Placed on floor $1"
+  },
+  "courtyard_label_week": {
+    "tip": "一周内"
+  },
+  "courtyard_label_year": {
+    "tip": "一年内"
+  },
+  "courtyard_tip_furniture_not_in_layer": {
+    "tip": "You cannot place furniture on this floor."
+  },
   "cowboy_tips": {
     "tip": [
       {
@@ -3754,6 +3865,9 @@
   },
   "cryptolalia_download_done": {
     "tip": "Assets Downloaded"
+  },
+  "cryptolalia_download_task_already_exists": {
+    "tip": "Downloading the Secret \"$1\"..."
   },
   "cryptolalia_entrance_coming_soom": {
     "tip": "Secrets Coming Soon..."
@@ -4382,11 +4496,116 @@
   "equip_part_title": {
     "tip": "Use"
   },
+  "equip_share_label_1": {
+    "tip": "Anti Light Armor"
+  },
+  "equip_share_label_2": {
+    "tip": "Anti Medium Armor"
+  },
+  "equip_share_label_3": {
+    "tip": "Anti Heavy Armor"
+  },
+  "equip_share_label_4": {
+    "tip": "Anti Aviation"
+  },
+  "equip_share_label_5": {
+    "tip": "Burst Damage"
+  },
+  "equip_share_label_6": {
+    "tip": "Recurring Damage"
+  },
+  "equip_share_label_7": {
+    "tip": "Main"
+  },
+  "equip_share_label_8": {
+    "tip": "Dailies"
+  },
+  "equip_share_label_9": {
+    "tip": "OpSi"
+  },
   "equip_skin_detail_count": {
     "tip": "Owned:"
   },
   "equip_skin_detail_tip": {
     "tip": "It contains Gear Skins listed below:"
+  },
+  "equipcode_confirm_doublecheck": {
+    "tip": "Would you like to use the imported loadout?"
+  },
+  "equipcode_diff_selected": {
+    "tip": "Different Gear"
+  },
+  "equipcode_dislike_success": {
+    "tip": "Thank you for your report."
+  },
+  "equipcode_equip_occupied": {
+    "tip": "In Use"
+  },
+  "equipcode_equipment_unowned": {
+    "tip": "Unowned Gear"
+  },
+  "equipcode_export_success": {
+    "tip": "Gear code copied."
+  },
+  "equipcode_illegal": {
+    "tip": "Please enter the correct gear code."
+  },
+  "equipcode_import_success": {
+    "tip": "Successfully equipped the imported loadout."
+  },
+  "equipcode_input": {
+    "tip": "Please enter a gear code."
+  },
+  "equipcode_level_unmatched": {
+    "tip": "Wrong Level"
+  },
+  "equipcode_like_limited": {
+    "tip": "You have already left a like on this loadout today."
+  },
+  "equipcode_like_success": {
+    "tip": "You left a like."
+  },
+  "equipcode_report_type_1": {
+    "tip": "The loadout doesn't make sense."
+  },
+  "equipcode_report_type_2": {
+    "tip": "The loadout is too old."
+  },
+  "equipcode_report_warning": {
+    "tip": "You will be unable to share loadouts if you report too often."
+  },
+  "equipcode_share_errorcode44": {
+    "tip": "You cannot share any more loadouts for today."
+  },
+  "equipcode_share_errorcode7": {
+    "tip": "You have already shared this character's loadout today."
+  },
+  "equipcode_share_exceedlimit": {
+    "tip": "You can only select up to 2 tags."
+  },
+  "equipcode_share_listempty": {
+    "tip": "You have nothing to share."
+  },
+  "equipcode_share_nolabel": {
+    "tip": "You must select 2 tags before you can share."
+  },
+  "equipcode_share_ruletips": {
+    "tip": "You can share your loadout after giving it 2 tags."
+  },
+  "equipcode_share_success": {
+    "tip": "Successfully shared the selected loadout."
+  },
+  "equipcode_share_title": {
+    "tip": "Loadouts"
+  },
+  "equipcode_share_titleeng": {
+    "tip": "LOADOUTS"
+  },
+  "equipcode_slot_unmatch": {
+    "tip": "This loadout contains unequippable gear for the current character."
+  },
+  "equipcode_unsaved_tips": {
+    "tip": "You cannot use the imported loadout. Return to the previous screen?"
   },
   "equipment_cant_unload": {
     "tip": "<color=#92fc63>Your gear storage is full.</color> Unable to unequip gear."
@@ -6518,6 +6737,13 @@
     "tip": [
       {
         "info": "- Manjuu Meet n' Greet -\n· In this minigame, you play as Manjuu staff members trying to bring fans the goods they ask for.\n· Finishing each round of this minigame (rounds unlock over 7 days) will allow you to earn the collab-limited \"Shining Bracelet\" gear.\n\n- Minigame Instructions -\n1. A fan on the right side of the screen will list 3 items they want. Tap the corresponding items on the left side of the screen to select them.\n2. Select all the correct items and the fan will be satisfied and leave. If you pick an item wrong, the right item will be highlighted and you can try again.\n3. A fan will wait 15 seconds for you to bring the items they want. If you take too long, the fan will leave, and you will lose 1 stamina.\n4. The minigame ends when you run out of stamina or when the timer reaches 0."
+      }
+    ]
+  },
+  "harbor_backhill_help": {
+    "tip": [
+      {
+        "info": "- Event Overview -\nThe Swashbuckler's Retreat event is available between October 25th and November 8th.\n\n- Details -\n· Secret Shipyard\n Tap this button to go to the prelude event, Tempesta's Secret Shipyard.\nFinishing the prelude event gives you access to a minigame. A new minigame stage will unlock every day until November 1st. Complete them all to receive the following great rewards!\nComplete stage 3: receive Fruit Rations, a Tempesta auxiliary gear.\nComplete stage 5: receive Tempesta Augment Module set.\nComplete stage 7: receive the Pirate Ship, a piece of furniture.\n\n· Commemoration\nTap this button to view the limited event missions and claim rewards.\nComplete the event missions to receive rewards such as the SR Main Gun Old Heavy Cannon, the new Meowfficers Bellamy and Kidd, and the exclusive furniture Brilliant Compass.\n\n· Event Shop\nTap this button to go to the shop and exchange event currency for items.\n\n· Limited Construction\nTap this button to go to the build screen.\n\n· New Skins\nTap this button to view the port's latest fashion.\n\n"
       }
     ]
   },
@@ -8905,6 +9131,12 @@
   "indexsort_indexeng": {
     "tip": "Index"
   },
+  "indexsort_label": {
+    "tip": "Tags"
+  },
+  "indexsort_labeleng": {
+    "tip": "TAGS"
+  },
   "indexsort_rarity": {
     "tip": "Rarity"
   },
@@ -8915,7 +9147,7 @@
     "tip": "Sort"
   },
   "indexsort_sorteng": {
-    "tip": "Sort"
+    "tip": "SORT"
   },
   "indexsort_type": {
     "tip": "Type"
@@ -11000,6 +11232,12 @@
   "monthly_card_tip": {
     "tip": ""
   },
+  "mot_class_t_level_1": {
+    "tip": "Star Wayfinder"
+  },
+  "mot_class_t_level_2": {
+    "tip": "Nebula Guardian"
+  },
   "msgbox_repair": {
     "tip": "Repair Assets"
   },
@@ -11852,6 +12090,9 @@
         "info": "- Manjuu Tower Minigame Overview -\nCollect the fallen blocks and stack them as high as you can to rack up points.\nComplete the final stage of the minigame to receive the Sakura Empire destroyer Uranami.\nA new stage will unlock every day up to <color=#92fc63>January 18th</color>.\n\n- How to Play -\n· Tap the screen to release the block at the top and try to land it on the tower below.\n· If you land the block on the tower, you earn points. If you miss the tower 3 times, the game ends.\n· The tower has a balance gauge (seen on the right side of the screen) that needs to be managed. If the manjuu at the center of the gauge reaches either of the red areas, the tower will collapse and end the game.\n· The game can be stopped midway through without using an attempt, but you won't receive a stamp either.\n· You can play this minigame even if you don't have a daily attempt remaining."
       }
     ]
+  },
+  "pirate_wanted_help": {
+    "tip": "This event is available between <color=#f15a22>October 26th and November 8th.</color>\n\n- Overview -\n1. Exclusive missions are available during this event.\n2. Complete the missions to receive all kinds of rewards, including new Meowfficers, Tempesta gear and Augment Modules, limited furniture \"\"Brilliant Compass.\"\"Rewards are claimable up to November 15th, 23:59."
   },
   "pizzahut_help": {
     "tip": [
@@ -13003,6 +13244,52 @@
   "ryza_word_equip": {
     "tip": "Gear"
   },
+  "sail_boat_equip_tip_1": {
+    "tip": "<color=#E3CEAF>Pretty Weak, Rapid-Fire Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
+  },
+  "sail_boat_equip_tip_2": {
+    "tip": "<color=#E3CEAF>Decently Strong, Decently Quick Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
+  },
+  "sail_boat_equip_tip_3": {
+    "tip": "<color=#E3CEAF>Extremely Powerful, Extremely Slow Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
+  },
+  "sail_boat_equip_tip_4": {
+    "tip": "<color=#E3CEAF>Armored Deck</color>\n<color=#F1B969>Equipping this on your ship raises her HP but reduces her speed.</color>"
+  },
+  "sail_boat_equip_tip_5": {
+    "tip": "<color=#E3CEAF>Manjuu Sailor</color>\n<color=#F1B969>Equipping this on your ship raises her speed.</color>"
+  },
+  "sail_boat_minigame_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/sailboat_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/sailboat_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "salvage_tips": {
     "tip": [
       {
@@ -14101,10 +14388,14 @@
     "tip": "2 new missions unlock every day until 10/25.\nComplete them all to earn the limited gear, <color=#ff9892>Tempesta Banner</color>!"
   },
   "shipyard_phase_1": {
-    "tip": "占坑"
+    "tip": [
+      {
+        "info": "- Event Overview -\nIn this minigame, you'll take control of the ship you built in Tempesta's Secret Shipyard, sink enemies on the high seas, collect booty, and reach the destination to rack up points.\nThis minigame is available between <color=#92fc63>October 26th and November 8th.</color>\n\n- Details -\n· There are missions for you to complete at Tempesta's Secret Shipyard. Once you have finished them all, you'll have a complete ship to steer in the minigame.\n· Pick a stage, choose the equipment you want to bring, then set sail.\n· A new minigame stage will unlock every day up to November 1st.\n· There are one-time rewards the first time you clear specific stages.\n- Stage 3: Fruit Rations, a Tempesta auxiliary gear\n- Stage 5: Tempesta weapons set\n- Stage 7: Pirate Ship, a piece of furniture\n· After you finish stage 7, you can replay any stage you like."
+      }
+    ]
   },
   "shipyard_phase_2": {
-    "tip": "占坑"
+    "tip": "废弃"
   },
   "shoot_preview": {
     "tip": "Firing Preview"
@@ -15386,9 +15677,6 @@
   "trophy_achieved": {
     "tip": "Medal Unlocked!"
   },
-  "tw_unsupport_tip": {
-    "tip": "Twitter account binding not available now. Please use Yostar account binding."
-  },
   "twitter_link_title": {
     "tip": "Twitter Account:$1"
   },
@@ -15897,7 +16185,7 @@
     "tip": "Emas"
   },
   "word_energy_recov_speed": {
-    "tip": "Recovery"
+    "tip": "Recovery Speed"
   },
   "word_equip": {
     "tip": "Gear"
@@ -16297,7 +16585,7 @@
     "tip": "Ungranted "
   },
   "word_nowenergy": {
-    "tip": "Current Mood"
+    "tip": "Morale"
   },
   "word_oil": {
     "tip": "Oil"
