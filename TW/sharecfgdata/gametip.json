@@ -937,7 +937,7 @@
     "tip": "食物數量不足"
   },
   "backyard_backyardGranaryLayer_foodMaxIncreaseNotice": {
-    "tip": "存糧上限：<color=#A9F548>$1</color>提升到<color=#A9F548>$2</color>"
+    "tip": "存糧上限：<color=#72bc42>$1</color>提升到<color=#72bc42>$2</color>"
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_bottom": {
     "tip": "後被吃光光呢~快加餐~~"
@@ -952,7 +952,7 @@
     "tip": "指揮官~家裡已經沒有東西吃了~大家都餓趴下了"
   },
   "backyard_backyardGranaryLayer_noShip": {
-    "tip": "後宅還沒有增加休息的角色,<color=#A9F548>食物將不會消耗</color>"
+    "tip": "<color=#393A3C>後宅還沒有加入休息的角色</color>，<color=#92fc63>食物將不會消耗</color>"
   },
   "backyard_backyardGranaryLayer_noTimer": {
     "tip": "<color=#A9F548>增加食物</color>可讓大家回復疲勞和獲得經驗哦"
@@ -967,19 +967,10 @@
     "tip": "<color=#A9F548>清空成功</color>"
   },
   "backyard_backyardScene_comforChatContent1": {
-    "tip": "<size=30>當前各類傢俱計入舒適度的數量：\n牆紙:<color=#92fc63>$1</color>/地板:<color=#92fc63>$4</color>/傢俱:<color=#92fc63>$2</color>/裝飾:<color=#92fc63>$3</color>/地墊:<color=#92fc63>$5</color>/牆飾:<color=#92fc63>$6</color>/收藏:<color=#92fc63>$7</color>\n</size>"
-  },
-  "backyard_backyardScene_comforChatContent1_1": {
-    "tip": "<color=#CC0000>艱苦</color>"
+    "tip": "舒適度不受擺放影響，計算各類傢俱中舒適度最高的前n件總和。"
   },
   "backyard_backyardScene_comforChatContent2": {
-    "tip": "<size=45>$1</size>\n當前經驗收益<color=#92fc63>+$2%</color><size=30>\n\n<color=#92fc63>舒適度</color>不受擺放影響，計算<color=#92fc63>各類傢俱</color>中舒適度最高的<color=#92fc63>前n件</color>總和\n各類傢俱的n值受後宅擴建次數影響  當前次數:<color=#92fc63>$3</color>\n</size>"
-  },
-  "backyard_backyardScene_comforChatContent2_2": {
-    "tip": "<color=#FFBB11>普通</color>"
-  },
-  "backyard_backyardScene_comforChatContent3_3": {
-    "tip": "<color=#00EEFF>舒適</color>"
+    "tip": "各類傢俱的n值受後宅擴建次數影響，目前擴建次數：<color=#72bc42>$1</color>"
   },
   "backyard_backyardScene_error_canNotRotate": {
     "tip": "該位置<color=#A9F548>無法旋轉</color>"
@@ -992,6 +983,15 @@
   },
   "backyard_backyardScene_exitShipAfterAddEnergy": {
     "tip": "疲勞恢復完成，從後宅離開"
+  },
+  "backyard_backyardScene_expression_label_1": {
+    "tip": "艱苦"
+  },
+  "backyard_backyardScene_expression_label_2": {
+    "tip": "普通"
+  },
+  "backyard_backyardScene_expression_label_3": {
+    "tip": "舒適"
   },
   "backyard_backyardScene_name": {
     "tip": "<color=#A9F548>$1的後宅</color>"
@@ -1007,9 +1007,6 @@
   },
   "backyard_backyardScene_showAddExpInfo": {
     "tip": "休息的時間為：<color=#A9F548>$1</color>增加的經驗值為：<color=#A9F548>$2</color>"
-  },
-  "backyard_backyardScene_timeRest": {
-    "tip": "剩餘時間:<color=#A9F548>$1</color>"
   },
   "backyard_backyardShipInfoLayer_error_noQuickItem": {
     "tip": "加速道具數量不足"
@@ -1159,7 +1156,7 @@
     "tip": "輸入後宅名稱"
   },
   "backyard_rename_title": {
-    "tip": "請輸入名稱"
+    "tip": "修改名稱"
   },
   "backyard_rest_tip": {
     "tip": "休息增加艦船心情恢復"
@@ -2022,10 +2019,10 @@
     "tip": "是否升級？升級會消耗對應材料"
   },
   "buildship_heavy_tip": {
-    "tip": "土佐、天城、加賀(戰列)、足柄  建造追加！"
+    "tip": "三笠、比叡 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "花月、長波、那珂、旗風 建造追加！"
+    "tip": "濱風 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "武藏、酒匂、羽黑建造機率UP！"
@@ -3253,6 +3250,111 @@
   "course_sunday_tip": {
     "tip": "學生自主學習，出擊熟練度獲取比例翻倍"
   },
+  "courtyard_label_cancel_share": {
+    "tip": "取消分享"
+  },
+  "courtyard_label_capacity": {
+    "tip": "食量"
+  },
+  "courtyard_label_clear": {
+    "tip": "清空"
+  },
+  "courtyard_label_comfortable_addition": {
+    "tip": "當前經驗總加成 ："
+  },
+  "courtyard_label_custom_theme": {
+    "tip": "自訂主題"
+  },
+  "courtyard_label_decoration": {
+    "tip": "管理"
+  },
+  "courtyard_label_delete": {
+    "tip": "刪除"
+  },
+  "courtyard_label_detail": {
+    "tip": "詳情"
+  },
+  "courtyard_label_empty_collection_list": {
+    "tip": "沒有找到符合條件的收藏"
+  },
+  "courtyard_label_empty_custom_template_list": {
+    "tip": "沒有找到符合條件的傢俱主題\n請前往管理介面重新儲存自訂主題"
+  },
+  "courtyard_label_empty_template_list": {
+    "tip": "沒有找到符合條件的傢俱主題"
+  },
+  "courtyard_label_exp_addition": {
+    "tip": "經驗加成"
+  },
+  "courtyard_label_filter": {
+    "tip": "篩選"
+  },
+  "courtyard_label_floor": {
+    "tip": "目前樓層"
+  },
+  "courtyard_label_go": {
+    "tip": "前往"
+  },
+  "courtyard_label_month": {
+    "tip": "一月內"
+  },
+  "courtyard_label_place_pnekey": {
+    "tip": "一鍵佈置"
+  },
+  "courtyard_label_placed_furniture": {
+    "tip": "已放入傢俱"
+  },
+  "courtyard_label_putlist_title": {
+    "tip": "已放入傢俱列表"
+  },
+  "courtyard_label_rest": {
+    "tip": "休息"
+  },
+  "courtyard_label_save": {
+    "tip": "儲存"
+  },
+  "courtyard_label_save_theme": {
+    "tip": "儲存主題"
+  },
+  "courtyard_label_search_holder": {
+    "tip": "點擊搜尋"
+  },
+  "courtyard_label_share": {
+    "tip": "分享"
+  },
+  "courtyard_label_shop": {
+    "tip": "商店"
+  },
+  "courtyard_label_shop_1": {
+    "tip": "傢俱商店"
+  },
+  "courtyard_label_system_theme": {
+    "tip": "系統主題"
+  },
+  "courtyard_label_template": {
+    "tip": "範本"
+  },
+  "courtyard_label_time": {
+    "tip": "時間"
+  },
+  "courtyard_label_total_exp_addition": {
+    "tip": "經驗總加成 ："
+  },
+  "courtyard_label_train": {
+    "tip": "訓練"
+  },
+  "courtyard_label_using": {
+    "tip": "$1F使用中"
+  },
+  "courtyard_label_week": {
+    "tip": "一週內"
+  },
+  "courtyard_label_year": {
+    "tip": "一年內"
+  },
+  "courtyard_tip_furniture_not_in_layer": {
+    "tip": "傢俱不在目前樓層"
+  },
   "cowboy_tips": {
     "tip": [
       {
@@ -3945,11 +4047,116 @@
   "equip_part_title": {
     "tip": "適用"
   },
+  "equip_share_label_1": {
+    "tip": "輕型護甲"
+  },
+  "equip_share_label_2": {
+    "tip": "中型護甲"
+  },
+  "equip_share_label_3": {
+    "tip": "重型護甲"
+  },
+  "equip_share_label_4": {
+    "tip": "對空火力"
+  },
+  "equip_share_label_5": {
+    "tip": "爆發輸出"
+  },
+  "equip_share_label_6": {
+    "tip": "平滑輸出"
+  },
+  "equip_share_label_7": {
+    "tip": "主線攻略"
+  },
+  "equip_share_label_8": {
+    "tip": "日常任務"
+  },
+  "equip_share_label_9": {
+    "tip": "大型作戰"
+  },
   "equip_skin_detail_count": {
     "tip": "擁有:"
   },
   "equip_skin_detail_tip": {
     "tip": "可以獲得以下外觀裝備"
+  },
+  "equipcode_confirm_doublecheck": {
+    "tip": "確認要匯入目前配裝結果嗎？"
+  },
+  "equipcode_diff_selected": {
+    "tip": "不同裝備"
+  },
+  "equipcode_dislike_success": {
+    "tip": "檢舉成功"
+  },
+  "equipcode_equip_occupied": {
+    "tip": "被佔用"
+  },
+  "equipcode_equipment_unowned": {
+    "tip": "未擁有"
+  },
+  "equipcode_export_success": {
+    "tip": "成功複製裝備碼"
+  },
+  "equipcode_illegal": {
+    "tip": "裝備碼解析失敗"
+  },
+  "equipcode_import_success": {
+    "tip": "裝備匯入成功"
+  },
+  "equipcode_input": {
+    "tip": "請輸入裝備碼"
+  },
+  "equipcode_level_unmatched": {
+    "tip": "等級不符"
+  },
+  "equipcode_like_limited": {
+    "tip": "今天已經按讚過該配裝方案了"
+  },
+  "equipcode_like_success": {
+    "tip": "按讚成功"
+  },
+  "equipcode_report_type_1": {
+    "tip": "無意義的配裝"
+  },
+  "equipcode_report_type_2": {
+    "tip": "已過時的配裝"
+  },
+  "equipcode_report_warning": {
+    "tip": "短期內大量異常檢舉可能導致該功能被停用"
+  },
+  "equipcode_share_errorcode44": {
+    "tip": "已達單日配裝分享上限，分享失敗"
+  },
+  "equipcode_share_errorcode7": {
+    "tip": "今天已經分享過該船的配裝方案了"
+  },
+  "equipcode_share_exceedlimit": {
+    "tip": "已選擇的標籤數量超過兩個"
+  },
+  "equipcode_share_listempty": {
+    "tip": "無可顯示內容"
+  },
+  "equipcode_share_nolabel": {
+    "tip": "請選擇兩個標籤後再分享配裝方案"
+  },
+  "equipcode_share_ruletips": {
+    "tip": "請選擇兩個標籤，確定後將配裝方案分享至伺服器"
+  },
+  "equipcode_share_success": {
+    "tip": "配裝方案分享成功"
+  },
+  "equipcode_share_title": {
+    "tip": "配裝方案"
+  },
+  "equipcode_share_titleeng": {
+    "tip": "EQUIPMENTS"
+  },
+  "equipcode_slot_unmatch": {
+    "tip": "裝備碼對應了當前角色無法使用的裝備"
+  },
+  "equipcode_unsaved_tips": {
+    "tip": "裝備變更尚未匯入，是否確認退出？"
   },
   "equipment_cant_unload": {
     "tip": "<color=#A9F548>裝備倉庫已滿</color>,無法卸下裝備"
@@ -8325,6 +8532,12 @@
   "indexsort_indexeng": {
     "tip": "INDEX"
   },
+  "indexsort_label": {
+    "tip": "標籤"
+  },
+  "indexsort_labeleng": {
+    "tip": "LABEL"
+  },
   "indexsort_rarity": {
     "tip": "稀有度"
   },
@@ -9181,6 +9394,12 @@
   },
   "level_scene_title_word_5": {
     "tip": "<color=#18ff23>推薦：</color>"
+  },
+  "levelscene_deploy_submarine": {
+    "tip": "確認部署"
+  },
+  "levelscene_deploy_submarine_cancel": {
+    "tip": "取消部署"
   },
   "like_ship_success": {
     "tip": "操作成功"
@@ -10331,6 +10550,12 @@
   },
   "monthly_card_tip": {
     "tip": "30日每日獲得資源"
+  },
+  "mot_class_t_level_1": {
+    "tip": "牽星者"
+  },
+  "mot_class_t_level_2": {
+    "tip": "雲牆守衛"
   },
   "msgbox_repair": {
     "tip": "修復資源"
@@ -15453,6 +15678,9 @@
   "word_shipState_study": {
     "tip": "該角色正在認真上課喲~"
   },
+  "word_shipState_support": {
+    "tip": "該角色在支援艦隊中哦~"
+  },
   "word_shipState_tactics": {
     "tip": "該角色正在認真上課喲~"
   },
@@ -16059,7 +16287,7 @@
         "info": "1.「EX」演習戰鬥具有一定難度，可以在「EX」演習的艦隊選擇介面點擊<color=#92fc63>「模擬戰」</color>按鈕進行嘗試，「模擬戰」不消耗石油、心情、「特別挑戰券」\n2.進行「EX」演習戰鬥時，中途斷線或者主動退出等中止戰鬥的情況都會扣除「特別挑戰券」且<color=#ff5c5c>不會獲得任何獎勵</color><color=#ff5c5c>請在網路狀態良好的情況下進行「EX」演習戰鬥</color>\n3.進行「簡單」、「普通」、「困難」演習戰鬥時，中途斷線或者主動退出等中止戰鬥的情況會保留「額外收益次數」且不會獲得任何獎勵\n4.在所有難度的演習戰鬥中，艦船被擊破不會消耗心情值，其餘情況的心情值正常增減\n5.所有難度的演習戰鬥都會正常消耗石油，正常獲得指揮官、出戰角色和指揮喵經驗\n"
       },
       {
-        "info": "<color=#92fc63>活動說明</color>：\n1.在活動期間，參與演習戰鬥獲取<color=#92fc63>「貢獻值」</color>,和本服玩家協力攻略演習據點，獲取據點階段獎勵和個人貢獻獎勵\n2.本次活動分為「簡單」、「普通」、「困難」、「EX」4個難度的演習\n3.「簡單」、「普通」、「困難」演習會獲得固定「貢獻值」,「EX」演習會根據<color=#92fc63>戰鬥中造成的傷害總量</color>獲得「貢獻值」和獎勵，造成傷害越多「貢獻值」越多，獲得獎勵越豐厚\n4.「簡單」、「普通」、「困難」演習每次通關時可以獲得額外收益， 額外收益每日有獲得次數上限，每日「額外收益次數」上限3個難度各為<color=#92fc63>15次</color>\n5.「簡單」、「普通」、「困難」演習每日挑戰次數無限制，「EX」演習需要消耗<color=#92fc63>1個「特別挑戰券」</color>才可以挑戰\n6.演習戰鬥的出擊隊伍可以通過點擊不同難度的按鈕進行編成，允許攜帶潛艇和指揮喵\n7.活動期間，根據本服所有玩家獲得的「貢獻值」，消耗「演習據點」的耐久\n8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵\n9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵\n10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取\n11.3.23-4.06維護前期間可以參與演習戰鬥，獎勵領取的截止時間為4.12 23:59"
+        "info": "<color=#92fc63>活動說明</color>：\n1.在活動期間，參與演習戰鬥獲取<color=#92fc63>「貢獻值」</color>,和本服玩家協力攻略演習據點，獲取據點階段獎勵和個人貢獻獎勵\n2.本次活動分為「簡單」、「普通」、「困難」、「EX」4個難度的演習\n3.「簡單」、「普通」、「困難」演習會獲得固定「貢獻值」,「EX」演習會根據<color=#92fc63>戰鬥中造成的傷害總量</color>獲得「貢獻值」和獎勵，造成傷害越多「貢獻值」越多，獲得獎勵越豐厚\n4.「簡單」、「普通」、「困難」演習每次通關時可以獲得額外收益， 額外收益每日有獲得次數上限，每日「額外收益次數」上限3個難度各為<color=#92fc63>15次</color>\n5.「簡單」、「普通」、「困難」演習每日挑戰次數無限制，「EX」演習需要消耗<color=#92fc63>1個「特別挑戰券」</color>才可以挑戰\n6.演習戰鬥的出擊隊伍可以通過點擊不同難度的按鈕進行編成，允許攜帶潛艇和指揮喵\n7.活動期間，根據本服所有玩家獲得的「貢獻值」，消耗「演習據點」的耐久\n8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵\n9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵\n10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取\n11.10.19-11.02維護前期間可以參與演習戰鬥，獎勵領取的截止時間為11.08 23:59"
       },
       {
         "info": "<color=#92fc63>特別挑戰券說明</color>：\n1.特別挑戰券可以通過活動期間的特殊每日任務獲得，數量可以累積，活動結束後會被清空\n2.「簡單」、「普通」、「困難」演習的「額外收益次數」為<color=#92fc63>0</color>的情況下，進行演習戰鬥時可以消耗<color=#92fc63>1個</color>「特別挑戰券」增加1次對應難度演習的「額外收益次數」\n3.「EX」演習需要消耗<color=#92fc63>1個</color>「特別挑戰券」"
