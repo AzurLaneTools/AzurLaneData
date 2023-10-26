@@ -209860,12 +209860,36 @@
     "id": 9600031,
     "illustrator": -1,
     "illustrator2": -1,
-    "l2d_animations": "",
-    "l2d_drag_rate": "",
+    "l2d_animations": [
+      "idle",
+      "main_1",
+      "main_2",
+      "main_3",
+      "mission",
+      "mission_complete",
+      "complete",
+      "login",
+      "home",
+      "mail",
+      "touch_body",
+      "touch_head"
+    ],
+    "l2d_drag_rate": [
+      0.5,
+      1,
+      1
+    ],
     "l2d_ignore_drag": 0,
-    "l2d_para_range": "",
+    "l2d_para_range": {
+      "ParamAngleX": [
+        -15,
+        15
+      ]
+    },
     "l2d_se": "",
-    "l2d_voice_calibrate": "",
+    "l2d_voice_calibrate": {
+      "use_event": true
+    },
     "lip_smoothing": 0,
     "lip_sync_gain": 0,
     "live2d_offset": [
@@ -209880,7 +209904,18 @@
     "prefab": "jinluhao_2",
     "rarity_bg": "",
     "ship_group": 960003,
-    "ship_l2d_id": "",
+    "ship_l2d_id": [
+      96000311,
+      96000312,
+      96000313,
+      96000314,
+      96000315,
+      96000316,
+      96000317,
+      96000318,
+      96000319,
+      96000320
+    ],
     "shop_id": 70921,
     "shop_type_id": 8,
     "show_skin": "stand",
