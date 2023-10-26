@@ -1027,10 +1027,10 @@
     "tip": "食糧庫を<color=#92fc63>$1</color>から<color=#92fc63>$2</color>に拡張する"
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_bottom": {
-    "tip": "持つね…早く補充しよう！"
+    "tip": "<size=26>持つね…早く補充しよう！</size>"
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_top": {
-    "tip": "食糧備蓄は"
+    "tip": "<size=26>食糧備蓄は</size>"
   },
   "backyard_backyardGranaryLayer_full": {
     "tip": "<color=red>食糧はもういっぱいです！</color>"
@@ -1054,19 +1054,10 @@
     "tip": "<color=#92fc63>マイセットをクリアしました</color>"
   },
   "backyard_backyardScene_comforChatContent1": {
-    "tip": "<size=30>快適度計算時に適用される家具数：\n壁紙:<color=#92fc63>$1</color>/床:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/雑貨:<color=#92fc63>$3</color>/マット:<color=#92fc63>$5</color>/壁飾り:<color=#92fc63>$6</color>/蒐集品:<color=#92fc63>$7</color>\n</size>"
-  },
-  "backyard_backyardScene_comforChatContent1_1": {
-    "tip": "<color=#ff5c5c>清貧</color>"
+    "tip": "寮舎快適度は家具の配置場所に影響されず、\n快適度が上からn番目の家具を合算する数値になります"
   },
   "backyard_backyardScene_comforChatContent2": {
-    "tip": "<size=45>$1</size>\n経験値<color=#92fc63>+$2%</color><size=30>\n合計快適度は所持家具の各カテゴリーにおける快適度が上からn番目までの家具を合算した数値になります。合算に適用される家具数は寮舎の拡張回数によって決まります。\n</size>"
-  },
-  "backyard_backyardScene_comforChatContent2_2": {
-    "tip": "<color=#ffde38>普通</color>"
-  },
-  "backyard_backyardScene_comforChatContent3_3": {
-    "tip": "<color=#c5cfdf>快適</color>"
+    "tip": "寮舎快適度を掲載する際に使用される家具の数は寮舎の\n拡張回数によって決まります。現在の拡張回数： <color=#72bc42>$1</color>"
   },
   "backyard_backyardScene_error_canNotRotate": {
     "tip": "この場所では回転させられません"
@@ -1079,6 +1070,15 @@
   },
   "backyard_backyardScene_exitShipAfterAddEnergy": {
     "tip": "疲労度が回復しました！"
+  },
+  "backyard_backyardScene_expression_label_1": {
+    "tip": "清貧"
+  },
+  "backyard_backyardScene_expression_label_2": {
+    "tip": "普通"
+  },
+  "backyard_backyardScene_expression_label_3": {
+    "tip": "快適"
   },
   "backyard_backyardScene_name": {
     "tip": "<color=#92fc63>$1の寮舎</color>"
@@ -1094,9 +1094,6 @@
   },
   "backyard_backyardScene_showAddExpInfo": {
     "tip": "休憩時間:<color=#92fc63>$1</color> 経験値増加:<color=#92fc63>$2</color>"
-  },
-  "backyard_backyardScene_timeRest": {
-    "tip": "残り時間<color=#92fc63>$1</color>"
   },
   "backyard_backyardShipInfoLayer_error_noQuickItem": {
     "tip": "高速建造材が不足しています"
@@ -1246,7 +1243,7 @@
     "tip": "寮舎の名称を入力"
   },
   "backyard_rename_title": {
-    "tip": "寮舎名称"
+    "tip": "名前変更"
   },
   "backyard_rest_tip": {
     "tip": "寮舎の「休憩」に配置された艦はコンディションが回復する"
@@ -1637,6 +1634,12 @@
   },
   "battle_text_bisimaiz_9": {
     "tip": "「<color=#ffc038>シンクロナイズ解離</color>」-自律型艤装の防御が<color=#f1f102>大幅にダウン</color>している！攻撃を集中しよう！"
+  },
+  "battle_text_haidao_1": {
+    "tip": "///「テンペスタ」じゃないなら全力を出そう！///"
+  },
+  "battle_text_haidao_2": {
+    "tip": "///「壁雲の守り手」が突撃！サン・マルチーニョ戦力上昇！///"
   },
   "battle_text_yingxiv4_1": {
     "tip": "騎士はチャージをしている（左）"
@@ -2234,7 +2237,7 @@
     "tip": "「ニュルンベルク」常設実装！"
   },
   "buildship_new_tip": {
-    "tip": "期間限定建造を累計200回行うと「雲仙」を確定で入手可能！（最大4隻まで）"
+    "tip": "サン・マルチーニョ、ゴールデン・ハインドなど出現率UP!"
   },
   "buildship_special_tip": {
     "tip": "「ペーター・シュトラッサー」「U-37」常設実装！"
@@ -3446,6 +3449,111 @@
   "course_sunday_tip": {
     "tip": "日曜日：出撃時熟練度の入手量が2倍"
   },
+  "courtyard_label_cancel_share": {
+    "tip": "シェア中止"
+  },
+  "courtyard_label_capacity": {
+    "tip": "食糧"
+  },
+  "courtyard_label_clear": {
+    "tip": "クリア"
+  },
+  "courtyard_label_comfortable_addition": {
+    "tip": "経験強化効果："
+  },
+  "courtyard_label_custom_theme": {
+    "tip": "マイセット"
+  },
+  "courtyard_label_decoration": {
+    "tip": "編集"
+  },
+  "courtyard_label_delete": {
+    "tip": "削除"
+  },
+  "courtyard_label_detail": {
+    "tip": "詳細"
+  },
+  "courtyard_label_empty_collection_list": {
+    "tip": "没有找到符合条件的收藏"
+  },
+  "courtyard_label_empty_custom_template_list": {
+    "tip": "没有找到符合条件的家具主题\n请前往管理界面重新保存自定义主题"
+  },
+  "courtyard_label_empty_template_list": {
+    "tip": "没有找到符合条件的家具主题"
+  },
+  "courtyard_label_exp_addition": {
+    "tip": "経験効果"
+  },
+  "courtyard_label_filter": {
+    "tip": "絞り込み"
+  },
+  "courtyard_label_floor": {
+    "tip": "フロア"
+  },
+  "courtyard_label_go": {
+    "tip": "確認"
+  },
+  "courtyard_label_month": {
+    "tip": "一月内"
+  },
+  "courtyard_label_place_pnekey": {
+    "tip": "一括配置"
+  },
+  "courtyard_label_placed_furniture": {
+    "tip": "配置済み家具"
+  },
+  "courtyard_label_putlist_title": {
+    "tip": "配置済み家具一覧"
+  },
+  "courtyard_label_rest": {
+    "tip": "休憩"
+  },
+  "courtyard_label_save": {
+    "tip": "セーブ"
+  },
+  "courtyard_label_save_theme": {
+    "tip": "テーマセーブ"
+  },
+  "courtyard_label_search_holder": {
+    "tip": "search..."
+  },
+  "courtyard_label_share": {
+    "tip": "シェア"
+  },
+  "courtyard_label_shop": {
+    "tip": "ショップ"
+  },
+  "courtyard_label_shop_1": {
+    "tip": "シヨップ"
+  },
+  "courtyard_label_system_theme": {
+    "tip": "プリセット"
+  },
+  "courtyard_label_template": {
+    "tip": "模板"
+  },
+  "courtyard_label_time": {
+    "tip": "时间"
+  },
+  "courtyard_label_total_exp_addition": {
+    "tip": "経験強化効果："
+  },
+  "courtyard_label_train": {
+    "tip": "訓練"
+  },
+  "courtyard_label_using": {
+    "tip": "$1Fに配置中"
+  },
+  "courtyard_label_week": {
+    "tip": "一周内"
+  },
+  "courtyard_label_year": {
+    "tip": "一年内"
+  },
+  "courtyard_tip_furniture_not_in_layer": {
+    "tip": "家具はこのフロアに配置されていません"
+  },
   "cowboy_tips": {
     "tip": [
       {
@@ -3573,6 +3681,9 @@
   },
   "cryptolalia_download_done": {
     "tip": "アセットDL完了"
+  },
+  "cryptolalia_download_task_already_exists": {
+    "tip": "メモリーズ【$1】ダウンロード中"
   },
   "cryptolalia_entrance_coming_soom": {
     "tip": "密语档案室建设中..."
@@ -4215,11 +4326,116 @@
   "equip_part_title": {
     "tip": "適用"
   },
+  "equip_share_label_1": {
+    "tip": "対軽装甲"
+  },
+  "equip_share_label_2": {
+    "tip": "対中装甲"
+  },
+  "equip_share_label_3": {
+    "tip": "対重装甲"
+  },
+  "equip_share_label_4": {
+    "tip": "対航空"
+  },
+  "equip_share_label_5": {
+    "tip": "一撃火力"
+  },
+  "equip_share_label_6": {
+    "tip": "安定火力"
+  },
+  "equip_share_label_7": {
+    "tip": "ﾒｲﾝ用"
+  },
+  "equip_share_label_8": {
+    "tip": "ﾃﾞｲﾘｰ用"
+  },
+  "equip_share_label_9": {
+    "tip": "ｾｲﾚｰﾝ用"
+  },
   "equip_skin_detail_count": {
     "tip": "所持中:"
   },
   "equip_skin_detail_tip": {
     "tip": "下記の装備外装を入手可能"
+  },
+  "equipcode_confirm_doublecheck": {
+    "tip": "読み込んだ装備編成を適用しますか？"
+  },
+  "equipcode_diff_selected": {
+    "tip": "変更済み"
+  },
+  "equipcode_dislike_success": {
+    "tip": "通報しました"
+  },
+  "equipcode_equip_occupied": {
+    "tip": "使用中"
+  },
+  "equipcode_equipment_unowned": {
+    "tip": "未所持"
+  },
+  "equipcode_export_success": {
+    "tip": "装備コードをコビーしました"
+  },
+  "equipcode_illegal": {
+    "tip": "正しい装備コードを入力してください"
+  },
+  "equipcode_import_success": {
+    "tip": "装備編成を適用しました"
+  },
+  "equipcode_input": {
+    "tip": "装備コードを入力してください"
+  },
+  "equipcode_level_unmatched": {
+    "tip": "ﾚﾍﾞﾙ違い"
+  },
+  "equipcode_like_limited": {
+    "tip": "今日はすでにこの装備編成をいいねしました"
+  },
+  "equipcode_like_success": {
+    "tip": "いいねしました"
+  },
+  "equipcode_report_type_1": {
+    "tip": "装備編成が意味不明"
+  },
+  "equipcode_report_type_2": {
+    "tip": "装備編成が古すぎる"
+  },
+  "equipcode_report_warning": {
+    "tip": "短期間に大量に通報されると一時的にシェアできなくなります"
+  },
+  "equipcode_share_errorcode44": {
+    "tip": "本日はこれ以上装備編成をシェアできません"
+  },
+  "equipcode_share_errorcode7": {
+    "tip": "今日はすでにこの艦船の装備編成をシェアしました"
+  },
+  "equipcode_share_exceedlimit": {
+    "tip": "ラベルは2つまでしか選択できません"
+  },
+  "equipcode_share_listempty": {
+    "tip": "まだ装備編成がシェアされていません"
+  },
+  "equipcode_share_nolabel": {
+    "tip": "ラベルを2つ設定してからシェアできます"
+  },
+  "equipcode_share_ruletips": {
+    "tip": "ラベルを2つ設定し装備編成をシェアしましょう！"
+  },
+  "equipcode_share_success": {
+    "tip": "装備編成をシェアしました"
+  },
+  "equipcode_share_title": {
+    "tip": "装備編成"
+  },
+  "equipcode_share_titleeng": {
+    "tip": "EQUIPMENTS"
+  },
+  "equipcode_slot_unmatch": {
+    "tip": "適用できない装備編成です"
+  },
+  "equipcode_unsaved_tips": {
+    "tip": "読み込んだ装備編成は適用されません。前の画面に戻りますか？"
   },
   "equipment_cant_unload": {
     "tip": "<color=#92fc63>倉庫がいっぱいです</color>…装備解除できません"
@@ -6246,6 +6462,13 @@
     "tip": [
       {
         "info": "■概要\n「饅頭渡し会」とは、饅頭スタッフとなって、ファンのほしいグッズを渡しスコアを獲得するゲームになります。\n饅頭渡し会は7日間プレイする（最後まで進捗させる）と、兵装「輝きのブレスレット」を入手できます。\n\n■遊び方\n・画面右側の饅頭ファンの吹き出しに表示される3つのグッズアイコンを、画面左側のグッズアイコンの中から同じアイコンを素早く選んでタップします。\n・正しいアイコンを全部タップすると、饅頭ファンは会場から離れます。間違ったアイコンをタップすると、正しいアイコンが表示され、再度正しいアイコンをタップできます。\n・饅頭ファンの会場での待ち時間は15秒です。饅頭ファンが待っている間に正しいアイコンをタップしないと、饅頭ファンが会場から離れ、体力値が1失われます。\n・体力値が0になるか、もしくは残り時間が0になると、ゲーム終了になります。"
+      }
+    ]
+  },
+  "harbor_backhill_help": {
+    "tip": [
+      {
+        "info": "イベント概要：\n裏山キャンペーン「饅頭アジト」<color=#92fc63>10.25-11.9 メンテナンスまで</color>開催！\n\n■遊び方\n・秘密造船所\n「秘密造船所」をタップすると、前哨戦イベント「テンペスタの秘密造船所」に参加することができます。\nさらに、前哨戦イベントをクリアするとミニゲームを遊ぶことができ、11/1まで毎日開放されるステージをすべてクリアすると下記豪華報酬を入手できます！\n　ステージ3　テンペスタ用新SR設備「果物の補給」\n　ステージ5　テンペスタ兵装セット　ステージ7　限定家具「始まりの冒険船」\n\n・記念アイテム\n「記念アイテム」をタップすると、イベントの限定任務を確認・報酬受取することができます。\n任務をクリアすると、SSR主砲「旧式重火砲」、新オフニャ「べらーみ」「きっど」、限定家具「燦々たる針路」を入手可能！\n\n・イベント交換\n海域イベント「テンペスタと若返りの泉」交換ショップに遷移できます。\n\n・限定建造\n限定建造画面に遷移できます。\n\n・着せ替え\nきせかえショップに遷移できます。\n\n"
       }
     ]
   },
@@ -8709,6 +8932,12 @@
   "indexsort_indexeng": {
     "tip": "INDEX"
   },
+  "indexsort_label": {
+    "tip": "ラベル"
+  },
+  "indexsort_labeleng": {
+    "tip": "LABEL"
+  },
   "indexsort_rarity": {
     "tip": "ﾚｱﾘﾃｨ"
   },
@@ -10771,6 +11000,12 @@
   "monthly_card_tip": {
     "tip": "30日間毎日でGET"
   },
+  "mot_class_t_level_1": {
+    "tip": "星を導く者"
+  },
+  "mot_class_t_level_2": {
+    "tip": "壁雲の守り手"
+  },
   "msgbox_repair": {
     "tip": "アセット修復"
   },
@@ -11602,6 +11837,9 @@
         "info": "■饅頭タワーとは\n「饅頭タワー」とは、落ちてきたブロックでタワーをできるだけ高く積み上げ、最高スコアを目指すミニゲームになります\n開催期間中、「饅頭タワー」のステージを最後までプレイすると、艦船「浦波」を入手可能。\n「饅頭タワー」ステージは1/18（水）まで毎日1ステージ開放されます。\n\n■饅頭タワーのルール\n・画面をタップすると、画面上部のブロックが画面下部に落とされます。\n・ブロックを「タワー」の上に落とすと、タワーが積み上げられ、スコアを得ることができます。ブロックがタワー以外の場所に3回落とされてしまうと、ゲーム終了になります。\n・「タワー」には「バランス値」が設定されており、バランスが悪くなりすぎると（画面右の饅頭が赤いエリアに到達すると）タワーが崩れ落ちてしまい、ゲーム終了になります。\n・ゲームを途中で止めた場合、「プレイ回数」が消費されず、「スタンプ」を入手できません。\n・「プレイ回数」を所持していなくても、「饅頭タワー」をプレイできます。\n"
       }
     ]
+  },
+  "pirate_wanted_help": {
+    "tip": "イベント期間：10.26-11.9 メンテナンスまで\n\n遊び方\n1.イベント期間中、限定任務が出現します\n2.限定任務をクリアすると、様々な報酬を入手できます\nアビリティ固定の新オフニャ、限定テンペスタ用設備、家具「燦々たる針路」   \n受け取り時間は11月15日（水）23:59まで"
   },
   "pizzahut_help": {
     "tip": [
@@ -12732,6 +12970,52 @@
   "ryza_word_equip": {
     "tip": "特殊装備"
   },
+  "sail_boat_equip_tip_1": {
+    "tip": "<color=#E3CEAF>威力こそ低いが装填が早い火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+  },
+  "sail_boat_equip_tip_2": {
+    "tip": "<color=#E3CEAF>威力・装填速度共に普通な火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+  },
+  "sail_boat_equip_tip_3": {
+    "tip": "<color=#E3CEAF>威力は絶大だが装填が非常に遅い火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+  },
+  "sail_boat_equip_tip_4": {
+    "tip": "<color=#E3CEAF>装甲甲板</color>\n<color=#F1B969>装備すると耐久が上がるが速力が下がる</color>"
+  },
+  "sail_boat_equip_tip_5": {
+    "tip": "<color=#E3CEAF>船員饅頭</color>\n<color=#F1B969>装備すると速力が上がる</color>"
+  },
+  "sail_boat_minigame_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/sailboat_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/sailboat_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "salvage_tips": {
     "tip": [
       {
@@ -13810,10 +14094,14 @@
     "tip": "<size=30>任務は10/25（水）まで毎日2個ずつ開放されます\n開放から七日間、毎日開放される任務をクリアし、\n限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>をGET!</size>"
   },
   "shipyard_phase_1": {
-    "tip": "占坑"
+    "tip": [
+      {
+        "info": "イベント概要：\n「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。\nミニゲームは<color=#92fc63>10月26日（木）～-11月9日（木）23:59</color>まで開催されます。\n\n遊び方：\n・「テンペスタの秘密造船所」では様々な任務が出現します。すべての任務をクリアすると、ミニゲームで使用する船が完成します。\n・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。\n・ミニゲームは11月1日（水）まで毎日新しいステージが開放されます。\n・ステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手できます。\n　  ステージ3 テンペスタ用設備「果物の補給」\n     ステージ5 テンペスタ用装備セット \n     ステージ7 限定家具「始まりの冒険船」\n・ステージ7をクリアすると、任意のステージを選択してプレイすることができます"
+      }
+    ]
   },
   "shipyard_phase_2": {
-    "tip": "占坑"
+    "tip": "废弃"
   },
   "shoot_preview": {
     "tip": "発射演出"
