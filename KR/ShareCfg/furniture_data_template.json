@@ -6096,6 +6096,101 @@
     "themeId": 0,
     "type": 7
   },
+  "264": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "만남의 상징이자 재회를 다짐하는 약속의 증표. 당신에게 바닷바람이 늘 함께하기를\n――'템페스타와 청춘의 샘' 이벤트 참가 보상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "템페스타와 청춘의 샘",
+    "icon": "fengfanxunzhangicon",
+    "id": 264,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "빛나는 항침",
+    "offset": [],
+    "picture": "chuanmo/fengfanxunzhang",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "265": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "――주사위는 이미 굴려졌다......",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shimiantouicon",
+    "id": 265,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "운명의 주사위",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "shimiantou",
+        "normal",
+        [
+          "action0",
+          false,
+          [
+            "action1",
+            "action2",
+            "action3",
+            "action4",
+            "action5",
+            "action6",
+            "action7",
+            "action8",
+            "action9"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -113957,7 +114052,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "사람으로 대변신쥬!",
+    "describe": "",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -113972,7 +114067,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "쥬쥬 망토 마술",
+    "name": "",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -114505,7 +114600,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "먹으면 조금씩 다 이해할 수 있어!",
+    "describe": "우주의 모든 이치를... 응... 알 것... 같아...",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -114520,7 +114615,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "마법의 빵 ",
+    "name": "마법의 빵",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -115071,6 +115166,90 @@
         "sit",
         [
           307074
+        ],
+        "furniture",
+        0,
+        1
+      ]
+    ],
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 0,
+    "type": 2
+  },
+  "200009": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "그 모습은 그야말로 새터데이 할로윈 나이트(?)!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "furniture_jinluhao_2icon",
+    "id": 200009,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "할로윈 스테이지",
+    "offset": [],
+    "picture": "",
+    "rarity": 0,
+    "size": [
+      5,
+      4
+    ],
+    "spine": [
+      [
+        "furniture_jinluhao_2B",
+        "normal"
+      ],
+      [
+        "furniture_jinluhao_2T"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": [
+      [
+        "sleep",
+        [
+          9600031
         ],
         "furniture",
         0,
@@ -120397,5 +120576,1766 @@
     "tag": 1,
     "themeId": 103,
     "type": 2
+  },
+  "304001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "원양선이여, 자유와 보물을 위해 출항하라!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanhdcicon",
+    "id": 304001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "항해의 집 벽",
+    "offset": [],
+    "picture": "hdc/dibanhdc",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 104,
+    "type": 4
+  },
+  "304002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "원양선이여, 자유와 보물을 위해 출항하라!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbihdcicon",
+    "id": 304002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "항해의 집 바닥",
+    "offset": [],
+    "picture": "hdc/qiangbihdc",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 104,
+    "type": 1
+  },
+  "304101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "미믹 걱정 없이 안심하고 열 수 있다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "baoxianghdcicon",
+    "id": 304101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적의 보물상자",
+    "offset": [],
+    "picture": "hdc/baoxianghdc",
+    "rarity": 3,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "바퀴를 꼭 잡고 용맹스럽게 바다를 누벼라!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanduohdcicon",
+    "id": 304102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "타륜",
+    "offset": [],
+    "picture": "hdc/chuanduohdc",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "구조가 매우 안정적이어서 파도에 흔들려도 굴러떨어지지 않는다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanghdcicon",
+    "id": 304103,
+    "interAction": [
+      [
+        "sleep",
+        [
+          3,
+          13
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/chuanghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 침대",
+    "offset": [],
+    "picture": "hdc/chuanghdc",
+    "rarity": 2,
+    "size": [
+      4,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이 만쥬가 내 맥주를 다 마셨어!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanyuanjiuhdcicon",
+    "id": 304104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 선원 만쥬",
+    "offset": [],
+    "picture": "hdc/chuanyuanjiuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "잘난 체 하고 있다쥬쥬.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanzhangjiuhdcicon",
+    "id": 304105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 선장 만쥬",
+    "offset": [],
+    "picture": "hdc/chuanzhangjiuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "두려워하지 말고 마음 가는 대로 대모험!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dachuanhdcicon",
+    "id": 304106,
+    "interAction": [
+      [
+        "dance",
+        [
+          -302,
+          10.7
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/dachuanhdc_using"
+      ],
+      [
+        "dance",
+        [
+          111.8,
+          -226.3
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/dachuanhdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "출항하는 모험선",
+    "offset": [],
+    "picture": "hdc/dachuanhdc",
+    "rarity": 4,
+    "size": [
+      5,
+      14
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "준비, 발사!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapaohdcicon",
+    "id": 304107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 대포",
+    "offset": [],
+    "picture": "hdc/dapaohdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "준비, 발사!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapao2hdcicon",
+    "id": 304108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 황금 대포",
+    "offset": [],
+    "picture": "hdc/dapao2hdc",
+    "rarity": 3,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "과음하면 여기 누워서 쉴 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dashafahdcicon",
+    "id": 304109,
+    "interAction": [
+      [
+        "sit",
+        [
+          -18.8,
+          16.6
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/dashafahdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 소파",
+    "offset": [],
+    "picture": "hdc/dashafahdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "테이블 밑에 통을 둘 수 있는 공간 절약형 설계.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dazhuozihdcicon",
+    "id": 304110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 테이블",
+    "offset": [
+      0,
+      -11.4
+    ],
+    "picture": "hdc/dazhuozihdc",
+    "rarity": 2,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "발밑 바닥이 보일 정도의 은은한 빛.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "denghdcicon",
+    "id": 304111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 램프",
+    "offset": [],
+    "picture": "hdc/denghdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "육지에서 항구로 향하는 길을 비추는 미니 등대.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengtahdcicon",
+    "id": 304112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "미니 등대",
+    "offset": [],
+    "picture": "hdc/dengtahdc",
+    "rarity": 2,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "과음하면 제대로 앉기 힘들 것 같은 의자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dengzihdcicon",
+    "id": 304113,
+    "interAction": [
+      [
+        "sit",
+        [
+          -20.3,
+          60.5
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 체어",
+    "offset": [],
+    "picture": "hdc/dengzihdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "해먹에 몸을 맡기고 푸른 하늘을 바라보자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diaochuanghdcicon",
+    "id": 304114,
+    "interAction": [
+      [
+        "sleep",
+        [
+          9.7,
+          -36.4
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/diaochuanghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "모래사장의 해먹",
+    "offset": [],
+    "picture": "hdc/diaochuanghdc",
+    "rarity": 2,
+    "size": [
+      5,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "숨겨진 선창과 연결된 통로.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dilonghdcicon",
+    "id": 304115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "비밀 통로",
+    "offset": [],
+    "picture": "hdc/dilonghdc",
+    "rarity": 1,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 5
+  },
+  "304116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "내 꿈은 세계 일주!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diqiuyihdcicon",
+    "id": 304116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 지구본",
+    "offset": [],
+    "picture": "hdc/diqiuyihdc",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "지금은 일하는 중이니까 조용히!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gongzuozhuohdcicon",
+    "id": 304117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 집무 책상",
+    "offset": [],
+    "picture": "hdc/gongzuozhuohdc",
+    "rarity": 1,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 8,
+    "deblocking": 1,
+    "describe": "파도 무늬가 그려진 카펫",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "haishuihdcicon",
+    "id": 304118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "바다의 카펫",
+    "offset": [],
+    "picture": "hdc/haishuihdc",
+    "rarity": 1,
+    "size": [
+      6,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 5
+  },
+  "304119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이건 꽤 비싸겠군!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinchuanduohdcicon",
+    "id": 304119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "황금 타륜",
+    "offset": [],
+    "picture": "hdc/jinchuanduohdc",
+    "rarity": 3,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304120": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "황금 바다에서 헤엄치고 싶은 당신에게 추천!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinyuganghdcicon",
+    "id": 304120,
+    "interAction": [
+      [
+        "sleep",
+        [
+          0.8,
+          -23.8
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/jinyuganghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "황금 욕조",
+    "offset": [],
+    "picture": "hdc/jinyuganghdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304121": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "예부터 많은 주정뱅이들이 굴러 떨어졌다는 소문이 전해지는 계단.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "loutihdcicon",
+    "id": 304121,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 계단",
+    "offset": [],
+    "picture": "hdc/loutihdc",
+    "rarity": 2,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304122": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "정밀한 기재에 흠집이 날 수 있으니 이 근처에서 싸우는 건 금지!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "luopanhdcicon",
+    "id": 304122,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 나침반",
+    "offset": [],
+    "picture": "hdc/luopanhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304123": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "건조한 곳에 보관하자. 꺼낼 때는 조심하자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "paodanhdcicon",
+    "id": 304123,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 포환",
+    "offset": [],
+    "picture": "hdc/paodanhdc",
+    "rarity": 1,
+    "size": [
+      1,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304124": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "사, 상어는 누가 키우는 거지?!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shayuhdcicon",
+    "id": 304124,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "상어 선창",
+    "offset": [],
+    "picture": "hdc/shayuhdc",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304125": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "보물이 있는 곳을 찾아라!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "wangyuanjinghdcicon",
+    "id": 304125,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 망원경",
+    "offset": [],
+    "picture": "hdc/wangyuanjinghdc",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304126": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "보트를 타고 조용히 상륙하자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaochuanhdcicon",
+    "id": 304126,
+    "interAction": [
+      [
+        "dance",
+        [
+          12.9,
+          -2.1
+        ],
+        [
+          -1,
+          1
+        ],
+        "hdc/xiaochuanhdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 보트",
+    "offset": [],
+    "picture": "hdc/xiaochuanhdc",
+    "rarity": 2,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304127": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "통을 놓고 유리판을 깔기만 하면 끝나는 간이 테이블.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaozhuohdcicon",
+    "id": 304127,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 미니 테이블",
+    "offset": [
+      0,
+      5.83
+    ],
+    "picture": "hdc/xiaozhuohdc",
+    "rarity": 1,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304128": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "의자를 무기로 쓰는 건 금지!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yizihdcicon",
+    "id": 304128,
+    "interAction": [
+      [
+        "sit",
+        [
+          18,
+          27.3
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 의자",
+    "offset": [],
+    "picture": "hdc/yizihdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304129": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "물은 아껴서 쓰자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zaotonghdcicon",
+    "id": 304129,
+    "interAction": [
+      [
+        "wash",
+        [
+          -11,
+          -12
+        ],
+        [
+          1,
+          1
+        ],
+        "hdc/zaotonghdc_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 욕조",
+    "offset": [],
+    "picture": "hdc/zaotonghdc",
+    "rarity": 2,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304130": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "깨끗한 테이블. 술병을 몇 병 놓아두는 편이 좋으려나?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuohdcicon",
+    "id": 304130,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "해적 사각 테이블",
+    "offset": [
+      0,
+      1.59
+    ],
+    "picture": "hdc/zhuohdc",
+    "rarity": 1,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 104,
+    "type": 2
+  },
+  "304131": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "잠깐 시간 좀 내줄래~♡",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chushouhdcicon",
+    "id": 304131,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "템페스타의 촉수",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "chushouhdc",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 104,
+    "type": 2
+  },
+  "304201": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "……캬아!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "pijiuhdcicon",
+    "id": 304201,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 2,
+    "name": "해적 맥주",
+    "offset": [],
+    "picture": "hdc/pijiuhdc",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 2,
+    "themeId": 104,
+    "type": 3
+  },
+  "304301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "가끔 날아가는 갈매기가 보인다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanghuhdcicon",
+    "id": 304301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "선창 창문",
+    "offset": [],
+    "picture": "hdc/chuanghuhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "……지금은 어디쯤 있는 거지?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hanghaituhdcicon",
+    "id": 304302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "해적 항해도",
+    "offset": [],
+    "picture": "hdc/hanghaituhdc",
+    "rarity": 1,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "밖에서도 술 냄새… 아니, 향기가 난다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiujiaohdcicon",
+    "id": 304303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "해적 술창고",
+    "offset": [],
+    "picture": "hdc/jiujiaohdc",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "해적선의 선창을 밝히는 작은 촛불.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lazhuhdcicon",
+    "id": 304304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "해적 촛불",
+    "offset": [],
+    "picture": "hdc/lazhuhdc",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304305": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "바닷바람이 안으로 들어오지 않도록 문은 꼭 닫기!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "menhdcicon",
+    "id": 304305,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "오두막 문",
+    "offset": [],
+    "picture": "hdc/menhdc",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
+  },
+  "304306": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "청량한 바닷바람… 야간 전투에도 적합한 날씨로군.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yekonghdcicon",
+    "id": 304306,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "밤하늘의 풍경",
+    "offset": [],
+    "picture": "hdc/yekonghdc",
+    "rarity": 1,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 10
+  },
+  "304307": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "물고기를 많이 낚았으니, 오늘 저녁은 진수성찬이다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yuwanghdcicon",
+    "id": 304307,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "어망",
+    "offset": [],
+    "picture": "hdc/yuwanghdc",
+    "rarity": 1,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 104,
+    "type": 6
   }
 }
