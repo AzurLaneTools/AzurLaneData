@@ -2081,6 +2081,15 @@
       }
     ]
   },
+  "blackfriday_pack_lock": {
+    "tip": "礼包将于$1解锁购买 "
+  },
+  "blackfriday_pack_purchased": {
+    "tip": "已购买"
+  },
+  "blackfriday_pack_select_skinall": {
+    "tip": "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+  },
   "blueprint_build_consume": {
     "tip": "需要花费 '$1' 是否开始研究？"
   },
@@ -3087,6 +3096,27 @@
   "commander_capcity_is_max": {
     "tip": "猫窝已满"
   },
+  "commander_choice_talent_1": {
+    "tip": "选择要提升或者习得的天赋"
+  },
+  "commander_choice_talent_2": {
+    "tip": "可选择天赋"
+  },
+  "commander_choice_talent_3": {
+    "tip": "天赋槽已满，选择要替换的天赋"
+  },
+  "commander_choice_talent_4": {
+    "tip": "*使用天赋点可能获得天赋的成长"
+  },
+  "commander_choice_talent_reset": {
+    "tip": "是否消耗$1物资，将天赋还原为初始状态\t重置后可用天赋$2点，天赋将还原为：    "
+  },
+  "commander_command_ability": {
+    "tip": "指挥能力"
+  },
+  "commander_confirm_tip": {
+    "tip": "*确认后负责陪玩的指挥喵会消失"
+  },
   "commander_equip_to_fleet_erro": {
     "tip": "装备指挥喵失败$1"
   },
@@ -3105,8 +3135,20 @@
   "commander_get_1": {
     "tip": "每天的第一次喵箱预定免费喵！"
   },
+  "commander_get_box_tip": {
+    "tip": "可能收到随机类型的喵箱，\n敬请期待喵!"
+  },
+  "commander_get_box_tip_1": {
+    "tip": "喵箱??型"
+  },
+  "commander_get_commander_coptyright": {
+    "tip": "指挥喵管理中心——"
+  },
   "commander_get_skills_done": {
     "tip": "获取学习列表失败"
+  },
+  "commander_home_level_label": {
+    "tip": "当前等级"
   },
   "commander_is_in_battle": {
     "tip": "该指挥喵正在出击中～"
@@ -3126,14 +3168,23 @@
   "commander_is_in_guild": {
     "tip": "该指挥喵正在大舰队作战首领战编队中，是否确认将该指挥喵移出编队？"
   },
+  "commander_level_up_tip": {
+    "tip": "*指挥喵每升5级可获得1点天赋点"
+  },
   "commander_lock_done": {
     "tip": "锁定成功！"
   },
   "commander_lock_erro": {
     "tip": "锁定失败$1"
   },
+  "commander_lock_setting_title": {
+    "tip": "喵箱训练完成并同时满足以下条件时询问是否锁定"
+  },
   "commander_lock_tip": {
     "tip": "是否<color=#92fc63>锁定</color>该指挥喵？"
+  },
+  "commander_logistics_ability": {
+    "tip": "后勤能力"
   },
   "commander_main_pos": {
     "tip": "司令位"
@@ -3146,6 +3197,9 @@
   },
   "commander_material_is_rarity": {
     "tip": "列表中有SSR以上的的指挥喵，是否确定？"
+  },
+  "commander_material_noenough": {
+    "tip": "材料不足"
   },
   "commander_not_exist": {
     "tip": "不存在该指挥喵"
@@ -3167,6 +3221,9 @@
   },
   "commander_rename_success_tip": {
     "tip": "更名成功"
+  },
+  "commander_rename_tip": {
+    "tip": "**每只指挥喵每天只能进行一次更名操作"
   },
   "commander_rename_warning": {
     "tip": "更名后需要1天才能再次更名，是否确定将指挥喵更名为$1"
@@ -3207,8 +3264,23 @@
   "commander_select_min_cnt": {
     "tip": "最少选择$1个指挥喵"
   },
+  "commander_selected_max": {
+    "tip": "最多选择$1个指挥喵"
+  },
+  "commander_skill_effect": {
+    "tip": "技能效果"
+  },
   "commander_skill_point_noengough": {
     "tip": "天赋点不足"
+  },
+  "commander_subtile_ablity": {
+    "tip": "能力加成"
+  },
+  "commander_subtile_talent": {
+    "tip": "天赋加成"
+  },
+  "commander_tactical_ability": {
+    "tip": "战术能力"
   },
   "commander_talent_learn_erro": {
     "tip": "天赋学习失败：$1"
@@ -3219,8 +3291,29 @@
   "commander_talent_not_exist": {
     "tip": "存在该天赋"
   },
+  "commander_total_gold": {
+    "tip": "合计价格："
+  },
   "commander_unlock_done": {
     "tip": "解锁成功！"
+  },
+  "commander_unsel_lock_flag_tip": {
+    "tip": "当前未勾选询问锁定选项，指挥喵训练完成时将不会询问是否锁定指挥喵"
+  },
+  "commander_use_box_queue": {
+    "tip": "培育队列"
+  },
+  "commander_use_box_tip": {
+    "tip": "选择喵箱"
+  },
+  "commandercat_label_custom_name": {
+    "tip": "自定义名称"
+  },
+  "commandercat_label_display_name": {
+    "tip": "自定义名称"
+  },
+  "commandercat_label_raw_name": {
+    "tip": "原始名称"
   },
   "commission_event_tip": {
     "tip": [
@@ -14782,8 +14875,26 @@
   "skill_learn_tip": {
     "tip": "今日还有$1次快速完成技能学习的次数哦"
   },
+  "skin_discount_desc": {
+    "tip": "是否消耗$1*1 购买折后价 $2 的 $3"
+  },
+  "skin_discount_timelimit": {
+    "tip": "道具$1将于$2维护后到期，请及时前往换装商店使用"
+  },
+  "skin_exchange_confirm": {
+    "tip": "是否使用 <color=#92fc63>$1 *1</color> 兑换 <color=#92fc63>$2</color>"
+  },
+  "skin_exchange_timelimit": {
+    "tip": "以下道具的可兑换列表将于$1维护后变更，请及时前往仓库使用 "
+  },
+  "skin_exchange_title": {
+    "tip": "可兑换换装"
+  },
   "skin_gift_desc": {
     "tip": "从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) \n包含的换装和概率如下：\n $1"
+  },
+  "skin_purchase_confirm": {
+    "tip": "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3皮肤"
   },
   "skin_remain_time": {
     "tip": "下架剩余时间"
@@ -16401,6 +16512,9 @@
   "word_clear": {
     "tip": "清理"
   },
+  "word_click_to_close": {
+    "tip": "点击空白关闭"
+  },
   "word_cmdClose": {
     "tip": "尚未开启"
   },
@@ -17002,9 +17116,6 @@
   "word_second": {
     "tip": "秒"
   },
-  "word_secondseach": {
-    "tip": "/轮"
-  },
   "word_sell_lock": {
     "tip": "未解锁"
   },
@@ -17331,6 +17442,9 @@
   },
   "word_take_video_tip": {
     "tip": "提示:录像过程中，点击右侧按钮即可结束录像"
+  },
+  "word_talent": {
+    "tip": "天赋"
   },
   "word_teach": {
     "tip": "授课"
