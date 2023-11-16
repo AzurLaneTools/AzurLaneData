@@ -2125,6 +2125,15 @@
       }
     ]
   },
+  "blackfriday_pack_lock": {
+    "tip": "Available on $1"
+  },
+  "blackfriday_pack_purchased": {
+    "tip": "Purchased"
+  },
+  "blackfriday_pack_select_skinall": {
+    "tip": "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you own all the eligible skins, this voucher cannot be used."
+  },
   "blueprint_build_consume": {
     "tip": "Spend $1 to commence development?"
   },
@@ -3144,6 +3153,27 @@
   "commander_capcity_is_max": {
     "tip": "The Cattery is full, nya..."
   },
+  "commander_choice_talent_1": {
+    "tip": "Select the Talent to learn or upgrade."
+  },
+  "commander_choice_talent_2": {
+    "tip": "Available Talents"
+  },
+  "commander_choice_talent_3": {
+    "tip": "Select the Talent you'd like to overwrite."
+  },
+  "commander_choice_talent_4": {
+    "tip": "Meowfficer Talents can be improved by using Talent Points"
+  },
+  "commander_choice_talent_reset": {
+    "tip": "Spend $1 Coins to respec this Meowfficer's Talents?Talents will be \t reset to their initial state, and you will be refunded $2 Talent Points."
+  },
+  "commander_command_ability": {
+    "tip": "Directives"
+  },
+  "commander_confirm_tip": {
+    "tip": "*This will consume the assigned Meowfficers."
+  },
   "commander_equip_to_fleet_erro": {
     "tip": "Could not assign the following Meowfficer: $1."
   },
@@ -3162,8 +3192,20 @@
   "commander_get_1": {
     "tip": "Your daily first Cat Box is free of charge, nya!"
   },
+  "commander_get_box_tip": {
+    "tip": "Gives you a random \nCat Box."
+  },
+  "commander_get_box_tip_1": {
+    "tip": "Unknown Cat Box"
+  },
+  "commander_get_commander_coptyright": {
+    "tip": "Meowfficer Boarding"
+  },
   "commander_get_skills_done": {
     "tip": "Failed to fetch list of learnable Talents."
+  },
+  "commander_home_level_label": {
+    "tip": "Current Level"
   },
   "commander_is_in_battle": {
     "tip": "This Meowfficer is currently sortieing."
@@ -3183,14 +3225,23 @@
   "commander_is_in_guild": {
     "tip": "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
   },
+  "commander_level_up_tip": {
+    "tip": "*Gain 1 Talent Point every 5 levels."
+  },
   "commander_lock_done": {
     "tip": "Meowfficer locked."
   },
   "commander_lock_erro": {
     "tip": "The following could not be locked: $1."
   },
+  "commander_lock_setting_title": {
+    "tip": "Upon finishing Cat Box training, auto-lock Meowfficers based on the following criteria:"
+  },
   "commander_lock_tip": {
     "tip": "Would you like to lock this Meowfficer?"
+  },
+  "commander_logistics_ability": {
+    "tip": "Logistics"
   },
   "commander_main_pos": {
     "tip": "Command Cat"
@@ -3203,6 +3254,9 @@
   },
   "commander_material_is_rarity": {
     "tip": "You have selected an SR Meowfficer. Would you like to continue?"
+  },
+  "commander_material_noenough": {
+    "tip": "Insufficient crafting materials"
   },
   "commander_not_exist": {
     "tip": "This Meowfficer does not exist."
@@ -3230,6 +3284,9 @@
   },
   "commander_rename_success_tip": {
     "tip": "Name change successful."
+  },
+  "commander_rename_tip": {
+    "tip": "You can only change a Meowfficer's name once every 24 hours."
   },
   "commander_rename_warning": {
     "tip": "Would you like to change this Meowfficer's name to $1?"
@@ -3270,8 +3327,23 @@
   "commander_select_min_cnt": {
     "tip": "You must select $1 or more Meowfficers."
   },
+  "commander_selected_max": {
+    "tip": "Select up to a maximum of $1 Meowfficers."
+  },
+  "commander_skill_effect": {
+    "tip": "Skill Effects"
+  },
   "commander_skill_point_noengough": {
     "tip": "This Meowfficer does not have any Talent Points."
+  },
+  "commander_subtile_ablity": {
+    "tip": "Inherent Bonuses"
+  },
+  "commander_subtile_talent": {
+    "tip": "Talent Bonuses"
+  },
+  "commander_tactical_ability": {
+    "tip": "Tactics"
   },
   "commander_talent_learn_erro": {
     "tip": "Failed to learn the following Talent: $1."
@@ -3282,8 +3354,29 @@
   "commander_talent_not_exist": {
     "tip": "Talent error: this Talent already exists."
   },
+  "commander_total_gold": {
+    "tip": "Total Cost:"
+  },
   "commander_unlock_done": {
     "tip": "Meowfficer unlocked."
+  },
+  "commander_unsel_lock_flag_tip": {
+    "tip": "No auto-lock option chosen. When Meowfficers finish training, you won't be asked if you want to lock them."
+  },
+  "commander_use_box_queue": {
+    "tip": "Selected"
+  },
+  "commander_use_box_tip": {
+    "tip": "Cat Boxes Owned:"
+  },
+  "commandercat_label_custom_name": {
+    "tip": "Custom Name"
+  },
+  "commandercat_label_display_name": {
+    "tip": "Custom Name"
+  },
+  "commandercat_label_raw_name": {
+    "tip": "Original Name"
   },
   "commission_event_tip": {
     "tip": [
@@ -11577,15 +11670,6 @@
   "new_airi_error_code_100213": {
     "tip": "Unable to unbind the account"
   },
-  "new_airi_error_code_100215": {
-    "tip": "You cannot bind this account to an X (previously Twitter) account: 100215 "
-  },
-  "new_airi_error_code_100216": {
-    "tip": "This account is already bound to an X (previously Twitter) account"
-  },
-  "new_airi_error_code_100217": {
-    "tip": "You cannot register a new account with an X (previously Twitter) account: 100217"
-  },
   "new_airi_error_code_100220": {
     "tip": "Authorization canceled"
   },
@@ -14690,8 +14774,26 @@
   "skill_learn_tip": {
     "tip": "You can quickly finish a class $1 more time(s) today."
   },
+  "skin_discount_desc": {
+    "tip": "Spend 1 $1 to purchase $3 at a discounted price of $2?"
+  },
+  "skin_discount_timelimit": {
+    "tip": "The item $1 will expire after $2 maintenance, please use it in time in the Outfit Shop."
+  },
+  "skin_exchange_confirm": {
+    "tip": "Spend <color=#92fc63>1 $1</color> to exchange for <color=#92fc63>$2</color>?"
+  },
+  "skin_exchange_timelimit": {
+    "tip": "The pool of skins that this item may be redeemed for will change after maintenance on $1. Please plan your usage accordingly."
+  },
+  "skin_exchange_title": {
+    "tip": "Redeemable Skins"
+  },
   "skin_gift_desc": {
     "tip": "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
+  },
+  "skin_purchase_confirm": {
+    "tip": "Spend <color=#92fc63>1 $1</color> to purchase the following skin, <color=#FFDE38FF>$3</color>, at a discounted price of <icon name=gem w=0.7 h=0.7/>$2?"
   },
   "skin_remain_time": {
     "tip": "Expires in "
@@ -16291,6 +16393,9 @@
   "word_clear": {
     "tip": "Sort"
   },
+  "word_click_to_close": {
+    "tip": "Tap to close"
+  },
   "word_cmdClose": {
     "tip": "Not yet open"
   },
@@ -16901,9 +17006,6 @@
   "word_second": {
     "tip": "s"
   },
-  "word_secondseach": {
-    "tip": "/wave"
-  },
   "word_sell_lock": {
     "tip": "Lock"
   },
@@ -17239,6 +17341,9 @@
   },
   "word_take_video_tip": {
     "tip": "Tips: Tap the button on the right side to stop recording."
+  },
+  "word_talent": {
+    "tip": "Talent"
   },
   "word_teach": {
     "tip": "Teach"
