@@ -257,7 +257,7 @@
     "tip": "<color=#66472a><size=32>ネコハコ加速材を$1個使用し、\nネコハコ$2個の訓練を加速させますか？</size></color>"
   },
   "acceleration_tips_2": {
-    "tip": "<color=#827c7c><size=24>(訓練完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
+    "tip": "<color=#827c7c><size=24>(完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
   },
   "achieve_propose_tip": {
     "tip": "「$1」着せ替え衣装開放！"
@@ -1980,6 +1980,15 @@
       }
     ]
   },
+  "blackfriday_pack_lock": {
+    "tip": "礼包将于$1解锁购买 "
+  },
+  "blackfriday_pack_purchased": {
+    "tip": "已购买"
+  },
+  "blackfriday_pack_select_skinall": {
+    "tip": "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+  },
   "blueprint_build_consume": {
     "tip": "$1を消費し、開発を行いますか？"
   },
@@ -2969,6 +2978,27 @@
   "commander_capcity_is_max": {
     "tip": "猫ハウスがいっぱいにゃ…"
   },
+  "commander_choice_talent_1": {
+    "tip": "取得または成長させるアビリティを選択してください"
+  },
+  "commander_choice_talent_2": {
+    "tip": "アビリティ"
+  },
+  "commander_choice_talent_3": {
+    "tip": "新たに習得できません。入れ替えるアビリティを選択してください"
+  },
+  "commander_choice_talent_4": {
+    "tip": "※Ptを使ってアビリティを成長させよう！"
+  },
+  "commander_choice_talent_reset": {
+    "tip": "資金$1を消費しアビリティを初期化しますか？\tアビリティが初期配置になり、アビリティポイント$2を入手可能"
+  },
+  "commander_command_ability": {
+    "tip": "指揮補助"
+  },
+  "commander_confirm_tip": {
+    "tip": "*強化素材に使われるオフニャは消費されます"
+  },
   "commander_equip_to_fleet_erro": {
     "tip": "オフニャを装備できませんでした$1"
   },
@@ -2987,8 +3017,20 @@
   "commander_get_1": {
     "tip": "毎日一回目のネコハコ購入は無料だにゃ！"
   },
+  "commander_get_box_tip": {
+    "tip": "ランダムなオフニャ入り"
+  },
+  "commander_get_box_tip_1": {
+    "tip": "ネコハコ？？型"
+  },
+  "commander_get_commander_coptyright": {
+    "tip": "オフニャ管理センター——"
+  },
   "commander_get_skills_done": {
     "tip": "習得可能リストの取得に失敗しました"
+  },
+  "commander_home_level_label": {
+    "tip": "現在Lv"
   },
   "commander_is_in_battle": {
     "tip": "オフニャが出撃中です"
@@ -3008,14 +3050,23 @@
   "commander_is_in_guild": {
     "tip": "大艦隊の強敵戦に編成されているオフニャです。編成から外し、対象に選択しますか？"
   },
+  "commander_level_up_tip": {
+    "tip": "※レベル5上がる度にアビリティPtを1Pt得られます"
+  },
   "commander_lock_done": {
     "tip": "保護に成功しました"
   },
   "commander_lock_erro": {
     "tip": "保護に失敗しました$1"
   },
+  "commander_lock_setting_title": {
+    "tip": "訓練完了時、下記の条件を満たすオフニャのロックを確認する"
+  },
   "commander_lock_tip": {
     "tip": "オフニャを保護しますか？"
+  },
+  "commander_logistics_ability": {
+    "tip": "兵站補助"
   },
   "commander_main_pos": {
     "tip": "指揮ニャ"
@@ -3028,6 +3079,9 @@
   },
   "commander_material_is_rarity": {
     "tip": "SSRのオフニャが選択されています。続けますか？"
+  },
+  "commander_material_noenough": {
+    "tip": "材料不足"
   },
   "commander_not_exist": {
     "tip": "オフニャが存在していません"
@@ -3049,6 +3103,9 @@
   },
   "commander_rename_success_tip": {
     "tip": "更名成功"
+  },
+  "commander_rename_tip": {
+    "tip": "※オフニャは２４時間に一度しか名前を変更できません"
   },
   "commander_rename_warning": {
     "tip": "オフニャの名前を$1に変更しますか？"
@@ -3081,7 +3138,7 @@
     "tip": "ネコハコ$1個を訓練しますか？（同時に訓練できるのは最大4個のみ）"
   },
   "commander_select_matiral_erro": {
-    "tip": "オフニャのレベルが最大になっています。同じ名前のオフニャを消費するスキル強化以外強化を行えません"
+    "tip": "レベル最大です。同じ名前のオフニャを消費するスキル強化のみ行えます"
   },
   "commander_select_max": {
     "tip": "これ以上選択できません"
@@ -3089,8 +3146,23 @@
   "commander_select_min_cnt": {
     "tip": "$1以上のオフニャを選択する必要があります"
   },
+  "commander_selected_max": {
+    "tip": "オフニャを最大$1匹選択可能"
+  },
+  "commander_skill_effect": {
+    "tip": "スキル"
+  },
   "commander_skill_point_noengough": {
     "tip": "アビリティPtが不足しています"
+  },
+  "commander_subtile_ablity": {
+    "tip": "基本能力効果"
+  },
+  "commander_subtile_talent": {
+    "tip": "アビリティ効果"
+  },
+  "commander_tactical_ability": {
+    "tip": "戦術補助"
   },
   "commander_talent_learn_erro": {
     "tip": "アビリティを習得できませんでした$1"
@@ -3101,8 +3173,29 @@
   "commander_talent_not_exist": {
     "tip": "不正なアビリティ（すでに存在しているアビリティ）です"
   },
+  "commander_total_gold": {
+    "tip": "合計消費:"
+  },
   "commander_unlock_done": {
     "tip": "保護解除に成功しました"
+  },
+  "commander_unsel_lock_flag_tip": {
+    "tip": "保護確認設定は設定されていません。オフニャ訓練完了時に保護確認画面が表示されません"
+  },
+  "commander_use_box_queue": {
+    "tip": "訓練選択"
+  },
+  "commander_use_box_tip": {
+    "tip": "ネコハコ選択"
+  },
+  "commandercat_label_custom_name": {
+    "tip": "変更後名前"
+  },
+  "commandercat_label_display_name": {
+    "tip": "変更後名前"
+  },
+  "commandercat_label_raw_name": {
+    "tip": "元の名前"
   },
   "commission_event_tip": {
     "tip": [
@@ -8942,7 +9035,7 @@
     "tip": "LABEL"
   },
   "indexsort_rarity": {
-    "tip": "ﾚｱﾘﾃｨ"
+    "tip": "レアリティ"
   },
   "indexsort_rarityeng": {
     "tip": "RARITY"
@@ -14387,8 +14480,26 @@
   "skill_learn_tip": {
     "tip": "本日はあと$1回スキル強化を加速できますよ"
   },
+  "skin_discount_desc": {
+    "tip": "$1 *1を消費し、割引価格$2で$3着せ替えを購入しますか？"
+  },
+  "skin_discount_timelimit": {
+    "tip": "道具$1将于$2维护后到期，请及时前往换装商店使用"
+  },
+  "skin_exchange_confirm": {
+    "tip": " <color=#92fc63>$1 *1</color> を消費して <color=#92fc63>$2</color>と交換しますか"
+  },
+  "skin_exchange_timelimit": {
+    "tip": "下記アイテムの交換対象は$1メンテナンス後に変更されます。お早めにご使用ください"
+  },
+  "skin_exchange_title": {
+    "tip": "下記着せ替え交換可能"
+  },
   "skin_gift_desc": {
     "tip": "下記着せ替えからランダムな1着を入手します（すでに所持している場合、自動でダイヤに変換されます）\n出現する着せ替えと出現率は下記になります：\n$1"
+  },
+  "skin_purchase_confirm": {
+    "tip": "<color=#92fc63>$1 *1</color>を消費し、割引価格<icon name=gem w=0.7 h=0.7/>$2で$3着せ替えを購入しますか？"
   },
   "skin_remain_time": {
     "tip": "販売終了まで"
@@ -16000,6 +16111,9 @@
   "word_clear": {
     "tip": "クリア"
   },
+  "word_click_to_close": {
+    "tip": "画面タップで戻る"
+  },
   "word_cmdClose": {
     "tip": "準備中"
   },
@@ -16598,9 +16712,6 @@
   "word_second": {
     "tip": "秒"
   },
-  "word_secondseach": {
-    "tip": "/回"
-  },
   "word_sell_lock": {
     "tip": "未開放 "
   },
@@ -16930,6 +17041,9 @@
   },
   "word_take_video_tip": {
     "tip": "録画中に右側のボタンをタップすると録画を終了することが出来ます"
+  },
+  "word_talent": {
+    "tip": "ｱﾋﾞﾘﾃｨ"
   },
   "word_teach": {
     "tip": "授業"
