@@ -6689,6 +6689,52 @@
     "themeId": 0,
     "type": 7
   },
+  "266": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      2,
+      [
+        "sk-az-battle-boss"
+      ]
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "暴風あかし城の景色が描かれる巻物。広げると壮麗？な景色を見ることができる。\n――「蒼閃忍法帖」に参加した指揮官に贈る",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "蒼閃忍法帖",
+    "icon": "shanluanxunzhangicon",
+    "id": 266,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "暴風城絵巻",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      3
+    ],
+    "spine": [
+      [
+        "shanluanxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -115559,6 +115605,85 @@
     "themeId": 0,
     "type": 7
   },
+  "100055": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "変わり身の術を記す巻物。使用すると姿を隠せる…ピョ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "tishenjuanzhouicon",
+    "id": 100055,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "変わり身の巻物",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "tishenjuanzhouB",
+        "normal"
+      ],
+      [
+        "tishenjuanzhouT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "stand2"
+          ],
+          [
+            "yun"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -123217,5 +123342,1140 @@
     "tag": 5,
     "themeId": 104,
     "type": 6
+  },
+  "305001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "忍の日常を体験したい？忍屋敷に今すぐ申し込みを！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanslicon",
+    "id": 305001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍屋敷の床",
+    "offset": [],
+    "picture": "sl/dibansl",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 105,
+    "type": 4
+  },
+  "305002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "忍の日常を体験したい？忍屋敷に今すぐ申し込みを！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbislicon",
+    "id": 305002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "忍屋敷壁紙",
+    "offset": [],
+    "picture": "sl/qiangbisl",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 105,
+    "type": 1
+  },
+  "305101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ティータイムだよ～ミルクティーは早い者勝ちだからね！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "aizhuoslicon",
+    "id": 305101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍ローテーブル",
+    "offset": [],
+    "picture": "sl/aizhuosl",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "忍からプレゼントされたゴージャスな置物。べべたんが……笑っている？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "beibeidiaoxiangslicon",
+    "id": 305102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "べべたん像",
+    "offset": [],
+    "picture": "sl/beibeidiaoxiangsl",
+    "rarity": 3,
+    "size": [
+      5,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "隠れ身の術を練習するのに最高なオブジェクト！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "caocongslicon",
+    "id": 305103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "影隠れブッシュ",
+    "offset": [],
+    "picture": "sl/caocongsl",
+    "rarity": 1,
+    "size": [
+      4,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "様々な忍アイテムが収納されている家具。気安く開けないように！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "choutiguislicon",
+    "id": 305104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍引き出し",
+    "offset": [],
+    "picture": "sl/choutiguisl",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "意外と頑丈な竹垣！これが…忍術か？！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dalanganslicon",
+    "id": 305105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "竹垣・高",
+    "offset": [],
+    "picture": "sl/dalangansl",
+    "rarity": 1,
+    "size": [
+      1,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "開けるには特別な忍術が必要？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fangzislicon",
+    "id": 305106,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -27,
+          -25
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "開けぬ引き戸",
+    "offset": [],
+    "picture": "sl/fangzisl",
+    "rarity": 3,
+    "size": [
+      3,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "影隠れブッシュの強化版。トゲトゲに気をつけよう！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huacongslicon",
+    "id": 305107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "影隠れフラワーブッシュ",
+    "offset": [],
+    "picture": "sl/huacongsl",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "窓は……床に？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mudidian1slicon",
+    "id": 305108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "床の隠し扉",
+    "offset": [],
+    "picture": "sl/mudidian1sl",
+    "rarity": 1,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "フレッシュでナチュラル。見て目麗しくも歩きづらい",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shitouslicon",
+    "id": 305109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の石小路",
+    "offset": [],
+    "picture": "sl/shitousl",
+    "rarity": 1,
+    "size": [
+      4,
+      11
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "忍術の教科書がいっぱい！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shuguislicon",
+    "id": 305110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の本棚",
+    "offset": [],
+    "picture": "sl/shuguisl",
+    "rarity": 2,
+    "size": [
+      4,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "横になったらすぐ寝てしまいそう…Zzzzz",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tatamislicon",
+    "id": 305111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の緑畳",
+    "offset": [],
+    "picture": "sl/tatamisl",
+    "rarity": 1,
+    "size": [
+      8,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "屋敷の庭園でよく見かける石灯籠",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tingzislicon",
+    "id": 305112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の石灯篭",
+    "offset": [],
+    "picture": "sl/tingzisl",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "お湯は一体どこから湧き出ているの……？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "wenquanslicon",
+    "id": 305113,
+    "interAction": [
+      [
+        "wash",
+        [
+          104.3,
+          -100.6
+        ],
+        [
+          -1,
+          1
+        ],
+        "sl/wenquansl_using",
+        0,
+        [
+          [
+            0,
+            0
+          ],
+          [
+            884,
+            440
+          ],
+          "sl/wenquansl_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の露天風呂",
+    "offset": [],
+    "picture": "sl/wenquansl",
+    "rarity": 3,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "意外と頑丈な竹垣！これも忍術と関係あるの…？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaolanganslicon",
+    "id": 305114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "竹垣・低",
+    "offset": [],
+    "picture": "sl/xiaolangansl",
+    "rarity": 1,
+    "size": [
+      5,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "出会いは曲がり角から！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuanjiaoslicon",
+    "id": 305115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "曲がり角の縁側",
+    "offset": [],
+    "picture": "sl/zhuanjiaosl",
+    "rarity": 2,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "順番通りに座って～",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zoulangslicon",
+    "id": 305116,
+    "interAction": [
+      [
+        "sit",
+        [
+          -39.6,
+          11.8
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        "sit",
+        [
+          64,
+          64
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍屋敷の縁側",
+    "offset": [],
+    "picture": "sl/zoulangsl",
+    "rarity": 2,
+    "size": [
+      6,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "丁寧に仕上がり、柔らかくいい座り心地！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zuodianslicon",
+    "id": 305117,
+    "interAction": [
+      [
+        "sit",
+        [
+          -20.3,
+          45
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍の座布団",
+    "offset": [],
+    "picture": "sl/zuodiansl",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "忍術で操縦できる引き戸なり！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanglamenslicon",
+    "id": 305118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍引き戸",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      9,
+      1
+    ],
+    "spine": [
+      [
+        "chuanglamensl",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "部屋の中で変な術を放たないでください！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mudidian2slicon",
+    "id": 305119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "忍屋敷フローリング",
+    "offset": [],
+    "picture": "sl/mudidian2sl",
+    "rarity": 1,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenchunslicon",
+    "id": 305301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "春の引き戸",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenchunsl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenxiaslicon",
+    "id": 305302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "夏の引き戸",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenxiasl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenqiuslicon",
+    "id": 305303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "秋の引き戸",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenqiusl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamendongslicon",
+    "id": 305304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "冬の引き戸",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamendongsl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305305": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "扉だと分かるまい……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamensl",
+    "id": 305305,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "フスマの隠し扉",
+    "offset": [],
+    "picture": "sl/lamensl",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 105,
+    "type": 6
+  },
+  "305306": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "えへへ～見えないよ～",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huwaiicon",
+    "id": 305306,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "隠れ身の壁紙",
+    "offset": [],
+    "picture": "sl/huwaisl",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 105,
+    "type": 10
   }
 }
