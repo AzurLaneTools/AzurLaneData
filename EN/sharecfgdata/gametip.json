@@ -1780,6 +1780,9 @@
   "battle_text_bisimaiz_9": {
     "tip": "[<color=#ffc038>Synchro-Release</color>] - Geryon's defense have <color=#f1f102>dropped dramatically</color>! Focus on dealing as much damage as fast as possible!"
   },
+  "battle_text_common_1": {
+    "tip": "The enemy is charging up a powerful attack! <color=#f1f102>Focus fire to interrupt it!</color>"
+  },
   "battle_text_haidao_1": {
     "tip": "<color=#f1f102>/// Warning: Non-Tempesta Ship Detected ///</color>"
   },
@@ -1922,6 +1925,13 @@
       }
     ]
   },
+  "battlepass_main_help_2312": {
+    "tip": [
+      {
+        "info": "Cruise Missions Seasonal Campaign\n12/1 00:00 – 1/31 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nErebus META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for U-410, \"Practice Makes Perfect\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+      }
+    ]
+  },
   "battlepass_main_time": {
     "tip": "$1 d $2 hr"
   },
@@ -1972,6 +1982,9 @@
   },
   "battlepass_main_tip_2310": {
     "tip": "Complete Cruise Missions between 10/1-11/30 to receive <color=#854748>Princeton META</color> and other rewards!"
+  },
+  "battlepass_main_tip_2312": {
+    "tip": "Complete Cruise Missions between 12/1-1/31 to receive <color=#854748>Erebus META</color> and other rewards!"
   },
   "battlepass_pay_acquire": {
     "tip": "Buy Now to Get:"
@@ -3926,6 +3939,13 @@
     ]
   },
   "cruise_task_help_2310": {
+    "tip": [
+      {
+        "info": "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+      }
+    ]
+  },
+  "cruise_task_help_2312": {
     "tip": [
       {
         "info": "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
@@ -13722,6 +13742,197 @@
   "select_award_warning": {
     "tip": "Please select one of the following rewards"
   },
+  "senran_pt_consume_tip": {
+    "tip": "Would you like to use <color=#3fbe0d>$1</color> <icon name=renzhinan_pt w=0.6 h=0.6/> to increase your level to <color=#3fbe0d>Lv.$2</color>?"
+  },
+  "senran_pt_help": {
+    "tip": [
+      {
+        "info": "This event is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n1. Participate in The Ninja Scrolls, complete tasks on the Mission Board, and finish time-limited missions to receive <color=#92fc63>Ninja Teachings</color>.2. Spend your Ninja Teachings in the Ninjutsu Dojo and increase the attribute level to 8 to receive rewards, including <color=#92fc63>Homura</color>, an SR Submarine.3. Homura is claimable until <color=#92fc63>midnight on December 13th.</color>"
+      }
+    ]
+  },
+  "senran_pt_not_enough": {
+    "tip": "Insufficient <color=#92fc63>Shinobi Teachings</color>."
+  },
+  "senran_pt_rank": {
+    "tip": "Level Raised $1 Time(s)"
+  },
+  "senran_pt_words_banjiu": {
+    "tip": [
+      [
+        "1100002/pt1",
+        "Thank you very much for your guidance."
+      ],
+      [
+        "1100002/pt2",
+        "I see... That certainly is quite helpful."
+      ],
+      [
+        "1100002/pt3",
+        "Because your instruction style is so helpful, I'm doing better now than ever."
+      ],
+      [
+        "1100002/pt4",
+        "You can tell that I'm making good progress? I'm glad to hear that."
+      ],
+      [
+        "1100002/pt5",
+        "Thank you for your hard work. I look forward to working with you next time as well."
+      ]
+    ]
+  },
+  "senran_pt_words_feiniao": {
+    "tip": [
+      [
+        "1100001/pt1",
+        "I've been waiting for you, Commander!"
+      ],
+      [
+        "1100001/pt2",
+        "Now I feel tense all of a sudden."
+      ],
+      [
+        "1100001/pt3",
+        "Has my training bore fruit?"
+      ],
+      [
+        "1100001/pt4",
+        "I could totally keep going!"
+      ],
+      [
+        "1100001/pt5",
+        "I'm happy to keep receiving your guidance and encouragement, moving forward!"
+      ]
+    ]
+  },
+  "senran_pt_words_xishao": {
+    "tip": [
+      [
+        "1100007/pt1",
+        "I'll... be in your care..."
+      ],
+      [
+        "1100007/pt2",
+        "I'll... try to work harder..."
+      ],
+      [
+        "1100007/pt3",
+        "I think... I'm a bit more confident now."
+      ],
+      [
+        "1100007/pt4",
+        "I still... need to do more."
+      ],
+      [
+        "1100007/pt5",
+        "Next time... I'll need to give it my all as well..."
+      ]
+    ]
+  },
+  "senran_pt_words_xuebugui": {
+    "tip": [
+      [
+        "1100005/pt1",
+        "Thank you for taking this time out of your busy schedule."
+      ],
+      [
+        "1100005/pt2",
+        "Heehee. Is this how it's done?"
+      ],
+      [
+        "1100005/pt3",
+        "This activity leads to surprising discoveries."
+      ],
+      [
+        "1100005/pt4",
+        "Yes, I can see now why you're so widely adored."
+      ],
+      [
+        "1100005/pt5",
+        "I look forward to our next time."
+      ]
+    ]
+  },
+  "senran_pt_words_xuequan": {
+    "tip": [
+      [
+        "1100004/pt1",
+        "I've awaited your arrival. Let us get to it."
+      ],
+      [
+        "1100004/pt2",
+        "Do you think I've become stronger?"
+      ],
+      [
+        "1100004/pt3",
+        "I wouldn't mind if you ramped up the intensity."
+      ],
+      [
+        "1100004/pt4",
+        "What is next on the schedule? I can't wait to see."
+      ],
+      [
+        "1100004/pt5",
+        "Thank you kindly. I'm delighted to grow stronger with you."
+      ]
+    ]
+  },
+  "senran_pt_words_yan": {
+    "tip": [
+      [
+        "1100003/pt1",
+        "Heheh, this'll be fun. I have high hopes."
+      ],
+      [
+        "1100003/pt2",
+        "C'mon, no breaks! Next one!"
+      ],
+      [
+        "1100003/pt3",
+        "You're not half-bad at this, Commander."
+      ],
+      [
+        "1100003/pt4",
+        "Surely we're not done already?"
+      ],
+      [
+        "1100003/pt5",
+        "Nice work. I can feel my new strength, and it's all thanks to you."
+      ]
+    ]
+  },
+  "senran_pt_words_zi": {
+    "tip": [
+      [
+        "1100006/pt1",
+        "I'll... give it my best shot."
+      ],
+      [
+        "1100006/pt2",
+        "Do you think I've gotten stronger?"
+      ],
+      [
+        "1100006/pt3",
+        "I want to try a little harder."
+      ],
+      [
+        "1100006/pt4",
+        "I feel like... I've gotten the hang of this."
+      ],
+      [
+        "1100006/pt5",
+        "I can do just a little more... if you can."
+      ]
+    ]
+  },
+  "senrankagura_backhill_help": {
+    "tip": [
+      {
+        "info": "- Overview -\nThe Ninja Scrolls: Azur Flash is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n- Details -\n1. Complete event stages and missions to receive Castle Tickets, the event currency.\nCastle Tickets can be spent in the event exchange shop for various rewards, including the SR collaboration character Ikaruga.\nYou can also claim the Elite collaboration character Murasaki as a milestone reward for collecting enough Castle Tickets.\n2. The Missions Board lists new event missions every day. Complete these missions to receive Shinobi Teachings and the time-limited furniture Shinobi Sliding Doors.\n3. The Ninja Scrolls has special missions available for each character. Complete these missions to receive Shinobi Teachings, Augment Modules for the new characters, and the special furniture Akashi Castle Scroll.\n4. The Ninjutsu Dojo is where you can spend your Shinobi Teachings to raise the Dojo's attribute level. Raise it high enough to receive the SR collaboration character Homura.\n5. The New Skins button takes you to the skin shop.\n6. The Limited Construction button takes you to the build screen."
+      }
+    ]
+  },
   "series_enemy_SP_count": {
     "tip": "Attempts Remaining:"
   },
@@ -13974,6 +14185,22 @@
   },
   "sham_team_limit": {
     "tip": "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
+  },
+  "shan_luan_task_buff_default": {
+    "tip": "???"
+  },
+  "shan_luan_task_help": {
+    "tip": [
+      {
+        "info": "This event is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n- Overview -\nComplete the event missions to receive Shinobi Teachings and Secret Orbs.\nCompleting each respective character's mission will reward you with time-limited furniture.\n\n- Details -\n1. Tap a character's art on the screen to view the list of her event missions.\n2. From the character's mission list screen, you can view the details of each mission as well as claim rewards.\n3. After collecting 7 Secret Orbs in total, tap the Details button to claim the time-limited furniture Akashi Castle Scroll.\n4. After completing enough missions, you'll unlock more rewards (claimable through the Details button) as well as fleet-wide buffs effective for the duration of the event."
+      }
+    ]
+  },
+  "shan_luan_task_level_tip": {
+    "tip": "Secret Level: $1"
+  },
+  "shan_luan_task_progress_tip": {
+    "tip": "Completed: $1"
   },
   "share_success": {
     "tip": "Sharing Successfully"
@@ -17086,6 +17313,9 @@
   },
   "word_shipNation_saDing": {
     "tip": "Sardegna Empire "
+  },
+  "word_shipNation_senran": {
+    "tip": "Senran Kagura"
   },
   "word_shipNation_ssss": {
     "tip": "SSSS"
