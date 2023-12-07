@@ -260,7 +260,7 @@
       0.9
     ],
     "painting": "shengwang",
-    "state": "stop"
+    "state": "always"
   },
   "9": {
     "boss_level_id": 121,
@@ -422,12 +422,45 @@
       0.8
     ],
     "painting": "shentong",
+    "state": "stop"
+  },
+  "13": {
+    "boss_level_id": 181,
+    "description": [
+      [
+        "Mechanized Support",
+        2,
+        "Kirov META summons 2 combat support units, Vspyshka and Kometa.\n<color=#92fc63>Vspyshka is a unit with Heavy Armor</color>, close-range electric weapons, and homing bomb launchers, and takes increased torpedo DMG.<color=#92fc63>Kometa is a unit with Medium Armor</color>, long-range laser weapons, and bombs that cause freezing, and takes increased cannon DMG.\nWhen a support unit is destroyed, <color=#92fc63>it respawns after 3s</color>."
+      ],
+      [
+        "Live and Die by Teamwork",
+        1,
+        "Increases Kirov META's FP, TRP, and ACC for each active support unit. When a support unit is destroyed: <color=#92fc63>decreases Kirov META's defense until the battle ends</color>."
+      ]
+    ],
+    "id": 13,
+    "item_id": 100000,
+    "meta_id": 970206,
+    "name": "Kirov META",
+    "p_offset": [
+      -118.8,
+      545.7,
+      0.8,
+      0.8
+    ],
+    "p_offset_other": [
+      426,
+      545.7,
+      0.8,
+      0.8
+    ],
+    "painting": "jiluofu",
     "state": [
       [
         [
           2023,
-          8,
-          31
+          12,
+          7
         ],
         [
           0,
@@ -437,8 +470,8 @@
       ],
       [
         [
-          2023,
-          12,
+          2024,
+          3,
           7
         ],
         [
@@ -461,6 +494,7 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ]
 }
