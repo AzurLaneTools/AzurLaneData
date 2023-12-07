@@ -6191,6 +6191,52 @@
     "themeId": 0,
     "type": 7
   },
+  "266": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      2,
+      [
+        "sk-az-battle-boss"
+      ]
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "풍운 아카시 성의 경치가 그려진 두루마리. 펼치면 웅장?한 경치를 감상할 수 있다. \n――\"창섬인법첩\" 이벤트 참가 보상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "창섬인법첩",
+    "icon": "shanluanxunzhangicon",
+    "id": 266,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "풍운성 그림 두루마리",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      3
+    ],
+    "spine": [
+      [
+        "shanluanxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -114052,7 +114098,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "",
+    "describe": "사람으로 대변신쥬!",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -114067,7 +114113,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "",
+    "name": "쥬쥬 망토 마술",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -114675,6 +114721,159 @@
         ]
       ]
     ],
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "100055": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "변신술이 기록된 두루마리. 사용하면 모습을 숨길 수 있다...쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "tishenjuanzhouicon",
+    "id": 100055,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "변신 두루마리",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "tishenjuanzhouB",
+        "normal"
+      ],
+      [
+        "tishenjuanzhouT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "stand2"
+          ],
+          [
+            "yun"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "100056": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "全员注意，敌方大门所在的方向，就是下方！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "zhandouzhihuixitongicon",
+    "id": 100056,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "舰桥模拟器",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      6
+    ],
+    "spine": [
+      [
+        "zhandouzhihuixitongB",
+        "normal"
+      ],
+      [
+        "zhandouzhihuixitongT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
     "tag": 6,
     "themeId": 0,
     "type": 7
@@ -122337,5 +122536,1140 @@
     "tag": 5,
     "themeId": 104,
     "type": 6
+  },
+  "305001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "닌자의 일상을 체험해 보고 싶다고? 지금 바로 닌자 저택에 신청을!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanslicon",
+    "id": 305001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자의 집 바닥",
+    "offset": [],
+    "picture": "sl/dibansl",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 105,
+    "type": 4
+  },
+  "305002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "닌자의 일상을 체험해 보고 싶다고? 지금 바로 닌자 저택에 신청을!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbislicon",
+    "id": 305002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "닌자의 집 벽지",
+    "offset": [],
+    "picture": "sl/qiangbisl",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 105,
+    "type": 1
+  },
+  "305101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "티타임이야~ 밀크티는 제일 빠른 사람 거라구!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "aizhuoslicon",
+    "id": 305101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "낮은 닌자 테이블",
+    "offset": [],
+    "picture": "sl/aizhuosl",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "닌자에게 선물 받은 우아한 장식품. 베베땅이…… 웃고 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "beibeidiaoxiangslicon",
+    "id": 305102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "베베땅 동상",
+    "offset": [],
+    "picture": "sl/beibeidiaoxiangsl",
+    "rarity": 3,
+    "size": [
+      5,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "은신술을 연습하기에는 최고인 오브젝트!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "caocongslicon",
+    "id": 305103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "은신용 풀숲",
+    "offset": [],
+    "picture": "sl/caocongsl",
+    "rarity": 1,
+    "size": [
+      4,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "다양한 닌자 아이템이 수납된 가구. 마음대로 열지 않도록!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "choutiguislicon",
+    "id": 305104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 서랍장",
+    "offset": [],
+    "picture": "sl/choutiguisl",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "의외로 튼튼한 대나무 울타리! 이건… 인술의 힘?!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dalanganslicon",
+    "id": 305105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "높은 대나무 울타리",
+    "offset": [],
+    "picture": "sl/dalangansl",
+    "rarity": 1,
+    "size": [
+      1,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "열려면 특별한 인술이 필요할지도?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fangzislicon",
+    "id": 305106,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -27,
+          -25
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열리지 않는 미닫이문",
+    "offset": [],
+    "picture": "sl/fangzisl",
+    "rarity": 3,
+    "size": [
+      3,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "은신용 풀숲의 강화판. 가시에 찔리지 않도록 주의!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huacongslicon",
+    "id": 305107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "은신용 꽃 풀숲",
+    "offset": [],
+    "picture": "sl/huacongsl",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "창문이…… 왜 바닥에?!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mudidian1slicon",
+    "id": 305108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "바닥의 숨겨진 문",
+    "offset": [],
+    "picture": "sl/mudidian1sl",
+    "rarity": 1,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "신선하고 자연스러운 마루. 보기엔 아름답지만 발이 좀 아프다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shitouslicon",
+    "id": 305109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 돌길",
+    "offset": [],
+    "picture": "sl/shitousl",
+    "rarity": 1,
+    "size": [
+      4,
+      11
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "인술 교과서로 가득!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shuguislicon",
+    "id": 305110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 책장",
+    "offset": [],
+    "picture": "sl/shuguisl",
+    "rarity": 2,
+    "size": [
+      4,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "누우면 바로 잠들 것 같아… 쿨쿨쿨…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tatamislicon",
+    "id": 305111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "녹색 닌자 다다미",
+    "offset": [],
+    "picture": "sl/tatamisl",
+    "rarity": 1,
+    "size": [
+      8,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "저택 정원에서 흔히 볼 수 있는 석등",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tingzislicon",
+    "id": 305112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 석등",
+    "offset": [],
+    "picture": "sl/tingzisl",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "뜨거운 물은 대체 어디서 솟아나고 있는 걸까……?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "wenquanslicon",
+    "id": 305113,
+    "interAction": [
+      [
+        "wash",
+        [
+          104.3,
+          -100.6
+        ],
+        [
+          -1,
+          1
+        ],
+        "sl/wenquansl_using",
+        0,
+        [
+          [
+            0,
+            0
+          ],
+          [
+            884,
+            440
+          ],
+          "sl/wenquansl_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 노천온천",
+    "offset": [],
+    "picture": "sl/wenquansl",
+    "rarity": 3,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "의외로 튼튼한 대나무 울타리! 이것도 인술과 관련이 있는 건가…?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaolanganslicon",
+    "id": 305114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "낮은 대나무 울타리",
+    "offset": [],
+    "picture": "sl/xiaolangansl",
+    "rarity": 1,
+    "size": [
+      5,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "자고로 만남이란 모퉁이에서 시작되는 법!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuanjiaoslicon",
+    "id": 305115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "모퉁이 툇마루",
+    "offset": [],
+    "picture": "sl/zhuanjiaosl",
+    "rarity": 2,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "순서대로 앉아~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zoulangslicon",
+    "id": 305116,
+    "interAction": [
+      [
+        "sit",
+        [
+          -39.6,
+          11.8
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        "sit",
+        [
+          64,
+          64
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 저택 툇마루",
+    "offset": [],
+    "picture": "sl/zoulangsl",
+    "rarity": 2,
+    "size": [
+      6,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "정성스럽게 마무리되어 앉았을 때 부드럽고 편안한 느낌!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zuodianslicon",
+    "id": 305117,
+    "interAction": [
+      [
+        "sit",
+        [
+          -20.3,
+          45
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 방석",
+    "offset": [],
+    "picture": "sl/zuodiansl",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "인술로 조종할 수 있는 미닫이문!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuanglamenslicon",
+    "id": 305118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자 미닫이문",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      9,
+      1
+    ],
+    "spine": [
+      [
+        "chuanglamensl",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 2
+  },
+  "305119": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "방에서 이상한 술법은 쓰지 마세요!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mudidian2slicon",
+    "id": 305119,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "닌자의 집 마루",
+    "offset": [],
+    "picture": "sl/mudidian2sl",
+    "rarity": 1,
+    "size": [
+      12,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 105,
+    "type": 5
+  },
+  "305301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenchunslicon",
+    "id": 305301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "봄 미닫이문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenchunsl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenxiaslicon",
+    "id": 305302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "여름 미닫이문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenxiasl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamenqiuslicon",
+    "id": 305303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "가을 미닫이문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamenqiusl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamendongslicon",
+    "id": 305304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "겨울 미닫이문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      0
+    ],
+    "spine": [
+      [
+        "lamendongsl",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 105,
+    "type": 6
+  },
+  "305305": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "문이라는 건 아무도 모르겠지……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lamensl",
+    "id": 305305,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "창호의 숨겨진 문",
+    "offset": [],
+    "picture": "sl/lamensl",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 105,
+    "type": 6
+  },
+  "305306": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "에헤헤~ 안 보이지롱~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huwaiicon",
+    "id": 305306,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "은신용 벽지",
+    "offset": [],
+    "picture": "sl/huwaisl",
+    "rarity": 2,
+    "size": [
+      4,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 105,
+    "type": 10
   }
 }
