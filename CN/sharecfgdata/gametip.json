@@ -406,7 +406,7 @@
     "tip": "可兑换次数"
   },
   "activity_shop_lable": {
-    "tip": "*兑换开放时间:<color=#FFF693>$1</color>"
+    "tip": "*兑换开放时间:\n<color=#FFF693>$1</color>"
   },
   "activity_shop_title": {
     "tip": "活动"
@@ -2345,7 +2345,7 @@
     "tip": "{namecode:446} 建造追加！"
   },
   "buildship_new_tip": {
-    "tip": "每累计建造200次可获得海上传奇舰船 {namecode:18}(最多4次)"
+    "tip": "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
   },
   "buildship_special_tip": {
     "tip": "{namecode:470}、{namecode:474} 等角色建造追加！"
@@ -3142,6 +3142,9 @@
   "commander_fleet_pos_not_exist": {
     "tip": "该位置不存在指挥喵"
   },
+  "commander_formation_prefab_fleet": {
+    "tip": "当\n前\n编\n队"
+  },
   "commander_get": {
     "tip": "是否消耗$1物资购买$2个喵箱？"
   },
@@ -3285,6 +3288,12 @@
   },
   "commander_skill_point_noengough": {
     "tip": "天赋点不足"
+  },
+  "commander_skill_ui_confirm": {
+    "tip": "确定"
+  },
+  "commander_skill_ui_info": {
+    "tip": "信息"
   },
   "commander_subtile_ablity": {
     "tip": "能力加成"
@@ -3533,14 +3542,32 @@
   "cook_game_august": {
     "tip": "移动速度更快"
   },
+  "cook_game_constellation": {
+    "tip": "上对甜品有概率让评委进入<color=#FFE555>【特殊状态】</color>"
+  },
+  "cook_game_constellation_skill_desc": {
+    "tip": "使评委拒绝对方阵营的甜品，同时我方成员给该状态的黄鸡评委上任何甜品会获得双倍分数，持续7秒"
+  },
+  "cook_game_constellation_skill_name": {
+    "tip": "<color=#FFE555>「希望占卜状态」</color>"
+  },
   "cook_game_elbe": {
     "tip": "同时端两盘甜品"
+  },
+  "cook_game_flandre": {
+    "tip": "拥有一名女仆啾协协助者"
   },
   "cook_game_hakuryu": {
     "tip": "连续上对甜点时增加移动速度"
   },
   "cook_game_howe": {
     "tip": "每次成功上甜品时50%概率额外加1分"
+  },
+  "cook_game_janus": {
+    "tip": "上对分数随机增加，上错分数随机减少"
+  },
+  "cook_game_laffey": {
+    "tip": "上对甜品后，下一次上对甜品分数+1"
   },
   "cook_game_marcopolo": {
     "tip": "增加己方游戏时间"
@@ -10021,6 +10048,9 @@
   "last_building_not_shown": {
     "tip": "上次建造时未能展示的已获取角色"
   },
+  "last_times_sign": {
+    "tip": "剩余签到次数：$1"
+  },
   "launch_ball_hatsuduki_skill_1": {
     "tip": "主动技能:百鬼退散"
   },
@@ -11669,7 +11699,7 @@
   "mini_cookgametip": {
     "tip": [
       {
-        "info": "活动规则：\n1.<color=#92fc63>9月21日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。\n\n游戏规则：\n1.指挥官需要操控角色获取对应甜品送给场中的啾啾裁判，上对甜品加1分，上错扣1分，时间结束时分数高的一方获胜\n2.甜品大作战共计8位角色，指挥官可以选择任意角色和队友进行作战\n3.时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
+        "info": "活动规则：\n1.<color=#92fc63>12月27日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。\n\n游戏规则：\n1.指挥官需要操控角色获取对应甜品送给场中的啾啾裁判，上对甜品加分，上错扣分，时间结束时分数高的一方获胜\n2.甜品大作战共计12位角色，指挥官可以选择任意角色和队友进行作战\n3.时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
       }
     ]
   },
@@ -12112,6 +12142,13 @@
   },
   "newserver_time": {
     "tip": "$1天$2时"
+  },
+  "newyear2024_backhill_help": {
+    "tip": [
+      {
+        "info": "活动时间：<color=#92fc63>2023.12.21-2024.1.4维护</color>\n活动简介：\n「甜品大作战II」：参与小游戏获取限定家具「炫彩聚光灯」、「喧嚣惊喜灯」等奖励\n「绘马祈愿」：参与绘马祈愿获取奖励「年贺状」\n「换装商店」：购买限时换装\n「限时建造」：建造限时角色"
+      }
+    ]
   },
   "nine_choose_one": {
     "tip": "指挥官只能邀请一人参加舞会，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼"
@@ -15123,6 +15160,12 @@
   "skin_gift_desc": {
     "tip": "从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) \n包含的换装和概率如下：\n $1"
   },
+  "skin_page_desc": {
+    "tip": "活动期间，每日解锁$1次签到机会\n完成签到可获取限时奖励并解锁限定剧情"
+  },
+  "skin_page_sign": {
+    "tip": "点击签到"
+  },
   "skin_purchase_confirm": {
     "tip": "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3皮肤"
   },
@@ -16367,7 +16410,7 @@
   "ur_exchange_help_tip": {
     "tip": [
       {
-        "info": " ■ 「特装型布里MKIII」的获取方式：\n原型商店新增「特装型布里MKIII」\n需要收集「特装原型」进行兑换\n\n ■ 「特装原型」可通过以下途径获取：\n通过特装原型周常任务，完成每日日常任务每周可以获得「特装原型」400个\n还可以通过出击击破主线、活动、作战档案、主线困难关卡的BOSS、完成科研项目或退役非改造海上传奇稀有度角色获得\n（退役通过改造提升为海上传奇稀有度的角色无法获得）\n\n每月的特装原型获取数量上限为4000\n每月1日0点刷新可获取数量\n*部分活动获取的特装原型不计入每月上限，会进行注明\n"
+        "info": " ■ 「特装型布里MKIII」的获取方式：\n原型商店新增「特装型布里MKIII」\n需要收集「特装原型」进行兑换\n\n ■ 「特装原型」可通过以下途径获取：\n通过周常任务活跃奖励，每周可以获得「特装原型」500个\n还可以通过出击击破主线、活动、作战档案、主线困难关卡的BOSS、完成科研项目或退役非改造海上传奇稀有度角色获得\n（退役通过改造提升为海上传奇稀有度的角色无法获得）\n\n每月的特装原型获取数量上限为5000\n每月1日0点刷新可获取数量\n*部分活动获取的特装原型不计入每月上限，会进行注明\n"
       }
     ]
   },
