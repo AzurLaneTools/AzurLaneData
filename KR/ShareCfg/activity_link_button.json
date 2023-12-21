@@ -7,10 +7,7 @@
     "param": "0",
     "pic": "event_all",
     "text_pic": "text_event_all",
-    "time": [
-      "default",
-      5101
-    ],
+    "time": "stop",
     "type": 3
   },
   "2": {
@@ -43,9 +40,7 @@
     "param": "0",
     "pic": "event_map",
     "text_pic": "text_event_map",
-    "time": [
-      "default"
-    ],
+    "time": "stop",
     "type": 0
   },
   "20": {
@@ -56,10 +51,7 @@
     "param": "0",
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
-    "time": [
-      "default",
-      5095
-    ],
+    "time": "stop",
     "type": 0
   },
   "30": {
@@ -148,13 +140,29 @@
     "name": "event_medal",
     "order": 1,
     "param": [
-      "SSSS_MEDAL_COLLECTION"
+      "SENRANKAGURA_MEDAL"
     ],
     "pic": "event_medal",
     "text_pic": "text_event_medal",
     "time": [
       "default",
-      4935
+      5093
+    ],
+    "type": 2
+  },
+  "101": {
+    "group_id": 100,
+    "id": 101,
+    "name": "event_senran",
+    "order": 1,
+    "param": [
+      "SENRANKAGURA_TRAIN"
+    ],
+    "pic": "event_senran",
+    "text_pic": "text_event_senran",
+    "time": [
+      "default",
+      5099
     ],
     "type": 2
   },
@@ -170,7 +178,8 @@
     70,
     80,
     90,
-    100
+    100,
+    101
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -201,6 +210,9 @@
     ],
     "event_minigame": [
       20
+    ],
+    "event_senran": [
+      101
     ],
     "event_series": [
       90
