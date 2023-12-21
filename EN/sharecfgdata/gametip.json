@@ -180,7 +180,7 @@
   "Pray_activity_tips1": {
     "tip": [
       {
-        "info": "- Overview -\nThe Shrine is a place where you can come and offer your prayers and hang up Ema. Praying and decorating with Ema will grant your ships temporary buffs.\nIn addition to providing buffs, hanging up Ema will also grant you 1 Origami Crane per Ema hung up. Collecting 7 Origami Cranes will reward you with the New Year's Invitation, which can be used to select an SR ship to add to your dock.\n\n- Decorating with Ema -\n· You will receive 1 Ema every day of the campaign. You can hold up to 7 Ema at a time.\n· Ema can be hung up at the Shrine as decorations. You get several things for doing so:\n1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.\n2. 1 Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.\n3. 2 Offerings which can be used at the Shrine to pray for additional buffs.\n· Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.\n\n- Making Offerings -\n· You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.\n· Making an offering presents you with 3 different buffs to choose from. All your ships can benefit from these buffs, and they are in effect in most game modes.\n· Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it."
+        "info": "- Overview -\nDuring the New Year's Wishes campaign, offer your prayers and hang up Ema to grant your fleet temporary buffs.\nIn addition to providing buffs, hanging up Ema will also give you 1 Origami Crane per Ema hung up.\nCollecting 7 Origami Cranes will grant you the New Year's Invitation (2024), which can be used to select an SR shipgirl to add to your dock.\n\n- Decorating with Ema -\n· You receive 1 Ema every day of the campaign. You can hold up to 7 of them at a time.\n· Ema can be hung up at the shrine as decorations. Each time you do so, you will gain the following:\n1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.\n2. An Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.\n3. 2 Offerings which can be used at the shrine to pray for additional buffs.\n· Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.\n\n- Making Offerings -\n· You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.\n· Making an offering presents you with 3 different buffs to choose from. All your shipgirls can benefit from these buffs, and they apply in most game modes.\n· Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it."
       }
     ]
   },
@@ -406,7 +406,7 @@
     "tip": "Limit:"
   },
   "activity_shop_lable": {
-    "tip": "*Available During:<color=#FFCF81>$1</color>"
+    "tip": "*Available During:\n<color=#FFCF81>$1</color>"
   },
   "activity_shop_title": {
     "tip": "Event"
@@ -2404,7 +2404,7 @@
     "tip": "Nürnberg added to the standard build pool!"
   },
   "buildship_new_tip": {
-    "tip": "Receive an extra copy of Shimakaze after doing a total of 200 builds! (Limit of 4 times)"
+    "tip": "Get Guam guaranteed with every 200 event builds (can be done up to 4 times)!"
   },
   "buildship_special_tip": {
     "tip": "Peter Strasser, U-37 and Weser added to standard build pool!"
@@ -3199,6 +3199,9 @@
   "commander_fleet_pos_not_exist": {
     "tip": "A Meowfficer has not been assigned."
   },
+  "commander_formation_prefab_fleet": {
+    "tip": "In Use"
+  },
   "commander_get": {
     "tip": "Would you like to spend $1 Coins and purchase $2 Cat Box(es)?"
   },
@@ -3348,6 +3351,12 @@
   },
   "commander_skill_point_noengough": {
     "tip": "This Meowfficer does not have any Talent Points."
+  },
+  "commander_skill_ui_confirm": {
+    "tip": "Confirm"
+  },
+  "commander_skill_ui_info": {
+    "tip": "Info"
   },
   "commander_subtile_ablity": {
     "tip": "Inherent Bonuses"
@@ -3596,14 +3605,32 @@
   "cook_game_august": {
     "tip": "Moves faster than the others!"
   },
+  "cook_game_constellation": {
+    "tip": "Serving the right dessert has a chance to give the customer a <color=#FFE555>unique status</color>!"
+  },
+  "cook_game_constellation_skill_desc": {
+    "tip": "For 7s, your rivals can't serve the customer and you get double points when serving them the right dessert!"
+  },
+  "cook_game_constellation_skill_name": {
+    "tip": "<color=#FFE555>Taste Teller</color>"
+  },
   "cook_game_elbe": {
     "tip": "Can carry 2 desserts at once!"
+  },
+  "cook_game_flandre": {
+    "tip": "Has helper manjuus!"
   },
   "cook_game_hakuryu": {
     "tip": "Gains speed after serving the right dessert!"
   },
   "cook_game_howe": {
     "tip": "50% chance for 1 bonus point after serving the right dessert!"
+  },
+  "cook_game_janus": {
+    "tip": "Raises/lowers the score for serving the right/wrong dessert at random!"
+  },
+  "cook_game_laffey": {
+    "tip": "After serving the right dessert, gains 1 extra point when serving the right dessert again!"
   },
   "cook_game_marcopolo": {
     "tip": "Gives your team a longer timer!"
@@ -9618,6 +9645,9 @@
   "last_building_not_shown": {
     "tip": "Built the following shipgirl(s):"
   },
+  "last_times_sign": {
+    "tip": "Unlocks Remaining: $1"
+  },
   "launch_ball_hatsuduki_skill_1": {
     "tip": "Active: Youkai Begone"
   },
@@ -11260,7 +11290,7 @@
   "mini_cookgametip": {
     "tip": [
       {
-        "info": "- Operation: Patisserie Overview -\nSee what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.\nCompleting orders correctly scores you points. Try to get as high a score as possible before the timer runs out.\nYou'll receive a reward at the end of the minigame if you have at least 1 Minigame Point.\n\n- How to Play -\n1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.\n2. Tap a dessert on the table on the left side of the screen to instruct your shipgirls to fetch it.\n3. After a shipgirl has picked up a dessert, tap one of the manjuus at the center of the screen to serve the dessert.\n4. Serving the correct dessert scores 1 point for your team. Serving the wrong dessert subtracts 1 point.\n5. The Sub shipgirl you select serves desserts on her own, just like the CPU team you're playing against (using the table on the right side).\n6. The minigame ends when the timer hits 0. The team with the most points wins.\n\nEvery Main and Sub shipgirl has a unique trait. Choose your team wisely!"
+        "info": "- Operation: Patisserie Overview -\nSee what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.\nCompleting orders correctly scores you points. Try to get as high a score as possible before the timer runs out.\nYou'll receive a reward at the end of the minigame if you have at least 1 Minigame Point.\nPlay the minigame over 7 days to receive various rewards, including a New Year's Invitation (2024).\n\n- How to Play -\n1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.\n2. Tap a dessert on the table on the left side of the screen to instruct your shipgirls to fetch it.\n3. After a shipgirl has picked up a dessert, tap one of the manjuus at the center of the screen to serve the dessert.\n4. Serving the correct dessert scores 1 point for your team. Serving the wrong dessert subtracts 1 point.\n5. The Sub shipgirl you select serves desserts on her own, just like the CPU team you're playing against (using the table on the right side).\n6. The minigame ends when the timer hits 0. The team with the most points wins.\n\nEvery Main and Sub shipgirl has a unique trait. Choose your team wisely!"
       }
     ]
   },
@@ -11949,6 +11979,13 @@
   },
   "newserver_time": {
     "tip": "$1 day(s) $2 hour(s)"
+  },
+  "newyear2024_backhill_help": {
+    "tip": [
+      {
+        "info": "Event lasts between <color=#92fc63>December 21st, 2023 to January 3rd, 2023</color>.\n\n- Overview -\nThe New Year's Port campaign consists of the following:\n· New Year's Wishes\n· Operation: Patisserie II (minigame)\n· New Skins\n· Limited Construction\n\n- New Year's Wishes -\nYou receive 1 Ema every day during the campaign. You can have up to 7 of them at a time.\nYou can hang up Ema to receive fleet-wide buffs.\n\n- Operation: Patisserie II -\nYou gain 1 Minigame Point every day during the campaign. You can have up to 7 of them at a time.\nCompleting the minigame while in possession of a Minigame Point will subtract 1 point.\nRewards obtainable from this minigame include the furnitures Surprise Lights, Neon Spotlights, and Bunbun UR Vouchers that can be exchanged for the UR shipgirl Laffey II.\n\n- New Skins -\nThis takes you to the skins shop.\n\n- Limited Construction -\nThis takes you to the build screen.\n"
+      }
+    ]
   },
   "nine_choose_one": {
     "tip": "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
@@ -15022,6 +15059,12 @@
   "skin_gift_desc": {
     "tip": "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
   },
+  "skin_page_desc": {
+    "tip": "Log in every day to get $1 unlock chance(s). Tap on an icon to unlock the corresponding side story!"
+  },
+  "skin_page_sign": {
+    "tip": "Claim"
+  },
   "skin_purchase_confirm": {
     "tip": "Spend <color=#92fc63>1 $1</color> to purchase the following skin, <color=#FFDE38FF>$3</color>, at a discounted price of <icon name=gem w=0.7 h=0.7/>$2?"
   },
@@ -16233,7 +16276,16 @@
   "ur_exchange_help_tip": {
     "tip": [
       {
-        "info": "- Bulin Support Plan Info\nThe Bulin Support Plan is a permanent minievent.\nComplete the tasks to earn Specialized Cores, which can then be exchanged for a Specialized Bulin Custom MKIII.\nThere is a cap to how many cores you can earn in one month. This cap resets at midnight of the first of every month.\n\n- How to Get Specialized Cores\n1. Through Weekly Missions. You can obtain a lot of cores by finishing the completing both 20 and 50 Daily Missions.\n2. Through clearing maps. Every time you defeat the boss fleet on main story maps (both Normal and Hard Mode), event maps, and War Archives maps, you earn a small amount of cores.\n3. Through Research. Whenever you finish doing Research in the Lab, there is a chance you'll receive a small amount of cores. \n4. Through retiring UR ships. Ultra Rare ships received from construction grant you cores when you retire them."
+        "info": "- Bulin Support Plan -"
+      },
+      {
+        "info": "The Bulin Support Plan is a permanently available campaign. You can obtain Specialized Cores through the methods listed below, which can be exchanged for a Specialized Bulin Custom MKIII. Please note that there exists a cap on how many can be obtained in a month. This cap is reset on at 00:00 on the 1st of every month."
+      },
+      {
+        "info": "- Obtaining Specialized Cores -"
+      },
+      {
+        "info": "1. Completing the weekly mission \"\"Complete 20/50 daily missions\"\" will yield a large amount of Specialized Cores.\n2. Sortieing and defeating the Boss Fleet of any Normal, Hard, Event, or War Archives stage will yield a small amount of Specialized Cores.\n3. Completing Research Projects in the Research Lab will yield a small amount of Specialized Cores.\n4. Retiring any non-retrofit UR shipgirl will yield some Specialized Cores."
       }
     ]
   },
