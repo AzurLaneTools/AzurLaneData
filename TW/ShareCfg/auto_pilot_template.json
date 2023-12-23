@@ -437,6 +437,129 @@
     ],
     "name": "角色用/技能用AI 演习- Alexis"
   },
+  "15011": {
+    "default": 1,
+    "id": 15011,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": 0,
+          "X2": 10,
+          "Z1": 10,
+          "Z2": -20,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI - 战熊"
+  },
+  "15012": {
+    "default": 1,
+    "id": 15012,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -65,
+          "z": 85
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "X1": -5,
+          "X2": 25,
+          "Z1": 5,
+          "Z2": -25,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 2,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI - 拉菲机器人移动1号"
+  },
+  "15013": {
+    "default": 1,
+    "id": 15013,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -65,
+          "z": 35
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "X1": -5,
+          "X2": 25,
+          "Z1": 25,
+          "Z2": -5,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 2,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI - 拉菲机器人移动2号"
+  },
+  "15014": {
+    "default": 1,
+    "id": 15014,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -15,
+          "X2": 5,
+          "Z1": 30,
+          "Z2": -5,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI - 拉菲机器人移动1号-演习"
+  },
+  "15015": {
+    "default": 1,
+    "id": 15015,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -15,
+          "X2": 5,
+          "Z1": 5,
+          "Z2": -30,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "角色用/技能用AI - 拉菲机器人移动2号-演习"
+  },
   "20001": {
     "default": 1,
     "id": 20001,
@@ -9721,6 +9844,229 @@
       }
     ],
     "name": "2023海盗活动EX 水平追踪移动"
+  },
+  "70236": {
+    "default": 1,
+    "id": 70236,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -25,
+          "X2": -10,
+          "Z1": 33,
+          "Z2": 73,
+          "duration": -1,
+          "moveCount": 300,
+          "stopCount": 0
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "2023基洛夫meta 闪流移动"
+  },
+  "70237": {
+    "default": 1,
+    "id": 70237,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": 0,
+          "X2": 15,
+          "Z1": 33,
+          "Z2": 73,
+          "duration": -1,
+          "moveCount": 300,
+          "stopCount": 0
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "2023基洛夫meta 彗星移动"
+  },
+  "70238": {
+    "default": 1,
+    "id": 70238,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": 0,
+          "z": 40
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": 0.5
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023关岛活动 大型蛋船BOSS保持原位"
+  },
+  "70239": {
+    "default": 1,
+    "id": 70239,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 0.6
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "x": -60,
+          "z": 0
+        },
+        "to": 3,
+        "type": 2
+      },
+      {
+        "index": 3,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023关岛活动EX 浮游炮移动 左"
+  },
+  "70240": {
+    "default": 1,
+    "id": 70240,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 0.6
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "x": 0,
+          "z": 59
+        },
+        "to": 3,
+        "type": 2
+      },
+      {
+        "index": 3,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023关岛活动EX 浮游炮移动 上"
+  },
+  "70241": {
+    "default": 1,
+    "id": 70241,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 0.6
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "x": 60,
+          "z": 0
+        },
+        "to": 3,
+        "type": 2
+      },
+      {
+        "index": 3,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023关岛活动EX 浮游炮移动 右"
+  },
+  "70242": {
+    "default": 1,
+    "id": 70242,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 0.6
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "x": 0,
+          "z": -59
+        },
+        "to": 3,
+        "type": 2
+      },
+      {
+        "index": 3,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2023关岛活动EX 浮游炮移动 下"
+  },
+  "70251": {
+    "default": 1,
+    "id": 70251,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "duration": 2.5
+        },
+        "to": 2,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "param": {
+          "X1": -20,
+          "X2": -5,
+          "Z1": 35,
+          "Z2": 75,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 90
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "开始等待一下后再随机移动"
   },
   "75001": {
     "default": 1,
