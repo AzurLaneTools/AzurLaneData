@@ -2,6 +2,152 @@
   "1": {
     "id": 1,
     "param": [
+      "scene charge",
+      {
+        "wrap": 2
+      }
+    ],
+    "pic": "temp3",
+    "time": "stop",
+    "type": 2
+  },
+  "2": {
+    "id": 2,
+    "param": "5104",
+    "pic": "temp4",
+    "time": [
+      [
+        [
+          2023,
+          12,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          1,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 3
+  },
+  "3": {
+    "id": 3,
+    "param": "5105",
+    "pic": "temp5",
+    "time": [
+      [
+        [
+          2023,
+          12,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          1,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 3
+  },
+  "4": {
+    "id": 4,
+    "param": "5106",
+    "pic": "temp6",
+    "time": [
+      [
+        [
+          2023,
+          12,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          1,
+          24
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 3
+  },
+  "5": {
+    "id": 5,
+    "param": [
+      "scene equip",
+      {
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
+      }
+    ],
+    "pic": "temp7",
+    "time": [
+      [
+        [
+          2023,
+          12,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          1,
+          4
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 2
+  },
+  "6": {
+    "id": 6,
+    "param": [
       "scene vote entrance"
     ],
     "pic": "temp2",
@@ -31,57 +177,6 @@
         ]
       ]
     ],
-    "type": 2
-  },
-  "2": {
-    "id": 2,
-    "param": [
-      "scene get boat",
-      {
-        "page": 1,
-        "projectName": "new"
-      }
-    ],
-    "pic": "temp3",
-    "time": "stop",
-    "type": 2
-  },
-  "3": {
-    "id": 3,
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "pic": "temp4",
-    "time": "stop",
-    "type": 2
-  },
-  "4": {
-    "id": 4,
-    "param": "5096",
-    "pic": "temp5",
-    "time": "stop",
-    "type": 3
-  },
-  "5": {
-    "id": 5,
-    "param": [
-      "scene charge",
-      {
-        "wrap": 2
-      }
-    ],
-    "pic": "temp6",
-    "time": "stop",
-    "type": 2
-  },
-  "6": {
-    "id": 6,
-    "param": [
-      "scene court yard"
-    ],
-    "pic": "temp7",
-    "time": "stop",
     "type": 2
   },
   "7": {
@@ -304,14 +399,14 @@
   "get_id_list_by_type": {
     "2": [
       1,
-      2,
-      3,
       5,
       6,
       7,
       9
     ],
     "3": [
+      2,
+      3,
       4,
       8
     ],
