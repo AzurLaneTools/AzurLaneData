@@ -71,7 +71,7 @@
   },
   "101023": {
     "breakout_id": 101024,
-    "breakout_view": "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+    "breakout_view": "전탄 발사 탄막 강화 / 무기 보정 +5%",
     "icon": "10001",
     "id": 101023,
     "level": 70,
@@ -2392,6 +2392,65 @@
     "level": 0,
     "pre_id": 101503,
     "use_char": 10150,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "101511": {
+    "breakout_id": 101512,
+    "breakout_view": "특수 탄막 스킬 습득 / 무기 보정 +2%",
+    "icon": "10001",
+    "id": 101511,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10151,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      80081
+    ]
+  },
+  "101512": {
+    "breakout_id": 101513,
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 무기 보정 +3%",
+    "icon": "10001",
+    "id": 101512,
+    "level": 30,
+    "pre_id": 101511,
+    "use_char": 10151,
+    "use_char_num": 1,
+    "use_gold": 4500,
+    "use_item": [],
+    "weapon_ids": [
+      108,
+      108
+    ]
+  },
+  "101513": {
+    "breakout_id": 101514,
+    "breakout_view": "특수 탄막 강화 / 무기 보정 +5%",
+    "icon": "10001",
+    "id": 101513,
+    "level": 70,
+    "pre_id": 101512,
+    "use_char": 10151,
+    "use_char_num": 2,
+    "use_gold": 20000,
+    "use_item": [],
+    "weapon_ids": [
+      80082
+    ]
+  },
+  "101514": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 101514,
+    "level": 0,
+    "pre_id": 101513,
+    "use_char": 10151,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -5288,6 +5347,128 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "103271": {
+    "breakout_id": 103272,
+    "breakout_view": "전탄 발사 스킬 습득 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 103271,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10327,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      70221
+    ]
+  },
+  "103272": {
+    "breakout_id": 103273,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 103272,
+    "level": 30,
+    "pre_id": 103271,
+    "use_char": 10327,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      13000,
+      13000
+    ]
+  },
+  "103273": {
+    "breakout_id": 103274,
+    "breakout_view": "전탄 발사 탄막 강화 / 무기 보정 +5%",
+    "icon": "10001",
+    "id": 103273,
+    "level": 70,
+    "pre_id": 103272,
+    "use_char": 10327,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      70222
+    ]
+  },
+  "103274": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 103274,
+    "level": 0,
+    "pre_id": 103273,
+    "use_char": 10327,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "104011": {
+    "breakout_id": 104012,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 104011,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10401,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      14300,
+      14300
+    ]
+  },
+  "104012": {
+    "breakout_id": 104013,
+    "breakout_view": "부포 포좌 +2 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 104012,
+    "level": 30,
+    "pre_id": 104011,
+    "use_char": 10401,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      11200,
+      11200,
+      11200
+    ]
+  },
+  "104013": {
+    "breakout_id": 104014,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +15%",
+    "icon": "10001",
+    "id": 104013,
+    "level": 70,
+    "pre_id": 104012,
+    "use_char": 10401,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      14300,
+      14300,
+      14300
+    ]
+  },
+  "104014": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 104014,
+    "level": 0,
+    "pre_id": 104013,
+    "use_char": 10401,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "105011": {
     "breakout_id": 105012,
     "breakout_view": "주포 발사 수 +1 / 주포 효율 +5%",
@@ -7661,6 +7842,71 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "107301": {
+    "breakout_id": 107302,
+    "breakout_view": "전투기 수 +1 / 전투기 보정 +5%",
+    "icon": "10001",
+    "id": 107301,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10730,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60391,
+      54011
+    ]
+  },
+  "107302": {
+    "breakout_id": 107303,
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 전투기 보정 +10%",
+    "icon": "10001",
+    "id": 107302,
+    "level": 30,
+    "pre_id": 107301,
+    "use_char": 10730,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60392,
+      54011,
+      60392,
+      54011
+    ]
+  },
+  "107303": {
+    "breakout_id": 107304,
+    "breakout_view": "함재기 수 +1 / 뇌격기 보정 +15%",
+    "icon": "10001",
+    "id": 107303,
+    "level": 70,
+    "pre_id": 107302,
+    "use_char": 10730,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60393,
+      54012,
+      60393,
+      54012
+    ]
+  },
+  "107304": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 107304,
+    "level": 0,
+    "pre_id": 107303,
+    "use_char": 10730,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "107381": {
     "breakout_id": 107382,
     "breakout_view": "전투기 탑재량 +1 / 함재기 효율 +3%",
@@ -8283,6 +8529,67 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "108081": {
+    "breakout_id": 108082,
+    "breakout_view": "특수 탄막 스킬 습득 / 어뢰 보정 +5%",
+    "icon": "10001",
+    "id": 108081,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10808,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      80091
+    ]
+  },
+  "108082": {
+    "breakout_id": 108083,
+    "breakout_view": "어뢰 장전 수 +1 / 지원 범위 확대",
+    "icon": "10001",
+    "id": 108082,
+    "level": 30,
+    "pre_id": 108081,
+    "use_char": 10808,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      140,
+      140,
+      140,
+      140
+    ]
+  },
+  "108083": {
+    "breakout_id": 108084,
+    "breakout_view": "특수 탄막 강화 / 어뢰 보정 +10%",
+    "icon": "10001",
+    "id": 108083,
+    "level": 70,
+    "pre_id": 108082,
+    "use_char": 10808,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      80092
+    ]
+  },
+  "108084": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 108084,
+    "level": 0,
+    "pre_id": 108083,
+    "use_char": 10808,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "112011": {
     "breakout_id": 112012,
     "breakout_view": "구조 대책 - 긴급 수복 횟수 +1 / 대공포 효율 +3%",
@@ -8330,6 +8637,66 @@
     "level": 0,
     "pre_id": 112013,
     "use_char": 11201,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "118021": {
+    "breakout_id": 118022,
+    "breakout_view": "주포 보정 +5% / 방공포 포좌 +1",
+    "icon": "10001",
+    "id": 118021,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 11802,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      13180
+    ]
+  },
+  "118022": {
+    "breakout_id": 118023,
+    "breakout_view": "주포 포좌 +1 / 부포 보정 +10%",
+    "icon": "10001",
+    "id": 118022,
+    "level": 30,
+    "pre_id": 118021,
+    "use_char": 11802,
+    "use_char_num": 1,
+    "use_gold": 4500,
+    "use_item": [],
+    "weapon_ids": [
+      13180,
+      13180
+    ]
+  },
+  "118023": {
+    "breakout_id": 118024,
+    "breakout_view": "주포 보정 +15%",
+    "icon": "10001",
+    "id": 118023,
+    "level": 70,
+    "pre_id": 118022,
+    "use_char": 11802,
+    "use_char_num": 2,
+    "use_gold": 20000,
+    "use_item": [],
+    "weapon_ids": [
+      13180,
+      13180
+    ]
+  },
+  "118024": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 118024,
+    "level": 0,
+    "pre_id": 118023,
+    "use_char": 11802,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -8429,7 +8796,7 @@
   },
   "199023": {
     "breakout_id": 199024,
-    "breakout_view": "주포 효율+15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 199023,
     "level": 70,
@@ -24787,7 +25154,7 @@
   },
   "399043": {
     "breakout_id": 399044,
-    "breakout_view": "주포 효율+15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 399043,
     "level": 70,
@@ -29131,7 +29498,7 @@
   },
   "499042": {
     "breakout_id": 499043,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 499042,
     "level": 30,
@@ -29208,7 +29575,7 @@
   },
   "499053": {
     "breakout_id": 499054,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 499053,
     "level": 70,
@@ -33897,7 +34264,7 @@
   },
   "718013": {
     "breakout_id": 718014,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 718013,
     "level": 70,
@@ -34988,7 +35355,7 @@
   },
   "899023": {
     "breakout_id": 899024,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 899023,
     "level": 70,
@@ -35049,7 +35416,7 @@
   },
   "899033": {
     "breakout_id": 899034,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 899033,
     "level": 70,
@@ -35942,7 +36309,7 @@
   },
   "905033": {
     "breakout_id": 905034,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 905033,
     "level": 70,
@@ -36068,7 +36435,7 @@
   },
   "999013": {
     "breakout_id": 999014,
-    "breakout_view": "주포 효율+15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 999013,
     "level": 70,
@@ -36559,7 +36926,7 @@
   },
   "10100013": {
     "breakout_id": 10100014,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10100013,
     "level": 70,
@@ -36791,7 +37158,7 @@
   },
   "10100053": {
     "breakout_id": 10100054,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10100053,
     "level": 70,
@@ -38255,7 +38622,7 @@
   },
   "10600043": {
     "breakout_id": 10600044,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10600043,
     "level": 70,
@@ -38443,7 +38810,7 @@
   },
   "10600073": {
     "breakout_id": 10600074,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10600073,
     "level": 70,
@@ -38630,7 +38997,7 @@
   },
   "10700013": {
     "breakout_id": 10700014,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10700013,
     "level": 70,
@@ -38876,7 +39243,7 @@
   },
   "10700053": {
     "breakout_id": 10700054,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10700053,
     "level": 70,
@@ -39067,7 +39434,7 @@
   },
   "10800013": {
     "breakout_id": 10800014,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10800013,
     "level": 70,
@@ -39189,7 +39556,7 @@
   },
   "10800033": {
     "breakout_id": 10800034,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10800033,
     "level": 70,
@@ -39617,7 +39984,7 @@
   },
   "10900013": {
     "breakout_id": 10900014,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10900013,
     "level": 70,
@@ -39929,7 +40296,7 @@
   },
   "10900063": {
     "breakout_id": 10900064,
-    "breakout_view": "주포 효율 +15%",
+    "breakout_view": "주포 보정 +15%",
     "icon": "10001",
     "id": 10900063,
     "level": 70,
