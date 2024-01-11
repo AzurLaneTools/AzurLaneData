@@ -134,6 +134,15 @@
     "title": "L2D陀螺儀背景控制",
     "type": 0
   },
+  "16": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "功能開啟後，在船塢等介面，已誓約的角色名將使用特殊顏色顯示",
+    "id": 16,
+    "name": "SHIP_NAME_COLOR",
+    "title": "誓約角色名特殊顯示",
+    "type": 0
+  },
   "17": {
     "alignment": 0,
     "default": 1,
@@ -141,6 +150,15 @@
     "id": 17,
     "name": "BATTLERESULT_DISPAY_PAINTING",
     "title": "展示結算角色",
+    "type": 0
+  },
+  "18": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "功能開啟後，主介面L2D換裝的互動狀態將固定為主介面待機動作；互動狀態固定後，【登入】【回港】動畫將不會播放",
+    "id": 18,
+    "name": "LIVE2D_STATUS_SAVE",
+    "title": "L2D互動狀態固定",
     "type": 0
   },
   "all": [
@@ -159,6 +177,8 @@
     13,
     14,
     15,
-    17
+    16,
+    17,
+    18
   ]
 }
