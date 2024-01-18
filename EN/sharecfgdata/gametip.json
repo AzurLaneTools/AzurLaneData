@@ -177,6 +177,40 @@
       }
     ]
   },
+  "Normalbuild_URexchange_confirm": {
+    "tip": "Exchange 400 points for $1?"
+  },
+  "Normalbuild_URexchange_help": {
+    "tip": [
+      {
+        "info": "- UR Exchange Overview -"
+      },
+      {
+        "info": "· Every time you build in any of the standard Light, Heavy, Special, or Event pools without an obtainable UR shipgirl, you gain UR Exchange points at a rate of 1 point per Wisdom Cube used (up to a total of 400.)\n· When you use Build Tickets, the amount of points you get is equal to the number of Wisdom Cubes that that build would have cost.\n"
+      },
+      {
+        "info": "· 400 UR Exchange points can be traded for any one of the permanently available UR shipgirls."
+      }
+    ]
+  },
+  "Normalbuild_URexchange_text1": {
+    "tip": "UR Exchange"
+  },
+  "Normalbuild_URexchange_text2": {
+    "tip": "Total"
+  },
+  "Normalbuild_URexchange_text3": {
+    "tip": "View Choice"
+  },
+  "Normalbuild_URexchange_text4": {
+    "tip": "Exchange"
+  },
+  "Normalbuild_URexchange_warning1": {
+    "tip": "Insufficient points for exchange."
+  },
+  "Normalbuild_URexchange_warning3": {
+    "tip": "You've hit the points cap. You won't be able to gain any more points until you exchange for a UR. Build anyway?"
+  },
   "Pray_activity_tips1": {
     "tip": [
       {
@@ -2145,7 +2179,10 @@
     "tip": "Purchased"
   },
   "blackfriday_pack_select_skinall": {
-    "tip": "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you own all the eligible skins, this voucher cannot be used."
+    "tip": "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you already own all available skins, you will instead receive an Outfit Coupon."
+  },
+  "blackfriday_pack_select_skinall_dialog": {
+    "tip": "You already own every exchangeable skin.\nConvert <color=#92fc63>$1*1</color> to <color=#92fc63>$2*1</color>?"
   },
   "blueprint_build_consume": {
     "tip": "Spend $1 to commence development?"
@@ -2398,16 +2435,16 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "Prinz Heinrich added to standard build pool!"
+    "tip": "New Jersey, Shinano, Kii and others added to standard build pool!"
   },
   "buildship_light_tip": {
-    "tip": "Nürnberg added to the standard build pool!"
+    "tip": "Suzutsuki, Boise added to standard build pool!"
   },
   "buildship_new_tip": {
     "tip": "Get Ulrich von Hutten guaranteed with every 200 event builds (can be done up to 4 times)!"
   },
   "buildship_special_tip": {
-    "tip": "Peter Strasser, U-37 and Weser added to standard build pool!"
+    "tip": "New Jersey, Shinano, Ticonderoga and others added to standard build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -2867,6 +2904,9 @@
   },
   "charge_limit_lv": {
     "tip": "Unlocks lv. $1"
+  },
+  "charge_limit_monthly": {
+    "tip": "Available this month: $1"
   },
   "charge_limit_weekly": {
     "tip": "Available this week: $1"
@@ -12035,6 +12075,9 @@
   "not_exist_guild_use_item": {
     "tip": "This item cannot be used as you are not in a Guild. "
   },
+  "not_use_ticket_to_buy_skin": {
+    "tip": "Don't use Outfit Coupon"
+  },
   "notice_input_desc": {
     "tip": "Input chat message"
   },
@@ -15059,6 +15102,9 @@
   "skin_exchange_title": {
     "tip": "Redeemable Skins"
   },
+  "skin_exchange_usetip": {
+    "tip": "$1 was sent to your Depot. It can be used from there."
+  },
   "skin_gift_desc": {
     "tip": "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
   },
@@ -15070,6 +15116,9 @@
   },
   "skin_purchase_confirm": {
     "tip": "Spend <color=#92fc63>1 $1</color> to purchase the following skin, <color=#FFDE38FF>$3</color>, at a discounted price of <icon name=gem w=0.7 h=0.7/>$2?"
+  },
+  "skin_purchase_over_price": {
+    "tip": "Do you want to consume <color=#92fc63>$1*1</color>and purcharse the skin <color=#92fc63>$3</color> at the price of\n<icon name=gem w=0.6 h=0.6/>  <color=#FFDE38FF>$2</color>? (If the skin's full price is below the discount, no gems will be refunded)"
   },
   "skin_remain_time": {
     "tip": "Expires in "
