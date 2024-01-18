@@ -174,6 +174,40 @@
       }
     ]
   },
+  "Normalbuild_URexchange_confirm": {
+    "tip": "400Ptを消費し、$1と交換しますか？"
+  },
+  "Normalbuild_URexchange_help": {
+    "tip": [
+      {
+        "info": "常設UR艦船交換について："
+      },
+      {
+        "info": "    ·通常建造「小型艦建造」「大型艦建造」「特型艦建造」またはUR艦船が出現しない「期間限定建造」を行う時、キューブが1消費される毎に、「常設UR交換Pt」が1加算される（上限400）；\n    ·建造チケットで建造を行う場合、その建造で消費するキューブの数に応じて「常設UR交換Pt」が加算される；\n"
+      },
+      {
+        "info": "    ·Ptを400消費すると、常設実装済みのUR艦船1隻と交換可能；"
+      }
+    ]
+  },
+  "Normalbuild_URexchange_text1": {
+    "tip": "常設UR交換"
+  },
+  "Normalbuild_URexchange_text2": {
+    "tip": "累計"
+  },
+  "Normalbuild_URexchange_text3": {
+    "tip": "交換可能艦船を確認"
+  },
+  "Normalbuild_URexchange_text4": {
+    "tip": "艦船交換"
+  },
+  "Normalbuild_URexchange_warning1": {
+    "tip": "累計建造回数Ptが不足しています"
+  },
+  "Normalbuild_URexchange_warning3": {
+    "tip": "交換Ptが上限に達しています。UR艦船を交換しないとこれ以上交換Ptを入手できません。建造を行いますか？"
+  },
   "Pray_activity_tips1": {
     "tip": [
       {
@@ -2000,7 +2034,10 @@
     "tip": "已购买"
   },
   "blackfriday_pack_select_skinall": {
-    "tip": "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+    "tip": "一部の着せ替えのみ入手できます。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます。"
+  },
+  "blackfriday_pack_select_skinall_dialog": {
+    "tip": "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
   },
   "blueprint_build_consume": {
     "tip": "$1を消費し、開発を行いますか？"
@@ -2253,16 +2290,16 @@
     "tip": "施設を増築しますか？"
   },
   "buildship_heavy_tip": {
-    "tip": "「プリンツ・ハインリヒ」常設実装！"
+    "tip": "「ニュージャージー」「信濃」「紀伊」などが常設実装！"
   },
   "buildship_light_tip": {
-    "tip": "「ニュルンベルク」常設実装！"
+    "tip": "「涼月」「ボイシ」などが常設実装！"
   },
   "buildship_new_tip": {
     "tip": "期間限定建造を200回行う度に「ウルリッヒ・フォン・フッテン」が交換可能！"
   },
   "buildship_special_tip": {
-    "tip": "「ペーター・シュトラッサー」「U-37」常設実装！"
+    "tip": "「ニュージャージー」「信濃」「タイコンデロガ」などが常設実装！"
   },
   "buleprint_need_level_tip": {
     "tip": "該当艦がレベル$1で開放"
@@ -2696,6 +2733,9 @@
   "charge_limit_lv": {
     "tip": "Lv$1で開放"
   },
+  "charge_limit_monthly": {
+    "tip": "今月購入可能回数：$1"
+  },
   "charge_limit_weekly": {
     "tip": "今週購入可能回数：$1"
   },
@@ -2713,6 +2753,9 @@
   },
   "charge_scene_buy_confirm": {
     "tip": "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
+  },
+  "charge_scene_buy_confirm_1": {
+    "tip": "<size=32><icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？\n※<color=#92fc63>クーポンアイコン</color>タップでクーポンを使用できます</size>"
   },
   "charge_scene_buy_confirm_backyard": {
     "tip": "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
@@ -11797,6 +11840,9 @@
   "not_exist_guild_use_item": {
     "tip": "大艦隊に所属していないため、アイテムを使用できません"
   },
+  "not_use_ticket_to_buy_skin": {
+    "tip": "クーポン適用なし"
+  },
   "notice_input_desc": {
     "tip": "チャットを入力"
   },
@@ -14765,6 +14811,9 @@
   "skin_exchange_title": {
     "tip": "下記着せ替え交換可能"
   },
+  "skin_exchange_usetip": {
+    "tip": "アイテム$1が倉庫に送られました。倉庫にて使用可能です"
+  },
   "skin_gift_desc": {
     "tip": "下記着せ替えからランダムな1着を入手します（すでに所持している場合、自動でダイヤに変換されます）\n出現する着せ替えと出現率は下記になります：\n$1"
   },
@@ -14775,7 +14824,10 @@
     "tip": "受け取り"
   },
   "skin_purchase_confirm": {
-    "tip": "<color=#92fc63>$1 *1</color>を消費し、割引価格<icon name=gem w=0.7 h=0.7/>$2で$3着せ替えを購入しますか？"
+    "tip": "<size=32><color=#92fc63>$1*1</color>を消費し、割引価格\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で<color=#92fc63>$3</color>着せ替えを購入しますか？</size>"
+  },
+  "skin_purchase_over_price": {
+    "tip": "<size=32><color=#92fc63>$1*1</color>を消費し、割引後\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>の着せ替え<color=#92fc63>$3</color>を購入しますか？（クーポン適用超過分のダイヤは返還されません）</size>"
   },
   "skin_remain_time": {
     "tip": "販売終了まで"
