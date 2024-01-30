@@ -23638,6 +23638,32 @@
     "resource_num": 800,
     "resource_type": 59900
   },
+  "10083": {
+    "activity": 0,
+    "commodity_id": 502071,
+    "commodity_type": 4,
+    "id": 10083,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 1,
+    "resource_category": 2,
+    "resource_num": 1200,
+    "resource_type": 59900
+  },
+  "10084": {
+    "activity": 0,
+    "commodity_id": 502081,
+    "commodity_type": 4,
+    "id": 10084,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 1,
+    "resource_category": 2,
+    "resource_num": 1200,
+    "resource_type": 59900
+  },
   "10500": {
     "activity": 0,
     "commodity_id": 640,
@@ -23850,6 +23876,24 @@
     "num": 1,
     "num_limit": 0,
     "order": 101,
+    "resource_category": 2,
+    "resource_num": 1000,
+    "resource_type": 59900
+  },
+  "10908": {
+    "activity": 0,
+    "commodity_id": 408052,
+    "commodity_type": 7,
+    "id": 10908,
+    "limit_args": [
+      [
+        "quota",
+        1
+      ]
+    ],
+    "num": 1,
+    "num_limit": 0,
+    "order": 102,
     "resource_category": 2,
     "resource_num": 1000,
     "resource_type": 59900
@@ -24152,6 +24196,58 @@
     "resource_category": 2,
     "resource_num": 2000,
     "resource_type": 59010
+  },
+  "11024": {
+    "activity": 0,
+    "commodity_id": 42050,
+    "commodity_type": 2,
+    "id": 11024,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 30,
+    "order": 13,
+    "resource_category": 1,
+    "resource_num": 30,
+    "resource_type": 9
+  },
+  "11025": {
+    "activity": 0,
+    "commodity_id": 42056,
+    "commodity_type": 2,
+    "id": 11025,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 10,
+    "order": 6,
+    "resource_category": 1,
+    "resource_num": 120,
+    "resource_type": 9
+  },
+  "11026": {
+    "activity": 0,
+    "commodity_id": 14006,
+    "commodity_type": 2,
+    "id": 11026,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 20,
+    "order": 15,
+    "resource_category": 1,
+    "resource_num": 15,
+    "resource_type": 9
+  },
+  "11027": {
+    "activity": 0,
+    "commodity_id": 13031,
+    "commodity_type": 2,
+    "id": 11027,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 50,
+    "order": 10,
+    "resource_category": 1,
+    "resource_num": 60,
+    "resource_type": 9
   },
   "12001": {
     "activity": 4877,
@@ -26065,6 +26161,8 @@
     10080,
     10081,
     10082,
+    10083,
+    10084,
     10500,
     10501,
     10502,
@@ -26077,6 +26175,7 @@
     10905,
     10906,
     10907,
+    10908,
     11001,
     11002,
     11003,
@@ -26100,6 +26199,10 @@
     11021,
     11022,
     11023,
+    11024,
+    11025,
+    11026,
+    11027,
     12001,
     12002,
     12003,
@@ -27583,6 +27686,10 @@
       11021,
       11022,
       11023,
+      11024,
+      11025,
+      11026,
+      11027,
       12001,
       12002,
       12003,
@@ -27837,6 +27944,8 @@
       10074,
       10078,
       10081,
+      10083,
+      10084,
       11006
     ],
     "5": [
@@ -27940,7 +28049,8 @@
       10904,
       10905,
       10906,
-      10907
+      10907,
+      10908
     ],
     "8": [
       1621,
