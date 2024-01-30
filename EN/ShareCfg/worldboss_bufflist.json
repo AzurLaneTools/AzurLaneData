@@ -139,7 +139,7 @@
     "bonus": "0.03",
     "buff_icon": "1018",
     "buff_target": 1,
-    "desc": "战斗随机出现敌方的航空编队支援",
+    "desc": "Enemy aerial support will randomly appear during battle.",
     "id": 1018,
     "lua_id": 59180
   },
@@ -167,6 +167,22 @@
     "id": 1021,
     "lua_id": 59210
   },
+  "101701": {
+    "bonus": "0.03",
+    "buff_icon": "1017",
+    "buff_target": 1,
+    "desc": "During battle, the enemy Flagship will fire a special barrage at regular intervals",
+    "id": 101701,
+    "lua_id": 59220
+  },
+  "101801": {
+    "bonus": "0.03",
+    "buff_icon": "1018",
+    "buff_target": 1,
+    "desc": "Enemy aerial support will randomly appear during battle.",
+    "id": 101801,
+    "lua_id": 59230
+  },
   "all": [
     1001,
     1002,
@@ -188,6 +204,8 @@
     1018,
     1019,
     1020,
-    1021
+    1021,
+    101701,
+    101801
   ]
 }
