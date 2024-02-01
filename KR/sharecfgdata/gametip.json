@@ -177,6 +177,40 @@
       }
     ]
   },
+  "Normalbuild_URexchange_confirm": {
+    "tip": "400Pt를 소비하여 $1(으)로 교환하시겠습니까?"
+  },
+  "Normalbuild_URexchange_help": {
+    "tip": [
+      {
+        "info": "상시 UR 함선 교환에 대해:"
+      },
+      {
+        "info": " ·일반 건조의 \"\"소형함 건조\"\", \"\"대형함 건조\"\", \"\"특형함 건조\"\" 또는 UR 함선이 등장하지 않는 \"\"기간 한정 건조\"\" 실시 시 큐브 1개를 소비할 때마다 \"\"상시 UR 교환 Pt\"\"가 1 가산됨(최대 400까지)；\n ·건조 티켓으로 건조를 실시할 경우, 해당 건조로 소비되는 큐브 수에 따라 \"\"상시 UR 교환 Pt\"\"가 가산됨；\n"
+      },
+      {
+        "info": " ·Pt를 400 소비하면 상시 건조에 추가된 UR 함선 1척으로 교환 가능；"
+      }
+    ]
+  },
+  "Normalbuild_URexchange_text1": {
+    "tip": "상시 UR 교환"
+  },
+  "Normalbuild_URexchange_text2": {
+    "tip": "누적"
+  },
+  "Normalbuild_URexchange_text3": {
+    "tip": "교환 가능 함선 확인"
+  },
+  "Normalbuild_URexchange_text4": {
+    "tip": "함선 교환"
+  },
+  "Normalbuild_URexchange_warning1": {
+    "tip": "총 건조 횟수 Pt가 부족합니다."
+  },
+  "Normalbuild_URexchange_warning3": {
+    "tip": "교환 Pt가 최대치에 달했습니다. UR 함선으로 교환하지 않으면 더 이상 교환 Pt를 획득할 수 없습니다. 건조를 실시하시겠습니까?"
+  },
   "Pray_activity_tips1": {
     "tip": [
       {
@@ -2000,7 +2034,10 @@
     "tip": "已购买"
   },
   "blackfriday_pack_select_skinall": {
-    "tip": "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+    "tip": "할인 스킨 교환권은 지정된 교환 리스트 중의 스킨만 교환할 수 있습니다. 이미 전부 소지할 경우 교환권은 자동으로 할인권으로 변환됩니다."
+  },
+  "blackfriday_pack_select_skinall_dialog": {
+    "tip": "교환 가능한 스킨을 이미 모두 소지하고 있습니다. <color=#92fc63>$1*1</color>를 <color=#92fc63>$2*1</color>로 교환하시겠습니까?"
   },
   "blueprint_build_consume": {
     "tip": "$1 를 소모하여 개발을 진행하시겠습니까?"
@@ -2238,16 +2275,16 @@
     "tip": "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다."
   },
   "buildship_heavy_tip": {
-    "tip": "프린츠 하인리히 상시 건조 추가!"
+    "tip": "\"뉴저지\", \"시나노\", \"키이\" 등 상시 건조 추가!"
   },
   "buildship_light_tip": {
-    "tip": "뉘른베르크 상시 건조 추가!"
+    "tip": "\"스즈츠키\", \"보이시\" 등 상시 건조 추가!"
   },
   "buildship_new_tip": {
-    "tip": "누적 건조 200회마다 UR 함선 울리히 폰 후텐 획득 가능(최대 4회)"
+    "tip": "기간 한정 건조를 총 200회 실시하면, \"괌\" 100% 획득 가능! (최대 4척까지)"
   },
   "buildship_special_tip": {
-    "tip": "페터 슈트라서, U-37 상시 건조 추가!"
+    "tip": "\"뉴저지\", \"시나노\", \"타이콘데로가\" 등 상시 건조 추가!"
   },
   "buleprint_need_level_tip": {
     "tip": "해당 함선은 $1 레벨에 개방됩니다."
@@ -2708,6 +2745,9 @@
   },
   "charge_limit_lv": {
     "tip": "Lv.$1 도달 시 개방"
+  },
+  "charge_limit_monthly": {
+    "tip": "이번 달 구매 가능 횟수: $1"
   },
   "charge_limit_weekly": {
     "tip": "이번 주 구입 가능 횟수：$1"
@@ -11733,6 +11773,9 @@
   "not_exist_guild_use_item": {
     "tip": "대함대에 가입하지 않았습니다. 해당 아이템을 사용할 수 없습니다."
   },
+  "not_use_ticket_to_buy_skin": {
+    "tip": "스킨 할인권 사용 안 함"
+  },
   "notice_input_desc": {
     "tip": "메시지를 입력"
   },
@@ -14725,6 +14768,9 @@
   "skin_exchange_title": {
     "tip": "아래 스킨 교환 가능"
   },
+  "skin_exchange_usetip": {
+    "tip": "아이템 $1가 창고로 발송되었습니다. 창고에서 사용할 수 있습니다."
+  },
   "skin_gift_desc": {
     "tip": "아래 스킨 중 랜덤으로 1개의 스킨을 획득합니다.(이미 해당 스킨을 보유 중일 경우, 다이아로 획득하게 됩니다.)\n포함된 스킨과 확률은 아래와 같습니다:\n$1"
   },
@@ -14736,6 +14782,9 @@
   },
   "skin_purchase_confirm": {
     "tip": "<color=#92fc63>$1×1</color>을 소비하여 할인가 <icon name=gem w=0.7 h=0.7/> $2로 $3 스킨을 구매하시겠습니까?"
+  },
+  "skin_purchase_over_price": {
+    "tip": "<color=#92fc63>$1*1</color>를 소모하여 할인가\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>의<color=#92fc63>$3</color>스킨을 구매하시겠습니까?\n（스킨 판매가 초과할 부분은 반환하지 않습니다.）"
   },
   "skin_remain_time": {
     "tip": "잔여 판매 기간"
