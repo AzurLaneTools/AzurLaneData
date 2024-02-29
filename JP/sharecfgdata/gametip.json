@@ -448,6 +448,9 @@
   "activity_switch_tip": {
     "tip": "注意：ノーマルモードを選択すると、<color=#92fc63>ハードモードでの攻略進捗がなくなります</color>（ノーマルモードを全部クリアしないとハードモードを選択できません）。本当に難易度を変更しますか？"
   },
+  "activity_victory": {
+    "tip": "艦隊を出撃させ、勝利を収める"
+  },
   "activity_xiaotiane_progress": {
     "tip": "進捗: $1/$2"
   },
@@ -1672,11 +1675,20 @@
   "battle_text_common_1": {
     "tip": "敵は大技を繰り出そうとしている！<color=#f1f102>攻撃を集中してチャージを止めよう</color>！"
   },
+  "battle_text_common_2": {
+    "tip": "警告：<color=#ffc038>バトルデータ異常</color>を探知しました。味方<color=#f1f102>特定装備・スキル効果が無効になります！</color>"
+  },
+  "battle_text_common_3": {
+    "tip": "<color=#f1f102>敵の与ダメージが大幅上昇・被ダメージが時間経過とともに上昇する</color>"
+  },
   "battle_text_haidao_1": {
     "tip": "///「テンペスタ」じゃないなら全力を出そう！///"
   },
   "battle_text_haidao_2": {
     "tip": "///「壁雲の守り手」が突撃！サン・マルチーニョ戦力上昇！///"
+  },
+  "battle_text_tongmeng_1": {
+    "tip": "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
   },
   "battle_text_yingxiv4_1": {
     "tip": "騎士はチャージをしている（左）"
@@ -2038,10 +2050,10 @@
     ]
   },
   "blackfriday_pack_lock": {
-    "tip": "礼包将于$1解锁购买 "
+    "tip": "$1解放後に購入できます"
   },
   "blackfriday_pack_purchased": {
-    "tip": "已购买"
+    "tip": "購入済"
   },
   "blackfriday_pack_select_skinall": {
     "tip": "一部の着せ替えのみ入手できます。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます。"
@@ -2306,7 +2318,7 @@
     "tip": "「キーロフ」「グレミャーシュチ」「ムルマンスク」が常設実装！"
   },
   "buildship_new_tip": {
-    "tip": "期間限定建造を200回行う度に「ウルリッヒ・フォン・フッテン」が交換可能！"
+    "tip": "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
   },
   "buildship_special_tip": {
     "tip": "「シーシュース」「華甲」などが常設実装！"
@@ -15245,7 +15257,7 @@
     "tip": "$1 *1を消費し、割引価格$2で$3着せ替えを購入しますか？"
   },
   "skin_discount_timelimit": {
-    "tip": "道具$1将于$2维护后到期，请及时前往换装商店使用"
+    "tip": "アイテム$1は$2メンテナンス後に削除されます。削除前に着せ替えショップで使用してください"
   },
   "skin_exchange_confirm": {
     "tip": " <color=#92fc63>$1 *1</color> を消費して <color=#92fc63>$2</color>と交換しますか"
@@ -15276,6 +15288,9 @@
   },
   "skin_remain_time": {
     "tip": "販売終了まで"
+  },
+  "skin_shop_buy_confirm": {
+    "tip": "<color=$1>ダイヤ×$2</color>を消費、<color=#92fc63FF>$3</color>を購入しますか？"
   },
   "skinatlas_search_holder": {
     "tip": "艦船・着せ替え名を検索可能"
@@ -17029,6 +17044,9 @@
   "word_ema1": {
     "tip": "絵馬"
   },
+  "word_emoji_unlock": {
+    "tip": "スタンプ開放！"
+  },
   "word_energy_recov_speed": {
     "tip": "回復速度"
   },
@@ -17178,6 +17196,9 @@
   },
   "word_get_date": {
     "tip": "入手時間:"
+  },
+  "word_get_emoji": {
+    "tip": "「$1」"
   },
   "word_get_way": {
     "tip": "入手方法:"
@@ -17731,6 +17752,9 @@
   },
   "word_should_input": {
     "tip": "キーワードが入力されていません"
+  },
+  "word_show_extra_reward_at_fudai_dialog": {
+    "tip": "（<color=#92fc63>特典$1</color> ）"
   },
   "word_simple": {
     "tip": "レア"
