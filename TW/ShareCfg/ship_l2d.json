@@ -4257,6 +4257,142 @@
     "smooth": 150,
     "start_value": 0
   },
+  "10145201": {
+    "action_trigger": {
+      "action": "touch_idle1",
+      "num": 1,
+      "time": 0,
+      "type": 2
+    },
+    "action_trigger_active": {
+      "enable": [],
+      "idle": 1,
+      "ignore": []
+    },
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 10145201,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param88",
+    "parts_data": "",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": 100,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 101452,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "10145202": {
+    "action_trigger": {
+      "action": "touch_idle2",
+      "num": 1,
+      "time": 0,
+      "type": 2
+    },
+    "action_trigger_active": {
+      "enable": [],
+      "idle": 0,
+      "ignore": []
+    },
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 10145202,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param89",
+    "parts_data": "",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": 100,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 101452,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "10145203": {
+    "action_trigger": {
+      "const_fit": [
+        {
+          "idle": 0,
+          "target": 0
+        },
+        {
+          "idle": 1,
+          "target": 1
+        }
+      ],
+      "remove_com_list": [
+        "touch_idle1",
+        "touch_idle2"
+      ],
+      "type": 5
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 10145203,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param90",
+    "parts_data": "",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 0,
+    "ship_skin_id": 101452,
+    "shop_action": 0,
+    "smooth": 0,
+    "start_value": 0
+  },
   "10151101": {
     "action_trigger": {
       "action": "touch_idle1",
@@ -16731,6 +16867,442 @@
     "smooth": 100,
     "start_value": 0
   },
+  "70502101": {
+    "action_trigger": {
+      "circle": true,
+      "target": 1,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag1",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502101,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 3,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag1",
+    "parts_data": "",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502102": {
+    "action_trigger": {
+      "circle": true,
+      "target": 1,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag2",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502102,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 3,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag2",
+    "parts_data": "",
+    "range": [
+      0,
+      1
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502103": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag3",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502103,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 0,
+    "mode": 1,
+    "offset_x": 6,
+    "offset_y": 0,
+    "parameter": "touch_drag3",
+    "parts_data": "",
+    "range": [
+      -30,
+      30
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": 100,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502104": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag3",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502104,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 0,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 6,
+    "parameter": "touch_drag4",
+    "parts_data": "",
+    "range": [
+      -30,
+      30
+    ],
+    "range_abs": 0,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": 100,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502105": {
+    "action_trigger": {
+      "circle": true,
+      "target": 30,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag5",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502105,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag5",
+    "parts_data": {
+      "parts": [
+        0,
+        30
+      ]
+    },
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502106": {
+    "action_trigger": {
+      "circle": true,
+      "target": 30,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag6",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502106,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag6",
+    "parts_data": {
+      "parts": [
+        0,
+        30
+      ]
+    },
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502107": {
+    "action_trigger": {
+      "circle": true,
+      "target": 30,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag7",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502107,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag7",
+    "parts_data": {
+      "parts": [
+        0,
+        30
+      ]
+    },
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502108": {
+    "action_trigger": {
+      "circle": true,
+      "target": 30,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag8",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502108,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag8",
+    "parts_data": {
+      "parts": [
+        0,
+        30
+      ]
+    },
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502109": {
+    "action_trigger": {
+      "circle": true,
+      "target": 30,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag9",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502109,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag9",
+    "parts_data": {
+      "parts": [
+        0,
+        30
+      ]
+    },
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502110": {
+    "action_trigger": {
+      "circle": true,
+      "target": 50,
+      "type": 2
+    },
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "TouchDrag11",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502110,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "touch_drag11",
+    "parts_data": "",
+    "range": [
+      0,
+      50
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
+  "70502111": {
+    "action_trigger": {
+      "action": "touch_drag12",
+      "num": 30,
+      "time": 0,
+      "type": 1
+    },
+    "action_trigger_active": "",
+    "drag_direct": 1,
+    "draw_able_name": "TouchDrag12",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 70502111,
+    "ignore_action": 1,
+    "ignore_react": 1,
+    "limit_time": 1,
+    "mode": 1,
+    "offset_x": 0,
+    "offset_y": 5,
+    "parameter": "touch_drag12",
+    "parts_data": "",
+    "range": [
+      0,
+      30
+    ],
+    "range_abs": 1,
+    "react_pos_x": 0,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": 100,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "ship_skin_id": 705021,
+    "shop_action": 0,
+    "smooth": 100,
+    "start_value": 0
+  },
   "96000311": {
     "action_trigger": {
       "action": "touch_idle1",
@@ -17501,6 +18073,20 @@
     20606213,
     20606214,
     20606215,
-    20606216
+    20606216,
+    10145201,
+    10145202,
+    10145203,
+    70502101,
+    70502102,
+    70502103,
+    70502104,
+    70502105,
+    70502106,
+    70502107,
+    70502108,
+    70502109,
+    70502110,
+    70502111
   ]
 }
