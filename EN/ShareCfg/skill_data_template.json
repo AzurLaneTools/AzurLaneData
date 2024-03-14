@@ -130457,6 +130457,325 @@
       1
     ]
   },
+  "801130": {
+    "desc": "When the battle starts: summons $1 Phantoms of Rodney on the battlefield that attack enemies (the Phantoms inherit some of this ship's stats; the amount of stats inherited is based on the skill's level). Every 12s: all present Rodneys fire a $1 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 801130,
+    "max_level": 10,
+    "name": "My Phantoms",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801140": {
+    "desc": "When the battle starts: increases this ship's FP, AA, and RLD by $1. When one of this ship's Phantoms is sunk: increases this ship's DMG dealt by $2 until the battle ends (can be stacked up to 2 times).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ]
+    ],
+    "id": 801140,
+    "max_level": 10,
+    "name": "Rodney's Prayer",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801150": {
+    "desc": "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). When one of this ship's Phantoms is sunk: recovers 5.0% of this ship's max HP.",
+    "desc_add": [
+      [
+        [
+          "50.0%",
+          "+3.3%"
+        ],
+        [
+          "53.3%",
+          "+3.3%"
+        ],
+        [
+          "56.6%",
+          "+3.3%"
+        ],
+        [
+          "59.9%",
+          "+3.3%"
+        ],
+        [
+          "63.2%",
+          "+3.3%"
+        ],
+        [
+          "66.5%",
+          "+3.3%"
+        ],
+        [
+          "69.8%",
+          "+3.3%"
+        ],
+        [
+          "73.1%",
+          "+3.3%"
+        ],
+        [
+          "76.4%",
+          "+3.6%"
+        ],
+        [
+          "80.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "50.0%",
+        "80.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 801150,
+    "max_level": 10,
+    "name": "Demise's Arrival",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801161": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801161,
+    "max_level": 1,
+    "name": "Framework of Logic - Rodney",
+    "system_transform": {
+      "51": 801165
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801162": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801162,
+    "max_level": 1,
+    "name": "Framework of Logic - Rodney",
+    "system_transform": {
+      "51": 801167
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801165": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801165,
+    "max_level": 1,
+    "name": "Framework of Logic - Rodney",
+    "system_transform": {
+      "51": 801165
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801167": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801167,
+    "max_level": 1,
+    "name": "Framework of Logic - Rodney",
+    "system_transform": {
+      "51": 801167
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "901010": {
     "desc": "The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
     "desc_add": [],
