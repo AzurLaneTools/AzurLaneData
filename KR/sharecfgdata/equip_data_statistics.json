@@ -120877,6 +120877,57 @@
       61602
     ]
   },
+  "80201": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "스킬 탄막",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 80201,
+    "label": [],
+    "name": "专属弹幕-火力I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "<[NA]>",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      170401
+    ]
+  },
+  "80202": {
+    "base": 80201,
+    "hidden_skill_id": [],
+    "id": 80202,
+    "name": "专属弹幕-火力II",
+    "weapon_id": [
+      170402
+    ]
+  },
   "85000": {
     "ammo": 3,
     "ammo_icon": [
@@ -122557,8 +122608,7 @@
     "label": [
       "SN",
       "BB",
-      "MG",
-      "AP"
+      "MG"
     ],
     "name": "B-37 3연장 406mm 주포 Mk-1",
     "nationality": 7,
@@ -122670,6 +122720,180 @@
     "id": 85330,
     "weapon_id": [
       85330
+    ]
+  },
+  "85340": {
+    "ammo": 1,
+    "ammo_icon": [
+      2
+    ],
+    "ammo_info": [
+      [
+        2,
+        1565
+      ]
+    ],
+    "attribute_2": "cannon",
+    "damage": "72 x 3",
+    "descrip": "소비에츠키 소유즈형 전함에 장착하는 406mm 3연장 주포",
+    "equip_info": [
+      1,
+      2,
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "85300",
+    "id": 85340,
+    "label": [
+      "SN",
+      "BB",
+      "MG",
+      "AP"
+    ],
+    "name": "B-37 3연장 406mm 주포 Mk-1",
+    "nationality": 7,
+    "part_main": [
+      4,
+      5,
+      10,
+      13
+    ],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "speciality": "<[VOL]>",
+    "tech": 3,
+    "torpedo_ammo": 0,
+    "type": 4,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      85340
+    ]
+  },
+  "85341": {
+    "base": 85340,
+    "damage": "81 x 3",
+    "hidden_skill_id": [],
+    "id": 85341,
+    "weapon_id": [
+      85341
+    ]
+  },
+  "85342": {
+    "base": 85340,
+    "damage": "89 x 3",
+    "hidden_skill_id": [],
+    "id": 85342,
+    "weapon_id": [
+      85342
+    ]
+  },
+  "85343": {
+    "base": 85340,
+    "damage": "99 x 3",
+    "hidden_skill_id": [],
+    "id": 85343,
+    "weapon_id": [
+      85343
+    ]
+  },
+  "85344": {
+    "base": 85340,
+    "damage": "108 x 3",
+    "hidden_skill_id": [],
+    "id": 85344,
+    "weapon_id": [
+      85344
+    ]
+  },
+  "85345": {
+    "base": 85340,
+    "damage": "118 x 3",
+    "hidden_skill_id": [],
+    "id": 85345,
+    "weapon_id": [
+      85345
+    ]
+  },
+  "85346": {
+    "base": 85340,
+    "damage": "128 x 3",
+    "hidden_skill_id": [],
+    "id": 85346,
+    "weapon_id": [
+      85346
+    ]
+  },
+  "85347": {
+    "base": 85340,
+    "damage": "136 x 3",
+    "hidden_skill_id": [],
+    "id": 85347,
+    "weapon_id": [
+      85347
+    ]
+  },
+  "85348": {
+    "base": 85340,
+    "damage": "145 x 3",
+    "hidden_skill_id": [],
+    "id": 85348,
+    "weapon_id": [
+      85348
+    ]
+  },
+  "85349": {
+    "base": 85340,
+    "damage": "155 x 3",
+    "hidden_skill_id": [],
+    "id": 85349,
+    "weapon_id": [
+      85349
+    ]
+  },
+  "85350": {
+    "base": 85340,
+    "damage": "165 x 3",
+    "hidden_skill_id": [],
+    "id": 85350,
+    "weapon_id": [
+      85350
+    ]
+  },
+  "85351": {
+    "anti_siren": 100,
+    "base": 85340,
+    "damage": "165 x 3",
+    "hidden_skill_id": [],
+    "id": 85351,
+    "weapon_id": [
+      85351
+    ]
+  },
+  "85352": {
+    "anti_siren": 200,
+    "base": 85340,
+    "damage": "165 x 3",
+    "hidden_skill_id": [],
+    "id": 85352,
+    "weapon_id": [
+      85352
+    ]
+  },
+  "85353": {
+    "anti_siren": 300,
+    "base": 85340,
+    "damage": "165 x 3",
+    "hidden_skill_id": [],
+    "id": 85353,
+    "weapon_id": [
+      85353
     ]
   },
   "85360": {
@@ -142786,6 +143010,107 @@
     "value_1": "28",
     "value_2": 21
   },
+  "150260": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "attribute_1": "durability",
+    "descrip": "세상을 도시 하나로 응축하고, 도시로 세상 하나를 만든다. 하늘로 오르는 비결은 \"상자\"에 있나니…",
+    "equip_info": [
+      6
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "150260",
+    "id": 150260,
+    "label": [
+      "DEV"
+    ],
+    "name": "어센션 박스",
+    "nationality": 0,
+    "part_main": [],
+    "part_sub": [],
+    "property_rate": [],
+    "rarity": 4,
+    "skill_id": [
+      60530
+    ],
+    "speciality": "<[NA]>",
+    "tech": 0,
+    "torpedo_ammo": 0,
+    "type": 10,
+    "value_1": "200",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": []
+  },
+  "150261": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150261,
+    "value_1": "230"
+  },
+  "150262": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150262,
+    "value_1": "260"
+  },
+  "150263": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150263,
+    "value_1": "290"
+  },
+  "150264": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150264,
+    "value_1": "320"
+  },
+  "150265": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150265,
+    "value_1": "350"
+  },
+  "150266": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150266,
+    "value_1": "380"
+  },
+  "150267": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150267,
+    "value_1": "410"
+  },
+  "150268": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150268,
+    "value_1": "440"
+  },
+  "150269": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150269,
+    "value_1": "470"
+  },
+  "150270": {
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150270,
+    "value_1": "500"
+  },
+  "150271": {
+    "anti_siren": 100,
+    "base": 150260,
+    "hidden_skill_id": [],
+    "id": 150271,
+    "value_1": "530"
+  },
   "170001": {
     "ammo": 10,
     "ammo_icon": [],
@@ -143642,6 +143967,57 @@
     "name": "专属弹幕-基洛夫META II",
     "weapon_id": [
       61572
+    ]
+  },
+  "170411": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "스킬 탄막",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 170411,
+    "label": [],
+    "name": "专属弹幕-水星纪念METAI",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "<[NA]>",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      170411
+    ]
+  },
+  "170412": {
+    "base": 170411,
+    "hidden_skill_id": [],
+    "id": 170412,
+    "name": "专属弹幕-水星纪念METAII",
+    "weapon_id": [
+      170412
     ]
   },
   "594017": {
