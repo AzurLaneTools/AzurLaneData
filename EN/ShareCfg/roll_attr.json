@@ -8,7 +8,7 @@
   "2": {
     "ID": 2,
     "default_value": "Investigator",
-    "name": "Occupation",
+    "name": "Job",
     "random_value": []
   },
   "3": {
@@ -119,7 +119,7 @@
   "14": {
     "ID": 14,
     "default_value": "Expert",
-    "name": "Enamor",
+    "name": "Temptation",
     "random_value": [
       "Bad",
       "Novice",
@@ -130,7 +130,7 @@
   "15": {
     "ID": 15,
     "default_value": "Expert",
-    "name": "Lockpicking",
+    "name": "Lock Picking",
     "random_value": [
       "Bad",
       "Novice",
@@ -171,6 +171,3252 @@
       "Expert"
     ]
   },
+  "1001": {
+    "ID": 1001,
+    "default_value": "",
+    "name": "Name",
+    "random_value": ""
+  },
+  "1002": {
+    "ID": 1002,
+    "default_value": "1",
+    "name": "Level",
+    "random_value": [
+      1,
+      999
+    ]
+  },
+  "1003": {
+    "ID": 1003,
+    "default_value": "Commander",
+    "name": "Job",
+    "random_value": [
+      "Monster Hunter",
+      "Light Warrior",
+      "Mage",
+      "Warrior",
+      "Ranger",
+      "Hero",
+      "Knight",
+      "Dragon Knight",
+      "Shield Knight",
+      "Griffin Knight",
+      "Musketeer",
+      "Druid",
+      "Thief",
+      "Bounty Hunter",
+      "Assassin",
+      "Alchemist",
+      "Commander",
+      "Merchant",
+      "Lord",
+      "General",
+      "Villager",
+      "Teacher",
+      "Demon King",
+      "Demon General",
+      "Necromancer",
+      "Dark Knight",
+      "Devil Summoner",
+      "Passerby",
+      "Bouncer",
+      "Fighter",
+      "Blacksmith",
+      "Master Swordsmith",
+      "Death Knight",
+      "Sniper",
+      "Holy Knight",
+      "War Lord",
+      "Dancer",
+      "Blade Mage",
+      "Archmage",
+      "Potion Maker",
+      "King",
+      "World Guardian",
+      "Fishing Master",
+      "Master Chef",
+      "Pirate Captain",
+      "Intel Master",
+      "Guard",
+      "Alien",
+      "Sword Master",
+      "Grappler",
+      "Cleric",
+      "Monk",
+      "Stranger",
+      "Dragon Knight",
+      "Bard",
+      "Investigator",
+      "Archer",
+      "Lancer",
+      "Bow Gunner",
+      "Paladin"
+    ]
+  },
+  "1004": {
+    "ID": 1004,
+    "default_value": "Goddess of Luck and Riches",
+    "name": "Blessing",
+    "random_value": [
+      "Goddess of Beginnings and Ends",
+      "Goddess of Desserts and Tea Parties",
+      "Goddess of Steel and Dragons",
+      "Goddess of Fire and Purity",
+      "Goddess of Light and Justice",
+      "Goddess of Darkness and Conspiracy",
+      "Goddess of Unity and Toughness",
+      "Goddess of Peace and Protection",
+      "Goddess of Revivals and Baths",
+      "Goddess of Pioneering and Adventure",
+      "Goddess of Luck and Riches",
+      "Goddess of Order and Rules",
+      "Goddess of Wisdom",
+      "Goddess of War",
+      "Goddess of Joy"
+    ]
+  },
+  "2001": {
+    "ID": 2001,
+    "default_value": "100",
+    "name": "HP",
+    "random_value": [
+      1,
+      999999
+    ]
+  },
+  "2002": {
+    "ID": 2002,
+    "default_value": "9",
+    "name": "MP",
+    "random_value": [
+      1,
+      999999
+    ]
+  },
+  "2003": {
+    "ID": 2003,
+    "default_value": "50",
+    "name": "ATK",
+    "random_value": [
+      0,
+      9999
+    ]
+  },
+  "2004": {
+    "ID": 2004,
+    "default_value": "12",
+    "name": "DEF",
+    "random_value": [
+      0,
+      9999
+    ]
+  },
+  "2005": {
+    "ID": 2005,
+    "default_value": "11",
+    "name": "SPD",
+    "random_value": [
+      1,
+      999
+    ]
+  },
+  "2006": {
+    "ID": 2006,
+    "default_value": "750",
+    "name": "LCK",
+    "random_value": [
+      0,
+      999
+    ]
+  },
+  "3000": {
+    "ID": 3000,
+    "default_value": "C",
+    "name": "Throwing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3001": {
+    "ID": 3001,
+    "default_value": "B",
+    "name": "Sprinting",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3002": {
+    "ID": 3002,
+    "default_value": "SSS",
+    "name": "Seatide Horn",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3003": {
+    "ID": 3003,
+    "default_value": "SSS",
+    "name": "Battlefield Command",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3004": {
+    "ID": 3004,
+    "default_value": "SSS",
+    "name": "Info Recording",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3005": {
+    "ID": 3005,
+    "default_value": "SSS",
+    "name": "Info Analysis",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3006": {
+    "ID": 3006,
+    "default_value": "",
+    "name": "Fire Blast",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3007": {
+    "ID": 3007,
+    "default_value": "",
+    "name": "Icicle Crash",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3008": {
+    "ID": 3008,
+    "default_value": "",
+    "name": "Razor Wind",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3009": {
+    "ID": 3009,
+    "default_value": "",
+    "name": "Torrent",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3010": {
+    "ID": 3010,
+    "default_value": "",
+    "name": "Sandstorm",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3011": {
+    "ID": 3011,
+    "default_value": "",
+    "name": "Misty Veil",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3012": {
+    "ID": 3012,
+    "default_value": "",
+    "name": "Air Wave",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3013": {
+    "ID": 3013,
+    "default_value": "",
+    "name": "Poison Cloud",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3014": {
+    "ID": 3014,
+    "default_value": "",
+    "name": "Thunderstrike",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3015": {
+    "ID": 3015,
+    "default_value": "",
+    "name": "Time Freeze",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3016": {
+    "ID": 3016,
+    "default_value": "",
+    "name": "Meteor Fall",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3017": {
+    "ID": 3017,
+    "default_value": "",
+    "name": "Temptation",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3018": {
+    "ID": 3018,
+    "default_value": "",
+    "name": "Hypnosis",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3019": {
+    "ID": 3019,
+    "default_value": "",
+    "name": "Necromancy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3020": {
+    "ID": 3020,
+    "default_value": "",
+    "name": "Summon Sword",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3021": {
+    "ID": 3021,
+    "default_value": "",
+    "name": "Swordsmanship",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3022": {
+    "ID": 3022,
+    "default_value": "",
+    "name": "Holy Light",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3023": {
+    "ID": 3023,
+    "default_value": "",
+    "name": "Space Restriction",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3024": {
+    "ID": 3024,
+    "default_value": "",
+    "name": "Teleport",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3025": {
+    "ID": 3025,
+    "default_value": "",
+    "name": "Quickstep",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3026": {
+    "ID": 3026,
+    "default_value": "",
+    "name": "Go Through Walls",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3027": {
+    "ID": 3027,
+    "default_value": "",
+    "name": "Stealth Stance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3028": {
+    "ID": 3028,
+    "default_value": "",
+    "name": "Soundless Steps",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3029": {
+    "ID": 3029,
+    "default_value": "",
+    "name": "Chained Lightning",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3030": {
+    "ID": 3030,
+    "default_value": "",
+    "name": "Curing Light",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3031": {
+    "ID": 3031,
+    "default_value": "",
+    "name": "Illusions",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3032": {
+    "ID": 3032,
+    "default_value": "",
+    "name": "Soul Steal",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3033": {
+    "ID": 3033,
+    "default_value": "",
+    "name": "Force of Earth",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3034": {
+    "ID": 3034,
+    "default_value": "",
+    "name": "Mind Crush",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3035": {
+    "ID": 3035,
+    "default_value": "",
+    "name": "Greatsword Smash",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3036": {
+    "ID": 3036,
+    "default_value": "",
+    "name": "Summon Creature",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3037": {
+    "ID": 3037,
+    "default_value": "",
+    "name": "Puppeteering",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3038": {
+    "ID": 3038,
+    "default_value": "",
+    "name": "Werewolf Morph",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3039": {
+    "ID": 3039,
+    "default_value": "",
+    "name": "Vampire Morph",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3040": {
+    "ID": 3040,
+    "default_value": "",
+    "name": "Barrier",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3041": {
+    "ID": 3041,
+    "default_value": "",
+    "name": "Magic Barrier",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3042": {
+    "ID": 3042,
+    "default_value": "",
+    "name": "Force Exertion",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3043": {
+    "ID": 3043,
+    "default_value": "",
+    "name": "Telepathy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3044": {
+    "ID": 3044,
+    "default_value": "",
+    "name": "Dream Diving",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3045": {
+    "ID": 3045,
+    "default_value": "",
+    "name": "Self-Cloning",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3046": {
+    "ID": 3046,
+    "default_value": "",
+    "name": "Inner Beast",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3047": {
+    "ID": 3047,
+    "default_value": "",
+    "name": "Mind Swap",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3048": {
+    "ID": 3048,
+    "default_value": "",
+    "name": "Quick Heal",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3049": {
+    "ID": 3049,
+    "default_value": "",
+    "name": "Superarmor",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3050": {
+    "ID": 3050,
+    "default_value": "",
+    "name": "Gigantify",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3051": {
+    "ID": 3051,
+    "default_value": "",
+    "name": "Shrink",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3052": {
+    "ID": 3052,
+    "default_value": "",
+    "name": "Berserk",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3053": {
+    "ID": 3053,
+    "default_value": "",
+    "name": "Time Control",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3054": {
+    "ID": 3054,
+    "default_value": "",
+    "name": "Damage Transfer",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3055": {
+    "ID": 3055,
+    "default_value": "",
+    "name": "Terrify",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3056": {
+    "ID": 3056,
+    "default_value": "",
+    "name": "Soul Drain",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3057": {
+    "ID": 3057,
+    "default_value": "",
+    "name": "Curse",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3058": {
+    "ID": 3058,
+    "default_value": "",
+    "name": "Pure Silence",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3059": {
+    "ID": 3059,
+    "default_value": "",
+    "name": "Animal Whispering",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3060": {
+    "ID": 3060,
+    "default_value": "",
+    "name": "Clairvoyance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3061": {
+    "ID": 3061,
+    "default_value": "",
+    "name": "Xray Vision",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3062": {
+    "ID": 3062,
+    "default_value": "",
+    "name": "Nightmare",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3063": {
+    "ID": 3063,
+    "default_value": "",
+    "name": "Turn Transparent",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3064": {
+    "ID": 3064,
+    "default_value": "",
+    "name": "Memory Manipulation",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3065": {
+    "ID": 3065,
+    "default_value": "",
+    "name": "Purification",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3066": {
+    "ID": 3066,
+    "default_value": "",
+    "name": "Black Hole",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3067": {
+    "ID": 3067,
+    "default_value": "",
+    "name": "Petrification",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3068": {
+    "ID": 3068,
+    "default_value": "",
+    "name": "Summon Mount",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3069": {
+    "ID": 3069,
+    "default_value": "",
+    "name": "Trading",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3070": {
+    "ID": 3070,
+    "default_value": "",
+    "name": "Brawling",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3071": {
+    "ID": 3071,
+    "default_value": "",
+    "name": "Negotiating",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3072": {
+    "ID": 3072,
+    "default_value": "",
+    "name": "First Aid",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3073": {
+    "ID": 3073,
+    "default_value": "",
+    "name": "Riding",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3074": {
+    "ID": 3074,
+    "default_value": "",
+    "name": "Health Recovery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3075": {
+    "ID": 3075,
+    "default_value": "",
+    "name": "Astronomy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3076": {
+    "ID": 3076,
+    "default_value": "",
+    "name": "Jurisprudence",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3077": {
+    "ID": 3077,
+    "default_value": "",
+    "name": "Pharmacology",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3078": {
+    "ID": 3078,
+    "default_value": "",
+    "name": "Pharmaceutics",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3079": {
+    "ID": 3079,
+    "default_value": "",
+    "name": "Machine Mechanic",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3080": {
+    "ID": 3080,
+    "default_value": "",
+    "name": "Fishing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3081": {
+    "ID": 3081,
+    "default_value": "",
+    "name": "Cooking",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3082": {
+    "ID": 3082,
+    "default_value": "",
+    "name": "Noble Etiquette",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3083": {
+    "ID": 3083,
+    "default_value": "",
+    "name": "Swimming",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3084": {
+    "ID": 3084,
+    "default_value": "",
+    "name": "Weapon Maintenance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3085": {
+    "ID": 3085,
+    "default_value": "",
+    "name": "Magic Tools Maintenance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3086": {
+    "ID": 3086,
+    "default_value": "",
+    "name": "Armor Maintenance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3087": {
+    "ID": 3087,
+    "default_value": "",
+    "name": "Weapon Making",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3088": {
+    "ID": 3088,
+    "default_value": "",
+    "name": "Gem Appraising",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3089": {
+    "ID": 3089,
+    "default_value": "",
+    "name": "Scroll Making",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3090": {
+    "ID": 3090,
+    "default_value": "",
+    "name": "Potion Making",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3091": {
+    "ID": 3091,
+    "default_value": "",
+    "name": "Fast Talking",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3092": {
+    "ID": 3092,
+    "default_value": "",
+    "name": "Arrow Making",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3093": {
+    "ID": 3093,
+    "default_value": "",
+    "name": "Solidify",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3094": {
+    "ID": 3094,
+    "default_value": "",
+    "name": "Sonic Boom",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3095": {
+    "ID": 3095,
+    "default_value": "",
+    "name": "Shadow Shield",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3096": {
+    "ID": 3096,
+    "default_value": "",
+    "name": "Magic Missile",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3097": {
+    "ID": 3097,
+    "default_value": "",
+    "name": "Enchant Spell",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3098": {
+    "ID": 3098,
+    "default_value": "",
+    "name": "Bread Making",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3099": {
+    "ID": 3099,
+    "default_value": "",
+    "name": "Revive Corpse",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3100": {
+    "ID": 3100,
+    "default_value": "",
+    "name": "Ghost Manipulation",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3101": {
+    "ID": 3101,
+    "default_value": "",
+    "name": "Blood Erosion",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3102": {
+    "ID": 3102,
+    "default_value": "",
+    "name": "Diplomacy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3103": {
+    "ID": 3103,
+    "default_value": "",
+    "name": "CQC",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3104": {
+    "ID": 3104,
+    "default_value": "",
+    "name": "Beast Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3105": {
+    "ID": 3105,
+    "default_value": "",
+    "name": "Drawing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3106": {
+    "ID": 3106,
+    "default_value": "",
+    "name": "Gardening",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3107": {
+    "ID": 3107,
+    "default_value": "",
+    "name": "Lock Picking",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3108": {
+    "ID": 3108,
+    "default_value": "",
+    "name": "Trap Setting",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3109": {
+    "ID": 3109,
+    "default_value": "",
+    "name": "Archeology",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3110": {
+    "ID": 3110,
+    "default_value": "",
+    "name": "Architecture",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3111": {
+    "ID": 3111,
+    "default_value": "",
+    "name": "History",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3112": {
+    "ID": 3112,
+    "default_value": "",
+    "name": "Linguistics",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3113": {
+    "ID": 3113,
+    "default_value": "",
+    "name": "Instrument Playing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3114": {
+    "ID": 3114,
+    "default_value": "",
+    "name": "Chiseling",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3115": {
+    "ID": 3115,
+    "default_value": "",
+    "name": "Sewing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3116": {
+    "ID": 3116,
+    "default_value": "",
+    "name": "Info Gathering",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3117": {
+    "ID": 3117,
+    "default_value": "",
+    "name": "Ceramics",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3118": {
+    "ID": 3118,
+    "default_value": "",
+    "name": "Prediction",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3119": {
+    "ID": 3119,
+    "default_value": "",
+    "name": "Durability Boost",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3120": {
+    "ID": 3120,
+    "default_value": "",
+    "name": "Nerves of Steel",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3121": {
+    "ID": 3121,
+    "default_value": "",
+    "name": "Liquid Control",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3122": {
+    "ID": 3122,
+    "default_value": "",
+    "name": "Metal Control",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3123": {
+    "ID": 3123,
+    "default_value": "",
+    "name": "Object Cloning",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3124": {
+    "ID": 3124,
+    "default_value": "",
+    "name": "Gambling",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3125": {
+    "ID": 3125,
+    "default_value": "",
+    "name": "Domain Expansion",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3126": {
+    "ID": 3126,
+    "default_value": "",
+    "name": "Plate Armor Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3127": {
+    "ID": 3127,
+    "default_value": "",
+    "name": "Laser Armor Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3128": {
+    "ID": 3128,
+    "default_value": "",
+    "name": "Heavy Armor Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3129": {
+    "ID": 3129,
+    "default_value": "",
+    "name": "Longsword Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3130": {
+    "ID": 3130,
+    "default_value": "",
+    "name": "Bow Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3131": {
+    "ID": 3131,
+    "default_value": "",
+    "name": "Bow Gun Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3132": {
+    "ID": 3132,
+    "default_value": "",
+    "name": "Pike Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3133": {
+    "ID": 3133,
+    "default_value": "",
+    "name": "Staff Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3134": {
+    "ID": 3134,
+    "default_value": "",
+    "name": "Axe Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3135": {
+    "ID": 3135,
+    "default_value": "",
+    "name": "Two-Handed Sword Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3136": {
+    "ID": 3136,
+    "default_value": "",
+    "name": "Dagger Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3137": {
+    "ID": 3137,
+    "default_value": "",
+    "name": "Claw Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3138": {
+    "ID": 3138,
+    "default_value": "",
+    "name": "Hammer Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3139": {
+    "ID": 3139,
+    "default_value": "",
+    "name": "Morning Star Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3140": {
+    "ID": 3140,
+    "default_value": "",
+    "name": "Scissors Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3141": {
+    "ID": 3141,
+    "default_value": "",
+    "name": "Long Staff Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3142": {
+    "ID": 3142,
+    "default_value": "",
+    "name": "Musket Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3143": {
+    "ID": 3143,
+    "default_value": "",
+    "name": "Crossbow Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3144": {
+    "ID": 3144,
+    "default_value": "",
+    "name": "Halberd Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3145": {
+    "ID": 3145,
+    "default_value": "",
+    "name": "Rapier Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3146": {
+    "ID": 3146,
+    "default_value": "",
+    "name": "Sheath Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3147": {
+    "ID": 3147,
+    "default_value": "",
+    "name": "Bandage Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3148": {
+    "ID": 3148,
+    "default_value": "",
+    "name": "Fishing Rod Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3149": {
+    "ID": 3149,
+    "default_value": "",
+    "name": "Chainsword Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3150": {
+    "ID": 3150,
+    "default_value": "",
+    "name": "Horned Helmet Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3151": {
+    "ID": 3151,
+    "default_value": "",
+    "name": "Hair Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3152": {
+    "ID": 3152,
+    "default_value": "",
+    "name": "Blunt Weapon Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3153": {
+    "ID": 3153,
+    "default_value": "",
+    "name": "Slingshot Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3154": {
+    "ID": 3154,
+    "default_value": "",
+    "name": "Stick Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3155": {
+    "ID": 3155,
+    "default_value": "",
+    "name": "Naval Saber Mastery",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3156": {
+    "ID": 3156,
+    "default_value": "",
+    "name": "Throwing",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3157": {
+    "ID": 3157,
+    "default_value": "",
+    "name": "Sprinting",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3158": {
+    "ID": 3158,
+    "default_value": "",
+    "name": "Battlefield Command",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3159": {
+    "ID": 3159,
+    "default_value": "",
+    "name": "Info Recording",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3160": {
+    "ID": 3160,
+    "default_value": "",
+    "name": "Info Analysis",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3161": {
+    "ID": 3161,
+    "default_value": "",
+    "name": "Poison Resistance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3162": {
+    "ID": 3162,
+    "default_value": "",
+    "name": "Curse Resistance",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3163": {
+    "ID": 3163,
+    "default_value": "",
+    "name": "Dragon Morph",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3164": {
+    "ID": 3164,
+    "default_value": "",
+    "name": "Blessing of the Beginning",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3165": {
+    "ID": 3165,
+    "default_value": "",
+    "name": "Blessing of the End",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3166": {
+    "ID": 3166,
+    "default_value": "",
+    "name": "Blessing of the Tea Party",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3167": {
+    "ID": 3167,
+    "default_value": "",
+    "name": "Blessing of Desserts",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3168": {
+    "ID": 3168,
+    "default_value": "",
+    "name": "Blessing of Steel",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3169": {
+    "ID": 3169,
+    "default_value": "",
+    "name": "Blessing of the Dragon",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3170": {
+    "ID": 3170,
+    "default_value": "",
+    "name": "Blessing of Fire",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3171": {
+    "ID": 3171,
+    "default_value": "",
+    "name": "Blessing of Purity",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3172": {
+    "ID": 3172,
+    "default_value": "",
+    "name": "Blessing of Hope",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3173": {
+    "ID": 3173,
+    "default_value": "",
+    "name": "Blessing of Justice",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3174": {
+    "ID": 3174,
+    "default_value": "",
+    "name": "Blessing of Darkness",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3175": {
+    "ID": 3175,
+    "default_value": "",
+    "name": "Blessing of Conspiracy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3176": {
+    "ID": 3176,
+    "default_value": "",
+    "name": "Blessing of Toughness",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3177": {
+    "ID": 3177,
+    "default_value": "",
+    "name": "Blessing of Unity",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3178": {
+    "ID": 3178,
+    "default_value": "",
+    "name": "Blessing of Peace",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3179": {
+    "ID": 3179,
+    "default_value": "",
+    "name": "Blessing of Protection",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3180": {
+    "ID": 3180,
+    "default_value": "",
+    "name": "Blessing of Revival",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3181": {
+    "ID": 3181,
+    "default_value": "",
+    "name": "Blessing of Baths",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3182": {
+    "ID": 3182,
+    "default_value": "",
+    "name": "Blessing of Pioneering",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3183": {
+    "ID": 3183,
+    "default_value": "",
+    "name": "Blessing of Adventure",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3184": {
+    "ID": 3184,
+    "default_value": "",
+    "name": "Blessing of Luck",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3185": {
+    "ID": 3185,
+    "default_value": "",
+    "name": "Blessing of Riches",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3186": {
+    "ID": 3186,
+    "default_value": "",
+    "name": "Blessing of Order",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3187": {
+    "ID": 3187,
+    "default_value": "",
+    "name": "Blessing of Rules",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3188": {
+    "ID": 3188,
+    "default_value": "",
+    "name": "Blessing of Wisdom",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3189": {
+    "ID": 3189,
+    "default_value": "",
+    "name": "Blessing of War",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3190": {
+    "ID": 3190,
+    "default_value": "",
+    "name": "Blessing of Joy",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3192": {
+    "ID": 3192,
+    "default_value": "C",
+    "name": "Flute of Time",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
+  "3193": {
+    "ID": 3193,
+    "default_value": "SSS",
+    "name": "Blessing of Hope",
+    "random_value": [
+      "F",
+      "E",
+      "D",
+      "C",
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ]
+  },
   "all": [
     1,
     2,
@@ -189,6 +3435,209 @@
     15,
     16,
     17,
-    18
+    18,
+    1001,
+    1002,
+    1003,
+    1004,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047,
+    3048,
+    3049,
+    3050,
+    3051,
+    3052,
+    3053,
+    3054,
+    3055,
+    3056,
+    3057,
+    3058,
+    3059,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064,
+    3065,
+    3066,
+    3067,
+    3068,
+    3069,
+    3070,
+    3071,
+    3072,
+    3073,
+    3074,
+    3075,
+    3076,
+    3077,
+    3078,
+    3079,
+    3080,
+    3081,
+    3082,
+    3083,
+    3084,
+    3085,
+    3086,
+    3087,
+    3088,
+    3089,
+    3090,
+    3091,
+    3092,
+    3093,
+    3094,
+    3095,
+    3096,
+    3097,
+    3098,
+    3099,
+    3100,
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106,
+    3107,
+    3108,
+    3109,
+    3110,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    3118,
+    3119,
+    3120,
+    3121,
+    3122,
+    3123,
+    3124,
+    3125,
+    3126,
+    3127,
+    3128,
+    3129,
+    3130,
+    3131,
+    3132,
+    3133,
+    3134,
+    3135,
+    3136,
+    3137,
+    3138,
+    3139,
+    3140,
+    3141,
+    3142,
+    3143,
+    3144,
+    3145,
+    3146,
+    3147,
+    3148,
+    3149,
+    3150,
+    3151,
+    3152,
+    3153,
+    3154,
+    3155,
+    3156,
+    3157,
+    3158,
+    3159,
+    3160,
+    3161,
+    3162,
+    3163,
+    3164,
+    3165,
+    3166,
+    3167,
+    3168,
+    3169,
+    3170,
+    3171,
+    3172,
+    3173,
+    3174,
+    3175,
+    3176,
+    3177,
+    3178,
+    3179,
+    3180,
+    3181,
+    3182,
+    3183,
+    3184,
+    3185,
+    3186,
+    3187,
+    3188,
+    3189,
+    3190,
+    3192,
+    3193
   ]
 }

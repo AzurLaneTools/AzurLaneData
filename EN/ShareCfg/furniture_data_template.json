@@ -6388,6 +6388,49 @@
     "themeId": 0,
     "type": 7
   },
+  "273": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Now you can have the Demon King's castle in your own home! ...Does any adventurer out there even want a trophy like this?\nObtained from the \"From Zero to Hero\" event.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "From Zero to Hero",
+    "icon": "maoxianxunzhangicon",
+    "id": 273,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "End of Adventure Trophy",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "maoxianxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -115338,6 +115381,80 @@
     "themeId": 0,
     "type": 7
   },
+  "100050": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Flawless protection or your money back! (Assuming the claimant survived.)",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "pingzhanglichangicon",
+    "id": 100050,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Shield Generator (Showcase Mode)",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "pingzhanglichangB",
+        "normal"
+      ],
+      [
+        "pingzhanglichangT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -127140,6 +127257,844 @@
     "spine_extra": "",
     "tag": 7,
     "themeId": 108,
+    "type": 6
+  },
+  "309001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's not partially unfloored, it's an open layout!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanmwicon",
+    "id": 309001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Magic Cabin Flooring",
+    "offset": [],
+    "picture": "mw/dibanmw",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 109,
+    "type": 4
+  },
+  "309002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "The windows and balcony come free of charge.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbimwicon",
+    "id": 309002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Magic Cabin Wallpaper",
+    "offset": [],
+    "picture": "mw/qiangbimw",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 109,
+    "type": 1
+  },
+  "309101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It burns with a cozy flame. So soothing, it makes even mandrakes quiet down!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bilumwicon",
+    "id": 309101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Magic Furnace",
+    "offset": [],
+    "picture": "mw/bilumw",
+    "rarity": 3,
+    "size": [
+      5,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A truly comfortable bed. One night in it is sure to recover all your HP.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuangmwicon",
+    "id": 309102,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -12.5,
+          36.9
+        ],
+        [
+          -1,
+          1
+        ],
+        "mw/chuangmw_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Deep Woods Bed",
+    "offset": [],
+    "picture": "mw/chuangmw",
+    "rarity": 3,
+    "size": [
+      4,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's like being in a rocking crib again. Puts you right to sleep... as if by magic.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "diaoyimwicon",
+    "id": 309103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Cozy Hanging Chair",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      4,
+      5
+    ],
+    "spine": [
+      [
+        "diaoyimw",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "A magic lantern that goes on the floor. Uses mana as a fuel source.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "didengmwicon",
+    "id": 309104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Vine Lantern",
+    "offset": [],
+    "picture": "mw/didengmw",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A bunch of vines and ivies treated with magic. Won't sting your feet... probably.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditanmwicon",
+    "id": 309105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Floral Carpet",
+    "offset": [],
+    "picture": "mw/ditanmw",
+    "rarity": 2,
+    "size": [
+      7,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 5
+  },
+  "309106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Creeper vines that have been enchanted with an illumination spell. Works great as a floor lamp when you don't have electricity.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huadengmwicon",
+    "id": 309106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Flower & Ivy Lamp",
+    "offset": [],
+    "picture": "mw/huadengmw",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's like being in a rocking crib again. Puts you right to sleep... as if by magic.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "huajiamwicon",
+    "id": 309107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Cozy Hanging Chair",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine": [
+      [
+        "huajiamw",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "A plant that glows with a faint light. Useful as a nightlight.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huamwicon",
+    "id": 309108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Glowing Plant",
+    "offset": [],
+    "picture": "mw/huamw",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "What to make, what to make... Maybe a healing potion? A confusion potion?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiazimwicon",
+    "id": 309109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Alchemist's Shelf",
+    "offset": [],
+    "picture": "mw/jiazimw",
+    "rarity": 2,
+    "size": [
+      4,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It's filled with secrets nobody ought to know. Dare you open it?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "mofashumwicon",
+    "id": 309110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Forbidden Grimoire",
+    "offset": [],
+    "picture": "mw/mofashumw",
+    "rarity": 4,
+    "size": [
+      6,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A couch designed after a sorcer manjuu. Soft!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shafamwicon",
+    "id": 309111,
+    "interAction": [
+      [
+        "sit",
+        [
+          32.8,
+          -17
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Magic Manjuu Couch",
+    "offset": [],
+    "picture": "mw/shafamw",
+    "rarity": 2,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "It has books on everything from making healing tonics to confusion potions.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shuguimwicon",
+    "id": 309112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Pharmaceutics Bookshelf",
+    "offset": [],
+    "picture": "mw/shuguimw",
+    "rarity": 2,
+    "size": [
+      5,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Where does it take you? To a faraway castle, or perhaps to a room full of treasure?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "chuansongtaimwicon",
+    "id": 309113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Teleportation Circle",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "chuansongtaimwB",
+        "normal"
+      ],
+      [
+        "chuansongtaimwT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ],
+          [
+            "walk"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 109,
+    "type": 2
+  },
+  "309114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "A bathtub with an oddly-colored liquid floating inside. Who knows, maybe it's good for your skin?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yugangmwicon",
+    "id": 309114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Potion Cauldron",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "yugangmwB",
+        "normal"
+      ],
+      [
+        "yugangmwT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "wash"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          -3,
+          70.5
+        ],
+        [
+          274.31,
+          254
+        ],
+        "mw/yugangmw_mask"
+      ],
+      [
+        5.3,
+        -151
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 109,
+    "type": 2
+  },
+  "309301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Look at the time! I'm stumped!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhongmwicon",
+    "id": 309301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Stump Clock",
+    "offset": [],
+    "picture": "mw/zhongmw",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 109,
+    "type": 6
+  },
+  "309302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "The smell of flowers and the chirping of birds provide a soothing backdrop.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuzimwicon",
+    "id": 309302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "Pillar Perch",
+    "offset": [],
+    "picture": "mw/zhuzimw",
+    "rarity": 1,
+    "size": [
+      2,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 109,
     "type": 6
   }
 }
