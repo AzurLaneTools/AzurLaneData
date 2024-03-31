@@ -113,7 +113,10 @@
     "param": "0",
     "pic": "event_aprilFool",
     "text_pic": "text_event_aprilFool",
-    "time": "stop",
+    "time": [
+      "default",
+      5267
+    ],
     "type": 0
   },
   "80": {
@@ -168,6 +171,17 @@
     "time": "stop",
     "type": 2
   },
+  "102": {
+    "group_id": 4,
+    "id": 102,
+    "name": "event_boss_single",
+    "order": 1,
+    "param": "0",
+    "pic": "event_map",
+    "text_pic": "text_event_anotherWorld",
+    "time": "stop",
+    "type": 0
+  },
   "1000": {
     "group_id": 5,
     "id": 1000,
@@ -195,7 +209,8 @@
     1000,
     90,
     100,
-    101
+    101,
+    102
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -214,6 +229,9 @@
     ],
     "event_boss": [
       30
+    ],
+    "event_boss_single": [
+      102
     ],
     "event_escort": [
       40
