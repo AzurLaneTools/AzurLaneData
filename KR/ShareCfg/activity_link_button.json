@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "0",
+    "param": "5260",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5233
+      5260
     ],
     "type": 3
   },
@@ -43,9 +43,7 @@
     "param": "0",
     "pic": "event_map",
     "text_pic": "text_event_map",
-    "time": [
-      "default"
-    ],
+    "time": "stop",
     "type": 0
   },
   "20": {
@@ -54,15 +52,15 @@
     "name": "event_minigame",
     "order": 1,
     "param": [
-      "SPRING_FESTIVAL_BACKHILL_2024"
+      "OTHERWORLD_BACKHILL"
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      5193
+      5260
     ],
-    "type": 0
+    "type": 2
   },
   "30": {
     "group_id": 3,
@@ -179,6 +177,20 @@
     ],
     "type": 2
   },
+  "102": {
+    "group_id": 4,
+    "id": 102,
+    "name": "event_boss_single",
+    "order": 1,
+    "param": "0",
+    "pic": "event_map",
+    "text_pic": "text_event_anotherWorld",
+    "time": [
+      "default",
+      5260
+    ],
+    "type": 0
+  },
   "all": [
     1,
     2,
@@ -192,7 +204,8 @@
     80,
     90,
     100,
-    101
+    101,
+    102
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -211,6 +224,9 @@
     ],
     "event_boss": [
       30
+    ],
+    "event_boss_single": [
+      102
     ],
     "event_escort": [
       40

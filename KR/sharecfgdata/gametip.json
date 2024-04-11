@@ -142,6 +142,18 @@
       }
     }
   },
+  "Announcements_Donotshow": {
+    "tip": "금일 더 이상 표시하지 않음"
+  },
+  "Announcements_Event_Notice": {
+    "tip": "이벤트 공지"
+  },
+  "Announcements_News": {
+    "tip": "최신 정보"
+  },
+  "Announcements_System_Notice": {
+    "tip": "시스템 공지"
+  },
   "BackYard_collection_be_delete_tip": {
     "tip": "삭제된 테마를 즐겨찾기 목록에서 제거했습니다. "
   },
@@ -525,6 +537,30 @@
   },
   "ad_4": {
     "tip": "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 님이 <material=underline><color=#FFDE38FF>$3</color></material> 도전에 초대하였습니다."
+  },
+  "adventure_award_end_tip": {
+    "tip": "※5.1(수) 24시까지 수령 가능"
+  },
+  "adventure_award_title": {
+    "tip": "모험 레벨 보상"
+  },
+  "adventure_get_all": {
+    "tip": "전부 수령"
+  },
+  "adventure_lv_title": {
+    "tip": "모험 레벨:"
+  },
+  "adventure_progress_title": {
+    "tip": "다음 업그레이드 까지:"
+  },
+  "adventure_record_grade_title": {
+    "tip": "모험자 평가:"
+  },
+  "adventure_record_title": {
+    "tip": "모험 기록:"
+  },
+  "adventure_unlock_tip": {
+    "tip": "<color=#92fc63>이전 난이도의 스테이지 클리어 후 </color> 개방 가능"
   },
   "ai_change_1": {
     "tip": "잠수함대 - 지원 대기 태세로 변경되었습니다."
@@ -6089,6 +6125,21 @@
   "group_prefs_switch_tip": {
     "tip": "디폴트 다운로드 양식이 변경되었습니다. 다음 부팅 시 적용됩니다."
   },
+  "guardian_active_tip": {
+    "tip": "적용 중"
+  },
+  "guardian_cancel_btn": {
+    "tip": "해제"
+  },
+  "guardian_select_title": {
+    "tip": "수호신 선택"
+  },
+  "guardian_sure_btn": {
+    "tip": "장비"
+  },
+  "guardian_sure_limit_tip": {
+    "tip": "수호신 장비 수량 상한 도잘"
+  },
   "guidl_event_ship_in_event": {
     "tip": "다른 임무를 수행 중이므로 선택할 수 없습니다."
   },
@@ -7374,7 +7425,7 @@
           "posY": -55,
           "scale": 1.5
         },
-        "info": "                                         자율전투 시 이렇게 될 때도......",
+        "info": "자율전투 시 이렇게 될 때도......",
         "line": true
       },
       "disableScroll": true,
@@ -8468,7 +8519,7 @@
           "posY": -41,
           "scale": 1
         },
-        "info": "                                    더 이상 구입할 수 없습니다.",
+        "info": "더 이상 구입할 수 없습니다.",
         "line": true
       },
       "disableScroll": true,
@@ -12389,6 +12440,280 @@
       }
     ]
   },
+  "other_world_task_get": {
+    "tip": "수령"
+  },
+  "other_world_task_get_all": {
+    "tip": "전부 수령"
+  },
+  "other_world_task_go": {
+    "tip": "이동"
+  },
+  "other_world_task_got": {
+    "tip": "수령함"
+  },
+  "other_world_task_tag_all": {
+    "tip": "전부"
+  },
+  "other_world_task_tag_daily": {
+    "tip": "일일"
+  },
+  "other_world_task_tag_main": {
+    "tip": "메인 임무"
+  },
+  "other_world_task_title": {
+    "tip": "모험 의뢰판"
+  },
+  "other_world_task_type_daily": {
+    "tip": "일일 임무"
+  },
+  "other_world_task_type_main": {
+    "tip": "메인 임무"
+  },
+  "other_world_task_type_repeat": {
+    "tip": "중복 임무"
+  },
+  "other_world_temple_award": {
+    "tip": "보상 확인"
+  },
+  "other_world_temple_award_desc": {
+    "tip": "※이벤트 기간 동안 쥬쥬의 심신상에 공물을 바치면 푸짐한 보상과 수호신의 가호를 받을 수 있습니다."
+  },
+  "other_world_temple_award_last": {
+    "tip": "$1/$2 남음"
+  },
+  "other_world_temple_award_title_1": {
+    "tip": "힘의 신상의 은택"
+  },
+  "other_world_temple_award_title_2": {
+    "tip": "풍요의 신상의 은택"
+  },
+  "other_world_temple_award_title_3": {
+    "tip": "지혜의 인상의 은택"
+  },
+  "other_world_temple_char": {
+    "tip": "수호신 총람"
+  },
+  "other_world_temple_char_title": {
+    "tip": "수호신 총람"
+  },
+  "other_world_temple_got": {
+    "tip": "수령함"
+  },
+  "other_world_temple_lottery_all": {
+    "tip": "모든 보상 획득함"
+  },
+  "other_world_temple_pay": {
+    "tip": "$1회 기원"
+  },
+  "other_world_temple_progress": {
+    "tip": "$1한테 $2/$3회 바친 후 개방 가능"
+  },
+  "other_world_temple_tip": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help2",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help3",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help4",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help5",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help1",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "other_world_temple_toggle_1": {
+    "tip": "힘의 신상"
+  },
+  "other_world_temple_toggle_2": {
+    "tip": "풍요의 신상"
+  },
+  "other_world_temple_toggle_3": {
+    "tip": "지혜의 인상"
+  },
+  "otherworld_backhill_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help5",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "otherworld_map_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help5",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "otherworld_terminal_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help4",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help5",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help1",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help2",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/otherworld_help3",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "package_detail_tip": {
     "tip": "상세 확인"
   },
@@ -12409,6 +12734,21 @@
   },
   "pass_times": {
     "tip": "클리어 횟수 "
+  },
+  "personal_ability_title": {
+    "tip": "스킬"
+  },
+  "personal_info_title": {
+    "tip": "기본 정보"
+  },
+  "personal_property_title": {
+    "tip": "속성"
+  },
+  "personal_random": {
+    "tip": "랜덤 생성"
+  },
+  "personal_random_tip": {
+    "tip": "<color=#92fc63>스토리 모드</color> 완성 후 해제"
   },
   "pgs_binding_account": {
     "tip": "연동된 계정:"
@@ -16215,11 +16555,23 @@
   "techpackage_item_use_confirm": {
     "tip": "캐릭터 모두 획득함. 사용 시 다음 아이템을 획득합니다."
   },
+  "temple_consume_not_enough": {
+    "tip": "자원 부족"
+  },
   "ten_even_draw": {
     "tip": "$1회 보급"
   },
   "ten_even_draw_confirm": {
     "tip": "$1회 보급을 진행하시겠습니까?"
+  },
+  "terminal_adventure_title": {
+    "tip": "모험 데이터"
+  },
+  "terminal_guardian_title": {
+    "tip": "수호신"
+  },
+  "terminal_personal_title": {
+    "tip": "개인 정보"
   },
   "test_ship_intensify_tip": {
     "tip": "부린은 강화할 수 없습니다."
