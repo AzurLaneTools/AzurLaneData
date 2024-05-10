@@ -4285,6 +4285,65 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "102321": {
+    "breakout_id": 102322,
+    "breakout_view": "전탄 발사 스킬 습득 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 102321,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 10232,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      70121
+    ]
+  },
+  "102322": {
+    "breakout_id": 102323,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 102322,
+    "level": 30,
+    "pre_id": 102321,
+    "use_char": 10232,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      12100,
+      12100
+    ]
+  },
+  "102323": {
+    "breakout_id": 102324,
+    "breakout_view": "전탄 발사 탄막 강화 / 주포 보정 +15%",
+    "icon": "10001",
+    "id": 102323,
+    "level": 70,
+    "pre_id": 102322,
+    "use_char": 10232,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      70122
+    ]
+  },
+  "102324": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 102324,
+    "level": 0,
+    "pre_id": 102323,
+    "use_char": 10232,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "103011": {
     "breakout_id": 103012,
     "breakout_view": "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
@@ -15741,6 +15800,71 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "207141": {
+    "breakout_id": 207142,
+    "breakout_view": "뇌격기 수 +1 / 함재기 보정 +2%",
+    "icon": "10001",
+    "id": 207141,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 20714,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      60421,
+      54014
+    ]
+  },
+  "207142": {
+    "breakout_id": 207143,
+    "breakout_view": "격납고 용량 +1 / 전투기 수 +1 / 함재기 보정 +3%",
+    "icon": "10001",
+    "id": 207142,
+    "level": 30,
+    "pre_id": 207141,
+    "use_char": 20714,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      60422,
+      54014,
+      60422,
+      54014
+    ]
+  },
+  "207143": {
+    "breakout_id": 207144,
+    "breakout_view": "뇌격기 수 +1 / 함재기 보정 +5% / 전투기 슬롯에 폭격기 장착 가능",
+    "icon": "10001",
+    "id": 207143,
+    "level": 70,
+    "pre_id": 207142,
+    "use_char": 20714,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      60423,
+      54015,
+      60423,
+      54015
+    ]
+  },
+  "207144": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 207144,
+    "level": 0,
+    "pre_id": 207143,
+    "use_char": 20714,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "213011": {
     "breakout_id": 213012,
     "breakout_view": "부포 발사 수 +1 / 주포 효율 +5%",
@@ -20705,6 +20829,66 @@
     "use_item": [],
     "weapon_ids": []
   },
+  "302241": {
+    "breakout_id": 302242,
+    "breakout_view": "특수 탄막 스킬 습득 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 302241,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 30224,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      80251
+    ]
+  },
+  "302242": {
+    "breakout_id": 302243,
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+    "icon": "10001",
+    "id": 302242,
+    "level": 30,
+    "pre_id": 302241,
+    "use_char": 30224,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      107,
+      107
+    ]
+  },
+  "302243": {
+    "breakout_id": 302244,
+    "breakout_view": "전탄 발사 탄막 강화 / 어뢰 보정 +15%",
+    "icon": "10001",
+    "id": 302243,
+    "level": 70,
+    "pre_id": 302242,
+    "use_char": 30224,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      80252,
+      80253
+    ]
+  },
+  "302244": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 302244,
+    "level": 0,
+    "pre_id": 302243,
+    "use_char": 30224,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
   "303011": {
     "breakout_id": 303012,
     "breakout_view": "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
@@ -22144,6 +22328,69 @@
     "level": 0,
     "pre_id": 304073,
     "use_char": 30407,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "304081": {
+    "breakout_id": 304082,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 304081,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 30408,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      34000,
+      34000
+    ]
+  },
+  "304082": {
+    "breakout_id": 304083,
+    "breakout_view": "부포 포좌 +2 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 304082,
+    "level": 30,
+    "pre_id": 304081,
+    "use_char": 30408,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ]
+  },
+  "304083": {
+    "breakout_id": 304084,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +15%",
+    "icon": "10001",
+    "id": 304083,
+    "level": 70,
+    "pre_id": 304082,
+    "use_char": 30408,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      34000,
+      34000,
+      34000
+    ]
+  },
+  "304084": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 304084,
+    "level": 0,
+    "pre_id": 304083,
+    "use_char": 30408,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -24329,6 +24576,71 @@
     "level": 0,
     "pre_id": 307133,
     "use_char": 30713,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "307141": {
+    "breakout_id": 307142,
+    "breakout_view": "폭격기 수 +1 / 폭격기 보정 +5% / 전투기 슬롯 장착 가능 기종 오픈",
+    "icon": "10001",
+    "id": 307141,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 30714,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60561,
+      54014
+    ]
+  },
+  "307142": {
+    "breakout_id": 307143,
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +2 / 뇌격기 보정 +10%",
+    "icon": "10001",
+    "id": 307142,
+    "level": 30,
+    "pre_id": 307141,
+    "use_char": 30714,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60562,
+      54014,
+      60562,
+      54014
+    ]
+  },
+  "307143": {
+    "breakout_id": 307144,
+    "breakout_view": "함재기 수 +1 / 함재기 보정 +5%",
+    "icon": "10001",
+    "id": 307143,
+    "level": 70,
+    "pre_id": 307142,
+    "use_char": 30714,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60563,
+      54015,
+      60563,
+      54015
+    ]
+  },
+  "307144": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 307144,
+    "level": 0,
+    "pre_id": 307143,
+    "use_char": 30714,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -27785,6 +28097,65 @@
     "level": 0,
     "pre_id": 403143,
     "use_char": 40314,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "403151": {
+    "breakout_id": 403152,
+    "breakout_view": "특수 탄막 스킬 습득Ⅰ / 무기 보정 +2%",
+    "icon": "10001",
+    "id": 403151,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 40315,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      80231
+    ]
+  },
+  "403152": {
+    "breakout_id": 403153,
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 무기 보정 +3%",
+    "icon": "10001",
+    "id": 403152,
+    "level": 30,
+    "pre_id": 403151,
+    "use_char": 40315,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "403153": {
+    "breakout_id": 403154,
+    "breakout_view": "특수 탄막 스킬 강화 / 무기 보정 +5%",
+    "icon": "10001",
+    "id": 403153,
+    "level": 70,
+    "pre_id": 403152,
+    "use_char": 40315,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      80232
+    ]
+  },
+  "403154": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 403154,
+    "level": 0,
+    "pre_id": 403153,
+    "use_char": 40315,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
@@ -35661,6 +36032,65 @@
     "level": 0,
     "pre_id": 801083,
     "use_char": 80108,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "801091": {
+    "breakout_id": 801092,
+    "breakout_view": "특수 탄막 스킬 습득Ⅰ / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 801091,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 80109,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      80241
+    ]
+  },
+  "801092": {
+    "breakout_id": 801093,
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+    "icon": "10001",
+    "id": 801092,
+    "level": 30,
+    "pre_id": 801091,
+    "use_char": 80109,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "801093": {
+    "breakout_id": 801094,
+    "breakout_view": "특수 탄막 스킬 강화 / 무기 보정 +5%",
+    "icon": "10001",
+    "id": 801093,
+    "level": 70,
+    "pre_id": 801092,
+    "use_char": 80109,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      80242
+    ]
+  },
+  "801094": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 801094,
+    "level": 0,
+    "pre_id": 801093,
+    "use_char": 80109,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
