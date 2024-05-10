@@ -2512,7 +2512,7 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "Sovetskaya Belorussiya, Tallinn, and others added to standard build pool!"
+    "tip": "Little Renown and Amagi-chan added to the build pool!"
   },
   "buildship_light_tip": {
     "tip": "Kirov, Gremyashchy, Murmansk, and others added to standard build pool!"
@@ -2521,7 +2521,7 @@
     "tip": "Get Kronshtadt guaranteed with every 200 event builds (can be done up to 4 times)!"
   },
   "buildship_special_tip": {
-    "tip": "Princeton added to standard build pool!"
+    "tip": "Little Illustrious and Little Enterprise added to the build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -12279,6 +12279,9 @@
   "new_airi_error_code_100120": {
     "tip": "Login failed, IP is restricted"
   },
+  "new_airi_error_code_100121": {
+    "tip": "Guest login is not supported on PC client"
+  },
   "new_airi_error_code_100130": {
     "tip": "Login failed, UID is banned"
   },
@@ -12303,6 +12306,27 @@
   "new_airi_error_code_100200": {
     "tip": "The third party account is already bound with another UID"
   },
+  "new_airi_error_code_100201": {
+    "tip": "The Google Play Games account has been linked to another game account. Confirm to unlink it from the old game account and re-link to the current one?"
+  },
+  "new_airi_error_code_100202": {
+    "tip": "The game account has been linked to another Google Play Games account. Confirm to unlink it from the old Google Play Games account and re-link to the current one?"
+  },
+  "new_airi_error_code_100203": {
+    "tip": "The current game account and Google Play Games account have each been linked to other accounts. Confirm to unlink the both from the old accounts and re-link them together?"
+  },
+  "new_airi_error_code_100204": {
+    "tip": "The guest account can't be linked to a Google Play Games account so you can't log on another device with the guest account. If you want to link the guest account to a Google Play Games account, please link it to a Yostar account/third-party account first."
+  },
+  "new_airi_error_code_100205": {
+    "tip": "Unbind failed. Your game account hasn't been linked to a Google Play Games account."
+  },
+  "new_airi_error_code_100206": {
+    "tip": "The non-guest account has been linked to a Google Play Games account automatically. You can log on another device with the Google Play Games account."
+  },
+  "new_airi_error_code_100207": {
+    "tip": "0"
+  },
   "new_airi_error_code_100210": {
     "tip": "The third party account does not match with the one bound to this account"
   },
@@ -12314,6 +12338,12 @@
   },
   "new_airi_error_code_100213": {
     "tip": "Unable to unbind the account"
+  },
+  "new_airi_error_code_100214": {
+    "tip": "The game account now is linked to a Google Play Games account. If you unlink it from other accounts (except the Google Play Games account), it will also unlink from the Google Play Games account automatically."
+  },
+  "new_airi_error_code_100218": {
+    "tip": "Unable to login with Twitter account in current App"
   },
   "new_airi_error_code_100220": {
     "tip": "Authorization canceled"
@@ -12360,6 +12390,9 @@
   "new_airi_error_code_100234": {
     "tip": "The account is not authorized to login"
   },
+  "new_airi_error_code_100235": {
+    "tip": "Invalid email format. Please enter again"
+  },
   "new_airi_error_code_100240": {
     "tip": "Apple authorization information does not match"
   },
@@ -12402,8 +12435,29 @@
   "new_airi_error_code_100306": {
     "tip": "Verification code cannot be empty"
   },
+  "new_airi_error_code_100307": {
+    "tip": "0"
+  },
+  "new_airi_error_code_100310": {
+    "tip": "Behavior Verification failed, please try again"
+  },
+  "new_airi_error_code_100311": {
+    "tip": "Invalid Behavior Verification token, please try again"
+  },
+  "new_airi_error_code_100401": {
+    "tip": "Steam authorization failed"
+  },
   "new_airi_error_code_100404": {
     "tip": "Network error"
+  },
+  "new_airi_error_code_100600": {
+    "tip": "Interface parameter error. Invoke failed"
+  },
+  "new_airi_error_code_100802": {
+    "tip": "0"
+  },
+  "new_airi_error_code_100803": {
+    "tip": "Callback URL exceeds its maximum characters"
   },
   "new_airi_error_code_200100": {
     "tip": "User birthday is required"
@@ -12419,6 +12473,12 @@
   },
   "new_airi_error_code_200140": {
     "tip": "serverTag does not exist"
+  },
+  "new_airi_error_code_200141": {
+    "tip": "Order creation failed: Purchase currency is not supported"
+  },
+  "new_airi_error_code_200145": {
+    "tip": "Order creation failed: Steam parameter retreival error"
   },
   "new_airi_error_code_200150": {
     "tip": "Payment receipt verification failed"
@@ -12446,6 +12506,18 @@
   },
   "new_airi_error_code_200230": {
     "tip": "Payment backend response - payment canceled"
+  },
+  "new_airi_error_code_200231": {
+    "tip": "0"
+  },
+  "new_airi_error_code_200232": {
+    "tip": "Apple Pay is not available on this device"
+  },
+  "new_airi_error_code_200235": {
+    "tip": "Steam transaction timeout"
+  },
+  "new_airi_error_code_200236": {
+    "tip": "Payment cancelled"
   },
   "new_airi_error_code_200240": {
     "tip": "Current API version does not support the request"
@@ -12486,8 +12558,80 @@
   "new_airi_error_code_200360": {
     "tip": "Connection to play services failed"
   },
+  "new_airi_error_code_200370": {
+    "tip": "0"
+  },
+  "new_airi_error_code_200380": {
+    "tip": "0"
+  },
+  "new_airi_error_code_200390": {
+    "tip": "0"
+  },
+  "new_airi_error_code_200400": {
+    "tip": "0"
+  },
+  "new_airi_error_code_200410": {
+    "tip": "Payment failed: Payment Type Error"
+  },
+  "new_airi_error_code_200420": {
+    "tip": "Payment incomplete"
+  },
+  "new_airi_error_code_200430": {
+    "tip": "GMO credit card Payment failed"
+  },
   "new_airi_error_code_300100": {
     "tip": "System sharing failed"
+  },
+  "new_airi_error_code_300101": {
+    "tip": "0"
+  },
+  "new_airi_error_code_300102": {
+    "tip": "0"
+  },
+  "new_airi_error_code_300200": {
+    "tip": "0"
+  },
+  "new_airi_error_code_300210": {
+    "tip": "ID authorization incomplete"
+  },
+  "new_airi_error_code_300220": {
+    "tip": "ID authorization outdated"
+  },
+  "new_airi_error_code_300300": {
+    "tip": "Yostar account binding failed"
+  },
+  "new_airi_error_code_400010": {
+    "tip": "Nintendo login canceled"
+  },
+  "new_airi_error_code_400020": {
+    "tip": "Nintendo authorization failed"
+  },
+  "new_airi_error_code_400030": {
+    "tip": "Nintendo account does not exist"
+  },
+  "new_airi_error_code_400040": {
+    "tip": "Nintendo account unavailable"
+  },
+  "new_airi_error_code_400050": {
+    "tip": "The Nintendo account has not been bound to a Yostar account"
+  },
+  "new_airi_error_code_400060": {
+    "tip": "Nintendo login authorization failed"
+  },
+  "new_airi_error_code_400070": {
+    "tip": "The Yostar account does not exist"
+  },
+  "new_airi_error_code_400080": {
+    "tip": "The Yostar account has been bound to other Nintendo account"
+  },
+  "new_airi_error_code_400090": {
+    "tip": "The Yostar account has not been bound to a Nintendo account"
+  },
+  "new_airi_error_code_400100": {
+    "tip": "The Nintendo account has been bound to other Yostar account"
+  },
+  "new_airi_error_code_400460": {
+    "tip": "Failed to load the page. Please try again."
   },
   "new_server_shop_sel_goods_tip": {
     "tip": "You can only exchange for gear once."
