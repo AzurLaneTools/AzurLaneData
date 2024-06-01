@@ -161,6 +161,33 @@
     "title": "Fixed L2D Settings",
     "type": 0
   },
+  "19": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "When toggled ON, the main menu will use the new user interface.",
+    "id": 19,
+    "name": "USAGE_NEW_MAINUI",
+    "title": "Use New Main Menu UI",
+    "type": 0
+  },
+  "20": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "When toggled ON, sleep mode will not be triggered while you are on the main menu.",
+    "id": 20,
+    "name": "MAINUI_NEVER_SLEEP",
+    "title": "No Sleep Mode On Main Menu",
+    "type": 0
+  },
+  "21": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "When toggled ON, a L2D reset button will appear on the main menu.",
+    "id": 21,
+    "name": "MAINUI_RESET_L2D",
+    "title": "Show L2D Reset Button",
+    "type": 0
+  },
   "all": [
     1,
     2,
@@ -179,6 +206,9 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20,
+    21
   ]
 }
