@@ -2352,7 +2352,7 @@
     "tip": "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다."
   },
   "buildship_heavy_tip": {
-    "tip": "\"뉴저지\", \"시나노\", \"키이\" 등 상시 건조 추가!"
+    "tip": "\"꼬마 리나운 \", \"꼬마 아마기\", 등 상시 건조 추가!"
   },
   "buildship_light_tip": {
     "tip": "쿠이비셰프 건조가 추가되었습니다!"
@@ -2361,7 +2361,7 @@
     "tip": "기간 한정 건조를 총 200회 실시하면, 크론시타트 100% 획득 가능! (최대 4척까지)"
   },
   "buildship_special_tip": {
-    "tip": "프린스턴 건조 추가!"
+    "tip": "꼬마 일러스트리어스,꼬마 엔터프라이즈  건조 추가!"
   },
   "buleprint_need_level_tip": {
     "tip": "해당 함선은 $1 레벨에 개방됩니다."
@@ -10733,6 +10733,12 @@
   "limit_team_character_tips": {
     "tip": "※참전 중인 함대에 동명의 캐릭터 편성 불가"
   },
+  "liner_sign_cnt_tip": {
+    "tip": "남은 출첵 가능 횟수:"
+  },
+  "liner_sign_unlock_tip": {
+    "tip": "6.6 점검 후 해제"
+  },
   "link_link_help_tip": {
     "tip": [
       {
@@ -12162,6 +12168,9 @@
   "new_airi_error_code_100120": {
     "tip": "IP restricted"
   },
+  "new_airi_error_code_100121": {
+    "tip": "PC로는 게스트로 로그인하실 수 없습니다."
+  },
   "new_airi_error_code_100130": {
     "tip": "This UID is banned"
   },
@@ -12186,6 +12195,27 @@
   "new_airi_error_code_100200": {
     "tip": "This Twitter/Facebook account is already bound with another Airi UID"
   },
+  "new_airi_error_code_100201": {
+    "tip": "현재 사용 중인 Google Play Games 계정이 이미 다른 게임 데이터와 연동 중입니다. 연동 정보를 초기화하고, 현재 플레이 중인 데이터와 연동하시겠습니까?"
+  },
+  "new_airi_error_code_100202": {
+    "tip": "현재 플레이 중인 게임 데이터가 이미 다른 Google Play Games 계정과 연동 중입니다. 연동 정보를 초기화하고, 현재 사용 중인 Google Play Games 계정과 연동하시겠습니까?"
+  },
+  "new_airi_error_code_100203": {
+    "tip": "현재 이용하고 계신 Google Play Games 계정과 게임 데이터에 각각 다른 연동 정보가 등록되어 있습니다. 연동 정보를 전부 초기화하고 해당 데이터와 Google Play Games 계정을 연동하시겠습니까?"
+  },
+  "new_airi_error_code_100204": {
+    "tip": "현재 이용하고 계신 게임 데이터를 다른 기기로 이전하시려면 다른 SNS 계정이나 메일 주소 등과 연동하셔야 합니다."
+  },
+  "new_airi_error_code_100205": {
+    "tip": "UID와 Google Play Games가 미연동 상태입니다."
+  },
+  "new_airi_error_code_100206": {
+    "tip": "현재 플레이 중인 게임 데이터가 Google Play Games 계정과 자동으로 연동되어 다른 기기로 플레이할 수 있게 됩니다."
+  },
+  "new_airi_error_code_100207": {
+    "tip": "Google Play Games의 로컬 Token 인증에 실패했습니다."
+  },
   "new_airi_error_code_100210": {
     "tip": "This UID does not match with the UID bound to the Twitter/Facebook account"
   },
@@ -12198,6 +12228,12 @@
   "new_airi_error_code_100213": {
     "tip": "Account binding with FB/TW failed"
   },
+  "new_airi_error_code_100214": {
+    "tip": "Google Play Games 이외의 연동을 해제하면, Google Play Games 계정과의 연동도 자동으로 해제됩니다. \"정말로 연동을 해제하시겠습니까?\""
+  },
+  "new_airi_error_code_100218": {
+    "tip": "해당 앱은 X(구 트위터)로 로그인할 수 없습니다."
+  },
   "new_airi_error_code_100220": {
     "tip": "Facebook login cancelled"
   },
@@ -12206,6 +12242,120 @@
   },
   "new_airi_error_code_100222": {
     "tip": "ツイッター連携承認に失敗しました"
+  },
+  "new_airi_error_code_100235": {
+    "tip": "메일 주소 입력이 잘못되었습니다. 다시 시도하시기 바랍니다."
+  },
+  "new_airi_error_code_100307": {
+    "tip": "OneStore 계정이 등록되어 있지 않습니다."
+  },
+  "new_airi_error_code_100310": {
+    "tip": "인증할 수 없습니다. 다시 시도하시기 바랍니다."
+  },
+  "new_airi_error_code_100311": {
+    "tip": "인증 토큰이 잘못되었습니다. 다시 시도하시기 바랍니다."
+  },
+  "new_airi_error_code_100401": {
+    "tip": "Steam 인증 실패"
+  },
+  "new_airi_error_code_100600": {
+    "tip": "API 기동 실패. 매개변수 취득에 실패했습니다."
+  },
+  "new_airi_error_code_100802": {
+    "tip": "설문 ID가 존재하지 않아 로딩에 실패했습니다."
+  },
+  "new_airi_error_code_100803": {
+    "tip": "오류: 문자 수 초과"
+  },
+  "new_airi_error_code_200141": {
+    "tip": "구매 오류: 해당 통화로는 결제할 수 없습니다."
+  },
+  "new_airi_error_code_200145": {
+    "tip": "구매 오류: Steam 매개변수 동기 실패"
+  },
+  "new_airi_error_code_200231": {
+    "tip": "OneStore 결제에 실패했습니다."
+  },
+  "new_airi_error_code_200232": {
+    "tip": "Apple Pay는 이용하실 수 없습니다."
+  },
+  "new_airi_error_code_200235": {
+    "tip": "결제 시간이 초과하였습니다."
+  },
+  "new_airi_error_code_200236": {
+    "tip": "결제가 취소되었습니다."
+  },
+  "new_airi_error_code_200370": {
+    "tip": "매개변수 이름이 중복되어 있습니다.\n오류 코드: 200370"
+  },
+  "new_airi_error_code_200380": {
+    "tip": "이용 약관이 승인되지 않았습니다.\n오류 코드: 200380"
+  },
+  "new_airi_error_code_200390": {
+    "tip": "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200390"
+  },
+  "new_airi_error_code_200400": {
+    "tip": "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200400"
+  },
+  "new_airi_error_code_200410": {
+    "tip": "결제 실패: 결제 유형 입력 오류"
+  },
+  "new_airi_error_code_200420": {
+    "tip": "결제가 완료되지 않았습니다."
+  },
+  "new_airi_error_code_200430": {
+    "tip": "GMO 신용카드 결제 실패"
+  },
+  "new_airi_error_code_300101": {
+    "tip": "공유 기능이 활성화되어 있지 않습니다."
+  },
+  "new_airi_error_code_300102": {
+    "tip": "기기에 앱이 설치되어 있지 않습니다."
+  },
+  "new_airi_error_code_300200": {
+    "tip": "본인 인증이 필요하지 않습니다."
+  },
+  "new_airi_error_code_300210": {
+    "tip": "본인 인증이 완료되지 않았습니다."
+  },
+  "new_airi_error_code_300220": {
+    "tip": "본인 인증 정보 기한이 만료되었습니다."
+  },
+  "new_airi_error_code_300300": {
+    "tip": "Yostar ID 연동에 실패했습니다."
+  },
+  "new_airi_error_code_400010": {
+    "tip": "닌텐도 계정 로그인을 취소했습니다."
+  },
+  "new_airi_error_code_400020": {
+    "tip": "오류 코드 400020: 닌텐도 계정 인증에 실패했습니다."
+  },
+  "new_airi_error_code_400030": {
+    "tip": "오류 코드 400030: 닌텐도 계정이 존재하지 않습니다."
+  },
+  "new_airi_error_code_400040": {
+    "tip": "오류 코드 400040: 닌텐도 계정을 사용할 수 없습니다."
+  },
+  "new_airi_error_code_400050": {
+    "tip": "해당 닌텐도 계정은 Yostar ID와 연동되어 있지 않습니다."
+  },
+  "new_airi_error_code_400060": {
+    "tip": "오류 코드 400060: 닌텐도 계정 로그인 인증에 실패했습니다."
+  },
+  "new_airi_error_code_400070": {
+    "tip": "해당 Yostar ID는 존재하지 않습니다."
+  },
+  "new_airi_error_code_400080": {
+    "tip": "해당 Yostar ID는 다른 닌텐도 계정과 이미 연동 중입니다."
+  },
+  "new_airi_error_code_400090": {
+    "tip": "해당 Yostar ID는 닌텐도 계정과 연동되어 있지 않습니다."
+  },
+  "new_airi_error_code_400100": {
+    "tip": "해당 닌텐도 계정은 다른 Yostar ID와 이미 연동 중입니다."
+  },
+  "new_airi_error_code_400460": {
+    "tip": "페이지 로딩에 실패했습니다. 다시 시도하시기 바랍니다."
   },
   "new_skin_no_choose": {
     "tip": "스킨을 변경할 함선을 선택하지 않았습니다. 스킨을 변경하지 않고 이전 화면으로 돌아가시겠습니까?"
@@ -14656,6 +14806,9 @@
   },
   "setting_label_private": {
     "tip": "개인 정보 보호 계약"
+  },
+  "setting_resdownload_title_dorm": {
+    "tip": "숙소 리소스 업데이트"
   },
   "setting_resdownload_title_gallery": {
     "tip": "삽화 리소스 업데이트"
