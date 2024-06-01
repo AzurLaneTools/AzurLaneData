@@ -18,14 +18,14 @@ jobs:
       IMAGE_NAME: ghcr.io/azurlanetools/azex/azex
     steps:
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: "azexbot"
           password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Load cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: azex-dbcachev2-${{ matrix.server }}-${{ github.run_id }}
           path: "cache"
@@ -33,12 +33,12 @@ jobs:
             azex-dbcachev2-${{ matrix.server }}
 
       - name: Checkout target repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: output/json
 
       - name: Pull docker image
-        uses: gacts/run-and-post-run@v1.3.0
+        uses: gacts/run-and-post-run@v1.4
         with:
           run: docker pull $IMAGE_NAME
           post: docker image rm -f $IMAGE_NAME
