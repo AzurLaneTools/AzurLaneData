@@ -4,12 +4,35 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "0",
+    "param": "4853",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
-      "default",
-      5069
+      "timer",
+      [
+        [
+          2024,
+          5,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          6,
+          13
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
     ],
     "type": 3
   },
@@ -53,14 +76,16 @@
     "id": 20,
     "name": "event_minigame",
     "order": 1,
-    "param": "0",
+    "param": [
+      "LINER_BACKHILL"
+    ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      4961
+      5335
     ],
-    "type": 0
+    "type": 2
   },
   "30": {
     "group_id": 3,
@@ -71,8 +96,7 @@
     "pic": "event_boss",
     "text_pic": "text_event_boss",
     "time": [
-      "default",
-      4915
+      "default"
     ],
     "type": 0
   },
@@ -127,7 +151,10 @@
     ],
     "pic": "event_Atelier",
     "text_pic": "text_event_Atelier",
-    "time": "stop",
+    "time": [
+      "default",
+      4581
+    ],
     "type": 2
   },
   "90": {
@@ -153,7 +180,10 @@
     ],
     "pic": "event_medal",
     "text_pic": "text_event_medal",
-    "time": "stop",
+    "time": [
+      "default",
+      5093
+    ],
     "type": 2
   },
   "101": {
@@ -166,7 +196,10 @@
     ],
     "pic": "event_senran",
     "text_pic": "text_event_senran",
-    "time": "stop",
+    "time": [
+      "default",
+      5099
+    ],
     "type": 2
   },
   "102": {
