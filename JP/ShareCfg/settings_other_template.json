@@ -161,6 +161,33 @@
     "title": "L2D設定保存",
     "type": 0
   },
+  "19": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "ONにすると、メイン画面は新しいUIが適用されます",
+    "id": 19,
+    "name": "USAGE_NEW_MAINUI",
+    "title": "メイン画面新UIを適用",
+    "type": 0
+  },
+  "20": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "ONにすると、メイン画面滞在中スリープモードになりません",
+    "id": 20,
+    "name": "MAINUI_NEVER_SLEEP",
+    "title": "メイン画面滞在中に省エネモードを起動させない",
+    "type": 0
+  },
+  "21": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "ONにすると、メイン画面にL2D演出リセットボタンが表示されます",
+    "id": 21,
+    "name": "MAINUI_RESET_L2D",
+    "title": "L2Dリセットボタン表示",
+    "type": 0
+  },
   "all": [
     1,
     2,
@@ -179,6 +206,9 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20,
+    21
   ]
 }
