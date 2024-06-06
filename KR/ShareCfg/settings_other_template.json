@@ -161,6 +161,33 @@
     "title": "L2D 설정 저장",
     "type": 0
   },
+  "19": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "ON으로 하면 메인화면은 새로운 UI가 적용됩니다",
+    "id": 19,
+    "name": "USAGE_NEW_MAINUI",
+    "title": "메인화면 새로운 UI 적용",
+    "type": 0
+  },
+  "20": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "ON으로 하면 메인 화면은 시간에 따라 자동으로 화면이 잠기지 않습니다",
+    "id": 20,
+    "name": "MAINUI_NEVER_SLEEP",
+    "title": "메인 화면 있을 시 에너지 절약 모드를 기동시키지 않습니다",
+    "type": 0
+  },
+  "21": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "L2D 리셋 버튼 표시",
+    "id": 21,
+    "name": "MAINUI_RESET_L2D",
+    "title": "L2D 리셋 버튼 표시",
+    "type": 0
+  },
   "all": [
     1,
     2,
@@ -179,6 +206,9 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20,
+    21
   ]
 }

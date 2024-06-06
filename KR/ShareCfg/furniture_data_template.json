@@ -6805,6 +6805,92 @@
     "themeId": 0,
     "type": 7
   },
+  "276": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "거울 해역 휘관의 성 중앙 구역의 미니어쳐. 찬란한 크리스털은 존귀한 \"죽음\"을 그 빛으로 찬양한다. \"휘광의 성에서 피어나라\" 참가 보상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "휘광의 성에서 피어나라",
+    "icon": "huiguangxunzhangicon",
+    "id": 276,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "휘광 기념장",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "huiguangxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
+  "278": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "모항 크루즈선의 미니어쳐. 갈매기와 파도 장식이 바캉스의 즐거운 추억을 상기시켜 준다.\n——\"휴일! 심쿵! 크루즈!\" 이벤트 참가 보상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "휴일! 심쿵! 크루즈!",
+    "icon": "youlunxunzhangicon",
+    "id": 278,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "휴일 크루즈 기념장",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "youlunxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -129533,5 +129619,853 @@
     "tag": 5,
     "themeId": 110,
     "type": 6
+  },
+  "311001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "크루즈선을 타고 바다 너머를 항해하자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanyoicon",
+    "id": 311001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈선 바닥",
+    "offset": [],
+    "picture": "yo/dibanyo",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 111,
+    "type": 4
+  },
+  "311002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "크루즈선을 타고 바다 너머를 항해하자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbiyoicon",
+    "id": 311002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "크루즈선 벽",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbiyo",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 111,
+    "type": 1
+  },
+  "311101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "사양말고 마음껏 마셔라쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bataiyoicon",
+    "id": 311101,
+    "interAction": [
+      [
+        "sit",
+        [
+          -244,
+          -139
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        "sit",
+        [
+          -158.7,
+          -176.7
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 바",
+    "offset": [],
+    "picture": "yo/bataiyo",
+    "rarity": 4,
+    "size": [
+      9,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "반짝반짝 빛나는 진주 만쥬 조각상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diaoxiang1yoicon",
+    "id": 311102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "진주 만주 조각상",
+    "offset": [],
+    "picture": "yo/diaoxiang1yo",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "반짝반짝 빛나는 인어 만쥬 조각상.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "diaoxiang2yoicon",
+    "id": 311103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "인어 만쥬 조각상",
+    "offset": [],
+    "picture": "yo/diaoxiang2yo",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "쓰지 않는 물품은 여기 두면 돼.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lanziyoicon",
+    "id": 311104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "데크 바구니",
+    "offset": [],
+    "picture": "yo/lanziyo",
+    "rarity": 2,
+    "size": [
+      1,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이것만 있으면 자외선 걱정 끝!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "san1yoicon",
+    "id": 311105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 파라솔",
+    "offset": [],
+    "picture": "yo/san1yo",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이것만 있으면 자외선 걱정 끝!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "san2yoicon",
+    "id": 311106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 파라솔 (고양이 귀)",
+    "offset": [],
+    "picture": "yo/san2yo",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "피곤할 땐 여기서 느긋하게 쉬자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shafayoicon",
+    "id": 311107,
+    "interAction": [
+      [
+        "sit",
+        [
+          -86,
+          59
+        ],
+        [
+          1,
+          1
+        ],
+        "yo/shafayo_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 소파 (대형)",
+    "offset": [],
+    "picture": "yo/shafayo",
+    "rarity": 4,
+    "size": [
+      7,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "느긋하게 일광욕~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tangyi1yoicon",
+    "id": 311108,
+    "interAction": [
+      [
+        "sit",
+        [
+          -38.7,
+          21.8
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 체어 (담요)",
+    "offset": [],
+    "picture": "yo/tangyi1yo",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "느긋하게 일광욕~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tangyi2yoicon",
+    "id": 311109,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -27.6,
+          36.1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 체어 (베개)",
+    "offset": [],
+    "picture": "yo/tangyi2yo",
+    "rarity": 2,
+    "size": [
+      3,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "느긋하게 일광욕~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tangyi3yoicon",
+    "id": 311110,
+    "interAction": [
+      [
+        "sleep",
+        [
+          -36,
+          29
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "크루즈 체어 (접이식)",
+    "offset": [],
+    "picture": "yo/tangyi3yo",
+    "rarity": 2,
+    "size": [
+      3,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "맛있는 과일이 잔뜩 들어있는 카트.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tuicheyoicon",
+    "id": 311111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "맛있는 과일 카트",
+    "offset": [],
+    "picture": "yo/tuicheyo",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "먹고 남은 건 그대로 두면 돼!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaozhuoyoicon",
+    "id": 311112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "데크 테이블",
+    "offset": [],
+    "picture": "yo/xiaozhuoyo",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "다양한 물놀이 도구로 가득한 수영장. 신나게 놀아보자!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yongchiyoicon",
+    "id": 311113,
+    "interAction": [
+      [
+        "wash",
+        [
+          -2.9,
+          -110
+        ],
+        [
+          1,
+          1
+        ],
+        "yo/yongchiyo_using"
+      ],
+      [
+        "sleep",
+        [
+          -167,
+          2
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "데크 수영장",
+    "offset": [],
+    "picture": "yo/yongchiyo",
+    "rarity": 4,
+    "size": [
+      11,
+      9
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "피곤하면 앉아서 차라도 한 잔 어때?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zuodeng1yoicon",
+    "id": 311114,
+    "interAction": [
+      [
+        "sit",
+        [
+          -86,
+          59
+        ],
+        [
+          1,
+          1
+        ],
+        "yo/zuodeng1yo_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "데크 레저 (레몬티)",
+    "offset": [],
+    "picture": "yo/zuodeng1yo",
+    "rarity": 3,
+    "size": [
+      3,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "피곤하면 앉아서 과일이라도 먹을까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zuodeng2yoicon",
+    "id": 311115,
+    "interAction": [
+      [
+        "sit",
+        [
+          -86,
+          59
+        ],
+        [
+          1,
+          1
+        ],
+        "yo/zuodeng2yo_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "데크 레저 (과일 세트)",
+    "offset": [],
+    "picture": "yo/zuodeng2yo",
+    "rarity": 3,
+    "size": [
+      3,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 111,
+    "type": 2
+  },
+  "311116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "제트 마사지 기능이 있는 수영장? 아니, 욕조?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "yugangyoicon",
+    "id": 311116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "야외 자쿠지",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      6,
+      4
+    ],
+    "spine": [
+      [
+        "yugangyoB",
+        "normal"
+      ],
+      [
+        "yugangyoT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "wash"
+          ],
+          [
+            "tuozhuai2"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [
+        [
+          15,
+          176
+        ],
+        [
+          405,
+          413
+        ],
+        "yo/yugangyo_mask"
+      ],
+      [
+        -13,
+        -173
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 111,
+    "type": 2
   }
 }
