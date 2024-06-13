@@ -916,7 +916,7 @@
   },
   "9703033": {
     "breakout_id": 9703034,
-    "breakout_view": "Improve Cinders of Hope - Foch/Tornado efficiency +15%",
+    "breakout_view": "Improve Cinders of Hope - Foch/Torpedo efficiency +15%",
     "gold": 2500,
     "id": 9703033,
     "item1": 21034,
@@ -941,6 +941,69 @@
     "item2_num": 0,
     "level": 0,
     "pre_id": 9703033,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9703041": {
+    "breakout_id": 9703042,
+    "breakout_view": "Unlock Ashen Might - Wichita/Main gun efficiency +5%",
+    "gold": 1000,
+    "id": 9703041,
+    "item1": 21035,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      80291
+    ]
+  },
+  "9703042": {
+    "breakout_id": 9703043,
+    "breakout_view": "Main gun base +1/Main gun efficiency +10%",
+    "gold": 3000,
+    "id": 9703042,
+    "item1": 21035,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9703041,
+    "repair": 0,
+    "weapon_ids": [
+      13000,
+      13000
+    ]
+  },
+  "9703043": {
+    "breakout_id": 9703044,
+    "breakout_view": "Improve Ashen Might - Wichita/All weapons' efficiency +5%",
+    "gold": 10000,
+    "id": 9703043,
+    "item1": 21035,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9703042,
+    "repair": 0,
+    "weapon_ids": [
+      80292
+    ]
+  },
+  "9703044": {
+    "breakout_id": 0,
+    "breakout_view": "None",
+    "gold": 0,
+    "id": 9703044,
+    "item1": 21035,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9703043,
     "repair": 0,
     "weapon_ids": []
   },

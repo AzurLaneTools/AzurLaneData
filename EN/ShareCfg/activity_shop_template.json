@@ -23803,6 +23803,32 @@
     "resource_num": 800,
     "resource_type": 59900
   },
+  "10086": {
+    "activity": 0,
+    "commodity_id": 91240,
+    "commodity_type": 3,
+    "id": 10086,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 800,
+    "resource_type": 59900
+  },
+  "10087": {
+    "activity": 0,
+    "commodity_id": 91220,
+    "commodity_type": 3,
+    "id": 10087,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 1,
+    "order": 5,
+    "resource_category": 2,
+    "resource_num": 500,
+    "resource_type": 59900
+  },
   "10500": {
     "activity": 0,
     "commodity_id": 640,
@@ -23852,7 +23878,7 @@
     ],
     "num": 1,
     "num_limit": 0,
-    "order": 3,
+    "order": 4,
     "resource_category": 2,
     "resource_num": 500,
     "resource_type": 59900
@@ -23870,9 +23896,27 @@
     ],
     "num": 1,
     "num_limit": 0,
-    "order": 4,
+    "order": 5,
     "resource_category": 2,
     "resource_num": 500,
+    "resource_type": 59900
+  },
+  "10505": {
+    "activity": 0,
+    "commodity_id": 91260,
+    "commodity_type": 3,
+    "id": 10505,
+    "limit_args": [
+      [
+        "quota",
+        2
+      ]
+    ],
+    "num": 1,
+    "num_limit": 0,
+    "order": 3,
+    "resource_category": 2,
+    "resource_num": 800,
     "resource_type": 59900
   },
   "10901": {
@@ -26327,10 +26371,13 @@
     10083,
     10084,
     10085,
+    10086,
+    10087,
     10500,
     10501,
     10502,
     10503,
+    10505,
     10901,
     10902,
     10903,
@@ -28023,10 +28070,13 @@
       10080,
       10082,
       10085,
+      10086,
+      10087,
       10500,
       10501,
       10502,
-      10503
+      10503,
+      10505
     ],
     "4": [
       201,

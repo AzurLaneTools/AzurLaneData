@@ -2548,16 +2548,16 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "Little Renown and Amagi-chan added to standard build pool!"
+    "tip": "Foch added to standard build pool!"
   },
   "buildship_light_tip": {
-    "tip": "Kirov, Gremyashchy, Murmansk, and others added to standard build pool!"
+    "tip": "L'Indomptable and Enterprise (CL) added to standard build pool!"
   },
   "buildship_new_tip": {
     "tip": "Get Alsace guaranteed with every 200 event builds (can be done up to 4 times)!"
   },
   "buildship_special_tip": {
-    "tip": "Little Illustrious and Little Enterprise added to standard build pool!"
+    "tip": "Joffre added to standard build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -11237,6 +11237,9 @@
   "loading_tip_TipsMgr": {
     "tip": "Getting stickers..."
   },
+  "lock_new_ship": {
+    "tip": "Automatically lock new characters"
+  },
   "login": {
     "tip": "Login"
   },
@@ -12018,7 +12021,7 @@
   "meta_help": {
     "tip": [
       {
-        "info": "- About the META Lab:"
+        "info": "META Lab Info:"
       },
       {
         "info": "The META Lab is where you are able to acquire and upgrade META ships. Here you can:"
@@ -12030,7 +12033,7 @@
         "info": "- Claim rewards from accumulating Sync Points"
       },
       {
-        "info": "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation"
+        "info": "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation\n\n"
       },
       {
         "info": "1. About Sync Points:"
@@ -12039,19 +12042,22 @@
         "info": "Sync Points obtained through META Showdown in Operation Siren can be used to recruit certain META ships."
       },
       {
-        "info": "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship."
+        "info": "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship.\n\n"
+      },
+      {
+        "info": "From <color=#92fc63>6/13/24 to 9/5/24</color>, challenge Wichita META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Wichita META</color> as well as other great rewards.\n\n"
       },
       {
         "info": "2. About Rigging Fortification:"
       },
       {
-        "info": "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade their fire power, torpedoes, aviation, and reload stats."
+        "info": "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade their firepower, torpedoes, aviation, and reload stats."
       },
       {
         "info": "Enhancing these stats past a certain threshold grants you access to additional bonus stat boosts."
       },
       {
-        "info": "The process of fortifying riggings requires specific materials."
+        "info": "The process of fortifying riggings requires specific materials.\n\n"
       },
       {
         "info": "3. About Somatic Activation:"
@@ -12060,7 +12066,7 @@
         "info": "Much like ordinary ships, META ships can be upgraded and have their star rating increase. However, instead of Bulins, META ships require their own item called META Crystals."
       },
       {
-        "info": "For more information, consult the tips on ordinary Limit Breaking."
+        "info": "For more information, consult the tips on ordinary Limit Breaking.\n\n"
       },
       {
         "info": "4. About Tactical Research:"
@@ -13268,6 +13274,9 @@
   },
   "old_class_is_close": {
     "tip": "The Lecture Hall is being updated. You cannot add shipgirls. "
+  },
+  "one_click_retire_subtitle": {
+    "tip": "Mass Retire Settings"
   },
   "onebutton_max_tip": {
     "tip": "Batch Analysis "
@@ -14505,12 +14514,12 @@
   "retire_setting_help": {
     "tip": [
       {
-        "info": "By tapping the “Quick Retire” button to the bottom left of the Retire interface, you can quickly retire ships that meet all of the following conditions:\n 1. Must be level 1.\n 2. Must not be locked.\n 3. Must already own another locked copy of that ship.\n 4. Rarity must be Elite or below (can be toggled through the Quick Retire Settings).\n 5. Must not be sortieing, on commission, assigned to a formation, or in an exercise.\n 6. Must not be assigned to the Lecture Hall, Tactical Class, Dorm, or be set as secretary. Quick Retire can also exclude certain ships based upon the following criteria that can toggled in Settings:\n -Duplicates of ships that have already been fully limit broken.\n -Duplicates of ships that have not been fully limit broken."
+        "info": " –When Accidental Retire Protection is enabled, if a ship selected for retiring <color=#92fc63>is the only copy of that ship</color> in your Dock, you will have to enter the passcode to continue with retiring.\n–Mass Retire Conditions:\n 1. One of the following rarities only: Elite, Rare, Common\n 2. Unlocked characters only\n 3. Level 1 only\n 4. Non-Bulins only\n 5. Ships that are not present in a Fleet, serving as Secretary, in commission, or subject to any other special status\n–Mass Retire settings only apply to ships that <color=#92fc63>fulfill the above 5 conditions</color>\n–The default order for auto-selection priority is Common, Rare, then Elite.\n –Go to <color=#92fc63>Settings</color> to include or exclude rarities and change the prioritization order."
       }
     ]
   },
   "retire_title": {
-    "tip": "Quick Retire Options"
+    "tip": "Retire Settings"
   },
   "return_award_bind_erro": {
     "tip": "UID entry failed $1."
@@ -17782,6 +17791,18 @@
   "undermist_tip": {
     "tip": "No available missions. Please wait until tomorrow to unlock more."
   },
+  "unique_ship_retire_before_tip": {
+    "tip": "Confirm"
+  },
+  "unique_ship_retire_protect": {
+    "tip": "Accidental Retire Protection"
+  },
+  "unique_ship_tip1": {
+    "tip": "You only have <color=#92fc63>1 copy</color> of the following shipgirls:"
+  },
+  "unique_ship_tip2": {
+    "tip": "Current selection contains <color=#92fc63>unique</color> shipgirls. Please enter <color=#92fc63>$1</color> to confirm this selection."
+  },
   "unlock_date_tip": {
     "tip": "Unlocks on <color=#92fc63>$1/$2</color>"
   },
@@ -19407,6 +19428,9 @@
   "words_information": {
     "tip": "Info"
   },
+  "words_lock_ship_label": {
+    "tip": "Automatically lock new characters"
+  },
   "words_rare_ship_vibrate": {
     "tip": "New Ship Buzz"
   },
@@ -19720,7 +19744,7 @@
   "world_boss_help_meta": {
     "tip": [
       {
-        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>3/14/24 to 6/12/24</color>, challenge Rodney META\nto earn Sync Points. Sync Points can be used\nto obtain the limited character, <color=#92fc63>Rodney META</color> as well\nas other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren.\nSufficient amounts of META Coordinates\ncan be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day,\nresetting every day at midnight. Unused\nMETA Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin \na META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you\nspawned will not require Oil. From the second\nattempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.\n(Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP,\nit will be defeated. Participants will be able to collect\nrewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>,\nafter which it will disappear.\nUse Request Support if you need help.\n· After defeating a META boss, the difficulty\nof subsequent META Showdowns will increase by\n1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that\nother Commanders have sent.\nWhen fighting another Commander's boss, you\nwill immediately gain Sync Points based\nupon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but\nuses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts,\nresetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale\nwill not be affected.\n· You cannot quit during an META Showdown.\nIf connection is lost due to unstable network\nconditions, the following will occur:\na. If challenging a boss you discovered, you will\nspend 40 Oil (the first battle is still free), and\nany damage done will not count.\nb. If challenging someone else's boss,\na challenge attempt will be used, but no rewards\nwill be granted.\n<color=#92fc63>Please make sure your network conditions are stable\nbefore attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+        "info": "- META Showdown Overview -\n\nFrom <color=#92fc63>6/13/24 to 9/5/24</color>, challenge Wichita META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Wichita META</color> as well as other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren. Sufficient amounts of META Coordinates can be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day, resetting every day at midnight. Unused META Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.\n· After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but uses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale will not be affected.\n· You cannot quit during an META Showdown. If connection is lost due to unstable network conditions, the following will occur:\na. If challenging a boss you discovered, you will spend 40 Oil (the first battle is still free), and any damage done will not count.\nb. If challenging someone else's boss, a challenge attempt will be used, but no rewards will be granted.\n<color=#92fc63>Please make sure your network conditions are stable before attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
       }
     ]
   },
