@@ -8546,6 +8546,37 @@
       }
     ]
   },
+  "help_supportfleet": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -9982,8 +10013,35 @@
   "level_scene_title_word_5": {
     "tip": "<color=#18ff23>推薦：</color>"
   },
+  "levelscene_airexpel_cancel": {
+    "tip": "取消驅逐"
+  },
+  "levelscene_airexpel_outrange": {
+    "tip": "目標點不在驅離範圍內"
+  },
+  "levelscene_airexpel_select_battle": {
+    "tip": "無法選擇處於交戰狀態的敵方艦隊作為目標"
+  },
+  "levelscene_airexpel_select_boss": {
+    "tip": "無法選擇敵方旗艦作為目標"
+  },
+  "levelscene_airexpel_select_confirm_down": {
+    "tip": "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>下</color>驅離一格，是否確認"
+  },
+  "levelscene_airexpel_select_confirm_left": {
+    "tip": "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>左</color>驅離一格，是否確認"
+  },
+  "levelscene_airexpel_select_confirm_right": {
+    "tip": "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>右</color>驅離一格，是否確認"
+  },
+  "levelscene_airexpel_select_confirm_up": {
+    "tip": "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>上</color>驅離一格，是否確認"
+  },
+  "levelscene_airexpel_select_enemy": {
+    "tip": "只能選擇敵方艦隊作為目標"
+  },
   "levelscene_deploy_submarine": {
-    "tip": "港區"
+    "tip": "確認部署"
   },
   "levelscene_deploy_submarine_cancel": {
     "tip": "取消部署"
@@ -10385,6 +10443,9 @@
   },
   "loading_tip_TipsMgr": {
     "tip": "正在購買便利貼..."
+  },
+  "lock_new_ship": {
+    "tip": "自動鎖定新獲得角色"
   },
   "login": {
     "tip": "登入"
@@ -11963,6 +12024,9 @@
   },
   "old_class_is_close": {
     "tip": "大講堂正在維護，請等待後續版本開放 "
+  },
+  "one_click_retire_subtitle": {
+    "tip": "一鍵退役設定"
   },
   "onebutton_max_tip": {
     "tip": "一鍵MAX"
@@ -14017,6 +14081,9 @@
   "ship_formationMediator_replaceError_onlyShip": {
     "tip": "目標艦船是<color=#A9F548>$1</color>唯一一艘<color=#A9F548>$2</color>艦船，無法替換！"
   },
+  "ship_formationMediator_request_replace_support": {
+    "tip": "您目前選擇的船艦已經在<color=#92fc63>支援艦隊</color>中, 是否進行切換？"
+  },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "艦隊人數不足"
   },
@@ -14526,6 +14593,25 @@
   },
   "shipmodechange_reject_worldfleet_only": {
     "tip": "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
+  },
+  "shipyard_button_1": {
+    "tip": "敬請期待"
+  },
+  "shipyard_button_2": {
+    "tip": "完成「秘密船廠」的全部建造任務後解鎖"
+  },
+  "shipyard_introduce": {
+    "tip": "6月26日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
+  },
+  "shipyard_phase_1": {
+    "tip": [
+      {
+        "info": "活動簡介：\n<color=#92fc63>6.20-7.11/24時</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。\n活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。\n活動期間，6月26日為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。\n擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>\n完成全部7個遊戲關卡後，可取得<color=#92fc63>限定傢俱「啟航的冒險船」x1</color>並可自由選擇任意關卡通關"
+      }
+    ]
+  },
+  "shipyard_phase_2": {
+    "tip": "廢棄"
   },
   "shoot_preview": {
     "tip": "發射效果"
@@ -15842,6 +15928,18 @@
   },
   "undermist_tip": {
     "tip": "當前任務已完成，請等待明日解鎖"
+  },
+  "unique_ship_retire_before_tip": {
+    "tip": "是否確認"
+  },
+  "unique_ship_retire_protect": {
+    "tip": "唯一艦船退役保護"
+  },
+  "unique_ship_tip1": {
+    "tip": "選擇角色中有<color=#92fc63>唯一</color>角色："
+  },
+  "unique_ship_tip2": {
+    "tip": "包含<color=#92fc63>唯一</color>角色，請輸入<color=#92fc63>$1</color>確認"
   },
   "unlock_date_tip": {
     "tip": "<color=#92fc63>$1月$2日</color>解鎖"
@@ -17210,6 +17308,9 @@
   "word_status_inPVP": {
     "tip": "演習中"
   },
+  "word_status_inSupportFleet": {
+    "tip": "支援艦隊中"
+  },
   "word_status_inTactics": {
     "tip": "進修中"
   },
@@ -17407,6 +17508,9 @@
   },
   "words_information": {
     "tip": "訊息"
+  },
+  "words_lock_ship_label": {
+    "tip": "自動鎖定新獲得角色"
   },
   "words_rare_ship_vibrate": {
     "tip": "獲得角色震動"

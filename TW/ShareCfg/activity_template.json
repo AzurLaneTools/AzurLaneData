@@ -2759,7 +2759,7 @@
     "config_data": [],
     "config_id": 4430,
     "id": 4430,
-    "is_show": 60,
+    "is_show": 48,
     "login_pop": 0,
     "mark": 20240613,
     "page_info": {
@@ -5116,7 +5116,7 @@
     "config_data": [],
     "config_id": 42,
     "id": 4685,
-    "is_show": 60,
+    "is_show": 47,
     "login_pop": 0,
     "mark": 20240613,
     "page_info": {
@@ -9607,6 +9607,111 @@
     "title_res_tag": "Javelin_dressSkin",
     "type": 18
   },
+  "5023": {
+    "config_client": {
+      "firstStory": "HUANGJIACAIFUDEMIMICHUANCHANG1",
+      "shipyard_phase_1": [
+        "歡迎歡迎~今天的計劃是什麼？ ",
+        "哼哼，你總算來了！讓我們快點完成這項偉大的工作吧~",
+        "等完工後，就由你來主持剪綵儀式吧~"
+      ],
+      "shipyard_phase_2": [
+        "快點來吧，偉大的冒險就在前方！我已經等不及啦~",
+        "出發出發~目的地是哪裡？神秘的暗礁，還是黃金的海岸~？ "
+      ],
+      "story": [
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG2"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG3"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG4"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG5"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG6"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG7"
+        ],
+        [
+          "HUANGJIACAIFUDEMIMICHUANCHANG8"
+        ]
+      ]
+    },
+    "config_data": [
+      [
+        19331,
+        19332
+      ],
+      [
+        19333,
+        19334
+      ],
+      [
+        19335,
+        19336
+      ],
+      [
+        19337,
+        19338
+      ],
+      [
+        19339,
+        19340
+      ],
+      [
+        19341,
+        19342
+      ],
+      [
+        19343,
+        19344
+      ]
+    ],
+    "config_id": 3,
+    "id": 5023,
+    "is_show": 50,
+    "login_pop": 0,
+    "mark": 20240620,
+    "page_info": {
+      "class_name": "PiratePage",
+      "ui_name": "PiratePage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          6,
+          20
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          7,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "pirate",
+    "type": 18
+  },
   "5062": {
     "config_client": "",
     "config_data": [
@@ -11704,33 +11809,7 @@
       "class_name": "ZhenhaiMuseumPage",
       "ui_name": "ZhenhaiMuseumPage"
     },
-    "time": [
-      "timer",
-      [
-        [
-          2024,
-          6,
-          6
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2024,
-          6,
-          20
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "zhenhaimuseum",
     "type": 18
   },
@@ -12507,6 +12586,51 @@
     },
     "time": "stop",
     "title_res_tag": "ChocolateWorkshop",
+    "type": 18
+  },
+  "6020": {
+    "config_client": "",
+    "config_data": [
+      [
+        35244,
+        35245
+      ],
+      [
+        35246,
+        35247
+      ],
+      [
+        35248,
+        35249
+      ],
+      [
+        35250,
+        35251
+      ],
+      [
+        35252,
+        35253
+      ],
+      [
+        35254,
+        35255
+      ],
+      [
+        35256,
+        35257
+      ]
+    ],
+    "config_id": 3,
+    "id": 6020,
+    "is_show": 10,
+    "login_pop": 0,
+    "mark": 20221019,
+    "page_info": {
+      "class_name": "ManChaoSkinPage",
+      "ui_name": "ManChaoSkinPermanentPage"
+    },
+    "time": "stop",
+    "title_res_tag": "manchao_permanent",
     "type": 18
   },
   "8009": {
@@ -46688,6 +46812,7 @@
     4971,
     4972,
     5017,
+    5023,
     5062,
     5063,
     5064,
@@ -46834,6 +46959,7 @@
     6015,
     6016,
     6018,
+    6020,
     100001,
     40009,
     40030,
@@ -48562,6 +48688,7 @@
       4960,
       4971,
       5017,
+      5023,
       5324,
       5360,
       6000,
@@ -48574,6 +48701,7 @@
       6015,
       6016,
       6018,
+      6020,
       40159,
       40164,
       40167,
