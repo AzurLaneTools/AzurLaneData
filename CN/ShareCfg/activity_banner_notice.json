@@ -1,20 +1,44 @@
 {
   "1": {
     "id": 1,
-    "param": "3",
-    "pic": "linshi",
-    "type": 3
+    "param": [
+      "scene court yard",
+      {
+        "OpenShop": true
+      }
+    ]
   },
   "2": {
     "id": 2,
     "param": [
-      "scene get boat"
-    ],
-    "pic": "linshi",
-    "type": 2
+      "OTHERWORLD_MAP",
+      {
+        "openTerminal": true,
+        "terminalPage": 2
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "param": [
+      "scene get boat",
+      {
+        "page": 1,
+        "projectName": "new"
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "param": [
+      "scene skinshop",
+      []
+    ]
   },
   "all": [
     1,
-    2
+    2,
+    3,
+    4
   ]
 }
