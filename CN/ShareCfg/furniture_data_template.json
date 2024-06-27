@@ -8610,6 +8610,204 @@
     "themeId": 0,
     "type": 7
   },
+  "280": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "五彩缤纷的滑梯，让童心滑向远方！ ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "youeryuanhuatiicon",
+    "id": 280,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "童心滑梯 ",
+    "offset": [],
+    "picture": "chuanmo/youeryuanhuati",
+    "rarity": 4,
+    "size": [
+      6,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
+  "281": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "高效快捷的校车，让童心不再迟到！ ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      [
+        "char1",
+        1
+      ],
+      [
+        "char2",
+        1
+      ],
+      [
+        "char3",
+        1
+      ]
+    ],
+    "gain_by": "",
+    "icon": "youeryuanxiaocheicon",
+    "id": 281,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "童心校车",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      7
+    ],
+    "spine": [
+      {
+        "1": "youeryuanxiaocheB",
+        "2": "normal",
+        "4": 1
+      },
+      [
+        "youeryuanxiaocheT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "sit1",
+            "3": "sit"
+          }
+        ],
+        {
+          "2": 1,
+          "3": [
+            [
+              "walk1",
+              "walk2",
+              "walk3"
+            ],
+            "walk",
+            1
+          ]
+        },
+        [
+          1
+        ],
+        [
+          [
+            "sit1"
+          ],
+          [
+            "sit2"
+          ],
+          [
+            "sit3"
+          ]
+        ]
+      ],
+      [
+        [
+          -40.1,
+          28.6
+        ],
+        [
+          192,
+          172
+        ],
+        "chuanmo/youeryuanxiaoche_mask1"
+      ],
+      [
+        30.6,
+        -14.2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": [
+      [
+        [
+          [
+            -6.5,
+            34.9
+          ],
+          [
+            96,
+            125
+          ],
+          "chuanmo/youeryuanxiaoche_mask2"
+        ],
+        [
+          5.1,
+          -37
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          [
+            -6.5,
+            34.9
+          ],
+          [
+            100,
+            132
+          ],
+          "chuanmo/youeryuanxiaoche_mask2"
+        ],
+        [
+          5.1,
+          -37
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -124791,6 +124989,54 @@
     "tag": 6,
     "themeId": 0,
     "type": 7
+  },
+  "100063": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "冲击性的可爱！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiguangyantuicon",
+    "id": 100063,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "北极兔玩偶（AT型）",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "jiguangyantu",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
   },
   "200001": {
     "advice": 0,
