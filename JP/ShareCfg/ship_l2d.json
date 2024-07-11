@@ -16947,17 +16947,7 @@
         ],
         [
           8,
-          [
-            "touch_idle12",
-            "touch_drag1",
-            "touch_drag2",
-            "touch_drag3",
-            "touch_drag4",
-            "touch_drag5",
-            "touch_drag6",
-            "touch_drag7",
-            "touch_drag8"
-          ]
+          []
         ],
         [
           9,
@@ -16971,7 +16961,9 @@
         ],
         [
           8,
-          []
+          [
+            "touch_idle1"
+          ]
         ],
         [
           9,
@@ -17636,7 +17628,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17681,7 +17672,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17726,7 +17716,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17771,7 +17760,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17816,7 +17804,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17861,7 +17848,6 @@
     },
     "action_trigger_active": {
       "enable": [],
-      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17994,7 +17980,7 @@
     "save_parameter": 0,
     "ship_skin_id": 207037,
     "shop_action": 0,
-    "smooth": 150,
+    "smooth": 500,
     "start_value": 0
   },
   "20703719": {
@@ -18092,7 +18078,7 @@
     "save_parameter": 0,
     "ship_skin_id": 207037,
     "shop_action": 0,
-    "smooth": 150,
+    "smooth": 500,
     "start_value": 0
   },
   "20703720": {
@@ -18485,6 +18471,120 @@
     "ship_skin_id": 207037,
     "shop_action": 0,
     "smooth": 100,
+    "start_value": 0
+  },
+  "20703729": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 20703729,
+    "ignore_action": 0,
+    "ignore_react": 0,
+    "limit_time": 0,
+    "listener_data": "",
+    "mode": 2,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param3",
+    "parts_data": "",
+    "range": [
+      -10,
+      10
+    ],
+    "range_abs": 0,
+    "react_condition": "",
+    "react_pos_x": -7,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_action_index": 0,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "save_parameter": 0,
+    "ship_skin_id": 207037,
+    "shop_action": 1,
+    "smooth": 50,
+    "start_value": 0
+  },
+  "20703730": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 20703730,
+    "ignore_action": 0,
+    "ignore_react": 0,
+    "limit_time": 0,
+    "listener_data": "",
+    "mode": 2,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param3",
+    "parts_data": "",
+    "range": [
+      -10,
+      10
+    ],
+    "range_abs": 0,
+    "react_condition": "",
+    "react_pos_x": 10,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_action_index": 0,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "save_parameter": 0,
+    "ship_skin_id": 207037,
+    "shop_action": 1,
+    "smooth": 50,
+    "start_value": 0
+  },
+  "20703731": {
+    "action_trigger": "",
+    "action_trigger_active": "",
+    "drag_direct": 0,
+    "draw_able_name": "",
+    "gyro": 0,
+    "gyro_x": 0,
+    "gyro_y": 0,
+    "gyro_z": 0,
+    "id": 20703731,
+    "ignore_action": 0,
+    "ignore_react": 0,
+    "limit_time": 0,
+    "listener_data": "",
+    "mode": 2,
+    "offset_x": 0,
+    "offset_y": 0,
+    "parameter": "Param3",
+    "parts_data": "",
+    "range": [
+      -10,
+      10
+    ],
+    "range_abs": 0,
+    "react_condition": "",
+    "react_pos_x": -7,
+    "react_pos_y": 0,
+    "relation_parameter": "",
+    "revert": -1,
+    "revert_action_index": 0,
+    "revert_idle_index": 0,
+    "revert_smooth": 100,
+    "save_parameter": 0,
+    "ship_skin_id": 207037,
+    "shop_action": 1,
+    "smooth": 50,
     "start_value": 0
   },
   "20705301": {
@@ -28342,6 +28442,9 @@
     20703725,
     20703726,
     20703727,
-    20703728
+    20703728,
+    20703729,
+    20703730,
+    20703731
   ]
 }
