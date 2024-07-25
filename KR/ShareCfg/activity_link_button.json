@@ -58,10 +58,7 @@
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
-    "time": [
-      "default",
-      5404
-    ],
+    "time": "stop",
     "type": 2
   },
   "30": {
@@ -188,6 +185,23 @@
     "time": "stop",
     "type": 0
   },
+  "104": {
+    "group_id": 1,
+    "id": 104,
+    "name": "event_layer",
+    "order": 1,
+    "param": {
+      "mediator": "ChildishnessSchoolPtMediator",
+      "view": "ChildishnessSchoolPtPage"
+    },
+    "pic": "event_layer",
+    "text_pic": "text_event_layer",
+    "time": [
+      "default",
+      5404
+    ],
+    "type": 14
+  },
   "all": [
     1,
     2,
@@ -202,7 +216,8 @@
     90,
     100,
     101,
-    102
+    102,
+    104
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -227,6 +242,9 @@
     ],
     "event_escort": [
       40
+    ],
+    "event_layer": [
+      104
     ],
     "event_map": [
       10
