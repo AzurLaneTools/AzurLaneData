@@ -16947,7 +16947,17 @@
         ],
         [
           8,
-          []
+          [
+            "touch_idle12",
+            "touch_drag1",
+            "touch_drag2",
+            "touch_drag3",
+            "touch_drag4",
+            "touch_drag5",
+            "touch_drag6",
+            "touch_drag7",
+            "touch_drag8"
+          ]
         ],
         [
           9,
@@ -17628,6 +17638,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17672,6 +17683,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17716,6 +17728,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17760,6 +17773,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17804,6 +17818,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17848,6 +17863,7 @@
     },
     "action_trigger_active": {
       "enable": [],
+      "idle": 0,
       "ignore": []
     },
     "drag_direct": 0,
@@ -17931,7 +17947,7 @@
     "id": 20703718,
     "ignore_action": 1,
     "ignore_react": 1,
-    "limit_time": 1,
+    "limit_time": 0.5,
     "listener_data": "",
     "mode": 1,
     "offset_x": 0,
@@ -17975,12 +17991,12 @@
     },
     "revert": -1,
     "revert_action_index": 0,
-    "revert_idle_index": 0,
+    "revert_idle_index": 1,
     "revert_smooth": 100,
     "save_parameter": 0,
     "ship_skin_id": 207037,
     "shop_action": 0,
-    "smooth": 500,
+    "smooth": 180,
     "start_value": 0
   },
   "20703719": {
@@ -18029,7 +18045,7 @@
     "id": 20703719,
     "ignore_action": 1,
     "ignore_react": 1,
-    "limit_time": 1,
+    "limit_time": 0.5,
     "listener_data": "",
     "mode": 1,
     "offset_x": 0,
@@ -18073,12 +18089,12 @@
     },
     "revert": -1,
     "revert_action_index": 0,
-    "revert_idle_index": 0,
+    "revert_idle_index": 1,
     "revert_smooth": 100,
     "save_parameter": 0,
     "ship_skin_id": 207037,
     "shop_action": 0,
-    "smooth": 500,
+    "smooth": 180,
     "start_value": 0
   },
   "20703720": {
@@ -18157,7 +18173,7 @@
     "relation_parameter": "",
     "revert": -1,
     "revert_action_index": 0,
-    "revert_idle_index": 0,
+    "revert_idle_index": 1,
     "revert_smooth": 100,
     "save_parameter": 0,
     "ship_skin_id": 207037,
