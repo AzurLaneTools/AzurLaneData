@@ -4,35 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5051",
+    "param": "5260",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
-      "timer",
-      [
-        [
-          2024,
-          7,
-          11
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2024,
-          7,
-          17
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
+      "default",
+      5260
     ],
     "type": 3
   },
@@ -63,13 +40,16 @@
     "id": 10,
     "name": "event_map",
     "order": 1,
-    "param": "0",
-    "pic": "event_map",
-    "text_pic": "text_event_map",
-    "time": [
-      "default"
+    "param": [
+      "OTHERWORLD_MAP"
     ],
-    "type": 0
+    "pic": "event_map",
+    "text_pic": "text_event_anotherWorld",
+    "time": [
+      "default",
+      5260
+    ],
+    "type": 2
   },
   "20": {
     "group_id": 5,
@@ -77,13 +57,13 @@
     "name": "event_minigame",
     "order": 1,
     "param": [
-      "tempesta medal collection"
+      "OTHERWORLD_BACKHILL"
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      5048
+      5260
     ],
     "type": 2
   },
