@@ -141251,6 +141251,20 @@
       1
     ]
   },
+  "902290": {
+    "desc": "When equipped by a ship: increases that ship's Dive Bomber gear slot efficiency by 15%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 902290,
+    "max_level": 1,
+    "name": "Honed Aviation Skills - Dive Bombers",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1005080": {
     "desc": "Increases this ship's TRP by $1 and, every 15s: fires a $2 special barrage (DMG is based on the skill's level). If your Vanguard consists of only Iris Libre and/or Vichya Dominion ships, every 20s: 75.0% chance to increase your fleet's DMG dealt by $3 for 10s (does not stack with the same effect).",
     "desc_add": [
@@ -147237,6 +147251,150 @@
       1
     ]
   },
+  "1013550": {
+    "desc": "Increases this boat's TRP by $3 and Torpedo Crit Rate by #1. At the beginning of battle, fires a $2 torpedo barrage (pattern and DMG are based on the skill's level); if there are other ships afloat in your Submarine Fleet, this barrage's pattern is further improved.",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "4.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 1013550,
+    "max_level": 10,
+    "name": "The Smiling Sawfish+",
+    "system_transform": {
+      "11": 3500
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1017160": {
     "desc": "Increases this ship's DMG dealt by $1. When this ship is attacked: $2 chance for this ship to enter the Phantom state. \nThis state increases her Evasion Rate by $3 and lasts for 5s. When this state ends, one random enemy is chosen; for 5s, Mary Celeste deals 15.0% increased DMG to this enemy and she fires a $4 special barrage (DMG is based on the skill's level) that always deals Critical DMG. There is a 15s cooldown between Phantom state activations.",
     "desc_add": [
@@ -151342,6 +151500,148 @@
     "name": "Tactical Command – Leipzig",
     "system_transform": [],
     "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1090280": {
+    "desc": "When this ship launches an airstrike: $1 chance for the next airstrike to become available immediately. Every 20s: $2 chance to launch a $3 special airstrike (DMG is based on the skill's level; if this ship has Eagle Union gear equipped: improves this airstrike).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5%",
+        "15%"
+      ],
+      [
+        "40%",
+        "70%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1090280,
+    "max_level": 10,
+    "name": "Quick Takeoff - Long Island",
+    "system_transform": [],
+    "type": 1,
     "world_death_mark": [
       1
     ]
