@@ -209,6 +209,30 @@
       }
     ]
   },
+  "MonopolyCar2024Game_lock_auto_tip": {
+    "tip": "10회 전진하면 자동 전진 모드가 오픈됩니다. (진척 $1)"
+  },
+  "MonopolyCar2024Game_open_auto_tip": {
+    "tip": "자동 전진 모드 오픈. 시작 지점 통과 시, 스태프가 자동으로 변경됩니다."
+  },
+  "MonopolyCar2024Game_pick_tip": {
+    "tip": "시작 지점을 통과하면 스태프를 변경할 수 있으며, 스태프와 함께 클리어하면 보상 획득 가능"
+  },
+  "MonopolyCar2024Game_sel_label": {
+    "tip": "선택"
+  },
+  "MonopolyCar2024Game_title1": {
+    "tip": "클리어 횟수"
+  },
+  "MonopolyCar2024Game_title2": {
+    "tip": "현재 진척도"
+  },
+  "MonopolyCar2024Game_total_award_title": {
+    "tip": "획득 합계"
+  },
+  "MonopolyCar2024Game_total_num_tip": {
+    "tip": "잔여 전진 횟수: $1"
+  },
   "Normalbuild_URexchange_confirm": {
     "tip": "400Pt를 소비하여 $1(으)로 교환하시겠습니까?"
   },
@@ -1768,6 +1792,9 @@
   "battle_text_common_3": {
     "tip": "<color=#f1f102>적이 가하는 피해량이 대폭 상승하고, 받는 피해량이 시간이 경과함에 따라 상승한다</color>."
   },
+  "battle_text_common_4": {
+    "tip": "<color=#f1f102>적이 주는 피해량이 대폭 상승한다. 적탄이 실드를 무시하고 사선 상에 있는 모든 아군 함선에게 피해를 입힌다.</color>"
+  },
   "battle_text_luodeni_1": {
     "tip": "로드니의 수가 감소하고, \"로드니·META\"가 <color=#f1f102>강화</color>되었다."
   },
@@ -2422,7 +2449,7 @@
     "tip": "「{namecode:206}」, 「{namecode:150}」 상시 건조 추가!"
   },
   "buildship_new_tip": {
-    "tip": "기간 한정 건조를 총 200회 실시하면, 뱅가드 100% 획득 가능! (최대 4척까지)"
+    "tip": "「스트라스부르」, 「듀플렉스」의 등장 확률 UP!"
   },
   "buildship_special_tip": {
     "tip": "「{namecode:18}」, 「{namecode:208}」 상시 건조 추가!"
@@ -8444,6 +8471,78 @@
       }
     ]
   },
+  "help_monopoly_car2024": {
+    "tip": [
+      {
+        "info": " ■ 플레이 방법: "
+      },
+      {
+        "info": "1. 매일 로그인하면 주사위(전진 횟수)를 3개, 이벤트 일간 임무를 클리어하면 추가로 주사위를 2개 얻을 수 있습니다."
+      },
+      {
+        "info": "2. 시작 지점을 통과하면 함선 3척 중에서 하나를 스태프로 고를 수 있습니다."
+      },
+      {
+        "info": "3. 전진 칸 수, 또는 밟은 칸의 내용에 따라 다양한 스태프 대사가 표시됩니다."
+      },
+      {
+        "info": "4. 시작 지점을 3회 통과하면 한정 가구를 얻을 수 있습니다. 다른 스태프와 함께 시작 지점을 통과하면 물자 2,000을 얻을 수 있습니다."
+      },
+      {
+        "info": "5. 밟은 칸에 따라 다음 효과를 획득할 수 있습니다."
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "jinbi",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.19
+        },
+        "info": "    물자를 소량 획득할 수 있습니다."
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "shiyou",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.19
+        },
+        "info": "    연료를 소량 획득할 수 있습니다."
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "minyun",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.19
+        },
+        "info": "    자그마한 이벤트가 발생합니다."
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "daoju",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.19
+        },
+        "info": "    무작위로 보상을 획득할 수 있습니다."
+      },
+      {
+        "icon": {
+          "atlas": "attricon",
+          "path": "jiasu",
+          "posX": 0,
+          "posY": 0,
+          "scale": 0.19
+        },
+        "info": "    몇 칸 정도 전진합니다."
+      }
+    ]
+  },
   "help_monopoly_car_2": {
     "tip": [
       {
@@ -10671,6 +10770,9 @@
   },
   "levelScene_tracking_error_pre": {
     "tip": "<color=#92fc63>$1</color>를 클리어 후 오픈됩니다"
+  },
+  "levelScene_tracking_error_pre_2": {
+    "tip": "$1 또는 $2 클리어 시 오픈"
   },
   "levelScene_tracking_error_retry": {
     "tip": "출격 중에 에러가 발생했습니다."
@@ -16274,6 +16376,12 @@
   },
   "siren_chase_warning": {
     "tip": "위험 구역 확장 중"
+  },
+  "sitelasibao_expup_desc": {
+    "tip": "이벤트 기간 중 <color=#92fc63>스트라스부르, 로데슈, 듀플렉스, Z23, 허마이오니, 폼페오 마뇨</color>로 출격 시, 획득 경험치 <color=#92fc63>20%</color> 상승"
+  },
+  "sitelasibao_expup_name": {
+    "tip": "경험치 가산"
   },
   "skill": {
     "tip": "스킬"
