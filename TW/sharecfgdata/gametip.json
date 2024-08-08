@@ -2287,16 +2287,16 @@
     "tip": "是否升級？升級會消耗對應材料"
   },
   "buildship_heavy_tip": {
-    "tip": "巴爾的摩、阿拉巴馬、霧島 建造追加！"
+    "tip": "巴爾的摩(μ兵裝) 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "艾倫·M·桑拿、史蒂芬·波特、伯明罕等建造追加！"
+    "tip": "黛朵(μ兵裝)、塔什干(μ兵裝) 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "每累計建造200次可獲得海上傳奇艦船 {namecode:463}(最多4次)"
   },
   "buildship_special_tip": {
-    "tip": "U-96、U-73、U-556 建造追加！"
+    "tip": "{namecode:190}、大青花魚(μ兵裝) 建造追加！"
   },
   "buleprint_need_level_tip": {
     "tip": "需角色到達$1級"
@@ -2845,6 +2845,394 @@
         "info": "活動規則：\n1.<color=#92fc63>9月15日</color>為止每日0點開放<color=#92fc63>1</color>場新遊戲，總計<color=#92fc63>7</color>場，可累計。完成7場遊戲可以獲得包括限定傢俱在內的豐富獎勵。\n遊戲規則：\n1.螢幕中有三個杯麵，其中一個放入了一把叉子，之後杯麵位置會進行交換。猜中叉子所在的杯麵可獲得積分並繼續下一輪比賽。\n2.獲得積分由基礎得分和剩餘時間得分組成，遊戲難度會隨著遊戲輪數的增加逐漸提高。\n3.猜錯叉子所在杯麵，單輪時間用盡或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。"
       }
     ]
+  },
+  "child_archive_name": {
+    "tip": "姓名"
+  },
+  "child_attr_name1": {
+    "tip": "屬性"
+  },
+  "child_attr_name2": {
+    "tip": "能力"
+  },
+  "child_bag_empty_tip": {
+    "tip": "-暫未獲得任何道具-"
+  },
+  "child_btn_bag": {
+    "tip": "背包"
+  },
+  "child_btn_collect": {
+    "tip": "回憶"
+  },
+  "child_btn_home": {
+    "tip": "回家"
+  },
+  "child_btn_mind": {
+    "tip": "心事"
+  },
+  "child_btn_news": {
+    "tip": "本月資訊快報"
+  },
+  "child_btn_review": {
+    "tip": "劇情回顧"
+  },
+  "child_btn_target": {
+    "tip": "目標"
+  },
+  "child_buff_name": {
+    "tip": "狀態"
+  },
+  "child_callname_tip": {
+    "tip": "請輸入…"
+  },
+  "child_close_tip": {
+    "tip": "點擊空白處關閉"
+  },
+  "child_collect_lock": {
+    "tip": "-待解鎖-"
+  },
+  "child_date_text1": {
+    "tip": "居家階段"
+  },
+  "child_date_text2": {
+    "tip": "學前準備"
+  },
+  "child_date_text3": {
+    "tip": "系統升級"
+  },
+  "child_date_text4": {
+    "tip": "資料準備"
+  },
+  "child_default_callname": {
+    "tip": "指揮官"
+  },
+  "child_end_sure_tip": {
+    "tip": "是否進行結局判定"
+  },
+  "child_extraAttr_sure_tip": {
+    "tip": "是否確認個性補正？確認後將無法修改"
+  },
+  "child_favor_lock1": {
+    "tip": "好感度達$1級"
+  },
+  "child_favor_lock2": {
+    "tip": "僅$1解鎖"
+  },
+  "child_favor_progress": {
+    "tip": "前進度：$1"
+  },
+  "child_filter_award_attr1": {
+    "tip": "屬性"
+  },
+  "child_filter_award_attr2": {
+    "tip": "能力"
+  },
+  "child_filter_award_nature": {
+    "tip": "個性"
+  },
+  "child_filter_award_res": {
+    "tip": "資源"
+  },
+  "child_filter_title": {
+    "tip": "篩選"
+  },
+  "child_filter_type1": {
+    "tip": "行程類型"
+  },
+  "child_filter_type2": {
+    "tip": "獲得類型"
+  },
+  "child_filter_type3": {
+    "tip": "消耗類型"
+  },
+  "child_item_type0": {
+    "tip": "全部"
+  },
+  "child_item_type1": {
+    "tip": "書籍"
+  },
+  "child_item_type2": {
+    "tip": "樂器"
+  },
+  "child_item_type3": {
+    "tip": "工具"
+  },
+  "child_item_type4": {
+    "tip": "雜物"
+  },
+  "child_main_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help5",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "child_mind_empty_tip": {
+    "tip": "-目前暫無任何心事-"
+  },
+  "child_mind_finish_title": {
+    "tip": "已達成"
+  },
+  "child_mind_processing_title": {
+    "tip": "進行中"
+  },
+  "child_mind_time_title": {
+    "tip": "剩餘時間："
+  },
+  "child_mood_desc1": {
+    "tip": "當前心情階段：鬱鬱寡歡<color=#72bc42>收益減少40%%</color>"
+  },
+  "child_mood_desc2": {
+    "tip": "當前心情階段：心情不佳<color=#72bc42>收益減少20%%</color>"
+  },
+  "child_mood_desc3": {
+    "tip": "當前心情階段：心平氣和<color=#72bc42>沒有額外效果</color>"
+  },
+  "child_mood_desc4": {
+    "tip": "當前心情階段：心花怒放<color=#72bc42>收益增加40%%</color>"
+  },
+  "child_mood_desc5": {
+    "tip": "當前心情階段：心花怒放<color=#72bc42>收益增加40%%</color>"
+  },
+  "child_msg_owned": {
+    "tip": "已擁有：$1"
+  },
+  "child_msg_title_detail": {
+    "tip": "詳情"
+  },
+  "child_msg_title_tip": {
+    "tip": "提示"
+  },
+  "child_nature_title": {
+    "tip": "個性："
+  },
+  "child_news_import_empty": {
+    "tip": "本月暫無重要活動"
+  },
+  "child_news_import_title": {
+    "tip": "重要活動"
+  },
+  "child_news_other_empty": {
+    "tip": "本月暫無其他活動"
+  },
+  "child_news_other_title": {
+    "tip": "其它活動"
+  },
+  "child_no_resource": {
+    "tip": "資源不夠啦"
+  },
+  "child_option_limit": {
+    "tip": "限時"
+  },
+  "child_plan_check_tip1": {
+    "tip": "行程格不足，請依序預留足夠的行程格"
+  },
+  "child_plan_check_tip2": {
+    "tip": "行程不滿足前置屬性"
+  },
+  "child_plan_check_tip3": {
+    "tip": "行程不滿足歷史行程數量"
+  },
+  "child_plan_check_tip4": {
+    "tip": "行程所需金錢不足"
+  },
+  "child_plan_check_tip5": {
+    "tip": "行程所需心情不足"
+  },
+  "child_plan_event": {
+    "tip": "重要活動"
+  },
+  "child_plan_no_cost": {
+    "tip": "- 無消耗 -"
+  },
+  "child_plan_perform_title": {
+    "tip": "行程安排"
+  },
+  "child_plan_skip": {
+    "tip": "跳過行程動畫"
+  },
+  "child_plan_type1": {
+    "tip": "學校課程"
+  },
+  "child_plan_type2": {
+    "tip": "興趣活動"
+  },
+  "child_plan_type3": {
+    "tip": "社會活動"
+  },
+  "child_plan_type4": {
+    "tip": "自由活動"
+  },
+  "child_polaroid_get_tip": {
+    "tip": "已收錄，可於「瞬間」查看"
+  },
+  "child_polaroid_lock_tip": {
+    "tip": "通關不同結局後可查看"
+  },
+  "child_random_ops_drop": {
+    "tip": "隨機獎勵"
+  },
+  "child_random_polaroid_drop": {
+    "tip": "瞬間"
+  },
+  "child_refresh_sure_tip": {
+    "tip": "是否重新開始養成計畫？"
+  },
+  "child_reset_sure_tip": {
+    "tip": "重置後將從認知階段重新開始收集數據，已獲得的回憶仍可查看。是否重置？"
+  },
+  "child_schedule_empty_tip": {
+    "tip": "點選左側行程表新增行程"
+  },
+  "child_schedule_event_tip": {
+    "tip": "這裡已經被安排好重要活動啦~"
+  },
+  "child_schedule_sure_tip": {
+    "tip": "存在未安排的行程，領航員將會休息，是否確認進入下一週？"
+  },
+  "child_schedule_sure_tip2": {
+    "tip": "存在未消耗完的行動力，是否確認進入下一週？"
+  },
+  "child_school_sure_tip": {
+    "tip": "入學後，目前的成長目標將會刷新，未使用的行動力也不會保存。是否確認入學？"
+  },
+  "child_shop_empty_tip": {
+    "tip": "-本商店商品已經全部售罄-"
+  },
+  "child_shop_price_title": {
+    "tip": "合計："
+  },
+  "child_shop_tip1": {
+    "tip": "※此商店商品每$1週刷新"
+  },
+  "child_shop_tip2": {
+    "tip": "※此商店商品只可購買一次"
+  },
+  "child_stage_desc1": {
+    "tip": "認知階段"
+  },
+  "child_stage_desc2": {
+    "tip": "成長階段"
+  },
+  "child_stage_desc3": {
+    "tip": "發展階段"
+  },
+  "child_story_name": {
+    "tip": "指揮官"
+  },
+  "child_target_finish_tip": {
+    "tip": "本階段目標已達成~"
+  },
+  "child_target_lock_tip": {
+    "tip": "目前階段目標已設定，不可修改"
+  },
+  "child_target_progress": {
+    "tip": "完成度："
+  },
+  "child_target_set_empty": {
+    "tip": "尚未設定目標"
+  },
+  "child_target_set_skip": {
+    "tip": "點選跳轉至<color=#39BFFF>目標設定</color>"
+  },
+  "child_target_set_sure_tip": {
+    "tip": "是否確認設定該成長目標？將以<color=#72bc42>$1</color>作為主要養成內容\n確認後本階段內成長目標將無法修改"
+  },
+  "child_target_time_title": {
+    "tip": "剩餘完成時間："
+  },
+  "child_target_title1": {
+    "tip": "主線目標"
+  },
+  "child_target_title2": {
+    "tip": "成長目標"
+  },
+  "child_task_finish_all": {
+    "tip": "目前階段成長目標已完成"
+  },
+  "child_task_system_type2": {
+    "tip": "成長"
+  },
+  "child_task_system_type3": {
+    "tip": "主線"
+  },
+  "child_unlock_attr2": {
+    "tip": "個性"
+  },
+  "child_unlock_attr3": {
+    "tip": "能力"
+  },
+  "child_unlock_bag": {
+    "tip": "背包"
+  },
+  "child_unlock_buff": {
+    "tip": "狀態"
+  },
+  "child_unlock_ending": {
+    "tip": "結局"
+  },
+  "child_unlock_intimacy": {
+    "tip": "好感度"
+  },
+  "child_unlock_memory": {
+    "tip": "回憶"
+  },
+  "child_unlock_new_secretary": {
+    "tip": "領航員-TB新外形模組已解鎖，現可於特殊秘書艦介面進行更換"
+  },
+  "child_unlock_out": {
+    "tip": "行程"
+  },
+  "child_unlock_polaroid": {
+    "tip": "瞬間"
+  },
+  "child_unlock_tip": {
+    "tip": "解鎖"
+  },
+  "child_upgrade_sure_tip": {
+    "tip": "系統升級後，目前的成長目標將會刷新，未使用的行動力也不會保存。是否確認進行系統升級？"
   },
   "choose_ship_to_wear_this_skin": {
     "tip": "請選擇需要換裝的角色"
@@ -5223,6 +5611,18 @@
   },
   "five_shujuhuigu1": {
     "tip": "推進至$1"
+  },
+  "flagship_display_mode_1": {
+    "tip": "不顯示特殊秘書艦"
+  },
+  "flagship_display_mode_2": {
+    "tip": "僅顯示特殊秘書艦"
+  },
+  "flagship_display_mode_3": {
+    "tip": "均顯示"
+  },
+  "flagship_educate_slot_lock_tip": {
+    "tip": "完成<color=#39bfff>「養成計畫」</color>主線劇情-新生活(上)後即可解鎖特殊秘書艦"
   },
   "fleet_antisub_range": {
     "tip": "反潛範圍"
@@ -14088,6 +14488,18 @@
   "secretary_pos_save_success": {
     "tip": "儲存成功"
   },
+  "secretary_special_lock_tip": {
+    "tip": "目前外形模組未滿足開放條件"
+  },
+  "secretary_special_name": {
+    "tip": "領航員-TB"
+  },
+  "secretary_special_title_age": {
+    "tip": "更換外形模組"
+  },
+  "secretary_special_title_physiognomy": {
+    "tip": "更換外形模組"
+  },
   "secretary_unlock2": {
     "tip": "完成關卡3-4後解鎖"
   },
@@ -17348,7 +17760,7 @@
     "tip": "<color=#4FFF00>開心</color>"
   },
   "word_harbour": {
-    "tip": "星期"
+    "tip": "港區"
   },
   "word_hard": {
     "tip": "困難"
@@ -17360,7 +17772,7 @@
     "tip": "小時"
   },
   "word_in_one_week": {
-    "tip": "第$1週"
+    "tip": "一週內"
   },
   "word_intensify_phase": {
     "tip": "強化階段"
@@ -17528,7 +17940,7 @@
     "tip": "強化值"
   },
   "word_month": {
-    "tip": "湮燼之核"
+    "tip": "月"
   },
   "word_museum_1": {
     "tip": "今天的修理任務都完成啦，明天再來吧"
@@ -18117,13 +18529,13 @@
     "tip": "星期日"
   },
   "word_week_title": {
-    "tip": "一週內"
+    "tip": "星期"
   },
   "word_which_month": {
-    "tip": "月"
+    "tip": "第$1月"
   },
   "word_which_week": {
-    "tip": "第$1月"
+    "tip": "第$1週"
   },
   "word_yisegefuke_pt": {
     "tip": "pt"
