@@ -4707,6 +4707,60 @@
       491
     ]
   },
+  "492": {
+    "ammo": 9,
+    "ammo_icon": [],
+    "ammo_info": [
+      [
+        7,
+        9008
+      ]
+    ],
+    "attribute_2": "antisub",
+    "damage": "186 ~ 372",
+    "descrip": "说明未填写",
+    "equip_info": [
+      1,
+      2,
+      6,
+      10,
+      11,
+      12
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 492,
+    "label": [
+      "DC"
+    ],
+    "name": "埃尔德里奇改造 自带刺猬弹（强化）",
+    "nationality": 1,
+    "part_main": [
+      1,
+      2,
+      20,
+      21
+    ],
+    "part_sub": [
+      1,
+      2,
+      20,
+      21
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [],
+    "speciality": "<[ASW]>",
+    "tech": 0,
+    "torpedo_ammo": 0,
+    "type": 14,
+    "value_2": 45,
+    "value_3": 0,
+    "weapon_id": [
+      468
+    ]
+  },
   "500": {
     "ammo": 10,
     "ammo_icon": [],
@@ -121469,6 +121523,57 @@
       61672
     ]
   },
+  "80341": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "descrip": "技能弹幕",
+    "equip_info": [],
+    "equip_parameters": [],
+    "hidden_skill_id": [],
+    "icon": "1",
+    "id": 80341,
+    "label": [],
+    "name": "专属弹幕-法戈I",
+    "nationality": 0,
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "property_rate": [],
+    "rarity": 1,
+    "skill_id": [],
+    "speciality": "<[NA]>",
+    "tech": 1,
+    "torpedo_ammo": 0,
+    "type": 1,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "weapon_id": [
+      170581
+    ]
+  },
+  "80342": {
+    "base": 80341,
+    "hidden_skill_id": [],
+    "id": 80342,
+    "name": "专属弹幕-法戈II",
+    "weapon_id": [
+      170582
+    ]
+  },
   "85000": {
     "ammo": 3,
     "ammo_icon": [
@@ -145508,6 +145613,155 @@
     "hidden_skill_id": [],
     "id": 150351,
     "value_1": "530"
+  },
+  "150360": {
+    "ammo": 10,
+    "ammo_icon": [],
+    "ammo_info": [],
+    "attribute_1": "cannon",
+    "attribute_2": "antiaircraft",
+    "descrip": "量産型の輸送用高速ドローン。高い航続力と信頼度を誇る",
+    "equip_info": [
+      6
+    ],
+    "equip_parameters": [],
+    "hidden_skill_id": [
+      201017
+    ],
+    "icon": "150360",
+    "id": 150360,
+    "label": [
+      "DEV"
+    ],
+    "name": "輸送用高速ドローン",
+    "nationality": 1,
+    "part_main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20,
+      21
+    ],
+    "property_rate": [],
+    "rarity": 5,
+    "skill_id": [
+      60660
+    ],
+    "speciality": "<[NA]>",
+    "tech": 0,
+    "torpedo_ammo": 0,
+    "type": 10,
+    "value_1": "15",
+    "value_2": 8,
+    "value_3": 0,
+    "weapon_id": []
+  },
+  "150361": {
+    "base": 150360,
+    "id": 150361,
+    "value_1": "16"
+  },
+  "150362": {
+    "base": 150360,
+    "id": 150362,
+    "value_1": "17",
+    "value_2": 9
+  },
+  "150363": {
+    "base": 150360,
+    "id": 150363,
+    "value_1": "18",
+    "value_2": 10
+  },
+  "150364": {
+    "base": 150360,
+    "id": 150364,
+    "value_1": "19",
+    "value_2": 11
+  },
+  "150365": {
+    "base": 150360,
+    "id": 150365,
+    "value_1": "20",
+    "value_2": 12
+  },
+  "150366": {
+    "base": 150360,
+    "id": 150366,
+    "value_1": "21",
+    "value_2": 13
+  },
+  "150367": {
+    "base": 150360,
+    "id": 150367,
+    "value_1": "22",
+    "value_2": 14
+  },
+  "150368": {
+    "base": 150360,
+    "id": 150368,
+    "value_1": "23",
+    "value_2": 16
+  },
+  "150369": {
+    "base": 150360,
+    "id": 150369,
+    "value_1": "24",
+    "value_2": 18
+  },
+  "150370": {
+    "base": 150360,
+    "id": 150370,
+    "value_1": "25",
+    "value_2": 20
+  },
+  "150371": {
+    "anti_siren": 100,
+    "base": 150360,
+    "id": 150371,
+    "value_1": "26",
+    "value_2": 22
+  },
+  "150372": {
+    "anti_siren": 200,
+    "base": 150360,
+    "id": 150372,
+    "value_1": "27",
+    "value_2": 24
+  },
+  "150373": {
+    "anti_siren": 300,
+    "base": 150360,
+    "id": 150373,
+    "value_1": "28",
+    "value_2": 26
   },
   "170001": {
     "ammo": 10,
