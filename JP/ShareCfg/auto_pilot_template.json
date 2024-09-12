@@ -10491,6 +10491,48 @@
     ],
     "name": "2024瑞凤活动 TP 假面赤城召唤物跟随移动"
   },
+  "70267": {
+    "default": 1,
+    "id": 70267,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -20,
+          "X2": -5,
+          "Z1": 50,
+          "Z2": 75,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 90
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "上方随机移动"
+  },
+  "70268": {
+    "default": 1,
+    "id": 70268,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -20,
+          "X2": -5,
+          "Z1": 25,
+          "Z2": 50,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 90
+        },
+        "to": 1,
+        "type": 3
+      }
+    ],
+    "name": "下方随机移动"
+  },
   "70270": {
     "default": 1,
     "id": 70270,
@@ -10521,6 +10563,73 @@
       }
     ],
     "name": "黑长门 樱花结界转圈"
+  },
+  "70271": {
+    "default": 1,
+    "id": 70271,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -10,
+          "z": 65
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2024天城航母活动 EX 上方立定"
+  },
+  "70272": {
+    "default": 1,
+    "id": 70272,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": -10,
+          "z": 39
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2024天城航母活动 EX 下方立定"
+  },
+  "70273": {
+    "default": 1,
+    "id": 70273,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "antiClockWise": true,
+          "duration": -1,
+          "radius": 13,
+          "x": -5,
+          "z": 52
+        },
+        "to": 1,
+        "type": 4
+      }
+    ],
+    "name": "2024天城航母活动 EX 转圈移动"
   },
   "75001": {
     "default": 1,

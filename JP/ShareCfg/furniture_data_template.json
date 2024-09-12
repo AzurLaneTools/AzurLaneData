@@ -7642,6 +7642,119 @@
     "themeId": 0,
     "type": 7
   },
+  "287": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "「去りし人に残された破片の景色。追憶が形作るはナラクの狭間」\n「絳染む丹華の詠歌」に参加した指揮官に贈る",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "絳染む丹華の詠歌",
+    "icon": "fukongdaoxunzhangicon",
+    "id": 287,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "ナラクの一瞬",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "fukongdaoxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
+  "288": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "またもややってきたおめでたい日！桂花に飾られたステージでお月さまと踊ろう！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yuebingwutaiicon",
+    "id": 288,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "月ウサギステージ",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "yuebingwutaiB",
+        "normal"
+      ],
+      [
+        "yuebingwutaiT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -133417,5 +133530,926 @@
     "tag": 5,
     "themeId": 113,
     "type": 6
+  },
+  "314001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "楽園の夢、ドリームランド！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanmlyicon",
+    "id": 314001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園ドリームの床",
+    "offset": [],
+    "picture": "mly/dibanmly",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 114,
+    "type": 4
+  },
+  "314002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "楽園の夢、ドリームランド！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbimlyicon",
+    "id": 314002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "楽園ドリームの壁",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbimly",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 114,
+    "type": 1
+  },
+  "314101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "弾力に富んだやわらかーい長椅子。…本当のゼリーじゃないよね？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "changyimlyicon",
+    "id": 314101,
+    "interAction": [
+      [
+        "sit",
+        [
+          23.3,
+          20.1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ゼリーの長椅子",
+    "offset": [],
+    "picture": "mly/changyimly",
+    "rarity": 2,
+    "size": [
+      1,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "お願いをする時に星を間違えないでね！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "langanmlyicon",
+    "id": 314102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "星のフェンス",
+    "offset": [],
+    "picture": "mly/langanmly",
+    "rarity": 2,
+    "size": [
+      1,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "アトラクションへの行き方を示す標識……なんか読めなくない？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "lubiaomlyicon",
+    "id": 314103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の道標",
+    "offset": [],
+    "picture": "mly/lubiaomly",
+    "rarity": 3,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "列に並んでピョー！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "paiduijiumlyicon",
+    "id": 314104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の隊列饅頭",
+    "offset": [],
+    "picture": "mly/paiduijiumly",
+    "rarity": 3,
+    "size": [
+      2,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 1,
+    "canputonGrid": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "そろそろ開園するの？！なんかドキドキしてきた！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "rukoumlyicon",
+    "id": 314105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の入口",
+    "offset": [
+      0,
+      0
+    ],
+    "picture": "mly/rukoumly",
+    "rarity": 3,
+    "size": [
+      7,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 9
+  },
+  "314106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "お茶を飲みながらお菓子を食べられて、お風呂にも入れる……？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yugangmlyicon",
+    "id": 314106,
+    "interAction": [
+      [
+        "wash",
+        [
+          2.4,
+          -87.5
+        ],
+        [
+          -1,
+          1
+        ],
+        "mly/yugangmly_using",
+        0,
+        [
+          [
+            2,
+            64.5
+          ],
+          [
+            236.2,
+            288.1
+          ],
+          "mly/yugangmly_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園のカップバス",
+    "offset": [],
+    "picture": "mly/yugangmly",
+    "rarity": 3,
+    "size": [
+      4,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "頂上ではドリームランドを一望できるよ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      [
+        "char4",
+        1
+      ],
+      [
+        "char3",
+        1
+      ],
+      [
+        "char2",
+        1
+      ],
+      [
+        "char1",
+        1
+      ]
+    ],
+    "gain_by": "",
+    "icon": "motianlunmlyicon",
+    "id": 314107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ドリーム観覧車",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "motianlunmlyB",
+        "normal"
+      ],
+      [
+        "motianlunmlyT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          16.6,
+          36.96
+        ],
+        [
+          194,
+          268
+        ],
+        "mly/motianlunmly_mask"
+      ],
+      [
+        -22,
+        -50
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": [
+      [
+        [
+          [
+            16.6,
+            36.96
+          ],
+          [
+            194,
+            268
+          ],
+          "mly/motianlunmly_mask"
+        ],
+        [
+          -22,
+          -50
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          [
+            16.6,
+            36.96
+          ],
+          [
+            194,
+            268
+          ],
+          "mly/motianlunmly_mask"
+        ],
+        [
+          -22,
+          -50
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          [
+            16.6,
+            36.96
+          ],
+          [
+            194,
+            268
+          ],
+          "mly/motianlunmly_mask"
+        ],
+        [
+          -22,
+          -50
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "落ちた星が釣れるかもしれないピョ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "diaoyudianmlyicon",
+    "id": 314108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の釣り堀",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      4
+    ],
+    "spine": [
+      [
+        "diaoyudianmlyB",
+        "normal"
+      ],
+      [
+        "diaoyudianmlyT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "水でむせてしまうから、滑る時はあまり大きな声で叫ばないように！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "huatimlyicon",
+    "id": 314109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の滑り台",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      7,
+      6
+    ],
+    "spine": [
+      [
+        "huatimlyB",
+        "normal"
+      ],
+      [
+        "huatimlyT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit",
+            1,
+            "sit"
+          ],
+          [
+            "tuozhuai2"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [
+        [
+          -100,
+          225
+        ],
+        [
+          532.3,
+          413
+        ],
+        "mly/huatimly_mask"
+      ],
+      [
+        80,
+        -173
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ぐるぐる…わああ！飛んでるみたい！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "mumamlyicon",
+    "id": 314110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の回転木馬",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      7,
+      6
+    ],
+    "spine": [
+      [
+        "mumamlyB",
+        "normal"
+      ],
+      [
+        "mumamlyT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "目を閉じて願いをすれば、饅頭像がウィンクしてくれるって！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "penquanmlyicon",
+    "id": 314111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "楽園の噴水",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "penquanmly",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 114,
+    "type": 2
+  },
+  "314112": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "招待状を提示するように～",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chengmenmlyicon",
+    "id": 314112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "キャッスルの入口",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      0
+    ],
+    "spine": [
+      [
+        "chengmenmly",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 114,
+    "type": 6
+  },
+  "314113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "お腹が減った時に後ろに現れるというキッチンカー。結構美味しいと評判",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "canchemlyicon",
+    "id": 314113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "お化けキッチンカー",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      5
+    ],
+    "spine": [
+      [
+        "canchemly",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "dance1",
+            "3": "dance"
+          }
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ],
+        [
+          [
+            "dance1",
+            "dance2",
+            "dance3"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 114,
+    "type": 2
   }
 }
