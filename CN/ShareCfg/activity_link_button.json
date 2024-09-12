@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5543",
+    "param": "5562",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5543
+      5562
     ],
     "type": 3
   },
@@ -54,13 +54,13 @@
     "name": "event_minigame",
     "order": 1,
     "param": [
-      "COWBOY_TOWN_BACKHILL"
+      "DREAMLAND_PREVIEW"
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
     "time": [
       "default",
-      5523
+      5560
     ],
     "type": 2
   },
@@ -188,6 +188,19 @@
     "time": "stop",
     "type": 0
   },
+  "103": {
+    "group_id": 9,
+    "id": 103,
+    "name": "event_dreamland",
+    "order": 1,
+    "param": [
+      "DREAMLAND"
+    ],
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": "stop",
+    "type": 2
+  },
   "104": {
     "group_id": 1,
     "id": 104,
@@ -220,6 +233,7 @@
     100,
     101,
     102,
+    103,
     104
   ],
   "get_id_list_by_name": {
@@ -242,6 +256,9 @@
     ],
     "event_boss_single": [
       102
+    ],
+    "event_dreamland": [
+      103
     ],
     "event_escort": [
       40
