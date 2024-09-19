@@ -1,0 +1,232 @@
+{
+  "1001": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "ChairRightHandIK",
+    "id": 1001,
+    "rect": [
+      0,
+      0,
+      700,
+      300
+    ],
+    "sub_targets": [
+      [
+        "RightHand"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "RightHand"
+    ],
+    "trigger_rect": [
+      600,
+      -400,
+      800,
+      800
+    ]
+  },
+  "1002": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "ChairRightfootIK",
+    "id": 1002,
+    "rect": [
+      -100,
+      -100,
+      700,
+      700
+    ],
+    "sub_targets": [
+      [
+        "RightThigh"
+      ],
+      [
+        "RightFoot"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "RightFoot"
+    ],
+    "trigger_rect": [
+      560,
+      -100,
+      900,
+      900
+    ]
+  },
+  "1011": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "BedLeftFootIK",
+    "id": 1011,
+    "rect": [
+      -200,
+      -160,
+      500,
+      400
+    ],
+    "sub_targets": [
+      [
+        "LeftThigh"
+      ],
+      [
+        "LeftFoot"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "LeftFoot"
+    ],
+    "trigger_rect": [
+      -400,
+      -160,
+      800,
+      800
+    ]
+  },
+  "1012": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "BedLeftThighIK",
+    "id": 1012,
+    "rect": [
+      -350,
+      -240,
+      600,
+      500
+    ],
+    "sub_targets": [
+      [
+        "LeftThigh"
+      ],
+      [
+        "LeftFoot"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "LeftThigh"
+    ],
+    "trigger_rect": [
+      -500,
+      -500,
+      800,
+      800
+    ]
+  },
+  "1021": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "StoolHeadIK",
+    "id": 1021,
+    "rect": [
+      -100,
+      -300,
+      400,
+      700
+    ],
+    "sub_targets": [
+      [
+        "Pelvis"
+      ],
+      [
+        "LeftUpperArm"
+      ],
+      [
+        "RightUpperArm"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "Head"
+    ],
+    "trigger_rect": [
+      300,
+      -300,
+      1000,
+      1000
+    ]
+  },
+  "1022": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "StoolLeftFootIK",
+    "id": 1022,
+    "rect": [
+      -50,
+      -50,
+      700,
+      500
+    ],
+    "sub_targets": [
+      [
+        "LeftThigh"
+      ],
+      [
+        "LeftFoot"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "LeftFoot"
+    ],
+    "trigger_rect": [
+      570,
+      -200,
+      500,
+      500
+    ]
+  },
+  "1031": {
+    "action_trigger": [
+      3
+    ],
+    "char_id": 20220,
+    "controller": "Tianlangxing02_Zoulangdengddai",
+    "id": 1031,
+    "rect": [
+      -400,
+      -400,
+      800,
+      800
+    ],
+    "sub_targets": [
+      [
+        "RightUpperArm"
+      ]
+    ],
+    "trigger_param": [
+      2,
+      "RightUpperArm"
+    ],
+    "trigger_rect": [
+      400,
+      -400,
+      800,
+      800
+    ]
+  },
+  "all": [
+    1001,
+    1002,
+    1011,
+    1012,
+    1021,
+    1022,
+    1031
+  ]
+}
