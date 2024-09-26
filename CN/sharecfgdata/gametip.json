@@ -169,6 +169,21 @@
       }
     ]
   },
+  "AR_plane_check": {
+    "tip": "请检测一个平面"
+  },
+  "AR_plane_distance_near": {
+    "tip": "距离过近角色将会隐藏"
+  },
+  "AR_plane_long_press_to_summon": {
+    "tip": "长按平面呼出角色"
+  },
+  "AR_plane_summon_fail_by_near": {
+    "tip": "距离过近呼出角色失败"
+  },
+  "AR_plane_summon_success": {
+    "tip": "呼出角色成功"
+  },
   "Announcements_Donotshow": {
     "tip": "今日不再显示"
   },
@@ -784,6 +799,9 @@
         "info": "1 ???????"
       }
     ]
+  },
+  "apartment_level_unenough": {
+    "tip": "等级$1解锁"
   },
   "apple_link_title": {
     "tip": "連携中のアカウント完了"
@@ -2106,12 +2124,22 @@
   "battlepass_main_help_2408": {
     "tip": [
       {
-        "info": "世界巡游(2024.8.1-2024.9.30)\n\n·<color=#92fc63>开放时间</color>\n    2024.8.1 0点 ~ 2024.9.30 23:59:59\n\n·<color=#92fc63>巡游进度说明</color>\n（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。\n（2）巡游任务随时间开放解锁。\n（3）每获取100点「巡游点数」即可增加1巡游进度\n（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。\n\n·<color=#92fc63>奖励规则</color>\n巡游进度奖励分为两种：\n（1）基础巡游奖励：包含<color=#ff5c5c>「蕸·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；\n    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。\n（2）特许巡游奖励：包含<color=#ff5c5c>罗马换装「罗马的假日 </color>」、<color=#ff5c5c>钻石</color>等奖励；\n    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。\n    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。\n\n·<color=#92fc63>「特许巡游凭证」说明</color>\n（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。\n（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即9.30 22:59:59停止)，请指挥官注意购买时间。\n\n·<color=#92fc63>任务说明</color>\n巡游任务分为两种：\n（1）每周任务 \n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关\n（4）「巡游任务快速完成券」不会随本期活动结束而消失\n\n·<color=#ff5c5c>特别提示</color>\n（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。\n（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效"
+        "info": "世界巡游(2024.8.1-2024.9.30)\n\n·<color=#92fc63>开放时间</color>\n    2024.8.1 0点 ~ 2024.9.30 23:59:59\n\n·<color=#92fc63>巡游进度说明</color>\n（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。\n（2）巡游任务随时间开放解锁。\n（3）每获取100点「巡游点数」即可增加1巡游进度\n（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。\n\n·<color=#92fc63>奖励规则</color>\n巡游进度奖励分为两种：\n（1）基础巡游奖励：包含<color=#ff5c5c>「蕸·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；\n    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。\n（2）特许巡游奖励：包含<color=#ff5c5c>罗马换装「罗马的假日 </color>」、<color=#ff5c5c>钻石</color>等奖励；\n    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。\n    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。\n\n·<color=#92fc63>「特许巡游凭证」说明</color>\n（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。\n（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即9.30 22:59:59停止)，请指挥官注意购买时间。\n\n·<color=#92fc63>任务说明</color>\n巡游任务分为两种：\n（1）每周任务 \n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关\n（4）「巡游任务快速完成券」不会随本期活动结束而消失\n\n·<color=#ff5c5c>特别提示</color>\n（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。\n（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效"
+      }
+    ]
+  },
+  "battlepass_main_help_2410": {
+    "tip": [
+      {
+        "info": "世界巡游(2024.10.1-2024.11.30)\n\n·<color=#92fc63>开放时间</color>\n    2024.10.1 0点 ~ 2024.11.30 23:59:59\n\n·<color=#92fc63>巡游进度说明</color>\n（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。\n（2）巡游任务随时间开放解锁。\n（3）每获取100点「巡游点数」即可增加1巡游进度\n（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。\n\n·<color=#92fc63>奖励规则</color>\n巡游进度奖励分为两种：\n（1）基础巡游奖励：包含<color=#ff5c5c>「{namecode:237}」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；\n    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。\n（2）特许巡游奖励：包含<color=#ff5c5c>絮弗伦换装「华美无双 </color>」、<color=#ff5c5c>钻石</color>等奖励；\n    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。\n    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。\n\n·<color=#92fc63>「特许巡游凭证」说明</color>\n（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。\n（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。\n\n·<color=#92fc63>任务说明</color>\n巡游任务分为两种：\n（1）每周任务 \n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关\n（4）「巡游任务快速完成券」不会随本期活动结束而消失\n\n·<color=#ff5c5c>特别提示</color>\n（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。\n（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效"
       }
     ]
   },
   "battlepass_main_time": {
     "tip": "$1天$2时"
+  },
+  "battlepass_main_time_title": {
+    "tip": "本期剩余时间："
   },
   "battlepass_main_tip1": {
     "tip": "活动期间，完成巡游任务累计<icon name=pt w=1 h=1/>\n可获取<color=#92fc63>「魟·META」</color>、<color=#92fc63>心智魔方</color>、\n<color=#92fc63>高级定向蓝图</color>在内的丰富奖励"
@@ -2175,6 +2203,9 @@
   },
   "battlepass_main_tip_2408": {
     "tip": "2024/8/1-2024/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「蕸·META」</color>在内的丰富奖励"
+  },
+  "battlepass_main_tip_2410": {
+    "tip": "2024/10/1-2024/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「{namecode:237}」</color>在内的丰富奖励"
   },
   "battlepass_pay_acquire": {
     "tip": "购买后立即获得："
@@ -4509,6 +4540,36 @@
   "create_player_success": {
     "tip": "创建角色成功"
   },
+  "cruise_btn_all": {
+    "tip": "全部领取"
+  },
+  "cruise_btn_pay": {
+    "tip": "解锁特许巡游奖励"
+  },
+  "cruise_limit_count": {
+    "tip": "已达本月可购买数量上限"
+  },
+  "cruise_phase_title": {
+    "tip": "阶段"
+  },
+  "cruise_shop_limit_tip": {
+    "tip": "本月剩余可购买数量："
+  },
+  "cruise_shop_lock_tip": {
+    "tip": "当期世界巡游等级达到50"
+  },
+  "cruise_shop_no_open": {
+    "tip": "10月1日0点后开放"
+  },
+  "cruise_shop_title": {
+    "tip": "往期商店"
+  },
+  "cruise_shop_title_equip_skin": {
+    "tip": "外观"
+  },
+  "cruise_shop_title_skin": {
+    "tip": "换装"
+  },
   "cruise_task_help_2110": {
     "tip": [
       {
@@ -4635,6 +4696,13 @@
       }
     ]
   },
+  "cruise_task_help_2410": {
+    "tip": [
+      {
+        "info": "巡游任务说明\n\n·<color=#92fc63>开放时间</color>\n    2024.10.1 0点 ~ 2024.11.30 23:59:59\n\n·<color=#92fc63>巡游任务分为两种</color>\n（1）每周任务\n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关\n（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>"
+      }
+    ]
+  },
   "cruise_task_phase": {
     "tip": "巡游进度 | PHASE.$1"
   },
@@ -4646,6 +4714,12 @@
   },
   "cruise_task_week": {
     "tip": "第$1周"
+  },
+  "cruise_title_2408": {
+    "tip": "世界巡游·十八期"
+  },
+  "cruise_title_2410": {
+    "tip": "世界巡游·十九期"
   },
   "cryptolalia_coming_soom": {
     "tip": "制作中……"
@@ -4939,8 +5013,56 @@
   "dont_send_message_frequently": {
     "tip": "请勿频繁发送消息"
   },
+  "dorm3d_AR_switch": {
+    "tip": "AR维护中……"
+  },
+  "dorm3d_accompany_locked": {
+    "tip": "未开放"
+  },
+  "dorm3d_already_gifted": {
+    "tip": "已赠送"
+  },
+  "dorm3d_beach_buy": {
+    "tip": "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>沙滩</color>"
+  },
+  "dorm3d_beach_download": {
+    "tip": "需要下载$1M的资源"
+  },
+  "dorm3d_beach_role": {
+    "tip": "解锁后可以与<color=#39bfff>$1</color>进行互动"
+  },
+  "dorm3d_beach_switch": {
+    "tip": "沙滩维护中……"
+  },
   "dorm3d_clothing_choose": {
     "tip": "选择换装"
+  },
+  "dorm3d_collect_favor_plus": {
+    "tip": "奖励：契合度+"
+  },
+  "dorm3d_collect_locked": {
+    "tip": "契合度$1级解锁"
+  },
+  "dorm3d_collect_not_found": {
+    "tip": "前往$1获取"
+  },
+  "dorm3d_collect_not_owned": {
+    "tip": "暂未收集到该物品"
+  },
+  "dorm3d_collect_nothing": {
+    "tip": "- 暂未获取该物品 -"
+  },
+  "dorm3d_collect_unlock": {
+    "tip": "- 待解锁 -"
+  },
+  "dorm3d_collection_beach": {
+    "tip": "沙滩"
+  },
+  "dorm3d_collection_cost_tip": {
+    "tip": "相伴5分钟，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+  },
+  "dorm3d_collection_title_en": {
+    "tip": "Azur Lane"
   },
   "dorm3d_daily_favor": {
     "tip": "今日互动契合度"
@@ -4948,8 +5070,20 @@
   "dorm3d_daily_favor_tips": {
     "tip": "今日互动契合度:"
   },
+  "dorm3d_data_Invite_lack": {
+    "tip": "邀请角色数量不足"
+  },
+  "dorm3d_data_choose": {
+    "tip": "约会选择"
+  },
+  "dorm3d_data_go": {
+    "tip": "请选择一起前往<color=#39bfff>$1</color>的角色"
+  },
   "dorm3d_favor_level": {
     "tip": "当前契合度等级："
+  },
+  "dorm3d_favor_level_story": {
+    "tip": "特殊剧情"
   },
   "dorm3d_furnitrue_type_bed": {
     "tip": "床"
@@ -4972,6 +5106,18 @@
   "dorm3d_furniture_count": {
     "tip": "数量：$1"
   },
+  "dorm3d_furniture_locked": {
+    "tip": "未解锁该家具"
+  },
+  "dorm3d_furniture_replace_tip": {
+    "tip": "请更换对应家具"
+  },
+  "dorm3d_furniture_save_success": {
+    "tip": "家具保存成功"
+  },
+  "dorm3d_furniture_sure_save": {
+    "tip": "是否确认保存家具"
+  },
   "dorm3d_furniture_unfit": {
     "tip": "不可使用"
   },
@@ -4984,17 +5130,224 @@
   "dorm3d_gift": {
     "tip": "赠礼"
   },
+  "dorm3d_gift_maximum": {
+    "tip": "已达到最大数量限制"
+  },
   "dorm3d_gift_owner_num": {
     "tip": "数量："
   },
+  "dorm3d_gift_story_unlock": {
+    "tip": "已解锁专属剧情"
+  },
+  "dorm3d_invite_confirm_discount": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>(原价$3)解锁<color=#39bfff>$4</color>的$5邀约"
+  },
+  "dorm3d_invite_confirm_free": {
+    "tip": "$1<color=#fc4670><size=34>免费</size></color>(原价$2)解锁<color=#39bfff>$3</color>的$4邀约"
+  },
+  "dorm3d_invite_confirm_original": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>解锁<color=#39bfff>$3</color>的$4邀约"
+  },
   "dorm3d_is_auto_time": {
     "tip": "随时间自动切换昼夜装扮"
+  },
+  "dorm3d_item_num": {
+    "tip": "已拥有："
+  },
+  "dorm3d_minigame_again": {
+    "tip": "再来一局"
+  },
+  "dorm3d_minigame_button1": {
+    "tip": "游戏"
+  },
+  "dorm3d_minigame_close": {
+    "tip": "关闭"
+  },
+  "dorm3d_need_construct_item": {
+    "tip": "缺少建设开发券"
   },
   "dorm3d_now_clothing": {
     "tip": "当前"
   },
   "dorm3d_now_time": {
     "tip": "当前时间"
+  },
+  "dorm3d_own_favor": {
+    "tip": "拥有该角色，增加100点契合度"
+  },
+  "dorm3d_photo_Others": {
+    "tip": "其它"
+  },
+  "dorm3d_photo_active_zone": {
+    "tip": "$1区域专属"
+  },
+  "dorm3d_photo_alpha": {
+    "tip": "透明度"
+  },
+  "dorm3d_photo_animspeed": {
+    "tip": "动作$1x"
+  },
+  "dorm3d_photo_contrast": {
+    "tip": "对比度"
+  },
+  "dorm3d_photo_depthoffield": {
+    "tip": "镜头虚化"
+  },
+  "dorm3d_photo_facecamera": {
+    "tip": "面向镜头"
+  },
+  "dorm3d_photo_filter": {
+    "tip": "滤镜"
+  },
+  "dorm3d_photo_focusdistance": {
+    "tip": "虚化距离"
+  },
+  "dorm3d_photo_focusstrength": {
+    "tip": "虚化强度"
+  },
+  "dorm3d_photo_furniture_lock": {
+    "tip": "dorm3d_photo_furniture_lock"
+  },
+  "dorm3d_photo_hidecharacter": {
+    "tip": "隐藏角色"
+  },
+  "dorm3d_photo_len": {
+    "tip": "镜头"
+  },
+  "dorm3d_photo_lighting": {
+    "tip": "灯光"
+  },
+  "dorm3d_photo_no_role": {
+    "tip": "未邀约角色"
+  },
+  "dorm3d_photo_paramaters": {
+    "tip": "参数"
+  },
+  "dorm3d_photo_postexposure": {
+    "tip": "曝光度"
+  },
+  "dorm3d_photo_regular_anim": {
+    "tip": "基础"
+  },
+  "dorm3d_photo_saturation": {
+    "tip": "饱和度"
+  },
+  "dorm3d_photo_special_anim": {
+    "tip": "特殊"
+  },
+  "dorm3d_photo_strength": {
+    "tip": "强度"
+  },
+  "dorm3d_pledge_favor": {
+    "tip": "和角色进行誓约，增加100点契合度"
+  },
+  "dorm3d_purchase_confirm_discount": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>(原价$3)购买<color=#39bfff>$4</color>"
+  },
+  "dorm3d_purchase_confirm_free": {
+    "tip": "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#39bfff>$3</color>"
+  },
+  "dorm3d_purchase_confirm_original": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>购买<color=#39bfff>$3</color>"
+  },
+  "dorm3d_purchase_confirm_tip": {
+    "tip": "专属"
+  },
+  "dorm3d_recall_locked": {
+    "tip": "待解锁？？？？？？"
+  },
+  "dorm3d_reload_favor": {
+    "tip": "契合度剧情"
+  },
+  "dorm3d_reload_gift": {
+    "tip": "专属礼物剧情"
+  },
+  "dorm3d_reload_unlock": {
+    "tip": "- 待解锁 -"
+  },
+  "dorm3d_reload_unlock_name": {
+    "tip": "?????"
+  },
+  "dorm3d_removable": {
+    "tip": "(滑动屏幕左侧移动，靠近角色吧）"
+  },
+  "dorm3d_role_assets_delete": {
+    "tip": "是否确认删除<color=#39bfff>$1</color>的全部资源"
+  },
+  "dorm3d_role_assets_download": {
+    "tip": "是否让<color=#39bfff>$1</color>入住该房间\n<color=#848484>需要下载$2的资源</color>"
+  },
+  "dorm3d_role_check_in": {
+    "tip": "是否让<color=#39bfff>$1</color>入住该房间"
+  },
+  "dorm3d_role_choose": {
+    "tip": "选择宿舍"
+  },
+  "dorm3d_role_locked": {
+    "tip": "请先解锁角色房间"
+  },
+  "dorm3d_role_manage": {
+    "tip": "宿舍管理"
+  },
+  "dorm3d_role_manage_public_area": {
+    "tip": "公共区域"
+  },
+  "dorm3d_role_manage_role": {
+    "tip": "角色"
+  },
+  "dorm3d_select_tip": {
+    "tip": "公共房间邀请"
+  },
+  "dorm3d_shop_gift": {
+    "tip": "是否花费$1 <color=#169fff>$2</color> 购买<color=#169fff>$3</color>"
+  },
+  "dorm3d_shop_gift_already_given": {
+    "tip": "该礼物已赠送"
+  },
+  "dorm3d_shop_gift_not_owned": {
+    "tip": "当前未拥有该礼物 "
+  },
+  "dorm3d_shop_gift_tip": {
+    "tip": "<color=#7c7e81>赠送后可解锁角色<color=#169fff>专属剧情</color></color>"
+  },
+  "dorm3d_shop_tag1": {
+    "tip": "解锁专属互动动作"
+  },
+  "dorm3d_shop_tag2": {
+    "tip": "解锁特殊拍照姿势"
+  },
+  "dorm3d_shop_tag3": {
+    "tip": "解锁心动模式新互动"
+  },
+  "dorm3d_shop_tag4": {
+    "tip": "解锁专属剧情"
+  },
+  "dorm3d_shop_tag5": {
+    "tip": "解锁额外对话内容"
+  },
+  "dorm3d_shop_tag6": {
+    "tip": "解锁互动游戏"
+  },
+  "dorm3d_sirius_bath": {
+    "tip": "换衣间"
+  },
+  "dorm3d_sirius_bed": {
+    "tip": "卧室"
+  },
+  "dorm3d_sirius_chair": {
+    "tip": "客厅"
+  },
+  "dorm3d_sirius_table": {
+    "tip": "餐厅"
+  },
+  "dorm3d_skin_locked": {
+    "tip": "未解锁换装"
+  },
+  "dorm3d_story_unlock_tip": {
+    "tip": "已解锁剧情"
+  },
+  "dorm3d_system_switch": {
+    "tip": "宿舍维护中……"
   },
   "dorm3d_talk": {
     "tip": "对话"
@@ -5007,6 +5360,12 @@
   },
   "dorm3d_unlock_tips": {
     "tip": "契合度达到$1级解锁"
+  },
+  "dorm3d_volleyball_button": {
+    "tip": "沙滩排球"
+  },
+  "dorm3d_volleyball_title": {
+    "tip": "沙滩"
   },
   "dorm3d_waiting": {
     "tip": "等待入住"
@@ -6576,6 +6935,27 @@
         "info": "    6.关卡时长为90秒，时间结束即关卡完成 ；"
       }
     ]
+  },
+  "grapihcs3d_setting_gpgpu_warning": {
+    "tip": "开启该选项，有可能导致部分机型闪退"
+  },
+  "grapihcs3d_setting_quality": {
+    "tip": "画质品质"
+  },
+  "grapihcs3d_setting_quality_option_custom": {
+    "tip": "自定义"
+  },
+  "grapihcs3d_setting_quality_option_high": {
+    "tip": "高画质"
+  },
+  "grapihcs3d_setting_quality_option_low": {
+    "tip": "低画质"
+  },
+  "grapihcs3d_setting_quality_option_medium": {
+    "tip": "中画质"
+  },
+  "grapihcs3d_setting_universal": {
+    "tip": "通用3D设置"
   },
   "group_download_tip": {
     "tip": "本次更新需要下载$1的文件，是否确认？"
@@ -8779,6 +9159,61 @@
         "info": "※ 兵装训练开启时间：每天开放，每周最多可挑战两次\n◆ 敌方会使用<color=#92fc63>特殊烟雾弹</color>，降低受到来自我方主力编队单位的伤害，我方主力编队单位的命中率大幅降低\n◆ 敌方会使用<color=#92fc63>特殊斩击</color>，清除部分炮击和鱼雷弹幕\n\n※ 破交作战开启时间：每天开放，每周最多可挑战两次\n◆ 破交作战模式下，指挥官将操纵<color=#92fc63>潜艇编队</color>出战\n◆ 不同的<color=#92fc63>鱼雷武器</color>将为<color=#92fc63>装备舰船</color>提供不同数量的<color=#92fc63>弹药</color>\n<color=#92fc63>◆ 鱼雷设备</color>将为<color=#92fc63>装备舰船</color>提供额外的<color=#92fc63>弹药</color>\n◆ 破交作战模式下，<color=#92fc63>所有潜艇技能</color>不生效，潜艇的全弹发射、专属弹幕通过<color=#92fc63>特殊攻击按钮</color>触发(<color=#92fc63>絮库夫专属弹幕</color>通过<color=#92fc63>上浮</color>触发，每场战斗仅限1次)\n◆ 破交作战模式下，全弹发射、专属弹幕<color=#92fc63>伤害提高</color>\n◆ 计分方式：\n◆ 通关基础分：<color=#92fc63>100</color>分\n◆ 击破1艘运输舰：<color=#92fc63>+10</color>分\n◆ 1位己方舰船被重创：<color=#92fc63>-15</color>分\n◆ S评价：<color=#92fc63>120</color>分\n◆ A评价：<color=#92fc63>100</color>分\n◆ B评价：<color=#92fc63>70</color>分\n\n※ 商船护送开启时间为：每周一、周四、周日\n\n※ 海域突进开启时间为：每周二、周五、周日\n\n※ 斩首行动开启时间为：每周三、周六、周日\n\n※ 战术研修开启时间为：每天开放\n◆ <color=#92fc63>航空</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>航空兵器</color>能造成巨量伤害\n◆ <color=#92fc63>炮击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>炮击兵器</color>能造成巨量伤害\n◆ <color=#92fc63>雷击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>鱼雷兵器</color>能造成巨量伤害\n\n※快速挑战功能将在获得对应关卡的S胜后开启\n◆快速挑战可以<color=#92fc63>直接获得</color>每日挑战关卡中应得的全部掉落奖励\n◆快速挑战<color=#92fc63>不消耗</color>石油，不会获得任何指挥官经验、舰船经验，也不会影响舰船的心情与好感度，同时不计入个人信息中的作战次数\n◆快速挑战可以完成出征获得胜利、以B/A/S胜通关、进行/完成每日挑战，击败小/中/大型舰队，累计从日常关卡中获得道具的任务\n◆请注意，快速挑战<color=#92fc63>无法完成</color>个人角色任务。"
       }
     ]
+  },
+  "help_dorm3d_info": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_5",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_6",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
   },
   "help_equipment": {
     "tip": [
@@ -17466,6 +17901,9 @@
   "support_times_tip": {
     "tip": "支援数量"
   },
+  "sure_exit_volleyball": {
+    "tip": "是否确认退出沙滩排球"
+  },
   "sure_resume_volume": {
     "tip": "确定要恢复默认音量大小设置？"
   },
@@ -17603,6 +18041,12 @@
   },
   "target_get_tip": {
     "tip": "目标"
+  },
+  "task_go": {
+    "tip": "前往"
+  },
+  "task_got": {
+    "tip": "已完成"
   },
   "task_is_not_existence": {
     "tip": "不存在该任务$1"
@@ -18437,6 +18881,12 @@
   "voice_control": {
     "tip": "声音"
   },
+  "volleyball_end_award": {
+    "tip": "精力-1，天狼星契合度+20"
+  },
+  "volleyball_end_tip": {
+    "tip": "和天狼星度过了美好的下午"
+  },
   "vote_2023_reward_word_1": {
     "tip": "呼呼呼，让模拟程序来发表感言也太无趣了，明明开幕的时候直接邀请我我也会来的~不过闭幕式也挺不错，我玩的很开心。顺便给你留了一份伴手礼，希望你喜欢哟♪"
   },
@@ -19119,6 +19569,9 @@
   "word_live2dfiles_update_retry": {
     "tip": "点击重试"
   },
+  "word_lock": {
+    "tip": "未解锁"
+  },
   "word_lv": {
     "tip": "等级"
   },
@@ -19734,6 +20187,9 @@
   },
   "word_train": {
     "tip": "休息"
+  },
+  "word_unlock": {
+    "tip": "已解锁"
   },
   "word_upgrade": {
     "tip": "突破"

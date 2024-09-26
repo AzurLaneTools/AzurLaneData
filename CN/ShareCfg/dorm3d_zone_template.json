@@ -1,4 +1,218 @@
 {
-  "all": [],
-  "get_id_list_by_char_id": []
+  "1000": {
+    "id": 1000,
+    "is_global": 1,
+    "lazy_action": "",
+    "name": "全局区域",
+    "room_id": 1,
+    "special_action": "",
+    "special_talk": "",
+    "touch_id": "",
+    "type_prioritys": "",
+    "watch_camera": ""
+  },
+  "1001": {
+    "id": 1001,
+    "is_global": 0,
+    "lazy_action": "",
+    "name": "卧室",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "special_talk": [
+      [
+        20220,
+        [
+          1301,
+          1302,
+          1303
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100104
+      ]
+    ],
+    "type_prioritys": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "watch_camera": "Bed"
+  },
+  "1002": {
+    "id": 1002,
+    "is_global": 0,
+    "lazy_action": "",
+    "name": "餐厅",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "special_talk": [
+      [
+        20220,
+        [
+          1301,
+          1302,
+          1303
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "1003": {
+    "id": 1003,
+    "is_global": 0,
+    "lazy_action": [
+      [
+        20220,
+        [
+          "SitStart",
+          "SitEnd",
+          "Sit"
+        ]
+      ]
+    ],
+    "name": "客厅",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "special_talk": [
+      [
+        20220,
+        [
+          1301,
+          1302,
+          1303
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100303
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
+  "4001": {
+    "id": 4001,
+    "is_global": 0,
+    "lazy_action": "",
+    "name": "入口",
+    "room_id": 4,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "special_talk": [
+      [
+        20220,
+        [
+          1301,
+          1302,
+          1303
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Default"
+  },
+  "4002": {
+    "id": 4002,
+    "is_global": 0,
+    "lazy_action": "",
+    "name": "沙滩椅",
+    "room_id": 4,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "special_talk": [
+      [
+        20220,
+        [
+          1301,
+          1302,
+          1303
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Tianlangxing"
+  },
+  "all": [
+    1000,
+    1001,
+    1002,
+    1003,
+    4001,
+    4002
+  ],
+  "get_id_list_by_room_id": {
+    "1": [
+      1000,
+      1001,
+      1002,
+      1003
+    ],
+    "4": [
+      4001,
+      4002
+    ]
+  }
 }

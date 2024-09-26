@@ -1,3 +1,45 @@
 {
-  "all": []
+  "2": {
+    "desc": "获得后可在相机功能中解锁反差滤镜",
+    "icon": "Props/drom3d_camera1001",
+    "id": 2,
+    "name": "反差",
+    "rarity": 2,
+    "unlock": [],
+    "unlock_text": "契合度1级解锁",
+    "volume": "contrast_volume"
+  },
+  "3": {
+    "desc": "获得后可在相机功能中解锁黄昏滤镜",
+    "icon": "Props/drom3d_camera1001",
+    "id": 3,
+    "name": "黄昏",
+    "rarity": 2,
+    "unlock": [
+      1,
+      20220,
+      9
+    ],
+    "unlock_text": "契合度9级解锁",
+    "volume": "dusk_volume"
+  },
+  "4": {
+    "desc": "获得后可在相机功能中解锁柔光滤镜",
+    "icon": "Props/drom3d_camera1001",
+    "id": 4,
+    "name": "柔光",
+    "rarity": 2,
+    "unlock": [
+      1,
+      20220,
+      13
+    ],
+    "unlock_text": "契合度13级解锁",
+    "volume": "soft_volume"
+  },
+  "all": [
+    2,
+    3,
+    4
+  ]
 }
