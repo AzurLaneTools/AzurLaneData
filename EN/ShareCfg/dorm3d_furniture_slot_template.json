@@ -1,0 +1,90 @@
+{
+  "100101": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_chandelier07",
+    "id": 100101,
+    "name": "卧室桌子",
+    "room_id": 1,
+    "type": 3,
+    "zone_id": 1001
+  },
+  "100102": {
+    "default_furniture": 4,
+    "furniture_name": "pre_db_bed01",
+    "id": 100102,
+    "name": "卧室床",
+    "room_id": 1,
+    "type": 4,
+    "zone_id": 1001
+  },
+  "100201": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_electrical03",
+    "id": 100201,
+    "name": "餐厅桌子",
+    "room_id": 1,
+    "type": 3,
+    "zone_id": 1002
+  },
+  "100202": {
+    "default_furniture": 1,
+    "furniture_name": "pre_db_chair05_01",
+    "id": 100202,
+    "name": "餐厅椅子",
+    "room_id": 1,
+    "type": 6,
+    "zone_id": 1002
+  },
+  "100301": {
+    "default_furniture": 3,
+    "furniture_name": "pre_db_chair01",
+    "id": 100301,
+    "name": "客厅沙发",
+    "room_id": 1,
+    "type": 5,
+    "zone_id": 1003
+  },
+  "100402": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_decoration03 (1)",
+    "id": 100402,
+    "name": "换衣间置物架",
+    "room_id": 1,
+    "type": 3,
+    "zone_id": 1004
+  },
+  "all": [
+    100101,
+    100102,
+    100201,
+    100202,
+    100301,
+    100402
+  ],
+  "get_id_list_by_room_id": [
+    [
+      100101,
+      100102,
+      100201,
+      100202,
+      100301,
+      100402
+    ]
+  ],
+  "get_id_list_by_zone_id": {
+    "1001": [
+      100101,
+      100102
+    ],
+    "1002": [
+      100201,
+      100202
+    ],
+    "1003": [
+      100301
+    ],
+    "1004": [
+      100402
+    ]
+  }
+}

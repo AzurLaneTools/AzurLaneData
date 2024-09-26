@@ -145561,6 +145561,228 @@
       1
     ]
   },
+  "801430": {
+    "desc": "Every 20s: $1 chance to launch a $2 special airstrike; if this airstrike does not launch, instead performs a $2 special attack (DMG of both of these attacks is based on the skill's level and this ship's AVI stat).",
+    "desc_add": [
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 801430,
+    "max_level": 10,
+    "name": "Harken, the Din of Destruction",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801440": {
+    "desc": "When this ship finishes loading an airstrike: increases your CVs' AVI by $1 for 8s; each time this effect activates, increases this ship's AVI and AA by 5.0% until the battle ends (can stack up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ],
+    "id": 801440,
+    "max_level": 10,
+    "name": "Resound, the Refrain of Reversal",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801451": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801451,
+    "max_level": 1,
+    "name": "Smoldering Core - Houshou I",
+    "system_transform": {
+      "51": 801455
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801452": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801452,
+    "max_level": 1,
+    "name": "Smoldering Core - Houshou II",
+    "system_transform": {
+      "51": 801457
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801455": {
+    "desc": "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低2%",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801455,
+    "max_level": 1,
+    "name": "湮烬之核·{namecode:89}I",
+    "system_transform": {
+      "51": 801455
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801457": {
+    "desc": "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低6%",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801457,
+    "max_level": 1,
+    "name": "湮烬之核·{namecode:89}II",
+    "system_transform": {
+      "51": 801457
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
   "901010": {
     "desc": "The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
     "desc_add": [],

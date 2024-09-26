@@ -1,0 +1,152 @@
+{
+  "1000": {
+    "id": 1000,
+    "is_global": 1,
+    "name": "List",
+    "room_id": 1,
+    "special_action": "",
+    "touch_id": "",
+    "type_prioritys": "",
+    "watch_camera": ""
+  },
+  "1001": {
+    "id": 1001,
+    "is_global": 0,
+    "name": "Bedroom",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100104
+      ]
+    ],
+    "type_prioritys": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "watch_camera": "Bed"
+  },
+  "1002": {
+    "id": 1002,
+    "is_global": 0,
+    "name": "Dining Area",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "1003": {
+    "id": 1003,
+    "is_global": 0,
+    "name": "Living Area",
+    "room_id": 1,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100303
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
+  "4001": {
+    "id": 4001,
+    "is_global": 0,
+    "name": "Entrance",
+    "room_id": 4,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Default"
+  },
+  "4002": {
+    "id": 4002,
+    "is_global": 0,
+    "name": "Beach Chair",
+    "room_id": 4,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "touch_id": [
+      [
+        20220,
+        201
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Tianlangxing"
+  },
+  "all": [
+    1000,
+    1001,
+    1002,
+    1003,
+    4001,
+    4002
+  ],
+  "get_id_list_by_room_id": {
+    "1": [
+      1000,
+      1001,
+      1002,
+      1003
+    ],
+    "4": [
+      4001,
+      4002
+    ]
+  }
+}
