@@ -9551,7 +9551,7 @@
     "config_data": [],
     "config_id": 12,
     "id": 4973,
-    "is_show": 40,
+    "is_show": 89,
     "login_pop": 0,
     "mark": 20240912,
     "page_info": {
@@ -9646,7 +9646,7 @@
     ],
     "config_id": 3,
     "id": 4974,
-    "is_show": 39,
+    "is_show": 88,
     "login_pop": 0,
     "mark": 20240912,
     "page_info": {
@@ -9690,7 +9690,7 @@
     "config_data": [],
     "config_id": 23,
     "id": 4975,
-    "is_show": 38,
+    "is_show": 86,
     "login_pop": 0,
     "mark": 20240912,
     "page_info": {
@@ -9747,7 +9747,7 @@
     "config_data": [],
     "config_id": 4978,
     "id": 4978,
-    "is_show": 49,
+    "is_show": 93,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -9866,7 +9866,7 @@
     "config_data": [],
     "config_id": 47,
     "id": 4980,
-    "is_show": 22,
+    "is_show": 91,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -9917,7 +9917,7 @@
     ],
     "config_id": 0,
     "id": 5001,
-    "is_show": 50,
+    "is_show": 94,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -10235,19 +10235,18 @@
   },
   "5009": {
     "config_client": {
-      "firstStory": "SHISHANGTEKANHEDINGJIYI1",
       "story": [
         [
-          "SHISHANGTEKANHEDINGJIYI2"
+          "SHISHANGTEKANHEDINGJIER1"
         ],
         [
-          "SHISHANGTEKANHEDINGJIYI3"
-        ],
-        [
-          "SHISHANGTEKANHEDINGJIYI4"
+          "SHISHANGTEKANHEDINGJIER3"
         ],
         [
           "SHISHANGTEKANHEDINGJIYI5"
+        ],
+        [
+          "SHISHANGTEKANHEDINGJIYI4"
         ]
       ]
     },
@@ -10259,14 +10258,40 @@
     ],
     "config_id": 1,
     "id": 5009,
-    "is_show": 48,
+    "is_show": 96,
     "login_pop": 0,
     "mark": 20240926,
     "page_info": {
       "class_name": "SkinMagazinePage1",
       "ui_name": "SkinMagazinePage1"
     },
-    "time": "stop",
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "title_res_tag": "skin_magazine1",
     "type": 86
   },
@@ -10275,7 +10300,7 @@
     "config_data": [],
     "config_id": 1,
     "id": 5011,
-    "is_show": 47,
+    "is_show": 92,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -10460,7 +10485,7 @@
     ],
     "config_id": 1,
     "id": 5015,
-    "is_show": 48,
+    "is_show": 97,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -10566,6 +10591,231 @@
       ]
     ],
     "title_res_tag": "Javelin_dressSkin",
+    "type": 18
+  },
+  "5018": {
+    "config_client": "",
+    "config_data": [
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
+    ],
+    "config_id": 0,
+    "id": 5018,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 60
+  },
+  "5019": {
+    "config_client": {
+      "story": [
+        [
+          "SHISHANGTEKANSAICHE5"
+        ],
+        [
+          "SHISHANGTEKANSAICHE1"
+        ],
+        [
+          "SHISHANGTEKANSAICHE2"
+        ],
+        [
+          "SHISHANGTEKANSAICHE3"
+        ],
+        [
+          "SHISHANGTEKANSAICHE4"
+        ]
+      ]
+    },
+    "config_data": [
+      19312,
+      19313,
+      19314,
+      19315,
+      19316
+    ],
+    "config_id": 2,
+    "id": 5019,
+    "is_show": 95,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": {
+      "class_name": "SkinMagazinePage3",
+      "ui_name": "SkinMagazinePage3"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "skin_magazine3",
+    "type": 86
+  },
+  "5021": {
+    "config_client": "",
+    "config_data": [
+      409,
+      410
+    ],
+    "config_id": 0,
+    "id": 5021,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 60
+  },
+  "5022": {
+    "config_client": "",
+    "config_data": [
+      [
+        19317,
+        19318
+      ],
+      [
+        19319,
+        19320
+      ],
+      [
+        19321,
+        19322
+      ],
+      [
+        19323,
+        19324
+      ],
+      [
+        19325,
+        19326
+      ],
+      [
+        19327,
+        19328
+      ],
+      [
+        19329,
+        19330
+      ]
+    ],
+    "config_id": 3,
+    "id": 5022,
+    "is_show": 98,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": {
+      "class_name": "NeihuadaSkinPage",
+      "ui_name": "NeihuadaSkinPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "neihuada_skin",
     "type": 18
   },
   "5023": {
@@ -13504,6 +13754,7 @@
   "5234": {
     "config_client": "",
     "config_data": [
+      19824,
       19825,
       19826,
       19827,
@@ -15142,6 +15393,7 @@
       19993,
       19994,
       19995,
+      19996,
       19997,
       20001,
       20002,
@@ -15782,7 +16034,7 @@
     ],
     "config_id": 0,
     "id": 5548,
-    "is_show": 48,
+    "is_show": 87,
     "login_pop": 0,
     "mark": 20240912,
     "page_info": {
@@ -15991,7 +16243,7 @@
     "config_data": [],
     "config_id": 0,
     "id": 5568,
-    "is_show": 46,
+    "is_show": 90,
     "login_pop": 0,
     "mark": 20240919,
     "page_info": {
@@ -16253,6 +16505,89 @@
     ],
     "title_res_tag": "",
     "type": 55
+  },
+  "5581": {
+    "config_client": {
+      "story": [
+        [
+          "HUANRAOXINJIANZHIWU"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "config_data": [
+      [
+        20596,
+        20597
+      ],
+      [
+        20598,
+        20599
+      ],
+      [
+        20600,
+        20601
+      ],
+      [
+        20602,
+        20603
+      ],
+      [
+        20604,
+        20605
+      ],
+      [
+        20606,
+        20607
+      ],
+      [
+        20608,
+        20609
+      ]
+    ],
+    "config_id": 3,
+    "id": 5581,
+    "is_show": 99,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": {
+      "class_name": "TianlangxingEmojiPage",
+      "ui_name": "TianlangxingEmojiPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          9,
+          26
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          10,
+          9
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "TianlangxingEmoji",
+    "type": 18
   },
   "6000": {
     "config_client": {
@@ -51049,6 +51384,88 @@
     "title_res_tag": "CrusingDisplayAct",
     "type": 54
   },
+  "45916": {
+    "config_client": {
+      "equip_skin": [
+        [
+          9,
+          2071,
+          1
+        ],
+        [
+          9,
+          2072,
+          1
+        ],
+        [
+          9,
+          2073,
+          1
+        ],
+        [
+          9,
+          2074,
+          1
+        ]
+      ],
+      "map_name": "map_202406",
+      "spine_name": "chess_adiliao",
+      "tips": [
+        "battlepass_main_tip_2406",
+        "battlepass_main_help_2406",
+        "cruise_task_help_2406"
+      ]
+    },
+    "config_data": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ],
+    "config_id": 0,
+    "id": 45916,
+    "is_show": 14,
+    "login_pop": 0,
+    "mark": 20240926,
+    "page_info": {
+      "class_name": "CrusingDisplayActPage",
+      "ui_name": "CrusingDisplayActPage17"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2024,
+          10,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2024,
+          11,
+          30
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "CrusingDisplayAct",
+    "type": 54
+  },
   "100001": {
     "config_client": "",
     "config_data": [],
@@ -51350,6 +51767,10 @@
     5014,
     5015,
     5017,
+    5018,
+    5019,
+    5021,
+    5022,
     5023,
     5047,
     5048,
@@ -51489,6 +51910,7 @@
     5568,
     5571,
     5579,
+    5581,
     8009,
     8010,
     8019,
@@ -52599,7 +53021,8 @@
     45912,
     45913,
     45914,
-    45915
+    45915,
+    45916
   ],
   "get_id_list_by_type": {
     "0": [
@@ -53362,10 +53785,12 @@
       4971,
       4974,
       5017,
+      5022,
       5023,
       5324,
       5360,
       5548,
+      5581,
       6000,
       6001,
       6002,
@@ -53789,7 +54214,8 @@
       45912,
       45913,
       45914,
-      45915
+      45915,
+      45916
     ],
     "55": [
       4875,
@@ -53913,6 +54339,8 @@
       4921,
       4970,
       5013,
+      5018,
+      5021,
       5061,
       5102,
       5262,
@@ -54211,6 +54639,7 @@
       4962,
       5009,
       5015,
+      5019,
       5295,
       5311,
       41180,
