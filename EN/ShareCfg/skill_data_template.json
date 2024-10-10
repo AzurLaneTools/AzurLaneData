@@ -149136,6 +149136,150 @@
       1
     ]
   },
+  "1011000": {
+    "desc": "Increases this ship's FP by $3. Every 20s: $1 chance to fire a $2 powerful barrage. 10s after the battle starts, and every 20s after that: fires a $2 arcing barrage; the activation chance for the powerful barrage increases by 30.0% and its power is increased if any of the targets hit by the arcing barrage meets one of the following conditions: \n1) The target hit is a BB or a BC;\n2) The target hit is sunk within 3s;\nThe DMG of both these barrages is based on the skill's level.",
+    "desc_add": [
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ],
+    "id": 1011000,
+    "max_level": 10,
+    "name": "Courageous Shelling+",
+    "system_transform": {
+      "3": 1011001
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1011120": {
     "desc": "Increases this ship's DMG dealt to BBs by $1 and decreases her volley DMG received by $1. Increases your CVs' and CVLs' DMG dealt to BBs by $2 and increases your Flagship's DMG dealt to BBs by 5.0%. When this ship's airstrike finishes loading: increases this ship's AVI by $3 (can be stacked up to 2 times).",
     "desc_add": [
@@ -157232,6 +157376,148 @@
     "name": "Full Firepower - Exeter",
     "system_transform": [],
     "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1090320": {
+    "desc": "Every 20s: $1 chance for this ship to evade all attacks for 6s. 3s after the battle starts, and every 15s: fires a $2 special barrage (DMG is based on the skill's level); when this barrage activates, increases this ship's FP and TRP by $3 until the battle ends (can be stacked up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "20.0%",
+          "+2.2%"
+        ],
+        [
+          "22.2%",
+          "+2.2%"
+        ],
+        [
+          "24.4%",
+          "+2.2%"
+        ],
+        [
+          "26.6%",
+          "+2.2%"
+        ],
+        [
+          "28.8%",
+          "+2.2%"
+        ],
+        [
+          "31.0%",
+          "+2.2%"
+        ],
+        [
+          "33.2%",
+          "+2.2%"
+        ],
+        [
+          "35.4%",
+          "+2.2%"
+        ],
+        [
+          "37.6%",
+          "+2.4%"
+        ],
+        [
+          "40.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.4%"
+        ],
+        [
+          "1.4%",
+          "+0.4%"
+        ],
+        [
+          "1.8%",
+          "+0.4%"
+        ],
+        [
+          "2.2%",
+          "+0.4%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "20.0%",
+        "40.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "1.0%",
+        "5.0%"
+      ]
+    ],
+    "id": 1090320,
+    "max_level": 10,
+    "name": "Emergency Maneuvers - Bulldog",
+    "system_transform": [],
+    "type": 2,
     "world_death_mark": [
       1
     ]
