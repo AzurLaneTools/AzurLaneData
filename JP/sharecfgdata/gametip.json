@@ -196,6 +196,31 @@
   "Announcements_System_Notice": {
     "tip": "更新"
   },
+  "BoatAdGame_minigame_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/boatadgame_minigame_help",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "CurlingGame_tips1": {
     "tip": [
       {
@@ -404,6 +429,12 @@
   },
   "activity_0815_town_memory": {
     "tip": "アイテムが不足しています。限定任務をクリアして思い出を開放しよう！"
+  },
+  "activity_1024_memory": {
+    "tip": "「ハロウィンページ」が不足しています。限定任務をクリアして集めましょう！"
+  },
+  "activity_1024_memory_get": {
+    "tip": "- 受取済 -"
   },
   "activity_build_end_tip": {
     "tip": "建造"
@@ -4958,6 +4989,27 @@
   "dorm3d_already_gifted": {
     "tip": "プレゼント済"
   },
+  "dorm3d_appellation_cd": {
+    "tip": "$1後呼び方を再度変更可能"
+  },
+  "dorm3d_appellation_interval": {
+    "tip": "呼び方は48時間に1度変更できます"
+  },
+  "dorm3d_appellation_title": {
+    "tip": "呼び方変更"
+  },
+  "dorm3d_appellation_waring1": {
+    "tip": "NGワードが含まれています"
+  },
+  "dorm3d_appellation_waring2": {
+    "tip": "呼び方テキストが長すぎです"
+  },
+  "dorm3d_appellation_waring3": {
+    "tip": "呼び方テキストが短すぎです"
+  },
+  "dorm3d_appellation_waring4": {
+    "tip": "現在呼び方を変更できません"
+  },
   "dorm3d_beach_buy": {
     "tip": "<color=#39bfff>$1</color>を消費して、 <color=#169fff>ビーチ</color>を開放しますか？"
   },
@@ -5202,7 +5254,7 @@
     "tip": "専用"
   },
   "dorm3d_purchase_weekly_limit": {
-    "tip": "（今週購入回数$1/$2）"
+    "tip": "\n（今週購入回数$1/$2）"
   },
   "dorm3d_recall_locked": {
     "tip": "未開放？？？？？？"
@@ -5263,6 +5315,9 @@
   },
   "dorm3d_shop_gift_not_owned": {
     "tip": "未所持の贈り物です"
+  },
+  "dorm3d_shop_gift_owned": {
+    "tip": "これ以上は購入できません"
   },
   "dorm3d_shop_gift_tip": {
     "tip": "<color=#7c7e81>購入すると<color=#169fff>特別ストーリー</color>を開放できます</color>"
@@ -10863,6 +10918,57 @@
   "just_now": {
     "tip": "直前"
   },
+  "juuschat_chattip1": {
+    "tip": "[ボイスメッセージ]"
+  },
+  "juuschat_chattip2": {
+    "tip": "[プレゼント]"
+  },
+  "juuschat_chattip3": {
+    "tip": "[返信待ち]"
+  },
+  "juuschat_filter_empty": {
+    "tip": "当該チャットは存在しません"
+  },
+  "juuschat_filter_subtitle1": {
+    "tip": "既読・未読"
+  },
+  "juuschat_filter_subtitle2": {
+    "tip": "個人・グループ"
+  },
+  "juuschat_filter_subtitle3": {
+    "tip": "陣営"
+  },
+  "juuschat_filter_tip1": {
+    "tip": "全て"
+  },
+  "juuschat_filter_tip2": {
+    "tip": "返信済"
+  },
+  "juuschat_filter_tip3": {
+    "tip": "未返信"
+  },
+  "juuschat_filter_tip4": {
+    "tip": "個人"
+  },
+  "juuschat_filter_tip5": {
+    "tip": "グループ"
+  },
+  "juuschat_filter_title": {
+    "tip": "絞り込み"
+  },
+  "juuschat_label1": {
+    "tip": "使用中"
+  },
+  "juuschat_label2": {
+    "tip": "確認中"
+  },
+  "juuschat_reddot_title": {
+    "tip": "艦チャット"
+  },
+  "juuschat_redpacket_detail": {
+    "tip": "受取内容"
+  },
   "keep_fate_tip": {
     "tip": "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
   },
@@ -11446,6 +11552,18 @@
   },
   "levelscene_deploy_submarine_cancel": {
     "tip": "攻撃中止"
+  },
+  "levelscene_mapselect_ex": {
+    "tip": "EX"
+  },
+  "levelscene_mapselect_part1": {
+    "tip": "前編"
+  },
+  "levelscene_mapselect_part2": {
+    "tip": "後編"
+  },
+  "levelscene_mapselect_sp": {
+    "tip": "SP"
   },
   "like_ship_success": {
     "tip": "応援ありがとうございます！"
@@ -13200,10 +13318,7 @@
   "music_juus": {
     "tip": [
       {
-        "info": "■艦船通信とは"
-      },
-      {
-        "info": " 艦船通信とは、母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み、「いいね」を推したり、コメント（内容は固定ですが…）したりすることができます。\n 艦船による投稿は一定時間ごと自動で行われます。\n\n 艦船通信をチェックし、彼女たちの日常の垣間を楽しもう！"
+        "info": "「艦チャット＆艦船通信」について：\n\n  艦チャットと艦船通信とは母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み「いいね」を押したり、艦船とチャットする会話コンテンツを楽しめるシステムになります。\n 画面左下のボタンで「艦チャット」「艦船通信」を切り替えることができます。\n\n  艦チャットについて\n 1.艦チャットでは「個人チャンネル」「グループチャンネル」それぞれで艦船とのチャット（会話）を楽しむことができます\n 2.未読メッセージが存在する場合、「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n 3.チャンネルは画面左のチャンネルバーをタップして切り替える事ができます\n 4.チャット画面右上のハートアイコンをタップすると、チャンネルバーの表示優先順位を上げる事ができます。また、右上のボタンをタップすると話題切り替え、チャット背景の変更が可能です\n\n\n  艦船通信について\n 1.艦船通信で艦船たちの投稿を読み、「いいね」を押したり、コメントしたりすることができます。\n 2.艦船による投稿は一定時間毎に自動で行われます。\n 3.「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n"
       }
     ]
   },
@@ -17009,12 +17124,12 @@
     "tip": "「テンペスタ秘密造船所」すべての任務クリアで解放"
   },
   "shipyard_introduce": {
-    "tip": "<size=30>任務は10/25（水）まで毎日2個ずつ開放されます\n開放から七日間、毎日開放される任務をクリアし、\n限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>をGET!</size>"
+    "tip": "任務は10/30（水）まで毎日2個ずつ開放されます\n開放から7日間、毎日開放される任務をクリアすると、限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>を入手可能！"
   },
   "shipyard_phase_1": {
     "tip": [
       {
-        "info": "イベント概要：\n「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。\nミニゲームは<color=#92fc63>10月26日（木）～-11月9日（木）23:59</color>まで開催されます。\n\n遊び方：\n・「テンペスタの秘密造船所」では様々な任務が出現します。すべての任務をクリアすると、ミニゲームで使用する船が完成します。\n・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。\n・ミニゲームは11月1日（水）まで毎日新しいステージが開放されます。\n・ステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手できます。\n　  ステージ3 テンペスタ用設備「果物の補給」\n     ステージ5 テンペスタ用装備セット \n     ステージ7 限定家具「始まりの冒険船」\n・ステージ7をクリアすると、任意のステージを選択してプレイすることができます"
+        "info": "イベント概要：\n 「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。\n イベントは<color=#92fc63>10月24日（木）～-11月7日（木）23:59</color>まで開催されます。\n\n  遊び方：\n ・10月30日（水）まで、毎日限定任務が開放されます。開放されたすべての限定任務をクリアすると、ミニゲームで使用する船が完成します。\n ・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。\n ・ミニゲームのステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手でき、さらに7つのステージを全部クリアすると、限定家具「始まりの冒険船」をGETできます。\n ・ステージ7をクリアすると、任意のステージを選択してプレイすることができます"
       }
     ]
   },
@@ -17073,10 +17188,10 @@
     "tip": "特殊装備所持数上限が増加しました"
   },
   "shop_street_Equipment_skin_box_help": {
-    "tip": "<color=#A1E400FF>$1</COLOR> 販売期間：<color=#A1E400FF>$2</COLOR>"
+    "tip": "<color=#A1E400FF>$1</COLOR>\n販売期間：<color=#A1E400FF>$2</COLOR>"
   },
   "shop_street_activity_tip": {
-    "tip": "※<size=28><color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します</size>"
+    "tip": "※<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
   },
   "shop_word_cancel": {
     "tip": "戻 る"
