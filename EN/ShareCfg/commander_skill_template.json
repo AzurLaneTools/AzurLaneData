@@ -1724,6 +1724,138 @@
     "next_id": 0,
     "prev_id": 960032
   },
+  "960041": {
+    "desc": "When assigned to a fleet with at least 1 IX: decreases your Vanguard's DMG taken based on the Directives stat.",
+    "desc_world": "When assigned to a fleet with at least 1 IX: decreases your Vanguard's DMG taken based on the Directives stat.",
+    "effect_tactic": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "effect_tactic_world": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "exp": 0,
+    "icon": "96004",
+    "id": 960041,
+    "lv": 1,
+    "name": "Fantastical Plunder",
+    "next_id": 960042,
+    "prev_id": 0
+  },
+  "960042": {
+    "desc": "When assigned as the Command Cat: increases your whole fleet's FP by a moderate amount based on the Tactics stat.",
+    "desc_world": "When assigned as the Command Cat: increases your whole fleet's FP by a moderate amount based on the Tactics stat.",
+    "effect_tactic": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "effect_tactic_world": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "exp": 0,
+    "icon": "96004",
+    "id": 960042,
+    "lv": 1,
+    "name": "Fantastical Plunder",
+    "next_id": 960043,
+    "prev_id": 960041
+  },
+  "960043": {
+    "desc": "Once per battle, when the HP of a ship in your fleet falls below 30.0% as a result of DMG taken: restores 5.0% of that ship's HP.",
+    "desc_world": "Once per battle, when the HP of a ship in your fleet falls below 30.0% as a result of DMG taken: restores 5.0% of that ship's HP.",
+    "effect_tactic": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "effect_tactic_world": [
+      9600411,
+      9600412,
+      9600413,
+      9600414
+    ],
+    "exp": 0,
+    "icon": "96004",
+    "id": 960043,
+    "lv": 1,
+    "name": "Fantastical Plunder",
+    "next_id": 0,
+    "prev_id": 960042
+  },
+  "960051": {
+    "desc": "Increases ASR by 1.",
+    "desc_world": "When assigned to your Submarine Fleet: increases your SSs' OXY by 5.",
+    "effect_tactic": [
+      9600511,
+      9600512,
+      9600513
+    ],
+    "effect_tactic_world": [
+      99600511,
+      9600512,
+      9600513
+    ],
+    "exp": 0,
+    "icon": "96005",
+    "id": 960051,
+    "lv": 1,
+    "name": "Honor Among Thieves",
+    "next_id": 960052,
+    "prev_id": 0
+  },
+  "960052": {
+    "desc": "When assigned to your Submarine Fleet: increases the FP of your IXSs and the TRP of your SSs and SSVs by a moderate amount based on the Directives stat.",
+    "desc_world": "When assigned to your Submarine Fleet: increases the FP of your IXSs and the TRP of your SSs and SSVs by a moderate amount based on the Directives stat.",
+    "effect_tactic": [
+      9600511,
+      9600512,
+      9600513
+    ],
+    "effect_tactic_world": [
+      99600511,
+      9600512,
+      9600513
+    ],
+    "exp": 0,
+    "icon": "96005",
+    "id": 960052,
+    "lv": 1,
+    "name": "Honor Among Thieves",
+    "next_id": 960053,
+    "prev_id": 960051
+  },
+  "960053": {
+    "desc": "When assigned to a fleet with Royal Fortune: when the battle starts, fires a special barrage.",
+    "desc_world": "When assigned to a fleet with Royal Fortune: when the battle starts, fires a special barrage.",
+    "effect_tactic": [
+      9600511,
+      9600512,
+      9600513
+    ],
+    "effect_tactic_world": [
+      99600511,
+      9600512,
+      9600513
+    ],
+    "exp": 0,
+    "icon": "96005",
+    "id": 960053,
+    "lv": 1,
+    "name": "Honor Among Thieves",
+    "next_id": 0,
+    "prev_id": 960052
+  },
   "all": [
     10011,
     10012,
@@ -1814,6 +1946,12 @@
     960023,
     960031,
     960032,
-    960033
+    960033,
+    960041,
+    960042,
+    960043,
+    960051,
+    960052,
+    960053
   ]
 }

@@ -524,6 +524,100 @@
     "next": 0,
     "worth": 3
   },
+  "151": {
+    "add": [
+      [
+        1,
+        [],
+        [],
+        2,
+        3
+      ],
+      [
+        1,
+        [],
+        [],
+        3,
+        3
+      ],
+      [
+        1,
+        [],
+        [],
+        5,
+        3
+      ]
+    ],
+    "add_desc": [
+      [
+        "炮击",
+        3
+      ],
+      [
+        "雷击",
+        3
+      ],
+      [
+        "航空",
+        3
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your whole fleet gains 3 FP, TRP, and AVI.",
+    "group_id": 15,
+    "icon": "zhanlie_paoji_1",
+    "id": 151,
+    "name": "Azure Sea Affinity - Rookie",
+    "next": 152,
+    "worth": 2
+  },
+  "152": {
+    "add": [
+      [
+        1,
+        [],
+        [],
+        2,
+        6
+      ],
+      [
+        1,
+        [],
+        [],
+        3,
+        6
+      ],
+      [
+        1,
+        [],
+        [],
+        5,
+        6
+      ]
+    ],
+    "add_desc": [
+      [
+        "炮击",
+        6
+      ],
+      [
+        "雷击",
+        6
+      ],
+      [
+        "航空",
+        6
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your whole fleet gains 6 FP, TRP, and AVI.",
+    "group_id": 15,
+    "icon": "zhanlie_paoji_2",
+    "id": 152,
+    "name": "Azure Sea Affinity - Ace",
+    "next": 0,
+    "worth": 3
+  },
   "201": {
     "add": [
       [
@@ -3020,6 +3114,81 @@
     "icon": "zhanlie_one_3",
     "id": 823,
     "name": "Ace Lookout - Main",
+    "next": 0,
+    "worth": 3
+  },
+  "831": {
+    "add": [
+      [
+        1,
+        [],
+        [],
+        8,
+        1
+      ]
+    ],
+    "add_desc": [
+      [
+        "命中",
+        1
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your whole fleet gains 1 ACC.",
+    "group_id": 83,
+    "icon": "teshu_one_1",
+    "id": 831,
+    "name": "Tempesta Lookout - Rookie",
+    "next": 832,
+    "worth": 1
+  },
+  "832": {
+    "add": [
+      [
+        1,
+        [],
+        [],
+        8,
+        2
+      ]
+    ],
+    "add_desc": [
+      [
+        "命中",
+        2
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your whole fleet gains 2 ACC.",
+    "group_id": 83,
+    "icon": "teshu_one_2",
+    "id": 832,
+    "name": "Tempesta Lookout - Adept",
+    "next": 833,
+    "worth": 2
+  },
+  "833": {
+    "add": [
+      [
+        1,
+        [],
+        [],
+        8,
+        3
+      ]
+    ],
+    "add_desc": [
+      [
+        "命中",
+        3
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your whole fleet gains 3 ACC.",
+    "group_id": 83,
+    "icon": "teshu_one_3",
+    "id": 833,
+    "name": "Tempesta's Eyes",
     "next": 0,
     "worth": 3
   },
@@ -6016,6 +6185,56 @@
     "next": 0,
     "worth": 1
   },
+  "5161": {
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          24
+        ],
+        2,
+        20
+      ],
+      [
+        1,
+        [],
+        [
+          7
+        ],
+        5,
+        20
+      ]
+    ],
+    "add_desc": [
+      [
+        "<战巡>炮击",
+        20
+      ],
+      [
+        "<战列>炮击",
+        20
+      ],
+      [
+        "<风帆M>炮击",
+        20
+      ],
+      [
+        "<正航>航空",
+        20
+      ]
+    ],
+    "cost": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 20 FP and your <color=#3dc6ff>CVs</color> gain 20 AVI.",
+    "group_id": 516,
+    "icon": "special_one",
+    "id": 5161,
+    "name": "Ready for Battle",
+    "next": 0,
+    "worth": 1
+  },
   "all": [
     101,
     102,
@@ -6030,6 +6249,8 @@
     132,
     141,
     142,
+    151,
+    152,
     201,
     202,
     203,
@@ -6105,6 +6326,9 @@
     821,
     822,
     823,
+    831,
+    832,
+    833,
     901,
     902,
     903,
@@ -6167,6 +6391,7 @@
     5121,
     5131,
     5141,
-    5151
+    5151,
+    5161
   ]
 }
