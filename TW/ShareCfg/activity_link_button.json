@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5402",
+    "param": "5543",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5402
+      5543
     ],
     "type": 3
   },
@@ -43,14 +43,14 @@
     "param": [
       "scene level",
       {
-        "mapIdx": 1750001
+        "mapIdx": 1840001
       }
     ],
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      5001
+      5541
     ],
     "type": 2
   },
@@ -64,10 +64,7 @@
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
-    "time": [
-      "default",
-      5404
-    ],
+    "time": "stop",
     "type": 2
   },
   "30": {
@@ -194,6 +191,23 @@
     "time": "stop",
     "type": 0
   },
+  "104": {
+    "group_id": 1,
+    "id": 104,
+    "name": "event_layer",
+    "order": 1,
+    "param": {
+      "mediator": "ChildishnessSchoolPtMediator",
+      "view": "ChildishnessSchoolPtPage"
+    },
+    "pic": "event_layer",
+    "text_pic": "text_event_layer",
+    "time": [
+      "default",
+      5404
+    ],
+    "type": 14
+  },
   "1000": {
     "group_id": 5,
     "id": 1000,
@@ -222,7 +236,8 @@
     90,
     100,
     101,
-    102
+    102,
+    104
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -247,6 +262,9 @@
     ],
     "event_escort": [
       40
+    ],
+    "event_layer": [
+      104
     ],
     "event_map": [
       10
