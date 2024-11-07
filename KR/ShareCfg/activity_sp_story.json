@@ -1124,6 +1124,417 @@
     "story_type": 1,
     "unlock_conditions": "EX-4 클리어"
   },
+  "68": {
+    "change_background": "bg_jufengv1_2",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 68,
+    "lock": "",
+    "name": "EP1-1 나침반의 인도",
+    "pre_event": "",
+    "story": "JUFENGYUCHENMIANZHIHAI1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "69": {
+    "change_background": "bg_jufengv1_2",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 69,
+    "lock": [
+      [
+        4,
+        68
+      ]
+    ],
+    "name": "EP1-2 해적단과의 재회",
+    "pre_event": [
+      68
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI2",
+    "story_type": 1,
+    "unlock_conditions": "EP1-1 클리어"
+  },
+  "70": {
+    "change_background": "star_level_bg_504",
+    "change_bgm": "theme-tempest",
+    "change_prefab": "",
+    "id": 70,
+    "lock": [
+      [
+        4,
+        69
+      ]
+    ],
+    "name": "EP1-3 모여라, 템페스타!",
+    "pre_event": [
+      69
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI3",
+    "story_type": 1,
+    "unlock_conditions": "EP1-2 클리어"
+  },
+  "71": {
+    "change_background": "star_level_bg_162",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 71,
+    "lock": [
+      [
+        4,
+        70
+      ]
+    ],
+    "name": "EP1-4 트레저 헌터",
+    "pre_event": [
+      70
+    ],
+    "story": "1868001",
+    "story_type": 2,
+    "unlock_conditions": "EP1-3 클리어"
+  },
+  "72": {
+    "change_background": "bg_jufengv2_cg1",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 72,
+    "lock": [
+      [
+        4,
+        71
+      ]
+    ],
+    "name": "EP2-1 부활과 영원한 삶",
+    "pre_event": [
+      71
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI5",
+    "story_type": 1,
+    "unlock_conditions": "EP1-4 클리어"
+  },
+  "73": {
+    "change_background": "bg_jufengv1_2",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 73,
+    "lock": [
+      [
+        4,
+        72
+      ]
+    ],
+    "name": "EP2-2 보물선의 순항",
+    "pre_event": [
+      72
+    ],
+    "story": "1868002",
+    "story_type": 2,
+    "unlock_conditions": "EP2-1 클리어"
+  },
+  "74": {
+    "change_background": "bg_jufengv2_cg4",
+    "change_bgm": "theme-SeaAndSun-soft",
+    "change_prefab": "",
+    "id": 74,
+    "lock": [
+      [
+        4,
+        73
+      ]
+    ],
+    "name": "EP2-3 신참",
+    "pre_event": [
+      73
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI7",
+    "story_type": 1,
+    "unlock_conditions": "EP2-2 클리어"
+  },
+  "75": {
+    "change_background": "bg_jufengv1_1",
+    "change_bgm": "theme-tempest",
+    "change_prefab": "",
+    "id": 75,
+    "lock": [
+      [
+        4,
+        74
+      ]
+    ],
+    "name": "EP2-4 살금살금",
+    "pre_event": [
+      74
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI8",
+    "story_type": 1,
+    "unlock_conditions": "EP2-3 클리어"
+  },
+  "76": {
+    "change_background": "bg_jufengv2_1",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 76,
+    "lock": [
+      [
+        4,
+        75
+      ]
+    ],
+    "name": "EP3-1 단서",
+    "pre_event": [
+      75
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI9",
+    "story_type": 1,
+    "unlock_conditions": "EP2-4 클리어"
+  },
+  "77": {
+    "change_background": "bg_jufengv2_1",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 77,
+    "lock": [
+      [
+        4,
+        76
+      ]
+    ],
+    "name": "EP3-2 잠자는 바다",
+    "pre_event": [
+      76
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI10",
+    "story_type": 1,
+    "unlock_conditions": "EP3-1 클리어"
+  },
+  "78": {
+    "change_background": "bg_jufengv2_1",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 78,
+    "lock": [
+      [
+        4,
+        77
+      ]
+    ],
+    "name": "EP3-3 비바람의 사제",
+    "pre_event": [
+      77
+    ],
+    "story": "1868003",
+    "story_type": 2,
+    "unlock_conditions": "EP3-2 클리어"
+  },
+  "79": {
+    "change_background": "star_level_bg_525",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 79,
+    "lock": [
+      [
+        4,
+        78
+      ]
+    ],
+    "name": "EP3-4 폭풍과 성전",
+    "pre_event": [
+      78
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI12",
+    "story_type": 1,
+    "unlock_conditions": "EP3-3 클리어"
+  },
+  "80": {
+    "change_background": "bg_jufengv2_cg6",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 80,
+    "lock": [
+      [
+        4,
+        79
+      ]
+    ],
+    "name": "EP4-1 심연에서 꿈틀거리는 자",
+    "pre_event": [
+      79
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI13",
+    "story_type": 1,
+    "unlock_conditions": "EP3-4 클리어"
+  },
+  "81": {
+    "change_background": "bg_jufengv2_2",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 81,
+    "lock": [
+      [
+        4,
+        80
+      ]
+    ],
+    "name": "EP4-2 고요한 영혼",
+    "pre_event": [
+      80
+    ],
+    "story": "1868004",
+    "story_type": 2,
+    "unlock_conditions": "EP4-1 클리어"
+  },
+  "82": {
+    "change_background": "bg_jufengv2_2",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 82,
+    "lock": [
+      [
+        4,
+        81
+      ]
+    ],
+    "name": "EP4-3 여신의 주기",
+    "pre_event": [
+      81
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI15",
+    "story_type": 1,
+    "unlock_conditions": "EP4-2 클리어"
+  },
+  "83": {
+    "change_background": "star_level_bg_524",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 83,
+    "lock": [
+      [
+        4,
+        82
+      ]
+    ],
+    "name": "EP4-4 템페스타의 선택",
+    "pre_event": [
+      82
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI16",
+    "story_type": 1,
+    "unlock_conditions": "EP4-3 클리어"
+  },
+  "84": {
+    "change_background": "bg_jufengv2_cg7",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 84,
+    "lock": [
+      [
+        4,
+        83
+      ]
+    ],
+    "name": "EP5-1 어두운 비바람",
+    "pre_event": [
+      83
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI17",
+    "story_type": 1,
+    "unlock_conditions": "EP4-4 클리어"
+  },
+  "85": {
+    "change_background": "bg_underwater",
+    "change_bgm": "theme-SeaAndSun-soft",
+    "change_prefab": "",
+    "id": 85,
+    "lock": [
+      [
+        4,
+        84
+      ]
+    ],
+    "name": "EP5-2 비바람의 교향곡",
+    "pre_event": [
+      84
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI18",
+    "story_type": 1,
+    "unlock_conditions": "EP5-1 클리어"
+  },
+  "86": {
+    "change_background": "star_level_bg_539",
+    "change_bgm": "story-temepest-1",
+    "change_prefab": "",
+    "id": 86,
+    "lock": [
+      [
+        4,
+        85
+      ]
+    ],
+    "name": "EP5-3 돌아온 나침반",
+    "pre_event": [
+      85
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI19",
+    "story_type": 1,
+    "unlock_conditions": "EP5-2 클리어"
+  },
+  "87": {
+    "change_background": "star_level_bg_162",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 87,
+    "lock": [
+      [
+        4,
+        86
+      ]
+    ],
+    "name": "EX-1 잠자는 바다의 전설",
+    "pre_event": [
+      86
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI20",
+    "story_type": 1,
+    "unlock_conditions": "EP5-3 클리어"
+  },
+  "88": {
+    "change_background": "star_level_bg_524",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 88,
+    "lock": [
+      [
+        4,
+        87
+      ]
+    ],
+    "name": "EX-2 템페스타의 메시지",
+    "pre_event": [
+      87
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI21",
+    "story_type": 1,
+    "unlock_conditions": "EX-1 클리어"
+  },
+  "89": {
+    "change_background": "bg_jufengv2_1",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "Map_1860001",
+    "id": 89,
+    "lock": [
+      [
+        4,
+        88
+      ]
+    ],
+    "name": "EX-3 사제와 사자",
+    "pre_event": [
+      88
+    ],
+    "story": "JUFENGYUCHENMIANZHIHAI22",
+    "story_type": 1,
+    "unlock_conditions": "EX-2 클리어"
+  },
   "all": [
     1,
     2,
@@ -1184,6 +1595,28 @@
     64,
     65,
     66,
-    67
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
   ]
 }
