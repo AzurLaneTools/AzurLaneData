@@ -1441,6 +1441,9 @@
   "battle_battleMediator_quest_exist": {
     "tip": "現在退出將失去作戰中獲得的\n<color=#A9F548>資源、道具和角色。</color>您確定要退出嗎？"
   },
+  "battle_battleMediator_remainTime": {
+    "tip": "剩餘作戰時間"
+  },
   "battle_duel_main_rage": {
     "tip": "雙方<color=#A9F548>先鋒全滅</color>，作戰加速。"
   },
@@ -1777,9 +1780,6 @@
   "battle_text_yunxian_3": {
     "tip": "黑色氣息的源頭已被斬斷，投影即將崩潰……"
   },
-  "battle_ui_unlock": {
-    "tip": "裝扮解鎖"
-  },
   "battlepass_acquire_attention": {
     "tip": "世界巡遊將於$1天$2時後結束，尚有以下獎勵未領取  "
   },
@@ -1901,12 +1901,15 @@
   "battlepass_main_help_2406": {
     "tip": [
       {
-        "info": "世界巡遊(2024.10.1-2024.11.30)\n\n·<color=#92fc63>開放時間</color>\n 2024.10.1 0點~ 2024.11.30 23:59:59\n\n·<color=#92fc63>巡遊進度說明</color>\n（1）活動期間，指揮官透過完成巡遊任務，可取得「巡遊點數」。\n（2）巡遊任務隨時間開放解鎖。\n（3）每取得100點「巡遊點數」即可增加1巡遊進度\n（4）巡遊進度提升後可獲得對應等級的獎勵，巡遊進度最高可達100。\n\n·<color=#92fc63>獎勵規則</color>\n巡遊進度獎勵分為兩種：\n（1）基礎巡遊獎勵：包含<color=#ff5c5c>「福煦·META」< /color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；\n 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。\n（2）特許巡遊獎勵：包含<color=#ff5c5c>阿蒂利奧·雷戈洛換裝「雲端降落的天使</color>」、<color=#ff5c5c>鑽石</color>等獎勵；\n 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。\n 註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。\n\n·<color=#92fc63>「特許巡遊憑證」說明</color>\n（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。\n（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即11.30 22:59:59停止)，請指揮官注意購買時間。\n\n·<color=#92fc63>任務說明</color>\n巡遊任務分為兩種：\n（1）每週任務 \n 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務\n（2）S.P.任務\n S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。\n（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。\n\n·<color=#92fc63>「巡遊任務快速完成券」說明</color>\n（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務\n（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊\n（3）每個巡遊任務需要消耗的完成券數量固定，與目前任務進度無關\n（4）「巡遊任務快速完成券」不會隨本期活動結束而消失\n\n·<color=#ff5c5c>特別提示</color>\n（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。\n（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效"
+        "info": "世界巡遊(2024.10.1-2024.11.30)\n\n·<color=#92fc63>開放時間</color>\n 2024.10.1 0點~ 2024.11.30 23:59:59\n\n·<color=#92fc63>巡遊進度說明</color>\n（1）活動期間，指揮官透過完成巡遊任務，可取得「巡遊點數」。\n（2）巡遊任務隨時間開放解鎖。\n（3）每取得100點「巡遊點數」即可增加1巡遊進度\n（4）巡遊進度提升後可獲得對應等級的獎勵，巡遊進度最高可達100。\n\n·<color=#92fc63>獎勵規則</color>\n巡遊進度獎勵分為兩種：\n（1）基礎巡遊獎勵：包含<color=#ff5c5c>「福煦·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；\n 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。\n（2）特許巡遊獎勵：包含<color=#ff5c5c>阿蒂利奧·雷戈洛換裝「雲端降落的天使</color>」、<color=#ff5c5c>鑽石</color>等獎勵；\n 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。\n 註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。\n\n·<color=#92fc63>「特許巡遊憑證」說明</color>\n（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。\n（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即11.30 22:59:59停止)，請指揮官注意購買時間。\n\n·<color=#92fc63>任務說明</color>\n巡遊任務分為兩種：\n（1）每週任務 \n 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務\n（2）S.P.任務\n S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。\n（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。\n\n·<color=#92fc63>「巡遊任務快速完成券」說明</color>\n（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務\n（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊\n（3）每個巡遊任務需要消耗的完成券數量固定，與目前任務進度無關\n（4）「巡遊任務快速完成券」不會隨本期活動結束而消失\n\n·<color=#ff5c5c>特別提示</color>\n（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。\n（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效"
       }
     ]
   },
   "battlepass_main_time": {
     "tip": "$1天$2時"
+  },
+  "battlepass_main_time_title": {
+    "tip": "本期剩餘時間："
   },
   "battlepass_main_tip1": {
     "tip": "活動期間，完成巡遊任務累計<icon name=pt w=1 h=1/>\n可獲取<color=#92fc63>「扶桑·META」</color>、<color=#92fc63>心智魔方</color>、\n<color=#92fc63>高級定向藍圖</color>在內的豐富獎勵"
@@ -3549,9 +3552,6 @@
   "commander_equip_to_fleet_erro": {
     "tip": "裝備指揮喵失敗$1"
   },
-  "commander_exp_limit": {
-    "tip": "此指揮喵已達最大等級，無法新增指揮喵"
-  },
   "commander_exp_overflow_tip": {
     "tip": "陪玩後獲得的經驗將會超出上限，是否確認"
   },
@@ -3955,24 +3955,6 @@
   "common_wait": {
     "tip": "指揮官請稍等一會兒"
   },
-  "compensate_ui_expiration_day": {
-    "tip": "$1天後過期"
-  },
-  "compensate_ui_expiration_hour": {
-    "tip": "$1時後過期"
-  },
-  "compensate_ui_nothing1": {
-    "tip": "暫未收到任何補償"
-  },
-  "compensate_ui_nothing2": {
-    "tip": "No compensation received yet"
-  },
-  "compensate_ui_title1": {
-    "tip": "補償"
-  },
-  "compensate_ui_title2": {
-    "tip": "compensate"
-  },
   "complete": {
     "tip": "委託\n完成"
   },
@@ -4255,6 +4237,36 @@
   "create_player_success": {
     "tip": "創建角色成功"
   },
+  "cruise_btn_all": {
+    "tip": "全部領取"
+  },
+  "cruise_btn_pay": {
+    "tip": "解鎖特許巡遊獎勵"
+  },
+  "cruise_limit_count": {
+    "tip": "已達本月可購買數量上限"
+  },
+  "cruise_phase_title": {
+    "tip": "階段"
+  },
+  "cruise_shop_limit_tip": {
+    "tip": "本月剩餘可購買數量："
+  },
+  "cruise_shop_lock_tip": {
+    "tip": "當期世界巡遊等級達50"
+  },
+  "cruise_shop_no_open": {
+    "tip": "12月1日0點後開放"
+  },
+  "cruise_shop_title": {
+    "tip": "往期商店"
+  },
+  "cruise_shop_title_equip_skin": {
+    "tip": "外觀"
+  },
+  "cruise_shop_title_skin": {
+    "tip": "換裝"
+  },
   "cruise_task_help_2110": {
     "tip": [
       {
@@ -4385,6 +4397,15 @@
   },
   "cruise_task_week": {
     "tip": "第$1週"
+  },
+  "cruise_title_2406": {
+    "tip": "世界巡遊·十七期"
+  },
+  "cruise_title_2408": {
+    "tip": "世界巡遊·十八期"
+  },
+  "cruise_title_2410": {
+    "tip": "世界巡遊·十九期"
   },
   "cryptolalia_coming_soom": {
     "tip": "製作中……"
@@ -4675,6 +4696,15 @@
   "dont_send_message_frequently": {
     "tip": "請勿頻繁發送訊息"
   },
+  "dorm3d_AR_switch": {
+    "tip": "AR維護中……"
+  },
+  "dorm3d_beach_switch": {
+    "tip": "沙灘維護中……"
+  },
+  "dorm3d_system_switch": {
+    "tip": "宿舍維護中……"
+  },
   "dorm_2f_lock": {
     "tip": "未解鎖"
   },
@@ -4704,50 +4734,6 @@
   },
   "draw_medium_luck_3": {
     "tip": "多來茗的小店，運氣會變更好喵～"
-  },
-  "dream_land_tip": {
-    "tip": [
-      {
-        "info": "活動規則：\n·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」\n·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵\n·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵\n·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間\n·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充"
-      }
-    ]
-  },
-  "dreamland_area_lock_tip": {
-    "tip": "- 該區域尚未解鎖 請繼續閱讀劇情 -"
-  },
-  "dreamland_label_area": {
-    "tip": "區域"
-  },
-  "dreamland_label_day": {
-    "tip": "白天"
-  },
-  "dreamland_label_dusk": {
-    "tip": "傍晚"
-  },
-  "dreamland_label_explore": {
-    "tip": "探索"
-  },
-  "dreamland_label_explore_award_tip": {
-    "tip": "完成該區域探索獎勵"
-  },
-  "dreamland_label_night": {
-    "tip": "夜晚"
-  },
-  "dreamland_main_desc": {
-    "tip": "9.19~10.9，活動期間完成<color=#85E7FF>夢幻樂園探索</color>與<color=#85E7FF>啾啾蛋糕塔</color>獲得豐厚獎勵"
-  },
-  "dreamland_main_tip": {
-    "tip": [
-      {
-        "info": "活動規則：\n·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」\n·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵\n·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵\n·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間\n·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充\n·9.25為止，每日可獲得一次「啾啾蛋糕塔」遊戲次數，參與遊戲可取得「夢幻蛋糕券」\n·累計7張「夢幻蛋糕券」可獲得限定道具<color=#92fc63>「慶典邀請函」</color>"
-      }
-    ]
-  },
-  "dreamland_spring_lock_tip": {
-    "tip": "閱讀後續劇情解鎖"
-  },
-  "dreamland_spring_tip": {
-    "tip": "邀請角色入夢恢復心情 $1/h"
   },
   "dress_up_success": {
     "tip": "裝扮成功"
@@ -8035,6 +8021,61 @@
         "info": "※ 兵裝訓練開啟時間：每天開放，每週最多可挑戰兩次\n◆ 敵方會使用<color=#92fc63>特殊煙霧彈</color>，降低受到來自我方主力編隊單位的傷害，我方主力編隊單位的命中率大幅降低\n◆ 敵方會使用<color=#92fc63>特殊斬擊</color>，清除部分炮擊和魚雷彈幕\n\n※ 破交作戰開啟時間：每天開放，每週最多可挑戰兩次\n◆ 破交作戰模式下，指揮官將操縱<color=#92fc63>潛艇編隊</color>出戰\n◆ 不同的<color=#92fc63>魚雷武器</color>將為<color=#92fc63>裝備艦船</color>提供不同數量的<color=#92fc63>彈藥</color>\n<color=#92fc63>◆ 魚雷設備</color>將為<color=#92fc63>裝備艦船</color>提供額外的<color=#92fc63>彈藥</color>\n◆ 破交作戰模式下，<color=#92fc63>所有潛艇技能</color>不生效，潛艇的全彈發射、專屬彈幕通過<color=#92fc63>特殊攻擊按鈕</color>觸發(<color=#92fc63>速科夫專屬彈幕</color>通過<color=#92fc63>上浮</color>觸發，每場戰鬥僅限1次)\n◆ 破交作戰模式下，全彈發射、專屬彈幕<color=#92fc63>傷害提高</color>\n◆ 計分方式：\n◆ 通關基礎分：<color=#92fc63>100</color>分\n◆ 擊破1艘運輸艦：<color=#92fc63>+10</color>分\n◆ 1位己方艦船被重創：<color=#92fc63>-15</color>分\n◆ S評價：<color=#92fc63>120</color>分\n◆ A評價：<color=#92fc63>100</color>分\n◆ B評價：<color=#92fc63>70</color>分\n\n※ 商船護送開啟時間為：每週一、週四、週日\n\n※ 海域突進開啟時間為：每週二、週五、週日\n\n※ 斬首行動開啟時間為：每週三、週六、週日\n\n※ 戰術研修開啟時間為：每天開放\n◆ <color=#92fc63>航空</color> 敵方旗艦擁有極高的耐久，使用<color= #92fc63>航空兵器</color>能造成巨量傷害\n◆ <color=#92fc63>炮擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>炮擊兵器</color>能造成巨量傷害\n◆ <color=#92fc63>雷擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>魚雷兵器</color>能造成巨量傷害\n\n※快速挑戰功能將在獲得對應關卡的S勝後開啟\n◆快速挑戰可以<color=#92fc63>直接獲得</color>每日挑戰關卡中應得的全部掉落獎勵\n◆快速挑戰<color=#92fc63>不消耗</color>石油，不會獲得任何指揮官經驗、艦船經驗，也不會影響艦船的心情與好感度，同時不計入個人訊息中的作戰次數\n◆快速挑戰可以完成出擊獲得勝利、以B/A/S勝通關、進行/完成每日挑戰，擊敗小/中/大型艦隊，累計從日常關卡中獲得道具的任務\n◆請注意，快速挑戰<color=#92fc63>無法完成</color>個人角色任務。 "
       }
     ]
+  },
+  "help_dorm3d_info": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_5",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/3ddorm_6",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
   },
   "help_equipment": {
     "tip": [
@@ -12629,21 +12670,6 @@
   "no_open_system_tip": {
     "tip": "<color=#A9F548>$1</color>將在指揮官等級達到<color=#A9F548>$2級</color>後開放"
   },
-  "no_share_skin_gametip": {
-    "tip": "*該換裝為$1換裝，無法與$2共享使用"
-  },
-  "no_share_skin_jiahehangmu": {
-    "tip": "{namecode:92}(航母)"
-  },
-  "no_share_skin_jiahezhanlie": {
-    "tip": "{namecode:92}(戰列)"
-  },
-  "no_share_skin_tianchenghangmu": {
-    "tip": "{namecode:161}(航母)"
-  },
-  "no_share_skin_tianchengzhanlie": {
-    "tip": "{namecode:161}(戰列)"
-  },
   "no_way_to_escape": {
     "tip": "無路可逃"
   },
@@ -16618,6 +16644,12 @@
   "target_get_tip": {
     "tip": "目標"
   },
+  "task_go": {
+    "tip": "前往"
+  },
+  "task_got": {
+    "tip": "已完成"
+  },
   "task_is_not_existence": {
     "tip": "不存在該任務$1"
   },
@@ -17165,37 +17197,6 @@
   "touch_body": {
     "tip": "觸摸"
   },
-  "touch_cake_minigame_help": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/touchcake_help1",
-          "path": ""
-        }
-      },
-      "2": {
-        "icon": {
-          "atlas": "helpbg/touchcake_help2",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "defaultpage": 1,
-      "disableScroll": true,
-      "helpSize": {
-        "x": 1176,
-        "y": 1024
-      },
-      "pageMode": true,
-      "windowPos": {
-        "y": -70
-      },
-      "windowSize": {
-        "x": 1263,
-        "y": 873
-      }
-    }
-  },
   "touch_head": {
     "tip": "摸頭"
   },
@@ -17242,15 +17243,6 @@
   },
   "twitter_login_tips": {
     "tip": "用twitter帳號的登入後，當前的遊戲帳號暫存將消失，確定繼續操作嗎?"
-  },
-  "ui_pack_tip1": {
-    "tip": "只能購買一個檔位，禮包會寄到信箱請注意查收"
-  },
-  "ui_pack_tip2": {
-    "tip": "基礎版"
-  },
-  "ui_pack_tip3": {
-    "tip": "豪華版"
   },
   "ui_word_levelui2_inevent": {
     "tip": "行動中"
