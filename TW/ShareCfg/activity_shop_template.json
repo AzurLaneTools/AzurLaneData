@@ -27959,7 +27959,7 @@
     "resource_type": 59010
   },
   "12001": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 21021,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -27995,7 +27995,7 @@
     "resource_type": 21000
   },
   "12002": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 21101,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -28010,7 +28010,7 @@
     "resource_type": 21000
   },
   "12003": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 21111,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -28025,7 +28025,7 @@
     "resource_type": 21000
   },
   "12004": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 21121,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -28040,7 +28040,7 @@
     "resource_type": 21000
   },
   "12005": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 21131,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -28055,7 +28055,7 @@
     "resource_type": 21000
   },
   "12006": {
-    "activity": 4877,
+    "activity": 0,
     "commodity_id": 16033,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -28101,6 +28101,113 @@
     "num": 1,
     "num_limit": 4,
     "order": 2,
+    "resource_category": 2,
+    "resource_num": 80,
+    "resource_type": 21000
+  },
+  "12011": {
+    "activity": 7104,
+    "commodity_id": 0,
+    "commodity_id_list": [
+      21101,
+      21111,
+      21121,
+      21131
+    ],
+    "commodity_id_list_show": 150004,
+    "commodity_type": 2,
+    "id": 12011,
+    "limit_args": "",
+    "num": 5,
+    "num_limit": 0,
+    "order": 1,
+    "resource_category": 2,
+    "resource_num": 5,
+    "resource_type": 21000
+  },
+  "12012": {
+    "activity": 7104,
+    "commodity_id": 16033,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12012,
+    "limit_args": "",
+    "num": 1,
+    "num_limit": 0,
+    "order": 2,
+    "resource_category": 2,
+    "resource_num": 5,
+    "resource_type": 21000
+  },
+  "12013": {
+    "activity": 7104,
+    "commodity_id": 21021,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12013,
+    "limit_args": [
+      [
+        1,
+        970801,
+        1
+      ],
+      [
+        2,
+        [
+          [
+            2023,
+            6,
+            22
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 4,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 80,
+    "resource_type": 21000
+  },
+  "12014": {
+    "activity": 7104,
+    "commodity_id": 21030,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12014,
+    "limit_args": [
+      [
+        1,
+        970207,
+        1
+      ],
+      [
+        2,
+        [
+          [
+            2024,
+            12,
+            5
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 4,
+    "order": 4,
     "resource_category": 2,
     "resource_num": 80,
     "resource_type": 21000
@@ -29835,6 +29942,10 @@
     12005,
     12006,
     12007,
+    12011,
+    12012,
+    12013,
+    12014,
     5001,
     5002,
     5003,
@@ -31396,6 +31507,10 @@
       12005,
       12006,
       12007,
+      12011,
+      12012,
+      12013,
+      12014,
       5011,
       5012,
       5013,
