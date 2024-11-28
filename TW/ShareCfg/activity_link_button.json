@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5521",
+    "param": "5679",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5221
+      5679
     ],
     "type": 3
   },
@@ -44,8 +44,7 @@
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
-      "default",
-      5221
+      "default"
     ],
     "type": 0
   },
@@ -55,7 +54,7 @@
     "name": "event_minigame",
     "order": 1,
     "param": [
-      "KINDERGARTEN"
+      "TOLOVE_COLLAB_BACKHILL"
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
@@ -203,6 +202,22 @@
     ],
     "type": 14
   },
+  "107": {
+    "group_id": 12,
+    "id": 107,
+    "name": "event_tolove",
+    "order": 1,
+    "param": [
+      "TOLOVE_COLLAB_BACKHILL"
+    ],
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": [
+      "default",
+      5686
+    ],
+    "type": 2
+  },
   "1000": {
     "group_id": 5,
     "id": 1000,
@@ -232,7 +247,8 @@
     100,
     101,
     102,
-    104
+    104,
+    107
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -276,6 +292,9 @@
     ],
     "event_series": [
       90
+    ],
+    "event_tolove": [
+      107
     ]
   }
 }
