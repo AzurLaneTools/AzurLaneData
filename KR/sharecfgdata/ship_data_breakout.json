@@ -232,7 +232,7 @@
   },
   "101052": {
     "breakout_id": 101053,
-    "breakout_view": "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
     "icon": "10001",
     "id": 101052,
     "level": 30,
@@ -4833,7 +4833,7 @@
   },
   "103062": {
     "breakout_id": 103063,
-    "breakout_view": "주포 발사 수 +1 / 모든 무기 효율 +3%",
+    "breakout_view": "주포 포좌 +1 / 무기 보정 +3%",
     "icon": "10001",
     "id": 103062,
     "level": 30,
@@ -7777,7 +7777,7 @@
   },
   "107103": {
     "breakout_id": 107104,
-    "breakout_view": "함재기 탑재량 +1 / 함재기 효율 +5%",
+    "breakout_view": "함재기 수 +1 / 함재기 보정 +5%",
     "icon": "10001",
     "id": 107103,
     "level": 70,
@@ -22398,7 +22398,7 @@
   },
   "303152": {
     "breakout_id": 303153,
-    "breakout_view": "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+    "breakout_view": "시작 시 어뢰 +1 / 주포 보정 +10%",
     "icon": "10001",
     "id": 303152,
     "level": 30,
@@ -28208,7 +28208,7 @@
   },
   "402082": {
     "breakout_id": 402083,
-    "breakout_view": "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+    "breakout_view": "시작 시 어뢰 +1 / 주포 보정 +10%",
     "icon": "10001",
     "id": 402082,
     "level": 30,
@@ -40590,7 +40590,7 @@
   },
   "10100031": {
     "breakout_id": 10100032,
-    "breakout_view": "어뢰 효율 +5%",
+    "breakout_view": "어뢰 보정 +5%",
     "icon": "10001",
     "id": 10100031,
     "level": 10,
@@ -40619,7 +40619,7 @@
   },
   "10100033": {
     "breakout_id": 10100034,
-    "breakout_view": "무기 효율 +5%",
+    "breakout_view": "무기 보정 +5%",
     "icon": "10001",
     "id": 10100033,
     "level": 70,
@@ -41432,7 +41432,7 @@
   },
   "10400031": {
     "breakout_id": 10400032,
-    "breakout_view": "폭격기 탑재량 +1 / 뇌격기 효율 +5%",
+    "breakout_view": "폭격기 수 +1 / 뇌격기 보정 +5%",
     "icon": "10001",
     "id": 10400031,
     "level": 10,
@@ -41448,7 +41448,7 @@
   },
   "10400032": {
     "breakout_id": 10400033,
-    "breakout_view": "격납고 용량 +1 / 뇌격기 탑재량 +1 /폭격기 효율 +10%",
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 폭격기 보정 +10%",
     "icon": "10001",
     "id": 10400032,
     "level": 30,
@@ -41636,7 +41636,7 @@
   },
   "10500022": {
     "breakout_id": 10500023,
-    "breakout_view": "격납고 용량+1/뇌격기 탑재량+1/폭격기 효율+10% ",
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 폭격기 보정 +10%",
     "icon": "10001",
     "id": 10500022,
     "level": 30,
@@ -42313,7 +42313,7 @@
   },
   "10600062": {
     "breakout_id": 10600063,
-    "breakout_view": "격납고 용량 +1 / 뇌격기 탑재량 +1 /폭격기 효율 +10%",
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 폭격기 보정 +10%",
     "icon": "10001",
     "id": 10600062,
     "level": 30,
@@ -43799,7 +43799,7 @@
   },
   "10900052": {
     "breakout_id": 10900053,
-    "breakout_view": "격납고 용량 +1 / 뇌격기 탑재량 +1 /폭격기 효율 +10%",
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 폭격기 보정 +10%",
     "icon": "10001",
     "id": 10900052,
     "level": 30,
@@ -44333,6 +44333,377 @@
     "level": 0,
     "pre_id": 11000073,
     "use_char": 1100007,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100011": {
+    "breakout_id": 11100012,
+    "breakout_view": "무기 보정 +2%",
+    "icon": "10001",
+    "id": 11100011,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110001,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      102
+    ]
+  },
+  "11100012": {
+    "breakout_id": 11100013,
+    "breakout_view": "주포 포좌 +1 / 무기 보정 +3%",
+    "icon": "10001",
+    "id": 11100012,
+    "level": 30,
+    "pre_id": 11100011,
+    "use_char": 1110001,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      102,
+      102
+    ]
+  },
+  "11100013": {
+    "breakout_id": 11100014,
+    "breakout_view": "무기 보정 +5%",
+    "icon": "10001",
+    "id": 11100013,
+    "level": 70,
+    "pre_id": 11100012,
+    "use_char": 1110001,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      102,
+      102
+    ]
+  },
+  "11100014": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100014,
+    "level": 0,
+    "pre_id": 11100013,
+    "use_char": 1110001,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100021": {
+    "breakout_id": 11100022,
+    "breakout_view": "어뢰 보정 +5%",
+    "icon": "10001",
+    "id": 11100021,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110002,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      106
+    ]
+  },
+  "11100022": {
+    "breakout_id": 11100023,
+    "breakout_view": "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+    "icon": "10001",
+    "id": 11100022,
+    "level": 30,
+    "pre_id": 11100021,
+    "use_char": 1110002,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "11100023": {
+    "breakout_id": 11100024,
+    "breakout_view": "무기 보정 +5%",
+    "icon": "10001",
+    "id": 11100023,
+    "level": 70,
+    "pre_id": 11100022,
+    "use_char": 1110002,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "11100024": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100024,
+    "level": 0,
+    "pre_id": 11100023,
+    "use_char": 1110002,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100031": {
+    "breakout_id": 11100032,
+    "breakout_view": "어뢰 보정 +5%",
+    "icon": "10001",
+    "id": 11100031,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110003,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      106
+    ]
+  },
+  "11100032": {
+    "breakout_id": 11100033,
+    "breakout_view": "시작 시 어뢰 +1 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 11100032,
+    "level": 30,
+    "pre_id": 11100031,
+    "use_char": 1110003,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      33000
+    ]
+  },
+  "11100033": {
+    "breakout_id": 11100034,
+    "breakout_view": "주포 보정 +15% / 어뢰 보정 +15%",
+    "icon": "10001",
+    "id": 11100033,
+    "level": 70,
+    "pre_id": 11100032,
+    "use_char": 1110003,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      33000,
+      106
+    ]
+  },
+  "11100034": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100034,
+    "level": 0,
+    "pre_id": 11100033,
+    "use_char": 1110003,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100041": {
+    "breakout_id": 11100042,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 11100041,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110004,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      44100,
+      44100
+    ]
+  },
+  "11100042": {
+    "breakout_id": 11100043,
+    "breakout_view": "부포 포좌 +2 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 11100042,
+    "level": 30,
+    "pre_id": 11100041,
+    "use_char": 1110004,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ]
+  },
+  "11100043": {
+    "breakout_id": 11100044,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +15%",
+    "icon": "10001",
+    "id": 11100043,
+    "level": 70,
+    "pre_id": 11100042,
+    "use_char": 1110004,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      44100,
+      44100,
+      44100
+    ]
+  },
+  "11100044": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100044,
+    "level": 0,
+    "pre_id": 11100043,
+    "use_char": 1110004,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100051": {
+    "breakout_id": 11100052,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +5%",
+    "icon": "10001",
+    "id": 11100051,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110005,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      24100,
+      24100
+    ]
+  },
+  "11100052": {
+    "breakout_id": 11100053,
+    "breakout_view": "부포 포좌 +2 / 주포 보정 +10%",
+    "icon": "10001",
+    "id": 11100052,
+    "level": 30,
+    "pre_id": 11100051,
+    "use_char": 1110005,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      21200,
+      21200,
+      21200
+    ]
+  },
+  "11100053": {
+    "breakout_id": 11100054,
+    "breakout_view": "주포 포좌 +1 / 주포 보정 +15%",
+    "icon": "10001",
+    "id": 11100053,
+    "level": 70,
+    "pre_id": 11100052,
+    "use_char": 1110005,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      24100,
+      24100,
+      24100
+    ]
+  },
+  "11100054": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100054,
+    "level": 0,
+    "pre_id": 11100053,
+    "use_char": 1110005,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11100061": {
+    "breakout_id": 11100062,
+    "breakout_view": "폭격기 탑재량 +1 / 뇌격기 효율 +5%",
+    "icon": "10001",
+    "id": 11100061,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1110006,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "use_item": [],
+    "weapon_ids": [
+      60431,
+      54014
+    ]
+  },
+  "11100062": {
+    "breakout_id": 11100063,
+    "breakout_view": "격납고 용량 +1 / 뇌격기 수 +1 / 폭격기 보정 +10%",
+    "icon": "10001",
+    "id": 11100062,
+    "level": 30,
+    "pre_id": 11100061,
+    "use_char": 1110006,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "use_item": [],
+    "weapon_ids": [
+      60432,
+      54014,
+      60432,
+      54014
+    ]
+  },
+  "11100063": {
+    "breakout_id": 11100064,
+    "breakout_view": "함재기 수 +1 / 함재기 보정 +5%",
+    "icon": "10001",
+    "id": 11100063,
+    "level": 70,
+    "pre_id": 11100062,
+    "use_char": 1110006,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "use_item": [],
+    "weapon_ids": [
+      60433,
+      54015,
+      60433,
+      54015
+    ]
+  },
+  "11100064": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11100064,
+    "level": 0,
+    "pre_id": 11100063,
+    "use_char": 1110006,
     "use_char_num": 0,
     "use_gold": 0,
     "use_item": [],
