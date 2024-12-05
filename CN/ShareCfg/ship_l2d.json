@@ -20245,7 +20245,10 @@
     "start_value": 0
   },
   "20703701": {
-    "action_trigger": "",
+    "action_trigger": {
+      "change_focus": false,
+      "type": 7
+    },
     "action_trigger_active": {
       "idle_enable": [
         [
@@ -20360,7 +20363,11 @@
       1
     ],
     "range_abs": 0,
-    "react_condition": "",
+    "react_condition": {
+      "idle_off": [
+        2
+      ]
+    },
     "react_pos_x": 0,
     "react_pos_y": 0,
     "relation_parameter": "",
