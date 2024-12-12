@@ -162,6 +162,21 @@
       }
     ]
   },
+  "AR_plane_check": {
+    "tip": "請偵測一個平面"
+  },
+  "AR_plane_distance_near": {
+    "tip": "距離過近角色將會隱藏"
+  },
+  "AR_plane_long_press_to_summon": {
+    "tip": "長按平面叫出角色"
+  },
+  "AR_plane_summon_fail_by_near": {
+    "tip": "距離過近叫出角色失敗"
+  },
+  "AR_plane_summon_success": {
+    "tip": "叫出角色成功"
+  },
   "Announcements_Donotshow": {
     "tip": "今日不再顯示"
   },
@@ -707,6 +722,9 @@
   },
   "anniversary_task_title_9": {
     "tip": "可能是覺得我實在太傻了吧，有人將我一把抓住，那是我第一個朋友"
+  },
+  "apartment_level_unenough": {
+    "tip": "等級$1解鎖"
   },
   "apple_link_title": {
     "tip": "連携中のアカウント完了"
@@ -4725,11 +4743,404 @@
   "dorm3d_AR_switch": {
     "tip": "AR維護中……"
   },
+  "dorm3d_accompany_locked": {
+    "tip": "未開放"
+  },
+  "dorm3d_already_gifted": {
+    "tip": "已贈送"
+  },
+  "dorm3d_appellation_cd": {
+    "tip": "$1後可以再次修改專屬稱呼"
+  },
+  "dorm3d_appellation_interval": {
+    "tip": "專屬稱呼每48小時可以修改一次"
+  },
+  "dorm3d_appellation_title": {
+    "tip": "你希望她稱呼你為"
+  },
+  "dorm3d_appellation_waring1": {
+    "tip": "目前稱呼存在屏蔽字"
+  },
+  "dorm3d_appellation_waring2": {
+    "tip": "目前稱呼過長"
+  },
+  "dorm3d_appellation_waring3": {
+    "tip": "目前稱呼過短"
+  },
+  "dorm3d_appellation_waring4": {
+    "tip": "修改冷卻中"
+  },
+  "dorm3d_beach_buy": {
+    "tip": "是否消耗<color=#39bfff>$1</color> 解鎖 <color=#169fff>沙灘</color>"
+  },
+  "dorm3d_beach_download": {
+    "tip": "需要下載$1的資源"
+  },
+  "dorm3d_beach_role": {
+    "tip": "解鎖後可以與<color=#39bfff>$1</color>進行互動"
+  },
   "dorm3d_beach_switch": {
     "tip": "沙灘維護中……"
   },
+  "dorm3d_clothing_choose": {
+    "tip": "選擇換裝"
+  },
+  "dorm3d_collect_favor_plus": {
+    "tip": "獎勵：契合度+"
+  },
+  "dorm3d_collect_locked": {
+    "tip": "契合度$1檔解鎖"
+  },
+  "dorm3d_collect_not_found": {
+    "tip": "前往$1獲取"
+  },
+  "dorm3d_collect_not_owned": {
+    "tip": "暫未收集到該物品"
+  },
+  "dorm3d_collect_nothing": {
+    "tip": "- 暫未取得該物品 -"
+  },
+  "dorm3d_collect_unlock": {
+    "tip": "- 待解鎖 -"
+  },
+  "dorm3d_collection_beach": {
+    "tip": "沙灘"
+  },
+  "dorm3d_collection_cost_tip": {
+    "tip": "相伴5分鐘，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+  },
+  "dorm3d_collection_title_en": {
+    "tip": "Azur Lane"
+  },
+  "dorm3d_daily_favor": {
+    "tip": "今日互動契合度"
+  },
+  "dorm3d_daily_favor_tips": {
+    "tip": "今日互動契合度:"
+  },
+  "dorm3d_data_Invite_lack": {
+    "tip": "邀請角色數量不足"
+  },
+  "dorm3d_data_choose": {
+    "tip": "約會選擇"
+  },
+  "dorm3d_data_go": {
+    "tip": "請選擇一起前往<color=#39bfff>$1</color>的角色"
+  },
+  "dorm3d_day_night_switching1": {
+    "tip": "目前已經為白天"
+  },
+  "dorm3d_day_night_switching2": {
+    "tip": "目前已經為夜晚"
+  },
+  "dorm3d_download_complete": {
+    "tip": "資源下載成功"
+  },
+  "dorm3d_favor_level": {
+    "tip": "當前契合度等級："
+  },
+  "dorm3d_favor_level_story": {
+    "tip": "契合度劇情"
+  },
+  "dorm3d_favor_maximize": {
+    "tip": "契合度已滿，是否繼續贈禮？"
+  },
+  "dorm3d_furnitrue_type_bed": {
+    "tip": "床"
+  },
+  "dorm3d_furnitrue_type_couch": {
+    "tip": "沙發"
+  },
+  "dorm3d_furnitrue_type_decoration": {
+    "tip": "裝飾"
+  },
+  "dorm3d_furnitrue_type_floor": {
+    "tip": "地板"
+  },
+  "dorm3d_furnitrue_type_table": {
+    "tip": "桌子"
+  },
+  "dorm3d_furnitrue_type_wallpaper": {
+    "tip": "壁紙"
+  },
+  "dorm3d_furniture_count": {
+    "tip": "數量：$1"
+  },
+  "dorm3d_furniture_locked": {
+    "tip": "未解鎖該家具"
+  },
+  "dorm3d_furniture_replace_tip": {
+    "tip": "請更換對應家具"
+  },
+  "dorm3d_furniture_save_success": {
+    "tip": "家具保存成功"
+  },
+  "dorm3d_furniture_sure_save": {
+    "tip": "是否確認保存傢俱"
+  },
+  "dorm3d_furniture_unfit": {
+    "tip": "不可使用"
+  },
+  "dorm3d_furniture_used": {
+    "tip": "<color=#00a3ef>[已擺放]</color>"
+  },
+  "dorm3d_furniture_window_acesses": {
+    "tip": "獲取途徑"
+  },
+  "dorm3d_gift": {
+    "tip": "贈禮"
+  },
+  "dorm3d_gift_maximum": {
+    "tip": "已達最大數量限制"
+  },
+  "dorm3d_gift_owner_num": {
+    "tip": "數量："
+  },
+  "dorm3d_gift_story_unlock": {
+    "tip": "已解鎖專屬劇情"
+  },
+  "dorm3d_invite_confirm_discount": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>(原價$3)解鎖<color=#39bfff>$4</color>的$5邀約"
+  },
+  "dorm3d_invite_confirm_free": {
+    "tip": "$1<color=#fc4670><size=34>免費</size></color>(原價$2)解鎖<color=#39bfff>$3</color>的$4邀約"
+  },
+  "dorm3d_invite_confirm_original": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>解鎖<color=#39bfff>$3</color>的$4邀約"
+  },
+  "dorm3d_is_auto_time": {
+    "tip": "隨時間自動切換晝夜裝扮"
+  },
+  "dorm3d_item_num": {
+    "tip": "已擁有："
+  },
+  "dorm3d_minigame_again": {
+    "tip": "再來一局"
+  },
+  "dorm3d_minigame_button1": {
+    "tip": "遊戲"
+  },
+  "dorm3d_minigame_close": {
+    "tip": "關閉"
+  },
+  "dorm3d_need_construct_item": {
+    "tip": "缺少建設券"
+  },
+  "dorm3d_now_clothing": {
+    "tip": "目前"
+  },
+  "dorm3d_now_time": {
+    "tip": "目前時間"
+  },
+  "dorm3d_own_favor": {
+    "tip": "擁有該角色，增加100點契合度"
+  },
+  "dorm3d_photo_Others": {
+    "tip": "其它"
+  },
+  "dorm3d_photo_active_zone": {
+    "tip": "1$"
+  },
+  "dorm3d_photo_alpha": {
+    "tip": "透明度"
+  },
+  "dorm3d_photo_animspeed": {
+    "tip": "動作$1x"
+  },
+  "dorm3d_photo_contrast": {
+    "tip": "對比"
+  },
+  "dorm3d_photo_depthoffield": {
+    "tip": "鏡頭虛化"
+  },
+  "dorm3d_photo_facecamera": {
+    "tip": "面向鏡頭"
+  },
+  "dorm3d_photo_filter": {
+    "tip": "濾鏡"
+  },
+  "dorm3d_photo_focusdistance": {
+    "tip": "虛化距離"
+  },
+  "dorm3d_photo_focusstrength": {
+    "tip": "虛化強度"
+  },
+  "dorm3d_photo_furniture_lock": {
+    "tip": "dorm3d_photo_furniture_lock"
+  },
+  "dorm3d_photo_hidecharacter": {
+    "tip": "隱藏角色"
+  },
+  "dorm3d_photo_len": {
+    "tip": "鏡頭"
+  },
+  "dorm3d_photo_lighting": {
+    "tip": "燈光"
+  },
+  "dorm3d_photo_no_role": {
+    "tip": "未邀約角色"
+  },
+  "dorm3d_photo_paramaters": {
+    "tip": "參數"
+  },
+  "dorm3d_photo_postexposure": {
+    "tip": "曝光度"
+  },
+  "dorm3d_photo_regular_anim": {
+    "tip": "基礎"
+  },
+  "dorm3d_photo_saturation": {
+    "tip": "飽和度"
+  },
+  "dorm3d_photo_special_anim": {
+    "tip": "特殊"
+  },
+  "dorm3d_photo_strength": {
+    "tip": "強度"
+  },
+  "dorm3d_pledge_favor": {
+    "tip": "和角色進行誓約，增加100點契合度"
+  },
+  "dorm3d_purchase_confirm_discount": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>(原價$3)購買<color=#39bfff>$4</color>"
+  },
+  "dorm3d_purchase_confirm_free": {
+    "tip": "$1<color=#fc4670><size=34>免費</size></color>(原價$2)購買<color=#39bfff>$3</color>"
+  },
+  "dorm3d_purchase_confirm_original": {
+    "tip": "是否消耗$1<color=#39bfff>$2</color>購買<color=#39bfff>$3</color>"
+  },
+  "dorm3d_purchase_confirm_tip": {
+    "tip": "專屬"
+  },
+  "dorm3d_purchase_weekly_limit": {
+    "tip": "（本週購買$1/$2）"
+  },
+  "dorm3d_recall_locked": {
+    "tip": "待解鎖？？？？？？"
+  },
+  "dorm3d_reload_favor": {
+    "tip": "契合度劇情"
+  },
+  "dorm3d_reload_gift": {
+    "tip": "專屬禮物劇情"
+  },
+  "dorm3d_reload_unlock": {
+    "tip": "- 待解鎖 -"
+  },
+  "dorm3d_reload_unlock_name": {
+    "tip": "?????"
+  },
+  "dorm3d_removable": {
+    "tip": "(滑動螢幕左側移動，靠近角色吧）"
+  },
+  "dorm3d_resource_delete": {
+    "tip": "資源刪除成功"
+  },
+  "dorm3d_resource_downloading": {
+    "tip": "資源正在下載中"
+  },
+  "dorm3d_role_assets_delete": {
+    "tip": "是否確認刪除<color=#39bfff>$1</color>的全部資源"
+  },
+  "dorm3d_role_assets_download": {
+    "tip": "是否讓<color=#39bfff>$1</color>入住該房間\n<color=#848484>需要下載$2的資源</color>"
+  },
+  "dorm3d_role_check_in": {
+    "tip": "是否讓<color=#39bfff>$1</color>入住該房間"
+  },
+  "dorm3d_role_choose": {
+    "tip": "選擇宿舍"
+  },
+  "dorm3d_role_locked": {
+    "tip": "請先解鎖角色房間"
+  },
+  "dorm3d_role_manage": {
+    "tip": "宿舍管理"
+  },
+  "dorm3d_role_manage_public_area": {
+    "tip": "公共區域"
+  },
+  "dorm3d_role_manage_role": {
+    "tip": "角色"
+  },
+  "dorm3d_select_tip": {
+    "tip": "公共房間邀請"
+  },
+  "dorm3d_shop_gift": {
+    "tip": "是否花費$1 <color=#169fff>$2</color> 購買<color=#169fff>$3</color>"
+  },
+  "dorm3d_shop_gift_already_given": {
+    "tip": "該禮物已贈送"
+  },
+  "dorm3d_shop_gift_not_owned": {
+    "tip": "目前未擁有該禮物"
+  },
+  "dorm3d_shop_gift_owned": {
+    "tip": "購買次數已達上限"
+  },
+  "dorm3d_shop_gift_tip": {
+    "tip": "<color=#7c7e81>贈送後可解鎖角色<color=#169fff>專屬劇情</color></color>"
+  },
+  "dorm3d_shop_tag1": {
+    "tip": "解鎖專屬互動動作"
+  },
+  "dorm3d_shop_tag2": {
+    "tip": "解鎖特殊拍照姿勢"
+  },
+  "dorm3d_shop_tag3": {
+    "tip": "解鎖心動模式新互動"
+  },
+  "dorm3d_shop_tag4": {
+    "tip": "解鎖專屬劇情"
+  },
+  "dorm3d_shop_tag5": {
+    "tip": "解鎖額外對話內容"
+  },
+  "dorm3d_shop_tag6": {
+    "tip": "解鎖互動遊戲"
+  },
+  "dorm3d_sirius_bath": {
+    "tip": "換衣間"
+  },
+  "dorm3d_sirius_bed": {
+    "tip": "臥室"
+  },
+  "dorm3d_sirius_chair": {
+    "tip": "客廳"
+  },
+  "dorm3d_sirius_table": {
+    "tip": "餐廳"
+  },
+  "dorm3d_skin_locked": {
+    "tip": "未解鎖換裝"
+  },
+  "dorm3d_story_unlock_tip": {
+    "tip": "已解鎖劇情"
+  },
   "dorm3d_system_switch": {
     "tip": "宿舍維護中……"
+  },
+  "dorm3d_talk": {
+    "tip": "對話"
+  },
+  "dorm3d_time_choose": {
+    "tip": "選擇時間"
+  },
+  "dorm3d_touch": {
+    "tip": "觸摸"
+  },
+  "dorm3d_unlock_tips": {
+    "tip": "契合度達$1級解鎖"
+  },
+  "dorm3d_volleyball_button": {
+    "tip": "沙灘排球"
+  },
+  "dorm3d_volleyball_title": {
+    "tip": "沙灘"
+  },
+  "dorm3d_waiting": {
+    "tip": "等待入住"
   },
   "dorm_2f_lock": {
     "tip": "未解鎖"
@@ -6215,6 +6626,27 @@
         "info": " 6.關卡時長為90秒，時間結束即關卡完成；"
       }
     ]
+  },
+  "grapihcs3d_setting_gpgpu_warning": {
+    "tip": "開啟該選項，有可能導致部分機型閃退"
+  },
+  "grapihcs3d_setting_quality": {
+    "tip": "畫質品質"
+  },
+  "grapihcs3d_setting_quality_option_custom": {
+    "tip": "自訂"
+  },
+  "grapihcs3d_setting_quality_option_high": {
+    "tip": "高畫質"
+  },
+  "grapihcs3d_setting_quality_option_low": {
+    "tip": "低畫質"
+  },
+  "grapihcs3d_setting_quality_option_medium": {
+    "tip": "中畫質"
+  },
+  "grapihcs3d_setting_universal": {
+    "tip": "通用3D設定"
   },
   "group_download_tip": {
     "tip": "本次更新需要下載$1的檔案，是否確認？"
@@ -11822,6 +12254,12 @@
   "main_silent_tip_4": {
     "tip": "名角色學習完畢"
   },
+  "maintenance_message_stop_text": {
+    "tip": "服务器正在关闭中"
+  },
+  "maintenance_message_text": {
+    "tip": "服务器将于$1后进行维护，届时将强制下线，请指挥官合理安排游戏规划。"
+  },
   "map_event_lighthouse_tip_1": {
     "tip": "燈塔已點亮，後續戰鬥中將獲得燈塔照明效果"
   },
@@ -12749,6 +13187,12 @@
   },
   "notice_label_tip": {
     "tip": "聊天人數達到上限,則不能進入該房間"
+  },
+  "notify_clock_button": {
+    "tip": "开启闹钟权限"
+  },
+  "notify_clock_tip": {
+    "tip": "未开启闹钟权限，无法进行通知"
   },
   "npc_breakout_tip": {
     "tip": "臨時角色離開港區時，突破/強化所消耗的物資、材料無法返還，是否確認突破?"
@@ -13857,6 +14301,12 @@
   },
   "report_cannot_comment": {
     "tip": "您已被禁止評論，請聯繫客服進行處理"
+  },
+  "report_cannot_comment_level_1": {
+    "tip": "指揮官等級達到$1級後，才可以發送評論哦。"
+  },
+  "report_cannot_comment_level_2": {
+    "tip": "目前處於評論受限狀態，無法發送評論！"
   },
   "report_sent_desc": {
     "tip": "請選擇檢舉類型（單選）"
@@ -15085,6 +15535,9 @@
   },
   "setting_label_private": {
     "tip": "隱私權協議"
+  },
+  "setting_resdownload_title_dorm": {
+    "tip": "宿舍資源更新"
   },
   "setting_resdownload_title_gallery": {
     "tip": "插畫資源更新"
@@ -16550,6 +17003,9 @@
   "support_times_tip": {
     "tip": "支援數量"
   },
+  "sure_exit_volleyball": {
+    "tip": "是否確認退出沙灘排球"
+  },
   "sure_resume_volume": {
     "tip": "確定要恢復預設音量大小設置？"
   },
@@ -16687,6 +17143,9 @@
   },
   "target_get_tip": {
     "tip": "目標"
+  },
+  "task_get": {
+    "tip": "领取"
   },
   "task_go": {
     "tip": "前往"
@@ -17656,6 +18115,12 @@
   "voice_control": {
     "tip": "聲音"
   },
+  "volleyball_end_award": {
+    "tip": "精力-1，天狼星契合度+40"
+  },
+  "volleyball_end_tip": {
+    "tip": "和天狼星度過了美好的下午"
+  },
   "vote_2023_reward_word_1": {
     "tip": "呼呼呼，讓模擬程式來發表感言也太無趣了，明明開幕的時候直接邀請我我也會來的~不過閉幕式也很不錯，我玩的很開心。 順便給你留了一份伴手禮，希望你喜歡喲♪"
   },
@@ -18338,6 +18803,9 @@
   "word_live2dfiles_update_retry": {
     "tip": "點擊重試"
   },
+  "word_lock": {
+    "tip": "未解鎖"
+  },
   "word_lv": {
     "tip": "等級"
   },
@@ -18947,6 +19415,9 @@
   },
   "word_train": {
     "tip": "休息"
+  },
+  "word_unlock": {
+    "tip": "已解鎖"
   },
   "word_upgrade": {
     "tip": "突破"
@@ -19564,6 +20035,9 @@
   },
   "world_file_name": {
     "tip": "未配置tip"
+  },
+  "world_file_tip": {
+    "tip": "※上下滑動查看，點選空白處關閉"
   },
   "world_fleetName1": {
     "tip": "第 一 艦 隊"
