@@ -359,7 +359,7 @@
       0.9
     ],
     "painting": "aerjiliya",
-    "state": "stop"
+    "state": "always"
   },
   "12": {
     "boss_level_id": 166,
@@ -589,12 +589,45 @@
       1
     ],
     "painting": "changmen",
+    "state": "stop"
+  },
+  "17": {
+    "boss_level_id": 241,
+    "description": [
+      [
+        "Otherworldly Domain",
+        2,
+        "<color=#92fc63>Upon losing 50% of her max HP in a single battle</color>, Taihou META will deploy a special domain on the battlefield.\nWithin this domain, Taihou META and her summons deal 20.0% more DMG, and <color=#92fc63>all healing effects from your ships are converted into damage</color>.\nAs long as the domain remains activated, Taihou META deals increased DMG each time one of your ships sinks."
+      ],
+      [
+        "Spiritshadow Procession",
+        1,
+        "During battle, Taihou META will summon Spiritshadows at regular intervals to assist her. <color=#92fc63>All damage dealt to Spiritshadows will also be dealt to Taihou META</color>.\nSpiritshadows will despawn after a period of time."
+      ]
+    ],
+    "id": 17,
+    "item_id": 100000,
+    "meta_id": 970705,
+    "name": "Taihou META",
+    "p_offset": [
+      -168,
+      566,
+      0.9,
+      0.9
+    ],
+    "p_offset_other": [
+      485,
+      585,
+      0.9,
+      0.9
+    ],
+    "painting": "dafeng",
     "state": [
       [
         [
           2024,
-          9,
-          5
+          12,
+          12
         ],
         [
           0,
@@ -604,9 +637,9 @@
       ],
       [
         [
-          2024,
-          12,
-          12
+          2025,
+          3,
+          13
         ],
         [
           23,
@@ -632,6 +665,7 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ]
 }
