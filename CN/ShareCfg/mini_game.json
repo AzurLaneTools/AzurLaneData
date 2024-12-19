@@ -993,7 +993,7 @@
     "game_room": 0,
     "hub_id": 38,
     "id": 33,
-    "is_ranking": 0,
+    "is_ranking": 1,
     "mediator_name": "MiniHubMediator",
     "name": "冰壶小游戏",
     "request_data": 0,
@@ -2523,6 +2523,116 @@
     "type": 2,
     "view_name": "ToLoveGameView"
   },
+  "70": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      0,
+      [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      1
+    ],
+    "game_room": 0,
+    "hub_id": 60,
+    "id": 70,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "2024神社舰娘许愿",
+    "request_data": 1,
+    "simple_config_data": [
+      8,
+      65066,
+      1
+    ],
+    "type": 5,
+    "view_name": "Shrine2022View"
+  },
+  "71": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      5,
+      [
+        10,
+        11,
+        12
+      ],
+      2
+    ],
+    "game_room": 0,
+    "hub_id": 60,
+    "id": 71,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "2024神社指挥官许愿",
+    "request_data": 1,
+    "simple_config_data": {
+      "shipGameID": 70,
+      "target": 100000
+    },
+    "type": 3,
+    "view_name": "Shrine2022View"
+  },
+  "72": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "game_room": 0,
+    "hub_id": 60,
+    "id": 72,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "冰壶小游戏",
+    "request_data": 0,
+    "simple_config_data": {
+      "drop": [
+        [
+          1,
+          449,
+          15
+        ],
+        [
+          1,
+          449,
+          15
+        ],
+        [
+          5,
+          317304,
+          1
+        ],
+        [
+          1,
+          449,
+          25
+        ],
+        [
+          1,
+          449,
+          25
+        ],
+        [
+          1,
+          449,
+          25
+        ],
+        [
+          5,
+          317107,
+          1
+        ]
+      ]
+    },
+    "type": 2,
+    "view_name": "CurlingGameView"
+  },
   "1001": {
     "config_csv": "",
     "config_csv_key": "",
@@ -3121,6 +3231,9 @@
     67,
     68,
     69,
+    70,
+    71,
+    72,
     1001,
     1002,
     1003,

@@ -227,7 +227,7 @@
   "CurlingGame_tips1": {
     "tip": [
       {
-        "info": "活动规则：\n1.<color=#92fc63>12月21日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括南安普顿限定皮肤在内的丰富奖励。\n游戏规则：\n1.每局游戏由三小局组成，最终得分为三小局的分数和\n2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>\n3.将冰壶发射至冰面上的圈内可获得积分，蓝色区域1000分，黄色区域2000分，红色区域3000分；不在圈内不得分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
+        "info": "活动规则：\n1.<color=#92fc63>12月25日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括限定家具在内的奖励。\n游戏规则：\n1.每局游戏由三小局组成，最终得分为三小局的分数和\n2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>\n3.将冰壶发射至冰面上的圈内可获得积分，蓝色区域1000分，黄色区域2000分，红色区域3000分；不在圈内不得分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
       }
     ]
   },
@@ -1991,6 +1991,9 @@
   "battle_text_haidao_2": {
     "tip": "<color=#f1f102>/// 「云墙守卫」突击中！圣马丁战斗力大幅度提升！ ///</color>"
   },
+  "battle_text_lumei_1": {
+    "tip": "「还愣着干嘛，跟紧我！」"
+  },
   "battle_text_luodeni_1": {
     "tip": "随着「罗德尼」减少，罗德尼·META获得了<color=#f1f102>强化</color>。"
   },
@@ -2736,7 +2739,7 @@
     "tip": "雅努斯、曼彻斯特 建造追加！"
   },
   "buildship_new_tip": {
-    "tip": "菈菈·撒塔琳·戴比路克、娜娜·阿丝达·戴比路克 等角色建造概率UP！"
+    "tip": "每累计建造200次可获得海上传奇舰船 {namecode:542}(最多4次)"
   },
   "buildship_special_tip": {
     "tip": "阿尔比恩 建造追加！"
@@ -5185,6 +5188,9 @@
   "dorm3d_clothing_choose": {
     "tip": "选择换装"
   },
+  "dorm3d_collect_block_by_furniture": {
+    "tip": "该物品被家具”$1“替换，暂时无法收集"
+  },
   "dorm3d_collect_favor_plus": {
     "tip": "奖励：契合度+"
   },
@@ -5265,6 +5271,9 @@
   },
   "dorm3d_furniture_count": {
     "tip": "数量：$1"
+  },
+  "dorm3d_furniture_lack": {
+    "tip": "[未拥有]"
   },
   "dorm3d_furniture_locked": {
     "tip": "未解锁该家具"
@@ -5402,16 +5411,22 @@
     "tip": "和角色进行誓约，增加100点契合度"
   },
   "dorm3d_purchase_confirm_discount": {
-    "tip": "是否消耗$1<color=#39bfff>$2</color>(原价$3)购买<color=#39bfff>$4</color>"
+    "tip": "是否消耗$1<color=#169fff>$2</color>(原价$3)购买<color=#169fff>$4</color>"
   },
   "dorm3d_purchase_confirm_free": {
-    "tip": "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#39bfff>$3</color>"
+    "tip": "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#169fff>$3</color>"
   },
   "dorm3d_purchase_confirm_original": {
-    "tip": "是否消耗$1<color=#39bfff>$2</color>购买<color=#39bfff>$3</color>"
+    "tip": "是否消耗$1<color=#169fff>$2</color>购买<color=#169fff>$3</color>"
   },
   "dorm3d_purchase_confirm_tip": {
     "tip": "专属"
+  },
+  "dorm3d_purchase_label_special": {
+    "tip": "特典"
+  },
+  "dorm3d_purchase_outtime": {
+    "tip": "该家具已下架"
   },
   "dorm3d_purchase_weekly_limit": {
     "tip": "（本周购买$1/$2）"
@@ -7076,6 +7091,12 @@
   },
   "give_up_cloth_change": {
     "tip": "是否放弃换装直接退出？"
+  },
+  "go_skinexperienceshop_btn_label": {
+    "tip": "前往"
+  },
+  "go_skinshop_btn_label": {
+    "tip": "前往使用"
   },
   "gold": {
     "tip": "金币"
@@ -10572,6 +10593,16 @@
         "y": 873
       }
     }
+  },
+  "help_starLightAlbum": {
+    "tip": [
+      {
+        "info": "纪念手册："
+      },
+      {
+        "info": "1. 回忆页面内新增「纪念手册」系统入口。\n2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得本次活动纪念章「抵抗军总部大楼」和活动勋章「抵抗之星纪念勋章」。\n ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；\n ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；\n ※ 「纪念贴纸」可以通过完成对应活动任务获取；\n ※ 奖励领取界面将保留至1月8日23:59；"
+      }
+    ]
   },
   "help_sub_display": {
     "tip": "自主寻敌/待机模式"
@@ -15329,6 +15360,9 @@
   "rect_ship_card_tpl_add": {
     "tip": "点击添加"
   },
+  "recycle_btn_label": {
+    "tip": "转化为钻石"
+  },
   "reduce_sp3_pass_count": {
     "tip": "累计通关sp3次数："
   },
@@ -17633,6 +17667,40 @@
   "skin_discount_desc": {
     "tip": "是否消耗$1*1 购买折后价 $2 的 $3"
   },
+  "skin_discount_item_expired_tip": {
+    "tip": "以下道具的有效期不足24小时"
+  },
+  "skin_discount_item_extra_bounds": {
+    "tip": "额外赠送："
+  },
+  "skin_discount_item_notice": {
+    "tip": [
+      {
+        "info": "说明："
+      },
+      {
+        "info": "1.当仓库内有特定换装的换装体验券、换装抵扣券的有效期不足24小时时，会弹出道具即将超时的预告弹窗。"
+      },
+      {
+        "info": "2.特定换装的换装体验券过期后将消失，特定换装的换装抵扣券过期后将兑换为指定数量的钻石。"
+      },
+      {
+        "info": "3.各道具实际过期时间与详情请在道具描述中确认。"
+      }
+    ]
+  },
+  "skin_discount_item_recycle_tip": {
+    "tip": "抵扣券可转化为钻石，\n是否消耗<color=#92fc63>$1*1</color>兑换为<color=#92fc63>钻石*$2</color>"
+  },
+  "skin_discount_item_repeat_remind_label": {
+    "tip": "今日不再提示"
+  },
+  "skin_discount_item_return_tip": {
+    "tip": "换装抵扣券可返还为300钻石"
+  },
+  "skin_discount_item_tran_tip": {
+    "tip": "指挥官不在的时间里，有以下道具已经过期并转换"
+  },
   "skin_discount_timelimit": {
     "tip": "道具$1将于$2维护后到期，请及时前往换装商店使用"
   },
@@ -17668,6 +17736,15 @@
   },
   "skin_shop_buy_confirm": {
     "tip": "是否使用<color=$1>$2钻石</color>购买<color=#92fc63FF>$3</color>"
+  },
+  "skin_shop_discount_item_link": {
+    "tip": "<color=#92fc63>抵扣券</color><color=#ffea00>-$1</color>"
+  },
+  "skin_shop_nonuse_label": {
+    "tip": "不使用优惠"
+  },
+  "skin_shop_use_label": {
+    "tip": "使用优惠"
   },
   "skinatlas_search_holder": {
     "tip": "搜索角色名或换装名"
@@ -19881,6 +19958,9 @@
   "word_furniture": {
     "tip": "家具"
   },
+  "word_gain_date": {
+    "tip": "获取时间："
+  },
   "word_gem": {
     "tip": "钻石"
   },
@@ -19979,6 +20059,9 @@
   },
   "word_lightArmor": {
     "tip": "轻型装甲"
+  },
+  "word_limited_activity": {
+    "tip": "限时活动"
   },
   "word_live2dfiles_checkend": {
     "tip": "点击更新"
@@ -20463,6 +20546,9 @@
   },
   "word_should_input": {
     "tip": "尚未输入关键字"
+  },
+  "word_show_expire_content": {
+    "tip": "查看已无法获取的内容"
   },
   "word_show_extra_reward_at_fudai_dialog": {
     "tip": "（<color=#92fc63>赠送$1</color> ）"
