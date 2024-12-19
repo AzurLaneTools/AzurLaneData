@@ -1853,6 +1853,632 @@
     "story_type": 1,
     "unlock_conditions": "EPS-3をクリア"
   },
+  "107": {
+    "change_background": "star_level_bg_597",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 107,
+    "lock": "",
+    "name": "EP1-1出会い",
+    "pre_event": "",
+    "story": "XINGGUANGXIADEYUHUI1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "108": {
+    "change_background": "bg_yuhui_cg_1",
+    "change_bgm": "battle-ironblood-defence",
+    "change_prefab": "",
+    "id": 108,
+    "lock": [
+      [
+        4,
+        107
+      ]
+    ],
+    "name": "EP1-2交流を深めよう",
+    "pre_event": [
+      107
+    ],
+    "story": "XINGGUANGXIADEYUHUI2",
+    "story_type": 1,
+    "unlock_conditions": "EP1-1をクリア"
+  },
+  "109": {
+    "change_background": "bg_yuhui_cg_2",
+    "change_bgm": "story-richang-partynight",
+    "change_prefab": "",
+    "id": 109,
+    "lock": [
+      [
+        4,
+        108
+      ]
+    ],
+    "name": "EP1-3レジスタンス",
+    "pre_event": [
+      108
+    ],
+    "story": "XINGGUANGXIADEYUHUI3",
+    "story_type": 1,
+    "unlock_conditions": "EP1-2をクリア"
+  },
+  "110": {
+    "change_background": "star_level_bg_597",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 110,
+    "lock": [
+      [
+        4,
+        109
+      ]
+    ],
+    "name": "EP1-4夕暮れに染まる基地",
+    "pre_event": [
+      109
+    ],
+    "story": "XINGGUANGXIADEYUHUI4",
+    "story_type": 1,
+    "unlock_conditions": "EP1-3をクリア"
+  },
+  "111": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "story-startravel",
+    "change_prefab": "",
+    "id": 111,
+    "lock": [
+      [
+        4,
+        110
+      ]
+    ],
+    "name": "EP1-5海に沈んで",
+    "pre_event": [
+      110
+    ],
+    "story": "1886001",
+    "story_type": 2,
+    "unlock_conditions": "EP1-4をクリア"
+  },
+  "112": {
+    "change_background": "star_level_bg_111",
+    "change_bgm": "theme-amagi-cv",
+    "change_prefab": "",
+    "id": 112,
+    "lock": [
+      [
+        4,
+        111
+      ]
+    ],
+    "name": "EPS1-1遥かなる対局",
+    "pre_event": [
+      111
+    ],
+    "story": "XINGGUANGXIADEYUHUI6",
+    "story_type": 1,
+    "unlock_conditions": "EP1-5をクリア"
+  },
+  "113": {
+    "change_background": "star_level_bg_147",
+    "change_bgm": "theme-themagicianI",
+    "change_prefab": "",
+    "id": 113,
+    "lock": [
+      [
+        4,
+        112
+      ]
+    ],
+    "name": "EPS1-2重桜のパビリオンにて",
+    "pre_event": [
+      111
+    ],
+    "story": "XINGGUANGXIADEYUHUI7",
+    "story_type": 1,
+    "unlock_conditions": "EPS1-1をクリア"
+  },
+  "114": {
+    "change_background": "star_level_bg_300",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 114,
+    "lock": [
+      [
+        4,
+        113
+      ]
+    ],
+    "name": "EPS1-3昔馴染み？",
+    "pre_event": [
+      111
+    ],
+    "story": "XINGGUANGXIADEYUHUI8",
+    "story_type": 1,
+    "unlock_conditions": "EPS1-2をクリア"
+  },
+  "115": {
+    "change_background": "bg_yuhui_1",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 115,
+    "lock": [
+      [
+        4,
+        114
+      ]
+    ],
+    "name": "EP2-1二度目のチャンス",
+    "pre_event": [
+      112,
+      113,
+      114
+    ],
+    "story": "XINGGUANGXIADEYUHUI9",
+    "story_type": 1,
+    "unlock_conditions": "EPS1-3をクリア"
+  },
+  "116": {
+    "change_background": "bg_story_chuansong",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 116,
+    "lock": [
+      [
+        4,
+        115
+      ]
+    ],
+    "name": "EP2-2エターナル・スター修復作戦",
+    "pre_event": [
+      115
+    ],
+    "story": "XINGGUANGXIADEYUHUI10",
+    "story_type": 1,
+    "unlock_conditions": "EP2-1をクリア"
+  },
+  "117": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 117,
+    "lock": [
+      [
+        4,
+        116
+      ]
+    ],
+    "name": "EP2-3エナジーミネラル",
+    "pre_event": [
+      116
+    ],
+    "story": "XINGGUANGXIADEYUHUI11",
+    "story_type": 1,
+    "unlock_conditions": "EP2-2をクリア"
+  },
+  "118": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "story-startravel",
+    "change_prefab": "",
+    "id": 118,
+    "lock": [
+      [
+        4,
+        117
+      ]
+    ],
+    "name": "EP2-4狩りに殉ず",
+    "pre_event": [
+      117
+    ],
+    "story": "1886002",
+    "story_type": 2,
+    "unlock_conditions": "EP2-3をクリア"
+  },
+  "119": {
+    "change_background": "star_level_bg_111",
+    "change_bgm": "theme-unzen",
+    "change_prefab": "",
+    "id": 119,
+    "lock": [
+      [
+        4,
+        118
+      ]
+    ],
+    "name": "EPS2-1間接位置特定",
+    "pre_event": [
+      118
+    ],
+    "story": "XINGGUANGXIADEYUHUI13",
+    "story_type": 1,
+    "unlock_conditions": "EP2-4をクリア"
+  },
+  "120": {
+    "change_background": "star_level_bg_147",
+    "change_bgm": "theme-themagicianI",
+    "change_prefab": "",
+    "id": 120,
+    "lock": [
+      [
+        4,
+        119
+      ]
+    ],
+    "name": "EPS2-2指揮官について",
+    "pre_event": [
+      118
+    ],
+    "story": "XINGGUANGXIADEYUHUI14",
+    "story_type": 1,
+    "unlock_conditions": "EPS2-1をクリア"
+  },
+  "121": {
+    "change_background": "bg_story_chuansong",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 121,
+    "lock": [
+      [
+        4,
+        120
+      ]
+    ],
+    "name": "EPS2-3思考＆議論",
+    "pre_event": [
+      118
+    ],
+    "story": "XINGGUANGXIADEYUHUI15",
+    "story_type": 1,
+    "unlock_conditions": "EPS2-2をクリア"
+  },
+  "122": {
+    "change_background": "bg_yuhui_3",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 122,
+    "lock": [
+      [
+        4,
+        121
+      ]
+    ],
+    "name": "EP3-1準備",
+    "pre_event": [
+      119,
+      120,
+      121
+    ],
+    "story": "XINGGUANGXIADEYUHUI16",
+    "story_type": 1,
+    "unlock_conditions": "EPS2-3をクリア"
+  },
+  "123": {
+    "change_background": "bg_yuhui_cg_4",
+    "change_bgm": "theme-starbeast",
+    "change_prefab": "",
+    "id": 123,
+    "lock": [
+      [
+        4,
+        122
+      ]
+    ],
+    "name": "EP3-2基地防衛",
+    "pre_event": [
+      122
+    ],
+    "story": "XINGGUANGXIADEYUHUI17",
+    "story_type": 2,
+    "unlock_conditions": "EP3-1をクリア"
+  },
+  "124": {
+    "change_background": "star_level_bg_111",
+    "change_bgm": "battle-xinnong-image",
+    "change_prefab": "",
+    "id": 124,
+    "lock": [
+      [
+        4,
+        123
+      ]
+    ],
+    "name": "EP3-3星空の支配者",
+    "pre_event": [
+      123
+    ],
+    "story": "1886003",
+    "story_type": 1,
+    "unlock_conditions": "EP3-2をクリア"
+  },
+  "125": {
+    "change_background": "star_level_bg_147",
+    "change_bgm": "theme-themagicianI",
+    "change_prefab": "",
+    "id": 125,
+    "lock": [
+      [
+        4,
+        124
+      ]
+    ],
+    "name": "EPS3-1法陣の中",
+    "pre_event": [
+      124
+    ],
+    "story": "XINGGUANGXIADEYUHUI19",
+    "story_type": 1,
+    "unlock_conditions": "EP3-3をクリア"
+  },
+  "126": {
+    "change_background": "bg_yuhui_3",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 126,
+    "lock": [
+      [
+        4,
+        125
+      ]
+    ],
+    "name": "EPS3-2可能性の限界",
+    "pre_event": [
+      124
+    ],
+    "story": "XINGGUANGXIADEYUHUI20",
+    "story_type": 1,
+    "unlock_conditions": "EPS3-1をクリア"
+  },
+  "127": {
+    "change_background": "bg_yuhui_cg_6",
+    "change_bgm": "battle-ironblood-defence",
+    "change_prefab": "",
+    "id": 127,
+    "lock": [
+      [
+        4,
+        126
+      ]
+    ],
+    "name": "EP4-1決戦準備",
+    "pre_event": [
+      125,
+      126
+    ],
+    "story": "XINGGUANGXIADEYUHUI21",
+    "story_type": 1,
+    "unlock_conditions": "EPS3-2をクリア"
+  },
+  "128": {
+    "change_background": "bg_yuhui_4",
+    "change_bgm": "story-ironblood-strong",
+    "change_prefab": "",
+    "id": 128,
+    "lock": [
+      [
+        4,
+        127
+      ]
+    ],
+    "name": "EP4-2露に消えて",
+    "pre_event": [
+      127
+    ],
+    "story": "1886004",
+    "story_type": 2,
+    "unlock_conditions": "EP4-1をクリア"
+  },
+  "129": {
+    "change_background": "star_level_bg_147",
+    "change_bgm": "theme-akagi-meta",
+    "change_prefab": "",
+    "id": 129,
+    "lock": [
+      [
+        4,
+        128
+      ]
+    ],
+    "name": "EPS4-1想い",
+    "pre_event": [
+      128
+    ],
+    "story": "XINGGUANGXIADEYUHUI23",
+    "story_type": 1,
+    "unlock_conditions": "EP4-2をクリア"
+  },
+  "130": {
+    "change_background": "bg_yuhui_3",
+    "change_bgm": "battle-ironblood-defence",
+    "change_prefab": "",
+    "id": 130,
+    "lock": [
+      [
+        4,
+        129
+      ]
+    ],
+    "name": "EPS4-2瞬間、心、繋いで",
+    "pre_event": [
+      128
+    ],
+    "story": "XINGGUANGXIADEYUHUI24",
+    "story_type": 1,
+    "unlock_conditions": "EPS4-1をクリア"
+  },
+  "131": {
+    "change_background": "star_level_bg_499",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 131,
+    "lock": [
+      [
+        4,
+        130
+      ]
+    ],
+    "name": "EP5-1アナザー・プラン",
+    "pre_event": [
+      129,
+      130
+    ],
+    "story": "XINGGUANGXIADEYUHUI25",
+    "story_type": 1,
+    "unlock_conditions": "EPS4-2をクリア"
+  },
+  "132": {
+    "change_background": "bg_yuhui_cg_7",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 132,
+    "lock": [
+      [
+        4,
+        131
+      ]
+    ],
+    "name": "EP5-2想いの具現化",
+    "pre_event": [
+      131
+    ],
+    "story": "XINGGUANGXIADEYUHUI26",
+    "story_type": 1,
+    "unlock_conditions": "EP5-1をクリア"
+  },
+  "133": {
+    "change_background": "bg_yuhui_cg_11",
+    "change_bgm": "theme-themagicianI",
+    "change_prefab": "",
+    "id": 133,
+    "lock": [
+      [
+        4,
+        132
+      ]
+    ],
+    "name": "EP5-3肩を並べて",
+    "pre_event": [
+      132
+    ],
+    "story": "1886005",
+    "story_type": 2,
+    "unlock_conditions": "EP5-2をクリア"
+  },
+  "134": {
+    "change_background": "star_level_bg_589",
+    "change_bgm": "story-mirrorheart-mystic",
+    "change_prefab": "",
+    "id": 134,
+    "lock": [
+      [
+        4,
+        133
+      ]
+    ],
+    "name": "EP5-4マジシャンの占い",
+    "pre_event": [
+      133
+    ],
+    "story": "XINGGUANGXIADEYUHUI28",
+    "story_type": 1,
+    "unlock_conditions": "EP5-3をクリア"
+  },
+  "135": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "story-startravel",
+    "change_prefab": "",
+    "id": 135,
+    "lock": [
+      [
+        4,
+        134
+      ]
+    ],
+    "name": "EP5-5エピローグ",
+    "pre_event": [
+      134
+    ],
+    "story": "XINGGUANGXIADEYUHUI29",
+    "story_type": 1,
+    "unlock_conditions": "EP5-4をクリア"
+  },
+  "136": {
+    "change_background": "bg_guild_blue_n",
+    "change_bgm": "story-newsakura",
+    "change_prefab": "",
+    "id": 136,
+    "lock": [
+      [
+        4,
+        135
+      ]
+    ],
+    "name": "EX-1氷山の一角",
+    "pre_event": [
+      135
+    ],
+    "story": "XINGGUANGXIADEYUHUI30",
+    "story_type": 1,
+    "unlock_conditions": "EP5-5をクリア"
+  },
+  "137": {
+    "change_background": "star_level_bg_589",
+    "change_bgm": "theme-richard",
+    "change_prefab": "",
+    "id": 137,
+    "lock": [
+      [
+        4,
+        136
+      ]
+    ],
+    "name": "EX-2そして未来へ",
+    "pre_event": [
+      136
+    ],
+    "story": "XINGGUANGXIADEYUHUI31",
+    "story_type": 1,
+    "unlock_conditions": "EX-1をクリア"
+  },
+  "138": {
+    "change_background": "bg_underheaven_0",
+    "change_bgm": "theme-underheaven",
+    "change_prefab": "",
+    "id": 138,
+    "lock": [
+      [
+        4,
+        137
+      ]
+    ],
+    "name": "EX-3新しいおもちゃ",
+    "pre_event": [
+      137
+    ],
+    "story": "XINGGUANGXIADEYUHUI32",
+    "story_type": 1,
+    "unlock_conditions": "EX-2をクリア"
+  },
+  "139": {
+    "change_background": "bg_yuhui_2",
+    "change_bgm": "story-ironblood-light",
+    "change_prefab": "",
+    "id": 139,
+    "lock": [
+      [
+        4,
+        138
+      ]
+    ],
+    "name": "EX-4選ばれしもの",
+    "pre_event": [
+      138
+    ],
+    "story": "XINGGUANGXIADEYUHUI33",
+    "story_type": 1,
+    "unlock_conditions": "EX-3をクリア"
+  },
   "all": [
     1,
     2,
@@ -1952,6 +2578,39 @@
     103,
     104,
     105,
-    106
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
   ]
 }
