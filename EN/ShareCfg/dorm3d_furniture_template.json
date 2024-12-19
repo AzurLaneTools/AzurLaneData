@@ -5,10 +5,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture5",
     "id": 1,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "",
     "name": "Bar Stool",
     "rarity": 3,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100202
@@ -29,10 +31,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture4",
     "id": 2,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_electrical03",
     "name": "Juicer",
     "rarity": 2,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100201
@@ -48,10 +52,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture6",
     "id": 3,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "",
     "name": "Classic Sofa",
     "rarity": 3,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100301
@@ -72,10 +78,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture3",
     "id": 4,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "",
     "name": "Simple Bed",
     "rarity": 3,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100102
@@ -96,10 +104,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture2",
     "id": 5,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_chandelier01",
     "name": "Desk Lamp",
     "rarity": 2,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100101
@@ -115,10 +125,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture1",
     "id": 6,
     "is_exclusive": 0,
+    "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_decoration01",
     "name": "Model Cruise Liner",
     "rarity": 2,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [],
     "target_slots": [
       100402
@@ -134,10 +146,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture4",
     "id": 121,
     "is_exclusive": 1,
+    "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_bed01",
     "name": "Sweet Secret",
     "rarity": 4,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [
       270101
     ],
@@ -164,10 +178,12 @@
     "icon": "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
     "id": 122,
     "is_exclusive": 1,
+    "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_chair02",
     "name": "Afternoon Dreamhome",
     "rarity": 4,
     "room_id": 1,
+    "scene_hides": "",
     "shop_id": [
       270103
     ],
@@ -188,6 +204,44 @@
       3
     ]
   },
+  "151": {
+    "acesses": "",
+    "desc": "The snowflakes dance, the fireplace glows warmly, and the promise of Christmas resounds.\nAn adorable reindeer sleigh sofa featuring soft cushions and blankets. Underneath the starlight, your heart thumps expectantly at the blessings and surprises awaiting you.\nGather 'round with jovial spirits and a full belly from the feast, and who knows? You might just write your very own Christmas miracle.",
+    "icon": "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture5",
+    "id": 151,
+    "is_exclusive": 1,
+    "is_special": 1,
+    "model": "Pay_Siriushostel/Sh_Sp_Xmas/pre_db_sp_sh_xmas01",
+    "name": "Christmas Eve Sleigh Sofa",
+    "rarity": 5,
+    "room_id": 1,
+    "scene_hides": [
+      "fbx/litmap_03/pre_db_chandelier06",
+      "fbx/litmap_03/pre_db_table02",
+      "fbx/litmap_03/pre_db_ceram01",
+      "fbx/litmap_03/pre_db_ceram01b (1)",
+      "fbx/litmap_03/pre_db_book01"
+    ],
+    "shop_id": [
+      270104
+    ],
+    "target_slots": [
+      100301
+    ],
+    "touch_id": [
+      [
+        20220,
+        10100203
+      ]
+    ],
+    "type": 5,
+    "unlock_banners": [
+      "banner_furniture151"
+    ],
+    "unlock_tips": [
+      3
+    ]
+  },
   "all": [
     1,
     2,
@@ -196,7 +250,8 @@
     5,
     6,
     121,
-    122
+    122,
+    151
   ],
   "get_id_list_by_room_id": [
     [
@@ -207,7 +262,8 @@
       5,
       6,
       121,
-      122
+      122,
+      151
     ]
   ]
 }

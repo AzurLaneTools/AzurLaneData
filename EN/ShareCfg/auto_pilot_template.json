@@ -10754,6 +10754,72 @@
     ],
     "name": "2024tolove联动 我方召唤单位移动"
   },
+  "70280": {
+    "default": 1,
+    "id": 70280,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -3,
+          "X2": 3,
+          "Z1": -3,
+          "Z2": 3,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "2024鲁梅活动 原地小幅度随机移动"
+  },
+  "70281": {
+    "default": 1,
+    "id": 70281,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": 80,
+          "z": 50
+        },
+        "to": 2,
+        "type": 1
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "2024鲁梅活动 BOSS 飞出屏幕外"
+  },
+  "70282": {
+    "default": 1,
+    "id": 70282,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -10,
+          "X2": 10,
+          "Z1": -25,
+          "Z2": 25,
+          "duration": -1,
+          "moveCount": 240,
+          "stopCount": 0
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "2024鲁梅活动 EX 希佩尔移动"
+  },
   "75001": {
     "default": 1,
     "id": 75001,
