@@ -52,8 +52,7 @@
     "furniture_zones": [
       1001,
       1002,
-      1003,
-      1004
+      1003
     ],
     "id": 1,
     "in_map": "floor_1",
@@ -71,7 +70,85 @@
     ],
     "resource_name": "Tianlangxing_DB",
     "room": "天狼星",
+    "room_bgm": "story-room-sirius",
     "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
+    "tag": "",
+    "type": 2,
+    "unlock_item": []
+  },
+  "2": {
+    "ar_anim": [
+      [
+        30221,
+        [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2101,
+          2102,
+          2103,
+          2104,
+          2201,
+          2202,
+          2203,
+          2204,
+          2301,
+          2302,
+          2303,
+          2304
+        ]
+      ]
+    ],
+    "assets_prefix": "Nengdai",
+    "character": [
+      30221
+    ],
+    "character_pay": [],
+    "character_range": [
+      1
+    ],
+    "character_welcome": [
+      [
+        30221,
+        0
+      ]
+    ],
+    "default_zone": [
+      [
+        30221,
+        "Chair"
+      ]
+    ],
+    "furniture_zones": [
+      2001,
+      2002,
+      2003
+    ],
+    "id": 2,
+    "in_map": "floor_1",
+    "invite_banner": "",
+    "invite_cost": "",
+    "invite_mark": "",
+    "recall_list": [
+      21,
+      22,
+      23,
+      31
+    ],
+    "resource_name": "Nengdai_DB",
+    "room": "能代",
+    "room_bgm": "story-room-noshiro",
+    "scene_info": "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
     "tag": "",
     "type": 2,
     "unlock_item": []
@@ -87,27 +164,46 @@
           4004,
           4005
         ]
+      ],
+      [
+        30221,
+        [
+          4201,
+          4202,
+          4203,
+          4204,
+          4205
+        ]
       ]
     ],
     "assets_prefix": "Beach",
     "character": [],
     "character_pay": [
-      20220
+      20220,
+      30221
     ],
     "character_range": [
       0,
-      1
+      2
     ],
     "character_welcome": [
       [
         20220,
         1000
+      ],
+      [
+        30221,
+        0
       ]
     ],
     "default_zone": [
       [
         20220,
         "Tianlangxing"
+      ],
+      [
+        30221,
+        "Nengdai"
       ]
     ],
     "furniture_zones": [],
@@ -120,12 +216,23 @@
           "banner_beach1",
           "banner_beach2"
         ]
+      ],
+      [
+        30221,
+        [
+          "banner_beach1",
+          "banner_beach3"
+        ]
       ]
     ],
     "invite_cost": [
       [
         20220,
         270110
+      ],
+      [
+        30221,
+        270111
       ]
     ],
     "invite_mark": [
@@ -136,12 +243,21 @@
           5,
           6
         ]
+      ],
+      [
+        30221,
+        [
+          1,
+          5,
+          6
+        ]
       ]
     ],
     "recall_list": [],
-    "resource_name": "",
+    "resource_name": "Beach",
     "room": "沙滩",
-    "scene_info": "map_beach_02|Common/Beach",
+    "room_bgm": "story-room-sirius",
+    "scene_info": "map_beach_02|Beach",
     "tag": "beach",
     "type": 1,
     "unlock_item": [
@@ -177,8 +293,9 @@
     "invite_cost": "",
     "invite_mark": "",
     "recall_list": "",
-    "resource_name": "",
+    "resource_name": "Bathroom",
     "room": "浴室",
+    "room_bgm": "story-room-sirius",
     "scene_info": "",
     "tag": "",
     "type": 1,
@@ -192,12 +309,14 @@
   },
   "all": [
     1,
+    2,
     4,
     5
   ],
   "get_id_list_by_in_map": {
     "floor_1": [
       1,
+      2,
       4,
       5
     ]
