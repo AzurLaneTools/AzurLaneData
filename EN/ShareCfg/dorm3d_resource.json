@@ -36,14 +36,57 @@
     ],
     "unlock_text": "Unlocked by moving Sirius to the beach."
   },
+  "302211": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/nengdai",
+    "id": 302211,
+    "model_id": "nengdai_noshoes",
+    "name": "Noshiro - Normal",
+    "picture": "regular",
+    "ship_group": 30221,
+    "tags": [],
+    "type": 1,
+    "unlock": [
+      1,
+      30221,
+      1
+    ],
+    "unlock_text": ""
+  },
+  "302212": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/nengdai",
+    "id": 302212,
+    "model_id": "nengdai_swim",
+    "name": "Noshiro - Swimsuit",
+    "picture": "regular",
+    "ship_group": 30221,
+    "tags": [
+      "beach",
+      "touch"
+    ],
+    "type": 1,
+    "unlock": [
+      5,
+      4,
+      30221
+    ],
+    "unlock_text": "Invite Noshiro to the beach to unlock."
+  },
   "all": [
     202201,
-    202202
+    202202,
+    302211,
+    302212
   ],
   "get_id_list_by_ship_group": {
     "20220": [
       202201,
       202202
+    ],
+    "30221": [
+      302211,
+      302212
     ]
   }
 }

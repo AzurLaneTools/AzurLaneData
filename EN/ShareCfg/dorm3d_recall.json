@@ -95,6 +95,61 @@
     ],
     "unlock_text": "Unlocked by gifting the Royal Tea Set."
   },
+  "21": {
+    "desc": "All of a sudden, two warm hands cover your eyes. Guess who it is?",
+    "id": 21,
+    "image": "recall_21",
+    "name": "Surprise for Sore Eyes",
+    "story_id": 20500,
+    "type": 1,
+    "unlock": [
+      1,
+      30221,
+      4
+    ],
+    "unlock_text": "Unlocked at Intimacy Lv. 4."
+  },
+  "22": {
+    "desc": "A moment of closeness is the prelude to a wonderful memory.",
+    "id": 22,
+    "image": "recall_22",
+    "name": "The Warmth of Her Hand",
+    "story_id": 20510,
+    "type": 1,
+    "unlock": [
+      1,
+      30221,
+      8
+    ],
+    "unlock_text": "Unlocked at Intimacy Lv. 8."
+  },
+  "23": {
+    "desc": "Did you feel that? Her heart only races like that when your eyes meet.",
+    "id": 23,
+    "image": "recall_23",
+    "name": "Heart-Racing Touch",
+    "story_id": 20520,
+    "type": 1,
+    "unlock": [
+      1,
+      30221,
+      12
+    ],
+    "unlock_text": "Unlocked at Intimacy Lv. 12."
+  },
+  "31": {
+    "desc": "As you share a private moment, your hands join in a delicate touch, making your hearts race...",
+    "id": 31,
+    "image": "recall_31",
+    "name": "Intimate Assistance",
+    "story_id": 29991,
+    "type": 1,
+    "unlock": [
+      3,
+      3022101
+    ],
+    "unlock_text": "Unlocked after gifting Sincere Loafers."
+  },
   "all": [
     1,
     2,
@@ -102,7 +157,11 @@
     4,
     5,
     6,
-    7
+    7,
+    21,
+    22,
+    23,
+    31
   ],
   "get_id_list_by_story_id": {
     "10010": [
@@ -125,6 +184,18 @@
     ],
     "10070": [
       7
+    ],
+    "20500": [
+      21
+    ],
+    "20510": [
+      22
+    ],
+    "20520": [
+      23
+    ],
+    "29991": [
+      31
     ]
   }
 }
