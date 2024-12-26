@@ -36,14 +36,57 @@
     ],
     "unlock_text": "シリアスをビーチ配置で開放"
   },
+  "302211": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/tianlangxing",
+    "id": 302211,
+    "model_id": "nengdai_noshoes",
+    "name": "能代通常",
+    "picture": "regular",
+    "ship_group": 30221,
+    "tags": [],
+    "type": 1,
+    "unlock": [
+      1,
+      30221,
+      1
+    ],
+    "unlock_text": ""
+  },
+  "302212": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/tianlangxing",
+    "id": 302212,
+    "model_id": "nengdai_swim",
+    "name": "能代水着",
+    "picture": "regular",
+    "ship_group": 30221,
+    "tags": [
+      "beach",
+      "touch"
+    ],
+    "type": 1,
+    "unlock": [
+      5,
+      4,
+      30221
+    ],
+    "unlock_text": "能代をビーチ配置で開放"
+  },
   "all": [
     202201,
-    202202
+    202202,
+    302211,
+    302212
   ],
   "get_id_list_by_ship_group": {
     "20220": [
       202201,
       202202
+    ],
+    "30221": [
+      302211,
+      302212
     ]
   }
 }

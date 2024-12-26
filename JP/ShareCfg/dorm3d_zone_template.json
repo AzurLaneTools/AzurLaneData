@@ -26,7 +26,7 @@
     "touch_id": [
       [
         20220,
-        10100104
+        7
       ]
     ],
     "type_prioritys": [
@@ -83,6 +83,51 @@
     "type_prioritys": "",
     "watch_camera": "Chair"
   },
+  "2001": {
+    "id": 2001,
+    "is_global": 0,
+    "name": "寝室",
+    "room_id": 2,
+    "special_action": "",
+    "touch_id": [
+      [
+        30221,
+        2200310
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Bed"
+  },
+  "2002": {
+    "id": 2002,
+    "is_global": 0,
+    "name": "広縁",
+    "room_id": 2,
+    "special_action": "",
+    "touch_id": [
+      [
+        30221,
+        2200210
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "2003": {
+    "id": 2003,
+    "is_global": 0,
+    "name": "居間",
+    "room_id": 2,
+    "special_action": "",
+    "touch_id": [
+      [
+        30221,
+        2200110
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
   "4001": {
     "id": 4001,
     "is_global": 0,
@@ -129,13 +174,32 @@
     "type_prioritys": "",
     "watch_camera": "Tianlangxing"
   },
+  "4003": {
+    "id": 4003,
+    "is_global": 0,
+    "name": "ビーチパラソル",
+    "room_id": 4,
+    "special_action": [],
+    "touch_id": [
+      [
+        30221,
+        2210110
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Nengdai"
+  },
   "all": [
     1000,
     1001,
     1002,
     1003,
+    2001,
+    2002,
+    2003,
     4001,
-    4002
+    4002,
+    4003
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -144,9 +208,15 @@
       1002,
       1003
     ],
+    "2": [
+      2001,
+      2002,
+      2003
+    ],
     "4": [
       4001,
-      4002
+      4002,
+      4003
     ]
   }
 }
