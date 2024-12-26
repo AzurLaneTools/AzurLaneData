@@ -989,6 +989,81 @@
     "unlock": "",
     "zone": "2001"
   },
+  "2501": {
+    "anim_time": 0,
+    "desc": "座る",
+    "finish_anim": 2501,
+    "furniture_id": 251,
+    "icon": "camera_action20",
+    "id": 2501,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_TD_beilu_idle_01",
+    "staypoint": "Pos200510",
+    "unlock": "",
+    "zone": "2003"
+  },
+  "2502": {
+    "anim_time": 0,
+    "desc": "うつ伏せ",
+    "finish_anim": 2502,
+    "furniture_id": 251,
+    "icon": "camera_action25",
+    "id": 2502,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_TD_beilu_ZJD_xiong_01",
+    "staypoint": "Pos200510",
+    "unlock": "",
+    "zone": "2003"
+  },
+  "2503": {
+    "anim_time": 8.1667,
+    "desc": "起き上がる",
+    "finish_anim": 2502,
+    "furniture_id": 251,
+    "icon": "camera_action26",
+    "id": 2503,
+    "pre_anim": 2502,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_TD_beilu_ZJD_tou_01",
+    "staypoint": "Pos200510",
+    "unlock": "",
+    "zone": "2003"
+  },
+  "2504": {
+    "anim_time": 0,
+    "desc": "寝転がる",
+    "finish_anim": 2504,
+    "furniture_id": 251,
+    "icon": "camera_action27",
+    "id": 2504,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_TD_beilu_idle_03",
+    "staypoint": "Pos200540",
+    "unlock": "",
+    "zone": "2003"
+  },
+  "2505": {
+    "anim_time": 13.667,
+    "desc": "軽く撫でる",
+    "finish_anim": 2504,
+    "furniture_id": 251,
+    "icon": "camera_action26",
+    "id": 2505,
+    "pre_anim": 2504,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_TD_beilu_tui_01",
+    "staypoint": "Pos200540",
+    "unlock": "",
+    "zone": "2003"
+  },
   "4001": {
     "anim_time": 0,
     "desc": "立つ",
@@ -1206,6 +1281,11 @@
     2403,
     2404,
     2405,
+    2501,
+    2502,
+    2503,
+    2504,
+    2505,
     4001,
     4002,
     4003,
@@ -1315,6 +1395,13 @@
       2403,
       2404,
       2405
+    ],
+    "251": [
+      2501,
+      2502,
+      2503,
+      2504,
+      2505
     ]
   }
 }
