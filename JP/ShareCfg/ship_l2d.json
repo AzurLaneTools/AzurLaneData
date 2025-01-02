@@ -20640,7 +20640,9 @@
     "start_value": 0
   },
   "20703701": {
-    "action_trigger": "",
+    "action_trigger": {
+      "type": 7
+    },
     "action_trigger_active": {
       "idle_enable": [
         [
@@ -39045,7 +39047,42 @@
     "react_condition": "",
     "react_pos_x": 0,
     "react_pos_y": 0,
-    "relation_parameter": "",
+    "relation_parameter": {
+      "list": [
+        {
+          "idle": 2,
+          "mode": 1,
+          "name": "touch_drag15",
+          "target": 0,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 2,
+          "mode": 1,
+          "name": "touch_drag16",
+          "target": 1,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 2,
+          "mode": 1,
+          "name": "touch_drag17",
+          "target": 1,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 2,
+          "mode": 1,
+          "name": "touch_drag18",
+          "target": 0,
+          "time": 0,
+          "type": 104
+        }
+      ]
+    },
     "revert": -1,
     "revert_action_index": 0,
     "revert_idle_index": 0,
@@ -39092,7 +39129,42 @@
     "react_condition": "",
     "react_pos_x": 0,
     "react_pos_y": 0,
-    "relation_parameter": "",
+    "relation_parameter": {
+      "list": [
+        {
+          "idle": 3,
+          "mode": 1,
+          "name": "touch_drag15",
+          "target": 0,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 3,
+          "mode": 1,
+          "name": "touch_drag16",
+          "target": 1,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 3,
+          "mode": 1,
+          "name": "touch_drag17",
+          "target": 1,
+          "time": 0,
+          "type": 104
+        },
+        {
+          "idle": 3,
+          "mode": 1,
+          "name": "touch_drag18",
+          "target": 0,
+          "time": 0,
+          "type": 104
+        }
+      ]
+    },
     "revert": -1,
     "revert_action_index": 0,
     "revert_idle_index": 0,
@@ -47889,7 +47961,7 @@
   },
   "79902126": {
     "action_trigger": {
-      "action": "touch_drag15",
+      "action": "touch_drag16",
       "type": 2
     },
     "action_trigger_active": "",
