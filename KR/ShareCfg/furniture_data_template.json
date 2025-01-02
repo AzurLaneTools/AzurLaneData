@@ -7641,6 +7641,43 @@
     "themeId": 0,
     "type": 7
   },
+  "293": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "어느 세계에 있는 메탈 블러드 공국 레지스탕스의 본부 빌딩 미니어쳐. 전자 회로가 내장되어 있어, 밤이 되면 스탠드 조명으로도 활용할 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "별빛 아래의 석양",
+    "icon": "fulicixunzhangicon",
+    "id": 293,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "레지스탕스 본부 빌딩",
+    "offset": [],
+    "picture": "chuanmo/fulicixunzhang",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -136406,6 +136443,858 @@
     "spine_extra": "",
     "tag": 5,
     "themeId": 116,
+    "type": 6
+  },
+  "317001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "쓰러지기 전에 푹 쉬어둬.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanfticon",
+    "id": 317001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 바닥",
+    "offset": [],
+    "picture": "ft/dibanft",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 117,
+    "type": 4
+  },
+  "317002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "쓰러지기 전에 푹 쉬어둬.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbifticon",
+    "id": 317002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "러프 셸터 벽",
+    "offset": [],
+    "picture": "ft/qiangbift",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 117,
+    "type": 1
+  },
+  "317101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "녹은 슬었지만…… 자기에는 나쁘지 않다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chuangftcion",
+    "id": 317101,
+    "interAction": [
+      [
+        "sleep",
+        [
+          21,
+          28
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "녹슨 침대",
+    "offset": [],
+    "picture": "ft/chuangft",
+    "rarity": 3,
+    "size": [
+      5,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "개조한 캠핑 카. 편안한 집이자 요새이기도 하다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fangchefticon",
+    "id": 317102,
+    "interAction": [
+      [
+        "sit",
+        [
+          -108.9,
+          -124
+        ],
+        [
+          -1,
+          1
+        ],
+        "ft/fangcheft_using"
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "캠핑 카",
+    "offset": [],
+    "picture": "ft/fangcheft",
+    "rarity": 4,
+    "size": [
+      6,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "세상을 구할 무기도 만들 수 있을지도 모르지만, 빛에 눈이 멀지 않도록 조심해야 한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gongzuotaifticon",
+    "id": 317103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "작업대",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      6,
+      3
+    ],
+    "spine": [
+      [
+        "gongzuotaift",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "연기. 냄새. 온기. 눈이 점점 무거워지는 느낌이다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gouhuofticon",
+    "id": 317104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 화톳불",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      4
+    ],
+    "spine": [
+      [
+        "gouhuoft",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "용수철에 엉덩이를 찔리지 않도록 주의할 것!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shafafticon",
+    "id": 317105,
+    "interAction": [
+      [
+        "sit",
+        [
+          -12,
+          -2.8
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 소파",
+    "offset": [],
+    "picture": "ft/shafaft",
+    "rarity": 3,
+    "size": [
+      2,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 3,
+    "deblocking": 1,
+    "describe": "어디서든 흔히 볼 수 있는 평범한 의자. 무기로 사용할 수 있을지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yizifticon",
+    "id": 317106,
+    "interAction": [
+      [
+        "sit",
+        [
+          -15.7,
+          29.8
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 의자",
+    "offset": [],
+    "picture": "ft/yizift",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "연로와 무기 모두 충분한 차량. 내 애마는 난폭하다고 쥬쥬…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "yueyechefticon",
+    "id": 317107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "전투용 오프로드 카",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      7
+    ],
+    "spine": [
+      {
+        "1": "yueyecheftB",
+        "2": "normal",
+        "4": true
+      },
+      [
+        "yueyecheftT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 11
+  },
+  "317108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "뚜껑을 누가 닫기라도 하면……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zaotongfticon",
+    "id": 317108,
+    "interAction": [
+      [
+        "wash",
+        [
+          -19.1,
+          -100.8
+        ],
+        [
+          -1,
+          1
+        ],
+        "ft/zaotongft_using",
+        0,
+        [
+          [
+            0.5,
+            143.7
+          ],
+          [
+            232,
+            200
+          ],
+          "ft/zaotongft_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 욕탕",
+    "offset": [],
+    "picture": "ft/zaotongft",
+    "rarity": 3,
+    "size": [
+      3,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "무언가 놀라운 게 들어있을지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zawuxiangfticon",
+    "id": 317109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 창고",
+    "offset": [],
+    "picture": "ft/zawuxiangft",
+    "rarity": 3,
+    "size": [
+      3,
+      6
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "무언가 놀라운 게 들어있을지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "zawuduifticon",
+    "id": 317110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "러프 셸터 창고 2",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      4,
+      5
+    ],
+    "spine": [
+      [
+        "zawuduift",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "dance1",
+            "3": "dance"
+          }
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ],
+        [
+          [
+            "dance1",
+            "dance2",
+            "dance3"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 117,
+    "type": 2
+  },
+  "317111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "주변 분위기와 비교해도 이질적인 태양광 시스템. 무슨 무기에서 떼어낸 장치인 듯하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "taiyangnengdianchifticon",
+    "id": 317111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "솔라 토르",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      7,
+      4
+    ],
+    "spine": [
+      [
+        "taiyangnengdianchiftB",
+        "normal"
+      ],
+      [
+        "taiyangnengdianchiftT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 117,
+    "type": 2
+  },
+  "317301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "서바이벌 스킬을 단련하고 싶다고? 이걸 사용해 봐!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bazi1fticon",
+    "id": 317301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "다트 보드 1",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      0
+    ],
+    "spine": [
+      [
+        "bazi1ft",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 117,
+    "type": 6
+  },
+  "317302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "서바이벌 스킬을 단련하고 싶다고? 이걸 사용해 봐!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bazi2fticon",
+    "id": 317302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "다트 보드 2",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      0
+    ],
+    "spine": [
+      [
+        "bazi2ft",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 117,
+    "type": 6
+  },
+  "317303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "서바이벌 아이템을 둘 수 있는 선반. 이 아이템들이야말로 친한 친구!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "gongjujiafticon",
+    "id": 317303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "서바이벌 보관 선반",
+    "offset": [],
+    "picture": "ft/gongjujiaft",
+    "rarity": 3,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 117,
+    "type": 6
+  },
+  "317304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "낙서와 너덜너덜한 포스터는 옛 시대를 떠올리게 해 줄…지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "haibaofticon",
+    "id": 317304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "낙서된 벽",
+    "offset": [],
+    "picture": "ft/haibaoft",
+    "rarity": 2,
+    "size": [
+      6,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 117,
     "type": 6
   }
 }

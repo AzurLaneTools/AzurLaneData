@@ -6,6 +6,7 @@
     "reduce_heartbeat",
     "rapport_interaction",
     "rapport_heartbeat",
+    "rapport_heartbeat_trriger",
     "reduce_interaction",
     "heartbeat_unlock",
     "drom3d_time_unlock",
@@ -136,27 +137,32 @@
   },
   "heartbeat_unlock": {
     "key": "heartbeat_unlock",
-    "key_value_int": 3,
+    "key_value_int": 1,
     "key_value_varchar": ""
   },
   "rapport_heartbeat": {
     "key": "rapport_heartbeat",
-    "key_value_int": 1,
+    "key_value_int": 2,
+    "key_value_varchar": ""
+  },
+  "rapport_heartbeat_trriger": {
+    "key": "rapport_heartbeat_trriger",
+    "key_value_int": 25,
     "key_value_varchar": ""
   },
   "rapport_interaction": {
     "key": "rapport_interaction",
-    "key_value_int": 2,
+    "key_value_int": 0,
     "key_value_varchar": ""
   },
   "reduce_heartbeat": {
     "key": "reduce_heartbeat",
-    "key_value_int": 10,
+    "key_value_int": 0,
     "key_value_varchar": ""
   },
   "reduce_interaction": {
     "key": "reduce_interaction",
-    "key_value_int": -1,
+    "key_value_int": 0,
     "key_value_varchar": ""
   },
   "stage": {
