@@ -39193,7 +39193,7 @@
   "40053": {
     "combination_display": [],
     "compose_number": 0,
-    "display": "购买礼包可获得大量材料奖励",
+    "display": "大量のアイテムを入手できます",
     "display_effect": "OpenBox",
     "display_icon": [
       [
@@ -39234,7 +39234,7 @@
     "limit": [],
     "link_id": 0,
     "max_num": 0,
-    "name": "冬至礼包(2024冬)",
+    "name": "冬のお得福袋・2025",
     "open_directly": 1,
     "order": 0,
     "other_item_cost": "[]",
@@ -39248,6 +39248,56 @@
     "type": 17,
     "usage": "usage_drop",
     "usage_arg": "4031",
+    "virtual_type": 0
+  },
+  "40054": {
+    "combination_display": [],
+    "compose_number": 0,
+    "display": "大量のアイテムを入手できます",
+    "display_effect": "OpenBox",
+    "display_icon": [
+      [
+        2,
+        59561,
+        1
+      ],
+      [
+        2,
+        20001,
+        40
+      ],
+      [
+        1,
+        1,
+        30000
+      ],
+      [
+        2,
+        16502,
+        50
+      ]
+    ],
+    "icon": "ChargeIcon/huteng_package",
+    "id": 40054,
+    "index": [],
+    "is_world": 0,
+    "limit": [],
+    "link_id": 0,
+    "max_num": 0,
+    "name": "選べるUR着せ替え福袋D",
+    "open_directly": 1,
+    "order": 0,
+    "other_item_cost": "[]",
+    "other_resource_cost": "[]",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "target_id": 0,
+    "time_limit": 0,
+    "type": 17,
+    "usage": "usage_drop",
+    "usage_arg": "4055",
     "virtual_type": 0
   },
   "40100": {
@@ -89959,6 +90009,49 @@
       [
         405031,
         405032
+      ],
+      0,
+      59552
+    ],
+    "virtual_type": 0
+  },
+  "59561": {
+    "combination_display": [],
+    "compose_number": 0,
+    "display": "倉庫で使用でき、着せ替えを1着選んで入手可能。\n（<color=#ff5c5c>指定された一部の着せ替えのみ入手可能。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます</color>）",
+    "display_effect": "",
+    "display_icon": [
+      [
+        7,
+        718011,
+        1
+      ]
+    ],
+    "icon": "Props/skin_exchange_huteng",
+    "id": 59561,
+    "index": [],
+    "is_world": 0,
+    "limit": [],
+    "link_id": 0,
+    "max_num": 0,
+    "name": "選べる着せ替えチケット（クロンシュタット）",
+    "open_directly": 0,
+    "order": 1,
+    "other_item_cost": "[]",
+    "other_resource_cost": "[]",
+    "price": [],
+    "rarity": 4,
+    "replace_item": 0,
+    "shiptrans_id": [],
+    "target_id": 0,
+    "time_limit": 0,
+    "type": 26,
+    "usage": "usage_drop_appointed_skinexchange",
+    "usage_arg": [
+      0,
+      [],
+      [
+        718011
       ],
       0,
       59552
