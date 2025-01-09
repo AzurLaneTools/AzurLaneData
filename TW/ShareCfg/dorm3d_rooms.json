@@ -71,6 +71,7 @@
     ],
     "resource_name": "Tianlangxing_DB",
     "room": "天狼星",
+    "room_bgm": "story-room-sirius",
     "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
     "tag": "",
     "type": 2,
@@ -87,27 +88,46 @@
           4004,
           4005
         ]
+      ],
+      [
+        30221,
+        [
+          4201,
+          4202,
+          4203,
+          4204,
+          4205
+        ]
       ]
     ],
     "assets_prefix": "Beach",
     "character": [],
     "character_pay": [
-      20220
+      20220,
+      30221
     ],
     "character_range": [
       0,
-      1
+      2
     ],
     "character_welcome": [
       [
         20220,
         1000
+      ],
+      [
+        30221,
+        0
       ]
     ],
     "default_zone": [
       [
         20220,
         "Tianlangxing"
+      ],
+      [
+        30221,
+        "Nengdai"
       ]
     ],
     "furniture_zones": [],
@@ -120,12 +140,22 @@
           "banner_beach1",
           "banner_beach2"
         ]
+      ],
+      [
+        30221,
+        [
+          "banner_beach3"
+        ]
       ]
     ],
     "invite_cost": [
       [
         20220,
         270110
+      ],
+      [
+        30221,
+        270111
       ]
     ],
     "invite_mark": [
@@ -136,12 +166,21 @@
           5,
           6
         ]
+      ],
+      [
+        30221,
+        [
+          1,
+          5,
+          6
+        ]
       ]
     ],
     "recall_list": [],
-    "resource_name": "",
+    "resource_name": "Beach",
     "room": "沙灘",
-    "scene_info": "map_beach_02|Common/Beach",
+    "room_bgm": "story-room-sirius",
+    "scene_info": "map_beach_02|Beach",
     "tag": "beach",
     "type": 1,
     "unlock_item": [
@@ -177,8 +216,9 @@
     "invite_cost": "",
     "invite_mark": "",
     "recall_list": "",
-    "resource_name": "",
+    "resource_name": "Bathroom",
     "room": "浴室",
+    "room_bgm": "story-room-sirius",
     "scene_info": "",
     "tag": "",
     "type": 1,
