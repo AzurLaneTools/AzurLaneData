@@ -13,6 +13,7 @@
     "jump_trigger": [],
     "name": "日常相伴",
     "performance_time": 20,
+    "resource_room": 1,
     "sceneInfo": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
     "ship_id": 20220,
     "timeline": "Xiangban_shinei",
@@ -32,7 +33,8 @@
     "jump_trigger": [],
     "name": "休闲相伴",
     "performance_time": 20,
-    "sceneInfo": "map_beach_02|Common/Beach",
+    "resource_room": 4,
+    "sceneInfo": "map_beach_02|Beach",
     "ship_id": 20220,
     "timeline": "Xiangban_shatan",
     "unlock": [
@@ -41,14 +43,64 @@
       20220
     ]
   },
+  "21": {
+    "favor": [
+      10,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 21,
+    "image": "nengdai_accompany_room",
+    "jump_trigger": [],
+    "name": "日常相伴",
+    "performance_time": 20,
+    "resource_room": 2,
+    "sceneInfo": "map_noshirohostel_02|Nengdai_DB/NoshiroHostel",
+    "ship_id": 30221,
+    "timeline": "Xiangban_shinei_ND",
+    "unlock": []
+  },
+  "22": {
+    "favor": [
+      10,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 22,
+    "image": "tianlangxing_accompany_beach",
+    "jump_trigger": [],
+    "name": "休闲相伴",
+    "performance_time": 20,
+    "resource_room": 4,
+    "sceneInfo": "map_beach_02|Beach",
+    "ship_id": 30221,
+    "timeline": "Xiangban_shatan_ND",
+    "unlock": [
+      5,
+      4,
+      30221
+    ]
+  },
   "all": [
     1,
-    2
+    2,
+    21,
+    22
   ],
   "get_id_list_by_ship_id": {
     "20220": [
       1,
       2
+    ],
+    "30221": [
+      21,
+      22
     ]
   }
 }

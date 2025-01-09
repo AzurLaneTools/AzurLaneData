@@ -567,6 +567,12 @@
   "activity_shop_lable": {
     "tip": "*교환 개방 시간 : <color=#FFF693>$1</color>"
   },
+  "activity_shop_template_extratext": {
+    "tip": "活動追趕道具兌換 "
+  },
+  "activity_shop_template_normaltext": {
+    "tip": "活動常規道具兌換 "
+  },
   "activity_shop_title": {
     "tip": "이벤트"
   },
@@ -4977,6 +4983,9 @@
   "dorm3d_accompany_locked": {
     "tip": "미오픈"
   },
+  "dorm3d_accompany_not_download": {
+    "tip": "$1의 리소스를 먼저 다운로드해야 합니다."
+  },
   "dorm3d_already_gifted": {
     "tip": "선물 완료"
   },
@@ -5067,6 +5076,9 @@
   "dorm3d_day_night_switching2": {
     "tip": "이미 밤입니다"
   },
+  "dorm3d_delete_finish": {
+    "tip": "삭제했습니다."
+  },
   "dorm3d_download_complete": {
     "tip": "리소스 다운로드를 완료했습니다"
   },
@@ -5136,6 +5148,12 @@
   "dorm3d_gift_story_unlock": {
     "tip": "특별 스토리 오픈 완료"
   },
+  "dorm3d_guide_beach_tip": {
+    "tip": "해당 캐릭터의 리소스를 다운로드해야 합니다."
+  },
+  "dorm3d_guide_tip": {
+    "tip": "시리우스의 방을 둘러보자"
+  },
   "dorm3d_invite_confirm_discount": {
     "tip": "$1 <color=#39bfff>$2</color>(할인 전 가격 $3)을 소비하여 <color=#39bfff>$4</color>의 $5 배치를 오픈하시겠습니까?"
   },
@@ -5163,8 +5181,98 @@
   "dorm3d_need_construct_item": {
     "tip": "오픈 티켓이 부족합니다"
   },
+  "dorm3d_nengdai_minigame_behavior1": {
+    "tip": "독서"
+  },
+  "dorm3d_nengdai_minigame_behavior10": {
+    "tip": "게임"
+  },
+  "dorm3d_nengdai_minigame_behavior11": {
+    "tip": "산책"
+  },
+  "dorm3d_nengdai_minigame_behavior12": {
+    "tip": "수면"
+  },
+  "dorm3d_nengdai_minigame_behavior2": {
+    "tip": "그림 그리기"
+  },
+  "dorm3d_nengdai_minigame_behavior3": {
+    "tip": "공부"
+  },
+  "dorm3d_nengdai_minigame_behavior4": {
+    "tip": "무용"
+  },
+  "dorm3d_nengdai_minigame_behavior5": {
+    "tip": "구기"
+  },
+  "dorm3d_nengdai_minigame_behavior6": {
+    "tip": "운동"
+  },
+  "dorm3d_nengdai_minigame_behavior7": {
+    "tip": "청소"
+  },
+  "dorm3d_nengdai_minigame_behavior8": {
+    "tip": "요리"
+  },
+  "dorm3d_nengdai_minigame_behavior9": {
+    "tip": "세탁"
+  },
+  "dorm3d_nengdai_minigame_choose": {
+    "tip": "오늘 계획을 알려줘:"
+  },
+  "dorm3d_nengdai_minigame_day1": {
+    "tip": "월"
+  },
+  "dorm3d_nengdai_minigame_day2": {
+    "tip": "화"
+  },
+  "dorm3d_nengdai_minigame_day3": {
+    "tip": "수"
+  },
+  "dorm3d_nengdai_minigame_day4": {
+    "tip": "목"
+  },
+  "dorm3d_nengdai_minigame_day5": {
+    "tip": "금"
+  },
+  "dorm3d_nengdai_minigame_day6": {
+    "tip": "토"
+  },
+  "dorm3d_nengdai_minigame_day7": {
+    "tip": "일"
+  },
+  "dorm3d_nengdai_minigame_evaluate1": {
+    "tip": "달인"
+  },
+  "dorm3d_nengdai_minigame_evaluate2": {
+    "tip": "초인"
+  },
+  "dorm3d_nengdai_minigame_evaluate3": {
+    "tip": "좋아함"
+  },
+  "dorm3d_nengdai_minigame_evaluate4": {
+    "tip": "기호"
+  },
+  "dorm3d_nengdai_minigame_evaluate5": {
+    "tip": "밸런스"
+  },
+  "dorm3d_nengdai_minigame_remember": {
+    "tip": "오늘 계획을 기억하자"
+  },
+  "dorm3d_noshiro_bed": {
+    "tip": "침실"
+  },
+  "dorm3d_noshiro_chair": {
+    "tip": "거실"
+  },
+  "dorm3d_noshiro_table": {
+    "tip": "툇마루"
+  },
   "dorm3d_now_clothing": {
     "tip": "현재"
+  },
+  "dorm3d_now_is_downloading": {
+    "tip": "리소스 다운로드 중"
   },
   "dorm3d_now_time": {
     "tip": "현재 시간"
@@ -5279,6 +5387,9 @@
   },
   "dorm3d_resource_delete": {
     "tip": "리소스를 삭제했습니다"
+  },
+  "dorm3d_resource_download_complete": {
+    "tip": "다운로드 완료"
   },
   "dorm3d_resource_downloading": {
     "tip": "리소스 다운로드 중입니다"
@@ -18952,10 +19063,10 @@
     "tip": "사운드"
   },
   "volleyball_end_award": {
-    "tip": "행동력 -1, 시리우스의 친밀도 +40"
+    "tip": "행동력 -1, $1 친밀도 +40"
   },
   "volleyball_end_tip": {
-    "tip": "시리우스와 즐거운 오후를 보냈다"
+    "tip": "$1(와)과 즐거운 오후를 보냈다."
   },
   "vote_2023_reward_word_1": {
     "tip": "후후후, 나를 시뮬레이션하다니 시시하네. 초대만 했으면 처음부터 직접 와줬을 텐데… 뭐, 됐어. 어쨌든 재밌게 잘 즐겼으니, 작게나마 답례를 해줄게♪"
