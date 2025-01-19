@@ -1,0 +1,389 @@
+{
+  "card_20001": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "point": "input"
+          },
+          "caster": "Leader",
+          "type": "BattleCardPuzzleSkillMoveTo"
+        }
+      ]
+    ],
+    "id": 1000,
+    "name": "测试卡牌"
+  },
+  "card_999970": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999957
+          },
+          "caster": "Leader",
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999970,
+    "name": "教程 鱼雷"
+  },
+  "card_999971": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 3512040
+          },
+          "caster": "Leader",
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ]
+    ],
+    "id": 999971,
+    "name": "强袭雷击"
+  },
+  "card_999972": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999950
+          },
+          "caster": "FlagShip",
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999972,
+    "name": "教程后排AOE平射"
+  },
+  "card_999973": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999773
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetSelf"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ]
+    ],
+    "id": 999973,
+    "name": "教程 自动平射"
+  },
+  "card_999974": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999774
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetSelf"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ]
+    ],
+    "id": 999974,
+    "name": "教程 自动鱼雷"
+  },
+  "card_999975": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999775
+          },
+          "caster": "FlagShip",
+          "target_choise": [
+            "TargetSelf"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ]
+    ],
+    "id": 999975,
+    "name": "教程自动跨射"
+  },
+  "card_999977": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999955
+          },
+          "caster": "FlagShip",
+          "target_choise": [
+            "TargetHarmRandomByWeight"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999977,
+    "name": "教程 高费跨射"
+  },
+  "card_999978": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999997
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetHarmNearest"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999978,
+    "name": "教程 高费平射"
+  },
+  "card_999979": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999996
+          },
+          "caster": "FlagShip",
+          "target_choise": [
+            "TargetHarmRandomByWeight"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999979,
+    "name": "教程 跨射指令"
+  },
+  "card_999984": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999984,
+            "fleetPos": "Leader"
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetFleetIndex"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Bottom",
+            "move_to": 1,
+            "shuffle": 0
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999984,
+    "name": "教程 循环维修"
+  },
+  "card_999985": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999985,
+            "fleetPos": "Leader"
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetFleetIndex"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ]
+    ],
+    "id": 999985,
+    "name": "教程 维修"
+  },
+  "card_999989": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999995
+          },
+          "caster": "FlagShip",
+          "target_choise": [
+            "TargetHarmRandomByWeight"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999989,
+    "name": "教程增伤跨射"
+  },
+  "card_999990": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999990
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetHarmNearest"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999990,
+    "name": "教程攻击"
+  },
+  "card_999991": {
+    "attr_quote": "",
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "buff_id": 999991,
+            "fleetPos": "Leader"
+          },
+          "caster": "Leader",
+          "target_choise": [
+            "TargetFleetIndex"
+          ],
+          "type": "BattleCardPuzzleSkillAddBuff"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999991,
+    "name": "教程护盾"
+  },
+  "card_999992": {
+    "effect_list": [
+      [
+        {
+          "arg_list": {
+            "weapon_id": 9999993
+          },
+          "caster": "FlagShip",
+          "target_choise": [
+            "TargetHarmRandomByWeight"
+          ],
+          "type": "BattleCardPuzzleSkillFire"
+        }
+      ],
+      [
+        {
+          "arg_list": {
+            "move_op": "Add",
+            "move_to": 1,
+            "shuffle": 1
+          },
+          "type": "BattleCardPuzzleSkillMoveCard"
+        }
+      ]
+    ],
+    "id": 999992,
+    "name": "教程跨射"
+  }
+}
