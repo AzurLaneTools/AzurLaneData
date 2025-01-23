@@ -6010,7 +6010,7 @@
       ]
     ],
     "skin_id": 302211,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -6050,7 +6050,7 @@
       ]
     ],
     "skin_id": 302211,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -6146,7 +6146,7 @@
       ]
     ],
     "skin_id": 302211,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -6186,7 +6186,101 @@
       ]
     ],
     "skin_id": 302211,
-    "touch_data": "",
+    "touch_data": [],
+    "use_cloth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "200630": {
+    "base": 200630,
+    "camera_group": 20061,
+    "character_action": "ND_FF_IK_zhuozi_idle_03",
+    "character_id": 30221,
+    "character_position": "Pos200630",
+    "cloth_colliders": [
+      [
+        "L_Leg_Collider",
+        1,
+        0.077,
+        0.06
+      ],
+      [
+        "L_Leg_Collider_1",
+        1,
+        0.077,
+        0.06
+      ],
+      [
+        "R_Clavicle_Collider",
+        1,
+        0.087,
+        0.033
+      ],
+      [
+        "Spine_Colllider",
+        1,
+        0.092,
+        0.109
+      ],
+      [
+        "Bra_Collider",
+        1,
+        0.113,
+        0.113
+      ],
+      [
+        "Butt_Collider",
+        1,
+        0.075,
+        0.075
+      ]
+    ],
+    "enter_extra_item": "",
+    "enter_scene_anim": [],
+    "head_track": [
+      1,
+      0,
+      0,
+      0.1
+    ],
+    "id": 200630,
+    "ik_camera": "Cam200630",
+    "ik_id": [
+      [
+        20063000,
+        0,
+        [
+          3,
+          0.3,
+          "ND_FF_IK_zhuozi_shou_02"
+        ]
+      ],
+      [
+        20063001,
+        0,
+        [
+          3,
+          0.3,
+          "ND_FF_IK_zhuozi_tou_02"
+        ]
+      ],
+      [
+        20063002,
+        0,
+        [
+          4,
+          0.3,
+          20233
+        ]
+      ]
+    ],
+    "skin_id": 302211,
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -6226,7 +6320,7 @@
       ]
     ],
     "skin_id": 302211,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7377,7 +7471,7 @@
       ]
     ],
     "skin_id": 302212,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7417,7 +7511,7 @@
       ]
     ],
     "skin_id": 302212,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7476,7 +7570,7 @@
       ]
     ],
     "skin_id": 302212,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7516,7 +7610,64 @@
       ]
     ],
     "skin_id": 302212,
-    "touch_data": "",
+    "touch_data": [],
+    "use_cloth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "210630": {
+    "base": 200630,
+    "camera_group": 21061,
+    "character_action": "ND_FF_IK_zhuozi_idle_03",
+    "character_id": 30221,
+    "character_position": "Pos200630",
+    "cloth_colliders": [],
+    "enter_extra_item": "",
+    "enter_scene_anim": [],
+    "head_track": [
+      1,
+      0,
+      0,
+      0.1
+    ],
+    "id": 210630,
+    "ik_camera": "Cam200630",
+    "ik_id": [
+      [
+        21063000,
+        0,
+        [
+          3,
+          0.3,
+          "ND_FF_IK_zhuozi_shou_02"
+        ]
+      ],
+      [
+        21063001,
+        0,
+        [
+          3,
+          0.3,
+          "ND_FF_IK_zhuozi_tou_02"
+        ]
+      ],
+      [
+        21063002,
+        0,
+        [
+          4,
+          0.3,
+          20233
+        ]
+      ]
+    ],
+    "skin_id": 302212,
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7556,7 +7707,7 @@
       ]
     ],
     "skin_id": 302212,
-    "touch_data": "",
+    "touch_data": [],
     "use_cloth": [
       0,
       1,
@@ -7945,6 +8096,7 @@
     200540,
     200610,
     200620,
+    200630,
     200611,
     200621,
     200631,
@@ -7973,6 +8125,7 @@
     210540,
     210610,
     210620,
+    210630,
     210611,
     210621,
     210631,
@@ -8268,6 +8421,10 @@
       200621,
       210621
     ],
+    "200630": [
+      200630,
+      210630
+    ],
     "200631": [
       200631,
       210631
@@ -8501,7 +8658,8 @@
     ],
     "20061": [
       200610,
-      200620
+      200620,
+      200630
     ],
     "20062": [
       200611
@@ -8554,7 +8712,8 @@
     ],
     "21061": [
       210610,
-      210620
+      210620,
+      210630
     ],
     "21062": [
       210611
