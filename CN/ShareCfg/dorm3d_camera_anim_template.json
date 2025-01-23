@@ -1214,6 +1214,66 @@
     "unlock": "",
     "zone": ""
   },
+  "4301": {
+    "anim_time": 0,
+    "desc": "坐下",
+    "finish_anim": 4301,
+    "furniture_id": 222,
+    "icon": "camera_action3",
+    "id": 4301,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_FF_IK_zhuozi_idle_01",
+    "staypoint": "Pos200610",
+    "unlock": "",
+    "zone": "2002"
+  },
+  "4302": {
+    "anim_time": 0,
+    "desc": "抬腿",
+    "finish_anim": 4302,
+    "furniture_id": 222,
+    "icon": "camera_action5",
+    "id": 4302,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_FF_IK_zhuozi_idle_02",
+    "staypoint": "Pos200611",
+    "unlock": "",
+    "zone": "2002"
+  },
+  "4303": {
+    "anim_time": 0,
+    "desc": "躺下",
+    "finish_anim": 4303,
+    "furniture_id": 222,
+    "icon": "camera_action8",
+    "id": 4303,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_FF_IK_zhuozi_ZJD_loop",
+    "staypoint": "Pos200620",
+    "unlock": "",
+    "zone": "2002"
+  },
+  "4304": {
+    "anim_time": 0,
+    "desc": "侧身",
+    "finish_anim": 4304,
+    "furniture_id": 222,
+    "icon": "camera_action12",
+    "id": 4304,
+    "pre_anim": 0,
+    "room": 2,
+    "ship_group": 30221,
+    "state": "ND_FF_IK_zhuozi_ZJD_xiong_01-loop",
+    "staypoint": "Pos200621",
+    "unlock": "",
+    "zone": "2002"
+  },
   "all": [
     1001,
     1002,
@@ -1295,7 +1355,11 @@
     4202,
     4203,
     4204,
-    4205
+    4205,
+    4301,
+    4302,
+    4303,
+    4304
   ],
   "get_id_list_by_furniture_id": {
     "0": [
@@ -1395,6 +1459,12 @@
       2403,
       2404,
       2405
+    ],
+    "222": [
+      4301,
+      4302,
+      4303,
+      4304
     ],
     "251": [
       2501,
