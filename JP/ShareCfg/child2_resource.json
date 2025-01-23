@@ -1,0 +1,64 @@
+{
+  "1": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "「育成」の様々な場面で使用されるお金",
+    "icon": "res_jinqian",
+    "id": 1,
+    "item_icon": "res_jinqian2",
+    "max_value": 99999,
+    "min_value": 0,
+    "name": "財貨",
+    "type": 1
+  },
+  "2": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "$1\n気分は各種パラメータ・財貨の獲得数に影響する\n0~19:絶不調 獲得-40%\n20~39:不調 獲得-20%\n40~59:普通 獲得+0%\n60~100:好調 獲得+40%",
+    "icon": "res_xinqing",
+    "id": 2,
+    "item_icon": "res_xinqing2",
+    "max_value": 100,
+    "min_value": 0,
+    "name": "気分",
+    "type": 2
+  },
+  "3": {
+    "character": 1,
+    "default_value": 3,
+    "desc": "おでかけ時に行動をする際に消費され、毎ターン回復します。",
+    "icon": "res_xingdongli",
+    "id": 3,
+    "item_icon": "res_xingdongli2",
+    "max_value": 3,
+    "min_value": 0,
+    "name": "行動力",
+    "type": 3
+  },
+  "4": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "メイン画面の会話イベントをこなすと好感度を上昇させることができます。\nまた、好感度報酬を受け取ることができます",
+    "icon": "res_haogandu",
+    "id": 4,
+    "item_icon": "res_haogandu2",
+    "max_value": 500,
+    "min_value": 0,
+    "name": "好感度",
+    "type": 4
+  },
+  "all": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "get_id_list_by_character": [
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ]
+}
