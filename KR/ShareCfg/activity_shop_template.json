@@ -34196,7 +34196,7 @@
     ],
     "num": 1,
     "num_limit": 1,
-    "order": 4,
+    "order": 3,
     "resource_category": 2,
     "resource_num": 60,
     "resource_type": 21000
@@ -34238,7 +34238,7 @@
     "resource_type": 21000
   },
   "12025": {
-    "activity": 5138,
+    "activity": 7104,
     "commodity_id": 21042,
     "commodity_id_list": "",
     "commodity_id_list_show": 0,
@@ -34273,6 +34273,77 @@
     "resource_num": 80,
     "resource_type": 21000
   },
+  "12026": {
+    "activity": 7104,
+    "commodity_id": 9702021,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 4,
+    "id": 12026,
+    "limit_args": [
+      [
+        "uniqueship",
+        970202
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 1,
+    "order": 3,
+    "resource_category": 2,
+    "resource_num": 60,
+    "resource_type": 21000
+  },
+  "12027": {
+    "activity": 7104,
+    "commodity_id": 21011,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12027,
+    "limit_args": [
+      [
+        1,
+        970202,
+        1
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 4,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 30,
+    "resource_type": 21000
+  },
   "99001": {
     "activity": 5138,
     "commodity_id": 15008,
@@ -34283,7 +34354,7 @@
     "limit_args": "",
     "num": 100,
     "num_limit": 10,
-    "order": 0,
+    "order": 1,
     "resource_category": 1,
     "resource_num": 300,
     "resource_type": 385
@@ -34298,7 +34369,7 @@
     "limit_args": "",
     "num": 50,
     "num_limit": 20,
-    "order": 0,
+    "order": 1,
     "resource_category": 1,
     "resource_num": 200,
     "resource_type": 385
@@ -34313,7 +34384,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 40,
-    "order": 0,
+    "order": 1,
     "resource_category": 1,
     "resource_num": 50,
     "resource_type": 385
@@ -34328,7 +34399,7 @@
     "limit_args": "",
     "num": 1,
     "num_limit": 15,
-    "order": 0,
+    "order": 1,
     "resource_category": 1,
     "resource_num": 300,
     "resource_type": 385
@@ -36579,6 +36650,8 @@
     12023,
     12024,
     12025,
+    12026,
+    12027,
     99001,
     99002,
     99003,
@@ -38424,6 +38497,7 @@
       12022,
       12024,
       12025,
+      12027,
       99001,
       99002,
       99003,
@@ -38717,7 +38791,8 @@
       12017,
       12018,
       12019,
-      12023
+      12023,
+      12026
     ],
     "5": [
       204,

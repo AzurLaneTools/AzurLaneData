@@ -180,7 +180,7 @@
     "is_exclusive": 1,
     "is_special": 0,
     "model": "Pay_Siriushostel/pre_db_sh_chair02",
-    "name": "오후의 몽향",
+    "name": "오후의 고향",
     "rarity": 4,
     "room_id": 1,
     "scene_hides": "",
@@ -499,6 +499,40 @@
       3
     ]
   },
+  "222": {
+    "acesses": "",
+    "desc": "넓다란 테이블에 기쁨과 기대감이 가득하다.\n자리 준비는 끝났으니 남은 건 두 사람의 밀회를 조용히 기다리는 것뿐.",
+    "icon": "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture2",
+    "id": 222,
+    "is_exclusive": 1,
+    "is_special": 0,
+    "model": "Pay_Noshirohostel/pre_db_nh_diningroom01",
+    "name": "마주보는 대화",
+    "rarity": 3,
+    "room_id": 2,
+    "scene_hides": [
+      "fbx/no_bake_pay_prop/diningroom"
+    ],
+    "shop_id": [
+      270202
+    ],
+    "target_slots": [
+      120203
+    ],
+    "touch_id": [
+      [
+        30221,
+        2200610
+      ]
+    ],
+    "type": 6,
+    "unlock_banners": [
+      "banner_furniture222"
+    ],
+    "unlock_tips": [
+      3
+    ]
+  },
   "251": {
     "acesses": "",
     "desc": "코타츠의 온기가 겨울의 느긋한 오후를 떠올리게 해준다. \n창문에서 들이치는 햇빛이 바닥에 내리쬐며, 코타츠의 온기에 녹아들어, 일상의 모든 피로를 풀어준다.",
@@ -541,6 +575,7 @@
     5,
     6,
     121,
+    122,
     201,
     202,
     203,
@@ -552,7 +587,7 @@
     209,
     210,
     221,
-    122,
+    222,
     151,
     251
   ],
@@ -580,6 +615,7 @@
       209,
       210,
       221,
+      222,
       251
     ]
   }
