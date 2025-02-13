@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5768",
+    "param": "5521",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5768
+      5521
     ],
     "type": 3
   },
@@ -54,11 +54,14 @@
     "name": "event_minigame",
     "order": 1,
     "param": [
-      "springfestival town"
+      "COWBOY_TOWN_BACKHILL"
     ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
-    "time": "stop",
+    "time": [
+      "default",
+      5523
+    ],
     "type": 2
   },
   "30": {
@@ -69,33 +72,7 @@
     "param": "0",
     "pic": "event_boss",
     "text_pic": "text_event_boss",
-    "time": [
-      "timer",
-      [
-        [
-          2025,
-          1,
-          23
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          2,
-          19
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 0
   },
   "40": {
@@ -233,33 +210,7 @@
     ],
     "pic": "event_boat_ad_game",
     "text_pic": "text_event_boat_ad_game",
-    "time": [
-      "timer",
-      [
-        [
-          2025,
-          1,
-          23
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          2,
-          13
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 7
   },
   "107": {
