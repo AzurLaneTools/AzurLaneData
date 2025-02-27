@@ -9371,6 +9371,49 @@
     "themeId": 0,
     "type": 7
   },
+  "295": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "仿照永夜之冠制造的复制品，在保留了其独有光芒的同时，消除了META化侵蚀，请放心欣赏。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "樊笼内的神光",
+    "icon": "lafeierxunzhangicon",
+    "id": 295,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "永夜之冠（复制品）",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "lafeierxunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -66623,7 +66666,9 @@
         {
           "3": [
             "sit0",
-            "sit"
+            "sit",
+            false,
+            true
           ]
         },
         [
@@ -88004,7 +88049,9 @@
         {
           "3": [
             "action",
-            "dance"
+            "dance",
+            false,
+            true
           ]
         },
         [
@@ -122522,7 +122569,9 @@
         {
           "3": [
             "action",
-            "tuozhuai2"
+            "tuozhuai2",
+            false,
+            true
           ],
           "4": "tuozhuai2"
         },
@@ -124281,7 +124330,9 @@
         {
           "3": [
             "sit1",
-            "sit"
+            "sit",
+            false,
+            true
           ],
           "4": "sit"
         },
@@ -125843,7 +125894,9 @@
           "2": 1,
           "3": [
             "walk1",
-            "walk"
+            "walk",
+            false,
+            true
           ]
         },
         [
@@ -126019,6 +126072,84 @@
     "tag": 6,
     "themeId": 0,
     "type": 2
+  },
+  "100071": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "祝你早日康复啾~！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "jiuhucheicon",
+    "id": 100071,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "啾护推床",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      2,
+      7
+    ],
+    "spine": [
+      {
+        "1": "jiuhucheB",
+        "2": "normal",
+        "4": true
+      },
+      [
+        "jiuhucheT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
   },
   "200001": {
     "advice": 0,
@@ -137609,7 +137740,9 @@
         {
           "3": [
             "sit1",
-            "sit"
+            "sit",
+            false,
+            true
           ],
           "4": "sit"
         },
@@ -147238,6 +147371,979 @@
     "spine_extra": "",
     "tag": 7,
     "themeId": 118,
+    "type": 6
+  },
+  "319001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "踏上这片金色的土地，仿佛能听见远古的回响……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanajicon",
+    "id": 319001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "黄金圣域地砖",
+    "offset": [],
+    "picture": "aj/dibanaj",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 119,
+    "type": 4
+  },
+  "319002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "踏上这片金色的土地，仿佛能听见远古的回响……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbiajicon",
+    "id": 319002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "黄金圣域墙纸",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbiaj",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 119,
+    "type": 1
+  },
+  "319101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "清凉的湖水荡漾着古老的祝福，要不要来享受一下？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chitangajicon",
+    "id": 319101,
+    "interAction": [
+      [
+        "wash",
+        [
+          -19.1,
+          -100.8
+        ],
+        [
+          -1,
+          1
+        ],
+        "aj/chitangaj_using",
+        0,
+        [
+          [
+            0.5,
+            2
+          ],
+          [
+            662,
+            399
+          ],
+          "aj/chitangaj_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "圣洁净池",
+    "offset": [],
+    "picture": "aj/chitangaj",
+    "rarity": 4,
+    "size": [
+      11,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "面摆满了异域水果与古老典籍……躺上去说不定能梦到些不可思议的事情呢",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditanajicon",
+    "id": 319102,
+    "interAction": [
+      [
+        "sleep",
+        [
+          13.9,
+          12.5
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "神秘魔毯",
+    "offset": [],
+    "picture": "aj/ditanaj",
+    "rarity": 3,
+    "size": [
+      6,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "守护神殿的神圣卫士，它与伙伴一起日夜巡视着这片领域！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiudiaoxiang1ajicon",
+    "id": 319103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "守望啾神像",
+    "offset": [],
+    "picture": "aj/jiudiaoxiang1aj",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "守护神殿的神圣卫士，它与伙伴一起日夜巡视着这片领域！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiudiaoxiang2ajicon",
+    "id": 319104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "守望啾神像2",
+    "offset": [],
+    "picture": "aj/jiudiaoxiang2aj",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "凝视着远方的狮身人面像，它的目光中藏着多少千年的秘密？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shishendiaoxiang1ajicon",
+    "id": 319105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "狮面守护者",
+    "offset": [],
+    "picture": "aj/shishendiaoxiang1aj",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "凝视着远方的狮身人面像，它的目光中藏着多少千年的秘密？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shishendiaoxiang2ajicon",
+    "id": 319106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "狮面守护者2",
+    "offset": [],
+    "picture": "aj/shishendiaoxiang2aj",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "飘着香气的异国水果，商人正在耐心等待下一位顾客呢！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaotanajicon",
+    "id": 319107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "异域集市摊",
+    "offset": [],
+    "picture": "aj/xiaotanaj",
+    "rarity": 3,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "这片沙堆下是否埋藏着尚未被发现的宝藏……要不要靠近看看？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shaduiajicon",
+    "id": 319108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "远古沙堆",
+    "offset": [],
+    "picture": "aj/shaduiaj",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "高高在上的指挥喵雕像，它那威严的姿态似乎在指引着什么！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "maoshixiangajicon",
+    "id": 319109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指挥喵守望者",
+    "offset": [],
+    "picture": "aj/maoshixiangaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "来自远方的商人带来了神秘的商品，每一件都藏着不为人知的故事！要不要挑选一件带回去？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guangchangajicon",
+    "id": 319110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "异邦集市",
+    "offset": [],
+    "picture": "aj/guangchangaj",
+    "rarity": 4,
+    "size": [
+      8,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "看似普通的陶罐……但还是不要随便敲敲打打比较好哦！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "taoqiajicon",
+    "id": 319111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "眠蛇陶罐",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine": [
+      [
+        "taoqiaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "巍峨的石柱托起神殿，每一道纹饰都是匠人智慧的见证！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hengliangajicon",
+    "id": 319112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "圣殿立柱",
+    "offset": [],
+    "picture": "aj/hengliangaj",
+    "rarity": 2,
+    "size": [
+      9,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "裹着绷带的啾啾，难道是被法老的诅咒缠上了吗？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bengdaijiuajicon",
+    "id": 319113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "木乃伊啾",
+    "offset": [],
+    "picture": "aj/bengdaijiuaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "金光闪闪的神秘棺木，还是不要随便打开比较好呢……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guanmuajicon",
+    "id": 319114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "法老密棺",
+    "offset": [],
+    "picture": "aj/guanmuaj",
+    "rarity": 4,
+    "size": [
+      3,
+      2
+    ],
+    "spine": [
+      [
+        "guanmuaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "刻满神秘符文的方尖碑，每一个符号都在诉说着不为人知的古老智慧！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fangjianbeiajicon",
+    "id": 319115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "智慧方尖碑",
+    "offset": [],
+    "picture": "aj/fangjianbeiaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "整齐排列的绿色作物，为炎热的沙漠带来一丝生机与希望。",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huatanajicon",
+    "id": 319116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "装饰花坛",
+    "offset": [],
+    "picture": "aj/huatanaj",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "坐上这把神秘的王座，让金色翅膀带你遨游古老的天际吧！只是不要飞得太高哦……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "baozuoajicon",
+    "id": 319117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "翼神宝座",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "baozuoajB",
+        "normal"
+      ],
+      [
+        "baozuoajT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ],
+          [
+            "tuozhuai2"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 119,
+    "type": 2
+  },
+  "319301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "巨大的雕像仿佛在注视着每一位来访者！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jianzhuqiangajicon",
+    "id": 319301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "巨神之壁",
+    "offset": [],
+    "picture": "aj/jianzhuqiangaj",
+    "rarity": 4,
+    "size": [
+      12,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 10
+  },
+  "319302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "推开这扇千年古门，会有什么在等待着我们呢？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shixiangdamenajicon",
+    "id": 319302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "贝斯特之门",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      0
+    ],
+    "spine": [
+      [
+        "shixiangdamenaj",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 6
+  },
+  "319303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "那些特别的金色纹路，会是暗示着某种咒语吗？",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinzitaqiangshiajicon",
+    "id": 319303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "金字塔壁饰",
+    "offset": [],
+    "picture": "aj/jinzitaqiangshiaj",
+    "rarity": 2,
+    "size": [
+      10,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 6
+  },
+  "319304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "被岁月染成金色的鸟形石版，传说它记录着通往来世的秘密……",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "feiniaoajicon",
+    "id": 319304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "黄金飞鸟石版画",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      4,
+      0
+    ],
+    "spine": [
+      [
+        "feiniaoaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
     "type": 6
   }
 }
