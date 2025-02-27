@@ -15,6 +15,15 @@
   "2023Valentine_minigame_c": {
     "tip": "ほ、本当に召し上がるのですか？？やっぱり作り直した方が……"
   },
+  "2023Valentine_minigame_label1": {
+    "tip": "最终得分："
+  },
+  "2023Valentine_minigame_label2": {
+    "tip": "完成次数"
+  },
+  "2023Valentine_minigame_label3": {
+    "tip": "当前完成："
+  },
   "2023Valentine_minigame_s": {
     "tip": "これはものすごいチョコレートができたようですね…指揮官、どうぞ召し上がってください！"
   },
@@ -2356,10 +2365,29 @@
   "black_white_grid_switch_tip": {
     "tip": "本局游戏未结束，无法切换"
   },
+  "blackfriday_coinshop": {
+    "tip": "物资商店（不需要本地化）"
+  },
+  "blackfriday_dailypack": {
+    "tip": "デイリーパック"
+  },
+  "blackfriday_gemshop": {
+    "tip": "钻石商店（不需要本地化）"
+  },
+  "blackfriday_gift": {
+    "tip": "お得パック"
+  },
   "blackfriday_help": {
     "tip": [
       {
         "info": "ルール説明：\n1.キャンペーン期間中、復刻きせかえの購入数に応じて、キャンペーン報酬を入手出来ます\n2.限定家具「ジェム・スプリング」は家具ショップでもダイヤで直接購入できます。すでに「ジェム・スプリング」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。\n3.既に復刻衣装92着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。"
+      }
+    ]
+  },
+  "blackfriday_main_tip": {
+    "tip": [
+      {
+        "info": "遊び方：\n·<color=#92fc63>2.27-3.12 23:59まで</color>キャンペーン「明石の迎春セール」が開催されます。\n·限定任務\n任務をクリアするとキャンペーンPtを入手可能\n·ショップ\nショップではキャンペーンPtで報酬と交換可能\n·お得パック\n3.5 0時まで每日無料パックとお得パックが1つずつ開放されます"
       }
     ]
   },
@@ -2374,6 +2402,21 @@
   },
   "blackfriday_pack_select_skinall_dialog": {
     "tip": "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
+  },
+  "blackfriday_ptshop": {
+    "tip": "PT商店（不需要本地化）"
+  },
+  "blackfriday_shop": {
+    "tip": "ショップ"
+  },
+  "blackfriday_shop_tip": {
+    "tip": "$1日$2時に開放"
+  },
+  "blackfriday_specialpack": {
+    "tip": "お得パック"
+  },
+  "blackfriday_task": {
+    "tip": "限定任務"
   },
   "blueprint_build_consume": {
     "tip": "$1を消費し、開発を行いますか？"
@@ -2647,7 +2690,7 @@
     "tip": "「済安」「龍武」「虎賁」常設実装！"
   },
   "buildship_new_tip": {
-    "tip": "期間限定建造を累計200回行うと「ヨークタウンⅡ」を確定で入手可能！（最大4隻まで）"
+    "tip": "期間限定建造を累計200回行うと「ラファエロ」を確定で入手可能！（最大4隻まで）"
   },
   "buildship_special_tip": {
     "tip": "「クロンシュタット」「ヴォルガ」常設実装！"
@@ -5340,6 +5383,18 @@
   "dorm3d_AR_switch": {
     "tip": "AR機能メンテナンス中…"
   },
+  "dorm3d_Ankeleiqi_bed": {
+    "tip": "寝室"
+  },
+  "dorm3d_Ankeleiqi_chair": {
+    "tip": "居間"
+  },
+  "dorm3d_Ankeleiqi_entertainmentarea": {
+    "tip": "娯楽エリア"
+  },
+  "dorm3d_VIDEO_CHAT_LABEL": {
+    "tip": "$1からの招待"
+  },
   "dorm3d_accompany_locked": {
     "tip": "未開放"
   },
@@ -5519,6 +5574,12 @@
   },
   "dorm3d_guide_tip": {
     "tip": "シリアスの部屋を見てみよう"
+  },
+  "dorm3d_ins_no_msg": {
+    "tip": "新着なし"
+  },
+  "dorm3d_ins_no_topics": {
+    "tip": "新着なし"
   },
   "dorm3d_invite_confirm_discount": {
     "tip": "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、<color=#39bfff>$4</color>の$5配置を開放しますか？"
@@ -5711,6 +5772,93 @@
   },
   "dorm3d_pledge_favor": {
     "tip": "ケッコンしていると親愛度100上昇"
+  },
+  "dorm3d_privatechat_chat": {
+    "tip": "チャット"
+  },
+  "dorm3d_privatechat_favor": {
+    "tip": "親密度"
+  },
+  "dorm3d_privatechat_furniture": {
+    "tip": "所持家具"
+  },
+  "dorm3d_privatechat_gift": {
+    "tip": "プレゼント"
+  },
+  "dorm3d_privatechat_ins": {
+    "tip": "艦船通信"
+  },
+  "dorm3d_privatechat_new_calls": {
+    "tip": "新着あり"
+  },
+  "dorm3d_privatechat_new_messages": {
+    "tip": "新着なし"
+  },
+  "dorm3d_privatechat_new_topics": {
+    "tip": "$1に新しい投稿があります"
+  },
+  "dorm3d_privatechat_no_visit_time": {
+    "tip": "未開放"
+  },
+  "dorm3d_privatechat_nonew_calls": {
+    "tip": "新着なし"
+  },
+  "dorm3d_privatechat_nonew_messages": {
+    "tip": "新着あり"
+  },
+  "dorm3d_privatechat_nonew_topics": {
+    "tip": "新しい投稿はありません"
+  },
+  "dorm3d_privatechat_phone": {
+    "tip": "通話"
+  },
+  "dorm3d_privatechat_room_beach": {
+    "tip": "海辺、水着、バレーボール…潮風の中で楽しもう！"
+  },
+  "dorm3d_privatechat_room_character": {
+    "tip": "開放可能艦船"
+  },
+  "dorm3d_privatechat_room_download": {
+    "tip": "$1のアセットをDLしておく必要があります"
+  },
+  "dorm3d_privatechat_room_guide": {
+    "tip": "ビーチに訪問してください"
+  },
+  "dorm3d_privatechat_room_unlock": {
+    "tip": "アセットをダウンロードする必要があります"
+  },
+  "dorm3d_privatechat_screen_all": {
+    "tip": "すべて"
+  },
+  "dorm3d_privatechat_screen_floor_1": {
+    "tip": "母港ビーチ"
+  },
+  "dorm3d_privatechat_telephone": {
+    "tip": "未開放です"
+  },
+  "dorm3d_privatechat_telephone_call": {
+    "tip": "通話"
+  },
+  "dorm3d_privatechat_telephone_calllog": {
+    "tip": "通話記録"
+  },
+  "dorm3d_privatechat_telephone_noviewed": {
+    "tip": "未確認"
+  },
+  "dorm3d_privatechat_topics": {
+    "tip": "艦船通信"
+  },
+  "dorm3d_privatechat_visit": {
+    "tip": "前回訪問"
+  },
+  "dorm3d_privatechat_visit_time": {
+    "tip": "$1日前"
+  },
+  "dorm3d_privatechat_visit_time_now": {
+    "tip": "今日"
+  },
+  "dorm3d_privatechat_welcome": {
+    "tip": "キャラ招待"
   },
   "dorm3d_purchase_confirm_discount": {
     "tip": "$1<color=#169fff>$2</color>（割引前価格$3）を消費し、<color=#169fff>$4</color>を購入しますか？"
@@ -15993,6 +16141,9 @@
         "info": "■遊び方\n・キャンペーン期間中、毎日ゲーム回数が１回加算されます（最大７回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費され、さらに「初夏招待券」を手に入れるのに必要なログイン回数が１回加算されます。\n・ログイン回数を7回入手すると、イベントバナーにて「初夏招待券2021」を入手できます。\n・ゲーム回数の所持数は「饅頭ランド」画面右側、ログイン回数の所持数は招待券バナーにて確認できます。\n・イベントバナーはイベント一覧のほか、「饅頭ランド」で「招待状」ボタンタップで遷移できます。\n・ゲーム回数を所持していない状態でミニゲームをクリアしても、ログイン回数は加算されません。"
       }
     ]
+  },
+  "rps_game_take_card": {
+    "tip": "カード確定"
   },
   "ryza_composite_confirm": {
     "tip": "$1 × $2 を調合しますか？"

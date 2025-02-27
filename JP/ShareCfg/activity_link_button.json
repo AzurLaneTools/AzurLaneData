@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5802",
+    "param": "5821",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5802
+      5821
     ],
     "type": 3
   },
@@ -229,6 +229,22 @@
     ],
     "type": 7
   },
+  "106": {
+    "group_id": 11,
+    "id": 106,
+    "name": "event_blackFriday",
+    "order": 1,
+    "param": [
+      "BlackFridaySales"
+    ],
+    "pic": "event_blackfriday",
+    "text_pic": "text_event_blackfriday",
+    "time": [
+      "default",
+      5702
+    ],
+    "type": 2
+  },
   "107": {
     "group_id": 12,
     "id": 107,
@@ -279,6 +295,7 @@
     103,
     104,
     105,
+    106,
     107,
     108
   ],
@@ -296,6 +313,9 @@
     ],
     "event_aprilFool": [
       70
+    ],
+    "event_blackFriday": [
+      106
     ],
     "event_boat_ad_game": [
       105
