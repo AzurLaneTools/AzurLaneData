@@ -128,6 +128,51 @@
     "type_prioritys": "",
     "watch_camera": "Chair"
   },
+  "3001": {
+    "id": 3001,
+    "is_global": 0,
+    "name": "Bedroom",
+    "room_id": 3,
+    "special_action": "",
+    "touch_id": [
+      [
+        19903,
+        1990330
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Bed"
+  },
+  "3002": {
+    "id": 3002,
+    "is_global": 0,
+    "name": "Amusement Area",
+    "room_id": 3,
+    "special_action": "",
+    "touch_id": [
+      [
+        19903,
+        1990320
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "3003": {
+    "id": 3003,
+    "is_global": 0,
+    "name": "Living Area",
+    "room_id": 3,
+    "special_action": "",
+    "touch_id": [
+      [
+        19903,
+        1990310
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
   "4001": {
     "id": 4001,
     "is_global": 0,
@@ -189,6 +234,21 @@
     "type_prioritys": "",
     "watch_camera": "Nengdai"
   },
+  "4004": {
+    "id": 4004,
+    "is_global": 0,
+    "name": "Beach",
+    "room_id": 4,
+    "special_action": [],
+    "touch_id": [
+      [
+        19903,
+        1990390
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Ankeleiqi"
+  },
   "all": [
     1000,
     1001,
@@ -197,9 +257,13 @@
     2001,
     2002,
     2003,
+    3001,
+    3002,
+    3003,
     4001,
     4002,
-    4003
+    4003,
+    4004
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -213,10 +277,16 @@
       2002,
       2003
     ],
+    "3": [
+      3001,
+      3002,
+      3003
+    ],
     "4": [
       4001,
       4002,
-      4003
+      4003,
+      4004
     ]
   }
 }
