@@ -1,4 +1,34 @@
 {
+  "19903201": {
+    "background": "ins_199031_bg",
+    "discuss": [
+      5,
+      6
+    ],
+    "group_id": 1,
+    "id": 19903201,
+    "message": "ankeleiqi_1",
+    "name": "Anchorage",
+    "npc_discuss": "",
+    "picture": "ins_199031",
+    "sculpture": "ankeleiqi_3",
+    "ship_group": 19903
+  },
+  "19903202": {
+    "background": "Ins_199032_bg",
+    "discuss": [
+      7,
+      8
+    ],
+    "group_id": 1,
+    "id": 19903202,
+    "message": "ankeleiqi_2",
+    "name": "Anchorage",
+    "npc_discuss": "",
+    "picture": "Ins_199032",
+    "sculpture": "ankeleiqi_3",
+    "ship_group": 19903
+  },
   "20220201": {
     "background": "ins_202201_bg",
     "discuss": [
@@ -31,9 +61,15 @@
   },
   "all": [
     20220201,
-    30221201
+    30221201,
+    19903201,
+    19903202
   ],
   "get_id_list_by_ship_group": {
+    "19903": [
+      19903201,
+      19903202
+    ],
     "20220": [
       20220201
     ],
