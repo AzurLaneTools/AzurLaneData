@@ -1,4 +1,41 @@
 {
+  "199031": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/ankeleiqi",
+    "id": 199031,
+    "model_id": "ankeleiqi_noshoes",
+    "name": "安克雷奇常服",
+    "picture": "regular",
+    "ship_group": 19903,
+    "tags": [],
+    "type": 1,
+    "unlock": [
+      1,
+      19903,
+      1
+    ],
+    "unlock_text": ""
+  },
+  "199032": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/ankeleiqi",
+    "id": 199032,
+    "model_id": "ankeleiqi_swim",
+    "name": "安克雷奇泳装",
+    "picture": "regular",
+    "ship_group": 19903,
+    "tags": [
+      "beach",
+      "touch"
+    ],
+    "type": 1,
+    "unlock": [
+      5,
+      4,
+      19903
+    ],
+    "unlock_text": "在沙滩中邀请安克雷奇解锁"
+  },
   "202201": {
     "animator": "",
     "head_Icon": "dorm3Dchar/tianlangxing",
@@ -77,9 +114,15 @@
     202201,
     202202,
     302211,
-    302212
+    302212,
+    199031,
+    199032
   ],
   "get_id_list_by_ship_group": {
+    "19903": [
+      199031,
+      199032
+    ],
     "20220": [
       202201,
       202202

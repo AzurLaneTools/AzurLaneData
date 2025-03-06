@@ -119,96 +119,9 @@
   "dormlvperformance201": [
     {
       "params": [
-        20101
-      ],
-      "type": 1
-    },
-    {
-      "name": "load",
-      "params": {
-        "name": "Qihe_mengyanjingxi",
-        "wait_timeline": false
-      },
-      "type": 9
-    },
-    {
-      "name": "load",
-      "params": {
-        "name": "Qihe_xintiaochumo",
-        "wait_timeline": false
-      },
-      "type": 9
-    },
-    {
-      "name": "other",
-      "params": {
-        "scene": "map_noshirohostel_02",
-        "sceneRoot": "Nengdai_DB/Noshirohostel"
-      },
-      "type": 8
-    },
-    {
-      "params": [
         20501
       ],
       "type": 1
-    },
-    {
-      "params": [
-        20102
-      ],
-      "type": 1
-    },
-    {
-      "name": "set",
-      "params": {
-        "hide_back": true,
-        "state": 299991
-      },
-      "type": 11
-    },
-    {
-      "name": "back",
-      "params": {
-        "character_action": "Idle"
-      },
-      "type": 11
-    },
-    {
-      "params": [
-        20041
-      ],
-      "type": 1
-    },
-    {
-      "params": [
-        20521
-      ],
-      "type": 1
-    },
-    {
-      "params": [
-        20104
-      ],
-      "type": 1
-    },
-    {
-      "name": "unload",
-      "params": {
-        "name": "Qihe_xintiaochumo"
-      },
-      "type": 9
-    },
-    {
-      "name": "unload",
-      "params": {
-        "name": "Qihe_mengyanjingxi"
-      },
-      "type": 9
-    },
-    {
-      "name": "base",
-      "type": 8
     }
   ],
   "dormlvperformance202": [
@@ -229,10 +142,79 @@
   ],
   "dormlvperformance204": [
     {
+      "name": "other",
+      "params": {
+        "scene": "map_noshirohostel_02",
+        "sceneRoot": "Nengdai_DB/Noshirohostel"
+      },
+      "type": 8
+    },
+    {
+      "name": "load",
+      "params": {
+        "name": "FFliwu_chuanxie",
+        "wait_timeline": false
+      },
+      "type": 9
+    },
+    {
       "params": [
         29992
       ],
       "type": 1
+    },
+    {
+      "name": "set",
+      "params": {
+        "hide_back": true,
+        "state": 299991
+      },
+      "type": 11
+    },
+    {
+      "name": "back",
+      "params": {
+        "character_action": "Idle"
+      },
+      "type": 11
+    },
+    {
+      "params": [
+        29993
+      ],
+      "type": 1
+    },
+    {
+      "name": "set",
+      "params": {
+        "hide_back": true,
+        "state": 299992
+      },
+      "type": 11
+    },
+    {
+      "name": "back",
+      "params": {
+        "character_action": "Idle"
+      },
+      "type": 11
+    },
+    {
+      "params": [
+        29994
+      ],
+      "type": 1
+    },
+    {
+      "name": "unload",
+      "params": {
+        "name": "FFliwu_chuanxie"
+      },
+      "type": 9
+    },
+    {
+      "name": "base",
+      "type": 8
     }
   ],
   "dormlvperformance301": [

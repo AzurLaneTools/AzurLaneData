@@ -134,6 +134,69 @@
     "type": 5,
     "zone_id": 2003
   },
+  "130101": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_ah_toy05",
+    "id": 130101,
+    "name": "卧室帐篷玩偶",
+    "room_id": 3,
+    "type": 3,
+    "zone_id": 3001
+  },
+  "130102": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_ah_pottedplant01",
+    "id": 130102,
+    "name": "卧室床边摆件",
+    "room_id": 3,
+    "type": 3,
+    "zone_id": 3001
+  },
+  "130103": {
+    "default_furniture": 301,
+    "furniture_name": "pre_db_bed03",
+    "id": 130103,
+    "name": "卧室床",
+    "room_id": 3,
+    "type": 4,
+    "zone_id": 3001
+  },
+  "130201": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_ah_billboard01_group01",
+    "id": 130201,
+    "name": "娱乐区画框",
+    "room_id": 3,
+    "type": 3,
+    "zone_id": 3002
+  },
+  "130202": {
+    "default_furniture": 302,
+    "furniture_name": "pre_db_carpet20",
+    "id": 130202,
+    "name": "娱乐区",
+    "room_id": 3,
+    "type": 6,
+    "zone_id": 3002
+  },
+  "130301": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_ah_decoration02",
+    "id": 130301,
+    "name": "客厅窗户玩偶",
+    "room_id": 3,
+    "type": 3,
+    "zone_id": 3003
+  },
+  "130302": {
+    "default_furniture": 303,
+    "furniture_name": "pre_db_chair15",
+    "id": 130302,
+    "name": "客厅沙发",
+    "room_id": 3,
+    "type": 5,
+    "zone_id": 3003
+  },
   "all": [
     100101,
     100102,
@@ -149,10 +212,17 @@
     120203,
     120301,
     120302,
-    120303
+    120303,
+    130101,
+    130102,
+    130103,
+    130201,
+    130202,
+    130301,
+    130302
   ],
-  "get_id_list_by_room_id": {
-    "1": [
+  "get_id_list_by_room_id": [
+    [
       100101,
       100102,
       100201,
@@ -160,7 +230,7 @@
       100301,
       100402
     ],
-    "2": [
+    [
       120101,
       120102,
       120103,
@@ -170,8 +240,17 @@
       120301,
       120302,
       120303
+    ],
+    [
+      130101,
+      130102,
+      130103,
+      130201,
+      130202,
+      130301,
+      130302
     ]
-  },
+  ],
   "get_id_list_by_zone_id": {
     "1001": [
       100101,
@@ -201,6 +280,19 @@
       120301,
       120302,
       120303
+    ],
+    "3001": [
+      130101,
+      130102,
+      130103
+    ],
+    "3002": [
+      130201,
+      130202
+    ],
+    "3003": [
+      130301,
+      130302
     ]
   }
 }
