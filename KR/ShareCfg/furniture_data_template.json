@@ -7595,6 +7595,84 @@
     "themeId": 0,
     "type": 7
   },
+  "291": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "헉헉헉~ 이 손잡이만 열심히 돌리면 대상 뽑을 수 있어!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "choujiangtuicheicon",
+    "id": 291,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "쥬쥬 추첨카",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      2
+    ],
+    "spine": [
+      [
+        "choujiangtuiche",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "dance1",
+            "3": "dance"
+          }
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ],
+        [
+          [
+            "dance1",
+            "dance2",
+            "dance3"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 2
+  },
   "292": {
     "advice": 0,
     "belong": 1,
@@ -7671,6 +7749,49 @@
     "size": [
       3,
       3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
+  "295": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "영야의 왕관의 복제품. 광채는 그대로 유지하면서 META화 침식만 제거하여, 안심하고 감상할 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "새장에 갇힌 신의 빛",
+    "icon": "lafeierxunzhangicon",
+    "id": 295,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "영야의 왕관",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "lafeierxunzhang",
+        "normal"
+      ]
     ],
     "spine_action_replace": "",
     "spine_extra": "",
@@ -57945,7 +58066,9 @@
         {
           "3": [
             "sit0",
-            "sit"
+            "sit",
+            false,
+            true
           ]
         },
         [
@@ -79220,7 +79343,9 @@
         {
           "3": [
             "action",
-            "dance"
+            "dance",
+            false,
+            true
           ]
         },
         [
@@ -113653,7 +113778,9 @@
         {
           "3": [
             "action",
-            "tuozhuai2"
+            "tuozhuai2",
+            false,
+            true
           ],
           "4": "tuozhuai2"
         },
@@ -115412,7 +115539,9 @@
         {
           "3": [
             "sit1",
-            "sit"
+            "sit",
+            false,
+            true
           ],
           "4": "sit"
         },
@@ -116521,7 +116650,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "등장! 천재와 천재 메카닉의 만남! 다 빈치 1호와 소브라지텔니 1호 등장!",
+    "describe": "짜잔! 천재 & 천재 메카닉, 다 빈치 1호와 소브라지텔니 1호 등장!",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -116532,7 +116661,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "복실복실한 천재 군단!",
+    "name": "폭신폭신 천재 군단!",
     "offset": [],
     "picture": "chuanmo/juuswanou",
     "rarity": 4,
@@ -116558,7 +116687,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "동화 같은 외형과 편안함을 가지고 있으며 이불 속에 펄이 있을 수도?",
+    "describe": "판타지스러운 외관에 판타스틱한 편안함! 어쩌면 이불 속에서 진주를 찾을 수 있을지도 모른다.",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -116573,7 +116702,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "반짝이는 조개 침대",
+    "name": "반짝반짝 셸 캐빈",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -116974,7 +117103,9 @@
           "2": 1,
           "3": [
             "walk1",
-            "walk"
+            "walk",
+            false,
+            true
           ]
         },
         [
@@ -128740,7 +128871,9 @@
         {
           "3": [
             "sit1",
-            "sit"
+            "sit",
+            false,
+            true
           ],
           "4": "sit"
         },
@@ -138369,6 +138502,979 @@
     "spine_extra": "",
     "tag": 7,
     "themeId": 118,
+    "type": 6
+  },
+  "319001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanajicon",
+    "id": 319001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오의 바닥",
+    "offset": [],
+    "picture": "aj/dibanaj",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 119,
+    "type": 4
+  },
+  "319002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbiajicon",
+    "id": 319002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "파라오의 벽",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbiaj",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 119,
+    "type": 1
+  },
+  "319101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "귀엽고 작은 수영장이지만, 성스러운 힘으로 몸을 축복해주고, 정화력이 무척 높다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "chitangajicon",
+    "id": 319101,
+    "interAction": [
+      [
+        "wash",
+        [
+          -19.1,
+          -100.8
+        ],
+        [
+          -1,
+          1
+        ],
+        "aj/chitangaj_using",
+        0,
+        [
+          [
+            0.5,
+            2
+          ],
+          [
+            662,
+            399
+          ],
+          "aj/chitangaj_mask"
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오 풀",
+    "offset": [],
+    "picture": "aj/chitangaj",
+    "rarity": 4,
+    "size": [
+      11,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "고대 서적과 과일이 놓인 카펫에서 잠을 청하면, 신비로운 꿈을 꿀 수 있을지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditanajicon",
+    "id": 319102,
+    "interAction": [
+      [
+        "sleep",
+        [
+          13.9,
+          12.5
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오 카펫",
+    "offset": [],
+    "picture": "aj/ditanaj",
+    "rarity": 3,
+    "size": [
+      6,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "신전을 지키는 성스러운 위병 만쥬. 뒤집히더라도 능력은 제대로 발휘할 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiudiaoxiang1ajicon",
+    "id": 319103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "위병 만쥬상",
+    "offset": [],
+    "picture": "aj/jiudiaoxiang1aj",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "신전을 지키는 성스러운 위병 만쥬. 뒤집히더라도 능력은 제대로 발휘할 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiudiaoxiang2ajicon",
+    "id": 319104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "위병 만쥬상 2",
+    "offset": [],
+    "picture": "aj/jiudiaoxiang2aj",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "천년의 비밀을 지키는 스핑크스상. 종류는 의외로 많은 듯하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shishendiaoxiang1ajicon",
+    "id": 319105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "사자 만쥬상",
+    "offset": [],
+    "picture": "aj/shishendiaoxiang1aj",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "천년의 비밀을 지키는 스핑크스상. 종류는 의외로 많은 듯하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shishendiaoxiang2ajicon",
+    "id": 319106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "사자 만쥬상 2",
+    "offset": [],
+    "picture": "aj/shishendiaoxiang2aj",
+    "rarity": 3,
+    "size": [
+      3,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이국의 과일이 풍기는 향이 무척이나 향긋하다. 다음 손님이 기다려진다 쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaotanajicon",
+    "id": 319107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오 시장 만쥬",
+    "offset": [],
+    "picture": "aj/xiaotanaj",
+    "rarity": 3,
+    "size": [
+      4,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "보물이 묻혀 있나…… 어디 확인해 볼까 쥬쥬?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shaduiajicon",
+    "id": 319108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "옛 모래톱",
+    "offset": [],
+    "picture": "aj/shaduiaj",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "높이 솟아오른 지휘냥상. 무언가를 근엄하게 지도하는 듯한 모습이다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "maoshixiangajicon",
+    "id": 319109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파수꾼 지휘냥상",
+    "offset": [],
+    "picture": "aj/maoshixiangaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "수수께끼의 물건 하나 하나에 이야기가 숨겨져 있다. 하나 골라볼까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guangchangajicon",
+    "id": 319110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오 시장 만쥬",
+    "offset": [],
+    "picture": "aj/guangchangaj",
+    "rarity": 4,
+    "size": [
+      8,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "얼핏 보면 평범한 항아리 같지만…… 너무 건드리지 않는 편이 좋을 것 같다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "taoqiajicon",
+    "id": 319111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "잠든 뱀의 항아리",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      1,
+      1
+    ],
+    "spine": [
+      [
+        "taoqiaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "신전을 지탱하는 거대한 돌기둥. 새겨진 모양에는 주로 빵, 맥주, 마늘 등이 있다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "hengliangajicon",
+    "id": 319112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "신전 기둥",
+    "offset": [],
+    "picture": "aj/hengliangaj",
+    "rarity": 2,
+    "size": [
+      9,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "붕대를 두른 만쥬. 파라오가 내린 불멸의 저주…인가? !",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "bengdaijiuajicon",
+    "id": 319113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "미라 만쥬",
+    "offset": [],
+    "picture": "aj/bengdaijiuaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "정체불명의 금빛 관. 열지 않는 편이 좋을 것 같다…",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "guanmuajicon",
+    "id": 319114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오의 관",
+    "offset": [],
+    "picture": "aj/guanmuaj",
+    "rarity": 4,
+    "size": [
+      3,
+      2
+    ],
+    "spine": [
+      [
+        "guanmuaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "수수께끼의 고대 문자가 무수히 새겨진 오벨리스크. 천지를 흔드는 전능한 지혜가 승리로 이끌어 준다고 한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fangjianbeiajicon",
+    "id": 319115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "오벨리스크",
+    "offset": [],
+    "picture": "aj/fangjianbeiaj",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 4,
+    "deblocking": 1,
+    "describe": "깨끗하게 열을 맞춰 심긴 녹색 작물들이 뜨거운 사막에 생명의 빛과 희망을 전해주고 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "huatanajicon",
+    "id": 319116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "파라오의 화단",
+    "offset": [],
+    "picture": "aj/huatanaj",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 119,
+    "type": 2
+  },
+  "319117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "옥좌에 앉아 하늘을 질주하라! 황금을 휘감아, 날개 달린 신으로 거듭나리라! …단, 너무 높이 날지는 않도록 하자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "baozuoajicon",
+    "id": 319117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "날개 달린 신의 옥좌",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      5,
+      5
+    ],
+    "spine": [
+      [
+        "baozuoajB",
+        "normal"
+      ],
+      [
+        "baozuoajT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ],
+          [
+            "tuozhuai2"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 119,
+    "type": 2
+  },
+  "319301": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "복도를 지키는 석상이 이곳에 발을 들이는 자를 평가한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jianzhuqiangajicon",
+    "id": 319301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "왕묘의 벽",
+    "offset": [],
+    "picture": "aj/jianzhuqiangaj",
+    "rarity": 4,
+    "size": [
+      12,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 10
+  },
+  "319302": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "천년의 문 너머에는 무엇이 기다리고 있을까…냥?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shixiangdamenajicon",
+    "id": 319302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "바스테트의 문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      8,
+      0
+    ],
+    "spine": [
+      [
+        "shixiangdamenaj",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 6
+  },
+  "319303": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이 금빛 모양도 고대의 주문…일지도 모른다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jinzitaqiangshiajicon",
+    "id": 319303,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "피라미드의 벽장식",
+    "offset": [],
+    "picture": "aj/jinzitaqiangshiaj",
+    "rarity": 2,
+    "size": [
+      10,
+      0
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
+    "type": 6
+  },
+  "319304": {
+    "advice": 0,
+    "belong": 2,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "시간의 모래에 금빛으로 물들여진 석판. 다른 차원으로 이어지는 비밀이 담겨져 있다고도 한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "feiniaoajicon",
+    "id": 319304,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "황금 독수리 석판화",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      4,
+      0
+    ],
+    "spine": [
+      [
+        "feiniaoaj",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 119,
     "type": 6
   }
 }

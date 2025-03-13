@@ -37136,7 +37136,7 @@
     "type": 1
   },
   "4181": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무1 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 1」 시작",
     "icon": "memory_jian",
     "id": 4181,
     "is_open": 0,
@@ -37158,7 +37158,7 @@
     "type": 1
   },
   "4183": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무3 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 3」 시작",
     "icon": "memory_jian",
     "id": 4183,
     "is_open": 0,
@@ -37169,7 +37169,7 @@
     "type": 1
   },
   "4184": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무4 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 4」 시작",
     "icon": "memory_jian",
     "id": 4184,
     "is_open": 0,
@@ -37180,7 +37180,7 @@
     "type": 1
   },
   "4185": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무5 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 5」 시작",
     "icon": "memory_jian",
     "id": 4185,
     "is_open": 0,
@@ -37191,7 +37191,7 @@
     "type": 1
   },
   "4186": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무6 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 6」 시작",
     "icon": "memory_jian",
     "id": 4186,
     "is_open": 0,
@@ -37202,7 +37202,7 @@
     "type": 1
   },
   "4187": {
-    "condition": "「지휘관님, 식사 시간이에요!」 임무7 해제",
+    "condition": "「지휘관님, 식사 시간이에요! 7」 시작",
     "icon": "memory_jian",
     "id": 4187,
     "is_open": 0,
@@ -37286,7 +37286,447 @@
     "mask": "bg/bg_memory",
     "story": "SHOUXUANZHEZHILU7",
     "subtitle": "",
-    "title": "교황 폐하",
+    "title": "교황 성하",
+    "type": 1
+  },
+  "4201": {
+    "condition": "EP1-1 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4201,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG1",
+    "subtitle": "",
+    "title": "한바탕 소동 후",
+    "type": 1
+  },
+  "4202": {
+    "condition": "EP1-2 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4202,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG2",
+    "subtitle": "",
+    "title": "사르데냐 동맹",
+    "type": 1
+  },
+  "4203": {
+    "condition": "EP1-3 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4203,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG3",
+    "subtitle": "",
+    "title": "신앙? 심상?",
+    "type": 1
+  },
+  "4204": {
+    "condition": "EP1-4 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4204,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG4",
+    "subtitle": "",
+    "title": "선택받은 자의 문",
+    "type": 1
+  },
+  "4205": {
+    "condition": "EPS 1-1 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4205,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG5",
+    "subtitle": "",
+    "title": "밤을 향한 첫 걸음",
+    "type": 1
+  },
+  "4206": {
+    "condition": "EPS 1-2 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4206,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG6",
+    "subtitle": "",
+    "title": "문Ⅱ",
+    "type": 1
+  },
+  "4207": {
+    "condition": "EP2-1 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4207,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG7",
+    "subtitle": "",
+    "title": "마르코 폴로의 꿈",
+    "type": 1
+  },
+  "4208": {
+    "condition": "EPS2-1 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4208,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG8",
+    "subtitle": "",
+    "title": "문Ⅲ",
+    "type": 1
+  },
+  "4209": {
+    "condition": "EP2-2 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4209,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG9",
+    "subtitle": "",
+    "title": "교황의 오후",
+    "type": 1
+  },
+  "4210": {
+    "condition": "EP2-3 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4210,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG10",
+    "subtitle": "",
+    "title": "그림자 파괴자",
+    "type": 1
+  },
+  "4211": {
+    "condition": "EPS2-2 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4211,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG11",
+    "subtitle": "",
+    "title": "밤을 향한 두 번째 걸음",
+    "type": 1
+  },
+  "4212": {
+    "condition": "EPS2-3 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4212,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG12",
+    "subtitle": "",
+    "title": "문Ⅳ",
+    "type": 1
+  },
+  "4213": {
+    "condition": "EP2-4 클리어",
+    "icon": "memory_fanlongneideshenguang1",
+    "id": 4213,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG13",
+    "subtitle": "",
+    "title": "선전 포고",
+    "type": 1
+  },
+  "4214": {
+    "condition": "EP3-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4214,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "1896001",
+    "subtitle": "",
+    "title": "아르노 강 요격전",
+    "type": 2
+  },
+  "4215": {
+    "condition": "EPS3-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4215,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG15",
+    "subtitle": "",
+    "title": "밤을 향한 세 번째 걸음",
+    "type": 1
+  },
+  "4216": {
+    "condition": "EP3-2 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4216,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG16",
+    "subtitle": "",
+    "title": "최종 심판 의식",
+    "type": 1
+  },
+  "4217": {
+    "condition": "EPS3-2 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4217,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG17",
+    "subtitle": "",
+    "title": "문 V-VI",
+    "type": 1
+  },
+  "4218": {
+    "condition": "EP3-3 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4218,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG18",
+    "subtitle": "",
+    "title": "대담한 계획",
+    "type": 1
+  },
+  "4219": {
+    "condition": "EP3-4 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4219,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "1896002",
+    "subtitle": "",
+    "title": "빛과 어둠의 대결?",
+    "type": 2
+  },
+  "4220": {
+    "condition": "EP3-5 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4220,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG20",
+    "subtitle": "",
+    "title": "말없는 석상",
+    "type": 1
+  },
+  "4221": {
+    "condition": "EP4-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4221,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG21",
+    "subtitle": "",
+    "title": "이변",
+    "type": 1
+  },
+  "4222": {
+    "condition": "EPS4-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4222,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG22",
+    "subtitle": "",
+    "title": "문 VII",
+    "type": 1
+  },
+  "4223": {
+    "condition": "EP4-2 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4223,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG23",
+    "subtitle": "",
+    "title": "쌍방향 간섭",
+    "type": 1
+  },
+  "4224": {
+    "condition": "EP4-3 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4224,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG24",
+    "subtitle": "",
+    "title": "문 VIII-X",
+    "type": 1
+  },
+  "4225": {
+    "condition": "EP5-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4225,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG25",
+    "subtitle": "",
+    "title": "유인 작전",
+    "type": 1
+  },
+  "4226": {
+    "condition": "EP5-2 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4226,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG26",
+    "subtitle": "",
+    "title": "문 Ⅺ",
+    "type": 1
+  },
+  "4227": {
+    "condition": "EP5-3 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4227,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "1896003",
+    "subtitle": "",
+    "title": "결전Ⅰ",
+    "type": 2
+  },
+  "4228": {
+    "condition": "EPS5-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4228,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "1896004",
+    "subtitle": "",
+    "title": "결전Ⅱ",
+    "type": 2
+  },
+  "4229": {
+    "condition": "EP6-1 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4229,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "1896005",
+    "subtitle": "",
+    "title": "결전Ⅲ",
+    "type": 2
+  },
+  "4230": {
+    "condition": "EP6-2 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4230,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG30",
+    "subtitle": "",
+    "title": "신과 함께",
+    "type": 1
+  },
+  "4231": {
+    "condition": "EP6-3 클리어",
+    "icon": "memory_fanlongneideshenguang2",
+    "id": 4231,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG31",
+    "subtitle": "",
+    "title": "에필로그",
+    "type": 1
+  },
+  "4232": {
+    "condition": "EX-1 클리어",
+    "icon": "memory_fanlongneideshenguang3",
+    "id": 4232,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG32",
+    "subtitle": "",
+    "title": "계속",
+    "type": 1
+  },
+  "4233": {
+    "condition": "EX-2 클리어",
+    "icon": "memory_fanlongneideshenguang3",
+    "id": 4233,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG33",
+    "subtitle": "",
+    "title": "또 만날 때까지",
+    "type": 1
+  },
+  "4234": {
+    "condition": "EX-3 클리어",
+    "icon": "memory_fanlongneideshenguang3",
+    "id": 4234,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG34",
+    "subtitle": "",
+    "title": "튤립의 새싹",
+    "type": 1
+  },
+  "4235": {
+    "condition": "EX-4 클리어",
+    "icon": "memory_fanlongneideshenguang3",
+    "id": 4235,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG35",
+    "subtitle": "",
+    "title": "트러블",
+    "type": 1
+  },
+  "4236": {
+    "condition": "EX-5 클리어",
+    "icon": "memory_fanlongneideshenguang3",
+    "id": 4236,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "FANLONGNEIDESHENGUANG36",
+    "subtitle": "",
+    "title": "「나」",
+    "type": 1
+  },
+  "4241": {
+    "condition": "「스킨 특집」 페이지에서 라파엘로 선택",
+    "icon": "memory_gangqushishangtekan",
+    "id": 4241,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "SHISHANGTEKANNILUOHEWENHUAZHAN1",
+    "subtitle": "",
+    "title": "사랑과 미의 비밀 소장품",
+    "type": 1
+  },
+  "4242": {
+    "condition": "「스킨 특집」 페이지에서 마조레 바라카 선택",
+    "icon": "memory_gangqushishangtekan",
+    "id": 4242,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "SHISHANGTEKANNILUOHEWENHUAZHAN2",
+    "subtitle": "",
+    "title": "신의 징계 플레이",
+    "type": 1
+  },
+  "4243": {
+    "condition": "「스킨 특집」 페이지에서 지안 선택",
+    "icon": "memory_gangqushishangtekan",
+    "id": 4243,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "SHISHANGTEKANNILUOHEWENHUAZHAN3",
+    "subtitle": "",
+    "title": "이국의 몽상향",
+    "type": 1
+  },
+  "4244": {
+    "condition": "「스킨 특집」 페이지에서 스킬라 선택",
+    "icon": "memory_gangqushishangtekan",
+    "id": 4244,
+    "is_open": 0,
+    "mask": "bg/bg_memory",
+    "story": "SHISHANGTEKANNILUOHEWENHUAZHAN4",
+    "subtitle": "",
+    "title": "시녀의 심판",
     "type": 1
   },
   "10000": {
@@ -38962,7 +39402,7 @@
     "type": 1
   },
   "20082": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20082,
     "is_open": 0,
@@ -38973,7 +39413,7 @@
     "type": 1
   },
   "20083": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20083,
     "is_open": 0,
@@ -38984,7 +39424,7 @@
     "type": 1
   },
   "20084": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20084,
     "is_open": 0,
@@ -38995,29 +39435,29 @@
     "type": 1
   },
   "20085": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20085,
     "is_open": 0,
     "mask": "bg/bg_memory",
     "story": "LINGYANGZHEYANGCHENGJIHUA4",
     "subtitle": "",
-    "title": "호칭1",
+    "title": "호칭·상",
     "type": 1
   },
   "20086": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20086,
     "is_open": 0,
     "mask": "bg/bg_memory",
     "story": "LINGYANGZHEYANGCHENGJIHUA5",
     "subtitle": "",
-    "title": "호칭2",
+    "title": "호칭·후",
     "type": 1
   },
   "20087": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20087,
     "is_open": 0,
@@ -39028,7 +39468,7 @@
     "type": 1
   },
   "20088": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20088,
     "is_open": 0,
@@ -39039,7 +39479,7 @@
     "type": 1
   },
   "20089": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20089,
     "is_open": 0,
@@ -39050,7 +39490,7 @@
     "type": 1
   },
   "20090": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20090,
     "is_open": 0,
@@ -39061,7 +39501,7 @@
     "type": 1
   },
   "20091": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20091,
     "is_open": 0,
@@ -39094,7 +39534,7 @@
     "type": 1
   },
   "20094": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20094,
     "is_open": 0,
@@ -39105,7 +39545,7 @@
     "type": 1
   },
   "20095": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20095,
     "is_open": 0,
@@ -39116,7 +39556,7 @@
     "type": 1
   },
   "20096": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20096,
     "is_open": 0,
@@ -39127,7 +39567,7 @@
     "type": 1
   },
   "20097": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20097,
     "is_open": 0,
@@ -39138,7 +39578,7 @@
     "type": 1
   },
   "20098": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20098,
     "is_open": 0,
@@ -39149,7 +39589,7 @@
     "type": 1
   },
   "20099": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20099,
     "is_open": 0,
@@ -39182,18 +39622,18 @@
     "type": 1
   },
   "20102": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20102,
     "is_open": 0,
     "mask": "bg/bg_memory",
     "story": "LINGYANGZHEYANGCHENGJIHUA22",
     "subtitle": "",
-    "title": "새로운 시작",
+    "title": "미래의 방향",
     "type": 1
   },
   "20103": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20103,
     "is_open": 0,
@@ -39204,7 +39644,7 @@
     "type": 1
   },
   "20104": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20104,
     "is_open": 0,
@@ -39215,7 +39655,7 @@
     "type": 1
   },
   "20105": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20105,
     "is_open": 0,
@@ -39226,7 +39666,7 @@
     "type": 1
   },
   "20106": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20106,
     "is_open": 0,
@@ -39237,7 +39677,7 @@
     "type": 1
   },
   "20107": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20107,
     "is_open": 0,
@@ -39248,7 +39688,7 @@
     "type": 1
   },
   "20108": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20108,
     "is_open": 0,
@@ -39281,18 +39721,18 @@
     "type": 1
   },
   "20111": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20111,
     "is_open": 0,
     "mask": "bg/bg_memory",
     "story": "LINGYANGZHEYANGCHENGJIHUA31",
     "subtitle": "",
-    "title": "새로운 시작",
+    "title": "새로운 출발",
     "type": 1
   },
   "20112": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20112,
     "is_open": 0,
@@ -39303,7 +39743,7 @@
     "type": 1
   },
   "20113": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20113,
     "is_open": 0,
@@ -39314,7 +39754,7 @@
     "type": 1
   },
   "20114": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20114,
     "is_open": 0,
@@ -39325,7 +39765,7 @@
     "type": 1
   },
   "20115": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20115,
     "is_open": 0,
@@ -39336,7 +39776,7 @@
     "type": 1
   },
   "20116": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20116,
     "is_open": 0,
@@ -39347,7 +39787,7 @@
     "type": 1
   },
   "20117": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20117,
     "is_open": 0,
@@ -39358,7 +39798,7 @@
     "type": 1
   },
   "20118": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20118,
     "is_open": 0,
@@ -39369,7 +39809,7 @@
     "type": 1
   },
   "20119": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20119,
     "is_open": 0,
@@ -39380,7 +39820,7 @@
     "type": 1
   },
   "20120": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20120,
     "is_open": 0,
@@ -39391,7 +39831,7 @@
     "type": 1
   },
   "20121": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20121,
     "is_open": 0,
@@ -39402,7 +39842,7 @@
     "type": 1
   },
   "20122": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20122,
     "is_open": 0,
@@ -39413,7 +39853,7 @@
     "type": 1
   },
   "20123": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20123,
     "is_open": 0,
@@ -39424,7 +39864,7 @@
     "type": 1
   },
   "20124": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20124,
     "is_open": 0,
@@ -39435,7 +39875,7 @@
     "type": 1
   },
   "20125": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20125,
     "is_open": 0,
@@ -39446,7 +39886,7 @@
     "type": 1
   },
   "20126": {
-    "condition": "「육성」 - 네비게이터의 엔딩 오픈",
+    "condition": "「육성」 - 네비게이터 엔딩 오픈",
     "icon": "tb_zhuxian",
     "id": 20126,
     "is_open": 0,
@@ -39457,7 +39897,7 @@
     "type": 1
   },
   "20127": {
-    "condition": "「육성」 - 네비게이터의 스토리 클리어",
+    "condition": "「육성」 - 네비게이터 스토리 클리어",
     "icon": "tb_zhuxian",
     "id": 20127,
     "is_open": 0,

@@ -71,6 +71,7 @@
     "resource_name": "Tianlangxing_DB",
     "room": "시리우스",
     "room_bgm": "story-room-sirius",
+    "room_des": "",
     "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
     "tag": "",
     "type": 2,
@@ -148,7 +149,77 @@
     "resource_name": "Nengdai_DB",
     "room": "노시로",
     "room_bgm": "story-room-noshiro",
+    "room_des": "",
     "scene_info": "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
+    "tag": "",
+    "type": 2,
+    "unlock_item": []
+  },
+  "3": {
+    "ar_anim": [
+      [
+        19903,
+        [
+          3001,
+          3002,
+          3003,
+          3005,
+          3006,
+          3007,
+          3008,
+          3010,
+          3011,
+          3012,
+          3013,
+          3014,
+          3015,
+          3016,
+          3017,
+          3018
+        ]
+      ]
+    ],
+    "assets_prefix": "Ankeleiqi",
+    "character": [
+      19903
+    ],
+    "character_pay": [],
+    "character_range": [
+      1
+    ],
+    "character_welcome": [
+      [
+        19903,
+        0
+      ]
+    ],
+    "default_zone": [
+      [
+        19903,
+        "Chair"
+      ]
+    ],
+    "furniture_zones": [
+      3001,
+      3002,
+      3003
+    ],
+    "id": 3,
+    "in_map": "floor_1",
+    "invite_banner": "",
+    "invite_cost": "",
+    "invite_mark": "",
+    "recall_list": [
+      41,
+      42,
+      43,
+      51
+    ],
+    "resource_name": "Ankeleiqi_DB",
+    "room": "앵커리지",
+    "room_bgm": "story-room-anchorage",
+    "room_des": "",
+    "scene_info": "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
     "tag": "",
     "type": 2,
     "unlock_item": []
@@ -174,17 +245,28 @@
           4204,
           4205
         ]
+      ],
+      [
+        19903,
+        [
+          4401,
+          4402,
+          4403,
+          4404,
+          4405
+        ]
       ]
     ],
     "assets_prefix": "Beach",
     "character": [],
     "character_pay": [
       20220,
-      30221
+      30221,
+      19903
     ],
     "character_range": [
       0,
-      2
+      3
     ],
     "character_welcome": [
       [
@@ -193,6 +275,10 @@
       ],
       [
         30221,
+        0
+      ],
+      [
+        19903,
         0
       ]
     ],
@@ -204,6 +290,10 @@
       [
         30221,
         "Nengdai"
+      ],
+      [
+        19903,
+        "Ankeleiqi"
       ]
     ],
     "furniture_zones": [],
@@ -222,6 +312,12 @@
         [
           "banner_beach3"
         ]
+      ],
+      [
+        19903,
+        [
+          "banner_beach4"
+        ]
       ]
     ],
     "invite_cost": [
@@ -232,6 +328,10 @@
       [
         30221,
         270111
+      ],
+      [
+        19903,
+        270112
       ]
     ],
     "invite_mark": [
@@ -250,12 +350,21 @@
           5,
           6
         ]
+      ],
+      [
+        19903,
+        [
+          1,
+          5,
+          6
+        ]
       ]
     ],
     "recall_list": [],
     "resource_name": "Beach",
     "room": "해변",
     "room_bgm": "story-room-sirius",
+    "room_des": "沙滩、泳装、排球……尽情在海风中玩耍吧~",
     "scene_info": "map_beach_02|Beach",
     "tag": "beach",
     "type": 1,
@@ -275,8 +384,8 @@
     ],
     "character_pay": [],
     "character_range": [
-      1,
-      3
+      0,
+      0
     ],
     "character_welcome": [
       [
@@ -295,6 +404,7 @@
     "resource_name": "Bathroom",
     "room": "욕실",
     "room_bgm": "story-room-sirius",
+    "room_des": "",
     "scene_info": "",
     "tag": "",
     "type": 1,
@@ -309,6 +419,7 @@
   "all": [
     1,
     2,
+    3,
     4,
     5
   ],
@@ -316,6 +427,7 @@
     "floor_1": [
       1,
       2,
+      3,
       4,
       5
     ]
