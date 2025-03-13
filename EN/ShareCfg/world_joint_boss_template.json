@@ -397,7 +397,7 @@
       0.8
     ],
     "painting": "shentong",
-    "state": "stop"
+    "state": "always"
   },
   "13": {
     "boss_level_id": 181,
@@ -622,12 +622,45 @@
       1
     ],
     "painting": "dafeng",
+    "state": "stop"
+  },
+  "18": {
+    "boss_level_id": 256,
+    "description": [
+      [
+        "Low-Altitude Assault",
+        2,
+        "During combat, receives various support from low-altitude orbit satellites."
+      ],
+      [
+        "Operation Ghost",
+        1,
+        "Every 18s: grants this ship Optical Camouflage (can be stacked up to 3 times). Each stack of Optical Camouflage <color=#92fc63>increases Evasion Rate by 6%</color>.\nWhen this ship has 3 stacks of Optical Camouflage: launches an Electromagnetic Pulse that <color=#92fc63>inflicts Blind on all your ships</color> for 5s, rendering them unable to fire their Main Guns or launch airstrikes."
+      ]
+    ],
+    "id": 18,
+    "item_id": 100000,
+    "meta_id": 970706,
+    "name": "Hornet META",
+    "p_offset": [
+      -16,
+      580,
+      1,
+      1
+    ],
+    "p_offset_other": [
+      472,
+      562,
+      0.9,
+      0.9
+    ],
+    "painting": "dahuangfeng",
     "state": [
       [
         [
-          2024,
-          12,
-          12
+          2025,
+          3,
+          13
         ],
         [
           0,
@@ -638,8 +671,8 @@
       [
         [
           2025,
-          3,
-          13
+          6,
+          4
         ],
         [
           23,
@@ -666,6 +699,7 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ]
 }
