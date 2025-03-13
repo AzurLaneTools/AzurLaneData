@@ -183,6 +183,19 @@
     "time": "stop",
     "type": 0
   },
+  "103": {
+    "group_id": 9,
+    "id": 103,
+    "name": "event_dreamland",
+    "order": 1,
+    "param": [
+      "DREAMLAND"
+    ],
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": "stop",
+    "type": 2
+  },
   "104": {
     "group_id": 1,
     "id": 104,
@@ -212,6 +225,22 @@
     "text_pic": "text_event_boat_ad_game",
     "time": "stop",
     "type": 7
+  },
+  "106": {
+    "group_id": 11,
+    "id": 106,
+    "name": "event_blackFriday",
+    "order": 1,
+    "param": [
+      "BlackFridaySales"
+    ],
+    "pic": "event_blackfriday",
+    "text_pic": "text_event_blackfriday",
+    "time": [
+      "default",
+      5702
+    ],
+    "type": 2
   },
   "107": {
     "group_id": 12,
@@ -274,9 +303,11 @@
     100,
     101,
     102,
+    103,
     104,
-    107,
     105,
+    106,
+    107,
     108
   ],
   "get_id_list_by_name": {
@@ -294,6 +325,9 @@
     "event_aprilFool": [
       70
     ],
+    "event_blackFriday": [
+      106
+    ],
     "event_boat_ad_game": [
       105
     ],
@@ -302,6 +336,9 @@
     ],
     "event_boss_single": [
       102
+    ],
+    "event_dreamland": [
+      103
     ],
     "event_escort": [
       40
