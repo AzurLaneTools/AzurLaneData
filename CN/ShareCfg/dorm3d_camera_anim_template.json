@@ -1559,6 +1559,81 @@
     "unlock": "",
     "zone": "3002"
   },
+  "3501": {
+    "anim_time": 0,
+    "desc": "跪坐",
+    "finish_anim": 3501,
+    "furniture_id": 322,
+    "icon": "camera_action25",
+    "id": 3501,
+    "pre_anim": 0,
+    "room": 4,
+    "ship_group": 19903,
+    "state": "ab_FF_chuang_1_idle_01",
+    "staypoint": "Pos300510",
+    "unlock": "",
+    "zone": "3001"
+  },
+  "3502": {
+    "anim_time": 7,
+    "desc": "挥手",
+    "finish_anim": 3501,
+    "furniture_id": 322,
+    "icon": "camera_action26",
+    "id": 3502,
+    "pre_anim": 3501,
+    "room": 4,
+    "ship_group": 19903,
+    "state": "ab_FF_chuang_1_jiao_01",
+    "staypoint": "Pos300510",
+    "unlock": "",
+    "zone": "3001"
+  },
+  "3503": {
+    "anim_time": 7,
+    "desc": "激动",
+    "finish_anim": 3501,
+    "furniture_id": 322,
+    "icon": "camera_action27",
+    "id": 3503,
+    "pre_anim": 3501,
+    "room": 4,
+    "ship_group": 19903,
+    "state": "ab_FF_chuang_1_pigu_01",
+    "staypoint": "Pos300510",
+    "unlock": "",
+    "zone": "3001"
+  },
+  "3504": {
+    "anim_time": 0,
+    "desc": "侧身",
+    "finish_anim": 3504,
+    "furniture_id": 322,
+    "icon": "camera_action28",
+    "id": 3504,
+    "pre_anim": 0,
+    "room": 4,
+    "ship_group": 19903,
+    "state": "ab_FF_chuang_2_idle_01",
+    "staypoint": "Pos300512",
+    "unlock": "",
+    "zone": "3001"
+  },
+  "3505": {
+    "anim_time": 7,
+    "desc": "轻抚",
+    "finish_anim": 3504,
+    "furniture_id": 322,
+    "icon": "camera_action29",
+    "id": 3505,
+    "pre_anim": 3504,
+    "room": 4,
+    "ship_group": 19903,
+    "state": "ab_FF_chuang_2_tui_01",
+    "staypoint": "Pos300512",
+    "unlock": "",
+    "zone": "3001"
+  },
   "4001": {
     "anim_time": 0,
     "desc": "站立",
@@ -1785,7 +1860,7 @@
     "zone": ""
   },
   "4402": {
-    "anim_time": 5,
+    "anim_time": 7,
     "desc": "疑惑",
     "finish_anim": 4401,
     "furniture_id": 0,
@@ -1800,7 +1875,7 @@
     "zone": ""
   },
   "4403": {
-    "anim_time": 5,
+    "anim_time": 7,
     "desc": "惊讶",
     "finish_anim": 4401,
     "furniture_id": 0,
@@ -1815,7 +1890,7 @@
     "zone": ""
   },
   "4404": {
-    "anim_time": 5,
+    "anim_time": 7,
     "desc": "紧张",
     "finish_anim": 4401,
     "furniture_id": 0,
@@ -1830,7 +1905,7 @@
     "zone": ""
   },
   "4405": {
-    "anim_time": 5,
+    "anim_time": 7,
     "desc": "开心",
     "finish_anim": 4401,
     "furniture_id": 0,
@@ -1949,6 +2024,11 @@
     3403,
     3404,
     3405,
+    3501,
+    3502,
+    3503,
+    3504,
+    3505,
     4001,
     4002,
     4003,
@@ -1959,15 +2039,15 @@
     4203,
     4204,
     4205,
+    4301,
+    4302,
+    4303,
+    4304,
     4401,
     4402,
     4403,
     4404,
-    4405,
-    4301,
-    4302,
-    4303,
-    4304
+    4405
   ],
   "get_id_list_by_furniture_id": {
     "0": [
@@ -2126,6 +2206,13 @@
       3403,
       3404,
       3405
+    ],
+    "322": [
+      3501,
+      3502,
+      3503,
+      3504,
+      3505
     ]
   }
 }
