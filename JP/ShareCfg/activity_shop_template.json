@@ -34661,6 +34661,26 @@
     "resource_num": 800,
     "resource_type": 59900
   },
+  "10510": {
+    "activity": 0,
+    "commodity_id": 3820,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 3,
+    "id": 10510,
+    "limit_args": [
+      [
+        "quota",
+        2
+      ]
+    ],
+    "num": 1,
+    "num_limit": 0,
+    "order": 56,
+    "resource_category": 2,
+    "resource_num": 500,
+    "resource_type": 59900
+  },
   "10901": {
     "activity": 0,
     "commodity_id": 403041,
@@ -36124,6 +36144,77 @@
     "order": 4,
     "resource_category": 2,
     "resource_num": 80,
+    "resource_type": 21000
+  },
+  "12029": {
+    "activity": 7104,
+    "commodity_id": 9703011,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 4,
+    "id": 12029,
+    "limit_args": [
+      [
+        "uniqueship",
+        970301
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 1,
+    "order": 3,
+    "resource_category": 2,
+    "resource_num": 60,
+    "resource_type": 21000
+  },
+  "12030": {
+    "activity": 7104,
+    "commodity_id": 21013,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12030,
+    "limit_args": [
+      [
+        1,
+        970301,
+        1
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 4,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 30,
     "resource_type": 21000
   },
   "99001": {
@@ -38484,6 +38575,7 @@
     10507,
     10508,
     10509,
+    10510,
     10901,
     10902,
     10903,
@@ -38551,6 +38643,8 @@
     12026,
     12027,
     12028,
+    12029,
+    12030,
     99001,
     99002,
     99003,
@@ -40488,6 +40582,7 @@
       12025,
       12027,
       12028,
+      12030,
       99001,
       99002,
       99003,
@@ -40643,7 +40738,8 @@
       10506,
       10507,
       10508,
-      10509
+      10509,
+      10510
     ],
     "4": [
       101,
@@ -40792,7 +40888,8 @@
       12018,
       12019,
       12023,
-      12026
+      12026,
+      12029
     ],
     "5": [
       108,
