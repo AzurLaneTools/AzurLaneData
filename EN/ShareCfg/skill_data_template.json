@@ -109860,6 +109860,34 @@
       1
     ]
   },
+  "30431": {
+    "desc": "Activates All Out Assault I: Santa Fe once every 15 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30431,
+    "max_level": 1,
+    "name": "All Out Assault I",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "30432": {
+    "desc": "Activates All Out Assault II: Santa Fe once every 10 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30432,
+    "max_level": 1,
+    "name": "All Out Assault II",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "60100": {
     "desc": "When equipped by a Royal Navy ship: increases that ship's Evasion Rate by 5.0%.",
     "desc_add": [],
@@ -140846,6 +140874,626 @@
       1
     ]
   },
+  "151000": {
+    "desc": "When the battle starts, if this ship is the frontmost ship in your Vanguard: increases this ship's TRP and ACC by 5.0% and decreases her DMG taken by 6.0% until the battle ends. When the battle starts, for each other ship in your Vanguard: increases this ship's RLD by $1 and DMG dealt by $2.",
+    "desc_add": [
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ],
+      [
+        [
+          "1.5%",
+          "+0.3%"
+        ],
+        [
+          "1.8%",
+          "+0.3%"
+        ],
+        [
+          "2.1%",
+          "+0.4%"
+        ],
+        [
+          "2.5%",
+          "+0.3%"
+        ],
+        [
+          "2.8%",
+          "+0.3%"
+        ],
+        [
+          "3.1%",
+          "+0.4%"
+        ],
+        [
+          "3.5%",
+          "+0.4%"
+        ],
+        [
+          "3.9%",
+          "+0.4%"
+        ],
+        [
+          "4.3%",
+          "+0.7%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3.5%",
+        "8.0%"
+      ],
+      [
+        "1.5%",
+        "5.0%"
+      ]
+    ],
+    "id": 151000,
+    "max_level": 10,
+    "name": "Rule of Cool!",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151010": {
+    "desc": "While this ship is afloat: decreases the Burn duration of your Main Fleet by 3s. Whenever 2 enemy aircraft are shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 6.0% until the battle ends (can stack up to 3 times); when the max stack is achieved, additionally decreases your CVs' and CVLs' DMG taken by $1 (does not stack with similar skills like Carrier Escort).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+0.9%"
+        ],
+        [
+          "5.9%",
+          "+0.9%"
+        ],
+        [
+          "6.8%",
+          "+1.2%"
+        ],
+        [
+          "8.0%",
+          "+0.9%"
+        ],
+        [
+          "8.9%",
+          "+0.9%"
+        ],
+        [
+          "9.8%",
+          "+1.2%"
+        ],
+        [
+          "11.0%",
+          "+1.2%"
+        ],
+        [
+          "12.2%",
+          "+1.2%"
+        ],
+        [
+          "13.4%",
+          "+1.6%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ],
+    "id": 151010,
+    "max_level": 10,
+    "name": "Bad Girls in the House!",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151020": {
+    "desc": "Increases this ship's FP and AA by $1. While this ship is afloat: decreases your Main Fleet's Burn DMG taken by $2. Whenever an enemy aircraft is shot down within your fleet's Anti-Air Gun range: for 8s, increases this ship's FP and AA by $3 (cannot be stacked).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "4.5%",
+          "+0.7%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+0.7%"
+        ],
+        [
+          "7.7%",
+          "+0.8%"
+        ],
+        [
+          "8.5%",
+          "+1.0%"
+        ],
+        [
+          "9.5%",
+          "+0.7%"
+        ],
+        [
+          "10.2%",
+          "+0.8%"
+        ],
+        [
+          "11.0%",
+          "+1.0%"
+        ],
+        [
+          "12.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "4.5%",
+        "12.0%"
+      ]
+    ],
+    "id": 151020,
+    "max_level": 10,
+    "name": "Sea-Air Strike",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151030": {
+    "desc": "Every 12s: fires a $1 special barrage (DMG is based on the skill's level). With a 100% chance 10s after the battle starts, and with a $2 chance every 20s after that: deploys a flare for 10s; enemy ships within the flare have their Evasion Rate decreased by 25.0% (does not stack with other flare skills; prioritizes throwing the flare at the nearest enemy).",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "20.0%",
+          "+2.2%"
+        ],
+        [
+          "22.2%",
+          "+2.2%"
+        ],
+        [
+          "24.4%",
+          "+2.2%"
+        ],
+        [
+          "26.6%",
+          "+2.2%"
+        ],
+        [
+          "28.8%",
+          "+2.2%"
+        ],
+        [
+          "31.0%",
+          "+2.2%"
+        ],
+        [
+          "33.2%",
+          "+2.2%"
+        ],
+        [
+          "35.4%",
+          "+2.2%"
+        ],
+        [
+          "37.6%",
+          "+2.4%"
+        ],
+        [
+          "40.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        [
+          "20.0%",
+          "40.0%"
+        ]
+      ]
+    ],
+    "id": 151030,
+    "max_level": 10,
+    "name": "Glorious Advance",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151060": {
+    "desc": "When the battle starts, if there is another Eagle Union ship in your Main Fleet: increases this ship's aircraft DMG dealt by $1. When this ship launches an airstrike: launches an additional $2 airstrike using special aircraft (DMG is based on the skill's level) that inflict a special Flooding ailment to enemies hit with its torpedoes; when launching this airstrike, if there is an enemy BB, CV, or CVL on the battlefield: improves this airstrike.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 151060,
+    "max_level": 10,
+    "name": "BIG BEN",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151070": {
+    "desc": "Increases this ship's AVI by $1.\nWith a 100% chance when this ship finishes loading an airstrike, and a $2 chance when this ship takes DMG: this ship gains a special Burn that lasts 15s and deals a fixed 13 DMG every second, but does not increase her Detection Gauge.\nWhile this ship is inflicted with a Burn (including special Burns), her DMG taken is decreased by $1 and her EVA and ACC increase by $1. If this ship is Burning due to this skill's effect: additionally increases this ship's AVI by $1 and aircraft DMG dealt by $1.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "15.0%",
+          "+1.6%"
+        ],
+        [
+          "16.6%",
+          "+1.6%"
+        ],
+        [
+          "18.2%",
+          "+1.6%"
+        ],
+        [
+          "19.8%",
+          "+1.6%"
+        ],
+        [
+          "21.4%",
+          "+1.6%"
+        ],
+        [
+          "23.0%",
+          "+1.6%"
+        ],
+        [
+          "24.6%",
+          "+1.8%"
+        ],
+        [
+          "26.4%",
+          "+1.8%"
+        ],
+        [
+          "28.2%",
+          "+1.8%"
+        ],
+        [
+          "30.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "15.0%",
+        "30.0%"
+      ]
+    ],
+    "id": 151070,
+    "max_level": 10,
+    "name": "Flame-Bathed Miracle",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
   "201017": {
     "desc": "",
     "desc_add": [],
@@ -156321,6 +156969,318 @@
     "name": "Ashen Might - Hornet II",
     "system_transform": {
       "51": 801677
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801680": {
+    "desc": "Increases this ship's FP and ACC by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level) with a 50.0% increased Crit Rate.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 801680,
+    "max_level": 10,
+    "name": "Threat Elimination Order",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801690": {
+    "desc": "Increases this ship's EVA by $1. When this ship takes DMG: $2 chance to reduce that DMG by 50.0%. Once per battle, when this ship's HP falls below 30.0% as a result of DMG taken: restores $2 of this ship's max HP.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ]
+    ],
+    "id": 801690,
+    "max_level": 10,
+    "name": "Emergency Defense System",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801701": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801701,
+    "max_level": 1,
+    "name": "Ashen Might - Nevada I",
+    "system_transform": {
+      "51": 801705
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801702": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801702,
+    "max_level": 1,
+    "name": "Ashen Might - Nevada II",
+    "system_transform": {
+      "51": 801707
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801705": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801705,
+    "max_level": 1,
+    "name": "Ashen Might - Nevada I",
+    "system_transform": {
+      "51": 801705
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801707": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801707,
+    "max_level": 1,
+    "name": "Ashen Might - Nevada II",
+    "system_transform": {
+      "51": 801707
     },
     "type": 1,
     "world_death_mark": [
