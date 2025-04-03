@@ -53,24 +53,125 @@
     "type": 3,
     "zone_id": 1004
   },
+  "120101": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_nh_vase01",
+    "id": 120101,
+    "name": "臥室床邊擺件",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2001
+  },
+  "120102": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_nh_toy02",
+    "id": 120102,
+    "name": "臥室床頭擺飾",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2001
+  },
+  "120103": {
+    "default_furniture": 201,
+    "furniture_name": "pre_db_bed02",
+    "id": 120103,
+    "name": "臥室床",
+    "room_id": 2,
+    "type": 4,
+    "zone_id": 2001
+  },
+  "120201": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_nh_tableware02",
+    "id": 120201,
+    "name": "餐廳桌擺飾",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2002
+  },
+  "120202": {
+    "default_furniture": 207,
+    "furniture_name": "pre_db_nh_decoration03",
+    "id": 120202,
+    "name": "餐廳牆上裝飾",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2002
+  },
+  "120203": {
+    "default_furniture": 202,
+    "furniture_name": "pre_db_table05a",
+    "id": 120203,
+    "name": "餐廳椅",
+    "room_id": 2,
+    "type": 6,
+    "zone_id": 2002
+  },
+  "120301": {
+    "default_furniture": 208,
+    "furniture_name": "pre_db_nh_flowerpot02",
+    "id": 120301,
+    "name": "客廳窗邊盆栽",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2003
+  },
+  "120302": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_nh_vase02",
+    "id": 120302,
+    "name": "客廳櫃子擺飾",
+    "room_id": 2,
+    "type": 3,
+    "zone_id": 2003
+  },
+  "120303": {
+    "default_furniture": 203,
+    "furniture_name": "pre_db_chair07",
+    "id": 120303,
+    "name": "客廳沙發",
+    "room_id": 2,
+    "type": 5,
+    "zone_id": 2003
+  },
   "all": [
     100101,
     100102,
     100201,
     100202,
     100301,
-    100402
+    100402,
+    120101,
+    120102,
+    120103,
+    120201,
+    120202,
+    120203,
+    120301,
+    120302,
+    120303
   ],
-  "get_id_list_by_room_id": [
-    [
+  "get_id_list_by_room_id": {
+    "1": [
       100101,
       100102,
       100201,
       100202,
       100301,
       100402
+    ],
+    "2": [
+      120101,
+      120102,
+      120103,
+      120201,
+      120202,
+      120203,
+      120301,
+      120302,
+      120303
     ]
-  ],
+  },
   "get_id_list_by_zone_id": {
     "1001": [
       100101,
@@ -85,6 +186,21 @@
     ],
     "1004": [
       100402
+    ],
+    "2001": [
+      120101,
+      120102,
+      120103
+    ],
+    "2002": [
+      120201,
+      120202,
+      120203
+    ],
+    "2003": [
+      120301,
+      120302,
+      120303
     ]
   }
 }
