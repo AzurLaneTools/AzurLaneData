@@ -199,6 +199,31 @@
   "Announcements_System_Notice": {
     "tip": "系統公告"
   },
+  "BoatAdGame_minigame_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/boatadgame_minigame_help",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "CurlingGame_tips1": {
     "tip": [
       {
@@ -438,6 +463,12 @@
   },
   "activity_0815_town_memory": {
     "tip": "道具數量不足，完成活動任務可獲得「拓荒的回憶」"
+  },
+  "activity_1024_memory": {
+    "tip": "道具數量不足，完成活動任務可取得「鬼怪故事頁」"
+  },
+  "activity_1024_memory_get": {
+    "tip": "- 已領取-"
   },
   "activity_build_end_tip": {
     "tip": "該活動已結束，無法建造"
@@ -2286,10 +2317,29 @@
   "black_white_grid_switch_tip": {
     "tip": "本局遊戲未結束，無法切換"
   },
+  "blackfriday_coinshop": {
+    "tip": "物資商店"
+  },
+  "blackfriday_dailypack": {
+    "tip": "每日禮包"
+  },
+  "blackfriday_gemshop": {
+    "tip": "鑽石商店"
+  },
+  "blackfriday_gift": {
+    "tip": "促銷禮包"
+  },
   "blackfriday_help": {
     "tip": [
       {
         "info": "活動規則：\n1.活動期間，每購買一件復刻換裝可解鎖一個階段的獎勵\n2.「限定傢俱」可單獨從傢俱商店購買，重複獲得的\n「限定傢俱」會按照其商店售價自動折算為鑽石\n3.可解鎖換裝數量無法滿足禮品清單全部解鎖條件的情況下，將直接解鎖相差數量階段的獎勵"
+      }
+    ]
+  },
+  "blackfriday_main_tip": {
+    "tip": [
+      {
+        "info": "活動規則：\n·<color=#92fc63>4.10-4.24 維護</color>期間開啟限時活動「初春明石特賣會」\n·限時任務\n完成任務獲得促銷PT\n·特設商店\n使用促銷PT在特設商店中兌換獎勵\n·促銷禮包\n截止4.16 0點為止，每日解鎖一組免費禮包與付費禮包"
       }
     ]
   },
@@ -2304,6 +2354,21 @@
   },
   "blackfriday_pack_select_skinall_dialog": {
     "tip": "您目前已擁有該自選券中所含的全部換裝\n是否將<color=#92fc63>$1</color>轉換為<color=#92fc63>$2</color>？"
+  },
+  "blackfriday_ptshop": {
+    "tip": "PT商店"
+  },
+  "blackfriday_shop": {
+    "tip": "特設商店"
+  },
+  "blackfriday_shop_tip": {
+    "tip": "$1日$2時解鎖"
+  },
+  "blackfriday_specialpack": {
+    "tip": "特惠禮包"
+  },
+  "blackfriday_task": {
+    "tip": "限時任務"
   },
   "blueprint_build_consume": {
     "tip": "需要花費'$1​​'是否開始研究？"
@@ -11130,6 +11195,66 @@
   "just_now": {
     "tip": "剛剛"
   },
+  "juuschat_background_tip1": {
+    "tip": "未擁有"
+  },
+  "juuschat_background_tip2": {
+    "tip": "暫未擁有此換裝"
+  },
+  "juuschat_chattip1": {
+    "tip": "[語音訊息]"
+  },
+  "juuschat_chattip2": {
+    "tip": "[紅包]"
+  },
+  "juuschat_chattip3": {
+    "tip": "[等待回復]"
+  },
+  "juuschat_filter_empty": {
+    "tip": "篩選結果為空"
+  },
+  "juuschat_filter_subtitle1": {
+    "tip": "查看"
+  },
+  "juuschat_filter_subtitle2": {
+    "tip": "類型"
+  },
+  "juuschat_filter_subtitle3": {
+    "tip": "陣營"
+  },
+  "juuschat_filter_tip1": {
+    "tip": "全部"
+  },
+  "juuschat_filter_tip2": {
+    "tip": "已回復"
+  },
+  "juuschat_filter_tip3": {
+    "tip": "未回復"
+  },
+  "juuschat_filter_tip4": {
+    "tip": "私人聊天"
+  },
+  "juuschat_filter_tip5": {
+    "tip": "頻道聊天"
+  },
+  "juuschat_filter_title": {
+    "tip": "篩選"
+  },
+  "juuschat_label1": {
+    "tip": "使用中"
+  },
+  "juuschat_label2": {
+    "tip": "查看中"
+  },
+  "juuschat_reddot_title": {
+    "tip": "啾信功能"
+  },
+  "juuschat_redpacket_detail": {
+    "tip": "領取詳情"
+  },
+  "juuschat_redpacket_show_detail": {
+    "tip": "查看領取詳情"
+  },
   "keep_fate_tip": {
     "tip": "保留<color=#92fc63>天運擬合</color>所需藍圖"
   },
@@ -16928,12 +17053,12 @@
     "tip": "完成「秘密船廠」的全部建造任務後解鎖"
   },
   "shipyard_introduce": {
-    "tip": "6月26日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
+    "tip": "4月16日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
   },
   "shipyard_phase_1": {
     "tip": [
       {
-        "info": "活動簡介：\n<color=#92fc63>6.20-7.11維護</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。\n活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。\n活動期間，6月26日為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。\n擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>\n完成全部7個遊戲關卡後，可取得<color=#92fc63>限定傢俱「啟航的冒險船」x1</color>並可自由選擇任意關卡通關"
+        "info": "活動簡介：\n<color=#92fc63>4.10-4.24維護</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。\n活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。\n活動期間，4.16為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。\n擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>\n完成全部7個遊戲關卡後，可取得<color=#92fc63>限定傢俱「啟航的冒險船」x1</color>並可自由選擇任意關卡通關"
       }
     ]
   },
@@ -17095,7 +17220,7 @@
     "tip": "是否使用 <color=#92fc63>$1 *1</color> 兌換 <color=#92fc63>$2</color>"
   },
   "skin_exchange_timelimit": {
-    "tip": "以下道具的可兌換清單將於$1維護後變更，請即時前往倉庫使用"
+    "tip": "以下道具的可兌換清單將於$1 24時後變更，請即時前往倉庫使用"
   },
   "skin_exchange_title": {
     "tip": "可兌換換裝"
