@@ -3163,6 +3163,151 @@
     "story_type": 1,
     "unlock_conditions": "EX-4をクリア"
   },
+  "181": {
+    "change_background": "star_level_bg_541",
+    "change_bgm": "story-richang-light",
+    "change_prefab": "",
+    "id": 181,
+    "lock": "",
+    "name": "EPS-1 晩餐会",
+    "pre_event": "",
+    "story": "YANGQIYUJINZHIQI1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "182": {
+    "change_background": "star_level_bg_188",
+    "change_bgm": "story-tulipa",
+    "change_prefab": "",
+    "id": 182,
+    "lock": [
+      [
+        4,
+        181
+      ]
+    ],
+    "name": "EPS-2 NA海域浄化作戦",
+    "pre_event": [
+      181
+    ],
+    "story": "YANGQIYUJINZHIQI2",
+    "story_type": 1,
+    "unlock_conditions": "EPS-1をクリア"
+  },
+  "183": {
+    "change_background": "bg_yujin_1",
+    "change_bgm": "theme-tulipa",
+    "change_prefab": "",
+    "id": 183,
+    "lock": [
+      [
+        4,
+        182
+      ]
+    ],
+    "name": "EPS-3 「新港」基地",
+    "pre_event": [
+      182
+    ],
+    "story": "YANGQIYUJINZHIQI3",
+    "story_type": 1,
+    "unlock_conditions": "EPS-2をクリア"
+  },
+  "184": {
+    "change_background": "bg_yujin_2",
+    "change_bgm": "story-tulipa",
+    "change_prefab": "",
+    "id": 184,
+    "lock": [
+      [
+        4,
+        183
+      ]
+    ],
+    "name": "EPS-4 補足情報",
+    "pre_event": [
+      183
+    ],
+    "story": "YANGQIYUJINZHIQI4",
+    "story_type": 1,
+    "unlock_conditions": "EPS-3をクリア"
+  },
+  "185": {
+    "change_background": "bg_yujin_cg1",
+    "change_bgm": "battle-tulipa",
+    "change_prefab": "",
+    "id": 185,
+    "lock": [
+      [
+        4,
+        184
+      ]
+    ],
+    "name": "EPS-5 出航",
+    "pre_event": [
+      184
+    ],
+    "story": "YANGQIYUJINZHIQI5",
+    "story_type": 1,
+    "unlock_conditions": "EPS-4をクリア"
+  },
+  "186": {
+    "change_background": "bg_yujin_3",
+    "change_bgm": "battle-tulipa",
+    "change_prefab": "",
+    "id": 186,
+    "lock": [
+      [
+        4,
+        185
+      ]
+    ],
+    "name": "EPS-6 チュリッパ艦船の初陣・1",
+    "pre_event": [
+      185
+    ],
+    "story": "1916001",
+    "story_type": 2,
+    "unlock_conditions": "EPS-5をクリア"
+  },
+  "187": {
+    "change_background": "bg_yujin_cg2",
+    "change_bgm": "story-tulipa",
+    "change_prefab": "",
+    "id": 187,
+    "lock": [
+      [
+        4,
+        186
+      ]
+    ],
+    "name": "EPS-7 チュリッパ艦船の初陣・2",
+    "pre_event": [
+      186
+    ],
+    "story": "1916002",
+    "story_type": 2,
+    "unlock_conditions": "EPS-6をクリア"
+  },
+  "188": {
+    "change_background": "bg_yujin_2",
+    "change_bgm": "theme-tulipa",
+    "change_prefab": "",
+    "id": 188,
+    "lock": [
+      [
+        4,
+        187
+      ]
+    ],
+    "name": "EPS-8 烈火と新芽",
+    "pre_event": [
+      187
+    ],
+    "story": "YANGQIYUJINZHIQI8",
+    "story_type": 1,
+    "unlock_conditions": "EPS-7をクリア"
+  },
   "all": [
     1,
     2,
@@ -3331,6 +3476,14 @@
     173,
     174,
     175,
-    176
+    176,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188
   ]
 }
