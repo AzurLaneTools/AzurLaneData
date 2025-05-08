@@ -1,6 +1,38 @@
 {
   "1": {
     "id": 1,
+    "param": "https://game.bilibili.com/blhx/2025-eighth-anniversary/?channel=AL",
+    "pic": "temp2",
+    "time": [
+      [
+        [
+          2025,
+          5,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          5,
+          16
+        ],
+        [
+          18,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 1
+  },
+  "2": {
+    "id": 2,
     "param": [
       "scene equip",
       {
@@ -35,16 +67,6 @@
         ]
       ]
     ],
-    "type": 2
-  },
-  "2": {
-    "id": 2,
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "pic": "temp2",
-    "time": "stop",
     "type": 2
   },
   "3": {
@@ -200,8 +222,10 @@
     202
   ],
   "get_id_list_by_type": {
+    "1": [
+      1
+    ],
     "2": [
-      1,
       2,
       3,
       4,
