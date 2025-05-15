@@ -3080,10 +3080,10 @@
       "RightFoot"
     ],
     "trigger_rect": [
+      -400,
       -350,
-      -350,
-      600,
-      450
+      800,
+      600
     ]
   },
   "10071101": {
@@ -6159,10 +6159,10 @@
       "RightFoot"
     ],
     "trigger_rect": [
+      -400,
       -350,
-      -350,
-      600,
-      450
+      800,
+      600
     ]
   },
   "11071101": {
@@ -15303,6 +15303,142 @@
       1000
     ]
   },
+  "29999300": {
+    "action_back_time": 0,
+    "action_emote": "",
+    "action_trigger": [
+      3
+    ],
+    "back_time": 0.5,
+    "char_id": 30221,
+    "controller": "Gift2LeftFootIK",
+    "head_track": "",
+    "id": 29999300,
+    "plane_rotation": [
+      [
+        -0.02137377,
+        -0.6312417,
+        0.03077076,
+        -0.7746807
+      ],
+      [
+        0.5874314,
+        -0.4020253,
+        0.3402771,
+        -0.6144196
+      ]
+    ],
+    "plane_scale": [
+      [
+        0.2681457,
+        0.2826645,
+        1
+      ],
+      [
+        0.1,
+        0.1,
+        0.39136
+      ]
+    ],
+    "rect": [
+      -100,
+      -400,
+      1000,
+      1000
+    ],
+    "sub_targets": [
+      [
+        "LeftFoot"
+      ],
+      [
+        "LeftThigh"
+      ]
+    ],
+    "timeline_action": [
+      "TimelineSelect",
+      777
+    ],
+    "tip_offset": "",
+    "tip_text": "",
+    "trigger_param": [
+      2,
+      "LeftFoot"
+    ],
+    "trigger_rect": [
+      -100,
+      -450,
+      1200,
+      1200
+    ]
+  },
+  "29999301": {
+    "action_back_time": 0,
+    "action_emote": "",
+    "action_trigger": [
+      3
+    ],
+    "back_time": 0.5,
+    "char_id": 30221,
+    "controller": "Gift2RightFootIK",
+    "head_track": "",
+    "id": 29999301,
+    "plane_rotation": [
+      [
+        0.08673672,
+        0.2299224,
+        -0.08921621,
+        -0.9652217
+      ],
+      [
+        0.5874314,
+        -0.4020253,
+        0.3402771,
+        -0.6144196
+      ]
+    ],
+    "plane_scale": [
+      [
+        0.4882399,
+        0.1390792,
+        1
+      ],
+      [
+        0.1,
+        0.1,
+        0.39136
+      ]
+    ],
+    "rect": [
+      -500,
+      -400,
+      800,
+      1000
+    ],
+    "sub_targets": [
+      [
+        "RightFoot"
+      ],
+      [
+        "RightThigh"
+      ]
+    ],
+    "timeline_action": [
+      "TimelineSelect",
+      777
+    ],
+    "tip_offset": "",
+    "tip_text": "",
+    "trigger_param": [
+      2,
+      "RightFoot"
+    ],
+    "trigger_rect": [
+      -600,
+      -450,
+      1000,
+      1100
+    ]
+  },
   "30011000": {
     "action_back_time": 0,
     "action_emote": "",
@@ -20238,6 +20374,8 @@
     29999100,
     29999101,
     29999200,
+    29999300,
+    29999301,
     21051000,
     21051001,
     21052000,
