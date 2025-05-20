@@ -292,6 +292,51 @@
   "MonopolyCar2024Game_total_num_tip": {
     "tip": "Attempts: $1"
   },
+  "NewMusic_1": {
+    "tip": "Favorite ($1)"
+  },
+  "NewMusic_2": {
+    "tip": "Searching..."
+  },
+  "NewMusic_3": {
+    "tip": "Found no songs matching the criteria."
+  },
+  "NewMusic_4": {
+    "tip": "Found no albums matching the criteria."
+  },
+  "NewMusic_5": {
+    "tip": "Favorites"
+  },
+  "NewMusic_6": {
+    "tip": "Albums"
+  },
+  "NewMusic_7": {
+    "tip": "No favorite entries found."
+  },
+  "NewMusic_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/music_help',path='"
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "Normalbuild_URexchange_confirm": {
     "tip": "Exchange 400 points for $1?"
   },
@@ -534,6 +579,9 @@
   },
   "activity_hit_monster_reset_tip": {
     "tip": "Would you like to play Fu Shun's Great Adventure again? Completing this challenge multiple times will not yield additional rewards. "
+  },
+  "activity_holiday_function_lock": {
+    "tip": "Available after further reconstruction."
   },
   "activity_kill": {
     "tip": "Total Enemies Sunk"
@@ -2780,6 +2828,9 @@
   "box_ship_del_click": {
     "tip": "Tap to input "
   },
+  "breakout_tip": {
+    "tip": "Increases star rating"
+  },
   "breakout_tip_ultimatebonus_aux": {
     "tip": "+30% stats gained from auxiliary gear "
   },
@@ -2841,7 +2892,7 @@
     "tip": "Jervis added to standard build pool!"
   },
   "buildship_new_tip": {
-    "tip": "Rate UP for Evertsen and De Zeven Provinciën!"
+    "tip": "Get Lion guaranteed with every 200 event builds (can be done up to 4 times)!"
   },
   "buildship_special_tip": {
     "tip": "Vanguard, Indomitable added to standard build pool!"
@@ -3157,6 +3208,9 @@
   },
   "challenge_infinite_reset": {
     "tip": "Your Challenge run was ended early.\nChallenge Stages cleared: $1"
+  },
+  "challenge_minigame_unlock": {
+    "tip": "Minigame Locked"
   },
   "challenge_no_fleet": {
     "tip": "No eligible fleet, unable to sortie."
@@ -4166,6 +4220,18 @@
   },
   "collection_award_ship": {
     "tip": "$1 research complete! Now in construction queue."
+  },
+  "collection_book_lock_place": {
+    "tip": "Area Inaccessible"
+  },
+  "collection_book_tag_1": {
+    "tip": "Building\nRecords"
+  },
+  "collection_book_tag_2": {
+    "tip": "Leisure\nTime"
+  },
+  "collection_book_tag_3": {
+    "tip": "Special\nEncounters"
   },
   "collection_fetched": {
     "tip": "This has already been collected!"
@@ -9085,6 +9151,73 @@
   "hand_account_tip": {
     "tip": "Can be unlocked by collecting certain items. "
   },
+  "handbook_claim": {
+    "tip": "Collect"
+  },
+  "handbook_finished": {
+    "tip": "Completed"
+  },
+  "handbook_gametip": {
+    "tip": [
+      {
+        "info": "- Commander Handbook Overview -"
+      },
+      {
+        "info": "The Commander Handbook contains 3 types of missions: rookie missions, development missions, and mechanic tutorials."
+      },
+      {
+        "info": "<b>1. Rookie missions:</b>\n· This is a series of missions aimed at Commanders new to the game.\n· There are nine mission phases in total, with each phase containing a handful of missions.\n· Completing six missions within a given phase unlocks the missions in the next phase. Completing all the missions across all phases gives you completion rewards.\n· When you complete all missions across all nine phases, you'll receive a Rookie Mission Invitation. This item can be used to redeem one of two UR-rarity shipgirls: <color=#92fc63>Shinano</color> or <color=#92fc63>New Jersey</color>."
+      },
+      {
+        "info": "<b>2. Development missions:</b>\n· These missions are unlocked at Commander Lvl. 30. Completing them will give you items that can be used in the Development Dock, such as Data Packs and Blueprints.\n· You can choose a shipgirl from a particular development series to advance these missions with.\n· NOTE: Once you unlock the development missions, you need to clear all the missions of a particular series before you can switch to missions from other series."
+      },
+      {
+        "info": "<b>3. Mechanic tutorials:</b>\n· This is a compilation of tutorials and tips to help Commanders just starting out.\n· Each mechanic group contains its own tutorials and associated missions. Completing all missions will give you Wisdom Cubes."
+      }
+    ]
+  },
+  "handbook_name": {
+    "tip": "Commander Handbook"
+  },
+  "handbook_new_player_guide_locked_by_level": {
+    "tip": "Unlocks at Commander Lvl. $1."
+  },
+  "handbook_new_player_task_locked_by_section": {
+    "tip": "Complete all missions in the previous section to unlock."
+  },
+  "handbook_process": {
+    "tip": "In Progress"
+  },
+  "handbook_research_confirm": {
+    "tip": "Unlock Missions"
+  },
+  "handbook_research_final_task_btn_claim": {
+    "tip": "Claim"
+  },
+  "handbook_research_final_task_btn_finished": {
+    "tip": "Claimed"
+  },
+  "handbook_research_final_task_btn_locked": {
+    "tip": "Unavailable"
+  },
+  "handbook_research_final_task_desc_locked": {
+    "tip": "Clear all $1 development missions to unlock the final missions for this phase."
+  },
+  "handbook_task_locked_by_chapter": {
+    "tip": "Unlocks upon clearing the stage: $1."
+  },
+  "handbook_task_locked_by_level": {
+    "tip": "Unlocks at Commander Lvl. $1."
+  },
+  "handbook_task_locked_by_other_task": {
+    "tip": "Unlocks upon completing the following mission: $1."
+  },
+  "handbook_unfinished": {
+    "tip": "Can be obtained after completing $1 missions."
+  },
+  "handbook_ur_double_check": {
+    "tip": "The invitation may only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nYou will receive the chosen shipgirl and a commemorative item."
+  },
   "handshake_game_help": {
     "tip": [
       {
@@ -10502,160 +10635,160 @@
           "atlas": "attricon",
           "path": "durability",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      HP: The ship's Health Points stat. Determines how much damage she can take before sinking."
+        "info": " HP: The ship's Health Points stat. Determines how much damage she can take before sinking."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "cannon",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "     FP: The ship's Firepower stat. Increases her damage dealt with artillery and cannon-based attacks."
+        "info": " FP: The ship's Firepower stat. Increases her damage dealt with artillery and cannon-based attacks."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "antiaircraft",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      AA: The ship's Anti-Air stat. Increases her damage dealt with Anti-Air Guns."
+        "info": " AA: The ship's Anti-Air stat. Increases her damage dealt with Anti-Air Guns."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "armor",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      Armor Type: The ship's Armor thickness. Affects how much damage she takes from varying sources. (In general, in terms of protection, Heavy > Medium > Light.)"
+        "info": " Armor Type: The ship's Armor thickness. Affects how much damage she takes from varying sources. (In general, in terms of protection, Heavy > Medium > Light.) Each weapon has a different effectiveness against each armor type, so carefully consider the combination of ships and gear to bring to each battle to maximize your fleet's effectiveness."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "torpedo",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "     TRP: The ship's Torpedo stat. Increases her damage dealt with torpedo weapons. "
+        "info": " TRP: The ship's Torpedo stat. Increases her damage dealt with torpedo weapons. "
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "air",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      AVI: The ship's Aviation stat. Increases her damage dealt with aircraft."
+        "info": " AVI: The ship's Aviation stat. Increases her damage dealt with aircraft."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "reload",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      RLD: The ship's Reload stat. Affects how long her weapons take to load."
+        "info": " RLD: The ship's Reload stat. Affects how long her weapons take to load."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "dodge",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "     EVA: The ship's Evasion stat. Affects her probability to evade incoming attacks."
+        "info": " EVA: The ship's Evasion stat. Affects her probability to evade incoming attacks and the likelihood of being critically hit."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "hit",
           "posX": 0,
-          "posY": 6,
+          "posY": 0,
           "scale": 0.3
         },
-        "info": "      ACC: The ship's Accuracy stat. Affects her probability to land hits and score Critical Hits."
+        "info": " ACC: The ship's Accuracy stat. Affects her probability to land hits and score Critical Hits."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "attr_speed",
           "posX": 0,
-          "posY": 6,
+          "posY": 0,
           "scale": 0.6
         },
-        "info": "      SPD: The ship's Speed stat. Affects her movement speed on the battlefield and influences how many tiles your fleet can move in one turn on certain maps. \n "
+        "info": " SPD: The ship's Speed stat. Affects her movement speed on the battlefield and influences how many tiles your fleet can move in one turn on certain maps. \n "
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "expend",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "     Cost: The amount of Oil the ship consumes per battle."
+        "info": " Cost: The amount of Oil the ship consumes per battle."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "antisub",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      ASW: The ship's Anti-Submarine Warfare stat. Increases her damage dealt with Anti-Sub weapons and affects her sonar detection range."
+        "info": " ASW: The ship's Anti-Submarine Warfare stat. Increases her damage dealt with Anti-Sub weapons and affects her sonar detection range."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "oxy_max",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface."
+        "info": " OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "ammo",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat."
+        "info": " AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "hunt_range",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 0.6
         },
-        "info": "      ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support."
+        "info": " ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support."
       },
       {
         "icon": {
           "atlas": "attricon",
           "path": "luck",
           "posX": 0,
-          "posY": 6,
+          "posY": -6,
           "scale": 1
         },
-        "info": "      LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits."
+        "info": " LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits."
       },
       {
         "info": "3. Mood: \nShips with good moods receive increased EXP from battles. \nShips with bad moods lose Affinity with further battles."
@@ -11266,6 +11399,68 @@
   },
   "hit_preview": {
     "tip": "Hitting Preview"
+  },
+  "holiday_tip_bath": {
+    "tip": "Vacay Thermae"
+  },
+  "holiday_tip_collection": {
+    "tip": "Notes"
+  },
+  "holiday_tip_finish": {
+    "tip": "You have completed <color=#5f984d>all resort reconstruction missions</color>. Your remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
+  },
+  "holiday_tip_gametip": {
+    "tip": [
+      {
+        "info": "- How to Play -\n<color=#92fc63>5/20 - 6/11</color>The limited event, \"Midsummer Returns! The Villa Reconstruction\" is now ongoing!\n- The Villa Reconstruction -\nDuring the event, improve your logistics capacity by completing limited-time event missions. Spend your logistics points at the Logistics Pier to obtain varying amounts of reconstruction materials, based on the method chosen.\nYou will need these resources to rebuild the 6 areas found in the villa resort, unlocking additional stories and features in the process.\n- Exchange Shop -\nYou will be able to earn Villa Coins by participating in the event activities. They can be spent on a variety of rewards, including a limited-time chat frame.\n- Additional Content -\nTwo minigames are also available for your enjoyment – Shipgirl Game, and Manjuu Salvaging Crew. Play them to earn additional rewards.\nThe Vacay Thermae allows you to quickly restore the Morale of the characters staying there.\nShipgirl Game, Manjuu Salvaging Crew, and Vacay Thermae are unlocked as you progress through the reconstruction process."
+      }
+    ]
+  },
+  "holiday_tip_minigame1": {
+    "tip": "Shipgirl Game"
+  },
+  "holiday_tip_minigame2": {
+    "tip": "Salvaging"
+  },
+  "holiday_tip_rebuild_not": {
+    "tip": "Insufficient materials for reconstruction."
+  },
+  "holiday_tip_shop": {
+    "tip": "Missions"
+  },
+  "holiday_tip_spring": {
+    "tip": [
+      {
+        "info": "How to Play:\n<color=#92fc63>From 5/20 to 6/11</color>, the Vacay Thermae will be available for a limited time.\nCharacters placed within the Vacay Thermae will restore Morale at a faster rate."
+      }
+    ]
+  },
+  "holiday_tip_task": {
+    "tip": "Missions"
+  },
+  "holiday_tip_task_finish": {
+    "tip": "The resort's reconstruction has been completed."
+  },
+  "holiday_tip_task_now": {
+    "tip": "Current Goal"
+  },
+  "holiday_tip_trans": {
+    "tip": "Logistics Pier"
+  },
+  "holiday_tip_trans_desc1": {
+    "tip": "The island resort's main pier, able to accommodate large cruisers and transport ships. There is a giant welcome sign with a cat paw symbol and an information board at the entrance.\nIt leads, of course, to the premium juice stand run by the infamous green cat."
+  },
+  "holiday_tip_trans_desc2": {
+    "tip": "The island resort's main pier, able to accommodate large cruisers and transport ships. There is a giant welcome sign with a cat paw symbol and an information board at the entrance.\nIt leads, of course, to the premium juice stand run by the infamous green cat."
+  },
+  "holiday_tip_trans_get": {
+    "tip": "Complete reconstruction missions to gain logistics."
+  },
+  "holiday_tip_trans_not": {
+    "tip": "Insufficient logistics for reconstruction."
+  },
+  "holiday_tip_trans_tip": {
+    "tip": "Logistics Pier"
   },
   "hololive_dalaozhang": {
     "tip": [
@@ -12787,7 +12982,7 @@
     "tip": "Day's Exploration Reward"
   },
   "liner_sign_cnt_tip": {
-    "tip": "Currently Obtainable:"
+    "tip": "Obtainable:"
   },
   "liner_sign_unlock_tip": {
     "tip": "Unlocks on 5/21"
@@ -15747,7 +15942,7 @@
         "info": "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
       },
       {
-        "info": "5. Only ships added to the normal building pool prior to March 20th can hear your wishes."
+        "info": "5. Only ships added to the normal building pool prior to March 26th, 2025 can hear your wishes."
       },
       {
         "info": "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -16309,6 +16504,12 @@
   "resolve_amount_prefix": {
     "tip": "Disassemble amount:"
   },
+  "resolve_equip_tip": {
+    "tip": "Select gear to disassemble, gear not selected will be stored in storage"
+  },
+  "resolve_equip_title": {
+    "tip": "Will get:"
+  },
   "resorts_help": {
     "tip": [
       {
@@ -16428,7 +16629,7 @@
   "returner_help": {
     "tip": [
       {
-        "info": "Event Information: \n\n1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: \n a. Active Commander \n b. Returning or new Commander\n2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: \n- Logged in at least once at any point between August 1st, 2024 and before the maintenance on August 15th, 2024.\n3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.\n4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. \n5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.\n6. Returning or new Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning or new Commanders on the right side of the event banner. \n7. Active Commanders can tap the \"Send Mobilization Request\" button to show their UID to Returning or new Commanders who are looking for Active Commander UIDs.\n8. A Returning or new Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning or new Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.\n9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you."
+        "info": "Event Information: \n\n1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: \n a. Active Commander \n b. Returning/New Commander\n2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: \n- Logged in at least once at any point between May 6th, 2025 and before the maintenance on May 20th, 2025.\n3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.\n4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. \n5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.\n6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. \n7. Active Commanders can tap the \"Broadcast User Identification\" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.\n8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.\n9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you."
       }
     ]
   },
@@ -17002,7 +17203,7 @@
   "salvage_tips": {
     "tip": [
       {
-        "info": "- Minigame Overview -\nThe Manjuu Salvaging Crew minigame is played by tapping objects on the screen to latch on to them with your salvage ship's hook. Retrieving treasure will give you points, while interfering with the submarines in the water will lose you points.\n\n- Rules -\nTap on objects on the screen to retrieve them. Earn points by retrieving treasure from below the surface while avoiding the submarines patrolling the area.\n\nThe table of objects you can retrieve and the amount of points you gain or lose from them is as follows: \n· Pocket watch: +20 seconds to the timer\n· Treasure chest: +600 points\n· Pearl: +500 points\n· Diving Manjuu: +400 points\n· Gold bar: +300 points\n· Butterflyfish: +200 points\n· Seashell: +200 points\n· Shark: +250 points\n· Turtle: +180 points\n· Clownfish: +150 points\n· Rock: +50 points\n\n· I-13: -150 points\n· I-19: -100 points\n· I-26: -80 points\n· I-168: -50 points\n· Torpedo: -50 points\n\nThe minigame ends when the timer reaches 0, or when you tap the Return button."
+        "info": "- Minigame Overview -\nThe Manjuu Salvaging Crew minigame is played by tapping objects on the screen to latch on to them with your salvage ship's hook. Retrieving treasure will give you points, while interfering with the submarines in the water will lose you points.\n\n- Rules -\nTap on objects on the screen to retrieve them. Earn points by retrieving treasure from below the surface while avoiding the submarines patrolling the area.\n\nThe table of objects you can retrieve and the amount of points you gain or lose from them is as follows: \n· Pocket watch: +20 seconds to the timer\n· Treasure chest: +600 points\n· Pearl: +500 points\n· Diving Manjuu: +400 points\n· Gold bar: +300 points\n· Butterflyfish: +200 points\n· Seashell: +200 points\n· Shark: +250 points\n· Turtle: +180 points\n· Clownfish: +150 points\n· Rock: +50 points\n\n· I-13: -150 points\n· I-19: -100 points\n· I-26: -80 points\n· I-168: -50 points\n· Torpedo: -50 points\n\nThe minigame ends when the timer reaches 0, or when you tap the Return button.￼"
       }
     ]
   },
@@ -18108,6 +18309,9 @@
   "ship_remould_warning_201514": {
     "tip": "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
   },
+  "ship_remould_warning_201524": {
+    "tip": "Completing the retrofit will give this shipgirl <color=#92fc63>main gun base +1</color>.\n Proceed with the retrofit?"
+  },
   "ship_remould_warning_203114": {
     "tip": "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
   },
@@ -18983,6 +19187,33 @@
   "story_skip_confirm": {
     "tip": "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>."
   },
+  "storyline_camp": {
+    "tip": "Factions "
+  },
+  "storyline_chapter0": {
+    "tip": "Prologue"
+  },
+  "storyline_chapter1": {
+    "tip": "Chapter 1"
+  },
+  "storyline_chapter2": {
+    "tip": "Chapter 2"
+  },
+  "storyline_chapter3": {
+    "tip": "Chapter 3"
+  },
+  "storyline_chapter4": {
+    "tip": "Chapter 4"
+  },
+  "storyline_goto": {
+    "tip": "Check Memories"
+  },
+  "storyline_memorysearch1": {
+    "tip": "Story Search"
+  },
+  "storyline_memorysearch2": {
+    "tip": "Searching..."
+  },
   "street_shop_title": {
     "tip": "Shop"
   },
@@ -19019,6 +19250,9 @@
   },
   "support_times_tip": {
     "tip": "Requisition(s)"
+  },
+  "sure_exit_resolve_equip": {
+    "tip": "If no action is taken, all the gear will be sent to your <color=#5f984d>Depot</color>.\nReturn to the previous screen?"
   },
   "sure_exit_volleyball": {
     "tip": "Would you like to end the minigame?"
@@ -19215,6 +19449,9 @@
   "tec_act_catchup_btn_word": {
     "tip": "Blueprint Boost"
   },
+  "tec_catchup_0": {
+    "tip": "Series 1"
+  },
   "tec_catchup_1": {
     "tip": "Series 1"
   },
@@ -19232,6 +19469,9 @@
   },
   "tec_catchup_6": {
     "tip": "Series 6"
+  },
+  "tec_catchup_confirm": {
+    "tip": "Would you like to begin the development missions for this series? \nConfirm to unlock the development missions for this series; you cannot switch to missions of a different series until you complete all the active ones."
   },
   "tec_catchup_errorfix": {
     "tip": "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
@@ -20137,6 +20377,9 @@
       }
     }
   },
+  "use_amount_prefix": {
+    "tip": "Amount used:"
+  },
   "use_oil_limit_help": {
     "tip": "The Fuel cost of this battle (<icon name=oil w=0.7 h=0.7/>$1) exceeds the Fuel cost limit. It will be reduced to the maximum of <icon name=oil w=0.7 h=0.7/>$2."
   },
@@ -20389,6 +20632,31 @@
   },
   "warning_pray_build_pool": {
     "tip": "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?"
+  },
+  "watermelon_minigame_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/watermelon_minigame",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
   },
   "wedding": {
     "tip": "Pledge"

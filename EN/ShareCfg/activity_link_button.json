@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5901",
+    "param": "5941",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5901
+      5941
     ],
     "type": 3
   },
@@ -48,7 +48,7 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      5901
+      5941
     ],
     "type": 0
   },
@@ -57,10 +57,29 @@
     "id": 20,
     "name": "event_minigame",
     "order": 1,
-    "param": "0",
+    "param": [
+      "holiday villa map"
+    ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
     "time": "stop",
+    "type": 2
+  },
+  "21": {
+    "group_id": 5,
+    "id": 21,
+    "name": "event_holidayVilla",
+    "order": 1,
+    "param": [
+      "holiday villa map",
+      5922
+    ],
+    "pic": "event_minigame",
+    "text_pic": "text_event_minigame",
+    "time": [
+      "default",
+      5951
+    ],
     "type": 0
   },
   "30": {
@@ -272,6 +291,7 @@
     9,
     10,
     20,
+    21,
     30,
     40,
     60,
@@ -316,6 +336,9 @@
     ],
     "event_escort": [
       40
+    ],
+    "event_holidayVilla": [
+      21
     ],
     "event_layer": [
       104
