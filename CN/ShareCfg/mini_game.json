@@ -915,31 +915,16 @@
     "name": "打捞团小游戏",
     "request_data": 0,
     "simple_config_data": {
-      "drop": [
+      "drop_ids": [
         [
           2,
-          54006,
-          1
-        ],
-        [
-          2,
-          50004,
-          5
-        ],
-        [
-          1,
-          2,
-          300
-        ],
-        [
-          2,
-          54024,
+          54050,
           2
         ],
         [
-          2,
-          20013,
-          1
+          1,
+          1,
+          300
         ],
         [
           2,
@@ -947,9 +932,24 @@
           1
         ],
         [
+          1,
+          1,
+          300
+        ],
+        [
           2,
-          60208,
-          1
+          50004,
+          5
+        ],
+        [
+          2,
+          20012,
+          2
+        ],
+        [
+          2,
+          30347,
+          2
         ]
       ]
     },
@@ -2716,6 +2716,112 @@
     "type": 2,
     "view_name": "EatFoodGameView"
   },
+  "76": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "game_room": 0,
+    "hub_id": 64,
+    "id": 76,
+    "is_ranking": 1,
+    "mediator_name": "MiniHubMediator",
+    "name": "『别墅度假岛』合成小游戏",
+    "request_data": 0,
+    "simple_config_data": {
+      "drop_ids": [
+        [
+          2,
+          54006,
+          1
+        ],
+        [
+          17,
+          247,
+          1
+        ],
+        [
+          1,
+          2,
+          300
+        ],
+        [
+          2,
+          54034,
+          1
+        ],
+        [
+          2,
+          20013,
+          1
+        ],
+        [
+          2,
+          54051,
+          1
+        ],
+        [
+          17,
+          248,
+          1
+        ]
+      ]
+    },
+    "type": 2,
+    "view_name": "WatermelonGameView"
+  },
+  "77": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": "",
+    "game_room": 0,
+    "hub_id": 65,
+    "id": 77,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "『别墅度假岛』打捞团小游戏",
+    "request_data": 0,
+    "simple_config_data": {
+      "drop_ids": [
+        [
+          2,
+          54006,
+          1
+        ],
+        [
+          2,
+          50004,
+          5
+        ],
+        [
+          9,
+          3046,
+          1
+        ],
+        [
+          2,
+          54034,
+          2
+        ],
+        [
+          9,
+          3047,
+          1
+        ],
+        [
+          2,
+          20013,
+          1
+        ],
+        [
+          9,
+          3048,
+          1
+        ]
+      ]
+    },
+    "type": 2,
+    "view_name": "CatchTreasureGameView"
+  },
   "1001": {
     "config_csv": "",
     "config_csv_key": "",
@@ -3320,6 +3426,8 @@
     73,
     74,
     75,
+    76,
+    77,
     1001,
     1002,
     1003,
