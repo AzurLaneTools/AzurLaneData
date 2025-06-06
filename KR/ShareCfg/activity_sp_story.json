@@ -3308,6 +3308,685 @@
     "story_type": 1,
     "unlock_conditions": "EPS-7 클리어"
   },
+  "191": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 191,
+    "lock": "",
+    "name": "EPS-1 새 시대의 안내자",
+    "pre_event": "",
+    "story": "GAOTASHANGDEQIANGWEI1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "192": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 192,
+    "lock": [
+      [
+        4,
+        191
+      ]
+    ],
+    "name": "EP1-1 죽음의 땅",
+    "pre_event": [
+      191
+    ],
+    "story": "GAOTASHANGDEQIANGWEI2",
+    "story_type": 1,
+    "unlock_conditions": "EPS-1 클리어"
+  },
+  "193": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 193,
+    "lock": [
+      [
+        4,
+        192
+      ]
+    ],
+    "name": "EP2-1 메세케테트",
+    "pre_event": [
+      191
+    ],
+    "story": "GAOTASHANGDEQIANGWEI3",
+    "story_type": 1,
+    "unlock_conditions": "EP1-1 클리어"
+  },
+  "194": {
+    "change_background": "star_level_bg_590",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 194,
+    "lock": [
+      [
+        4,
+        193
+      ]
+    ],
+    "name": "EP2-2 상승 조류",
+    "pre_event": [
+      193
+    ],
+    "story": "GAOTASHANGDEQIANGWEI4",
+    "story_type": 1,
+    "unlock_conditions": "EP2-1 클리어"
+  },
+  "195": {
+    "change_background": "bg_gaotaqiangwei_cg2",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 195,
+    "lock": [
+      [
+        4,
+        194
+      ]
+    ],
+    "name": "EP1-2 시간의 속도차",
+    "pre_event": [
+      192
+    ],
+    "story": "GAOTASHANGDEQIANGWEI5",
+    "story_type": 1,
+    "unlock_conditions": "EP2-2 클리어"
+  },
+  "196": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 196,
+    "lock": [
+      [
+        4,
+        195
+      ]
+    ],
+    "name": "EP2-3 육지와 적",
+    "pre_event": [
+      194
+    ],
+    "story": "GAOTASHANGDEQIANGWEI6",
+    "story_type": 1,
+    "unlock_conditions": "EP1-2 클리어"
+  },
+  "197": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 197,
+    "lock": [
+      [
+        4,
+        196
+      ]
+    ],
+    "name": "EPS-2 전황 파악",
+    "pre_event": [
+      195,
+      196
+    ],
+    "story": "GAOTASHANGDEQIANGWEI7",
+    "story_type": 1,
+    "unlock_conditions": "EP2-3 클리어"
+  },
+  "198": {
+    "change_background": "star_level_bg_600",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 198,
+    "lock": [
+      [
+        4,
+        197
+      ]
+    ],
+    "name": "EP3-1 차량과 배",
+    "pre_event": [
+      197
+    ],
+    "story": "1926001",
+    "story_type": 2,
+    "unlock_conditions": "EPS-2 클리어"
+  },
+  "199": {
+    "change_background": "bg_gaotaqiangwei_cg3",
+    "change_bgm": "story-royalnavy-serious",
+    "change_prefab": "",
+    "id": 199,
+    "lock": [
+      [
+        4,
+        198
+      ]
+    ],
+    "name": "EP3-2 장미의 탑의 생존자",
+    "pre_event": [
+      198
+    ],
+    "story": "GAOTASHANGDEQIANGWEI9",
+    "story_type": 1,
+    "unlock_conditions": "EP3-1 클리어"
+  },
+  "200": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 200,
+    "lock": [
+      [
+        4,
+        199
+      ]
+    ],
+    "name": "EP3-3 엘리자베스가 없는 세상",
+    "pre_event": [
+      199
+    ],
+    "story": "GAOTASHANGDEQIANGWEI10",
+    "story_type": 1,
+    "unlock_conditions": "EP3-2 클리어"
+  },
+  "201": {
+    "change_background": "star_level_bg_559",
+    "change_bgm": "theme-camelot",
+    "change_prefab": "",
+    "id": 201,
+    "lock": [
+      [
+        4,
+        200
+      ]
+    ],
+    "name": "EP3-4 만월의 꽃봉오리",
+    "pre_event": [
+      200
+    ],
+    "story": "GAOTASHANGDEQIANGWEI11",
+    "story_type": 1,
+    "unlock_conditions": "EP3-3 클리어"
+  },
+  "202": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 202,
+    "lock": [
+      [
+        4,
+        201
+      ]
+    ],
+    "name": "EPS-3 고래 조사",
+    "pre_event": [
+      201
+    ],
+    "story": "GAOTASHANGDEQIANGWEI12",
+    "story_type": 1,
+    "unlock_conditions": "EP3-4 클리어"
+  },
+  "203": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 203,
+    "lock": [
+      [
+        4,
+        202
+      ]
+    ],
+    "name": "EP4-1 심각해지는 위기",
+    "pre_event": [
+      202
+    ],
+    "story": "GAOTASHANGDEQIANGWEI13",
+    "story_type": 1,
+    "unlock_conditions": "EPS-3 클리어"
+  },
+  "204": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 204,
+    "lock": [
+      [
+        4,
+        203
+      ]
+    ],
+    "name": "EP5-1 미지의 탐색",
+    "pre_event": [
+      202
+    ],
+    "story": "GAOTASHANGDEQIANGWEI14",
+    "story_type": 1,
+    "unlock_conditions": "EP4-1 클리어"
+  },
+  "205": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 205,
+    "lock": [
+      [
+        4,
+        204
+      ]
+    ],
+    "name": "EP4-2 차원을 넘어선 통찰",
+    "pre_event": [
+      203
+    ],
+    "story": "GAOTASHANGDEQIANGWEI15",
+    "story_type": 1,
+    "unlock_conditions": "EP5-1 클리어"
+  },
+  "206": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 206,
+    "lock": [
+      [
+        4,
+        205
+      ]
+    ],
+    "name": "EP5-2 믿음직스러운 컴파일러",
+    "pre_event": [
+      204
+    ],
+    "story": "GAOTASHANGDEQIANGWEI16",
+    "story_type": 1,
+    "unlock_conditions": "EP4-2 클리어"
+  },
+  "207": {
+    "change_background": "bg_gaotaqiangwei_cg4",
+    "change_bgm": "story-lion-up",
+    "change_prefab": "",
+    "id": 207,
+    "lock": [
+      [
+        4,
+        206
+      ]
+    ],
+    "name": "EP4-3 다른 로열 네이비",
+    "pre_event": [
+      205
+    ],
+    "story": "GAOTASHANGDEQIANGWEI17",
+    "story_type": 1,
+    "unlock_conditions": "EP5-2 클리어"
+  },
+  "208": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 208,
+    "lock": [
+      [
+        4,
+        207
+      ]
+    ],
+    "name": "EPS-4 너무 믿음직스러운 컴파일러",
+    "pre_event": [
+      206,
+      207
+    ],
+    "story": "1926002",
+    "story_type": 2,
+    "unlock_conditions": "EP4-3 클리어"
+  },
+  "209": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 209,
+    "lock": [
+      [
+        4,
+        208
+      ]
+    ],
+    "name": "EP6-1 침공 계획",
+    "pre_event": [
+      208
+    ],
+    "story": "GAOTASHANGDEQIANGWEI19",
+    "story_type": 1,
+    "unlock_conditions": "EPS-4 클리어"
+  },
+  "210": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "theme-ucnf-image",
+    "change_prefab": "",
+    "id": 210,
+    "lock": [
+      [
+        4,
+        209
+      ]
+    ],
+    "name": "EP6-2 영원한 태양의 미명 아래",
+    "pre_event": [
+      209
+    ],
+    "story": "GAOTASHANGDEQIANGWEI20",
+    "story_type": 1,
+    "unlock_conditions": "EP6-1 클리어"
+  },
+  "211": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 211,
+    "lock": [
+      [
+        4,
+        210
+      ]
+    ],
+    "name": "EP6-3 다른 차원의 다리",
+    "pre_event": [
+      210
+    ],
+    "story": "GAOTASHANGDEQIANGWEI21",
+    "story_type": 1,
+    "unlock_conditions": "EP6-2 클리어"
+  },
+  "212": {
+    "change_background": "bg_cccpv2_9",
+    "change_bgm": "battle-ash-strong",
+    "change_prefab": "",
+    "id": 212,
+    "lock": [
+      [
+        4,
+        211
+      ]
+    ],
+    "name": "EP7-1 더 위대한 계획",
+    "pre_event": [
+      211
+    ],
+    "story": "GAOTASHANGDEQIANGWEI22",
+    "story_type": 1,
+    "unlock_conditions": "EP6-3 클리어"
+  },
+  "213": {
+    "change_background": "bg_gaotaqiangwei_cg5",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 213,
+    "lock": [
+      [
+        4,
+        212
+      ]
+    ],
+    "name": "EP7-2 미하일 장군",
+    "pre_event": [
+      212
+    ],
+    "story": "GAOTASHANGDEQIANGWEI23",
+    "story_type": 1,
+    "unlock_conditions": "EP7-1 클리어"
+  },
+  "214": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 214,
+    "lock": [
+      [
+        4,
+        213
+      ]
+    ],
+    "name": "EP7-3 「글로리어스」의 다과회",
+    "pre_event": [
+      213
+    ],
+    "story": "GAOTASHANGDEQIANGWEI24",
+    "story_type": 1,
+    "unlock_conditions": "EP7-2 클리어"
+  },
+  "215": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 215,
+    "lock": [
+      [
+        4,
+        214
+      ]
+    ],
+    "name": "EP8-1 전쟁 준비",
+    "pre_event": [
+      214
+    ],
+    "story": "GAOTASHANGDEQIANGWEI25",
+    "story_type": 1,
+    "unlock_conditions": "EP7-3 클리어"
+  },
+  "216": {
+    "change_background": "star_level_bg_115",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 216,
+    "lock": [
+      [
+        4,
+        215
+      ]
+    ],
+    "name": "EP8-2 제2류 위상체",
+    "pre_event": [
+      215
+    ],
+    "story": "1926003",
+    "story_type": 2,
+    "unlock_conditions": "EP8-1 클리어"
+  },
+  "217": {
+    "change_background": "star_level_bg_535",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 217,
+    "lock": [
+      [
+        4,
+        216
+      ]
+    ],
+    "name": "EP8-3 위기일발",
+    "pre_event": [
+      216
+    ],
+    "story": "GAOTASHANGDEQIANGWEI27",
+    "story_type": 1,
+    "unlock_conditions": "EP8-2 클리어"
+  },
+  "218": {
+    "change_background": "star_level_bg_600",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 218,
+    "lock": [
+      [
+        4,
+        217
+      ]
+    ],
+    "name": "EP8-4 글로리어스의 선택",
+    "pre_event": [
+      217
+    ],
+    "story": "GAOTASHANGDEQIANGWEI28",
+    "story_type": 1,
+    "unlock_conditions": "EP8-3 클리어"
+  },
+  "219": {
+    "change_background": "star_level_bg_115",
+    "change_bgm": "story-memory-grief",
+    "change_prefab": "",
+    "id": 219,
+    "lock": [
+      [
+        4,
+        218
+      ]
+    ],
+    "name": "EP9-1 결단의 순간",
+    "pre_event": [
+      218
+    ],
+    "story": "GAOTASHANGDEQIANGWEI29",
+    "story_type": 1,
+    "unlock_conditions": "EP8-4 클리어"
+  },
+  "220": {
+    "change_background": "bg_gaotaqiangwei_4",
+    "change_bgm": "theme-thechariotVII",
+    "change_prefab": "",
+    "id": 220,
+    "lock": [
+      [
+        4,
+        219
+      ]
+    ],
+    "name": "EP9-2 서로의 기적",
+    "pre_event": [
+      219
+    ],
+    "story": "GAOTASHANGDEQIANGWEI30",
+    "story_type": 1,
+    "unlock_conditions": "EP9-1 클리어"
+  },
+  "221": {
+    "change_background": "star_level_bg_590",
+    "change_bgm": "theme-shallowoftheworld",
+    "change_prefab": "",
+    "id": 221,
+    "lock": [
+      [
+        4,
+        220
+      ]
+    ],
+    "name": "EP9-3 대단원",
+    "pre_event": [
+      220
+    ],
+    "story": "GAOTASHANGDEQIANGWEI31",
+    "story_type": 1,
+    "unlock_conditions": "EP9-2 클리어"
+  },
+  "222": {
+    "change_background": "bg_gaotaqiangwei_6",
+    "change_bgm": "theme-thechariotVII",
+    "change_prefab": "",
+    "id": 222,
+    "lock": [
+      [
+        4,
+        221
+      ]
+    ],
+    "name": "EX-1 대단원의 대가",
+    "pre_event": [
+      221
+    ],
+    "story": "GAOTASHANGDEQIANGWEI32",
+    "story_type": 1,
+    "unlock_conditions": "EP9-3 클리어"
+  },
+  "223": {
+    "change_background": "star_level_bg_303",
+    "change_bgm": "story-egypt-mystic",
+    "change_prefab": "",
+    "id": 223,
+    "lock": [
+      [
+        4,
+        222
+      ]
+    ],
+    "name": "EX-2 월계 실험",
+    "pre_event": [
+      222
+    ],
+    "story": "GAOTASHANGDEQIANGWEI33",
+    "story_type": 1,
+    "unlock_conditions": "EX-1 클리어"
+  },
+  "224": {
+    "change_background": "star_level_bg_503",
+    "change_bgm": "theme-frederick",
+    "change_prefab": "",
+    "id": 224,
+    "lock": [
+      [
+        4,
+        223
+      ]
+    ],
+    "name": "EX-3 준비 완료",
+    "pre_event": [
+      223
+    ],
+    "story": "GAOTASHANGDEQIANGWEI34",
+    "story_type": 1,
+    "unlock_conditions": "EX-2 클리어"
+  },
+  "225": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "theme-thetowerXVI",
+    "change_prefab": "",
+    "id": 225,
+    "lock": [
+      [
+        4,
+        224
+      ]
+    ],
+    "name": "EX-4 잔불의 변화",
+    "pre_event": [
+      224
+    ],
+    "story": "GAOTASHANGDEQIANGWEI35",
+    "story_type": 1,
+    "unlock_conditions": "EX-3 클리어"
+  },
+  "226": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "map_1920001",
+    "id": 226,
+    "lock": [
+      [
+        4,
+        225
+      ]
+    ],
+    "name": "EX-5 진지한 타워",
+    "pre_event": [
+      225
+    ],
+    "story": "GAOTASHANGDEQIANGWEI36",
+    "story_type": 1,
+    "unlock_conditions": "EX-4 클리어"
+  },
   "all": [
     1,
     2,
@@ -3484,6 +4163,42 @@
     185,
     186,
     187,
-    188
+    188,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226
   ]
 }
