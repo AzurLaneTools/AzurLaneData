@@ -5709,6 +5709,9 @@
   "dorm3d_VIDEO_CHAT_LABEL": {
     "tip": "$1的视频邀请"
   },
+  "dorm3d_VIDEO_TELEPHONE_LABEL": {
+    "tip": "$1的语音邀请"
+  },
   "dorm3d_accompany_locked": {
     "tip": "未开放"
   },
@@ -5740,7 +5743,7 @@
     "tip": "修改冷却中"
   },
   "dorm3d_beach_buy": {
-    "tip": "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>沙滩</color>"
+    "tip": "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>$2</color>"
   },
   "dorm3d_beach_download": {
     "tip": "需要下载$1的资源"
@@ -5750,6 +5753,24 @@
   },
   "dorm3d_beach_switch": {
     "tip": "沙滩维护中……"
+  },
+  "dorm3d_cafe_minigame1": {
+    "tip": "$1的即兴舞蹈"
+  },
+  "dorm3d_cafe_minigame2": {
+    "tip": "抓拍$1期待的照片吧！"
+  },
+  "dorm3d_cafe_minigame3": {
+    "tip": "拍摄完成"
+  },
+  "dorm3d_cafe_minigame4": {
+    "tip": "再来一次"
+  },
+  "dorm3d_cafe_minigame5": {
+    "tip": "离开舞台"
+  },
+  "dorm3d_cafe_minigame6": {
+    "tip": "匹配度：$1"
   },
   "dorm3d_clothing_choose": {
     "tip": "选择换装"
@@ -5778,6 +5799,9 @@
   "dorm3d_collection_beach": {
     "tip": "沙滩"
   },
+  "dorm3d_collection_cafe": {
+    "tip": "咖啡馆"
+  },
   "dorm3d_collection_cost_tip": {
     "tip": "相伴5分钟，<icon name=stamina/>精力-1，契合度<color=#fc4670>+40</color>"
   },
@@ -5789,6 +5813,9 @@
   },
   "dorm3d_daily_favor_tips": {
     "tip": "今日互动契合度:"
+  },
+  "dorm3d_dance_button": {
+    "tip": "舞蹈 "
   },
   "dorm3d_data_Invite_lack": {
     "tip": "邀请角色数量不足"
@@ -5888,6 +5915,9 @@
   },
   "dorm3d_guide_tip": {
     "tip": "先去天狼星的房间看看吧"
+  },
+  "dorm3d_guide_tip2": {
+    "tip": "先去沙滩看看吧"
   },
   "dorm3d_ins_no_msg": {
     "tip": "暂无新消息"
@@ -6147,6 +6177,9 @@
   "dorm3d_privatechat_screen_floor_1": {
     "tip": "听海之畔"
   },
+  "dorm3d_privatechat_screen_floor_2": {
+    "tip": "汐语小筑"
+  },
   "dorm3d_privatechat_telephone": {
     "tip": "暂未开放，敬请期待"
   },
@@ -6154,13 +6187,16 @@
     "tip": "语音通话"
   },
   "dorm3d_privatechat_telephone_calllog": {
-    "tip": "通话记录"
+    "tip": "视频记录"
   },
   "dorm3d_privatechat_telephone_noviewed": {
     "tip": "未查看"
   },
   "dorm3d_privatechat_topics": {
     "tip": "好友圈"
+  },
+  "dorm3d_privatechat_video_call": {
+    "tip": "视频通话"
   },
   "dorm3d_privatechat_visit": {
     "tip": "上次拜访"
@@ -6246,6 +6282,12 @@
   "dorm3d_role_manage_role": {
     "tip": "角色"
   },
+  "dorm3d_room_floor_1": {
+    "tip": "听海之畔"
+  },
+  "dorm3d_room_floor_2": {
+    "tip": "汐语小筑"
+  },
   "dorm3d_select_tip": {
     "tip": "公共房间邀请"
   },
@@ -6321,8 +6363,20 @@
   "dorm3d_sirius_table": {
     "tip": "餐厅"
   },
+  "dorm3d_skin_already": {
+    "tip": "已装备"
+  },
+  "dorm3d_skin_confirm": {
+    "tip": "确认更换"
+  },
+  "dorm3d_skin_equip": {
+    "tip": "是否立即给$1装备$2"
+  },
   "dorm3d_skin_locked": {
     "tip": "未解锁换装"
+  },
+  "dorm3d_skin_unlock": {
+    "tip": "公共房间无法更换服装"
   },
   "dorm3d_story_unlock_tip": {
     "tip": "已解锁剧情"
@@ -6350,6 +6404,15 @@
   },
   "dorm3d_waiting": {
     "tip": "等待入住"
+  },
+  "dorm3d_xinzexi_bed": {
+    "tip": "卧室"
+  },
+  "dorm3d_xinzexi_chair": {
+    "tip": "客厅"
+  },
+  "dorm3d_xinzexi_table": {
+    "tip": "餐厅"
   },
   "dorm_2f_lock": {
     "tip": "未解锁"
@@ -12787,6 +12850,9 @@
   "keep_fate_tip": {
     "tip": "保留<color=#92fc63>天运拟合</color>所需蓝图"
   },
+  "l2d_32xbanned_warning": {
+    "tip": "当前设备系统架构无法显示live2D资源，仅展示静态资源"
+  },
   "lanternRiddles_answer_is_right": {
     "tip": "恭喜你答对了~"
   },
@@ -13756,13 +13822,13 @@
         "info": "1.活动期间，玩家可获得临时NPC角色「小鹩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
       },
       {
-        "info": "2.活动期间，击破普通难度主线第三章及之后章节或活动地图旗舰，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
+        "info": "2.活动期间，击破普通难度主线第三章及之后章节，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
       },
       {
         "info": "3.上阵「小鹩」参与战斗，且未被击沉，可获得双倍「练习情书」。"
       },
       {
-        "info": "4.6月7日为止，每日解锁1个可达成的友好度阶段。"
+        "info": "4.6月18日为止，每日解锁1个可达成的友好度阶段。"
       },
       {
         "info": "5.在活动结束前累计获得1000「练习情书」，达成7个友好度阶段，可领取奖励并将临时角色「小鹩」转化为永久角色。"
