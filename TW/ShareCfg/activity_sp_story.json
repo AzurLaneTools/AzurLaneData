@@ -3308,6 +3308,685 @@
     "story_type": 1,
     "unlock_conditions": "完成EPS-7"
   },
+  "191": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 191,
+    "lock": "",
+    "name": "EPS-1 新時代領航人",
+    "pre_event": "",
+    "story": "GAOTASHANGDEQIANGWEI1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "192": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 192,
+    "lock": [
+      [
+        4,
+        191
+      ]
+    ],
+    "name": "EP1-1 死寂之地",
+    "pre_event": [
+      191
+    ],
+    "story": "GAOTASHANGDEQIANGWEI2",
+    "story_type": 1,
+    "unlock_conditions": "完成EPS-1"
+  },
+  "193": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 193,
+    "lock": [
+      [
+        4,
+        192
+      ]
+    ],
+    "name": "EP2-1 輝翼太陽船",
+    "pre_event": [
+      191
+    ],
+    "story": "GAOTASHANGDEQIANGWEI3",
+    "story_type": 1,
+    "unlock_conditions": "完成EP1-1"
+  },
+  "194": {
+    "change_background": "star_level_bg_590",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 194,
+    "lock": [
+      [
+        4,
+        193
+      ]
+    ],
+    "name": "EP2-2 殘骸潮",
+    "pre_event": [
+      193
+    ],
+    "story": "GAOTASHANGDEQIANGWEI4",
+    "story_type": 1,
+    "unlock_conditions": "完成EP2-1"
+  },
+  "195": {
+    "change_background": "bg_gaotaqiangwei_cg2",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 195,
+    "lock": [
+      [
+        4,
+        194
+      ]
+    ],
+    "name": "EP1-2 時間的差速",
+    "pre_event": [
+      192
+    ],
+    "story": "GAOTASHANGDEQIANGWEI5",
+    "story_type": 1,
+    "unlock_conditions": "完成EP2-2"
+  },
+  "196": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 196,
+    "lock": [
+      [
+        4,
+        195
+      ]
+    ],
+    "name": "EP2-3 陸地與敵人",
+    "pre_event": [
+      194
+    ],
+    "story": "GAOTASHANGDEQIANGWEI6",
+    "story_type": 1,
+    "unlock_conditions": "完成EP1-2"
+  },
+  "197": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 197,
+    "lock": [
+      [
+        4,
+        196
+      ]
+    ],
+    "name": "EPS-2 例行戰況統計",
+    "pre_event": [
+      195,
+      196
+    ],
+    "story": "GAOTASHANGDEQIANGWEI7",
+    "story_type": 1,
+    "unlock_conditions": "完成EP2-3"
+  },
+  "198": {
+    "change_background": "star_level_bg_600",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 198,
+    "lock": [
+      [
+        4,
+        197
+      ]
+    ],
+    "name": "EP3-1 車與船",
+    "pre_event": [
+      197
+    ],
+    "story": "1926001",
+    "story_type": 2,
+    "unlock_conditions": "完成EPS-2"
+  },
+  "199": {
+    "change_background": "bg_gaotaqiangwei_cg3",
+    "change_bgm": "story-royalnavy-serious",
+    "change_prefab": "",
+    "id": 199,
+    "lock": [
+      [
+        4,
+        198
+      ]
+    ],
+    "name": "EP3-2 薔薇塔的倖存者",
+    "pre_event": [
+      198
+    ],
+    "story": "GAOTASHANGDEQIANGWEI9",
+    "story_type": 1,
+    "unlock_conditions": "完成EP3-1"
+  },
+  "200": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 200,
+    "lock": [
+      [
+        4,
+        199
+      ]
+    ],
+    "name": "EP3-3 伊莉莎白不存在的世界",
+    "pre_event": [
+      199
+    ],
+    "story": "GAOTASHANGDEQIANGWEI10",
+    "story_type": 1,
+    "unlock_conditions": "完成EP3-2"
+  },
+  "201": {
+    "change_background": "star_level_bg_559",
+    "change_bgm": "theme-camelot",
+    "change_prefab": "",
+    "id": 201,
+    "lock": [
+      [
+        4,
+        200
+      ]
+    ],
+    "name": "EP3-4 滿月之蕾",
+    "pre_event": [
+      200
+    ],
+    "story": "GAOTASHANGDEQIANGWEI11",
+    "story_type": 1,
+    "unlock_conditions": "完成EP3-3"
+  },
+  "202": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 202,
+    "lock": [
+      [
+        4,
+        201
+      ]
+    ],
+    "name": "EPS-3 鯨魚調查",
+    "pre_event": [
+      201
+    ],
+    "story": "GAOTASHANGDEQIANGWEI12",
+    "story_type": 1,
+    "unlock_conditions": "完成EP3-4"
+  },
+  "203": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 203,
+    "lock": [
+      [
+        4,
+        202
+      ]
+    ],
+    "name": "EP4-1 危機升級",
+    "pre_event": [
+      202
+    ],
+    "story": "GAOTASHANGDEQIANGWEI13",
+    "story_type": 1,
+    "unlock_conditions": "完成EPS-3"
+  },
+  "204": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 204,
+    "lock": [
+      [
+        4,
+        203
+      ]
+    ],
+    "name": "EP5-1 探索未知之地",
+    "pre_event": [
+      202
+    ],
+    "story": "GAOTASHANGDEQIANGWEI14",
+    "story_type": 1,
+    "unlock_conditions": "完成EP4-1"
+  },
+  "205": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 205,
+    "lock": [
+      [
+        4,
+        204
+      ]
+    ],
+    "name": "EP4-2 越界洞察",
+    "pre_event": [
+      203
+    ],
+    "story": "GAOTASHANGDEQIANGWEI15",
+    "story_type": 1,
+    "unlock_conditions": "完成EP5-1"
+  },
+  "206": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 206,
+    "lock": [
+      [
+        4,
+        205
+      ]
+    ],
+    "name": "EP5-2 穩健的構建者",
+    "pre_event": [
+      204
+    ],
+    "story": "GAOTASHANGDEQIANGWEI16",
+    "story_type": 1,
+    "unlock_conditions": "完成EP4-2"
+  },
+  "207": {
+    "change_background": "bg_gaotaqiangwei_cg4",
+    "change_bgm": "story-lion-up",
+    "change_prefab": "",
+    "id": 207,
+    "lock": [
+      [
+        4,
+        206
+      ]
+    ],
+    "name": "EP4-3 截然不同的皇家",
+    "pre_event": [
+      205
+    ],
+    "story": "GAOTASHANGDEQIANGWEI17",
+    "story_type": 1,
+    "unlock_conditions": "完成EP5-2"
+  },
+  "208": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 208,
+    "lock": [
+      [
+        4,
+        207
+      ]
+    ],
+    "name": "EPS-4 過於穩健的構建者",
+    "pre_event": [
+      206,
+      207
+    ],
+    "story": "1926002",
+    "story_type": 2,
+    "unlock_conditions": "完成EP4-3"
+  },
+  "209": {
+    "change_background": "bg_gaotaqiangwei_1",
+    "change_bgm": "theme-lion",
+    "change_prefab": "",
+    "id": 209,
+    "lock": [
+      [
+        4,
+        208
+      ]
+    ],
+    "name": "EP6-1 進攻計劃",
+    "pre_event": [
+      208
+    ],
+    "story": "GAOTASHANGDEQIANGWEI19",
+    "story_type": 1,
+    "unlock_conditions": "完成EPS-4"
+  },
+  "210": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "theme-ucnf-image",
+    "change_prefab": "",
+    "id": 210,
+    "lock": [
+      [
+        4,
+        209
+      ]
+    ],
+    "name": "EP6-2 以永日之名",
+    "pre_event": [
+      209
+    ],
+    "story": "GAOTASHANGDEQIANGWEI20",
+    "story_type": 1,
+    "unlock_conditions": "完成EP6-1"
+  },
+  "211": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 211,
+    "lock": [
+      [
+        4,
+        210
+      ]
+    ],
+    "name": "EP6-3 領域外之橋",
+    "pre_event": [
+      210
+    ],
+    "story": "GAOTASHANGDEQIANGWEI21",
+    "story_type": 1,
+    "unlock_conditions": "完成EP6-2"
+  },
+  "212": {
+    "change_background": "bg_cccpv2_9",
+    "change_bgm": "battle-ash-strong",
+    "change_prefab": "",
+    "id": 212,
+    "lock": [
+      [
+        4,
+        211
+      ]
+    ],
+    "name": "EP7-1 更宏大的計劃",
+    "pre_event": [
+      211
+    ],
+    "story": "GAOTASHANGDEQIANGWEI22",
+    "story_type": 1,
+    "unlock_conditions": "完成EP6-3"
+  },
+  "213": {
+    "change_background": "bg_gaotaqiangwei_cg5",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 213,
+    "lock": [
+      [
+        4,
+        212
+      ]
+    ],
+    "name": "EP7-2 米哈伊爾",
+    "pre_event": [
+      212
+    ],
+    "story": "GAOTASHANGDEQIANGWEI23",
+    "story_type": 1,
+    "unlock_conditions": "完成EP7-1"
+  },
+  "214": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 214,
+    "lock": [
+      [
+        4,
+        213
+      ]
+    ],
+    "name": "EP7-3 光榮的茶會",
+    "pre_event": [
+      213
+    ],
+    "story": "GAOTASHANGDEQIANGWEI24",
+    "story_type": 1,
+    "unlock_conditions": "完成EP7-2"
+  },
+  "215": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 215,
+    "lock": [
+      [
+        4,
+        214
+      ]
+    ],
+    "name": "EP8-1 戰爭準備",
+    "pre_event": [
+      214
+    ],
+    "story": "GAOTASHANGDEQIANGWEI25",
+    "story_type": 1,
+    "unlock_conditions": "完成EP7-3"
+  },
+  "216": {
+    "change_background": "star_level_bg_115",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 216,
+    "lock": [
+      [
+        4,
+        215
+      ]
+    ],
+    "name": "EP8-2 第二類擬態體",
+    "pre_event": [
+      215
+    ],
+    "story": "1926003",
+    "story_type": 2,
+    "unlock_conditions": "完成EP8-1"
+  },
+  "217": {
+    "change_background": "star_level_bg_535",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 217,
+    "lock": [
+      [
+        4,
+        216
+      ]
+    ],
+    "name": "EP8-3 搖搖欲墜",
+    "pre_event": [
+      216
+    ],
+    "story": "GAOTASHANGDEQIANGWEI27",
+    "story_type": 1,
+    "unlock_conditions": "完成EP8-2"
+  },
+  "218": {
+    "change_background": "star_level_bg_600",
+    "change_bgm": "theme-glorious-meta",
+    "change_prefab": "",
+    "id": 218,
+    "lock": [
+      [
+        4,
+        217
+      ]
+    ],
+    "name": "EP8-4 光榮的選擇",
+    "pre_event": [
+      217
+    ],
+    "story": "GAOTASHANGDEQIANGWEI28",
+    "story_type": 1,
+    "unlock_conditions": "完成EP8-3"
+  },
+  "219": {
+    "change_background": "star_level_bg_115",
+    "change_bgm": "story-memory-grief",
+    "change_prefab": "",
+    "id": 219,
+    "lock": [
+      [
+        4,
+        218
+      ]
+    ],
+    "name": "EP9-1 必須做出的決斷",
+    "pre_event": [
+      218
+    ],
+    "story": "GAOTASHANGDEQIANGWEI29",
+    "story_type": 1,
+    "unlock_conditions": "完成EP8-4"
+  },
+  "220": {
+    "change_background": "bg_gaotaqiangwei_4",
+    "change_bgm": "theme-thechariotVII",
+    "change_prefab": "",
+    "id": 220,
+    "lock": [
+      [
+        4,
+        219
+      ]
+    ],
+    "name": "EP9-2 彼此間的奇蹟",
+    "pre_event": [
+      219
+    ],
+    "story": "GAOTASHANGDEQIANGWEI30",
+    "story_type": 1,
+    "unlock_conditions": "完成EP9-1"
+  },
+  "221": {
+    "change_background": "star_level_bg_590",
+    "change_bgm": "theme-shallowoftheworld",
+    "change_prefab": "",
+    "id": 221,
+    "lock": [
+      [
+        4,
+        220
+      ]
+    ],
+    "name": "EP9-3 終得圓滿",
+    "pre_event": [
+      220
+    ],
+    "story": "GAOTASHANGDEQIANGWEI31",
+    "story_type": 1,
+    "unlock_conditions": "完成EP9-2"
+  },
+  "222": {
+    "change_background": "bg_gaotaqiangwei_6",
+    "change_bgm": "theme-thechariotVII",
+    "change_prefab": "",
+    "id": 222,
+    "lock": [
+      [
+        4,
+        221
+      ]
+    ],
+    "name": "EX-1 圓滿的代價",
+    "pre_event": [
+      221
+    ],
+    "story": "GAOTASHANGDEQIANGWEI32",
+    "story_type": 1,
+    "unlock_conditions": "完成EP9-3"
+  },
+  "223": {
+    "change_background": "star_level_bg_303",
+    "change_bgm": "story-egypt-mystic",
+    "change_prefab": "",
+    "id": 223,
+    "lock": [
+      [
+        4,
+        222
+      ]
+    ],
+    "name": "EX-2 越界實驗",
+    "pre_event": [
+      222
+    ],
+    "story": "GAOTASHANGDEQIANGWEI33",
+    "story_type": 1,
+    "unlock_conditions": "完成EX-1"
+  },
+  "224": {
+    "change_background": "star_level_bg_503",
+    "change_bgm": "theme-frederick",
+    "change_prefab": "",
+    "id": 224,
+    "lock": [
+      [
+        4,
+        223
+      ]
+    ],
+    "name": "EX-3 蓄勢待發",
+    "pre_event": [
+      223
+    ],
+    "story": "GAOTASHANGDEQIANGWEI34",
+    "story_type": 1,
+    "unlock_conditions": "完成EX-2"
+  },
+  "225": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "theme-thetowerXVI",
+    "change_prefab": "",
+    "id": 225,
+    "lock": [
+      [
+        4,
+        224
+      ]
+    ],
+    "name": "EX-4 餘燼的變化",
+    "pre_event": [
+      224
+    ],
+    "story": "GAOTASHANGDEQIANGWEI35",
+    "story_type": 1,
+    "unlock_conditions": "完成EX-3"
+  },
+  "226": {
+    "change_background": "bg_gaotaqiangwei_2",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "map_1920001",
+    "id": 226,
+    "lock": [
+      [
+        4,
+        225
+      ]
+    ],
+    "name": "EX-5 托瓦沒有壞心思",
+    "pre_event": [
+      225
+    ],
+    "story": "GAOTASHANGDEQIANGWEI36",
+    "story_type": 1,
+    "unlock_conditions": "完成EX-4"
+  },
   "all": [
     1,
     2,
@@ -3484,6 +4163,42 @@
     185,
     186,
     187,
-    188
+    188,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226
   ]
 }

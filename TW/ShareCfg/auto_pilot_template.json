@@ -11007,6 +11007,99 @@
     ],
     "name": "2025医院活动 探索计数4层 追踪旋涡"
   },
+  "70287": {
+    "default": 1,
+    "id": 70287,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": 150,
+          "z": 0
+        },
+        "to": 2,
+        "type": 2
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "蛋船向右移动"
+  },
+  "70288": {
+    "default": 1,
+    "id": 70288,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "X1": -5,
+          "X2": 5,
+          "Z1": 15,
+          "Z2": -15,
+          "duration": -1,
+          "moveCount": 60,
+          "stopCount": 60
+        },
+        "to": 1,
+        "type": 5
+      }
+    ],
+    "name": "原地小范围随机移动"
+  },
+  "70289": {
+    "default": 1,
+    "id": 70289,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": 0,
+          "z": 150
+        },
+        "to": 2,
+        "type": 2
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "蛋船向上移动"
+  },
+  "70290": {
+    "default": 1,
+    "id": 70290,
+    "list": [
+      {
+        "index": 1,
+        "param": {
+          "x": 0,
+          "z": -150
+        },
+        "to": 2,
+        "type": 2
+      },
+      {
+        "index": 2,
+        "param": {
+          "duration": -1
+        },
+        "to": 1,
+        "type": 0
+      }
+    ],
+    "name": "蛋船向下移动"
+  },
   "75001": {
     "default": 1,
     "id": 75001,
