@@ -24835,7 +24835,7 @@
     "desc_get_add": [],
     "id": 11870,
     "max_level": 10,
-    "name": "Divine Marksman+",
+    "name": "Divine Marksman ®",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -129620,7 +129620,7 @@
     ]
   },
   "112010": {
-    "desc": "Increases this ship's Main Gun efficiency by $1. When this ship finishes loading her Main Guns: $4 chance to enter the Limit Released state, increasing her FP, ACC, and RLD by $2 for 10s. When this ship fires her Main Guns: increases this ship's Main Gun Crit Rate by $2 for 5s and, if this ship is in the Limit Released state, fires a $3 special barrage (DMG is based on the skill's level).",
+    "desc": "Increases this ship's Main Gun efficiency by $1. When this ship finishes loading her Main Guns: this ship enters the Limit Released state, increasing her FP, ACC, and RLD by $2 for 10s. When this ship fires her Main Guns: increases this ship's Main Gun Crit Rate by $2 for 5s and fires a $3 special barrage (DMG is based on the skill's level). Every even-numbered time this ship fires her Main Guns: additionally fires a $3 special barrage (DMG is based on the skill's level).",
     "desc_add": [
       [
         [
@@ -162984,6 +162984,20 @@
       1
     ]
   },
+  "902310": {
+    "desc": "Increases the wearer's ACC by 10.0% and Main Gun Crit DMG by 15.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 902310,
+    "max_level": 1,
+    "name": "A Royal's Glory",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1005080": {
     "desc": "Increases this ship's TRP by $1 and, every 15s: fires a $2 special barrage (DMG is based on the skill's level). If your Vanguard consists of only Iris Libre and/or Vichya Dominion ships, every 20s: 75.0% chance to increase your fleet's DMG dealt by $3 for 10s (does not stack with the same effect).",
     "desc_add": [
@@ -163966,6 +163980,103 @@
     "system_transform": {
       "3": 1010291
     },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1010310": {
+    "desc": "Every $1s: fires a $2 special barrage that deals guaranteed Critical DMG at the enemy furthest from this ship (DMG is based on the skill's level).\n5s after the battle starts, and every $1s after that: this ship performs a $2 attack with her royal sword (DMG is based on the skill's level; prioritizes humanoid enemies) that inflicts the Marksman's Target status on enemies hit; increases Warspite's DMG dealt to enemies with the Marksman's Target status by 12.0%.",
+    "desc_add": [
+      [
+        [
+          "35",
+          "-2"
+        ],
+        [
+          "33",
+          "-2"
+        ],
+        [
+          "31",
+          "-2"
+        ],
+        [
+          "29",
+          "-2"
+        ],
+        [
+          "27",
+          "-2"
+        ],
+        [
+          "25",
+          "-2"
+        ],
+        [
+          "23",
+          "-2"
+        ],
+        [
+          "21",
+          "-3"
+        ],
+        [
+          "18",
+          "-3"
+        ],
+        [
+          "15"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "35",
+        "15"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1010310,
+    "max_level": 10,
+    "name": "Divine Marksman+",
+    "system_transform": [],
     "type": 1,
     "world_death_mark": [
       1
@@ -165903,6 +166014,247 @@
       1
     ]
   },
+  "1010880": {
+    "desc": "Every 20s: $3 chance to increase this ship's FP, RLD, and EVA by $2 for 8s and fire a $5 special barrage (DMG is based on the skill's level). Every 25s: $1 chance to inflict the Radar Designated status on all enemies on the battlefield for 10s; decreases your Vanguard's shelling DMG taken from enemies inflicted with the Radar Designated status by $4.",
+    "desc_add": [
+      [
+        [
+          "30.0%",
+          "+3.3%"
+        ],
+        [
+          "33.3%",
+          "+3.3%"
+        ],
+        [
+          "36.6%",
+          "+3.3%"
+        ],
+        [
+          "39.9%",
+          "+3.3%"
+        ],
+        [
+          "43.2%",
+          "+3.3%"
+        ],
+        [
+          "46.5%",
+          "+3.3%"
+        ],
+        [
+          "49.8%",
+          "+3.3%"
+        ],
+        [
+          "53.1%",
+          "+3.3%"
+        ],
+        [
+          "56.4%",
+          "+3.6%"
+        ],
+        [
+          "60.0%"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+2.2%"
+        ],
+        [
+          "12.2%",
+          "+2.2%"
+        ],
+        [
+          "14.4%",
+          "+2.2%"
+        ],
+        [
+          "16.6%",
+          "+2.2%"
+        ],
+        [
+          "18.8%",
+          "+2.2%"
+        ],
+        [
+          "21.0%",
+          "+2.2%"
+        ],
+        [
+          "23.2%",
+          "+2.2%"
+        ],
+        [
+          "25.4%",
+          "+2.2%"
+        ],
+        [
+          "27.6%",
+          "+2.4%"
+        ],
+        [
+          "30.0%"
+        ]
+      ],
+      [
+        [
+          "50.0%",
+          "+5.0%"
+        ],
+        [
+          "55.0%",
+          "+5.0%"
+        ],
+        [
+          "60.0%",
+          "+5.0%"
+        ],
+        [
+          "65.0%",
+          "+5.0%"
+        ],
+        [
+          "70.0%",
+          "+5.0%"
+        ],
+        [
+          "75.0%",
+          "+5.0%"
+        ],
+        [
+          "80.0%",
+          "+5.0%"
+        ],
+        [
+          "85.0%",
+          "+5.0%"
+        ],
+        [
+          "90.0%",
+          "+10.0%"
+        ],
+        [
+          "100%"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "30.0%",
+        "60.0%"
+      ],
+      [
+        "10.0%",
+        "30.0%"
+      ],
+      [
+        "50.0%",
+        "100.0%"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1010880,
+    "max_level": 10,
+    "name": "Lucky Lou+",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1010960": {
     "desc": "Increases your DDs' FP and EVA by $1 and TRP by $2 and increases this ship's torpedo Crit DMG by $3. When this ship fires her torpedoes: $4 chance to fire another wave of torpedoes. Every 15s: fires a $5 barrage (DMG is based on the skill's level).",
     "desc_add": [
@@ -166861,6 +167213,193 @@
     "name": "Allies of Justice+",
     "system_transform": [],
     "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1011250": {
+    "desc": "Increases this ship's FP by $3. Every 20s: $1 chance to increase your Cruisers' FP and TRP by $2 for 10s and fire a $4 special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "70.0%",
+          "+3.3%"
+        ],
+        [
+          "73.3%",
+          "+3.3%"
+        ],
+        [
+          "76.6%",
+          "+3.3%"
+        ],
+        [
+          "79.9%",
+          "+3.3%"
+        ],
+        [
+          "83.2%",
+          "+3.3%"
+        ],
+        [
+          "86.5%",
+          "+3.3%"
+        ],
+        [
+          "89.8%",
+          "+3.3%"
+        ],
+        [
+          "93.1%",
+          "+3.3%"
+        ],
+        [
+          "96.4%",
+          "+3.6%"
+        ],
+        [
+          "100%"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.2%"
+        ],
+        [
+          "6.2%",
+          "+1.2%"
+        ],
+        [
+          "7.4%",
+          "+1.6%"
+        ],
+        [
+          "9.0%",
+          "+1.5%"
+        ],
+        [
+          "10.5%",
+          "+1.5%"
+        ],
+        [
+          "12.0%",
+          "+2.0%"
+        ],
+        [
+          "14.0%",
+          "+1.8%"
+        ],
+        [
+          "15.8%",
+          "+1.8%"
+        ],
+        [
+          "17.6%",
+          "+2.4%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "70.0%",
+        "100.0%"
+      ],
+      [
+        "5.0%",
+        "20.0%"
+      ],
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1011250,
+    "max_level": 10,
+    "name": "Leyte Gulf's Blitz+",
+    "system_transform": [],
+    "type": 3,
     "world_death_mark": [
       1
     ]
@@ -168514,6 +169053,193 @@
       1
     ]
   },
+  "1011870": {
+    "desc": "Increases this ship's Main Gun efficiency by $4.\n10s after the battle starts, and every $1s after that: fires a $2 Divine Marksman barrage that deals guaranteed Critical DMG at the enemy furthest from this ship (improved barrage; DMG is based on the skill's level); each battle, the first time this barrage activates: increases its DMG dealt by $3, and increases the probability that your Royal Navy Main Fleet ships will target the hit enemy with their auto-aimed fire.\n5s after the battle starts, and every $1s after that: this ship performs a $2 attack with her royal sword (DMG is based on the skill's level; prioritizes humanoid enemies) that inflicts the Marksman's Target status on enemies hit; increases Warspite's DMG dealt to enemies with the Marksman's Target status by 12.0%.\nWhen this ship's Divine Marksman barrage activates, if there is an enemy with the Marksman's Target status on the battlefield: fires another Divine Marksman barrage, prioritizing said enemy.",
+    "desc_add": [
+      [
+        [
+          "35",
+          "-2"
+        ],
+        [
+          "33",
+          "-2"
+        ],
+        [
+          "31",
+          "-2"
+        ],
+        [
+          "29",
+          "-2"
+        ],
+        [
+          "27",
+          "-2"
+        ],
+        [
+          "25",
+          "-2"
+        ],
+        [
+          "23",
+          "-2"
+        ],
+        [
+          "21",
+          "-3"
+        ],
+        [
+          "18",
+          "-3"
+        ],
+        [
+          "15"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "80.0%",
+          "+5.0%"
+        ],
+        [
+          "85.0%",
+          "+5.0%"
+        ],
+        [
+          "90.0%",
+          "+5.0%"
+        ],
+        [
+          "95.0%",
+          "+5.0%"
+        ],
+        [
+          "100.0%",
+          "+5.0%"
+        ],
+        [
+          "105.0%",
+          "+5.0%"
+        ],
+        [
+          "110.0%",
+          "+5.0%"
+        ],
+        [
+          "115.0%",
+          "+5.0%"
+        ],
+        [
+          "120.0%",
+          "+10.0%"
+        ],
+        [
+          "130%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "35",
+        "15"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "80%",
+        "130%"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 1011870,
+    "max_level": 10,
+    "name": "Divine Marksman (R)+",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "1011900": {
     "desc": "When this ship launches an airstrike: 1) performs a scan, revealing the location of enemy SSs, decreasing their SPD by 40.0%, and increasing their DMG taken by 10.0% for $1s; 2) launches an additional airstrike consisting of Swordfishes armed with anti-sub and anti-surface torpedoes (DMG is based on the skill's level).",
     "desc_add": [
@@ -168677,6 +169403,112 @@
     "name": "Observer of the Sky and Sea+",
     "system_transform": [],
     "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1011960": {
+    "desc": "Increases this ship's torpedo efficiency by $1. Each battle, the first 3 times this ship fires her torpedoes: additionally fires a $2 improved special barrage (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 1011960,
+    "max_level": 10,
+    "name": "The Star of Fjord+",
+    "system_transform": [],
+    "type": 1,
     "world_death_mark": [
       1
     ]
@@ -170765,6 +171597,67 @@
     "system_transform": {
       "11": 3500
     },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "1013880": {
+    "desc": "When this ship launches an airstrike: $1 chance to launch an additional Torpedo Bomber airstrike (DMG is based on the skill's level); when this effect activates, sets the SPD of all enemies to 0 for 3s. Increases your Iron Blood ships' DMG dealt to enemies with 0 SPD by 10.0%.",
+    "desc_add": [
+      [
+        [
+          "50.0%",
+          "+5.0%"
+        ],
+        [
+          "55.0%",
+          "+5.0%"
+        ],
+        [
+          "60.0%",
+          "+5.0%"
+        ],
+        [
+          "65.0%",
+          "+5.0%"
+        ],
+        [
+          "70.0%",
+          "+5.0%"
+        ],
+        [
+          "75.0%",
+          "+5.0%"
+        ],
+        [
+          "80.0%",
+          "+5.0%"
+        ],
+        [
+          "85.0%",
+          "+5.0%"
+        ],
+        [
+          "90.0%",
+          "+10.0%"
+        ],
+        [
+          "100%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "50.0%",
+        "100.0%"
+      ]
+    ],
+    "id": 1013880,
+    "max_level": 10,
+    "name": "Iron Blood Falcon+",
+    "system_transform": [],
     "type": 1,
     "world_death_mark": [
       1
