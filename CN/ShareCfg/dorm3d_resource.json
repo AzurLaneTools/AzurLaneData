@@ -11,7 +11,7 @@
     ],
     "id": 105171,
     "model_id": "xinzexi_noshoes",
-    "name": "新泽西常服",
+    "name": "{namecode:199}常服",
     "picture": "regular",
     "remarks": "",
     "ship_group": 10517,
@@ -26,16 +26,10 @@
   "105173": {
     "animator": "",
     "head_Icon": "dorm3Dchar/tianlangxing",
-    "hidden_part": [
-      [
-        1,
-        "skirthem",
-        "all/cloth_2_geo"
-      ]
-    ],
+    "hidden_part": [],
     "id": 105173,
     "model_id": "xinzexi_bunny",
-    "name": "新泽西兔女郎",
+    "name": "{namecode:199}兔女郎",
     "picture": "regular",
     "remarks": "",
     "ship_group": 10517,
@@ -146,7 +140,7 @@
     "hidden_part": [],
     "id": 302211,
     "model_id": "nengdai_noshoes",
-    "name": "能代常服",
+    "name": "{namecode:50}常服",
     "picture": "regular",
     "remarks": "",
     "ship_group": 30221,
@@ -164,7 +158,7 @@
     "hidden_part": [],
     "id": 302212,
     "model_id": "nengdai_swim",
-    "name": "能代泳装",
+    "name": "{namecode:50}泳装",
     "picture": "regular",
     "remarks": "",
     "ship_group": 30221,
@@ -182,33 +176,5 @@
     ],
     "unlock_text": "在沙滩中邀请能代解锁",
     "wear_anim": "shuohua_sikao"
-  },
-  "all": [
-    202201,
-    202202,
-    302211,
-    302212,
-    199031,
-    199032,
-    105171,
-    105173
-  ],
-  "get_id_list_by_ship_group": {
-    "10517": [
-      105171,
-      105173
-    ],
-    "19903": [
-      199031,
-      199032
-    ],
-    "20220": [
-      202201,
-      202202
-    ],
-    "30221": [
-      302211,
-      302212
-    ]
   }
 }
