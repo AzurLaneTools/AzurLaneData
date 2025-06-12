@@ -5642,6 +5642,9 @@
   "dorm3d_VIDEO_CHAT_LABEL": {
     "tip": "$1からの招待"
   },
+  "dorm3d_VIDEO_TELEPHONE_LABEL": {
+    "tip": "$1からの通話"
+  },
   "dorm3d_accompany_locked": {
     "tip": "未開放"
   },
@@ -5684,6 +5687,24 @@
   "dorm3d_beach_switch": {
     "tip": "ビーチ準備中……"
   },
+  "dorm3d_cafe_minigame1": {
+    "tip": "$1の即興ダンス"
+  },
+  "dorm3d_cafe_minigame2": {
+    "tip": "$1の期待の瞬間を収めよう！"
+  },
+  "dorm3d_cafe_minigame3": {
+    "tip": "撮影完了"
+  },
+  "dorm3d_cafe_minigame4": {
+    "tip": "もう一度"
+  },
+  "dorm3d_cafe_minigame5": {
+    "tip": "終了"
+  },
+  "dorm3d_cafe_minigame6": {
+    "tip": "マッチ度：$1"
+  },
   "dorm3d_clothing_choose": {
     "tip": "衣装選択"
   },
@@ -5711,6 +5732,9 @@
   "dorm3d_collection_beach": {
     "tip": "ビーチ"
   },
+  "dorm3d_collection_cafe": {
+    "tip": "カフェ"
+  },
   "dorm3d_collection_cost_tip": {
     "tip": "お伴5分で<icon name=stamina/>行動力-1、親愛度<color=#fc4670>+40</color>"
   },
@@ -5722,6 +5746,9 @@
   },
   "dorm3d_daily_favor_tips": {
     "tip": "本日ボーナス親愛度"
+  },
+  "dorm3d_dance_button": {
+    "tip": "ダンス"
   },
   "dorm3d_data_Invite_lack": {
     "tip": "配置キャラが不足しています"
@@ -5821,6 +5848,9 @@
   },
   "dorm3d_guide_tip": {
     "tip": "シリアスの部屋を見てみよう"
+  },
+  "dorm3d_guide_tip2": {
+    "tip": "まずはビーチを見てみよう"
   },
   "dorm3d_ins_no_msg": {
     "tip": "新着なし"
@@ -6080,6 +6110,9 @@
   "dorm3d_privatechat_screen_floor_1": {
     "tip": "母港ビーチ"
   },
+  "dorm3d_privatechat_screen_floor_2": {
+    "tip": "ロフト"
+  },
   "dorm3d_privatechat_telephone": {
     "tip": "未開放です"
   },
@@ -6087,13 +6120,16 @@
     "tip": "通話"
   },
   "dorm3d_privatechat_telephone_calllog": {
-    "tip": "通話記録"
+    "tip": "ビデオ記録"
   },
   "dorm3d_privatechat_telephone_noviewed": {
     "tip": "未確認"
   },
   "dorm3d_privatechat_topics": {
     "tip": "艦船通信"
+  },
+  "dorm3d_privatechat_video_call": {
+    "tip": "ビデオ通話"
   },
   "dorm3d_privatechat_visit": {
     "tip": "前回訪問"
@@ -6179,6 +6215,12 @@
   "dorm3d_role_manage_role": {
     "tip": "キャラ"
   },
+  "dorm3d_room_floor_1": {
+    "tip": "ビーチ"
+  },
+  "dorm3d_room_floor_2": {
+    "tip": "ロフト"
+  },
   "dorm3d_select_tip": {
     "tip": "公共エリア配置"
   },
@@ -6254,8 +6296,20 @@
   "dorm3d_sirius_table": {
     "tip": "ダイニング"
   },
+  "dorm3d_skin_already": {
+    "tip": "適用中"
+  },
+  "dorm3d_skin_confirm": {
+    "tip": "適用確定"
+  },
+  "dorm3d_skin_equip": {
+    "tip": "$1に$2を適用しますか？"
+  },
   "dorm3d_skin_locked": {
     "tip": "未開放衣装"
+  },
+  "dorm3d_skin_unlock": {
+    "tip": "公共エリアでは衣装を変更できません"
   },
   "dorm3d_story_unlock_tip": {
     "tip": "開放済ストーリー"
@@ -6283,6 +6337,15 @@
   },
   "dorm3d_waiting": {
     "tip": "準備中"
+  },
+  "dorm3d_xinzexi_bed": {
+    "tip": "寝室"
+  },
+  "dorm3d_xinzexi_chair": {
+    "tip": "リビング"
+  },
+  "dorm3d_xinzexi_table": {
+    "tip": "ダイニング"
   },
   "dorm_2f_lock": {
     "tip": "未開放"
@@ -12182,6 +12245,9 @@
   "keep_fate_tip": {
     "tip": "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
   },
+  "l2d_32xbanned_warning": {
+    "tip": "現在の端末環境ではL2Dコンテンツを正常に表示できません"
+  },
   "lanternRiddles_answer_is_right": {
     "tip": "正解です！"
   },
@@ -13127,7 +13193,7 @@
         "info": "■概要\n「熱烈の告白演習」とは、イベント開始時に仮加入した【大鳳ちゃん】の「友好度」を海域に出撃することで貯め、【大鳳ちゃん】を正式加入させるイベントになります。"
       },
       {
-        "info": "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージまたはイベント海域（常設イベントを除く）の中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+        "info": "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
       },
       {
         "info": "2.【大鳳ちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
@@ -13139,7 +13205,7 @@
         "info": "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【大鳳ちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【大鳳ちゃん】は母港からいなくなります。"
       },
       {
-        "info": "5.友好度報酬は6/7（水）まで毎日1段階ずつ解放されます。"
+        "info": "5.友好度報酬は6/18（水）まで毎日1段階ずつ解放されます。"
       },
       {
         "info": "6.仮加入状態の【大鳳ちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"

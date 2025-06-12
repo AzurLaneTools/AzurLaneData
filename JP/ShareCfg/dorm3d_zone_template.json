@@ -249,6 +249,81 @@
     "type_prioritys": "",
     "watch_camera": "Ankeleiqi"
   },
+  "4005": {
+    "id": 4005,
+    "is_global": 0,
+    "name": "滑り台",
+    "room_id": 4,
+    "special_action": [],
+    "touch_id": [
+      [
+        19903,
+        1990390
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Slide"
+  },
+  "11001": {
+    "id": 11001,
+    "is_global": 0,
+    "name": "寝室",
+    "room_id": 11,
+    "special_action": "",
+    "touch_id": [
+      [
+        10517,
+        1051730
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Bed"
+  },
+  "11002": {
+    "id": 11002,
+    "is_global": 0,
+    "name": "ダイニング",
+    "room_id": 11,
+    "special_action": "",
+    "touch_id": [
+      [
+        10517,
+        1051710
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "11003": {
+    "id": 11003,
+    "is_global": 0,
+    "name": "リビング",
+    "room_id": 11,
+    "special_action": "",
+    "touch_id": [
+      [
+        10517,
+        1051720
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
+  "16001": {
+    "id": 16001,
+    "is_global": 0,
+    "name": "ステージ",
+    "room_id": 16,
+    "special_action": "",
+    "touch_id": [
+      [
+        10517,
+        1051790
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "xinzexi"
+  },
   "all": [
     1000,
     1001,
@@ -263,7 +338,12 @@
     4001,
     4002,
     4003,
-    4004
+    4004,
+    4005,
+    11001,
+    11002,
+    11003,
+    16001
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -286,7 +366,16 @@
       4001,
       4002,
       4003,
-      4004
+      4004,
+      4005
+    ],
+    "11": [
+      11001,
+      11002,
+      11003
+    ],
+    "16": [
+      16001
     ]
   }
 }

@@ -197,6 +197,87 @@
     "type": 5,
     "zone_id": 3003
   },
+  "140101": {
+    "default_furniture": 0,
+    "furniture_name": "Slide",
+    "id": 140101,
+    "name": "沙滩滑梯",
+    "room_id": 4,
+    "type": 3,
+    "zone_id": 4005
+  },
+  "1110101": {
+    "default_furniture": 0,
+    "furniture_name": "no_bake_prop_substitute",
+    "id": 1110101,
+    "name": "卧室书架",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11001
+  },
+  "1110102": {
+    "default_furniture": 1101,
+    "furniture_name": "pre_db_bed04",
+    "id": 1110102,
+    "name": "卧室床",
+    "room_id": 11,
+    "type": 4,
+    "zone_id": 11001
+  },
+  "1110201": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_electrical03",
+    "id": 1110201,
+    "name": "餐厅微波炉",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11002
+  },
+  "1110202": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_pottedplant01",
+    "id": 1110202,
+    "name": "餐厅绿植",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11002
+  },
+  "1110203": {
+    "default_furniture": 1102,
+    "furniture_name": "pre_db_appliances04",
+    "id": 1110203,
+    "name": "冰箱",
+    "room_id": 11,
+    "type": 6,
+    "zone_id": 11002
+  },
+  "1110301": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_billboard01",
+    "id": 1110301,
+    "name": "客厅画框",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11003
+  },
+  "1110302": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_fishtank01",
+    "id": 1110302,
+    "name": "客厅水缸",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11003
+  },
+  "1110303": {
+    "default_furniture": 1103,
+    "furniture_name": "pre_db_chair19_group",
+    "id": 1110303,
+    "name": "客厅沙发",
+    "room_id": 11,
+    "type": 5,
+    "zone_id": 11003
+  },
   "all": [
     100101,
     100102,
@@ -219,10 +300,19 @@
     130201,
     130202,
     130301,
-    130302
+    130302,
+    140101,
+    1110101,
+    1110102,
+    1110201,
+    1110202,
+    1110203,
+    1110301,
+    1110302,
+    1110303
   ],
-  "get_id_list_by_room_id": [
-    [
+  "get_id_list_by_room_id": {
+    "1": [
       100101,
       100102,
       100201,
@@ -230,7 +320,7 @@
       100301,
       100402
     ],
-    [
+    "2": [
       120101,
       120102,
       120103,
@@ -241,7 +331,7 @@
       120302,
       120303
     ],
-    [
+    "3": [
       130101,
       130102,
       130103,
@@ -249,8 +339,21 @@
       130202,
       130301,
       130302
+    ],
+    "4": [
+      140101
+    ],
+    "11": [
+      1110101,
+      1110102,
+      1110201,
+      1110202,
+      1110203,
+      1110301,
+      1110302,
+      1110303
     ]
-  ],
+  },
   "get_id_list_by_zone_id": {
     "1001": [
       100101,
@@ -293,6 +396,23 @@
     "3003": [
       130301,
       130302
+    ],
+    "4005": [
+      140101
+    ],
+    "11001": [
+      1110101,
+      1110102
+    ],
+    "11002": [
+      1110201,
+      1110202,
+      1110203
+    ],
+    "11003": [
+      1110301,
+      1110302,
+      1110303
     ]
   }
 }

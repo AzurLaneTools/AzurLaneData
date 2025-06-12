@@ -131,15 +131,65 @@
       19903
     ]
   },
+  "111": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 111,
+    "image": "xinzexi_accompany_room",
+    "jump_trigger": [],
+    "name": "ビーチ",
+    "performance_time": 20,
+    "resource_room": 11,
+    "sceneInfo": "map_newjerseyhostel_02|Xinzexi_DB/Newjerseyhostel",
+    "ship_id": 10517,
+    "timeline": "Xiangban_personal",
+    "unlock": []
+  },
+  "112": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 112,
+    "image": "cafe_accompany",
+    "jump_trigger": [],
+    "name": "寝室",
+    "performance_time": 20,
+    "resource_room": 16,
+    "sceneInfo": "map_publiccafe_02|Publiccafe",
+    "ship_id": 10517,
+    "timeline": "Xiangban_cafe",
+    "unlock": [
+      5,
+      16,
+      10517
+    ]
+  },
   "all": [
     1,
     2,
     21,
     22,
     31,
-    32
+    32,
+    111,
+    112
   ],
   "get_id_list_by_ship_id": {
+    "10517": [
+      111,
+      112
+    ],
     "19903": [
       31,
       32
