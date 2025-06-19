@@ -143,7 +143,7 @@
   },
   "9701032": {
     "breakout_id": 9701033,
-    "breakout_view": "어뢰 발사 수 +1/어뢰 탑재량 +1/어뢰 효율 +10%",
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
     "gold": 1500,
     "id": 9701032,
     "item1": 21024,
@@ -437,6 +437,69 @@
     "item2_num": 0,
     "level": 0,
     "pre_id": 9701073,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9701081": {
+    "breakout_id": 9701082,
+    "breakout_view": "[인멸의 핵 - 카와카제] 습득 / 어뢰 보정 +5%",
+    "gold": 1000,
+    "id": 9701081,
+    "item1": 21049,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      170791
+    ]
+  },
+  "9701082": {
+    "breakout_id": 9701083,
+    "breakout_view": "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+    "gold": 3000,
+    "id": 9701082,
+    "item1": 21049,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9701081,
+    "repair": 0,
+    "weapon_ids": [
+      107,
+      107
+    ]
+  },
+  "9701083": {
+    "breakout_id": 9701084,
+    "breakout_view": "[인멸의 핵 - 카와카제] 강화 / 무기 보정 +5%",
+    "gold": 10000,
+    "id": 9701083,
+    "item1": 21049,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9701082,
+    "repair": 0,
+    "weapon_ids": [
+      170792
+    ]
+  },
+  "9701084": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "gold": 0,
+    "id": 9701084,
+    "item1": 21049,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9701083,
     "repair": 0,
     "weapon_ids": []
   },
