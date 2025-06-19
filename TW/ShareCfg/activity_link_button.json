@@ -8,8 +8,31 @@
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
-      "default",
-      5941
+      "timer",
+      [
+        [
+          2025,
+          6,
+          19
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          7,
+          3
+        ],
+        [
+          14,
+          59,
+          59
+        ]
+      ]
     ],
     "type": 3
   },
@@ -18,10 +41,13 @@
     "id": 2,
     "name": "event_all",
     "order": 2,
-    "param": "0",
-    "pic": "event_all_1",
+    "param": "5871",
+    "pic": "event_all",
     "text_pic": "text_event_all",
-    "time": "stop",
+    "time": [
+      "default",
+      5871
+    ],
     "type": 3
   },
   "9": {
@@ -151,8 +177,11 @@
     "order": 1,
     "param": "0",
     "pic": "event_series",
-    "text_pic": "text_event_series",
-    "time": "stop",
+    "text_pic": "",
+    "time": [
+      "default",
+      5888
+    ],
     "type": 0
   },
   "100": {
@@ -160,11 +189,16 @@
     "id": 100,
     "name": "event_medal",
     "order": 1,
-    "param": "45060",
+    "param": [
+      "SENRANKAGURA_MEDAL"
+    ],
     "pic": "event_medal",
     "text_pic": "text_event_medal",
-    "time": "stop",
-    "type": 3
+    "time": [
+      "default",
+      5093
+    ],
+    "type": 2
   },
   "101": {
     "group_id": 100,
@@ -229,13 +263,13 @@
     "name": "event_boat_ad_game",
     "order": 1,
     "param": [
-      68
+      73
     ],
     "pic": "event_boat_ad_game",
     "text_pic": "text_event_boat_ad_game",
     "time": [
       "default",
-      5629
+      5765
     ],
     "type": 7
   },
@@ -287,6 +321,20 @@
     ],
     "type": 2
   },
+  "109": {
+    "group_id": 1,
+    "id": 109,
+    "name": "event_core",
+    "order": 1,
+    "param": "BRSCoreActivityUI",
+    "pic": "event_brs",
+    "text_pic": "text_event_brs",
+    "time": [
+      "default",
+      5985
+    ],
+    "type": 16
+  },
   "1000": {
     "group_id": 5,
     "id": 1000,
@@ -322,7 +370,8 @@
     105,
     106,
     107,
-    108
+    108,
+    109
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -350,6 +399,9 @@
     ],
     "event_boss_single": [
       102
+    ],
+    "event_core": [
+      109
     ],
     "event_dreamland": [
       103

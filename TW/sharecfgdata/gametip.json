@@ -737,6 +737,12 @@
   "ad_4": {
     "tip": "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 邀請你挑戰 <material=underline><color=#FFDE38FF>$3</color></material>"
   },
+  "add_skin_random_secretary_ship_list": {
+    "tip": "加入隨機秘書艦列表"
+  },
+  "add_skin_secretary_ship": {
+    "tip": "更換同時加入秘書組"
+  },
   "adventure_award_end_tip": {
     "tip": "※領取時間截止至8.14 24時"
   },
@@ -2646,6 +2652,21 @@
   "breakout_tip_ultimatebonus_torpedo": {
     "tip": "自身裝備的魚雷武器散佈角度減小"
   },
+  "brs_dmact_tip": {
+    "tip": "累計擊沉敵人"
+  },
+  "brs_expedition_tip": {
+    "tip": "活動期間完成挑戰關卡，可獲得限定獎勵"
+  },
+  "brs_main_tip": {
+    "tip": "期間參與活動，獲得限定獎勵"
+  },
+  "brs_reward_tip_1": {
+    "tip": "獲取途徑"
+  },
+  "brs_reward_tip_2": {
+    "tip": "前往"
+  },
   "build_count_tip": {
     "tip": "累計"
   },
@@ -3641,6 +3662,12 @@
   },
   "child_upgrade_sure_tip": {
     "tip": "系統升級後，目前的成長目標將會刷新，未使用的行動力也不會保存。是否確認進行系統升級？"
+  },
+  "choose_secretary_change_title": {
+    "tip": "秘書組"
+  },
+  "choose_secretary_change_to_this_ship": {
+    "tip": "請選擇需要放入的位置"
   },
   "choose_ship_to_wear_this_skin": {
     "tip": "請選擇需要換裝的角色"
@@ -9994,7 +10021,7 @@
   "help_shipblueprintui": {
     "tip": [
       {
-        "info": "\n開始研究\n1.  開始方案艦的研究之前，需要滿足對應方案艦的研究前置條件\n2. 研究前置條件會顯示在畫面中央\n3.  當滿足前置條件後，點選開始研究按鈕，即可開始研究\n4. 方案艦同時只能研究一艘\n\n研究任務\n1.  開始研究後，需要完成指定方案艦的所有研究任務才能獲得該方案艦\n2 . 研究任務每24小時解鎖一個\n3. 第一個研究任務在開始研究後默認解鎖\n4.  部分研究任務有前置任務，必須完成前置任務後才能展開後續的任務\n\n切換研究對象\n1. 在研究過程中，可以切換研究其他方案艦\n2.  切換後，原先的方案艦的研究任務解鎖進度、任務完成進度會被暫停\n3. 切換研究對象後，需要等待24小時後才能再次切換研究對象\n\n完成研究\n1.  當完成方案艦的所有研究任務後，即可獲得該方案艦，並解鎖該方案艦的開發功能\n2. 完成研究後，需要手動指定新的研究對象\n\n進行開發\n1.  獲得方案艦後，會解鎖該方案艦的開發功能\n2. 通常情況下，開發需要消耗對應方案艦的藍圖，當沒有藍圖時無法進行開發\n3.  藍圖主要在軍部科研室中透過完成科研項目獲得\n4. 開發可以提高方案艦的能力，當開發等級達到指定等級後，還能解鎖開發加成能力\n\n物資追趕\n1.  方案艦角色開放達到一定時間後，將會解鎖物資追趕功能\n2.  解鎖物資追趕功能的方案艦，當沒有藍圖可以進行開發時，可以使用物資替代藍圖進行開發，根據稀有度不同所需物資價格不同 \n3.  物資追趕每日有折扣次數，依方案艦稀有度分別計數\n\n最高方案\n免費-2次，1折-2次，2折-3次，4折-3次，7  折-5次\n決戰方案\n免費-2次，1折-4次，2折-4次，5折-5次\n *折扣次數所有同稀有度的方案艦共享，每日凌晨4點重置\n4.  《天運擬合》系統同樣可使用物資取代藍圖提升完成度，折扣次數與通常開發共用\n"
+        "info": "\n開始研究\n1.開始方案艦的研究之前，需要滿足對應方案艦的研究前置條件\n2. 研究前置條件會顯示在畫面中央\n3. 當滿足前置條件後，點擊開始研究按鈕，即可開始研究\n4. 方案艦同時只能研究一艘\n\n研究任務\n1. 開始研究後，需要完成指定方案艦的所有研究任務才能獲得該方案艦\n2. 研究任務每24小時解鎖一個\n3. 第一個研究任務在開始研究後默認解鎖\n4. 部分研究任務有前置任務，必須完成前置任務後才能開展後續的任務\n\n切換研究對象\n1. 在研究過程中，可以切換研究其他方案艦\n2. 切換後，原先的方案艦的研究任務解鎖進度、任務完成進度會被暫停\n3. 切換研究對象後，需要等待24小時後才能再次切換研究對象\n\n完成研究\n1. 當完成方案艦的所有研究任務後，即可獲得該方案艦，並解鎖該方案艦的開發功能\n2. 完成研究後，需要手動指定新的研究對象\n\n進行開發\n1. 獲得方案艦後，會解鎖該方案艦的開發功能\n2. 通常情況下，開發需要消耗對應方案艦的藍圖，當沒有藍圖時無法進行開發\n3. 藍圖主要在軍部科研室中透過完成科研項目獲得\n4. 開發可以提升方案艦的能力，到開發等級達到指定等級後，還能解鎖開發加成能力\n\n物資追趕\n1. 方案艦角色開放達到一定時間後，將會解鎖物資追趕功能\n2. 解鎖物資追趕功能的方案艦，當沒有藍圖可以進行開發時，可以使用物資替代藍圖進行開發，根據稀有度不同所需物資價格不同\n3. 物資追趕每日有折扣次數，依據方案艦稀有度分別計數\n\n最高方案\n免費-2次，1折-2次，2折-3次，4折-3次，7折-5次\n決戰方案\n免費-2次，1折-4次，2折-4次，5折-5次\n *折扣次數所有同稀有度的方案艦共享，每日凌晨4點重置\n4. 《天運擬合》系統同樣可使用物資代替藍圖提升完成度，折扣次數與通常開發共用\n\n5. 換裝投影\n1.換裝投影是針對方案艦研發的新功能，目前只有方案艦可以使用；\n2.投影可以加入秘書組，可以共享方案艦的所有已擁有換裝，方便指揮官同時展示方案艦的多種換裝；\n3.完成投影製作任務即可獲得投影；\n4.投影管理介面有兩個入口，分別在角色換裝介面和開發船塢介面。\n"
       }
     ]
   },
@@ -12674,6 +12701,34 @@
       }
     ]
   },
+  "littleaijier_npc": {
+    "tip": [
+      {
+        "info": "「深淵之國」的締造者說明："
+      },
+      {
+        "info": "1.活動期間，玩家可獲得臨時npc角色「{namecode:544}」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+      },
+      {
+        "info": "2.活動期間，完成活動任務，可獲得臨時npc角色「{namecode:544}」的友好度。"
+      },
+      {
+        "info": "3.6月25日為止，每日解鎖1個可達成的友好度階段。"
+      },
+      {
+        "info": "4.在活動結束前累積獲得10000點友好度，可領取獎勵並將臨時角色「{namecode:544}」轉化為永久角色。"
+      },
+      {
+        "info": "5.在活動結束後，未完成轉化的臨時角色「{namecode:544}」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+      },
+      {
+        "info": "6.npc角色無法參與大型作戰。"
+      },
+      {
+        "info": "7.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+      }
+    ]
+  },
   "live2d_reset_desc": {
     "tip": "Live2D狀態已重置"
   },
@@ -14993,6 +15048,30 @@
   "probabilityskinshop_tip": {
     "tip": "如果該換裝已擁有，則會轉化為等價的鑽石"
   },
+  "projection_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/projection_help1",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "prop_destroyProp_error": {
     "tip": "道具出售失敗:"
   },
@@ -15198,6 +15277,9 @@
   "random_ship_custom_mode_add_complete": {
     "tip": "添加角色成功"
   },
+  "random_ship_custom_mode_add_shadow_complete": {
+    "tip": "已加入隨機秘書組"
+  },
   "random_ship_custom_mode_add_tip1": {
     "tip": "選擇角色添加至秘書艦列表"
   },
@@ -15223,10 +15305,13 @@
     "tip": "隨機秘書組將從以上角色中隨機選取"
   },
   "random_ship_custom_mode_main_tip2": {
-    "tip": "角色總數："
+    "tip": "總數："
   },
   "random_ship_custom_mode_remove_complete": {
     "tip": "移除角色成功"
+  },
+  "random_ship_custom_mode_remove_shadow_complete": {
+    "tip": "已從隨機秘書組移除"
   },
   "random_ship_custom_mode_remove_tip1": {
     "tip": "選擇角色從秘書艦列表中移除"
@@ -16755,6 +16840,15 @@
   "several_minutes_before": {
     "tip": "<color=#A9F548>$1</color>分鐘前"
   },
+  "shadow_scene_name": {
+    "tip": "換裝投影"
+  },
+  "shadow_skin_change_success": {
+    "tip": "投影換裝更換成功！"
+  },
+  "shadow_unlock_tip": {
+    "tip": "請完成投影製作任務解鎖該欄位"
+  },
   "sham_battle_help_tip": {
     "tip": [
       {
@@ -17204,6 +17298,9 @@
   "ship_quick_change_nofreeequip": {
     "tip": "沒有閒置的對應裝備"
   },
+  "ship_random_secretary_tag": {
+    "tip": "隨機秘書組"
+  },
   "ship_remouldShip_error": {
     "tip": "突破船失敗:"
   },
@@ -17591,6 +17688,9 @@
   },
   "shopStreet_upgrade_done": {
     "tip": "商店街升級完成"
+  },
+  "shop_akashi_pick_title": {
+    "tip": "明石的精選"
   },
   "shop_buyItem_error": {
     "tip": "購買失敗:"
@@ -18648,6 +18748,18 @@
   },
   "tech_select_tip5": {
     "tip": "使用後將獲得以下道具"
+  },
+  "tech_shadow_change_button_1": {
+    "tip": "換裝投影"
+  },
+  "tech_shadow_change_button_2": {
+    "tip": "艦船開發"
+  },
+  "tech_shadow_commit_tip": {
+    "tip": "需要提交<color=#92fc63>$1</color>，是否確認提交？"
+  },
+  "tech_shadow_limit_text": {
+    "tip": "$1級後開啟"
   },
   "tech_simulate_closed": {
     "tip": "该角色战术模拟暂未开放"
@@ -20470,6 +20582,9 @@
   "word_shipNation_beiLian": {
     "tip": "北方聯合"
   },
+  "word_shipNation_brs": {
+    "tip": "BLACK★ROCK SHOOTER"
+  },
   "word_shipNation_chongYing": {
     "tip": "重櫻"
   },
@@ -20615,7 +20730,7 @@
     "tip": "查看已無法取得的內容"
   },
   "word_show_extra_reward_at_fudai_dialog": {
-    "tip": "（<color=#92fc63>贈送$1</color>）"
+    "tip": "（<color=#92fc63>贈送$1</color> ）"
   },
   "word_simple": {
     "tip": "稀有"
