@@ -1,4 +1,1446 @@
 {
-  "all": [],
-  "get_id_list_by_group_id": []
+  "1101": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        6
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "group_id": 1,
+    "icon_rectangle": "plan_rectangle_1",
+    "icon_square": "plan_square_1",
+    "id": 1101,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "趣球課堂",
+    "name_2": "趣球課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        101,
+        5
+      ]
+    ],
+    "result_node": 20001,
+    "type": 1
+  },
+  "1102": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        6
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "group_id": 2,
+    "icon_rectangle": "plan_rectangle_2",
+    "icon_square": "plan_square_2",
+    "id": 1102,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "巧手課堂",
+    "name_2": "巧手課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        103,
+        5
+      ]
+    ],
+    "result_node": 20003,
+    "type": 1
+  },
+  "1103": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        6
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "group_id": 3,
+    "icon_rectangle": "plan_rectangle_3",
+    "icon_square": "plan_square_3",
+    "id": 1103,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "悅讀課堂",
+    "name_2": "悅讀課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        102,
+        5
+      ]
+    ],
+    "result_node": 20005,
+    "type": 1
+  },
+  "1104": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        6
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "group_id": 4,
+    "icon_rectangle": "plan_rectangle_4",
+    "icon_square": "plan_square_4",
+    "id": 1104,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "奇思課堂",
+    "name_2": "奇思課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        104,
+        5
+      ]
+    ],
+    "result_node": 20007,
+    "type": 1
+  },
+  "1105": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 5,
+    "icon_rectangle": "plan_rectangle_5",
+    "icon_square": "plan_square_5",
+    "id": 1105,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "律動課堂",
+    "name_2": "律動課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        2,
+        2,
+        3
+      ]
+    ],
+    "result_node": 20009,
+    "type": 2
+  },
+  "1106": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 6,
+    "icon_rectangle": "plan_rectangle_6",
+    "icon_square": "plan_square_6",
+    "id": 1106,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "生活課堂",
+    "name_2": "生活課堂",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        2,
+        1,
+        8
+      ]
+    ],
+    "result_node": 20011,
+    "type": 2
+  },
+  "1107": {
+    "condition_desc": [
+      [
+        [
+          20010
+        ],
+        "體能<color=#f7f7f7>>=300</color>"
+      ],
+      [
+        [
+          20050
+        ],
+        "總屬性<color=#f7f7f7>>=600</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 7,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 1107,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [
+      "&&",
+      [
+        20010,
+        20050
+      ]
+    ],
+    "name": "體能課程Lv.1",
+    "name_2": "體能課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        101,
+        10
+      ]
+    ],
+    "result_node": 20013,
+    "type": 1
+  },
+  "1108": {
+    "condition_desc": [
+      [
+        [
+          20011
+        ],
+        "體能<color=#f7f7f7>>=1000</color>"
+      ],
+      [
+        [
+          20051
+        ],
+        "總屬性<color=#f7f7f7>>=1800</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 7,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 1108,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [
+      "&&",
+      [
+        20011,
+        20051
+      ]
+    ],
+    "name": "體能課程Lv.2",
+    "name_2": "體能課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        101,
+        20
+      ]
+    ],
+    "result_node": 20015,
+    "type": 1
+  },
+  "1109": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 7,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 1109,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "體能課程Lv.Max",
+    "name_2": "體能課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        101,
+        40
+      ]
+    ],
+    "result_node": 20017,
+    "type": 1
+  },
+  "1110": {
+    "condition_desc": [
+      [
+        [
+          20020
+        ],
+        "實踐<color=#f7f7f7>>=300</color>"
+      ],
+      [
+        [
+          20050
+        ],
+        "總屬性<color=#f7f7f7>>=600</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 8,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 1110,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [
+      "&&",
+      [
+        20020,
+        20050
+      ]
+    ],
+    "name": "實踐課程Lv.1",
+    "name_2": "實踐課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        103,
+        10
+      ]
+    ],
+    "result_node": 20019,
+    "type": 1
+  },
+  "1111": {
+    "condition_desc": [
+      [
+        [
+          20021
+        ],
+        "實踐<color=#f7f7f7>>=1000</color>"
+      ],
+      [
+        [
+          20051
+        ],
+        "總屬性<color=#f7f7f7>>=1800</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 8,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 1111,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [
+      "&&",
+      [
+        20021,
+        20051
+      ]
+    ],
+    "name": "實踐課程Lv.2",
+    "name_2": "實踐課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        103,
+        20
+      ]
+    ],
+    "result_node": 20021,
+    "type": 1
+  },
+  "1112": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 8,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 1112,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "實踐課程Lv.Max",
+    "name_2": "實踐課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        103,
+        40
+      ]
+    ],
+    "result_node": 20023,
+    "type": 1
+  },
+  "1113": {
+    "condition_desc": [
+      [
+        [
+          20040
+        ],
+        "知識<color=#f7f7f7>>=300</color>"
+      ],
+      [
+        [
+          20050
+        ],
+        "總屬性<color=#f7f7f7>>=600</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 9,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 1113,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [
+      "&&",
+      [
+        20040,
+        20050
+      ]
+    ],
+    "name": "閱讀課程Lv.1",
+    "name_2": "閱讀課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        102,
+        10
+      ]
+    ],
+    "result_node": 20025,
+    "type": 1
+  },
+  "1114": {
+    "condition_desc": [
+      [
+        [
+          20041
+        ],
+        "知識<color=#f7f7f7>>=1000</color>"
+      ],
+      [
+        [
+          20051
+        ],
+        "總屬性<color=#f7f7f7>>=1800</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 9,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 1114,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [
+      "&&",
+      [
+        20041,
+        20051
+      ]
+    ],
+    "name": "閱讀課程Lv.2",
+    "name_2": "閱讀課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        102,
+        20
+      ]
+    ],
+    "result_node": 20027,
+    "type": 1
+  },
+  "1115": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 9,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 1115,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "閱讀課程Lv.Max",
+    "name_2": "閱讀課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        102,
+        40
+      ]
+    ],
+    "result_node": 20029,
+    "type": 1
+  },
+  "1116": {
+    "condition_desc": [
+      [
+        [
+          20030
+        ],
+        "感知<color=#f7f7f7>>=300</color>"
+      ],
+      [
+        [
+          20050
+        ],
+        "總屬性<color=#f7f7f7>>=600</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 10,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 1116,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [
+      "&&",
+      [
+        20030,
+        20050
+      ]
+    ],
+    "name": "感知課程Lv.1",
+    "name_2": "感知課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        104,
+        10
+      ]
+    ],
+    "result_node": 20031,
+    "type": 1
+  },
+  "1117": {
+    "condition_desc": [
+      [
+        [
+          20031
+        ],
+        "感知<color=#f7f7f7>>=1000</color>"
+      ],
+      [
+        [
+          20051
+        ],
+        "總屬性<color=#f7f7f7>>=1800</color>"
+      ]
+    ],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 10,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 1117,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [
+      "&&",
+      [
+        20031,
+        20051
+      ]
+    ],
+    "name": "感知課程Lv.2",
+    "name_2": "感知課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        104,
+        20
+      ]
+    ],
+    "result_node": 20033,
+    "type": 1
+  },
+  "1118": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 10,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 1118,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "感知課程Lv.Max",
+    "name_2": "感知課程",
+    "replace_type": [
+      1,
+      2
+    ],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        1,
+        104,
+        40
+      ]
+    ],
+    "result_node": 20035,
+    "type": 1
+  },
+  "1119": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 11,
+    "icon_rectangle": "plan_rectangle_12",
+    "icon_square": "plan_square_12",
+    "id": 1119,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "元氣舞蹈",
+    "name_2": "元氣舞蹈",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        2,
+        2,
+        6
+      ]
+    ],
+    "result_node": 20037,
+    "type": 2
+  },
+  "1122": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 12,
+    "icon_rectangle": "plan_rectangle_11",
+    "icon_square": "plan_square_11",
+    "id": 1122,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "莊園助手",
+    "name_2": "莊園助手",
+    "replace_type": [],
+    "replace_type_show": 1,
+    "result_display": [
+      [
+        2,
+        1,
+        15
+      ]
+    ],
+    "result_node": 20039,
+    "type": 2
+  },
+  "3001": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 30,
+    "icon_rectangle": "plan_rectangle_15",
+    "icon_square": "plan_square_15",
+    "id": 3001,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "自由漫步",
+    "name_2": "自由漫步",
+    "replace_type": [],
+    "replace_type_show": 2,
+    "result_display": [
+      [
+        1,
+        101,
+        1
+      ]
+    ],
+    "result_node": 20501,
+    "type": 1
+  },
+  "3002": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 30,
+    "icon_rectangle": "plan_rectangle_15",
+    "icon_square": "plan_square_15",
+    "id": 3002,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [],
+    "name": "自由漫步",
+    "name_2": "自由漫步",
+    "replace_type": [],
+    "replace_type_show": 2,
+    "result_display": [
+      [
+        1,
+        101,
+        1
+      ]
+    ],
+    "result_node": 20503,
+    "type": 1
+  },
+  "3003": {
+    "condition_desc": [],
+    "cost": [],
+    "group_id": 30,
+    "icon_rectangle": "plan_rectangle_15",
+    "icon_square": "plan_square_15",
+    "id": 3003,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "自由漫步",
+    "name_2": "自由漫步",
+    "replace_type": [],
+    "replace_type_show": 2,
+    "result_display": [
+      [
+        1,
+        101,
+        1
+      ]
+    ],
+    "result_node": 20505,
+    "type": 1
+  },
+  "3107": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 15,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 3107,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "體能課程Lv.1",
+    "name_2": "體能課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        101,
+        10
+      ]
+    ],
+    "result_node": 20513,
+    "type": 1
+  },
+  "3108": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 15,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 3108,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [],
+    "name": "體能課程Lv.2",
+    "name_2": "體能課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        101,
+        20
+      ]
+    ],
+    "result_node": 20515,
+    "type": 1
+  },
+  "3109": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 15,
+    "icon_rectangle": "plan_rectangle_7",
+    "icon_square": "plan_square_7",
+    "id": 3109,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "體能課程Lv.Max",
+    "name_2": "體能課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        101,
+        40
+      ]
+    ],
+    "result_node": 20517,
+    "type": 1
+  },
+  "3110": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 16,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 3110,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "實踐課程Lv.1",
+    "name_2": "實踐課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        103,
+        10
+      ]
+    ],
+    "result_node": 20519,
+    "type": 1
+  },
+  "3111": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 16,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 3111,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [],
+    "name": "實踐課程Lv.2",
+    "name_2": "實踐課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        103,
+        20
+      ]
+    ],
+    "result_node": 20521,
+    "type": 1
+  },
+  "3112": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 16,
+    "icon_rectangle": "plan_rectangle_8",
+    "icon_square": "plan_square_8",
+    "id": 3112,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "實踐課程Lv.Max",
+    "name_2": "實踐課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        103,
+        40
+      ]
+    ],
+    "result_node": 20523,
+    "type": 1
+  },
+  "3113": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 17,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 3113,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "閱讀課程Lv.1",
+    "name_2": "閱讀課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        102,
+        10
+      ]
+    ],
+    "result_node": 20525,
+    "type": 1
+  },
+  "3114": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 17,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 3114,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [],
+    "name": "閱讀課程Lv.2",
+    "name_2": "閱讀課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        102,
+        20
+      ]
+    ],
+    "result_node": 20527,
+    "type": 1
+  },
+  "3115": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 17,
+    "icon_rectangle": "plan_rectangle_9",
+    "icon_square": "plan_square_9",
+    "id": 3115,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "閱讀課程Lv.Max",
+    "name_2": "閱讀課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        102,
+        40
+      ]
+    ],
+    "result_node": 20529,
+    "type": 1
+  },
+  "3116": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        12
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_id": 18,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 3116,
+    "is_show": 1,
+    "level": 1,
+    "level_condition": [],
+    "name": "感知課程Lv.1",
+    "name_2": "感知課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        104,
+        10
+      ]
+    ],
+    "result_node": 20531,
+    "type": 1
+  },
+  "3117": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        20
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "group_id": 18,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 3117,
+    "is_show": 1,
+    "level": 2,
+    "level_condition": [],
+    "name": "感知課程Lv.2",
+    "name_2": "感知課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        104,
+        20
+      ]
+    ],
+    "result_node": 20533,
+    "type": 1
+  },
+  "3118": {
+    "condition_desc": [],
+    "cost": [
+      [
+        2,
+        1,
+        40
+      ],
+      [
+        2,
+        2,
+        8
+      ]
+    ],
+    "group_id": 18,
+    "icon_rectangle": "plan_rectangle_10",
+    "icon_square": "plan_square_10",
+    "id": 3118,
+    "is_show": 1,
+    "level": 3,
+    "level_condition": [],
+    "name": "感知課程Lv.Max",
+    "name_2": "感知課程",
+    "replace_type": [],
+    "replace_type_show": 3,
+    "result_display": [
+      [
+        1,
+        104,
+        40
+      ]
+    ],
+    "result_node": 20535,
+    "type": 1
+  },
+  "all": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1116,
+    1117,
+    1118,
+    1119,
+    1122,
+    3001,
+    3002,
+    3003,
+    3107,
+    3108,
+    3109,
+    3110,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    3118
+  ],
+  "get_id_list_by_group_id": {
+    "1": [
+      1101
+    ],
+    "2": [
+      1102
+    ],
+    "3": [
+      1103
+    ],
+    "4": [
+      1104
+    ],
+    "5": [
+      1105
+    ],
+    "6": [
+      1106
+    ],
+    "7": [
+      1107,
+      1108,
+      1109
+    ],
+    "8": [
+      1110,
+      1111,
+      1112
+    ],
+    "9": [
+      1113,
+      1114,
+      1115
+    ],
+    "10": [
+      1116,
+      1117,
+      1118
+    ],
+    "11": [
+      1119
+    ],
+    "12": [
+      1122
+    ],
+    "15": [
+      3107,
+      3108,
+      3109
+    ],
+    "16": [
+      3110,
+      3111,
+      3112
+    ],
+    "17": [
+      3113,
+      3114,
+      3115
+    ],
+    "18": [
+      3116,
+      3117,
+      3118
+    ],
+    "30": [
+      3001,
+      3002,
+      3003
+    ]
+  }
 }

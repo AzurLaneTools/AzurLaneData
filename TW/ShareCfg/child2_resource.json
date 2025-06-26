@@ -1,4 +1,64 @@
 {
-  "all": [],
-  "get_id_list_by_character": []
+  "1": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "虛擬小鎮的貨幣，用處多多",
+    "icon": "res_jinqian",
+    "id": 1,
+    "item_icon": "res_jinqian2",
+    "max_value": 99999,
+    "min_value": 0,
+    "name": "金錢",
+    "type": 1
+  },
+  "2": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "$1\n心情將會影響屬性、金錢的收益\n0~19:收益減少40% 20~39:收益減少20%\n40~59:收益不變60~100: 收益增加40%",
+    "icon": "res_xinqing",
+    "id": 2,
+    "item_icon": "res_xinqing2",
+    "max_value": 100,
+    "min_value": 0,
+    "name": "心情",
+    "type": 2
+  },
+  "3": {
+    "character": 1,
+    "default_value": 3,
+    "desc": "用於大地圖出行，每回合會回復至滿值。",
+    "icon": "res_xingdongli",
+    "id": 3,
+    "item_icon": "res_xingdongli2",
+    "max_value": 3,
+    "min_value": 0,
+    "name": "行動力",
+    "type": 3
+  },
+  "4": {
+    "character": 1,
+    "default_value": 50,
+    "desc": "完成主介面對話事件可增加好感度。 \n好感度提升可獲得獎勵。",
+    "icon": "res_haogandu",
+    "id": 4,
+    "item_icon": "res_haogandu2",
+    "max_value": 500,
+    "min_value": 0,
+    "name": "好感度",
+    "type": 4
+  },
+  "all": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "get_id_list_by_character": [
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ]
 }
