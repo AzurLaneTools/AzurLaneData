@@ -110000,6 +110000,34 @@
       1
     ]
   },
+  "30481": {
+    "desc": "When this boat leaves the battle: activates All Out Assault – U-552 I, firing a special barrage that is guaranteed to critically hit. If another Iron Blood submarine is in the same fleet: improves this barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30481,
+    "max_level": 1,
+    "name": "All Out Assault – U-552 I",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "30482": {
+    "desc": "When this boat leaves the battle: activates All Out Assault – U-552 II, firing a special barrage that is guaranteed to critically hit. If another Iron Blood submarine is in the same fleet: improves this barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 30482,
+    "max_level": 1,
+    "name": "All Out Assault – U-552 II",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "60100": {
     "desc": "When equipped by a Royal Navy ship: increases that ship's Evasion Rate by 5.0%.",
     "desc_add": [],
@@ -145779,6 +145807,763 @@
     "name": "By This Power, Shall Duty be Done",
     "system_transform": [],
     "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151320": {
+    "desc": "Increases this ship's FP and RLD by $1. When this ship's Main Guns finish loading: delivers a judgment, activating one of the following effects based on the number of enemies present on the battlefield:\n1) 2 or more: fires a $2 special barrage I (DMG is based on the skill's level);\n2) 1 or fewer: fires a $2 special barrage II (DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+0.9%"
+        ],
+        [
+          "5.9%",
+          "+0.9%"
+        ],
+        [
+          "6.8%",
+          "+1.2%"
+        ],
+        [
+          "8.0%",
+          "+0.9%"
+        ],
+        [
+          "8.9%",
+          "+0.9%"
+        ],
+        [
+          "9.8%",
+          "+1.2%"
+        ],
+        [
+          "11.0%",
+          "+1.2%"
+        ],
+        [
+          "12.2%",
+          "+1.2%"
+        ],
+        [
+          "13.4%",
+          "+1.6%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 151320,
+    "max_level": 10,
+    "name": "Threshold Computation",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151330": {
+    "desc": "During battle, decreases this ship's DMG taken by $1 and increases her DMG dealt by $2. When the battle starts, if this ship is the Flagship: increases your Vanguard's EVA and RLD by $3 and your Main Fleet's FP and ACC by $3.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "4.0%",
+        "10.0%"
+      ],
+      [
+        "3.5%",
+        "8.0%"
+      ]
+    ],
+    "id": 151330,
+    "max_level": 10,
+    "name": "Concordance Formulation",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151340": {
+    "desc": "When the battle starts, and every 15s: triggers Torpedo Tactics, activating 1 of the following effects at random: 1) Increases this ship's TRP by $1 for 15s; 2) Increases this ship's TRP by $2 for 15s; 3) Increases this ship's TRP by $3 for 15s.\nEvery 20s: fires a $4 special torpedo barrage (DMG is based on the skill's level and which of the Torpedo Tactics activated).",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "15.0%",
+          "+1.6%"
+        ],
+        [
+          "16.6%",
+          "+1.6%"
+        ],
+        [
+          "18.2%",
+          "+1.8%"
+        ],
+        [
+          "20.0%",
+          "+1.6%"
+        ],
+        [
+          "21.6%",
+          "+1.6%"
+        ],
+        [
+          "23.2%",
+          "+1.8%"
+        ],
+        [
+          "25.0%",
+          "+1.6%"
+        ],
+        [
+          "26.6%",
+          "+1.6%"
+        ],
+        [
+          "28.2%",
+          "+1.8%"
+        ],
+        [
+          "30.0%"
+        ]
+      ],
+      [
+        [
+          "20.0%",
+          "+3.3%"
+        ],
+        [
+          "23.3%",
+          "+3.3%"
+        ],
+        [
+          "26.6%",
+          "+3.3%"
+        ],
+        [
+          "29.9%",
+          "+3.3%"
+        ],
+        [
+          "33.2%",
+          "+3.3%"
+        ],
+        [
+          "36.5%",
+          "+3.3%"
+        ],
+        [
+          "39.8%",
+          "+3.3%"
+        ],
+        [
+          "43.1%",
+          "+3.3%"
+        ],
+        [
+          "46.4%",
+          "+3.6%"
+        ],
+        [
+          "50.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "15.0%",
+        "30.0%"
+      ],
+      [
+        "20.0%",
+        "50.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 151340,
+    "max_level": 10,
+    "name": "Bespoke Tactics!",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151350": {
+    "desc": "Decreases this ship's shelling DMG taken by $1. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: deploys a barrier (lasting until the battle ends) that can negate DMG equal to $1 of this ship's max HP. When this barrier is destroyed: increases this ship's EVA by $2 until the battle ends.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ],
+    "id": 151350,
+    "max_level": 10,
+    "name": "Consultant's Gotta Strut!",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151360": {
+    "desc": "When the battle starts: this boat will surface for 10s and perform surface attacks during this duration, after which she will dive and leave the battle (gains 100% SPD while leaving battle). During these surface attacks: this boat takes $1 reduced DMG and launches a $2 special barrage every 3s (DMG is based on the skill's level); enemies hit by this barrage take 10.0% more DMG from this boat for 10s (does not stack).",
+    "desc_add": [
+      [
+        [
+          "20.0%",
+          "+4.4%"
+        ],
+        [
+          "24.4%",
+          "+4.4%"
+        ],
+        [
+          "28.8%",
+          "+4.4%"
+        ],
+        [
+          "33.2%",
+          "+4.4%"
+        ],
+        [
+          "37.6%",
+          "+4.4%"
+        ],
+        [
+          "42.0%",
+          "+4.4%"
+        ],
+        [
+          "46.4%",
+          "+4.4%"
+        ],
+        [
+          "50.8%",
+          "+4.4%"
+        ],
+        [
+          "55.2%",
+          "+4.8%"
+        ],
+        [
+          "60.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "20%",
+        "60%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 151360,
+    "max_level": 10,
+    "name": "Roter Teufel",
+    "system_transform": {
+      "11": 3500
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151370": {
+    "desc": "Increases the DMG this boat deals to Light Armor enemies by $1. Additionally increases this boat's TRP and EVA by $2 for every Iron Blood submarine in the fleet.",
+    "desc_add": [
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "1.5%",
+          "+0.3%"
+        ],
+        [
+          "1.8%",
+          "+0.3%"
+        ],
+        [
+          "2.1%",
+          "+0.4%"
+        ],
+        [
+          "2.5%",
+          "+0.3%"
+        ],
+        [
+          "2.8%",
+          "+0.3%"
+        ],
+        [
+          "3.1%",
+          "+0.4%"
+        ],
+        [
+          "3.5%",
+          "+0.4%"
+        ],
+        [
+          "3.9%",
+          "+0.4%"
+        ],
+        [
+          "4.3%",
+          "+0.7%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4%",
+        "10%"
+      ],
+      [
+        "1.5%",
+        "5.0%"
+      ]
+    ],
+    "id": 151370,
+    "max_level": 10,
+    "name": "Wolf Pack Tactics - U-552",
+    "system_transform": {
+      "11": 3500
+    },
+    "type": 1,
     "world_death_mark": [
       1
     ]
