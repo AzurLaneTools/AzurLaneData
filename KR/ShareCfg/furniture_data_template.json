@@ -8138,96 +8138,6 @@
     "themeId": 0,
     "type": 7
   },
-  "306": {
-    "advice": 0,
-    "belong": 1,
-    "can_rotate": 1,
-    "can_trigger": [
-      0
-    ],
-    "canputon": 0,
-    "canputonGrid": [],
-    "comfortable": 2,
-    "count": 1,
-    "deblocking": 1,
-    "describe": "다 먹고 손가락까지 쪽쪽 빨아먹어야 제맛!",
-    "dir": 0,
-    "dorm_id": 0,
-    "effect": "",
-    "followBone": [
-      "char",
-      -1
-    ],
-    "gain_by": "",
-    "icon": "ahuatianyugangicon",
-    "id": 306,
-    "interAction_group": [],
-    "is_3d_obj": 0,
-    "is_get_time_note": 0,
-    "level": 1,
-    "name": "오발틴 딥소스 비스킷",
-    "offset": [],
-    "picture": "",
-    "rarity": 4,
-    "size": [
-      2,
-      4
-    ],
-    "spine": [
-      [
-        "ahuatianyugangB",
-        "normal"
-      ],
-      [
-        "ahuatianyugangT"
-      ],
-      [
-        [
-          0,
-          0
-        ],
-        [
-          {
-            "1": "wash2",
-            "3": "wash"
-          }
-        ],
-        {
-          "3": [
-            "wash1",
-            "wash"
-          ]
-        },
-        [
-          1
-        ]
-      ],
-      [
-        [
-          3,
-          169.6
-        ],
-        [
-          257.3,
-          362.7
-        ],
-        "chuanmo/ahuatianyugang_mask"
-      ],
-      [
-        3.71,
-        -162.9
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "spine_action_replace": "",
-    "spine_extra": "",
-    "tag": 6,
-    "themeId": 0,
-    "type": 7
-  },
   "307": {
     "advice": 0,
     "belong": 1,
@@ -8270,6 +8180,92 @@
     "tag": 8,
     "themeId": 0,
     "type": 7
+  },
+  "308": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "루프에 프로급 촬영 장비 탑재! 복잡한 지형에서도 매끄럽게 촬영 가능!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "sheyingcheicon",
+    "id": 308,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "검은 고급 중계차",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      7
+    ],
+    "spine": [
+      {
+        "1": "sheyingcheB",
+        "2": "normal",
+        "4": 1
+      },
+      [
+        "sheyingcheT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          -8,
+          15.8
+        ],
+        [
+          120,
+          100
+        ],
+        "chuanmo/sheyingche_mask"
+      ],
+      [
+        5.8,
+        -13.6
+      ],
+      [
+        1,
+        1
+      ],
+      0.4
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
   },
   "1001": {
     "advice": 0,
@@ -117478,7 +117474,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "레코드 재생, 작동! ……뭐? 이 기능이 아직 실장되지 않았다고? ！ ",
+    "describe": "「레코드 재생 기능, 작동! ……뭐?! 아직 구현이 안 됐다고?!」",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -117489,7 +117485,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "DATA-857(모조품)",
+    "name": "DATA-857 (레플리카)",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -117967,7 +117963,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "나는야 꼬마 유령~ 안 보이는 꼬마 유령이지롱~",
+    "describe": "나는 유령이야~ 아무도 못 보는 작은 유령이야~",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -117982,7 +117978,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "유령 은신복",
+    "name": "유령 슈트",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -143393,5 +143389,911 @@
     "tag": 7,
     "themeId": 0,
     "type": 11
+  },
+  "324001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "열차에 몸을 싣고 선로에서 울리는 리듬과 창밖 풍경을 만끽하자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibanczicon",
+    "id": 324001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "철도 여행 바닥",
+    "offset": [],
+    "picture": "cz/dibancz",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 123,
+    "type": 4
+  },
+  "324002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "열차에 몸을 싣고 선로에서 울리는 리듬과 창밖 풍경을 만끽하자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbiczicon",
+    "id": 324002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "철도 여행 벽",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbicz",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 123,
+    "type": 1
+  },
+  "324101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "흔히 볼 수 있는 역 벤치. 기다리는 동안 앉아서 쉴 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "changyiczicon",
+    "id": 324101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 플랫폼 벤치",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      5,
+      2
+    ],
+    "spine": [
+      [
+        "changyicz",
+        "normal"
+      ],
+      [],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sleep"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 2,
+    "deblocking": 1,
+    "describe": "여행의 피로는 소파에 누워서 달래자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shafaczicon",
+    "id": 324102,
+    "interAction": [
+      [
+        "sleep",
+        [
+          23.2,
+          18.3
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 소파",
+    "offset": [],
+    "picture": "cz/shafacz",
+    "rarity": 2,
+    "size": [
+      5,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "푹신푹신한 카펫 위에서는 발걸음도 가볍게!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditanczicon",
+    "id": 324103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 카펫",
+    "offset": [],
+    "picture": "cz/ditancz",
+    "rarity": 2,
+    "size": [
+      10,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 5
+  },
+  "324104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "삑. 손님, 무엇을 구매하시겠습니까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fanmaijiczicon",
+    "id": 324104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 플랫폼 자판기",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      2,
+      3
+    ],
+    "spine": [
+      [
+        "fanmaijicz",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2",
+            "action3"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "관계자 이외에는 출입 금지입니다~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fengsuodaiczicon",
+    "id": 324105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "출입 금지 테이프",
+    "offset": [],
+    "picture": "cz/fengsuodaicz",
+    "rarity": 1,
+    "size": [
+      1,
+      11
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "저희 열차를 이용해주셔서 대단히 감사합니다 쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiashijiuczicon",
+    "id": 324106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "차장 만쥬",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "jiashijiucz",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "승무원만 사용할 수 있는 전용 자리!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jiashitaiczicon",
+    "id": 324107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "승무원 좌석",
+    "offset": [],
+    "picture": "cz/jiashitaicz",
+    "rarity": 3,
+    "size": [
+      4,
+      8
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "꼼꼼히 정비되어 새것처럼 반짝반짝한 차량!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "liecheqiangmianczicon",
+    "id": 324108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차 차량",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      24,
+      1
+    ],
+    "spine": [
+      [
+        "liecheqiangmiancz",
+        "normal",
+        {
+          "1": "action2",
+          "2": true,
+          "6": "action1"
+        }
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "난간을 꼭 잡고 발밑을 조심할 것!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "louticzicon",
+    "id": 324109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 플랫폼 계단",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      8,
+      4
+    ],
+    "spine": [
+      [
+        "louticz",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "이것만 있으면 출발 시간을 놓칠 걱정은 없…겠지?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "shizhongczicon",
+    "id": 324110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 플랫폼 시계",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "shizhongcz",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "무거운 짐은 카트를 이용하세요~",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tuicheczicon",
+    "id": 324111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 카트",
+    "offset": [],
+    "picture": "cz/tuichecz",
+    "rarity": 2,
+    "size": [
+      3,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "간편하고 실용적! 푹신푹신한 쿠션으로 여행을 쾌적하게!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiaodengziczicon",
+    "id": 324112,
+    "interAction": [
+      [
+        "sit",
+        [
+          19.5,
+          51.1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 의자",
+    "offset": [],
+    "picture": "cz/xiaodengzicz",
+    "rarity": 1,
+    "size": [
+      1,
+      1
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "모든 구역의 안전을 확인하는 중이다 쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xunluojiuczicon",
+    "id": 324113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "순찰 역무원 만쥬",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "xunluojiucz",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "운행 정보를 한눈에 확인할 수 있다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhanpaiczicon",
+    "id": 324114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "역 안내판",
+    "offset": [],
+    "picture": "cz/zhanpaicz",
+    "rarity": 2,
+    "size": [
+      2,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "앉아서 여행의 피로를 잠깐이나마 풀자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuoyi1czicon",
+    "id": 324115,
+    "interAction": [
+      [
+        "sit",
+        [
+          -44.2,
+          12.7
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 좌석 1",
+    "offset": [],
+    "picture": "cz/zhuoyi1cz",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324116": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "앉아서 여행의 피로를 잠깐이나마 풀자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuoyi2czicon",
+    "id": 324116,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 좌석 2",
+    "offset": [],
+    "picture": "cz/zhuoyi2cz",
+    "rarity": 2,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324117": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "여행 중에도 맛있는 식사는 놓칠 수 없지!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "zhuoziczicon",
+    "id": 324117,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "열차용 테이블",
+    "offset": [],
+    "picture": "cz/zhuozicz",
+    "rarity": 1,
+    "size": [
+      2,
+      3
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 123,
+    "type": 2
+  },
+  "324118": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "역에서 트렁크를 열고 뭘 찾고 있는 걸까?",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "xinglixiangczicon",
+    "id": 324118,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "대형 트렁크",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "xinglixiangczB",
+        "normal"
+      ],
+      [
+        "xinglixiangczT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "walk1",
+            "3": "walk"
+          }
+        ],
+        {
+          "2": 1,
+          "3": [
+            "stand2",
+            "stand2",
+            false,
+            true
+          ]
+        },
+        [
+          0
+        ],
+        [
+          [
+            "walk2"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 123,
+    "type": 2
   }
 }
