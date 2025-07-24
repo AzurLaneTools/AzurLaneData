@@ -45,7 +45,21 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50013
+      50054
+    ],
+    "type": 0
+  },
+  "11": {
+    "group_id": 3,
+    "id": 11,
+    "name": "event_map_sub",
+    "order": 1,
+    "param": "0",
+    "pic": "event_map_sub",
+    "text_pic": "text_event_map_sub",
+    "time": [
+      "default",
+      50042
     ],
     "type": 0
   },
@@ -281,20 +295,63 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": "BRSCoreActivityUI",
-    "pic": "event_brs",
-    "text_pic": "text_event_brs",
+    "param": "RyzaCoreActivityUI",
+    "pic": "event_ryza",
+    "text_pic": "text_event_ryza",
     "time": [
       "default",
-      5985
+      50042
     ],
     "type": 16
+  },
+  "110": {
+    "group_id": 2,
+    "id": 110,
+    "name": "event_core_2",
+    "order": 2,
+    "param": "ALYCoreActivityUI",
+    "pic": "event_yumia",
+    "text_pic": "text_event_yumia",
+    "time": [
+      "default",
+      50054
+    ],
+    "type": 16
+  },
+  "111": {
+    "group_id": 1,
+    "id": 111,
+    "name": "event_map_2",
+    "order": 1,
+    "param": "ALYCoreActivityUI",
+    "pic": "event_ryzaAtelierRe",
+    "text_pic": "text_event_ryzaAtelierRe",
+    "time": [
+      "default",
+      50042
+    ],
+    "type": 16
+  },
+  "112": {
+    "group_id": 1,
+    "id": 112,
+    "name": "event_second_map",
+    "order": 1,
+    "param": "0",
+    "pic": "event_ryza_map",
+    "text_pic": "text_event_ryza_map",
+    "time": [
+      "default",
+      50042
+    ],
+    "type": 0
   },
   "all": [
     1,
     2,
     9,
     10,
+    11,
     20,
     21,
     30,
@@ -311,7 +368,10 @@
     105,
     107,
     108,
-    109
+    109,
+    110,
+    111,
+    112
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -340,6 +400,9 @@
     "event_core": [
       109
     ],
+    "event_core_2": [
+      110
+    ],
     "event_dreamland": [
       103
     ],
@@ -355,12 +418,21 @@
     "event_map": [
       10
     ],
+    "event_map_2": [
+      111
+    ],
+    "event_map_sub": [
+      11
+    ],
     "event_medal": [
       100
     ],
     "event_minigame": [
       20,
       108
+    ],
+    "event_second_map": [
+      112
     ],
     "event_senran": [
       101
