@@ -2725,7 +2725,7 @@
     "map": 1690001,
     "map_name": "",
     "name": "謎の遺跡群島|| ||CHAPTER EX||E.X.",
-    "on_activity": 4580,
+    "on_activity": 50042,
     "story_id": "",
     "story_inactive_color": "",
     "title": "EX",
@@ -2775,7 +2775,7 @@
     "map": 1690002,
     "map_name": "",
     "name": "謎の遺跡群島·採取地|| ||CHAPTER EX||E.X.",
-    "on_activity": 4580,
+    "on_activity": 50042,
     "story_id": "",
     "story_inactive_color": "",
     "title": "EX",
@@ -2825,7 +2825,7 @@
     "map": 1690003,
     "map_name": "",
     "name": "謎の遺跡群島·SP|| ||CHAPTER EX||E.X.",
-    "on_activity": 4580,
+    "on_activity": 50042,
     "story_id": "",
     "story_inactive_color": "",
     "title": "EX",
@@ -2875,7 +2875,7 @@
     "map": 1690004,
     "map_name": "",
     "name": "謎の遺跡群島·EX|| ||CHAPTER EX||E.X.",
-    "on_activity": 4580,
+    "on_activity": 50042,
     "story_id": "",
     "story_inactive_color": "",
     "title": "EX",
@@ -10658,6 +10658,406 @@
     "title": "EX",
     "type": 8,
     "ui_type": 10,
+    "uifx": ""
+  },
+  "1940001": {
+    "anchor": "",
+    "ani_controller": [
+      [
+        1,
+        [
+          1940001,
+          "phase1"
+        ]
+      ],
+      [
+        1,
+        [
+          1940002,
+          "phase2"
+        ]
+      ],
+      [
+        1,
+        [
+          1940003,
+          "phase3"
+        ]
+      ],
+      [
+        1,
+        [
+          1940004,
+          "phase4"
+        ]
+      ],
+      [
+        1,
+        [
+          1940005,
+          "phase5"
+        ]
+      ],
+      [
+        2,
+        [
+          1940001,
+          "map_1940001"
+        ]
+      ],
+      [
+        2,
+        [
+          1940002,
+          "map_1940002"
+        ]
+      ],
+      [
+        2,
+        [
+          1940003,
+          "map_1940003"
+        ]
+      ],
+      [
+        2,
+        [
+          1940004,
+          "map_1940004"
+        ]
+      ],
+      [
+        2,
+        [
+          1940005,
+          "map_1940005"
+        ]
+      ]
+    ],
+    "ani_name": "Map_1940001",
+    "animtor": 1,
+    "bg": "Map_1940006",
+    "bgm": "yumia-az-theme-pv",
+    "bind_map": 1940002,
+    "chapterGroups": [
+      [
+        1940001
+      ],
+      [
+        1940002
+      ],
+      [
+        1940003
+      ],
+      [
+        1940004
+      ],
+      [
+        1940005
+      ]
+    ],
+    "cloud_suffix": "",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "default_background": "bg_yumia_story_mode_1",
+    "default_bgm": "Yumia-az-theme-pv",
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 1940001,
+    "map_name": "levelscene_mapselect_normal",
+    "name": "天空邂逅の塔|| ||CHAPTER EX||E.X.",
+    "on_activity": 50054,
+    "story_id": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "story_inactive_color": "808183",
+    "title": "EX",
+    "type": 4,
+    "ui_type": 13,
+    "uifx": ""
+  },
+  "1940002": {
+    "anchor": "",
+    "ani_controller": "",
+    "ani_name": "Map_1940001",
+    "animtor": 1,
+    "bg": "Map_1940006",
+    "bgm": "yumia-az-story",
+    "bind_map": 1940001,
+    "chapterGroups": [
+      [
+        1940021
+      ],
+      [
+        1940022
+      ],
+      [
+        1940023
+      ],
+      [
+        1940024
+      ],
+      [
+        1940025
+      ]
+    ],
+    "cloud_suffix": "",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "default_background": "bg_yumia_story_mode_1",
+    "default_bgm": "Yumia-az-theme-pv",
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 1940002,
+    "map_name": "levelscene_mapselect_material",
+    "name": "天空邂逅の塔·採取地|| ||CHAPTER EX||E.X.",
+    "on_activity": 50054,
+    "story_id": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "story_inactive_color": "808183",
+    "title": "EX",
+    "type": 4,
+    "ui_type": 13,
+    "uifx": ""
+  },
+  "1940003": {
+    "anchor": "",
+    "ani_controller": "",
+    "ani_name": "Map_1940001",
+    "animtor": 1,
+    "bg": "Map_1940006",
+    "bgm": "yumia-79",
+    "bind_map": 1940002,
+    "chapterGroups": [
+      [
+        1940041
+      ]
+    ],
+    "cloud_suffix": "",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "default_background": "bg_yumia_story_mode_1",
+    "default_bgm": "Yumia-az-theme-pv",
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 1940003,
+    "map_name": "levelscene_mapselect_sp",
+    "name": "天空邂逅の塔·SP|| ||CHAPTER EX||E.X.",
+    "on_activity": 50054,
+    "story_id": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "story_inactive_color": "808183",
+    "title": "EX",
+    "type": 8,
+    "ui_type": 13,
+    "uifx": ""
+  },
+  "1940004": {
+    "anchor": "",
+    "ani_controller": "",
+    "ani_name": "Map_1940001",
+    "animtor": 1,
+    "bg": "Map_1940006",
+    "bgm": "yumia-az-battle",
+    "bind_map": 1940002,
+    "chapterGroups": [
+      [
+        1940051,
+        1940052
+      ]
+    ],
+    "cloud_suffix": "",
+    "clouds_pos": [
+      [
+        332,
+        271
+      ],
+      [
+        896,
+        110
+      ],
+      [
+        -280,
+        0
+      ],
+      [
+        990,
+        -90
+      ],
+      [
+        0,
+        -465
+      ]
+    ],
+    "default_background": "bg_yumia_story_mode_1",
+    "default_bgm": "Yumia-az-theme-pv",
+    "destory_icon_suffix": "blue",
+    "drop_by_map_display": "",
+    "enter_story": "",
+    "guide_id": "",
+    "level_limit": 1,
+    "map": 1940004,
+    "map_name": "levelscene_mapselect_ex",
+    "name": "天空邂逅の塔·EX|| ||CHAPTER EX||E.X.",
+    "on_activity": 50054,
+    "story_id": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "story_inactive_color": "808183",
+    "title": "EX",
+    "type": 8,
+    "ui_type": 13,
     "uifx": ""
   },
   "2100000": {
