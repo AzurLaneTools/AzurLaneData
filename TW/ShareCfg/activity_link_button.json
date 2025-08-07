@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5711",
+    "param": "50013",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5711
+      50013
     ],
     "type": 3
   },
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "event_all",
     "order": 2,
-    "param": "0",
+    "param": "5871",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": "stop",
@@ -45,13 +45,27 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      5711
+      50054
     ],
     "type": 0
   },
   "20": {
-    "group_id": 5,
+    "group_id": 3,
     "id": 20,
+    "name": "event_map_sub",
+    "order": 1,
+    "param": "0",
+    "pic": "event_map_sub",
+    "text_pic": "text_event_map_sub",
+    "time": [
+      "default",
+      50042
+    ],
+    "type": 0
+  },
+  "21": {
+    "group_id": 5,
+    "id": 21,
     "name": "event_minigame",
     "order": 1,
     "param": [
@@ -62,23 +76,23 @@
     "time": "stop",
     "type": 2
   },
-  "21": {
+  "30": {
     "group_id": 5,
-    "id": 21,
+    "id": 30,
     "name": "event_holidayVilla",
     "order": 1,
-    "param": "5951",
+    "param": [
+      "holiday villa map",
+      5922
+    ],
     "pic": "event_minigame",
     "text_pic": "text_event_minigame",
-    "time": [
-      "default",
-      5951
-    ],
-    "type": 3
+    "time": "stop",
+    "type": 0
   },
-  "30": {
+  "40": {
     "group_id": 3,
-    "id": 30,
+    "id": 40,
     "name": "event_boss",
     "order": 1,
     "param": "0",
@@ -87,9 +101,9 @@
     "time": "stop",
     "type": 0
   },
-  "40": {
+  "60": {
     "group_id": 6,
-    "id": 40,
+    "id": 60,
     "name": "event_escort",
     "order": 1,
     "param": "0",
@@ -100,20 +114,23 @@
     ],
     "type": 0
   },
-  "60": {
+  "70": {
     "group_id": 7,
-    "id": 60,
+    "id": 70,
     "name": "event_LanternFestival",
     "order": 1,
     "param": "0",
     "pic": "event_LanternFestival",
     "text_pic": "text_event_LanternFestival",
-    "time": "stop",
+    "time": [
+      "default",
+      5803
+    ],
     "type": 0
   },
-  "70": {
+  "80": {
     "group_id": 8,
-    "id": 70,
+    "id": 80,
     "name": "event_aprilFool",
     "order": 1,
     "param": "0",
@@ -124,22 +141,6 @@
       5267
     ],
     "type": 0
-  },
-  "80": {
-    "group_id": 9,
-    "id": 80,
-    "name": "event_Atelier",
-    "order": 1,
-    "param": [
-      "ATELIER_COMPOSITE"
-    ],
-    "pic": "event_Atelier",
-    "text_pic": "text_event_Atelier",
-    "time": [
-      "default",
-      4581
-    ],
-    "type": 2
   },
   "90": {
     "group_id": 4,
@@ -231,13 +232,13 @@
     "name": "event_boat_ad_game",
     "order": 1,
     "param": [
-      72
+      73
     ],
     "pic": "event_boat_ad_game",
     "text_pic": "text_event_boat_ad_game",
     "time": [
       "default",
-      5717
+      5765
     ],
     "type": 7
   },
@@ -294,27 +295,72 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": "BRSCoreActivityUI",
-    "pic": "event_brs",
-    "text_pic": "text_event_brs",
+    "param": "RyzaCoreActivityUI",
+    "pic": "event_ryza",
+    "text_pic": "text_event_ryza",
     "time": [
       "default",
-      5985
+      50042
     ],
     "type": 16
   },
+  "110": {
+    "group_id": 2,
+    "id": 110,
+    "name": "event_core_2",
+    "order": 2,
+    "param": "ALYCoreActivityUI",
+    "pic": "event_yumia",
+    "text_pic": "text_event_yumia",
+    "time": [
+      "default",
+      50054
+    ],
+    "type": 16
+  },
+  "111": {
+    "group_id": 1,
+    "id": 111,
+    "name": "event_map_2",
+    "order": 1,
+    "param": "ALYCoreActivityUI",
+    "pic": "event_ryzaAtelierRe",
+    "text_pic": "text_event_ryzaAtelierRe",
+    "time": [
+      "default",
+      50042
+    ],
+    "type": 16
+  },
+  "112": {
+    "group_id": 1,
+    "id": 112,
+    "name": "event_second_map",
+    "order": 1,
+    "param": "0",
+    "pic": "event_ryza_map",
+    "text_pic": "text_event_ryza_map",
+    "time": [
+      "default",
+      50042
+    ],
+    "type": 0
+  },
   "1000": {
-    "group_id": 5,
+    "group_id": 9,
     "id": 1000,
-    "name": "event_minigame",
+    "name": "event_Atelier",
     "order": 1,
     "param": [
-      28
+      "ATELIER_COMPOSITE"
     ],
-    "pic": "event_minigame",
-    "text_pic": "text_event_minigame",
-    "time": "stop",
-    "type": 7
+    "pic": "event_Atelier",
+    "text_pic": "text_event_Atelier",
+    "time": [
+      "default",
+      4581
+    ],
+    "type": 2
   },
   "all": [
     1,
@@ -339,14 +385,17 @@
     106,
     107,
     108,
-    109
+    109,
+    110,
+    111,
+    112
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
-      80
+      1000
     ],
     "event_LanternFestival": [
-      60
+      70
     ],
     "event_all": [
       1,
@@ -354,7 +403,7 @@
       9
     ],
     "event_aprilFool": [
-      70
+      80
     ],
     "event_blackFriday": [
       106
@@ -363,7 +412,7 @@
       105
     ],
     "event_boss": [
-      30
+      40
     ],
     "event_boss_single": [
       102
@@ -371,14 +420,17 @@
     "event_core": [
       109
     ],
+    "event_core_2": [
+      110
+    ],
     "event_dreamland": [
       103
     ],
     "event_escort": [
-      40
+      60
     ],
     "event_holidayVilla": [
-      21
+      30
     ],
     "event_layer": [
       104
@@ -386,13 +438,21 @@
     "event_map": [
       10
     ],
+    "event_map_2": [
+      111
+    ],
+    "event_map_sub": [
+      20
+    ],
     "event_medal": [
       100
     ],
     "event_minigame": [
-      20,
-      1000,
+      21,
       108
+    ],
+    "event_second_map": [
+      112
     ],
     "event_senran": [
       101
