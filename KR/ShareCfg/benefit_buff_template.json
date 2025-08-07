@@ -2652,7 +2652,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       0,
       1000
     ],
@@ -2670,7 +2670,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       1000,
       2000
     ],
@@ -2688,7 +2688,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       2000,
       3500
     ],
@@ -2706,7 +2706,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       3500,
       5000
     ],
@@ -2724,7 +2724,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       5000,
       1000000000000
     ],
@@ -2742,7 +2742,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       0,
       1000
     ],
@@ -2760,7 +2760,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       1000,
       2000
     ],
@@ -2778,7 +2778,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       2000,
       3500
     ],
@@ -2796,7 +2796,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       3500,
       5000
     ],
@@ -2814,7 +2814,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       5000,
       1000000000000
     ],
@@ -2832,7 +2832,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       0,
       1000
     ],
@@ -2850,7 +2850,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       1000,
       2000
     ],
@@ -2868,7 +2868,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       2000,
       3500
     ],
@@ -2886,7 +2886,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       3500,
       5000
     ],
@@ -2904,7 +2904,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       5000,
       1000000000000
     ],
@@ -2922,7 +2922,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       0,
       1000
     ],
@@ -2940,7 +2940,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       1000,
       2000
     ],
@@ -2958,7 +2958,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       2000,
       3500
     ],
@@ -2976,7 +2976,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       3500,
       5000
     ],
@@ -2994,7 +2994,7 @@
     "act_id": 0,
     "benefit_condition": [
       "pt",
-      286,
+      522,
       5000,
       1000000000000
     ],
@@ -3222,6 +3222,379 @@
     "id": 300112,
     "max_time": 0,
     "name": "숙소 경험치 보너스3",
+    "type_priority": 0
+  },
+  "300201": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940021
+      ]
+    ],
+    "benefit_effect": "201455",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_1",
+    "id": 300201,
+    "max_time": 0,
+    "name": "코어 레벨 Lv1",
+    "type_priority": 0
+  },
+  "300202": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940021
+      ]
+    ],
+    "benefit_effect": "201456",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_2",
+    "id": 300202,
+    "max_time": 0,
+    "name": "코어 레벨 Lv2",
+    "type_priority": 0
+  },
+  "300203": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940021
+      ]
+    ],
+    "benefit_effect": "201459",
+    "benefit_type": "battle_buff",
+    "desc": "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_3",
+    "id": 300203,
+    "max_time": 0,
+    "name": "코어 레벨 Lv3",
+    "type_priority": 0
+  },
+  "300204": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940021
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_4",
+    "id": 300204,
+    "max_time": 0,
+    "name": "코어 레벨 Lv4",
+    "type_priority": 0
+  },
+  "300205": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940022
+      ]
+    ],
+    "benefit_effect": "201455",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_1",
+    "id": 300205,
+    "max_time": 0,
+    "name": "코어 레벨 Lv1",
+    "type_priority": 0
+  },
+  "300206": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940022
+      ]
+    ],
+    "benefit_effect": "201456",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_2",
+    "id": 300206,
+    "max_time": 0,
+    "name": "코어 레벨 Lv2",
+    "type_priority": 0
+  },
+  "300207": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940022
+      ]
+    ],
+    "benefit_effect": "201459",
+    "benefit_type": "battle_buff",
+    "desc": "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_3",
+    "id": 300207,
+    "max_time": 0,
+    "name": "코어 레벨 Lv3",
+    "type_priority": 0
+  },
+  "300208": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940022
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_4",
+    "id": 300208,
+    "max_time": 0,
+    "name": "코어 레벨 Lv4",
+    "type_priority": 0
+  },
+  "300209": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940023
+      ]
+    ],
+    "benefit_effect": "201455",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_1",
+    "id": 300209,
+    "max_time": 0,
+    "name": "코어 레벨 Lv1",
+    "type_priority": 0
+  },
+  "300210": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940023
+      ]
+    ],
+    "benefit_effect": "201456",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_2",
+    "id": 300210,
+    "max_time": 0,
+    "name": "코어 레벨 Lv2",
+    "type_priority": 0
+  },
+  "300211": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940023
+      ]
+    ],
+    "benefit_effect": "201459",
+    "benefit_type": "battle_buff",
+    "desc": "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_3",
+    "id": 300211,
+    "max_time": 0,
+    "name": "코어 레벨 Lv3",
+    "type_priority": 0
+  },
+  "300212": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940023
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_4",
+    "id": 300212,
+    "max_time": 0,
+    "name": "코어 레벨 Lv4",
+    "type_priority": 0
+  },
+  "300213": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940024
+      ]
+    ],
+    "benefit_effect": "201455",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_1",
+    "id": 300213,
+    "max_time": 0,
+    "name": "코어 레벨 Lv1",
+    "type_priority": 0
+  },
+  "300214": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940024
+      ]
+    ],
+    "benefit_effect": "201456",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_2",
+    "id": 300214,
+    "max_time": 0,
+    "name": "코어 레벨 Lv2",
+    "type_priority": 0
+  },
+  "300215": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940024
+      ]
+    ],
+    "benefit_effect": "201459",
+    "benefit_type": "battle_buff",
+    "desc": "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_3",
+    "id": 300215,
+    "max_time": 0,
+    "name": "코어 레벨 Lv3",
+    "type_priority": 0
+  },
+  "300216": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940024
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_4",
+    "id": 300216,
+    "max_time": 0,
+    "name": "코어 레벨 Lv4",
+    "type_priority": 0
+  },
+  "300217": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940025
+      ]
+    ],
+    "benefit_effect": "201455",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_1",
+    "id": 300217,
+    "max_time": 0,
+    "name": "코어 레벨 Lv1",
+    "type_priority": 0
+  },
+  "300218": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940025
+      ]
+    ],
+    "benefit_effect": "201456",
+    "benefit_type": "battle_buff",
+    "desc": "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_2",
+    "id": 300218,
+    "max_time": 0,
+    "name": "코어 레벨 Lv2",
+    "type_priority": 0
+  },
+  "300219": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940025
+      ]
+    ],
+    "benefit_effect": "201459",
+    "benefit_type": "battle_buff",
+    "desc": "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_3",
+    "id": 300219,
+    "max_time": 0,
+    "name": "코어 레벨 Lv3",
+    "type_priority": 0
+  },
+  "300220": {
+    "act_id": 50065,
+    "benefit_condition": [
+      "chapter",
+      [
+        1940025
+      ]
+    ],
+    "benefit_effect": "1",
+    "benefit_type": "ship_battle_intimacy",
+    "desc": "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+    "hide": 1,
+    "icon": "Props/buff_yumia_4",
+    "id": 300220,
+    "max_time": 0,
+    "name": "코어 레벨 Lv4",
+    "type_priority": 0
+  },
+  "300221": {
+    "act_id": 0,
+    "benefit_condition": "",
+    "benefit_effect": "0",
+    "benefit_type": "desc",
+    "desc": "「연금술사와 비밀 유적 군도」 스테이지에서 「수정 클러스터」와 조합 재료 획득 수 +200%",
+    "hide": 0,
+    "icon": "Props/buff_yumia_ryzare",
+    "id": 300221,
+    "max_time": 0,
+    "name": "「연금술사와 비밀 유적 군도」 특별 강화",
     "type_priority": 0
   }
 }
