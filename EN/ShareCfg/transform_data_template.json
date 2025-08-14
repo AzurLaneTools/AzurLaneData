@@ -40388,6 +40388,496 @@
     ],
     "use_ship": 1
   },
+  "35701": {
+    "condition_id": [],
+    "descrip": "HP +60",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 60
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 35701,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "Hull Improvement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
+  "35702": {
+    "condition_id": [
+      35701
+    ],
+    "descrip": "RLD +5",
+    "edit_trans": [],
+    "effect": [
+      {
+        "reload": 5
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "rl_1",
+    "id": 35702,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "Reload Enhancement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35703": {
+    "condition_id": [
+      35701
+    ],
+    "descrip": "Fighter efficiency +5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_1": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "ffup_1",
+    "id": 35703,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "Air Elite Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18032,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35704": {
+    "condition_id": [
+      35703
+    ],
+    "descrip": "AVI +10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "air": 10
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "air_1",
+    "id": 35704,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "Aviation Enhancement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18032,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35705": {
+    "condition_id": [
+      35703
+    ],
+    "descrip": "Dive Bomber efficiency +5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_2": 0.05
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "bfup_1",
+    "id": 35705,
+    "level_limit": 35,
+    "max_level": 1,
+    "name": "Bombing Elite Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18032,
+          5
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35706": {
+    "condition_id": [
+      35705
+    ],
+    "descrip": "AVI +10/AVI +15",
+    "edit_trans": [],
+    "effect": [
+      {
+        "air": 10
+      },
+      {
+        "air": 15
+      }
+    ],
+    "gear_score": [
+      10,
+      10
+    ],
+    "icon": "air_2",
+    "id": 35706,
+    "level_limit": 40,
+    "max_level": 2,
+    "name": "Aviation Enhancement Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18032,
+          2
+        ]
+      ],
+      [
+        [
+          18032,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35707": {
+    "condition_id": [
+      35705
+    ],
+    "descrip": "HP +60/HP +90",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 60
+      },
+      {
+        "durability": 90
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "hp_2",
+    "id": 35707,
+    "level_limit": 50,
+    "max_level": 2,
+    "name": "Hull Improvement Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18033,
+          1
+        ]
+      ],
+      [
+        [
+          18033,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35708": {
+    "condition_id": [
+      35707,
+      35702
+    ],
+    "descrip": "RLD +5/RLD +10",
+    "edit_trans": [],
+    "effect": [
+      {
+        "reload": 5
+      },
+      {
+        "reload": 10
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "rl_2",
+    "id": 35708,
+    "level_limit": 55,
+    "max_level": 2,
+    "name": "Reload Enhancement Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18033,
+          1
+        ]
+      ],
+      [
+        [
+          18033,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35709": {
+    "condition_id": [
+      35707
+    ],
+    "descrip": "Torpedo Bomber efficiency +5%/Torpedo Bomber efficiency +5%",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_3": 0.05
+      },
+      {
+        "equipment_proficiency_3": 0.05
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "tfup_2",
+    "id": 35709,
+    "level_limit": 70,
+    "max_level": 2,
+    "name": "Torpedo Dive Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 6,
+    "use_gold": 4000,
+    "use_item": [
+      [
+        [
+          18033,
+          2
+        ]
+      ],
+      [
+        [
+          18033,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35710": {
+    "condition_id": [
+      35709
+    ],
+    "descrip": "AVI +10/AVI +15/AVI +20",
+    "edit_trans": [],
+    "effect": [
+      {
+        "air": 10
+      },
+      {
+        "air": 15
+      },
+      {
+        "air": 20
+      }
+    ],
+    "gear_score": [
+      10,
+      15,
+      20
+    ],
+    "icon": "Air_3",
+    "id": 35710,
+    "level_limit": 75,
+    "max_level": 3,
+    "name": "Aviation Enhancement Ⅲ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 6,
+    "use_gold": 5000,
+    "use_item": [
+      [
+        [
+          18033,
+          1
+        ],
+        [
+          17043,
+          10
+        ]
+      ],
+      [
+        [
+          18033,
+          2
+        ],
+        [
+          17043,
+          20
+        ]
+      ],
+      [
+        [
+          18033,
+          3
+        ],
+        [
+          17043,
+          30
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "35711": {
+    "condition_id": [
+      35709,
+      35710
+    ],
+    "descrip": "Completing the retrofit will have the following effects:\nACC +10, AA +35.\n<color=#92fc63>This ship can now equip all aircraft types in her Dive Bomber slot.</color>\nThe skill Valorous Avengers will be upgraded into Valorous Avengers+.",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 35,
+        "hit": 10
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_red",
+    "id": 35711,
+    "level_limit": 85,
+    "max_level": 1,
+    "name": "Modernization",
+    "ship_id": [
+      [
+        107094,
+        107974
+      ]
+    ],
+    "skill_id": 0,
+    "skin_id": 107099,
+    "star_limit": 6,
+    "use_gold": 7500,
+    "use_item": [
+      [
+        [
+          59856,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
+  "35712": {
+    "condition_id": [
+      35711
+    ],
+    "descrip": "Learn Next Generation",
+    "edit_trans": [],
+    "effect": [
+      {
+        "skill_id": 151460
+      }
+    ],
+    "gear_score": [
+      25
+    ],
+    "icon": "skill_red",
+    "id": 35712,
+    "level_limit": 90,
+    "max_level": 1,
+    "name": "Tactical Learning",
+    "ship_id": [],
+    "skill_id": 151460,
+    "skin_id": 0,
+    "star_limit": 6,
+    "use_gold": 5000,
+    "use_item": [
+      [
+        [
+          18033,
+          2
+        ],
+        [
+          17003,
+          50
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
   "36101": {
     "condition_id": [],
     "descrip": "",
