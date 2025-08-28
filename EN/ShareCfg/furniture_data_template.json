@@ -887,6 +887,43 @@
     "themeId": 0,
     "type": 7
   },
+  "32": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Special decoration: A 1:100 scale model of an Iowa class battleship",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xinzexiicon",
+    "id": 32,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "USS New Jersey Model",
+    "offset": [],
+    "picture": "chuanmo/xinzexi",
+    "rarity": 2,
+    "size": [
+      2,
+      7
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "102": {
     "advice": 0,
     "belong": 1,
@@ -7021,7 +7058,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Interlude of Illusions",
+    "gain_by": "",
     "icon": "shengmixieershanicon",
     "id": 283,
     "interAction_group": [],
@@ -7166,7 +7203,7 @@
         -1
       ]
     ],
-    "gain_by": "Cursed Western Town",
+    "gain_by": "",
     "icon": "niuzaicanzhuoicon",
     "id": 286,
     "interAction_group": [],
@@ -7680,7 +7717,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Letters from Valley Hospital",
+    "gain_by": "",
     "icon": "yiyuanhouqinzhongxinicon",
     "id": 297,
     "interAction_group": [],
@@ -7717,7 +7754,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Letters from Valley Hospital",
+    "gain_by": "",
     "icon": "yiyuanliaoyangzhongxinicon",
     "id": 298,
     "interAction_group": [],
@@ -7754,7 +7791,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Letters from Valley Hospital",
+    "gain_by": "",
     "icon": "yiyuanyanjiuzhongxinicon",
     "id": 299,
     "interAction_group": [],
@@ -7791,7 +7828,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Letters from Valley Hospital",
+    "gain_by": "",
     "icon": "yiyuanzhenliaozhongxinicon",
     "id": 300,
     "interAction_group": [],
@@ -7828,7 +7865,7 @@
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
-    "gain_by": "Letters from Valley Hospital",
+    "gain_by": "",
     "icon": "yiyuanzhuyuandalouicon",
     "id": 301,
     "interAction_group": [],
@@ -118412,6 +118449,93 @@
     "themeId": 0,
     "type": 11
   },
+  "100067": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "Low speed, high speed, it doesn't matter – you won't fall under any circumstance!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      -1
+    ],
+    "gain_by": "",
+    "icon": "paobujiicon",
+    "id": 100067,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "Fully-Automatic Anti-Fall Treadmill",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      2
+    ],
+    "spine": [
+      [
+        "paobujiB",
+        "normal"
+      ],
+      [
+        "paobujiT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "tuozhuai2",
+            "3": "tuozhuai2"
+          },
+          {
+            "1": "walk2",
+            "3": "walk"
+          }
+        ],
+        {
+          "2": 1,
+          "3": [
+            "walk1",
+            "walk",
+            false,
+            true
+          ]
+        },
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 7
+  },
   "100073": {
     "advice": 0,
     "belong": 1,
@@ -118637,7 +118761,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "Watch out for when the bubble bursts!",
+    "describe": "Blub-blub-blub... Pop! Blub-blub-blub...",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
