@@ -4,12 +4,12 @@
     "id": 1,
     "name": "event_all",
     "order": 1,
-    "param": "5287",
+    "param": "0",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": [
       "default",
-      5287
+      50081
     ],
     "type": 3
   },
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "event_all",
     "order": 2,
-    "param": "5871",
+    "param": "0",
     "pic": "event_all",
     "text_pic": "text_event_all",
     "time": "stop",
@@ -45,7 +45,7 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50054
+      50081
     ],
     "type": 0
   },
@@ -57,10 +57,7 @@
     "param": "0",
     "pic": "event_map_sub",
     "text_pic": "text_event_map_sub",
-    "time": [
-      "default",
-      50042
-    ],
+    "time": "stop",
     "type": 0
   },
   "21": {
@@ -295,12 +292,15 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": "RyzaCoreActivityUI",
-    "pic": "event_ryza",
-    "text_pic": "text_event_ryza",
+    "param": [
+      "SecretsAbyssCoreActivityUI",
+      "QIYUANXIADEMIMILOGO"
+    ],
+    "pic": "event_core",
+    "text_pic": "text_event_core",
     "time": [
       "default",
-      50049
+      50085
     ],
     "type": 16
   },
@@ -314,7 +314,7 @@
     "text_pic": "text_event_yumia",
     "time": [
       "default",
-      50058
+      50054
     ],
     "type": 16
   },
