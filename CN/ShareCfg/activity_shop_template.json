@@ -38323,6 +38323,26 @@
     "resource_num": 500,
     "resource_type": 59900
   },
+  "10511": {
+    "activity": 0,
+    "commodity_id": 3400,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 3,
+    "id": 10511,
+    "limit_args": [
+      [
+        "quota",
+        2
+      ]
+    ],
+    "num": 1,
+    "num_limit": 0,
+    "order": 6,
+    "resource_category": 2,
+    "resource_num": 800,
+    "resource_type": 59900
+  },
   "10901": {
     "activity": 0,
     "commodity_id": 403041,
@@ -40036,66 +40056,6 @@
     "resource_category": 2,
     "resource_num": 30,
     "resource_type": 21000
-  },
-  "99001": {
-    "activity": 5138,
-    "commodity_id": 15008,
-    "commodity_id_list": "",
-    "commodity_id_list_show": 0,
-    "commodity_type": 2,
-    "id": 99001,
-    "limit_args": "",
-    "num": 100,
-    "num_limit": 10,
-    "order": 1,
-    "resource_category": 1,
-    "resource_num": 300,
-    "resource_type": 385
-  },
-  "99002": {
-    "activity": 5138,
-    "commodity_id": 16501,
-    "commodity_id_list": "",
-    "commodity_id_list_show": 0,
-    "commodity_type": 2,
-    "id": 99002,
-    "limit_args": "",
-    "num": 50,
-    "num_limit": 20,
-    "order": 1,
-    "resource_category": 1,
-    "resource_num": 200,
-    "resource_type": 385
-  },
-  "99003": {
-    "activity": 5138,
-    "commodity_id": 20001,
-    "commodity_id_list": "",
-    "commodity_id_list_show": 0,
-    "commodity_type": 2,
-    "id": 99003,
-    "limit_args": "",
-    "num": 1,
-    "num_limit": 40,
-    "order": 1,
-    "resource_category": 1,
-    "resource_num": 50,
-    "resource_type": 385
-  },
-  "99004": {
-    "activity": 5138,
-    "commodity_id": 80003,
-    "commodity_id_list": "",
-    "commodity_id_list_show": 0,
-    "commodity_type": 2,
-    "id": 99004,
-    "limit_args": "",
-    "num": 1,
-    "num_limit": 15,
-    "order": 1,
-    "resource_category": 1,
-    "resource_num": 300,
-    "resource_type": 385
   },
   "all": [
     1,
@@ -42637,6 +42597,7 @@
     10508,
     10509,
     10510,
+    10511,
     10901,
     10902,
     10903,
@@ -42710,11 +42671,7 @@
     12032,
     12033,
     12034,
-    12035,
-    99001,
-    99002,
-    99003,
-    99004
+    12035
   ],
   "get_id_list_by_commodity_type": {
     "1": [
@@ -44841,11 +44798,7 @@
       12030,
       12031,
       12033,
-      12035,
-      99001,
-      99002,
-      99003,
-      99004
+      12035
     ],
     "3": [
       105,
@@ -45000,7 +44953,8 @@
       10507,
       10508,
       10509,
-      10510
+      10510,
+      10511
     ],
     "4": [
       4,
