@@ -2253,7 +2253,9 @@
     "description": "\"Heed me, Rose Tower: I will be your protector. Together... we will protect the Royal Islands.\"",
     "icon": "ChapterFour_7",
     "id": 88,
-    "link_event": "",
+    "link_event": [
+      89
+    ],
     "memory_id": [
       1,
       329
@@ -2266,6 +2268,47 @@
       97
     ],
     "sort": 1,
+    "world_id": ""
+  },
+  "89": {
+    "bgm": "story-newsakura",
+    "chapter": 4,
+    "column": 55,
+    "description": "The cannon salute and the band are ready.\nOkay, let's begin the rehearsal.\nCommander, welcome to the Sakura Empire!",
+    "icon": "ChapterFour_8",
+    "id": 89,
+    "link_event": [
+      90
+    ],
+    "memory_id": [
+      1,
+      338
+    ],
+    "memory_lock": 0,
+    "name": "Summons From the Sakura Empire",
+    "row": -1,
+    "shipnation": [
+      3
+    ],
+    "sort": 1,
+    "world_id": ""
+  },
+  "90": {
+    "bgm": "",
+    "chapter": 4,
+    "column": 55,
+    "description": "COMING SOON",
+    "icon": "",
+    "id": 90,
+    "link_event": [
+      88
+    ],
+    "memory_id": "",
+    "memory_lock": 1,
+    "name": "COMING SOON",
+    "row": 0,
+    "shipnation": 0,
+    "sort": 0,
     "world_id": ""
   },
   "all": [
@@ -2356,6 +2399,8 @@
     85,
     86,
     87,
-    88
+    88,
+    89,
+    90
   ]
 }

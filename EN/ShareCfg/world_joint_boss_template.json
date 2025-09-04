@@ -468,32 +468,7 @@
       1
     ],
     "painting": "luodeni",
-    "state": [
-      [
-        [
-          2024,
-          3,
-          14
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2024,
-          6,
-          12
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "state": "always"
   },
   "15": {
     "boss_level_id": 211,
@@ -740,6 +715,64 @@
       ]
     ]
   },
+  "20": {
+    "boss_level_id": 286,
+    "description": [
+      [
+        "I'm Gonna Tear You Up",
+        2,
+        "Yuudachi META <color=#92fc63>continuously locks on to the ship in your fleet with the current highest HP percentage</color>, and inflicts considerable DMG against that ship after 5s with her claws while inflicting a guaranteed <color=#92fc63>special Burn that lasts 20s</color>. She can apply this Burn even if you evade the attack. The special Burn inflicts Burn DMG every 2s. Being afflicted with this special Burn repeatedly will only reset its duration, not stack its effect. She can only perform this attack once every 5s.)\nIf, during the continuous lock-on, a different ship becomes the one with the highest current HP percentage, the lock-on will reset."
+      ],
+      [
+        "I'm Gonna Beat You Up",
+        3,
+        "Yuudachi META's torpedoes have a 30.0% chance to inflict a special Burn that lasts 6s. She can apply this special Burn even if you evade the attack. This special Burn inflicts Burn DMG every 1s and can stack with the special Burn inflicted by her claw attack.\nYuudachi META <color=#92fc63>deals 30.0% more DMG against enemies afflicted with Burn</color>, and her <color=#92fc63>DMG taken decreases by 10.0% for each enemy afflicted with Burn</color> present on the battlefield."
+      ]
+    ],
+    "id": 20,
+    "item_id": 100000,
+    "meta_id": 970109,
+    "name": "Yuudachi META",
+    "p_offset": [
+      -392,
+      457,
+      0.7,
+      0.7
+    ],
+    "p_offset_other": [
+      240,
+      484,
+      0.68,
+      0.68
+    ],
+    "painting": "xili",
+    "state": [
+      [
+        [
+          2025,
+          9,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          10
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ]
+  },
   "all": [
     1,
     2,
@@ -759,6 +792,7 @@
     16,
     17,
     18,
-    19
+    19,
+    20
   ]
 }
