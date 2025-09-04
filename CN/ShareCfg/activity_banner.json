@@ -5,15 +5,43 @@
       "scene skinshop",
       []
     ],
-    "pic": "temp2",
-    "time": "stop",
+    "pic": "temp1",
+    "time": [
+      [
+        [
+          2025,
+          9,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          9,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "type": 2
   },
   "2": {
     "id": 2,
     "param": [
-      "scene skinshop",
-      []
+      "scene get boat",
+      {
+        "page": 1,
+        "projectName": "new"
+      }
     ],
     "pic": "temp2",
     "time": "stop",
@@ -22,26 +50,76 @@
   "3": {
     "id": 3,
     "param": [
-      "scene get boat",
+      "scene core activity",
       {
-        "page": 1,
-        "projectName": "new"
+        "coreName": "TianYuTianYuanCoreActivityUI"
       }
     ],
     "pic": "temp3",
-    "time": "stop",
+    "time": [
+      [
+        [
+          2025,
+          9,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          9,
+          12
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
     "type": 2
   },
   "4": {
     "id": 4,
     "param": [
-      "scene core activity",
+      "scene equip",
       {
-        "coreName": "SecretsAbyssCoreActivityUI"
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
       }
     ],
     "pic": "temp4",
-    "time": "stop",
+    "time": [
+      [
+        [
+          2025,
+          9,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          9,
+          12
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
     "type": 2
   },
   "5": {
@@ -84,34 +162,15 @@
   "6": {
     "id": 6,
     "param": [
-      "scene shop",
-      {
-        "warp": "shopstreet"
-      }
+      "scene dailylevel"
     ],
-    "pic": "temp1",
-    "time": "stop",
-    "type": 2
-  },
-  "7": {
-    "id": 7,
-    "param": [
-      "scene court yard"
-    ],
-    "pic": "temp7",
-    "time": "stop",
-    "type": 2
-  },
-  "8": {
-    "id": 8,
-    "param": "50099",
-    "pic": "temp8",
+    "pic": "temp6",
     "time": [
       [
         [
           2025,
-          8,
-          28
+          9,
+          4
         ],
         [
           0,
@@ -123,7 +182,39 @@
         [
           2025,
           9,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 2
+  },
+  "7": {
+    "id": 7,
+    "param": "50101",
+    "pic": "temp7",
+    "time": [
+      [
+        [
+          2025,
+          9,
           4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          9,
+          12
         ],
         [
           12,
@@ -133,6 +224,40 @@
       ]
     ],
     "type": 3
+  },
+  "8": {
+    "id": 8,
+    "param": [
+      "metacharacter"
+    ],
+    "pic": "temp8",
+    "time": [
+      [
+        [
+          2025,
+          9,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          9,
+          12
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "type": 2
   },
   "9": {
     "id": 9,
@@ -259,11 +384,11 @@
       4,
       5,
       6,
-      7,
+      8,
       9
     ],
     "3": [
-      8
+      7
     ],
     "9": [
       90,
