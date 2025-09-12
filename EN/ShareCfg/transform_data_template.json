@@ -19455,6 +19455,407 @@
     ],
     "use_ship": 0
   },
+  "16301": {
+    "condition_id": [],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "hp_1",
+    "id": 16301,
+    "level_limit": 1,
+    "max_level": 1,
+    "name": "Hull Improvement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 300,
+    "use_item": [
+      [
+        [
+          18001,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16302": {
+    "condition_id": [
+      16301
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "dodge": 5
+      }
+    ],
+    "gear_score": [
+      10
+    ],
+    "icon": "dd_1",
+    "id": 16302,
+    "level_limit": 5,
+    "max_level": 1,
+    "name": "Evasion Enhancement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 2,
+    "use_gold": 400,
+    "use_item": [
+      [
+        [
+          18001,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16303": {
+    "condition_id": [
+      16301
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_3": 0.05
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "aaup_1",
+    "id": 16303,
+    "level_limit": 20,
+    "max_level": 1,
+    "name": "Anti-Air Gun Improvement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 600,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16304": {
+    "condition_id": [
+      16303
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 15
+      }
+    ],
+    "gear_score": [
+      15
+    ],
+    "icon": "aa_1",
+    "id": 16304,
+    "level_limit": 25,
+    "max_level": 1,
+    "name": "Anti-Air Enhancement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 3,
+    "use_gold": 800,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16305": {
+    "condition_id": [
+      16303
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "equipment_proficiency_2": 0.05
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "tpup_1",
+    "id": 16305,
+    "level_limit": 35,
+    "max_level": 1,
+    "name": "Torpedo Improvement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1000,
+    "use_item": [
+      [
+        [
+          18001,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16306": {
+    "condition_id": [
+      16305
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "torpedo": 10
+      }
+    ],
+    "gear_score": [
+      20
+    ],
+    "icon": "tp_1",
+    "id": 16306,
+    "level_limit": 40,
+    "max_level": 1,
+    "name": "Torpedo Enhancement Ⅰ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1200,
+    "use_item": [
+      [
+        [
+          18001,
+          4
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16307": {
+    "condition_id": [
+      16305
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "durability": 45
+      },
+      {
+        "durability": 75
+      }
+    ],
+    "gear_score": [
+      10,
+      15
+    ],
+    "icon": "hp_2",
+    "id": 16307,
+    "level_limit": 50,
+    "max_level": 2,
+    "name": "Hull Improvement Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1500,
+    "use_item": [
+      [
+        [
+          18002,
+          1
+        ]
+      ],
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16308": {
+    "condition_id": [
+      16307
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "skill_id": 151630
+      }
+    ],
+    "gear_score": [
+      25
+    ],
+    "icon": "skill_yellow",
+    "id": 16308,
+    "level_limit": 55,
+    "max_level": 1,
+    "name": "Tactical Learning",
+    "ship_id": [],
+    "skill_id": 151630,
+    "skin_id": 0,
+    "star_limit": 4,
+    "use_gold": 1800,
+    "use_item": [
+      [
+        [
+          18002,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16309": {
+    "condition_id": [
+      16307
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "speed": 3
+      }
+    ],
+    "gear_score": [
+      30
+    ],
+    "icon": "sp_1",
+    "id": 16309,
+    "level_limit": 70,
+    "max_level": 1,
+    "name": "Motor Enhancement",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2000,
+    "use_item": [
+      [
+        [
+          18002,
+          3
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16310": {
+    "condition_id": [
+      16302,
+      16309
+    ],
+    "descrip": "",
+    "edit_trans": [],
+    "effect": [
+      {
+        "dodge": 5
+      },
+      {
+        "dodge": 10
+      }
+    ],
+    "gear_score": [
+      10,
+      20
+    ],
+    "icon": "dd_2",
+    "id": 16310,
+    "level_limit": 75,
+    "max_level": 2,
+    "name": "Evasion Enhancement Ⅱ",
+    "ship_id": [],
+    "skill_id": 0,
+    "skin_id": 0,
+    "star_limit": 5,
+    "use_gold": 2500,
+    "use_item": [
+      [
+        [
+          18002,
+          2
+        ]
+      ],
+      [
+        [
+          18002,
+          2
+        ]
+      ]
+    ],
+    "use_ship": 0
+  },
+  "16311": {
+    "condition_id": [
+      16308,
+      16309,
+      16310
+    ],
+    "descrip": "Retrofitting complete. The following have been applied:\nTRP +30, AA +15\n<color=#92fc63>Anti-Air Gun base +1</color>, <color=#92fc63>Anti-Air Gun efficiency +40%</color>",
+    "edit_trans": [],
+    "effect": [
+      {
+        "antiaircraft": 15,
+        "torpedo": 30
+      }
+    ],
+    "gear_score": [
+      50
+    ],
+    "icon": "mt_red",
+    "id": 16311,
+    "level_limit": 85,
+    "max_level": 1,
+    "name": "Modernization",
+    "ship_id": [
+      [
+        301134,
+        301934
+      ]
+    ],
+    "skill_id": 0,
+    "skin_id": 301139,
+    "star_limit": 5,
+    "use_gold": 3000,
+    "use_item": [
+      [
+        [
+          18003,
+          1
+        ]
+      ]
+    ],
+    "use_ship": 1
+  },
   "16401": {
     "condition_id": [],
     "descrip": "",
