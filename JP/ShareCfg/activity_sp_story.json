@@ -3987,6 +3987,342 @@
     "story_type": 1,
     "unlock_conditions": "EX-4をクリア"
   },
+  "231": {
+    "change_background": "star_level_bg_490",
+    "change_bgm": "story-amahara-stage2",
+    "change_prefab": "",
+    "id": 231,
+    "lock": "",
+    "name": "EPS-1をクリア",
+    "pre_event": "",
+    "story": "QIWUYUTIANYUANZHISHANG1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "232": {
+    "change_background": "star_level_bg_492",
+    "change_bgm": "story-amahara-stage2",
+    "change_prefab": "",
+    "id": 232,
+    "lock": [
+      [
+        4,
+        231
+      ]
+    ],
+    "name": "EP1-1をクリア",
+    "pre_event": [
+      231
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG2",
+    "story_type": 1,
+    "unlock_conditions": "EPS-1をクリア"
+  },
+  "233": {
+    "change_background": "bg_amahara_cg1",
+    "change_bgm": "story-amahara-stage3",
+    "change_prefab": "",
+    "id": 233,
+    "lock": [
+      [
+        4,
+        232
+      ]
+    ],
+    "name": "EP1-2をクリア",
+    "pre_event": [
+      232
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG3",
+    "story_type": 1,
+    "unlock_conditions": "EP1-1をクリア"
+  },
+  "234": {
+    "change_background": "bg_amahara_1",
+    "change_bgm": "story-amahara-stage1",
+    "change_prefab": "",
+    "id": 234,
+    "lock": [
+      [
+        4,
+        233
+      ]
+    ],
+    "name": "EP1-3をクリア",
+    "pre_event": [
+      233
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG4",
+    "story_type": 1,
+    "unlock_conditions": "EP1-2をクリア"
+  },
+  "235": {
+    "change_background": "star_level_bg_492",
+    "change_bgm": "story-mayrain",
+    "change_prefab": "",
+    "id": 235,
+    "lock": [
+      [
+        4,
+        234
+      ]
+    ],
+    "name": "EP1-4をクリア",
+    "pre_event": [
+      234
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG5",
+    "story_type": 1,
+    "unlock_conditions": "EP1-3をクリア"
+  },
+  "236": {
+    "change_background": "star_level_bg_490",
+    "change_bgm": "story-amahara-stage2",
+    "change_prefab": "",
+    "id": 236,
+    "lock": [
+      [
+        4,
+        235
+      ]
+    ],
+    "name": "EP1-5をクリア",
+    "pre_event": [
+      235
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG6",
+    "story_type": 1,
+    "unlock_conditions": "EP1-4をクリア"
+  },
+  "237": {
+    "change_background": "bg_amahara_cg5",
+    "change_bgm": "story-amahara-stage2",
+    "change_prefab": "",
+    "id": 237,
+    "lock": [
+      [
+        4,
+        236
+      ]
+    ],
+    "name": "EP2-1をクリア",
+    "pre_event": [
+      236
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG7",
+    "story_type": 1,
+    "unlock_conditions": "EP1-5をクリア"
+  },
+  "238": {
+    "change_background": "star_level_bg_539",
+    "change_bgm": "story-island-soft",
+    "change_prefab": "",
+    "id": 238,
+    "lock": [
+      [
+        4,
+        237
+      ]
+    ],
+    "name": "EP2-2をクリア",
+    "pre_event": [
+      237
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG8",
+    "story_type": 1,
+    "unlock_conditions": "EP2-1をクリア"
+  },
+  "239": {
+    "change_background": "bg_tieyiqingfeng_1",
+    "change_bgm": "battle-eagleunion",
+    "change_prefab": "",
+    "id": 239,
+    "lock": [
+      [
+        4,
+        238
+      ]
+    ],
+    "name": "EP2-3をクリア",
+    "pre_event": [
+      238
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG9",
+    "story_type": 1,
+    "unlock_conditions": "EP2-2をクリア"
+  },
+  "240": {
+    "change_background": "star_level_bg_491",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 240,
+    "lock": [
+      [
+        4,
+        239
+      ]
+    ],
+    "name": "EP2-4をクリア",
+    "pre_event": [
+      239
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG10",
+    "story_type": 1,
+    "unlock_conditions": "EP2-3をクリア"
+  },
+  "241": {
+    "change_background": "bg_amahara_2",
+    "change_bgm": "musashi-2",
+    "change_prefab": "",
+    "id": 241,
+    "lock": [
+      [
+        4,
+        240
+      ]
+    ],
+    "name": "EP2-5をクリア",
+    "pre_event": [
+      240
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG11",
+    "story_type": 1,
+    "unlock_conditions": "EP2-4をクリア"
+  },
+  "242": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "theme-starsea-core",
+    "change_prefab": "",
+    "id": 242,
+    "lock": [
+      [
+        4,
+        241
+      ]
+    ],
+    "name": "EPS-2をクリア",
+    "pre_event": [
+      241
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG12",
+    "story_type": 1,
+    "unlock_conditions": "EP2-5をクリア"
+  },
+  "243": {
+    "change_background": "bg_amahara_cg6",
+    "change_bgm": "battle-unzen-1",
+    "change_prefab": "",
+    "id": 243,
+    "lock": [
+      [
+        4,
+        242
+      ]
+    ],
+    "name": "EPS-3をクリア",
+    "pre_event": [
+      241
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG13",
+    "story_type": 1,
+    "unlock_conditions": "EPS-2をクリア"
+  },
+  "244": {
+    "change_background": "bg_amahara_cg7",
+    "change_bgm": "theme-sakuraholyplace",
+    "change_prefab": "",
+    "id": 244,
+    "lock": [
+      [
+        4,
+        243
+      ]
+    ],
+    "name": "EP3-1をクリア",
+    "pre_event": [
+      242,
+      243
+    ],
+    "story": "1966001",
+    "story_type": 2,
+    "unlock_conditions": "EPS-3をクリア"
+  },
+  "245": {
+    "change_background": "bg_amahara_3",
+    "change_bgm": "battle-boss-ucnf",
+    "change_prefab": "",
+    "id": 245,
+    "lock": [
+      [
+        4,
+        244
+      ]
+    ],
+    "name": "EP3-2をクリア",
+    "pre_event": [
+      244
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG15",
+    "story_type": 1,
+    "unlock_conditions": "EP3-1をクリア"
+  },
+  "246": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 246,
+    "lock": [
+      [
+        4,
+        245
+      ]
+    ],
+    "name": "EP3-3をクリア",
+    "pre_event": [
+      245
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG16",
+    "story_type": 1,
+    "unlock_conditions": "EP3-2をクリア"
+  },
+  "247": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 247,
+    "lock": [
+      [
+        4,
+        246
+      ]
+    ],
+    "name": "EP-？をクリア",
+    "pre_event": [
+      246
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG17",
+    "story_type": 1,
+    "unlock_conditions": "EP3-3をクリア"
+  },
+  "248": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 248,
+    "lock": [
+      [
+        4,
+        247
+      ]
+    ],
+    "name": "9月19日メンテ後開放",
+    "pre_event": [
+      247
+    ],
+    "story": "",
+    "story_type": 99,
+    "unlock_conditions": ""
+  },
   "all": [
     1,
     2,
@@ -4199,6 +4535,24 @@
     223,
     224,
     225,
-    226
+    226,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248
   ]
 }
