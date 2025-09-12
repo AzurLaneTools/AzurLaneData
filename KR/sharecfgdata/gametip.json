@@ -137,6 +137,27 @@
   "2025Valentine_minigame_s": {
     "tip": "대박~! 새로운 레시피인데 이번엔 성공했어~! 지휘관, 이 기쁨과 행복이 잔뜩 담긴 초콜릿을 어서 먹어봐! 헤헤헷, 해피 발렌타인☆"
   },
+  "3ddorm_beach_slide_tip1": {
+    "tip": "미끄럼틀"
+  },
+  "3ddorm_beach_slide_tip2": {
+    "tip": "배치 중인 함선"
+  },
+  "3ddorm_beach_slide_tip3": {
+    "tip": "미끄럼틀"
+  },
+  "3ddorm_beach_slide_tip4": {
+    "tip": "놀이 기구 선택"
+  },
+  "3ddorm_beach_slide_tip5": {
+    "tip": "미끄럼틀 배치"
+  },
+  "3ddorm_beach_slide_tip6": {
+    "tip": "배치 중인 인원 수"
+  },
+  "3ddorm_beach_slide_tip7": {
+    "tip": "미끄럼틀"
+  },
   "3match_tip": {
     "tip": {
       "1": {
@@ -414,6 +435,18 @@
   },
   "Settings_title_agreement": {
     "tip": "협약 확인"
+  },
+  "Settings_title_resManage": {
+    "tip": "리소스 관리"
+  },
+  "Settings_title_resManage_All": {
+    "tip": "전체 리소스 업데이트"
+  },
+  "Settings_title_resManage_Main": {
+    "tip": "메인 리소스 관리"
+  },
+  "Settings_title_resManage_Sub": {
+    "tip": "추가 리소스 관리"
   },
   "Settings_title_resUpdate": {
     "tip": "리소스 다운"
@@ -5315,6 +5348,9 @@
   "cruise_tip_upgrade": {
     "tip": "-특허 투어 보상-"
   },
+  "cruise_title_2406": {
+    "tip": "월드 투어·17기"
+  },
   "cruise_title_2408": {
     "tip": "월드 투어·18기"
   },
@@ -6202,7 +6238,7 @@
     "tip": "리소스 다운로드 중입니다"
   },
   "dorm3d_role_assets_delete": {
-    "tip": "<color=#39bfff>$1</color>의 방 리소스를 일시적으로 삭제하시겠습니까?"
+    "tip": "<color=#39bfff>$1</color>의 방 리소스를 일시적으로 삭제하시겠습니까? \n리소스 용량: $2 "
   },
   "dorm3d_role_assets_download": {
     "tip": "<color=#39bfff>$1</color>의 방을 오픈하시겠습니까? \n리소스 다운로드: $2"
@@ -6290,6 +6326,9 @@
   },
   "dorm3d_shop_tag6": {
     "tip": "미니 게임 오픈"
+  },
+  "dorm3d_shop_tag7": {
+    "tip": "특수 연출 활성화(해당 캐릭터를 해변에 배치해야 함)"
   },
   "dorm3d_shop_title": {
     "tip": "숙소 상점"
@@ -7941,6 +7980,21 @@
   "grapihcs3d_setting_bloom": {
     "tip": "블룸"
   },
+  "grapihcs3d_setting_bloom_intensity": {
+    "tip": "블룸 효과"
+  },
+  "grapihcs3d_setting_bloom_intensity_0": {
+    "tip": "없음"
+  },
+  "grapihcs3d_setting_bloom_intensity_1": {
+    "tip": "낮음"
+  },
+  "grapihcs3d_setting_bloom_intensity_2": {
+    "tip": "중간"
+  },
+  "grapihcs3d_setting_bloom_intensity_3": {
+    "tip": "높음"
+  },
   "grapihcs3d_setting_bloom_optionname0": {
     "tip": "높음"
   },
@@ -7982,6 +8036,24 @@
   },
   "grapihcs3d_setting_enable_reflection": {
     "tip": "반사"
+  },
+  "grapihcs3d_setting_flare": {
+    "tip": "플레어 효과"
+  },
+  "grapihcs3d_setting_global_illumination": {
+    "tip": "기타 설정"
+  },
+  "grapihcs3d_setting_global_illumination_optionname0": {
+    "tip": "낮음"
+  },
+  "grapihcs3d_setting_global_illumination_optionname1": {
+    "tip": "중간"
+  },
+  "grapihcs3d_setting_global_illumination_optionname2": {
+    "tip": "높음"
+  },
+  "grapihcs3d_setting_global_illumination_optionname3": {
+    "tip": "최고"
   },
   "grapihcs3d_setting_gpgpu_warning": {
     "tip": "ON으로 설정하면 일부 기종에서는 강제 종료될 수 있습니다"
@@ -16560,8 +16632,26 @@
   "resourceSite_startResourceSite_error": {
     "tip": "의뢰 진행 실패："
   },
+  "resource_clear_3ddorm": {
+    "tip": "교류 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 교류 숙소를 확인하려면 리소스를 다시 다운해야 합니다)"
+  },
+  "resource_clear_3disland": {
+    "tip": "섬 경영 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 섬 경영을 확인하려면 리소스를 다시 다운해야 합니다)"
+  },
   "resource_clear_all": {
     "tip": "캐시 리소스를 제거하시겠습니까? (제거 완료 후 게임은 자동 종료됩니다)"
+  },
+  "resource_clear_gallery": {
+    "tip": "스틸 감상 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 스틸을 확인하려면 리소스를 다시 다운해야 합니다)"
+  },
+  "resource_clear_generaltext": {
+    "tip": "리소스 삭제"
+  },
+  "resource_clear_manga": {
+    "tip": "1컷 만화 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 1컷 만화를 확인하려면 리소스를 다시 다운해야 합니다)"
+  },
+  "resource_clear_tbchild": {
+    "tip": "TB 육성 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 TB 육성을 확인하려면 리소스를 다시 다운해야 합니다)"
   },
   "resource_max_tip_battle": {
     "tip": "출격 시 자원을 획득할 수 없습니다. 정말 출격하시겠습니까?"
@@ -18952,7 +19042,7 @@
     "tip": "$1 출현 시간: $2"
   },
   "shop_street_activity_tip": {
-    "tip": "·이벤트 기간(<color=#A1E400FF>$1</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
+    "tip": "·이벤트 기간(<color=#A1E400FF>$1</COLOR>)에는 갱신 시마다반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
   },
   "shop_supply": {
     "tip": "상시"
