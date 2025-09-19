@@ -122,7 +122,7 @@
   "20": {
     "id": 20,
     "name": "banner_middle",
-    "order": 10,
+    "order": 8,
     "param": [
       "scene charge",
       {
@@ -166,7 +166,7 @@
   "21": {
     "id": 21,
     "name": "banner_middle",
-    "order": 9,
+    "order": 7,
     "param": [
       "scene charge",
       {
@@ -221,6 +221,94 @@
     "relation_param": "",
     "time": "always",
     "time_lable": 0,
+    "type": 2
+  },
+  "23": {
+    "id": 23,
+    "name": "banner_middle",
+    "order": 10,
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
+    ],
+    "pic": "shopbanner/shop_pack_bg",
+    "relation_param": [
+      1,
+      98
+    ],
+    "time": [
+      [
+        [
+          2025,
+          9,
+          19
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          10,
+          2
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_lable": 1,
+    "type": 2
+  },
+  "24": {
+    "id": 24,
+    "name": "banner_middle",
+    "order": 9,
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
+    ],
+    "pic": "shopbanner/shop_pack_bg",
+    "relation_param": [
+      1,
+      99
+    ],
+    "time": [
+      [
+        [
+          2025,
+          9,
+          19
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          10,
+          2
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_lable": 1,
     "type": 2
   },
   "30": {
@@ -351,6 +439,8 @@
     20,
     21,
     22,
+    23,
+    24,
     30,
     31,
     40,
@@ -369,7 +459,9 @@
     "banner_middle": [
       20,
       21,
-      22
+      22,
+      23,
+      24
     ],
     "banner_small1": [
       30,
