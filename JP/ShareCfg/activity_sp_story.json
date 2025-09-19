@@ -4305,9 +4305,9 @@
     "unlock_conditions": "EP3-3をクリア"
   },
   "248": {
-    "change_background": "",
-    "change_bgm": "",
-    "change_prefab": "juqing_heisewuqi",
+    "change_background": "bg_xiangting_2",
+    "change_bgm": "story-worldα-brokenlight",
+    "change_prefab": "",
     "id": 248,
     "lock": [
       [
@@ -4315,13 +4315,414 @@
         247
       ]
     ],
-    "name": "9月19日メンテ後開放",
+    "name": "アマハラに踏み入れて・下",
     "pre_event": [
       247
     ],
-    "story": "",
-    "story_type": 99,
-    "unlock_conditions": ""
+    "story": "QIWUYUTIANYUANZHISHANG18",
+    "story_type": 1,
+    "unlock_conditions": "EP-？をクリア"
+  },
+  "249": {
+    "change_background": "star_level_bg_494",
+    "change_bgm": "story-worldα-grief",
+    "change_prefab": "",
+    "id": 249,
+    "lock": [
+      [
+        4,
+        248
+      ]
+    ],
+    "name": "LI防衛線再び",
+    "pre_event": [
+      248
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG19",
+    "story_type": 1,
+    "unlock_conditions": "EP-？をクリア"
+  },
+  "250": {
+    "change_background": "star_level_bg_170",
+    "change_bgm": "story-worldα-grief",
+    "change_prefab": "",
+    "id": 250,
+    "lock": [
+      [
+        4,
+        249
+      ]
+    ],
+    "name": "アンジュ救援計画",
+    "pre_event": [
+      249
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG20",
+    "story_type": 1,
+    "unlock_conditions": "EP4-1をクリア"
+  },
+  "251": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "story-worldα-brokenlight",
+    "change_prefab": "",
+    "id": 251,
+    "lock": [
+      [
+        4,
+        250
+      ]
+    ],
+    "name": "弦の中の微光",
+    "pre_event": [
+      250
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG21",
+    "story_type": 1,
+    "unlock_conditions": "EP4-2をクリア"
+  },
+  "252": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "story-worldα-brokenlight",
+    "change_prefab": "",
+    "id": 252,
+    "lock": [
+      [
+        4,
+        251
+      ]
+    ],
+    "name": "アンジュ救援計画改",
+    "pre_event": [
+      251
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG22",
+    "story_type": 1,
+    "unlock_conditions": "EP4-3をクリア"
+  },
+  "253": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "story-worldα-brokenlight",
+    "change_prefab": "",
+    "id": 253,
+    "lock": [
+      [
+        4,
+        252
+      ]
+    ],
+    "name": "前準備",
+    "pre_event": [
+      252
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG23",
+    "story_type": 1,
+    "unlock_conditions": "EP4-4をクリア"
+  },
+  "254": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "battle-eagleunion",
+    "change_prefab": "",
+    "id": 254,
+    "lock": [
+      [
+        4,
+        253
+      ]
+    ],
+    "name": "牢獄",
+    "pre_event": [
+      253
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG24",
+    "story_type": 1,
+    "unlock_conditions": "EP4-5をクリア"
+  },
+  "255": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "story-amahara-stage2",
+    "change_prefab": "",
+    "id": 255,
+    "lock": [
+      [
+        4,
+        254
+      ]
+    ],
+    "name": "前準備・改",
+    "pre_event": [
+      254
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG25",
+    "story_type": 1,
+    "unlock_conditions": "EP4-6をクリア"
+  },
+  "256": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "theme-starsea-core",
+    "change_prefab": "",
+    "id": 256,
+    "lock": [
+      [
+        4,
+        255
+      ]
+    ],
+    "name": "防衛エリアA",
+    "pre_event": [
+      255
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG26",
+    "story_type": 1,
+    "unlock_conditions": "EP5-1をクリア"
+  },
+  "257": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "theme-unzen",
+    "change_prefab": "",
+    "id": 257,
+    "lock": [
+      [
+        4,
+        256
+      ]
+    ],
+    "name": "防衛エリアB",
+    "pre_event": [
+      255
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG27",
+    "story_type": 1,
+    "unlock_conditions": "EP5-2をクリア"
+  },
+  "258": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "theme-akagi-inside",
+    "change_prefab": "",
+    "id": 258,
+    "lock": [
+      [
+        4,
+        257
+      ]
+    ],
+    "name": "防衛エリアC",
+    "pre_event": [
+      255
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG28",
+    "story_type": 1,
+    "unlock_conditions": "EP5-3をクリア"
+  },
+  "259": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "battle-unknown-approaching",
+    "change_prefab": "",
+    "id": 259,
+    "lock": [
+      [
+        4,
+        258
+      ]
+    ],
+    "name": "一抹の紅",
+    "pre_event": [
+      256,
+      257,
+      258
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG29",
+    "story_type": 1,
+    "unlock_conditions": "EP5-4をクリア"
+  },
+  "260": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "theme-longgong-another",
+    "change_prefab": "",
+    "id": 260,
+    "lock": [
+      [
+        4,
+        259
+      ]
+    ],
+    "name": "黒い壁",
+    "pre_event": [
+      259
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG30",
+    "story_type": 1,
+    "unlock_conditions": "EP5-5をクリア"
+  },
+  "261": {
+    "change_background": "bg_amahara_cg10",
+    "change_bgm": "theme-helena",
+    "change_prefab": "",
+    "id": 261,
+    "lock": [
+      [
+        4,
+        260
+      ]
+    ],
+    "name": "危機一髪",
+    "pre_event": [
+      260
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG31",
+    "story_type": 1,
+    "unlock_conditions": "EP6-1をクリア"
+  },
+  "262": {
+    "change_background": "bg_underwater",
+    "change_bgm": "theme-helena",
+    "change_prefab": "",
+    "id": 262,
+    "lock": [
+      [
+        4,
+        261
+      ]
+    ],
+    "name": "その光は海のように青く",
+    "pre_event": [
+      261
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG32",
+    "story_type": 1,
+    "unlock_conditions": "EP6-2をクリア"
+  },
+  "263": {
+    "change_background": "bg_amahara_4",
+    "change_bgm": "story-amahara-stage1",
+    "change_prefab": "",
+    "id": 263,
+    "lock": [
+      [
+        4,
+        262
+      ]
+    ],
+    "name": "別離",
+    "pre_event": [
+      262
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG33",
+    "story_type": 1,
+    "unlock_conditions": "EP6-3をクリア"
+  },
+  "264": {
+    "change_background": "star_level_bg_111",
+    "change_bgm": "story-amahara-stage1",
+    "change_prefab": "",
+    "id": 264,
+    "lock": [
+      [
+        4,
+        263
+      ]
+    ],
+    "name": "エピローグ",
+    "pre_event": [
+      263
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG34",
+    "story_type": 1,
+    "unlock_conditions": "EP6-4をクリア"
+  },
+  "265": {
+    "change_background": "star_level_bg_492",
+    "change_bgm": "theme-akagi-inside",
+    "change_prefab": "",
+    "id": 265,
+    "lock": [
+      [
+        4,
+        264
+      ]
+    ],
+    "name": "アマハラの続き",
+    "pre_event": [
+      264
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG35",
+    "story_type": 1,
+    "unlock_conditions": "EP6-5をクリア"
+  },
+  "266": {
+    "change_background": "bg_port_chongdong",
+    "change_bgm": "theme-starsea-core",
+    "change_prefab": "",
+    "id": 266,
+    "lock": [
+      [
+        4,
+        265
+      ]
+    ],
+    "name": "赤に別れを",
+    "pre_event": [
+      265
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG36",
+    "story_type": 1,
+    "unlock_conditions": "EX-1をクリア"
+  },
+  "267": {
+    "change_background": "star_level_bg_170",
+    "change_bgm": "story-richang-light",
+    "change_prefab": "",
+    "id": 267,
+    "lock": [
+      [
+        4,
+        266
+      ]
+    ],
+    "name": "「ヘレナ」の決意",
+    "pre_event": [
+      266
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG37",
+    "story_type": 1,
+    "unlock_conditions": "EX-2をクリア"
+  },
+  "268": {
+    "change_background": "star_level_bg_589",
+    "change_bgm": "theme-starsea-core",
+    "change_prefab": "",
+    "id": 268,
+    "lock": [
+      [
+        4,
+        267
+      ]
+    ],
+    "name": "きっと大丈夫",
+    "pre_event": [
+      267
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG38",
+    "story_type": 1,
+    "unlock_conditions": "EX-3をクリア"
+  },
+  "269": {
+    "change_background": "bg_amahara_4",
+    "change_bgm": "story-amahara-stage1",
+    "change_prefab": "Map_1960002",
+    "id": 269,
+    "lock": [
+      [
+        4,
+        268
+      ]
+    ],
+    "name": "甘いエサ",
+    "pre_event": [
+      268
+    ],
+    "story": "QIWUYUTIANYUANZHISHANG39",
+    "story_type": 1,
+    "unlock_conditions": "EX-4をクリア"
   },
   "all": [
     1,
@@ -4553,6 +4954,27 @@
     245,
     246,
     247,
-    248
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269
   ]
 }
