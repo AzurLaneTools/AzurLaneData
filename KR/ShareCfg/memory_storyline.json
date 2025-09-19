@@ -2253,7 +2253,9 @@
     "description": "「장미의 탑이여, 제가 당신을 지키겠습니다. 함께 로열 네이비를 지켜 나가요……」",
     "icon": "ChapterFour_7",
     "id": 88,
-    "link_event": "",
+    "link_event": [
+      89
+    ],
     "memory_id": [
       1,
       329
@@ -2266,6 +2268,47 @@
       97
     ],
     "sort": 1,
+    "world_id": ""
+  },
+  "89": {
+    "bgm": "story-newsakura",
+    "chapter": 4,
+    "column": 55,
+    "description": "축포, 음악대도 모두 준비 완료……\n 그럼, 리허설을 시작하자……\n 지휘관! 사쿠라 엠파이어에 온 걸 환영해!",
+    "icon": "ChapterFour_8",
+    "id": 89,
+    "link_event": [
+      90
+    ],
+    "memory_id": [
+      1,
+      338
+    ],
+    "memory_lock": 0,
+    "name": "사쿠라 엠파이어의 초대",
+    "row": -1,
+    "shipnation": [
+      3
+    ],
+    "sort": 1,
+    "world_id": ""
+  },
+  "90": {
+    "bgm": "",
+    "chapter": 4,
+    "column": 55,
+    "description": "기대해주세요",
+    "icon": "",
+    "id": 90,
+    "link_event": [
+      88
+    ],
+    "memory_id": "",
+    "memory_lock": 1,
+    "name": "기대해주세요",
+    "row": 0,
+    "shipnation": 0,
+    "sort": 0,
     "world_id": ""
   },
   "all": [
@@ -2356,6 +2399,8 @@
     85,
     86,
     87,
-    88
+    88,
+    89,
+    90
   ]
 }

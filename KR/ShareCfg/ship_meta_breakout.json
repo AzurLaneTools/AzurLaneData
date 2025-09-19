@@ -223,7 +223,7 @@
   },
   "9701043": {
     "breakout_id": 9701044,
-    "breakout_view": "【섬멸의 횃불·킴벌리】升级/주포 효율 5% 상승",
+    "breakout_view": "【섬멸의 횃불·킴벌리】강화/주포 효율 5% 상승",
     "gold": 2500,
     "id": 9701043,
     "item1": 21029,
@@ -500,6 +500,69 @@
     "item2_num": 0,
     "level": 0,
     "pre_id": 9701083,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9701091": {
+    "breakout_id": 9701092,
+    "breakout_view": "스킬 [섬멸의 횃불·유다치] 습득/어뢰 보정 +5%",
+    "gold": 1000,
+    "id": 9701091,
+    "item1": 21051,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      80531
+    ]
+  },
+  "9701092": {
+    "breakout_id": 9701093,
+    "breakout_view": "주포 발사 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+    "gold": 3000,
+    "id": 9701092,
+    "item1": 21051,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9701091,
+    "repair": 0,
+    "weapon_ids": [
+      100,
+      107
+    ]
+  },
+  "9701093": {
+    "breakout_id": 9701094,
+    "breakout_view": "【섬멸의 횃불·유다치】강화/주포 효율 5% 상승",
+    "gold": 10000,
+    "id": 9701093,
+    "item1": 21051,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9701092,
+    "repair": 0,
+    "weapon_ids": [
+      80532
+    ]
+  },
+  "9701094": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "gold": 0,
+    "id": 9701094,
+    "item1": 21051,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9701093,
     "repair": 0,
     "weapon_ids": []
   },
