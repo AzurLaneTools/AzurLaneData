@@ -2,19 +2,19 @@
   "1": {
     "ID": 1,
     "default_value": "",
-    "name": "姓名",
+    "name": "名前",
     "random_value": []
   },
   "2": {
     "ID": 2,
-    "default_value": "调查员",
-    "name": "职业",
+    "default_value": "探索者",
+    "name": "職業",
     "random_value": []
   },
   "3": {
     "ID": 3,
     "default_value": "25",
-    "name": "力量",
+    "name": "筋力",
     "random_value": [
       0,
       99
@@ -23,7 +23,7 @@
   "4": {
     "ID": 4,
     "default_value": "15",
-    "name": "体质",
+    "name": "体力",
     "random_value": [
       0,
       99
@@ -32,7 +32,7 @@
   "5": {
     "ID": 5,
     "default_value": "45",
-    "name": "意志",
+    "name": "精神力",
     "random_value": [
       0,
       99
@@ -41,7 +41,7 @@
   "6": {
     "ID": 6,
     "default_value": "70",
-    "name": "敏捷",
+    "name": "敏捷性",
     "random_value": [
       0,
       99
@@ -50,7 +50,7 @@
   "7": {
     "ID": 7,
     "default_value": "85",
-    "name": "外貌",
+    "name": "外見",
     "random_value": [
       0,
       99
@@ -68,7 +68,7 @@
   "9": {
     "ID": 9,
     "default_value": "90",
-    "name": "智力",
+    "name": "知性",
     "random_value": [
       0,
       99
@@ -76,8 +76,8 @@
   },
   "10": {
     "ID": 10,
-    "default_value": "80",
-    "name": "体型",
+    "default_value": "90",
+    "name": "体格",
     "random_value": [
       0,
       99
@@ -85,102 +85,102 @@
   },
   "11": {
     "ID": 11,
-    "default_value": "熟练",
-    "name": "观察力",
+    "default_value": "普通",
+    "name": "目星",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "12": {
     "ID": 12,
-    "default_value": "入门",
-    "name": "民俗研究",
+    "default_value": "初心者",
+    "name": "民族研究",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "13": {
     "ID": 13,
-    "default_value": "入门",
-    "name": "射击",
+    "default_value": "初心者",
+    "name": "射撃",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "14": {
     "ID": 14,
-    "default_value": "精通",
-    "name": "魅惑术",
+    "default_value": "専門家",
+    "name": "魅惑",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "15": {
     "ID": 15,
-    "default_value": "精通",
-    "name": "开锁",
+    "default_value": "専門家",
+    "name": "鍵開け",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "16": {
     "ID": 16,
-    "default_value": "入门",
-    "name": "陷阱制作",
+    "default_value": "初心者",
+    "name": "罠作成",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "17": {
     "ID": 17,
-    "default_value": "精通",
-    "name": "投掷",
+    "default_value": "専門家",
+    "name": "投擲",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "18": {
     "ID": 18,
-    "default_value": "入门",
-    "name": "快速阅读",
+    "default_value": "初心者",
+    "name": "高速閲覧",
     "random_value": [
-      "糟糕",
-      "入门",
-      "熟练",
-      "精通"
+      "下手",
+      "初心者",
+      "普通",
+      "専門家"
     ]
   },
   "1001": {
     "ID": 1001,
     "default_value": "",
-    "name": "姓名",
+    "name": "名前",
     "random_value": ""
   },
   "1002": {
     "ID": 1002,
     "default_value": "1",
-    "name": "等级",
+    "name": "LV",
     "random_value": [
       1,
       999
@@ -188,117 +188,97 @@
   },
   "1003": {
     "ID": 1003,
-    "default_value": "指挥官",
-    "name": "职业",
+    "default_value": "指揮官",
+    "name": "職業",
     "random_value": [
-      "猎魔人",
-      "光之战士",
-      "法师",
-      "战士",
-      "猎人",
+      "悪魔狩り",
+      "光の戦士",
+      "メイジ",
+      "ウォリアー",
+      "レンジャー",
       "勇者",
-      "骑士",
-      "龙骑士",
-      "巨盾骑士",
-      "狮鹫骑士",
-      "火枪手",
-      "德鲁伊",
-      "盗贼",
-      "赏金猎人",
-      "刺客",
-      "炼金术师",
-      "指挥官",
+      "ナイト",
+      "ドラゴンナイト",
+      "シールドナイト",
+      "グリフォンナイト",
+      "マスケッティア",
+      "ドルイド",
+      "シーフ",
+      "賞金稼ぎ",
+      "アサシン",
+      "アルケミスト",
+      "指揮官",
       "商人",
-      "领主",
-      "将军",
-      "村民",
-      "教师",
+      "ロード",
+      "ジェネラル",
+      "村人",
+      "教師",
       "魔王",
-      "魔将军",
-      "死灵法师",
-      "黑暗骑士",
-      "恶魔召唤师",
-      "纯路人",
-      "拳击手",
-      "武术大师",
-      "铁匠",
-      "铸剑大师",
-      "死亡骑士",
-      "狙击手",
-      "神圣骑士",
-      "战争统帅",
-      "舞者",
-      "魔剑士",
-      "大魔导师",
-      "药剂师",
-      "国王",
-      "世界守护者",
-      "钓鱼大师",
-      "特级厨师",
-      "海盗船长",
-      "情报商",
-      "守望者",
-      "外星王族",
-      "剑圣",
-      "摔跤手",
-      "神官",
-      "武僧",
-      "异世界访客",
-      "龙骑士",
-      "吟游诗人",
-      "调查员",
-      "弓箭手",
-      "长矛手",
-      "弩手",
-      "圣骑士",
-      "三级魔法师",
-      "二级魔法师",
-      "一级魔法师",
-      "大魔法师",
-      "死灵法师",
-      "异化法师",
-      "古精灵贤者",
-      "古精灵骑士",
-      "奇渊之主",
-      "奇渊守门者",
-      "阿卡西商人",
-      "魔法部公务员",
-      "魔法学院校长",
-      "魔法学院教授",
-      "魔法学院学生",
-      "大冒险之王"
+      "魔将軍",
+      "ネクロマンサー",
+      "ダークナイト",
+      "デビルサマナー",
+      "通行人",
+      "バウンサー",
+      "ファイター",
+      "鍛冶屋",
+      "名刀工",
+      "デスナイト",
+      "スナイパー",
+      "ホーリーナイト",
+      "ウォーロード",
+      "ダンサー",
+      "魔剣士",
+      "アークメイジ",
+      "薬師",
+      "エンペラー",
+      "ワールドガーディアン",
+      "釣りマスター",
+      "特急コック",
+      "パイレーツ船長",
+      "情報屋",
+      "防人",
+      "エーリアン",
+      "ソードマスター",
+      "グラップラー",
+      "プリースト",
+      "モンク",
+      "ストレンジャー",
+      "ドラゴンナイト",
+      "吟遊詩人",
+      "探索者",
+      "アーチャー",
+      "ランサー",
+      "ボウガンナー",
+      "パラディン"
     ]
   },
   "1004": {
     "ID": 1004,
-    "default_value": "幸运与财富之神",
-    "name": "守护神",
+    "default_value": "幸運と富の神",
+    "name": "加護",
     "random_value": [
-      "起始与终焉之神",
-      "茶会与点心之神",
-      "钢铁与巨龙之神",
-      "火焰与净化之神",
-      "光明与正义之神",
-      "黑暗与诡计之神",
-      "坚韧与团结之神",
-      "平安与守护之神",
-      "复兴与浴室之神",
-      "开拓与冒险之神",
-      "幸运与财富之神",
-      "秩序与规则之神",
-      "智慧之神",
-      "战争之神",
-      "欢愉之神",
-      "自然与生命之神",
-      "上古电之神",
-      "上古雷之神",
-      "大冒险之神"
+      "始まりと終わりの神",
+      "お茶会とお菓子の神",
+      "鋼鉄と巨竜の神",
+      "炎と浄化の神",
+      "光と正義の神",
+      "闇と陰謀の神",
+      "団結と強靭の神",
+      "平安と守護の神",
+      "復興と風呂の神",
+      "開拓と冒険の神",
+      "幸運と富の神",
+      "秩序と規則の神",
+      "知恵の神",
+      "戦争の神",
+      "愉悦の神"
     ]
   },
   "2001": {
     "ID": 2001,
     "default_value": "100",
-    "name": "生命值",
+    "name": "HP",
     "random_value": [
       1,
       999999
@@ -307,7 +287,7 @@
   "2002": {
     "ID": 2002,
     "default_value": "50",
-    "name": "魔法值",
+    "name": "MP",
     "random_value": [
       1,
       999999
@@ -316,7 +296,7 @@
   "2003": {
     "ID": 2003,
     "default_value": "11",
-    "name": "攻击力",
+    "name": "ATK",
     "random_value": [
       0,
       9999
@@ -325,7 +305,7 @@
   "2004": {
     "ID": 2004,
     "default_value": "9",
-    "name": "防御力",
+    "name": "DEF",
     "random_value": [
       0,
       9999
@@ -334,7 +314,7 @@
   "2005": {
     "ID": 2005,
     "default_value": "12",
-    "name": "速度",
+    "name": "SPD",
     "random_value": [
       1,
       999
@@ -343,7 +323,7 @@
   "2006": {
     "ID": 2006,
     "default_value": "750",
-    "name": "幸运",
+    "name": "LUC",
     "random_value": [
       0,
       999
@@ -352,7 +332,7 @@
   "3000": {
     "ID": 3000,
     "default_value": "C",
-    "name": "投掷",
+    "name": "投擲",
     "random_value": [
       "F",
       "E",
@@ -368,7 +348,7 @@
   "3001": {
     "ID": 3001,
     "default_value": "B",
-    "name": "奔跑",
+    "name": "走行",
     "random_value": [
       "F",
       "E",
@@ -384,7 +364,7 @@
   "3002": {
     "ID": 3002,
     "default_value": "SSS",
-    "name": "海潮号角",
+    "name": "海潮のホーン",
     "random_value": [
       "F",
       "E",
@@ -400,7 +380,7 @@
   "3003": {
     "ID": 3003,
     "default_value": "SSS",
-    "name": "战场指挥",
+    "name": "戦場指揮",
     "random_value": [
       "F",
       "E",
@@ -416,7 +396,7 @@
   "3004": {
     "ID": 3004,
     "default_value": "SSS",
-    "name": "情报记录",
+    "name": "情報記録",
     "random_value": [
       "F",
       "E",
@@ -432,7 +412,7 @@
   "3005": {
     "ID": 3005,
     "default_value": "SSS",
-    "name": "情报分析",
+    "name": "情報分析",
     "random_value": [
       "F",
       "E",
@@ -448,7 +428,7 @@
   "3006": {
     "ID": 3006,
     "default_value": "",
-    "name": "炎爆术",
+    "name": "フレイムブラスト",
     "random_value": [
       "F",
       "E",
@@ -464,7 +444,7 @@
   "3007": {
     "ID": 3007,
     "default_value": "",
-    "name": "寒冰术",
+    "name": "アイシクルクラッシュ",
     "random_value": [
       "F",
       "E",
@@ -480,7 +460,7 @@
   "3008": {
     "ID": 3008,
     "default_value": "",
-    "name": "风刃术",
+    "name": "ウィンドエッジ",
     "random_value": [
       "F",
       "E",
@@ -496,7 +476,7 @@
   "3009": {
     "ID": 3009,
     "default_value": "",
-    "name": "激流术",
+    "name": "スプラッシュ",
     "random_value": [
       "F",
       "E",
@@ -512,7 +492,7 @@
   "3010": {
     "ID": 3010,
     "default_value": "",
-    "name": "沙暴术",
+    "name": "サンドストーム",
     "random_value": [
       "F",
       "E",
@@ -528,7 +508,7 @@
   "3011": {
     "ID": 3011,
     "default_value": "",
-    "name": "雾隐术",
+    "name": "ミストクローク",
     "random_value": [
       "F",
       "E",
@@ -544,7 +524,7 @@
   "3012": {
     "ID": 3012,
     "default_value": "",
-    "name": "气浪术",
+    "name": "エアウェーブ",
     "random_value": [
       "F",
       "E",
@@ -560,7 +540,7 @@
   "3013": {
     "ID": 3013,
     "default_value": "",
-    "name": "毒烟术",
+    "name": "ポイズンクラウド",
     "random_value": [
       "F",
       "E",
@@ -576,7 +556,7 @@
   "3014": {
     "ID": 3014,
     "default_value": "",
-    "name": "雷击术",
+    "name": "サンダー",
     "random_value": [
       "F",
       "E",
@@ -592,7 +572,7 @@
   "3015": {
     "ID": 3015,
     "default_value": "",
-    "name": "时间停滞",
+    "name": "タイムストップ",
     "random_value": [
       "F",
       "E",
@@ -608,7 +588,7 @@
   "3016": {
     "ID": 3016,
     "default_value": "",
-    "name": "陨石术",
+    "name": "メテオフォール",
     "random_value": [
       "F",
       "E",
@@ -624,7 +604,7 @@
   "3017": {
     "ID": 3017,
     "default_value": "",
-    "name": "魅惑术",
+    "name": "テンプテーション",
     "random_value": [
       "F",
       "E",
@@ -640,7 +620,7 @@
   "3018": {
     "ID": 3018,
     "default_value": "",
-    "name": "催眠术",
+    "name": "ヒュプノス",
     "random_value": [
       "F",
       "E",
@@ -656,7 +636,7 @@
   "3019": {
     "ID": 3019,
     "default_value": "",
-    "name": "死灵术",
+    "name": "アニメイトデッド",
     "random_value": [
       "F",
       "E",
@@ -672,7 +652,7 @@
   "3020": {
     "ID": 3020,
     "default_value": "",
-    "name": "巨剑术",
+    "name": "サモンソード",
     "random_value": [
       "F",
       "E",
@@ -688,7 +668,7 @@
   "3021": {
     "ID": 3021,
     "default_value": "",
-    "name": "御剑术",
+    "name": "御剣の術",
     "random_value": [
       "F",
       "E",
@@ -704,7 +684,7 @@
   "3022": {
     "ID": 3022,
     "default_value": "",
-    "name": "神圣之光",
+    "name": "ホーリーライト",
     "random_value": [
       "F",
       "E",
@@ -720,7 +700,7 @@
   "3023": {
     "ID": 3023,
     "default_value": "",
-    "name": "空间封锁",
+    "name": "空間封鎖",
     "random_value": [
       "F",
       "E",
@@ -736,7 +716,7 @@
   "3024": {
     "ID": 3024,
     "default_value": "",
-    "name": "传送术",
+    "name": "テレポート",
     "random_value": [
       "F",
       "E",
@@ -752,7 +732,7 @@
   "3025": {
     "ID": 3025,
     "default_value": "",
-    "name": "神行术",
+    "name": "クイックステップ",
     "random_value": [
       "F",
       "E",
@@ -768,7 +748,7 @@
   "3026": {
     "ID": 3026,
     "default_value": "",
-    "name": "穿墙术",
+    "name": "壁抜けの術",
     "random_value": [
       "F",
       "E",
@@ -784,7 +764,7 @@
   "3027": {
     "ID": 3027,
     "default_value": "",
-    "name": "潜行术",
+    "name": "ステルスムーブ",
     "random_value": [
       "F",
       "E",
@@ -800,7 +780,7 @@
   "3028": {
     "ID": 3028,
     "default_value": "",
-    "name": "消音术",
+    "name": "音消しの術",
     "random_value": [
       "F",
       "E",
@@ -816,7 +796,7 @@
   "3029": {
     "ID": 3029,
     "default_value": "",
-    "name": "闪电链",
+    "name": "チェインライトニング",
     "random_value": [
       "F",
       "E",
@@ -832,7 +812,7 @@
   "3030": {
     "ID": 3030,
     "default_value": "",
-    "name": "治愈之光",
+    "name": "キュアライト",
     "random_value": [
       "F",
       "E",
@@ -848,7 +828,7 @@
   "3031": {
     "ID": 3031,
     "default_value": "",
-    "name": "幻术",
+    "name": "幻惑の術",
     "random_value": [
       "F",
       "E",
@@ -864,7 +844,7 @@
   "3032": {
     "ID": 3032,
     "default_value": "",
-    "name": "灵魂汲取",
+    "name": "ソウルスティール",
     "random_value": [
       "F",
       "E",
@@ -880,7 +860,7 @@
   "3033": {
     "ID": 3033,
     "default_value": "",
-    "name": "大地之力",
+    "name": "アースフォース",
     "random_value": [
       "F",
       "E",
@@ -896,7 +876,7 @@
   "3034": {
     "ID": 3034,
     "default_value": "",
-    "name": "精神冲击",
+    "name": "マインドクラッシュ",
     "random_value": [
       "F",
       "E",
@@ -912,7 +892,7 @@
   "3035": {
     "ID": 3035,
     "default_value": "",
-    "name": "巨剑冲击",
+    "name": "ソードスマッシュ",
     "random_value": [
       "F",
       "E",
@@ -928,7 +908,7 @@
   "3036": {
     "ID": 3036,
     "default_value": "",
-    "name": "召唤术",
+    "name": "レッサーサモン",
     "random_value": [
       "F",
       "E",
@@ -944,7 +924,7 @@
   "3037": {
     "ID": 3037,
     "default_value": "",
-    "name": "人偶操控",
+    "name": "人形操術",
     "random_value": [
       "F",
       "E",
@@ -960,7 +940,7 @@
   "3038": {
     "ID": 3038,
     "default_value": "",
-    "name": "狼人化",
+    "name": "ワーウルフ変身",
     "random_value": [
       "F",
       "E",
@@ -976,7 +956,7 @@
   "3039": {
     "ID": 3039,
     "default_value": "",
-    "name": "吸血鬼化",
+    "name": "ヴァンパイア変身",
     "random_value": [
       "F",
       "E",
@@ -992,7 +972,7 @@
   "3040": {
     "ID": 3040,
     "default_value": "",
-    "name": "结界",
+    "name": "結界術",
     "random_value": [
       "F",
       "E",
@@ -1008,7 +988,7 @@
   "3041": {
     "ID": 3041,
     "default_value": "",
-    "name": "魔法结界",
+    "name": "マジックバリア",
     "random_value": [
       "F",
       "E",
@@ -1024,7 +1004,7 @@
   "3042": {
     "ID": 3042,
     "default_value": "",
-    "name": "杀伤术",
+    "name": "理力の術",
     "random_value": [
       "F",
       "E",
@@ -1040,7 +1020,7 @@
   "3043": {
     "ID": 3043,
     "default_value": "",
-    "name": "读心术",
+    "name": "テレパシー",
     "random_value": [
       "F",
       "E",
@@ -1056,7 +1036,7 @@
   "3044": {
     "ID": 3044,
     "default_value": "",
-    "name": "潜入梦境",
+    "name": "夢潜り",
     "random_value": [
       "F",
       "E",
@@ -1072,7 +1052,7 @@
   "3045": {
     "ID": 3045,
     "default_value": "",
-    "name": "制造分身",
+    "name": "分身の術",
     "random_value": [
       "F",
       "E",
@@ -1088,7 +1068,7 @@
   "3046": {
     "ID": 3046,
     "default_value": "",
-    "name": "野性解放",
+    "name": "ワイルド",
     "random_value": [
       "F",
       "E",
@@ -1104,7 +1084,7 @@
   "3047": {
     "ID": 3047,
     "default_value": "",
-    "name": "意识交换",
+    "name": "マインドチェンジ",
     "random_value": [
       "F",
       "E",
@@ -1120,7 +1100,7 @@
   "3048": {
     "ID": 3048,
     "default_value": "",
-    "name": "快速愈合",
+    "name": "クイックキュア",
     "random_value": [
       "F",
       "E",
@@ -1136,7 +1116,7 @@
   "3049": {
     "ID": 3049,
     "default_value": "",
-    "name": "刚体术",
+    "name": "スーパーアーマー",
     "random_value": [
       "F",
       "E",
@@ -1168,7 +1148,7 @@
   "3051": {
     "ID": 3051,
     "default_value": "",
-    "name": "缩小化",
+    "name": "収縮",
     "random_value": [
       "F",
       "E",
@@ -1184,7 +1164,7 @@
   "3052": {
     "ID": 3052,
     "default_value": "",
-    "name": "狂化",
+    "name": "来化",
     "random_value": [
       "F",
       "E",
@@ -1200,7 +1180,7 @@
   "3053": {
     "ID": 3053,
     "default_value": "",
-    "name": "时间操控",
+    "name": "時間操作",
     "random_value": [
       "F",
       "E",
@@ -1216,7 +1196,7 @@
   "3054": {
     "ID": 3054,
     "default_value": "",
-    "name": "伤害转移",
+    "name": "ダメージ転移",
     "random_value": [
       "F",
       "E",
@@ -1232,7 +1212,7 @@
   "3055": {
     "ID": 3055,
     "default_value": "",
-    "name": "强制恐惧",
+    "name": "フォースドホラー",
     "random_value": [
       "F",
       "E",
@@ -1248,7 +1228,7 @@
   "3056": {
     "ID": 3056,
     "default_value": "",
-    "name": "灵魂抽取",
+    "name": "ソウルドレイン",
     "random_value": [
       "F",
       "E",
@@ -1264,7 +1244,7 @@
   "3057": {
     "ID": 3057,
     "default_value": "",
-    "name": "诅咒术",
+    "name": "呪い",
     "random_value": [
       "F",
       "E",
@@ -1280,7 +1260,7 @@
   "3058": {
     "ID": 3058,
     "default_value": "",
-    "name": "沉默术",
+    "name": "サイレント",
     "random_value": [
       "F",
       "E",
@@ -1296,7 +1276,7 @@
   "3059": {
     "ID": 3059,
     "default_value": "",
-    "name": "动物交流",
+    "name": "アニマルスピーク",
     "random_value": [
       "F",
       "E",
@@ -1312,7 +1292,7 @@
   "3060": {
     "ID": 3060,
     "default_value": "",
-    "name": "千里眼",
+    "name": "ファーサイト",
     "random_value": [
       "F",
       "E",
@@ -1328,7 +1308,7 @@
   "3061": {
     "ID": 3061,
     "default_value": "",
-    "name": "透视术",
+    "name": "透視",
     "random_value": [
       "F",
       "E",
@@ -1344,7 +1324,7 @@
   "3062": {
     "ID": 3062,
     "default_value": "",
-    "name": "夜视术",
+    "name": "ナイトアイ",
     "random_value": [
       "F",
       "E",
@@ -1376,7 +1356,7 @@
   "3064": {
     "ID": 3064,
     "default_value": "",
-    "name": "记忆修改",
+    "name": "記憶操作",
     "random_value": [
       "F",
       "E",
@@ -1392,7 +1372,7 @@
   "3065": {
     "ID": 3065,
     "default_value": "",
-    "name": "净化术",
+    "name": "ピュリファイング",
     "random_value": [
       "F",
       "E",
@@ -1408,7 +1388,7 @@
   "3066": {
     "ID": 3066,
     "default_value": "",
-    "name": "黑洞术",
+    "name": "ブラックホール",
     "random_value": [
       "F",
       "E",
@@ -1424,7 +1404,7 @@
   "3067": {
     "ID": 3067,
     "default_value": "",
-    "name": "石化",
+    "name": "石化の術",
     "random_value": [
       "F",
       "E",
@@ -1440,7 +1420,7 @@
   "3068": {
     "ID": 3068,
     "default_value": "",
-    "name": "召唤坐骑",
+    "name": "騎乗物召喚",
     "random_value": [
       "F",
       "E",
@@ -1472,7 +1452,7 @@
   "3070": {
     "ID": 3070,
     "default_value": "",
-    "name": "格斗",
+    "name": "格闘",
     "random_value": [
       "F",
       "E",
@@ -1488,7 +1468,7 @@
   "3071": {
     "ID": 3071,
     "default_value": "",
-    "name": "交涉",
+    "name": "交渉",
     "random_value": [
       "F",
       "E",
@@ -1504,7 +1484,7 @@
   "3072": {
     "ID": 3072,
     "default_value": "",
-    "name": "急救",
+    "name": "救急救命",
     "random_value": [
       "F",
       "E",
@@ -1520,7 +1500,7 @@
   "3073": {
     "ID": 3073,
     "default_value": "",
-    "name": "骑乘",
+    "name": "騎乗",
     "random_value": [
       "F",
       "E",
@@ -1536,7 +1516,7 @@
   "3074": {
     "ID": 3074,
     "default_value": "",
-    "name": "养生术",
+    "name": "養生スキル",
     "random_value": [
       "F",
       "E",
@@ -1568,7 +1548,7 @@
   "3076": {
     "ID": 3076,
     "default_value": "",
-    "name": "法律学",
+    "name": "法学",
     "random_value": [
       "F",
       "E",
@@ -1584,7 +1564,7 @@
   "3077": {
     "ID": 3077,
     "default_value": "",
-    "name": "药理学",
+    "name": "薬理学",
     "random_value": [
       "F",
       "E",
@@ -1600,7 +1580,7 @@
   "3078": {
     "ID": 3078,
     "default_value": "",
-    "name": "药剂学",
+    "name": "薬剤学",
     "random_value": [
       "F",
       "E",
@@ -1616,7 +1596,7 @@
   "3079": {
     "ID": 3079,
     "default_value": "",
-    "name": "机械维修",
+    "name": "機械修理",
     "random_value": [
       "F",
       "E",
@@ -1632,7 +1612,7 @@
   "3080": {
     "ID": 3080,
     "default_value": "",
-    "name": "钓鱼",
+    "name": "釣り",
     "random_value": [
       "F",
       "E",
@@ -1664,7 +1644,7 @@
   "3082": {
     "ID": 3082,
     "default_value": "",
-    "name": "皇室礼仪",
+    "name": "貴族作法",
     "random_value": [
       "F",
       "E",
@@ -1680,7 +1660,7 @@
   "3083": {
     "ID": 3083,
     "default_value": "",
-    "name": "游泳",
+    "name": "水泳",
     "random_value": [
       "F",
       "E",
@@ -1696,7 +1676,7 @@
   "3084": {
     "ID": 3084,
     "default_value": "",
-    "name": "兵器保养",
+    "name": "武器手入れ",
     "random_value": [
       "F",
       "E",
@@ -1712,7 +1692,7 @@
   "3085": {
     "ID": 3085,
     "default_value": "",
-    "name": "法杖保养",
+    "name": "魔法具手入れ",
     "random_value": [
       "F",
       "E",
@@ -1728,7 +1708,7 @@
   "3086": {
     "ID": 3086,
     "default_value": "",
-    "name": "盔甲保养",
+    "name": "防具手入れ",
     "random_value": [
       "F",
       "E",
@@ -1744,7 +1724,7 @@
   "3087": {
     "ID": 3087,
     "default_value": "",
-    "name": "武器制造",
+    "name": "武器制作",
     "random_value": [
       "F",
       "E",
@@ -1760,7 +1740,7 @@
   "3088": {
     "ID": 3088,
     "default_value": "",
-    "name": "宝石鉴定",
+    "name": "宝石鑑定",
     "random_value": [
       "F",
       "E",
@@ -1776,7 +1756,7 @@
   "3089": {
     "ID": 3089,
     "default_value": "",
-    "name": "卷轴制造",
+    "name": "巻物制作",
     "random_value": [
       "F",
       "E",
@@ -1792,7 +1772,7 @@
   "3090": {
     "ID": 3090,
     "default_value": "",
-    "name": "药剂制造",
+    "name": "ポーション制作",
     "random_value": [
       "F",
       "E",
@@ -1808,7 +1788,7 @@
   "3091": {
     "ID": 3091,
     "default_value": "",
-    "name": "快速交谈",
+    "name": "高速会話",
     "random_value": [
       "F",
       "E",
@@ -1824,7 +1804,7 @@
   "3092": {
     "ID": 3092,
     "default_value": "",
-    "name": "箭矢制造",
+    "name": "矢制作",
     "random_value": [
       "F",
       "E",
@@ -1840,7 +1820,7 @@
   "3093": {
     "ID": 3093,
     "default_value": "",
-    "name": "硬化术",
+    "name": "かたくなる",
     "random_value": [
       "F",
       "E",
@@ -1856,7 +1836,7 @@
   "3094": {
     "ID": 3094,
     "default_value": "",
-    "name": "音爆术",
+    "name": "ソニックブーム",
     "random_value": [
       "F",
       "E",
@@ -1872,7 +1852,7 @@
   "3095": {
     "ID": 3095,
     "default_value": "",
-    "name": "影遁术",
+    "name": "影遁の術",
     "random_value": [
       "F",
       "E",
@@ -1888,7 +1868,7 @@
   "3096": {
     "ID": 3096,
     "default_value": "",
-    "name": "魔弹术",
+    "name": "マジックミサイル",
     "random_value": [
       "F",
       "E",
@@ -1904,7 +1884,7 @@
   "3097": {
     "ID": 3097,
     "default_value": "",
-    "name": "附魔术",
+    "name": "マジックエンハンス",
     "random_value": [
       "F",
       "E",
@@ -1920,7 +1900,7 @@
   "3098": {
     "ID": 3098,
     "default_value": "",
-    "name": "面包烘焙",
+    "name": "パン作り",
     "random_value": [
       "F",
       "E",
@@ -1936,7 +1916,7 @@
   "3099": {
     "ID": 3099,
     "default_value": "",
-    "name": "死者苏生",
+    "name": "死者蘇生",
     "random_value": [
       "F",
       "E",
@@ -1952,7 +1932,7 @@
   "3100": {
     "ID": 3100,
     "default_value": "",
-    "name": "恶灵操控",
+    "name": "悪霊操術",
     "random_value": [
       "F",
       "E",
@@ -1968,7 +1948,7 @@
   "3101": {
     "ID": 3101,
     "default_value": "",
-    "name": "血蚀术",
+    "name": "ブラッドエンクローチ",
     "random_value": [
       "F",
       "E",
@@ -1984,7 +1964,7 @@
   "3102": {
     "ID": 3102,
     "default_value": "",
-    "name": "谈判技巧",
+    "name": "ネゴシエート",
     "random_value": [
       "F",
       "E",
@@ -2000,7 +1980,7 @@
   "3103": {
     "ID": 3103,
     "default_value": "",
-    "name": "格斗技术",
+    "name": "格闘スキル",
     "random_value": [
       "F",
       "E",
@@ -2016,7 +1996,7 @@
   "3104": {
     "ID": 3104,
     "default_value": "",
-    "name": "驯兽技巧",
+    "name": "野獣使いスキル",
     "random_value": [
       "F",
       "E",
@@ -2032,7 +2012,7 @@
   "3105": {
     "ID": 3105,
     "default_value": "",
-    "name": "绘画能力",
+    "name": "絵描きスキル",
     "random_value": [
       "F",
       "E",
@@ -2048,7 +2028,7 @@
   "3106": {
     "ID": 3106,
     "default_value": "",
-    "name": "园艺技术",
+    "name": "園芸スキル",
     "random_value": [
       "F",
       "E",
@@ -2064,7 +2044,7 @@
   "3107": {
     "ID": 3107,
     "default_value": "",
-    "name": "开锁",
+    "name": "ピッキングスキル",
     "random_value": [
       "F",
       "E",
@@ -2080,7 +2060,7 @@
   "3108": {
     "ID": 3108,
     "default_value": "",
-    "name": "陷阱设置",
+    "name": "罠設置",
     "random_value": [
       "F",
       "E",
@@ -2112,7 +2092,7 @@
   "3110": {
     "ID": 3110,
     "default_value": "",
-    "name": "建筑学",
+    "name": "建築学",
     "random_value": [
       "F",
       "E",
@@ -2128,7 +2108,7 @@
   "3111": {
     "ID": 3111,
     "default_value": "",
-    "name": "历史学",
+    "name": "歴史学",
     "random_value": [
       "F",
       "E",
@@ -2144,7 +2124,7 @@
   "3112": {
     "ID": 3112,
     "default_value": "",
-    "name": "语言学",
+    "name": "言語学",
     "random_value": [
       "F",
       "E",
@@ -2160,7 +2140,7 @@
   "3113": {
     "ID": 3113,
     "default_value": "",
-    "name": "乐器演奏",
+    "name": "楽器演奏",
     "random_value": [
       "F",
       "E",
@@ -2176,7 +2156,7 @@
   "3114": {
     "ID": 3114,
     "default_value": "",
-    "name": "雕刻技术",
+    "name": "彫刻スキル",
     "random_value": [
       "F",
       "E",
@@ -2192,7 +2172,7 @@
   "3115": {
     "ID": 3115,
     "default_value": "",
-    "name": "缝纫制造",
+    "name": "裁縫スキル",
     "random_value": [
       "F",
       "E",
@@ -2208,7 +2188,7 @@
   "3116": {
     "ID": 3116,
     "default_value": "",
-    "name": "情报收集",
+    "name": "情報収集",
     "random_value": [
       "F",
       "E",
@@ -2224,7 +2204,7 @@
   "3117": {
     "ID": 3117,
     "default_value": "",
-    "name": "陶器制造",
+    "name": "陶芸スキル",
     "random_value": [
       "F",
       "E",
@@ -2240,7 +2220,7 @@
   "3118": {
     "ID": 3118,
     "default_value": "",
-    "name": "预言术",
+    "name": "予言",
     "random_value": [
       "F",
       "E",
@@ -2256,7 +2236,7 @@
   "3119": {
     "ID": 3119,
     "default_value": "",
-    "name": "抗性提升",
+    "name": "耐性上昇",
     "random_value": [
       "F",
       "E",
@@ -2272,7 +2252,7 @@
   "3120": {
     "ID": 3120,
     "default_value": "",
-    "name": "意识稳定",
+    "name": "鋼のメンタル",
     "random_value": [
       "F",
       "E",
@@ -2288,7 +2268,7 @@
   "3121": {
     "ID": 3121,
     "default_value": "",
-    "name": "液体操控",
+    "name": "液体操作",
     "random_value": [
       "F",
       "E",
@@ -2304,7 +2284,7 @@
   "3122": {
     "ID": 3122,
     "default_value": "",
-    "name": "金属操控",
+    "name": "金属操作",
     "random_value": [
       "F",
       "E",
@@ -2320,7 +2300,7 @@
   "3123": {
     "ID": 3123,
     "default_value": "",
-    "name": "物体复制",
+    "name": "コピー作成",
     "random_value": [
       "F",
       "E",
@@ -2336,7 +2316,7 @@
   "3124": {
     "ID": 3124,
     "default_value": "",
-    "name": "赌运",
+    "name": "ギャンブルスキル",
     "random_value": [
       "F",
       "E",
@@ -2352,7 +2332,7 @@
   "3125": {
     "ID": 3125,
     "default_value": "",
-    "name": "领域展开",
+    "name": "領域展開",
     "random_value": [
       "F",
       "E",
@@ -2368,7 +2348,7 @@
   "3126": {
     "ID": 3126,
     "default_value": "",
-    "name": "板甲操控",
+    "name": "プレートアーマー適応",
     "random_value": [
       "F",
       "E",
@@ -2384,7 +2364,7 @@
   "3127": {
     "ID": 3127,
     "default_value": "",
-    "name": "布甲操控",
+    "name": "レッサーアーマー適応",
     "random_value": [
       "F",
       "E",
@@ -2400,7 +2380,7 @@
   "3128": {
     "ID": 3128,
     "default_value": "",
-    "name": "重甲操控",
+    "name": "ヘヴィアーマー適応",
     "random_value": [
       "F",
       "E",
@@ -2416,7 +2396,7 @@
   "3129": {
     "ID": 3129,
     "default_value": "",
-    "name": "长剑操控",
+    "name": "長剣使い",
     "random_value": [
       "F",
       "E",
@@ -2432,7 +2412,7 @@
   "3130": {
     "ID": 3130,
     "default_value": "",
-    "name": "弓操控",
+    "name": "弓使い",
     "random_value": [
       "F",
       "E",
@@ -2448,7 +2428,7 @@
   "3131": {
     "ID": 3131,
     "default_value": "",
-    "name": "弩操控",
+    "name": "ボウガン使い",
     "random_value": [
       "F",
       "E",
@@ -2464,7 +2444,7 @@
   "3132": {
     "ID": 3132,
     "default_value": "",
-    "name": "长枪操控",
+    "name": "長槍使い",
     "random_value": [
       "F",
       "E",
@@ -2480,7 +2460,7 @@
   "3133": {
     "ID": 3133,
     "default_value": "",
-    "name": "魔杖操控",
+    "name": "スタッフ使い",
     "random_value": [
       "F",
       "E",
@@ -2496,7 +2476,7 @@
   "3134": {
     "ID": 3134,
     "default_value": "",
-    "name": "斧操控",
+    "name": "斧使い",
     "random_value": [
       "F",
       "E",
@@ -2512,7 +2492,7 @@
   "3135": {
     "ID": 3135,
     "default_value": "",
-    "name": "双手剑操控",
+    "name": "両手剣使い",
     "random_value": [
       "F",
       "E",
@@ -2528,7 +2508,7 @@
   "3136": {
     "ID": 3136,
     "default_value": "",
-    "name": "匕首操控",
+    "name": "ダガー使い",
     "random_value": [
       "F",
       "E",
@@ -2544,7 +2524,7 @@
   "3137": {
     "ID": 3137,
     "default_value": "",
-    "name": "铁爪操控",
+    "name": "クロー使い",
     "random_value": [
       "F",
       "E",
@@ -2560,7 +2540,7 @@
   "3138": {
     "ID": 3138,
     "default_value": "",
-    "name": "战锤操控",
+    "name": "ハンマー使い",
     "random_value": [
       "F",
       "E",
@@ -2576,7 +2556,7 @@
   "3139": {
     "ID": 3139,
     "default_value": "",
-    "name": "钉锤操控",
+    "name": "モーニングスター使い",
     "random_value": [
       "F",
       "E",
@@ -2592,7 +2572,7 @@
   "3140": {
     "ID": 3140,
     "default_value": "",
-    "name": "镰刀操控",
+    "name": "シザー使い",
     "random_value": [
       "F",
       "E",
@@ -2608,7 +2588,7 @@
   "3141": {
     "ID": 3141,
     "default_value": "",
-    "name": "长棍操控",
+    "name": "長棍使い",
     "random_value": [
       "F",
       "E",
@@ -2624,7 +2604,7 @@
   "3142": {
     "ID": 3142,
     "default_value": "",
-    "name": "火枪操控",
+    "name": "マスケット使い",
     "random_value": [
       "F",
       "E",
@@ -2640,7 +2620,7 @@
   "3143": {
     "ID": 3143,
     "default_value": "",
-    "name": "十字弓操控",
+    "name": "クロスボウ使い",
     "random_value": [
       "F",
       "E",
@@ -2656,7 +2636,7 @@
   "3144": {
     "ID": 3144,
     "default_value": "",
-    "name": "战戟操控",
+    "name": "ハルバート使い",
     "random_value": [
       "F",
       "E",
@@ -2672,7 +2652,7 @@
   "3145": {
     "ID": 3145,
     "default_value": "",
-    "name": "刺剑操控",
+    "name": "レイピア使い",
     "random_value": [
       "F",
       "E",
@@ -2688,7 +2668,7 @@
   "3146": {
     "ID": 3146,
     "default_value": "",
-    "name": "剑鞘操控",
+    "name": "鞘使い",
     "random_value": [
       "F",
       "E",
@@ -2704,7 +2684,7 @@
   "3147": {
     "ID": 3147,
     "default_value": "",
-    "name": "绷带操控",
+    "name": "包帯使い",
     "random_value": [
       "F",
       "E",
@@ -2720,7 +2700,7 @@
   "3148": {
     "ID": 3148,
     "default_value": "",
-    "name": "鱼竿操控",
+    "name": "釣り竿使い",
     "random_value": [
       "F",
       "E",
@@ -2736,7 +2716,7 @@
   "3149": {
     "ID": 3149,
     "default_value": "",
-    "name": "动力锯操控",
+    "name": "チェインソード使い",
     "random_value": [
       "F",
       "E",
@@ -2752,7 +2732,7 @@
   "3150": {
     "ID": 3150,
     "default_value": "",
-    "name": "角盔操控",
+    "name": "ホーンヘルム使い",
     "random_value": [
       "F",
       "E",
@@ -2768,7 +2748,7 @@
   "3151": {
     "ID": 3151,
     "default_value": "",
-    "name": "头发操控",
+    "name": "髪使い",
     "random_value": [
       "F",
       "E",
@@ -2784,7 +2764,7 @@
   "3152": {
     "ID": 3152,
     "default_value": "",
-    "name": "钝器操控",
+    "name": "鈍器使い",
     "random_value": [
       "F",
       "E",
@@ -2800,7 +2780,7 @@
   "3153": {
     "ID": 3153,
     "default_value": "",
-    "name": "弹弓操控",
+    "name": "パチンコ使い",
     "random_value": [
       "F",
       "E",
@@ -2816,7 +2796,7 @@
   "3154": {
     "ID": 3154,
     "default_value": "",
-    "name": "树枝操控",
+    "name": "木の枝使い",
     "random_value": [
       "F",
       "E",
@@ -2832,7 +2812,7 @@
   "3155": {
     "ID": 3155,
     "default_value": "",
-    "name": "海军刀操控",
+    "name": "海軍軍刀使い",
     "random_value": [
       "F",
       "E",
@@ -2848,7 +2828,7 @@
   "3156": {
     "ID": 3156,
     "default_value": "",
-    "name": "投掷",
+    "name": "投擲",
     "random_value": [
       "F",
       "E",
@@ -2864,7 +2844,7 @@
   "3157": {
     "ID": 3157,
     "default_value": "",
-    "name": "奔跑",
+    "name": "走行",
     "random_value": [
       "F",
       "E",
@@ -2880,7 +2860,7 @@
   "3158": {
     "ID": 3158,
     "default_value": "",
-    "name": "战场指挥",
+    "name": "戦場指揮",
     "random_value": [
       "F",
       "E",
@@ -2896,7 +2876,7 @@
   "3159": {
     "ID": 3159,
     "default_value": "",
-    "name": "情报记录",
+    "name": "情報記録",
     "random_value": [
       "F",
       "E",
@@ -2912,7 +2892,7 @@
   "3160": {
     "ID": 3160,
     "default_value": "",
-    "name": "情报分析",
+    "name": "情報分析",
     "random_value": [
       "F",
       "E",
@@ -2928,7 +2908,7 @@
   "3161": {
     "ID": 3161,
     "default_value": "",
-    "name": "毒抗性",
+    "name": "毒耐性",
     "random_value": [
       "F",
       "E",
@@ -2944,7 +2924,7 @@
   "3162": {
     "ID": 3162,
     "default_value": "",
-    "name": "诅咒抗性",
+    "name": "呪い耐性",
     "random_value": [
       "F",
       "E",
@@ -2960,7 +2940,7 @@
   "3163": {
     "ID": 3163,
     "default_value": "",
-    "name": "巨龙化",
+    "name": "ドラゴン変身",
     "random_value": [
       "F",
       "E",
@@ -2976,7 +2956,7 @@
   "3164": {
     "ID": 3164,
     "default_value": "",
-    "name": "起始之加护",
+    "name": "始まりの加護",
     "random_value": [
       "F",
       "E",
@@ -2992,7 +2972,7 @@
   "3165": {
     "ID": 3165,
     "default_value": "",
-    "name": "终焉之加护",
+    "name": "終焉の加護",
     "random_value": [
       "F",
       "E",
@@ -3008,7 +2988,7 @@
   "3166": {
     "ID": 3166,
     "default_value": "",
-    "name": "茶会之加护",
+    "name": "お茶会の加護",
     "random_value": [
       "F",
       "E",
@@ -3024,7 +3004,7 @@
   "3167": {
     "ID": 3167,
     "default_value": "",
-    "name": "点心之加护",
+    "name": "お菓子の加護",
     "random_value": [
       "F",
       "E",
@@ -3040,7 +3020,7 @@
   "3168": {
     "ID": 3168,
     "default_value": "",
-    "name": "钢铁之加护",
+    "name": "鋼鉄の加護",
     "random_value": [
       "F",
       "E",
@@ -3056,7 +3036,7 @@
   "3169": {
     "ID": 3169,
     "default_value": "",
-    "name": "巨龙之加护",
+    "name": "ドラゴンの加護",
     "random_value": [
       "F",
       "E",
@@ -3072,7 +3052,7 @@
   "3170": {
     "ID": 3170,
     "default_value": "",
-    "name": "火焰之加护",
+    "name": "炎の加護",
     "random_value": [
       "F",
       "E",
@@ -3088,7 +3068,7 @@
   "3171": {
     "ID": 3171,
     "default_value": "",
-    "name": "净化之加护",
+    "name": "浄化の加護",
     "random_value": [
       "F",
       "E",
@@ -3104,7 +3084,7 @@
   "3172": {
     "ID": 3172,
     "default_value": "",
-    "name": "光明之加护",
+    "name": "光の加護",
     "random_value": [
       "F",
       "E",
@@ -3120,7 +3100,7 @@
   "3173": {
     "ID": 3173,
     "default_value": "",
-    "name": "正义之加护",
+    "name": "正義の加護",
     "random_value": [
       "F",
       "E",
@@ -3136,7 +3116,7 @@
   "3174": {
     "ID": 3174,
     "default_value": "",
-    "name": "黑暗之加护",
+    "name": "闇の加護",
     "random_value": [
       "F",
       "E",
@@ -3152,7 +3132,7 @@
   "3175": {
     "ID": 3175,
     "default_value": "",
-    "name": "诡计之加护",
+    "name": "陰謀の加護",
     "random_value": [
       "F",
       "E",
@@ -3168,7 +3148,7 @@
   "3176": {
     "ID": 3176,
     "default_value": "",
-    "name": "坚韧之加护",
+    "name": "強靭の加護",
     "random_value": [
       "F",
       "E",
@@ -3184,7 +3164,7 @@
   "3177": {
     "ID": 3177,
     "default_value": "",
-    "name": "团结之加护",
+    "name": "団結の加護",
     "random_value": [
       "F",
       "E",
@@ -3200,7 +3180,7 @@
   "3178": {
     "ID": 3178,
     "default_value": "",
-    "name": "平安之加护",
+    "name": "平安の加護",
     "random_value": [
       "F",
       "E",
@@ -3216,7 +3196,7 @@
   "3179": {
     "ID": 3179,
     "default_value": "",
-    "name": "守护之加护",
+    "name": "守護の加護",
     "random_value": [
       "F",
       "E",
@@ -3232,7 +3212,7 @@
   "3180": {
     "ID": 3180,
     "default_value": "",
-    "name": "复兴之加护",
+    "name": "復興の加護",
     "random_value": [
       "F",
       "E",
@@ -3248,7 +3228,7 @@
   "3181": {
     "ID": 3181,
     "default_value": "",
-    "name": "浴室之加护",
+    "name": "風呂の加護",
     "random_value": [
       "F",
       "E",
@@ -3264,7 +3244,7 @@
   "3182": {
     "ID": 3182,
     "default_value": "",
-    "name": "开拓之加护",
+    "name": "開拓の加護",
     "random_value": [
       "F",
       "E",
@@ -3280,7 +3260,7 @@
   "3183": {
     "ID": 3183,
     "default_value": "",
-    "name": "冒险之加护",
+    "name": "冒険の加護",
     "random_value": [
       "F",
       "E",
@@ -3296,7 +3276,7 @@
   "3184": {
     "ID": 3184,
     "default_value": "",
-    "name": "幸运之加护",
+    "name": "幸運の加護",
     "random_value": [
       "F",
       "E",
@@ -3312,7 +3292,7 @@
   "3185": {
     "ID": 3185,
     "default_value": "",
-    "name": "财富之加护",
+    "name": "富の加護",
     "random_value": [
       "F",
       "E",
@@ -3328,7 +3308,7 @@
   "3186": {
     "ID": 3186,
     "default_value": "",
-    "name": "秩序之加护",
+    "name": "秩序の加護",
     "random_value": [
       "F",
       "E",
@@ -3344,7 +3324,7 @@
   "3187": {
     "ID": 3187,
     "default_value": "",
-    "name": "规则之加护",
+    "name": "規則の加護",
     "random_value": [
       "F",
       "E",
@@ -3360,7 +3340,7 @@
   "3188": {
     "ID": 3188,
     "default_value": "",
-    "name": "智慧之加护",
+    "name": "知恵の加護",
     "random_value": [
       "F",
       "E",
@@ -3376,7 +3356,7 @@
   "3189": {
     "ID": 3189,
     "default_value": "",
-    "name": "战争之加护",
+    "name": "戦争の加護",
     "random_value": [
       "F",
       "E",
@@ -3392,7 +3372,7 @@
   "3190": {
     "ID": 3190,
     "default_value": "",
-    "name": "欢愉之加护",
+    "name": "愉悦の加護",
     "random_value": [
       "F",
       "E",
@@ -3408,7 +3388,7 @@
   "3192": {
     "ID": 3192,
     "default_value": "C",
-    "name": "时之笛",
+    "name": "時のフルート",
     "random_value": [
       "F",
       "E",
@@ -3424,7 +3404,7 @@
   "3193": {
     "ID": 3193,
     "default_value": "SSS",
-    "name": "光明之加护",
+    "name": "光の加護",
     "random_value": [
       "F",
       "E",
@@ -3440,7 +3420,7 @@
   "3194": {
     "ID": 3194,
     "default_value": "",
-    "name": "自然之加护",
+    "name": "自然の加護",
     "random_value": [
       "F",
       "E",
@@ -3456,7 +3436,7 @@
   "3195": {
     "ID": 3195,
     "default_value": "",
-    "name": "生命之加护",
+    "name": "生命の加護",
     "random_value": [
       "F",
       "E",
@@ -3472,7 +3452,7 @@
   "3196": {
     "ID": 3196,
     "default_value": "",
-    "name": "雷之加护",
+    "name": "雷の加護",
     "random_value": [
       "F",
       "E",
@@ -3488,7 +3468,7 @@
   "3197": {
     "ID": 3197,
     "default_value": "",
-    "name": "电之加护",
+    "name": "電の加護",
     "random_value": [
       "F",
       "E",
@@ -3504,7 +3484,7 @@
   "3198": {
     "ID": 3198,
     "default_value": "",
-    "name": "大冒险之加护",
+    "name": "大冒険の加護",
     "random_value": [
       "F",
       "E",
@@ -3520,7 +3500,7 @@
   "3199": {
     "ID": 3199,
     "default_value": "",
-    "name": "魔法伎俩",
+    "name": "マジックトリック",
     "random_value": [
       "F",
       "E",
@@ -3536,7 +3516,7 @@
   "3200": {
     "ID": 3200,
     "default_value": "",
-    "name": "安神术",
+    "name": "安神の術",
     "random_value": [
       "F",
       "E",
@@ -3552,7 +3532,7 @@
   "3201": {
     "ID": 3201,
     "default_value": "",
-    "name": "舰炮齐射",
+    "name": "艦砲斉射",
     "random_value": [
       "F",
       "E",
@@ -3568,7 +3548,7 @@
   "3202": {
     "ID": 3202,
     "default_value": "",
-    "name": "鱼雷齐射",
+    "name": "魚雷斉射",
     "random_value": [
       "F",
       "E",
@@ -3584,7 +3564,7 @@
   "3203": {
     "ID": 3203,
     "default_value": "",
-    "name": "饱和式轰炸",
+    "name": "飽和爆撃",
     "random_value": [
       "F",
       "E",
@@ -3600,7 +3580,7 @@
   "3204": {
     "ID": 3204,
     "default_value": "",
-    "name": "心灵长枪",
+    "name": "マインドスピア",
     "random_value": [
       "F",
       "E",
@@ -3616,7 +3596,7 @@
   "3205": {
     "ID": 3205,
     "default_value": "",
-    "name": "暗影风暴",
+    "name": "シャドウストーム",
     "random_value": [
       "F",
       "E",
@@ -3632,7 +3612,7 @@
   "3206": {
     "ID": 3206,
     "default_value": "",
-    "name": "光亮术",
+    "name": "永続光",
     "random_value": [
       "F",
       "E",
@@ -3648,7 +3628,7 @@
   "3207": {
     "ID": 3207,
     "default_value": "",
-    "name": "次元门",
+    "name": "次元門",
     "random_value": [
       "F",
       "E",
@@ -3664,7 +3644,7 @@
   "3208": {
     "ID": 3208,
     "default_value": "",
-    "name": "天界咒唤术",
+    "name": "サモンヘヴンリー",
     "random_value": [
       "F",
       "E",
@@ -3680,7 +3660,7 @@
   "3209": {
     "ID": 3209,
     "default_value": "",
-    "name": "治疗术",
+    "name": "ヒール",
     "random_value": [
       "F",
       "E",
@@ -3696,7 +3676,7 @@
   "3210": {
     "ID": 3210,
     "default_value": "",
-    "name": "心灵屏障",
+    "name": "マインドバリア",
     "random_value": [
       "F",
       "E",
@@ -3712,7 +3692,7 @@
   "3211": {
     "ID": 3211,
     "default_value": "",
-    "name": "假象术",
+    "name": "イリュージョン",
     "random_value": [
       "F",
       "E",
@@ -3728,7 +3708,7 @@
   "3212": {
     "ID": 3212,
     "default_value": "",
-    "name": "海市蜃楼",
+    "name": "蜃気楼の術",
     "random_value": [
       "F",
       "E",
@@ -3744,7 +3724,7 @@
   "3213": {
     "ID": 3213,
     "default_value": "",
-    "name": "禁锢术",
+    "name": "金縛りの術",
     "random_value": [
       "F",
       "E",
@@ -3760,7 +3740,7 @@
   "3214": {
     "ID": 3214,
     "default_value": "",
-    "name": "异界之门",
+    "name": "異界門",
     "random_value": [
       "F",
       "E",
@@ -3776,7 +3756,7 @@
   "3215": {
     "ID": 3215,
     "default_value": "",
-    "name": "血祭黑牢",
+    "name": "サクリファイスジェイル",
     "random_value": [
       "F",
       "E",
@@ -3792,7 +3772,7 @@
   "3216": {
     "ID": 3216,
     "default_value": "",
-    "name": "弱智术",
+    "name": "フィーブルマインド",
     "random_value": [
       "F",
       "E",
@@ -3808,7 +3788,7 @@
   "3217": {
     "ID": 3217,
     "default_value": "",
-    "name": "凋死术",
+    "name": "ブライト",
     "random_value": [
       "F",
       "E",
@@ -3824,7 +3804,7 @@
   "3218": {
     "ID": 3218,
     "default_value": "",
-    "name": "预知术",
+    "name": "予見の術",
     "random_value": [
       "F",
       "E",
@@ -3840,7 +3820,7 @@
   "3219": {
     "ID": 3219,
     "default_value": "",
-    "name": "群体医疗术",
+    "name": "マスヒール",
     "random_value": [
       "F",
       "E",
@@ -3856,7 +3836,7 @@
   "3220": {
     "ID": 3220,
     "default_value": "",
-    "name": "魔姬之吻",
+    "name": "魔姫の口づけ",
     "random_value": [
       "F",
       "E",
@@ -3872,7 +3852,7 @@
   "3221": {
     "ID": 3221,
     "default_value": "",
-    "name": "冬将军之怒",
+    "name": "冬将軍の怒り",
     "random_value": [
       "F",
       "E",
@@ -3888,7 +3868,7 @@
   "3222": {
     "ID": 3222,
     "default_value": "",
-    "name": "古魔偶召唤",
+    "name": "古代ゴーレム召喚",
     "random_value": [
       "F",
       "E",
@@ -3904,7 +3884,7 @@
   "3223": {
     "ID": 3223,
     "default_value": "",
-    "name": "三贤者之光",
+    "name": "三賢者の光",
     "random_value": [
       "F",
       "E",
@@ -3920,7 +3900,7 @@
   "3224": {
     "ID": 3224,
     "default_value": "",
-    "name": "上古之庇",
+    "name": "古代の加護",
     "random_value": [
       "F",
       "E",
@@ -3936,7 +3916,7 @@
   "3225": {
     "ID": 3225,
     "default_value": "",
-    "name": "寻路术",
+    "name": "パスファインディング",
     "random_value": [
       "F",
       "E",
@@ -3952,7 +3932,7 @@
   "3226": {
     "ID": 3226,
     "default_value": "",
-    "name": "制图术",
+    "name": "地図制作",
     "random_value": [
       "F",
       "E",
@@ -3968,7 +3948,7 @@
   "3227": {
     "ID": 3227,
     "default_value": "",
-    "name": "啾莱姆召唤",
+    "name": "饅頭スライム召喚",
     "random_value": [
       "F",
       "E",
@@ -3984,7 +3964,7 @@
   "3228": {
     "ID": 3228,
     "default_value": "",
-    "name": "纯白之庇",
+    "name": "純白の加護",
     "random_value": [
       "F",
       "E",
