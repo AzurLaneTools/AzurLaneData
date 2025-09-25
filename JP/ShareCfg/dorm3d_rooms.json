@@ -71,7 +71,7 @@
       7
     ],
     "resource_name": "Tianlangxing_DB",
-    "room": "シリアス",
+    "room": "天狼星",
     "room_bgm": "story-room-sirius",
     "room_des": "",
     "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
@@ -220,11 +220,10 @@
       41,
       42,
       43,
-      51,
-      52
+      51
     ],
     "resource_name": "Ankeleiqi_DB",
-    "room": "アンカレッジ",
+    "room": "安克雷奇",
     "room_bgm": "story-room-anchorage",
     "room_des": "",
     "scene_info": "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
@@ -387,9 +386,9 @@
     "is_common": 0,
     "recall_list": [],
     "resource_name": "Beach",
-    "room": "ビーチ",
+    "room": "沙滩",
     "room_bgm": "story-room-sirius",
-    "room_des": "海辺、水着、バレーボール…潮風の中で楽しもう！",
+    "room_des": "沙滩、泳装、排球……尽情在海风中玩耍吧~",
     "scene_info": "map_beach_01|Beach",
     "tag": "beach",
     "type": 1,
@@ -429,7 +428,7 @@
     "is_common": 1,
     "recall_list": "",
     "resource_name": "Bathroom",
-    "room": "バス",
+    "room": "浴室",
     "room_bgm": "story-room-sirius",
     "room_des": "",
     "scene_info": "",
@@ -504,10 +503,84 @@
       104
     ],
     "resource_name": "Xinzexi_DB",
-    "room": "ニュージャージー",
+    "room": "新泽西",
     "room_bgm": "Story-room-newjersey",
     "room_des": "",
     "scene_info": "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
+    "tag": "",
+    "type": 2,
+    "unlock_item": []
+  },
+  "12": {
+    "ar_anim": [
+      [
+        30707,
+        [
+          12001,
+          12002,
+          12003,
+          12004,
+          12005,
+          12006,
+          12007,
+          12008,
+          12009,
+          12010,
+          12012,
+          12012,
+          12013,
+          12014,
+          12015,
+          12016,
+          12017,
+          12018,
+          12019
+        ]
+      ]
+    ],
+    "assets_prefix": "Dafeng",
+    "character": [
+      30707
+    ],
+    "character_pay": [],
+    "character_range": [
+      1
+    ],
+    "character_welcome": [
+      [
+        30707,
+        0
+      ]
+    ],
+    "default_zone": [
+      [
+        30707,
+        "Chair"
+      ]
+    ],
+    "furniture_zones": [
+      12001,
+      12002,
+      12003
+    ],
+    "id": 12,
+    "in_map": "floor_2",
+    "invite_banner": "",
+    "invite_cost": "",
+    "invite_icon": "",
+    "invite_mark": "",
+    "is_common": 0,
+    "recall_list": [
+      121,
+      122,
+      123,
+      124
+    ],
+    "resource_name": "Dafeng_DB",
+    "room": "大凤",
+    "room_bgm": "story-room-taiho",
+    "room_des": "",
+    "scene_info": "map_dafeng_01|Dafeng_DB/Dafenghostel",
     "tag": "",
     "type": 2,
     "unlock_item": []
@@ -523,20 +596,35 @@
           16004,
           16005
         ]
+      ],
+      [
+        30707,
+        [
+          16006,
+          16007,
+          16008,
+          16009,
+          16010
+        ]
       ]
     ],
     "assets_prefix": "Publiccafe",
     "character": [],
     "character_pay": [
-      10517
+      10517,
+      30707
     ],
     "character_range": [
       0,
-      1
+      3
     ],
     "character_welcome": [
       [
         10517,
+        0
+      ],
+      [
+        30707,
         0
       ]
     ],
@@ -544,6 +632,10 @@
       [
         10517,
         "xinzexi"
+      ],
+      [
+        30707,
+        "dafeng"
       ]
     ],
     "furniture_zones": [],
@@ -555,17 +647,31 @@
         [
           "banner_cafe1"
         ]
+      ],
+      [
+        30707,
+        [
+          "banner_cafe2"
+        ]
       ]
     ],
     "invite_cost": [
       [
         10517,
         270113
+      ],
+      [
+        30707,
+        270114
       ]
     ],
     "invite_icon": [
       [
         10517,
+        "dorm3dicon/3Ddrom_invitation"
+      ],
+      [
+        30707,
         "dorm3dicon/3Ddrom_invitation"
       ]
     ],
@@ -577,14 +683,22 @@
           5,
           6
         ]
+      ],
+      [
+        30707,
+        [
+          1,
+          5,
+          6
+        ]
       ]
     ],
     "is_common": 0,
     "recall_list": [],
     "resource_name": "Publiccafe",
-    "room": "カフェ",
+    "room": "咖啡馆",
     "room_bgm": "Story-room-bar",
-    "room_des": "優雅にして精緻、贅沢で感性豊か。金色の光の中で、夢のような出会いの一時を。",
+    "room_des": "优雅与精致，奢华与愉悦。在金色的流光中，经历这一场梦幻奇遇。",
     "scene_info": "map_publiccafe_01|Publiccafe",
     "tag": "cafe",
     "type": 1,
@@ -603,6 +717,7 @@
     4,
     5,
     11,
+    12,
     16
   ],
   "get_id_list_by_in_map": {
@@ -615,6 +730,7 @@
     ],
     "floor_2": [
       11,
+      12,
       16
     ]
   }

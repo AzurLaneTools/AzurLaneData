@@ -2,7 +2,7 @@
   "1000": {
     "id": 1000,
     "is_global": 1,
-    "name": "一覧",
+    "name": "全局区域",
     "room_id": 1,
     "special_action": "",
     "touch_id": "",
@@ -12,7 +12,7 @@
   "1001": {
     "id": 1001,
     "is_global": 0,
-    "name": "寝室",
+    "name": "卧室",
     "room_id": 1,
     "special_action": [
       [
@@ -40,7 +40,7 @@
   "1002": {
     "id": 1002,
     "is_global": 0,
-    "name": "ダイニング",
+    "name": "餐厅",
     "room_id": 1,
     "special_action": [
       [
@@ -63,7 +63,7 @@
   "1003": {
     "id": 1003,
     "is_global": 0,
-    "name": "リビング",
+    "name": "客厅",
     "room_id": 1,
     "special_action": [
       [
@@ -86,7 +86,7 @@
   "2001": {
     "id": 2001,
     "is_global": 0,
-    "name": "寝室",
+    "name": "卧室",
     "room_id": 2,
     "special_action": "",
     "touch_id": [
@@ -101,7 +101,7 @@
   "2002": {
     "id": 2002,
     "is_global": 0,
-    "name": "広縁",
+    "name": "餐厅",
     "room_id": 2,
     "special_action": "",
     "touch_id": [
@@ -116,7 +116,7 @@
   "2003": {
     "id": 2003,
     "is_global": 0,
-    "name": "居間",
+    "name": "客厅",
     "room_id": 2,
     "special_action": "",
     "touch_id": [
@@ -131,7 +131,7 @@
   "3001": {
     "id": 3001,
     "is_global": 0,
-    "name": "寝室",
+    "name": "卧室",
     "room_id": 3,
     "special_action": "",
     "touch_id": [
@@ -146,7 +146,7 @@
   "3002": {
     "id": 3002,
     "is_global": 0,
-    "name": "娯楽エリア",
+    "name": "娱乐区",
     "room_id": 3,
     "special_action": "",
     "touch_id": [
@@ -161,7 +161,7 @@
   "3003": {
     "id": 3003,
     "is_global": 0,
-    "name": "リビング",
+    "name": "客厅",
     "room_id": 3,
     "special_action": "",
     "touch_id": [
@@ -176,7 +176,7 @@
   "4001": {
     "id": 4001,
     "is_global": 0,
-    "name": "玄関",
+    "name": "入口",
     "room_id": 4,
     "special_action": [
       [
@@ -199,7 +199,7 @@
   "4002": {
     "id": 4002,
     "is_global": 0,
-    "name": "ビーチチェア",
+    "name": "沙滩椅",
     "room_id": 4,
     "special_action": [
       [
@@ -222,7 +222,7 @@
   "4003": {
     "id": 4003,
     "is_global": 0,
-    "name": "ビーチパラソル",
+    "name": "遮阳伞",
     "room_id": 4,
     "special_action": [],
     "touch_id": [
@@ -237,7 +237,7 @@
   "4004": {
     "id": 4004,
     "is_global": 0,
-    "name": "ビーチ",
+    "name": "海滩",
     "room_id": 4,
     "special_action": [],
     "touch_id": [
@@ -252,7 +252,7 @@
   "4005": {
     "id": 4005,
     "is_global": 0,
-    "name": "滑り台",
+    "name": "滑梯",
     "room_id": 4,
     "special_action": [],
     "touch_id": [
@@ -267,7 +267,7 @@
   "11001": {
     "id": 11001,
     "is_global": 0,
-    "name": "寝室",
+    "name": "卧室",
     "room_id": 11,
     "special_action": "",
     "touch_id": [
@@ -282,7 +282,7 @@
   "11002": {
     "id": 11002,
     "is_global": 0,
-    "name": "ダイニング",
+    "name": "餐厅",
     "room_id": 11,
     "special_action": "",
     "touch_id": [
@@ -297,7 +297,7 @@
   "11003": {
     "id": 11003,
     "is_global": 0,
-    "name": "リビング",
+    "name": "客厅",
     "room_id": 11,
     "special_action": "",
     "touch_id": [
@@ -309,10 +309,55 @@
     "type_prioritys": "",
     "watch_camera": "Chair"
   },
+  "12001": {
+    "id": 12001,
+    "is_global": 0,
+    "name": "卧室",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070710
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Bed"
+  },
+  "12002": {
+    "id": 12002,
+    "is_global": 0,
+    "name": "餐厅",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070720
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "12003": {
+    "id": 12003,
+    "is_global": 0,
+    "name": "客厅",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070730
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
   "16001": {
     "id": 16001,
     "is_global": 0,
-    "name": "ステージ",
+    "name": "舞池",
     "room_id": 16,
     "special_action": "",
     "touch_id": [
@@ -323,6 +368,21 @@
     ],
     "type_prioritys": "",
     "watch_camera": "xinzexi"
+  },
+  "16002": {
+    "id": 16002,
+    "is_global": 0,
+    "name": "咖啡厅沙发",
+    "room_id": 16,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070790
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "dafeng"
   },
   "all": [
     1000,
@@ -343,7 +403,11 @@
     11001,
     11002,
     11003,
-    16001
+    12001,
+    12002,
+    12003,
+    16001,
+    16002
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -374,8 +438,14 @@
       11002,
       11003
     ],
+    "12": [
+      12001,
+      12002,
+      12003
+    ],
     "16": [
-      16001
+      16001,
+      16002
     ]
   }
 }

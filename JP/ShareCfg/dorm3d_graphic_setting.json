@@ -5,7 +5,7 @@
     "id": 1,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "GPGPU許可"
+    "settingName": "允许GPGPU"
   },
   "2": {
     "dispaySelectName": "",
@@ -13,18 +13,18 @@
     "id": 2,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "高解像度レンダリング"
+    "settingName": "高精度渲染"
   },
   "3": {
     "dispaySelectName": [
-      "自動",
-      "強制適用"
+      "自动",
+      "强制启用"
     ],
     "displayType": 2,
     "id": 3,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "描画深度"
+    "settingName": "绘制深度"
   },
   "4": {
     "dispaySelectName": [
@@ -36,7 +36,7 @@
     "id": 4,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "シェーダー精度"
+    "settingName": "着色器精度"
   },
   "5": {
     "dispaySelectName": [
@@ -49,7 +49,7 @@
     "id": 5,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "ハードウェアアンチエイリアス"
+    "settingName": "硬件抗锯齿"
   },
   "6": {
     "dispaySelectName": [
@@ -62,7 +62,7 @@
     "id": 6,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "最大解像度"
+    "settingName": "最大分辨率"
   },
   "7": {
     "dispaySelectName": [
@@ -81,7 +81,7 @@
     "id": 7,
     "isShow": 0,
     "parentSetting": 0,
-    "settingName": "フィールド解像度"
+    "settingName": "场景分辨率"
   },
   "8": {
     "dispaySelectName": [
@@ -93,7 +93,7 @@
     "id": 8,
     "isShow": 0,
     "parentSetting": 0,
-    "settingName": "フィールド最低解像度"
+    "settingName": "场景最低分辨率"
   },
   "9": {
     "dispaySelectName": [
@@ -106,19 +106,19 @@
     "id": 9,
     "isShow": 0,
     "parentSetting": 0,
-    "settingName": "テクスチャ解像度"
+    "settingName": "贴图分辨率"
   },
   "10": {
     "dispaySelectName": [
-      "なし",
-      "ハードシャドウ",
-      "ソフトシャドウ"
+      "禁用",
+      "静态硬阴影",
+      "静态软阴影"
     ],
     "displayType": 2,
     "id": 10,
     "isShow": 0,
     "parentSetting": 0,
-    "settingName": "シャドウ描画"
+    "settingName": "静态阴影"
   },
   "11": {
     "dispaySelectName": "",
@@ -126,7 +126,7 @@
     "id": 11,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "リアルタイムシャドウ"
+    "settingName": "实时阴影"
   },
   "12": {
     "dispaySelectName": "",
@@ -134,7 +134,7 @@
     "id": 12,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "リフレクション"
+    "settingName": "反射"
   },
   "13": {
     "dispaySelectName": "",
@@ -142,7 +142,7 @@
     "id": 13,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "マルチライト"
+    "settingName": "多光源"
   },
   "14": {
     "dispaySelectName": "",
@@ -150,19 +150,19 @@
     "id": 14,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "キャラアウトライン"
+    "settingName": "角色描边"
   },
   "15": {
     "dispaySelectName": [
-      "OFF",
-      "ON",
-      "高品質"
+      "关",
+      "开",
+      "高品质"
     ],
     "displayType": 2,
     "id": 15,
     "isShow": 1,
     "parentSetting": 0,
-    "settingName": "ポストプロセス"
+    "settingName": "后处理"
   },
   "16": {
     "dispaySelectName": "",
@@ -170,7 +170,7 @@
     "id": 16,
     "isShow": 1,
     "parentSetting": 15,
-    "settingName": "アンチエイリアス"
+    "settingName": "抗锯齿"
   },
   "17": {
     "dispaySelectName": "",
@@ -186,7 +186,7 @@
     "id": 18,
     "isShow": 1,
     "parentSetting": 15,
-    "settingName": "DOF"
+    "settingName": "景深"
   },
   "19": {
     "dispaySelectName": "",
@@ -194,7 +194,7 @@
     "id": 19,
     "isShow": 1,
     "parentSetting": 15,
-    "settingName": "ディストーション"
+    "settingName": "扭曲"
   },
   "all": [
     1,
