@@ -9,6 +9,7 @@
         "all/hoodie_geo"
       ]
     ],
+    "hx_model": "",
     "id": 105171,
     "model_id": "xinzexi_noshoes",
     "name": "{namecode:199}常服",
@@ -25,8 +26,9 @@
   },
   "105173": {
     "animator": "",
-    "head_Icon": "dorm3Dchar/tianlangxing",
+    "head_Icon": "dorm3Dchar/xinzexi",
     "hidden_part": [],
+    "hx_model": "",
     "id": 105173,
     "model_id": "xinzexi_bunny",
     "name": "{namecode:199}兔女郎",
@@ -52,6 +54,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/ankeleiqi",
     "hidden_part": [],
+    "hx_model": "",
     "id": 199031,
     "model_id": "ankeleiqi_noshoes",
     "name": "安克雷奇常服",
@@ -70,6 +73,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/ankeleiqi",
     "hidden_part": [],
+    "hx_model": "",
     "id": 199032,
     "model_id": "ankeleiqi_swim",
     "name": "安克雷奇泳装",
@@ -95,6 +99,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/tianlangxing",
     "hidden_part": [],
+    "hx_model": "",
     "id": 202201,
     "model_id": "tianlangxing_noshoes",
     "name": "天狼星",
@@ -113,6 +118,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/tianlangxing",
     "hidden_part": [],
+    "hx_model": "",
     "id": 202202,
     "model_id": "tianlangxing_swim",
     "name": "天狼星泳裝",
@@ -138,6 +144,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/nengdai",
     "hidden_part": [],
+    "hx_model": "",
     "id": 302211,
     "model_id": "nengdai_noshoes",
     "name": "能代常服",
@@ -156,6 +163,7 @@
     "animator": "",
     "head_Icon": "dorm3Dchar/nengdai",
     "hidden_part": [],
+    "hx_model": "",
     "id": 302212,
     "model_id": "nengdai_swim",
     "name": "能代泳裝",
@@ -176,5 +184,56 @@
     ],
     "unlock_text": "在沙灘中邀請能代解鎖",
     "wear_anim": "shuohua_sikao"
+  },
+  "307071": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/dafeng",
+    "hidden_part": [
+      [
+        1,
+        "oversleeve",
+        "all/cloth_2_geo"
+      ]
+    ],
+    "hx_model": "",
+    "id": 307071,
+    "model_id": "dafeng_noshoes",
+    "name": "{namecode:97}常服",
+    "picture": "regular",
+    "remarks": "",
+    "ship_group": 30707,
+    "shop_id": 0,
+    "switch_anim": "",
+    "tags": [],
+    "type": 1,
+    "unlock": "",
+    "unlock_text": "",
+    "wear_anim": ""
+  },
+  "307073": {
+    "animator": "",
+    "head_Icon": "dorm3Dchar/dafeng",
+    "hidden_part": [],
+    "hx_model": "",
+    "id": 307073,
+    "model_id": "dafeng_bunny",
+    "name": "{namecode:97}兔女郎",
+    "picture": "regular",
+    "remarks": "",
+    "ship_group": 30707,
+    "shop_id": 270114,
+    "switch_anim": "",
+    "tags": [
+      "cafe",
+      "touch"
+    ],
+    "type": 2,
+    "unlock": [
+      5,
+      16,
+      30707
+    ],
+    "unlock_text": "在咖啡馆中购买角色皮肤",
+    "wear_anim": ""
   }
 }

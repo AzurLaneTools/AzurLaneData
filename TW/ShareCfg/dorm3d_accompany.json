@@ -175,6 +175,50 @@
       10517
     ]
   },
+  "121": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 121,
+    "image": "dafeng_accompany_room",
+    "jump_trigger": [],
+    "name": "日常相伴",
+    "performance_time": 20,
+    "resource_room": 12,
+    "sceneInfo": "map_dafeng_01|Dafeng_DB/Dafenghostel",
+    "ship_id": 30707,
+    "timeline": "Xiangban_personal",
+    "unlock": []
+  },
+  "122": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 122,
+    "image": "cafe_accompany",
+    "jump_trigger": [],
+    "name": "休闲相伴",
+    "performance_time": 20,
+    "resource_room": 16,
+    "sceneInfo": "map_publiccafe_01|Publiccafe",
+    "ship_id": 30707,
+    "timeline": "Xiangban_cafe",
+    "unlock": [
+      5,
+      16,
+      30707
+    ]
+  },
   "all": [
     1,
     2,
@@ -183,7 +227,9 @@
     31,
     32,
     111,
-    112
+    112,
+    121,
+    122
   ],
   "get_id_list_by_ship_id": {
     "10517": [
@@ -201,6 +247,10 @@
     "30221": [
       21,
       22
+    ],
+    "30707": [
+      121,
+      122
     ]
   }
 }

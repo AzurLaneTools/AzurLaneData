@@ -37,11 +37,8 @@
   "2": {
     "id": 2,
     "param": [
-      "scene get boat",
-      {
-        "page": 1,
-        "projectName": "new"
-      }
+      "scene skinshop",
+      []
     ],
     "pic": "temp2",
     "time": [
@@ -61,10 +58,10 @@
         [
           2025,
           10,
-          9
+          8
         ],
         [
-          14,
+          23,
           59,
           59
         ]
@@ -149,18 +146,15 @@
   "5": {
     "id": 5,
     "param": [
-      "scene core activity",
-      {
-        "coreName": "EighthAnniversaryJpCoreActivityUI"
-      }
+      "crusing"
     ],
     "pic": "temp5",
     "time": [
       [
         [
           2025,
-          9,
-          17
+          10,
+          1
         ],
         [
           0,
@@ -171,11 +165,11 @@
       [
         [
           2025,
-          10,
-          9
+          11,
+          30
         ],
         [
-          14,
+          23,
           59,
           59
         ]
@@ -223,9 +217,9 @@
   "7": {
     "id": 7,
     "param": [
-      "scene shop",
+      "scene charge",
       {
-        "warp": "shopstreet"
+        "wrap": 2
       }
     ],
     "pic": "temp7",
@@ -234,7 +228,7 @@
         [
           2025,
           9,
-          17
+          25
         ],
         [
           0,
@@ -294,10 +288,7 @@
   "9": {
     "id": 9,
     "param": [
-      "scene get boat",
-      {
-        "goToPray": true
-      }
+      "scene dockyard"
     ],
     "pic": "temp9",
     "time": [
@@ -399,7 +390,32 @@
     "id": 102,
     "param": "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
     "pic": "guihuagao",
-    "time": "stop",
+    "time": [
+      [
+        [
+          2025,
+          9,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          10,
+          9
+        ],
+        [
+          14,
+          59,
+          59
+        ]
+      ]
+    ],
     "type": 10
   },
   "103": {
