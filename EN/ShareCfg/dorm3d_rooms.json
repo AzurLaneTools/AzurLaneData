@@ -220,8 +220,7 @@
       41,
       42,
       43,
-      51,
-      52
+      51
     ],
     "resource_name": "Ankeleiqi_DB",
     "room": "Anchorage",
@@ -512,6 +511,80 @@
     "type": 2,
     "unlock_item": []
   },
+  "12": {
+    "ar_anim": [
+      [
+        30707,
+        [
+          12001,
+          12002,
+          12003,
+          12004,
+          12005,
+          12006,
+          12007,
+          12008,
+          12009,
+          12010,
+          12012,
+          12012,
+          12013,
+          12014,
+          12015,
+          12016,
+          12017,
+          12018,
+          12019
+        ]
+      ]
+    ],
+    "assets_prefix": "Dafeng",
+    "character": [
+      30707
+    ],
+    "character_pay": [],
+    "character_range": [
+      1
+    ],
+    "character_welcome": [
+      [
+        30707,
+        0
+      ]
+    ],
+    "default_zone": [
+      [
+        30707,
+        "Chair"
+      ]
+    ],
+    "furniture_zones": [
+      12001,
+      12002,
+      12003
+    ],
+    "id": 12,
+    "in_map": "floor_2",
+    "invite_banner": "",
+    "invite_cost": "",
+    "invite_icon": "",
+    "invite_mark": "",
+    "is_common": 0,
+    "recall_list": [
+      121,
+      122,
+      123,
+      124
+    ],
+    "resource_name": "Dafeng_DB",
+    "room": "Taihou",
+    "room_bgm": "story-room-taiho",
+    "room_des": "",
+    "scene_info": "map_dafeng_01|Dafeng_DB/Dafenghostel",
+    "tag": "",
+    "type": 2,
+    "unlock_item": []
+  },
   "16": {
     "ar_anim": [
       [
@@ -523,20 +596,35 @@
           16004,
           16005
         ]
+      ],
+      [
+        30707,
+        [
+          16006,
+          16007,
+          16008,
+          16009,
+          16010
+        ]
       ]
     ],
     "assets_prefix": "Publiccafe",
     "character": [],
     "character_pay": [
-      10517
+      10517,
+      30707
     ],
     "character_range": [
       0,
-      1
+      3
     ],
     "character_welcome": [
       [
         10517,
+        0
+      ],
+      [
+        30707,
         0
       ]
     ],
@@ -544,6 +632,10 @@
       [
         10517,
         "xinzexi"
+      ],
+      [
+        30707,
+        "dafeng"
       ]
     ],
     "furniture_zones": [],
@@ -555,23 +647,45 @@
         [
           "banner_cafe1"
         ]
+      ],
+      [
+        30707,
+        [
+          "banner_cafe2"
+        ]
       ]
     ],
     "invite_cost": [
       [
         10517,
         270113
+      ],
+      [
+        30707,
+        270114
       ]
     ],
     "invite_icon": [
       [
         10517,
         "dorm3dicon/3Ddrom_invitation"
+      ],
+      [
+        30707,
+        "dorm3dicon/3Ddrom_invitation"
       ]
     ],
     "invite_mark": [
       [
         10517,
+        [
+          1,
+          5,
+          6
+        ]
+      ],
+      [
+        30707,
         [
           1,
           5,
@@ -603,6 +717,7 @@
     4,
     5,
     11,
+    12,
     16
   ],
   "get_id_list_by_in_map": {
@@ -615,6 +730,7 @@
     ],
     "floor_2": [
       11,
+      12,
       16
     ]
   }

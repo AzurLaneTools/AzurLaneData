@@ -309,6 +309,51 @@
     "type_prioritys": "",
     "watch_camera": "Chair"
   },
+  "12001": {
+    "id": 12001,
+    "is_global": 0,
+    "name": "Bedroom",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070710
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Bed"
+  },
+  "12002": {
+    "id": 12002,
+    "is_global": 0,
+    "name": "Dining Area",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070720
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Table"
+  },
+  "12003": {
+    "id": 12003,
+    "is_global": 0,
+    "name": "Living Area",
+    "room_id": 12,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070730
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "Chair"
+  },
   "16001": {
     "id": 16001,
     "is_global": 0,
@@ -323,6 +368,21 @@
     ],
     "type_prioritys": "",
     "watch_camera": "xinzexi"
+  },
+  "16002": {
+    "id": 16002,
+    "is_global": 0,
+    "name": "吧台",
+    "room_id": 16,
+    "special_action": "",
+    "touch_id": [
+      [
+        30707,
+        3070790
+      ]
+    ],
+    "type_prioritys": "",
+    "watch_camera": "dafeng"
   },
   "all": [
     1000,
@@ -343,7 +403,11 @@
     11001,
     11002,
     11003,
-    16001
+    12001,
+    12002,
+    12003,
+    16001,
+    16002
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -374,8 +438,14 @@
       11002,
       11003
     ],
+    "12": [
+      12001,
+      12002,
+      12003
+    ],
     "16": [
-      16001
+      16001,
+      16002
     ]
   }
 }

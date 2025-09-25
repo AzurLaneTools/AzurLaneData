@@ -170960,6 +170960,282 @@
       1
     ]
   },
+  "801910": {
+    "desc": "During battle, if your Airspace Control state is not Air Denial or Air Incapability: increases this ship's FP and TRP by $1 and increases your frontmost Vanguard ship's FP by $2.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 801910,
+    "max_level": 10,
+    "name": "Strategic Assistance",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801920": {
+    "desc": "If there is a CV or CVL in your fleet: decreases your Main Fleet's DMG taken by $1 until the battle ends. When this ship fires her torpedoes: $2 chance to fire another wave of torpedoes.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%",
+          "+0.5%"
+        ],
+        [
+          "8.5%",
+          "+0.5%"
+        ],
+        [
+          "9.0%",
+          "+1%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "50.0%",
+          "+5.5%"
+        ],
+        [
+          "55.5%",
+          "+5.5%"
+        ],
+        [
+          "61%",
+          "+5.5%"
+        ],
+        [
+          "66.5%",
+          "+5.5%"
+        ],
+        [
+          "72.0%",
+          "+5.5%"
+        ],
+        [
+          "77.5%",
+          "+5.5%"
+        ],
+        [
+          "83.0%",
+          "+5.5%"
+        ],
+        [
+          "88.5%",
+          "+5.5%"
+        ],
+        [
+          "94.0%",
+          "+6.0%"
+        ],
+        [
+          "100.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "10.0%"
+      ],
+      [
+        "50.0%",
+        "100.0%"
+      ]
+    ],
+    "id": 801920,
+    "max_level": 10,
+    "name": "Offensive Stance",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801931": {
+    "desc": "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801931,
+    "max_level": 1,
+    "name": "Ashen Might - Dewey I",
+    "system_transform": {
+      "51": 801935
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801932": {
+    "desc": "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801932,
+    "max_level": 1,
+    "name": "Ashen Might - Dewey II",
+    "system_transform": {
+      "51": 801937
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801935": {
+    "desc": "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801935,
+    "max_level": 1,
+    "name": "Ashen Might - Dewey I",
+    "system_transform": {
+      "51": 801935
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801937": {
+    "desc": "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 801937,
+    "max_level": 1,
+    "name": "Ashen Might - Dewey II",
+    "system_transform": {
+      "51": 801937
+    },
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
   "901010": {
     "desc": "The frontmost ship in your Vanguard performs a special slashing attack. The pattern, range, and DMG dealt are based on the number of ships in your Vanguard with slashing-type gear equipped, their hull types, and the effects of the gear.",
     "desc_add": [],
