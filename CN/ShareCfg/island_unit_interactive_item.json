@@ -1,0 +1,40 @@
+{
+  "100203": {
+    "id": 100203,
+    "model": "island/item/collider/1002/prefab/chair_collider",
+    "name": "互动椅子",
+    "navAgentParam": "",
+    "param": [
+      []
+    ],
+    "slot_cnt": 2,
+    "timeline": [
+      4
+    ]
+  },
+  "100204": {
+    "id": 100204,
+    "model": "island/item/collider/1002/prefab/chair_collider",
+    "name": "门",
+    "navAgentParam": "",
+    "param": [
+      [
+        "open",
+        true
+      ],
+      [
+        "open",
+        false
+      ]
+    ],
+    "slot_cnt": 1,
+    "timeline": [
+      1111,
+      1112
+    ]
+  },
+  "all": [
+    100203,
+    100204
+  ]
+}

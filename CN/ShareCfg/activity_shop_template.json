@@ -40507,6 +40507,77 @@
     "resource_num": 30,
     "resource_type": 21000
   },
+  "12036": {
+    "activity": 7104,
+    "commodity_id": 9702031,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 4,
+    "id": 12036,
+    "limit_args": [
+      [
+        "uniqueship",
+        970203
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            10,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 1,
+    "order": 3,
+    "resource_category": 2,
+    "resource_num": 60,
+    "resource_type": 21000
+  },
+  "12037": {
+    "activity": 7104,
+    "commodity_id": 21018,
+    "commodity_id_list": "",
+    "commodity_id_list_show": 0,
+    "commodity_type": 2,
+    "id": 12037,
+    "limit_args": [
+      [
+        1,
+        970203,
+        1
+      ],
+      [
+        2,
+        [
+          [
+            2025,
+            10,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    ],
+    "num": 1,
+    "num_limit": 4,
+    "order": 4,
+    "resource_category": 2,
+    "resource_num": 30,
+    "resource_type": 21000
+  },
   "all": [
     1,
     2,
@@ -43151,7 +43222,9 @@
     12032,
     12033,
     12034,
-    12035
+    12035,
+    12036,
+    12037
   ],
   "get_id_list_by_commodity_type": {
     "1": [
@@ -45304,7 +45377,8 @@
       12030,
       12031,
       12033,
-      12035
+      12035,
+      12037
     ],
     "3": [
       105,
@@ -45634,7 +45708,8 @@
       12026,
       12029,
       12032,
-      12034
+      12034,
+      12036
     ],
     "5": [
       5,
