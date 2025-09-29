@@ -10,7 +10,16 @@
     "have_max": 0,
     "icon": "Islandprops/1",
     "id": 1,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "岛屿订单",
+        []
+      ],
+      [
+        "店铺经营",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "开发资金",
     "order_price": 1,
@@ -34,7 +43,16 @@
     "have_max": 0,
     "icon": "Islandprops/2",
     "id": 2,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "岛屿订单",
+        []
+      ],
+      [
+        "计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "开发经验",
     "order_price": 0,
@@ -58,7 +76,12 @@
     "have_max": 0,
     "icon": "Islandprops/3",
     "id": 3,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "商店购买",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "装扮染色盘",
     "order_price": 0,
@@ -941,39 +964,6 @@
     "usage": "usage_undefined",
     "usage_arg": "[]"
   },
-  "1501": {
-    "convert": 1,
-    "desc": "金黄饱满的玉米，散发着田野的清甜气息。",
-    "drop_after_use": 0,
-    "filter": [
-      10114,
-      10127
-    ],
-    "group_max": 0,
-    "have_max": 0,
-    "icon": "IslandProps/item_1501",
-    "id": 1501,
-    "jump_page": [
-      [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
-      ]
-    ],
-    "manage_influence": 0,
-    "name": "玉米",
-    "order_price": 0,
-    "price": 1,
-    "pt_num": 0,
-    "rarity": 1,
-    "resource_type": 1,
-    "sub_attribute": [],
-    "type": 1,
-    "usage": "usage_undefined",
-    "usage_arg": "[]"
-  },
   "2000": {
     "convert": 1,
     "desc": "刚收获不久的新鲜小麦，制作面粉的重要原料。",
@@ -988,16 +978,13 @@
     "id": 2000,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "小麦",
-    "order_price": 35,
+    "order_price": 8,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1021,16 +1008,13 @@
     "id": 2001,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "玉米",
-    "order_price": 210,
+    "order_price": 8,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1054,16 +1038,13 @@
     "id": 2002,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "大米",
-    "order_price": 155,
+    "order_price": 17,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1087,16 +1068,13 @@
     "id": 2003,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "白菜",
-    "order_price": 170,
+    "order_price": 14,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1120,16 +1098,13 @@
     "id": 2004,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "胡萝卜",
-    "order_price": 130,
+    "order_price": 34,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1153,16 +1128,13 @@
     "id": 2005,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "土豆",
-    "order_price": 250,
+    "order_price": 33,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1186,16 +1158,13 @@
     "id": 2006,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "大豆",
-    "order_price": 72,
+    "order_price": 14,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1219,19 +1188,16 @@
     "id": 2007,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "洋葱",
-    "order_price": 480,
+    "order_price": 244,
     "price": 1,
     "pt_num": 24,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1252,16 +1218,13 @@
     "id": 2008,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "牧草",
-    "order_price": 45,
+    "order_price": 11,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1285,19 +1248,16 @@
     "id": 2009,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "丰壤农田",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "咖啡豆",
-    "order_price": 640,
+    "order_price": 68,
     "price": 1,
     "pt_num": 6,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1318,19 +1278,16 @@
     "id": 2010,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "亚麻",
-    "order_price": 4,
+    "order_price": 72,
     "price": 1,
     "pt_num": 6,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1351,19 +1308,16 @@
     "id": 2011,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "草莓",
-    "order_price": 6,
+    "order_price": 54,
     "price": 1,
     "pt_num": 5,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1384,19 +1338,16 @@
     "id": 2012,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "棉花",
-    "order_price": 8,
+    "order_price": 92,
     "price": 1,
     "pt_num": 6,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1417,19 +1368,16 @@
     "id": 2014,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "茶叶",
-    "order_price": 12,
+    "order_price": 118,
     "price": 1,
     "pt_num": 14,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1450,19 +1398,16 @@
     "id": 2015,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "青芽苗圃",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "薰衣草",
-    "order_price": 2,
+    "order_price": 294,
     "price": 1,
     "pt_num": 35,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1483,16 +1428,13 @@
     "id": 2016,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "苹果",
-    "order_price": 4,
+    "order_price": 50,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1516,16 +1458,13 @@
     "id": 2017,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "柑橘",
-    "order_price": 6,
+    "order_price": 65,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1549,16 +1488,13 @@
     "id": 2018,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "香蕉",
-    "order_price": 8,
+    "order_price": 80,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1582,19 +1518,16 @@
     "id": 2019,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "芒果",
-    "order_price": 10,
+    "order_price": 180,
     "price": 1,
     "pt_num": 18,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1615,19 +1548,16 @@
     "id": 2020,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "柠檬",
-    "order_price": 12,
+    "order_price": 32,
     "price": 1,
     "pt_num": 3,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1648,19 +1578,16 @@
     "id": 2021,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "牛油果",
-    "order_price": 2,
+    "order_price": 375,
     "price": 1,
     "pt_num": 45,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1681,19 +1608,16 @@
     "id": 2022,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "坠香果园",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "橡胶",
-    "order_price": 4,
+    "order_price": 250,
     "price": 1,
     "pt_num": 30,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1714,16 +1638,13 @@
     "id": 2600,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "鲜肉",
-    "order_price": 450,
+    "order_price": 200,
     "price": 1,
     "pt_num": 2,
     "rarity": 1,
@@ -1747,16 +1668,13 @@
     "id": 2601,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "鸡蛋",
-    "order_price": 240,
+    "order_price": 55,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1780,16 +1698,13 @@
     "id": 2602,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "禽肉",
-    "order_price": 350,
+    "order_price": 20,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1813,16 +1728,13 @@
     "id": 2603,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "牛奶",
-    "order_price": 450,
+    "order_price": 136,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -1846,19 +1758,16 @@
     "id": 2604,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "皮料",
-    "order_price": 1800,
+    "order_price": 95,
     "price": 1,
     "pt_num": 10,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1879,19 +1788,16 @@
     "id": 2605,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "悠然牧场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "羊毛",
-    "order_price": 1400,
+    "order_price": 600,
     "price": 1,
     "pt_num": 72,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -1912,16 +1818,13 @@
     "id": 2606,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "地图采集",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "新鲜蜂蜜",
-    "order_price": 8,
+    "order_price": 200,
     "price": 1,
     "pt_num": 2,
     "rarity": 1,
@@ -1945,11 +1848,8 @@
     "id": 2700,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
@@ -1978,16 +1878,13 @@
     "id": 2701,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "铜矿",
-    "order_price": 400,
+    "order_price": 100,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2011,19 +1908,16 @@
     "id": 2702,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "铝矿",
-    "order_price": 580,
+    "order_price": 300,
     "price": 1,
     "pt_num": 30,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2044,19 +1938,16 @@
     "id": 2703,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "铁矿",
-    "order_price": 760,
+    "order_price": 180,
     "price": 1,
     "pt_num": 18,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2077,19 +1968,16 @@
     "id": 2704,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "硫矿",
-    "order_price": 920,
+    "order_price": 700,
     "price": 1,
     "pt_num": 80,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2110,19 +1998,16 @@
     "id": 2705,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "沉石矿山",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "银矿",
-    "order_price": 1100,
+    "order_price": 1600,
     "price": 1,
     "pt_num": 240,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2143,11 +2028,8 @@
     "id": 2800,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "翠土林场",
+        []
       ]
     ],
     "manage_influence": 0,
@@ -2176,16 +2058,13 @@
     "id": 2801,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "翠土林场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "实用之木",
-    "order_price": 400,
+    "order_price": 125,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2209,19 +2088,16 @@
     "id": 2802,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "翠土林场",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "精选之木",
-    "order_price": 760,
+    "order_price": 360,
     "price": 1,
     "pt_num": 36,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2242,11 +2118,8 @@
     "id": 2803,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "翠土林场",
+        []
       ]
     ],
     "manage_influence": 0,
@@ -2254,7 +2127,7 @@
     "order_price": 1200,
     "price": 1,
     "pt_num": 180,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2275,16 +2148,13 @@
     "id": 3000,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "磨坊",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "咯咯鸡饲料",
-    "order_price": 290,
+    "order_price": 25,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2308,16 +2178,13 @@
     "id": 3001,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "磨坊",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "哼哼猪饲料",
-    "order_price": 400,
+    "order_price": 25,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2341,19 +2208,16 @@
     "id": 3002,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "磨坊",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "哞哞牛饲料",
-    "order_price": 350,
+    "order_price": 40,
     "price": 1,
     "pt_num": 4,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2374,19 +2238,16 @@
     "id": 3003,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "磨坊",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "咩咩羊饲料",
-    "order_price": 400,
+    "order_price": 40,
     "price": 1,
     "pt_num": 4,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -2407,16 +2268,13 @@
     "id": 3004,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "磨坊",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "面粉",
-    "order_price": 400,
+    "order_price": 50,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2440,16 +2298,13 @@
     "id": 3005,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 560,
+    "manage_influence": 190,
     "name": "冰咖啡",
-    "order_price": 1400,
+    "order_price": 95,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -2476,19 +2331,16 @@
     "id": 3006,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 560,
+    "manage_influence": 150,
     "name": "芝士",
-    "order_price": 1400,
+    "order_price": 550,
     "price": 1,
     "pt_num": 55,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -2512,19 +2364,16 @@
     "id": 3007,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 1000,
+    "manage_influence": 180,
     "name": "拿铁",
-    "order_price": 2500,
+    "order_price": 250,
     "price": 1,
     "pt_num": 25,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -2548,19 +2397,16 @@
     "id": 3008,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 110,
+    "manage_influence": 180,
     "name": "柑橘咖啡",
-    "order_price": 10,
+    "order_price": 190,
     "price": 1,
     "pt_num": 20,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -2584,19 +2430,16 @@
     "id": 3009,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 400,
+    "manage_influence": 190,
     "name": "苹果派",
-    "order_price": 1000,
+    "order_price": 385,
     "price": 1,
     "pt_num": 35,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -2620,19 +2463,16 @@
     "id": 3010,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 120,
+    "manage_influence": 240,
     "name": "草莓奶绿",
-    "order_price": 2,
+    "order_price": 260,
     "price": 1,
     "pt_num": 25,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -2656,19 +2496,16 @@
     "id": 3011,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "有鱼餐馆",
+        []
       ]
     ],
-    "manage_influence": 220,
+    "manage_influence": 170,
     "name": "豆腐",
-    "order_price": 550,
+    "order_price": 340,
     "price": 1,
     "pt_num": 35,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -2692,19 +2529,16 @@
     "id": 3012,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "有鱼餐馆",
+        []
       ]
     ],
-    "manage_influence": 840,
+    "manage_influence": 180,
     "name": "肉末烧豆腐",
-    "order_price": 2100,
+    "order_price": 1300,
     "price": 1,
     "pt_num": 155,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -2728,19 +2562,16 @@
     "id": 3013,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "有鱼餐馆",
+        []
       ]
     ],
-    "manage_influence": 760,
+    "manage_influence": 240,
     "name": "蛋包饭",
-    "order_price": 1900,
+    "order_price": 355,
     "price": 1,
     "pt_num": 35,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -2764,19 +2595,16 @@
     "id": 3014,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "有鱼餐馆",
+        []
       ]
     ],
-    "manage_influence": 1040,
+    "manage_influence": 180,
     "name": "白菜豆腐汤",
-    "order_price": 2600,
+    "order_price": 425,
     "price": 1,
     "pt_num": 40,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -2800,58 +2628,19 @@
     "id": 3015,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "有鱼餐馆",
+        []
       ]
     ],
-    "manage_influence": 580,
+    "manage_influence": 160,
     "name": "蔬菜沙拉",
-    "order_price": 1450,
+    "order_price": 105,
     "price": 1,
     "pt_num": 10,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       3,
-      35
-    ],
-    "type": 1,
-    "usage": "usage_undefined",
-    "usage_arg": "[]"
-  },
-  "3016": {
-    "convert": 1,
-    "desc": "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
-    "drop_after_use": 0,
-    "filter": [
-      10113,
-      10125
-    ],
-    "group_max": 0,
-    "have_max": 0,
-    "icon": "IslandProps/item_3016",
-    "id": 3016,
-    "jump_page": [
-      [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
-      ]
-    ],
-    "manage_influence": 120,
-    "name": "炸鱼薯条",
-    "order_price": 2,
-    "price": 1,
-    "pt_num": 0,
-    "rarity": 1,
-    "resource_type": 1,
-    "sub_attribute": [
-      4,
       35
     ],
     "type": 1,
@@ -2872,19 +2661,16 @@
     "id": 3017,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 200,
     "name": "苹果汁",
-    "order_price": 4,
+    "order_price": 105,
     "price": 1,
     "pt_num": 10,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -2908,19 +2694,16 @@
     "id": 3018,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 190,
     "name": "香蕉芒果汁",
-    "order_price": 6,
+    "order_price": 215,
     "price": 1,
     "pt_num": 20,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -2944,19 +2727,16 @@
     "id": 3019,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 240,
     "name": "蜂蜜柠檬水",
-    "order_price": 8,
+    "order_price": 140,
     "price": 1,
     "pt_num": 15,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -2980,19 +2760,16 @@
     "id": 3020,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 180,
     "name": "草莓蜜沁",
-    "order_price": 8,
+    "order_price": 270,
     "price": 1,
     "pt_num": 25,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3016,19 +2793,16 @@
     "id": 3021,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 120,
+    "manage_influence": 160,
     "name": "薰衣草茶",
-    "order_price": 12,
+    "order_price": 1590,
     "price": 1,
     "pt_num": 240,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -3052,19 +2826,16 @@
     "id": 3022,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "白熊饮品",
+        []
       ]
     ],
-    "manage_influence": 120,
+    "manage_influence": 220,
     "name": "草莓蜂蜜冰沙",
-    "order_price": 2,
+    "order_price": 790,
     "price": 1,
     "pt_num": 95,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3088,19 +2859,16 @@
     "id": 3023,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾啾简餐",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 180,
     "name": "玉米杯",
-    "order_price": 4,
+    "order_price": 45,
     "price": 1,
     "pt_num": 4,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -3124,19 +2892,16 @@
     "id": 3024,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾啾简餐",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 185,
     "name": "香橙派",
-    "order_price": 6,
+    "order_price": 375,
     "price": 1,
     "pt_num": 35,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -3160,19 +2925,16 @@
     "id": 3025,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾啾简餐",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 160,
     "name": "芒果糯米饭",
-    "order_price": 8,
+    "order_price": 510,
     "price": 1,
     "pt_num": 60,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3196,19 +2958,16 @@
     "id": 3026,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾啾简餐",
+        []
       ]
     ],
-    "manage_influence": 110,
+    "manage_influence": 170,
     "name": "香蕉可丽饼",
-    "order_price": 10,
+    "order_price": 230,
     "price": 1,
     "pt_num": 30,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -3232,19 +2991,16 @@
     "id": 3028,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾啾简餐",
+        []
       ]
     ],
-    "manage_influence": 120,
+    "manage_influence": 190,
     "name": "草莓夏洛特",
-    "order_price": 2,
+    "order_price": 1350,
     "price": 1,
     "pt_num": 200,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3268,19 +3024,16 @@
     "id": 3029,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "乌鱼烤肉",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 210,
     "name": "炭烤肉串",
-    "order_price": 950,
+    "order_price": 390,
     "price": 1,
     "pt_num": 40,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3304,58 +3057,19 @@
     "id": 3030,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "乌鱼烤肉",
+        []
       ]
     ],
-    "manage_influence": 110,
+    "manage_influence": 230,
     "name": "禽肉土豆拼盘",
-    "order_price": 1600,
+    "order_price": 370,
     "price": 1,
     "pt_num": 36,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
-      35
-    ],
-    "type": 1,
-    "usage": "usage_undefined",
-    "usage_arg": "[]"
-  },
-  "3031": {
-    "convert": 1,
-    "desc": "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
-    "drop_after_use": 0,
-    "filter": [
-      10113,
-      10125
-    ],
-    "group_max": 0,
-    "have_max": 0,
-    "icon": "IslandProps/item_3031",
-    "id": 3031,
-    "jump_page": [
-      [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
-      ]
-    ],
-    "manage_influence": 120,
-    "name": "柠檬虾",
-    "order_price": 0,
-    "price": 1,
-    "pt_num": 0,
-    "rarity": 1,
-    "resource_type": 1,
-    "sub_attribute": [
-      4,
       35
     ],
     "type": 1,
@@ -3376,19 +3090,16 @@
     "id": 3032,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "乌鱼烤肉",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 220,
     "name": "爆炒禽肉",
-    "order_price": 2200,
+    "order_price": 580,
     "price": 1,
     "pt_num": 70,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3412,19 +3123,16 @@
     "id": 3033,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "乌鱼烤肉",
+        []
       ]
     ],
-    "manage_influence": 110,
+    "manage_influence": 180,
     "name": "胡萝卜厚蛋烧",
-    "order_price": 980,
+    "order_price": 170,
     "price": 1,
     "pt_num": 16,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -3448,19 +3156,16 @@
     "id": 3034,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "乌鱼烤肉",
+        []
       ]
     ],
-    "manage_influence": 120,
+    "manage_influence": 150,
     "name": "汉堡肉饭",
-    "order_price": 1200,
+    "order_price": 845,
     "price": 1,
     "pt_num": 100,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       4,
@@ -3484,19 +3189,16 @@
     "id": 3035,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "布料",
-    "order_price": 4,
+    "order_price": 340,
     "price": 1,
     "pt_num": 34,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3517,19 +3219,16 @@
     "id": 3036,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "皮革",
-    "order_price": 6,
+    "order_price": 600,
     "price": 1,
     "pt_num": 60,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3550,19 +3249,16 @@
     "id": 3037,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "绳索",
-    "order_price": 8,
+    "order_price": 600,
     "price": 1,
     "pt_num": 72,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3583,19 +3279,16 @@
     "id": 3038,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "手套",
-    "order_price": 10,
+    "order_price": 890,
     "price": 1,
     "pt_num": 105,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3616,19 +3309,16 @@
     "id": 3039,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "香囊",
-    "order_price": 12,
+    "order_price": 1100,
     "price": 1,
     "pt_num": 130,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3649,19 +3339,16 @@
     "id": 3040,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "鞋靴",
-    "order_price": 2,
+    "order_price": 2380,
     "price": 1,
     "pt_num": 350,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3682,19 +3369,16 @@
     "id": 3041,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "手工制作设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "绷带",
-    "order_price": 4,
+    "order_price": 2380,
     "price": 1,
     "pt_num": 350,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3715,19 +3399,16 @@
     "id": 3042,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "炭笔",
-    "order_price": 6,
+    "order_price": 300,
     "price": 1,
     "pt_num": 30,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3748,19 +3429,16 @@
     "id": 3043,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "电缆",
-    "order_price": 8,
+    "order_price": 770,
     "price": 1,
     "pt_num": 92,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3781,19 +3459,16 @@
     "id": 3044,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "铁钉",
-    "order_price": 10,
+    "order_price": 660,
     "price": 1,
     "pt_num": 66,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3814,19 +3489,16 @@
     "id": 3045,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "硫酸",
-    "order_price": 12,
+    "order_price": 840,
     "price": 1,
     "pt_num": 84,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3847,19 +3519,16 @@
     "id": 3046,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "火药",
-    "order_price": 2,
+    "order_price": 1200,
     "price": 1,
     "pt_num": 150,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3880,19 +3549,16 @@
     "id": 3047,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "工业生产设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "刀叉餐具",
-    "order_price": 4,
+    "order_price": 2560,
     "price": 1,
     "pt_num": 380,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3913,16 +3579,13 @@
     "id": 3048,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "木料加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "纸张",
-    "order_price": 6,
+    "order_price": 175,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -3946,19 +3609,16 @@
     "id": 3049,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "木料加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "记事本",
-    "order_price": 8,
+    "order_price": 1230,
     "price": 1,
     "pt_num": 120,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -3979,19 +3639,16 @@
     "id": 3050,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "木料加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "桌椅",
-    "order_price": 10,
+    "order_price": 810,
     "price": 1,
     "pt_num": 80,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4012,19 +3669,16 @@
     "id": 3051,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "木料加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "精选木桶",
-    "order_price": 12,
+    "order_price": 1610,
     "price": 1,
     "pt_num": 190,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4045,19 +3699,16 @@
     "id": 3052,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "木料加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "文件柜",
-    "order_price": 2,
+    "order_price": 2880,
     "price": 1,
     "pt_num": 430,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4078,19 +3729,16 @@
     "id": 3053,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "电子加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "墨盒",
-    "order_price": 4,
+    "order_price": 570,
     "price": 1,
     "pt_num": 55,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4111,19 +3759,16 @@
     "id": 3054,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "电子加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "钟表",
-    "order_price": 6,
+    "order_price": 2590,
     "price": 1,
     "pt_num": 310,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4144,19 +3789,16 @@
     "id": 3055,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "电子加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "蓄电池",
-    "order_price": 8,
+    "order_price": 1750,
     "price": 1,
     "pt_num": 210,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4177,19 +3819,16 @@
     "id": 3056,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "电子加工设备",
+        []
       ]
     ],
     "manage_influence": 0,
     "name": "净水滤芯",
-    "order_price": 10,
+    "order_price": 2400,
     "price": 1,
     "pt_num": 360,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4210,16 +3849,13 @@
     "id": 3059,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "啾咖啡",
+        []
       ]
     ],
-    "manage_influence": 560,
+    "manage_influence": 210,
     "name": "欧姆蛋",
-    "order_price": 1400,
+    "order_price": 50,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -4246,19 +3882,16 @@
     "id": 3101,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 210,
     "name": "经典豆腐套餐",
-    "order_price": 10,
+    "order_price": 1735,
     "price": 1,
     "pt_num": 200,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4282,19 +3915,16 @@
     "id": 3102,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 220,
     "name": "绵玉定食",
-    "order_price": 10,
+    "order_price": 695,
     "price": 1,
     "pt_num": 100,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4318,19 +3948,16 @@
     "id": 3103,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 210,
     "name": "花香果韵",
-    "order_price": 10,
+    "order_price": 170,
     "price": 1,
     "pt_num": 200,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -4354,19 +3981,16 @@
     "id": 3104,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 215,
     "name": "缤纷果乐园",
-    "order_price": 10,
+    "order_price": 1000,
     "price": 1,
     "pt_num": 120,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4390,19 +4014,16 @@
     "id": 3105,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 260,
     "name": "阳光蜜水",
-    "order_price": 10,
+    "order_price": 410,
     "price": 1,
     "pt_num": 60,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4426,19 +4047,16 @@
     "id": 3106,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 250,
     "name": "香甜组合",
-    "order_price": 10,
+    "order_price": 560,
     "price": 1,
     "pt_num": 65,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -4462,19 +4080,16 @@
     "id": 3107,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 240,
     "name": "果园二重奏",
-    "order_price": 10,
+    "order_price": 615,
     "price": 1,
     "pt_num": 70,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4498,19 +4113,16 @@
     "id": 3108,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 210,
     "name": "莓果香橙甜点组",
-    "order_price": 10,
+    "order_price": 1730,
     "price": 1,
     "pt_num": 260,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4534,19 +4146,16 @@
     "id": 3109,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 230,
     "name": "烤肉狂欢",
-    "order_price": 10,
+    "order_price": 760,
     "price": 1,
     "pt_num": 90,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -4570,19 +4179,16 @@
     "id": 3110,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 210,
     "name": "能量双拼套餐",
-    "order_price": 10,
+    "order_price": 1430,
     "price": 1,
     "pt_num": 210,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4606,19 +4212,16 @@
     "id": 3111,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 250,
     "name": "晨光活力组合",
-    "order_price": 10,
+    "order_price": 300,
     "price": 1,
     "pt_num": 36,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       5,
@@ -4642,19 +4245,16 @@
     "id": 3112,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 240,
     "name": "醒神套餐",
-    "order_price": 10,
+    "order_price": 650,
     "price": 1,
     "pt_num": 80,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -4678,19 +4278,16 @@
     "id": 3113,
     "jump_page": [
       [
-        "商店购买",
-        [
-          "IslandShopScene",
-          "page = 1"
-        ]
+        "套餐菜单",
+        []
       ]
     ],
-    "manage_influence": 100,
+    "manage_influence": 260,
     "name": "果香双杯乐",
-    "order_price": 10,
+    "order_price": 450,
     "price": 1,
     "pt_num": 65,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
     "sub_attribute": [
       3,
@@ -4711,13 +4308,18 @@
     "have_max": 0,
     "icon": "IslandProps/item_4001",
     "id": 4001,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "地图采集",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "秋菊",
-    "order_price": 0,
+    "order_price": 400,
     "price": 1,
     "pt_num": 40,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4735,10 +4337,15 @@
     "have_max": 0,
     "icon": "IslandProps/item_4002",
     "id": 4002,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "地图采集",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "芦苇花",
-    "order_price": 0,
+    "order_price": 200,
     "price": 1,
     "pt_num": 2,
     "rarity": 1,
@@ -4759,10 +4366,15 @@
     "have_max": 0,
     "icon": "IslandProps/item_4003",
     "id": 4003,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "地图采集",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "花生",
-    "order_price": 0,
+    "order_price": 150,
     "price": 1,
     "pt_num": 1,
     "rarity": 1,
@@ -4783,13 +4395,18 @@
     "have_max": 0,
     "icon": "IslandProps/item_4004",
     "id": 4004,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "地图采集",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "松茸",
-    "order_price": 0,
+    "order_price": 800,
     "price": 1,
     "pt_num": 95,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4808,13 +4425,18 @@
     "have_max": 0,
     "icon": "IslandProps/item_4005",
     "id": 4005,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "坠香果园",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "秋月梨",
-    "order_price": 0,
+    "order_price": 70,
     "price": 1,
     "pt_num": 5,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4832,7 +4454,15 @@
     "have_max": 0,
     "icon": "IslandProps/item_4006",
     "id": 4006,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "商店购买",
+        [
+          "IslandShopScene",
+          "page = 1"
+        ]
+      ]
+    ],
     "manage_influence": 0,
     "name": "秋月梨树种",
     "order_price": 0,
@@ -4857,13 +4487,18 @@
     "have_max": 0,
     "icon": "IslandProps/item_4007",
     "id": 4007,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "坠香果园",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "柿子",
-    "order_price": 0,
+    "order_price": 200,
     "price": 1,
     "pt_num": 24,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
     "sub_attribute": [],
     "type": 1,
@@ -4881,7 +4516,15 @@
     "have_max": 0,
     "icon": "IslandProps/item_4008",
     "id": 4008,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "商店购买",
+        [
+          "IslandShopScene",
+          "page = 1"
+        ]
+      ]
+    ],
     "manage_influence": 0,
     "name": "柿子树种",
     "order_price": 0,
@@ -4906,15 +4549,23 @@
     "have_max": 0,
     "icon": "IslandProps/item_4009",
     "id": 4009,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "有鱼餐馆",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "柿子饼",
-    "order_price": 0,
+    "order_price": 210,
     "price": 1,
     "pt_num": 25,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
-    "sub_attribute": [],
+    "sub_attribute": [
+      4,
+      35
+    ],
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -4931,15 +4582,23 @@
     "have_max": 0,
     "icon": "IslandProps/item_4010",
     "id": 4010,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "有鱼餐馆",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "松茸鸡汤",
-    "order_price": 0,
+    "order_price": 900,
     "price": 1,
     "pt_num": 135,
-    "rarity": 1,
+    "rarity": 4,
     "resource_type": 1,
-    "sub_attribute": [],
+    "sub_attribute": [
+      5,
+      35
+    ],
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -4956,15 +4615,23 @@
     "have_max": 0,
     "icon": "IslandProps/item_4011",
     "id": 4011,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "手工制作设备",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "秋季花束",
-    "order_price": 0,
+    "order_price": 705,
     "price": 1,
     "pt_num": 70,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
-    "sub_attribute": [],
+    "sub_attribute": [
+      3,
+      35
+    ],
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -4981,15 +4648,23 @@
     "have_max": 0,
     "icon": "IslandProps/item_4012",
     "id": 4012,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "手工制作设备",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "花生油",
-    "order_price": 0,
+    "order_price": 1005,
     "price": 1,
     "pt_num": 100,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
-    "sub_attribute": [],
+    "sub_attribute": [
+      5,
+      35
+    ],
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -5006,15 +4681,23 @@
     "have_max": 0,
     "icon": "IslandProps/item_4013",
     "id": 4013,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "白熊饮品",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "胡萝卜秋梨汁",
-    "order_price": 0,
+    "order_price": 200,
     "price": 1,
     "pt_num": 20,
-    "rarity": 1,
+    "rarity": 2,
     "resource_type": 1,
-    "sub_attribute": [],
+    "sub_attribute": [
+      4,
+      35
+    ],
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -5031,40 +4714,24 @@
     "have_max": 0,
     "icon": "IslandProps/item_4014",
     "id": 4014,
-    "jump_page": [],
-    "manage_influence": 0,
+    "jump_page": [
+      [
+        "白熊饮品",
+        []
+      ]
+    ],
+    "manage_influence": 280,
     "name": "菊花茶",
-    "order_price": 0,
+    "order_price": 840,
     "price": 1,
     "pt_num": 100,
-    "rarity": 1,
+    "rarity": 3,
     "resource_type": 1,
-    "sub_attribute": [],
-    "type": 1,
-    "usage": "usage_undefined",
-    "usage_arg": "[]"
-  },
-  "100000": {
-    "convert": 0,
-    "desc": "一颗能够解锁无限可能的职责之星。使用后，使角色所有能力的上限解锁至满值。",
-    "drop_after_use": 0,
-    "filter": [
-      10211
+    "sub_attribute": [
+      3,
+      35
     ],
-    "group_max": 0,
-    "have_max": 0,
-    "icon": "IslandProps/item_100000",
-    "id": 100000,
-    "jump_page": [],
-    "manage_influence": 0,
-    "name": "职责之星",
-    "order_price": 0,
-    "price": 0,
-    "pt_num": 0,
-    "rarity": 4,
-    "resource_type": 0,
-    "sub_attribute": [],
-    "type": 2,
+    "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
   },
@@ -5079,7 +4746,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100001",
     "id": 100001,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "白熊饮品",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生活经验指南T1",
     "order_price": 0,
@@ -5103,7 +4775,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100002",
     "id": 100002,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ],
+      [
+        "计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生活经验指南T2",
     "order_price": 0,
@@ -5127,7 +4808,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100003",
     "id": 100003,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ],
+      [
+        "计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生活经验指南T3",
     "order_price": 0,
@@ -5151,7 +4841,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100011",
     "id": 100011,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ],
+      [
+        "计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "经营指南T1",
     "order_price": 0,
@@ -5175,7 +4874,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100012",
     "id": 100012,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "经营指南T2",
     "order_price": 0,
@@ -5199,7 +4907,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100013",
     "id": 100013,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "经营指南T3",
     "order_price": 0,
@@ -5223,7 +4936,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100021",
     "id": 100021,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "种植指南T1",
     "order_price": 0,
@@ -5247,7 +4969,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100022",
     "id": 100022,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "种植指南T2",
     "order_price": 0,
@@ -5295,7 +5022,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100031",
     "id": 100031,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "制造指南T1",
     "order_price": 0,
@@ -5319,7 +5055,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100032",
     "id": 100032,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "制造指南T2",
     "order_price": 0,
@@ -5367,7 +5108,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100041",
     "id": 100041,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "采集指南T1",
     "order_price": 0,
@@ -5391,7 +5141,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100042",
     "id": 100042,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "采集指南T2",
     "order_price": 0,
@@ -5439,7 +5194,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100051",
     "id": 100051,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "养护指南T1",
     "order_price": 0,
@@ -5463,7 +5227,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100052",
     "id": 100052,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "养护指南T2",
     "order_price": 0,
@@ -5511,7 +5280,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_100061",
     "id": 100061,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ],
+      [
+        "开发计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "烹调指南T1",
     "order_price": 0,
@@ -5535,7 +5313,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100062",
     "id": 100062,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "累计PT",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "烹调指南T2",
     "order_price": 0,
@@ -5583,7 +5366,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100101",
     "id": 100101,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生产技能指南T1",
     "order_price": 0,
@@ -5607,7 +5395,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100102",
     "id": 100102,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生产技能指南T2",
     "order_price": 0,
@@ -5631,7 +5424,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100103",
     "id": 100103,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "生产技能指南T3",
     "order_price": 0,
@@ -5655,7 +5453,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_100201",
     "id": 100201,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "开发商店",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "岛屿开发结晶",
     "order_price": 0,
@@ -5679,7 +5482,16 @@
     "have_max": 0,
     "icon": "IslandProps/item_110001",
     "id": 110001,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ],
+      [
+        "每日计划",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "海盐特饮",
     "order_price": 0,
@@ -5712,7 +5524,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_110002",
     "id": 110002,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "新叶特饮",
     "order_price": 0,
@@ -5747,7 +5564,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_110003",
     "id": 110003,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "草莓特饮",
     "order_price": 0,
@@ -5782,7 +5604,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_110004",
     "id": 110004,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "金桔特饮",
     "order_price": 0,
@@ -5817,7 +5644,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_110005",
     "id": 110005,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "蓝莓特饮",
     "order_price": 0,
@@ -5852,7 +5684,12 @@
     "have_max": 0,
     "icon": "IslandProps/item_110006",
     "id": 110006,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "日常补给",
+        []
+      ]
+    ],
     "manage_influence": 0,
     "name": "葡萄特饮",
     "order_price": 0,

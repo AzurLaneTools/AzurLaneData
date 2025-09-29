@@ -24,6 +24,11 @@
     "key_value_int": 10,
     "key_value_varchar": ""
   },
+  "agora_reloading_base_cd": {
+    "key": "agora_reloading_base_cd",
+    "key_value_int": 3,
+    "key_value_varchar": ""
+  },
   "all": [
     "order_complete_refresh_time",
     "order_change_time",
@@ -113,7 +118,8 @@
     "island_photohight_FPS",
     "island_photohight_TPS",
     "island_dress_follow_param",
-    "island_ticket_shopid"
+    "island_ticket_shopid",
+    "agora_reloading_base_cd"
   ],
   "base_efficiency": {
     "key": "base_efficiency",
@@ -127,7 +133,7 @@
   },
   "chara_att_unlock": {
     "key": "chara_att_unlock",
-    "key_value_int": 100000,
+    "key_value_int": 0,
     "key_value_varchar": ""
   },
   "character_detail_camera_speed": {
@@ -529,22 +535,22 @@
   },
   "island_manage_sale_coefficient_a": {
     "key": "island_manage_sale_coefficient_a",
-    "key_value_int": 80,
+    "key_value_int": 60,
     "key_value_varchar": ""
   },
   "island_manage_sale_coefficient_b": {
     "key": "island_manage_sale_coefficient_b",
-    "key_value_int": 100,
+    "key_value_int": 240,
     "key_value_varchar": ""
   },
   "island_manage_sale_coefficient_c": {
     "key": "island_manage_sale_coefficient_c",
-    "key_value_int": 100,
+    "key_value_int": 0,
     "key_value_varchar": ""
   },
   "island_manage_sale_constant": {
     "key": "island_manage_sale_constant",
-    "key_value_int": 100,
+    "key_value_int": 160,
     "key_value_varchar": ""
   },
   "island_message_bubble_range": {
@@ -747,7 +753,7 @@
   },
   "order_favor": {
     "key": "order_favor",
-    "key_value_int": 50,
+    "key_value_int": 20,
     "key_value_varchar": ""
   },
   "order_price_down_proportion": {
@@ -794,7 +800,7 @@
   },
   "order_special_refresh_time": {
     "key": "order_special_refresh_time",
-    "key_value_int": 600,
+    "key_value_int": 900,
     "key_value_varchar": ""
   },
   "order_value_exp_ratio": {
@@ -908,31 +914,31 @@
         1
       ],
       [
-        24,
+        2,
         1
       ],
       [
-        25,
+        3,
         1
       ],
       [
-        26,
+        4,
         1
       ],
       [
-        27,
+        5,
         1
       ],
       [
-        28,
+        6,
         1
       ],
       [
-        29,
+        7,
         1
       ],
       [
-        30,
+        8,
         1
       ]
     ]
