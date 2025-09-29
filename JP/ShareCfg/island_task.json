@@ -75,7 +75,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10001020,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -118,7 +118,7 @@
     "complete_tips": "石炭をジョンに渡そう",
     "complete_type": 1,
     "id": 10001030,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 1004,
     "map_trigger_tips": 0,
@@ -168,7 +168,7 @@
     "name": "斧で木材を",
     "navigation": 1004,
     "rec_perform": "",
-    "reward_exp": 50,
+    "reward_exp": 100,
     "reward_show": [
       [
         41,
@@ -208,7 +208,7 @@
     "name": "原野での協力",
     "navigation": 1004,
     "rec_perform": "",
-    "reward_exp": 50,
+    "reward_exp": 100,
     "reward_show": [
       [
         41,
@@ -284,7 +284,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10001070,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -534,6 +534,11 @@
         41,
         1,
         1000
+      ],
+      [
+        50,
+        10004,
+        10
       ]
     ],
     "series": "到着編",
@@ -565,7 +570,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "権限把握",
+    "name": "権限掌握",
     "navigation": 1007,
     "rec_perform": "",
     "reward_exp": 0,
@@ -638,7 +643,7 @@
       "ISLANDPERFORMANCE_PATH_4"
     ],
     "complete_data": 10070028,
-    "complete_tips": "明石のところへ行こう",
+    "complete_tips": "明石のところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10001141,
     "is_tech_task": 0,
@@ -731,14 +736,8 @@
     "name": "権限認証装置",
     "navigation": 1007,
     "rec_perform": "",
-    "reward_exp": 100,
-    "reward_show": [
-      [
-        41,
-        1,
-        1000
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": "",
     "series": "到着編",
     "series_name": "離島の誘い",
     "target_id": [
@@ -804,7 +803,7 @@
       "ISLAND1001021_1"
     ],
     "complete_data": 10020013,
-    "complete_tips": "明石と話そう",
+    "complete_tips": "明石と話そう(0/1)",
     "complete_type": 1,
     "id": 10001170,
     "is_tech_task": 0,
@@ -814,8 +813,13 @@
     "name": "離島EXP教科書",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
+      [
+        41,
+        100001,
+        10
+      ],
       [
         41,
         1,
@@ -893,13 +897,8 @@
     "name": "忙しいのはいいことだ",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
-      [
-        41,
-        100001,
-        10
-      ],
       [
         41,
         2700,
@@ -946,7 +945,7 @@
     "name": "お宝の噂",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -1057,7 +1056,7 @@
     "name": "ステファンの足跡",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -1095,7 +1094,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10002040,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -1129,7 +1128,7 @@
       "ISLAND1001024"
     ],
     "complete_data": 10020004,
-    "complete_tips": "ステファンと話そう",
+    "complete_tips": "ステファンと話そう(0/1)",
     "complete_type": 1,
     "id": 10002050,
     "is_tech_task": 0,
@@ -1243,7 +1242,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10002070,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -1317,7 +1316,7 @@
       "ISLAND1001026_1"
     ],
     "complete_data": 10010040,
-    "complete_tips": "ホメリックと話そう",
+    "complete_tips": "ホメリックと話そう(0/1)",
     "complete_type": 1,
     "id": 10002081,
     "is_tech_task": 0,
@@ -1400,7 +1399,7 @@
       "ISLAND1001028"
     ],
     "complete_data": 10010003,
-    "complete_tips": "戻ってアメリゴのところへ行こう",
+    "complete_tips": "戻ってアメリゴのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10002100,
     "is_tech_task": 0,
@@ -1410,7 +1409,7 @@
     "name": "追跡の時間だ！",
     "navigation": 1001,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -1450,7 +1449,7 @@
     "name": "コッコートリの餌",
     "navigation": 1001,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -1483,17 +1482,17 @@
       "ISLAND1001028_2"
     ],
     "complete_data": 10010003,
-    "complete_tips": "戻ってアメリゴのところへ行こう",
+    "complete_tips": "戻ってアメリゴのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10002120,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 1001,
     "map_trigger_tips": 0,
     "name": "飼料を制作",
     "navigation": 1001,
     "rec_perform": "",
-    "reward_exp": 100,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -1725,7 +1724,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10002160,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -1765,7 +1764,7 @@
       "ISLAND1001030_2"
     ],
     "complete_data": 10090008,
-    "complete_tips": "ブレーメンと話そう",
+    "complete_tips": "ブレーメンと話そう(0/1)",
     "complete_type": 1,
     "id": 10002170,
     "is_tech_task": 0,
@@ -1851,7 +1850,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10002190,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -2159,7 +2158,7 @@
     "name": "飛行装置の復活-朝露農場",
     "navigation": 1001,
     "rec_perform": "",
-    "reward_exp": 300,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -2203,7 +2202,7 @@
     "name": "飛行装置の復活-朝露農場",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 300,
+    "reward_exp": 200,
     "reward_show": [
       [
         41,
@@ -2236,7 +2235,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10002260,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -2353,7 +2352,7 @@
       "ISLAND1001032_1"
     ],
     "complete_data": 10030006,
-    "complete_tips": "メリーに聞いてみよう",
+    "complete_tips": "メリーに聞いてみよう(0/1)",
     "complete_type": 1,
     "id": 10002280,
     "is_tech_task": 0,
@@ -2396,7 +2395,7 @@
       "ISLAND1001032_2"
     ],
     "complete_data": 10030003,
-    "complete_tips": "メリーと話しに行く",
+    "complete_tips": "メリーと話しに行く(0/1)",
     "complete_type": 1,
     "id": 10002290,
     "is_tech_task": 0,
@@ -2479,7 +2478,7 @@
       "ISLAND1001034"
     ],
     "complete_data": 10030008,
-    "complete_tips": "エリザベスと話す",
+    "complete_tips": "エリザベスと話す(0/1)",
     "complete_type": 1,
     "id": 10002310,
     "is_tech_task": 0,
@@ -2522,7 +2521,7 @@
       "ISLAND1001034_1"
     ],
     "complete_data": 10030008,
-    "complete_tips": "エリザベスと話す",
+    "complete_tips": "エリザベスと話す(0/1)",
     "complete_type": 1,
     "id": 10002320,
     "is_tech_task": 0,
@@ -2565,7 +2564,7 @@
       "ISLAND1001034_2"
     ],
     "complete_data": 10030008,
-    "complete_tips": "エリザベスと話す",
+    "complete_tips": "エリザベスと話す(0/1)",
     "complete_type": 1,
     "id": 10002330,
     "is_tech_task": 0,
@@ -2608,7 +2607,7 @@
       "ISLAND1001034_3"
     ],
     "complete_data": 10030008,
-    "complete_tips": "エリザベスと話す",
+    "complete_tips": "エリザベスと話す(0/1)",
     "complete_type": 1,
     "id": 10002340,
     "is_tech_task": 0,
@@ -2618,7 +2617,7 @@
     "name": "飛行装置大アップグレード",
     "navigation": 1003,
     "rec_perform": "",
-    "reward_exp": 400,
+    "reward_exp": 300,
     "reward_show": [
       [
         41,
@@ -2659,7 +2658,7 @@
     "name": "謎の専門家",
     "navigation": 1003,
     "rec_perform": "",
-    "reward_exp": 400,
+    "reward_exp": 300,
     "reward_show": [
       [
         41,
@@ -2699,7 +2698,7 @@
     "name": "不思議な集会島",
     "navigation": 1003,
     "rec_perform": "",
-    "reward_exp": 400,
+    "reward_exp": 300,
     "reward_show": [
       [
         41,
@@ -2742,7 +2741,7 @@
     "name": "輝く未来",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 400,
+    "reward_exp": 300,
     "reward_show": [
       [
         41,
@@ -2891,7 +2890,7 @@
     "complete_tips": "",
     "complete_type": 2,
     "id": 10003020,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
@@ -2931,7 +2930,7 @@
       "ISLAND1001036_1"
     ],
     "complete_data": 10060002,
-    "complete_tips": "アムマーマーのところへ行こう",
+    "complete_tips": "アムマーマーのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10003030,
     "is_tech_task": 0,
@@ -2941,7 +2940,7 @@
     "name": "商店街グルメ",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -2974,7 +2973,7 @@
       "ISLAND1001036_2"
     ],
     "complete_data": 10060002,
-    "complete_tips": "アムマーマーのところへ行こう",
+    "complete_tips": "アムマーマーのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10003040,
     "is_tech_task": 0,
@@ -2984,7 +2983,7 @@
     "name": "商業振興",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3061,7 +3060,7 @@
     "name": "繁茂農園にて",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3104,7 +3103,7 @@
     "name": "野原でミツバチ探し",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3137,22 +3136,27 @@
       "ISLAND1001039"
     ],
     "complete_data": 10050003,
-    "complete_tips": "ラコニアのところへ行こう",
+    "complete_tips": "ラコニアのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 10003070,
-    "is_tech_task": 0,
+    "is_tech_task": 1,
     "link_task": [],
     "map_complete_tips": 1005,
     "map_trigger_tips": 0,
     "name": "ミツバチとはちみつ",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
         1,
         2000
+      ],
+      [
+        41,
+        1016,
+        1
       ]
     ],
     "series": "芽吹編",
@@ -3190,7 +3194,7 @@
     "name": "りんごの木",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3260,7 +3264,7 @@
       "ISLAND1001042"
     ],
     "complete_data": 10050003,
-    "complete_tips": "ラコニアにも味見させてあげよう",
+    "complete_tips": "ラコニアにも味見させてあげよう(0/1)",
     "complete_type": 1,
     "id": 10003091,
     "is_tech_task": 0,
@@ -3270,7 +3274,7 @@
     "name": "豊作のりんご",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3303,7 +3307,7 @@
       "ISLAND1001043"
     ],
     "complete_data": 10050003,
-    "complete_tips": "ラコニアに伝えに行こう",
+    "complete_tips": "ラコニアに伝えに行こう(0/1)",
     "complete_type": 1,
     "id": 10003100,
     "is_tech_task": 0,
@@ -3313,7 +3317,7 @@
     "name": "苗場の開拓",
     "navigation": 1005,
     "rec_perform": "",
-    "reward_exp": 500,
+    "reward_exp": 400,
     "reward_show": [
       [
         41,
@@ -3323,12 +3327,12 @@
       [
         50,
         10004,
-        120
+        60
       ],
       [
         50,
         20004,
-        24
+        12
       ]
     ],
     "series": "芽吹編",
@@ -3430,7 +3434,7 @@
       "ISLANDPERFORMANCE_PATH_15"
     ],
     "complete_data": 10070030,
-    "complete_tips": "明石と話そう",
+    "complete_tips": "明石と話そう(0/1)",
     "complete_type": 1,
     "id": 10004020,
     "is_tech_task": 0,
@@ -3521,7 +3525,7 @@
       "ISLANDSIDE01501"
     ],
     "complete_data": 10090018,
-    "complete_tips": "明石と話そう",
+    "complete_tips": "明石と話そう(0/1)",
     "complete_type": 1,
     "id": 10019999,
     "is_tech_task": 0,
@@ -3535,8 +3539,8 @@
     "reward_show": [
       [
         41,
-        100000,
-        3
+        100201,
+        2
       ],
       [
         41,
@@ -3549,7 +3553,7 @@
     "target_id": [
       40005
     ],
-    "task_desc": "離島の権限移転とともに、明石巨額の借金を背負わされた…",
+    "task_desc": "離島の権限移転とともに、明石から巨額の借金を背負わされた…",
     "trigger_data": 0,
     "trigger_tips": 1,
     "trigger_type": 2,
@@ -3569,7 +3573,7 @@
       "ISLANDSIDE00103"
     ],
     "complete_data": 10040002,
-    "complete_tips": "戻ってオブラインに伝えよう",
+    "complete_tips": "戻ってオブラインに伝えよう(0/1)",
     "complete_type": 1,
     "id": 20001001,
     "is_tech_task": 0,
@@ -3613,7 +3617,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "ガラーン！ポン！",
+    "name": "効率こそ勝利",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3634,7 +3638,7 @@
     "target_id": [
       200010021
     ],
-    "task_desc": "遠くから音が聞こえてきた。何が起きたんだろう？",
+    "task_desc": "効率こそ勝利、伐採作業のコツは精神を集中することだ！",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3658,7 +3662,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "折れたレール",
+    "name": "効率こそ勝利",
     "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3668,7 +3672,7 @@
     "target_id": [
       200010031
     ],
-    "task_desc": "高負荷の作業で、鉱山のレールが破断してしまったようだ。",
+    "task_desc": "効率こそ勝利、伐採作業のコツは精神を集中することだ！",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3685,14 +3689,14 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 0,
-    "complete_tips": "早くオブラインに届けよう",
+    "complete_tips": "",
     "complete_type": 2,
     "id": 20001004,
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "仮設レール",
+    "name": "ガラーン！ポン！",
     "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3702,7 +3706,7 @@
     "target_id": [
       200010041
     ],
-    "task_desc": "一旦はこれで。あとは仕事を終えてから考えよう。",
+    "task_desc": "遠くから音が聞こえてきた。何が起きたんだろう？",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3710,7 +3714,7 @@
     "unlock_condition": [
       [
         2,
-        20001002
+        20001003
       ]
     ],
     "unlock_time": "always"
@@ -3726,7 +3730,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "今日は必ず完成させる",
+    "name": "折れたレール",
     "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3736,7 +3740,7 @@
     "target_id": [
       200010051
     ],
-    "task_desc": "仮設レールが加工され、トロッコが再び動き出した。",
+    "task_desc": "高負荷の作業で、鉱山のレールが破断してしまったようだ。",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3756,14 +3760,14 @@
       "ISLANDSIDE00108"
     ],
     "complete_data": 10040002,
-    "complete_tips": "ジョンに休憩していいと伝える",
+    "complete_tips": "早くオブラインに届けよう(0/1)",
     "complete_type": 1,
     "id": 20001006,
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 1004,
     "map_trigger_tips": 0,
-    "name": "最後の鉱石",
+    "name": "仮設レール",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3784,7 +3788,7 @@
     "target_id": [
       200010061
     ],
-    "task_desc": "進捗が遅れて、追いつけなくなりそうだ……どうしよう！",
+    "task_desc": "一旦はこれで。あとは仕事を終えてから考えよう。",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3808,7 +3812,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "河岸の音符",
+    "name": "今日は必ず完成させる",
     "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3818,7 +3822,7 @@
     "target_id": [
       200010071
     ],
-    "task_desc": "河岸から楽しい歌声が聞こえてきた。仕事を終えた誰かだろうか？",
+    "task_desc": "仮設レールが加工され、トロッコが再び動き出した。",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3838,14 +3842,14 @@
       "ISLANDSIDE00110"
     ],
     "complete_data": 10040022,
-    "complete_tips": "告诉乔安可以休息了",
+    "complete_tips": "ジョンに休憩していいと伝える(0/1)",
     "complete_type": 1,
     "id": 20001008,
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 1004,
     "map_trigger_tips": 0,
-    "name": "効率こそ勝利",
+    "name": "最後の鉱石",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -3866,7 +3870,7 @@
     "target_id": [
       200010081
     ],
-    "task_desc": "効率こそ勝利、伐採作業のコツは精神を集中することだ！",
+    "task_desc": "進捗が遅れて、追いつけなくなりそうだ……どうしよう！",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -3893,7 +3897,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "効率こそ勝利",
+    "name": "河岸の音符",
     "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 100,
@@ -3924,7 +3928,7 @@
     "target_id": [
       200010091
     ],
-    "task_desc": "効率こそ勝利、伐採作業のコツは精神を集中することだ！",
+    "task_desc": "河岸から楽しい歌声が聞こえてきた。仕事を終えた誰かだろうか？",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -4012,7 +4016,7 @@
       "ISLANDSIDE00205"
     ],
     "complete_data": 10020009,
-    "complete_tips": "戻ってパトリックに伝えよう",
+    "complete_tips": "戻ってパトリックに伝えよう(0/1)",
     "complete_type": 1,
     "id": 20002003,
     "is_tech_task": 0,
@@ -4049,7 +4053,7 @@
       "ISLANDSIDE00206"
     ],
     "complete_data": 10020009,
-    "complete_tips": "絵筆をパトリックに持って行こう",
+    "complete_tips": "絵筆をパトリックに持って行こう(0/1)",
     "complete_type": 1,
     "id": 20002004,
     "is_tech_task": 0,
@@ -4086,7 +4090,7 @@
       "ISLANDSIDE00207"
     ],
     "complete_data": 10040002,
-    "complete_tips": "オブラインのところへ行って額縁を作ってもらおう",
+    "complete_tips": "オブラインのところへ行って額縁を作ってもらおう(0/1)",
     "complete_type": 1,
     "id": 20002005,
     "is_tech_task": 0,
@@ -4200,7 +4204,7 @@
     "unlock_condition": [
       [
         2,
-        10001141
+        10004010
       ]
     ],
     "unlock_time": "always"
@@ -4212,7 +4216,7 @@
       "ISLANDSIDE00303"
     ],
     "complete_data": 10040022,
-    "complete_tips": "ジョンのところへ行こう",
+    "complete_tips": "ジョンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20003002,
     "is_tech_task": 0,
@@ -4249,7 +4253,7 @@
       "ISLANDSIDE00304"
     ],
     "complete_data": 10040022,
-    "complete_tips": "戻ってジョンのところへ行こう",
+    "complete_tips": "戻ってジョンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20003003,
     "is_tech_task": 0,
@@ -4334,6 +4338,46 @@
     ],
     "unlock_time": "always"
   },
+  "20004000": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "前置",
+    "complete_type": 2,
+    "id": 20004000,
+    "is_tech_task": 0,
+    "link_task": [
+      0
+    ],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "開発レベルを上げよう",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "開発レベルを上げよう",
+    "target_id": [
+      200040000
+    ],
+    "task_desc": "前置",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10003040
+      ],
+      [
+        2,
+        20011005
+      ]
+    ],
+    "unlock_time": "always"
+  },
   "20004001": {
     "com_page": "",
     "com_perform": "",
@@ -4363,11 +4407,7 @@
     "unlock_condition": [
       [
         2,
-        10003040
-      ],
-      [
-        2,
-        20011005
+        20004000
       ]
     ],
     "unlock_time": "always"
@@ -4379,7 +4419,7 @@
       "ISLANDSIDE00403"
     ],
     "complete_data": 10090008,
-    "complete_tips": "ブレーメンのところへ行こう",
+    "complete_tips": "ブレーメンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20004002,
     "is_tech_task": 0,
@@ -4493,7 +4533,7 @@
     "unlock_condition": [
       [
         2,
-        10002140
+        10002150
       ]
     ],
     "unlock_time": "always"
@@ -4610,7 +4650,7 @@
       "ISLANDSIDE00507"
     ],
     "complete_data": 10010003,
-    "complete_tips": "戻ってアメリゴのところへ行こう",
+    "complete_tips": "戻ってアメリゴのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20005005,
     "is_tech_task": 0,
@@ -4912,7 +4952,7 @@
       "ISLANDSIDE00606"
     ],
     "complete_data": 10010003,
-    "complete_tips": "戻ってアメリゴのところへ行こう",
+    "complete_tips": "戻ってアメリゴのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20006004,
     "is_tech_task": 0,
@@ -5093,7 +5133,7 @@
       "ISLANDSIDE00611"
     ],
     "complete_data": 10010003,
-    "complete_tips": "戻ってアメリゴのところへ行こう",
+    "complete_tips": "戻ってアメリゴのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20006009,
     "is_tech_task": 0,
@@ -5146,7 +5186,7 @@
       "ISLANDSIDE00702"
     ],
     "complete_data": 10040057,
-    "complete_tips": "壁の中の名無しに会いに行こう",
+    "complete_tips": "壁の中の名無しに会いに行こう(0/1)",
     "complete_type": 1,
     "id": 20007001,
     "is_tech_task": 0,
@@ -5194,7 +5234,7 @@
       "ISLANDSIDE00704"
     ],
     "complete_data": 10020026,
-    "complete_tips": "カートの中の名無しに会いに行こう",
+    "complete_tips": "カートの中の名無しに会いに行こう(0/1)",
     "complete_type": 1,
     "id": 20007002,
     "is_tech_task": 0,
@@ -5241,8 +5281,8 @@
       1,
       "ISLANDSIDE00706"
     ],
-    "complete_data": 10010082,
-    "complete_tips": "井の中の名無しに会いに行こう",
+    "complete_data": 10010087,
+    "complete_tips": "井の中の名無しに会いに行こう(0/1)",
     "complete_type": 1,
     "id": 20007003,
     "is_tech_task": 0,
@@ -5271,7 +5311,7 @@
       200070031
     ],
     "task_desc": "農場のミツバチも見逃せない！",
-    "trigger_data": 10010082,
+    "trigger_data": 10010087,
     "trigger_tips": 1,
     "trigger_type": 1,
     "type": 2,
@@ -5293,7 +5333,7 @@
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 0,
-    "map_trigger_tips": 1001,
+    "map_trigger_tips": 1004,
     "name": "疲労回復のはちみつ水",
     "navigation": 1002,
     "rec_perform": "ISLANDSIDE00707",
@@ -5305,7 +5345,7 @@
       200070041
     ],
     "task_desc": "一晩ぐっすり眠れるようにしてくれるはちみつ水。美味しそうな響きだ。",
-    "trigger_data": 10010082,
+    "trigger_data": 10040057,
     "trigger_tips": 1,
     "trigger_type": 1,
     "type": 2,
@@ -5324,7 +5364,7 @@
       "ISLANDSIDE00710"
     ],
     "complete_data": 10090008,
-    "complete_tips": "戻ってブレーメンのところへ行こう",
+    "complete_tips": "戻ってブレーメンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20007005,
     "is_tech_task": 0,
@@ -5509,7 +5549,7 @@
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
     "name": "名無し",
-    "navigation": 1001,
+    "navigation": 1004,
     "rec_perform": "",
     "reward_exp": 200,
     "reward_show": [
@@ -5551,14 +5591,14 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 0,
-    "complete_tips": "ステファンのところへ行って状況を確認する",
+    "complete_tips": "",
     "complete_type": 2,
     "id": 20008001,
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 1002,
-    "name": "明石!",
+    "name": "緊急依頼",
     "navigation": 1002,
     "rec_perform": "ISLANDSIDE00801",
     "reward_exp": 0,
@@ -5588,7 +5628,7 @@
       "ISLANDSIDE00803"
     ],
     "complete_data": 10020004,
-    "complete_tips": "戻ってステファンのところへ行こう",
+    "complete_tips": "戻ってステファンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20008002,
     "is_tech_task": 0,
@@ -5605,7 +5645,7 @@
     "target_id": [
       200080021
     ],
-    "task_desc": "港の倉庫から石炭の一部がなくなった。緊急補充が必要だ！",
+    "task_desc": "港の倉庫から木材の一部がなくなった。緊急補充が必要だ！",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -5625,7 +5665,7 @@
       "ISLANDSIDE00804"
     ],
     "complete_data": 10020004,
-    "complete_tips": "戻ってステファンのところへ行こう",
+    "complete_tips": "戻ってステファンのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20008003,
     "is_tech_task": 0,
@@ -5642,7 +5682,7 @@
     "target_id": [
       200080031
     ],
-    "task_desc": "石炭の配送に成功した。物流リスクが低減されたか見てみよう。",
+    "task_desc": "石炭もなくなった。早く集めてステファンに届けよう！",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -5905,7 +5945,7 @@
       "ISLANDSIDE01004"
     ],
     "complete_data": 10020009,
-    "complete_tips": "パトリックの考えを聞く",
+    "complete_tips": "パトリックの考えを聞く(0/1)",
     "complete_type": 1,
     "id": 20010002,
     "is_tech_task": 0,
@@ -5942,7 +5982,7 @@
       "ISLANDSIDE01006"
     ],
     "complete_data": 10010003,
-    "complete_tips": "アメリゴに元気を保つ秘訣を聞く",
+    "complete_tips": "アメリゴに元気を保つ秘訣を聞く(0/1)",
     "complete_type": 1,
     "id": 20010003,
     "is_tech_task": 0,
@@ -6050,7 +6090,7 @@
       "ISLANDSIDE01011"
     ],
     "complete_data": 10090008,
-    "complete_tips": "ブレーメンとレシピを改良する",
+    "complete_tips": "ブレーメンとレシピを改良する(0/1)",
     "complete_type": 1,
     "id": 20010006,
     "is_tech_task": 0,
@@ -6124,7 +6164,7 @@
       "ISLANDSIDE01014"
     ],
     "complete_data": 10090008,
-    "complete_tips": "パトリックの提案をブレーメンに伝える",
+    "complete_tips": "パトリックの提案をブレーメンに伝える(0/1)",
     "complete_type": 1,
     "id": 20010008,
     "is_tech_task": 0,
@@ -6138,7 +6178,27 @@
     "reward_show": [
       [
         41,
-        1,
+        110001,
+        2
+      ],
+      [
+        41,
+        110002,
+        1
+      ],
+      [
+        41,
+        110003,
+        1
+      ],
+      [
+        41,
+        110004,
+        1
+      ],
+      [
+        41,
+        110005,
         1
       ]
     ],
@@ -6272,7 +6332,7 @@
       "ISLANDSIDE01105"
     ],
     "complete_data": 10060002,
-    "complete_tips": "戻ってアムマーマーに渡そう",
+    "complete_tips": "戻ってアムマーマーに渡そう(0/1)",
     "complete_type": 1,
     "id": 20011004,
     "is_tech_task": 0,
@@ -6321,7 +6381,7 @@
       "ISLANDSIDE01106"
     ],
     "complete_data": 10060002,
-    "complete_tips": "戻ってアムマーマーに渡そう",
+    "complete_tips": "戻ってアムマーマーに渡そう(0/1)",
     "complete_type": 1,
     "id": 20011005,
     "is_tech_task": 0,
@@ -6409,7 +6469,7 @@
       "ISLANDSIDE01204"
     ],
     "complete_data": 10040002,
-    "complete_tips": "オブラインに新しい剪定ばさみを1本作ってもらう",
+    "complete_tips": "オブラインに新しい剪定ばさみを1本作ってもらう(0/1)",
     "complete_type": 1,
     "id": 20012002,
     "is_tech_task": 0,
@@ -6480,7 +6540,7 @@
       "ISLANDSIDE01206"
     ],
     "complete_data": 10050002,
-    "complete_tips": "戻ってルシタニアに渡そう",
+    "complete_tips": "戻ってルシタニアに渡そう(0/1)",
     "complete_type": 1,
     "id": 20012004,
     "is_tech_task": 0,
@@ -6517,7 +6577,7 @@
       "ISLANDSIDE01207"
     ],
     "complete_data": 10050002,
-    "complete_tips": "戻ってルシタニアに渡そう",
+    "complete_tips": "戻ってルシタニアに渡そう(0/1)",
     "complete_type": 1,
     "id": 20012005,
     "is_tech_task": 0,
@@ -6701,7 +6761,7 @@
       "ISLANDSIDE01212"
     ],
     "complete_data": 10050002,
-    "complete_tips": "戻ってルシタニアに渡そう",
+    "complete_tips": "戻ってルシタニアに渡そう(0/1)",
     "complete_type": 1,
     "id": 20012010,
     "is_tech_task": 0,
@@ -6747,6 +6807,42 @@
     ],
     "unlock_time": "always"
   },
+  "20013000": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "開発レベルを上げよう",
+    "complete_type": 2,
+    "id": 20013000,
+    "is_tech_task": 0,
+    "link_task": [
+      0
+    ],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "開発レベルを上げよう",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "開発レベルを上げよう",
+    "target_id": [
+      200130000
+    ],
+    "task_desc": "開発レベルを上げよう",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10003100
+      ]
+    ],
+    "unlock_time": "always"
+  },
   "20013001": {
     "com_page": "",
     "com_perform": "",
@@ -6776,7 +6872,7 @@
     "unlock_condition": [
       [
         2,
-        10003100
+        20013000
       ]
     ],
     "unlock_time": "always"
@@ -6853,7 +6949,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 0,
-    "complete_tips": "戻ってパトリックのところへ行こう",
+    "complete_tips": "戻ってパトリックのところへ行こう(0/1)",
     "complete_type": 2,
     "id": 20013004,
     "is_tech_task": 0,
@@ -6924,7 +7020,7 @@
       "ISLANDSIDE01307"
     ],
     "complete_data": 10050003,
-    "complete_tips": "戻ってラコニアのところへ行こう",
+    "complete_tips": "戻ってラコニアのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20013006,
     "is_tech_task": 0,
@@ -6961,7 +7057,7 @@
       "ISLANDSIDE01308"
     ],
     "complete_data": 10050003,
-    "complete_tips": "戻ってラコニアのところへ行こう",
+    "complete_tips": "戻ってラコニアのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20013007,
     "is_tech_task": 0,
@@ -7095,7 +7191,7 @@
       "ISLANDSIDE01402"
     ],
     "complete_data": 0,
-    "complete_tips": "地図に印をつけた場所まで宝物を探しに行こう",
+    "complete_tips": "地図に印をつけた場所まで宝物を探しに行こう(0/1)",
     "complete_type": 2,
     "id": 20014002,
     "is_tech_task": 0,
@@ -7131,8 +7227,8 @@
       1,
       "ISLANDSIDE01404"
     ],
-    "complete_data": 10070004,
-    "complete_tips": "離島基地でカードの残高を見に行こう",
+    "complete_data": 10070026,
+    "complete_tips": "離島基地でカードの残高を見に行こう(0/1)",
     "complete_type": 1,
     "id": 20014003,
     "is_tech_task": 0,
@@ -7177,13 +7273,13 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 0,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 2,
     "id": 20015001,
     "is_tech_task": 0,
     "link_task": [],
     "map_complete_tips": 0,
-    "map_trigger_tips": 1003,
+    "map_trigger_tips": 1002,
     "name": "スタート！",
     "navigation": 0,
     "rec_perform": "ISLANDSIDE01601",
@@ -7206,7 +7302,7 @@
       200150011
     ],
     "task_desc": "離島開発の時間だ！ピアリは資源の計画をしているらしいから、会いに行こう",
-    "trigger_data": 10030006,
+    "trigger_data": 10020025,
     "trigger_tips": 0,
     "trigger_type": 1,
     "type": 2,
@@ -7225,7 +7321,7 @@
       "ISLANDSIDE01602"
     ],
     "complete_data": 10030006,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 20015002,
     "is_tech_task": 0,
@@ -7284,7 +7380,7 @@
     "reward_show": [
       [
         41,
-        1,
+        100001,
         1
       ]
     ],
@@ -7324,7 +7420,7 @@
     "reward_show": [
       [
         41,
-        1,
+        100001,
         1
       ]
     ],
@@ -7364,7 +7460,7 @@
     "reward_show": [
       [
         41,
-        1,
+        110001,
         1
       ]
     ],
@@ -7404,7 +7500,7 @@
     "reward_show": [
       [
         41,
-        1,
+        100001,
         1
       ]
     ],
@@ -7445,7 +7541,7 @@
       [
         41,
         1,
-        1
+        1000
       ]
     ],
     "series": "",
@@ -7480,14 +7576,8 @@
     "name": "饅頭配達",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -7524,7 +7614,7 @@
     "reward_show": [
       [
         41,
-        1,
+        110001,
         1
       ]
     ],
@@ -7532,8 +7622,7 @@
     "series_name": "離島での日々",
     "target_id": [
       300000071,
-      300000072,
-      300000073
+      300000072
     ],
     "task_desc": "貨物輸送が滞っていて、みんなに配る物資が港に溜まったままだ。",
     "trigger_data": 0,
@@ -7567,7 +7656,7 @@
       [
         41,
         1,
-        1
+        1000
       ]
     ],
     "series": "",
@@ -7606,7 +7695,7 @@
     "reward_show": [
       [
         41,
-        1,
+        110001,
         1
       ]
     ],
@@ -7646,8 +7735,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -7686,8 +7775,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        110001,
+        2
       ]
     ],
     "series": "",
@@ -7726,8 +7815,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -7762,14 +7851,8 @@
     "name": "饅頭配達",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -7807,7 +7890,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -7844,14 +7927,8 @@
     "name": "饅頭配達",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -7889,7 +7966,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -7926,14 +8003,8 @@
     "name": "饅頭配達",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -7977,7 +8048,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8014,14 +8085,8 @@
     "name": "饅頭配達",
     "navigation": 1002,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -8065,7 +8130,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8102,14 +8167,8 @@
     "name": "出前サービス",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -8153,7 +8212,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8190,14 +8249,8 @@
     "name": "出前サービス",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -8241,7 +8294,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8278,14 +8331,8 @@
     "name": "出前サービス",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -8329,7 +8376,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8366,14 +8413,8 @@
     "name": "出前サービス",
     "navigation": 1006,
     "rec_perform": "",
-    "reward_exp": 50,
-    "reward_show": [
-      [
-        41,
-        1,
-        1
-      ]
-    ],
+    "reward_exp": 0,
+    "reward_show": [],
     "series": "",
     "series_name": "離島での日々",
     "target_id": [
@@ -8417,7 +8458,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8459,7 +8500,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8499,7 +8540,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8539,7 +8580,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8579,7 +8620,7 @@
       [
         41,
         1,
-        1
+        2000
       ]
     ],
     "series": "",
@@ -8618,8 +8659,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8658,8 +8699,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8698,8 +8739,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8742,8 +8783,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8786,8 +8827,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8830,8 +8871,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        2
       ]
     ],
     "series": "",
@@ -8874,8 +8915,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -8914,8 +8955,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -8954,8 +8995,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -8998,8 +9039,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9042,8 +9083,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9086,8 +9127,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9130,8 +9171,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9174,8 +9215,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9218,8 +9259,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9262,8 +9303,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9306,8 +9347,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100002,
+        2
       ]
     ],
     "series": "",
@@ -9346,7 +9387,7 @@
     "reward_show": [
       [
         41,
-        1,
+        100002,
         1
       ]
     ],
@@ -9386,8 +9427,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100001,
+        20
       ]
     ],
     "series": "",
@@ -9426,8 +9467,13 @@
     "reward_show": [
       [
         41,
-        1,
+        100002,
         1
+      ],
+      [
+        41,
+        100102,
+        2
       ]
     ],
     "series": "",
@@ -9466,8 +9512,8 @@
     "reward_show": [
       [
         41,
-        1,
-        1
+        100103,
+        3
       ]
     ],
     "series": "",
@@ -9492,7 +9538,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001001,
     "is_tech_task": 0,
@@ -9536,7 +9582,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9562,7 +9608,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001002,
     "is_tech_task": 0,
@@ -9608,7 +9654,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9634,7 +9680,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001003,
     "is_tech_task": 0,
@@ -9680,7 +9726,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9706,7 +9752,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001004,
     "is_tech_task": 0,
@@ -9752,7 +9798,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9778,7 +9824,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001005,
     "is_tech_task": 0,
@@ -9829,7 +9875,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9855,7 +9901,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001006,
     "is_tech_task": 0,
@@ -9906,7 +9952,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -9932,7 +9978,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50001007,
     "is_tech_task": 0,
@@ -9983,7 +10029,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10009,7 +10055,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002001,
     "is_tech_task": 0,
@@ -10053,7 +10099,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10079,7 +10125,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002002,
     "is_tech_task": 0,
@@ -10125,7 +10171,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10151,7 +10197,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002003,
     "is_tech_task": 0,
@@ -10197,7 +10243,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10223,7 +10269,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002004,
     "is_tech_task": 0,
@@ -10269,7 +10315,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10295,7 +10341,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002005,
     "is_tech_task": 0,
@@ -10346,7 +10392,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10372,7 +10418,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002006,
     "is_tech_task": 0,
@@ -10423,7 +10469,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10449,7 +10495,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50002007,
     "is_tech_task": 0,
@@ -10500,7 +10546,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10526,7 +10572,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50003001,
     "is_tech_task": 0,
@@ -10570,7 +10616,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10596,7 +10642,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50003002,
     "is_tech_task": 0,
@@ -10642,7 +10688,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10668,7 +10714,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50003003,
     "is_tech_task": 0,
@@ -10714,7 +10760,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,
@@ -10740,7 +10786,7 @@
     "com_page": "",
     "com_perform": "",
     "complete_data": 10020025,
-    "complete_tips": "ピアリのところへ行こう",
+    "complete_tips": "ピアリのところへ行こう(0/1)",
     "complete_type": 1,
     "id": 50003004,
     "is_tech_task": 0,
@@ -10786,7 +10832,7 @@
         [
           2025,
           9,
-          25
+          29
         ],
         [
           0,

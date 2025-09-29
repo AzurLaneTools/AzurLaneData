@@ -181,11 +181,11 @@
       ],
       [
         0.9,
-        20104
+        20116
       ],
       [
         1,
-        20105
+        20117
       ]
     ],
     "unlock_type": 3101003,
@@ -703,7 +703,7 @@
     "drop_display": [
       [
         2700,
-        2
+        1
       ]
     ],
     "harvest_vfx": 60021,
@@ -779,7 +779,7 @@
         20028
       ]
     ],
-    "unlock_type": 3401002,
+    "unlock_type": 0,
     "vfx_offset": "",
     "workload": 24000
   },
@@ -989,7 +989,7 @@
     "drop_display": [
       [
         2800,
-        2
+        1
       ]
     ],
     "harvest_vfx": 60021,
@@ -4663,14 +4663,14 @@
     "commission_cost": [
       [
         1,
-        4000
+        15000
       ]
     ],
     "commission_product": [],
     "cost": [
       [
         1,
-        4000
+        15000
       ]
     ],
     "drop_display": [],
@@ -4684,12 +4684,12 @@
     "pt_award": 0,
     "second_product": [],
     "second_product_display": [],
-    "ship_exp": 10,
-    "stamina_cost": 2,
+    "ship_exp": 60,
+    "stamina_cost": 12,
     "unitid": "",
     "unlock_type": 37100004,
     "vfx_offset": "",
-    "workload": 6000
+    "workload": 36000
   },
   "7100301": {
     "affected_vfx": "",
@@ -5733,14 +5733,14 @@
     "commission_cost": [
       [
         1,
-        4000
+        15000
       ]
     ],
     "commission_product": [],
     "cost": [
       [
         1,
-        4000
+        15000
       ]
     ],
     "drop_display": [],
@@ -5754,12 +5754,12 @@
     "pt_award": 0,
     "second_product": [],
     "second_product_display": [],
-    "ship_exp": 10,
-    "stamina_cost": 2,
+    "ship_exp": 120,
+    "stamina_cost": 24,
     "unitid": "",
     "unlock_type": 37130301,
     "vfx_offset": "",
-    "workload": 6000
+    "workload": 72000
   },
   "7130302": {
     "affected_vfx": "",
@@ -5769,14 +5769,14 @@
     "commission_cost": [
       [
         1,
-        6000
+        30000
       ]
     ],
     "commission_product": [],
     "cost": [
       [
         1,
-        6000
+        30000
       ]
     ],
     "drop_display": [],
@@ -5790,12 +5790,12 @@
     "pt_award": 0,
     "second_product": [],
     "second_product_display": [],
-    "ship_exp": 30,
-    "stamina_cost": 6,
+    "ship_exp": 120,
+    "stamina_cost": 24,
     "unitid": "",
     "unlock_type": 37130302,
     "vfx_offset": "",
-    "workload": 18000
+    "workload": 72000
   },
   "7140101": {
     "affected_vfx": "",
@@ -7806,8 +7806,8 @@
         20000
       ],
       [
-        2007,
-        8
+        2011,
+        37
       ]
     ],
     "commission_product": [],
@@ -7817,8 +7817,8 @@
         20000
       ],
       [
-        2007,
-        8
+        2011,
+        37
       ]
     ],
     "drop_display": [],
@@ -11055,50 +11055,6 @@
     "vfx_offset": "",
     "workload": 18000
   },
-  "7610103": {
-    "affected_vfx": "",
-    "affected_vfx_offset": "",
-    "attribute": 6,
-    "collectable_vfx": 0,
-    "commission_cost": [
-      [
-        1,
-        4000
-      ],
-      [
-        2700,
-        33
-      ]
-    ],
-    "commission_product": [],
-    "cost": [
-      [
-        1,
-        4000
-      ],
-      [
-        2700,
-        33
-      ]
-    ],
-    "drop_display": [],
-    "harvest_vfx": 0,
-    "hitpoint": 0,
-    "id": 7610103,
-    "is_condition": 1,
-    "item_id": 0,
-    "name": "輸送依頼上限＋Ⅲ",
-    "production_limit": 1,
-    "pt_award": 0,
-    "second_product": [],
-    "second_product_display": [],
-    "ship_exp": 30,
-    "stamina_cost": 6,
-    "unitid": "",
-    "unlock_type": 37610103,
-    "vfx_offset": "",
-    "workload": 18000
-  },
   "7610401": {
     "affected_vfx": "",
     "affected_vfx_offset": "",
@@ -12981,7 +12937,6 @@
     7550204,
     7610101,
     7610102,
-    7610103,
     7610401,
     7610402,
     7610403,
