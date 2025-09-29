@@ -10,7 +10,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "赛季",
+      "Seasonal",
       "saiji",
       "IslandShopIcon/tuijian"
     ],
@@ -29,7 +29,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "赛季商品"
+      "Seasonal"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -71,13 +71,13 @@
     "order": 1,
     "second_shop": 10011,
     "shop_icon": [
-      "赛季商店",
+      "Seasonal",
       "mystery"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "阶段一商店"
+      "Stage 1"
     ],
     "tag_type": 3,
     "top_jump": [
@@ -116,13 +116,13 @@
     "order": 1,
     "second_shop": 10011,
     "shop_icon": [
-      "赛季商店",
+      "Seasonal",
       "mystery"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "阶段二商店"
+      "Stage 2"
     ],
     "tag_type": 3,
     "top_jump": [
@@ -161,13 +161,13 @@
     "order": 1,
     "second_shop": 10011,
     "shop_icon": [
-      "赛季商店",
+      "Seasonal",
       "mystery"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "阶段三商店"
+      "Stage 3"
     ],
     "tag_type": 3,
     "top_jump": [
@@ -192,7 +192,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "磨坊",
+      "Flour Mill",
       "Mill",
       "IslandShopIcon/daoju"
     ],
@@ -211,7 +211,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "加工"
+      "Products"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -231,13 +231,13 @@
     "order": 10,
     "second_shop": 10020,
     "shop_icon": [
-      "磨坊",
-      "Mill"
+      "Flour Mill",
+      "Flour Mill"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "加工"
+      "Products"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -259,6 +259,219 @@
       ]
     ]
   },
+  "10022": {
+    "dress_type": 0,
+    "first_shop": 0,
+    "goods_id": "",
+    "id": 10022,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds",
+      "Seeds",
+      "IslandShopIcon/daoju"
+    ],
+    "tag_type": 1,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10023": {
+    "dress_type": 0,
+    "first_shop": 10022,
+    "goods_id": "",
+    "id": 10023,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds"
+    ],
+    "tag_type": 2,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10024": {
+    "dress_type": 0,
+    "first_shop": 10022,
+    "goods_id": [
+      411000,
+      411001,
+      411002,
+      411003,
+      411005,
+      411006,
+      411008,
+      411009
+    ],
+    "id": 10024,
+    "order": 1,
+    "second_shop": 10023,
+    "shop_icon": [
+      "Seeds",
+      "Seed Shop"
+    ],
+    "shop_type": 1,
+    "show_type": 2,
+    "tag_icon": [
+      "Faircrop Fields"
+    ],
+    "tag_type": 3,
+    "top_jump": "",
+    "top_resource": [
+      [
+        0,
+        41,
+        1
+      ]
+    ]
+  },
+  "10025": {
+    "dress_type": 0,
+    "first_shop": 0,
+    "goods_id": "",
+    "id": 10025,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds",
+      "Seeds",
+      "IslandShopIcon/daoju"
+    ],
+    "tag_type": 1,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10026": {
+    "dress_type": 0,
+    "first_shop": 10025,
+    "goods_id": "",
+    "id": 10026,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds"
+    ],
+    "tag_type": 2,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10027": {
+    "dress_type": 0,
+    "first_shop": 10025,
+    "goods_id": [
+      411016,
+      411017,
+      411018,
+      411019,
+      411020,
+      411021,
+      411022,
+      411023,
+      411024
+    ],
+    "id": 10027,
+    "order": 1,
+    "second_shop": 10026,
+    "shop_icon": [
+      "Seeds",
+      "Seed Shop"
+    ],
+    "shop_type": 1,
+    "show_type": 2,
+    "tag_icon": [
+      "Sweetscent Orchard"
+    ],
+    "tag_type": 3,
+    "top_jump": "",
+    "top_resource": [
+      [
+        0,
+        41,
+        1
+      ]
+    ]
+  },
+  "10028": {
+    "dress_type": 0,
+    "first_shop": 0,
+    "goods_id": "",
+    "id": 10028,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds",
+      "Seeds",
+      "IslandShopIcon/daoju"
+    ],
+    "tag_type": 1,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10029": {
+    "dress_type": 0,
+    "first_shop": 10028,
+    "goods_id": "",
+    "id": 10029,
+    "order": 1,
+    "second_shop": 0,
+    "shop_icon": "",
+    "shop_type": 0,
+    "show_type": 2,
+    "tag_icon": [
+      "Seeds"
+    ],
+    "tag_type": 2,
+    "top_jump": "",
+    "top_resource": ""
+  },
+  "10030": {
+    "dress_type": 0,
+    "first_shop": 10028,
+    "goods_id": [
+      411004,
+      411007,
+      411010,
+      411011,
+      411012,
+      411014,
+      411015
+    ],
+    "id": 10030,
+    "order": 1,
+    "second_shop": 10029,
+    "shop_icon": [
+      "Seeds",
+      "Seed Shop"
+    ],
+    "shop_type": 1,
+    "show_type": 2,
+    "tag_icon": [
+      "Newsprout Nursery"
+    ],
+    "tag_type": 3,
+    "top_jump": "",
+    "top_resource": [
+      [
+        0,
+        41,
+        1
+      ]
+    ]
+  },
   "10109": {
     "dress_type": 0,
     "first_shop": 0,
@@ -270,7 +483,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "种子",
+      "Seeds",
       "Seeds",
       "IslandShopIcon/daoju"
     ],
@@ -289,7 +502,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "种子"
+      "Seeds"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -312,13 +525,13 @@
     "order": 1,
     "second_shop": 10110,
     "shop_icon": [
-      "种子商店",
+      "Seeds",
       "Seed Shop"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "丰壤农田"
+      "Faircrop Fields"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -348,13 +561,13 @@
     "order": 1,
     "second_shop": 10110,
     "shop_icon": [
-      "种子商店",
+      "Seeds",
       "Seed Shop"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "坠香果园"
+      "Sweetscent Orchard"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -382,13 +595,13 @@
     "order": 1,
     "second_shop": 10110,
     "shop_icon": [
-      "种子商店",
+      "Seeds",
       "Seed Shop"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "青芽苗圃"
+      "Newsprout Nursery"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -411,7 +624,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "道具",
+      "Items",
       "Items",
       "IslandShopIcon/daoju"
     ],
@@ -430,7 +643,7 @@
     "shop_type": 0,
     "show_type": 2,
     "tag_icon": [
-      "道具"
+      "Items"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -449,13 +662,13 @@
     "order": 2,
     "second_shop": 10131,
     "shop_icon": [
-      "道具商店",
+      "Items",
       "Item Shop"
     ],
     "shop_type": 1,
     "show_type": 2,
     "tag_icon": [
-      "道具"
+      "Items"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -464,6 +677,11 @@
         0,
         1,
         14
+      ],
+      [
+        0,
+        41,
+        1
       ]
     ]
   },
@@ -478,7 +696,7 @@
     "shop_type": 0,
     "show_type": 5,
     "tag_icon": [
-      "装扮",
+      "Appearance",
       "Appearance",
       "IslandShopIcon/shizhuang"
     ],
@@ -497,7 +715,7 @@
     "shop_type": 0,
     "show_type": 5,
     "tag_icon": [
-      "配饰"
+      "Accessories"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -514,7 +732,7 @@
     "shop_type": 0,
     "show_type": 5,
     "tag_icon": [
-      "服装"
+      "Costumes"
     ],
     "tag_type": 2,
     "top_jump": "",
@@ -532,13 +750,13 @@
     "order": 10,
     "second_shop": 50122,
     "shop_icon": [
-      "服装商店",
+      "Costumes",
       "Costume Shop"
     ],
     "shop_type": 1,
     "show_type": 5,
     "tag_icon": [
-      "角色服装"
+      "Shipgirl Costumes"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -560,13 +778,13 @@
     "order": 10,
     "second_shop": 50121,
     "shop_icon": [
-      "配饰商店",
+      "Accessories",
       "‌Accessory Shop"
     ],
     "shop_type": 1,
     "show_type": 5,
     "tag_icon": [
-      "脚印"
+      "Trail"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -588,13 +806,13 @@
     "order": 10,
     "second_shop": 50121,
     "shop_icon": [
-      "配饰商店",
+      "Accessories",
       "‌Accessory Shop"
     ],
     "shop_type": 1,
     "show_type": 5,
     "tag_icon": [
-      "背饰"
+      "Back"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -616,13 +834,13 @@
     "order": 10,
     "second_shop": 50121,
     "shop_icon": [
-      "配饰商店",
+      "Accessories",
       "‌Accessory Shop"
     ],
     "shop_type": 1,
     "show_type": 5,
     "tag_icon": [
-      "漂浮物"
+      "Floating"
     ],
     "tag_type": 3,
     "top_jump": "",
@@ -651,6 +869,15 @@
     10019,
     10020,
     10021,
+    10022,
+    10023,
+    10024,
+    10025,
+    10026,
+    10027,
+    10028,
+    10029,
+    10030,
     50111,
     50121,
     50131,
@@ -665,6 +892,9 @@
       10130,
       10010,
       10019,
+      10022,
+      10025,
+      10028,
       50111
     ],
     "10010": [
@@ -676,6 +906,18 @@
     "10019": [
       10020,
       10021
+    ],
+    "10022": [
+      10023,
+      10024
+    ],
+    "10025": [
+      10026,
+      10027
+    ],
+    "10028": [
+      10029,
+      10030
     ],
     "10109": [
       10110,
@@ -706,6 +948,12 @@
       10011,
       10019,
       10020,
+      10022,
+      10023,
+      10025,
+      10026,
+      10028,
+      10029,
       50111,
       50121,
       50122
@@ -717,6 +965,15 @@
     ],
     "10020": [
       10021
+    ],
+    "10023": [
+      10024
+    ],
+    "10026": [
+      10027
+    ],
+    "10029": [
+      10030
     ],
     "10110": [
       10111,

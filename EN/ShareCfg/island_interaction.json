@@ -395,7 +395,7 @@
         2016
       ]
     ],
-    "text": "Produce a commodity.",
+    "text": "Make a commodity.",
     "type": 6
   },
   "1206": {
@@ -1445,6 +1445,21 @@
     "text": "Reckon this will do?",
     "type": 21
   },
+  "2202": {
+    "groupId": 22,
+    "icon": 7,
+    "id": 2202,
+    "only_self": 0,
+    "param": "ISLANDPERFORMANCE3",
+    "show_condition": [
+      [
+        2,
+        10001050
+      ]
+    ],
+    "text": "This must be the bus stop...",
+    "type": 21
+  },
   "2301": {
     "groupId": 23,
     "icon": 1,
@@ -2381,7 +2396,7 @@
         305020221
       ]
     ],
-    "text": "Homeric...",
+    "text": "Delivery's here!",
     "type": 1
   },
   "3007": {
@@ -2458,6 +2473,33 @@
     ],
     "text": "Homeric!",
     "type": 1
+  },
+  "3012": {
+    "groupId": 30,
+    "icon": 15,
+    "id": 3012,
+    "only_self": 0,
+    "param": [
+      "IslandShopPage",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        10022
+      ]
+    ],
+    "show_condition": [
+      [
+        4,
+        10002070
+      ]
+    ],
+    "text": "Go check out the Seed Shop",
+    "type": 6
   },
   "3101": {
     "groupId": 31,
@@ -2720,7 +2762,7 @@
         10019999
       ]
     ],
-    "text": "{namecode:98:明石}！",
+    "text": "Akashi!",
     "type": 12
   },
   "4001": {
@@ -2769,7 +2811,7 @@
         0
       ]
     ],
-    "text": "Claim supplies.",
+    "text": "Claim Supplies",
     "type": 14
   },
   "4102": {
@@ -3362,7 +3404,7 @@
     "show_condition": [
       [
         11,
-        2005
+        99101
       ]
     ],
     "text": "Manage the orchard.",
@@ -3551,6 +3593,33 @@
     "text": "What's wrong?",
     "type": 11
   },
+  "5314": {
+    "groupId": 53,
+    "icon": 15,
+    "id": 5314,
+    "only_self": 0,
+    "param": [
+      "IslandShopPage",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        10025
+      ]
+    ],
+    "show_condition": [
+      [
+        11,
+        404
+      ]
+    ],
+    "text": "Go check out the Seed Shop",
+    "type": 6
+  },
   "5401": {
     "groupId": 54,
     "icon": 7,
@@ -3648,7 +3717,7 @@
     "show_condition": [
       [
         11,
-        2006
+        99111
       ]
     ],
     "text": "(Manage the nursery.)",
@@ -3837,6 +3906,33 @@
     "text": "I'm done harvesting the lavenders.",
     "type": 12
   },
+  "5715": {
+    "groupId": 57,
+    "icon": 15,
+    "id": 5715,
+    "only_self": 0,
+    "param": [
+      "IslandShopPage",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        10028
+      ]
+    ],
+    "show_condition": [
+      [
+        4,
+        10003070
+      ]
+    ],
+    "text": "Go check out the Seed Shop",
+    "type": 6
+  },
   "5800": {
     "groupId": 58,
     "icon": 1,
@@ -3906,7 +4002,7 @@
         50001001
       ]
     ],
-    "text": "Produce Autumn Specialties (1/7)",
+    "text": "Gather Autumn Specialties (1/7)",
     "type": 12
   },
   "5805": {
@@ -3919,9 +4015,13 @@
       [
         3,
         50001002
+      ],
+      [
+        4,
+        50001001
       ]
     ],
-    "text": "Produce Autumn Specialties (2/7)",
+    "text": "Gather Autumn Specialties (2/7)",
     "type": 12
   },
   "5806": {
@@ -3934,9 +4034,13 @@
       [
         3,
         50001003
+      ],
+      [
+        4,
+        50001002
       ]
     ],
-    "text": "Produce Autumn Specialties (3/7)",
+    "text": "Gather Autumn Specialties (3/7)",
     "type": 12
   },
   "5807": {
@@ -3949,9 +4053,13 @@
       [
         3,
         50001004
+      ],
+      [
+        4,
+        50001003
       ]
     ],
-    "text": "Produce Autumn Specialties (4/7)",
+    "text": "Gather Autumn Specialties (4/7)",
     "type": 12
   },
   "5808": {
@@ -3964,9 +4072,13 @@
       [
         3,
         50001005
+      ],
+      [
+        4,
+        50001004
       ]
     ],
-    "text": "Produce Autumn Specialties (5/7)",
+    "text": "Gather Autumn Specialties (5/7)",
     "type": 12
   },
   "5809": {
@@ -3979,9 +4091,13 @@
       [
         3,
         50001006
+      ],
+      [
+        4,
+        50001005
       ]
     ],
-    "text": "Produce Autumn Specialties (6/7)",
+    "text": "Gather Autumn Specialties (6/7)",
     "type": 12
   },
   "5810": {
@@ -3994,9 +4110,13 @@
       [
         3,
         50001007
+      ],
+      [
+        4,
+        50001006
       ]
     ],
-    "text": "Produce Autumn Specialties (7/7)",
+    "text": "Gather Autumn Specialties (7/7)",
     "type": 12
   },
   "5811": {
@@ -4011,7 +4131,7 @@
         50002001
       ]
     ],
-    "text": "Produce Autumn Specialties (1/7)",
+    "text": "Make Autumn Specialties (1/7)",
     "type": 12
   },
   "5812": {
@@ -4024,9 +4144,13 @@
       [
         3,
         50002002
+      ],
+      [
+        4,
+        50002001
       ]
     ],
-    "text": "Produce Autumn Specialties (2/7)",
+    "text": "Make Autumn Specialties (2/7)",
     "type": 12
   },
   "5813": {
@@ -4039,9 +4163,13 @@
       [
         3,
         50002003
+      ],
+      [
+        4,
+        50002002
       ]
     ],
-    "text": "Produce Autumn Specialties (3/7)",
+    "text": "Make Autumn Specialties (3/7)",
     "type": 12
   },
   "5814": {
@@ -4054,9 +4182,13 @@
       [
         3,
         50002004
+      ],
+      [
+        4,
+        50002003
       ]
     ],
-    "text": "Produce Autumn Specialties (4/7)",
+    "text": "Make Autumn Specialties (4/7)",
     "type": 12
   },
   "5815": {
@@ -4069,9 +4201,13 @@
       [
         3,
         50002005
+      ],
+      [
+        4,
+        50002004
       ]
     ],
-    "text": "Produce Autumn Specialties (5/7)",
+    "text": "Make Autumn Specialties (5/7)",
     "type": 12
   },
   "5816": {
@@ -4084,9 +4220,13 @@
       [
         3,
         50002006
+      ],
+      [
+        4,
+        50002005
       ]
     ],
-    "text": "Produce Autumn Specialties (6/7)",
+    "text": "Make Autumn Specialties (6/7)",
     "type": 12
   },
   "5817": {
@@ -4099,9 +4239,13 @@
       [
         3,
         50002007
+      ],
+      [
+        4,
+        50002006
       ]
     ],
-    "text": "Produce Autumn Specialties (7/7)",
+    "text": "Make Autumn Specialties (7/7)",
     "type": 12
   },
   "5818": {
@@ -4129,6 +4273,10 @@
       [
         3,
         50003002
+      ],
+      [
+        4,
+        50003001
       ]
     ],
     "text": "Autumn Specialty Order (2/4)",
@@ -4144,6 +4292,10 @@
       [
         3,
         50003003
+      ],
+      [
+        4,
+        50003002
       ]
     ],
     "text": "Autumn Specialty Order (3/4)",
@@ -4159,6 +4311,10 @@
       [
         3,
         50003004
+      ],
+      [
+        4,
+        50003003
       ]
     ],
     "text": "Autumn Specialty Order (4/4)",
@@ -4397,12 +4553,7 @@
     "id": 6305,
     "only_self": 0,
     "param": "45",
-    "show_condition": [
-      [
-        11,
-        2012
-      ]
-    ],
+    "show_condition": [],
     "text": "Return",
     "type": 22
   },
