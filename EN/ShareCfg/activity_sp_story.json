@@ -4724,6 +4724,285 @@
     "story_type": 1,
     "unlock_conditions": "Clear EX-4"
   },
+  "271": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 271,
+    "lock": "",
+    "name": "EPS-1 The Long and Short of It",
+    "pre_event": "",
+    "story": "QINGKONGXIADEXIEHOUGUANQIA1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "272": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 272,
+    "lock": [
+      [
+        4,
+        271
+      ]
+    ],
+    "name": "EP1-1 Hestia's Visit",
+    "pre_event": [
+      271
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA2",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-1."
+  },
+  "273": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 273,
+    "lock": [
+      [
+        4,
+        272
+      ]
+    ],
+    "name": "EP1-2 The God and the Dungeon",
+    "pre_event": [
+      272
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA3",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-1."
+  },
+  "274": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 274,
+    "lock": [
+      [
+        4,
+        273
+      ]
+    ],
+    "name": "EP1-3 Confluence",
+    "pre_event": [
+      273
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA4",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-2."
+  },
+  "275": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 275,
+    "lock": [
+      [
+        4,
+        274
+      ]
+    ],
+    "name": "EP2-1 Ryu's Story",
+    "pre_event": [
+      271
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA5",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-3."
+  },
+  "276": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 276,
+    "lock": [
+      [
+        4,
+        275
+      ]
+    ],
+    "name": "EP2-2 The God and the Adventurer",
+    "pre_event": [
+      275
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA6",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-1."
+  },
+  "277": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 277,
+    "lock": [
+      [
+        4,
+        276
+      ]
+    ],
+    "name": "EP2-3 Supply Issue",
+    "pre_event": [
+      276
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA7",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-2."
+  },
+  "278": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 278,
+    "lock": [
+      [
+        4,
+        277
+      ]
+    ],
+    "name": "EP3-1 Cooking",
+    "pre_event": [
+      274,
+      277
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA8",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-3."
+  },
+  "279": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 279,
+    "lock": [
+      [
+        4,
+        278
+      ]
+    ],
+    "name": "EP3-2 Adventurer's Magic",
+    "pre_event": [
+      278
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA9",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-1."
+  },
+  "280": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 280,
+    "lock": [
+      [
+        4,
+        279
+      ]
+    ],
+    "name": "EP3-3 Drops",
+    "pre_event": [
+      279
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA10",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-2."
+  },
+  "281": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 281,
+    "lock": [
+      [
+        4,
+        280
+      ]
+    ],
+    "name": "EP4-1 Riggings",
+    "pre_event": [
+      280
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA11",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-3."
+  },
+  "282": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 282,
+    "lock": [
+      [
+        4,
+        281
+      ]
+    ],
+    "name": "EP4-2 Freely Speeding Across the Sea",
+    "pre_event": [
+      281
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA12",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-1"
+  },
+  "283": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 283,
+    "lock": [
+      [
+        4,
+        282
+      ]
+    ],
+    "name": "EP4-3 First Real Battle",
+    "pre_event": [
+      282
+    ],
+    "story": "1967001",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP4-2"
+  },
+  "284": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 284,
+    "lock": [
+      [
+        4,
+        283
+      ]
+    ],
+    "name": "EP4-4 A Seasoned Adventurer",
+    "pre_event": [
+      283
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA14",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-3"
+  },
+  "285": {
+    "change_background": "",
+    "change_bgm": "",
+    "change_prefab": "",
+    "id": 285,
+    "lock": [
+      [
+        4,
+        284
+      ]
+    ],
+    "name": "EP4-5 Welcome to the Port",
+    "pre_event": [
+      284
+    ],
+    "story": "QINGKONGXIADEXIEHOUGUANQIA15",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-4"
+  },
   "all": [
     1,
     2,
@@ -4975,6 +5254,21 @@
     266,
     267,
     268,
-    269
+    269,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285
   ]
 }
