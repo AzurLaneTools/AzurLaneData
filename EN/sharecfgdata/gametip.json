@@ -3080,16 +3080,16 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "Lützow, Seydlitz, and Yorck added to standard build pool!"
+    "tip": "São Martinho added to standard build pool!"
   },
   "buildship_light_tip": {
-    "tip": "Emden and Elbing added to standard build pool!"
+    "tip": "Golden Hind added to standard build pool!"
   },
   "buildship_new_tip": {
-    "tip": "Get Hakuhou guaranteed with every 200 event builds (can be done up to 4 times)!"
+    "tip": "Rate UP for Clemenceau, Guichen, and more!"
   },
   "buildship_special_tip": {
-    "tip": "Leonardo da Vinci added to the standard build pool!"
+    "tip": "Mary Celeste and Whydah added to standard build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -6147,6 +6147,9 @@
   "dorm3d_furnitrue_type_floor": {
     "tip": "Flooring"
   },
+  "dorm3d_furnitrue_type_special": {
+    "tip": "Exclusive"
+  },
   "dorm3d_furnitrue_type_table": {
     "tip": "Tables"
   },
@@ -6514,7 +6517,7 @@
     "tip": "Excl."
   },
   "dorm3d_purchase_label_special": {
-    "tip": "Bonus"
+    "tip": "Exclusive"
   },
   "dorm3d_purchase_outtime": {
     "tip": "Not currently available."
@@ -6642,6 +6645,9 @@
   "dorm3d_shop_tag7": {
     "tip": "Unlocks the beach slide story (you must place the character in the shared beach area.)"
   },
+  "dorm3d_shop_tag8": {
+    "tip": "Unlock Tights Interaction"
+  },
   "dorm3d_shop_title": {
     "tip": "Quarters Shop"
   },
@@ -6686,6 +6692,9 @@
   },
   "dorm3d_touch": {
     "tip": "Interact"
+  },
+  "dorm3d_touch2": {
+    "tip": "Touch ($1)"
   },
   "dorm3d_unlock_tips": {
     "tip": "Unlocked at Intimacy $1"
@@ -8537,7 +8546,7 @@
     "tip": "Typical 3D Settings"
   },
   "group_download_tip": {
-    "tip": "You must download $1 of data to perform an update.\n Proceed with download?"
+    "tip": "You must download $1 of data to perform \nan update. Proceed with download?"
   },
   "group_prefs_switch_tip": {
     "tip": "Asset download settings updated. They will apply after your next bootup."
@@ -13412,6 +13421,43 @@
       }
     }
   },
+  "island_help_character_info": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_character_info1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_character_info2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_character_info3",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "island_help_combo": {
     "tip": {
       "1": {
@@ -13826,6 +13872,25 @@
       }
     }
   },
+  "island_helpbtn_card": {
+    "tip": [
+      {
+        "info": "Information about the island is displayed on your profile. You can use the <color=#39bfff>Chat</color> and <color=#39bfff>Visit</color> functions to view other Commanders' profiles.\n<color=#E58A00>Achievements</color>: Tap to display the <color=#39bfff>achievements</color> you've completed on your profile.\n<color=#E58A00>Rename Island</color>: Tap to change the name of your island.\n<color=#E58A00>Change Greeting</color>: Tap to change the greeting displayed on your profile.\n<color=#E58A00>Tag Settings</color>: Tap to view the rating tags you've received.\n<color=#E58A00>Island Photos</color>: Tap to change your displayed island photos."
+      }
+    ]
+  },
+  "island_helpbtn_commission": {
+    "tip": "The Manage All menu lets you check on the status of your <color=#39bfff>Production</color>, <color=#39bfff>Management</color>, and <color=#39bfff>Daily Supplies</color>, as well as letting you manage each.\n<color=#E58A00>Production</color>: Tap the <color=#39bfff>assignment slots</color> to assign characters and claim produce. Tap the <color=#39bfff>button to swap</color> to alternate between the respective options.\n<color=#E58A00>Management</color>: Tap the <color=#39bfff>Manage</color> button to view what staff you have assigned as well as what dishes you're selling. Tap the button to <color=#39bfff>Open Business</color> to collect your revenue.\n<color=#E58A00>Supplies</color>: Tap the <color=#39bfff>Supplies</color> button to instantly jump to the collection site on Get-Together Island."
+  },
+  "island_helpbtn_order": {
+    "tip": "<color=#E58A00>Island Requests</color>: Spending the designated <color=#39bfff>resources</color> will complete the request. Completing requests gives you <color=#39bfff>Development Funds</color> and <color=#39bfff>Island Dev. EXP</color>.\n<color=#E58A00>Urgent Requests</color>: Urgent Requests are unlocked after you research them in <color=#39bfff>Tech Research</color>. They have a chance of appearing when <color=#39bfff>time passes</color>, when you <color=#39bfff>complete regular requests</color>, and when you undertake <color=#39bfff>transport jobs</color>.\n<color=#E58A00>Island Request Limit</color>: Regular requests and urgent requests have separate caps as to how many you can complete in a certain period. The regular requests limit is reset <color=#39bfff>daily</color>, while the urgent requests limit is reset <color=#39bfff>weekly</color>.\n<color=#E58A00>Request Preference</color>: This allows you to change the difficulty of the island requests that appear. The change will take effect starting from <color=#39bfff>the next time that requests are issued</color>."
+  },
+  "island_helpbtn_speedup": {
+    "tip": "You can use Express Tickets to speed up things like <color=#39bfff>the production time of an assigned slot</color>, <color=#39bfff>the refresh time of an island request</color>, and so on.\n\nDifferent tickets <color=#39bfff>speed the process up by different amounts of time</color>. Any excess time reduction <color=#FD5650>will not be reimbursed</color>. Furthermore, Express Tickets have <color=#39bfff>expiration dates</color>, and they will <color=#FD5650>expire</color> once you reach this limit."
+  },
+  "island_helpbtn_technology": {
+    "tip": "Island Tech lets you assign characters to research unlocked technologies and spend resources to obtain them. Advancing your research will unlock <color=#39bfff>new production sites</color> and <color=#39bfff>new products</color>.\n\n<color=#E58A00>- Authorization -</color>\nAuthorization lets you unlock many new things, including <color=#39bfff>new maps</color>, features such as <color=#39bfff>batch management</color>, <color=#39bfff>island requests</color>, <color=#39bfff>transport jobs</color>, additional <color=#39bfff>Daily Supplies</color> content, and Island Authority Permits that let you recruit <color=#39bfff>new characters</color> to your island.\n\n<color=#E58A00>- Research -</color>\nResearch lets you unlock things such as <color=#39bfff>working slots</color> in various production sites, improve your efficiency when manually harvesting and working, and unlock new <color=#39bfff>recipes</color> for you to use."
+  },
   "island_history_desc": {
     "tip": "Unlock hidden treasure chests by completely exploring an area!"
   },
@@ -13846,6 +13911,9 @@
   },
   "island_index_status": {
     "tip": "Buffed"
+  },
+  "island_information_tech": {
+    "tip": "Island Tech - $1 - $2"
   },
   "island_input_code_erro": {
     "tip": "Please enter a code."
@@ -14361,7 +14429,7 @@
     "tip": "The Development Ranks are updated every 30 minutes."
   },
   "island_season_help": {
-    "tip": "1. When a new season begins, your Island Development Points (IDP) will automatically reset.\n2. During a season, you can earn IDP by doing things such as exchanging resources, producing specific resources, completing transport jobs, participating in seasonal events, and making purchases in the shop.\n3. At the end of a season, the resources in your warehouse will be automatically converted to IDP, and you will be placed on the development ranking accordingly.\n4. When the season finishes, you will be unable to claim development and milestone rewards from the season that just ended."
+    "tip": "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>completing transport jobs</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
   },
   "island_season_pt": {
     "tip": "Milestone Points"
@@ -14584,6 +14652,15 @@
   },
   "island_ship_working": {
     "tip": "Working:"
+  },
+  "island_shiporder_refresh_preparing": {
+    "tip": "Refreshing Transport Jobs"
+  },
+  "island_shiporder_refresh_tip1": {
+    "tip": "You have already submitted this order and cannot change it."
+  },
+  "island_shiporder_refresh_tip2": {
+    "tip": "Do you want to refresh your transport jobs?"
   },
   "island_shipselect_confirm": {
     "tip": "Confirm "
