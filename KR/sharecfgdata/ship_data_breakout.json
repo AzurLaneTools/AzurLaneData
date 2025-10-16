@@ -48227,5 +48227,116 @@
     "use_gold": 0,
     "use_item": [],
     "weapon_ids": []
+  },
+  "11400011": {
+    "breakout_id": 11400012,
+    "breakout_view": "긴급 수리 횟수 +1 / 대공포 보정 +3%",
+    "icon": "10001",
+    "id": 11400011,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1140001,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11400012": {
+    "breakout_id": 11400013,
+    "breakout_view": "탄약 상한 +1 / 대공포 포좌 +1 / 대공포 보정 +5%",
+    "icon": "10001",
+    "id": 11400012,
+    "level": 30,
+    "pre_id": 11400011,
+    "use_char": 1140001,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11400013": {
+    "breakout_id": 11400014,
+    "breakout_view": "긴급 수리 횟수 +1 / 대공포 보정 +7%",
+    "icon": "10001",
+    "id": 11400013,
+    "level": 70,
+    "pre_id": 11400012,
+    "use_char": 1140001,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11400014": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11400014,
+    "level": 0,
+    "pre_id": 11400013,
+    "use_char": 1140001,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
+  },
+  "11400021": {
+    "breakout_id": 11400022,
+    "breakout_view": "주포 보정 +5%",
+    "icon": "10001",
+    "id": 11400021,
+    "level": 10,
+    "pre_id": 0,
+    "use_char": 1140002,
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "use_item": [],
+    "weapon_ids": [
+      42240
+    ]
+  },
+  "11400022": {
+    "breakout_id": 11400023,
+    "breakout_view": "어뢰 발사 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+    "icon": "10001",
+    "id": 11400022,
+    "level": 30,
+    "pre_id": 11400021,
+    "use_char": 1140002,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "use_item": [],
+    "weapon_ids": [
+      106,
+      106
+    ]
+  },
+  "11400023": {
+    "breakout_id": 11400024,
+    "breakout_view": "주포 보정 +15%",
+    "icon": "10001",
+    "id": 11400023,
+    "level": 70,
+    "pre_id": 11400022,
+    "use_char": 1140002,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "use_item": [],
+    "weapon_ids": [
+      42240
+    ]
+  },
+  "11400024": {
+    "breakout_id": 0,
+    "breakout_view": "없음",
+    "icon": "10001",
+    "id": 11400024,
+    "level": 0,
+    "pre_id": 11400023,
+    "use_char": 1140002,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "use_item": [],
+    "weapon_ids": []
   }
 }
