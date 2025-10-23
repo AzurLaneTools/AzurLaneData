@@ -5003,6 +5003,551 @@
     "story_type": 1,
     "unlock_conditions": "Clear EP4-4"
   },
+  "291": {
+    "change_background": "star_level_bg_163",
+    "change_bgm": "theme-SeaAndSun-image",
+    "change_prefab": "",
+    "id": 291,
+    "lock": "",
+    "name": "EPS-1 Treasure Abound",
+    "pre_event": "",
+    "story": "JUFENGYUZIYOUQUNDAO1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "292": {
+    "change_background": "star_level_bg_163",
+    "change_bgm": "theme-SeaAndSun-soft",
+    "change_prefab": "",
+    "id": 292,
+    "lock": [
+      [
+        4,
+        291
+      ]
+    ],
+    "name": "EP1-1 You Are Invited",
+    "pre_event": [
+      291
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO2",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-1."
+  },
+  "293": {
+    "change_background": "star_level_bg_194",
+    "change_bgm": "danmachi-az-story",
+    "change_prefab": "",
+    "id": 293,
+    "lock": [
+      [
+        4,
+        292
+      ]
+    ],
+    "name": "EP1-2 The Wooden Compass",
+    "pre_event": [
+      292
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO3",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-1."
+  },
+  "294": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "story-tempest-marching",
+    "change_prefab": "",
+    "id": 294,
+    "lock": [
+      [
+        4,
+        293
+      ]
+    ],
+    "name": "EP1-3 Limestone Island",
+    "pre_event": [
+      293
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO4",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-2."
+  },
+  "295": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "story-tempest-marching",
+    "change_prefab": "",
+    "id": 295,
+    "lock": [
+      [
+        4,
+        294
+      ]
+    ],
+    "name": "EP2-1 Tempestuous Dreams",
+    "pre_event": [
+      294
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO5",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-3."
+  },
+  "296": {
+    "change_background": "bg_jufengv3_cg1",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 296,
+    "lock": [
+      [
+        4,
+        295
+      ]
+    ],
+    "name": "EP2-2 Veil of the Night Sky",
+    "pre_event": [
+      295
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO6",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-1."
+  },
+  "297": {
+    "change_background": "star_level_bg_525",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 297,
+    "lock": [
+      [
+        4,
+        296
+      ]
+    ],
+    "name": "EP2-3 Arrival on the Isles",
+    "pre_event": [
+      296
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO7",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-2."
+  },
+  "298": {
+    "change_background": "star_level_bg_504",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 298,
+    "lock": [
+      [
+        4,
+        297
+      ]
+    ],
+    "name": "EP2-4 Prepping for the Treasure Hunt",
+    "pre_event": [
+      297
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO8",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-3."
+  },
+  "299": {
+    "change_background": "star_level_bg_194",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 299,
+    "lock": [
+      [
+        4,
+        298
+      ]
+    ],
+    "name": "EP3-1 The Hunters in Mar del Demonios",
+    "pre_event": [
+      298
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO9",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-4."
+  },
+  "300": {
+    "change_background": "star_level_bg_162",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 300,
+    "lock": [
+      [
+        4,
+        299
+      ]
+    ],
+    "name": "EP3-2 Snatch Everything Up!",
+    "pre_event": [
+      298
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO10",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-1."
+  },
+  "301": {
+    "change_background": "bg_jufengv3_1",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 301,
+    "lock": [
+      [
+        4,
+        300
+      ]
+    ],
+    "name": "EP3-3 Visit From Old Friends",
+    "pre_event": [
+      299,
+      300
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO11",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-2."
+  },
+  "302": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "story-temepest-1",
+    "change_prefab": "",
+    "id": 302,
+    "lock": [
+      [
+        4,
+        301
+      ]
+    ],
+    "name": "EP4-1 Searching the Lighthouse",
+    "pre_event": [
+      301
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO12",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-3."
+  },
+  "303": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "theme-tempest",
+    "change_prefab": "",
+    "id": 303,
+    "lock": [
+      [
+        4,
+        302
+      ]
+    ],
+    "name": "EP4-2 Uninvited Guests",
+    "pre_event": [
+      302
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO13",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-1"
+  },
+  "304": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 304,
+    "lock": [
+      [
+        4,
+        303
+      ]
+    ],
+    "name": "EP4-3 São Martinho's Concern",
+    "pre_event": [
+      303
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO14",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-2"
+  },
+  "305": {
+    "change_background": "star_level_bg_504",
+    "change_bgm": "story-tempest-marching",
+    "change_prefab": "",
+    "id": 305,
+    "lock": [
+      [
+        4,
+        304
+      ]
+    ],
+    "name": "EP5-1 Uninvited Guests II",
+    "pre_event": [
+      304
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO15",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP4-3"
+  },
+  "306": {
+    "change_background": "bg_jufengv3_cg2",
+    "change_bgm": "battle-nightmare-theme",
+    "change_prefab": "",
+    "id": 306,
+    "lock": [
+      [
+        4,
+        305
+      ]
+    ],
+    "name": "EP5-2 Early Morning Wreckages",
+    "pre_event": [
+      305
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO16",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP5-1"
+  },
+  "307": {
+    "change_background": "star_level_bg_524",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 307,
+    "lock": [
+      [
+        4,
+        306
+      ]
+    ],
+    "name": "EP5-3 Impromptu Response",
+    "pre_event": [
+      306
+    ],
+    "story": "1978001",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP5-2"
+  },
+  "308": {
+    "change_background": "bg_jufengv3_1",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 308,
+    "lock": [
+      [
+        4,
+        307
+      ]
+    ],
+    "name": "EP6-1 Doubts",
+    "pre_event": [
+      307
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO18",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP5-3"
+  },
+  "309": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "story-tempest-marching",
+    "change_prefab": "",
+    "id": 309,
+    "lock": [
+      [
+        4,
+        308
+      ]
+    ],
+    "name": "EP6-2 Searching the Ancient Temple",
+    "pre_event": [
+      308
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO19",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-1"
+  },
+  "310": {
+    "change_background": "star_level_bg_106",
+    "change_bgm": "theme-SeaAndSun-soft",
+    "change_prefab": "",
+    "id": 310,
+    "lock": [
+      [
+        4,
+        309
+      ]
+    ],
+    "name": "EPS-2 Tempestuous Dreams II",
+    "pre_event": [
+      309
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO20",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-2"
+  },
+  "311": {
+    "change_background": "bg_jufengv3_1",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "",
+    "id": 311,
+    "lock": [
+      [
+        4,
+        310
+      ]
+    ],
+    "name": "EPS-3 Reunion",
+    "pre_event": [
+      310
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO21",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-2."
+  },
+  "312": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "story-tempest-marching",
+    "change_prefab": "",
+    "id": 312,
+    "lock": [
+      [
+        4,
+        311
+      ]
+    ],
+    "name": "EP7-1 Exploring the Metallic Cave",
+    "pre_event": [
+      311
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO22",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-3."
+  },
+  "313": {
+    "change_background": "bg_jufengv3_cg3",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 313,
+    "lock": [
+      [
+        4,
+        312
+      ]
+    ],
+    "name": "EP7-2 Tempestuous Dreams III",
+    "pre_event": [
+      312
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO23",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP7-1."
+  },
+  "314": {
+    "change_background": "bg_jufengv3_2",
+    "change_bgm": "story-temepest-2",
+    "change_prefab": "",
+    "id": 314,
+    "lock": [
+      [
+        4,
+        313
+      ]
+    ],
+    "name": "EP7-3 Searching the Lighthouse II",
+    "pre_event": [
+      313
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO24",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP7-2."
+  },
+  "315": {
+    "change_background": "star_level_bg_539",
+    "change_bgm": "story-tempest-freedom",
+    "change_prefab": "",
+    "id": 315,
+    "lock": [
+      [
+        4,
+        314
+      ]
+    ],
+    "name": "EP7-4 One Strike to Seize Victory",
+    "pre_event": [
+      314
+    ],
+    "story": "1978002",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-3."
+  },
+  "316": {
+    "change_background": "star_level_bg_524",
+    "change_bgm": "theme-ganjisawai",
+    "change_prefab": "",
+    "id": 316,
+    "lock": [
+      [
+        4,
+        315
+      ]
+    ],
+    "name": "EP7-5 Libertypolis",
+    "pre_event": [
+      315
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO26",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP7-4."
+  },
+  "317": {
+    "change_background": "star_level_bg_163",
+    "change_bgm": "theme-tempest-up",
+    "change_prefab": "",
+    "id": 317,
+    "lock": [
+      [
+        4,
+        316
+      ]
+    ],
+    "name": "EX-1 A Priest and The Servant II",
+    "pre_event": [
+      316
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO27",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP7-5."
+  },
+  "318": {
+    "change_background": "bg_story_task_3",
+    "change_bgm": "battle-eagleunion",
+    "change_prefab": "",
+    "id": 318,
+    "lock": [
+      [
+        4,
+        317
+      ]
+    ],
+    "name": "EX-2 Unresolved Questions",
+    "pre_event": [
+      317
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO28",
+    "story_type": 1,
+    "unlock_conditions": "Clear EX-1"
+  },
+  "319": {
+    "change_background": "bg_jufengv3_1",
+    "change_bgm": "theme-tempest-light",
+    "change_prefab": "Map_1970001",
+    "id": 319,
+    "lock": [
+      [
+        4,
+        318
+      ]
+    ],
+    "name": "EX-3 Boundary of Our World",
+    "pre_event": [
+      318
+    ],
+    "story": "JUFENGYUZIYOUQUNDAO29",
+    "story_type": 1,
+    "unlock_conditions": "Clear EX-2"
+  },
   "all": [
     1,
     2,
@@ -5269,6 +5814,35 @@
     282,
     283,
     284,
-    285
+    285,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319
   ]
 }
