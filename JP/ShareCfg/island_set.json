@@ -57,8 +57,10 @@
     "favorite_gifts_state",
     "work_points",
     "mining_recovery_time",
+    "mining_recovery_tim_new",
     "collection_point_recovery_time",
     "mission_gather_point",
+    "mining_default_slot",
     "base_efficiency",
     "stamina_cost",
     "detection_parameters",
@@ -657,6 +659,40 @@
     "key_value_int": 4,
     "key_value_varchar": ""
   },
+  "mining_default_slot": {
+    "key": "mining_default_slot",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      [
+        401,
+        [
+          2001,
+          2002,
+          2003,
+          2004,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ]
+      ],
+      [
+        402,
+        [
+          2011,
+          2012,
+          2013,
+          2014,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      ]
+    ]
+  },
   "mining_ore_spawn_point": {
     "key": "mining_ore_spawn_point",
     "key_value_int": 0,
@@ -666,8 +702,16 @@
       10040005,
       10040006,
       10040007,
-      10040008
+      10040008,
+      10040070,
+      10040071,
+      10040072
     ]
+  },
+  "mining_recovery_tim_new": {
+    "key": "mining_recovery_tim_new",
+    "key_value_int": 10800,
+    "key_value_varchar": ""
   },
   "mining_recovery_time": {
     "key": "mining_recovery_time",
