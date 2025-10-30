@@ -57,8 +57,10 @@
     "favorite_gifts_state",
     "work_points",
     "mining_recovery_time",
+    "mining_recovery_tim_new",
     "collection_point_recovery_time",
     "mission_gather_point",
+    "mining_default_slot",
     "base_efficiency",
     "stamina_cost",
     "detection_parameters",
@@ -127,7 +129,9 @@
     "island_dress_follow_param",
     "island_ticket_shopid",
     "agora_reloading_base_cd",
-    "island_corncup_return_mail_content"
+    "island_corncup_return_mail_content",
+    "island_shiporder_refresh_cd",
+    "island_combo_count_limit"
   ],
   "base_efficiency": {
     "key": "base_efficiency",
@@ -429,6 +433,11 @@
     "key_value_int": 4001,
     "key_value_varchar": ""
   },
+  "island_combo_count_limit": {
+    "key": "island_combo_count_limit",
+    "key_value_int": 9999,
+    "key_value_varchar": ""
+  },
   "island_corncup_return_mail_content": {
     "key": "island_corncup_return_mail_content",
     "key_value_int": 0,
@@ -610,6 +619,11 @@
       ]
     ]
   },
+  "island_shiporder_refresh_cd": {
+    "key": "island_shiporder_refresh_cd",
+    "key_value_int": 1800,
+    "key_value_varchar": ""
+  },
   "island_ticket_shopid": {
     "key": "island_ticket_shopid",
     "key_value_int": 0,
@@ -645,6 +659,40 @@
     "key_value_int": 4,
     "key_value_varchar": ""
   },
+  "mining_default_slot": {
+    "key": "mining_default_slot",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      [
+        401,
+        [
+          2001,
+          2002,
+          2003,
+          2004,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ]
+      ],
+      [
+        402,
+        [
+          2011,
+          2012,
+          2013,
+          2014,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      ]
+    ]
+  },
   "mining_ore_spawn_point": {
     "key": "mining_ore_spawn_point",
     "key_value_int": 0,
@@ -654,8 +702,16 @@
       10040005,
       10040006,
       10040007,
-      10040008
+      10040008,
+      10040070,
+      10040071,
+      10040072
     ]
+  },
+  "mining_recovery_tim_new": {
+    "key": "mining_recovery_tim_new",
+    "key_value_int": 10800,
+    "key_value_varchar": ""
   },
   "mining_recovery_time": {
     "key": "mining_recovery_time",
