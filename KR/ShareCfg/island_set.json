@@ -127,7 +127,9 @@
     "island_dress_follow_param",
     "island_ticket_shopid",
     "agora_reloading_base_cd",
-    "island_corncup_return_mail_content"
+    "island_corncup_return_mail_content",
+    "island_shiporder_refresh_cd",
+    "island_combo_count_limit"
   ],
   "base_efficiency": {
     "key": "base_efficiency",
@@ -429,6 +431,11 @@
     "key_value_int": 4001,
     "key_value_varchar": ""
   },
+  "island_combo_count_limit": {
+    "key": "island_combo_count_limit",
+    "key_value_int": 9999,
+    "key_value_varchar": ""
+  },
   "island_corncup_return_mail_content": {
     "key": "island_corncup_return_mail_content",
     "key_value_int": 0,
@@ -609,6 +616,11 @@
         ]
       ]
     ]
+  },
+  "island_shiporder_refresh_cd": {
+    "key": "island_shiporder_refresh_cd",
+    "key_value_int": 1800,
+    "key_value_varchar": ""
   },
   "island_ticket_shopid": {
     "key": "island_ticket_shopid",
