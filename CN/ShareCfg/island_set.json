@@ -131,7 +131,12 @@
     "agora_reloading_base_cd",
     "island_corncup_return_mail_content",
     "island_shiporder_refresh_cd",
-    "island_combo_count_limit"
+    "island_combo_count_limit",
+    "couple_word_cd",
+    "island_shiporder_refresh",
+    "island_shiporder_list_quantity",
+    "island_shiporder_limit",
+    "island_guide_itemlimit"
   ],
   "base_efficiency": {
     "key": "base_efficiency",
@@ -166,6 +171,11 @@
         900
       ]
     ]
+  },
+  "couple_word_cd": {
+    "key": "couple_word_cd",
+    "key_value_int": 3,
+    "key_value_varchar": ""
   },
   "daily_gift": {
     "key": "daily_gift",
@@ -498,6 +508,11 @@
     "key_value_int": 3,
     "key_value_varchar": ""
   },
+  "island_guide_itemlimit": {
+    "key": "island_guide_itemlimit",
+    "key_value_int": 99999,
+    "key_value_varchar": ""
+  },
   "island_label_limit": {
     "key": "island_label_limit",
     "key_value_int": 2,
@@ -619,9 +634,27 @@
       ]
     ]
   },
+  "island_shiporder_limit": {
+    "key": "island_shiporder_limit",
+    "key_value_int": 1,
+    "key_value_varchar": ""
+  },
+  "island_shiporder_list_quantity": {
+    "key": "island_shiporder_list_quantity",
+    "key_value_int": 6,
+    "key_value_varchar": ""
+  },
+  "island_shiporder_refresh": {
+    "key": "island_shiporder_refresh",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      10800,
+      64800
+    ]
+  },
   "island_shiporder_refresh_cd": {
     "key": "island_shiporder_refresh_cd",
-    "key_value_int": 1800,
+    "key_value_int": 14400,
     "key_value_varchar": ""
   },
   "island_ticket_shopid": {
@@ -848,7 +881,7 @@
     "key_value_int": 0,
     "key_value_varchar": [
       1,
-      10,
+      25,
       0
     ]
   },
@@ -1057,7 +1090,7 @@
   },
   "work_points": {
     "key": "work_points",
-    "key_value_int": 15,
+    "key_value_int": 10,
     "key_value_varchar": ""
   }
 }

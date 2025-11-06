@@ -2391,10 +2391,10 @@
   "10002290": {
     "com_page": "",
     "com_perform": [
-      1,
-      "ISLAND1001032_2"
+      2,
+      "ISLANDPERFORMANCE_PATH_10"
     ],
-    "complete_data": 10030003,
+    "complete_data": 10030006,
     "complete_tips": "去和玛丽聊聊(0/1)",
     "complete_type": 1,
     "id": 10002290,
@@ -6834,7 +6834,7 @@
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
-    "type": 2,
+    "type": 9,
     "unlock_condition": [
       [
         2,
@@ -9534,6 +9534,71 @@
     ],
     "unlock_time": "always"
   },
+  "50000001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "id": 50000001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "优化进行中",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        2000
+      ]
+    ],
+    "series": "",
+    "series_name": "岛屿开发季",
+    "target_id": [
+      500000011
+    ],
+    "task_desc": "岛屿开发遇到了难题，佩芮陷入了崩溃与重做的螺旋，去找她看看情况吧。",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        20015002
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2025,
+          11,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
   "50001001": {
     "com_page": "",
     "com_perform": "",
@@ -9593,8 +9658,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9665,8 +9730,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9737,8 +9802,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9809,8 +9874,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9886,8 +9951,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9963,8 +10028,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10040,8 +10105,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10110,8 +10175,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10182,8 +10247,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10254,8 +10319,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10326,8 +10391,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10403,8 +10468,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10480,8 +10545,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10557,8 +10622,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10627,8 +10692,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10699,8 +10764,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10771,8 +10836,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10843,8 +10908,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10897,7 +10962,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001002": {
     "com_page": "",
@@ -10942,7 +11007,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001003": {
     "com_page": "",
@@ -10987,7 +11052,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001004": {
     "com_page": "",
@@ -11032,7 +11097,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001005": {
     "com_page": "",
@@ -11077,7 +11142,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001006": {
     "com_page": "",
@@ -11122,7 +11187,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001007": {
     "com_page": "",
@@ -11167,7 +11232,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001008": {
     "com_page": "",
@@ -11212,7 +11277,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001009": {
     "com_page": "",
@@ -11257,7 +11322,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001010": {
     "com_page": "",
@@ -11302,7 +11367,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001011": {
     "com_page": "",
@@ -11347,7 +11412,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001012": {
     "com_page": "",
@@ -11392,7 +11457,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001013": {
     "com_page": "",
@@ -11437,7 +11502,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001014": {
     "com_page": "",
@@ -11482,7 +11547,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001015": {
     "com_page": "",
@@ -11527,7 +11592,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001016": {
     "com_page": "",
@@ -11572,7 +11637,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001017": {
     "com_page": "",
@@ -11607,7 +11672,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001018": {
     "com_page": "",
@@ -11647,7 +11712,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001019": {
     "com_page": "",
@@ -11687,7 +11752,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001020": {
     "com_page": "",
@@ -11727,7 +11792,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001021": {
     "com_page": "",
@@ -11767,7 +11832,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001022": {
     "com_page": "",
@@ -11807,7 +11872,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001023": {
     "com_page": "",
@@ -11852,7 +11917,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001024": {
     "com_page": "",
@@ -11887,7 +11952,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001025": {
     "com_page": "",
@@ -11927,7 +11992,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001026": {
     "com_page": "",
@@ -11967,7 +12032,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001027": {
     "com_page": "",
@@ -12007,7 +12072,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001028": {
     "com_page": "",
@@ -12047,7 +12112,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001029": {
     "com_page": "",
@@ -12092,7 +12157,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001030": {
     "com_page": "",
@@ -12130,6 +12195,1291 @@
     "series_name": "",
     "target_id": [
       80010030
+    ],
+    "task_desc": "承载开发的重任，托起繁荣的未来。\n交付300次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "stop"
+  },
+  "80001101": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001101,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "麦田守望",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011001
+    ],
+    "task_desc": "为岛屿仓库输送优质的小麦，保障基础粮食供应。\n提交小麦*500",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001102": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001102,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "动物食品",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011002
+    ],
+    "task_desc": "供应新鲜的牧草，满足牧场动物的基础需求。\n提交牧草*500",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001103": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001103,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "开拓豆源",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011003
+    ],
+    "task_desc": "供应大量高蛋白大豆，丰富食品加工原料。\n提交大豆*500",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001104": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001104,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "稻米供应",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011004
+    ],
+    "task_desc": "稳定的主粮供应是开发的基础。\n提交大米*500",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001105": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001105,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "黄金粮仓",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011005
+    ],
+    "task_desc": "交付大量饱满的玉米，扩充开发区的食物种类。\n提交玉米*500",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001106": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001106,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "橙色活力",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011006
+    ],
+    "task_desc": "提供丰富的胡萝卜，增强维生素摄入，支持健康开发。\n提交胡萝卜*250",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001107": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001107,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "乳品补给",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011007
+    ],
+    "task_desc": "供应新鲜牛奶，补充钙质来源。\n提交牛奶*250",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001108": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001108,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "甜蜜引擎",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011008
+    ],
+    "task_desc": "充足的苹果汁能显著提升岛屿开发效率。\n提交苹果汁*250",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001109": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001109,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "咖啡供应",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011009
+    ],
+    "task_desc": "充足的冰咖啡能维持全岛开发者的工作效率。\n提交冰咖啡*250",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001110": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001110,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "烤肉能量",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011010
+    ],
+    "task_desc": "提供美味的炭烤肉串，快速补充体力。\n提交炭烤肉串*250",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001111": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001111,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "调味基础",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011011
+    ],
+    "task_desc": "优质的洋葱能提升开发区餐品风味。\n提交洋葱*100",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001112": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001112,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "健康饮食",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011012
+    ],
+    "task_desc": "调配蔬菜沙拉，提供均衡营养。\n提交蔬菜沙拉*100",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001113": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001113,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "营养组合",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011013
+    ],
+    "task_desc": "供给胡萝卜厚蛋烧，满足多样化的餐食需求。\n提交胡萝卜厚蛋烧*100",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001114": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001114,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "拿铁时光",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011014
+    ],
+    "task_desc": "提供香醇拿铁，提高开发人员的工作热情。\n提交拿铁*100",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001115": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001115,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "禽肉快炒",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011015
+    ],
+    "task_desc": "供应爆炒禽肉，美味餐点，高效开发。\n提交爆炒禽肉*100",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001116": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001116,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "便携快餐",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011016
+    ],
+    "task_desc": "便捷的餐食选择，确保开发人员精力充沛。\n提交汉堡肉饭*50",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001117": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001117,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "首次接收",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011017
+    ],
+    "task_desc": "成功领取第一份日常补给。\n接收1次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001118": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001118,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "稳定入库",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011018
+    ],
+    "task_desc": "稳定接收三批日常补给，仓库渐丰。\n接收5次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001119": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001119,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "定期补给",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011019
+    ],
+    "task_desc": "规律性地接收补给已成习惯。\n接收10次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001120": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001120,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "高效接收",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011020
+    ],
+    "task_desc": "补给的接收工作高效顺畅！\n接收20次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001121": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001121,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "补给充足",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011021
+    ],
+    "task_desc": "储备丰厚，底气十足！\n接收30次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001122": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001122,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "永续储备",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        3
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011022
+    ],
+    "task_desc": "源源不断的补给已成为开发区重要的物资来源。\n接收45次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001123": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001123,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "发展根基",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011023
+    ],
+    "task_desc": "日复一日的积累，已成为开发区发展的根基。\n接收60次日常补给",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001124": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001124,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "初识订单",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011024
+    ],
+    "task_desc": "对岛屿订单有了初步认知。\n交付10次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001125": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001125,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "稳定交付",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011025
+    ],
+    "task_desc": "稳定且持续地交付岛屿订单。\n交付30次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001126": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001126,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "坚实后盾",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011026
+    ],
+    "task_desc": "岛屿开发建设不可或缺的可靠力量。\n交付50次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001127": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001127,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "订单专家",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011027
+    ],
+    "task_desc": "对大家的需求了如指掌，总能精准高效地满足。\n交付100次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001128": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001128,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "发展支柱",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011028
+    ],
+    "task_desc": "持续的支援是岛屿发展的关键动力。\n交付150次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001129": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001129,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "开发核心",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011029
+    ],
+    "task_desc": "大家心中最重要、最值得依赖的人。\n交付200次岛屿订单",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001130": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001130,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "繁荣之基",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011030
     ],
     "task_desc": "承载开发的重任，托起繁荣的未来。\n交付300次岛屿订单",
     "trigger_data": 0,

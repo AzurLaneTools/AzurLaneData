@@ -1966,7 +1966,7 @@
     "tip": "呜……石油用完了~饿得没办法战斗了……"
   },
   "battle_preCombatLayer_auto_confirm": {
-    "tip": "是否确定要清除已经选择的编队，使用推荐的配置？"
+    "tip": "是否采用推荐配置补齐空余位置?"
   },
   "battle_preCombatLayer_boss_destruct": {
     "tip": "阻止boss自毁并击破boss"
@@ -3075,16 +3075,16 @@
     "tip": "是否升级？升级会消耗对应材料"
   },
   "buildship_heavy_tip": {
-    "tip": "圣马丁号 建造追加！"
+    "tip": "{namecode:84}、{namecode:65} 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "金鹿号 建造追加！"
+    "tip": "{namecode:225}、{namecode:226} 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "克莱蒙梭、吉尚等角色建造概率UP！"
   },
   "buildship_special_tip": {
-    "tip": "玛丽·西莱斯特号、维达号 建造追加！"
+    "tip": "{namecode:84} 建造追加！"
   },
   "buleprint_need_level_tip": {
     "tip": "需角色到达$1级"
@@ -6926,6 +6926,27 @@
   },
   "equip_ammo_type_9": {
     "tip": "触发式"
+  },
+  "equip_enhancement_finish": {
+    "tip": "强化完成"
+  },
+  "equip_enhancement_lv": {
+    "tip": "级"
+  },
+  "equip_enhancement_lv1": {
+    "tip": "强化至下一级"
+  },
+  "equip_enhancement_lvx": {
+    "tip": "强化至$1级"
+  },
+  "equip_enhancement_required": {
+    "tip": "需要素材："
+  },
+  "equip_enhancement_tip": {
+    "tip": "材料不足"
+  },
+  "equip_enhancement_title": {
+    "tip": "强化"
   },
   "equip_info_1": {
     "tip": "伤害"
@@ -13431,6 +13452,9 @@
   "island_chara_list_sort": {
     "tip": "排序"
   },
+  "island_chara_list_workspeed": {
+    "tip": "工作速度"
+  },
   "island_chara_now_rank": {
     "tip": "当前星级"
   },
@@ -13775,6 +13799,12 @@
   },
   "island_guide_help": {
     "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取角色收集点：\n\n1.<color=#39bfff>获取</color>角色：每名角色解锁后可领取<color=#39bfff>20</color>收集点\n2.<color=#39bfff>提升星级</color>：每名角色提升星级可领取<color=#39bfff>30</color>收集点，提升至5星时可额外获得<color=#39bfff>10</color>收集点\n3.角色<color=#39bfff>生活等级</color>：每名角色生活等级达到<color=#39bfff>50级</color>后可领取<color=#39bfff>50</color>收集点"
+  },
+  "island_guide_help_item": {
+    "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取资材收集点：\n\n1.<color=#39bfff>获取</color>资材：每种资材解锁后可领取<color=#39bfff>20</color>收集点\n2.<color=#39bfff>累计获取某种资材达到一定数量</color>：获取某种资材的数量达到奖励阶段的目标数量后可领取收集点，每种资材都有各自的奖励阶段及其对应的目标数量，可在图鉴中查看"
+  },
+  "island_guide_help_npc": {
+    "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n与NPC互动并解锁图鉴可以领取收集点"
   },
   "island_guide_item": {
     "tip": "资材"
@@ -14308,6 +14338,18 @@
           "path": ""
         }
       },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order5",
+          "path": ""
+        }
+      },
       "ImageMode": true,
       "defaultpage": 1,
       "disableScroll": true,
@@ -14708,8 +14750,26 @@
   "island_order_not_get_award": {
     "tip": "不可领取"
   },
+  "island_order_ship_btn_replace": {
+    "tip": "更换委托"
+  },
   "island_order_ship_end_work": {
     "tip": "已完成..."
+  },
+  "island_order_ship_exchange_tip": {
+    "tip": "是否确认更换新的货运委托？"
+  },
+  "island_order_ship_exchange_tip_1": {
+    "tip": "该委托已装载资材，更换将消耗一次运输次数且已装载资材无法取回，是否确认更换新的货运委托？"
+  },
+  "island_order_ship_exchange_tip_2": {
+    "tip": "无可运输次数"
+  },
+  "island_order_ship_finish_cnt": {
+    "tip": "运输次数$1/$2"
+  },
+  "island_order_ship_finish_cnt_not_enough": {
+    "tip": "停止装载"
   },
   "island_order_ship_loadup": {
     "tip": "装载"
@@ -14728,6 +14788,12 @@
   },
   "island_order_ship_page_req": {
     "tip": "查看委托需求"
+  },
+  "island_order_ship_reset_all": {
+    "tip": "是否确认刷新委托列表中的全部委托"
+  },
+  "island_order_ship_sel_delegate_label": {
+    "tip": "- 点击选择货运委托 -"
   },
   "island_order_ship_unlock_tip": {
     "tip": "该泊位可通过岛屿科技解锁"
@@ -14834,8 +14900,26 @@
   "island_production_selected_tip2": {
     "tip": "请选择角色"
   },
+  "island_production_speed_addition1": {
+    "tip": "<color=#39bfff>$1</color>能力"
+  },
+  "island_production_speed_addition2": {
+    "tip": "科技加成"
+  },
+  "island_production_speed_addition3": {
+    "tip": "增益效果"
+  },
+  "island_production_speed_tip1": {
+    "tip": "工作速度 <color=#39bfff>+$1%</color>"
+  },
+  "island_production_speed_tip2": {
+    "tip": "工作速度加成"
+  },
   "island_production_start": {
     "tip": "委派开始"
+  },
+  "island_production_tip": {
+    "tip": "/次"
   },
   "island_prosperity_level": {
     "tip": "繁荣度"
@@ -14854,6 +14938,9 @@
   },
   "island_queue_display": {
     "tip": "当前目标岛屿访客已达上限，进入等候队列中\n您在队列中的位置：$1"
+  },
+  "island_quickselect_tip": {
+    "tip": "*长按图标可快速增加选择数量"
   },
   "island_rename_confirm": {
     "tip": "确认将岛屿名称修改为:$1"
@@ -14903,6 +14990,9 @@
   "island_season_charts_level": {
     "tip": "岛屿开发等级"
   },
+  "island_season_charts_out": {
+    "tip": "暂未上榜"
+  },
   "island_season_charts_pt": {
     "tip": "岛屿开发PT"
   },
@@ -14913,7 +15003,7 @@
     "tip": "*开发排名每半小时更新一次"
   },
   "island_season_help": {
-    "tip": "新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>。\n开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>、以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT。\n岛屿开发季结束后，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行。\n岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>。"
+    "tip": "1.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>\n2.开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT\n3.岛屿开发季结束后，临时仓库中的物品将直接清空，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行\n4.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置\n5.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>"
   },
   "island_season_pt": {
     "tip": "累积PT"
@@ -15009,7 +15099,7 @@
     "tip": "最终排名"
   },
   "island_season_window_rule": {
-    "tip": "1.岛屿开发季结束时，资材仓库中的<color=#39bfff>资材</color>将<color=#FD5650>自动转化</color>为岛屿开发PT并计入<color=#FD5650>当前开发排行</color>，<color=#39bfff>临时仓库</color>中的物品将直接<color=#FD5650>清空</color>，正在进行的<color=#39bfff>岛屿订单、货运委托、餐品制作、角色委派</color>等将<color=#FD5650>清理重置</color>，请注意安排避免浪费\n2.岛屿开发季结束后，当前开发季<color=#39bfff>未领取的开发计划奖励和累积PT奖励</color>将<color=#FD5650>不再可领取</color>\n3.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>"
+    "tip": "1.岛屿开发季结束后，<color=#39bfff>临时仓库</color>中的物品将<color=#FD5650>直接清空</color>，资材仓库中的<color=#39bfff>资材</color>将自动转化为岛屿开发PT并计入当前开发排行\n2.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置\n3.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>\n4.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>"
   },
   "island_season_window_transformtip": {
     "tip": "是否确认转化所选物品？"
@@ -15034,6 +15124,9 @@
   },
   "island_select_ship_tip": {
     "tip": "这里是通用帮助说明"
+  },
+  "island_selectall": {
+    "tip": "全选"
   },
   "island_set_like": {
     "tip": "设为常用"
@@ -15115,6 +15208,18 @@
   },
   "island_ship_no_energy": {
     "tip": "疲惫"
+  },
+  "island_ship_order_delegate_auto_refresh_label": {
+    "tip": "当前无可运输的货运委托"
+  },
+  "island_ship_order_delegate_auto_refresh_time": {
+    "tip": "委托列表自动刷新时间："
+  },
+  "island_ship_order_toggle_label_award": {
+    "tip": "查看奖励"
+  },
+  "island_ship_order_toggle_label_request": {
+    "tip": "查看需求"
   },
   "island_ship_title1": {
     "tip": "能力养成"
@@ -15250,6 +15355,12 @@
   },
   "island_task_type_6": {
     "tip": "活动计划"
+  },
+  "island_taskjump_placenoopen_tips": {
+    "tip": "地点未解锁，无法跳转"
+  },
+  "island_taskjump_systemnoopen_tips": {
+    "tip": "系统未解锁，无法跳转"
   },
   "island_tech_can_get": {
     "tip": "可领取"
@@ -17788,6 +17899,9 @@
   "meta_repair_success": {
     "tip": "舰装强化成功"
   },
+  "meta_reproduce_btn": {
+    "tip": "是否进入当前信标META的档案重现战斗？\n战斗强度：Lv15\n*该战斗不消耗石油，不会获得任何奖励"
+  },
   "meta_shop_exchange_limit": {
     "tip": "未拥有角色"
   },
@@ -17811,6 +17925,9 @@
   },
   "meta_shop_unexchange_label": {
     "tip": "尚未获得舰船"
+  },
+  "meta_simulated_btn": {
+    "tip": "是否进入当前信标META的模拟战斗？\n战斗强度：Lv$1\n*该战斗不消耗石油，不会获得任何奖励"
   },
   "meta_skill_dailyexp": {
     "tip": "每日可获取经验"
@@ -20689,6 +20806,15 @@
   },
   "sculpture_puzzle_tip": {
     "tip": "*点击部件进行选中，将部件拖动至虚线区域内进行拼接"
+  },
+  "search_equipment": {
+    "tip": "搜索装备名"
+  },
+  "search_equipment_appearance": {
+    "tip": "搜索装备外观名"
+  },
+  "search_sp_equipment": {
+    "tip": "搜索特殊兵装名"
   },
   "sec_floor_limit_tip": {
     "tip": "后宅一层扩建完毕后开放该功能"
