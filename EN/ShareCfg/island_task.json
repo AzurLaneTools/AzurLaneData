@@ -2391,10 +2391,10 @@
   "10002290": {
     "com_page": "",
     "com_perform": [
-      1,
-      "ISLAND1001032_2"
+      2,
+      "ISLANDPERFORMANCE_PATH_10"
     ],
-    "complete_data": 10030003,
+    "complete_data": 10030006,
     "complete_tips": "Go talk to Mary.",
     "complete_type": 1,
     "id": 10002290,
@@ -6834,7 +6834,7 @@
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
-    "type": 2,
+    "type": 9,
     "unlock_condition": [
       [
         2,
@@ -7297,7 +7297,7 @@
       ]
     ],
     "series": "",
-    "series_name": "Development Season",
+    "series_name": "Island Season",
     "target_id": [
       200150011
     ],
@@ -7345,7 +7345,7 @@
       ]
     ],
     "series": "",
-    "series_name": "Development Season",
+    "series_name": "Island Season",
     "target_id": [
       200150021
     ],
@@ -9534,6 +9534,71 @@
     ],
     "unlock_time": "always"
   },
+  "50000001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "id": 50000001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Improvement in Progress",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        2000
+      ]
+    ],
+    "series": "",
+    "series_name": "Island Season",
+    "target_id": [
+      500000011
+    ],
+    "task_desc": "The island's development has run into trouble. Peary seems to be in an infinite loop of redoing things. You should go check on her.",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        20015002
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2025,
+          11,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
   "50001001": {
     "com_page": "",
     "com_perform": "",
@@ -9593,8 +9658,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9665,8 +9730,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9737,8 +9802,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9809,8 +9874,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9886,8 +9951,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9963,8 +10028,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10040,8 +10105,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10110,8 +10175,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10182,8 +10247,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10254,8 +10319,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10326,8 +10391,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10403,8 +10468,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10480,8 +10545,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10557,8 +10622,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10627,8 +10692,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10699,8 +10764,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10771,8 +10836,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10843,8 +10908,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10897,7 +10962,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001002": {
     "com_page": "",
@@ -10942,7 +11007,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001003": {
     "com_page": "",
@@ -10987,7 +11052,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001004": {
     "com_page": "",
@@ -11032,7 +11097,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001005": {
     "com_page": "",
@@ -11077,7 +11142,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001006": {
     "com_page": "",
@@ -11122,7 +11187,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001007": {
     "com_page": "",
@@ -11167,7 +11232,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001008": {
     "com_page": "",
@@ -11212,7 +11277,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001009": {
     "com_page": "",
@@ -11257,7 +11322,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001010": {
     "com_page": "",
@@ -11302,7 +11367,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001011": {
     "com_page": "",
@@ -11347,7 +11412,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001012": {
     "com_page": "",
@@ -11392,7 +11457,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001013": {
     "com_page": "",
@@ -11437,7 +11502,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001014": {
     "com_page": "",
@@ -11482,7 +11547,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001015": {
     "com_page": "",
@@ -11527,7 +11592,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001016": {
     "com_page": "",
@@ -11572,7 +11637,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001017": {
     "com_page": "",
@@ -11607,7 +11672,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001018": {
     "com_page": "",
@@ -11647,7 +11712,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001019": {
     "com_page": "",
@@ -11687,7 +11752,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001020": {
     "com_page": "",
@@ -11727,7 +11792,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001021": {
     "com_page": "",
@@ -11740,7 +11805,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "Space to Spare",
+    "name": "Well Stocked",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -11767,7 +11832,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001022": {
     "com_page": "",
@@ -11807,7 +11872,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001023": {
     "com_page": "",
@@ -11852,7 +11917,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001024": {
     "com_page": "",
@@ -11887,7 +11952,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001025": {
     "com_page": "",
@@ -11927,7 +11992,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001026": {
     "com_page": "",
@@ -11967,7 +12032,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001027": {
     "com_page": "",
@@ -12007,7 +12072,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001028": {
     "com_page": "",
@@ -12047,7 +12112,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001029": {
     "com_page": "",
@@ -12092,7 +12157,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001030": {
     "com_page": "",
@@ -12130,6 +12195,1291 @@
     "series_name": "",
     "target_id": [
       80010030
+    ],
+    "task_desc": "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "stop"
+  },
+  "80001101": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001101,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Watching the Fields",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011001
+    ],
+    "task_desc": "Supply wheat to Island Warehouse to bolster food stores.\nDeliver 500 Wheat.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001102": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001102,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "The Beasts Hunger",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011002
+    ],
+    "task_desc": "Supply fresh grass to the pasture for animal feed.\nDeliver 500 Grass.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001103": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001103,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Beans or Bust",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011003
+    ],
+    "task_desc": "Supply high-protein soy beans to enrich food processing.\nDeliver 500 Soy Beans.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001104": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001104,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "More Rice!",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011004
+    ],
+    "task_desc": "A stable supply of staple foods is necessary for development.\nDeliver 500 Rice.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001105": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001105,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Golden Granary",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011005
+    ],
+    "task_desc": "Supply vast cobs of corn to add variety to the islanders' diets.\nDeliver 500 Corn.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001106": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001106,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "The Juiciest of Oranges",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011006
+    ],
+    "task_desc": "Supply carrots to support vitamin intake and health.\nDeliver 250 Carrots.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001107": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001107,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Donations of Dairy",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011007
+    ],
+    "task_desc": "Supply milk to bolster calcium intake.\nDeliver 250 Milk.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001108": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001108,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Sugar in the Tank",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011008
+    ],
+    "task_desc": "Supply apple juice to increase development efficiency.\nDeliver 250 Apple Juice.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001109": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001109,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Needs More Coffee",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011009
+    ],
+    "task_desc": "Feed that addiction and maintain morale with iced coffee.\nDeliver 250 Iced Coffee.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001110": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001110,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Meat Is Energy",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011010
+    ],
+    "task_desc": "Supply coal-roasted skewers for quick re-energizing.\nDeliver 250 Coal-Roasted Skewers.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001111": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001111,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Basic Seasoning",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011011
+    ],
+    "task_desc": "Supply onions to enhance the flavors of meals.\nDeliver 100 Onions.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001112": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001112,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "A Healthy Menu",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011012
+    ],
+    "task_desc": "Make vegetable salads for nutritious and delicious meals.\nDeliver 100 Vegetable Salads.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001113": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001113,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Nutritional Combos",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011013
+    ],
+    "task_desc": "Make rolled carrot omelettes to meet diverse dietary needs.\nDeliver 100 Rolled Carrot Omelettes.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001114": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001114,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Latte Time",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011014
+    ],
+    "task_desc": "Supply lattes to increase morale.\nDeliver 100 Lattes.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001115": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001115,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Stir-Fry Resupply",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011015
+    ],
+    "task_desc": "Supply stir-fried chicken for tasty and efficient meals.\nDeliver 100 Stir-Fried Chicken.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001116": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001116,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Fast Food",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011016
+    ],
+    "task_desc": "Energize workers with convenient steak bowls.\nDeliver 50 Steak Bowls.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001117": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001117,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Your First Receipt",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011017
+    ],
+    "task_desc": "Accept your first daily supplies.\nAccept 1 Daily Supply.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001118": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001118,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Safely Stored",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011018
+    ],
+    "task_desc": "Fill up that warehouse with three sets of daily supplies.\nAccept 5 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001119": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001119,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Regular Resupply",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011019
+    ],
+    "task_desc": "Build a habit of grabbing your daily goodies.\nAccept 10 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001120": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001120,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Efficient Delivery",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011020
+    ],
+    "task_desc": "Free stuff, easy and efficient!\nAccept 20 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001121": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001121,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Well Stocked",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011021
+    ],
+    "task_desc": "Abundant reserves for a confident settlement!\nAccept 30 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001122": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001122,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Sustainable Reserves",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        3
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011022
+    ],
+    "task_desc": "Steady supplies, a vital resource for this island.\nAccept 45 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001123": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001123,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Foundation for Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011023
+    ],
+    "task_desc": "Regular accumulation of goods has become the basis of your development.\nAccept 60 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001124": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001124,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Your First Request",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011024
+    ],
+    "task_desc": "You have a basic understanding of requests.\nComplete 10 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001125": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001125,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "A Reliable Helper",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011025
+    ],
+    "task_desc": "You're a consistent fulfiller of requests.\nComplete 30 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001126": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001126,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Firm Support",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011026
+    ],
+    "task_desc": "This development couldn't function without you!\nComplete 50 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001127": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001127,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Request Master",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011027
+    ],
+    "task_desc": "You understand people's needs and respond efficiently.\nComplete 100 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001128": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001128,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Pillar of Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011028
+    ],
+    "task_desc": "Your continuous support is the very engine of development.\nComplete 150 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001129": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001129,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Core of Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011029
+    ],
+    "task_desc": "Nobody is more reliable and beloved than you.\nComplete 200 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001130": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001130,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Foundation for Prosperity",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011030
     ],
     "task_desc": "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
     "trigger_data": 0,

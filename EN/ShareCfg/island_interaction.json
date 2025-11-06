@@ -710,7 +710,7 @@
     "only_self": 1,
     "param": "",
     "show_condition": [],
-    "text": "Sit.",
+    "text": "Rest",
     "type": 9
   },
   "1401": {
@@ -1709,7 +1709,7 @@
         10002271
       ]
     ],
-    "text": "Mary? Why are you here?",
+    "text": "What are you doing here, Mary?",
     "type": 21
   },
   "2503": {
@@ -1724,7 +1724,7 @@
         10002280
       ]
     ],
-    "text": "Is this the treasure?",
+    "text": "Is this treasure?",
     "type": 12
   },
   "2504": {
@@ -1739,7 +1739,7 @@
         10002290
       ]
     ],
-    "text": "Mary, I got something.",
+    "text": "Mary, I got the thing.",
     "type": 12
   },
   "2601": {
@@ -4320,6 +4320,21 @@
     "text": "Autumn Specialty Order (4/4)",
     "type": 12
   },
+  "5822": {
+    "groupId": 58,
+    "icon": 9,
+    "id": 5822,
+    "only_self": 0,
+    "param": "ISLANDSIDE01603",
+    "show_condition": [
+      [
+        2,
+        50000001
+      ]
+    ],
+    "text": "Peary? Are you... cooking?",
+    "type": 1
+  },
   "5901": {
     "groupId": 59,
     "icon": 7,
@@ -5028,5 +5043,125 @@
     ],
     "text": "Go to Morningdew Farm.",
     "type": 24
+  },
+  "7801": {
+    "groupId": 78,
+    "icon": 1,
+    "id": 7801,
+    "only_self": 0,
+    "param": "ISLANDTALK10131_1",
+    "show_condition": [
+      [
+        4,
+        10002280
+      ]
+    ],
+    "text": "Talk",
+    "type": 1
+  },
+  "7802": {
+    "groupId": 78,
+    "icon": 7,
+    "id": 7802,
+    "only_self": 0,
+    "param": "ISLANDPERFORMANCE10",
+    "show_condition": [
+      [
+        2,
+        10002271
+      ]
+    ],
+    "text": "What are you doing here, Mary?",
+    "type": 21
+  },
+  "7803": {
+    "groupId": 78,
+    "icon": 7,
+    "id": 7803,
+    "only_self": 0,
+    "param": "10002280",
+    "show_condition": [
+      [
+        3,
+        10002280
+      ]
+    ],
+    "text": "Is this treasure?",
+    "type": 12
+  },
+  "7804": {
+    "groupId": 78,
+    "icon": 7,
+    "id": 7804,
+    "only_self": 0,
+    "param": "10002290",
+    "show_condition": [
+      [
+        3,
+        10002290
+      ]
+    ],
+    "text": "Mary, I got the thing.",
+    "type": 12
+  },
+  "7901": {
+    "groupId": 79,
+    "icon": 1,
+    "id": 7901,
+    "only_self": 0,
+    "param": "ISLANDTALK10131_2",
+    "show_condition": [
+      [
+        4,
+        10002280
+      ]
+    ],
+    "text": "Talk",
+    "type": 1
+  },
+  "7902": {
+    "groupId": 79,
+    "icon": 7,
+    "id": 7902,
+    "only_self": 0,
+    "param": "ISLANDPERFORMANCE10",
+    "show_condition": [
+      [
+        2,
+        10002271
+      ]
+    ],
+    "text": "What are you doing here, Mary?",
+    "type": 21
+  },
+  "7903": {
+    "groupId": 79,
+    "icon": 7,
+    "id": 7903,
+    "only_self": 0,
+    "param": "10002280",
+    "show_condition": [
+      [
+        3,
+        10002280
+      ]
+    ],
+    "text": "Is this treasure?",
+    "type": 12
+  },
+  "7904": {
+    "groupId": 79,
+    "icon": 7,
+    "id": 7904,
+    "only_self": 0,
+    "param": "10002290",
+    "show_condition": [
+      [
+        3,
+        10002290
+      ]
+    ],
+    "text": "Mary, I got the thing.",
+    "type": 12
   }
 }

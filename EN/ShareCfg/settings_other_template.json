@@ -208,12 +208,21 @@
   },
   "24": {
     "alignment": 0,
-    "default": 1,
+    "default": 0,
     "desc": "When toggled ON, this can reduce some bugs where the screen turns black under certain circumstances.",
     "id": 24,
     "name": "GRAPHI_API_SWITCH_OPTION",
     "title": "Rendering Compatibility Mode",
     "type": 3
+  },
+  "25": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "When toggled ON, shipgirls at low Morale will be automatically excluded when creating a suggested formation.",
+    "id": 25,
+    "name": "REMOVE_LOW_MOOD",
+    "title": "Skip Low Morale Ships in Auto Formation",
+    "type": 0
   },
   "all": [
     1,
@@ -239,6 +248,7 @@
     21,
     22,
     23,
-    24
+    24,
+    25
   ]
 }

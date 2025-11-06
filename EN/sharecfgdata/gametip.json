@@ -1980,7 +1980,7 @@
     "tip": "Oh... Out of Oil again... I'm so hungry that I can't even fight..."
   },
   "battle_preCombatLayer_auto_confirm": {
-    "tip": "Are you sure you want to use the recommended formation?"
+    "tip": "Do you want to replace your current formation with the recommended formation?"
   },
   "battle_preCombatLayer_boss_destruct": {
     "tip": "Defeat the boss before it self-destructs"
@@ -3080,16 +3080,16 @@
     "tip": "Are you sure you want to upgrade? Building materials will be consumed."
   },
   "buildship_heavy_tip": {
-    "tip": "São Martinho added to standard build pool!"
+    "tip": "Musashi and Haguro added to standard build pool!"
   },
   "buildship_light_tip": {
-    "tip": "Golden Hind added to standard build pool!"
+    "tip": "Wakatsuki and Sakawa added to standard build pool!"
   },
   "buildship_new_tip": {
     "tip": "Rate UP for Clemenceau, Guichen, and more!"
   },
   "buildship_special_tip": {
-    "tip": "Mary Celeste and Whydah added to standard build pool!"
+    "tip": "Musashi added to standard build pool!"
   },
   "buleprint_need_level_tip": {
     "tip": "The corresponding ship will be unlocked at Level $1."
@@ -6975,6 +6975,27 @@
   },
   "equip_ammo_type_9": {
     "tip": "Contact"
+  },
+  "equip_enhancement_finish": {
+    "tip": "Enhanced"
+  },
+  "equip_enhancement_lv": {
+    "tip": "0"
+  },
+  "equip_enhancement_lv1": {
+    "tip": "Enhance +1"
+  },
+  "equip_enhancement_lvx": {
+    "tip": "Enhance to +$1"
+  },
+  "equip_enhancement_required": {
+    "tip": "Materials Needed:"
+  },
+  "equip_enhancement_tip": {
+    "tip": "Insufficient Materials"
+  },
+  "equip_enhancement_title": {
+    "tip": "Enhance"
   },
   "equip_info_1": {
     "tip": "DMG"
@@ -12962,6 +12983,9 @@
   "island_chara_list_sort": {
     "tip": "Sort"
   },
+  "island_chara_list_workspeed": {
+    "tip": "Efficiency"
+  },
   "island_chara_now_rank": {
     "tip": "Current Rank"
   },
@@ -13306,6 +13330,12 @@
   },
   "island_guide_help": {
     "tip": "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
+  },
+  "island_guide_help_item": {
+    "tip": "Unlocking resource-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \n\n1. <color=#39bfff>Unlocking</color> Resources: Unlocking a resource in the Collection gives you <color=#39bfff>20</color> Collection points. \n2. <color=#39bfff>Obtaining</color> Resources: Getting a specific amount of a resource gives you Collection points. You can view the reward stages and the required amounts of each resource in the Collection."
+  },
+  "island_guide_help_npc": {
+    "tip": "Unlocking development team-related on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \nInteract with development team members to unlock the Collection and receive Collection Points."
   },
   "island_guide_item": {
     "tip": "Resources"
@@ -13839,6 +13869,18 @@
           "path": ""
         }
       },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order5",
+          "path": ""
+        }
+      },
       "ImageMode": true,
       "defaultpage": 1,
       "disableScroll": true,
@@ -14239,8 +14281,26 @@
   "island_order_not_get_award": {
     "tip": "This cannot be claimed."
   },
+  "island_order_ship_btn_replace": {
+    "tip": "Change Jobs"
+  },
   "island_order_ship_end_work": {
     "tip": "Complete..."
+  },
+  "island_order_ship_exchange_tip": {
+    "tip": "Do you want to change to a new transport job?"
+  },
+  "island_order_ship_exchange_tip_1": {
+    "tip": "Do you want to update the jobs list? (If you have submitted any materials, they will not be reimbursed, and your transport job attempt will be deducted.)"
+  },
+  "island_order_ship_exchange_tip_2": {
+    "tip": "Insufficient number of transport job attempts"
+  },
+  "island_order_ship_finish_cnt": {
+    "tip": "Transports $1/$2"
+  },
+  "island_order_ship_finish_cnt_not_enough": {
+    "tip": "Refresh"
   },
   "island_order_ship_loadup": {
     "tip": "Accept"
@@ -14259,6 +14319,12 @@
   },
   "island_order_ship_page_req": {
     "tip": "View Details"
+  },
+  "island_order_ship_reset_all": {
+    "tip": "Do you want to refresh all displayed jobs?"
+  },
+  "island_order_ship_sel_delegate_label": {
+    "tip": "- Tap to Select Job -"
   },
   "island_order_ship_unlock_tip": {
     "tip": "Unlock slots by doing research."
@@ -14365,8 +14431,26 @@
   "island_production_selected_tip2": {
     "tip": "Select a Character"
   },
+  "island_production_speed_addition1": {
+    "tip": "<color=#39bfff>$1</color> Stat"
+  },
+  "island_production_speed_addition2": {
+    "tip": "Skill Effect"
+  },
+  "island_production_speed_addition3": {
+    "tip": "Buff Effect"
+  },
+  "island_production_speed_tip1": {
+    "tip": "Working Efficiency <color=#39bfff>+$1%</color>"
+  },
+  "island_production_speed_tip2": {
+    "tip": "Working Efficiency Buff"
+  },
   "island_production_start": {
     "tip": "Start Work"
+  },
+  "island_production_tip": {
+    "tip": "/time(s)"
   },
   "island_prosperity_level": {
     "tip": "繁荣度"
@@ -14385,6 +14469,9 @@
   },
   "island_queue_display": {
     "tip": "The island has reached its visitor limit. You will enter a queue.\nPlace in Queue: $1"
+  },
+  "island_quickselect_tip": {
+    "tip": "* Press and hold the icon to quickly increase the amount used"
   },
   "island_rename_confirm": {
     "tip": "Your island's name will be changed to: $1"
@@ -14434,6 +14521,9 @@
   "island_season_charts_level": {
     "tip": "Island Dev. Level"
   },
+  "island_season_charts_out": {
+    "tip": "Not in Rank"
+  },
   "island_season_charts_pt": {
     "tip": "Island Dev. Points"
   },
@@ -14444,7 +14534,7 @@
     "tip": "The Development Ranks are updated every 30 minutes."
   },
   "island_season_help": {
-    "tip": "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>completing transport jobs</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
+    "tip": "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.\n5. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
   },
   "island_season_pt": {
     "tip": "Milestone Points"
@@ -14540,7 +14630,7 @@
     "tip": "Final Ranking"
   },
   "island_season_window_rule": {
-    "tip": "1. At the end of a season, the <color=#39bfff>resources in your warehouse</color> will be automatically <color=#FD5650>converted to Island Development Points (IDP)</color>, and you will be placed on the development ranking accordingly. Additionally, the contents of your <color=#FD5650>temporary warehouse will be cleared</color>, and all <color=#39bfff>active requests, transport jobs, food production, and character assignments will be reset</color>.\n2. When the season finishes, you will be <color=#39bfff>unable to claim development and milestone rewards from the season that just ended</color>.\n3. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
+    "tip": "1. At the end of a season, the contents of your <color=#39bfff>temporary warehouse</color> will be <color=#FD5650>cleared</color>, and the <color=#39bfff>resources in your warehouse</color> will be automatically converted to Island Development Points (IDP), and you will be placed on the development ranking accordingly.\n2. When the season finishes, all active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.\n3. When the season finishes, you will be <color=#FD5650>unable to claim development and milestone rewards from the season that just ended</color>.\n4. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
   },
   "island_season_window_transformtip": {
     "tip": "Do you want to convert the selected item(s)?"
@@ -14565,6 +14655,9 @@
   },
   "island_select_ship_tip": {
     "tip": "The customer appeal of your dishes affects your sales. The higher the customer appeal, the likelier a customer is to make a purchase.\nCustomer appeal is influenced by the stats (main and sub) of your assigned characters.\n\n· Main stats: Greatly increase the customer appeal.\n· Sub stats: Moderately increase the customer appeal."
+  },
+  "island_selectall": {
+    "tip": "All"
   },
   "island_set_like": {
     "tip": "Set as Favorite"
@@ -14646,6 +14739,18 @@
   },
   "island_ship_no_energy": {
     "tip": "Exhausted"
+  },
+  "island_ship_order_delegate_auto_refresh_label": {
+    "tip": "There are no transport jobs you can accept."
+  },
+  "island_ship_order_delegate_auto_refresh_time": {
+    "tip": "Transport Job List Refreshes in:"
+  },
+  "island_ship_order_toggle_label_award": {
+    "tip": "Rewards"
+  },
+  "island_ship_order_toggle_label_request": {
+    "tip": "Cost"
   },
   "island_ship_title1": {
     "tip": "Develop Stats"
@@ -14781,6 +14886,12 @@
   },
   "island_task_type_6": {
     "tip": "Event"
+  },
+  "island_taskjump_placenoopen_tips": {
+    "tip": "You have not yet unlocked this location."
+  },
+  "island_taskjump_systemnoopen_tips": {
+    "tip": "You have not yet unlocked this feature."
   },
   "island_tech_can_get": {
     "tip": "Claimable"
@@ -17307,6 +17418,9 @@
   "meta_repair_success": {
     "tip": "Rigging Fortification successful. "
   },
+  "meta_reproduce_btn": {
+    "tip": "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. 15\n* Simulated battles cost no Oil and give no rewards."
+  },
   "meta_shop_exchange_limit": {
     "tip": "Unobtained"
   },
@@ -17330,6 +17444,9 @@
   },
   "meta_shop_unexchange_label": {
     "tip": ""
+  },
+  "meta_simulated_btn": {
+    "tip": "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. $1\n* Simulated battles cost no Oil and give no rewards."
   },
   "meta_skill_dailyexp": {
     "tip": "Daily EXP"
@@ -20614,6 +20731,15 @@
   "sculpture_puzzle_tip": {
     "tip": "Drag the parts around the area indicated by the dotted lines to combine them!"
   },
+  "search_equipment": {
+    "tip": "Search Gear by Name"
+  },
+  "search_equipment_appearance": {
+    "tip": "Search Gear Skin by Name"
+  },
+  "search_sp_equipment": {
+    "tip": "Search Aug. Module by Name"
+  },
   "sec_floor_limit_tip": {
     "tip": "Unlocks after first floor of dorm is expanded."
   },
@@ -22321,7 +22447,7 @@
     "tip": "Resets in $1"
   },
   "shop_sell_ended": {
-    "tip": "Unavailable "
+    "tip": "Unavailable"
   },
   "shop_side_lable_en": {
     "tip": "Recommend"
