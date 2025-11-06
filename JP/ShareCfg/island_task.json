@@ -2391,10 +2391,10 @@
   "10002290": {
     "com_page": "",
     "com_perform": [
-      1,
-      "ISLAND1001032_2"
+      2,
+      "ISLANDPERFORMANCE_PATH_10"
     ],
-    "complete_data": 10030003,
+    "complete_data": 10030006,
     "complete_tips": "メリーと話しに行く(0/1)",
     "complete_type": 1,
     "id": 10002290,
@@ -6834,7 +6834,7 @@
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
-    "type": 2,
+    "type": 9,
     "unlock_condition": [
       [
         2,
@@ -9534,6 +9534,71 @@
     ],
     "unlock_time": "always"
   },
+  "50000001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "id": 50000001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "改善進行中",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        2000
+      ]
+    ],
+    "series": "",
+    "series_name": "離島シーズン",
+    "target_id": [
+      500000011
+    ],
+    "task_desc": "離島開発にトラブル発生。ピアリがクラッシュ～やり直しのループに陥ったようだ。早く様子を見に行こう",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        20015002
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2025,
+          11,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
   "50001001": {
     "com_page": "",
     "com_perform": "",
@@ -9593,8 +9658,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9665,8 +9730,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9737,8 +9802,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9809,8 +9874,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9886,8 +9951,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -9963,8 +10028,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10040,8 +10105,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10083,7 +10148,7 @@
     "target_id": [
       50002001
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10110,8 +10175,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10155,7 +10220,7 @@
     "target_id": [
       50002002
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10182,8 +10247,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10227,7 +10292,7 @@
     "target_id": [
       50002003
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10254,8 +10319,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10299,7 +10364,7 @@
     "target_id": [
       50002004
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10326,8 +10391,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10376,7 +10441,7 @@
     "target_id": [
       50002005
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10403,8 +10468,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10453,7 +10518,7 @@
     "target_id": [
       50002006
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10480,8 +10545,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10530,7 +10595,7 @@
     "target_id": [
       50002007
     ],
-    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
+    "task_desc": "秋の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！\n<製作可能土産> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>宵月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>干し柿</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸と鶏のスープ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋のブーケ</material></color>、\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>ニンジンと梨のジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花の茶</material></color>",
     "trigger_data": 0,
     "trigger_tips": 0,
     "trigger_type": 2,
@@ -10557,8 +10622,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10627,8 +10692,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10699,8 +10764,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10771,8 +10836,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10843,8 +10908,8 @@
       [
         [
           2026,
-          1,
-          8
+          2,
+          5
         ],
         [
           12,
@@ -10897,7 +10962,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001002": {
     "com_page": "",
@@ -10942,7 +11007,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001003": {
     "com_page": "",
@@ -10987,7 +11052,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001004": {
     "com_page": "",
@@ -11032,7 +11097,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001005": {
     "com_page": "",
@@ -11077,7 +11142,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001006": {
     "com_page": "",
@@ -11122,7 +11187,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001007": {
     "com_page": "",
@@ -11167,7 +11232,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001008": {
     "com_page": "",
@@ -11212,7 +11277,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001009": {
     "com_page": "",
@@ -11257,7 +11322,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001010": {
     "com_page": "",
@@ -11302,7 +11367,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001011": {
     "com_page": "",
@@ -11347,7 +11412,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001012": {
     "com_page": "",
@@ -11392,7 +11457,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001013": {
     "com_page": "",
@@ -11437,7 +11502,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001014": {
     "com_page": "",
@@ -11482,7 +11547,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001015": {
     "com_page": "",
@@ -11527,7 +11592,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001016": {
     "com_page": "",
@@ -11572,7 +11637,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001017": {
     "com_page": "",
@@ -11607,7 +11672,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001018": {
     "com_page": "",
@@ -11647,7 +11712,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001019": {
     "com_page": "",
@@ -11687,7 +11752,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001020": {
     "com_page": "",
@@ -11727,7 +11792,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001021": {
     "com_page": "",
@@ -11767,7 +11832,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001022": {
     "com_page": "",
@@ -11807,7 +11872,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001023": {
     "com_page": "",
@@ -11852,7 +11917,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001024": {
     "com_page": "",
@@ -11887,7 +11952,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001025": {
     "com_page": "",
@@ -11927,7 +11992,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001026": {
     "com_page": "",
@@ -11967,7 +12032,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001027": {
     "com_page": "",
@@ -12007,7 +12072,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001028": {
     "com_page": "",
@@ -12047,7 +12112,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001029": {
     "com_page": "",
@@ -12092,7 +12157,7 @@
     "trigger_type": 2,
     "type": 8,
     "unlock_condition": [],
-    "unlock_time": "always"
+    "unlock_time": "stop"
   },
   "80001030": {
     "com_page": "",
@@ -12130,6 +12195,1291 @@
     "series_name": "",
     "target_id": [
       80010030
+    ],
+    "task_desc": "開発の責任を支え、繁栄の未来を築く。\n離島依頼を300回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "stop"
+  },
+  "80001101": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001101,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "畑の見張り",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011001
+    ],
+    "task_desc": "離島倉庫へ小麦を供給し、基礎食糧を確保しよう。\n小麦×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001102": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001102,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "アニマルフード",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011002
+    ],
+    "task_desc": "牧場へ新鮮な牧草を供給し、動物たちの基礎需要を満たす。\n牧草×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001103": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001103,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "豆供給開拓",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011003
+    ],
+    "task_desc": "高蛋白の大豆を供給し、加工原料を充実させよう。\n大豆×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001104": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001104,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "お米生産",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011004
+    ],
+    "task_desc": "安定した主食供給は開発の基盤。\n米×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001105": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001105,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "黄金米蔵",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011005
+    ],
+    "task_desc": "とうもろこしを大量供給し、食材のバリエーションを充実しよう。\nとうもろこし×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001106": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001106,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "元気オレンジ",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011006
+    ],
+    "task_desc": "ニンジンを提供し、ビタミン補給で健康をサポート。\nニンジン×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001107": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001107,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "ミルク補給",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011007
+    ],
+    "task_desc": "牛乳を供給し、カルシウムを補充しよう。\n牛乳×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001108": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001108,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "スイートエンジン",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011008
+    ],
+    "task_desc": "りんごジュースを提供し、開発効率を向上させよう。\nりんごジュース×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001109": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001109,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "コーヒー供給",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011009
+    ],
+    "task_desc": "アイスコーヒーで開発スタッフたちの作業効率を維持しよう。\nアイスコーヒー×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001110": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001110,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "焼き肉エナジー",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011010
+    ],
+    "task_desc": "炭火串焼きを提供し、スタミナを素早く回復させよう。\n炭火串焼き×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001111": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001111,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "味付基本",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011011
+    ],
+    "task_desc": "玉ねぎを供給し、料理の風味を強化しよう。\n玉ねぎ×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001112": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001112,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "ヘルシー献立",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011012
+    ],
+    "task_desc": "野菜サラダを作って、バランスの取れた栄養を。\n野菜サラダ×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001113": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001113,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "栄養セット",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011013
+    ],
+    "task_desc": "ニンジン厚焼き玉子を作って、多様な食事を実現しよう。\nニンジン厚焼き玉子×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001114": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001114,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "ラテタイム",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011014
+    ],
+    "task_desc": "ラテを提供し、作業意欲を高めよう。\nラテ×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001115": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001115,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "肉を炒めて",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011015
+    ],
+    "task_desc": "鶏肉炒めを供給し、美味しいかつ効率的な食事をサポート。\n鶏肉炒め×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001116": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001116,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "タイパ食事",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011016
+    ],
+    "task_desc": "便利なチョイスのハンバーグ丼で精力を維持しよう。\nハンバーグ丼×50を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001117": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001117,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "初めての接収",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011017
+    ],
+    "task_desc": "初めての定期補給を受け取ろう。\n定期補給を1回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001118": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001118,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "安心納品",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011018
+    ],
+    "task_desc": "定期補給で倉庫がだんだん豊かに。\n定期補給を5回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001119": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001119,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "定期補充",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011019
+    ],
+    "task_desc": "定期補給の受領はもはや日々の習慣だ。\n定期補給を10回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001120": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001120,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "高効率納品",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011020
+    ],
+    "task_desc": "補給受領が効率的に、スムーズに！\n定期補給を20回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001121": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001121,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "在庫は余裕",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011021
+    ],
+    "task_desc": "備蓄が豊かで余裕ができている。\n定期補給を30回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001122": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001122,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "備蓄は永久的",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        3
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011022
+    ],
+    "task_desc": "絶えない物資補給が離島の重要な物資リソースとなる。\n定期補給を45回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001123": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001123,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の礎",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011023
+    ],
+    "task_desc": "日々の積み重ねが離島開発の基盤になっている。\n定期補給を60回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001124": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001124,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "初めての依頼",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011024
+    ],
+    "task_desc": "離島依頼を初歩的に理解した。\n離島依頼を10回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001125": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001125,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "安心依頼",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011025
+    ],
+    "task_desc": "安定して依頼をこなし続けている。\n離島依頼を30回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001126": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001126,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "堅実なサポート",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011026
+    ],
+    "task_desc": "離島開発にとって不可欠な戦力になっている。\n離島依頼を50回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001127": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001127,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "依頼のプロ",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011027
+    ],
+    "task_desc": "仲間たちのニーズを把握し、正確に応えている。\n離島依頼を100回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001128": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001128,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の柱",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011028
+    ],
+    "task_desc": "継続的な支援が開発の原動力に。\n離島依頼を150回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001129": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001129,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の中心",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011029
+    ],
+    "task_desc": "皆にとって一番大事で、一番信頼できる存在に。\n離島依頼を200回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001130": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "id": 80001130,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "繁栄の礎",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170000,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80011030
     ],
     "task_desc": "開発の責任を支え、繁栄の未来を築く。\n離島依頼を300回完了する",
     "trigger_data": 0,

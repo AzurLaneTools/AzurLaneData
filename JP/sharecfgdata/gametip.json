@@ -1865,7 +1865,7 @@
     "tip": "出撃するための燃料が不足しています"
   },
   "battle_preCombatLayer_auto_confirm": {
-    "tip": "選択中の編成をオススメ編成に変更しますか？"
+    "tip": "選択中の編成をおすすめ編成で再編成しますか？"
   },
   "battle_preCombatLayer_boss_destruct": {
     "tip": "自爆を阻止した上ボス撃破"
@@ -2989,16 +2989,16 @@
     "tip": "施設を増築しますか？"
   },
   "buildship_heavy_tip": {
-    "tip": "「サン・マルチーニョ」常設実装！"
+    "tip": "「武蔵」「羽黒」常設実装！"
   },
   "buildship_light_tip": {
-    "tip": "「ゴールデン・ハインド」常設実装！"
+    "tip": "「若月」「酒匂」常設実装！"
   },
   "buildship_new_tip": {
     "tip": "「クレマンソー」「ギシャン」など出現率UP！"
   },
   "buildship_special_tip": {
-    "tip": "「メアリー・セレスト」「ウィダー」常設実装！"
+    "tip": "「武蔵」常設実装！"
   },
   "buleprint_need_level_tip": {
     "tip": "該当艦がレベル$1で開放"
@@ -6865,6 +6865,27 @@
   },
   "equip_ammo_type_9": {
     "tip": "瞬発式"
+  },
+  "equip_enhancement_finish": {
+    "tip": "強化完了"
+  },
+  "equip_enhancement_lv": {
+    "tip": "LV"
+  },
+  "equip_enhancement_lv1": {
+    "tip": "1レベル強化"
+  },
+  "equip_enhancement_lvx": {
+    "tip": "レベル$1まで強化"
+  },
+  "equip_enhancement_required": {
+    "tip": "消費素材："
+  },
+  "equip_enhancement_tip": {
+    "tip": "素材が不足しています"
+  },
+  "equip_enhancement_title": {
+    "tip": "強化"
   },
   "equip_info_1": {
     "tip": "ダメージ"
@@ -12826,6 +12847,9 @@
   "island_chara_list_sort": {
     "tip": "ソート"
   },
+  "island_chara_list_workspeed": {
+    "tip": "作業効率"
+  },
   "island_chara_now_rank": {
     "tip": "現在★"
   },
@@ -13170,6 +13194,12 @@
   },
   "island_guide_help": {
     "tip": "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\n\n1.キャラを<color=#39bfff>入手（離島権限認証を完了）</color>すると、キャラ1名につき<color=#39bfff>20</color>の図鑑Ptを入手できます\n2.キャラを<color=#39bfff>突破（職責の星を使用する）</color>すると、突破する毎に<color=#39bfff>30</color>の図鑑Ptを入手でき、更に★5に突破した場合追加で<color=#39bfff>10</color>の図鑑Ptを入手できます\n3.キャラを育成し<color=#39bfff>離島でのレベルが50到達</color>させると、図鑑Ptを<color=#39bfff>50</color>入手可能"
+  },
+  "island_guide_help_item": {
+    "tip": "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\n\n1.資源<color=#39bfff>解放</color>：図鑑で資源を解放すると、図鑑Ptを<color=#39bfff>20</color>入手可能\n2.資源<color=#39bfff>入手</color>：報酬の入手条件に定められた数の資源を入手すると、図鑑Ptを入手可能。それぞれの資源の報酬段階と必要な入手数は図鑑で確認できます"
+  },
+  "island_guide_help_npc": {
+    "tip": "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\nNPCキャラとインタラクトすると、図鑑を解放でき図鑑Ptを入手できます"
   },
   "island_guide_item": {
     "tip": "資源"
@@ -13703,6 +13733,18 @@
           "path": ""
         }
       },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order4",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/island_help_ship_order5",
+          "path": ""
+        }
+      },
       "ImageMode": true,
       "defaultpage": 1,
       "disableScroll": true,
@@ -14103,8 +14145,26 @@
   "island_order_not_get_award": {
     "tip": "受取出来ません"
   },
+  "island_order_ship_btn_replace": {
+    "tip": "委託更新"
+  },
   "island_order_ship_end_work": {
     "tip": "完了済..."
+  },
+  "island_order_ship_exchange_tip": {
+    "tip": "新しい委託に更新しますか？"
+  },
+  "island_order_ship_exchange_tip_1": {
+    "tip": "新しい委託に更新しますか？（受注中の資材がある場合、更新を行うと、輸送回数が1回消費され、消費資材は返還されません）"
+  },
+  "island_order_ship_exchange_tip_2": {
+    "tip": "輸送回数が不足しています"
+  },
+  "island_order_ship_finish_cnt": {
+    "tip": "輸送回数$1/$2"
+  },
+  "island_order_ship_finish_cnt_not_enough": {
+    "tip": "リセット"
   },
   "island_order_ship_loadup": {
     "tip": "受注"
@@ -14123,6 +14183,12 @@
   },
   "island_order_ship_page_req": {
     "tip": "委託内容確認"
+  },
+  "island_order_ship_reset_all": {
+    "tip": "表示中の全ての委託を更新しますか？"
+  },
+  "island_order_ship_sel_delegate_label": {
+    "tip": "- タップで委託選択 -"
   },
   "island_order_ship_unlock_tip": {
     "tip": "技術開発で枠を開放できます"
@@ -14229,8 +14295,26 @@
   "island_production_selected_tip2": {
     "tip": "キャラを選択してください"
   },
+  "island_production_speed_addition1": {
+    "tip": "<color=#39bfff>$1</color>能力"
+  },
+  "island_production_speed_addition2": {
+    "tip": "技術効果"
+  },
+  "island_production_speed_addition3": {
+    "tip": "バフ効果"
+  },
+  "island_production_speed_tip1": {
+    "tip": "作業効率 <color=#39bfff>+$1%</color>"
+  },
+  "island_production_speed_tip2": {
+    "tip": "作業効率バフ"
+  },
   "island_production_start": {
     "tip": "作業開始"
+  },
+  "island_production_tip": {
+    "tip": "/回"
   },
   "island_prosperity_level": {
     "tip": "繁栄度"
@@ -14249,6 +14333,9 @@
   },
   "island_queue_display": {
     "tip": "離島訪問数が上限になっています。待機リストに入ります\n指揮官の待機番号：$1"
+  },
+  "island_quickselect_tip": {
+    "tip": "*アイコンを長押しすると使用数を高速で増やせます"
   },
   "island_rename_confirm": {
     "tip": "離島名が変更されます：$1"
@@ -14298,6 +14385,9 @@
   "island_season_charts_level": {
     "tip": "離島開発Lv"
   },
+  "island_season_charts_out": {
+    "tip": "ランク外"
+  },
   "island_season_charts_pt": {
     "tip": "離島開発PT"
   },
@@ -14308,7 +14398,7 @@
     "tip": "開発順位は30分毎に更新されます"
   },
   "island_season_help": {
-    "tip": "新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます。\n開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>限定イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます。\n3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換されト</color>、開発順位の計算において統計されます\n4.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が<color=#FD5650>受け取れなくなりますト</color>。"
+    "tip": "1.新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます\n 2.開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>離島イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます\n 3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます\n 4.シーズンが終了すると、<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。\n 5.終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。"
   },
   "island_season_pt": {
     "tip": "累計PT"
@@ -14404,7 +14494,7 @@
     "tip": "最終順位"
   },
   "island_season_window_rule": {
-    "tip": "1.シーズンが終了すると、資源倉庫の<color=#39bfff>資源</color>は自動で<color=#FD5650>開発Ptに変換され</color>、開発順位の計算において統計されます。また、<color=#39bfff>一時倉庫</color>の中身が<color=#FD5650>リセット</color>され、<color=#39bfff>進行中の依頼・輸送委託・料理制作・仲間の作業配置</color>もリセットされます\n2.シーズンが終了すると、終了したシーズンの<color=#39bfff>開発計画報酬と累計PT報酬</color>が受け取れなくなります\n3.新しいシーズンが開始すると、開発PTは<color=#FD5650>自動でリセット</color>されます"
+    "tip": "1.シーズンが終了すると、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます。また、一時倉庫の中身がクリアされます。\n 2.進行中の<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。\n 3.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。\n 4.新しいシーズンが開始すると、開発PTは<color=#FD5650>自動でリセット</color>されます。"
   },
   "island_season_window_transformtip": {
     "tip": "選択したアイテムを変換しますか？"
@@ -14429,6 +14519,9 @@
   },
   "island_select_ship_tip": {
     "tip": "メニューの集客力は売上に影響します。集客力が高いほど、客が購入する確率が上がります。\n集客力は担当仲間の能力（メイン・サブ）によって影響されます。\n メイン能力：集客力を著しく上昇させる能力 \nサブ能力：集客力をそこそこ上昇させる能力"
+  },
+  "island_selectall": {
+    "tip": "全て"
   },
   "island_set_like": {
     "tip": "常用設定"
@@ -14510,6 +14603,18 @@
   },
   "island_ship_no_energy": {
     "tip": "疲労"
+  },
+  "island_ship_order_delegate_auto_refresh_label": {
+    "tip": "受注できる輸送委託はありません"
+  },
+  "island_ship_order_delegate_auto_refresh_time": {
+    "tip": "委託リスト自動更新まで："
+  },
+  "island_ship_order_toggle_label_award": {
+    "tip": "報酬確認"
+  },
+  "island_ship_order_toggle_label_request": {
+    "tip": "消費確認"
   },
   "island_ship_title1": {
     "tip": "能力育成"
@@ -14645,6 +14750,12 @@
   },
   "island_task_type_6": {
     "tip": "イベント"
+  },
+  "island_taskjump_placenoopen_tips": {
+    "tip": "ロケーションはまだ解放されていません"
+  },
+  "island_taskjump_systemnoopen_tips": {
+    "tip": "機能はまだ解放されていません"
   },
   "island_tech_can_get": {
     "tip": "受取可"
@@ -17144,6 +17255,9 @@
   "meta_repair_success": {
     "tip": "艤装強化に成功しました"
   },
+  "meta_reproduce_btn": {
+    "tip": "現在のMETA戦の模擬戦闘を始めますか？\n戦闘難易度：Lv$1\n*模擬戦闘は石油を消費せず、報酬を獲得しません"
+  },
   "meta_shop_exchange_limit": {
     "tip": "未所持"
   },
@@ -17167,6 +17281,9 @@
   },
   "meta_shop_unexchange_label": {
     "tip": "未所持"
+  },
+  "meta_simulated_btn": {
+    "tip": "現在のMETA戦の模擬戦闘を始めますか？\n戦闘難易度：Lv$1\n*模擬戦闘は石油を消費せず、報酬を獲得しません"
   },
   "meta_skill_dailyexp": {
     "tip": "本日入手経験値"
@@ -20405,6 +20522,15 @@
   },
   "sculpture_puzzle_tip": {
     "tip": "お土産のパーツを点線に囲まれたエリアまでドラッグして組み合わせよう！"
+  },
+  "search_equipment": {
+    "tip": "装備名検索"
+  },
+  "search_equipment_appearance": {
+    "tip": "装備外装名検索"
+  },
+  "search_sp_equipment": {
+    "tip": "特殊装備名検索"
   },
   "sec_floor_limit_tip": {
     "tip": "寮舎1F最大拡張完了で開放"
