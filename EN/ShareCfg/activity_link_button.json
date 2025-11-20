@@ -40,14 +40,16 @@
     "id": 10,
     "name": "event_map",
     "order": 1,
-    "param": "0",
+    "param": [
+      "bossrush dal collab"
+    ],
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50222
+      50256
     ],
-    "type": 0
+    "type": 2
   },
   "11": {
     "group_id": 3,
@@ -292,6 +294,20 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
+    "param": "DALCoreActivityUI",
+    "pic": "event_core",
+    "text_pic": "text_event_core",
+    "time": [
+      "default",
+      50245
+    ],
+    "type": 16
+  },
+  "110": {
+    "group_id": 2,
+    "id": 110,
+    "name": "event_core_2",
+    "order": 2,
     "param": [
       "PSSCoreActivityUI",
       "JINNIANDECUXIAOXINGSHISHI1"
@@ -301,20 +317,6 @@
     "time": [
       "default",
       50234
-    ],
-    "type": 16
-  },
-  "110": {
-    "group_id": 2,
-    "id": 110,
-    "name": "event_core_2",
-    "order": 2,
-    "param": "ALYCoreActivityUI",
-    "pic": "event_yumia",
-    "text_pic": "text_event_yumia",
-    "time": [
-      "default",
-      50058
     ],
     "type": 16
   },
