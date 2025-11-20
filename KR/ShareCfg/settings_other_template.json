@@ -200,10 +200,28 @@
   "23": {
     "alignment": 0,
     "default": 1,
-    "desc": "功能开启后，他人问访问您的岛屿将弹框通知",
+    "desc": "ON으로 설정하면, 아일랜드에 방문자가 있을 때 팝업으로 알려줍니다.",
     "id": 23,
     "name": "ISLAND_NOTIFYCATION",
-    "title": "岛屿访客通知",
+    "title": "아일랜드 방문 알림",
+    "type": 0
+  },
+  "24": {
+    "alignment": 0,
+    "default": 0,
+    "desc": "렌더링 호환 모드를 ON으로 설정하면, 특정 상황 및 일부 환경에서 화면이 검게 변하는 오류를 줄일 수 있습니다.",
+    "id": 24,
+    "name": "GRAPHI_API_SWITCH_OPTION",
+    "title": "렌더링 호환 모드",
+    "type": 3
+  },
+  "25": {
+    "alignment": 0,
+    "default": 1,
+    "desc": "ON으로 설정하면 추천 편성으로 함대를 자동 편성할 때 컨디션이 낮은 함선이 선택되지 않습니다.",
+    "id": 25,
+    "name": "REMOVE_LOW_MOOD",
+    "title": "추천 편성 시의 함선 필터",
     "type": 0
   },
   "all": [
@@ -229,6 +247,8 @@
     20,
     21,
     22,
-    23
+    23,
+    24,
+    25
   ]
 }
