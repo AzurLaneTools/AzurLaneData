@@ -206,6 +206,78 @@
     "type": 3,
     "zone_id": 4005
   },
+  "1110101": {
+    "default_furniture": 0,
+    "furniture_name": "no_bake_prop_substitute",
+    "id": 1110101,
+    "name": "臥室書架",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11001
+  },
+  "1110102": {
+    "default_furniture": 1101,
+    "furniture_name": "pre_db_bed04",
+    "id": 1110102,
+    "name": "臥室床",
+    "room_id": 11,
+    "type": 4,
+    "zone_id": 11001
+  },
+  "1110201": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_electrical03",
+    "id": 1110201,
+    "name": "餐廳微波爐",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11002
+  },
+  "1110202": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_pottedplant01",
+    "id": 1110202,
+    "name": "餐廳綠植",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11002
+  },
+  "1110203": {
+    "default_furniture": 1102,
+    "furniture_name": "pre_db_appliances04",
+    "id": 1110203,
+    "name": "冰箱",
+    "room_id": 11,
+    "type": 6,
+    "zone_id": 11002
+  },
+  "1110301": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_billboard01",
+    "id": 1110301,
+    "name": "客廳畫框",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11003
+  },
+  "1110302": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_njh_fishtank01",
+    "id": 1110302,
+    "name": "客廳水缸",
+    "room_id": 11,
+    "type": 3,
+    "zone_id": 11003
+  },
+  "1110303": {
+    "default_furniture": 1103,
+    "furniture_name": "pre_db_chair19_group",
+    "id": 1110303,
+    "name": "客廳沙發",
+    "room_id": 11,
+    "type": 5,
+    "zone_id": 11003
+  },
   "all": [
     100101,
     100102,
@@ -229,7 +301,15 @@
     130202,
     130301,
     130302,
-    140101
+    140101,
+    1110101,
+    1110102,
+    1110201,
+    1110202,
+    1110203,
+    1110301,
+    1110302,
+    1110303
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -262,6 +342,16 @@
     ],
     "4": [
       140101
+    ],
+    "11": [
+      1110101,
+      1110102,
+      1110201,
+      1110202,
+      1110203,
+      1110301,
+      1110302,
+      1110303
     ]
   },
   "get_id_list_by_zone_id": {
@@ -309,6 +399,20 @@
     ],
     "4005": [
       140101
+    ],
+    "11001": [
+      1110101,
+      1110102
+    ],
+    "11002": [
+      1110201,
+      1110202,
+      1110203
+    ],
+    "11003": [
+      1110301,
+      1110302,
+      1110303
     ]
   }
 }
