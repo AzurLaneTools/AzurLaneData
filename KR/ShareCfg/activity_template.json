@@ -20206,33 +20206,7 @@
     "mark": 20250116,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2025,
-          1,
-          23
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          2,
-          19
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 52
   },
@@ -29842,6 +29816,59 @@
     "title_res_tag": "CrusingDisplayAct",
     "type": 54
   },
+  "7026": {
+    "config_client": "",
+    "config_data": [
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258
+    ],
+    "config_id": 0,
+    "id": 7026,
+    "is_show": 14,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": {
+      "class_name": "CrusingDisplayActPage2",
+      "ui_name": "CrusingDisplayActPage26"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          12,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          7
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "CrusingDisplayAct",
+    "type": 54
+  },
   "7102": {
     "config_client": "",
     "config_data": [
@@ -29904,7 +29931,9 @@
       12034,
       12035,
       12036,
-      12037
+      12037,
+      12038,
+      12039
     ],
     "config_id": 1,
     "id": 7104,
@@ -30558,6 +30587,91 @@
         ],
         [
           12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 30
+  },
+  "8111": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 80,
+    "id": 8111,
+    "is_show": 51,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": {
+      "class_name": "NewServerLoginPage",
+      "ui_name": "NewServerLoginPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          18
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "newserver_main",
+    "type": 3
+  },
+  "8112": {
+    "config_client": "",
+    "config_data": [
+      103
+    ],
+    "config_id": 0,
+    "id": 8112,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          18
+        ],
+        [
+          16,
           0,
           0
         ]
@@ -42312,7 +42426,7 @@
     "config_data": [],
     "config_id": 50214,
     "id": 50214,
-    "is_show": 47,
+    "is_show": 45,
     "login_pop": 0,
     "mark": 20251106,
     "page_core": "",
@@ -42527,6 +42641,832 @@
     ],
     "title_res_tag": "",
     "type": 30
+  },
+  "50245": {
+    "config_client": {
+      "highValueItemSort": [
+        23,
+        30,
+        36,
+        40
+      ],
+      "shopLinkActID": 50246
+    },
+    "config_data": [],
+    "config_id": 50245,
+    "id": 50245,
+    "is_show": 2,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "DALCoreActivityUI",
+    "page_info": {
+      "class_name": "DALptPage",
+      "ui_name": "DALptPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          17
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "StormSeaPtPage",
+    "type": 74
+  },
+  "50246": {
+    "config_client": {
+      "1": "commonbg/bg_pt_aersasi",
+      "2": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enter": [
+        [
+          "dal_shop1",
+          "dal_shop2"
+        ],
+        [
+          "잘 왔군! 지휘하는 자여! 「응대. 어서 오세요」",
+          "오늘은 어떻게 할래? 「제안. 유즈루는 이걸 좋아합니다.」"
+        ]
+      ],
+      "painting": "bawu_pt",
+      "pt_id": 588,
+      "purchase": [
+        [
+          "dal_shop3",
+          "dal_shop4"
+        ],
+        [
+          "「수령. 역시 지휘관님이세요.」 응? 그게 무슨 말이야??",
+          "「수령. 역시 지휘관님이세요.」 응? 그게 무슨 말이야??"
+        ]
+      ],
+      "purchase_all": [
+        "dal_shop5",
+        "「종료. 싹 다 팔렸습니다.」 응? 이게 다라고?!"
+      ],
+      "use_secretary": false
+    },
+    "config_data": [
+      3501,
+      3502,
+      3503,
+      3504,
+      3505,
+      3506,
+      3507,
+      3508,
+      3509,
+      3510,
+      3511,
+      3512,
+      3513,
+      3514,
+      3515,
+      3516,
+      3517,
+      3518,
+      3519,
+      3520,
+      3521,
+      3522,
+      3523,
+      3524,
+      3525,
+      3526,
+      3527
+    ],
+    "config_id": 0,
+    "id": 50246,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          17
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 14
+  },
+  "50247": {
+    "config_client": "",
+    "config_data": [
+      [
+        31929,
+        100
+      ]
+    ],
+    "config_id": 1,
+    "id": 50247,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          10
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 27
+  },
+  "50248": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 0,
+    "id": 50248,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          10
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 13
+  },
+  "50249": {
+    "config_client": {
+      "equipskin_box_link": {
+        "drop_id": 30377,
+        "drop_type": 2,
+        "list": [
+          [
+            2,
+            [
+              "scene shop",
+              {
+                "warp": "shopstreet"
+              }
+            ],
+            "상점에서 획득换"
+          ],
+          [
+            2,
+            [
+              "scene level",
+              []
+            ],
+            "이벤트 스테이지에서 획득"
+          ]
+        ]
+      },
+      "furniture_theme_link": [
+        2,
+        [
+          "scene court yard",
+          []
+        ]
+      ],
+      "medal_link": [
+        2,
+        [
+          "scene task"
+        ]
+      ]
+    },
+    "config_data": [],
+    "config_id": 0,
+    "id": 50249,
+    "is_show": 5,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "DALCoreActivityUI",
+    "page_info": {
+      "class_name": "DALAwardPage",
+      "ui_name": "DALAwardPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "tolovecollect",
+    "type": 103
+  },
+  "50250": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 4,
+    "id": 50250,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 1
+  },
+  "50251": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 0,
+    "id": 50251,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 60
+  },
+  "50252": {
+    "config_client": {
+      "story": [
+        [
+          "DATEALANERICHANG1"
+        ],
+        [
+          "DATEALANERICHANG6"
+        ],
+        [
+          "DATEALANERICHANG5"
+        ],
+        [
+          "DATEALANERICHANG3"
+        ],
+        [
+          "DATEALANERICHANG4"
+        ],
+        [
+          "DATEALANERICHANG2"
+        ]
+      ]
+    },
+    "config_data": [
+      24702,
+      24703,
+      24704,
+      24705,
+      24706,
+      24707
+    ],
+    "config_id": 0,
+    "id": 50252,
+    "is_show": 4,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "DALCoreActivityUI",
+    "page_info": {
+      "class_name": "DALStagePage",
+      "ui_name": "DALStagePage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 13
+  },
+  "50253": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 50253,
+    "id": 50253,
+    "is_show": 3,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "DALCoreActivityUI",
+    "page_info": {
+      "class_name": "DALFavorabilityPage",
+      "ui_name": "DALFavorabilityPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "xiaoankeleiqi_pt",
+    "type": 74
+  },
+  "50254": {
+    "config_client": {
+      "npc": [
+        "",
+        24701
+      ]
+    },
+    "config_data": [],
+    "config_id": 11500051,
+    "id": 50254,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 15
+  },
+  "50255": {
+    "config_client": {
+      "resource_ID": 65742
+    },
+    "config_data": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "config_id": 0,
+    "id": 50255,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 67
+  },
+  "50256": {
+    "config_client": {
+      "PTID": 588,
+      "entrance_bg": "activitybanner/temp10",
+      "first_story": "DATEALANEGUANQIA1",
+      "shopID": 50246,
+      "shopItemID": 71237,
+      "storys_unlock_story": [
+        "DATEALANEGUANQIA21",
+        [
+          "DATEALANEGUANQIA8",
+          "DATEALANEGUANQIA12",
+          "DATEALANEGUANQIA16",
+          "DATEALANEGUANQIA20"
+        ]
+      ]
+    },
+    "config_data": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "config_id": 0,
+    "id": 50256,
+    "is_show": 1,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "DALCoreActivityUI",
+    "page_info": {
+      "class_name": "DALMainPage",
+      "ui_name": "DALMainPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "StormSeaMainPage",
+    "type": 132
+  },
+  "50257": {
+    "config_client": "",
+    "config_data": [
+      24709,
+      24716,
+      24717,
+      24718,
+      24719,
+      24720,
+      24721,
+      24722,
+      24723,
+      24724,
+      24725,
+      24726,
+      24727,
+      24728,
+      24729,
+      24730,
+      24731,
+      24732,
+      24733,
+      24734,
+      24735,
+      24736,
+      24737,
+      24738,
+      24739,
+      24740,
+      24741
+    ],
+    "config_id": 0,
+    "id": 50257,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 13
+  },
+  "50258": {
+    "config_client": "",
+    "config_data": "100",
+    "config_id": 588,
+    "id": 50258,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          11
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 16
+  },
+  "50259": {
+    "config_client": "",
+    "config_data": [
+      24708
+    ],
+    "config_id": 0,
+    "id": 50259,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251120,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          11,
+          27
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          10
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 13
   },
   "100001": {
     "config_client": "",
@@ -43718,6 +44658,21 @@
     50216,
     50217,
     50218,
+    50245,
+    50246,
+    50247,
+    50248,
+    50249,
+    50250,
+    50251,
+    50252,
+    50253,
+    50254,
+    50255,
+    50256,
+    50257,
+    50258,
+    50259,
     7001,
     7004,
     7005,
@@ -43741,6 +44696,7 @@
     7023,
     7024,
     7025,
+    7026,
     7102,
     7104,
     7501,
@@ -43762,6 +44718,8 @@
     8090,
     8100,
     8101,
+    8111,
+    8112,
     1068,
     1069,
     1070,
@@ -44012,7 +44970,8 @@
       50127,
       50175,
       50210,
-      50211
+      50211,
+      50250
     ],
     "2": [
       2,
@@ -44051,6 +45010,7 @@
       8062,
       8089,
       8100,
+      8111,
       20709,
       20991,
       20995,
@@ -44337,6 +45297,10 @@
       50207,
       50209,
       50216,
+      50248,
+      50252,
+      50257,
+      50259,
       1079,
       1080,
       1081,
@@ -44413,7 +45377,11 @@
       50129,
       50170,
       50206,
+      50246,
       20704
+    ],
+    "15": [
+      50254
     ],
     "16": [
       4896,
@@ -44462,6 +45430,7 @@
       50172,
       50183,
       50215,
+      50258,
       20682
     ],
     "17": [
@@ -44702,7 +45671,8 @@
       50135,
       50173,
       50208,
-      50212
+      50212,
+      50247
     ],
     "29": [
       5201,
@@ -44728,6 +45698,7 @@
       8063,
       8090,
       8101,
+      8112,
       21002,
       21008
     ],
@@ -44845,6 +45816,7 @@
       7023,
       7024,
       7025,
+      7026,
       20873,
       20913,
       20969
@@ -44961,7 +45933,8 @@
       5927,
       5977,
       5992,
-      50016
+      50016,
+      50251
     ],
     "61": [
       5096
@@ -44976,6 +45949,9 @@
     ],
     "66": [
       20681
+    ],
+    "67": [
+      50255
     ],
     "68": [
       5850,
@@ -45083,6 +46059,8 @@
       50169,
       50205,
       50214,
+      50245,
+      50253,
       1086,
       6006,
       6010,
@@ -45203,7 +46181,8 @@
       5988,
       50064,
       50066,
-      50155
+      50155,
+      50249
     ],
     "104": [
       4963
@@ -45289,6 +46268,9 @@
     ],
     "129": [
       50116
+    ],
+    "132": [
+      50256
     ],
     "800": [
       999901
