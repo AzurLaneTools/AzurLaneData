@@ -5548,6 +5548,505 @@
     "story_type": 1,
     "unlock_conditions": "Clear EX-2"
   },
+  "321": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 321,
+    "lock": "",
+    "name": "EPS-1 VOICE#1",
+    "pre_event": "",
+    "story": "YIHAILIUSHENG1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "322": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 322,
+    "lock": [
+      [
+        4,
+        321
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          0
+        ]
+      ]
+    ],
+    "name": "EP1-1 VOICE#2",
+    "pre_event": [
+      321
+    ],
+    "story": "YIHAILIUSHENG2",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-1."
+  },
+  "323": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 323,
+    "lock": [
+      [
+        4,
+        322
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          0
+        ]
+      ]
+    ],
+    "name": "EP1-2 VOICE#3",
+    "pre_event": [
+      322
+    ],
+    "story": "YIHAILIUSHENG3",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-1."
+  },
+  "324": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 324,
+    "lock": [
+      [
+        4,
+        323
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          200
+        ]
+      ]
+    ],
+    "name": "EP1-3 VOICE#4",
+    "pre_event": [
+      323
+    ],
+    "story": "YIHAILIUSHENG4",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-2."
+  },
+  "325": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 325,
+    "lock": [
+      [
+        4,
+        324
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          200
+        ]
+      ]
+    ],
+    "name": "EP1-4 VOICE#5",
+    "pre_event": [
+      324
+    ],
+    "story": "YIHAILIUSHENG5",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-3."
+  },
+  "326": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 326,
+    "lock": [
+      [
+        4,
+        325
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          350
+        ]
+      ]
+    ],
+    "name": "EPS-2 VOICE#6",
+    "pre_event": [
+      325
+    ],
+    "story": "YIHAILIUSHENG6",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP1-4."
+  },
+  "327": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 327,
+    "lock": [
+      [
+        4,
+        326
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          350
+        ]
+      ]
+    ],
+    "name": "EP2-1 VOICE#7",
+    "pre_event": [
+      326
+    ],
+    "story": "YIHAILIUSHENG7",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-2."
+  },
+  "328": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 328,
+    "lock": [
+      [
+        4,
+        327
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          350
+        ]
+      ]
+    ],
+    "name": "EP3-1 VOICE#8",
+    "pre_event": [
+      326
+    ],
+    "story": "YIHAILIUSHENG8",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-1."
+  },
+  "329": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 329,
+    "lock": [
+      [
+        4,
+        328
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          500
+        ]
+      ]
+    ],
+    "name": "EP2-2 VOICE#9",
+    "pre_event": [
+      327
+    ],
+    "story": "YIHAILIUSHENG9",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-1."
+  },
+  "330": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 330,
+    "lock": [
+      [
+        4,
+        329
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          500
+        ]
+      ]
+    ],
+    "name": "EP3-2 VOICE#10",
+    "pre_event": [
+      328
+    ],
+    "story": "YIHAILIUSHENG10",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-2."
+  },
+  "331": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 331,
+    "lock": [
+      [
+        4,
+        330
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          500
+        ]
+      ]
+    ],
+    "name": "EP2-3 VOICE#11",
+    "pre_event": [
+      329
+    ],
+    "story": "YIHAILIUSHENG11",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-2."
+  },
+  "332": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 332,
+    "lock": [
+      [
+        4,
+        331
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          500
+        ]
+      ]
+    ],
+    "name": "EP3-3 VOICE#12",
+    "pre_event": [
+      330
+    ],
+    "story": "YIHAILIUSHENG12",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-3."
+  },
+  "333": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 333,
+    "lock": [
+      [
+        4,
+        332
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          650
+        ]
+      ]
+    ],
+    "name": "EP2-4 VOICE#13",
+    "pre_event": [
+      331
+    ],
+    "story": "YIHAILIUSHENG13",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-3."
+  },
+  "334": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 334,
+    "lock": [
+      [
+        4,
+        333
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          650
+        ]
+      ]
+    ],
+    "name": "EP3-4 VOICE#14",
+    "pre_event": [
+      332
+    ],
+    "story": "YIHAILIUSHENG14",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-4."
+  },
+  "335": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 335,
+    "lock": [
+      [
+        4,
+        334
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          650
+        ]
+      ]
+    ],
+    "name": "EP2-5 VOICE#15",
+    "pre_event": [
+      333
+    ],
+    "story": "YIHAILIUSHENG15",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-4."
+  },
+  "336": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 336,
+    "lock": [
+      [
+        4,
+        335
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          650
+        ]
+      ]
+    ],
+    "name": "EP3-5 VOICE#16",
+    "pre_event": [
+      334
+    ],
+    "story": "YIHAILIUSHENG16",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP2-5."
+  },
+  "337": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 337,
+    "lock": [
+      [
+        4,
+        336
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          1000
+        ]
+      ]
+    ],
+    "name": "EPS-3 VOICE#17",
+    "pre_event": [
+      335,
+      336
+    ],
+    "story": "YIHAILIUSHENG17",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP3-5."
+  },
+  "338": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 338,
+    "lock": [
+      [
+        4,
+        337
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          1000
+        ]
+      ]
+    ],
+    "name": "EPS-4 VOICE#18",
+    "pre_event": [
+      337
+    ],
+    "story": "YIHAILIUSHENG18",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-3."
+  },
+  "339": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "bgm-waterwave",
+    "change_prefab": "",
+    "id": 339,
+    "lock": [
+      [
+        4,
+        338
+      ],
+      [
+        3,
+        [
+          1,
+          595,
+          1000
+        ]
+      ]
+    ],
+    "name": "EPS-5 VOICE#19",
+    "pre_event": [
+      338
+    ],
+    "story": "YIHAILIUSHENG19",
+    "story_type": 1,
+    "unlock_conditions": "Clear EPS-4."
+  },
   "all": [
     1,
     2,
@@ -5843,6 +6342,25 @@
     316,
     317,
     318,
-    319
+    319,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339
   ]
 }
