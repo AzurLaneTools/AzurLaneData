@@ -2297,7 +2297,7 @@
     "bgm": "story-amahara-stage1",
     "chapter": 4,
     "column": 55,
-    "description": "COMING SOON",
+    "description": "\"Amaiki – it formeth a wall against the world beyond; it is the Sky Realm. Amahara – it is defined by Amaiki; it is the Sky Field. Even should the earth collapse and the mountains crumble, a great disaster is inevitable—forevermore must the Sky Realm Amahara last.\"",
     "icon": "ChapterFour_9",
     "id": 90,
     "link_event": [
@@ -2310,7 +2310,7 @@
       339
     ],
     "memory_lock": 0,
-    "name": "COMING SOON",
+    "name": "A Dance for Amahara Above ",
     "row": 0,
     "shipnation": [
       1,
@@ -2344,12 +2344,44 @@
     "world_id": ""
   },
   "92": {
-    "bgm": "",
-    "chapter": 0,
+    "bgm": "login",
+    "chapter": 4,
     "column": 57,
     "description": "Stay Tuned",
-    "icon": "",
+    "icon": "ChapterFour_11",
     "id": 92,
+    "link_event": [
+      91,
+      93
+    ],
+    "memory_id": [
+      1,
+      350
+    ],
+    "memory_lock": 0,
+    "name": "Stay Tuned",
+    "row": 0,
+    "shipnation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11
+    ],
+    "sort": 1,
+    "world_id": ""
+  },
+  "93": {
+    "bgm": "",
+    "chapter": 0,
+    "column": 58,
+    "description": "Stay Tuned",
+    "icon": "",
+    "id": 93,
     "link_event": "",
     "memory_id": "",
     "memory_lock": 1,
@@ -2451,6 +2483,7 @@
     89,
     90,
     91,
-    92
+    92,
+    93
   ]
 }

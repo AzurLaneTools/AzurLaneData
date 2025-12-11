@@ -113411,6 +113411,20 @@
       1
     ]
   },
+  "60990": {
+    "desc": "When the battle starts, and every 30s: applies a random buff to the wearer.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 60990,
+    "max_level": 0,
+    "name": "Director's Screenplay",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
   "101010": {
     "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
     "desc_add": [
@@ -176174,6 +176188,433 @@
       "51": 801967
     },
     "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801970": {
+    "desc": "5s after the battle starts, and every 10s after that: inflicts the Observed status on enemies without this status until the battle ends (prioritizes humanoid enemies), decreasing their FP and AVI by $1. When this ship's airstrike finishes loading: inflicts the Focused Gaze status against enemies with the Observed status for 10s, decreasing their AA, EVA, and SPD by $2. Enemies with Focused Gaze take $3 more DMG from \"Yorktown\", but also deal 5.0% more DMG to Yorktown META.",
+    "desc_add": [
+      [
+        [
+          "1.5%",
+          "+0.3%"
+        ],
+        [
+          "1.8%",
+          "+0.3%"
+        ],
+        [
+          "2.1%",
+          "+0.4%"
+        ],
+        [
+          "2.5%",
+          "+0.3%"
+        ],
+        [
+          "2.8%",
+          "+0.3%"
+        ],
+        [
+          "3.1%",
+          "+0.4%"
+        ],
+        [
+          "3.5%",
+          "+0.4%"
+        ],
+        [
+          "3.9%",
+          "+0.4%"
+        ],
+        [
+          "4.3%",
+          "+0.7%"
+        ],
+        [
+          "5.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "4.5%",
+          "+0.7%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+0.7%"
+        ],
+        [
+          "7.7%",
+          "+0.8%"
+        ],
+        [
+          "8.5%",
+          "+1.0%"
+        ],
+        [
+          "9.5%",
+          "+0.7%"
+        ],
+        [
+          "10.2%",
+          "+0.8%"
+        ],
+        [
+          "11.0%",
+          "+1.0%"
+        ],
+        [
+          "12.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.5%",
+        "5.0%"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "4.5%",
+        "12.0%"
+      ]
+    ],
+    "id": 801970,
+    "max_level": 10,
+    "name": "To Gaze Upon Fate",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801980": {
+    "desc": "When the battle starts: increases this ship's max Detection Gauge value by 15. When this ship launches an airstrike: launches a special $2 airstrike (DMG is based on the skill's level) and increases this ship's Detection Gauge recovery by 2 for 5s. Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $1 of this ship's max HP and launches a $2 special airstrike; if there is an enemy with Focused Gaze when this effect activates, this ship's Detection Gauge value is set to 0.",
+    "desc_add": [
+      [
+        [
+          "15.0%",
+          "+1.1%"
+        ],
+        [
+          "16.1%",
+          "+1.1%"
+        ],
+        [
+          "17.2%",
+          "+1.1%"
+        ],
+        [
+          "18.3%",
+          "+1.1%"
+        ],
+        [
+          "19.4%",
+          "+1.1%"
+        ],
+        [
+          "20.5%",
+          "+1.1%"
+        ],
+        [
+          "21.6%",
+          "+1.1%"
+        ],
+        [
+          "22.7%",
+          "+1.1%"
+        ],
+        [
+          "23.8%",
+          "+1.2%"
+        ],
+        [
+          "25.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1",
+          "+1"
+        ],
+        [
+          "Lv.2",
+          "+1"
+        ],
+        [
+          "Lv.3",
+          "+1"
+        ],
+        [
+          "Lv.4",
+          "+1"
+        ],
+        [
+          "Lv.5",
+          "+1"
+        ],
+        [
+          "Lv.6",
+          "+1"
+        ],
+        [
+          "Lv.7",
+          "+1"
+        ],
+        [
+          "Lv.8",
+          "+1"
+        ],
+        [
+          "Lv.9",
+          "+1"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "15.0%",
+        "25.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 801980,
+    "max_level": 10,
+    "name": "To Remember the Past",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "801990": {
+    "desc": "Increases this ship's AVI by $1. If your Airspace Control state is not Air Denial or Air Incapability, \"Yorktown\" takes $2 less aircraft DMG. Increases the RLD and ACC of all ships with a Framework of Logic skill by $1.",
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "4.5%",
+          "+0.7%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+0.7%"
+        ],
+        [
+          "7.7%",
+          "+0.8%"
+        ],
+        [
+          "8.5%",
+          "+1.0%"
+        ],
+        [
+          "9.5%",
+          "+0.7%"
+        ],
+        [
+          "10.2%",
+          "+0.8%"
+        ],
+        [
+          "11.0%",
+          "+1.0%"
+        ],
+        [
+          "12.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "4.5%",
+        "12.0%"
+      ]
+    ],
+    "id": 801990,
+    "max_level": 10,
+    "name": "To Witness Life and Death",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "802001": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 802001,
+    "max_level": 1,
+    "name": "Framework of Logic - Yorktown I",
+    "system_transform": {
+      "51": 802005
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "802002": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 802002,
+    "max_level": 1,
+    "name": "Framework of Logic - Yorktown II",
+    "system_transform": {
+      "51": 802007
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "802005": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 2.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 802005,
+    "max_level": 1,
+    "name": "Framework of Logic - Yorktown I",
+    "system_transform": {
+      "51": 802005
+    },
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "802007": {
+    "desc": "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 6.0%.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 802007,
+    "max_level": 1,
+    "name": "Framework of Logic - Yorktown II",
+    "system_transform": {
+      "51": 802007
+    },
+    "type": 1,
     "world_death_mark": [
       1
     ]
