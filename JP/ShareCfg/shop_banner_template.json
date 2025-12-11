@@ -1,43 +1,4 @@
 {
-  "10": {
-    "id": 10,
-    "name": "banner_big",
-    "order": 10,
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "pic": "shopbanner/shop_skin",
-    "relation_param": "",
-    "time": [
-      [
-        [
-          2025,
-          11,
-          20
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          12,
-          3
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "time_lable": 1,
-    "type": 2
-  },
   "11": {
     "id": 11,
     "name": "banner_big",
@@ -147,50 +108,6 @@
   "20": {
     "id": 20,
     "name": "banner_middle",
-    "order": 7,
-    "param": [
-      "scene charge",
-      {
-        "warp": 4
-      }
-    ],
-    "pic": "shopbanner/shop_pack_bg",
-    "relation_param": [
-      1,
-      96
-    ],
-    "time": [
-      [
-        [
-          2025,
-          9,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          10,
-          2
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "time_lable": 1,
-    "type": 2
-  },
-  "21": {
-    "id": 21,
-    "name": "banner_middle",
     "order": 6,
     "param": [
       "scene charge",
@@ -201,34 +118,28 @@
     "pic": "shopbanner/shop_pack_bg",
     "relation_param": [
       1,
-      97
+      9002
     ],
-    "time": [
-      [
-        [
-          2025,
-          9,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          10,
-          2
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
+    "time": "stop",
+    "time_lable": 1,
+    "type": 2
+  },
+  "21": {
+    "id": 21,
+    "name": "banner_middle",
+    "order": 7,
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
     ],
+    "pic": "shopbanner/shop_pack_bg",
+    "relation_param": [
+      1,
+      9003
+    ],
+    "time": "stop",
     "time_lable": 1,
     "type": 2
   },
@@ -251,50 +162,6 @@
   "23": {
     "id": 23,
     "name": "banner_middle",
-    "order": 9,
-    "param": [
-      "scene charge",
-      {
-        "warp": 4
-      }
-    ],
-    "pic": "shopbanner/shop_pack_bg",
-    "relation_param": [
-      1,
-      98
-    ],
-    "time": [
-      [
-        [
-          2025,
-          9,
-          19
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          10,
-          2
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "time_lable": 1,
-    "type": 2
-  },
-  "24": {
-    "id": 24,
-    "name": "banner_middle",
     "order": 8,
     "param": [
       "scene charge",
@@ -305,34 +172,28 @@
     "pic": "shopbanner/shop_pack_bg",
     "relation_param": [
       1,
-      99
+      9004
     ],
-    "time": [
-      [
-        [
-          2025,
-          9,
-          19
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          10,
-          2
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
+    "time": "stop",
+    "time_lable": 1,
+    "type": 2
+  },
+  "24": {
+    "id": 24,
+    "name": "banner_middle",
+    "order": 9,
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
     ],
+    "pic": "shopbanner/shop_pack_bg",
+    "relation_param": [
+      1,
+      9005
+    ],
+    "time": "stop",
     "time_lable": 1,
     "type": 2
   },
@@ -349,34 +210,9 @@
     "pic": "shopbanner/shop_pack_bg",
     "relation_param": [
       1,
-      9001
+      9006
     ],
-    "time": [
-      [
-        [
-          2025,
-          9,
-          25
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          10,
-          22
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "time_lable": 1,
     "type": 2
   },
@@ -500,7 +336,6 @@
     "type": 2
   },
   "all": [
-    10,
     11,
     12,
     13,
@@ -520,7 +355,6 @@
   ],
   "get_id_list_by_name": {
     "banner_big": [
-      10,
       11,
       12,
       13,
