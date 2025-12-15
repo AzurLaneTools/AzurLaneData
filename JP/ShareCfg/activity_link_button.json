@@ -257,22 +257,6 @@
     ],
     "type": 7
   },
-  "106": {
-    "group_id": 11,
-    "id": 106,
-    "name": "event_blackFriday",
-    "order": 1,
-    "param": [
-      "BlackFridaySales"
-    ],
-    "pic": "event_blackfriday",
-    "text_pic": "text_event_blackfriday",
-    "time": [
-      "default",
-      5702
-    ],
-    "type": 2
-  },
   "107": {
     "group_id": 12,
     "id": 107,
@@ -310,12 +294,15 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": "WinterFestival2025CoreActivityUI",
+    "param": [
+      "WinterFestival2025CoreActivityUI",
+      "JINNIANDECUXIAOXINGSHISHI1"
+    ],
     "pic": "event_core",
     "text_pic": "text_event_core",
     "time": [
       "default",
-      50270
+      7302
     ],
     "type": 16
   },
@@ -395,7 +382,6 @@
     103,
     104,
     105,
-    106,
     107,
     108,
     109,
@@ -418,9 +404,6 @@
     ],
     "event_aprilFool": [
       70
-    ],
-    "event_blackFriday": [
-      106
     ],
     "event_boat_ad_game": [
       105
