@@ -40,16 +40,14 @@
     "id": 10,
     "name": "event_map",
     "order": 1,
-    "param": [
-      "bossrush dal collab"
-    ],
+    "param": "0",
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50256
+      50281
     ],
-    "type": 2
+    "type": 0
   },
   "11": {
     "group_id": 3,
@@ -294,15 +292,12 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": [
-      "WinterFestival2025CoreActivityUI",
-      "JINNIANDECUXIAOXINGSHISHI1"
-    ],
+    "param": "WinterFestival2025CoreActivityUI",
     "pic": "event_core",
     "text_pic": "text_event_core",
     "time": [
       "default",
-      7302
+      50297
     ],
     "type": 16
   },
@@ -362,6 +357,20 @@
     ],
     "type": 16
   },
+  "114": {
+    "group_id": 1,
+    "id": 114,
+    "name": "event_core",
+    "order": 1,
+    "param": "WinterFestival2025CoreActivityUI",
+    "pic": "event_core3",
+    "text_pic": "text_event_core3",
+    "time": [
+      "default",
+      50290
+    ],
+    "type": 16
+  },
   "all": [
     1,
     2,
@@ -388,7 +397,8 @@
     110,
     111,
     112,
-    113
+    113,
+    114
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -415,7 +425,8 @@
       102
     ],
     "event_core": [
-      109
+      109,
+      114
     ],
     "event_core_2": [
       110,
