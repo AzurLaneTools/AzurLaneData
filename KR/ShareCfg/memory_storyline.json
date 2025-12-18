@@ -2297,7 +2297,7 @@
     "bgm": "story-amahara-stage1",
     "chapter": 4,
     "column": 55,
-    "description": "기대해주세요",
+    "description": "「천역, 곧 외역의 병풍. 아마하라, 천역으로 인해 안정할지니. 설령 땅이 갈라지고 산이 무너져 재앙이 닥칠지라도——천역 아마하라는 영속하리라.」",
     "icon": "ChapterFour_9",
     "id": 90,
     "link_event": [
@@ -2310,7 +2310,7 @@
       339
     ],
     "memory_lock": 0,
-    "name": "기대해주세요",
+    "name": "아마하라에 바치는 춤",
     "row": 0,
     "shipnation": [
       1,
@@ -2321,16 +2321,39 @@
     "world_id": ""
   },
   "91": {
-    "bgm": "",
+    "bgm": "theme-helena ",
     "chapter": 4,
     "column": 56,
-    "description": "敬请期待",
-    "icon": "",
+    "description": "「나는 곧 먼 길을 떠나.」\n「그러니까 오늘은 더 솔직하고, 더 편하게……」\n「떠오르는 말을 그대로 이야기해볼 거야.」\n「……시작할게.」",
+    "icon": "ChapterFour_10",
     "id": 91,
+    "link_event": [
+      92
+    ],
+    "memory_id": [
+      1,
+      349
+    ],
+    "memory_lock": 0,
+    "name": "추억의 잔향",
+    "row": 0,
+    "shipnation": [
+      97
+    ],
+    "sort": 1,
+    "world_id": ""
+  },
+  "92": {
+    "bgm": "",
+    "chapter": 0,
+    "column": 57,
+    "description": "기대해 주세요",
+    "icon": "",
+    "id": 92,
     "link_event": "",
     "memory_id": "",
     "memory_lock": 1,
-    "name": "敬请期待",
+    "name": "기대해 주세요",
     "row": 0,
     "shipnation": 0,
     "sort": 0,
@@ -2427,6 +2450,7 @@
     88,
     89,
     90,
-    91
+    91,
+    92
   ]
 }
