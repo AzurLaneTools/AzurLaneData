@@ -40,16 +40,14 @@
     "id": 10,
     "name": "event_map",
     "order": 1,
-    "param": [
-      "bossrush dal collab"
-    ],
+    "param": "0",
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50256
+      50281
     ],
-    "type": 2
+    "type": 0
   },
   "11": {
     "group_id": 3,
@@ -257,6 +255,22 @@
     ],
     "type": 7
   },
+  "106": {
+    "group_id": 11,
+    "id": 106,
+    "name": "event_blackFriday",
+    "order": 1,
+    "param": [
+      "BlackFridaySales"
+    ],
+    "pic": "event_blackfriday",
+    "text_pic": "text_event_blackfriday",
+    "time": [
+      "default",
+      5702
+    ],
+    "type": 2
+  },
   "107": {
     "group_id": 12,
     "id": 107,
@@ -294,15 +308,12 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": [
-      "WinterFestival2025CoreActivityUI",
-      "JINNIANDECUXIAOXINGSHISHI1"
-    ],
+    "param": "WinterFestival2025CoreActivityUI",
     "pic": "event_core",
     "text_pic": "text_event_core",
     "time": [
       "default",
-      7302
+      50297
     ],
     "type": 16
   },
@@ -362,6 +373,20 @@
     ],
     "type": 16
   },
+  "114": {
+    "group_id": 1,
+    "id": 114,
+    "name": "event_core",
+    "order": 1,
+    "param": "WinterFestival2025CoreActivityUI",
+    "pic": "event_core3",
+    "text_pic": "text_event_core3",
+    "time": [
+      "default",
+      50290
+    ],
+    "type": 16
+  },
   "all": [
     1,
     2,
@@ -382,13 +407,15 @@
     103,
     104,
     105,
+    106,
     107,
     108,
     109,
     110,
     111,
     112,
-    113
+    113,
+    114
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -405,6 +432,9 @@
     "event_aprilFool": [
       70
     ],
+    "event_blackFriday": [
+      106
+    ],
     "event_boat_ad_game": [
       105
     ],
@@ -415,7 +445,8 @@
       102
     ],
     "event_core": [
-      109
+      109,
+      114
     ],
     "event_core_2": [
       110,
