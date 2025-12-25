@@ -30390,7 +30390,7 @@
     ],
     "config_id": 0,
     "id": 7302,
-    "is_show": 2,
+    "is_show": 4,
     "login_pop": 0,
     "mark": 20251211,
     "page_core": "WinterFestival2025CoreActivityUI",
@@ -42487,7 +42487,7 @@
     ],
     "config_id": 3,
     "id": 50290,
-    "is_show": 1,
+    "is_show": 3,
     "login_pop": 0,
     "mark": 20251218,
     "page_core": "WinterFestival2025CoreActivityUI",
@@ -42495,33 +42495,7 @@
       "class_name": "WinterFestival2025SkinMagazinePage",
       "ui_name": "WinterFestival2025SkinMagazinePage"
     },
-    "time": [
-      "timer",
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2025,
-          12,
-          24
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "skinstory_20251218",
     "type": 86
   },
@@ -42821,6 +42795,160 @@
     ],
     "title_res_tag": "",
     "type": 13
+  },
+  "50298": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 7,
+    "id": 50298,
+    "is_show": 2,
+    "login_pop": 0,
+    "mark": 20251225,
+    "page_core": "WinterFestival2025CoreActivityUI",
+    "page_info": {
+      "class_name": "WinterFestival2025ShrinePage",
+      "ui_name": "WinterFestival2025ShrinePage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          12,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          1,
+          8
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "winterwish_20251225",
+    "type": 63
+  },
+  "50300": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 67,
+    "id": 50300,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20251225,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          12,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          1,
+          8
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 57
+  },
+  "50301": {
+    "config_client": {
+      "story": [
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
+        ],
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+        ],
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+        ],
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+        ],
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+        ],
+        [
+          "SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
+        ]
+      ]
+    },
+    "config_data": [
+      24871,
+      24872,
+      24873,
+      24874,
+      24875,
+      24877
+    ],
+    "config_id": 3,
+    "id": 50301,
+    "is_show": 1,
+    "login_pop": 0,
+    "mark": 20251225,
+    "page_core": "WinterFestival2025CoreActivityUI",
+    "page_info": {
+      "class_name": "WinterFestival2025SkinMagazinePage2",
+      "ui_name": "WinterFestival2025SkinMagazinePage2"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2025,
+          12,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2025,
+          12,
+          31
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "skinstory_20251225",
+    "type": 86
   },
   "100001": {
     "config_client": "",
@@ -44064,6 +44192,9 @@
     50295,
     50296,
     50297,
+    50298,
+    50300,
+    50301,
     7011,
     7012,
     7013,
@@ -45114,6 +45245,7 @@
       50046,
       50083,
       50204,
+      50300,
       100002
     ],
     "58": [
@@ -45189,7 +45321,8 @@
     ],
     "63": [
       5142,
-      5720
+      5720,
+      50298
     ],
     "64": [
       5188,
@@ -45398,7 +45531,8 @@
       5911,
       50084,
       50235,
-      50290
+      50290,
+      50301
     ],
     "87": [
       4903,

@@ -219,6 +219,50 @@
       30707
     ]
   },
+  "141": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 141,
+    "image": "aijier_accompany_room",
+    "jump_trigger": [],
+    "name": "日常相伴",
+    "performance_time": 20,
+    "resource_room": 14,
+    "sceneInfo": "map_aijier_01|Aijier_DB/Aijierhostel",
+    "ship_id": 49905,
+    "timeline": "Xiangban_personal_49905",
+    "unlock": []
+  },
+  "142": {
+    "favor": [
+      300,
+      [
+        1015,
+        1016,
+        1017
+      ]
+    ],
+    "id": 142,
+    "image": "cafe_accompany",
+    "jump_trigger": [],
+    "name": "休闲相伴",
+    "performance_time": 20,
+    "resource_room": 16,
+    "sceneInfo": "map_publiccafe_01|Publiccafe",
+    "ship_id": 49905,
+    "timeline": "Xiangban_cafe_49905",
+    "unlock": [
+      5,
+      16,
+      49905
+    ]
+  },
   "all": [
     1,
     2,
@@ -229,7 +273,9 @@
     111,
     112,
     121,
-    122
+    122,
+    141,
+    142
   ],
   "get_id_list_by_ship_id": {
     "10517": [
@@ -251,6 +297,10 @@
     "30707": [
       121,
       122
+    ],
+    "49905": [
+      141,
+      142
     ]
   }
 }
