@@ -2344,16 +2344,48 @@
     "world_id": ""
   },
   "92": {
-    "bgm": "",
-    "chapter": 0,
+    "bgm": "login",
+    "chapter": 4,
     "column": 57,
     "description": "기대해 주세요",
-    "icon": "",
+    "icon": "ChapterFour_11",
     "id": 92,
+    "link_event": [
+      91,
+      93
+    ],
+    "memory_id": [
+      1,
+      350
+    ],
+    "memory_lock": 0,
+    "name": "기대해 주세요",
+    "row": 0,
+    "shipnation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11
+    ],
+    "sort": 1,
+    "world_id": ""
+  },
+  "93": {
+    "bgm": "",
+    "chapter": 0,
+    "column": 58,
+    "description": "敬请期待",
+    "icon": "",
+    "id": 93,
     "link_event": "",
     "memory_id": "",
     "memory_lock": 1,
-    "name": "기대해 주세요",
+    "name": "敬请期待",
     "row": 0,
     "shipnation": 0,
     "sort": 0,
@@ -2451,6 +2483,7 @@
     89,
     90,
     91,
-    92
+    92,
+    93
   ]
 }
