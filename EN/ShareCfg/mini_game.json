@@ -2874,6 +2874,63 @@
     "type": 2,
     "view_name": "MusicBeatGameView"
   },
+  "79": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      0,
+      [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      1
+    ],
+    "game_room": 0,
+    "hub_id": 67,
+    "id": 79,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "2025神社舰娘许愿",
+    "request_data": 1,
+    "simple_config_data": [
+      8,
+      65794,
+      1
+    ],
+    "type": 5,
+    "view_name": "WinterFestival2025ShrineView"
+  },
+  "80": {
+    "config_csv": "",
+    "config_csv_key": "",
+    "config_data": [
+      5,
+      [
+        143,
+        144,
+        145
+      ],
+      2
+    ],
+    "game_room": 0,
+    "hub_id": 67,
+    "id": 80,
+    "is_ranking": 0,
+    "mediator_name": "MiniHubMediator",
+    "name": "2025神社指挥官许愿",
+    "request_data": 1,
+    "simple_config_data": {
+      "shipGameID": 79,
+      "target": 100000
+    },
+    "type": 3,
+    "view_name": "WinterFestival2025ShrineView"
+  },
   "1001": {
     "config_csv": "",
     "config_csv_key": "",
@@ -3526,6 +3583,8 @@
     76,
     77,
     78,
+    79,
+    80,
     1001,
     1002,
     1003,
