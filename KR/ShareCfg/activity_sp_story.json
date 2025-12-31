@@ -6047,6 +6047,496 @@
     "story_type": 1,
     "unlock_conditions": "EPS-4 클리어"
   },
+  "341": {
+    "change_background": "bg_tianqiong_cg0",
+    "change_bgm": "story-memory-grief",
+    "change_prefab": "",
+    "id": 341,
+    "lock": "",
+    "name": "EP1-1 빛 바랜 아름다움",
+    "pre_event": "",
+    "story": "XIANGCHEYUTIANQIONGZHIYIN1",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "342": {
+    "change_background": "bg_port_NY_future",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "",
+    "id": 342,
+    "lock": [
+      [
+        4,
+        341
+      ]
+    ],
+    "name": "EP1-2 급변",
+    "pre_event": [
+      341
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN2",
+    "story_type": 1,
+    "unlock_conditions": "EP1-1 클리어"
+  },
+  "343": {
+    "change_background": "star_level_bg_538",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 343,
+    "lock": [
+      [
+        4,
+        342
+      ]
+    ],
+    "name": "EP2-1 오래된 도시, 오래된 꿈",
+    "pre_event": [
+      342
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN3",
+    "story_type": 1,
+    "unlock_conditions": "EP1-2 클리어"
+  },
+  "344": {
+    "change_background": "bg_port_NY_future",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "",
+    "id": 344,
+    "lock": [
+      [
+        4,
+        343
+      ]
+    ],
+    "name": "EP3-1 타산",
+    "pre_event": [
+      342
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN4",
+    "story_type": 1,
+    "unlock_conditions": "EP2-1 클리어"
+  },
+  "345": {
+    "change_background": "star_level_bg_598",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 345,
+    "lock": [
+      [
+        4,
+        344
+      ]
+    ],
+    "name": "EP2-2 대규모 실신 사건",
+    "pre_event": [
+      343
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN5",
+    "story_type": 1,
+    "unlock_conditions": "EP3-1 클리어"
+  },
+  "346": {
+    "change_background": "star_level_bg_157",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "",
+    "id": 346,
+    "lock": [
+      [
+        4,
+        345
+      ]
+    ],
+    "name": "EP3-2 제7 임무 함대",
+    "pre_event": [
+      344
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN6",
+    "story_type": 1,
+    "unlock_conditions": "EP2-2 클리어"
+  },
+  "347": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 347,
+    "lock": [
+      [
+        4,
+        346
+      ]
+    ],
+    "name": "EP2-3 그리운 맛",
+    "pre_event": [
+      345
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN7",
+    "story_type": 1,
+    "unlock_conditions": "EP3-2 클리어"
+  },
+  "348": {
+    "change_background": "star_level_bg_146",
+    "change_bgm": "story-date-light",
+    "change_prefab": "",
+    "id": 348,
+    "lock": [
+      [
+        4,
+        347
+      ]
+    ],
+    "name": "EP3-3 잔불을 이끄는 자",
+    "pre_event": [
+      346
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN8",
+    "story_type": 1,
+    "unlock_conditions": "EP2-3 클리어"
+  },
+  "349": {
+    "change_background": "bg_tianqiong_2",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 349,
+    "lock": [
+      [
+        4,
+        348
+      ]
+    ],
+    "name": "EP2-4 조금씩",
+    "pre_event": [
+      347
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN9",
+    "story_type": 1,
+    "unlock_conditions": "EP3-3 클리어"
+  },
+  "350": {
+    "change_background": "bg_zhedie_2",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "",
+    "id": 350,
+    "lock": [
+      [
+        4,
+        349
+      ]
+    ],
+    "name": "EP3-4 중재 기구의 실험장",
+    "pre_event": [
+      348
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN10",
+    "story_type": 1,
+    "unlock_conditions": "EP2-4 클리어"
+  },
+  "351": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "battle-boss-ucnf",
+    "change_prefab": "",
+    "id": 351,
+    "lock": [
+      [
+        4,
+        350
+      ]
+    ],
+    "name": "EP2-5 TORCH",
+    "pre_event": [
+      349
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN11",
+    "story_type": 1,
+    "unlock_conditions": "EP3-4 클리어"
+  },
+  "352": {
+    "change_background": "bg_tianqiong_3",
+    "change_bgm": "main-arbitrationsystem-theme",
+    "change_prefab": "",
+    "id": 352,
+    "lock": [
+      [
+        4,
+        351
+      ]
+    ],
+    "name": "EP3-5 이상 구역 조사",
+    "pre_event": [
+      350
+    ],
+    "story": "1996001",
+    "story_type": 2,
+    "unlock_conditions": "EP2-5 클리어"
+  },
+  "353": {
+    "change_background": "bg_tianqiong_4",
+    "change_bgm": "story-date-light",
+    "change_prefab": "",
+    "id": 353,
+    "lock": [
+      [
+        4,
+        352
+      ]
+    ],
+    "name": "EPS-1 선을 넘는 실험 NO.3",
+    "pre_event": [
+      351,
+      352
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN13",
+    "story_type": 1,
+    "unlock_conditions": "EP3-5 클리어"
+  },
+  "354": {
+    "change_background": "bg_logo_oxs",
+    "change_bgm": "story-dailyfuture-upspeed",
+    "change_prefab": "",
+    "id": 354,
+    "lock": [
+      [
+        4,
+        353
+      ]
+    ],
+    "name": "EP4-1 여정",
+    "pre_event": [
+      353
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN14",
+    "story_type": 1,
+    "unlock_conditions": "EPS-1 클리어"
+  },
+  "355": {
+    "change_background": "bg_aostelab_2",
+    "change_bgm": "story-dailyfuture-upspeed",
+    "change_prefab": "",
+    "id": 355,
+    "lock": [
+      [
+        4,
+        354
+      ]
+    ],
+    "name": "EP4-2 콜레트",
+    "pre_event": [
+      354
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN15",
+    "story_type": 1,
+    "unlock_conditions": "EP4-1 클리어"
+  },
+  "356": {
+    "change_background": "star_level_bg_490",
+    "change_bgm": "story-dailyfuture-upspeed",
+    "change_prefab": "",
+    "id": 356,
+    "lock": [
+      [
+        4,
+        355
+      ]
+    ],
+    "name": "EP4-3 아오스타와 유토피아",
+    "pre_event": [
+      355
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN16",
+    "story_type": 1,
+    "unlock_conditions": "EP4-2 클리어"
+  },
+  "357": {
+    "change_background": "star_level_bg_570",
+    "change_bgm": "story-date-light",
+    "change_prefab": "",
+    "id": 357,
+    "lock": [
+      [
+        4,
+        356
+      ]
+    ],
+    "name": "EP4-4 아마하라 료코",
+    "pre_event": [
+      356
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN17",
+    "story_type": 1,
+    "unlock_conditions": "EP4-3 클리어"
+  },
+  "358": {
+    "change_background": "star_level_bg_544",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 358,
+    "lock": [
+      [
+        4,
+        357
+      ]
+    ],
+    "name": "EP4-5 안제",
+    "pre_event": [
+      357
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN18",
+    "story_type": 1,
+    "unlock_conditions": "EP4-4 클리어"
+  },
+  "359": {
+    "change_background": "star_level_bg_580",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 359,
+    "lock": [
+      [
+        4,
+        358
+      ]
+    ],
+    "name": "EP4-6 소피아",
+    "pre_event": [
+      358
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN19",
+    "story_type": 1,
+    "unlock_conditions": "EP4-5 클리어"
+  },
+  "360": {
+    "change_background": "bg_cccpv2_7",
+    "change_bgm": "theme-uc",
+    "change_prefab": "",
+    "id": 360,
+    "lock": [
+      [
+        4,
+        359
+      ]
+    ],
+    "name": "EP4-7 결의",
+    "pre_event": [
+      359
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN20",
+    "story_type": 1,
+    "unlock_conditions": "EP4-6 클리어"
+  },
+  "361": {
+    "change_background": "bg_tianqiong_4",
+    "change_bgm": "story-memory-grief",
+    "change_prefab": "",
+    "id": 361,
+    "lock": [
+      [
+        4,
+        360
+      ]
+    ],
+    "name": "EP4-8 이사회 회의",
+    "pre_event": [
+      360
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN21",
+    "story_type": 1,
+    "unlock_conditions": "EP4-7 클리어"
+  },
+  "362": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "theme-helena",
+    "change_prefab": "",
+    "id": 362,
+    "lock": [
+      [
+        4,
+        361
+      ]
+    ],
+    "name": "EP4-9 극광 너머로",
+    "pre_event": [
+      361
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN22",
+    "story_type": 1,
+    "unlock_conditions": "EP4-8 클리어"
+  },
+  "363": {
+    "change_background": "bg_port_NY_future",
+    "change_bgm": "theme-helena",
+    "change_prefab": "",
+    "id": 363,
+    "lock": [
+      [
+        4,
+        362
+      ]
+    ],
+    "name": "EPS-2 선택",
+    "pre_event": [
+      362
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN23",
+    "story_type": 1,
+    "unlock_conditions": "EP4-9 클리어"
+  },
+  "364": {
+    "change_background": "star_level_bg_493",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 364,
+    "lock": [
+      [
+        5,
+        363,
+        100
+      ]
+    ],
+    "name": "EPS-2-A 선택 - 완벽한 미래",
+    "pre_event": [
+      363
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN23-1",
+    "story_type": 3,
+    "unlock_conditions": "？"
+  },
+  "365": {
+    "change_background": "bg_starsea_core_3",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 365,
+    "lock": [
+      [
+        5,
+        363,
+        200
+      ]
+    ],
+    "name": "EPS-2-B 선택 - 기상",
+    "pre_event": [
+      363
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN23-2",
+    "story_type": 3,
+    "unlock_conditions": "？"
+  },
+  "366": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "map_1990001",
+    "id": 366,
+    "lock": [
+      [
+        4,
+        365
+      ]
+    ],
+    "name": "EP5-1 모든 것은 제자리로?",
+    "pre_event": [
+      365
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN24",
+    "story_type": 1,
+    "unlock_conditions": "EPS-2 클리어"
+  },
   "all": [
     1,
     2,
@@ -6361,6 +6851,32 @@
     336,
     337,
     338,
-    339
+    339,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366
   ]
 }
