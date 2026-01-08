@@ -1,0 +1,100 @@
+{
+  "49905101": {
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "base_size": [
+      96,
+      96
+    ],
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "default_threshold": -0.1,
+    "id": 49905101,
+    "invert": 1,
+    "rotation_offset": [
+      0,
+      0,
+      0
+    ],
+    "skin_id": 499051,
+    "target_bone": "all/Bip001/Bip001 Pelvis",
+    "texture": "dorm3dholylight/Eff_smoke_114"
+  },
+  "49905102": {
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "base_size": [
+      96,
+      96
+    ],
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "default_threshold": -1,
+    "id": 49905102,
+    "invert": 1,
+    "rotation_offset": [
+      0,
+      0,
+      35
+    ],
+    "skin_id": 499051,
+    "target_bone": "all/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2",
+    "texture": "dorm3dholylight/Eff_smoke_114"
+  },
+  "49905301": {
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "base_size": [
+      96,
+      96
+    ],
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "default_threshold": -0.1,
+    "id": 49905301,
+    "invert": 1,
+    "rotation_offset": [
+      0,
+      0,
+      0
+    ],
+    "skin_id": 499053,
+    "target_bone": "all/Bip001/Bip001 Pelvis",
+    "texture": "dorm3dholylight/Eff_smoke_114"
+  },
+  "all": [
+    49905101,
+    49905301,
+    49905102
+  ],
+  "get_id_list_by_skin_id": {
+    "499051": [
+      49905101,
+      49905102
+    ],
+    "499053": [
+      49905301
+    ]
+  }
+}

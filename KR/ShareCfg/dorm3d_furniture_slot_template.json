@@ -359,6 +359,78 @@
     "type": 99,
     "zone_id": 12003
   },
+  "1140101": {
+    "default_furniture": 1401,
+    "furniture_name": "pre_db_aijier_bed01_0",
+    "id": 1140101,
+    "name": "卧室床",
+    "room_id": 14,
+    "type": 4,
+    "zone_id": 14001
+  },
+  "1140102": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_aje_camera01",
+    "id": 1140102,
+    "name": "卧室相机",
+    "room_id": 14,
+    "type": 3,
+    "zone_id": 14001
+  },
+  "1140103": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_aje_desklamp01",
+    "id": 1140103,
+    "name": "卧室台灯",
+    "room_id": 14,
+    "type": 3,
+    "zone_id": 14001
+  },
+  "1140201": {
+    "default_furniture": 1402,
+    "furniture_name": "pre_db_aijier_study01_0",
+    "id": 1140201,
+    "name": "书房书桌",
+    "room_id": 14,
+    "type": 6,
+    "zone_id": 14002
+  },
+  "1140202": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_aje_bonsai01",
+    "id": 1140202,
+    "name": "书房盆栽",
+    "room_id": 14,
+    "type": 3,
+    "zone_id": 14002
+  },
+  "1140301": {
+    "default_furniture": 1403,
+    "furniture_name": "pre_db_aijier_living01_0",
+    "id": 1140301,
+    "name": "客厅沙发",
+    "room_id": 14,
+    "type": 5,
+    "zone_id": 14003
+  },
+  "1140302": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_aje_billboard01",
+    "id": 1140302,
+    "name": "客厅相框",
+    "room_id": 14,
+    "type": 3,
+    "zone_id": 14003
+  },
+  "1140303": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_aje_decoration01",
+    "id": 1140303,
+    "name": "客厅蜡烛",
+    "room_id": 14,
+    "type": 3,
+    "zone_id": 14003
+  },
   "all": [
     100101,
     100102,
@@ -399,7 +471,15 @@
     1120301,
     1120302,
     1120303,
-    1120304
+    1120304,
+    1140101,
+    1140102,
+    1140103,
+    1140201,
+    1140202,
+    1140301,
+    1140302,
+    1140303
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -453,6 +533,16 @@
       1120302,
       1120303,
       1120304
+    ],
+    "14": [
+      1140101,
+      1140102,
+      1140103,
+      1140201,
+      1140202,
+      1140301,
+      1140302,
+      1140303
     ]
   },
   "get_id_list_by_zone_id": {
@@ -529,6 +619,20 @@
       1120302,
       1120303,
       1120304
+    ],
+    "14001": [
+      1140101,
+      1140102,
+      1140103
+    ],
+    "14002": [
+      1140201,
+      1140202
+    ],
+    "14003": [
+      1140301,
+      1140302,
+      1140303
     ]
   }
 }

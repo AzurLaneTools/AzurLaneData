@@ -528,7 +528,7 @@
           12008,
           12009,
           12010,
-          12012,
+          12011,
           12012,
           12013,
           12014,
@@ -587,6 +587,76 @@
     "type": 2,
     "unlock_item": []
   },
+  "14": {
+    "ar_anim": [
+      [
+        49905,
+        [
+          14001,
+          14002,
+          14003,
+          14004,
+          14005,
+          14006,
+          14007,
+          14008,
+          14009,
+          14010,
+          14011,
+          14012,
+          14013,
+          14014,
+          14015
+        ]
+      ]
+    ],
+    "assets_prefix": "Aijier",
+    "character": [
+      49905
+    ],
+    "character_pay": [],
+    "character_range": [
+      1
+    ],
+    "character_welcome": [
+      [
+        49905,
+        0
+      ]
+    ],
+    "default_zone": [
+      [
+        49905,
+        "Chair"
+      ]
+    ],
+    "furniture_zones": [
+      14001,
+      14002,
+      14003
+    ],
+    "id": 14,
+    "in_map": "floor_2",
+    "invite_banner": "",
+    "invite_cost": "",
+    "invite_icon": "",
+    "invite_mark": "",
+    "is_common": 0,
+    "recall_list": [
+      141,
+      142,
+      143,
+      144
+    ],
+    "resource_name": "Aijier_DB",
+    "room": "에기르",
+    "room_bgm": "story-room-agir",
+    "room_des": "",
+    "scene_info": "map_aijier_01|Aijier_DB/Aijierhostel",
+    "tag": "",
+    "type": 2,
+    "unlock_item": []
+  },
   "16": {
     "ar_anim": [
       [
@@ -608,13 +678,24 @@
           16009,
           16010
         ]
+      ],
+      [
+        49905,
+        [
+          16011,
+          16012,
+          16013,
+          16014,
+          16015
+        ]
       ]
     ],
     "assets_prefix": "Publiccafe",
     "character": [],
     "character_pay": [
       10517,
-      30707
+      30707,
+      49905
     ],
     "character_range": [
       0,
@@ -628,6 +709,10 @@
       [
         30707,
         0
+      ],
+      [
+        49905,
+        0
       ]
     ],
     "default_zone": [
@@ -638,6 +723,10 @@
       [
         30707,
         "dafeng"
+      ],
+      [
+        49905,
+        "aijier"
       ]
     ],
     "furniture_zones": [],
@@ -655,6 +744,12 @@
         [
           "banner_cafe2"
         ]
+      ],
+      [
+        49905,
+        [
+          "banner_cafe3"
+        ]
       ]
     ],
     "invite_cost": [
@@ -665,6 +760,10 @@
       [
         30707,
         270114
+      ],
+      [
+        49905,
+        270115
       ]
     ],
     "invite_icon": [
@@ -674,6 +773,10 @@
       ],
       [
         30707,
+        "dorm3dicon/3Ddrom_invitation"
+      ],
+      [
+        49905,
         "dorm3dicon/3Ddrom_invitation"
       ]
     ],
@@ -688,6 +791,14 @@
       ],
       [
         30707,
+        [
+          1,
+          5,
+          6
+        ]
+      ],
+      [
+        49905,
         [
           1,
           5,
@@ -720,6 +831,7 @@
     5,
     11,
     12,
+    14,
     16
   ],
   "get_id_list_by_in_map": {
@@ -733,6 +845,7 @@
     "floor_2": [
       11,
       12,
+      14,
       16
     ]
   }
