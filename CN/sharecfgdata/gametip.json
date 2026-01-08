@@ -1990,6 +1990,9 @@
   "battle_battleMediator_quest_exist": {
     "tip": "现在退出将失去作战中获得的\n<color=#92fc63>资源、道具和角色。</color>您确定要退出吗？"
   },
+  "battle_battleMediator_quest_exist_submarine_support": {
+    "tip": "现在退出将按照BOSS当前剩余耐久进行战斗结算，您确定要退出吗？"
+  },
   "battle_battleMediator_remainTime": {
     "tip": "剩余作战时间"
   },
@@ -2175,6 +2178,9 @@
   },
   "battle_result_boss_destruct": {
     "tip": "阻止boss自毁并击破boss"
+  },
+  "battle_result_boss_hp_lower": {
+    "tip": "BOSS剩余血量小于$1%"
   },
   "battle_result_confirm": {
     "tip": "确定"
@@ -7065,7 +7071,7 @@
     "tip": "该地图的困难模式尚未开放"
   },
   "elite_fleet_confirm": {
-    "tip": "$1<color=#ff5c5c>不满足</color>出击条件，将无法进入战斗，确认继续出击？"
+    "tip": "$1<color=#ff5c5c>不满足</color>出击条件，无法进入战斗"
   },
   "elite_warp_to_latest_map": {
     "tip": "已自动跳转至最新章节"
@@ -12398,6 +12404,68 @@
       }
     }
   },
+  "help_supportfleet_16": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help_16",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "help_supportfleet_16_submarine": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -15567,6 +15635,18 @@
   },
   "island_sure_ticket_overflow": {
     "tip": "所选加速券加速时间超过生产所需时间，是否确认使用？"
+  },
+  "island_survey_ui_1": {
+    "tip": "为了更好地收集指挥官的意见与建议,司令部在此为您准备了一份问卷。"
+  },
+  "island_survey_ui_2": {
+    "tip": "问卷提交后将无法修改,请指挥官认真填写。"
+  },
+  "island_survey_ui_award": {
+    "tip": "作为感谢，完成问卷后可获得："
+  },
+  "island_survey_ui_button": {
+    "tip": "打开问卷"
   },
   "island_task_award": {
     "tip": "奖励"
@@ -21829,7 +21909,7 @@
     "tip": "目标舰船是 <color=#92fc63>$1</color> 唯一一艘<color=#92fc63>$2</color>舰船，无法替换！"
   },
   "ship_formationMediator_request_replace_support": {
-    "tip": "您当前选择的舰船已经在<color=#92fc63>支援舰队</color>中, 是否进行切换？"
+    "tip": "舰船在支援舰队编成中，是否移出编队？"
   },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "舰队人数不足"
@@ -21848,6 +21928,9 @@
   },
   "ship_formationUI_fleetName12": {
     "tip": "潜艇编队二"
+  },
+  "ship_formationUI_fleetName13": {
+    "tip": "支援舰队"
   },
   "ship_formationUI_fleetName2": {
     "tip": "第二舰队"
@@ -23447,6 +23530,9 @@
   },
   "submarine_approach_desc": {
     "tip": "敌潜艇编队接近中，请注意提高警戒。"
+  },
+  "submarine_support_oil_consume_tip": {
+    "tip": "潜艇支援舰队出击消耗$1点石油，是否继续？"
   },
   "summary_page_un_rearch": {
     "tip": "未获得"
