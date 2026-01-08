@@ -2004,6 +2004,9 @@
   "battle_battleMediator_quest_exist": {
     "tip": "If you give up now, you'll lose the\n<color=#92fc63>resources, items, and ships you've collected.</color>Are you sure you want to exit?"
   },
+  "battle_battleMediator_quest_exist_submarine_support": {
+    "tip": "If you stop the battle, your result will be calculated based on the boss' remaining HP. Stop the battle?"
+  },
   "battle_battleMediator_remainTime": {
     "tip": "Time Remaining"
   },
@@ -2189,6 +2192,9 @@
   },
   "battle_result_boss_destruct": {
     "tip": "Defeat the boss before it self-destructs"
+  },
+  "battle_result_boss_hp_lower": {
+    "tip": "The boss has less than $1% HP left"
   },
   "battle_result_confirm": {
     "tip": "Confirm"
@@ -7157,7 +7163,7 @@
     "tip": "Hard mode for this map is not yet available."
   },
   "elite_fleet_confirm": {
-    "tip": "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
+    "tip": "$1 cannot participate in battle because she <color=#ff5c5c>does not meet the sortie requirements.</color>"
   },
   "elite_warp_to_latest_map": {
     "tip": "Viewing newest chapter."
@@ -12039,6 +12045,68 @@
       }
     }
   },
+  "help_supportfleet_16": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help_16",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "help_supportfleet_16_submarine": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -15147,6 +15215,18 @@
   },
   "island_sure_ticket_overflow": {
     "tip": "You have selected more tickets than necessary for the production time. Continue?"
+  },
+  "island_survey_ui_1": {
+    "tip": ""
+  },
+  "island_survey_ui_2": {
+    "tip": ""
+  },
+  "island_survey_ui_award": {
+    "tip": ""
+  },
+  "island_survey_ui_button": {
+    "tip": ""
   },
   "island_task_award": {
     "tip": "Rewards"
@@ -21834,7 +21914,7 @@
     "tip": "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!"
   },
   "ship_formationMediator_request_replace_support": {
-    "tip": "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
+    "tip": "This shipgirl is assigned to your Support Fleet. Remove her from the formation?"
   },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "Not enough ships in fleet."
@@ -21853,6 +21933,9 @@
   },
   "ship_formationUI_fleetName12": {
     "tip": "Submarine 2"
+  },
+  "ship_formationUI_fleetName13": {
+    "tip": "Support Fleet"
   },
   "ship_formationUI_fleetName2": {
     "tip": "Fleet 2"
@@ -23361,6 +23444,9 @@
   },
   "submarine_approach_desc": {
     "tip": "Enemy submarines have appeared on the map!"
+  },
+  "submarine_support_oil_consume_tip": {
+    "tip": "Sending your supporting Submarine Fleet into battle will cost $1 Oil. Continue?"
   },
   "summary_page_un_rearch": {
     "tip": "Unclaimed "

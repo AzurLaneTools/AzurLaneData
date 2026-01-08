@@ -6,71 +6,11 @@
       []
     ],
     "pic": "temp1",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          25
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 2
   },
   "2": {
     "id": 2,
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "pic": "temp2",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "3": {
-    "id": 3,
     "param": [
       "scene get boat",
       {
@@ -78,20 +18,71 @@
         "projectName": "new"
       }
     ],
+    "pic": "temp2",
+    "time": "stop",
+    "type": 2
+  },
+  "3": {
+    "id": 3,
+    "param": [
+      "scene core activity",
+      {
+        "coreName": "HelenaCoreActivityUI"
+      }
+    ],
     "pic": "temp3",
+    "time": "stop",
+    "type": 2
+  },
+  "4": {
+    "id": 4,
+    "param": [
+      "scene charge",
+      {
+        "wrap": 4
+      }
+    ],
+    "pic": "temp4",
+    "time": "stop",
+    "type": 2
+  },
+  "5": {
+    "id": 5,
+    "param": [
+      "scene shop",
+      {
+        "warp": "shopstreet"
+      }
+    ],
+    "pic": "temp5",
+    "time": "stop",
+    "type": 2
+  },
+  "6": {
+    "id": 6,
+    "param": [
+      "scene court yard"
+    ],
+    "pic": "temp6",
+    "time": "stop",
+    "type": 2
+  },
+  "7": {
+    "id": 7,
+    "param": [
+      "dorm 3d select"
+    ],
+    "pic": "temp7",
+    "time": "stop",
+    "type": 2
+  },
+  "8": {
+    "id": 8,
+    "param": [
+      "scene level"
+    ],
+    "pic": "temp8",
     "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
       [
         [
           2026,
@@ -99,31 +90,6 @@
           8
         ],
         [
-          12,
-          0,
-          0
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "4": {
-    "id": 4,
-    "param": [
-      "scene core activity",
-      {
-        "coreName": "HelenaCoreActivityUI"
-      }
-    ],
-    "pic": "temp4",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
           0,
           0,
           0
@@ -133,149 +99,7 @@
         [
           2026,
           1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "5": {
-    "id": 5,
-    "param": [
-      "scene charge",
-      {
-        "wrap": 4
-      }
-    ],
-    "pic": "temp5",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          25
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "6": {
-    "id": 6,
-    "param": [
-      "scene shop",
-      {
-        "warp": "shopstreet"
-      }
-    ],
-    "pic": "temp6",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "7": {
-    "id": 7,
-    "param": [
-      "scene court yard"
-    ],
-    "pic": "temp7",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "8": {
-    "id": 8,
-    "param": [
-      "dorm 3d select"
-    ],
-    "pic": "temp8",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          25
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
+          14
         ],
         [
           23,
@@ -288,14 +112,20 @@
   },
   "9": {
     "id": 9,
-    "param": "50298",
+    "param": [
+      "scene equip",
+      {
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
+      }
+    ],
     "pic": "temp9",
     "time": [
       [
         [
-          2025,
-          12,
-          25
+          2026,
+          1,
+          8
         ],
         [
           0,
@@ -307,7 +137,7 @@
         [
           2026,
           1,
-          7
+          14
         ],
         [
           23,
@@ -316,38 +146,13 @@
         ]
       ]
     ],
-    "type": 3
+    "type": 2
   },
   "90": {
     "id": 90,
     "param": "",
     "pic": "temp99",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          25
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 9
   },
   "91": {
@@ -368,6 +173,20 @@
     "id": 99,
     "param": "",
     "pic": "limit_skin",
+    "time": "stop",
+    "type": 12
+  },
+  "100": {
+    "id": 100,
+    "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
+    "pic": "dumpling",
+    "time": "stop",
+    "type": 10
+  },
+  "101": {
+    "id": 101,
+    "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+    "pic": "jingbing",
     "time": [
       [
         [
@@ -385,61 +204,22 @@
         [
           2026,
           1,
-          7
+          8
         ],
         [
-          23,
-          59,
-          59
+          12,
+          0,
+          0
         ]
       ]
     ],
-    "type": 12
-  },
-  "100": {
-    "id": 100,
-    "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-    "pic": "dumpling",
-    "time": "stop",
-    "type": 10
-  },
-  "101": {
-    "id": 101,
-    "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "pic": "jingbing",
-    "time": "stop",
     "type": 10
   },
   "102": {
     "id": 102,
     "param": "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
     "pic": "christmas",
-    "time": [
-      [
-        [
-          2025,
-          12,
-          18
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          7
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 10
   },
   "200": {
@@ -452,7 +232,7 @@
   "201": {
     "id": 201,
     "param": "",
-    "pic": "christmas",
+    "pic": "newyear",
     "time": [
       [
         [
@@ -485,7 +265,7 @@
     "id": 202,
     "param": "",
     "pic": "winter",
-    "time": "stop",
+    "time": "always",
     "type": 13
   },
   "all": [
@@ -518,9 +298,7 @@
       5,
       6,
       7,
-      8
-    ],
-    "3": [
+      8,
       9
     ],
     "9": [
