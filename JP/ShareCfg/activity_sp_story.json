@@ -6537,6 +6537,508 @@
     "story_type": 1,
     "unlock_conditions": "EPS-2をクリア"
   },
+  "371": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "story-commander-up",
+    "change_prefab": "",
+    "id": 371,
+    "lock": "",
+    "name": "EP5-2 実験場θ",
+    "pre_event": "",
+    "story": "XIANGCHEYUTIANQIONGZHIYIN25",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "372": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "battle-ucnf",
+    "change_prefab": "",
+    "id": 372,
+    "lock": [
+      [
+        4,
+        371
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          0
+        ]
+      ]
+    ],
+    "name": "EP6-1 仲間集う",
+    "pre_event": [
+      371
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN26",
+    "story_type": 1,
+    "unlock_conditions": "EP5-2をクリア"
+  },
+  "373": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-uc",
+    "change_prefab": "",
+    "id": 373,
+    "lock": [
+      [
+        4,
+        372
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          0
+        ]
+      ]
+    ],
+    "name": "EP6-2 火急の救援",
+    "pre_event": [
+      372
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN27",
+    "story_type": 1,
+    "unlock_conditions": "EP6-1をクリア"
+  },
+  "374": {
+    "change_background": "bg_tianqiong_cg5",
+    "change_bgm": "theme-marcopolo",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 374,
+    "lock": [
+      [
+        4,
+        373
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-3 各々の力",
+    "pre_event": [
+      373
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN28",
+    "story_type": 1,
+    "unlock_conditions": "EP6-2をクリア"
+  },
+  "375": {
+    "change_background": "bg_tianqiong_5",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 375,
+    "lock": [
+      [
+        4,
+        374
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-4 謎の来援",
+    "pre_event": [
+      374
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN29",
+    "story_type": 1,
+    "unlock_conditions": "EP6-3をクリア"
+  },
+  "376": {
+    "change_background": "bg_tianqiong_cg7",
+    "change_bgm": "story-commander-up",
+    "change_prefab": "",
+    "id": 376,
+    "lock": [
+      [
+        4,
+        375
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-5 リセットプロトコル",
+    "pre_event": [
+      374
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN30",
+    "story_type": 1,
+    "unlock_conditions": "EP6-4をクリア"
+  },
+  "377": {
+    "change_background": "bg_tianqiong_cg8",
+    "change_bgm": "theme-starbeast",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 377,
+    "lock": [
+      [
+        4,
+        376
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-1 作戦開始",
+    "pre_event": [
+      375,
+      376
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN31",
+    "story_type": 1,
+    "unlock_conditions": "EP6-5をクリア"
+  },
+  "378": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 378,
+    "lock": [
+      [
+        4,
+        377
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-2 ヨークタウンたちの戦い",
+    "pre_event": [
+      377
+    ],
+    "story": "1996002",
+    "story_type": 2,
+    "unlock_conditions": "EP7-1をクリア"
+  },
+  "379": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-frederick",
+    "change_prefab": "",
+    "id": 379,
+    "lock": [
+      [
+        4,
+        378
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-3 余燼の今",
+    "pre_event": [
+      377
+    ],
+    "story": "1996003",
+    "story_type": 2,
+    "unlock_conditions": "EP7-2をクリア"
+  },
+  "380": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 380,
+    "lock": [
+      [
+        4,
+        379
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-4 特別計画艦",
+    "pre_event": [
+      377
+    ],
+    "story": "1996004",
+    "story_type": 2,
+    "unlock_conditions": "EP7-3をクリア"
+  },
+  "381": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 381,
+    "lock": [
+      [
+        4,
+        380
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-5 交錯する想い",
+    "pre_event": [
+      378,
+      379,
+      380
+    ],
+    "story": "1996005",
+    "story_type": 2,
+    "unlock_conditions": "EP7-4をクリア"
+  },
+  "382": {
+    "change_background": "bg_tianqiong_5",
+    "change_bgm": "battle-thechariotVII",
+    "change_prefab": "",
+    "id": 382,
+    "lock": [
+      [
+        4,
+        381
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-6 あまり重要じゃないこと",
+    "pre_event": [
+      381
+    ],
+    "story": "1996006",
+    "story_type": 2,
+    "unlock_conditions": "EP7-5をクリア"
+  },
+  "383": {
+    "change_background": "bg_tianqiong_cg11",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 383,
+    "lock": [
+      [
+        4,
+        382
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-7 ヴェールの中の戦い",
+    "pre_event": [
+      381
+    ],
+    "story": "1996007",
+    "story_type": 2,
+    "unlock_conditions": "EP7-6をクリア"
+  },
+  "384": {
+    "change_background": "star_level_bg_594",
+    "change_bgm": "theme-helena",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 384,
+    "lock": [
+      [
+        4,
+        383
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-1 天穹に響く音謡",
+    "pre_event": [
+      382,
+      383
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN38",
+    "story_type": 1,
+    "unlock_conditions": "EP7-7をクリア"
+  },
+  "385": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 385,
+    "lock": [
+      [
+        4,
+        384
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-2 二回目の別れ",
+    "pre_event": [
+      384
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN39",
+    "story_type": 1,
+    "unlock_conditions": "EP8-1をクリア"
+  },
+  "386": {
+    "change_background": "bg_tianqiong_cg13",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 386,
+    "lock": [
+      [
+        4,
+        385
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-3 今、過去、未来",
+    "pre_event": [
+      385
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN40",
+    "story_type": 1,
+    "unlock_conditions": "EP8-2をクリア"
+  },
+  "387": {
+    "change_background": "bg_tianqiong_cg17",
+    "change_bgm": "Battle-newwind",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 387,
+    "lock": [
+      [
+        4,
+        386
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-1 逆位置のタワー",
+    "pre_event": [
+      386
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN41",
+    "story_type": 1,
+    "unlock_conditions": "EP8-3をクリア"
+  },
+  "388": {
+    "change_background": "star_level_bg_544",
+    "change_bgm": "battle-deepecho",
+    "change_prefab": "",
+    "id": 388,
+    "lock": [
+      [
+        4,
+        387
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-2 新しい時代",
+    "pre_event": [
+      387
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN42",
+    "story_type": 1,
+    "unlock_conditions": "EX-1をクリア"
+  },
+  "389": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 389,
+    "lock": [
+      [
+        4,
+        388
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-3 さざなみ",
+    "pre_event": [
+      388
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN43",
+    "story_type": 1,
+    "unlock_conditions": "EX-2をクリア"
+  },
   "all": [
     1,
     2,
@@ -6877,6 +7379,25 @@
     363,
     364,
     365,
-    366
+    366,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389
   ]
 }
