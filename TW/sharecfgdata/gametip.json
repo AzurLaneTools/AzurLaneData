@@ -1769,6 +1769,9 @@
   "battle_battleMediator_quest_exist": {
     "tip": "現在退出將失去作戰中獲得的\n<color=#A9F548>資源、道具和角色。</color>您確定要退出嗎？"
   },
+  "battle_battleMediator_quest_exist_submarine_support": {
+    "tip": "現在退出將按照BOSS目前剩餘耐久進行戰鬥結算，您確定要退出嗎？"
+  },
   "battle_battleMediator_remainTime": {
     "tip": "剩餘作戰時間"
   },
@@ -1954,6 +1957,9 @@
   },
   "battle_result_boss_destruct": {
     "tip": "阻止boss自毀並擊破boss"
+  },
+  "battle_result_boss_hp_lower": {
+    "tip": "BOSS剩餘血量小於$1%"
   },
   "battle_result_confirm": {
     "tip": "確定"
@@ -6751,7 +6757,7 @@
     "tip": "該地圖的困難模式尚未開放"
   },
   "elite_fleet_confirm": {
-    "tip": "$1<color=#ff0000>不滿足</color>出擊條件，將無法進入戰鬥，確認繼續出擊？"
+    "tip": "$1<color=#ff5c5c>不滿足</color>出擊條件，無法進入戰鬥"
   },
   "elite_warp_to_latest_map": {
     "tip": "已自動跳轉至最新章節"
@@ -11601,6 +11607,68 @@
       "2": {
         "icon": {
           "atlas": "helpbg/supportfleet_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "help_supportfleet_16": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help_16",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "help_supportfleet_16_submarine": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help2",
           "path": ""
         }
       },
@@ -18328,7 +18396,7 @@
     "tip": "目標艦船是<color=#A9F548>$1</color>唯一一艘<color=#A9F548>$2</color>艦船，無法替換！"
   },
   "ship_formationMediator_request_replace_support": {
-    "tip": "您目前選擇的船艦已經在<color=#92fc63>支援艦隊</color>中, 是否進行切換？"
+    "tip": "艦船在支援艦隊編成中，是否移出編隊？"
   },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "艦隊人數不足"
@@ -18347,6 +18415,9 @@
   },
   "ship_formationUI_fleetName12": {
     "tip": "潛艇編隊二"
+  },
+  "ship_formationUI_fleetName13": {
+    "tip": "支援艦隊"
   },
   "ship_formationUI_fleetName2": {
     "tip": "第二艦隊"
@@ -19874,6 +19945,9 @@
   },
   "submarine_approach_desc": {
     "tip": "敵潛艇編隊接近中，請注意提高警戒。"
+  },
+  "submarine_support_oil_consume_tip": {
+    "tip": "潛艇支援艦隊出擊消耗$1點石油，是否繼續？"
   },
   "summary_page_un_rearch": {
     "tip": "未獲得"
