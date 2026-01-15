@@ -6537,6 +6537,508 @@
     "story_type": 1,
     "unlock_conditions": "Clear EPS-2"
   },
+  "371": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "story-commander-up",
+    "change_prefab": "",
+    "id": 371,
+    "lock": "",
+    "name": "EP5-2 Test Site Theta",
+    "pre_event": "",
+    "story": "XIANGCHEYUTIANQIONGZHIYIN25",
+    "story_type": 1,
+    "unlock_conditions": ""
+  },
+  "372": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "battle-ucnf",
+    "change_prefab": "",
+    "id": 372,
+    "lock": [
+      [
+        4,
+        371
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          0
+        ]
+      ]
+    ],
+    "name": "EP6-1 Gathering of Allies",
+    "pre_event": [
+      371
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN26",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP5-2"
+  },
+  "373": {
+    "change_background": "star_level_bg_306",
+    "change_bgm": "theme-uc",
+    "change_prefab": "",
+    "id": 373,
+    "lock": [
+      [
+        4,
+        372
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          0
+        ]
+      ]
+    ],
+    "name": "EP6-2 Rescue from the Flames",
+    "pre_event": [
+      372
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN27",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-1"
+  },
+  "374": {
+    "change_background": "bg_tianqiong_cg5",
+    "change_bgm": "theme-marcopolo",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 374,
+    "lock": [
+      [
+        4,
+        373
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-3 Together We Stand",
+    "pre_event": [
+      373
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN28",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-2"
+  },
+  "375": {
+    "change_background": "bg_tianqiong_5",
+    "change_bgm": "story-antix-past",
+    "change_prefab": "",
+    "id": 375,
+    "lock": [
+      [
+        4,
+        374
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-4 Mysterious Support",
+    "pre_event": [
+      374
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN29",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-3"
+  },
+  "376": {
+    "change_background": "bg_tianqiong_cg7",
+    "change_bgm": "story-commander-up",
+    "change_prefab": "",
+    "id": 376,
+    "lock": [
+      [
+        4,
+        375
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          200
+        ]
+      ]
+    ],
+    "name": "EP6-5 The Reset Protocol",
+    "pre_event": [
+      374
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN30",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-4"
+  },
+  "377": {
+    "change_background": "bg_tianqiong_cg8",
+    "change_bgm": "theme-starbeast",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 377,
+    "lock": [
+      [
+        4,
+        376
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-1 Commence Operation",
+    "pre_event": [
+      375,
+      376
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN31",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP6-5"
+  },
+  "378": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 378,
+    "lock": [
+      [
+        4,
+        377
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-2 The Framework's Battle",
+    "pre_event": [
+      377
+    ],
+    "story": "1996002",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-1"
+  },
+  "379": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-frederick",
+    "change_prefab": "",
+    "id": 379,
+    "lock": [
+      [
+        4,
+        378
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-3 The Ashes of the Present",
+    "pre_event": [
+      377
+    ],
+    "story": "1996003",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-2"
+  },
+  "380": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "theme-brokenworld-sad",
+    "change_prefab": "",
+    "id": 380,
+    "lock": [
+      [
+        4,
+        379
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          350
+        ]
+      ]
+    ],
+    "name": "EP7-4 Blueprint Shipgirls",
+    "pre_event": [
+      377
+    ],
+    "story": "1996004",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-3"
+  },
+  "381": {
+    "change_background": "star_level_bg_596",
+    "change_bgm": "story-dailyfuture-soft",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 381,
+    "lock": [
+      [
+        4,
+        380
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-5 Crossing Thoughts",
+    "pre_event": [
+      378,
+      379,
+      380
+    ],
+    "story": "1996005",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-4"
+  },
+  "382": {
+    "change_background": "bg_tianqiong_5",
+    "change_bgm": "battle-thechariotVII",
+    "change_prefab": "",
+    "id": 382,
+    "lock": [
+      [
+        4,
+        381
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-6 Something Not So Important",
+    "pre_event": [
+      381
+    ],
+    "story": "1996006",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-5"
+  },
+  "383": {
+    "change_background": "bg_tianqiong_cg11",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 383,
+    "lock": [
+      [
+        4,
+        382
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          500
+        ]
+      ]
+    ],
+    "name": "EP7-7 The Battle Within the Veil",
+    "pre_event": [
+      381
+    ],
+    "story": "1996007",
+    "story_type": 2,
+    "unlock_conditions": "Clear EP7-6"
+  },
+  "384": {
+    "change_background": "star_level_bg_594",
+    "change_bgm": "theme-helena",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 384,
+    "lock": [
+      [
+        4,
+        383
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-1 A Note Through the Firmament",
+    "pre_event": [
+      382,
+      383
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN38",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP7-7"
+  },
+  "385": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 385,
+    "lock": [
+      [
+        4,
+        384
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-2 The Second Parting",
+    "pre_event": [
+      384
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN39",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP8-1"
+  },
+  "386": {
+    "change_background": "bg_tianqiong_cg13",
+    "change_bgm": "story-weimu-link",
+    "change_prefab": "",
+    "id": 386,
+    "lock": [
+      [
+        4,
+        385
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          650
+        ]
+      ]
+    ],
+    "name": "EP8-3 Past, Present, and Future",
+    "pre_event": [
+      385
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN40",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP8-2"
+  },
+  "387": {
+    "change_background": "bg_tianqiong_cg17",
+    "change_bgm": "Battle-newwind",
+    "change_prefab": "juqing_heisewuqi",
+    "id": 387,
+    "lock": [
+      [
+        4,
+        386
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-1 The Tower, Reversed",
+    "pre_event": [
+      386
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN41",
+    "story_type": 1,
+    "unlock_conditions": "Clear EP8-3"
+  },
+  "388": {
+    "change_background": "star_level_bg_544",
+    "change_bgm": "battle-deepecho",
+    "change_prefab": "",
+    "id": 388,
+    "lock": [
+      [
+        4,
+        387
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-2 A New Era",
+    "pre_event": [
+      387
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN42",
+    "story_type": 1,
+    "unlock_conditions": "Clear EX-1"
+  },
+  "389": {
+    "change_background": "bg_tianqiong_1",
+    "change_bgm": "theme-weimu",
+    "change_prefab": "",
+    "id": 389,
+    "lock": [
+      [
+        4,
+        388
+      ],
+      [
+        3,
+        [
+          1,
+          610,
+          1000
+        ]
+      ]
+    ],
+    "name": "EX-3 Ripples",
+    "pre_event": [
+      388
+    ],
+    "story": "XIANGCHEYUTIANQIONGZHIYIN43",
+    "story_type": 1,
+    "unlock_conditions": "Clear EX-2"
+  },
   "all": [
     1,
     2,
@@ -6877,6 +7379,25 @@
     363,
     364,
     365,
-    366
+    366,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389
   ]
 }
