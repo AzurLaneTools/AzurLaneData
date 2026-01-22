@@ -278,6 +278,87 @@
     "type": 5,
     "zone_id": 11003
   },
+  "1120101": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_cloth01",
+    "id": 1120101,
+    "name": "臥室比基尼",
+    "room_id": 12,
+    "type": 3,
+    "zone_id": 12001
+  },
+  "1120102": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_frame01",
+    "id": 1120102,
+    "name": "臥室屏風",
+    "room_id": 12,
+    "type": 3,
+    "zone_id": 12001
+  },
+  "1120103": {
+    "default_furniture": 1201,
+    "furniture_name": "pre_db_df_bedroom01_0",
+    "id": 1120103,
+    "name": "臥室床",
+    "room_id": 12,
+    "type": 4,
+    "zone_id": 12001
+  },
+  "1120104": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_desklamp01",
+    "id": 1120104,
+    "name": "臥室小燈",
+    "room_id": 12,
+    "type": 3,
+    "zone_id": 12001
+  },
+  "1120203": {
+    "default_furniture": 1202,
+    "furniture_name": "pre_db_df_kitchen01_0",
+    "id": 1120203,
+    "name": "餐廳餐桌",
+    "room_id": 12,
+    "type": 6,
+    "zone_id": 12002
+  },
+  "1120301": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_wallscrolls01",
+    "id": 1120301,
+    "name": "客廳掛畫",
+    "room_id": 12,
+    "type": 3,
+    "zone_id": 12003
+  },
+  "1120302": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_floorlamp01",
+    "id": 1120302,
+    "name": "客廳落地燈",
+    "room_id": 12,
+    "type": 3,
+    "zone_id": 12003
+  },
+  "1120303": {
+    "default_furniture": 1203,
+    "furniture_name": "pre_db_df_livingroom01_0",
+    "id": 1120303,
+    "name": "客廳沙發",
+    "room_id": 12,
+    "type": 5,
+    "zone_id": 12003
+  },
+  "1120304": {
+    "default_furniture": 0,
+    "furniture_name": "pre_db_df_tedian01",
+    "id": 1120304,
+    "name": "客廳特典",
+    "room_id": 12,
+    "type": 99,
+    "zone_id": 12003
+  },
   "all": [
     100101,
     100102,
@@ -309,7 +390,16 @@
     1110203,
     1110301,
     1110302,
-    1110303
+    1110303,
+    1120101,
+    1120102,
+    1120103,
+    1120104,
+    1120203,
+    1120301,
+    1120302,
+    1120303,
+    1120304
   ],
   "get_id_list_by_room_id": {
     "1": [
@@ -352,6 +442,17 @@
       1110301,
       1110302,
       1110303
+    ],
+    "12": [
+      1120101,
+      1120102,
+      1120103,
+      1120104,
+      1120203,
+      1120301,
+      1120302,
+      1120303,
+      1120304
     ]
   },
   "get_id_list_by_zone_id": {
@@ -413,6 +514,21 @@
       1110301,
       1110302,
       1110303
+    ],
+    "12001": [
+      1120101,
+      1120102,
+      1120103,
+      1120104
+    ],
+    "12002": [
+      1120203
+    ],
+    "12003": [
+      1120301,
+      1120302,
+      1120303,
+      1120304
     ]
   }
 }

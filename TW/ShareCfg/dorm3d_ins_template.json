@@ -104,6 +104,36 @@
     "sculpture": "nengdai_idol",
     "ship_group": 30221
   },
+  "30707201": {
+    "background": "ins_199032_bg",
+    "discuss": [
+      15,
+      16
+    ],
+    "group_id": 1,
+    "id": 30707201,
+    "message": "dafeng_1",
+    "name": "Taiho",
+    "npc_discuss": "",
+    "picture": "ins_307071",
+    "sculpture": "dafeng_2",
+    "ship_group": 30707
+  },
+  "30707202": {
+    "background": "ins_199032_bg",
+    "discuss": [
+      17,
+      18
+    ],
+    "group_id": 1,
+    "id": 30707202,
+    "message": "dafeng_2",
+    "name": "Taiho",
+    "npc_discuss": "",
+    "picture": "ins_307072",
+    "sculpture": "dafeng_2",
+    "ship_group": 30707
+  },
   "all": [
     20220201,
     30221201,
@@ -111,7 +141,9 @@
     19903202,
     10517201,
     10517202,
-    10517203
+    10517203,
+    30707201,
+    30707202
   ],
   "get_id_list_by_ship_group": {
     "10517": [
@@ -128,6 +160,10 @@
     ],
     "30221": [
       30221201
+    ],
+    "30707": [
+      30707201,
+      30707202
     ]
   }
 }
