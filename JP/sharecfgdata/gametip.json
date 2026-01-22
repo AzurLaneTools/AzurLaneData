@@ -493,6 +493,31 @@
       }
     ]
   },
+  "SardiniaSPCoreActivityUI_fleetconfirm": {
+    "tip": "艦隊が編成されていません。前のステージの編成を適用させますか？"
+  },
+  "SardiniaSPCoreActivityUI_help": {
+    "tip": [
+      {
+        "info": "遊び方：\n<color=#92fc63>1.22-2.5メンテ</color>まで、期間限定イベント「特集写真――撮影進行中！」が開催されます！\n限定任務をこなし、艦隊を編成しイベントステージをクリアすることで、「写真フィルム」を集めて報酬を手に入れましょう！\n\n①画面左下のボタンで「探索物語（ストーリー）」と「特別戦闘」画面を切り替えることができます。\n②「特別戦闘」では、艦隊を編成し特別ステージに挑戦でき、収集Ptアイテム「写真フィルム」を入手できます\n出撃の際に、出撃する艦隊数が異なる<color=#92fc63>「単独出撃」</color>、<color=#92fc63>「協同出撃」</color>を選択できます\n・単独出撃では、1個の艦隊のみで各ステージに連続して挑むことができます（戦闘開始時に艦隊の耐久が全回復します）\n・協同出撃では、ステージに応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊で行います。協同出撃でクリアした場合、追加の報酬を入手できます\n③「写真フィルム」は累計入手数報酬でSR艦船<color=#92fc63>「ウゴリーノ・ヴィヴァルディ」</color>、<color=#92fc63>「試作型三連装406mm主砲Model1940」</color>などを入手できます\n④「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。\n④「探索物語」では、イベント限定任務で入手できる「スタジオ予約票」を消費してイベントストーリーを開放することができます。また、全てのストーリーを読むと限定装備外装「ファッションフルーツ砲弾」を入手できます"
+      }
+    ]
+  },
+  "SardiniaSPCoreActivityUI_story_reward_count": {
+    "tip": "キャラをタップし、<icon name=65812 w=0.4 h=0.4/><color=#10a7a9>(残り：$1)</color>を消費し特集ページ（イベントストーリー）を開放\n全ストーリー開放で限定装備外装を入手可能<color=#10a7a9>($2/8)</color>"
+  },
+  "SardiniaSPCoreActivityUI_subtitle_1": {
+    "tip": "特集写真"
+  },
+  "SardiniaSPCoreActivityUI_subtitle_2": {
+    "tip": "累計Pt"
+  },
+  "SardiniaSPCoreActivityUI_title": {
+    "tip": "イベント"
+  },
+  "SardiniaSPCoreActivityUI_unlock": {
+    "tip": "未開放"
+  },
   "Settings_title_AdjustScr": {
     "tip": "画面サイズ調整"
   },
@@ -3138,7 +3163,7 @@
     "tip": "「ハムマンⅡ」常設実装！"
   },
   "buildship_new_tip": {
-    "tip": "期間限定建造を累計200回行うと「グアム」を確定で入手可能！（最大4隻まで）"
+    "tip": "「フランチェスコ・カラッチョロ」など出現率がUP!"
   },
   "buildship_special_tip": {
     "tip": "「ヨークタウンⅡ」「ホーネットⅡ」常設実装！"
@@ -14708,6 +14733,9 @@
   "island_season_help": {
     "tip": "1.新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます\n 2.開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>離島イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます\n 3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます\n 4.シーズンが終了すると、<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。\n 5.終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。"
   },
+  "island_season_label": {
+    "tip": "开发季$1"
+  },
   "island_season_pt": {
     "tip": "累計PT"
   },
@@ -14723,6 +14751,15 @@
   "island_season_review": {
     "tip": "振り返り"
   },
+  "island_season_review_achi": {
+    "tip": "成就"
+  },
+  "island_season_review_achinum": {
+    "tip": "成就数量"
+  },
+  "island_season_review_blank": {
+    "tip": "未参与该开发季"
+  },
   "island_season_review_charnum": {
     "tip": "仲間人数"
   },
@@ -14734,6 +14771,12 @@
   },
   "island_season_review_gamenum": {
     "tip": "イベント参加"
+  },
+  "island_season_review_guidenum": {
+    "tip": "总收集点"
+  },
+  "island_season_review_lv": {
+    "tip": "岛屿开发等级"
   },
   "island_season_review_miss": {
     "tip": "シーズンに参加していません"
@@ -14755,6 +14798,9 @@
   },
   "island_season_review_relax": {
     "tip": "ミニゲーム"
+  },
+  "island_season_review_titleone": {
+    "tip": "开发季"
   },
   "island_season_shop": {
     "tip": "ショップ"
