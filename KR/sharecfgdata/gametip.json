@@ -1864,6 +1864,9 @@
   "battle_battleMediator_quest_exist": {
     "tip": "퇴각 시 아이템과 함선을 획득할 수 없습니다. 정말 퇴각하시겠습니까?"
   },
+  "battle_battleMediator_quest_exist_submarine_support": {
+    "tip": "전투를 중단하면 현재 적 보스의 내구에 따라 결과가 집계됩니다. 전투를 중단할까요?"
+  },
   "battle_battleMediator_remainTime": {
     "tip": "남은 시간"
   },
@@ -2049,6 +2052,9 @@
   },
   "battle_result_boss_destruct": {
     "tip": "BOSS의 자폭을 막으며 격파하라!"
+  },
+  "battle_result_boss_hp_lower": {
+    "tip": "적 보스의 잔여 내구 $1% 이하"
   },
   "battle_result_confirm": {
     "tip": "확인"
@@ -6900,7 +6906,7 @@
     "tip": "해당 챕터의 어려움 난이도는 아직 개방되지 않았습니다."
   },
   "elite_fleet_confirm": {
-    "tip": "$1이(가) 출격 조건을 <color=#ff0000>만족하고 있지 않기</color> 때문에 전투에 참가할 수 없습니다. 정말 출격하시겠습니까?"
+    "tip": "$1(은)는 <color=#ff5c5c>출격 조건을 충족하고 있지 않아</color> 전투에 참여할 수 없습니다."
   },
   "elite_warp_to_latest_map": {
     "tip": "최신 챕터로 이동했습니다."
@@ -11873,6 +11879,68 @@
       }
     }
   },
+  "help_supportfleet_16": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_help_16",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "help_supportfleet_16_submarine": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/supportfleet_submarine_help2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "help_technolog": {
     "tip": {
       "1": {
@@ -15042,6 +15110,18 @@
   },
   "island_sure_ticket_overflow": {
     "tip": "생산에 필요한 시간보다 선택한 가속권의 시간이 깁니다. 계속하시겠습니까?"
+  },
+  "island_survey_ui_1": {
+    "tip": "为了更好地收集指挥官的意见与建议,司令部在此为您准备了一份问卷。"
+  },
+  "island_survey_ui_2": {
+    "tip": "问卷提交后将无法修改,请指挥官认真填写。"
+  },
+  "island_survey_ui_award": {
+    "tip": "作为感谢，完成问卷后可获得："
+  },
+  "island_survey_ui_button": {
+    "tip": "打开问卷"
   },
   "island_task_award": {
     "tip": "보상"
@@ -21422,7 +21502,7 @@
     "tip": "선택하신 <color=#92fc63>$1</color>은(는) 유일한 <color=#92fc63>$2</color>이기 때문에 변경할 수 없습니다."
   },
   "ship_formationMediator_request_replace_support": {
-    "tip": "이미 지원 함대에 편성되어 있습니다. 편성을 변경하시겠습니까?"
+    "tip": "지원 함대에 편성된 함선이 있습니다. 편성에서 제외할까요?"
   },
   "ship_formationUI_changeFormationError_countError": {
     "tip": "전투 가능한 함선이 부족합니다."
@@ -21441,6 +21521,9 @@
   },
   "ship_formationUI_fleetName12": {
     "tip": "제2 잠수함대"
+  },
+  "ship_formationUI_fleetName13": {
+    "tip": "지원 함대"
   },
   "ship_formationUI_fleetName2": {
     "tip": "제2 함대"
@@ -22952,6 +23035,9 @@
   },
   "submarine_approach_desc": {
     "tip": "적함 편대 접근 중, 경계에 유의하세요."
+  },
+  "submarine_support_oil_consume_tip": {
+    "tip": "잠수 지원 함대 출격은 연료를 $1 소모합니다. 계속하시겠습니까?"
   },
   "summary_page_un_rearch": {
     "tip": "미획득"
