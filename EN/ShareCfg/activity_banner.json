@@ -2,18 +2,16 @@
   "1": {
     "id": 1,
     "param": [
-      "scene charge",
-      {
-        "wrap": 4
-      }
+      "scene skinshop",
+      []
     ],
-    "pic": "temp7",
+    "pic": "temp1",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -39,16 +37,19 @@
   "2": {
     "id": 2,
     "param": [
-      "scene skinshop",
-      []
+      "scene get boat",
+      {
+        "page": 1,
+        "projectName": "new"
+      }
     ],
-    "pic": "temp1",
+    "pic": "temp2",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -59,8 +60,8 @@
       [
         [
           2026,
-          1,
-          28
+          2,
+          5
         ],
         [
           23,
@@ -74,19 +75,18 @@
   "3": {
     "id": 3,
     "param": [
-      "scene get boat",
+      "scene core activity",
       {
-        "page": 1,
-        "projectName": "new"
+        "coreName": "SardiniaSPCoreActivityUI"
       }
     ],
-    "pic": "temp2",
+    "pic": "temp3",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -98,7 +98,7 @@
         [
           2026,
           2,
-          4
+          5
         ],
         [
           23,
@@ -112,18 +112,18 @@
   "4": {
     "id": 4,
     "param": [
-      "scene core activity",
+      "scene charge",
       {
-        "coreName": "SardiniaSPCoreActivityUI"
+        "wrap": 4
       }
     ],
-    "pic": "temp3",
+    "pic": "temp4",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -135,7 +135,7 @@
         [
           2026,
           2,
-          4
+          5
         ],
         [
           23,
@@ -149,18 +149,18 @@
   "5": {
     "id": 5,
     "param": [
-      "scene charge",
+      "scene shop",
       {
-        "wrap": 4
+        "warp": "shopstreet"
       }
     ],
-    "pic": "temp4",
+    "pic": "temp5",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -172,7 +172,7 @@
         [
           2026,
           2,
-          4
+          5
         ],
         [
           23,
@@ -186,18 +186,15 @@
   "6": {
     "id": 6,
     "param": [
-      "scene shop",
-      {
-        "warp": "shopstreet"
-      }
+      "scene court yard"
     ],
-    "pic": "temp5",
+    "pic": "temp6",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -209,7 +206,7 @@
         [
           2026,
           2,
-          4
+          5
         ],
         [
           23,
@@ -223,15 +220,15 @@
   "7": {
     "id": 7,
     "param": [
-      "scene court yard"
+      "crusing"
     ],
-    "pic": "temp6",
+    "pic": "temp7",
     "time": [
       [
         [
           2026,
-          1,
-          22
+          2,
+          1
         ],
         [
           0,
@@ -243,7 +240,7 @@
         [
           2026,
           2,
-          4
+          5
         ],
         [
           23,
@@ -257,25 +254,19 @@
   "8": {
     "id": 8,
     "param": [
-      "scene level"
+      "scene level",
+      {
+        "isEX": true,
+        "open_remaster": true
+      }
     ],
     "pic": "temp8",
-    "time": "stop",
-    "type": 2
-  },
-  "9": {
-    "id": 9,
-    "param": [
-      "scene Cryptolalia",
-      []
-    ],
-    "pic": "temp9",
     "time": [
       [
         [
           2026,
           1,
-          22
+          29
         ],
         [
           0,
@@ -286,8 +277,8 @@
       [
         [
           2026,
-          1,
-          28
+          2,
+          5
         ],
         [
           23,
@@ -297,6 +288,38 @@
       ]
     ],
     "type": 2
+  },
+  "9": {
+    "id": 9,
+    "param": "50372",
+    "pic": "temp9",
+    "time": [
+      [
+        [
+          2026,
+          1,
+          29
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 3
   },
   "90": {
     "id": 90,
@@ -473,7 +496,9 @@
       5,
       6,
       7,
-      8,
+      8
+    ],
+    "3": [
       9
     ],
     "9": [
