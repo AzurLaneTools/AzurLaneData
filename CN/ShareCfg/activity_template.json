@@ -30140,6 +30140,59 @@
     "title_res_tag": "CrusingDisplayAct",
     "type": 54
   },
+  "7027": {
+    "config_client": "",
+    "config_data": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268
+    ],
+    "config_id": 0,
+    "id": 7027,
+    "is_show": 14,
+    "login_pop": 0,
+    "mark": 20260129,
+    "page_core": "",
+    "page_info": {
+      "class_name": "CrusingDisplayActPage2",
+      "ui_name": "CrusingDisplayActPage27"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          3,
+          31
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "CrusingDisplayAct",
+    "type": 54
+  },
   "7101": {
     "config_client": "",
     "config_data": [
@@ -30277,7 +30330,9 @@
       12037,
       12038,
       12039,
-      12040
+      12040,
+      12041,
+      12042
     ],
     "config_id": 1,
     "id": 7104,
@@ -43340,33 +43395,7 @@
       "class_name": "StarSeaPtRePage",
       "ui_name": "StarSeaPtRePage"
     },
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          1,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          28
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "xinghaizhuguang_pt",
     "type": 74
   },
@@ -43424,33 +43453,7 @@
     "mark": 20260115,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          1,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          28
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 14
   },
@@ -43636,33 +43639,7 @@
     "mark": 20260115,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          1,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          28
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 10
   },
@@ -43744,33 +43721,7 @@
       "class_name": "LaFeiUrExchangeTemplatePage",
       "ui_name": "LaFeiUrExchangeTemplatePage"
     },
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          1,
-          15
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          1,
-          28
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "urexchange",
     "type": 115
   },
@@ -44428,6 +44379,122 @@
     ],
     "title_res_tag": "",
     "type": 117
+  },
+  "50362": {
+    "config_client": {
+      "1": "commonbg/bg_pt_commission",
+      "2": [
+        0.925,
+        0.925,
+        0.925,
+        1
+      ],
+      "event_shop": true,
+      "outline": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "painting": "mengfeisi_pt",
+      "pt_id": 621,
+      "use_secretary": false
+    },
+    "config_data": [
+      3641,
+      3642,
+      3643,
+      3644,
+      3645,
+      3646,
+      3647,
+      3648,
+      3649,
+      3650,
+      3651,
+      3652
+    ],
+    "config_id": 0,
+    "id": 50362,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20260129,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          1,
+          29
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          4,
+          1
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 14
+  },
+  "50363": {
+    "config_client": {
+      "shopActID": 50362
+    },
+    "config_data": [],
+    "config_id": 0,
+    "id": 50363,
+    "is_show": 50,
+    "login_pop": 0,
+    "mark": 20260129,
+    "page_core": "",
+    "page_info": {
+      "class_name": "CollectionEventPtPage",
+      "ui_name": "CollectionEventPtPage"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          1,
+          29
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          3,
+          26
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "collection_event_pt",
+    "type": 11
   },
   "100001": {
     "config_client": "",
@@ -45703,6 +45770,8 @@
     50358,
     50359,
     50360,
+    50362,
+    50363,
     7011,
     7012,
     7013,
@@ -45719,6 +45788,7 @@
     7024,
     7025,
     7026,
+    7027,
     7101,
     7102,
     7104,
@@ -46030,7 +46100,8 @@
     ],
     "11": [
       5078,
-      5736
+      5736,
+      50363
     ],
     "12": [
       4898,
@@ -46319,7 +46390,8 @@
       50221,
       50246,
       50287,
-      50330
+      50330,
+      50362
     ],
     "15": [
       50254
@@ -46731,7 +46803,8 @@
       7023,
       7024,
       7025,
-      7026
+      7026,
+      7027
     ],
     "55": [
       5010,

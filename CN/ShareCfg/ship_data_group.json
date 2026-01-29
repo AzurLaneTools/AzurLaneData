@@ -23935,6 +23935,28 @@
           ""
         ],
         0
+      ],
+      [
+        "进行重型、特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
+      ],
+      [
+        "常驻UR兑换",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20707,
@@ -23965,6 +23987,17 @@
         "限时活动：湮烬尘墟",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "进行重型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -23999,6 +24032,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行特型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20602,
@@ -24031,6 +24075,17 @@
           ""
         ],
         0
+      ],
+      [
+        "进行轻型舰建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20233,
@@ -24061,6 +24116,16 @@
         "限时活动：湮烬尘墟",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
         ],
         0
       ]
@@ -34570,5 +34635,40 @@
     "trans_skin": 0,
     "trans_type": 0,
     "type": 2
+  },
+  "30056": {
+    "code": 30056,
+    "description": [
+      [
+        "限时活动：世界巡游",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9701111
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970111,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30056,
+    "nationality": 97,
+    "property_hexagon": [
+      "A",
+      "D",
+      "E",
+      "A",
+      "C",
+      "D"
+    ],
+    "redirect_id": 101,
+    "share_group_id": [],
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 1
   }
 }
