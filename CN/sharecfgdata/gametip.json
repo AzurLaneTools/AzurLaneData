@@ -985,7 +985,7 @@
     "tip": "更换同时加入秘书组"
   },
   "adventure_award_end_tip": {
-    "tip": "※领取时间截止至4.17 24时"
+    "tip": "※领取时间截止至2.18 24时"
   },
   "adventure_award_title": {
     "tip": "冒险等级奖励"
@@ -13453,6 +13453,12 @@
   "island_add_temp_bag": {
     "tip": "以下物品将存入临时仓库"
   },
+  "island_addition_influence": {
+    "tip": "吸引力"
+  },
+  "island_addition_sale": {
+    "tip": "售价"
+  },
   "island_additional_production_tip1": {
     "tip": "追加生产"
   },
@@ -13588,6 +13594,9 @@
   "island_bag_max_level": {
     "tip": "已是最大等级"
   },
+  "island_bag_max_tip": {
+    "tip": "岛屿仓库已满"
+  },
   "island_bag_title": {
     "tip": "仓库"
   },
@@ -13605,6 +13614,9 @@
   },
   "island_bag_uprade_success": {
     "tip": "升级成功"
+  },
+  "island_bar_quick_game": {
+    "tip": "快速游戏"
   },
   "island_batch_covert": {
     "tip": "批量转化"
@@ -14077,8 +14089,35 @@
   "island_enter_island_ban": {
     "tip": "禁止访问"
   },
+  "island_exchange_btn_text": {
+    "tip": "加工"
+  },
+  "island_exchange_own_count": {
+    "tip": "持有数量"
+  },
+  "island_exchange_sure_tip": {
+    "tip": "是否确认进行加工？"
+  },
+  "island_exchange_title": {
+    "tip": "加工"
+  },
+  "island_exchange_title_en": {
+    "tip": "Processing"
+  },
   "island_first_season": {
     "tip": "岛屿开发季I"
+  },
+  "island_fishing_exit": {
+    "tip": "是否停止钓鱼？"
+  },
+  "island_fishing_lure_empty": {
+    "tip": "鱼饵不能是空"
+  },
+  "island_fishing_tip_escape": {
+    "tip": "鱼儿逃脱了"
+  },
+  "island_fishing_tip_hooked": {
+    "tip": "鱼儿咬钩了"
   },
   "island_follow_btn_State_cancel": {
     "tip": "取消跟随"
@@ -14094,6 +14133,9 @@
   },
   "island_follower_cnt_max": {
     "tip": "跟随数量已达上限"
+  },
+  "island_follower_exiting_tip": {
+    "tip": "该角色正在离开..."
   },
   "island_follower_state_no_normal": {
     "tip": "该船处于其他状态"
@@ -14176,8 +14218,17 @@
   "island_guide_en": {
     "tip": "HANDBOOK"
   },
+  "island_guide_fish_max_weight": {
+    "tip": "最大重量"
+  },
+  "island_guide_fish_min_weight": {
+    "tip": "最小重量"
+  },
   "island_guide_help": {
     "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取角色收集点：\n\n1.<color=#39bfff>获取</color>角色：每名角色解锁后可领取<color=#39bfff>20</color>收集点\n2.<color=#39bfff>提升星级</color>：每名角色提升星级可领取<color=#39bfff>30</color>收集点，提升至5星时可额外获得<color=#39bfff>10</color>收集点\n3.角色<color=#39bfff>生活等级</color>：每名角色生活等级达到<color=#39bfff>50级</color>后可领取<color=#39bfff>50</color>收集点"
+  },
+  "island_guide_help_fish": {
+    "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取钓鱼收集点：\n\n1.<color=#39bfff>获取</color>鱼类：每种鱼类解锁后可领取<color=#39bfff>10</color>收集点\n2.<color=#39bfff>获取鱼类的大小皇冠</color>：获取某种鱼类的重量纪录满足大小皇冠的条件后可领取收集点，每种鱼类的大小皇冠重量条件各不相同，满足条件后会在重量纪录前显示皇冠"
   },
   "island_guide_help_item": {
     "tip": "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取资材收集点：\n\n1.<color=#39bfff>获取</color>资材：每种资材解锁后可领取<color=#39bfff>20</color>收集点\n2.<color=#39bfff>累计获取某种资材达到一定数量</color>：获取某种资材的数量达到奖励阶段的目标数量后可领取收集点，每种资材都有各自的奖励阶段及其对应的目标数量，可在图鉴中查看"
@@ -14430,6 +14481,43 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_farm",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_fish": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish3",
           "path": ""
         }
       },
@@ -14913,6 +15001,9 @@
   "island_log_gift": {
     "tip": " 邀请你领取补给"
   },
+  "island_log_trade": {
+    "tip": " 邀请你交易珍珠"
+  },
   "island_log_visit": {
     "tip": " 拜访了你的岛屿"
   },
@@ -15212,6 +15303,18 @@
   },
   "island_post_acceptable": {
     "tip": "资材收取"
+  },
+  "island_post_event_addition_label": {
+    "tip": "下列餐品获得加成"
+  },
+  "island_post_event_close_label": {
+    "tip": "关闭"
+  },
+  "island_post_event_label": {
+    "tip": "经营事件"
+  },
+  "island_post_event_open_label": {
+    "tip": "查看"
   },
   "island_post_manage": {
     "tip": "集成管理"
@@ -15684,6 +15787,15 @@
   "island_spoperation_btn_2509_3": {
     "tip": "活动管理员"
   },
+  "island_spoperation_btn_2602_1": {
+    "tip": "特产采集"
+  },
+  "island_spoperation_btn_2602_2": {
+    "tip": "特产制作"
+  },
+  "island_spoperation_btn_2602_3": {
+    "tip": "活动管理员"
+  },
   "island_spoperation_item_2509_1": {
     "tip": "秋菊"
   },
@@ -15696,6 +15808,18 @@
   "island_spoperation_item_2509_4": {
     "tip": "松茸"
   },
+  "island_spoperation_item_2602_1": {
+    "tip": "春笋"
+  },
+  "island_spoperation_item_2602_2": {
+    "tip": "荠菜"
+  },
+  "island_spoperation_item_2602_3": {
+    "tip": "迎春花"
+  },
+  "island_spoperation_item_2602_4": {
+    "tip": "风信子"
+  },
   "island_spoperation_level_2509_1": {
     "tip": "开放条件：岛屿开发等级Lv.1"
   },
@@ -15707,6 +15831,15 @@
   },
   "island_spoperation_tip_2509_3": {
     "tip": "活动期间，在【坠香果园】【有鱼餐馆】【白熊饮品】【手工制作设备】中可生产对应特产"
+  },
+  "island_spoperation_tip_2602_1": {
+    "tip": "活动期间，佩芮会连续发布特产订单，完成特产订单可获得开发季PT等奖励。\n*特产订单不占用岛屿订单完成上限、也不提升好评等级"
+  },
+  "island_spoperation_tip_2602_2": {
+    "tip": "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
+  },
+  "island_spoperation_tip_2602_3": {
+    "tip": "活动期间，在【青芽苗圃】【白熊饮品】【有鱼餐馆】【手工制作设备】中可生产对应特产"
   },
   "island_sub_product_cnt": {
     "tip": "副产物 × $1"
@@ -15902,6 +16035,164 @@
   },
   "island_total_price": {
     "tip": "合计价格:"
+  },
+  "island_trade_activity_desc_1": {
+    "tip": "　活动期间，神秘商人会出现在集会岛，在神秘商人处可进行珍珠售卖。"
+  },
+  "island_trade_activity_desc_2": {
+    "tip": "　珍珠可从开发季管理员佩芮处采购，每日采购和售卖的价格会出现波动。"
+  },
+  "island_trade_activity_unlock": {
+    "tip": "开放等级：岛屿LV.22"
+  },
+  "island_trade_bag_full_label": {
+    "tip": "仓库容量不足无法采购"
+  },
+  "island_trade_cnt_inadequate": {
+    "tip": "数量不足"
+  },
+  "island_trade_help_1": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help4",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_help_2": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help3",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_invite_label": {
+    "tip": "邀请玩家"
+  },
+  "island_trade_invite_success": {
+    "tip": "邀请成功"
+  },
+  "island_trade_limit_label": {
+    "tip": "本周可采购数量$1"
+  },
+  "island_trade_msg_pop": {
+    "tip": "$1邀请你前往他的岛屿，该岛屿今日珍珠售价$3"
+  },
+  "island_trade_price_unrefresh": {
+    "tip": "岛主尚未更新价格无法交易"
+  },
+  "island_trade_purchase_failed_label": {
+    "tip": "本周珍珠采购数量已达上限"
+  },
+  "island_trade_purchase_label": {
+    "tip": "珍珠采购"
+  },
+  "island_trade_purchase_sub_label": {
+    "tip": "采购"
+  },
+  "island_trade_rank_info_label": {
+    "tip": "岛屿信息"
+  },
+  "island_trade_rank_label": {
+    "tip": "好友排名"
+  },
+  "island_trade_rank_level_label": {
+    "tip": "岛屿等级"
+  },
+  "island_trade_rank_num_label": {
+    "tip": "开发排名"
+  },
+  "island_trade_rank_price_label": {
+    "tip": "今日价格"
+  },
+  "island_trade_reset_label": {
+    "tip": "今日价格已重置"
+  },
+  "island_trade_sell_failed_label": {
+    "tip": "持有珍珠数量不足无法售卖"
+  },
+  "island_trade_sell_failed_label2": {
+    "tip": "本日该岛珍珠可售卖数量已达上限"
+  },
+  "island_trade_sell_label": {
+    "tip": "珍珠售卖"
+  },
+  "island_trade_sell_sub_label": {
+    "tip": "售卖"
+  },
+  "island_trade_sell_tip_label": {
+    "tip": "今日可在该岛售卖数量$1"
+  },
+  "island_trade_send_msg_label": {
+    "tip": "<material=underline c=#006400 ><color=#006400>今日珍珠售价$2</color></material>"
+  },
+  "island_trade_send_msg_match_label": {
+    "tip": "神秘商人"
+  },
+  "island_trade_share_success": {
+    "tip": "邀请成功"
+  },
+  "island_trade_tip_label": {
+    "tip": "每日03：00刷新采购价格"
+  },
+  "island_trade_tip_label2": {
+    "tip": "每日03：00刷新售卖价格"
+  },
+  "island_trade_title": {
+    "tip": "珍珠采购点"
+  },
+  "island_trade_title2": {
+    "tip": "珍珠售卖点"
+  },
+  "island_trade_trend_label": {
+    "tip": "价格曲线"
   },
   "island_unlock_ship_skill_color": {
     "tip": "是否解锁装扮颜色"
