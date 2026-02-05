@@ -124,6 +124,7 @@
     "island_message_bubble_range",
     "delegate_role_transparency",
     "max_follower_cnt",
+    "single_action_respon_check_range",
     "default_action",
     "island_photohight_FPS",
     "island_photohight_TPS",
@@ -137,7 +138,20 @@
     "island_shiporder_refresh",
     "island_shiporder_list_quantity",
     "island_shiporder_limit",
-    "island_guide_itemlimit"
+    "island_guide_itemlimit",
+    "treasure_week_limit",
+    "treasure_unlock",
+    "treasure_return_random",
+    "treasure_price_limit",
+    "treasure_price_initial",
+    "treasure_price_parameter",
+    "treasure_price_weight_group",
+    "treasure_price_buy",
+    "treasure_price_scale_y",
+    "island_fishing_success_exit_time",
+    "island_fishery_bubble_vfx",
+    "daily_task_follow_action",
+    "weekly_task_follow_action"
   ],
   "base_efficiency": {
     "key": "base_efficiency",
@@ -192,6 +206,13 @@
     "key": "daily_gift_get_max",
     "key_value_int": 3,
     "key_value_varchar": ""
+  },
+  "daily_task_follow_action": {
+    "key": "daily_task_follow_action",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      "clap"
+    ]
   },
   "default_action": {
     "key": "default_action",
@@ -506,6 +527,29 @@
   },
   "island_feedback_award_times": {
     "key": "island_feedback_award_times",
+    "key_value_int": 3,
+    "key_value_varchar": ""
+  },
+  "island_fishery_bubble_vfx": {
+    "key": "island_fishery_bubble_vfx",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      [
+        20101,
+        10020079
+      ],
+      [
+        20102,
+        10020080
+      ],
+      [
+        20103,
+        10020081
+      ]
+    ]
+  },
+  "island_fishing_success_exit_time": {
+    "key": "island_fishing_success_exit_time",
     "key_value_int": 3,
     "key_value_varchar": ""
   },
@@ -948,6 +992,7 @@
     "key_value_varchar": [
       101,
       102,
+      201,
       401,
       402,
       501,
@@ -965,7 +1010,7 @@
   },
   "season_now": {
     "key": "season_now",
-    "key_value_int": 1,
+    "key_value_int": 2,
     "key_value_varchar": ""
   },
   "season_pt": {
@@ -991,6 +1036,11 @@
       8,
       4
     ]
+  },
+  "single_action_respon_check_range": {
+    "key": "single_action_respon_check_range",
+    "key_value_int": 4,
+    "key_value_varchar": ""
   },
   "stamina_cost": {
     "key": "stamina_cost",
@@ -1087,6 +1137,97 @@
         26,
         1
       ]
+    ]
+  },
+  "treasure_price_buy": {
+    "key": "treasure_price_buy",
+    "key_value_int": 110,
+    "key_value_varchar": ""
+  },
+  "treasure_price_initial": {
+    "key": "treasure_price_initial",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      200,
+      850
+    ]
+  },
+  "treasure_price_limit": {
+    "key": "treasure_price_limit",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      200,
+      1000
+    ]
+  },
+  "treasure_price_parameter": {
+    "key": "treasure_price_parameter",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      0.5,
+      [
+        40,
+        60
+      ],
+      0.01
+    ]
+  },
+  "treasure_price_scale_y": {
+    "key": "treasure_price_scale_y",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      0,
+      200,
+      400,
+      600,
+      800,
+      1000
+    ]
+  },
+  "treasure_price_weight_group": {
+    "key": "treasure_price_weight_group",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      [
+        0,
+        400
+      ],
+      [
+        401,
+        800
+      ],
+      [
+        801,
+        1000
+      ]
+    ]
+  },
+  "treasure_return_random": {
+    "key": "treasure_return_random",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      3000,
+      11000
+    ]
+  },
+  "treasure_unlock": {
+    "key": "treasure_unlock",
+    "key_value_int": 20,
+    "key_value_varchar": ""
+  },
+  "treasure_week_limit": {
+    "key": "treasure_week_limit",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      200,
+      200
+    ]
+  },
+  "weekly_task_follow_action": {
+    "key": "weekly_task_follow_action",
+    "key_value_int": 0,
+    "key_value_varchar": [
+      "clap"
     ]
   },
   "whit_list_max_cnt": {

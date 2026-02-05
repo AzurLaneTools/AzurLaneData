@@ -985,7 +985,7 @@
     "tip": "Add to Secretary Slot"
   },
   "adventure_award_end_tip": {
-    "tip": "*Claimable until 4/17 23:59:59 (UTC-7)"
+    "tip": "* Claimable until Feb. 18th"
   },
   "adventure_award_title": {
     "tip": "Adventurer Level Reward"
@@ -13033,6 +13033,12 @@
   "island_add_temp_bag": {
     "tip": "The following items will be moved to your temporary warehouse:"
   },
+  "island_addition_influence": {
+    "tip": "Customer Appeal"
+  },
+  "island_addition_sale": {
+    "tip": "Price"
+  },
   "island_additional_production_tip1": {
     "tip": "Added Production"
   },
@@ -13168,6 +13174,9 @@
   "island_bag_max_level": {
     "tip": "Max level reached."
   },
+  "island_bag_max_tip": {
+    "tip": "Your Island Warehouse is full"
+  },
   "island_bag_title": {
     "tip": "Warehouse"
   },
@@ -13185,6 +13194,9 @@
   },
   "island_bag_uprade_success": {
     "tip": "Level increased."
+  },
+  "island_bar_quick_game": {
+    "tip": "Quick Game"
   },
   "island_batch_covert": {
     "tip": "Batch Convert"
@@ -13657,8 +13669,35 @@
   "island_enter_island_ban": {
     "tip": "Visits Forbidden"
   },
+  "island_exchange_btn_text": {
+    "tip": "Crafting"
+  },
+  "island_exchange_own_count": {
+    "tip": "Amt. Owned"
+  },
+  "island_exchange_sure_tip": {
+    "tip": "Craft this item?"
+  },
+  "island_exchange_title": {
+    "tip": "Crafting"
+  },
+  "island_exchange_title_en": {
+    "tip": "Crafting"
+  },
   "island_first_season": {
     "tip": "Season I"
+  },
+  "island_fishing_exit": {
+    "tip": "Do you want to stop fishing?"
+  },
+  "island_fishing_lure_empty": {
+    "tip": "Select rarity"
+  },
+  "island_fishing_tip_escape": {
+    "tip": "The fish got away..."
+  },
+  "island_fishing_tip_hooked": {
+    "tip": "A fish is on the hook!"
   },
   "island_follow_btn_State_cancel": {
     "tip": "Unfollow"
@@ -13674,6 +13713,9 @@
   },
   "island_follower_cnt_max": {
     "tip": "You cannot have any more followers."
+  },
+  "island_follower_exiting_tip": {
+    "tip": "The character is leaving..."
   },
   "island_follower_state_no_normal": {
     "tip": "This person seems to be busy."
@@ -13756,8 +13798,17 @@
   "island_guide_en": {
     "tip": "Collection"
   },
+  "island_guide_fish_max_weight": {
+    "tip": "Max Amount"
+  },
+  "island_guide_fish_min_weight": {
+    "tip": "Min. Amount"
+  },
   "island_guide_help": {
     "tip": "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
+  },
+  "island_guide_help_fish": {
+    "tip": "Unlocking fishing content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>unlock a fish in the Fish Collection</color>, you'll receive <color=#39bfff>10</color> Collection Points per fish.\n2. <color=#39bfff>Achieving the biggest catch</color>: When you catch a fish that meets the weight requirement for its species, you'll receive additional Collection Points. The weight requirement differs from species to species."
   },
   "island_guide_help_item": {
     "tip": "Unlocking resource-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \n\n1. <color=#39bfff>Unlocking</color> Resources: Unlocking a resource in the Collection gives you <color=#39bfff>20</color> Collection points. \n2. <color=#39bfff>Obtaining</color> Resources: Getting a specific amount of a resource gives you Collection points. You can view the reward stages and the required amounts of each resource in the Collection."
@@ -14010,6 +14061,43 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_farm",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_fish": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish3",
           "path": ""
         }
       },
@@ -14493,6 +14581,9 @@
   "island_log_gift": {
     "tip": "has invited you to collect resources."
   },
+  "island_log_trade": {
+    "tip": "has invited you to trade pearls"
+  },
   "island_log_visit": {
     "tip": "has come to your island."
   },
@@ -14793,6 +14884,18 @@
   "island_post_acceptable": {
     "tip": "Gathering"
   },
+  "island_post_event_addition_label": {
+    "tip": "The following dishes receive a buff:"
+  },
+  "island_post_event_close_label": {
+    "tip": "Return"
+  },
+  "island_post_event_label": {
+    "tip": "Business Event"
+  },
+  "island_post_event_open_label": {
+    "tip": "Confirm"
+  },
   "island_post_manage": {
     "tip": "Manage All"
   },
@@ -14968,7 +15071,7 @@
     "tip": "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.\n5. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
   },
   "island_season_label": {
-    "tip": "开发季$1"
+    "tip": "Season $1"
   },
   "island_season_pt": {
     "tip": "Milestone Points"
@@ -14986,43 +15089,43 @@
     "tip": "Review"
   },
   "island_season_review_achi": {
-    "tip": "成就"
+    "tip": "Achievement"
   },
   "island_season_review_achinum": {
-    "tip": "成就数量"
+    "tip": "Achieved"
   },
   "island_season_review_blank": {
-    "tip": "未参与该开发季"
+    "tip": "No participation in this season"
   },
   "island_season_review_charnum": {
     "tip": "No. of Characters"
   },
   "island_season_review_fishnum": {
-    "tip": "Fish Obtained"
+    "tip": "Achieved"
   },
   "island_season_review_formulanum": {
-    "tip": "Dishes Produced"
+    "tip": "Produced"
   },
   "island_season_review_gamenum": {
-    "tip": "Events Done"
+    "tip": "Collection Pt."
   },
   "island_season_review_guidenum": {
-    "tip": "总收集点"
+    "tip": "Collection Pt."
   },
   "island_season_review_lv": {
-    "tip": "岛屿开发等级"
+    "tip": "Island Dev Lv"
   },
   "island_season_review_miss": {
     "tip": "You have not yet participated in the season."
   },
   "island_season_review_ordernum": {
-    "tip": "Resources Delivered"
+    "tip": "Order Count"
   },
   "island_season_review_produce": {
-    "tip": "Island Production"
+    "tip": "Production Statistics"
   },
   "island_season_review_projuctnum": {
-    "tip": "Research Technology"
+    "tip": "Research Slots"
   },
   "island_season_review_ptnum": {
     "tip": "IDP"
@@ -15031,10 +15134,10 @@
     "tip": "Development Rank"
   },
   "island_season_review_relax": {
-    "tip": "Minigame"
+    "tip": "Achievement"
   },
   "island_season_review_titleone": {
-    "tip": "开发季"
+    "tip": "Season"
   },
   "island_season_shop": {
     "tip": "Shop"
@@ -15076,7 +15179,7 @@
     "tip": "Not Listed"
   },
   "island_season_window_pt": {
-    "tip": "Obtained Through $1 Resource Conversion"
+    "tip": "Obtained Through $1 \nResource Conversion"
   },
   "island_season_window_ranking": {
     "tip": "Final Ranking"
@@ -15264,6 +15367,15 @@
   "island_spoperation_btn_2509_3": {
     "tip": "Event Manager"
   },
+  "island_spoperation_btn_2602_1": {
+    "tip": "Gather Specialty Products"
+  },
+  "island_spoperation_btn_2602_2": {
+    "tip": "Make Specialty Products"
+  },
+  "island_spoperation_btn_2602_3": {
+    "tip": "Event Manager"
+  },
   "island_spoperation_item_2509_1": {
     "tip": "Autumn Chrysanthemum"
   },
@@ -15276,6 +15388,18 @@
   "island_spoperation_item_2509_4": {
     "tip": "Matsutake"
   },
+  "island_spoperation_item_2602_1": {
+    "tip": "Spring Bamboo Shoots"
+  },
+  "island_spoperation_item_2602_2": {
+    "tip": "Shepherd's Purse"
+  },
+  "island_spoperation_item_2602_3": {
+    "tip": "Winter Jasmine"
+  },
+  "island_spoperation_item_2602_4": {
+    "tip": "Hyacinth"
+  },
   "island_spoperation_level_2509_1": {
     "tip": "Requirement: Reach Island Dev. Level 1"
   },
@@ -15287,6 +15411,15 @@
   },
   "island_spoperation_tip_2509_3": {
     "tip": "During the event, you can produce corresponding specialty products at Sweetscent Orchard, the Golden Koi Restaurant, Polar Bear Teahouse, and the Base Factory."
+  },
+  "island_spoperation_tip_2602_1": {
+    "tip": "During the event, Peary will issue requests for specialty products. Complete these orders to earn rewards such as Season Points.\nNote: Specialty products do not count toward your request completion limit, and they do not affect your rating level."
+  },
+  "island_spoperation_tip_2602_2": {
+    "tip": "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
+  },
+  "island_spoperation_tip_2602_3": {
+    "tip": "During the event, you can produce corresponding specialty products at Newsprout Nursery, the Golden Koi Restaurant, the Polar Bear Teahouse, and the Base Factory."
   },
   "island_sub_product_cnt": {
     "tip": "By-Products x $1"
@@ -15482,6 +15615,164 @@
   },
   "island_total_price": {
     "tip": "Total Price:"
+  },
+  "island_trade_activity_desc_1": {
+    "tip": "During the event, you can sell pearls to the mysterious trader who appears on Get-Together Island."
+  },
+  "island_trade_activity_desc_2": {
+    "tip": "Pearls can be bought from Peary. The selling and purchase price of pearls changes every day."
+  },
+  "island_trade_activity_unlock": {
+    "tip": "Requirement: Reach Island Development Lv. 22"
+  },
+  "island_trade_bag_full_label": {
+    "tip": "Cannot complete purchase; Warehouse space is insufficient"
+  },
+  "island_trade_cnt_inadequate": {
+    "tip": "Insufficient Amount"
+  },
+  "island_trade_help_1": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help4",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_help_2": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help3",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_invite_label": {
+    "tip": "Invite Player"
+  },
+  "island_trade_invite_success": {
+    "tip": "Invitation successful"
+  },
+  "island_trade_limit_label": {
+    "tip": "$1 purchase chance(s) left this week"
+  },
+  "island_trade_msg_pop": {
+    "tip": "You've received an invitation from $1. Their island's pearl selling price is $3"
+  },
+  "island_trade_price_unrefresh": {
+    "tip": "Cannot complete purchase; this island's price hasn't yet updated"
+  },
+  "island_trade_purchase_failed_label": {
+    "tip": "You have reached your weekly purchase limit"
+  },
+  "island_trade_purchase_label": {
+    "tip": "Buy Pearls"
+  },
+  "island_trade_purchase_sub_label": {
+    "tip": "Buy"
+  },
+  "island_trade_rank_info_label": {
+    "tip": "Island Info"
+  },
+  "island_trade_rank_label": {
+    "tip": "Friend Rankings"
+  },
+  "island_trade_rank_level_label": {
+    "tip": "Island Lv."
+  },
+  "island_trade_rank_num_label": {
+    "tip": "Development Rank"
+  },
+  "island_trade_rank_price_label": {
+    "tip": "Current Price"
+  },
+  "island_trade_reset_label": {
+    "tip": "The price has been updated"
+  },
+  "island_trade_sell_failed_label": {
+    "tip": "Cannot complete sale; amount owned is insufficient"
+  },
+  "island_trade_sell_failed_label2": {
+    "tip": "Pearls are sold out on this island today."
+  },
+  "island_trade_sell_label": {
+    "tip": "Pearl Trade"
+  },
+  "island_trade_sell_sub_label": {
+    "tip": "Sell"
+  },
+  "island_trade_sell_tip_label": {
+    "tip": "$1 sell chance(s) left today on this island"
+  },
+  "island_trade_send_msg_label": {
+    "tip": "<material=underline c=#006400 ><color=#006400>Today's Price: $2</color></material>"
+  },
+  "island_trade_send_msg_match_label": {
+    "tip": "Mystery Trader"
+  },
+  "island_trade_share_success": {
+    "tip": "Invitation successful"
+  },
+  "island_trade_tip_label": {
+    "tip": "The selling price is updated at 03:00 every day"
+  },
+  "island_trade_tip_label2": {
+    "tip": "The purchase price is updated at 03:00 every day"
+  },
+  "island_trade_title": {
+    "tip": "Pearl Trade Spot"
+  },
+  "island_trade_title2": {
+    "tip": "Pearl Trade Spot"
+  },
+  "island_trade_trend_label": {
+    "tip": "Price Changes"
   },
   "island_unlock_ship_skill_color": {
     "tip": "Do you want to unlock outfit coloring?"

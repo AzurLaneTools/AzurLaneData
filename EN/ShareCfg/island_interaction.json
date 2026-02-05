@@ -54,7 +54,7 @@
     "icon": 5,
     "id": 401,
     "only_self": 1,
-    "param": "",
+    "param": "1",
     "show_condition": [],
     "text": "Interact with furniture.",
     "type": 4
@@ -86,7 +86,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10061",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "803": {
@@ -332,7 +332,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10121",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "1202": {
@@ -750,7 +750,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10071",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "1702": {
@@ -1007,7 +1007,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10021",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "1902": {
@@ -1467,7 +1467,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10031",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "2302": {
@@ -1694,7 +1694,7 @@
         10002280
       ]
     ],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "2502": {
@@ -1794,7 +1794,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10101",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "2702": {
@@ -2010,7 +2010,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10011",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "2802": {
@@ -2123,7 +2123,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10051",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "2902": {
@@ -2332,7 +2332,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10041",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "3003": {
@@ -2917,7 +2917,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10081",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "4502": {
@@ -3389,7 +3389,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10111",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "5301": {
@@ -3687,7 +3687,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10141",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "5701": {
@@ -3940,7 +3940,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10161",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "5801": {
@@ -4336,6 +4336,399 @@
     "text": "Peary? Are you... cooking?",
     "type": 1
   },
+  "5823": {
+    "groupId": 58,
+    "icon": 15,
+    "id": 5823,
+    "only_self": 1,
+    "param": [
+      "IslandTradePage",
+      2
+    ],
+    "show_condition": [
+      [
+        13,
+        50
+      ]
+    ],
+    "text": "Buy Pearls",
+    "type": 6
+  },
+  "5824": {
+    "groupId": 58,
+    "icon": 9,
+    "id": 5824,
+    "only_self": 0,
+    "param": "ISLANDSIDE01607",
+    "show_condition": [
+      [
+        2,
+        20017001
+      ]
+    ],
+    "text": "Peary...",
+    "type": 1
+  },
+  "5825": {
+    "groupId": 58,
+    "icon": 9,
+    "id": 5825,
+    "only_self": 0,
+    "param": "20017002",
+    "show_condition": [
+      [
+        3,
+        20017002
+      ]
+    ],
+    "text": "Peary...",
+    "type": 12
+  },
+  "5826": {
+    "groupId": 58,
+    "icon": 9,
+    "id": 5826,
+    "only_self": 0,
+    "param": "ISLANDSIDE01606",
+    "show_condition": [
+      [
+        2,
+        50000002
+      ]
+    ],
+    "text": "About the new season...",
+    "type": 1
+  },
+  "5827": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5827,
+    "only_self": 0,
+    "param": "50001008",
+    "show_condition": [
+      [
+        3,
+        50001008
+      ]
+    ],
+    "text": "Gather Spring Specialties (1/7)",
+    "type": 12
+  },
+  "5828": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5828,
+    "only_self": 0,
+    "param": "50001009",
+    "show_condition": [
+      [
+        3,
+        50001009
+      ],
+      [
+        4,
+        50001008
+      ]
+    ],
+    "text": "Gather Spring Specialties (2/7)",
+    "type": 12
+  },
+  "5829": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5829,
+    "only_self": 0,
+    "param": "50001010",
+    "show_condition": [
+      [
+        3,
+        50001010
+      ],
+      [
+        4,
+        50001009
+      ]
+    ],
+    "text": "Gather Spring Specialties (3/7)",
+    "type": 12
+  },
+  "5830": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5830,
+    "only_self": 0,
+    "param": "50001011",
+    "show_condition": [
+      [
+        3,
+        50001011
+      ],
+      [
+        4,
+        50001010
+      ]
+    ],
+    "text": "Gather Spring Specialties (4/7)",
+    "type": 12
+  },
+  "5831": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5831,
+    "only_self": 0,
+    "param": "50001012",
+    "show_condition": [
+      [
+        3,
+        50001012
+      ],
+      [
+        4,
+        50001011
+      ]
+    ],
+    "text": "Gather Spring Specialties (5/7)",
+    "type": 12
+  },
+  "5832": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5832,
+    "only_self": 0,
+    "param": "50001013",
+    "show_condition": [
+      [
+        3,
+        50001013
+      ],
+      [
+        4,
+        50001012
+      ]
+    ],
+    "text": "Gather Spring Specialties (6/7)",
+    "type": 12
+  },
+  "5833": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5833,
+    "only_self": 0,
+    "param": "50001014",
+    "show_condition": [
+      [
+        3,
+        50001014
+      ],
+      [
+        4,
+        50001013
+      ]
+    ],
+    "text": "Gather Spring Specialties (7/7)",
+    "type": 12
+  },
+  "5834": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5834,
+    "only_self": 0,
+    "param": "50002008",
+    "show_condition": [
+      [
+        3,
+        50002008
+      ]
+    ],
+    "text": "Make Spring Specialties (1/7)",
+    "type": 12
+  },
+  "5835": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5835,
+    "only_self": 0,
+    "param": "50002009",
+    "show_condition": [
+      [
+        3,
+        50002009
+      ],
+      [
+        4,
+        50002008
+      ]
+    ],
+    "text": "Make Spring Specialties (2/7)",
+    "type": 12
+  },
+  "5836": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5836,
+    "only_self": 0,
+    "param": "50002010",
+    "show_condition": [
+      [
+        3,
+        50002010
+      ],
+      [
+        4,
+        50002009
+      ]
+    ],
+    "text": "Make Spring Specialties (3/7)",
+    "type": 12
+  },
+  "5837": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5837,
+    "only_self": 0,
+    "param": "50002011",
+    "show_condition": [
+      [
+        3,
+        50002011
+      ],
+      [
+        4,
+        50002010
+      ]
+    ],
+    "text": "Make Spring Specialties (4/7)",
+    "type": 12
+  },
+  "5838": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5838,
+    "only_self": 0,
+    "param": "50002012",
+    "show_condition": [
+      [
+        3,
+        50002012
+      ],
+      [
+        4,
+        50002011
+      ]
+    ],
+    "text": "Make Spring Specialties (5/7)",
+    "type": 12
+  },
+  "5839": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5839,
+    "only_self": 0,
+    "param": "50002013",
+    "show_condition": [
+      [
+        3,
+        50002013
+      ],
+      [
+        4,
+        50002012
+      ]
+    ],
+    "text": "Make Spring Specialties (6/7)",
+    "type": 12
+  },
+  "5840": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5840,
+    "only_self": 0,
+    "param": "50002014",
+    "show_condition": [
+      [
+        3,
+        50002014
+      ],
+      [
+        4,
+        50002013
+      ]
+    ],
+    "text": "Make Spring Specialties (7/7)",
+    "type": 12
+  },
+  "5841": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5841,
+    "only_self": 0,
+    "param": "50003005",
+    "show_condition": [
+      [
+        3,
+        50003005
+      ]
+    ],
+    "text": "Spring Specialty Order (1/4)",
+    "type": 12
+  },
+  "5842": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5842,
+    "only_self": 0,
+    "param": "50003006",
+    "show_condition": [
+      [
+        3,
+        50003006
+      ],
+      [
+        4,
+        50003005
+      ]
+    ],
+    "text": "Spring Specialty Order (2/4)",
+    "type": 12
+  },
+  "5843": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5843,
+    "only_self": 0,
+    "param": "50003007",
+    "show_condition": [
+      [
+        3,
+        50003007
+      ],
+      [
+        4,
+        50003006
+      ]
+    ],
+    "text": "Spring Specialty Order (3/4)",
+    "type": 12
+  },
+  "5844": {
+    "groupId": 58,
+    "icon": 12,
+    "id": 5844,
+    "only_self": 0,
+    "param": "50003008",
+    "show_condition": [
+      [
+        3,
+        50003008
+      ],
+      [
+        4,
+        50003007
+      ]
+    ],
+    "text": "Spring Specialty Order (4/4)",
+    "type": 12
+  },
   "5901": {
     "groupId": 59,
     "icon": 7,
@@ -4373,7 +4766,7 @@
     "only_self": 0,
     "param": "ISLANDTALK10091",
     "show_condition": [],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "6002": {
@@ -5057,7 +5450,7 @@
         10002280
       ]
     ],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "7802": {
@@ -5117,7 +5510,7 @@
         10002280
       ]
     ],
-    "text": "Talk",
+    "text": "Interact",
     "type": 1
   },
   "7902": {
@@ -5164,5 +5557,183 @@
     ],
     "text": "Mary, I got the thing.",
     "type": 12
+  },
+  "8001": {
+    "groupId": 80,
+    "icon": 1,
+    "id": 8001,
+    "only_self": 0,
+    "param": "ISLANDTALK10181",
+    "show_condition": [],
+    "text": "Interact",
+    "type": 1
+  },
+  "8002": {
+    "groupId": 80,
+    "icon": 15,
+    "id": 8002,
+    "only_self": 0,
+    "param": [
+      "IslandRoleDelegationPage",
+      201
+    ],
+    "show_condition": [
+      [
+        4,
+        20016003
+      ]
+    ],
+    "text": "Manage Fish Hatchery",
+    "type": 6
+  },
+  "8003": {
+    "groupId": 80,
+    "icon": 15,
+    "id": 8003,
+    "only_self": 0,
+    "param": [
+      "IslandExchangePage",
+      [
+        1
+      ]
+    ],
+    "show_condition": [
+      [
+        4,
+        20016003
+      ]
+    ],
+    "text": "Process Fish Meat",
+    "type": 6
+  },
+  "8004": {
+    "groupId": 80,
+    "icon": 15,
+    "id": 8004,
+    "only_self": 0,
+    "param": [
+      "IslandShopPage",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        10031
+      ]
+    ],
+    "show_condition": [
+      [
+        4,
+        20016003
+      ]
+    ],
+    "text": "Fishing Gear Shop",
+    "type": 6
+  },
+  "8005": {
+    "groupId": 80,
+    "icon": 9,
+    "id": 8005,
+    "only_self": 0,
+    "param": "ISLANDSIDE01604",
+    "show_condition": [
+      [
+        2,
+        20016001
+      ]
+    ],
+    "text": "Britain?",
+    "type": 1
+  },
+  "8006": {
+    "groupId": 80,
+    "icon": 9,
+    "id": 8006,
+    "only_self": 0,
+    "param": "20016002",
+    "show_condition": [
+      [
+        3,
+        20016002
+      ]
+    ],
+    "text": "Britain!",
+    "type": 12
+  },
+  "8101": {
+    "groupId": 81,
+    "icon": 9,
+    "id": 8101,
+    "only_self": 0,
+    "param": "20016003",
+    "show_condition": [
+      [
+        3,
+        20016003
+      ]
+    ],
+    "text": "Unlock Fish Hatchery",
+    "type": 12
+  },
+  "8201": {
+    "groupId": 82,
+    "icon": 1,
+    "id": 8201,
+    "only_self": 0,
+    "param": "ISLANDTALK10151",
+    "show_condition": [],
+    "text": "Interact",
+    "type": 1
+  },
+  "8202": {
+    "groupId": 82,
+    "icon": 15,
+    "id": 8202,
+    "only_self": 1,
+    "param": [
+      "IslandTradePage",
+      1
+    ],
+    "show_condition": [
+      [
+        13,
+        50
+      ]
+    ],
+    "text": "Sell Pearls",
+    "type": 6
+  },
+  "8301": {
+    "groupId": 83,
+    "icon": 5,
+    "id": 8301,
+    "only_self": 1,
+    "param": "1",
+    "show_condition": [],
+    "text": "Interact",
+    "type": 4
+  },
+  "8401": {
+    "groupId": 84,
+    "icon": 5,
+    "id": 8401,
+    "only_self": 1,
+    "param": "2",
+    "show_condition": [],
+    "text": "Interact",
+    "type": 4
+  },
+  "8501": {
+    "groupId": 85,
+    "icon": 5,
+    "id": 8501,
+    "only_self": 1,
+    "param": "3",
+    "show_condition": [],
+    "text": "Interact",
+    "type": 4
   }
 }

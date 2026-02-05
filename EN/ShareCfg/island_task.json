@@ -7509,7 +7509,7 @@
     "id": 20015002,
     "is_tech_task": 0,
     "link_task": [],
-    "map_complete_tips": 1003,
+    "map_complete_tips": 1002,
     "map_trigger_tips": 0,
     "name": "Great Island Development",
     "navigation": 0,
@@ -7541,6 +7541,277 @@
       [
         2,
         20015001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 0,
+    "id": 20016001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Britain's Fish Hatchery",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1501,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "The Fish Hatchery is Finished!",
+    "target_id": [
+      200160011
+    ],
+    "task_desc": "Britain's fish hatchery is finished. Go see her.",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10001170
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016002": {
+    "com_page": "",
+    "com_perform": [
+      1,
+      "ISLANDSIDE01605"
+    ],
+    "complete_data": 10020071,
+    "complete_tips": "Go see Britain.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20016002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Fishing Time!",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "The Fish Hatchery is Finished!",
+    "target_id": [
+      200160012
+    ],
+    "task_desc": "Catch some big fish for Britain!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016003": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020068,
+    "complete_tips": "Unlock Fish Hatchery",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20016003,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Fishing Time!",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "The Fish Hatchery is Finished!",
+    "target_id": [
+      200160013
+    ],
+    "task_desc": "Catch some big fish for Britain!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016002
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016004": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20016004,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Britain's Fish Hatchery",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        5000
+      ]
+    ],
+    "series": "",
+    "series_name": "The Fish Hatchery is Finished!",
+    "target_id": [
+      200160041,
+      200160042,
+      200160043
+    ],
+    "task_desc": "Britain's fish hatchery is finished. Go see her.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016003
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20017001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Research Into the Pearl Trade",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "The Pearl Trade",
+    "target_id": [
+      200170011
+    ],
+    "task_desc": "Peary is doing research into the pearl trade. Go speak to her.",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10003100
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017002": {
+    "com_page": "",
+    "com_perform": [
+      1,
+      "ISLANDSIDE01608"
+    ],
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20017002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Research Into the Pearl Trade",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "Time to Invest!",
+    "target_id": [
+      200170021
+    ],
+    "task_desc": "Peary is still trading pearls, apparently. Go see what's up.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20017001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017003": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20017003,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Research Into the Pearl Trade",
+    "navigation": 1003,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        10000
+      ]
+    ],
+    "series": "",
+    "series_name": "Mystery Trader",
+    "target_id": [
+      200170031
+    ],
+    "task_desc": "A certain someone has been purchasing pearls. Go see what's up.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20017002
       ]
     ],
     "unlock_time": "always"
@@ -8285,10 +8556,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8377,10 +8646,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8469,10 +8736,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8561,10 +8826,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8653,10 +8916,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8745,10 +9006,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -10048,6 +10307,72 @@
       ]
     ]
   },
+  "50000002": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 50000002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "New Season, New Start!",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        2000
+      ]
+    ],
+    "series": "",
+    "series_name": "Island Season",
+    "target_id": [
+      500000021
+    ],
+    "task_desc": "Peary is working on a development plan for the new season. Go ask her what she's got!",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        20015002
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
   "50001001": {
     "com_page": "",
     "com_perform": "",
@@ -10563,6 +10888,530 @@
           2026,
           2,
           5
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001008,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (1/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        5
+      ],
+      [
+        41,
+        100101,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001008
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001009": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001009,
+    "is_tech_task": 0,
+    "link_task": [
+      50001008
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (2/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100101,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001009
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001010": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001010,
+    "is_tech_task": 0,
+    "link_task": [
+      50001009
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (3/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100102,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001010
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001011": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001011,
+    "is_tech_task": 0,
+    "link_task": [
+      50001010
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (4/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001011
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001012": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001012,
+    "is_tech_task": 0,
+    "link_task": [
+      50001011
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (5/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100011,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001012
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001013": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001013,
+    "is_tech_task": 0,
+    "link_task": [
+      50001012
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (6/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100021,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001013
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001014": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001014,
+    "is_tech_task": 0,
+    "link_task": [
+      50001013
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Gather Spring Specialties (7/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        3
+      ],
+      [
+        41,
+        100031,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Gatherable",
+    "target_id": [
+      50001014
+    ],
+    "task_desc": "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
         ],
         [
           12,
@@ -11096,6 +11945,530 @@
       ]
     ]
   },
+  "50002008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002008,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (1/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        5
+      ],
+      [
+        41,
+        100101,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002008
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002009": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002009,
+    "is_tech_task": 0,
+    "link_task": [
+      50002008
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (2/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100101,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002009
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002010": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002010,
+    "is_tech_task": 0,
+    "link_task": [
+      50002009
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (3/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100102,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002010
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002011": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002011,
+    "is_tech_task": 0,
+    "link_task": [
+      50002010
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (4/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002011
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002012": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002012,
+    "is_tech_task": 0,
+    "link_task": [
+      50002011
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (5/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100041,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002012
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002013": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002013,
+    "is_tech_task": 0,
+    "link_task": [
+      50002012
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (6/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100051,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002013
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002014": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002014,
+    "is_tech_task": 0,
+    "link_task": [
+      50002013
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Make Spring Specialties (7/7)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        3
+      ],
+      [
+        41,
+        100061,
+        2
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Recipe",
+    "target_id": [
+      50002014
+    ],
+    "task_desc": "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
   "50003001": {
     "com_page": "",
     "com_perform": "",
@@ -11377,6 +12750,296 @@
           2026,
           2,
           5
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003005": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003005,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Spring Specialty Order (1/4)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Request",
+    "target_id": [
+      50003005
+    ],
+    "task_desc": "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003006": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003006,
+    "is_tech_task": 0,
+    "link_task": [
+      50003005
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Spring Specialty Order (2/4)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Request",
+    "target_id": [
+      50003006
+    ],
+    "task_desc": "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003007": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003007,
+    "is_tech_task": 0,
+    "link_task": [
+      50003006
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Spring Specialty Order (3/4)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100201,
+        3
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Request",
+    "target_id": [
+      50003007
+    ],
+    "task_desc": "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "Go see Peary.",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003008,
+    "is_tech_task": 0,
+    "link_task": [
+      50003007
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "Spring Specialty Order (4/4)",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        45,
+        101,
+        1
+      ]
+    ],
+    "series": "[Spring Specialties]",
+    "series_name": "Event Request",
+    "target_id": [
+      50003008
+    ],
+    "task_desc": "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
         ],
         [
           12,
@@ -12088,7 +13751,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "Fast Food",
+    "name": "Quick and Easy Meal",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -13403,7 +15066,7 @@
     "link_task": [],
     "map_complete_tips": 0,
     "map_trigger_tips": 0,
-    "name": "Fast Food",
+    "name": "Quick and Easy Meal",
     "navigation": 0,
     "rec_perform": "",
     "reward_exp": 0,
@@ -14007,6 +15670,1321 @@
     "series_name": "",
     "target_id": [
       80011030
+    ],
+    "task_desc": "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001201": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001201,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Garden Logistics",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012001
+    ],
+    "task_desc": "Secure a stockpile of reliable staple food to provide a steady supply of calories to feed the island's development. \nDeliver 500 Potatoes.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001202": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001202,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "A Cup to Wake You Up",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012002
+    ],
+    "task_desc": "Supply the development team with aromatic coffee to improve their concentration and productivity. \nDeliver 500 Coffee Beans.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001203": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001203,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Vegetable Supplies",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012003
+    ],
+    "task_desc": "Supply a large quantity of vegetables that store well, ensuring a stable supply of vitamins. \nDeliver 500 Napa Cabbages.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001204": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001204,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Sweet Strawberries",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012004
+    ],
+    "task_desc": "Supply a bountiful amount of sweet and juicy strawberries, adding color and flavor to the island's dinner table. \nDeliver 500 Strawberries.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001205": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001205,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Textile Materials",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012005
+    ],
+    "task_desc": "Supply high-quality cotton, a crucial resource for ensuring logistical support and comfortable daily living. \nDeliver 500 Cotton.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001206": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001206,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Fruit Supplies",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012006
+    ],
+    "task_desc": "Supply crispy apples, satisfying the islanders' daily intake of fruit. \nDeliver 250 Apples.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001207": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001207,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Zingy and Refreshing",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012007
+    ],
+    "task_desc": "Supply fresh and sour lemons. A bit of zing can give you a boost in productivity. \nDeliver 250 Lemons.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001208": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001208,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Quick and Easy Meal",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012008
+    ],
+    "task_desc": "Supply a convenient, classic dish that quickly restores energy, supporting high-intensity work. \nDeliver 100 Fish & Chips.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001209": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001209,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Simply Seasoned",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012009
+    ],
+    "task_desc": "Supply lightly steamed fish, providing the islanders with balanced meals with quality protein. \nDeliver 100 Steamed Fish with Onions.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001210": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001210,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Sugary Motivation Boost",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012010
+    ],
+    "task_desc": "Supply sweet strawberry drinks that bring you instant happiness and energy. \nDeliver 100 Strawberry Lemon Drinks.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001211": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001211,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Fragrant and Energizing",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012011
+    ],
+    "task_desc": "Supply specialty coffee with a citrusy aroma, promoting moments of inspiration at work. \nDeliver 100 Citrus Coffees.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001212": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001212,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Bounty of the Sea",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012012
+    ],
+    "task_desc": "Supply lemon shrimp with an acidity that stirs the appetite, relieves fatigue, and stimulates your taste buds. \nDeliver 50 Lemon Shrimp.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001213": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001213,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Supreme Seafood",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012013
+    ],
+    "task_desc": "Supply premium seafood to reward the development team and boost their morale. \nDeliver 25 Paellas.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001214": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001214,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Spicy Extravagance",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012014
+    ],
+    "task_desc": "Supply crayfish stir-fries with a stimulating taste, lighting the spark of motivation during nighttime labor. \nDeliver 25 Crayfish Stir-Fries.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001215": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001215,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Artistic Flair",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012015
+    ],
+    "task_desc": "Supply ornamental artworks that add beauty to indoor environments and uplift the island's cultural vibe. \nDeliver 25 Ornamental Paintings.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001216": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001216,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "A Treat to Break Your Vows For",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012016
+    ],
+    "task_desc": "Buddha's Temptation is a top-class dish that's indispensable when you have a guest over or are throwing a big holiday. \nDeliver 10 Buddha's Temptations.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001217": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001217,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Your First Receipt",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012017
+    ],
+    "task_desc": "Accept your first daily supplies.\nAccept 1 Daily Supply.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001218": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001218,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Safely Stored",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012018
+    ],
+    "task_desc": "Fill up that warehouse with three sets of daily supplies.\nAccept 5 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001219": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001219,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Regular Resupply",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012019
+    ],
+    "task_desc": "Build a habit of grabbing your daily goodies.\nAccept 10 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001220": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001220,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Efficient Delivery",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012020
+    ],
+    "task_desc": "Free stuff, easy and efficient!\nAccept 20 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001221": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001221,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Well Stocked",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012021
+    ],
+    "task_desc": "Abundant reserves for a confident settlement!\nAccept 30 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001222": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001222,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Sustainable Reserves",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        3
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012022
+    ],
+    "task_desc": "Steady supplies, a vital resource for this island.\nAccept 45 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001223": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001223,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Foundation for Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012023
+    ],
+    "task_desc": "Regular accumulation of goods has become the basis of your development.\nAccept 60 Daily Supplies.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001224": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001224,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Your First Request",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012024
+    ],
+    "task_desc": "You have a basic understanding of requests.\nComplete 10 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001225": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001225,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "A Reliable Helper",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012025
+    ],
+    "task_desc": "You're a consistent fulfiller of requests.\nComplete 30 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001226": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001226,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Firm Support",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012026
+    ],
+    "task_desc": "This development couldn't function without you!\nComplete 50 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001227": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001227,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Request Master",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012027
+    ],
+    "task_desc": "You understand people's needs and respond efficiently.\nComplete 100 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001228": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001228,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Pillar of Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012028
+    ],
+    "task_desc": "Your continuous support is the very engine of development.\nComplete 150 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001229": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001229,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Core of Development",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012029
+    ],
+    "task_desc": "Nobody is more reliable and beloved than you.\nComplete 200 Island Requests.",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001230": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001230,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "Foundation for Prosperity",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012030
     ],
     "task_desc": "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
     "trigger_data": 0,
