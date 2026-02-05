@@ -1,5 +1,10 @@
 {
   "1000": {
+    "chara_sigle_action_reply": [
+      101,
+      102,
+      104
+    ],
     "desc": "キャラクターアクションあいさつ。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1000,
@@ -8,10 +13,14 @@
     "resource": "hi",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1001": {
+    "chara_sigle_action_reply": [
+      101
+    ],
     "desc": "キャラクターアクション別れ。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1001,
@@ -20,10 +29,15 @@
     "resource": "bye",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1002": {
+    "chara_sigle_action_reply": [
+      103,
+      105
+    ],
     "desc": "キャラクターアクション頷く。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1002,
@@ -32,10 +46,15 @@
     "resource": "nod",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1003": {
+    "chara_sigle_action_reply": [
+      202,
+      207
+    ],
     "desc": "キャラクターアクション頭を振る。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1003,
@@ -44,10 +63,15 @@
     "resource": "shakehead",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1004": {
+    "chara_sigle_action_reply": [
+      103,
+      105
+    ],
     "desc": "キャラクターアクション拍手。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1004,
@@ -56,22 +80,36 @@
     "resource": "clap",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1005": {
+    "chara_sigle_action_reply": [
+      204,
+      207
+    ],
     "desc": "キャラクターアクション太陽ポーズ。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1005,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
     "name": "太陽ポーズ",
     "resource": "handsup",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1006": {
+    "chara_sigle_action_reply": [
+      106
+    ],
     "desc": "キャラクターアクション両手を腰に。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1006,
@@ -80,10 +118,15 @@
     "resource": "akimbo",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1007": {
+    "chara_sigle_action_reply": [
+      105,
+      204
+    ],
     "desc": "キャラクターアクションお辞儀。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1007,
@@ -97,10 +140,15 @@
     "resource": "bow",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1008": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "キャラクターアクション元気ジャンプ。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1008,
@@ -114,10 +162,15 @@
     "resource": "vjump",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1009": {
+    "chara_sigle_action_reply": [
+      201,
+      207
+    ],
     "desc": "キャラクターアクション地団駄踏む。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1009,
@@ -126,10 +179,15 @@
     "resource": "stomp",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1011": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "キャラクターアクション筋肉自慢。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1011,
@@ -143,22 +201,37 @@
     "resource": "muscle",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1012": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "キャラクターアクション踊る。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1012,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
     "name": "踊る",
     "resource": "dance",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1013": {
+    "chara_sigle_action_reply": [
+      204,
+      207
+    ],
     "desc": "キャラクターアクションヒーロー登場。自分の感情をアピールしましょう！",
     "feedback_type": 1,
     "id": 1013,
@@ -172,10 +245,121 @@
     "resource": "herocoming",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1014": {
+    "chara_sigle_action_reply": [
+      207
+    ],
+    "desc": "インタラクトアクション「伸び」",
+    "feedback_type": 1,
+    "id": 1014,
+    "jump_page": [
+      [
+        "開発ショップ",
+        []
+      ]
+    ],
+    "name": "伸び",
+    "resource": "stretch",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1015": {
+    "chara_sigle_action_reply": [
+      201,
+      207
+    ],
+    "desc": "インタラクトアクション「怯える」",
+    "feedback_type": 1,
+    "id": 1015,
+    "jump_page": [
+      [
+        "開発ショップ",
+        []
+      ]
+    ],
+    "name": "怯える",
+    "resource": "fearshake",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1016": {
+    "chara_sigle_action_reply": [
+      103,
+      107
+    ],
+    "desc": "インタラクトアクション「抱拳」",
+    "feedback_type": 1,
+    "id": 1016,
+    "jump_page": [
+      [
+        "開発ショップ",
+        []
+      ]
+    ],
+    "name": "抱拳",
+    "resource": "holdfist",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1017": {
+    "chara_sigle_action_reply": [
+      106,
+      108
+    ],
+    "desc": "インタラクトアクション「ドヤる」",
+    "feedback_type": 1,
+    "id": 1017,
+    "jump_page": [
+      [
+        "開発ショップ",
+        []
+      ]
+    ],
+    "name": "ドヤる",
+    "resource": "vouch",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1018": {
+    "chara_sigle_action_reply": [
+      106,
+      108
+    ],
+    "desc": "インタラクトアクション「坐禅」",
+    "feedback_type": 1,
+    "id": 1018,
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
+    "name": "坐禅",
+    "resource": "float",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "2000": {
+    "chara_sigle_action_reply": "",
     "desc": "キャラクターアクションハイタッチ。自分の感情をアピールしましょう！",
     "feedback_type": 0,
     "id": 2000,
@@ -188,10 +372,12 @@
       1.28364
     ],
     "responder_feedback": "givemefive_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
   "2001": {
+    "chara_sigle_action_reply": "",
     "desc": "キャラクターアクション握手。自分の感情をアピールしましょう！",
     "feedback_type": 0,
     "id": 2001,
@@ -209,14 +395,21 @@
       1.35235
     ],
     "responder_feedback": "handshake_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
   "2002": {
+    "chara_sigle_action_reply": "",
     "desc": "キャラクターアクションハグ。自分の感情をアピールしましょう！",
     "feedback_type": 0,
     "id": 2002,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
     "name": "ハグ",
     "resource": "hug",
     "respond_point": [
@@ -225,6 +418,53 @@
       0.62654
     ],
     "responder_feedback": "hug_end",
+    "sigle_action_reply_type": 0,
+    "tech_id": 0,
+    "type": 2
+  },
+  "2003": {
+    "chara_sigle_action_reply": "",
+    "desc": "インタラクトアクション「祝う」",
+    "feedback_type": 0,
+    "id": 2003,
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
+    "name": "祝う",
+    "resource": "claphands",
+    "respond_point": [
+      0,
+      0,
+      1.5276
+    ],
+    "responder_feedback": "claphands_end",
+    "sigle_action_reply_type": 0,
+    "tech_id": 0,
+    "type": 2
+  },
+  "2004": {
+    "chara_sigle_action_reply": "",
+    "desc": "インタラクトアクション「手ハート」",
+    "feedback_type": 0,
+    "id": 2004,
+    "jump_page": [
+      [
+        "星彩賞",
+        []
+      ]
+    ],
+    "name": "手ハート",
+    "resource": "handheart",
+    "respond_point": [
+      0,
+      0,
+      1.35224
+    ],
+    "responder_feedback": "handheart_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
@@ -242,9 +482,16 @@
     1011,
     1012,
     1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
     2000,
     2001,
-    2002
+    2002,
+    2003,
+    2004
   ],
   "get_id_list_by_type": {
     "1": [
@@ -260,12 +507,19 @@
       1009,
       1011,
       1012,
-      1013
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018
     ],
     "2": [
       2000,
       2001,
-      2002
+      2002,
+      2003,
+      2004
     ]
   }
 }

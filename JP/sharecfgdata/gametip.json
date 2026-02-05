@@ -975,7 +975,7 @@
     "tip": "秘書艦枠に配置"
   },
   "adventure_award_end_tip": {
-    "tip": "※4.17（水） 24時まで受取可能"
+    "tip": "※2.18（水） 23:59まで受取可能"
   },
   "adventure_award_title": {
     "tip": "冒険レベル報酬"
@@ -12819,6 +12819,12 @@
   "island_add_temp_bag": {
     "tip": "下記アイテムは一時倉庫に移動されます"
   },
+  "island_addition_influence": {
+    "tip": "集客力"
+  },
+  "island_addition_sale": {
+    "tip": "価格"
+  },
   "island_additional_production_tip1": {
     "tip": "追加生産"
   },
@@ -12954,6 +12960,9 @@
   "island_bag_max_level": {
     "tip": "レベル最大です"
   },
+  "island_bag_max_tip": {
+    "tip": "離島倉庫がいっぱいです"
+  },
   "island_bag_title": {
     "tip": "倉庫"
   },
@@ -12971,6 +12980,9 @@
   },
   "island_bag_uprade_success": {
     "tip": "レベルアップしました"
+  },
+  "island_bar_quick_game": {
+    "tip": "クイックゲーム"
   },
   "island_batch_covert": {
     "tip": "一括変換"
@@ -13443,8 +13455,35 @@
   "island_enter_island_ban": {
     "tip": "訪問禁止"
   },
+  "island_exchange_btn_text": {
+    "tip": "加工"
+  },
+  "island_exchange_own_count": {
+    "tip": "所持数"
+  },
+  "island_exchange_sure_tip": {
+    "tip": "加工を行いますか？"
+  },
+  "island_exchange_title": {
+    "tip": "加工"
+  },
+  "island_exchange_title_en": {
+    "tip": "Crafting"
+  },
   "island_first_season": {
     "tip": "シーズンI"
+  },
+  "island_fishing_exit": {
+    "tip": "釣りをやめますか？"
+  },
+  "island_fishing_lure_empty": {
+    "tip": "ルアーを選択してください"
+  },
+  "island_fishing_tip_escape": {
+    "tip": "魚に逃げられた…"
+  },
+  "island_fishing_tip_hooked": {
+    "tip": "魚が食いついた！"
   },
   "island_follow_btn_State_cancel": {
     "tip": "同伴解除"
@@ -13460,6 +13499,9 @@
   },
   "island_follower_cnt_max": {
     "tip": "これ以上は同伴させられません"
+  },
+  "island_follower_exiting_tip": {
+    "tip": "キャラが離れています…"
   },
   "island_follower_state_no_normal": {
     "tip": "多忙中"
@@ -13542,8 +13584,17 @@
   "island_guide_en": {
     "tip": "HANDBOOK"
   },
+  "island_guide_fish_max_weight": {
+    "tip": "最大重量"
+  },
+  "island_guide_fish_min_weight": {
+    "tip": "最小重量"
+  },
   "island_guide_help": {
     "tip": "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\n\n1.キャラを<color=#39bfff>入手（離島権限認証を完了）</color>すると、キャラ1名につき<color=#39bfff>20</color>の図鑑Ptを入手できます\n2.キャラを<color=#39bfff>突破（職責の星を使用する）</color>すると、突破する毎に<color=#39bfff>30</color>の図鑑Ptを入手でき、更に★5に突破した場合追加で<color=#39bfff>10</color>の図鑑Ptを入手できます\n3.キャラを育成し<color=#39bfff>離島でのレベルが50到達</color>させると、図鑑Ptを<color=#39bfff>50</color>入手可能"
+  },
+  "island_guide_help_fish": {
+    "tip": "釣りのコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\n\n1.魚の図鑑項目を<color=#39bfff>開放</color>すると、1項目につき図鑑Ptを<color=#39bfff>10</color>入手できます\n2.魚の種類別の<color=#39bfff>重量実績</color>を集める：重量条件を満たした重量の魚を釣り上げると、その魚の重量実績を達成することができ、図鑑Ptを入手できます。重量条件は魚の種類によって異なります"
   },
   "island_guide_help_item": {
     "tip": "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\n\n1.資源<color=#39bfff>解放</color>：図鑑で資源を解放すると、図鑑Ptを<color=#39bfff>20</color>入手可能\n2.資源<color=#39bfff>入手</color>：報酬の入手条件に定められた数の資源を入手すると、図鑑Ptを入手可能。それぞれの資源の報酬段階と必要な入手数は図鑑で確認できます"
@@ -13796,6 +13847,43 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_farm",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_fish": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_fish3",
           "path": ""
         }
       },
@@ -14279,6 +14367,9 @@
   "island_log_gift": {
     "tip": "が補給の受取を連絡しました"
   },
+  "island_log_trade": {
+    "tip": "が真珠取引に招待しています"
+  },
   "island_log_visit": {
     "tip": "が離島に来訪しました"
   },
@@ -14579,6 +14670,18 @@
   "island_post_acceptable": {
     "tip": "採集"
   },
+  "island_post_event_addition_label": {
+    "tip": "下記メニューがバフを獲得する"
+  },
+  "island_post_event_close_label": {
+    "tip": "戻る"
+  },
+  "island_post_event_label": {
+    "tip": "経営イベント"
+  },
+  "island_post_event_open_label": {
+    "tip": "確認"
+  },
   "island_post_manage": {
     "tip": "一括管理"
   },
@@ -14754,7 +14857,7 @@
     "tip": "1.新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます\n 2.開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>離島イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます\n 3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます\n 4.シーズンが終了すると、<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。\n 5.終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。"
   },
   "island_season_label": {
-    "tip": "开发季$1"
+    "tip": "シーズン$1"
   },
   "island_season_pt": {
     "tip": "累計PT"
@@ -14772,37 +14875,37 @@
     "tip": "振り返り"
   },
   "island_season_review_achi": {
-    "tip": "成就"
+    "tip": "実績"
   },
   "island_season_review_achinum": {
-    "tip": "成就数量"
+    "tip": "達成実績"
   },
   "island_season_review_blank": {
-    "tip": "未参与该开发季"
+    "tip": "シーズン未参加"
   },
   "island_season_review_charnum": {
     "tip": "仲間人数"
   },
   "island_season_review_fishnum": {
-    "tip": "釣り成果"
+    "tip": "達成実績"
   },
   "island_season_review_formulanum": {
-    "tip": "メニュー製作数"
+    "tip": "資源製作数"
   },
   "island_season_review_gamenum": {
-    "tip": "イベント参加"
+    "tip": "図鑑Pt"
   },
   "island_season_review_guidenum": {
-    "tip": "总收集点"
+    "tip": "図鑑Pt"
   },
   "island_season_review_lv": {
-    "tip": "岛屿开发等级"
+    "tip": "離島開発LV"
   },
   "island_season_review_miss": {
     "tip": "シーズンに参加していません"
   },
   "island_season_review_ordernum": {
-    "tip": "輸送資源数"
+    "tip": "依頼完了数"
   },
   "island_season_review_produce": {
     "tip": "離島生産"
@@ -14817,10 +14920,10 @@
     "tip": "開発順位"
   },
   "island_season_review_relax": {
-    "tip": "ミニゲーム"
+    "tip": "実績"
   },
   "island_season_review_titleone": {
-    "tip": "开发季"
+    "tip": "シーズン"
   },
   "island_season_shop": {
     "tip": "ショップ"
@@ -15050,6 +15153,15 @@
   "island_spoperation_btn_2509_3": {
     "tip": "ｲﾍﾞﾝﾄ管理者"
   },
+  "island_spoperation_btn_2602_1": {
+    "tip": "特産品採集"
+  },
+  "island_spoperation_btn_2602_2": {
+    "tip": "特産品制作"
+  },
+  "island_spoperation_btn_2602_3": {
+    "tip": "イベント管理者"
+  },
   "island_spoperation_item_2509_1": {
     "tip": "アキギク"
   },
@@ -15062,6 +15174,18 @@
   "island_spoperation_item_2509_4": {
     "tip": "松茸"
   },
+  "island_spoperation_item_2602_1": {
+    "tip": "春タケノコ"
+  },
+  "island_spoperation_item_2602_2": {
+    "tip": "ナズナ"
+  },
+  "island_spoperation_item_2602_3": {
+    "tip": "オウバイ"
+  },
+  "island_spoperation_item_2602_4": {
+    "tip": "ヒヤシンス"
+  },
   "island_spoperation_level_2509_1": {
     "tip": "開放条件：離島開発Lv.1"
   },
@@ -15073,6 +15197,15 @@
   },
   "island_spoperation_tip_2509_3": {
     "tip": "イベント期間内、【薫る果樹園】【有魚飯店】【白クマ茶房】【基地工場】で対応の特産品を生産可能"
+  },
+  "island_spoperation_tip_2602_1": {
+    "tip": "イベント期間中、ピアリの特産品依頼が出現します。特産品依頼をこなすとシーズンPTなどの報酬を入手可能。\n*特産品依頼は依頼完成上限に影響せず、評価レベルを上昇させられません"
+  },
+  "island_spoperation_tip_2602_2": {
+    "tip": "イベント期間中、特定の区域内に毎日イベント採集アイテムが出現します。早く探しに行きましょう！"
+  },
+  "island_spoperation_tip_2602_3": {
+    "tip": "イベント期間内、【青々苗場】【有魚飯店】【白クマ茶房】【基地工場】で対応の特産品を生産可能"
   },
   "island_sub_product_cnt": {
     "tip": "副産物 × $1"
@@ -15268,6 +15401,164 @@
   },
   "island_total_price": {
     "tip": "合計金額："
+  },
+  "island_trade_activity_desc_1": {
+    "tip": "　イベント期間中、集会島に現れる謎の商人に真珠を売却可能"
+  },
+  "island_trade_activity_desc_2": {
+    "tip": "　真珠はシーズン管理人ピアリのところで購入でき、また真珠の購入・売却価格は毎日変動します"
+  },
+  "island_trade_activity_unlock": {
+    "tip": "解放条件：離島開発Lv22"
+  },
+  "island_trade_bag_full_label": {
+    "tip": "倉庫容量が不足のため購入できません"
+  },
+  "island_trade_cnt_inadequate": {
+    "tip": "数量が不足しています"
+  },
+  "island_trade_help_1": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help4",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_help_2": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_trade_help3",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_trade_invite_label": {
+    "tip": "訪問招待"
+  },
+  "island_trade_invite_success": {
+    "tip": "招待に成功しました"
+  },
+  "island_trade_limit_label": {
+    "tip": "今週の残り購入可能数$1"
+  },
+  "island_trade_msg_pop": {
+    "tip": "$1からの訪問招待が届きました。当該離島の真珠売却価格は$3"
+  },
+  "island_trade_price_unrefresh": {
+    "tip": "この離島の価格がまだ更新されていないため、購入できません"
+  },
+  "island_trade_purchase_failed_label": {
+    "tip": "今週購入数が上限に達しています"
+  },
+  "island_trade_purchase_label": {
+    "tip": "真珠購入"
+  },
+  "island_trade_purchase_sub_label": {
+    "tip": "購入"
+  },
+  "island_trade_rank_info_label": {
+    "tip": "離島情報"
+  },
+  "island_trade_rank_label": {
+    "tip": "友達順位"
+  },
+  "island_trade_rank_level_label": {
+    "tip": "離島Lv"
+  },
+  "island_trade_rank_num_label": {
+    "tip": "開発順位"
+  },
+  "island_trade_rank_price_label": {
+    "tip": "現在価格"
+  },
+  "island_trade_reset_label": {
+    "tip": "価格が更新されました"
+  },
+  "island_trade_sell_failed_label": {
+    "tip": "所持数が足りないため売却できません"
+  },
+  "island_trade_sell_failed_label2": {
+    "tip": "本日はこの離島でこれ以上真珠を売ることができません"
+  },
+  "island_trade_sell_label": {
+    "tip": "真珠取引"
+  },
+  "island_trade_sell_sub_label": {
+    "tip": "売却"
+  },
+  "island_trade_sell_tip_label": {
+    "tip": "この離島での本日残り売却可能数$1"
+  },
+  "island_trade_send_msg_label": {
+    "tip": "<material=underline c=#006400 ><color=#006400>本日価格$2</color></material>"
+  },
+  "island_trade_send_msg_match_label": {
+    "tip": "謎の商人"
+  },
+  "island_trade_share_success": {
+    "tip": "招待に成功しました"
+  },
+  "island_trade_tip_label": {
+    "tip": "毎日03:00に購入価格が更新されます"
+  },
+  "island_trade_tip_label2": {
+    "tip": "毎日03:00に売却価格が更新されます"
+  },
+  "island_trade_title": {
+    "tip": "真珠取引商"
+  },
+  "island_trade_title2": {
+    "tip": "真珠取引商"
+  },
+  "island_trade_trend_label": {
+    "tip": "価格変動"
   },
   "island_unlock_ship_skill_color": {
     "tip": "カラーを開放しますか？"

@@ -7509,7 +7509,7 @@
     "id": 20015002,
     "is_tech_task": 0,
     "link_task": [],
-    "map_complete_tips": 1003,
+    "map_complete_tips": 1002,
     "map_trigger_tips": 0,
     "name": "離島大開発",
     "navigation": 0,
@@ -7541,6 +7541,277 @@
       [
         2,
         20015001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 0,
+    "id": 20016001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "ブリテンのいけす",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1501,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "いけす完成！",
+    "target_id": [
+      200160011
+    ],
+    "task_desc": "ブリテンのいけすが完成した。彼女に会いに行こう",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10001170
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016002": {
+    "com_page": "",
+    "com_perform": [
+      1,
+      "ISLANDSIDE01605"
+    ],
+    "complete_data": 10020071,
+    "complete_tips": "ブリテンのところへ行こう",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20016002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "釣りだ！",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "いけす完成！",
+    "target_id": [
+      200160012
+    ],
+    "task_desc": "ブリテンのために大物を釣り上げよう！",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016003": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020068,
+    "complete_tips": "いけす解放",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20016003,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "釣りだ！",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "いけす完成！",
+    "target_id": [
+      200160013
+    ],
+    "task_desc": "ブリテンのために大物を釣り上げよう！",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016002
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20016004": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20016004,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "ブリテンのいけす",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        5000
+      ]
+    ],
+    "series": "",
+    "series_name": "いけす完成！",
+    "target_id": [
+      200160041,
+      200160042,
+      200160043
+    ],
+    "task_desc": "ブリテンのいけすが完成した。彼女に会いに行こう",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20016003
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017001": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20017001,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "真珠の市場調査",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "真珠取引？",
+    "target_id": [
+      200170011
+    ],
+    "task_desc": "ピアリが真珠取引について研究しているようだ。一度話してみよう",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        10003100
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017002": {
+    "com_page": "",
+    "com_perform": [
+      1,
+      "ISLANDSIDE01608"
+    ],
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 20017002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "真珠の市場調査",
+    "navigation": 1002,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [],
+    "series": "",
+    "series_name": "一緒に投資しよう！",
+    "target_id": [
+      200170021
+    ],
+    "task_desc": "ピアリの真珠取引がまだ続いているようだ。状況を聞いてみよう",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20017001
+      ]
+    ],
+    "unlock_time": "always"
+  },
+  "20017003": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 20017003,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "真珠の市場調査",
+    "navigation": 1003,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        10000
+      ]
+    ],
+    "series": "",
+    "series_name": "謎の商人？",
+    "target_id": [
+      200170031
+    ],
+    "task_desc": "誰かが真珠の買い入れをしているようだ。話を聞いてみよう",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 2,
+    "unlock_condition": [
+      [
+        2,
+        20017002
       ]
     ],
     "unlock_time": "always"
@@ -8285,10 +8556,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8377,10 +8646,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8469,10 +8736,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8561,10 +8826,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8653,10 +8916,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -8745,10 +9006,8 @@
         5006
       ],
       [
-        [
-          2,
-          10001160
-        ]
+        2,
+        10001160
       ],
       [
         3,
@@ -10041,7 +10300,73 @@
           5
         ],
         [
-          12,
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50000002": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 2,
+    "count_offset": 1,
+    "id": 50000002,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "新シーズン到来！",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        1,
+        2000
+      ]
+    ],
+    "series": "",
+    "series_name": "離島シーズン",
+    "target_id": [
+      500000021
+    ],
+    "task_desc": "ピアリは新しいシーズンの開発計画を立てているようだ。何があるか聞いてみよう！",
+    "trigger_data": 0,
+    "trigger_tips": 1,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        20015002
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
           0,
           0
         ]
@@ -10112,7 +10437,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10185,7 +10510,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10258,7 +10583,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10331,7 +10656,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10409,7 +10734,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10487,7 +10812,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10565,7 +10890,531 @@
           5
         ],
         [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001008,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（1/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        5
+      ],
+      [
+        41,
+        100101,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001008
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
           12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001009": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001009,
+    "is_tech_task": 0,
+    "link_task": [
+      50001008
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（2/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100101,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001009
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001010": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001010,
+    "is_tech_task": 0,
+    "link_task": [
+      50001009
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（3/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100102,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001010
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001011": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001011,
+    "is_tech_task": 0,
+    "link_task": [
+      50001010
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（4/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001011
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001012": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001012,
+    "is_tech_task": 0,
+    "link_task": [
+      50001011
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（5/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100011,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001012
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001013": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001013,
+    "is_tech_task": 0,
+    "link_task": [
+      50001012
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（6/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100021,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001013
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50001014": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50001014,
+    "is_tech_task": 0,
+    "link_task": [
+      50001013
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の土産採集（7/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        3
+      ],
+      [
+        41,
+        100031,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50001014
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
           0,
           0
         ]
@@ -10636,7 +11485,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10709,7 +11558,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10782,7 +11631,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10855,7 +11704,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -10933,7 +11782,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -11011,7 +11860,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -11089,7 +11938,531 @@
           5
         ],
         [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002008,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（1/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        5
+      ],
+      [
+        41,
+        100101,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002008
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
           12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002009": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002009,
+    "is_tech_task": 0,
+    "link_task": [
+      50002008
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（2/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100101,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002009
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002010": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002010,
+    "is_tech_task": 0,
+    "link_task": [
+      50002009
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（3/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100102,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002010
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002011": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002011,
+    "is_tech_task": 0,
+    "link_task": [
+      50002010
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（4/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002011
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002012": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002012,
+    "is_tech_task": 0,
+    "link_task": [
+      50002011
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（5/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100041,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002012
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002013": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002013,
+    "is_tech_task": 0,
+    "link_task": [
+      50002012
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（6/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        1
+      ],
+      [
+        41,
+        100051,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002013
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50002014": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50002014,
+    "is_tech_task": 0,
+    "link_task": [
+      50002013
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産品制作（7/7）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        41,
+        100103,
+        3
+      ],
+      [
+        41,
+        100061,
+        2
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50002014
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
           0,
           0
         ]
@@ -11160,7 +12533,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -11233,7 +12606,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -11306,7 +12679,7 @@
           5
         ],
         [
-          12,
+          16,
           0,
           0
         ]
@@ -11379,7 +12752,297 @@
           5
         ],
         [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003005": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003005,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産依頼（1/4）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100001,
+        6
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50003005
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
           12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003006": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003006,
+    "is_tech_task": 0,
+    "link_task": [
+      50003005
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産依頼（2/4）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50003006
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003007": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003007,
+    "is_tech_task": 0,
+    "link_task": [
+      50003006
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産依頼（3/4）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        3
+      ],
+      [
+        41,
+        100201,
+        3
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50003007
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "50003008": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 10020025,
+    "complete_tips": "ピアリのところへ行こう(0/1)",
+    "complete_type": 1,
+    "count_offset": 1,
+    "id": 50003008,
+    "is_tech_task": 0,
+    "link_task": [
+      50003007
+    ],
+    "map_complete_tips": 1002,
+    "map_trigger_tips": 0,
+    "name": "春の特産依頼（4/4）",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        2
+      ],
+      [
+        45,
+        101,
+        1
+      ]
+    ],
+    "series": "【春の特産経営】",
+    "series_name": "限定採集",
+    "target_id": [
+      50003008
+    ],
+    "task_desc": "春の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春タケノコ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>ナズナ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>オウバイ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>ヒヤシンス</material></color>",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 5,
+    "unlock_condition": [
+      [
+        2,
+        10002050
+      ]
+    ],
+    "unlock_time": [
+      [
+        [
+          2026,
+          2,
+          5
+        ],
+        [
+          12,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          7
+        ],
+        [
+          16,
           0,
           0
         ]
@@ -14007,6 +15670,1321 @@
     "series_name": "",
     "target_id": [
       80011030
+    ],
+    "task_desc": "開発の責任を支え、繁栄の未来を築く。\n離島依頼を300回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001201": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001201,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "畑の兵站",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012001
+    ],
+    "task_desc": "島の開発を支える、信頼できる主食を備蓄し、安定したカロリー供給体制を整える。\nじゃがいも×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001202": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001202,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "目覚まし一杯",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012002
+    ],
+    "task_desc": "香り高いコーヒーを供給し、開発チームの集中力と作業効率を高めよう。\nコーヒー豆×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001203": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001203,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "野菜供給",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012003
+    ],
+    "task_desc": "保存性に優れた野菜を大量に確保し、ビタミンの安定供給を実現する。\n白菜×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001204": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001204,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "甘いスイーツ",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012004
+    ],
+    "task_desc": "甘くみずみずしいいちごを提供し、島の食卓に彩りと風味を添える。\nいちご×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001205": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001205,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "紡織の素材",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012005
+    ],
+    "task_desc": "高品質な綿を輸送し、後方支援や生活の快適性を支える重要物資とする。\n綿×500を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001206": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001206,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "果物補給",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012006
+    ],
+    "task_desc": "シャキッとした食感のりんごを供給し、日常的な健康的果物需要を満たす。\nりんご×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001207": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001207,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "さわやか元気",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012007
+    ],
+    "task_desc": "爽やかな酸味のレモンは、作業中の気分転換に貢献する。\nレモン×250を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001208": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001208,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "便利な軽食",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012008
+    ],
+    "task_desc": "手軽に食べられる定番料理は、迅速にエネルギー補給を行えて、大変な作業を支援してくれる。\nフィッシュ&チップス×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001209": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001209,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "あっさりした味付け",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012009
+    ],
+    "task_desc": "あっさりとした蒸し魚を供給し、良質なタンパク質とバランスの取れた栄養を提供する。\n魚の玉ねぎ蒸し×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001210": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001210,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "甘物はモチベ",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012010
+    ],
+    "task_desc": "甘い草莓のドリンクは、ひとときの幸福感と活力をもたらす。\nいちごのハニーフラッペ×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001211": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001211,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "香りでさっぱり",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012011
+    ],
+    "task_desc": "柑橘の香りが際立つ特製コーヒーは、仕事のひらめきを呼び覚ます。\nシトラスコーヒー×100を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001212": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001212,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "淡雅の料理",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012012
+    ],
+    "task_desc": "酸味が食欲をそそるレモンシュリンプは、疲労を和らげ、味覚を刺激する。\nレモンシュリンプ×50を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001213": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001213,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "激ウマシーフード",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012013
+    ],
+    "task_desc": "豪華な海鮮料理は、チームを労い、士気を高める最高のご褒美だ。\nパエリア×25を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001214": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001214,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "激辛パッション",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012014
+    ],
+    "task_desc": "刺激的な味わいのザリガニ料理で、夜間作業のモチベーションに火を付けるだろう。\nザリガニ炒め×25を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001215": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001215,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "芸術的な彩り",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012015
+    ],
+    "task_desc": "装飾用のアート作品は、居住環境を美しく整え、島の文化的雰囲気を高める。\n装飾画×25を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001216": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001216,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "あつまれ珍味",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100003,
+        1
+      ],
+      [
+        41,
+        100002,
+        2
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012016
+    ],
+    "task_desc": "最高級料理・佛跳牆は、重要な節目の祝賀や来客のもてなしに欠かせない。\n佛跳牆×10を提出",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001217": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001217,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "初めての接収",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012017
+    ],
+    "task_desc": "初めての定期補給を受け取ろう。\n定期補給を1回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001218": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001218,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "安心納品",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012018
+    ],
+    "task_desc": "3回の定期補給で倉庫がだんだん豊かに。\n定期補給を5回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001219": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001219,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "定期補充",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012019
+    ],
+    "task_desc": "定期補給の受領はもはや日々の習慣だ。\n定期補給を10回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001220": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001220,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "高効率納品",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012020
+    ],
+    "task_desc": "補給受領が効率的に、スムーズに！\n定期補給を20回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001221": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001221,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "在庫は余裕",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012021
+    ],
+    "task_desc": "備蓄が豊かで余裕ができている。\n定期補給を30回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001222": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001222,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "備蓄は永久的",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        3
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012022
+    ],
+    "task_desc": "絶えない物資補給が離島の重要な物資リソースとなる。\n定期補給を45回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001223": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001223,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の礎",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012023
+    ],
+    "task_desc": "日々の積み重ねが離島開発の基盤になっている。\n定期補給を60回受け取る",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001224": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001224,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "初めての依頼",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012024
+    ],
+    "task_desc": "離島依頼を初歩的に理解した。\n離島依頼を10回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001225": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001225,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "安心依頼",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012025
+    ],
+    "task_desc": "安定して依頼をこなし続けている。\n離島依頼を30回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001226": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001226,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "堅実なサポート",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100201,
+        2
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012026
+    ],
+    "task_desc": "離島開発にとって不可欠な戦力になっている。\n離島依頼を50回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001227": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001227,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "依頼のプロ",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100101,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012027
+    ],
+    "task_desc": "仲間たちのニーズを把握し、正確に応えている。\n離島依頼を100回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001228": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001228,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の柱",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100102,
+        5
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012028
+    ],
+    "task_desc": "継続的な支援が開発の原動力に。\n離島依頼を150回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001229": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001229,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "発展の中心",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012029
+    ],
+    "task_desc": "皆にとって一番大事で、一番信頼できる存在に。\n離島依頼を200回完了する",
+    "trigger_data": 0,
+    "trigger_tips": 0,
+    "trigger_type": 2,
+    "type": 8,
+    "unlock_condition": [],
+    "unlock_time": "always"
+  },
+  "80001230": {
+    "com_page": "",
+    "com_perform": "",
+    "complete_data": 0,
+    "complete_tips": "",
+    "complete_type": 3,
+    "count_offset": 1,
+    "id": 80001230,
+    "is_tech_task": 0,
+    "link_task": [],
+    "map_complete_tips": 0,
+    "map_trigger_tips": 0,
+    "name": "繁栄の礎",
+    "navigation": 0,
+    "rec_perform": "",
+    "reward_exp": 0,
+    "reward_show": [
+      [
+        41,
+        100002,
+        1
+      ],
+      [
+        41,
+        100103,
+        5
+      ],
+      [
+        8,
+        170002,
+        1
+      ]
+    ],
+    "series": "",
+    "series_name": "",
+    "target_id": [
+      80012030
     ],
     "task_desc": "開発の責任を支え、繁栄の未来を築く。\n離島依頼を300回完了する",
     "trigger_data": 0,
