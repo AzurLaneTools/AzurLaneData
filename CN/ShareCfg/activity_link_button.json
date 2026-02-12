@@ -41,13 +41,13 @@
     "name": "event_map",
     "order": 1,
     "param": [
-      "OTHERWORLD_MAP"
+      "act boss battle"
     ],
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50371
+      50408
     ],
     "type": 2
   },
@@ -61,6 +61,22 @@
     "text_pic": "text_event_map_sub",
     "time": "stop",
     "type": 0
+  },
+  "12": {
+    "group_id": 3,
+    "id": 12,
+    "name": "event_sub_act",
+    "order": 1,
+    "param": [
+      "love letter activity"
+    ],
+    "pic": "event_map_sub",
+    "text_pic": "text_event_map_sub",
+    "time": [
+      "default",
+      50400
+    ],
+    "type": 2
   },
   "20": {
     "group_id": 5,
@@ -324,12 +340,12 @@
     "id": 110,
     "name": "event_core_2",
     "order": 2,
-    "param": "HelenaCoreActivityUI",
+    "param": "SpringFestival2026CoreActivityUI",
     "pic": "event_core2",
     "text_pic": "text_event_core2",
     "time": [
       "default",
-      50288
+      50404
     ],
     "type": 16
   },
@@ -395,6 +411,7 @@
     9,
     10,
     11,
+    12,
     20,
     21,
     30,
@@ -490,6 +507,9 @@
     ],
     "event_series": [
       90
+    ],
+    "event_sub_act": [
+      12
     ],
     "event_tolove": [
       107
