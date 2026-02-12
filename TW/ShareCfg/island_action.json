@@ -1,5 +1,10 @@
 {
   "1000": {
+    "chara_sigle_action_reply": [
+      101,
+      102,
+      104
+    ],
     "desc": "自然流畅的打招呼，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1000,
@@ -8,10 +13,14 @@
     "resource": "hi",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1001": {
+    "chara_sigle_action_reply": [
+      101
+    ],
     "desc": "自然流畅的道别，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1001,
@@ -20,10 +29,15 @@
     "resource": "bye",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1002": {
+    "chara_sigle_action_reply": [
+      103,
+      105
+    ],
     "desc": "自然流畅的点头，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1002,
@@ -32,10 +46,15 @@
     "resource": "nod",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1003": {
+    "chara_sigle_action_reply": [
+      202,
+      207
+    ],
     "desc": "自然流畅的摇头，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1003,
@@ -44,10 +63,15 @@
     "resource": "shakehead",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1004": {
+    "chara_sigle_action_reply": [
+      103,
+      105
+    ],
     "desc": "自然流畅的拍手，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1004,
@@ -56,22 +80,36 @@
     "resource": "clap",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1005": {
+    "chara_sigle_action_reply": [
+      204,
+      207
+    ],
     "desc": "自然流畅的赞美太阳，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1005,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
     "name": "赞美太阳",
     "resource": "handsup",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1006": {
+    "chara_sigle_action_reply": [
+      106
+    ],
     "desc": "自然流畅的叉腰，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1006,
@@ -80,10 +118,15 @@
     "resource": "akimbo",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1007": {
+    "chara_sigle_action_reply": [
+      105,
+      204
+    ],
     "desc": "自然流畅的鞠躬，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1007,
@@ -97,16 +140,21 @@
     "resource": "bow",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1008": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "自然流畅的胜利起跳，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1008,
     "jump_page": [
       [
-        "开发商店",
+        "开发季I-开发商店",
         []
       ]
     ],
@@ -114,10 +162,15 @@
     "resource": "vjump",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1009": {
+    "chara_sigle_action_reply": [
+      201,
+      207
+    ],
     "desc": "自然流畅的跺脚，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1009,
@@ -126,16 +179,21 @@
     "resource": "stomp",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1011": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "自然流畅的展示肌肉，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1011,
     "jump_page": [
       [
-        "开发商店",
+        "开发季I-开发商店",
         []
       ]
     ],
@@ -143,28 +201,43 @@
     "resource": "muscle",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1012": {
+    "chara_sigle_action_reply": [
+      106,
+      204
+    ],
     "desc": "自然流畅的跳舞，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1012,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
     "name": "跳舞",
     "resource": "dance",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "1013": {
+    "chara_sigle_action_reply": [
+      204,
+      207
+    ],
     "desc": "自然流畅的英雄登场，生动形象地表达情感与态度。",
     "feedback_type": 1,
     "id": 1013,
     "jump_page": [
       [
-        "开发商店",
+        "开发季I-开发商店",
         []
       ]
     ],
@@ -172,10 +245,121 @@
     "resource": "herocoming",
     "respond_point": "",
     "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1014": {
+    "chara_sigle_action_reply": [
+      207
+    ],
+    "desc": "自然流畅的伸懒腰，生动形象地表达情感与态度。",
+    "feedback_type": 1,
+    "id": 1014,
+    "jump_page": [
+      [
+        "开发季II-开发商店",
+        []
+      ]
+    ],
+    "name": "伸懒腰",
+    "resource": "stretch",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1015": {
+    "chara_sigle_action_reply": [
+      201,
+      207
+    ],
+    "desc": "自然流畅的害怕，生动形象地表达情感与态度。",
+    "feedback_type": 1,
+    "id": 1015,
+    "jump_page": [
+      [
+        "开发季II-开发商店",
+        []
+      ]
+    ],
+    "name": "害怕",
+    "resource": "fearshake",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1016": {
+    "chara_sigle_action_reply": [
+      103,
+      107
+    ],
+    "desc": "自然流畅的抱拳，生动形象地表达情感与态度。",
+    "feedback_type": 1,
+    "id": 1016,
+    "jump_page": [
+      [
+        "开发季II-开发商店",
+        []
+      ]
+    ],
+    "name": "抱拳",
+    "resource": "holdfist",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1017": {
+    "chara_sigle_action_reply": [
+      106,
+      108
+    ],
+    "desc": "自然流畅的自夸，生动形象地表达情感与态度。",
+    "feedback_type": 1,
+    "id": 1017,
+    "jump_page": [
+      [
+        "开发季II-开发商店",
+        []
+      ]
+    ],
+    "name": "自夸",
+    "resource": "vouch",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
+    "tech_id": 0,
+    "type": 1
+  },
+  "1018": {
+    "chara_sigle_action_reply": [
+      106,
+      108
+    ],
+    "desc": "自然流畅的打坐，生动形象地表达情感与态度。",
+    "feedback_type": 1,
+    "id": 1018,
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
+    "name": "打坐",
+    "resource": "float",
+    "respond_point": "",
+    "responder_feedback": "",
+    "sigle_action_reply_type": 2,
     "tech_id": 0,
     "type": 1
   },
   "2000": {
+    "chara_sigle_action_reply": "",
     "desc": "自然流畅的击掌，生动形象地表达情感与态度。",
     "feedback_type": 0,
     "id": 2000,
@@ -188,16 +372,18 @@
       1.28364
     ],
     "responder_feedback": "givemefive_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
   "2001": {
+    "chara_sigle_action_reply": "",
     "desc": "自然流畅的握手，生动形象地表达情感与态度。",
     "feedback_type": 0,
     "id": 2001,
     "jump_page": [
       [
-        "开发商店",
+        "开发季I-开发商店",
         []
       ]
     ],
@@ -209,14 +395,21 @@
       1.35235
     ],
     "responder_feedback": "handshake_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
   "2002": {
+    "chara_sigle_action_reply": "",
     "desc": "自然流畅的拥抱，生动形象地表达情感与态度。",
     "feedback_type": 0,
     "id": 2002,
-    "jump_page": [],
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
     "name": "拥抱",
     "resource": "hug",
     "respond_point": [
@@ -225,6 +418,53 @@
       0.62654
     ],
     "responder_feedback": "hug_end",
+    "sigle_action_reply_type": 0,
+    "tech_id": 0,
+    "type": 2
+  },
+  "2003": {
+    "chara_sigle_action_reply": "",
+    "desc": "自然流畅的庆祝，生动形象地表达情感与态度。",
+    "feedback_type": 0,
+    "id": 2003,
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
+    "name": "庆祝 ",
+    "resource": "claphands",
+    "respond_point": [
+      0,
+      0,
+      1.5276
+    ],
+    "responder_feedback": "claphands_end",
+    "sigle_action_reply_type": 0,
+    "tech_id": 0,
+    "type": 2
+  },
+  "2004": {
+    "chara_sigle_action_reply": "",
+    "desc": "自然流畅的比心，生动形象地表达情感与态度。",
+    "feedback_type": 0,
+    "id": 2004,
+    "jump_page": [
+      [
+        "星彩奖",
+        []
+      ]
+    ],
+    "name": "比心 ",
+    "resource": "handheart",
+    "respond_point": [
+      0,
+      0,
+      1.35224
+    ],
+    "responder_feedback": "handheart_end",
+    "sigle_action_reply_type": 0,
     "tech_id": 0,
     "type": 2
   },
@@ -242,9 +482,16 @@
     1011,
     1012,
     1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
     2000,
     2001,
-    2002
+    2002,
+    2003,
+    2004
   ],
   "get_id_list_by_type": {
     "1": [
@@ -260,12 +507,19 @@
       1009,
       1011,
       1012,
-      1013
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018
     ],
     "2": [
       2000,
       2001,
-      2002
+      2002,
+      2003,
+      2004
     ]
   }
 }

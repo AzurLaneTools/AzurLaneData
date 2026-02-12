@@ -54,6 +54,28 @@
     "unlock_type": 1,
     "unlocked_obj": 0
   },
+  "201": {
+    "behaviourTree": "island/nodecanvas/system/system_fish_place",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_fish",
+    "commission_slot": [
+      20101,
+      20102,
+      20103
+    ],
+    "delegationCamera": "RoleDelegationCamera201",
+    "gathering_slot": [],
+    "id": 201,
+    "interactionType": 0,
+    "locked_obj": 0,
+    "map_id": 1002,
+    "name": "啾啾渔场",
+    "npc_birthplace": 0,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_fish",
+    "seed_list": "",
+    "tool_list": "",
+    "unlock_type": 1,
+    "unlocked_obj": 0
+  },
   "401": {
     "behaviourTree": "island/nodecanvas/system/system_mine_place",
     "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_mine",
@@ -174,7 +196,9 @@
       1204,
       1205,
       1206,
-      1207
+      1207,
+      1208,
+      1209
     ],
     "tool_list": "",
     "unlock_type": 1,
@@ -393,6 +417,7 @@
   "all": [
     101,
     102,
+    201,
     401,
     402,
     501,
@@ -412,6 +437,9 @@
     "1001": [
       101,
       102
+    ],
+    "1002": [
+      201
     ],
     "1004": [
       401,
