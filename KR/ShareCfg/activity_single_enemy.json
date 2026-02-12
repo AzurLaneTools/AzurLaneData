@@ -4,7 +4,7 @@
     "count": 0,
     "enter_cost": 0,
     "enter_cost_drop": 0,
-    "expedition_id": 1799001,
+    "expedition_id": 0,
     "extra_drop": "",
     "guardian_limit": 0,
     "icon": "",
@@ -53,7 +53,7 @@
     "count": 0,
     "enter_cost": 0,
     "enter_cost_drop": 0,
-    "expedition_id": 1799002,
+    "expedition_id": 0,
     "extra_drop": "",
     "guardian_limit": 0,
     "icon": "",
@@ -102,7 +102,7 @@
     "count": 0,
     "enter_cost": 0,
     "enter_cost_drop": 0,
-    "expedition_id": 1799003,
+    "expedition_id": 0,
     "extra_drop": "",
     "guardian_limit": 0,
     "icon": "",
@@ -151,7 +151,7 @@
     "count": 1,
     "enter_cost": 0,
     "enter_cost_drop": 0,
-    "expedition_id": 1799004,
+    "expedition_id": 0,
     "extra_drop": "",
     "guardian_limit": 0,
     "icon": "",
@@ -206,7 +206,7 @@
     "count": 0,
     "enter_cost": 0,
     "enter_cost_drop": 0,
-    "expedition_id": 1799005,
+    "expedition_id": 0,
     "extra_drop": "",
     "guardian_limit": 1,
     "icon": "",
@@ -917,6 +917,138 @@
       0
     ]
   },
+  "1000001": {
+    "activity_type": 1,
+    "count": 0,
+    "enter_cost": 0,
+    "enter_cost_drop": 0,
+    "expedition_id": 1799001,
+    "extra_drop": "",
+    "guardian_limit": 0,
+    "icon": "",
+    "id": 1000001,
+    "level": "",
+    "limitation": [],
+    "name": "",
+    "pre_chapter": 0,
+    "property_limitation": [],
+    "strategy_id": "",
+    "strategy_num": 0,
+    "time": "always",
+    "type": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ]
+  },
+  "1000002": {
+    "activity_type": 1,
+    "count": 0,
+    "enter_cost": 0,
+    "enter_cost_drop": 0,
+    "expedition_id": 1799002,
+    "extra_drop": "",
+    "guardian_limit": 0,
+    "icon": "",
+    "id": 1000002,
+    "level": "",
+    "limitation": [],
+    "name": "",
+    "pre_chapter": 1000001,
+    "property_limitation": [],
+    "strategy_id": "",
+    "strategy_num": 0,
+    "time": "always",
+    "type": 2,
+    "use_oil_limit": [
+      0,
+      0
+    ]
+  },
+  "1000003": {
+    "activity_type": 1,
+    "count": 0,
+    "enter_cost": 0,
+    "enter_cost_drop": 0,
+    "expedition_id": 1799003,
+    "extra_drop": "",
+    "guardian_limit": 0,
+    "icon": "",
+    "id": 1000003,
+    "level": "",
+    "limitation": [],
+    "name": "",
+    "pre_chapter": 1000002,
+    "property_limitation": [],
+    "strategy_id": "",
+    "strategy_num": 0,
+    "time": "always",
+    "type": 3,
+    "use_oil_limit": [
+      25,
+      15
+    ]
+  },
+  "1000004": {
+    "activity_type": 1,
+    "count": 1,
+    "enter_cost": 0,
+    "enter_cost_drop": 0,
+    "expedition_id": 1799004,
+    "extra_drop": "",
+    "guardian_limit": 0,
+    "icon": "",
+    "id": 1000004,
+    "level": "",
+    "limitation": [],
+    "name": "",
+    "pre_chapter": 1000003,
+    "property_limitation": [
+      [
+        "level",
+        1,
+        110
+      ]
+    ],
+    "strategy_id": "",
+    "strategy_num": 0,
+    "time": "always",
+    "type": 4,
+    "use_oil_limit": [
+      0,
+      0
+    ]
+  },
+  "1000005": {
+    "activity_type": 1,
+    "count": 0,
+    "enter_cost": 0,
+    "enter_cost_drop": 0,
+    "expedition_id": 1799005,
+    "extra_drop": "",
+    "guardian_limit": 1,
+    "icon": "",
+    "id": 1000005,
+    "level": "",
+    "limitation": [],
+    "name": "",
+    "pre_chapter": 1000003,
+    "property_limitation": [
+      [
+        "level",
+        1,
+        105
+      ]
+    ],
+    "strategy_id": "",
+    "strategy_num": 0,
+    "time": "always",
+    "type": 5,
+    "use_oil_limit": [
+      40,
+      16
+    ]
+  },
   "all": [
     1001,
     1002,
@@ -938,6 +1070,11 @@
     2013,
     3001,
     3002,
-    3003
+    3003,
+    1000001,
+    1000002,
+    1000003,
+    1000004,
+    1000005
   ]
 }

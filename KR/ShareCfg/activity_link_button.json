@@ -313,7 +313,7 @@
     "text_pic": "text_event_core",
     "time": [
       "default",
-      50351
+      50353
     ],
     "type": 16
   },
@@ -387,6 +387,36 @@
     ],
     "type": 16
   },
+  "901": {
+    "group_id": 1,
+    "id": 901,
+    "name": "event_all",
+    "order": 1,
+    "param": "0",
+    "pic": "event_all",
+    "text_pic": "text_event_all",
+    "time": [
+      "default",
+      50371
+    ],
+    "type": 3
+  },
+  "910": {
+    "group_id": 2,
+    "id": 910,
+    "name": "event_map",
+    "order": 1,
+    "param": [
+      "OTHERWORLD_MAP"
+    ],
+    "pic": "event_map_yishijie",
+    "text_pic": "text_event_map",
+    "time": [
+      "default",
+      50371
+    ],
+    "type": 2
+  },
   "all": [
     1,
     2,
@@ -415,7 +445,9 @@
     111,
     112,
     113,
-    114
+    114,
+    901,
+    910
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -427,7 +459,8 @@
     "event_all": [
       1,
       2,
-      9
+      9,
+      901
     ],
     "event_aprilFool": [
       70
@@ -465,7 +498,8 @@
       104
     ],
     "event_map": [
-      10
+      10,
+      910
     ],
     "event_map_2": [
       111
