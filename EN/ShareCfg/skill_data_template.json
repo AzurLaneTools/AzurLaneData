@@ -113495,6 +113495,48 @@
       1
     ]
   },
+  "61010": {
+    "desc": "Equip to set off electronic fireworks and create a festive mood.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 61010,
+    "max_level": 0,
+    "name": "Auction Invitation",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "61020": {
+    "desc": "When equipped by Ying Swei: creates a backdrop of bamboo leaves fluttering in the air.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 61020,
+    "max_level": 0,
+    "name": "Butterflies Playing with Bamboo",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "61030": {
+    "desc": "When equipped by Chao Ho: creates a backdrop of plum blossoms fluttering in the air.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 61030,
+    "max_level": 0,
+    "name": "Butterflies Fluttering Among Plums",
+    "system_transform": [],
+    "type": 0,
+    "world_death_mark": [
+      1
+    ]
+  },
   "101010": {
     "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
     "desc_add": [
@@ -159922,6 +159964,254 @@
       1
     ]
   },
+  "151980": {
+    "desc": "Increases this ship's FP, AA, and EVA by $1 and SPD by 8. Every 15s: $2 chance to fire a $3 special barrage (DMG is based on the skill's level); if this barrage fails to activate, this ship's DMG taken is decreased by $4 for 10s.",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ],
+      [
+        [
+          "40.0%",
+          "+3.3%"
+        ],
+        [
+          "43.3%",
+          "+3.3%"
+        ],
+        [
+          "46.6%",
+          "+3.3%"
+        ],
+        [
+          "49.9%",
+          "+3.3%"
+        ],
+        [
+          "53.2%",
+          "+3.3%"
+        ],
+        [
+          "56.5%",
+          "+3.3%"
+        ],
+        [
+          "59.8%",
+          "+3.3%"
+        ],
+        [
+          "63.1%",
+          "+3.3%"
+        ],
+        [
+          "66.4%",
+          "+3.6%"
+        ],
+        [
+          "70%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ],
+      [
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ]
+    ],
+    "id": 151980,
+    "max_level": 10,
+    "name": "Stoic Nepenthe",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "151990": {
+    "desc": "Every 12s: inflicts Poison (takes 100 DMG every second) for 6s on the enemy with the lowest HP at the time of activation; increases this ship's DMG dealt against enemies with Poison by $1.",
+    "desc_add": [
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "4.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 151990,
+    "max_level": 10,
+    "name": "Melted Without a Trace",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
   "152000": {
     "desc": "Increases this ship's FP and EVA by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).",
     "desc_add": [
@@ -160558,6 +160848,718 @@
       1
     ]
   },
+  "152080": {
+    "desc": "At the start of the battle, and when this ship sinks an enemy: all your ships gain 1 stack of Coarse Jade; when any other ship in your fleet sinks an enemy, that ship gains 1 stack of Coarse Jade.\nEach ship can gain up to 10 stacks of Coarse Jade, and for each stack, that ship's DMG dealt increases by 1.0%. When a ship reaches 10 stacks of Coarse Jade, that ship gains the Fine Jade status; Fine Jade increases the recipient's Crit Rate by $1 and Crit DMG by $2; if the recipient is a Dragon Empery ship, it further increases their Crit Rate by $3 and Crit DMG by $1.\nWhen the battle starts, if there are 3 or more Dragon Empery ships in your fleet, this ship gains 10 stacks of Coarse Jade and receives the Fine Jade status.",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ],
+      [
+        [
+          "20.0%",
+          "+2.2%"
+        ],
+        [
+          "22.2%",
+          "+2.2%"
+        ],
+        [
+          "24.4%",
+          "+2.2%"
+        ],
+        [
+          "26.6%",
+          "+2.2%"
+        ],
+        [
+          "28.8%",
+          "+2.2%"
+        ],
+        [
+          "31.0%",
+          "+2.2%"
+        ],
+        [
+          "33.2%",
+          "+2.2%"
+        ],
+        [
+          "35.4%",
+          "+2.2%"
+        ],
+        [
+          "37.6%",
+          "+2.4%"
+        ],
+        [
+          "40.0%"
+        ]
+      ],
+      [
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%",
+          "+0.5%"
+        ],
+        [
+          "8.5%",
+          "+0.5%"
+        ],
+        [
+          "9.0%",
+          "+1%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "10.0%",
+        "20.0%"
+      ],
+      [
+        "20.0%",
+        "40.0%"
+      ],
+      [
+        "5.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 152080,
+    "max_level": 10,
+    "name": "Jadecarver of the Sea",
+    "system_transform": [],
+    "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "152090": {
+    "desc": "Increases this ship's FP and EVA by $1. Every 15s: fires a $2 special barrage and fires it again equal to the number of allies with the Fine Jade status (up to 6 refires; DMG is based on the skill's level). Every time this skill's special barrage activates: decreases this ship's DMG taken by $3 until the battle ends (up to 5 times).",
+    "desc_add": [
+      [
+        [
+          "6.0%",
+          "+1.3%"
+        ],
+        [
+          "7.3%",
+          "+1.3%"
+        ],
+        [
+          "8.6%",
+          "+1.3%"
+        ],
+        [
+          "9.9%",
+          "+1.3%"
+        ],
+        [
+          "11.2%",
+          "+1.3%"
+        ],
+        [
+          "12.5%",
+          "+1.3%"
+        ],
+        [
+          "13.8%",
+          "+1.4%"
+        ],
+        [
+          "15.2%",
+          "+1.4%"
+        ],
+        [
+          "16.6%",
+          "+1.4%"
+        ],
+        [
+          "18.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.1%"
+        ],
+        [
+          "1.1%",
+          "+0.1%"
+        ],
+        [
+          "1.2%",
+          "+0.1%"
+        ],
+        [
+          "1.3%",
+          "+0.15%"
+        ],
+        [
+          "1.45%",
+          "+0.15%"
+        ],
+        [
+          "1.6%",
+          "+0.15%"
+        ],
+        [
+          "1.75%",
+          "+0.2%"
+        ],
+        [
+          "1.95%",
+          "+0.25%"
+        ],
+        [
+          "2.2%",
+          "+0.3%"
+        ],
+        [
+          "2.5%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "6.0%",
+        "18.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "1.0%",
+        "2.5%"
+      ]
+    ],
+    "id": 152090,
+    "max_level": 10,
+    "name": "Brilliance Through Refinement",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "152120": {
+    "desc": "Increases this ship's SPD by $1 and Crit Rate by $2. For each Dragon Empery ship in your fleet: increases this ship's ACC by $2 (up to 3 stacks). Every 20s: fires a $3 special barrage (DMG is based on the skill's level) and increases this ship's Evasion Rate by $4 for 10s; enemies hit by this barrage have their SPD decreased by 20.0% for 10s (does not stack).",
+    "desc_add": [
+      [
+        [
+          "3",
+          "+0.5"
+        ],
+        [
+          "3.5",
+          "+0.5"
+        ],
+        [
+          "4",
+          "+0.5"
+        ],
+        [
+          "4.5",
+          "+0.5"
+        ],
+        [
+          "5",
+          "+0.5"
+        ],
+        [
+          "5.5",
+          "+0.5"
+        ],
+        [
+          "6",
+          "+0.5"
+        ],
+        [
+          "6.5",
+          "+0.5"
+        ],
+        [
+          "7",
+          "+1"
+        ],
+        [
+          "8"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3",
+        "8"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "10.0%",
+        "20.0%"
+      ]
+    ],
+    "id": 152120,
+    "max_level": 10,
+    "name": "Dazzling Fan Dance",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "152130": {
+    "desc": "Increases this ship's SPD by $1 and Crit Rate by $2. For each Dragon Empery ship in your fleet: increases this ship's TRP by $2 (up to 3 stacks). Every 20s: fires a $3 special barrage (DMG is based on the skill's level) and deploys a barrier (lasting 10s) that can negate DMG equal to $4 of this ship's max HP; increases this ship's DMG dealt to enemies hit by this barrage by $5.",
+    "desc_add": [
+      [
+        [
+          "3",
+          "+0.5"
+        ],
+        [
+          "3.5",
+          "+0.5"
+        ],
+        [
+          "4",
+          "+0.5"
+        ],
+        [
+          "4.5",
+          "+0.5"
+        ],
+        [
+          "5",
+          "+0.5"
+        ],
+        [
+          "5.5",
+          "+0.5"
+        ],
+        [
+          "6",
+          "+0.5"
+        ],
+        [
+          "6.5",
+          "+0.5"
+        ],
+        [
+          "7",
+          "+1"
+        ],
+        [
+          "8"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+1.0%"
+        ],
+        [
+          "2.0%",
+          "+1.0%"
+        ],
+        [
+          "3.0%",
+          "+1.0%"
+        ],
+        [
+          "4.0%",
+          "+1.0%"
+        ],
+        [
+          "5.0%",
+          "+1.0%"
+        ],
+        [
+          "6.0%",
+          "+1.0%"
+        ],
+        [
+          "7.0%",
+          "+1.0%"
+        ],
+        [
+          "8.0%",
+          "+1.0%"
+        ],
+        [
+          "9.0%",
+          "+1.0%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.2%"
+        ],
+        [
+          "1.2%",
+          "+0.2%"
+        ],
+        [
+          "1.4%",
+          "+0.2%"
+        ],
+        [
+          "1.6%",
+          "+0.2%"
+        ],
+        [
+          "1.8%",
+          "+0.2%"
+        ],
+        [
+          "2.0%",
+          "+0.2%"
+        ],
+        [
+          "2.2%",
+          "+0.2%"
+        ],
+        [
+          "2.4%",
+          "+0.3%"
+        ],
+        [
+          "2.7%",
+          "+0.3%"
+        ],
+        [
+          "3.0%"
+        ]
+      ],
+      [
+        [
+          "4.0%",
+          "+0.6%"
+        ],
+        [
+          "4.6%",
+          "+0.6%"
+        ],
+        [
+          "5.2%",
+          "+0.8%"
+        ],
+        [
+          "6.0%",
+          "+0.6%"
+        ],
+        [
+          "6.6%",
+          "+0.6%"
+        ],
+        [
+          "7.2%",
+          "+0.8%"
+        ],
+        [
+          "8.0%",
+          "+0.6%"
+        ],
+        [
+          "8.6%",
+          "+0.6%"
+        ],
+        [
+          "9.2%",
+          "+0.8%"
+        ],
+        [
+          "10.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3",
+        "8"
+      ],
+      [
+        "1.0%",
+        "10.0%"
+      ],
+      [
+        "Lv.1",
+        "Lv.10"
+      ],
+      [
+        "1.0%",
+        "3.0%"
+      ],
+      [
+        "4.0%",
+        "10.0%"
+      ]
+    ],
+    "id": 152130,
+    "max_level": 10,
+    "name": "Serpentine Brushstrokes",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
   "190000": {
     "desc": "When the battle starts, if this ship has a Main Gun equipped that fires AP ammo: increases this ship's Crit Rate and Crit DMG by $1 and Main Gun efficiency by $2. When the battle starts: randomly selects a BB or BC in your fleet and gives her the Concerted Strike status; when the ship with this status fires her Main Guns, Dmitri Donskoi fires a $3 AP barrage (DMG is based on the skill's level) and inflicts the Pierced Mark status (lasting 5s; increases AP DMG taken by 5.0%) on all enemies on the battlefield (does not stack). Increases this ship's DMG dealt against enemies with the Pierced Mark status by $4.",
     "desc_add": [
@@ -160958,6 +161960,34 @@
     "desc_get": "",
     "desc_get_add": [],
     "id": 250212,
+    "max_level": 1,
+    "name": "All Out Assault II",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "250221": {
+    "desc": "Activates All Out Assault I: Chang Wu once every 9 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 250221,
+    "max_level": 1,
+    "name": "All Out Assault I",
+    "system_transform": [],
+    "type": 1,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "250222": {
+    "desc": "Activates All Out Assault II: Chang Wu once every 6 times the Main Guns are fired.",
+    "desc_add": [],
+    "desc_get": "",
+    "desc_get_add": [],
+    "id": 250222,
     "max_level": 1,
     "name": "All Out Assault II",
     "system_transform": [],

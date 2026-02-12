@@ -11,7 +11,7 @@
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -22,8 +22,8 @@
       [
         [
           2026,
-          2,
-          11
+          3,
+          4
         ],
         [
           23,
@@ -37,51 +37,29 @@
   "2": {
     "id": 2,
     "param": [
+      "scene skinshop",
+      []
+    ],
+    "pic": "temp2",
+    "time": "stop",
+    "type": 2
+  },
+  "3": {
+    "id": 3,
+    "param": [
       "scene get boat",
       {
         "page": 1,
         "projectName": "new"
       }
     ],
-    "pic": "temp2",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          5
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
-  },
-  "3": {
-    "id": 3,
-    "param": "50371",
     "pic": "temp3",
     "time": [
       [
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -93,7 +71,7 @@
         [
           2026,
           2,
-          11
+          25
         ],
         [
           23,
@@ -102,26 +80,51 @@
         ]
       ]
     ],
-    "type": 3
+    "type": 2
   },
   "4": {
     "id": 4,
     "param": [
-      "scene charge",
+      "scene core activity",
       {
-        "wrap": 4
+        "coreName": "SpringFestival2026CoreActivityUI"
       }
     ],
     "pic": "temp4",
-    "time": "stop",
+    "time": [
+      [
+        [
+          2026,
+          2,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          2,
+          25
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "type": 2
   },
   "5": {
     "id": 5,
     "param": [
-      "scene shop",
+      "scene charge",
       {
-        "warp": "shopstreet"
+        "wrap": 4
       }
     ],
     "pic": "temp5",
@@ -130,7 +133,7 @@
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -142,7 +145,7 @@
         [
           2026,
           2,
-          11
+          25
         ],
         [
           23,
@@ -156,24 +159,18 @@
   "6": {
     "id": 6,
     "param": [
-      "scene court yard"
+      "scene shop",
+      {
+        "warp": "shopstreet"
+      }
     ],
     "pic": "temp6",
-    "time": "stop",
-    "type": 2
-  },
-  "7": {
-    "id": 7,
-    "param": [
-      "crusing"
-    ],
-    "pic": "temp7",
     "time": [
       [
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -185,7 +182,41 @@
         [
           2026,
           2,
-          11
+          25
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "type": 2
+  },
+  "7": {
+    "id": 7,
+    "param": [
+      "scene court yard"
+    ],
+    "pic": "temp7",
+    "time": [
+      [
+        [
+          2026,
+          2,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          3,
+          4
         ],
         [
           23,
@@ -199,11 +230,7 @@
   "8": {
     "id": 8,
     "param": [
-      "scene equip",
-      {
-        "designPage": 2,
-        "warp": "WARP_TO_DESIGN"
-      }
+      "dorm 3d select"
     ],
     "pic": "temp8",
     "time": [
@@ -211,7 +238,7 @@
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -223,7 +250,7 @@
         [
           2026,
           2,
-          11
+          16
         ],
         [
           23,
@@ -236,37 +263,10 @@
   },
   "9": {
     "id": 9,
-    "param": [
-      "scene dailylevel"
-    ],
+    "param": "50372",
     "pic": "temp9",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          5
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
+    "time": "stop",
+    "type": 3
   },
   "90": {
     "id": 90,
@@ -298,7 +298,7 @@
         [
           2026,
           2,
-          5
+          12
         ],
         [
           0,
@@ -309,8 +309,8 @@
       [
         [
           2026,
-          2,
-          11
+          3,
+          4
         ],
         [
           23,
@@ -325,19 +325,12 @@
     "id": 100,
     "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
     "pic": "dumpling",
-    "time": "stop",
-    "type": 10
-  },
-  "101": {
-    "id": 101,
-    "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "pic": "jingbing",
     "time": [
       [
         [
-          2025,
-          12,
-          25
+          2026,
+          2,
+          12
         ],
         [
           0,
@@ -348,16 +341,23 @@
       [
         [
           2026,
-          1,
-          8
+          3,
+          11
         ],
         [
-          12,
-          0,
-          0
+          23,
+          59,
+          59
         ]
       ]
     ],
+    "type": 10
+  },
+  "101": {
+    "id": 101,
+    "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+    "pic": "jingbing",
+    "time": "stop",
     "type": 10
   },
   "102": {
@@ -377,13 +377,13 @@
   "201": {
     "id": 201,
     "param": "",
-    "pic": "newyear",
+    "pic": "springfes",
     "time": [
       [
         [
-          2025,
-          12,
-          25
+          2026,
+          2,
+          12
         ],
         [
           0,
@@ -394,13 +394,13 @@
       [
         [
           2026,
-          1,
-          8
+          3,
+          11
         ],
         [
-          12,
-          0,
-          0
+          23,
+          59,
+          59
         ]
       ]
     ],
@@ -410,7 +410,7 @@
     "id": 202,
     "param": "",
     "pic": "winter",
-    "time": "always",
+    "time": "stop",
     "type": 13
   },
   "all": [
@@ -438,15 +438,15 @@
     "2": [
       1,
       2,
+      3,
       4,
       5,
       6,
       7,
-      8,
-      9
+      8
     ],
     "3": [
-      3
+      9
     ],
     "9": [
       90,
