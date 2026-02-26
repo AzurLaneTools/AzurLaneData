@@ -1023,7 +1023,7 @@
   },
   "1022": {
     "convert": 1,
-    "desc": "언제든 재배, 채집이 가능하다. 휴식기가 없다!",
+    "desc": "모항에서 엄선된 고무나무의 씨앗. 좋은 품질의 고무를 획득할 수 있다.",
     "drop_after_use": 0,
     "filter": [
       10114,
@@ -1038,8 +1038,17 @@
       [
         "상점 구매",
         [
-          "IslandShopScene",
-          "page = 1"
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10025
+          ]
         ]
       ]
     ],
@@ -1055,6 +1064,829 @@
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
+  },
+  "1101": {
+    "convert": 1,
+    "desc": "이매패류의 어린 개체. 안정적으로 성장하며, 양식 기술도 확립되어 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1101",
+    "icon_normal": "",
+    "id": 1101,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "치패",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1102": {
+    "convert": 1,
+    "desc": "저서성 담수어의 치어. 저산소 환경에 강해 진흙 바닥 가두리에서의 고밀도 양식에 적합하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1102",
+    "icon_normal": "",
+    "id": 1102,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "메기 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1103": {
+    "convert": 1,
+    "desc": "담수성 잡식어의 치어. 환경 적응력이 뛰어나 다양한 수질 조건에서도 안정적으로 성장한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1103",
+    "icon_normal": "",
+    "id": 1103,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "잉어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1104": {
+    "convert": 1,
+    "desc": "소형 담수어의 치어. 주로 조류나 유기물을 먹으며 생태계 유지에 기여한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1104",
+    "icon_normal": "",
+    "id": 1104,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "붕어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1105": {
+    "convert": 1,
+    "desc": "민물 새우류의 유생. 남은 먹이나 일부 조류를 섭취해 수역을 정화하는 역할을 한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1105",
+    "icon_normal": "",
+    "id": 1105,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "새끼 새우",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1106": {
+    "convert": 1,
+    "desc": "갑각류의 유생. 성장하면서 껍질이 붉고 단단해지며, 성체는 인기 있는 수산물로 거래된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1106",
+    "icon_normal": "",
+    "id": 1106,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "새끼 가재",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1107": {
+    "convert": 1,
+    "desc": "육식성 어류의 치어. 살이 부드러워 고급 식재료로 평가받는다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1107",
+    "icon_normal": "",
+    "id": 1107,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "농어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1108": {
+    "convert": 1,
+    "desc": "잦은 탈피를 반복하는 게의 유생. 깨끗하고 수질이 좋은 환경에서 양식해야 한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1108",
+    "icon_normal": "",
+    "id": 1108,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "새끼 게",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1201": {
+    "convert": 1,
+    "desc": "두족류의 치어. 성장 과정에서 여러 차례 형태 변화를 거쳐 탱탱한 육질로 자란다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1201",
+    "icon_normal": "",
+    "id": 1201,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "오징어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1202": {
+    "convert": 1,
+    "desc": "육식성 어류의 치어. 중층부터 표층 수역에서 자주 관찰되며 성장 속도가 빠르다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1202",
+    "icon_normal": "",
+    "id": 1202,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "삼치 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1203": {
+    "convert": 1,
+    "desc": "대형 원해성 어류의 치어. 성장 속도가 빠르며 충분한 산소 공급이 가능한 환경이 요구된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1203",
+    "icon_normal": "",
+    "id": 1203,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "참치 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1204": {
+    "convert": 1,
+    "desc": "회유성 어류의 치어. 낮은 수온을 선호하며 정성껏 키우면 질 좋은 어육을 얻을 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1204",
+    "icon_normal": "",
+    "id": 1204,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "연어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1205": {
+    "convert": 1,
+    "desc": "온수성 해수어의 치어. 성장 후에는 선명한 빛깔을 띠어 관상 가치도 높다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1205",
+    "icon_normal": "",
+    "id": 1205,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "참돔 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1206": {
+    "convert": 1,
+    "desc": "암초 지대에 서식하는 어류의 치어. 체질이 강인해 양식 성공률이 높은 편이다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1206",
+    "icon_normal": "",
+    "id": 1206,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "감성돔 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1207": {
+    "convert": 1,
+    "desc": "황다랑어의 치어. 유영 속도가 매우 빨라, 양식 시 수중 산소량을 높은 수준으로 유지해야 한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1207",
+    "icon_normal": "",
+    "id": 1207,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "황다랑어 치어",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1208": {
+    "convert": 1,
+    "desc": "저서성 극피동물의 유생. 침전된 유기물을 먹어 가두리 바닥을 효과적으로 정화해준다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114,
+      10140
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_1208",
+    "icon_normal": "",
+    "id": 1208,
+    "jump_page": [
+      [
+        "치어 상점",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10031
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "새끼 해삼",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "1500": {
+    "convert": 0,
+    "desc": "지렁이를 본뜬 루어. 실물과 비슷한 외형 덕분에 물고기가 잘 문다.",
+    "drop_after_use": 0,
+    "filter": [
+      10313
+    ],
+    "group_max": 0,
+    "have_max": 1,
+    "icon": "IslandProps/item_1500",
+    "icon_normal": "",
+    "id": 1500,
+    "jump_page": [
+      [
+        "상점 구매",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "지렁이",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 1,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 3,
+    "usage": "usage_fish",
+    "usage_arg": "[[{{5003,300},{5004,300},{5002,200},{5007,200},{5106,200},{5108,-300}}],[]]"
+  },
+  "1501": {
+    "convert": 0,
+    "desc": "특별한 매력을 더한 옥수수 모양 루어. 황금빛 색상으로 잡식성 어류를 강하게 유혹한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10313
+    ],
+    "group_max": 0,
+    "have_max": 1,
+    "icon": "IslandProps/item_1501",
+    "icon_normal": "",
+    "id": 1501,
+    "jump_page": [],
+    "manage_influence": 0,
+    "name": "옥수수",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 1,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 3,
+    "usage": "usage_fish",
+    "usage_arg": "[[{{5005,-400},{5006,-400},{5008,-200},{5103,-500},{5104,-500},{5107,-500}}],[]]"
+  },
+  "1502": {
+    "convert": 0,
+    "desc": "정성껏 제작한 깐 새우 형태의 루어. 자연스러운 움직임으로 많은 육식 어종을 끌어당긴다.",
+    "drop_after_use": 0,
+    "filter": [
+      10313
+    ],
+    "group_max": 0,
+    "have_max": 1,
+    "icon": "IslandProps/item_1502",
+    "icon_normal": "",
+    "id": 1502,
+    "jump_page": [
+      [
+        "상점 구매",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "깐 새우",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 1,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 3,
+    "usage": "usage_fish",
+    "usage_arg": "[[{{5003,-500},{5004,-500},{5101,200},{5102,300},{5104,300},{5108,-200}}],[]]"
+  },
+  "1503": {
+    "convert": 0,
+    "desc": "독특한 형태의 루어. 수중에서의 역동적인 움직임이 대형 어종에게 치명적인 매력을 발산한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10313
+    ],
+    "group_max": 0,
+    "have_max": 1,
+    "icon": "IslandProps/item_1503",
+    "icon_normal": "",
+    "id": 1503,
+    "jump_page": [
+      [
+        "상점 구매",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "문어 다리",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 1,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 3,
+    "usage": "usage_fish",
+    "usage_arg": "[[{{5003,-500},{5004,-500},{5101,-200},{5103,500},{5107,500},{5108,-200}}],[]]"
   },
   "2000": {
     "convert": 1,
@@ -1756,6 +2588,70 @@
     "resource_type": 1,
     "sub_attribute": [],
     "tech_id": 330201,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "2521": {
+    "convert": 1,
+    "desc": "가공된 담수어 살코기. 가정 요리에 두루 쓰이는 만능 식재료.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_2521",
+    "icon_normal": "",
+    "id": 2521,
+    "jump_page": [
+      [
+        "어육 가공",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "담수어 살코기",
+    "order_price": 180,
+    "price": 1,
+    "pt_num": 18,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "2522": {
+    "convert": 1,
+    "desc": "가공된 해수어 살코기. 은은한 바다 향이 느껴진다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_2522",
+    "icon_normal": "",
+    "id": 2522,
+    "jump_page": [
+      [
+        "어육 가공",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "해수어 살코기",
+    "order_price": 400,
+    "price": 1,
+    "pt_num": 48,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
     "type": 1,
     "usage": "usage_undefined",
     "usage_arg": "[]"
@@ -4603,6 +5499,248 @@
     "usage": "usage_undefined",
     "usage_arg": "[]"
   },
+  "3114": {
+    "convert": 1,
+    "desc": "겉은 바삭하고 속은 촉촉한 생선 튀김과 고소한 감자튀김의 조합. 누구나 좋아하는 메뉴.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10127
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3114",
+    "icon_normal": "",
+    "id": 3114,
+    "jump_page": [
+      [
+        "유어 레스토랑",
+        []
+      ]
+    ],
+    "manage_influence": 280,
+    "name": "피시 앤 칩스",
+    "order_price": 300,
+    "price": 1,
+    "pt_num": 30,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [
+      6,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3115": {
+    "convert": 1,
+    "desc": "탱글한 새우의 단맛과 레몬의 상큼한 산미가 어우러져 식욕을 돋운다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10130
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3115",
+    "icon_normal": "",
+    "id": 3115,
+    "jump_page": [
+      [
+        "오징어 구이",
+        []
+      ]
+    ],
+    "manage_influence": 220,
+    "name": "레몬 새우",
+    "order_price": 500,
+    "price": 1,
+    "pt_num": 60,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [
+      5,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3116": {
+    "convert": 1,
+    "desc": "달콤한 양파 채를 곁들인 생선찜. 생선 본연의 풍미를 최대한으로 살려준다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10127
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3116",
+    "icon_normal": "",
+    "id": 3116,
+    "jump_page": [
+      [
+        "유어 레스토랑",
+        []
+      ]
+    ],
+    "manage_influence": 180,
+    "name": "생선 양파찜",
+    "order_price": 420,
+    "price": 1,
+    "pt_num": 57,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [
+      3,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3117": {
+    "convert": 1,
+    "desc": "벽을 장식하는 섬세한 그림. 공간에 은은하게 예술적 분위기를 더해준다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10131
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3117",
+    "icon_normal": "",
+    "id": 3117,
+    "jump_page": [
+      [
+        "목재 가공 설비",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "장식용 그림",
+    "order_price": 820,
+    "price": 1,
+    "pt_num": 82,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3118": {
+    "convert": 1,
+    "desc": "바다의 재료를 아낌없이 사용한 파에야. 밥 한 톨 한 톨에 바다의 풍미가 스며 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10129
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3118",
+    "icon_normal": "",
+    "id": 3118,
+    "jump_page": [
+      [
+        "츄츄 간편식",
+        []
+      ]
+    ],
+    "manage_influence": 200,
+    "name": "파에야",
+    "order_price": 900,
+    "price": 1,
+    "pt_num": 187,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [
+      2,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3119": {
+    "convert": 1,
+    "desc": "센 불로 빠르게 볶아낸 가재 요리. 선명한 붉은빛이 식욕을 자극해 밥이 술술 넘어간다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10130
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3119",
+    "icon_normal": "",
+    "id": 3119,
+    "jump_page": [
+      [
+        "오징어 구이",
+        []
+      ]
+    ],
+    "manage_influence": 240,
+    "name": "가재 볶음",
+    "order_price": 720,
+    "price": 1,
+    "pt_num": 152,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [
+      5,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "3120": {
+    "convert": 1,
+    "desc": "여러 시간 정성껏 끓여낸 최고급 요리. 연회의 마무리를 장식하는 진귀한 별미로 제공된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10127
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_3120",
+    "icon_normal": "",
+    "id": 3120,
+    "jump_page": [
+      [
+        "유어 레스토랑",
+        []
+      ]
+    ],
+    "manage_influence": 150,
+    "name": "불도장",
+    "order_price": 2000,
+    "price": 1,
+    "pt_num": 381,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [
+      5,
+      60
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
   "4001": {
     "convert": 1,
     "desc": "바람에 흔들리는 황금빛 가을 국화. 감상용으로도, 차로 우려 마시기에도 좋다.",
@@ -5064,6 +6202,1027 @@
       3,
       35
     ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4015": {
+    "convert": 1,
+    "desc": "봄을 맞은 땅에서 자라난 신선한 죽순. 아삭한 식감으로 사랑받는 대표적인 제철 식재료다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4015",
+    "icon_normal": "",
+    "id": 4015,
+    "jump_page": [
+      [
+        "지도 채집",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "봄 죽순",
+    "order_price": 600,
+    "price": 1,
+    "pt_num": 75,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4016": {
+    "convert": 1,
+    "desc": "상쾌한 봄나물. 특유의 향이 있어 무침이나 일부 요리에 자주 사용된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4016",
+    "icon_normal": "",
+    "id": 4016,
+    "jump_page": [
+      [
+        "지도 채집",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "냉이",
+    "order_price": 225,
+    "price": 1,
+    "pt_num": 2,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4017": {
+    "convert": 1,
+    "desc": "초봄에 피는 선명한 노란 꽃. 관상용은 물론 말려서 차로도 즐길 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4017",
+    "icon_normal": "",
+    "id": 4017,
+    "jump_page": [
+      [
+        "지도 채집",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "영춘화",
+    "order_price": 180,
+    "price": 1,
+    "pt_num": 18,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4018": {
+    "convert": 1,
+    "desc": "향이 짙은 초봄의 관상식물. 화단이나 정원에 자주 심는다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4018",
+    "icon_normal": "",
+    "id": 4018,
+    "jump_page": [
+      [
+        "지도 채집",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "히아신스",
+    "order_price": 540,
+    "price": 1,
+    "pt_num": 54,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4019": {
+    "convert": 1,
+    "desc": "봄에 수확하는 싱그러운 채소. 아삭한 식감으로 간단한 조리나 곁들이는 용도에 적합하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10132
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4019",
+    "icon_normal": "",
+    "id": 4019,
+    "jump_page": [
+      [
+        "초록색 모밭",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "아스파라거스",
+    "order_price": 50,
+    "price": 1,
+    "pt_num": 5,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4020": {
+    "convert": 1,
+    "desc": "땅에 심어두면 아스파라거스 새순이 빠르게 올라온다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4020",
+    "icon_normal": "",
+    "id": 4020,
+    "jump_page": [
+      [
+        "상점 구매",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10028
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "아스파라거스 씨앗",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4021": {
+    "convert": 1,
+    "desc": "새콤달콤하고 과즙이 풍부한 열대 과일. 그대로 먹어도 좋지만, 가공해도 먹어도 맛있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10132
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4021",
+    "icon_normal": "",
+    "id": 4021,
+    "jump_page": [
+      [
+        "초록색 모밭",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "파인애플",
+    "order_price": 70,
+    "price": 1,
+    "pt_num": 11,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4022": {
+    "convert": 1,
+    "desc": "열대 지방의 햇살을 듬뿍 머금은 씨앗. 심으면 맛있는 파인애플을 수확할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10114
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4022",
+    "icon_normal": "",
+    "id": 4022,
+    "jump_page": [
+      [
+        "상점 구매",
+        [
+          "IslandShopPage",
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            10028
+          ]
+        ]
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "파인애플 씨앗",
+    "order_price": 0,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4023": {
+    "convert": 1,
+    "desc": "신선한 파인애플을 즉석에서 짜낸 주스. 상큼한 열대 지방의 풍미가 가득하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10128
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4023",
+    "icon_normal": "",
+    "id": 4023,
+    "jump_page": [
+      [
+        "백곰 음료",
+        []
+      ]
+    ],
+    "manage_influence": 250,
+    "name": "갓 짜낸 파인애플 주스",
+    "order_price": 200,
+    "price": 1,
+    "pt_num": 18,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [
+      1,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4024": {
+    "convert": 1,
+    "desc": "말린 영춘화 꽃봉오리로 만든 허브티. 은은한 향으로 마음을 편안하게 해준다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10128
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4024",
+    "icon_normal": "",
+    "id": 4024,
+    "jump_page": [
+      [
+        "백곰 음료",
+        []
+      ]
+    ],
+    "manage_influence": 250,
+    "name": "영춘화차",
+    "order_price": 800,
+    "price": 1,
+    "pt_num": 112,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [
+      6,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4025": {
+    "convert": 1,
+    "desc": "아스파라거스와 죽순을 산뜻하게 버무린 봄철 반찬. 식감이 좋고 풍미의 조화 또한 뛰어나다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10127
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4025",
+    "icon_normal": "",
+    "id": 4025,
+    "jump_page": [
+      [
+        "유어 레스토랑",
+        []
+      ]
+    ],
+    "manage_influence": 250,
+    "name": "죽순과 아스파라거스 냉채",
+    "order_price": 800,
+    "price": 1,
+    "pt_num": 72,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [
+      2,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4026": {
+    "convert": 1,
+    "desc": "아스파라거스와 신선한 새우를 빠르게 볶아낸 요리. 새우의 감칠맛과 아삭한 식감을 즐길 수 있는 대표적인 가정식.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10127
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4026",
+    "icon_normal": "",
+    "id": 4026,
+    "jump_page": [
+      [
+        "유어 레스토랑",
+        []
+      ]
+    ],
+    "manage_influence": 250,
+    "name": "새우 아스파라거스 볶음",
+    "order_price": 600,
+    "price": 1,
+    "pt_num": 180,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [
+      2,
+      35
+    ],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4027": {
+    "convert": 1,
+    "desc": "햇볕에 말려 보관한 냉이. 저장성이 뛰어나 국물 요리에 쓰거나, 불려서 소로 사용한다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10131
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4027",
+    "icon_normal": "",
+    "id": 4027,
+    "jump_page": [
+      [
+        "수공제작 설비",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "말린 냉이",
+    "order_price": 720,
+    "price": 1,
+    "pt_num": 72,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "4028": {
+    "convert": 1,
+    "desc": "영춘화와 히아신스를 엮은 꽃다발. 밝은 색감이 공간에 봄기운을 불어넣는다.",
+    "drop_after_use": 0,
+    "filter": [
+      10113,
+      10131
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_4028",
+    "icon_normal": "",
+    "id": 4028,
+    "jump_page": [
+      [
+        "수공제작 설비",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "봄의 꽃다발",
+    "order_price": 1080,
+    "price": 1,
+    "pt_num": 108,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5001": {
+    "convert": 1,
+    "desc": "조개껍질은 장식품이나 정교한 공예품의 재료로 자주 사용된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5001",
+    "icon_normal": "",
+    "id": 5001,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "조개",
+    "order_price": 42,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5002": {
+    "convert": 1,
+    "desc": "살이 오른 메기. 진한 양념 요리에 잘 어울린다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5002",
+    "icon_normal": "",
+    "id": 5002,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "메기",
+    "order_price": 250,
+    "price": 1,
+    "pt_num": 2,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5003": {
+    "convert": 1,
+    "desc": "민물고기의 맛을 대표하는 존재. 일부 식당에서는 간판 메뉴로 쓰인다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5003",
+    "icon_normal": "",
+    "id": 5003,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "잉어",
+    "order_price": 165,
+    "price": 1,
+    "pt_num": 16,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5004": {
+    "convert": 1,
+    "desc": "식용 어종의 하나. 살결이 고우며 영양가도 높다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5004",
+    "icon_normal": "",
+    "id": 5004,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "붕어",
+    "order_price": 110,
+    "price": 1,
+    "pt_num": 11,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5005": {
+    "convert": 1,
+    "desc": "고단백·저지방·저칼로리의 특징을 가진 우수한 수산 식재료의 대명사.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5005",
+    "icon_normal": "",
+    "id": 5005,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "민물 새우",
+    "order_price": 100,
+    "price": 1,
+    "pt_num": 12,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5006": {
+    "convert": 1,
+    "desc": "하천에서 흔히 볼 수 있는 가재. 정겨운 식감을 지녔다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5006",
+    "icon_normal": "",
+    "id": 5006,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "가재",
+    "order_price": 115,
+    "price": 1,
+    "pt_num": 13,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5007": {
+    "convert": 1,
+    "desc": "신선한 농어. 희고 부드러운 살이 찜이나 소테에 안성맞춤이다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5007",
+    "icon_normal": "",
+    "id": 5007,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "농어",
+    "order_price": 136,
+    "price": 1,
+    "pt_num": 16,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5008": {
+    "convert": 1,
+    "desc": "신선하고 맛있는 게. 감칠맛이 풍부하고 영양도 가득하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5008",
+    "icon_normal": "",
+    "id": 5008,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "게",
+    "order_price": 390,
+    "price": 1,
+    "pt_num": 58,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5101": {
+    "convert": 1,
+    "desc": "탱글한 식감의 오징어. 구워도 좋고 살짝 익혀도 맛있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5101",
+    "icon_normal": "",
+    "id": 5101,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "오징어",
+    "order_price": 116,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5102": {
+    "convert": 1,
+    "desc": "유선형 몸매를 가진 바다의 스피드스타. 살이 단단해 구이 요리로 만들면 풍미가 좋다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5102",
+    "icon_normal": "",
+    "id": 5102,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "삼치",
+    "order_price": 270,
+    "price": 1,
+    "pt_num": 27,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5103": {
+    "convert": 1,
+    "desc": "고단백·저지방의 참치. 바다낚시의 최고 목표 중 하나로 꼽힌다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5103",
+    "icon_normal": "",
+    "id": 5103,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "참치",
+    "order_price": 870,
+    "price": 1,
+    "pt_num": 104,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5104": {
+    "convert": 1,
+    "desc": "인기 있는 해산물. 아름다운 살결과 깊은 감칠맛이 특징이다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5104",
+    "icon_normal": "",
+    "id": 5104,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "연어",
+    "order_price": 380,
+    "price": 1,
+    "pt_num": 45,
+    "rarity": 3,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5105": {
+    "convert": 1,
+    "desc": "잡식성 어류. 떼를 지어 빠르게 헤엄치는 습성이 있으며, 영양가가 높아 널리 사랑받는다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5105",
+    "icon_normal": "",
+    "id": 5105,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "참돔",
+    "order_price": 172,
+    "price": 1,
+    "pt_num": 1,
+    "rarity": 1,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5106": {
+    "convert": 1,
+    "desc": "민첩하고 교활한 어종으로 낚아 올리려면 상당한 실력이 필요하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5106",
+    "icon_normal": "",
+    "id": 5106,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "감성돔",
+    "order_price": 245,
+    "price": 1,
+    "pt_num": 24,
+    "rarity": 2,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5107": {
+    "convert": 1,
+    "desc": "고급 황다랑어. 지방이 적어 통조림 재료로도 자주 사용된다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5107",
+    "icon_normal": "",
+    "id": 5107,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "황다랑어",
+    "order_price": 1320,
+    "price": 1,
+    "pt_num": 198,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "5108": {
+    "convert": 1,
+    "desc": "자양강장 효과가 있는 해삼. 얻기 위해서는 어느 정도의 인내와 운이 필요하다.",
+    "drop_after_use": 0,
+    "filter": [
+      10111,
+      10125
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_5108",
+    "icon_normal": "",
+    "id": 5108,
+    "jump_page": [
+      [
+        "츄츄 가두리",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "해삼",
+    "order_price": 1080,
+    "price": 1,
+    "pt_num": 162,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 1,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "9900": {
+    "convert": 1,
+    "desc": "색감이 따뜻한 천연 보석. 시장에서 거래가 활발하게 이루어지고 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10312
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_9900",
+    "icon_normal": "",
+    "id": 9900,
+    "jump_page": [
+      [
+        "피어리에게 구매",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "진주",
+    "order_price": 0,
+    "price": 400,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 1,
+    "sub_attribute": [],
     "tech_id": 0,
     "type": 1,
     "usage": "usage_undefined",
@@ -6579,6 +8738,161 @@
     ],
     "manage_influence": 0,
     "name": "레오나르도 다 빈치 - 아일랜드 권한 인증",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 2,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "200016": {
+    "convert": 0,
+    "desc": "윌리엄 D 포터의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10213
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_200016",
+    "icon_normal": "",
+    "id": 200016,
+    "jump_page": [
+      [
+        "개발 상점",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "윌리엄 D 포터 - 아일랜드 권한 인증",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 2,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "200017": {
+    "convert": 0,
+    "desc": "젠하이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10213
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_200017",
+    "icon_normal": "",
+    "id": 200017,
+    "jump_page": [
+      [
+        "상점",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "젠하이 - 아일랜드 권한 인증",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 2,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "200018": {
+    "convert": 0,
+    "desc": "아타고의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10213
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_200018",
+    "icon_normal": "",
+    "id": 200018,
+    "jump_page": [
+      [
+        "별빛상",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "아타고 - 아일랜드 권한 인증",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 2,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "200019": {
+    "convert": 0,
+    "desc": "헬레나의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10213
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_200019",
+    "icon_normal": "",
+    "id": 200019,
+    "jump_page": [
+      [
+        "별빛상",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "헬레나 - 아일랜드 권한 인증",
+    "order_price": 0,
+    "price": 0,
+    "pt_num": 0,
+    "rarity": 4,
+    "resource_type": 0,
+    "sub_attribute": [],
+    "tech_id": 0,
+    "type": 2,
+    "usage": "usage_undefined",
+    "usage_arg": "[]"
+  },
+  "200020": {
+    "convert": 0,
+    "desc": "프리드리히 데어 그로세의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+    "drop_after_use": 0,
+    "filter": [
+      10213
+    ],
+    "group_max": 0,
+    "have_max": 0,
+    "icon": "IslandProps/item_200020",
+    "icon_normal": "",
+    "id": 200020,
+    "jump_page": [
+      [
+        "별빛상",
+        []
+      ]
+    ],
+    "manage_influence": 0,
+    "name": "프리드리히 데어 그로세 - 아일랜드 권한 인증",
     "order_price": 0,
     "price": 0,
     "pt_num": 0,
