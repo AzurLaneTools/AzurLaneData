@@ -2,8 +2,11 @@
   "1": {
     "id": 1,
     "param": [
-      "scene skinshop",
-      []
+      "scene equip",
+      {
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
+      }
     ],
     "pic": "temp1",
     "time": [
@@ -11,7 +14,7 @@
         [
           2026,
           2,
-          12
+          26
         ],
         [
           0,
@@ -22,11 +25,11 @@
       [
         [
           2026,
-          2,
-          25
+          3,
+          5
         ],
         [
-          23,
+          14,
           59,
           59
         ]
@@ -36,30 +39,14 @@
   },
   "2": {
     "id": 2,
-    "param": [
-      "scene skinshop",
-      []
-    ],
+    "param": "4749",
     "pic": "temp2",
-    "time": "stop",
-    "type": 2
-  },
-  "3": {
-    "id": 3,
-    "param": [
-      "scene get boat",
-      {
-        "page": 1,
-        "projectName": "new"
-      }
-    ],
-    "pic": "temp3",
     "time": [
       [
         [
           2026,
           2,
-          12
+          26
         ],
         [
           0,
@@ -70,8 +57,8 @@
       [
         [
           2026,
-          2,
-          26
+          3,
+          5
         ],
         [
           14,
@@ -80,192 +67,73 @@
         ]
       ]
     ],
-    "type": 2
+    "type": 3
   },
-  "4": {
-    "id": 4,
+  "3": {
+    "id": 3,
     "param": [
       "scene core activity",
       {
         "coreName": "SpringFestival2026CoreActivityUI"
       }
     ],
-    "pic": "temp4",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          26
-        ],
-        [
-          14,
-          59,
-          59
-        ]
-      ]
-    ],
+    "pic": "temp3",
+    "time": "stop",
     "type": 2
   },
-  "5": {
-    "id": 5,
+  "4": {
+    "id": 4,
     "param": [
       "scene charge",
       {
         "wrap": 4
       }
     ],
-    "pic": "temp5",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          25
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "pic": "temp4",
+    "time": "stop",
     "type": 2
   },
-  "6": {
-    "id": 6,
+  "5": {
+    "id": 5,
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "pic": "temp6",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          25
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
+    "pic": "temp5",
+    "time": "stop",
+    "type": 2
+  },
+  "6": {
+    "id": 6,
+    "param": [
+      "scene court yard"
     ],
+    "pic": "temp7",
+    "time": "stop",
     "type": 2
   },
   "7": {
     "id": 7,
     "param": [
-      "scene court yard"
+      "dorm 3d select"
     ],
-    "pic": "temp7",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          25
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "pic": "temp6",
+    "time": "stop",
     "type": 2
   },
   "8": {
     "id": 8,
-    "param": [
-      "dorm 3d select"
-    ],
+    "param": "50372",
     "pic": "temp8",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          18
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 2
   },
   "9": {
     "id": 9,
     "param": [
-      "scene Cryptolalia",
-      []
+      "LiquorFloor"
     ],
     "pic": "temp9",
     "time": "stop",
@@ -315,32 +183,7 @@
     "id": 99,
     "param": "",
     "pic": "limit_skin",
-    "time": [
-      [
-        [
-          2026,
-          2,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          2,
-          25
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "type": 12
   },
   "100": {
@@ -785,7 +628,6 @@
   "get_id_list_by_type": {
     "2": [
       1,
-      2,
       3,
       4,
       5,
@@ -819,6 +661,7 @@
       1024
     ],
     "3": [
+      2,
       10,
       1003
     ],
