@@ -44,6 +44,93 @@
         [
           "scene dailylevel",
           {
+            "dailyLevelId": 301
+          }
+        ],
+        0
+      ],
+      [
+        "購買部でランダム出現",
+        [
+          "scene shop",
+          {
+            "warp": 2
+          }
+        ],
+        0
+      ],
+      [
+        "一部の軍事委託で入手",
+        [
+          "scene event"
+        ],
+        0
+      ],
+      [
+        "勋章商店兑换",
+        [
+          "scene shop",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "ショップの大艦隊補給にて入手可能",
+        [
+          "scene shop",
+          {
+            "warp": 7
+          }
+        ],
+        0
+      ]
+    ],
+    "drop_type": 2,
+    "id": 3,
+    "itemids": [
+      16001,
+      16002,
+      16003,
+      16011,
+      16012,
+      16013,
+      16021,
+      16022,
+      16023
+    ]
+  },
+  "4": {
+    "config_client": "",
+    "description": [
+      [
+        "デイリーチャレンジ「商船護衛」をクリア",
+        [
+          "scene dailylevel",
+          {
+            "dailyLevelId": 301
+          }
+        ],
+        0
+      ]
+    ],
+    "drop_type": 2,
+    "id": 4,
+    "itemids": [
+      16004,
+      16014,
+      16024
+    ]
+  },
+  "5": {
+    "config_client": "",
+    "description": [
+      [
+        "デイリーチャレンジ「商船護衛」をクリア",
+        [
+          "scene dailylevel",
+          {
             "dailyLevelId": 201
           }
         ],
@@ -75,20 +162,16 @@
       ]
     ],
     "drop_type": 2,
-    "id": 3,
+    "id": 5,
     "itemids": [
-      16001,
-      16002,
-      16003,
-      16011,
-      16012,
-      16013,
-      16021,
-      16022,
-      16023
+      17001,
+      17011,
+      17021,
+      17031,
+      17041
     ]
   },
-  "4": {
+  "6": {
     "config_client": "",
     "description": [
       [
@@ -128,17 +211,29 @@
           "scene event"
         ],
         0
+      ],
+      [
+        "ショップの大艦隊補給にて入手可能",
+        [
+          "scene shop",
+          {
+            "warp": 7
+          }
+        ],
+        0
       ]
     ],
     "drop_type": 2,
-    "id": 4,
+    "id": 6,
     "itemids": [
-      16004,
-      16014,
-      16024
+      17002,
+      17012,
+      17022,
+      17032,
+      17042
     ]
   },
-  "5": {
+  "7": {
     "config_client": "",
     "description": [
       [
@@ -178,75 +273,13 @@
           "scene event"
         ],
         0
-      ]
-    ],
-    "drop_type": 2,
-    "id": 5,
-    "itemids": [
-      17001,
-      17011,
-      17021,
-      17031,
-      17041
-    ]
-  },
-  "6": {
-    "config_client": "",
-    "description": [
-      [
-        "一部の科学研究項目で入手",
-        [
-          "technology"
-        ],
-        0
       ],
       [
-        "ショップ勲章交換",
+        "ショップの大艦隊補給にて入手可能",
         [
           "scene shop",
           {
-            "warp": 8
-          }
-        ],
-        0
-      ],
-      [
-        "プロトショップで入手",
-        [
-          "scene shop",
-          {
-            "warp": 5
-          }
-        ],
-        0
-      ]
-    ],
-    "drop_type": 2,
-    "id": 6,
-    "itemids": [
-      17002,
-      17012,
-      17022,
-      17032,
-      17042
-    ]
-  },
-  "7": {
-    "config_client": "",
-    "description": [
-      [
-        "一部の科学研究項目で入手",
-        [
-          "technology"
-        ],
-        0
-      ],
-      [
-        "プロトショップで入手",
-        [
-          "scene shop",
-          {
-            "warp": 5
+            "warp": 7
           }
         ],
         0
@@ -266,38 +299,21 @@
     "config_client": "",
     "description": [
       [
-        "ハード海域各章第1節をクリア",
+        "デイリーチャレンジ「商船護衛」をクリア",
         [
-          "scene level",
-          [],
+          "scene dailylevel",
           {
-            "lastDigit": 1,
-            "leastChapterId": 10101,
-            "mapType": 2
+            "dailyLevelId": 201
           }
         ],
         0
       ],
       [
-        "一部の軍事委託で入手",
-        [
-          "scene event"
-        ],
-        0
-      ],
-      [
-        "一部の科学研究項目で入手",
-        [
-          "technology"
-        ],
-        0
-      ],
-      [
-        "ショップ勲章交換",
+        "ショップの大艦隊補給にて入手可能",
         [
           "scene shop",
           {
-            "warp": 8
+            "warp": 7
           }
         ],
         0
