@@ -40,27 +40,27 @@
     "id": 10,
     "name": "event_map",
     "order": 1,
-    "param": [
-      "act boss battle"
-    ],
+    "param": "",
     "pic": "event_map",
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50408
+      50426
     ],
-    "type": 2
+    "type": 0
   },
   "11": {
     "group_id": 3,
     "id": 11,
     "name": "event_map_sub",
     "order": 1,
-    "param": "0",
+    "param": [
+      "LiquorFloor"
+    ],
     "pic": "event_map_sub",
     "text_pic": "text_event_map_sub",
     "time": "stop",
-    "type": 0
+    "type": 2
   },
   "12": {
     "group_id": 3,
@@ -68,13 +68,29 @@
     "name": "event_sub_act",
     "order": 1,
     "param": [
-      "love letter activity"
+      "LiquorFloor"
     ],
     "pic": "event_map_sub",
     "text_pic": "text_event_map_sub",
     "time": [
       "default",
-      50400
+      50434
+    ],
+    "type": 2
+  },
+  "13": {
+    "group_id": 3,
+    "id": 13,
+    "name": "event_old_act",
+    "order": 1,
+    "param": [
+      "LiquorFloor"
+    ],
+    "pic": "",
+    "text_pic": "",
+    "time": [
+      "default",
+      50434
     ],
     "type": 2
   },
@@ -326,12 +342,12 @@
     "id": 109,
     "name": "event_core",
     "order": 1,
-    "param": "SardiniaSPCoreActivityUI",
+    "param": "MoscowURCoreActivityUI",
     "pic": "event_core",
     "text_pic": "text_event_core",
     "time": [
       "default",
-      50353
+      50426
     ],
     "type": 16
   },
@@ -343,10 +359,7 @@
     "param": "SpringFestival2026CoreActivityUI",
     "pic": "event_core2",
     "text_pic": "text_event_core2",
-    "time": [
-      "default",
-      50404
-    ],
+    "time": "stop",
     "type": 16
   },
   "111": {
@@ -442,6 +455,7 @@
     10,
     11,
     12,
+    13,
     20,
     21,
     30,
@@ -532,6 +546,9 @@
     "event_minigame": [
       20,
       108
+    ],
+    "event_old_act": [
+      13
     ],
     "event_second_map": [
       112
