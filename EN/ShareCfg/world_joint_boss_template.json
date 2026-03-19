@@ -815,20 +815,20 @@
     "boss_level_id": 316,
     "description": [
       [
-        "强者狩猎",
+        "Hunt of the Mighty",
         2,
-        "进入战斗后，瑞吉娜·META将分别向<color=#92fc63>我方角色炮击、雷击、航空、机动、命中</color>五项数值中，各自<color=#92fc63>数值最高者</color>释放一枚强者印记，若我方所有角色该项数值均为0，则不会释放对应的印记。\n多枚强者印记可叠加在同一角色身上，拥有强者印记会<color=#92fc63>使持有者受到来自瑞吉娜·META的伤害增加</color>，第一枚增加10%，第二枚及之后每一枚额外增加200%；若持有者位于主力舰队，还会持续受到火焰造成的点燃效果（点燃效果与印记数量无关）\n无论是一开始就未释放，还是持有者被击败时所携带的印记都会回到瑞吉娜·META手中，<color=#92fc63>每一枚为其提升20%的减伤效果</color>。"
+        "When the battle starts, Regensburg META <color=#92fc63>inflicts 1 stack of Hunt of the Mighty</color> against the allied units with the highest <color=#92fc63>FP, TRP, AVI, EVA, and ACC.</color> Hunt of the Mighty is not applied if the stats in question are all 0. If one shipgirl possesses multiple of the highest stats, she gets inflicted with multiple stacks.\nShipgirls marked with Hunt of the Mighty <color=#92fc63>take more DMG from Regensburg META for every stack possessed</color> (the 1st stack multiplies the DMG taken by 110%; the 2nd stack and onward multiplies it by an additional 220% each). If the shipgirl with Hunt of the Mighty is in your Main Fleet, she gets inflicted with Burn and takes DMG over time (Burn DMG is not affected by Hunt of the Mighty).\nIf any stacks of Hunt of the Mighty do not get applied, or if a shipgirl marked with Hunt of the Mighty stacks sinks, those stacks get transferred to Regensburg META. For every stack of Hunt of the Mighty Regensburg META possesses, <color=#92fc63>her DMG taken decreases by 20%.</color>"
       ],
       [
-        "阶段式胜利",
+        "Incremental Victory",
         1,
-        "我方单位每次<color=#92fc63>被击败或消失</color>离开战斗海域，都会使瑞吉娜·META的士气增加，提升其15%炮击与雷击。"
+        "When an allied unit <color=#92fc63>sinks or leaves the screen,</color> Regensburg META's FP and TRP increases by 15%."
       ]
     ],
     "id": 22,
     "item_id": 100000,
     "meta_id": 970211,
-    "name": "瑞吉娜·META",
+    "name": "Regensburg META",
     "p_offset": [
       -330,
       470,
@@ -859,7 +859,7 @@
         [
           2026,
           6,
-          5
+          4
         ],
         [
           23,

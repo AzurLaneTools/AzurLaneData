@@ -182598,7 +182598,7 @@
     ]
   },
   "802110": {
-    "desc": "战斗开始时，自身炮击、雷击属性提高$1；战斗开始后每5秒，自身命中属性提高$2，最多叠加5层；每15秒，触发一轮特殊弹幕$3（弹幕威力依据技能等级）",
+    "desc": "Increases this ship's FP and TRP by $1. Every 5s: increases this ship's ACC by $2 (can be stacked up to 5 times). Every 15s: fires a $3 special barrage (DMG is based on the skill's level).",
     "desc_add": [
       [
         [
@@ -182732,7 +182732,7 @@
     ],
     "id": 802110,
     "max_level": 10,
-    "name": "狩猎开始！",
+    "name": "The Hunt Begins",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -182740,7 +182740,7 @@
     ]
   },
   "802120": {
-    "desc": "战斗开始后每15秒，随机选择1名敌人添加【猎杀标记】（优先对精英目标(人形单位)生效），移动速度降低$1，同时所有先锋舰队角色进入【狩猎状态】，处于【狩猎状态】的角色对拥有【猎杀标记】的敌人造成伤害提高$2，持续10秒；当拥有【猎杀标记】敌方单位在场时，自身暴击率、暴击伤害提高$1",
+    "desc": "Every 15s: inflict Gamehunter's Mark on a random enemy for 10s (prioritizes humanoid enemies); that enemy's SPD is decreased by $1 while your Vanguard gains the Gamehunter status. The Gamehunter status lasts for 10s and increases each unit's DMG dealt by $2 against the target with Gamehunter's Mark. While an enemy with Gamehunter's Mark exists: increases this ship's Crit Rate and Crit DMG by $1.",
     "desc_add": [
       [
         [
@@ -182838,7 +182838,7 @@
     ],
     "id": 802120,
     "max_level": 10,
-    "name": "集群猎杀",
+    "name": "The Hunters Gather",
     "system_transform": [],
     "type": 3,
     "world_death_mark": [
@@ -182846,7 +182846,7 @@
     ]
   },
   "802130": {
-    "desc": "战斗开始时，自身机动属性提高$1；战斗中，自身每受到10次伤害，为自身生成一枚可阻挡$2枚子弹的护盾，持续8秒，护盾效果结束后重新开始计数；在战斗中受到伤害，导致自身耐久低于30%时，回复自身总耐久的$3(回复效果每场战斗最多触发一次)",
+    "desc": "Increases this ship's EVA by $1. Every instance of DMG this ship takes during battle is tallied; when the tally reaches 10: resets the tally to 0 and deploys a shield (lasting 8s) that can negate up to $2 enemy shells (while the shield is active, DMG sustained with this skill effect is not counted toward the tally). Once per battle, when this ship's HP falls below 30.0% as a result of DMG taken: restores $3 of this ship's max HP.",
     "desc_add": [
       [
         [
@@ -182980,7 +182980,7 @@
     ],
     "id": 802130,
     "max_level": 10,
-    "name": "狩猎者的警觉",
+    "name": "The Hunter's Vigilance",
     "system_transform": [],
     "type": 2,
     "world_death_mark": [
@@ -182988,13 +182988,13 @@
     ]
   },
   "802141": {
-    "desc": "主炮每进行12次攻击，触发一轮特殊弹幕I",
+    "desc": "Every 12 times this ship fires her Main Guns: fires a special barrage.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 802141,
     "max_level": 1,
-    "name": "逐光之焰·{namecode:516}I",
+    "name": "Cinders of Hope - Regensburg I",
     "system_transform": {
       "51": 802145
     },
@@ -183004,13 +183004,13 @@
     ]
   },
   "802142": {
-    "desc": "主炮每进行8次攻击，触发一轮特殊弹幕II",
+    "desc": "Every 8 times this ship fires her Main Guns: fires a special barrage.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 802142,
     "max_level": 1,
-    "name": "逐光之焰·{namecode:516}II",
+    "name": "Cinders of Hope - Regensburg II",
     "system_transform": {
       "51": 802147
     },
@@ -183020,13 +183020,13 @@
     ]
   },
   "802145": {
-    "desc": "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+    "desc": "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 802145,
     "max_level": 1,
-    "name": "逐光之焰·{namecode:516}I",
+    "name": "Cinders of Hope - Regensburg I",
     "system_transform": {
       "51": 802145
     },
@@ -183036,13 +183036,13 @@
     ]
   },
   "802147": {
-    "desc": "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+    "desc": "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 802147,
     "max_level": 1,
-    "name": "逐光之焰·{namecode:516}II",
+    "name": "Cinders of Hope - Regensburg II",
     "system_transform": {
       "51": 802147
     },
@@ -183598,13 +183598,13 @@
     ]
   },
   "902380": {
-    "desc": "自身防空属性提高20%",
+    "desc": "Increases this ship's AA by 20.0%.",
     "desc_add": [],
     "desc_get": "",
     "desc_get_add": [],
     "id": 902380,
     "max_level": 1,
-    "name": "防空集火训练",
+    "name": "Anti-Air Focus Training",
     "system_transform": [],
     "type": 3,
     "world_death_mark": [
@@ -193554,7 +193554,7 @@
     ]
   },
   "1012910": {
-    "desc": "战斗开始时，自身炮击、雷击、装填提升$1;与任意第六驱逐舰队成员({namecode:11}、{namecode:13}、{namecode:14})同时出击时，炮击、雷击、装填提升$1，效果不叠加;【不死鸟之羽】技能的回复效果改为每场战斗触发两次，自身第二次及之后触发【不死鸟之羽】的回复效果时，有6%的概率增加一次【不死鸟之羽】回复效果的可触发次数",
+    "desc": "Increases this ship's FP, TRP, and RLD by $1. When sortied with Akatsuki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by $1 (does not stack with Destroyer Division 6 skills). The healing effect of the skill Phoenix's Plumage can now activate up to 2 times per battle, and starting from its 2nd activation, there is a 6.0% chance to increase Phoenix's Plumage's activation limit by 1.",
     "desc_add": [
       [
         [
@@ -193607,7 +193607,7 @@
     ],
     "id": 1012910,
     "max_level": 10,
-    "name": "六驱精锐·{namecode:12} +",
+    "name": "Destroyer Division 6: Hibiki+",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -194539,7 +194539,7 @@
     ]
   },
   "1013470": {
-    "desc": "战斗开始时，自身炮击、雷击、防空、装属性提升$1，队伍中含有其他皇家阵营角色时，提升自身造成的伤害$2；战斗中，每10秒触发一轮特殊弹幕$3（威力依据技能等级）",
+    "desc": "Increases this ship's FP, TRP, AA, and RLD by $1. If there is another Royal Navy ship in your fleet: increases this ship's DMG dealt by $2. Every 10s: fires a $3 special barrage (DMG is based on the skill's level).",
     "desc_add": [
       [
         [
@@ -194673,7 +194673,7 @@
     ],
     "id": 1013470,
     "max_level": 10,
-    "name": "砥柱下的应援 +",
+    "name": "Supporting Role+",
     "system_transform": [],
     "type": 3,
     "world_death_mark": [
@@ -195366,7 +195366,7 @@
     ]
   },
   "1014140": {
-    "desc": "战斗中，自身受到攻击时，有$1的概率触发一轮带有减速效果的特殊弹幕$2（威力与样式依据技能等级，触发后进入10秒冷却），且提升自身炮击、雷击$3（属性提升效果最高叠加3次）；被特殊弹幕命中的敌方角色6秒内受到来自神速的伤害提高$4（效果不可叠加）",
+    "desc": "When this ship is attacked: $1 chance to fire a $2 special barrage that slows enemies hit (DMG is based on the skill's level; 10s cooldown between activations) and increase this ship's FP and TRP by $3 until the battle ends (can be stacked up to 3 times); enemies hit by this barrage take $4 increased DMG from Stremitelny for 6s (does not stack).",
     "desc_add": [
       [
         [
@@ -195545,7 +195545,7 @@
     ],
     "id": 1014140,
     "max_level": 10,
-    "name": "调皮的小雪球 +",
+    "name": "Scalawaggish Little Snowball+",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
@@ -197628,7 +197628,7 @@
     ]
   },
   "1019260": {
-    "desc": "战斗中，自身炮击、命中属性提高$1，暴击率提高$2，每次主炮射击均可独立瞄准，手动进行瞄准时，手动发射带来的跨射伤害增幅效果提高到$4；战斗开始时，及之后每15秒，有$3概率发射强力弹幕(威力随技能等级提升)",
+    "desc": "Increases this ship's FP and ACC by $1 and Crit Rate by $2. Each Main Gun reload gives this ship 2 Salvoes that can be fired independently, with each Salvo consisting of 1 Volley. This ship's DMG bonus with manually aimed Salvoes becomes $4. When the battle starts, and every 15s: $3 chance to fire a powerful special barrage (DMG is based on the skill's level).",
     "desc_add": [
       [
         [
@@ -197816,7 +197816,7 @@
     ],
     "id": 1019260,
     "max_level": 10,
-    "name": "精密操作协议 +",
+    "name": "Precision Salvo Protocol+",
     "system_transform": {
       "3": 1019261
     },
@@ -202953,7 +202953,7 @@
     ]
   },
   "1090440": {
-    "desc": "战斗开始时，自身暴击率提高$1，穿甲弹伤害提高$2；战斗开始后，每15秒触发一轮特殊弹幕$3(威力依据技能等级）；在战斗中受到伤害导致自身耐久低于20%时，回复自身$4耐久(每场战斗仅能触发一次)",
+    "desc": "Increases this ship's Crit Rate by $1 and DMG dealt with AP shells by $2. Every 15s: fires a $3 special barrage (DMG is based on the skill's level). Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $4 of this ship's max HP.",
     "desc_add": [
       [
         [
@@ -203132,7 +203132,7 @@
     ],
     "id": 1090440,
     "max_level": 10,
-    "name": "穿甲弹精通·{namecode:405}",
+    "name": "Piercing Shells - Z19",
     "system_transform": [],
     "type": 1,
     "world_death_mark": [
