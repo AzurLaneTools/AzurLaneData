@@ -14,6 +14,7 @@
       "personality_slider1",
       "worry_btn1"
     ],
+    "event_disclaim_refund": [],
     "exam_action": {
       "tag1": [
         [
@@ -79,6 +80,7 @@
     "name": "Navi",
     "name2": "Oceana",
     "name_background": "educate_oceana_1",
+    "personality_bar_icon": "lingyangzhe_personality_bar",
     "personality_param": [
       [
         "tag1",
@@ -95,7 +97,20 @@
         ]
       ]
     ],
+    "personality_tag_icon": [
+      [
+        "tag1",
+        "lingyangzhe_tag1_bg",
+        "lingyangzhe_option_bg_center_type1"
+      ],
+      [
+        "tag2",
+        "lingyangzhe_tag2_bg",
+        "lingyangzhe_option_bg_center_type2"
+      ]
+    ],
     "personality_type": 1,
+    "shop_disclaim_refund": [],
     "special_memory": {
       "after_ending": "LINGYANGZHEYANGCHENGJIHUA47",
       "after_name": [
@@ -122,10 +137,202 @@
       [
         "shop",
         8
+      ],
+      [
+        "rand_event",
+        3
+      ],
+      [
+        "char_event",
+        10
+      ],
+      [
+        "lesson_upgrade",
+        6
+      ]
+    ]
+  },
+  "2": {
+    "bgm": [
+      [
+        "tag1",
+        "qe-ova-3"
+      ],
+      [
+        "tag2",
+        "qe-ova-13"
+      ]
+    ],
+    "child2_data_personality_icon": [
+      "personality_slider_explorer",
+      "worry_btn_explorer"
+    ],
+    "event_disclaim_refund": [
+      [
+        2,
+        301,
+        100
+      ],
+      [
+        2,
+        301,
+        100
+      ]
+    ],
+    "exam_action": {
+      "tag1": [
+        [
+          100,
+          "tansuozhe_1_atk1"
+        ],
+        [
+          350,
+          "tansuozhe_1_atk2"
+        ],
+        [
+          1200,
+          "tansuozhe_1_atk3"
+        ]
+      ],
+      "tag2": [
+        [
+          100,
+          "tansuozhe_2_atk1"
+        ],
+        [
+          350,
+          "tansuozhe_2_atk2"
+        ],
+        [
+          1200,
+          "tansuozhe_2_atk3"
+        ]
+      ]
+    },
+    "favor_exp": [
+      100,
+      50,
+      50,
+      100
+    ],
+    "favor_level": 5,
+    "favor_result_display": [
+      [
+        2,
+        302,
+        8
+      ],
+      [
+        2,
+        302,
+        8
+      ],
+      [
+        2,
+        302,
+        16
+      ],
+      [
+        2,
+        302,
+        16
+      ]
+    ],
+    "head": "tansuozhe1_1",
+    "id": 2,
+    "memory_group": 1006,
+    "name": "Lora",
+    "name2": "Explorer",
+    "name_background": "educate_explorer_1",
+    "personality_bar_icon": "tansuozhe_personality_bar",
+    "personality_param": [
+      [
+        "tag1",
+        [
+          0,
+          149
+        ]
+      ],
+      [
+        "tag2",
+        [
+          150,
+          300
+        ]
+      ]
+    ],
+    "personality_tag_icon": [
+      [
+        "tag1",
+        "tansuozhe_tag1_bg",
+        "tansuozhe_option_bg_center_type1"
+      ],
+      [
+        "tag2",
+        "tansuozhe_tag2_bg",
+        "tansuozhe_option_bg_center_type2"
+      ]
+    ],
+    "personality_type": 1,
+    "shop_disclaim_refund": [
+      [
+        2,
+        301,
+        100
+      ],
+      [
+        2,
+        301,
+        100
+      ]
+    ],
+    "special_memory": {
+      "after_ending": "TANSUOZHEYANGCHENGJIHUA46",
+      "after_name": [
+        "TANSUOZHEYANGCHENGJIHUA2",
+        "TANSUOZHEYANGCHENGJIHUA3"
+      ],
+      "pre_ending": "TANSUOZHEYANGCHENGJIHUA30",
+      "pre_name": [
+        "TANSUOZHEYANGCHENGJIHUA1"
+      ]
+    },
+    "spine_char": {
+      "boss": "lingyangzhe_boss",
+      "endless_boss": "tansuozhe_boss",
+      "minigame_face": "tansuozhe_gaming",
+      "tag1": "tansuozhe_1",
+      "tag2": "tansuozhe_2"
+    },
+    "unlock": [
+      [
+        "out",
+        2
+      ],
+      [
+        "shop",
+        8
+      ],
+      [
+        "tarot",
+        1
+      ],
+      [
+        "rand_event",
+        3
+      ],
+      [
+        "char_event",
+        6
+      ],
+      [
+        "lesson_upgrade",
+        6
       ]
     ]
   },
   "all": [
-    1
+    1,
+    2
   ]
 }
