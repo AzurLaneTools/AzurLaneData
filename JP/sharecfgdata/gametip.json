@@ -663,7 +663,7 @@
   "SkinDiscountHelp_Carnival": {
     "tip": [
       {
-        "info": "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>キャンペーン対象の「スポーツ/レースクイーン」シリーズ着せ替えを購入するか、着せ替えパック（スポーツ/レースクイーン）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（スポーツ/レースクイーン）</color>を入手できます\n 2.<color=#92fc63>着せ替えクーポン（スポーツ/レースクイーン）</color>はキャンペーン対象衣装の着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n 3.キャンペーン終了時【2025年10月22日(水)　23:59】、未使用の<color=#92fc63>着せ替えクーポン（スポーツ/レースクイーン）</color>は削除されます"
+        "info": "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>キャンペーン対象の「ドレス」シリーズ着せ替えを購入するか、着せ替えパック（ドレス）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（ドレス）</color>を入手できます\n 2.<color=#92fc63>着せ替えクーポン（ドレス）</color>はキャンペーン対象衣装の着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n 3.キャンペーン終了時【2026年4月8日(水)　23:59】、未使用の<color=#92fc63>着せ替えクーポン（ドレス）</color>は削除されます"
       }
     ]
   },
@@ -3290,10 +3290,10 @@
     "tip": "施設を増築しますか？"
   },
   "buildship_heavy_tip": {
-    "tip": "「建武」常設実装！"
+    "tip": "「ゴリツィア」「アンドレア・ドーリア」常設実装！"
   },
   "buildship_light_tip": {
-    "tip": "「海容」「長風」常設実装！"
+    "tip": "「アッティリオ・レゴロ」常設実装！"
   },
   "buildship_new_tip": {
     "tip": "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
@@ -3836,6 +3836,9 @@
       }
     ]
   },
+  "child2_all_entry_title": {
+    "tip": "適用中解釈："
+  },
   "child2_assess_round": {
     "tip": "判定：($1ターン後）"
   },
@@ -3854,7 +3857,62 @@
   "child2_attr_title": {
     "tip": "パラメータ"
   },
+  "child2_benefit_moeny_effect": {
+    "tip": "財貨入手量増加："
+  },
+  "child2_benefit_mood_effect": {
+    "tip": "パラメータ成長増加："
+  },
+  "child2_benefit_result": {
+    "tip": "入手量追加："
+  },
+  "child2_benefit_summary": {
+    "tip": "入手量追加："
+  },
+  "child2_benefit_summary2": {
+    "tip": "最大強化合計："
+  },
+  "child2_choose_giveup": {
+    "tip": "諦める"
+  },
+  "child2_choose_help": {
+    "tip": [
+      {
+        "info": "運命占い：\n 所持している「タロットカード」と入手した「タロット解釈」でローラーは様々な強化効果を獲得します。「タロット解釈」は「タロットカード」と組み合わせて更に強力な効果を発揮します。\n タロットカードは同時に1枚しか所持できず、新しいカードを入手した場合、前のカードを捨てることができます。カードを捨てない場合、新しいカードを入手しない代わりに財貨を入手することができます。\n タロットカードは1枚につき、1度だけ引き直すことができます。また、タロット解釈も回数を消費して引き直すことができます。\n タロットカードの効果はカードを所持しているときのみ発揮しますが、そのカードを捨てても、すでに入手した解釈は無効になりません。\nタロットカードは複数の解釈を解放（入手）することができます。解釈の内容にはタロットのカード名が含まれ、そのカードと組み合わせると更に強力な効果を発揮します。\n\n  ·タロット（強化効果）画面では、画面下部に適用中の各種タロット/解釈強化効果の合計値を確認できます。\n ·<color=#ff5c5c>最小強化合計</color>：タロットカードと解釈の「無条件で適用できる効果」の合計強化値を表示します。\n ·<color=#ff5c5c>最大強化合計</color>：タロットカードと解釈の「適用条件を無視した、全効果を適用させる場合」の合計強化値を表示します。\n <color=#ff5c5c>（効果自体が強化される場合、その強化効果の初期効果のみ計算します）</color>。\n"
+      }
+    ]
+  },
+  "child2_choose_hide": {
+    "tip": "非表示"
+  },
+  "child2_choose_title": {
+    "tip": "運命占い"
+  },
+  "child2_collect_entry": {
+    "tip": "解釈"
+  },
+  "child2_collect_entry_progress": {
+    "tip": "解釈獲得数"
+  },
+  "child2_collect_talent": {
+    "tip": "アビリティ"
+  },
+  "child2_collect_talent_progress": {
+    "tip": "アビリティ獲得数"
+  },
+  "child2_collect_tarot": {
+    "tip": "饅頭タロット"
+  },
+  "child2_collect_tarot_progress": {
+    "tip": "集めたタロット："
+  },
   "child2_cur_round": {
+    "tip": "$1ターン目"
+  },
+  "child2_cur_round_temp": {
+    "tip": "追加ターン"
+  },
+  "child2_cur_wave": {
     "tip": "$1ターン目"
   },
   "child2_empty_plan": {
@@ -3869,11 +3927,108 @@
   "child2_endings_toggle_on": {
     "tip": "エンディング確認"
   },
+  "child2_endless_assest_wave": {
+    "tip": "エンドレス-$1ターン目"
+  },
+  "child2_endless_attrs_value": {
+    "tip": "パラメータ：$1"
+  },
+  "child2_endless_boss_value": {
+    "tip": "判定条件：$1"
+  },
+  "child2_endless_current_wave": {
+    "tip": "エンドレス-$1ターン目"
+  },
+  "child2_endless_history_wave": {
+    "tip": "エンドレス記録：$1ターン"
+  },
+  "child2_endless_reset_tip": {
+    "tip": "0"
+  },
+  "child2_endless_stage": {
+    "tip": "エンドレス"
+  },
+  "child2_endless_sure_tip": {
+    "tip": "エンドレスモードでは、ローラーとバーチャルタウンで引き続き生活できます。\nエンドレスモードでは判定の出現頻度と難易度が上昇し、判定を通過できなかった場合ゲームクリアになります。その際、到達したターン数がランキングに集計されます"
+  },
   "child2_enter": {
     "tip": "育成を開始する"
   },
+  "child2_entry_activated": {
+    "tip": "適用中効果数："
+  },
+  "child2_entry_summary": {
+    "tip": "獲得済みの解釈数："
+  },
+  "child2_explorer_main_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help13",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help14",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help15",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help16",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help17",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help18",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "child2_game_cnt": {
     "tip": "$1週目"
+  },
+  "child2_game_endless_cnt": {
+    "tip": "エンドレス：$1ターン目"
+  },
+  "child2_go_shop": {
+    "tip": "占い屋へ"
+  },
+  "child2_hard": {
+    "tip": "ハードモード"
+  },
+  "child2_hard_enter": {
+    "tip": "ハードモードを開始"
   },
   "child2_main_help": {
     "tip": {
@@ -3930,6 +4085,9 @@
       }
     }
   },
+  "child2_mood_benefit": {
+    "tip": "入手量追加："
+  },
   "child2_mood_desc1": {
     "tip": "現在の気分：絶不調； <color=#ee4a4a>報酬獲得-40%%</color>"
   },
@@ -3945,17 +4103,60 @@
   "child2_mood_desc5": {
     "tip": "現在の気分：絶好調； <color=#00c79b>報酬獲得+40%%</color>"
   },
+  "child2_mood_stage1": {
+    "tip": "現在の気分：絶不調"
+  },
+  "child2_mood_stage2": {
+    "tip": "現在の気分：不調"
+  },
+  "child2_mood_stage3": {
+    "tip": "現在の気分：普通"
+  },
+  "child2_mood_stage4": {
+    "tip": "現在の気分：絶好調"
+  },
+  "child2_mood_stage5": {
+    "tip": "現在の気分：絶好調"
+  },
+  "child2_nailing_game_count": {
+    "tip": "残り回数；"
+  },
+  "child2_nailing_game_result": {
+    "tip": "得点："
+  },
+  "child2_nailing_game_result2": {
+    "tip": "スコア："
+  },
+  "child2_nailing_game_score": {
+    "tip": "スコア："
+  },
+  "child2_nailing_game_tip": {
+    "tip": "タイミングよくハンマーを振り、黒い釘を打とう！"
+  },
+  "child2_nailing_minigame_help": {
+    "tip": [
+      {
+        "info": "スクラッチを削って報酬を手に入れよう！\nタロット解釈（強化効果）やパラメータ成長などの報酬が入手可能！\n報酬は下記になります：\n一等賞：\n·タロットカード、タロット解釈（効果）、パラメータ成長（大）、財貨、行動力、気分から1つを入手できます。\n\n二等賞：\n·タロット解釈（効果）、パラメータ成長（中）、財貨、行動力、気分から1つを入手できます。\n\n三等奖：\n·パラメータ成長（小）、財貨から1つを入手できます。"
+      }
+    ]
+  },
   "child2_not_start": {
     "tip": "まだ開始していません"
   },
   "child2_personal_change": {
     "tip": "性格変化"
   },
-  "child2_personal_tag1": {
+  "child2_personal_id1_tag1": {
     "tip": "大人しい"
   },
-  "child2_personal_tag2": {
+  "child2_personal_id1_tag2": {
     "tip": "ワガママ"
+  },
+  "child2_personal_id2_tag1": {
+    "tip": "内気"
+  },
+  "child2_personal_id2_tag2": {
+    "tip": "陽気"
   },
   "child2_personality_title": {
     "tip": "性格"
@@ -3968,6 +4169,54 @@
   },
   "child2_plan_upgrade_condition": {
     "tip": "[レベルアップ条件]"
+  },
+  "child2_pool_exhausted": {
+    "tip": "引き直せるものがありません"
+  },
+  "child2_priority_tip": {
+    "tip": "タロットか解釈を選んでください"
+  },
+  "child2_rank_header_attr": {
+    "tip": "クリア時パラメータ"
+  },
+  "child2_rank_header_info": {
+    "tip": "名前"
+  },
+  "child2_rank_header_rank": {
+    "tip": "順位"
+  },
+  "child2_rank_header_wave": {
+    "tip": "エンドレス記録"
+  },
+  "child2_rank_not_on": {
+    "tip": "ランク外"
+  },
+  "child2_rank_refresh_tip": {
+    "tip": "順位は30分毎に更新されます"
+  },
+  "child2_rank_toggle_attr": {
+    "tip": "ノーマル"
+  },
+  "child2_rank_toggle_endless": {
+    "tip": "エンドレス"
+  },
+  "child2_refresh_title": {
+    "tip": "引き直し回数残り："
+  },
+  "child2_replace_cancel": {
+    "tip": "戻る"
+  },
+  "child2_replace_sure": {
+    "tip": "確定"
+  },
+  "child2_replace_sure_tip": {
+    "tip": "新しいタロットにしますか？"
+  },
+  "child2_replace_tip": {
+    "tip": "タロットカードは同時に1種類しか所持できません。新しいタロットを入手した場合、古いタロットが失われます。\n適用中の解釈効果は影響されません"
+  },
+  "child2_replace_title": {
+    "tip": "新しいタロットにしますか？"
   },
   "child2_replay_clear": {
     "tip": "戻る"
@@ -3995,6 +4244,19 @@
   },
   "child2_schedule_target": {
     "tip": "合計パラメータ目標："
+  },
+  "child2_scratch_minigame_help": {
+    "tip": [
+      {
+        "info": "スクラッチを削って報酬を手に入れよう！\nタロット解釈（強化効果）やパラメータ成長などの報酬が入手可能！\n報酬は下記になります：\n一等賞：\n·タロットカード、タロット解釈（効果）、パラメータ成長（大）、財貨、行動力、気分から1つを入手できます。\n\n二等賞：\n·タロット解釈（効果）、パラメータ成長（中）、財貨、行動力、気分から1つを入手できます。\n\n三等奖：\n·パラメータ成長（小）、財貨から1つを入手できます。"
+      }
+    ]
+  },
+  "child2_secretary_skin_confirm": {
+    "tip": "尚未获得换装，前往换装商店购买？"
+  },
+  "child2_secretary_skin_expire": {
+    "tip": "販売期間外です"
   },
   "child2_select_help": {
     "tip": {
@@ -4060,6 +4322,9 @@
   "child2_shop_point_sure": {
     "tip": "行動力は上限までしか所持できません（上限を超えた行動力は自動で破棄されます）。続けますか？"
   },
+  "child2_show_detail_desc": {
+    "tip": "詳細解釈確認"
+  },
   "child2_site_again": {
     "tip": "もう1回"
   },
@@ -4084,14 +4349,35 @@
   "child2_status_title": {
     "tip": "状態"
   },
+  "child2_switch_sure": {
+    "tip": "ハードモードではタロットカードやタロット解釈がもっと出現するほか、判定目標が高くなります。モードを切り替えますか？\n<color=#f37a86>現在モードの進捗が失われます。順位に集計されたデータはリセットされません。</color>"
+  },
   "child2_talent_title": {
     "tip": "アビリティ"
   },
   "child2_talent_unlock_tip": {
     "tip": "$1ターン目で開放"
   },
+  "child2_tarot_empty": {
+    "tip": "タロットを所持していません"
+  },
+  "child2_tarot_tag_current": {
+    "tip": "所持タロット"
+  },
+  "child2_tarot_tag_replace": {
+    "tip": "新タロット"
+  },
+  "child2_tarot_title": {
+    "tip": "饅頭タロット"
+  },
   "child2_unlock_site_round": {
     "tip": "次のレベル解放まであと$1ターン"
+  },
+  "child2_word_giveup": {
+    "tip": "強化を諦める"
+  },
+  "child2_word_upgrade": {
+    "tip": "強化"
   },
   "child_archive_name": {
     "tip": "名前"
@@ -4129,14 +4415,32 @@
   "child_buff_name": {
     "tip": "状態"
   },
+  "child_buy_collect_success": {
+    "tip": "開放しました！"
+  },
+  "child_buy_ending_tip": {
+    "tip": "1周目クリア後に資金消費でエンディング回想購入可能"
+  },
+  "child_buy_memory_tip": {
+    "tip": "1周目クリア後に回想を解放可能"
+  },
+  "child_buy_polaroid_tip": {
+    "tip": "1周目クリア後に瞬間を解放可能"
+  },
   "child_callname_tip": {
     "tip": "名前を入力してください"
+  },
+  "child_cg_buy": {
+    "tip": "資金<icon name=gold w=0.4 h=0.4/>$1を消費し、回想$2を開放しますか？"
   },
   "child_close_tip": {
     "tip": "画面をタップして戻る"
   },
   "child_collect_lock": {
     "tip": "-未開放-"
+  },
+  "child_could_buy": {
+    "tip": "<icon name=gold w=0.4 h=0.4/>で開放"
   },
   "child_date_text1": {
     "tip": "在宅育成"
@@ -4340,6 +4644,9 @@
   "child_plan_skip": {
     "tip": "演出動画をスキップ"
   },
+  "child_plan_skip_event": {
+    "tip": "ランダムイベント演出をスキップ"
+  },
   "child_plan_type1": {
     "tip": "学園授業"
   },
@@ -4351,6 +4658,9 @@
   },
   "child_plan_type4": {
     "tip": "自由行動"
+  },
+  "child_polaroid_buy": {
+    "tip": "資金<icon name=gold w=0.4 h=0.4/>$1を消費し、回想$2を開放しますか？"
   },
   "child_polaroid_get_tip": {
     "tip": "収録済みのコンテンツは「大事な瞬間」にて確認できます"
@@ -5852,6 +6162,21 @@
   },
   "cryptolalia_use_ticket_title": {
     "tip": "チケットで開放"
+  },
+  "cultivating_plant_island_task": {
+    "tip": "離島で該当任務をクリア"
+  },
+  "cultivating_plant_part_1": {
+    "tip": "TB育成Ⅰ期へ"
+  },
+  "cultivating_plant_part_2": {
+    "tip": "TB育成Ⅱ期へ"
+  },
+  "cultivating_plant_part_3": {
+    "tip": "TB育成Ⅲ期へ"
+  },
+  "cultivating_plant_task_title": {
+    "tip": "一周目をクリア"
   },
   "cumulative_victory_now_tip": {
     "tip": "現在勝利回数："
