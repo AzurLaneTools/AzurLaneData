@@ -666,7 +666,7 @@
   "SkinDiscountHelp_Carnival": {
     "tip": [
       {
-        "info": "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「运动时间」、「疾速狂热」系列换装或一个换装礼盒(疾速狂热)时，可领取一张<color=#92fc63>换装折扣券（疾速狂热）</color>\n2.<color=#92fc63>换装折扣券（疾速狂热）</color>可用于购买「运动时间」、「疾速狂热」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（疾速狂热）</color>将会在活动结束后（2025年10月22日23:59:59）消失"
+        "info": "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「宴会礼服」系列换装或一个换装礼盒(宴会礼服)时，可领取一张<color=#92fc63>换装折扣券（宴会礼服）</color>\n2.<color=#92fc63>换装折扣券（宴会礼服）</color>可用于购买「宴会礼服」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（宴会礼服）</color>将会在活动结束后（2026年4月8日23:59:59）消失"
       }
     ]
   },
@@ -694,7 +694,7 @@
     "tip": "购买后的换装抵扣券数量将超过可使用换装的数量，部分换装抵扣券将无法使用。\n确认购买换装吗？"
   },
   "SkinDiscount_Owned_Tips": {
-    "tip": "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。\n如果已拥有礼盒内全部换装，则返还680钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+    "tip": "当前已拥有活动返场换装（$1/$2）。若已拥有全部活动返场换装，则该活动掉落的换装抵扣券无法使用。\n是否确认购买该礼包？"
   },
   "SkinMagazinePage2_tip": {
     "tip": "点击签到"
@@ -3376,10 +3376,10 @@
     "tip": "是否升级？升级会消耗对应材料"
   },
   "buildship_heavy_tip": {
-    "tip": "建武 建造追加！"
+    "tip": "戈里齐亚、安德里亚·多利亚 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "海容、长风 建造追加！"
+    "tip": "阿蒂利奥·雷戈洛 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "每累计建造200次可获得海上传奇舰船 {namecode:529}(最多4次)"
@@ -3960,6 +3960,9 @@
       }
     ]
   },
+  "child2_all_entry_title": {
+    "tip": "已解读释义："
+  },
   "child2_assess_round": {
     "tip": "考核： $1回合后"
   },
@@ -3978,7 +3981,62 @@
   "child2_attr_title": {
     "tip": "属性"
   },
+  "child2_benefit_moeny_effect": {
+    "tip": "当前金钱获取量加成： "
+  },
+  "child2_benefit_mood_effect": {
+    "tip": "当前属性获取量加成： "
+  },
+  "child2_benefit_result": {
+    "tip": "获取量加成："
+  },
+  "child2_benefit_summary": {
+    "tip": "获取量加成下限："
+  },
+  "child2_benefit_summary2": {
+    "tip": "获取量加成上限："
+  },
+  "child2_choose_giveup": {
+    "tip": "放弃选择"
+  },
+  "child2_choose_help": {
+    "tip": [
+      {
+        "info": "命运占卜：\n\n·在养成计划中，指挥官可以为艾普洛选择一张<color=#ff5c5c>塔罗牌</color>和若干<color=#ff5c5c>“释义”</color>，塔罗牌可以提供<color=#ff5c5c>各项增益</color>，“释义”则可以配合塔罗牌实现<color=#ff5c5c>更为强力的组合效果</color>。\n\n·同一时间最多只可持有一张塔罗牌，如再获得其他塔罗牌时，指挥官可以选择新塔罗牌以<color=#ff5c5c>替换</color>当前塔罗牌，也可以<color=#ff5c5c>放弃选择</color>并获得金钱。\n\n·指挥官可以使用<color=#ff5c5c>重抽次数</color>来重抽可选的塔罗牌，<color=#ff5c5c>每张塔罗牌最多可重抽一次</color>。指挥官同样可以消耗重抽次数以重抽“释义”。\n\n·塔罗牌的各项效果仅在持有时生效，如果持有的塔罗牌被替换，那么其效果也将失效，但已获得的所有“释义”将<color=#ff5c5c>永久保留</color>。\n\n·塔罗牌可以解读出多个“释义”，这些“释义”的名字中会包含其归属的塔罗牌，一般情况下，依照当前塔罗牌收集对应的“释义”可以获得更强的组合效果。\n\n·在塔罗牌详情窗口内，您可以在页面下方确认塔罗牌加成的上下限。\n·<color=#ff5c5c>获取量加成下限</color>：所有已拥有的无条件生效的塔罗牌和释义提供的获取量增益数值之和。\n·<color=#ff5c5c>获取量加成上限</color>：不计塔罗牌和释义生效条件的前提下，所有已拥有的获取量增益数值之和，<color=#ff5c5c>（计算时对各类具有成长性的增益只取基础值。）</color>。\n"
+      }
+    ]
+  },
+  "child2_choose_hide": {
+    "tip": "隐藏"
+  },
+  "child2_choose_title": {
+    "tip": "命运占卜"
+  },
+  "child2_collect_entry": {
+    "tip": "释义"
+  },
+  "child2_collect_entry_progress": {
+    "tip": "已解读释义数量"
+  },
+  "child2_collect_talent": {
+    "tip": "天赋"
+  },
+  "child2_collect_talent_progress": {
+    "tip": "已获得天赋数量"
+  },
+  "child2_collect_tarot": {
+    "tip": "啾啾塔罗牌"
+  },
+  "child2_collect_tarot_progress": {
+    "tip": "已收集的啾啾塔罗牌："
+  },
   "child2_cur_round": {
+    "tip": "第$1回合"
+  },
+  "child2_cur_round_temp": {
+    "tip": "临时回合"
+  },
+  "child2_cur_wave": {
     "tip": "第$1回合"
   },
   "child2_empty_plan": {
@@ -3993,11 +4051,108 @@
   "child2_endings_toggle_on": {
     "tip": "查看职业图鉴"
   },
+  "child2_endless_assest_wave": {
+    "tip": "长伴模式-第$1回合"
+  },
+  "child2_endless_attrs_value": {
+    "tip": "当前总属性：$1"
+  },
+  "child2_endless_boss_value": {
+    "tip": "考核需求：$1"
+  },
+  "child2_endless_current_wave": {
+    "tip": "当前长伴回合数：第$1回合"
+  },
+  "child2_endless_history_wave": {
+    "tip": "最高长伴回合数：第$1回合"
+  },
+  "child2_endless_reset_tip": {
+    "tip": "当前回合数已记录，是否确认重置养成？"
+  },
+  "child2_endless_stage": {
+    "tip": "长伴模式"
+  },
+  "child2_endless_sure_tip": {
+    "tip": "在长伴模式中，指挥官可以与艾普洛在虚拟小镇中继续生活。\n\n长伴模式的<color=#ff5c5c>考核频率和难度将增加</color>，如果艾普洛<color=#ff5c5c>没能通过考核</color>则长伴模式将<color=#ff5c5c>终止</color>，并根据已伴随的最高回合数计入排行。"
+  },
   "child2_enter": {
     "tip": "进入养成计划"
   },
+  "child2_entry_activated": {
+    "tip": "生效的加成数量"
+  },
+  "child2_entry_summary": {
+    "tip": "已解读释义数量："
+  },
+  "child2_explorer_main_help": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help13",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help14",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help15",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help16",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help17",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/educate_tb_help18",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
   "child2_game_cnt": {
     "tip": "第$1周目"
+  },
+  "child2_game_endless_cnt": {
+    "tip": "长伴回合：$1"
+  },
+  "child2_go_shop": {
+    "tip": "前往占星馆"
+  },
+  "child2_hard": {
+    "tip": "进阶模式"
+  },
+  "child2_hard_enter": {
+    "tip": "进入养成计划（进阶）"
   },
   "child2_main_help": {
     "tip": {
@@ -4054,6 +4209,9 @@
       }
     }
   },
+  "child2_mood_benefit": {
+    "tip": "额外收益："
+  },
   "child2_mood_desc1": {
     "tip": "当前心情阶段：郁郁寡欢  <color=#ee4a4a>收益减少40%%</color>"
   },
@@ -4069,17 +4227,60 @@
   "child2_mood_desc5": {
     "tip": "当前心情阶段：心花怒放  <color=#00c79b>收益增加40%%</color>"
   },
+  "child2_mood_stage1": {
+    "tip": "当前心情阶段：郁郁寡欢"
+  },
+  "child2_mood_stage2": {
+    "tip": "当前心情阶段：心情不佳"
+  },
+  "child2_mood_stage3": {
+    "tip": "当前心情阶段：心平气和"
+  },
+  "child2_mood_stage4": {
+    "tip": "当前心情阶段：心花怒放"
+  },
+  "child2_mood_stage5": {
+    "tip": "当前心情阶段：心花怒放"
+  },
+  "child2_nailing_game_count": {
+    "tip": "剩余机会："
+  },
+  "child2_nailing_game_result": {
+    "tip": "得分："
+  },
+  "child2_nailing_game_result2": {
+    "tip": "得分："
+  },
+  "child2_nailing_game_score": {
+    "tip": "当前得分："
+  },
+  "child2_nailing_game_tip": {
+    "tip": "点击“敲！”按钮，，把黑色钉子砸入木板吧！"
+  },
+  "child2_nailing_minigame_help": {
+    "tip": [
+      {
+        "info": "在锤子移动到黑色钉子上方的瞬间按下“<color=#ff5c5c>敲！</color>”按钮，可将黑色钉子砸入木板，注意要避开红色钉子哦。\n\n下砸需要消耗机会，每砸下一颗钉子可+1分，砸到模板不加分，砸到红色钉子则-1分。次数用尽后将根据得分结算奖励。\n\n有机会获得释义和属性等各项奖励！\n\n<color=#ff5c5c>一等奖：</color>\n·限定释义、塔罗牌、大量属性、大量金钱、行动力、心情中的一项。\n\n<color=#ff5c5c>二等奖：</color>：\n·限定释义、中量属性、中量金钱、行动力、心情中的一项。\n\n<color=#ff5c5c>三等奖：</color>：\n·少量属性、少量金钱中的一项。"
+      }
+    ]
+  },
   "child2_not_start": {
     "tip": "尚未进行"
   },
   "child2_personal_change": {
     "tip": "性格改变"
   },
-  "child2_personal_tag1": {
+  "child2_personal_id1_tag1": {
     "tip": "乖巧"
   },
-  "child2_personal_tag2": {
+  "child2_personal_id1_tag2": {
     "tip": "叛逆"
+  },
+  "child2_personal_id2_tag1": {
+    "tip": "内向"
+  },
+  "child2_personal_id2_tag2": {
+    "tip": "外向"
   },
   "child2_personality_title": {
     "tip": "性格"
@@ -4092,6 +4293,54 @@
   },
   "child2_plan_upgrade_condition": {
     "tip": "[升级条件]"
+  },
+  "child2_pool_exhausted": {
+    "tip": "无可重抽内容"
+  },
+  "child2_priority_tip": {
+    "tip": "请先选择塔罗牌或释义"
+  },
+  "child2_rank_header_attr": {
+    "tip": "通关时总属性"
+  },
+  "child2_rank_header_info": {
+    "tip": "昵称"
+  },
+  "child2_rank_header_rank": {
+    "tip": "排名"
+  },
+  "child2_rank_header_wave": {
+    "tip": "最高陪伴回合"
+  },
+  "child2_rank_not_on": {
+    "tip": "暂未上榜"
+  },
+  "child2_rank_refresh_tip": {
+    "tip": "排行榜每半小时更新一次"
+  },
+  "child2_rank_toggle_attr": {
+    "tip": "常规模式"
+  },
+  "child2_rank_toggle_endless": {
+    "tip": "长伴模式"
+  },
+  "child2_refresh_title": {
+    "tip": "剩余重抽次数："
+  },
+  "child2_replace_cancel": {
+    "tip": "取消"
+  },
+  "child2_replace_sure": {
+    "tip": "确认替换"
+  },
+  "child2_replace_sure_tip": {
+    "tip": "确认替换为新塔罗牌？"
+  },
+  "child2_replace_tip": {
+    "tip": "同一时间只能持有一张塔罗牌。获得新塔罗牌后，之前的塔罗牌将被替换。\n已获得的所有释义都将保留。"
+  },
+  "child2_replace_title": {
+    "tip": "确认替换为新塔罗牌？"
   },
   "child2_replay_clear": {
     "tip": "取消"
@@ -4119,6 +4368,19 @@
   },
   "child2_schedule_target": {
     "tip": "总属性需求："
+  },
+  "child2_scratch_minigame_help": {
+    "tip": [
+      {
+        "info": " 滑动屏幕刮开图层可获取奖励。\n\n有机会获得释义和属性等各项奖励！\n\n<color=#ff5c5c>一等奖：</color>\n·随机释义、随机塔罗牌、大量属性、大量金钱、行动力、心情中的一项。\n\n<color=#ff5c5c>二等奖：</color>\n·随机释义、中量属性、中量金钱、行动力、心情中的一项。\n\n<color=#ff5c5c>三等奖：</color>\n·少量属性、少量金钱中的一项。"
+      }
+    ]
+  },
+  "child2_secretary_skin_confirm": {
+    "tip": "尚未获得换装，前往换装商店购买？"
+  },
+  "child2_secretary_skin_expire": {
+    "tip": "当前不在换装售卖时间段内"
   },
   "child2_select_help": {
     "tip": {
@@ -4170,7 +4432,7 @@
     }
   },
   "child2_ship_upgrade_favor": {
-    "tip": "娜比娅与$1的熟稔度提升到$2级"
+    "tip": "与$1的熟稔度提升到$2级了"
   },
   "child2_shop_benefit_sure": {
     "tip": "目前已持有此状态，剩余$1回合，继续购买将刷新持续时间，是否继续？"
@@ -4183,6 +4445,9 @@
   },
   "child2_shop_point_sure": {
     "tip": "购买后行动力将超出上限，是否继续购买"
+  },
+  "child2_show_detail_desc": {
+    "tip": "显示详细描述"
   },
   "child2_site_again": {
     "tip": "再来一次"
@@ -4208,14 +4473,35 @@
   "child2_status_title": {
     "tip": "状态"
   },
+  "child2_switch_sure": {
+    "tip": "进阶模式下将解锁更多塔罗牌和释义，但挑战目标也会更高，是否确认切换模式？\n<color=#f37a86>当前模式的所有进度都将丢失，但已计入排行榜的数据不会重置。</color>"
+  },
   "child2_talent_title": {
     "tip": "天赋"
   },
   "child2_talent_unlock_tip": {
     "tip": "第$1回合解锁"
   },
+  "child2_tarot_empty": {
+    "tip": "当前暂无塔罗牌"
+  },
+  "child2_tarot_tag_current": {
+    "tip": "当前塔罗牌 "
+  },
+  "child2_tarot_tag_replace": {
+    "tip": "新塔罗牌"
+  },
+  "child2_tarot_title": {
+    "tip": "啾啾塔罗牌"
+  },
   "child2_unlock_site_round": {
     "tip": "距离解锁下一等级还剩$1回合"
+  },
+  "child2_word_giveup": {
+    "tip": "放弃升级"
+  },
+  "child2_word_upgrade": {
+    "tip": "升级"
   },
   "child_archive_name": {
     "tip": "姓名"
@@ -4253,14 +4539,32 @@
   "child_buff_name": {
     "tip": "状态"
   },
+  "child_buy_collect_success": {
+    "tip": "购买成功！"
+  },
+  "child_buy_ending_tip": {
+    "tip": "一周目通关后可使用物资解锁结局"
+  },
+  "child_buy_memory_tip": {
+    "tip": "一周目通关后可使用物资解锁记忆"
+  },
+  "child_buy_polaroid_tip": {
+    "tip": "一周目通关后可使用物资解锁瞬间"
+  },
   "child_callname_tip": {
     "tip": "请输入..."
+  },
+  "child_cg_buy": {
+    "tip": "确认消耗$1物资<icon name=gold w=0.4 h=0.4/>购买：$2？"
   },
   "child_close_tip": {
     "tip": "点 击 空 白 处 关 闭"
   },
   "child_collect_lock": {
     "tip": "-待解锁-"
+  },
+  "child_could_buy": {
+    "tip": "消耗<icon name=gold w=0.4 h=0.4/>解锁"
   },
   "child_date_text1": {
     "tip": "居家阶段"
@@ -4464,6 +4768,9 @@
   "child_plan_skip": {
     "tip": "跳过行程动画"
   },
+  "child_plan_skip_event": {
+    "tip": "跳过随机事件动画"
+  },
   "child_plan_type1": {
     "tip": "学校课程"
   },
@@ -4475,6 +4782,9 @@
   },
   "child_plan_type4": {
     "tip": "自由活动"
+  },
+  "child_polaroid_buy": {
+    "tip": "确认消耗$1物资<icon name=gold w=0.4 h=0.4/>购买：$2？"
   },
   "child_polaroid_get_tip": {
     "tip": "已收录，可于「瞬间」中查看"
@@ -5973,6 +6283,21 @@
   },
   "cryptolalia_use_ticket_title": {
     "tip": "使 用 奖 券 兑 换"
+  },
+  "cultivating_plant_island_task": {
+    "tip": "前往岛屿完成计划"
+  },
+  "cultivating_plant_part_1": {
+    "tip": "前往养成计划一期"
+  },
+  "cultivating_plant_part_2": {
+    "tip": "前往养成计划二期"
+  },
+  "cultivating_plant_part_3": {
+    "tip": "前往养成计划三期"
+  },
+  "cultivating_plant_task_title": {
+    "tip": "完成一周目："
   },
   "cumulative_victory_now_tip": {
     "tip": "当前胜利次数："
@@ -23667,7 +23992,7 @@
     "tip": "指挥官不在的时间里，有以下道具已经过期并转换"
   },
   "skin_discount_timelimit": {
-    "tip": "道具$1将于$2维护后到期，请及时前往换装商店使用"
+    "tip": "道具$1将于$2 24时后到期，请及时前往换装商店使用"
   },
   "skin_exchange_confirm": {
     "tip": "是否使用 <color=#92fc63>$1 *1</color> 兑换 <color=#92fc63>$2</color>"
