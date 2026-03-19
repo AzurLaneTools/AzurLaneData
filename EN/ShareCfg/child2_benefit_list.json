@@ -4987,7 +4987,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When the turn starts, if Mood is less than 70, +20 Mood; if Mood is 70 or above, instead increase all stats by +25.",
+    "desc": "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
     "during_time": -1,
     "get": "",
     "id": 3009,
@@ -5209,7 +5209,7 @@
     "item_icon": "buff_colours_1",
     "item_icon_little": "",
     "level_tag": 0,
-    "name": "Roon's Blessing ",
+    "name": "Roon's Blessing",
     "next_level": 0,
     "rare": 2,
     "show_content": [
@@ -5238,7 +5238,7 @@
     "item_icon": "buff_colours_1",
     "item_icon_little": "",
     "level_tag": 0,
-    "name": "Roon's Blessing ",
+    "name": "Roon's Blessing",
     "next_level": 0,
     "rare": 3,
     "show_content": [
@@ -5271,7 +5271,7 @@
     "item_icon": "benefit_2_luoen",
     "item_icon_little": "",
     "level_tag": 0,
-    "name": "Roon's Blessing ",
+    "name": "Roon's Blessing",
     "next_level": 0,
     "rare": 4,
     "show_content": [
@@ -22293,7 +22293,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Knowledge activities consume -50% Mood.",
+    "desc": "Dexterity activities consume -50% Mood.",
     "during_time": -1,
     "get": "",
     "id": 3240003,
@@ -22384,7 +22384,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When shopping at the Shop, Funds spent -60%.",
+    "desc": "Sensitivity activities consume -50% Mood.",
     "during_time": -1,
     "get": "",
     "id": 3240006,
@@ -22475,7 +22475,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
+    "desc": "Fitness activities consume -50% Mood.",
     "during_time": -1,
     "get": "",
     "id": 3240009,
@@ -22566,7 +22566,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Dexterity activities consume -50% Mood.",
+    "desc": "Knowledge activities consume -50% Mood.",
     "during_time": -1,
     "get": "",
     "id": 3240012,
@@ -22653,7 +22653,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Sensitivity activities consume -50% Mood.",
+    "desc": "When shopping at the Fortune Teller, Funds spent -10%.",
     "during_time": -1,
     "get": "",
     "id": 3240015,
@@ -22741,7 +22741,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Fitness activities consume -50% Mood.",
+    "desc": "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
     "during_time": -1,
     "get": "",
     "id": 3240018,
@@ -23321,7 +23321,7 @@
     "item_icon": "buff_tarot_14",
     "item_icon_little": "buff_tarot_14_l",
     "level_tag": 49,
-    "name": "Tarot – Temperance",
+    "name": "Tarot - Temperance",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -23504,7 +23504,7 @@
     "simple_desc": "When Mood is high, increase amount of Funds gained.",
     "tarot_tag": 15,
     "type": 4,
-    "upgrade_desc": "At turn start, if Mood is >60, +10% to amount of Funds gained."
+    "upgrade_desc": "At turn start, if Mood is >60, +20% to amount of Funds gained."
   },
   "3810062": {
     "benefit_level": 1,
@@ -23591,7 +23591,7 @@
     "simple_desc": "When leveling up a Reading, there is a chance to gain Funds.",
     "tarot_tag": 20,
     "type": 4,
-    "upgrade_desc": "When leveling up a Reading, 30% chance to gain +120 Funds."
+    "upgrade_desc": "When leveling up a Reading, 30% chance to gain +250 Funds."
   },
   "3810091": {
     "benefit_level": 1,
@@ -23646,7 +23646,7 @@
     "show_content": [
       38101011
     ],
-    "simple_desc": "Every 2 turns, gain a <color=#ff9829>random Reading</color>.",
+    "simple_desc": "Every 2 turns, gain a random Reading.",
     "tarot_tag": 20,
     "type": 4,
     "upgrade_desc": "Every 3 turns, gain 1 random Reading (stacking up to 20 times)."
@@ -23675,7 +23675,7 @@
     "show_content": [
       38101111
     ],
-    "simple_desc": "When possessing a large number of Readings, gain a <color=#ff9829>random Reading</color> every 2 turns.",
+    "simple_desc": "When possessing a large number of Readings, gain a random Reading every 2 turns.",
     "tarot_tag": 20,
     "type": 4,
     "upgrade_desc": "When possessing 20 or more Readings, gain 1 random Reading every 2 turns (stacking up to 20 times)."
@@ -23820,7 +23820,7 @@
     "show_content": [
       38101611
     ],
-    "simple_desc": "At certain locations, <color=#ff9829>new random events</color> may occur.",
+    "simple_desc": "At certain locations, new random events may occur.",
     "tarot_tag": 18,
     "type": 4,
     "upgrade_desc": ""
@@ -23849,7 +23849,7 @@
     "show_content": [
       38101711
     ],
-    "simple_desc": "At certain locations, <color=#ff9829>new random events</color> may occur.",
+    "simple_desc": "At certain locations, new random events may occur.",
     "tarot_tag": 18,
     "type": 4,
     "upgrade_desc": ""
@@ -24231,7 +24231,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Gain 1 Reading of The Tower - XI (every turn, +50 to all stats. When performing any activity, -2% to all stats). For every Ability possessed, +50 to all stats every turn.",
+    "desc": "Gain 1 Reading of The Tower - XI (every turn, +50 to all stats. When performing any activity, -2% to all stats). For every Ability possessed, +20 to all stats every turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3810251,
@@ -24365,7 +24365,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "For every Reading of The Devil possessed, all stats decrease by 0.5% at turn end and you gain Funds equal to 20% of the amount lost.",
+    "desc": "For every Reading of The Devil possessed, -0.5% to all stats at turn end and you gain Funds equal to 20% of the amount lost.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3810271,
@@ -24423,7 +24423,7 @@
     "simple_desc": "When obtained, gain Funds. Decrease amount of Funds gained permanently.",
     "tarot_tag": 16,
     "type": 4,
-    "upgrade_desc": "When obtained, Funds +500. -15% to amount of Funds gained permanently."
+    "upgrade_desc": "When obtained, Funds +500."
   },
   "3810291": {
     "benefit_level": 1,
@@ -24456,7 +24456,7 @@
     "simple_desc": "When obtained, increase all stats. When Personality changes, there's a chance to gain or lose Funds.",
     "tarot_tag": 16,
     "type": 4,
-    "upgrade_desc": "When obtained, +100 to all stats. When Personality changes, there's a chance to gain or lose 20 Funds."
+    "upgrade_desc": "When obtained, +100 to all stats. When Personality changes, there's a 50 % chance to gain or lose 20 Funds."
   },
   "3810301": {
     "benefit_level": 1,
@@ -24487,7 +24487,7 @@
     "simple_desc": "When obtained, gain Funds. When Going Outside, there's a chance to gain or lose Funds.",
     "tarot_tag": 16,
     "type": 4,
-    "upgrade_desc": "When obtained, Funds +500. When Going Outside, 20% chance to gain or lose 20 Funds."
+    "upgrade_desc": "When obtained, Funds +500. When Going Outside, 10% chance to gain or lose 20 Funds."
   },
   "3810311": {
     "benefit_level": 1,
@@ -24518,7 +24518,7 @@
     "simple_desc": "When obtained, increase Fitness. When gaining Affection, there's a chance to decrease Fitness.",
     "tarot_tag": 16,
     "type": 4,
-    "upgrade_desc": "When obtained, Fitness +500. When gaining Affection, -10 Fitness at a 50% chance."
+    "upgrade_desc": "When obtained, Fitness +500. When gaining Affection, -10 Fitness at a 20% chance."
   },
   "3810321": {
     "benefit_level": 1,
@@ -24576,7 +24576,7 @@
     "simple_desc": "When Funds are spent, there's a chance to gain Funds.",
     "tarot_tag": 4,
     "type": 4,
-    "upgrade_desc": "Every time 100 Funds are spent, +20 Funds at a 50% chance."
+    "upgrade_desc": "Every time 100 Funds are spent, +30 Funds at a 50% chance."
   },
   "3810341": {
     "benefit_level": 1,
@@ -24605,7 +24605,7 @@
     "simple_desc": "Earn interest on Funds.",
     "tarot_tag": 4,
     "type": 4,
-    "upgrade_desc": "At turn start, for every 100 Funds possessed, +5 Funds."
+    "upgrade_desc": "At turn start, for every 100 Funds possessed, +10 Funds."
   },
   "3810351": {
     "benefit_level": 1,
@@ -24634,7 +24634,7 @@
     "simple_desc": "When spending AP, gain Funds.",
     "tarot_tag": 4,
     "type": 4,
-    "upgrade_desc": "When spending AP, +40 Funds."
+    "upgrade_desc": "When spending AP, +80 Funds."
   },
   "3810361": {
     "benefit_level": 1,
@@ -24665,7 +24665,7 @@
     "simple_desc": "Increase amount of Funds gained. At turn end, lose some Funds.",
     "tarot_tag": 4,
     "type": 4,
-    "upgrade_desc": "+50% to amount of Funds gained. At turn end, lose 20% of Funds possessed."
+    "upgrade_desc": "+50% to amount of Funds gained."
   },
   "3810371": {
     "benefit_level": 1,
@@ -24722,7 +24722,7 @@
     "simple_desc": "When Funds are spent, increase amount of all stats gained until turn end.",
     "tarot_tag": 4,
     "type": 4,
-    "upgrade_desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end."
+    "upgrade_desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end."
   },
   "3810381": {
     "benefit_level": 1,
@@ -24782,7 +24782,7 @@
     "simple_desc": "Every turn, gain Funds.",
     "tarot_tag": 13,
     "type": 4,
-    "upgrade_desc": "At turn end, Funds +50."
+    "upgrade_desc": "At turn end, Funds +80."
   },
   "3810401": {
     "benefit_level": 1,
@@ -24811,7 +24811,7 @@
     "simple_desc": "Earn interest on Funds.",
     "tarot_tag": 13,
     "type": 4,
-    "upgrade_desc": "At turn end, gain Funds equal to 5% of Funds possessed."
+    "upgrade_desc": "At turn end, gain Funds equal to 10% of Funds possessed."
   },
   "3810411": {
     "benefit_level": 1,
@@ -24840,7 +24840,7 @@
     "simple_desc": "Recuperate some Funds spent.",
     "tarot_tag": 13,
     "type": 4,
-    "upgrade_desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end."
+    "upgrade_desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end."
   },
   "3810421": {
     "benefit_level": 1,
@@ -24869,7 +24869,7 @@
     "simple_desc": "Gain more Funds.",
     "tarot_tag": 13,
     "type": 4,
-    "upgrade_desc": "+40% to amount of funds gained."
+    "upgrade_desc": "+60% to amount of funds gained."
   },
   "3810431": {
     "benefit_level": 1,
@@ -24916,7 +24916,7 @@
     "simple_desc": "When Funds are spent, increase amount of Funds gained.",
     "tarot_tag": 13,
     "type": 4,
-    "upgrade_desc": "Every time 1,000 Funds are spent, +10% to amount of Funds gained permanently."
+    "upgrade_desc": "Every time 1,000 Funds are spent, +15% to amount of Funds gained permanently."
   },
   "3810441": {
     "benefit_level": 1,
@@ -24936,7 +24936,7 @@
     "item_icon": "buff_tarot_11",
     "item_icon_little": "buff_tarot_11_l",
     "level_tag": 46,
-    "name": "Tarot – Justice",
+    "name": "Tarot - Justice",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -24974,7 +24974,7 @@
     "simple_desc": "Gain Sensitivity based on Knowledge.",
     "tarot_tag": 12,
     "type": 4,
-    "upgrade_desc": "Every 2 turns, gain Sensitivity equal to 6% of Knowledge stat."
+    "upgrade_desc": "Every 2 turns, gain Sensitivity equal to 10% of Knowledge stat."
   },
   "3810461": {
     "benefit_level": 1,
@@ -25003,7 +25003,7 @@
     "simple_desc": "Gain Dexterity based on Fitness.",
     "tarot_tag": 12,
     "type": 4,
-    "upgrade_desc": "Every 2 turns, gain Fitness equal to 6% of Dexterity stat."
+    "upgrade_desc": "Every 2 turns, gain Fitness equal to 10% of Dexterity stat."
   },
   "3810471": {
     "benefit_level": 1,
@@ -25032,7 +25032,7 @@
     "simple_desc": "Gain Mood based on Funds.",
     "tarot_tag": 12,
     "type": 4,
-    "upgrade_desc": "Every 2 turns, gain Funds equal to 100% of Mood value."
+    "upgrade_desc": "Every 2 turns, gain Funds equal to 200% of Mood value."
   },
   "3810481": {
     "benefit_level": 1,
@@ -25206,7 +25206,7 @@
     "simple_desc": "When possessing certain Tarot Cards, increase amount of Funds gained.",
     "tarot_tag": 22,
     "type": 4,
-    "upgrade_desc": "When possessing a \"The World\" Tarot Card, +55% to amount of Funds gained."
+    "upgrade_desc": "When possessing a \"The World\" Tarot Card, +80% to amount of Funds gained."
   },
   "3810531": {
     "benefit_level": 1,
@@ -25235,7 +25235,7 @@
     "simple_desc": "When possessing certain Tarot Cards, increase amount of all stats gained.",
     "tarot_tag": 22,
     "type": 4,
-    "upgrade_desc": "When possessing a \"The World\" Tarot Card, +10% to amount of all stats gained."
+    "upgrade_desc": "When possessing a \"The World\"  Tarot Card, +20% to amount of all stats gained."
   },
   "3810541": {
     "benefit_level": 1,
@@ -25315,7 +25315,7 @@
     "simple_desc": "Increases amount of all resources gained. Every turn, decreases a fixed amount of all stats.",
     "tarot_tag": 11,
     "type": 4,
-    "upgrade_desc": "+20% to amount of all resources gained. Every turn, -30 to all stats."
+    "upgrade_desc": "+20% to amount of all resources gained. Every turn, -10 to all stats."
   },
   "3810561": {
     "benefit_level": 1,
@@ -25346,7 +25346,7 @@
     "simple_desc": "Increases amount of all stats gained. Every turn, decreases a fixed amount of Funds.",
     "tarot_tag": 11,
     "type": 4,
-    "upgrade_desc": "+10% to amount of all stats gained. Every turn, -60 Funds."
+    "upgrade_desc": "+10% to amount of all stats gained. Every turn, -30 Funds."
   },
   "3810571": {
     "benefit_level": 1,
@@ -25375,7 +25375,7 @@
     "simple_desc": "When possessing certain Readings, increase amount of all stats and resources gained.",
     "tarot_tag": 11,
     "type": 4,
-    "upgrade_desc": "For every two-sided Reading (having both positive and negative effects) possessed, +3% to amount of all stats and resources gained."
+    "upgrade_desc": "For every two-sided Reading (having both positive and negative effects) possessed, +5% to amount of all stats and resources gained."
   },
   "3810581": {
     "benefit_level": 1,
@@ -25395,7 +25395,7 @@
     "item_icon": "buff_tarot_8",
     "item_icon_little": "buff_tarot_8_l",
     "level_tag": 22,
-    "name": "Tarot – Strength",
+    "name": "Tarot - Strength",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -25433,7 +25433,7 @@
     "simple_desc": "When possessing certain Readings, increase amount of all stats gained.",
     "tarot_tag": 9,
     "type": 4,
-    "upgrade_desc": "For every Reading of Strength possessed, +2% to amount of all stats gained."
+    "upgrade_desc": "For every Reading of Strength possessed, +4% to amount of all stats gained."
   },
   "3810601": {
     "benefit_level": 1,
@@ -25462,7 +25462,7 @@
     "simple_desc": "Increase amount of all stats gained.",
     "tarot_tag": 9,
     "type": 4,
-    "upgrade_desc": "+5% to amount of all stats gained."
+    "upgrade_desc": "+10% to amount of all stats gained."
   },
   "3810611": {
     "benefit_level": 1,
@@ -25491,7 +25491,7 @@
     "simple_desc": "Every turn, increase amount gained of a random stat.",
     "tarot_tag": 9,
     "type": 4,
-    "upgrade_desc": "At turn start, +5% to a random stat."
+    "upgrade_desc": "At turn start, +10% to a random stat."
   },
   "3810612": {
     "benefit_level": 1,
@@ -25656,7 +25656,7 @@
     "item_icon": "buff_entry_1",
     "item_icon_little": "",
     "level_tag": 121,
-    "name": "The Magician – I",
+    "name": "The Magician - I",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -25694,7 +25694,7 @@
     "simple_desc": "Chance to gain 1 random Reading.",
     "tarot_tag": 2,
     "type": 4,
-    "upgrade_desc": "For 20 turns, every turn, 30% chance to gain 1 random Reading."
+    "upgrade_desc": "Every turn, 30% chance to gain 1 random Reading."
   },
   "3810651": {
     "benefit_level": 1,
@@ -25723,7 +25723,7 @@
     "simple_desc": "At turn end, activate 1 random The Magician Tarot Card effect.",
     "tarot_tag": 2,
     "type": 4,
-    "upgrade_desc": "At turn end, additionally activate 1 random The Magician Tarot Card effect."
+    "upgrade_desc": "At turn end, additionally activate 2 random The Magician Tarot Card effects."
   },
   "3810661": {
     "benefit_level": 1,
@@ -25764,7 +25764,7 @@
     "debuff_tag": 0,
     "desc": "For 1 turn, amount of Fitness gained +150%.",
     "during_time": 1,
-    "get": "For 1 turn, greatly increase amount of Knowledge gained.",
+    "get": "Obtainable from Fortune Teller",
     "id": 3810662,
     "ignore_on_collection": 1,
     "is_show": 1,
@@ -25791,7 +25791,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "For 1 turn, greatly increase amount of Sensitivity gained.",
+    "desc": "For 1 turn, amount of Knowledge gained +150%.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3810663,
@@ -25801,7 +25801,7 @@
     "item_icon": "buff_entry_5",
     "item_icon_little": "",
     "level_tag": 17,
-    "name": "For 1 turn, greatly increase amount of Dexterity gained.",
+    "name": "The Hierophant - IV",
     "next_level": 0,
     "rare": 4,
     "show_content": [
@@ -25899,7 +25899,7 @@
     "simple_desc": "When performing Sightseeing, gain Funds. When performing Experiences, gain Mood.",
     "tarot_tag": 6,
     "type": 4,
-    "upgrade_desc": "When performing Sightseeing, Funds +100. When performing Experiences, Mood +10."
+    "upgrade_desc": "When performing Sightseeing, Funds +150. When performing Experiences, Mood +15."
   },
   "3810681": {
     "benefit_level": 1,
@@ -25930,7 +25930,7 @@
     "simple_desc": "Gain a large amount of bonuses.",
     "tarot_tag": 6,
     "type": 4,
-    "upgrade_desc": "When obtained, Funds +100. +5% to amount of Funds gained and +10% to amount of Fitness and Knowledge gained permanently."
+    "upgrade_desc": "+10% to amount of Funds gained and +20% to amount of Fitness and Knowledge gained permanently."
   },
   "3810691": {
     "benefit_level": 1,
@@ -25961,7 +25961,7 @@
     "simple_desc": "Gain a large amount of bonuses.",
     "tarot_tag": 6,
     "type": 4,
-    "upgrade_desc": "When obtained, Mood +100. +10% to amount of Mood, Sensitivity, and Dexterity gained permanently."
+    "upgrade_desc": "+20% to amount of Mood, Sensitivity, and Dexterity gained permanently."
   },
   "3810701": {
     "benefit_level": 1,
@@ -26075,7 +26075,7 @@
     "simple_desc": "When gaining AP, there is a chance to gain an additional 1 AP.",
     "tarot_tag": 1,
     "type": 4,
-    "upgrade_desc": "When gaining AP, 20% chance to gain an additional 1 AP."
+    "upgrade_desc": "When gaining AP, 30% chance to gain an additional 1 AP."
   },
   "3810721": {
     "benefit_level": 1,
@@ -26104,7 +26104,7 @@
     "simple_desc": "When shopping at the Fortune Teller, there is a chance to gain 1 AP.",
     "tarot_tag": 1,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 10% chance to gain 1 AP."
+    "upgrade_desc": "When shopping at the Fortune Teller, 15% chance to gain 1 AP."
   },
   "3810731": {
     "benefit_level": 1,
@@ -26133,7 +26133,7 @@
     "simple_desc": "When spending AP, there is a chance to gain 1 AP.",
     "tarot_tag": 1,
     "type": 4,
-    "upgrade_desc": "When spending AP, 10% chance to gain 1 AP."
+    "upgrade_desc": "When spending AP, 15% chance to gain 1 AP."
   },
   "3810741": {
     "benefit_level": 1,
@@ -26220,7 +26220,7 @@
     "simple_desc": "When a certain number of AP remain, increase all stats.",
     "tarot_tag": 10,
     "type": 4,
-    "upgrade_desc": "At turn end, if there is 1 AP remaining, +25 to all stats."
+    "upgrade_desc": "At turn end, if there is 1 AP remaining, +50 to all stats."
   },
   "3810761": {
     "benefit_level": 1,
@@ -26249,7 +26249,7 @@
     "simple_desc": "When performing Sightseeing, there is a chance to gain 1 AP.",
     "tarot_tag": 10,
     "type": 4,
-    "upgrade_desc": "When performing Sightseeing, 10% chance to gain 1 AP."
+    "upgrade_desc": "When performing Sightseeing, 15% chance to gain 1 AP."
   },
   "3810771": {
     "benefit_level": 1,
@@ -26278,7 +26278,7 @@
     "simple_desc": "When performing Experiences, there is a chance to gain 1 AP.",
     "tarot_tag": 10,
     "type": 4,
-    "upgrade_desc": "When performing Experiences, 10% chance to gain 1 AP."
+    "upgrade_desc": "When performing Experiences, 15% chance to gain 1 AP."
   },
   "3810781": {
     "benefit_level": 1,
@@ -26337,7 +26337,7 @@
     "item_icon": "buff_entry_2",
     "item_icon_little": "",
     "level_tag": 6,
-    "name": "The High Priestess – IV",
+    "name": "The High Priestess - IV",
     "next_level": 0,
     "rare": 4,
     "show_content": [
@@ -26549,7 +26549,7 @@
     "simple_desc": "When spending a certain amount of Funds, Personality changes randomly at turn end.",
     "tarot_tag": 3,
     "type": 4,
-    "upgrade_desc": "When spending 250 or more Funds in a turn, Personality changes in a random direction by 5 points at turn end."
+    "upgrade_desc": "When spending 150 or more Funds in a turn, Personality changes in a random direction by 5 points at turn end."
   },
   "3810801": {
     "benefit_level": 1,
@@ -26578,7 +26578,7 @@
     "simple_desc": "When Mood is maxed out, there is a chance to gain 1 AP.",
     "tarot_tag": 3,
     "type": 4,
-    "upgrade_desc": "At turn start, if Mood is 100, 40% chance to gain 1 AP."
+    "upgrade_desc": "At turn start, if Mood is 100, 60% chance to gain 1 AP."
   },
   "3810811": {
     "benefit_level": 1,
@@ -26607,7 +26607,7 @@
     "simple_desc": "When Mood is maxed out, there is a chance to gain Funds.",
     "tarot_tag": 3,
     "type": 4,
-    "upgrade_desc": "At turn start, if Mood is 100, 50% chance to gain 50 Funds."
+    "upgrade_desc": "At turn start, if Mood is 100, 50% chance to gain 80 Funds."
   },
   "3810821": {
     "benefit_level": 1,
@@ -26675,7 +26675,7 @@
     "simple_desc": "When certain actions are completed, increase amount of all stats gained.",
     "tarot_tag": 7,
     "type": 4,
-    "upgrade_desc": "When Experience and Sightseeing are performed on the same turn, +10% to amount of all stats gained for that turn."
+    "upgrade_desc": "When Experience and Sightseeing are performed on the same turn, +20% to amount of all stats gained for that turn."
   },
   "3810841": {
     "benefit_level": 1,
@@ -26714,7 +26714,7 @@
     "simple_desc": "When certain actions are completed, gain Funds at turn end.",
     "tarot_tag": 7,
     "type": 4,
-    "upgrade_desc": "If an even number of AP are spent during a turn, +80 Funds at turn end."
+    "upgrade_desc": "If an even number of AP are spent during a turn, +160 Funds at turn end."
   },
   "3810851": {
     "benefit_level": 1,
@@ -26743,7 +26743,7 @@
     "simple_desc": "When certain actions are completed, gain Mood.",
     "tarot_tag": 7,
     "type": 4,
-    "upgrade_desc": "When performing Experiences, +8 Mood."
+    "upgrade_desc": "When performing Experiences, +16 Mood."
   },
   "3810861": {
     "benefit_level": 1,
@@ -26803,7 +26803,7 @@
     "simple_desc": "When Personality is Outgoing, increase amount of all resources gained.",
     "tarot_tag": 19,
     "type": 4,
-    "upgrade_desc": "When Personality is Outgoing, +10% to amount of resources gained."
+    "upgrade_desc": "When Personality is Outgoing, +15% to amount of resources gained."
   },
   "3810881": {
     "benefit_level": 1,
@@ -26832,7 +26832,7 @@
     "simple_desc": "When Personality is Shy, receive a discount at the Fortune Teller.",
     "tarot_tag": 19,
     "type": 4,
-    "upgrade_desc": "When Personality is Shy, cost of goods at the Fortune Teller -10%."
+    "upgrade_desc": "When Personality is Shy, cost of goods at the Fortune Teller -20%."
   },
   "3810891": {
     "benefit_level": 1,
@@ -26862,7 +26862,7 @@
     "simple_desc": "When gaining Personality value, increase all stats.",
     "tarot_tag": 19,
     "type": 4,
-    "upgrade_desc": "When gaining Personality value, +20 to all stats."
+    "upgrade_desc": "When gaining Personality value, +40 to all stats."
   },
   "3810901": {
     "benefit_level": 1,
@@ -26873,7 +26873,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When gaining Shy Personality during a turn, +50% to amount of Knowledge and Sensitivity gained next turn.",
+    "desc": "When gaining Shy Personality value during a turn, +50% to amount of Knowledge and Sensitivity gained next turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3810901,
@@ -26893,7 +26893,7 @@
     "simple_desc": "When gaining Shy Personality value, increase amount of all stats gained next turn.",
     "tarot_tag": 19,
     "type": 4,
-    "upgrade_desc": "When gaining Shy Personality during a turn, +50% to amount of Knowledge and Sensitivity gained next turn."
+    "upgrade_desc": "When gaining Shy Personality value during a turn, +100% to amount of Knowledge and Sensitivity gained next turn."
   },
   "3810911": {
     "benefit_level": 1,
@@ -26904,7 +26904,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When gaining Outgoing Personality during a turn, +50% to amount of Dexterity and Fitness gained next turn.",
+    "desc": "When gaining Outgoing Personality value during a turn, +50% to amount of Dexterity and Fitness gained next turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3810911,
@@ -26924,7 +26924,7 @@
     "simple_desc": "When gaining Outgoing Personality value, increase amount of stats gained next turn.",
     "tarot_tag": 19,
     "type": 4,
-    "upgrade_desc": "When gaining Outgoing Personality during a turn, +50% to amount of Dexterity and Fitness gained next turn."
+    "upgrade_desc": "When gaining Outgoing Personality value during a turn, +100% to amount of Dexterity and Fitness gained next turn."
   },
   "3810912": {
     "benefit_level": 1,
@@ -27090,7 +27090,7 @@
     "simple_desc": "When possessing certain Readings, gain Fitness.",
     "tarot_tag": 8,
     "type": 4,
-    "upgrade_desc": "Before Assessment starts, 30% chance of gaining Fitness equal to 50 times the number of The Chariot Readings possessed."
+    "upgrade_desc": "Before Assessment starts, gain Fitness equal to 50 times the number of The Chariot Readings possessed."
   },
   "3810941": {
     "benefit_level": 1,
@@ -27119,7 +27119,7 @@
     "simple_desc": "There is a low chance of increasing amount of Fitness gained.",
     "tarot_tag": 8,
     "type": 4,
-    "upgrade_desc": "When gaining Fitness, 20% chance of increasing that gain by +100%."
+    "upgrade_desc": "When gaining Fitness, 40% chance of increasing that gain by +100%."
   },
   "3810951": {
     "benefit_level": 1,
@@ -27150,7 +27150,7 @@
     "simple_desc": "Lose half of current knowledge and gain Fitness equal to 1.5 times the lost amount.",
     "tarot_tag": 8,
     "type": 4,
-    "upgrade_desc": "Lose 50% of current Knowledge and gain Fitness equal to 150% of the lost amount."
+    "upgrade_desc": "Lose 50% of current Knowledge and gain Fitness equal to 200% of the lost amount."
   },
   "3810961": {
     "benefit_level": 1,
@@ -27179,7 +27179,7 @@
     "simple_desc": "At regular intervals, increase Fitness based on Dexterity.",
     "tarot_tag": 8,
     "type": 4,
-    "upgrade_desc": "Every 5 turns, increase Fitness by 25% of Dexterity."
+    "upgrade_desc": "Every 3 turns, increase Fitness by 25% of Dexterity."
   },
   "3810971": {
     "benefit_level": 1,
@@ -27210,7 +27210,7 @@
     "simple_desc": "Gain Fitness. Increase amount of Fitness gained.",
     "tarot_tag": 8,
     "type": 4,
-    "upgrade_desc": "When obtained, +150 Fitness. +20% to amount of Fitness gained permanently."
+    "upgrade_desc": "+50% to amount of Fitness gained."
   },
   "3810981": {
     "benefit_level": 1,
@@ -27268,7 +27268,7 @@
     "simple_desc": "Randomly increase Fitness.",
     "tarot_tag": 21,
     "type": 4,
-    "upgrade_desc": "After Assessment, randomly increase Fitness by 5 to 10% of current Fitness."
+    "upgrade_desc": "After Assessment, randomly increase Fitness by 10 to 20% of current Fitness."
   },
   "3811001": {
     "benefit_level": 1,
@@ -27297,7 +27297,7 @@
     "simple_desc": "Randomly increase Dexterity.",
     "tarot_tag": 21,
     "type": 4,
-    "upgrade_desc": "After Assessment, randomly increase Dexterity by 5 to 10% of current Dexterity."
+    "upgrade_desc": "After Assessment, randomly increase Dexterity by 10 to 20% of current Dexterity."
   },
   "3811011": {
     "benefit_level": 1,
@@ -27326,7 +27326,7 @@
     "simple_desc": "Randomly increase Sensitivity.",
     "tarot_tag": 21,
     "type": 4,
-    "upgrade_desc": "After Assessment, randomly increase Sensitivity by 5 to 10% of current Sensitivity."
+    "upgrade_desc": "After Assessment, randomly increase Sensitivity by 10 to 20% of current Sensitivity."
   },
   "3811021": {
     "benefit_level": 1,
@@ -27355,7 +27355,7 @@
     "simple_desc": "Randomly increase Knowledge.",
     "tarot_tag": 21,
     "type": 4,
-    "upgrade_desc": "After Assessment, randomly increase Knowledge by 5 to 10% of current Knowledge."
+    "upgrade_desc": "After Assessment, randomly increase Knowledge by 10 to 20% of current Knowledge."
   },
   "3811031": {
     "benefit_level": 1,
@@ -27384,7 +27384,7 @@
     "simple_desc": "Increase all stats.",
     "tarot_tag": 21,
     "type": 4,
-    "upgrade_desc": "After Assessment, increase all stats by 5% of current stats."
+    "upgrade_desc": "After Assessment, increase all stats by 10% of current stats."
   },
   "3811041": {
     "benefit_level": 1,
@@ -27442,7 +27442,7 @@
     "simple_desc": "When Mood is high, receive a discount at the Fortune Teller.",
     "tarot_tag": 5,
     "type": 4,
-    "upgrade_desc": "At turn start, if Mood is >90, -10% to the cost of goods at the Fortune Teller for that turn."
+    "upgrade_desc": "At turn start, if Mood is >50, -10% to the cost of goods at the Fortune Teller for that turn."
   },
   "3811061": {
     "benefit_level": 1,
@@ -27471,7 +27471,7 @@
     "simple_desc": "When shopping at the Fortune Teller, there is a chance to gain 1 refresh.",
     "tarot_tag": 5,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 5% chance to gain 1 Fortune Teller refresh."
+    "upgrade_desc": "When shopping at the Fortune Teller, 10% chance to gain 1 Fortune Teller refresh."
   },
   "3811071": {
     "benefit_level": 1,
@@ -27500,7 +27500,7 @@
     "simple_desc": "When shopping at the Fortune Teller, there is a chance to gain 1 redraw.",
     "tarot_tag": 5,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 30% chance to gain 1 Tarot Card/Reading redraw."
+    "upgrade_desc": "When shopping at the Fortune Teller, 50% chance to gain 1 Tarot Card/Reading redraw."
   },
   "3811081": {
     "benefit_level": 1,
@@ -27549,7 +27549,7 @@
     "item_icon": "buff_tarot_13",
     "item_icon_little": "buff_tarot_13_l",
     "level_tag": 48,
-    "name": "Tarot – Death",
+    "name": "Tarot - Death",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -27568,7 +27568,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When possessing over 13 Death Readings, 50% to amount of all stats gained.",
+    "desc": "When possessing more than 13 Death Readings, 50% to amount of all stats gained.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3811091,
@@ -27587,7 +27587,7 @@
     "simple_desc": "When possessing certain Readings, greatly increase amount of all stats gained.",
     "tarot_tag": 14,
     "type": 4,
-    "upgrade_desc": "When possessing over 13 Death Readings, 50% to amount of all stats gained."
+    "upgrade_desc": "When possessing more than 13 Death Readings, 100% to amount of all stats gained."
   },
   "3811101": {
     "benefit_level": 1,
@@ -27616,7 +27616,7 @@
     "simple_desc": "After possessing a certain Tarot Card for a total of 13 turns, greatly increase amount of all stats gained.",
     "tarot_tag": 14,
     "type": 4,
-    "upgrade_desc": "After possessing a Death Tarot Card for a total of 13 turns, +65% to amount of all stats gained."
+    "upgrade_desc": "After possessing a Death Tarot Card for a total of 13 turns, +130% to amount of all stats gained."
   },
   "3811102": {
     "benefit_level": 1,
@@ -27674,7 +27674,7 @@
     "simple_desc": "When AP are spent, increase amount of all stats gained.",
     "tarot_tag": 14,
     "type": 4,
-    "upgrade_desc": "Every time 13 AP are spent, +13% to amount of all stats gained permanently."
+    "upgrade_desc": "Every time 13 AP are spent, +26% to amount of all stats gained permanently."
   },
   "3811121": {
     "benefit_level": 1,
@@ -27703,7 +27703,7 @@
     "simple_desc": "At turn start, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "At turn start, +30 to a random stat."
+    "upgrade_desc": "At turn start, +60 to a random stat."
   },
   "3811131": {
     "benefit_level": 1,
@@ -27732,7 +27732,7 @@
     "simple_desc": "At turn end, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "At turn end, +30 to a random stat."
+    "upgrade_desc": "At turn end, +60 to a random stat."
   },
   "3811141": {
     "benefit_level": 1,
@@ -27761,7 +27761,7 @@
     "simple_desc": "When shopping at the Fortune Teller, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, +20 to a random stat."
+    "upgrade_desc": "When shopping at the Fortune Teller, +40 to a random stat."
   },
   "3811151": {
     "benefit_level": 1,
@@ -27790,7 +27790,7 @@
     "simple_desc": "When performing Experiences, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "When performing Experiences, +30 to a random stat."
+    "upgrade_desc": "When performing Experiences, +60 to a random stat."
   },
   "3811161": {
     "benefit_level": 1,
@@ -27819,7 +27819,7 @@
     "simple_desc": "When a random event occurs, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "When taking part in a random event, +30 to a random stat."
+    "upgrade_desc": "When taking part in a random event, +60 to a random stat."
   },
   "3811171": {
     "benefit_level": 1,
@@ -27848,7 +27848,7 @@
     "simple_desc": "Before Assessment starts, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "Before Assessment starts, +150 to a random stat."
+    "upgrade_desc": "Before Assessment starts, +300 to a random stat."
   },
   "3811181": {
     "benefit_level": 1,
@@ -27874,10 +27874,10 @@
     "show_content": [
       38111811
     ],
-    "simple_desc": "After Assessments ends, increase a random stat.",
+    "simple_desc": "After Assessment ends, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "After Assessment ends, +150 to a random stat."
+    "upgrade_desc": "After Assessment ends, +300 to a random stat."
   },
   "3811191": {
     "benefit_level": 1,
@@ -27906,7 +27906,7 @@
     "simple_desc": "When performing Sightseeing, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "When performing Sightseeing, +30 to a random stat."
+    "upgrade_desc": "When performing Sightseeing, +60 to a random stat."
   },
   "3811201": {
     "benefit_level": 1,
@@ -27935,7 +27935,7 @@
     "simple_desc": "When leveling up a Reading, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "When leveling up a Reading, +100 to a random stat."
+    "upgrade_desc": "When leveling up a Reading, +200 to a random stat."
   },
   "3811211": {
     "benefit_level": 1,
@@ -27964,7 +27964,7 @@
     "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
-    "upgrade_desc": "Every turn, gain +10 to a random stat for each Swords Reading possessed."
+    "upgrade_desc": "Every turn, gain +20 to a random stat for each Swords Reading possessed."
   },
   "3811221": {
     "benefit_level": 1,
@@ -27993,7 +27993,7 @@
     "simple_desc": "When gaining AP, there is a chance to gain Mood.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When gaining AP, 25% chance of gaining +10 Mood."
+    "upgrade_desc": "When gaining AP, 50% chance of gaining +10 Mood."
   },
   "3811231": {
     "benefit_level": 1,
@@ -28022,7 +28022,7 @@
     "simple_desc": "When gaining AP, there is a chance to gain an additional 1 AP.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When gaining AP, 15% chance of gaining +1 AP."
+    "upgrade_desc": "When gaining AP, 20% chance of gaining +1 AP."
   },
   "3811241": {
     "benefit_level": 1,
@@ -28051,7 +28051,7 @@
     "simple_desc": "When performing Sightseeing, there is a chance to gain 1 AP.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When performing Sightseeing, 10% chance of gaining +1 AP."
+    "upgrade_desc": "When performing Sightseeing, 15% chance of gaining +1 AP."
   },
   "3811251": {
     "benefit_level": 1,
@@ -28080,7 +28080,7 @@
     "simple_desc": "When performing Experiences, there is a chance to gain 1 AP.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When performing Experiences, 10% chance of gaining +1 AP."
+    "upgrade_desc": "When performing Experiences, 15% chance of gaining +1 AP."
   },
   "3811261": {
     "benefit_level": 1,
@@ -28109,7 +28109,7 @@
     "simple_desc": "When a visiting event occurs, there is a chance to gain 1 AP.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When a visiting event occurs, 20% chance of gaining +1 AP."
+    "upgrade_desc": "When a visiting event occurs, 30% chance of gaining +1 AP."
   },
   "3811271": {
     "benefit_level": 1,
@@ -28138,7 +28138,7 @@
     "simple_desc": "When spending AP, gain Funds.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When spending AP, Funds +20."
+    "upgrade_desc": "When spending AP, Funds +30."
   },
   "3811281": {
     "benefit_level": 1,
@@ -28167,7 +28167,7 @@
     "simple_desc": "When spending a certain amount of AP, gain redraws at turn end.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When 4 or more AP are used in a turn, gain 2 redraws at turn end."
+    "upgrade_desc": "When 4 or more AP are used in a turn, gain 3 redraws at turn end."
   },
   "3811291": {
     "benefit_level": 1,
@@ -28196,7 +28196,7 @@
     "simple_desc": "When spending AP, gain Mood.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When spending AP, Mood +3."
+    "upgrade_desc": "When spending AP, Mood +5."
   },
   "3811301": {
     "benefit_level": 1,
@@ -28225,7 +28225,7 @@
     "simple_desc": "There is a chance to not spend AP when Going Outside.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "When spending AP, 10% chance of gaining 1 AP."
+    "upgrade_desc": "When spending AP, 15% chance of gaining 1 AP."
   },
   "3811311": {
     "benefit_level": 1,
@@ -28254,7 +28254,7 @@
     "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 24,
     "type": 4,
-    "upgrade_desc": "Every turn, gain +10 to a random stat for each Wands Reading possessed."
+    "upgrade_desc": "Every turn, gain +20 to a random stat for each Wands Reading possessed."
   },
   "3811321": {
     "benefit_level": 1,
@@ -28283,7 +28283,7 @@
     "simple_desc": "Every turn, when Personality is Shy, gain Mood.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When Personality is Shy, gain +12 Mood every turn."
+    "upgrade_desc": "When Personality is Shy, gain +20 Mood every turn."
   },
   "3811331": {
     "benefit_level": 1,
@@ -28312,7 +28312,7 @@
     "simple_desc": "Every turn, when Personality is Outgoing, gain Funds.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When Personality is Outgoing, gain +50 Funds every turn."
+    "upgrade_desc": "When Personality is Outgoing, gain +80 Funds every turn."
   },
   "3811341": {
     "benefit_level": 1,
@@ -28343,7 +28343,7 @@
     "simple_desc": "When gaining Personality value, gain Funds based on the amount.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When gaining Personality value, +2 Funds per value gained."
+    "upgrade_desc": "When gaining Personality value, +3 Funds per value gained."
   },
   "3811351": {
     "benefit_level": 1,
@@ -28372,7 +28372,7 @@
     "simple_desc": "Every turn, gain Mood.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "Every turn, Mood +10."
+    "upgrade_desc": "Every turn, Mood +15."
   },
   "3811361": {
     "benefit_level": 1,
@@ -28382,7 +28382,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Randomly gain between 1 to 10 Personality Outgoing value every turn.",
+    "desc": "Randomly gain between 1 to 10 Outgoing Personality value every turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3811361,
@@ -28398,10 +28398,10 @@
     "show_content": [
       38113611
     ],
-    "simple_desc": "Randomly gain Outgoing value.",
+    "simple_desc": "Randomly gain Outgoing Personality value.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "Randomly gain between 1 to 10 Personality Outgoing value every turn."
+    "upgrade_desc": "Randomly gain between 5 to 10 Outgoing Personality value every turn."
   },
   "3811371": {
     "benefit_level": 1,
@@ -28411,7 +28411,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Randomly gain between 1 to 10 Personality Shy value every turn.",
+    "desc": "Randomly gain between 1 to 10 Shy Personality value every turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3811371,
@@ -28427,10 +28427,10 @@
     "show_content": [
       38113711
     ],
-    "simple_desc": "Randomly gain Shy value.",
+    "simple_desc": "Randomly gain Shy Personality value.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "Randomly gain between 1 to 10 Personality Shy value every turn."
+    "upgrade_desc": "Randomly gain between 5 to 10 Shy Personality value every turn."
   },
   "3811381": {
     "benefit_level": 1,
@@ -28459,7 +28459,7 @@
     "simple_desc": "Every turn, when Personality heavily leans one way, gain Funds.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When Personality is relatively Outgoing or Shy (i.e. either Personality value is 50 or higher), gain +50 Funds every turn."
+    "upgrade_desc": "When Personality is relatively Outgoing or Shy (i.e. either Personality value is 50 or higher), gain +80 Funds every turn."
   },
   "3811391": {
     "benefit_level": 1,
@@ -28487,10 +28487,10 @@
       38113911,
       38113921
     ],
-    "simple_desc": "When gaining personality value, there is a chance to gain Funds.",
+    "simple_desc": "When gaining Personality value, there is a chance to gain Funds.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When gaining Personality value, 25% chance to gain +20 Funds."
+    "upgrade_desc": "When gaining Personality value, 25% chance to gain +30 Funds."
   },
   "3811401": {
     "benefit_level": 1,
@@ -28518,10 +28518,10 @@
       38114011,
       38114021
     ],
-    "simple_desc": "When gaining personality value, there is a chance to gain Mood.",
+    "simple_desc": "When gaining Personality value, there is a chance to gain Mood.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "When gaining Personality value, 25% chance to gain +30 Mood."
+    "upgrade_desc": "When gaining Personality value, 25% chance to gain +50 Mood."
   },
   "3811411": {
     "benefit_level": 1,
@@ -28550,7 +28550,7 @@
     "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 25,
     "type": 4,
-    "upgrade_desc": "Every turn, gain +10 to a random stat for each Cups Reading possessed."
+    "upgrade_desc": "Every turn, gain +20 to a random stat for each Cups Reading possessed."
   },
   "3811421": {
     "benefit_level": 1,
@@ -28579,7 +28579,7 @@
     "simple_desc": "When shopping at the Fortune Teller, there is a chance to gain Mood.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 50% chance to gain +3 Mood."
+    "upgrade_desc": "When shopping at the Fortune Teller, 50% chance to gain +5 Mood."
   },
   "3811431": {
     "benefit_level": 1,
@@ -28608,7 +28608,7 @@
     "simple_desc": "Every 3 turns, gain 1 Fortune Teller refresh.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "Gain 1 Fortune Teller refresh every 3 turns."
+    "upgrade_desc": "Gain 1 Fortune Teller refresh every 2 turns."
   },
   "3811441": {
     "benefit_level": 1,
@@ -28663,10 +28663,10 @@
     "show_content": [
       38114511
     ],
-    "simple_desc": "When shopping at the Fortune Teller, there is a low chance to gain a high amount of Funds.",
+    "simple_desc": "When shopping at the Fortune Teller, there is a slight chance to gain a high amount of Funds.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 1% chance of gaining +999 Funds."
+    "upgrade_desc": "When shopping at the Fortune Teller, 1.5% chance of gaining +999 Funds."
   },
   "3811461": {
     "benefit_level": 1,
@@ -28695,7 +28695,7 @@
     "simple_desc": "When spending a certain amount of Funds, gain Mood at turn end.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When over 300 Funds are spent in a turn, Mood +8 at turn end."
+    "upgrade_desc": "When over 300 Funds are spent in a turn, Mood +16 at turn end."
   },
   "3811471": {
     "benefit_level": 1,
@@ -28705,7 +28705,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Gain 1 redraw every 2 turns.",
+    "desc": "Gain 1 Tarot Card/Reading redraw every 2 turns.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3811471,
@@ -28721,10 +28721,10 @@
     "show_content": [
       38114711
     ],
-    "simple_desc": "Every 2 turns, gain 1 Tarot Card/Reading redraw.",
+    "simple_desc": "Every 2 turns, gain 1 redraw.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "Gain 1 redraw every 2 turns."
+    "upgrade_desc": "Gain 1 Tarot Card/Reading redraw every turn."
   },
   "3811481": {
     "benefit_level": 1,
@@ -28753,7 +28753,7 @@
     "simple_desc": "When shopping at the Fortune Teller, gain Mood.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, Mood +1."
+    "upgrade_desc": "When shopping at the Fortune Teller, Mood +2."
   },
   "3811491": {
     "benefit_level": 1,
@@ -28782,7 +28782,7 @@
     "simple_desc": "When shopping at the Fortune Teller, there is a chance to gain Funds.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, 50% chance of gaining +10 Funds."
+    "upgrade_desc": "When shopping at the Fortune Teller, 50% chance of gaining +15 Funds."
   },
   "3811501": {
     "benefit_level": 1,
@@ -28811,7 +28811,7 @@
     "simple_desc": "When shopping at the Fortune Teller, gain Funds.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "When shopping at the Fortune Teller, Funds +5."
+    "upgrade_desc": "When shopping at the Fortune Teller, Funds +7."
   },
   "3811511": {
     "benefit_level": 1,
@@ -28840,7 +28840,7 @@
     "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 26,
     "type": 4,
-    "upgrade_desc": "Every turn, +10 to a random stat for each Pentacles Reading possessed."
+    "upgrade_desc": "Every turn, +20 to a random stat for each Pentacles Reading possessed."
   },
   "3815001": {
     "benefit_level": 1,
@@ -29113,7 +29113,7 @@
     "debuff_tag": 0,
     "desc": "【玩家看不到】获取效率-3%",
     "during_time": -1,
-    "get": "Obtainable from Fortune Teller ",
+    "get": "Obtainable from Fortune Teller",
     "id": 3815010,
     "ignore_on_collection": 1,
     "is_show": 0,
@@ -30387,7 +30387,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When possessing 10 or more Readings, AP +1 next turn.",
+    "desc": "When Readings possessed >10, AP +1 next turn.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3820091,
@@ -30432,7 +30432,7 @@
     "show_content": [
       38201011
     ],
-    "simple_desc": "Every 2 turns, gain a random Reading.",
+    "simple_desc": "Every 3 turns, gain a random Reading.",
     "tarot_tag": 20,
     "type": 4,
     "upgrade_desc": ""
@@ -30577,7 +30577,7 @@
     "show_content": [
       38201611
     ],
-    "simple_desc": "At certain locations, <color=#ff9829>new random events</color> may occur.",
+    "simple_desc": "At certain locations, new random events may occur.",
     "tarot_tag": 18,
     "type": 4,
     "upgrade_desc": ""
@@ -30606,7 +30606,7 @@
     "show_content": [
       38201711
     ],
-    "simple_desc": "At certain locations, <color=#ff9829>new random events</color> may occur.",
+    "simple_desc": "At certain locations, new random events may occur.",
     "tarot_tag": 18,
     "type": 4,
     "upgrade_desc": ""
@@ -31107,7 +31107,7 @@
     "show_content": [
       38202811
     ],
-    "simple_desc": "When obtained, gain Funds.",
+    "simple_desc": "When obtained, gain Funds. Decrease amount of Funds gained permanently.",
     "tarot_tag": 16,
     "type": 4,
     "upgrade_desc": ""
@@ -31319,7 +31319,7 @@
       38203611,
       38203612
     ],
-    "simple_desc": "Increase amount of Funds gained.",
+    "simple_desc": "Increase amount of Funds gained. At turn end, lose some Funds.",
     "tarot_tag": 4,
     "type": 4,
     "upgrade_desc": ""
@@ -31476,7 +31476,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "+60% to amount of funds gained.",
+    "desc": "+60% to amount of Funds gained.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3820421,
@@ -31492,7 +31492,7 @@
     "show_content": [
       38204211
     ],
-    "simple_desc": "Double amount of Funds gained.",
+    "simple_desc": "Gain more Funds.",
     "tarot_tag": 13,
     "type": 4,
     "upgrade_desc": ""
@@ -32088,7 +32088,7 @@
     "item_icon": "buff_entry_1",
     "item_icon_little": "",
     "level_tag": 121,
-    "name": "The Magician – I",
+    "name": "The Magician - I",
     "next_level": 0,
     "rare": 1,
     "show_content": [
@@ -32430,7 +32430,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When spending 150 or more Funds in 1 turn, Personality changes in a random direction by 5 points.",
+    "desc": "When spending 200 or more Funds in 1 turn, Personality changes in a random direction by 5 points.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3820791,
@@ -32551,7 +32551,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "If an even number of AP are spent during a turn, +160 Funds at turn end.",
+    "desc": "If an even number of AP are spent during a turn, +200 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3820841,
@@ -32720,7 +32720,7 @@
       38209011,
       38209141
     ],
-    "simple_desc": "When gaining Shy Personality value, increase amount of all stats gained next turn.",
+    "simple_desc": "When gaining Shy Personality value, increase amount of some stats gained next turn.",
     "tarot_tag": 19,
     "type": 4,
     "upgrade_desc": ""
@@ -32751,7 +32751,7 @@
       38209111,
       38209151
     ],
-    "simple_desc": "When gaining Outgoing Personality value, increase amount of stats gained next turn.",
+    "simple_desc": "When gaining Outgoing Personality value, increase amount of some stats gained next turn.",
     "tarot_tag": 19,
     "type": 4,
     "upgrade_desc": ""
@@ -33252,7 +33252,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When possessing 14 or more Death Readings, +100% to amount of all stats gained.",
+    "desc": "When possessing more than 13 Death Readings, 100% to amount of all stats gained.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller (Hard Mode)",
     "id": 3821091,
@@ -33310,7 +33310,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "After possessing a Death Tarot Card for a total of 13 turns, +65% to amount of all stats gained.",
+    "desc": "After possessing a Death Tarot Card for a total of 13 turns, +130% to amount of all stats gained.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3821102,
@@ -33471,7 +33471,7 @@
     "show_content": [
       38211511
     ],
-    "simple_desc": "When performing Experiences, increase Fitness.",
+    "simple_desc": "When performing Experiences, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33500,7 +33500,7 @@
     "show_content": [
       38211611
     ],
-    "simple_desc": "When a random event occurs, increase Fitness.",
+    "simple_desc": "When a random event occurs, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33529,7 +33529,7 @@
     "show_content": [
       38211711
     ],
-    "simple_desc": "Before Assessment starts, increase Fitness.",
+    "simple_desc": "Before Assessment starts, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33558,7 +33558,7 @@
     "show_content": [
       38211811
     ],
-    "simple_desc": "After Assessments ends, increase Fitness.",
+    "simple_desc": "After Assessments ends, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33587,7 +33587,7 @@
     "show_content": [
       38211911
     ],
-    "simple_desc": "When performing Sightseeing, increase Fitness.",
+    "simple_desc": "When performing Sightseeing, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33616,7 +33616,7 @@
     "show_content": [
       38212011
     ],
-    "simple_desc": "When leveling up a Reading, increase Fitness.",
+    "simple_desc": "When leveling up a Reading, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33645,7 +33645,7 @@
     "show_content": [
       38212111
     ],
-    "simple_desc": "Every turn, when certain Readings are possessed, increase Fitness.",
+    "simple_desc": "Every turn, when certain Readings are possessed, increase a random stat.",
     "tarot_tag": 23,
     "type": 4,
     "upgrade_desc": ""
@@ -33935,7 +33935,7 @@
     "show_content": [
       38213111
     ],
-    "simple_desc": "Every turn, when possessing certain Readings, increase Dexterity.",
+    "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 24,
     "type": 4,
     "upgrade_desc": ""
@@ -34082,7 +34082,7 @@
     "show_content": [
       38213611
     ],
-    "simple_desc": "Randomly gain Outgoing value.",
+    "simple_desc": "Randomly gain Outgoing Personality value.",
     "tarot_tag": 25,
     "type": 4,
     "upgrade_desc": ""
@@ -34111,7 +34111,7 @@
     "show_content": [
       38213711
     ],
-    "simple_desc": "Randomly gain Shy value.",
+    "simple_desc": "Randomly gain Shy Personality value.",
     "tarot_tag": 25,
     "type": 4,
     "upgrade_desc": ""
@@ -34171,7 +34171,7 @@
       38213911,
       38213921
     ],
-    "simple_desc": "When gaining personality value, there is a chance to gain Funds.",
+    "simple_desc": "When gaining Personality value, there is a chance to gain Funds.",
     "tarot_tag": 25,
     "type": 4,
     "upgrade_desc": ""
@@ -34231,7 +34231,7 @@
     "show_content": [
       38214111
     ],
-    "simple_desc": "Every turn, when possessing certain Readings, increase Sensitivity.",
+    "simple_desc": "Every turn, when possessing certain Readings, increase a random stat.",
     "tarot_tag": 25,
     "type": 4,
     "upgrade_desc": ""
@@ -34289,7 +34289,7 @@
     "show_content": [
       38214311
     ],
-    "simple_desc": "Every turn, gain 1 Fortune Teller refresh.",
+    "simple_desc": "Every 3 turns, gain 1 Fortune Teller refresh.",
     "tarot_tag": 26,
     "type": 4,
     "upgrade_desc": ""
@@ -34360,7 +34360,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "When over 300 Funds are spent in a turn, Mood +16 at turn end.",
+    "desc": "When over 150 Funds are spent in a turn, Mood +10 at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3821461,
@@ -34389,7 +34389,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every turn, gain 1 redraw.",
+    "desc": "Every turn, gain 1 Tarot Card/Reading redraw.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3821471,
@@ -34405,7 +34405,7 @@
     "show_content": [
       38214711
     ],
-    "simple_desc": "Every turn, gain 1 Tarot Card/Reading redraw.",
+    "simple_desc": "Every 2 turns, gain 1 redraw.",
     "tarot_tag": 26,
     "type": 4,
     "upgrade_desc": ""
@@ -34534,7 +34534,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825066,
@@ -34563,7 +34563,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825067,
@@ -34592,7 +34592,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825068,
@@ -34621,7 +34621,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825069,
@@ -34650,7 +34650,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825070,
@@ -34679,7 +34679,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825071,
@@ -34708,7 +34708,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825072,
@@ -34737,7 +34737,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825073,
@@ -34766,7 +34766,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825074,
@@ -34795,7 +34795,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825075,
@@ -34824,7 +34824,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825076,
@@ -34853,7 +34853,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825077,
@@ -34882,7 +34882,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825078,
@@ -34911,7 +34911,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825079,
@@ -34940,7 +34940,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+    "desc": "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
     "during_time": 1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825080,
@@ -34969,7 +34969,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825081,
@@ -34998,7 +34998,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825082,
@@ -35027,7 +35027,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825083,
@@ -35056,7 +35056,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825084,
@@ -35085,7 +35085,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825085,
@@ -35114,7 +35114,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825086,
@@ -35143,7 +35143,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825087,
@@ -35172,7 +35172,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825088,
@@ -35201,7 +35201,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825089,
@@ -35230,7 +35230,7 @@
     ],
     "count_desc": "",
     "debuff_tag": 0,
-    "desc": "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+    "desc": "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
     "during_time": -1,
     "get": "Obtainable from Fortune Teller",
     "id": 3825090,
