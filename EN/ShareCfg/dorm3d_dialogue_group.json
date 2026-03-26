@@ -10101,6 +10101,25 @@
       1
     ]
   },
+  "110305": {
+    "action_type": "lie",
+    "bgm": "",
+    "char_id": 10517,
+    "extend_loading": 0,
+    "id": 110305,
+    "performance_type": 0,
+    "reward": 0,
+    "room_id": 11,
+    "story": "DORM3DGIFTFEEDBACK1105",
+    "trigger_area": "",
+    "trigger_config": "",
+    "type": 402,
+    "unlock": [
+      1,
+      10517,
+      1
+    ]
+  },
   "110510": {
     "action_type": "stand",
     "bgm": "",
@@ -10275,6 +10294,62 @@
     "unlock": [
       3,
       1051701
+    ]
+  },
+  "110551": {
+    "action_type": "sit",
+    "bgm": "",
+    "char_id": 10517,
+    "extend_loading": 1,
+    "id": 110551,
+    "performance_type": 1,
+    "reward": 0,
+    "room_id": 11,
+    "story": "DormLvPerformance1105",
+    "trigger_area": "",
+    "trigger_config": [
+      11
+    ],
+    "type": 700,
+    "unlock": [
+      3,
+      1051702
+    ]
+  },
+  "110552": {
+    "action_type": "sit",
+    "bgm": "",
+    "char_id": 10517,
+    "extend_loading": 0,
+    "id": 110552,
+    "performance_type": 0,
+    "reward": 0,
+    "room_id": 11,
+    "story": "DORM3DGIFTAVG11051",
+    "trigger_area": "",
+    "trigger_config": "",
+    "type": 600,
+    "unlock": [
+      3,
+      1051702
+    ]
+  },
+  "110553": {
+    "action_type": "sit",
+    "bgm": "",
+    "char_id": 10517,
+    "extend_loading": 0,
+    "id": 110553,
+    "performance_type": 0,
+    "reward": 0,
+    "room_id": 11,
+    "story": "DORM3TIMELINE11005",
+    "trigger_area": "",
+    "trigger_config": "",
+    "type": 600,
+    "unlock": [
+      3,
+      1051702
     ]
   },
   "110601": {
@@ -15893,6 +15968,7 @@
     110302,
     110303,
     110304,
+    110305,
     110601,
     110602,
     110603,
@@ -15905,6 +15981,9 @@
     110541,
     110542,
     110543,
+    110551,
+    110552,
+    110553,
     120001,
     120002,
     120003,
@@ -16266,6 +16345,7 @@
       110302,
       110303,
       110304,
+      110305,
       110601,
       110602,
       110603,
@@ -16277,7 +16357,10 @@
       110531,
       110541,
       110542,
-      110543
+      110543,
+      110551,
+      110552,
+      110553
     ],
     "19903": [
       30101,
@@ -17516,6 +17599,7 @@
       110302,
       110303,
       110304,
+      110305,
       110601,
       110602,
       110603,
@@ -17527,7 +17611,10 @@
       110531,
       110541,
       110542,
-      110543
+      110543,
+      110551,
+      110552,
+      110553
     ],
     "12": [
       120001,
