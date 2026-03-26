@@ -9720,6 +9720,50 @@
     "themeId": 0,
     "type": 7
   },
+  "332": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ソーン・シティの市政管理ビル。ルールと指令の中枢たるそれは、夜闇に静かに佇んでいる",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "ワンダラー募集計画",
+    "icon": "tegongdushixunzhangicon",
+    "id": 332,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "市政管理ビル",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "tegongdushixunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -122905,6 +122949,90 @@
     "themeId": 0,
     "type": 7
   },
+  "100083": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ネオンの輝きの中で、あなただけの軌跡を描こう",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "chaojitegongfengzhengicon",
+    "id": 100083,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ファンタズム・フライヤー",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      4,
+      5
+    ],
+    "spine": [
+      [
+        "chaojitegongfengzhengB",
+        "normal"
+      ],
+      [
+        "chaojitegongfengzhengT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "action4",
+            "3": "tuozhuai2"
+          }
+        ],
+        {
+          "3": [
+            "action1",
+            "tuozhuai2",
+            false,
+            true
+          ]
+        },
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      0.8
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 6,
+    "themeId": 0,
+    "type": 11
+  },
   "200001": {
     "advice": 0,
     "belong": 1,
@@ -160103,6 +160231,957 @@
     "spine_extra": "",
     "tag": 5,
     "themeId": 135,
+    "type": 6
+  },
+  "336001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "コマンドセンターでデータストリームに包まれながら都市を見下ろそう",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibantgicon",
+    "id": 336001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室の床",
+    "offset": [],
+    "picture": "tg/dibantg",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 136,
+    "type": 4
+  },
+  "336002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "コマンドセンターでデータストリームに包まれながら都市を見下ろそう",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbitgicon",
+    "id": 336002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "指揮室の壁",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 136,
+    "type": 1
+  },
+  "336101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "複数の操作パネルを組み合わせたコンソール。ボタンの押し間違いに注意！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      [
+        "char2",
+        1
+      ],
+      [
+        "char1",
+        -1
+      ]
+    ],
+    "gain_by": "",
+    "icon": "caozuotaitgicon",
+    "id": 336101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室操作台",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      14,
+      3
+    ],
+    "spine": [
+      [
+        "caozuotaitgB",
+        "normal"
+      ],
+      [
+        "caozuotaitgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "sit1",
+            "3": "sit"
+          }
+        ],
+        [],
+        [
+          1
+        ],
+        [
+          [
+            "sit1"
+          ],
+          [
+            "sit2"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": [
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "生体認証クリア、アクセスを許可します",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "damentgicon",
+    "id": 336102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室安全扉",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      24,
+      1
+    ],
+    "spine": [
+      [
+        "damentg",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "標準の物資収納ボックス。各種装備やパーツを保管している",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "daxiangzitgicon",
+    "id": 336103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室収納箱",
+    "offset": [],
+    "picture": "tg/daxiangzitg",
+    "rarity": 1,
+    "size": [
+      2,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "高精度3D空間イメージング装置。都市の全体像をリアルタイムで投影する",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditutgicon",
+    "id": 336104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "都市プロジェクション",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "ditutg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "高密度データ演算センター。オペレーションに演算リソースを提供してくれる",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fuwuqitgicon",
+    "id": 336105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室サーバー",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "fuwuqitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "液冷放熱と静音エアフロー設計を採用した筐体。高効率で動作音も静か",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jixiangtgicon",
+    "id": 336106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室筐体",
+    "offset": [],
+    "picture": "tg/jixiangtg",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "軸調整が可能なモニター。多角的な情報分析ニーズに対応している",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "pingmuzutgicon",
+    "id": 336107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室モニター図",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "pingmuzutg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ホログラムで出撃中！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "quanxitgicon",
+    "id": 336108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "ホログラム",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "quanxitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "デスクのハードウェアがアップグレードしたことで作業効率もぐんと上昇！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "shuzhuotgicon",
+    "id": 336109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室ワークデスク",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      5,
+      7
+    ],
+    "spine": [
+      [
+        "shuzhuotgB",
+        "normal"
+      ],
+      [
+        "shuzhuotgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "腰を屈めて体を捻らせ、レーザーに触れないように！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tanceqitgicon",
+    "id": 336110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "レーザー発生装置",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      1,
+      5
+    ],
+    "spine": [
+      [
+        "tanceqitg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ターゲット確認、直ちに出発するピョ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tegongjiutgicon",
+    "id": 336111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "エージェント饅頭",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      5,
+      1
+    ],
+    "spine": [
+      [
+        "tegongjiutg",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "雑貨は収納ボックスにお任せ",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiangzikaitgicon",
+    "id": 336112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室雑貨箱",
+    "offset": [],
+    "picture": "tg/xiangzikaitg",
+    "rarity": 1,
+    "size": [
+      2,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "今日も指揮室は平和ピョ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xunluojiutgicon",
+    "id": 336113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "パトロール饅頭",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "xunluojiutg",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "ピッ——ピッ——ピヨ！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yinxiangtgicon",
+    "id": 336114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室スピーカー",
+    "offset": [],
+    "picture": "",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "yinxiangtg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "マルチスペクトルスキャンとリアルタイム3Dレンダリングに対応。身元特定や装備分析などに利用可能",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "saomiaoyitgicon",
+    "id": 336115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "指揮室スキャナー",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      7,
+      6
+    ],
+    "spine": [
+      [
+        "saomiaoyitgB",
+        "normal"
+      ],
+      [
+        "saomiaoyitgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 136,
+    "type": 2
+  },
+  "336301": {
+    "advice": 0,
+    "belong": 3,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "監視映像をリアルタイム投影し、全体の動向が一目瞭然",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapingtgicon",
+    "id": 336301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "指揮室モニター",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      18,
+      0
+    ],
+    "spine": [
+      [
+        "dapingtg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 136,
+    "type": 6
+  },
+  "336302": {
+    "advice": 0,
+    "belong": 4,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "容疑者リスト更新完了、直ちに逮捕状を発行する！",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tongjilingtgicon",
+    "id": 336302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "指揮室指名手配書",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      10,
+      0
+    ],
+    "spine": [
+      [
+        "tongjilingtg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 136,
     "type": 6
   }
 }
