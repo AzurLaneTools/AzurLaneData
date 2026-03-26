@@ -21557,6 +21557,17 @@
           ""
         ],
         0
+      ],
+      [
+        "進行輕型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 70110,
@@ -21587,6 +21598,17 @@
         "限時活動：深度回音",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "進行重型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "heavy"
+          }
         ],
         0
       ]
@@ -21621,6 +21643,16 @@
           ""
         ],
         0
+      ],
+      [
+        "军需商店兑换",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 70109,
@@ -21653,6 +21685,17 @@
           ""
         ],
         0
+      ],
+      [
+        "進行特型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 70701,
@@ -21683,6 +21726,28 @@
         "限時活動：深度回音",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "進行重型、特型艦建造",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
+        ],
+        0
+      ],
+      [
+        "常駐UR兌換",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "special"
+          }
         ],
         0
       ]
@@ -32810,6 +32875,41 @@
     "trans_skin": 0,
     "trans_type": 0,
     "type": 1
+  },
+  "30053": {
+    "code": 30053,
+    "description": [
+      [
+        "限時活動：世界巡遊",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9702081
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970208,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30050,
+    "nationality": 97,
+    "property_hexagon": [
+      "B",
+      "E",
+      "E",
+      "B",
+      "B",
+      "C"
+    ],
+    "redirect_id": 101,
+    "share_group_id": [],
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 2
   },
   "30055": {
     "code": 30055,
