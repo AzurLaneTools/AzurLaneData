@@ -5841,6 +5841,215 @@
     "unlock": "",
     "zone": "14001"
   },
+  "14501": {
+    "anim_time": 0,
+    "desc": "일어서기",
+    "enter_extra_item": [
+      [
+        "furniture/Item/Book_01/pre_db_book_01_IK600510",
+        "",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        "IK_desk02_idle01_book"
+      ]
+    ],
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle01_ZZ"
+      ]
+    ],
+    "finish_anim": 0,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action24",
+    "id": 14501,
+    "pre_anim": 0,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle01",
+    "staypoint": "Pos600510",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14502": {
+    "anim_time": 23.9,
+    "desc": "스트레칭",
+    "enter_extra_item": [
+      [
+        "furniture/Item/Book_01/pre_db_book_01_IK600510",
+        "",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        "IK_desk02_idle01_fb02_book"
+      ]
+    ],
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle01_fb02_ZZ"
+      ]
+    ],
+    "finish_anim": 14501,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action25",
+    "id": 14502,
+    "pre_anim": 14501,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle01_fb02",
+    "staypoint": "Pos600510",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14503": {
+    "anim_time": 15.567,
+    "desc": "뒹굴뒹굴",
+    "enter_extra_item": [
+      [
+        "furniture/Item/Book_01/pre_db_book_01_IK600510",
+        "",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        "IK_desk02_idle01_fb01_book"
+      ]
+    ],
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle01_fb01_ZZ"
+      ]
+    ],
+    "finish_anim": 14501,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action14",
+    "id": 14503,
+    "pre_anim": 14501,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle01_fb01",
+    "staypoint": "Pos600510",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14504": {
+    "anim_time": 0,
+    "desc": "일어서기",
+    "enter_extra_item": "",
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle02_ZZ"
+      ]
+    ],
+    "finish_anim": 0,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action20",
+    "id": 14504,
+    "pre_anim": 0,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle02",
+    "staypoint": "Pos600520",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14505": {
+    "anim_time": 11.333,
+    "desc": "스트레칭",
+    "enter_extra_item": "",
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle02_fb01_ZZ"
+      ]
+    ],
+    "finish_anim": 14504,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action13",
+    "id": 14505,
+    "pre_anim": 14504,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle02_fb01",
+    "staypoint": "Pos600520",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14506": {
+    "anim_time": 24.533,
+    "desc": "느긋",
+    "enter_extra_item": "",
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle02_fb02_ZZ"
+      ]
+    ],
+    "finish_anim": 14504,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action14",
+    "id": 14506,
+    "pre_anim": 14504,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle02_fb02",
+    "staypoint": "Pos600520",
+    "unlock": "",
+    "zone": "14002"
+  },
+  "14507": {
+    "anim_time": 23.667,
+    "desc": "자랑스러움",
+    "enter_extra_item": "",
+    "enter_scene_anim": [
+      [
+        2023,
+        "IK_desk02_idle02_fb03_ZZ"
+      ]
+    ],
+    "finish_anim": 14504,
+    "furniture_id": 1462,
+    "hide_scene_item": "",
+    "icon": "camera_action15",
+    "id": 14507,
+    "pre_anim": 14504,
+    "room": 14,
+    "ship_group": 49905,
+    "state": "IK_desk02_idle02_fb03",
+    "staypoint": "Pos600520",
+    "unlock": "",
+    "zone": "14002"
+  },
   "16001": {
     "anim_time": 0,
     "desc": "대기",
@@ -6497,6 +6706,13 @@
     14404,
     14405,
     14406,
+    14501,
+    14502,
+    14503,
+    14504,
+    14505,
+    14506,
+    14507,
     16001,
     16002,
     16003,
@@ -6909,6 +7125,15 @@
       14404,
       14405,
       14406
+    ],
+    "1462": [
+      14501,
+      14502,
+      14503,
+      14504,
+      14505,
+      14506,
+      14507
     ]
   }
 }

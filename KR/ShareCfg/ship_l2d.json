@@ -112027,58 +112027,6 @@
     "smooth": 100,
     "start_value": 0
   },
-  "70502206": {
-    "action_trigger": {
-      "type": 7
-    },
-    "action_trigger_active": "",
-    "drag_direct": 0,
-    "draw_able_name": "",
-    "gyro": 0,
-    "gyro_x": 0,
-    "gyro_y": 0,
-    "gyro_z": 0,
-    "id": 70502206,
-    "ignore_action": 1,
-    "ignore_react": 1,
-    "limit_time": 1,
-    "listener_data": {
-      "change": [
-        [
-          2,
-          [
-            "touch_drag3"
-          ],
-          0.5
-        ]
-      ],
-      "type": 1
-    },
-    "mode": 2,
-    "offset_circle": "",
-    "offset_x": 0,
-    "offset_y": 0,
-    "parameter": "touch_drag1",
-    "parts_data": "",
-    "range": [
-      0,
-      1
-    ],
-    "range_abs": 1,
-    "react_condition": "",
-    "react_pos_x": 0,
-    "react_pos_y": 0,
-    "relation_parameter": "",
-    "revert": -1,
-    "revert_action_index": 0,
-    "revert_idle_index": "",
-    "revert_smooth": 100,
-    "save_parameter": 0,
-    "ship_skin_id": 705022,
-    "shop_action": 0,
-    "smooth": 100,
-    "start_value": 0
-  },
   "70502207": {
     "action_trigger": {
       "action": "touch_idle1",
@@ -112491,14 +112439,11 @@
   },
   "70502214": {
     "action_trigger": {
-      "action": "touch_drag3",
-      "target": 1,
-      "time": 1,
-      "type": 2
+      "type": 7
     },
     "action_trigger_active": "",
     "drag_direct": 0,
-    "draw_able_name": "TouchDrag3",
+    "draw_able_name": "",
     "gyro": 0,
     "gyro_x": 0,
     "gyro_y": 0,
@@ -112512,6 +112457,13 @@
         [
           2,
           [
+            "touch_drag3"
+          ],
+          1
+        ],
+        [
+          2,
+          [
             "touch_drag5"
           ],
           0
@@ -112519,7 +112471,7 @@
       ],
       "type": 1
     },
-    "mode": 2,
+    "mode": 1,
     "offset_circle": "",
     "offset_x": 0,
     "offset_y": 0,
@@ -112546,14 +112498,11 @@
   },
   "70502215": {
     "action_trigger": {
-      "action": "touch_drag4",
-      "target": 1,
-      "time": 3,
-      "type": 2
+      "type": 7
     },
     "action_trigger_active": "",
     "drag_direct": 0,
-    "draw_able_name": "TouchDrag4",
+    "draw_able_name": "",
     "gyro": 0,
     "gyro_x": 0,
     "gyro_y": 0,
@@ -112570,11 +112519,18 @@
             "touch_drag5"
           ],
           0
+        ],
+        [
+          2,
+          [
+            "touch_drag4"
+          ],
+          1
         ]
       ],
       "type": 1
     },
-    "mode": 2,
+    "mode": 1,
     "offset_circle": "",
     "offset_x": 0,
     "offset_y": 0,
@@ -112596,7 +112552,7 @@
     "save_parameter": 0,
     "ship_skin_id": 705022,
     "shop_action": 0,
-    "smooth": 3000,
+    "smooth": 2500,
     "start_value": 0
   },
   "70502216": {
@@ -142022,7 +141978,6 @@
     70502203,
     70502204,
     70502205,
-    70502206,
     70502207,
     70502208,
     70502209,
