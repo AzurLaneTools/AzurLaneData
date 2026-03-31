@@ -345,21 +345,21 @@
     "param": "MoscowURCoreActivityUI",
     "pic": "event_core",
     "text_pic": "text_event_core",
-    "time": [
-      "default",
-      50429
-    ],
+    "time": "stop",
     "type": 16
   },
   "110": {
-    "group_id": 2,
+    "group_id": 1,
     "id": 110,
     "name": "event_core_2",
-    "order": 2,
-    "param": "SpringFestival2026CoreActivityUI",
-    "pic": "event_core2",
-    "text_pic": "text_event_core2",
-    "time": "stop",
+    "order": 1,
+    "param": "AprilFoolDiscovery2026UI",
+    "pic": "event_core3",
+    "text_pic": "text_event_core3",
+    "time": [
+      "default",
+      50493
+    ],
     "type": 16
   },
   "111": {
@@ -391,10 +391,10 @@
     "type": 0
   },
   "113": {
-    "group_id": 1,
+    "group_id": 2,
     "id": 113,
-    "name": "event_core_2",
-    "order": 1,
+    "name": "event_core",
+    "order": 2,
     "param": "EighthAnniversaryJpCoreActivityUI",
     "pic": "event_special",
     "text_pic": "text_event_special",
@@ -479,11 +479,11 @@
     ],
     "event_core": [
       109,
+      113,
       114
     ],
     "event_core_2": [
-      110,
-      113
+      110
     ],
     "event_dreamland": [
       103
