@@ -304437,6 +304437,96 @@
     "damage": 100,
     "id": 183520
   },
+  "183521": {
+    "action_index": "attack",
+    "aim_type": 1,
+    "angle": 360,
+    "attack_attribute": 1,
+    "attack_attribute_ratio": 100,
+    "auto_aftercast": 0,
+    "axis_angle": 0,
+    "barrage_ID": [
+      82302,
+      82303
+    ],
+    "bullet_ID": [
+      167258,
+      167258
+    ],
+    "charge_param": "",
+    "corrected": 100,
+    "damage": 62,
+    "effect_move": 0,
+    "expose": 0,
+    "fire_fx": "CLFire",
+    "fire_fx_loop_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "id": 183521,
+    "initial_over_heat": 0,
+    "min_range": 0,
+    "oxy_type": [
+      1
+    ],
+    "precast_param": [],
+    "queue": 1,
+    "range": 120,
+    "recover_time": 0,
+    "reload_max": 500,
+    "search_condition": [
+      1
+    ],
+    "search_type": 1,
+    "shakescreen": 0,
+    "spawn_bound": "cannon",
+    "suppress": 1,
+    "torpedo_ammo": 0,
+    "type": 1
+  },
+  "183522": {
+    "base": 183521,
+    "damage": 70,
+    "id": 183522
+  },
+  "183523": {
+    "base": 183521,
+    "damage": 78,
+    "id": 183523
+  },
+  "183524": {
+    "base": 183521,
+    "damage": 86,
+    "id": 183524
+  },
+  "183525": {
+    "base": 183521,
+    "damage": 94,
+    "id": 183525
+  },
+  "183526": {
+    "base": 183521,
+    "damage": 102,
+    "id": 183526
+  },
+  "183527": {
+    "base": 183521,
+    "damage": 110,
+    "id": 183527
+  },
+  "183528": {
+    "base": 183521,
+    "damage": 118,
+    "id": 183528
+  },
+  "183529": {
+    "base": 183521,
+    "damage": 126,
+    "id": 183529
+  },
+  "183530": {
+    "base": 183521,
+    "damage": 135,
+    "id": 183530
+  },
   "183531": {
     "action_index": "attack",
     "aim_type": 0,
@@ -304714,6 +304804,208 @@
     "base": 183581,
     "damage": 132,
     "id": 183590
+  },
+  "183591": {
+    "action_index": "attack",
+    "aim_type": 0,
+    "angle": 360,
+    "attack_attribute": 1,
+    "attack_attribute_ratio": 100,
+    "auto_aftercast": 0,
+    "axis_angle": 0,
+    "barrage_ID": [
+      82305,
+      82306,
+      82307,
+      82308,
+      82309
+    ],
+    "bullet_ID": [
+      167260,
+      167260,
+      167260,
+      167260,
+      167260
+    ],
+    "charge_param": "",
+    "corrected": 100,
+    "damage": 11,
+    "effect_move": 0,
+    "expose": 0,
+    "fire_fx": "",
+    "fire_fx_loop_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "id": 183591,
+    "initial_over_heat": 0,
+    "min_range": 0,
+    "oxy_type": [
+      1
+    ],
+    "precast_param": [],
+    "queue": 1,
+    "range": 100,
+    "recover_time": 0,
+    "reload_max": 3000,
+    "search_condition": [
+      1
+    ],
+    "search_type": 1,
+    "shakescreen": 0,
+    "spawn_bound": "cannon",
+    "suppress": 0,
+    "torpedo_ammo": 0,
+    "type": 1
+  },
+  "183592": {
+    "base": 183591,
+    "damage": 13,
+    "id": 183592
+  },
+  "183593": {
+    "base": 183591,
+    "damage": 14,
+    "id": 183593
+  },
+  "183594": {
+    "base": 183591,
+    "damage": 16,
+    "id": 183594
+  },
+  "183595": {
+    "base": 183591,
+    "damage": 17,
+    "id": 183595
+  },
+  "183596": {
+    "base": 183591,
+    "damage": 19,
+    "id": 183596
+  },
+  "183597": {
+    "base": 183591,
+    "damage": 20,
+    "id": 183597
+  },
+  "183598": {
+    "base": 183591,
+    "damage": 22,
+    "id": 183598
+  },
+  "183599": {
+    "base": 183591,
+    "damage": 23,
+    "id": 183599
+  },
+  "183600": {
+    "base": 183591,
+    "damage": 25,
+    "id": 183600
+  },
+  "183631": {
+    "action_index": "attack",
+    "aim_type": 1,
+    "angle": 360,
+    "attack_attribute": 1,
+    "attack_attribute_ratio": 100,
+    "auto_aftercast": 0,
+    "axis_angle": 0,
+    "barrage_ID": [
+      1
+    ],
+    "bullet_ID": [
+      167261
+    ],
+    "charge_param": "",
+    "corrected": 100,
+    "damage": 39,
+    "effect_move": 0,
+    "expose": 0,
+    "fire_fx": "CLFire",
+    "fire_fx_loop_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "id": 183631,
+    "initial_over_heat": 0,
+    "min_range": 0,
+    "oxy_type": [
+      1
+    ],
+    "precast_param": [],
+    "queue": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "reload_max": 412,
+    "search_condition": [
+      1
+    ],
+    "search_type": 1,
+    "shakescreen": 0,
+    "spawn_bound": "cannon",
+    "suppress": 1,
+    "torpedo_ammo": 0,
+    "type": 1
+  },
+  "183632": {
+    "base": 183631,
+    "bullet_ID": [
+      167262
+    ],
+    "id": 183632
+  },
+  "183633": {
+    "base": 183631,
+    "bullet_ID": [
+      167263
+    ],
+    "id": 183633
+  },
+  "183634": {
+    "base": 183631,
+    "bullet_ID": [
+      167264
+    ],
+    "id": 183634
+  },
+  "183635": {
+    "base": 183631,
+    "bullet_ID": [
+      167265
+    ],
+    "id": 183635
+  },
+  "183636": {
+    "base": 183631,
+    "bullet_ID": [
+      167266
+    ],
+    "id": 183636
+  },
+  "183637": {
+    "base": 183631,
+    "bullet_ID": [
+      167267
+    ],
+    "id": 183637
+  },
+  "183638": {
+    "base": 183631,
+    "bullet_ID": [
+      167268
+    ],
+    "id": 183638
+  },
+  "183639": {
+    "base": 183631,
+    "bullet_ID": [
+      167269
+    ],
+    "id": 183639
+  },
+  "183640": {
+    "base": 183631,
+    "bullet_ID": [
+      167270
+    ],
+    "id": 183640
   },
   "190000": {
     "action_index": "",

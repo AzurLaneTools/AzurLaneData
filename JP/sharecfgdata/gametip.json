@@ -2032,6 +2032,54 @@
   "backyard_unopen": {
     "tip": "相手の寮舎が開放されていません"
   },
+  "bar_tips_game1": {
+    "tip": "$1質疑成功"
+  },
+  "bar_tips_game2": {
+    "tip": "$1質疑失敗"
+  },
+  "bar_tips_game3": {
+    "tip": "$1が罰ゲームで失格になりました"
+  },
+  "bar_tips_game4": {
+    "tip": "$1が罰ゲームを受けませんでした"
+  },
+  "bar_tips_game5": {
+    "tip": "$1が罰ゲームを受けました"
+  },
+  "bar_tips_game6": {
+    "tip": "ゲームを中止しますか？\n途中でゲームを中止すると失格になり、また正常に得点を獲得できません"
+  },
+  "bar_tips_game7": {
+    "tip": "ゲームを中止しますか？ "
+  },
+  "bar_ui_check1": {
+    "tip": "ゲームへ"
+  },
+  "bar_ui_check2": {
+    "tip": "スコア累計"
+  },
+  "bar_ui_end1": {
+    "tip": "退出"
+  },
+  "bar_ui_end2": {
+    "tip": "観戦再開"
+  },
+  "bar_ui_game1": {
+    "tip": "失格済"
+  },
+  "bar_ui_game3": {
+    "tip": "スコア"
+  },
+  "bar_ui_game4": {
+    "tip": "スライドで罰ゲームルーレットを回そう"
+  },
+  "bar_ui_start1": {
+    "tip": "真実戦術"
+  },
+  "bar_ui_start2": {
+    "tip": "真実戦術"
+  },
   "batch_destroy": {
     "tip": "一括廃棄"
   },
@@ -3312,10 +3360,10 @@
     "tip": "施設を増築しますか？"
   },
   "buildship_heavy_tip": {
-    "tip": "「ゴリツィア」「アンドレア・ドーリア」常設実装！"
+    "tip": "「ブリュンヒルデ」「ブリュッヒャー」常設実装！"
   },
   "buildship_light_tip": {
-    "tip": "「アッティリオ・レゴロ」常設実装！"
+    "tip": "「Z16」常設実装！"
   },
   "buildship_new_tip": {
     "tip": "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
@@ -13324,6 +13372,30 @@
   "island_activity_expired": {
     "tip": "イベントが終了しました"
   },
+  "island_activity_pt_get_oneclick": {
+    "tip": "一括受取"
+  },
+  "island_activity_pt_got_all": {
+    "tip": "全ての報酬を入手しました"
+  },
+  "island_activity_pt_jump_1": {
+    "tip": "確認"
+  },
+  "island_activity_pt_point": {
+    "tip": "累計スコア"
+  },
+  "island_activity_pt_task_reward_tip_1": {
+    "tip": "模擬戦闘入門III到達で入手"
+  },
+  "island_activity_pt_task_reward_tip_2": {
+    "tip": "模擬戦闘熟練IV 到達で入手"
+  },
+  "island_activity_pt_task_reward_tip_3": {
+    "tip": "模擬戦闘専門IV 到達で入手"
+  },
+  "island_activity_pt_task_reward_tip_4": {
+    "tip": "模擬戦闘達人 到達で入手"
+  },
   "island_add_friend": {
     "tip": "追加"
   },
@@ -13492,8 +13564,14 @@
   "island_bag_uprade_success": {
     "tip": "レベルアップしました"
   },
+  "island_bar_quick_addbot": {
+    "tip": "botでゲームを開始しますか？"
+  },
   "island_bar_quick_game": {
     "tip": "クイックゲーム"
+  },
+  "island_bar_quick_tip": {
+    "tip": "ルームが見つかりませんでした。ルームを作成しますか？"
   },
   "island_batch_covert": {
     "tip": "一括変換"
@@ -14233,6 +14311,49 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_archive1",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_bar": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar4",
           "path": ""
         }
       },
@@ -18438,6 +18559,159 @@
   "masaina_pt_claimed": {
     "tip": "入手済"
   },
+  "match_exit": {
+    "tip": "プレイヤー$1がマッチングを取り下げたため、$2秒後に再度マッチングを開始します"
+  },
+  "match_no_search_room": {
+    "tip": "ルームが見つかりませんでした"
+  },
+  "match_point_gap": {
+    "tip": "スコア差が大きすぎるため、マッチングできません"
+  },
+  "match_room_full2": {
+    "tip": "ルームが満員のため、参加できません"
+  },
+  "match_room_num_full1": {
+    "tip": "ルームが上限になっているため、作成できません"
+  },
+  "match_ui_accept": {
+    "tip": "確定"
+  },
+  "match_ui_chat": {
+    "tip": "ルーム"
+  },
+  "match_ui_matching": {
+    "tip": "マッチング中"
+  },
+  "match_ui_matching2": {
+    "tip": "マッチング中"
+  },
+  "match_ui_matching_consent": {
+    "tip": "同意"
+  },
+  "match_ui_matching_fail": {
+    "tip": "マッチング可能なプレイヤーはいません"
+  },
+  "match_ui_matching_invitation": {
+    "tip": "マッチング要請"
+  },
+  "match_ui_matching_loading": {
+    "tip": "読み込み中"
+  },
+  "match_ui_matching_waiting1": {
+    "tip": "待ち時間：$1秒"
+  },
+  "match_ui_matching_waiting2": {
+    "tip": "マッチング中"
+  },
+  "match_ui_point": {
+    "tip": "スコア累計"
+  },
+  "match_ui_point_match": {
+    "tip": "マッチング"
+  },
+  "match_ui_punishment1": {
+    "tip": "マッチングが$1秒後に開始します"
+  },
+  "match_ui_punishment2": {
+    "tip": "確定"
+  },
+  "match_ui_ranking_list1": {
+    "tip": "友達"
+  },
+  "match_ui_ranking_list2": {
+    "tip": "大艦隊"
+  },
+  "match_ui_ranking_list3": {
+    "tip": "全て"
+  },
+  "match_ui_ranking_list4": {
+    "tip": "ランク外"
+  },
+  "match_ui_room_create": {
+    "tip": "ルーム作成"
+  },
+  "match_ui_room_filter1": {
+    "tip": "参加人数"
+  },
+  "match_ui_room_filter2": {
+    "tip": "観戦人数"
+  },
+  "match_ui_room_filter3": {
+    "tip": "作成時間"
+  },
+  "match_ui_room_filter4": {
+    "tip": "全てのルーム"
+  },
+  "match_ui_room_filter5": {
+    "tip": "公開"
+  },
+  "match_ui_room_filter6": {
+    "tip": "プライベート"
+  },
+  "match_ui_room_filter7": {
+    "tip": "すべての状態"
+  },
+  "match_ui_room_filter8": {
+    "tip": "準備中"
+  },
+  "match_ui_room_filter9": {
+    "tip": "開始済"
+  },
+  "match_ui_room_filtertitle1": {
+    "tip": "並び替え"
+  },
+  "match_ui_room_filtertitle2": {
+    "tip": "ルーム"
+  },
+  "match_ui_room_filtertitle3": {
+    "tip": "状態"
+  },
+  "match_ui_room_homeowner": {
+    "tip": "ホスト"
+  },
+  "match_ui_room_list": {
+    "tip": "ルーム一覧"
+  },
+  "match_ui_room_name": {
+    "tip": "$1のルーム"
+  },
+  "match_ui_room_out": {
+    "tip": "ルームから退出させられました"
+  },
+  "match_ui_room_ready1": {
+    "tip": "準備完了"
+  },
+  "match_ui_room_ready2": {
+    "tip": "準備完了"
+  },
+  "match_ui_room_search": {
+    "tip": "検索"
+  },
+  "match_ui_room_send": {
+    "tip": "送信"
+  },
+  "match_ui_room_startgame": {
+    "tip": "スタート"
+  },
+  "match_ui_room_type1": {
+    "tip": "ゲーム中"
+  },
+  "match_ui_room_type2": {
+    "tip": "参加"
+  },
+  "match_ui_room_type3": {
+    "tip": "満員"
+  },
+  "match_ui_room_type4": {
+    "tip": "プライベート"
+  },
+  "match_ui_server_unkonw": {
+    "tip": "不明"
+  },
+  "match_ui_window_out": {
+    "tip": "ランク外"
+  },
   "max_level_notice": {
     "tip": "レベル最大・限界突破で最大レベル$1"
   },
@@ -20452,6 +20726,24 @@
         "info": "■概要\n「饅頭ピザ屋」とは、「饅頭の食材」を集め、報酬を\n入手できるミニイベントになります。\n\n■遊び方\n・3章以降のメイン海域（ノーマル）か、イベント「虚\n畳なりし限象」海域（EX除く）の敵中枢艦隊を撃破\nすると、「饅頭の食材」を入手可能\n・「饅頭の食材」累計入手数に応じて、イベント画面で\n吹雪の限定着せ替えなど、様々な報酬を入手可能\n・「饅頭の食材」累計獲得数報酬を全部入手すると、画\n面左の「饅頭ピザ」をタップすることで、オリジナル\nの饅頭ピザを表示させることが可能！"
       }
     ]
+  },
+  "play_room_season": {
+    "tip": "シーズン"
+  },
+  "play_room_season_en": {
+    "tip": "SEASON"
+  },
+  "play_room_switch_player": {
+    "tip": "観戦開始"
+  },
+  "play_room_switch_tip": {
+    "tip": "公開/プライベートルームを切り替えますか？"
+  },
+  "play_room_switch_viewer": {
+    "tip": "観戦切替"
+  },
+  "play_room_viewer_tip": {
+    "tip": "観戦人数: $1/$2"
   },
   "player_changeManifesto_error": {
     "tip": "コメント変更失敗:"
