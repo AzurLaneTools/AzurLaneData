@@ -2133,6 +2133,54 @@
   "backyard_unopen": {
     "tip": "后宅未开放"
   },
+  "bar_tips_game1": {
+    "tip": "$1质疑成功"
+  },
+  "bar_tips_game2": {
+    "tip": "$1质疑失败"
+  },
+  "bar_tips_game3": {
+    "tip": "$1受到惩罚被淘汰了"
+  },
+  "bar_tips_game4": {
+    "tip": "$1未受到惩罚,游戏继续"
+  },
+  "bar_tips_game5": {
+    "tip": "$1接受惩罚"
+  },
+  "bar_tips_game6": {
+    "tip": "是否立即退出当前进行中的对局。\n强行退出会造成对局失败，无法正常获得分数。"
+  },
+  "bar_tips_game7": {
+    "tip": "是否立即退出当前进行中的对局。"
+  },
+  "bar_ui_check1": {
+    "tip": "前往游戏"
+  },
+  "bar_ui_check2": {
+    "tip": "已获得积分"
+  },
+  "bar_ui_end1": {
+    "tip": "退出"
+  },
+  "bar_ui_end2": {
+    "tip": "继续观看"
+  },
+  "bar_ui_game1": {
+    "tip": "已淘汰"
+  },
+  "bar_ui_game3": {
+    "tip": "积分"
+  },
+  "bar_ui_game4": {
+    "tip": "滑动屏幕，转动惩罚轮盘"
+  },
+  "bar_ui_start1": {
+    "tip": "真实战术"
+  },
+  "bar_ui_start2": {
+    "tip": "真实战术"
+  },
   "batch_destroy": {
     "tip": "批量分解"
   },
@@ -3398,10 +3446,10 @@
     "tip": "是否升级？升级会消耗对应材料"
   },
   "buildship_heavy_tip": {
-    "tip": "戈里齐亚、安德里亚·多利亚 建造追加！"
+    "tip": "{namecode:462}、{namecode:450} 建造追加！"
   },
   "buildship_light_tip": {
-    "tip": "阿蒂利奥·雷戈洛 建造追加！"
+    "tip": "{namecode:442} 建造追加！"
   },
   "buildship_new_tip": {
     "tip": "每累计建造200次可获得海上传奇舰船 {namecode:529}(最多4次)"
@@ -13929,6 +13977,30 @@
   "island_activity_expired": {
     "tip": "活动已结束"
   },
+  "island_activity_pt_get_oneclick": {
+    "tip": "一键领取"
+  },
+  "island_activity_pt_got_all": {
+    "tip": "已获取全部奖励"
+  },
+  "island_activity_pt_jump_1": {
+    "tip": "前往"
+  },
+  "island_activity_pt_point": {
+    "tip": "已获得积分"
+  },
+  "island_activity_pt_task_reward_tip_1": {
+    "tip": "达到推演入门III即可获取"
+  },
+  "island_activity_pt_task_reward_tip_2": {
+    "tip": "达到推演进阶IV即可获取"
+  },
+  "island_activity_pt_task_reward_tip_3": {
+    "tip": "达到推演专精IV即可获取"
+  },
+  "island_activity_pt_task_reward_tip_4": {
+    "tip": "达到推演大师即可获取"
+  },
   "island_add_friend": {
     "tip": "添加"
   },
@@ -14097,8 +14169,14 @@
   "island_bag_uprade_success": {
     "tip": "升级成功"
   },
+  "island_bar_quick_addbot": {
+    "tip": "是否添满机器人立即开始游戏？"
+  },
   "island_bar_quick_game": {
     "tip": "快速游戏"
+  },
+  "island_bar_quick_tip": {
+    "tip": "暂时没有找到房间，是否立即创建新房间？"
   },
   "island_batch_covert": {
     "tip": "批量转化"
@@ -14838,6 +14916,49 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_archive1",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_bar": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar4",
           "path": ""
         }
       },
@@ -19067,6 +19188,159 @@
   "masaina_pt_claimed": {
     "tip": "已获取"
   },
+  "match_exit": {
+    "tip": "$1玩家，因为退出匹配，需要等待$2秒"
+  },
+  "match_no_search_room": {
+    "tip": "没有搜索到指定房间"
+  },
+  "match_point_gap": {
+    "tip": "积分差距过大，无法发起匹配"
+  },
+  "match_room_full2": {
+    "tip": "房间已满，无法加入"
+  },
+  "match_room_num_full1": {
+    "tip": "房间已到达上限，不可再新建房间"
+  },
+  "match_ui_accept": {
+    "tip": "接受"
+  },
+  "match_ui_chat": {
+    "tip": "房间"
+  },
+  "match_ui_matching": {
+    "tip": "匹配中"
+  },
+  "match_ui_matching2": {
+    "tip": "正在匹配中……"
+  },
+  "match_ui_matching_consent": {
+    "tip": "同意"
+  },
+  "match_ui_matching_fail": {
+    "tip": "暂无匹配玩家 "
+  },
+  "match_ui_matching_invitation": {
+    "tip": "匹配邀请"
+  },
+  "match_ui_matching_loading": {
+    "tip": "场景搭建中…"
+  },
+  "match_ui_matching_waiting1": {
+    "tip": "等待时间：$1秒"
+  },
+  "match_ui_matching_waiting2": {
+    "tip": "匹配中"
+  },
+  "match_ui_point": {
+    "tip": "已获得积分"
+  },
+  "match_ui_point_match": {
+    "tip": "积分匹配"
+  },
+  "match_ui_punishment1": {
+    "tip": "最近有战斗意外退出,造成他人体验影响较差\n本次匹配需等待$1秒后可继续进行游戏"
+  },
+  "match_ui_punishment2": {
+    "tip": "我已知晓"
+  },
+  "match_ui_ranking_list1": {
+    "tip": "好友"
+  },
+  "match_ui_ranking_list2": {
+    "tip": "舰队"
+  },
+  "match_ui_ranking_list3": {
+    "tip": "所有"
+  },
+  "match_ui_ranking_list4": {
+    "tip": "暂未上榜"
+  },
+  "match_ui_room_create": {
+    "tip": "创建房间"
+  },
+  "match_ui_room_filter1": {
+    "tip": "房间人数"
+  },
+  "match_ui_room_filter2": {
+    "tip": "观战人数"
+  },
+  "match_ui_room_filter3": {
+    "tip": "建立时间"
+  },
+  "match_ui_room_filter4": {
+    "tip": "所有房间"
+  },
+  "match_ui_room_filter5": {
+    "tip": "公开房间"
+  },
+  "match_ui_room_filter6": {
+    "tip": "私人房间"
+  },
+  "match_ui_room_filter7": {
+    "tip": "所有状态"
+  },
+  "match_ui_room_filter8": {
+    "tip": "未开始"
+  },
+  "match_ui_room_filter9": {
+    "tip": "已开始"
+  },
+  "match_ui_room_filtertitle1": {
+    "tip": "排序"
+  },
+  "match_ui_room_filtertitle2": {
+    "tip": "房间"
+  },
+  "match_ui_room_filtertitle3": {
+    "tip": "状态"
+  },
+  "match_ui_room_homeowner": {
+    "tip": "房主"
+  },
+  "match_ui_room_list": {
+    "tip": "房间列表"
+  },
+  "match_ui_room_name": {
+    "tip": "$1的房间"
+  },
+  "match_ui_room_out": {
+    "tip": "您已被房主踢出房间"
+  },
+  "match_ui_room_ready1": {
+    "tip": "准备"
+  },
+  "match_ui_room_ready2": {
+    "tip": "已准备"
+  },
+  "match_ui_room_search": {
+    "tip": "搜索"
+  },
+  "match_ui_room_send": {
+    "tip": "发送"
+  },
+  "match_ui_room_startgame": {
+    "tip": "开始游戏"
+  },
+  "match_ui_room_type1": {
+    "tip": "进行中…"
+  },
+  "match_ui_room_type2": {
+    "tip": "加入"
+  },
+  "match_ui_room_type3": {
+    "tip": "已满员"
+  },
+  "match_ui_room_type4": {
+    "tip": "私人"
+  },
+  "match_ui_server_unkonw": {
+    "tip": "未知"
+  },
+  "match_ui_window_out": {
+    "tip": "暂未上榜"
+  },
   "md5_error": {
     "tip": "检测到有最新版数据，请关闭游戏并更新"
   },
@@ -20700,6 +20974,24 @@
         "info": "通关下列指定关卡会获得不同数量<color=#92fc63>「比萨研发物资」</color>\n1.三章及以后的普通主线海域\n2.活动关卡「穹顶下的圣咏曲」（EX关卡除外）\n活动规则：\n1.活动期间指挥官获得<color=#92fc63>「比萨研发物资」</color>后可以在活动页\n面投入研发，当研发进度到达特殊阶段时会出现食材选择\n界面，指挥官需要选择研发比萨的食材\n2.当完成所有特殊阶段的研发后，会解锁自由组合模式，\n指挥官可以在该模式中自由组合各种食材，研发自己喜欢\n的比萨\n3.研发完成后，可以点击分享按钮将自己研发的比萨与其\n他指挥官分享"
       }
     ]
+  },
+  "play_room_season": {
+    "tip": "赛季"
+  },
+  "play_room_season_en": {
+    "tip": "SEASON"
+  },
+  "play_room_switch_player": {
+    "tip": "进行观战"
+  },
+  "play_room_switch_tip": {
+    "tip": "是否切换私人/公共房间？"
+  },
+  "play_room_switch_viewer": {
+    "tip": "切换观战"
+  },
+  "play_room_viewer_tip": {
+    "tip": "观看人数: $1/$2"
   },
   "player_changeManifesto_error": {
     "tip": "宣言更换失败:"
