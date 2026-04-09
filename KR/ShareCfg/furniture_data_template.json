@@ -9278,6 +9278,50 @@
     "themeId": 0,
     "type": 7
   },
+  "332": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      1
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 0,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "쏜 시티의 시정을 관리하는 빌딩. 규칙과 지령의 중추인 그곳은 밤의 어둠 속에 조용히 자리 잡고 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "유람자 모집 계획",
+    "icon": "tegongdushixunzhangicon",
+    "id": 332,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 1,
+    "level": 1,
+    "name": "시정 관리 빌딩",
+    "offset": [],
+    "picture": "",
+    "rarity": 5,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "tegongdushixunzhang",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 8,
+    "themeId": 0,
+    "type": 7
+  },
   "1001": {
     "advice": 0,
     "belong": 0,
@@ -122086,7 +122130,7 @@
     "comfortable": 0,
     "count": 1,
     "deblocking": 1,
-    "describe": "네온사인 속에서 유일무이한 궤적을 그리자.",
+    "describe": "네온의 광채 속에서, 나만의 궤적을 그려보자.",
     "dir": 0,
     "dorm_id": 0,
     "effect": "",
@@ -122101,7 +122145,7 @@
     "is_3d_obj": 0,
     "is_get_time_note": 0,
     "level": 1,
-    "name": "미라주 플라이어",
+    "name": "판타즘 플라이어",
     "offset": [],
     "picture": "",
     "rarity": 4,
@@ -159356,6 +159400,957 @@
     "spine_extra": "",
     "tag": 5,
     "themeId": 135,
+    "type": 6
+  },
+  "336001": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "커맨드 센터에서 데이터 스트림에 감싸인 채 도시를 내려다보자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dibantgicon",
+    "id": 336001,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 바닥",
+    "offset": [],
+    "picture": "tg/dibantg",
+    "rarity": 4,
+    "size": "",
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 4,
+    "themeId": 136,
+    "type": 4
+  },
+  "336002": {
+    "advice": 0,
+    "belong": 0,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "커맨드 센터에서 데이터 스트림에 감싸인 채 도시를 내려다보자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "qiangbitgicon",
+    "id": 336002,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "지휘 센터 벽",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": "",
+    "spine": [
+      [
+        "qiangbitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 3,
+    "themeId": 136,
+    "type": 1
+  },
+  "336101": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "여러 조작 패널을 조합한 콘솔. 버튼을 잘못 누르지 않도록 주의할 것!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      [
+        "char2",
+        1
+      ],
+      [
+        "char1",
+        -1
+      ]
+    ],
+    "gain_by": "",
+    "icon": "caozuotaitgicon",
+    "id": 336101,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 조작대",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      14,
+      3
+    ],
+    "spine": [
+      [
+        "caozuotaitgB",
+        "normal"
+      ],
+      [
+        "caozuotaitgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          {
+            "1": "sit1",
+            "3": "sit"
+          }
+        ],
+        [],
+        [
+          1
+        ],
+        [
+          [
+            "sit1"
+          ],
+          [
+            "sit2"
+          ]
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": [
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336102": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "생체 인증 완료, 진입을 허가합니다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "damentgicon",
+    "id": 336102,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 안전문",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      24,
+      1
+    ],
+    "spine": [
+      [
+        "damentg",
+        "normal",
+        [
+          "action1",
+          false,
+          [
+            "action2"
+          ]
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336103": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "표준 물자를 수납하는 함. 각종 장비나 부품이 보관되어 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "daxiangzitgicon",
+    "id": 336103,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 수납함",
+    "offset": [],
+    "picture": "tg/daxiangzitg",
+    "rarity": 1,
+    "size": [
+      2,
+      5
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336104": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "고정밀 3D 공간 이미징 장치. 도시의 전체 모습을 실시간으로 투영한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "ditutgicon",
+    "id": 336104,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "도시 프로젝션",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "ditutg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336105": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "고밀도 데이터 연산 센터. 작전 수행에 필요한 연산 리소스를 제공한다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "fuwuqitgicon",
+    "id": 336105,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 서버",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "fuwuqitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336106": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "수랭식 방열과 저소음 에어플로우 설계가 적용된 케이스. 고효율이면서 작동 소음도 조용하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "jixiangtgicon",
+    "id": 336106,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 케이스",
+    "offset": [],
+    "picture": "tg/jixiangtg",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336107": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "축 조절이 가능한 모니터. 다각적인 정보 분석에 적합하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "pingmuzutgicon",
+    "id": 336107,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 모니터 도면",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      3,
+      3
+    ],
+    "spine": [
+      [
+        "pingmuzutg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336108": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "홀로그램으로 출격 중!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "quanxitgicon",
+    "id": 336108,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "홀로그램",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "quanxitg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336109": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "데스크 하드웨어가 업그레이드되면서 작업 효율도 쑥쑥 상승!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "shuzhuotgicon",
+    "id": 336109,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 워크 데스크",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      5,
+      7
+    ],
+    "spine": [
+      [
+        "shuzhuotgB",
+        "normal"
+      ],
+      [
+        "shuzhuotgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "sit"
+          ]
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336110": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "허리를 굽히고 몸을 비틀어서, 레이저를 피해라!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tanceqitgicon",
+    "id": 336110,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "레이저 발생 장치",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      1,
+      5
+    ],
+    "spine": [
+      [
+        "tanceqitg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336111": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "타겟 확인, 바로 출발한다쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tegongjiutgicon",
+    "id": 336111,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "만쥬 에이전트",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      5,
+      1
+    ],
+    "spine": [
+      [
+        "tegongjiutg",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336112": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "잡동사니는 수납 상자에 맡기자.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xiangzikaitgicon",
+    "id": 336112,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 잡동사니 상자",
+    "offset": [],
+    "picture": "tg/xiangzikaitg",
+    "rarity": 1,
+    "size": [
+      2,
+      4
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336113": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 2,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "오늘도 지휘 센터은 평화롭다쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "xunluojiutgicon",
+    "id": 336113,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "순찰 만쥬",
+    "offset": [],
+    "picture": "",
+    "rarity": 2,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "xunluojiutg",
+        "normal",
+        [
+          "action",
+          false
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336114": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 1,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "삐—— 삐—— 쥬쥬!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "yinxiangtgicon",
+    "id": 336114,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 스피커",
+    "offset": [],
+    "picture": "",
+    "rarity": 1,
+    "size": [
+      2,
+      2
+    ],
+    "spine": [
+      [
+        "yinxiangtg",
+        "normal",
+        [
+          "action",
+          true
+        ]
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 1,
+    "themeId": 136,
+    "type": 2
+  },
+  "336115": {
+    "advice": 0,
+    "belong": 1,
+    "can_rotate": 0,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "멀티 스펙트럼 스캔과 실시간 3D 렌더링 지원. 신원 특정이나 장비 분석 등에 이용 가능하다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "followBone": [
+      "char",
+      1
+    ],
+    "gain_by": "",
+    "icon": "saomiaoyitgicon",
+    "id": 336115,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 1,
+    "name": "지휘 센터 스캐너",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      7,
+      6
+    ],
+    "spine": [
+      [
+        "saomiaoyitgB",
+        "normal"
+      ],
+      [
+        "saomiaoyitgT"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          [
+            "dance"
+          ]
+        ],
+        {
+          "2": 1
+        },
+        [
+          0
+        ]
+      ],
+      [],
+      [
+        0,
+        0
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 7,
+    "themeId": 136,
+    "type": 2
+  },
+  "336301": {
+    "advice": 0,
+    "belong": 3,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 4,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "감시 영상을 실시간으로 투영하여, 전체 동향을 한눈에 파악할 수 있다.",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "dapingtgicon",
+    "id": 336301,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "지휘 센터 모니터",
+    "offset": [],
+    "picture": "",
+    "rarity": 4,
+    "size": [
+      18,
+      0
+    ],
+    "spine": [
+      [
+        "dapingtg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 136,
+    "type": 6
+  },
+  "336302": {
+    "advice": 0,
+    "belong": 4,
+    "can_rotate": 1,
+    "can_trigger": [
+      0
+    ],
+    "canputon": 0,
+    "canputonGrid": [],
+    "comfortable": 3,
+    "count": 1,
+    "deblocking": 1,
+    "describe": "용의자 목록 업데이트 완료! 즉시 체포령을 발령한다!",
+    "dir": 0,
+    "dorm_id": 0,
+    "effect": "",
+    "gain_by": "",
+    "icon": "tongjilingtgicon",
+    "id": 336302,
+    "interAction_group": [],
+    "is_3d_obj": 0,
+    "is_get_time_note": 0,
+    "level": 5,
+    "name": "지휘 센터 지명수배서",
+    "offset": [],
+    "picture": "",
+    "rarity": 3,
+    "size": [
+      10,
+      0
+    ],
+    "spine": [
+      [
+        "tongjilingtg",
+        "normal"
+      ]
+    ],
+    "spine_action_replace": "",
+    "spine_combine_action_replace": "",
+    "spine_extra": "",
+    "tag": 5,
+    "themeId": 136,
     "type": 6
   }
 }
