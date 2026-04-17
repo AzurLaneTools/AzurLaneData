@@ -45,7 +45,7 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50481
+      6036
     ],
     "type": 0
   },
@@ -418,6 +418,20 @@
     ],
     "type": 16
   },
+  "115": {
+    "group_id": 1,
+    "id": 115,
+    "name": "event_core",
+    "order": 1,
+    "param": "DOACoreActivityUI",
+    "pic": "event_DOA3",
+    "text_pic": "text_event_core3",
+    "time": [
+      "default",
+      6025
+    ],
+    "type": 16
+  },
   "all": [
     1,
     2,
@@ -448,7 +462,8 @@
     111,
     112,
     113,
-    114
+    114,
+    115
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -478,7 +493,8 @@
       102
     ],
     "event_core": [
-      109
+      109,
+      115
     ],
     "event_core_2": [
       110,
