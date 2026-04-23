@@ -631,7 +631,7 @@
     "tip": "Serial Code:"
   },
   "Settings_title_Redeem_input_placeholder": {
-    "tip": "Only accepts alphanumeric characters"
+    "tip": "Please enter your gift code."
   },
   "Settings_title_Redeem_input_submit": {
     "tip": "Submit"
@@ -6727,13 +6727,13 @@
         "info": "- Character Likes Overview -"
       },
       {
-        "info": "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Vacation Statue can only be obtained once.)"
+        "info": "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes, you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Venus Vacation Statue can only be obtained once.)"
       },
       {
         "info": "- Unlocking Character Likes -"
       },
       {
-        "info": "There are a few different ways to unlock character likes, which vary from character to character:\n· Clearing the event stages\n· Completing event missions\n· Amassing enough Venus Points\n· Playing the Volleyball Scrimmage minigame\n· Playing the Butt Battle minigame\n\nMilestone rewards for collecting character likes remain claimable up to May 17th, 11:59 PM. (UTC-7)."
+        "info": "There are a few different ways to unlock character likes, which vary from character to character:\n· Clearing the event stages\n· Completing event missions\n· Amassing enough Venus Points\n· Playing the Volleyball Scrimmage minigame\n· Playing the Butt Battle minigame\n\nMilestone rewards for collecting character likes remain claimable up to May 7th, 11:59 PM."
       }
     ]
   },
@@ -6749,7 +6749,7 @@
         "info": "- Vacation Resort Overview -"
       },
       {
-        "info": "The Vacation Resort acts as a hub to quickly jump to all features of the Vacation Lane event."
+        "info": "The Vacation Resort acts as a hub to quickly jump to all features of the Vacation Lane Rerun event."
       },
       {
         "info": "These include:"
@@ -6773,13 +6773,13 @@
         "info": "· Commemorative Medal: \nComplete different tasks to unlock character likes. Unlock all of them to receive the Venus Vacation Statue."
       },
       {
-        "info": "· Butt Battle: \nA new minigame. Play over 7 days to receive Luna's Augment Module \"\"Roasted Sweet Potato\"\" and Tamaki's Augment Module \"\"Macaroon\"\"."
+        "info": "· Butt Battle: \nA rerun minigame. Complete 7 stages to receive Luna's Augment Module \"Roasted Sweet Potato\" and Tamaki's Augment Module \"Macaroon\"."
       },
       {
-        "info": "· Volleyball Scrimmage: \nA rerun minigame. Play over 7 days to receive a piece of unique gear, the Venus Awakening Gem."
+        "info": "· Volleyball Scrimmage: \nA rerun minigame. Complete 7 matches to earn the limited gear, Awakening Pearl."
       },
       {
-        "info": "Additionally, special commissions will appear during the event period. These exist separately to ordinary commissions, but yield rewards all the time. You can accept these special commissions up until May 17th, 11:59 PM. (UTC-7)."
+        "info": "Additionally, special commissions will appear during the event period. These exist separately from ordinary commissions, but yield rewards all the time. You can accept these special commissions up until May 1st, 11:59 PM."
       }
     ]
   },
@@ -8459,7 +8459,7 @@
     "tip": "Start"
   },
   "eventshop_time_hint": {
-    "tip": "Available till $1"
+    "tip": "Exchange available until $1, 11:59 PM."
   },
   "eventshop_unlock_hint": {
     "tip": "Can be purchased after clearing $1 in the Main Campaign."
@@ -8469,6 +8469,39 @@
   },
   "ex_pass_use": {
     "tip": "Use:"
+  },
+  "exchange_code_after_time": {
+    "tip": "This gift code has expired."
+  },
+  "exchange_code_before_time": {
+    "tip": "This gift code is not currently active."
+  },
+  "exchange_code_error_12": {
+    "tip": "Please wait and try again."
+  },
+  "exchange_code_error_16": {
+    "tip": "This account has reached the redemption limit."
+  },
+  "exchange_code_error_20": {
+    "tip": "This gift code does not exist."
+  },
+  "exchange_code_error_6": {
+    "tip": "This gift code cannot be used anymore."
+  },
+  "exchange_code_error_7": {
+    "tip": "This gift code has already been used."
+  },
+  "exchange_code_error_9": {
+    "tip": "Invalid gift code."
+  },
+  "exchange_code_skin": {
+    "tip": "<color=#FF4A45>You already own this Skin. It will be automatically exchanged for Gems.</color>"
+  },
+  "exchange_code_skin_tip": {
+    "tip": "Skin"
+  },
+  "exchange_code_tip": {
+    "tip": "Redeeming for the following items:\n"
   },
   "exchange_item_success": {
     "tip": "Redeemed!"
@@ -26124,7 +26157,16 @@
   "venusvolleyball_help": {
     "tip": [
       {
-        "info": "Event Rules:\n1. <color=#92fc63>A new match</color> will become available every day until\n<color=#92fc63>5/3</color> at midnight, up to a total of <color=#92fc63>7</color> matches. \nComplete all the matches to earn the limited gear, <color=#92fc63>\"Venus Awakening Gem,\"</color>as well as\nthe following item-<color=#92fc63>\"Favorite Food (Monica)\"</color>.\n2. Tap to start the game and choose two characters to enter the match.\nThe match will conclude when either side scores <color=#92fc63>5</color> points.\n3. A timing circle will appear when it's the player's turn to hit the ball.\nTap anywhere on the screen at the proper time to hit the ball.\n4. When the timing circle is between the outer and inner scoring circles,\na \"Good\" rating will be given. When the timing circle is tapped within the\ninner scoring circle, a \"Perfect\" rating will be given.\nIf the screen is not tapped, or tapped before the timing circle\nis allowed to retract, a \"Miss\" rating will be given.\nA \"Miss\" will result in the other side scoring.\nA Good or Perfect rating counts as a successful receive.\n5. If all matches have been unlocked, you may can repeat\nthe match on the same day. After completing all the matches,\nFree Play will be unlocked, allowing players to freely select\ntheir desired character to play with."
+        "info": "- Volleyball Scrimmage Overview -"
+      },
+      {
+        "info": "Play the Volleyball Scrimmage minigame to receive rewards. Upon completing all 7 of the initially unlocked matches to earn the limited gear, <color=#92fc63>Awakening Pearl</color>."
+      },
+      {
+        "info": "- How to Play -"
+      },
+      {
+        "info": "Tap the Start Game button and choose two characters to enter the match.\nIn the scrimmage, members will automatically navigate the court. Tap the screen at the right time to successfully serve or return the ball.\nThe match will conclude when either side scores 5 points.\n· Team members cannot be changed during a match.\n· Matches can be replayed freely every day.\n· After completing all the matches, the Free Play mode will be unlocked. You may change your team members freely."
       }
     ]
   },
