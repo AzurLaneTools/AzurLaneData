@@ -1300,7 +1300,7 @@
     "tip": "음성 녹음 권한이 OFF인 경우 AR 녹화 기능을 이용할 수 없습니다."
   },
   "aprilfool_2026_cd": {
-    "tip": "쿨타임"
+    "tip": "재표시 대기시간"
   },
   "archives_boss_was_opened": {
     "tip": "분석 중인 파일 비콘이 있습니다. 내 비콘으로 이동할 수 없습니다."
@@ -2013,6 +2013,54 @@
   },
   "backyard_unopen": {
     "tip": "숙소 미개방"
+  },
+  "bar_tips_game1": {
+    "tip": "$1 이의 제기 성공"
+  },
+  "bar_tips_game2": {
+    "tip": "$1 이의 제기 실패"
+  },
+  "bar_tips_game3": {
+    "tip": "$1(은)는 벌칙을 받아 실격 처리되었습니다."
+  },
+  "bar_tips_game4": {
+    "tip": "$1(은)는 벌칙을 받지 않았습니다."
+  },
+  "bar_tips_game5": {
+    "tip": "$1(은)는 벌칙을 받았습니다."
+  },
+  "bar_tips_game6": {
+    "tip": "게임을 중단하시겠습니까? \n도중에 게임을 중단하면 실격 처리되어, 정상적으로 점수를 획득할 수 없습니다."
+  },
+  "bar_tips_game7": {
+    "tip": ""
+  },
+  "bar_ui_check1": {
+    "tip": "게임으로 이동"
+  },
+  "bar_ui_check2": {
+    "tip": "점수 합계"
+  },
+  "bar_ui_end1": {
+    "tip": "퇴장"
+  },
+  "bar_ui_end2": {
+    "tip": "관전 재개"
+  },
+  "bar_ui_game1": {
+    "tip": "실격 처리"
+  },
+  "bar_ui_game3": {
+    "tip": "점수"
+  },
+  "bar_ui_game4": {
+    "tip": "슬라이드해서 벌칙 룰렛을 돌리자"
+  },
+  "bar_ui_start1": {
+    "tip": "진짜 전술"
+  },
+  "bar_ui_start2": {
+    "tip": "진짜 전술"
   },
   "batch_destroy": {
     "tip": "일괄해체"
@@ -3260,10 +3308,10 @@
     "tip": "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다."
   },
   "buildship_heavy_tip": {
-    "tip": "「고리치아」, 「안드레아 도리아」 상시 건조 추가!"
+    "tip": "「브륀힐드」, 「블뤼허」 상시 건조 추가!"
   },
   "buildship_light_tip": {
-    "tip": "「아틸리오 레골로」 상시 건조 추가!"
+    "tip": "「Z16」 상시 건조 추가!"
   },
   "buildship_new_tip": {
     "tip": "기간 한정 건조를 총 200회 실시하면, 「소비에츠키 소유즈」 100% 획득 가능! (최대 4척까지)"
@@ -5361,7 +5409,7 @@
     "tip": "이벤트가 <color=#92fc63>아직 개시되지</color> 않았습니다."
   },
   "common_already owned": {
-    "tip": "보유 중"
+    "tip": "획득 완료"
   },
   "common_buy_gold_success": {
     "tip": "<color=#92fc63>$1</color> 물자 구매 성공! "
@@ -13427,6 +13475,30 @@
   "island_activity_expired": {
     "tip": "이벤트가 종료되었습니다."
   },
+  "island_activity_pt_get_oneclick": {
+    "tip": "일괄 수령"
+  },
+  "island_activity_pt_got_all": {
+    "tip": "모든 보상을 획득했습니다."
+  },
+  "island_activity_pt_jump_1": {
+    "tip": "확인"
+  },
+  "island_activity_pt_point": {
+    "tip": "합계 점수"
+  },
+  "island_activity_pt_task_reward_tip_1": {
+    "tip": "모의 전투 입문 III 도달 시 획득"
+  },
+  "island_activity_pt_task_reward_tip_2": {
+    "tip": "모의 전투 숙련 IV 도달 시 획득"
+  },
+  "island_activity_pt_task_reward_tip_3": {
+    "tip": "모의 전투 전문 IV 도달 시 획득"
+  },
+  "island_activity_pt_task_reward_tip_4": {
+    "tip": "모의 전투 달인 도달 시 획득"
+  },
   "island_add_friend": {
     "tip": "추가"
   },
@@ -13595,8 +13667,14 @@
   "island_bag_uprade_success": {
     "tip": "레벨업에 성공했습니다."
   },
+  "island_bar_quick_addbot": {
+    "tip": "bot으로 게임을 시작하시겠습니까?"
+  },
   "island_bar_quick_game": {
     "tip": "퀵 게임"
+  },
+  "island_bar_quick_tip": {
+    "tip": "방을 찾지 못했습니다. 방을 새로 생성하시겠습니까?"
   },
   "island_batch_covert": {
     "tip": "일괄 변환"
@@ -14336,6 +14414,49 @@
       "1": {
         "icon": {
           "atlas": "helpbg/island_help_archive1",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "defaultpage": 1,
+      "disableScroll": true,
+      "helpSize": {
+        "x": 1176,
+        "y": 1024
+      },
+      "pageMode": true,
+      "windowPos": {
+        "y": -70
+      },
+      "windowSize": {
+        "x": 1263,
+        "y": 873
+      }
+    }
+  },
+  "island_help_bar": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar2",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar3",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/island_help_bar4",
           "path": ""
         }
       },
@@ -18495,6 +18616,159 @@
   "masaina_pt_claimed": {
     "tip": "획득 완료"
   },
+  "match_exit": {
+    "tip": "플레이어 $1(이)가 매칭을 취소함에 따라 $2초 동안 대기해야 합니다."
+  },
+  "match_no_search_room": {
+    "tip": "방을 찾지 못했습니다."
+  },
+  "match_point_gap": {
+    "tip": "점수 차이가 너무 커서 매칭이 불가능합니다."
+  },
+  "match_room_full2": {
+    "tip": "방이 가득 차서 참여할 수 없습니다."
+  },
+  "match_room_num_full1": {
+    "tip": "방이 한도에 도달하여 생성할 수 없습니다."
+  },
+  "match_ui_accept": {
+    "tip": "확정"
+  },
+  "match_ui_chat": {
+    "tip": "룸"
+  },
+  "match_ui_matching": {
+    "tip": "매칭 중"
+  },
+  "match_ui_matching2": {
+    "tip": "매칭 중"
+  },
+  "match_ui_matching_consent": {
+    "tip": "동의"
+  },
+  "match_ui_matching_fail": {
+    "tip": "매칭 가능한 플레이어가 없습니다."
+  },
+  "match_ui_matching_invitation": {
+    "tip": "매칭 요청"
+  },
+  "match_ui_matching_loading": {
+    "tip": "로딩 중"
+  },
+  "match_ui_matching_waiting1": {
+    "tip": "대기 시간: $1초"
+  },
+  "match_ui_matching_waiting2": {
+    "tip": "매칭 중"
+  },
+  "match_ui_point": {
+    "tip": "점수 합계"
+  },
+  "match_ui_point_match": {
+    "tip": "매칭"
+  },
+  "match_ui_punishment1": {
+    "tip": "매칭은 $1 후에 시작할 수 있습니다."
+  },
+  "match_ui_punishment2": {
+    "tip": "확정"
+  },
+  "match_ui_ranking_list1": {
+    "tip": "친구"
+  },
+  "match_ui_ranking_list2": {
+    "tip": "대함대"
+  },
+  "match_ui_ranking_list3": {
+    "tip": "전체"
+  },
+  "match_ui_ranking_list4": {
+    "tip": "랭크 외"
+  },
+  "match_ui_room_create": {
+    "tip": "방 생성"
+  },
+  "match_ui_room_filter1": {
+    "tip": "참가 인원"
+  },
+  "match_ui_room_filter2": {
+    "tip": "관전 인원"
+  },
+  "match_ui_room_filter3": {
+    "tip": "생성 시간"
+  },
+  "match_ui_room_filter4": {
+    "tip": "모든 방"
+  },
+  "match_ui_room_filter5": {
+    "tip": "공개"
+  },
+  "match_ui_room_filter6": {
+    "tip": "비공개"
+  },
+  "match_ui_room_filter7": {
+    "tip": "모든 상태"
+  },
+  "match_ui_room_filter8": {
+    "tip": "준비 중"
+  },
+  "match_ui_room_filter9": {
+    "tip": "시작 완료"
+  },
+  "match_ui_room_filtertitle1": {
+    "tip": "정렬"
+  },
+  "match_ui_room_filtertitle2": {
+    "tip": "룸"
+  },
+  "match_ui_room_filtertitle3": {
+    "tip": "상태"
+  },
+  "match_ui_room_homeowner": {
+    "tip": "방장"
+  },
+  "match_ui_room_list": {
+    "tip": "방 목록"
+  },
+  "match_ui_room_name": {
+    "tip": "$1의 방"
+  },
+  "match_ui_room_out": {
+    "tip": "룸에서 퇴장되었습니다."
+  },
+  "match_ui_room_ready1": {
+    "tip": "준비 완료"
+  },
+  "match_ui_room_ready2": {
+    "tip": "준비 완료"
+  },
+  "match_ui_room_search": {
+    "tip": "검색"
+  },
+  "match_ui_room_send": {
+    "tip": "송신"
+  },
+  "match_ui_room_startgame": {
+    "tip": "시작"
+  },
+  "match_ui_room_type1": {
+    "tip": "게임 중"
+  },
+  "match_ui_room_type2": {
+    "tip": "참여"
+  },
+  "match_ui_room_type3": {
+    "tip": "만원"
+  },
+  "match_ui_room_type4": {
+    "tip": "비공개"
+  },
+  "match_ui_server_unkonw": {
+    "tip": "불명"
+  },
+  "match_ui_window_out": {
+    "tip": "랭크 외"
+  },
   "max_level_notice": {
     "tip": "최대 레벨 도달·돌파 후 최대 레벨이 $1로상승"
   },
@@ -20305,6 +20579,24 @@
       }
     ]
   },
+  "play_room_season": {
+    "tip": "시즌"
+  },
+  "play_room_season_en": {
+    "tip": "SEASON"
+  },
+  "play_room_switch_player": {
+    "tip": "관전 시작"
+  },
+  "play_room_switch_tip": {
+    "tip": "공개/비공개 방으로 전환하시겠습니까?"
+  },
+  "play_room_switch_viewer": {
+    "tip": "관전 전환"
+  },
+  "play_room_viewer_tip": {
+    "tip": "관전 인원: $1/$2"
+  },
   "player_changeManifesto_error": {
     "tip": "코멘트 변경 실패："
   },
@@ -20566,7 +20858,7 @@
   "purplebulin_help_2026": {
     "tip": [
       {
-        "info": "이벤트 설명:\n1. 이벤트 기간 중, 특정 화면이나 스테이지에서 해당하는 단서를 수집할 수 있습니다.\n2. 단서 수집이 어려울 경우, 단서 칸을 클릭하여 힌트를 해금할 수 있습니다.\n주의: 10분마다 하나의 힌트만 해금할 수 있습니다.\n3. 단서 수집을 완료하면 특별 스테이지가 개방되며, 특별 스테이지 도전에서 승리하면 특수 보상을 획득할 수 있습니다."
+        "info": "플레이 방법:\n1. 이벤트 기간 중에 모항과 해역의 특정 장소에 「암호」가 나타나 푸링! \n2. 찾지 못한 경우에는 「암호」 아이콘을 탭하면 돼 푸링! \n 힌트는 10분에 1개만 오픈할 수 있어 푸링! \n3. 「암호」를 모두 모으면, 특별한 스테이지에 도전할 수 있어 푸링! \n 해당 스테이지를 클리어하면, 보상을 획득할 수 있어 푸링! "
       }
     ]
   },

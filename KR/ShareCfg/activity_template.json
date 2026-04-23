@@ -28313,6 +28313,53 @@
     "title_res_tag": "",
     "type": 134
   },
+  "6040": {
+    "config_client": [],
+    "config_data": [
+      25502,
+      25503,
+      25504
+    ],
+    "config_id": 3,
+    "id": 6040,
+    "is_show": 39,
+    "login_pop": 0,
+    "mark": 20260409,
+    "page_core": "",
+    "page_info": {
+      "class_name": "VotingResulitAward2Page",
+      "ui_name": "VotingResulitAward2Page"
+    },
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          4,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          21
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ]
+    ],
+    "title_res_tag": "votingaward",
+    "type": 86
+  },
   "7001": {
     "config_client": {
       "map_name": "map_202110",
@@ -38203,7 +38250,7 @@
         "<color=#ffde38>SSR</color>: 7%",
         "<color=#d797ff>SR</color>: 12%",
         "<color=#3dc6ff>R</color>: 51%",
-        "N: 30%",
+        "노멀: 30%",
         "<color=#ffde38>라이잘린 슈타우트</color>: 2.0%<color=#92FC63>(up!)</color>",
         "  ",
         "<color=#ffde38>파트리샤 아벨하임</color>: 2.0%<color=#92FC63>(up!)</color>",
@@ -41801,7 +41848,7 @@
                 "warp": "shopstreet"
               }
             ],
-            "상점에서 획득"
+            "军需商店兑换"
           ],
           [
             2,
@@ -41809,7 +41856,7 @@
               "scene level",
               []
             ],
-            "이벤트 스테이지에서 획득"
+            "活动关卡掉落"
           ]
         ]
       },
@@ -45010,7 +45057,7 @@
                 "warp": "shopstreet"
               }
             ],
-            "상점에서 획득"
+            "상점에서 교환"
           ],
           [
             2,
@@ -45018,7 +45065,7 @@
               "scene level",
               []
             ],
-            "이벤트 스테이지에서 획득"
+            "이벤트 스테이지에서 등장"
           ]
         ]
       },
@@ -49103,21 +49150,19 @@
   },
   "50381": {
     "config_client": {
-      "bg": "loadingbg/bg_build_5_act",
-      "buildship_tip": "누비안、{namecode:531}、리버풀 등 캐릭터 건조 확률UP！",
-      "id": 5,
+      "bg": "loadingbg/bg_build_4_act",
+      "buildship_tip": "「누비안」, 「프리드리히 카를」, 「리버풀」 등장 확률 UP! ",
+      "id": 4,
       "rate_tip": [
-        "<color=#ffde38>SSR</color>：7%",
-        "<color=#d797ff>SR</color>：12%",
-        "<color=#3dc6ff>R</color>：51%",
-        "N：30%",
-        "<color=#ffde38>{namecode:531}</color>：2.0%<color=#92FC63>(up!)</color>",
+        "<color=#ffde38>SSR</color>: 7%",
+        "<color=#d797ff>SR</color>: 12%",
+        "<color=#3dc6ff>R</color>: 51%",
+        "노멀: 30%",
+        "<color=#ffde38>프리드리히 카를</color>: 2.0%<color=#92FC63>(up!)</color>",
         " ",
-        "<color=#ffde38>누비안</color>：2.0%<color=#92FC63>(up!)</color>",
+        "<color=#ffde38>누비안</color>: 2.0%<color=#92FC63>(up!)</color>",
         " ",
-        "<color=#d797ff>리버풀</color>：2.5%<color=#92FC63>(up!)</color>",
-        " ",
-        "※같은 레어도의 건조 획득 확률은 동일합니다."
+        "<color=#d797ff>리버풀</color>: 2.5%<color=#92FC63>(up!)</color>"
       ]
     },
     "config_data": [],
@@ -49443,12 +49488,10 @@
         "<color=#ffde38>SSR</color>: 7%",
         "<color=#d797ff>SR</color>: 12%",
         "<color=#3dc6ff>R</color>: 26%",
-        "N: 55%",
+        "노멀: 55%",
         "<color=#ffde38>장우</color>: 2.0%(<color=#92fc63>up!</color>)",
         " ",
-        "<color=#d797ff>하이처우</color>: 2.5%(<color=#92fc63>up!</color>)",
-        " ",
-        "※같은 레어도의 건조 획득 확률은 동일합니다."
+        "<color=#d797ff>하이처우</color>: 2.5%(<color=#92fc63>up!</color>)"
       ]
     },
     "config_data": "activity_drop_50402",
@@ -52024,33 +52067,7 @@
       "class_name": "YunLongSPMainPage",
       "ui_name": "YunLongSPMainPage"
     },
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          4,
-          9
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          4,
-          23
-        ],
-        [
-          12,
-          0,
-          0
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "YunLongSPCoreActivity_subtitle_1",
     "type": 12
   },
@@ -52172,33 +52189,7 @@
     "mark": 20260326,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          4,
-          9
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          4,
-          22
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 27
   },
@@ -52347,33 +52338,7 @@
     "mark": 20250424,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          4,
-          9
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          4,
-          23
-        ],
-        [
-          12,
-          0,
-          0
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 13
   },
@@ -52389,33 +52354,7 @@
     "mark": 20260326,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          4,
-          9
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          4,
-          22
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 13
   },
@@ -52433,9 +52372,7 @@
         " ",
         "<color=#ffde38>랭동타블</color>: 2.0%<color=#92FC63>(up!)</color>",
         " ",
-        "<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>",
-        " ",
-        "※같은 레어도의 건조 획득 확률은 동일합니다."
+        "<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>"
       ]
     },
     "config_data": [],
@@ -52446,33 +52383,7 @@
     "mark": 20260326,
     "page_core": "",
     "page_info": "",
-    "time": [
-      "timer",
-      [
-        [
-          2026,
-          4,
-          9
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          4,
-          23
-        ],
-        [
-          12,
-          0,
-          0
-        ]
-      ]
-    ],
+    "time": "stop",
     "title_res_tag": "",
     "type": 1
   },
@@ -53051,6 +52962,142 @@
     "time": "always",
     "title_res_tag": "",
     "type": 5001
+  },
+  "990013": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 0,
+    "id": 990013,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20260319,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          4,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 801
+  },
+  "990014": {
+    "config_client": "",
+    "config_data": [
+      [
+        56248
+      ],
+      [
+        56249
+      ],
+      [
+        56250
+      ],
+      [
+        56251
+      ],
+      [
+        56252
+      ]
+    ],
+    "config_id": 0,
+    "id": 990014,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20260319,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          4,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          13
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 89
+  },
+  "990015": {
+    "config_client": "",
+    "config_data": [],
+    "config_id": 0,
+    "id": 990015,
+    "is_show": 0,
+    "login_pop": 0,
+    "mark": 20260319,
+    "page_core": "",
+    "page_info": "",
+    "time": [
+      "timer",
+      [
+        [
+          2026,
+          4,
+          23
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          5,
+          20
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "title_res_tag": "",
+    "type": 890
   },
   "999901": {
     "config_client": "",
@@ -53881,6 +53928,7 @@
     6022,
     6023,
     6024,
+    6040,
     7001,
     7004,
     7005,
@@ -54425,6 +54473,9 @@
     990008,
     990009,
     990011,
+    990013,
+    990014,
+    990015,
     999901
   ],
   "get_id_list_by_type": {
@@ -55773,6 +55824,7 @@
       5790,
       5830,
       5911,
+      6040,
       50084,
       50235,
       50290,
@@ -55817,7 +55869,8 @@
       7502,
       7503,
       50044,
-      50372
+      50372,
+      990014
     ],
     "91": [
       4981,
@@ -55976,6 +56029,12 @@
     "800": [
       990009,
       999901
+    ],
+    "801": [
+      990013
+    ],
+    "890": [
+      990015
     ],
     "1001": [
       5691
