@@ -45,7 +45,7 @@
     "text_pic": "text_event_map",
     "time": [
       "default",
-      50481
+      6036
     ],
     "type": 0
   },
@@ -352,10 +352,10 @@
     "type": 16
   },
   "110": {
-    "group_id": 1,
+    "group_id": 2,
     "id": 110,
     "name": "event_core_2",
-    "order": 1,
+    "order": 2,
     "param": "AprilFoolDiscovery2026UI",
     "pic": "event_core3",
     "text_pic": "text_event_core3",
@@ -394,16 +394,16 @@
     "type": 0
   },
   "113": {
-    "group_id": 2,
+    "group_id": 1,
     "id": 113,
     "name": "event_core_2",
-    "order": 2,
+    "order": 1,
     "param": "EighthAnniversaryJpCoreActivityUI",
     "pic": "event_special",
     "text_pic": "text_event_special",
     "time": [
       "default",
-      21011
+      50118
     ],
     "type": 16
   },
@@ -418,6 +418,20 @@
     "time": [
       "default",
       50298
+    ],
+    "type": 16
+  },
+  "115": {
+    "group_id": 1,
+    "id": 115,
+    "name": "event_core",
+    "order": 1,
+    "param": "DOACoreActivityUI",
+    "pic": "event_DOA3",
+    "text_pic": "text_event_core3",
+    "time": [
+      "default",
+      6025
     ],
     "type": 16
   },
@@ -451,7 +465,8 @@
     111,
     112,
     113,
-    114
+    114,
+    115
   ],
   "get_id_list_by_name": {
     "event_Atelier": [
@@ -482,7 +497,8 @@
     ],
     "event_core": [
       109,
-      114
+      114,
+      115
     ],
     "event_core_2": [
       110,
